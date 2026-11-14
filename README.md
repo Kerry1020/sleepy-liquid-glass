@@ -4,6 +4,18 @@ Android / Jetpack Compose 的实验性液态玻璃运行库，来自 Sleepy 的�
 
 当前包含 26 份运行源码、AGSL 材质、输入帧调度、各类运动参数、轮廓与圆角、外部背板采样、分层预处理和一个可独立运行的 Android 示例。完整 Toggle、Tab、Dock、单双头滑杆、菜单及应用主题适配仍在从 Sleepy 提取；示例中的开关形状用于展示运行原语，不是完整生产控件，也不代表其光学已经验收。包名暂保留兼容的 `com.lingion.sleepy.ui.component.liquidglass`。
 
+## 示例画面
+
+以下为 **Sleepy Glass Lab sample** 的真实 API 36 截图，来自 A98 `standalone-publication-98`，仅裁去系统栏并缩放拼排。每行从左到右依次为细网格、彩条、明暗色块和合成山景；不含课表、照片等用户数据。
+
+![浅色 sample：细网格、彩条、明暗色块和合成山景四种背景中的运行库材质预览](docs/images/sample-backgrounds-light.png)
+
+浅色主题，展示同一材质在不同空间频率、色彩和对比度背景上的表现。
+
+![深色 sample：细网格、彩条、明暗色块和合成山景四种背景中的运行库材质预览](docs/images/sample-backgrounds-dark.png)
+
+深色主题；网格一格采用 A98 最后的标题修正截图，其余保留原背景矩阵采证画面。这些是运行原语的静态示例，**不是完整控件展示，也不证明 iOS 26.5 的逐帧、运动或 1:1 光学等效**。原图文件名、哈希、裁切范围和输出尺寸见 [图片来源记录](docs/images/sources.json)。
+
 ## 构建与运行
 
 需要 JDK 17+、Android SDK 37、Gradle 9.8.2；Compose 1.12.1、Material3 1.5.0-rc01、Kotlin 2.4.21。将本机 SDK 位置放入未入库的 `local.properties`，或设置 `ANDROID_HOME`。
