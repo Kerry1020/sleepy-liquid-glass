@@ -1,0 +1,67 @@
+{
+  "repository": "https://github.com/flutter/flutter",
+  "revision": "adc901062556672b4138e18a4dc62a4be8f4b3c2",
+  "retrieval": "Pinned official raw GitHub files; SHA-256 computed from the original downloaded bytes.",
+  "verificationDate": "2026-11-14",
+  "scope": "Source attribution for the existing Kotlin adaptations. This record does not change runtime bytes or claim a byte-identical translation.",
+  "revisionMeaning": "Verified attribution reference. LiquidGlassSuperellipse.kt records this upstream revision; LiquidGlassPhysics.kt does not record its historical Flutter acquisition revision.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/flutter/flutter/adc901062556672b4138e18a4dc62a4be8f4b3c2/LICENSE",
+      "bytes": 1519,
+      "sha256": "a598db94b6290ffbe10b5ecf911057b6a943351c727fdda9e5f2891d68700a20"
+    },
+    {
+      "path": "engine/src/flutter/LICENSE",
+      "url": "https://raw.githubusercontent.com/flutter/flutter/adc901062556672b4138e18a4dc62a4be8f4b3c2/engine/src/flutter/LICENSE",
+      "bytes": 1519,
+      "sha256": "89519eca6f7b9529b35bdddd623a58c3af06a88c458dbd6531ddb4675acf75a9"
+    },
+    {
+      "path": "packages/flutter/lib/src/physics/spring_simulation.dart",
+      "url": "https://raw.githubusercontent.com/flutter/flutter/adc901062556672b4138e18a4dc62a4be8f4b3c2/packages/flutter/lib/src/physics/spring_simulation.dart",
+      "bytes": 14190,
+      "sha256": "b0e3b57178aa634b392d1bddeca5d41a3ac64f1c4f7b7b83fc2ecf02c5f70c7c"
+    },
+    {
+      "path": "engine/src/flutter/impeller/geometry/round_superellipse_param.cc",
+      "url": "https://raw.githubusercontent.com/flutter/flutter/adc901062556672b4138e18a4dc62a4be8f4b3c2/engine/src/flutter/impeller/geometry/round_superellipse_param.cc",
+      "bytes": 21741,
+      "sha256": "fa39f9ab6c22735446cb53ffeec5a1a27b3560b4d94529bc026f6da9b899bc6a"
+    },
+    {
+      "path": "engine/src/flutter/impeller/geometry/rounding_radii.cc",
+      "url": "https://raw.githubusercontent.com/flutter/flutter/adc901062556672b4138e18a4dc62a4be8f4b3c2/engine/src/flutter/impeller/geometry/rounding_radii.cc",
+      "bytes": 2331,
+      "sha256": "0a74637f40cff278a7d7cfb72e61b1ae28c50facc66123fcf7b645313a3fcbd2"
+    }
+  ],
+  "adaptations": [
+    {
+      "runtimeSource": "runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassSuperellipse.kt",
+      "upstreamSources": [
+        "engine/src/flutter/impeller/geometry/round_superellipse_param.cc",
+        "engine/src/flutter/impeller/geometry/rounding_radii.cc"
+      ],
+      "license": "BSD-3-Clause",
+      "upstreamLicense": "engine/src/flutter/LICENSE",
+      "retainedNotice": "third-party/notices/Flutter-BSD-3-Clause.txt",
+      "copyright": "Copyright 2013 The Flutter Authors. All rights reserved."
+    },
+    {
+      "runtimeSource": "runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassPhysics.kt",
+      "upstreamSources": [
+        "packages/flutter/lib/src/physics/spring_simulation.dart"
+      ],
+      "adaptedDefinitions": [
+        "SpringDescription",
+        "SpringSimulation"
+      ],
+      "license": "BSD-3-Clause",
+      "upstreamLicense": "LICENSE",
+      "retainedNotice": "third-party/notices/Flutter-Framework-BSD-3-Clause.txt",
+      "copyright": "Copyright 2014 The Flutter Authors. All rights reserved."
+    }
+  ]
+}
