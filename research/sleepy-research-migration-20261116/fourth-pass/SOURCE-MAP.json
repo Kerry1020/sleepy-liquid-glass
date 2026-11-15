@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "source_repository": "lingion/sleepy",
+  "source_commit": "9cc97649147bd2f4b9a57cb6ddce805d412902cf",
+  "file_count": 2,
+  "new_files": 2,
+  "reused_files": 0,
+  "total_bytes": 7134,
+  "scope": "Unconnected explicit-ordering research prototype and its self-test. Neither has a production consumer. Retained verbatim as research, not as a current product regression or accepted runtime.",
+  "files": [
+    {
+      "source_path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/OrderedGlassScenePrototype.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/fourth-pass/sources/app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/OrderedGlassScenePrototype.kt",
+      "source_git_blob": "bf667b19a9f7b7ab153e242c7c6aa11aab50cbd3",
+      "sha256": "ea7004a572e1c38ec6ae30642cba0324a71f5b4b3b78f03db0c78f4fc9f66137",
+      "bytes": 4612,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/OrderedGlassScenePrototypeTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/fourth-pass/sources/app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/OrderedGlassScenePrototypeTest.kt",
+      "source_git_blob": "8f0d35660c19eb3f173e355acf48fcb98273cf2b",
+      "sha256": "d5bb0db2a3859412182c25fe1952bfbd11f16460d349414c40e11b26df7fa0ee",
+      "bytes": 2522,
+      "storage": "new"
+    }
+  ]
+}

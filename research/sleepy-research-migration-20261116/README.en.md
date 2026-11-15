@@ -22,11 +22,14 @@ The follow-up also includes success-path PNG/JSON exports from `BackdropAwareFor
 
 A separate [third-pass manifest](third-pass/SOURCE-MAP.json) preserves 18 historical research files (1,450,206 bytes), pinned to `daabde9ac3b7c421345e6a710fcde1ccd82c475b`: the November 9 [control-motion report](third-pass/sources/docs/design/glass-control-motion-20261109.md) with six attachments, the [PR #299 floating-control report](third-pass/sources/docs/design/pr299-floating-controls-20261109.md) with five evidence images, and five FLClash control-coverage, parity, implementation-verification and reference-inventory records. None had an identical existing version in this repository. All 18 are archived under `third-pass/sources/` with their original directory relationships, preserving the reports' relative attachment links. Experimental conclusions, dimensions and parameters remain historical statements, not current runtime settings or current acceptance. Attribution and licensing remain independently documented in the application's acknowledgements and license audit. The original 52-file and follow-up 13-file manifests stay unchanged.
 
+A [fourth-pass manifest](fourth-pass/SOURCE-MAP.json) preserves the unconnected explicit-ordering prototype and its self-test: two files, 7,134 bytes, pinned to `9cc97649147bd2f4b9a57cb6ddce805d412902cf`. Only the prototype's own test consumes it; it does not protect the current application implementation. Across four batches, **85 files / 3,485,073 bytes** are preserved. The three previous manifests remain unchanged.
+
 ```sh
 python3 research/sleepy-research-migration-20261116/verify.py
 python3 research/sleepy-research-migration-20261116/verify.py --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/followup/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/third-pass/SOURCE-MAP.json --source /path/to/sleepy
+python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fourth-pass/SOURCE-MAP.json --source /path/to/sleepy
 ```
 
 The default command checks the original 52 mappings. The optional source check reads the pinned commit through Git, even after the working-tree files are removed; the third and fourth commands separately check the follow-up and third-pass manifests. Archived source and text preserve historical paths and status verbatim; they are provenance, not current execution instructions. Use an explicitly enabled external entry point for research.
