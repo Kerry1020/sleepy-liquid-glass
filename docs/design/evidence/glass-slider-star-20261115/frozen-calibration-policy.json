@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "status": "frozen_before_candidate_capture_analysis",
+  "original_policy": {
+    "archive_id": "analysis/frozen-star-candidate-policy-v1.json",
+    "sha256": "f2530e06548f11a930371cf0edb7a6cd2511950ee1eac774c73ee84dfffcbb6d",
+    "bytes": 8391
+  },
+  "fixed_analysis_policy": {
+    "projection_thresholds_byte": [
+      4.0,
+      8.0,
+      16.0,
+      24.0
+    ],
+    "primary_projection_threshold_byte": 8.0,
+    "minimum_color_cosine": 0.8,
+    "fixed_roi_xyxy_world": [
+      165.5,
+      397.5,
+      209.5,
+      441.5
+    ],
+    "morphological_closing_or_opening": false,
+    "largest_component_selection": false,
+    "color_profile_normalization_or_registration": false,
+    "region_color_direction_unit_rgb": {
+      "left_blue": [
+        -0.40824829046386296,
+        -0.40824829046386296,
+        0.816496580927726
+      ],
+      "middle_red": [
+        0.816496580927726,
+        -0.40824829046386296,
+        -0.40824829046386296
+      ],
+      "right_green": [
+        -0.40824829046386296,
+        0.816496580927726,
+        -0.40824829046386296
+      ]
+    }
+  },
+  "expected_source_sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+  "actual_source_mapping": {
+    "device_pixel_world_coordinate": "(pixel center-observed source screen origin)/observed actual density; never resample measurement raster",
+    "canonical_source_geometry_to_screen": "source x*actualLayoutWidthPx/375, source y*actualLayoutHeightPx/667; independent x/y scale",
+    "canonical_source_geometry_to_actual_density_world": "source point*[layoutWidthPx/(density*375),layoutHeightPx/(density*667)]",
+    "android_r1_actual_scale_xy": [
+      1.0003361008290386,
+      0.9998361827376697
+    ],
+    "validated_android_r1_source_layout": {
+      "layout_size_px": [
+        1116,
+        1984
+      ],
+      "logical_size_dp": [
+        375.12604,
+        666.89075
+      ],
+      "density": 2.9750001,
+      "screen_origin_px": [
+        0,
+        0
+      ],
+      "screen_rect_px": [
+        0,
+        0,
+        1116,
+        1984
+      ],
+      "local_to_screen_corners_px": [
+        {
+          "local_px": [
+            0,
+            0
+          ],
+          "screen_px": [
+            0,
+            0
+          ]
+        },
+        {
+          "local_px": [
+            1116,
+            0
+          ],
+          "screen_px": [
+            1116,
+            0
+          ]
+        },
+        {
+          "local_px": [
+            0,
+            1984
+          ],
+          "screen_px": [
+            0,
+            1984
+          ]
+        },
+        {
+          "local_px": [
+            1116,
+            1984
+          ],
+          "screen_px": [
+            1116,
+            1984
+          ]
+        }
+      ],
+      "local_to_screen_unit_basis_px": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+    },
+    "distinction": "Canonical source masks are immutable. Only declared source sample coordinate mapping uses observed independent x/y layout scale. Screenshots and carrier coordinates are never source-normalized."
+  },
+  "candidate_analysis_rules": [
+    "same four thresholds4/8/16/24 and primary8; no threshold/ROI/shape/color-cone retuning",
+    "same original masks and same6-stage/shape-flat matrix; actual source x/y mapping and actual carrier residual remain explicit",
+    "compare candidate to fixed strict-verified native and separately compare its own unchanged source baseline",
+    "whole shape and every original color region independently; all components, boundary intersections and unobserved values retained",
+    "no source/capture registration, no recovered-ray claim, no forced contour completion, no global parity percentage"
+  ],
+  "frozen_script_snapshots": [
+    {
+      "path": "frozen-calibration-tools/analyze-shape-captures.py",
+      "sha256": "f2a0e0ed646851b0be0cc0976bbe8b55d9a555ff1e32fae5b6bc95e50ca1bd81",
+      "bytes": 66399
+    },
+    {
+      "path": "frozen-calibration-tools/index-android-shape-captures.py",
+      "sha256": "682ac2ef0ccd3d6af543768ca36adf90652b7b55d1987617813baa3e91db2497",
+      "bytes": 9012
+    },
+    {
+      "path": "frozen-calibration-tools/compare-shape-captures.py",
+      "sha256": "b4349d4f7750d0f71fca43977ef76129a34e2a2d8930e526cd7d7827f255052e",
+      "bytes": 9966
+    },
+    {
+      "path": "frozen-calibration-tools/compare-shape-baselines.py",
+      "sha256": "ae4ad32252e350b16b69351252cfefd4516a0603e5fc75df7f465bcd6f879159",
+      "bytes": 9088
+    }
+  ]
+}

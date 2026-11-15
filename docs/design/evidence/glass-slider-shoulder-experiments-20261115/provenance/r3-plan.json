@@ -1,0 +1,48 @@
+{
+  "original_archive": {
+    "archive_id": "frost-band-half-r3/plan.json",
+    "sha256": "4a5dd40f389dab1cbc6ef98819063d032a15b6e52d78cf184643d85076c10a82",
+    "bytes": 2474
+  },
+  "record": {
+    "status": "frozen before material edit and rendered acquisition",
+    "created_unix": 1794751491.9174678,
+    "scope": "single slider only; MD/range/Dock/Alert/Sheet/input/geometry unchanged",
+    "intervention": "sliderLens frostBand blurDp 1.1 -> 0.55, support1.5..7 and feather0.5 unchanged",
+    "hypothesis": "The inherited band spreads positive source G into neutral locations, causing excess-blue ingress support. Half sigma should narrow transport while keeping full100 source mapping.",
+    "unchanged": "D=7.8*max(1-s/7.5,0)^2; dispersion5,width6.5; tint/rim/rimBlur/hairline/endShade and original capture inputs",
+    "acquisition": [
+      "original RGB five-point star six shape/flat pairs",
+      "G witness six pairs",
+      "G control six pairs"
+    ],
+    "analysis": "Same frozen original RGB-star four-threshold analysis and G witness v1_1. All target/fullROI thresholds4/8/16/24 retained, including high-amplitude subgroup that may worsen. Source and pose identities unchanged. No new holdout claim; 6/8 have been read.",
+    "reject_if": "Changes worsen complete original RGB-star transport or full100 while appearing to fix only target low-threshold support. Keep failures, do not declare parity.",
+    "before_sources": [
+      {
+        "path": "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
+        "sha256": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a"
+      },
+      {
+        "path": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
+        "sha256": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9"
+      },
+      {
+        "path": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt",
+        "sha256": "664e2e100205eb97676030ca4ad3fc751f849bf68574b9d997e31dd0b28d6bab"
+      },
+      {
+        "path": "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt",
+        "sha256": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38"
+      },
+      {
+        "path": "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt",
+        "sha256": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6"
+      },
+      {
+        "path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt",
+        "sha256": "1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e"
+      }
+    ]
+  }
+}

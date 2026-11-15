@@ -1,0 +1,3707 @@
+{
+  "status": "exploratory_fixed_plateau_frost_diagnostic_not_gpu_acceptance",
+  "inputs": {
+    "prior_fixed_structure": {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-rail-20261115/dispersion-structure-review/structure-analysis.json",
+      "bytes": 2925364,
+      "sha256": "b8c36635580f0f869cc2209cfa548cf06b95414add65c898d46949c512a88287"
+    },
+    "valid_narrow_r2_structure": {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-rail-20261115/dispersion-structure-review/narrow-r2-analysis.json",
+      "bytes": 649170,
+      "sha256": "bfeead86ce64bd36761d3d2b283df3ef0253b297bcfff1f308fb28df30c80e5c"
+    },
+    "valid_narrow_r2_trace": {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-rail-20261115/narrow-dispersion-r2-optics/trace/result.json",
+      "bytes": 785972,
+      "sha256": "43e9f16e47507ed6df745e777e086ad8cbd3b1e9f74e52182a3a3cf6a4fdf147"
+    },
+    "frozen_narrow_r2_shader": {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-rail-20261115/narrow-dispersion-r2-source-liquid_glass.agsl",
+      "bytes": 53622,
+      "sha256": "1265b367c8fb3c5ed05deb769bd0f1d0544c3de80289a761a9af51d880e23421"
+    }
+  },
+  "frozen_geometry": {
+    "carrier_world_xyxy_dp": [
+      84.592445,
+      411.3445,
+      142.07144,
+      448.65543
+    ],
+    "density": 2.9750001,
+    "fixed_rows_pt": [
+      412.25,
+      413.25,
+      414.25,
+      415.25,
+      416.25,
+      418.25,
+      420.25,
+      438.25,
+      440.25,
+      442.25,
+      444.25,
+      446.25,
+      447.25,
+      448.25
+    ],
+    "world_grid_step_pt": 0.5
+  },
+  "hypothesis": "If the central blue transition-width deficit is assigned to local filtering, a plateau and short inner shoulder are needed; the data do not identify the native private filter.",
+  "existing_envelope_rejection": {
+    "formula": "f(d,W)=1-smoothstep(W/3,W,d); for W/3<d<W, f=27/4*(d/W)*(1-d/W)^2",
+    "ratio_bound_reason": "For W<=dDeep, fDeep=0. For dDeep<W<=8, fDeep/fNear=(dDeep/dNear)*((W-dDeep)/(W-dNear))^2 increases with W; its maximum is at8.",
+    "deep_inset_dp": 6.405430000000024,
+    "near_inset_dp": 4.405430000000024,
+    "w8_deep_weight": 0.21471840850494617,
+    "w8_near_weight": 0.7504400566720357,
+    "maximum_deep_to_near_weight_ratio": 0.286123330698996,
+    "counterexample_width_dp": 8.0,
+    "counterexample_additional_edge_blur_dp": 5.122988791036335,
+    "counterexample_selection": "One fixed amplitude makes total frost1.1dp at lower442.25. It is an analytic counterexample, not an optimized candidate."
+  },
+  "fixed_candidate": {
+    "formula": "g=smoothstep(1.5,2.0,d)*(1-smoothstep(6.5,7.0,d)); totalFrost=mix(existingFrost,1.1,g)",
+    "selection": "The broad lower442 inset6.405 and sharp upper418 inset6.905 fix the short inner shoulder. Existing lower447 at inset1.405 already matches; the outer gate begins1.5 and reaches the plateau at2.0. Frost1.1 gives projected kernel SDabout.843, the observed broad-row deficit scale. Values are fixed once, with no search.",
+    "plateau_total_frost_dp": 1.1,
+    "outer_onset_dp": 1.5,
+    "outer_plateau_start_dp": 2.0,
+    "inner_shoulder_start_dp": 6.5,
+    "inner_support_end_dp": 7.0,
+    "plateau_kernel": {
+      "horizontal_sd_dp": 0.8433435059770074,
+      "horizontal_mean_dp": 0.006445045386765151,
+      "tap_count": 32
+    },
+    "runtime_caution": "Diagnostic only. If implemented, scale the plateau strength with the same lift as existing frost and leave support fixed; do not enable for shared materials."
+  },
+  "surrogate_method": {
+    "gaussian_radius_sigma": 4,
+    "padding": "edge",
+    "fixed_search_x_pt": [
+      103,
+      113
+    ],
+    "fixed_plateaus_x_pt": [
+      [
+        103,
+        105
+      ],
+      [
+        111,
+        113
+      ]
+    ],
+    "crossing_levels": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "variance": "sigmaAdded=sqrt(max(VogelSD(candidate)^2-VogelSD(existing)^2,0))",
+    "kernel_constants": {
+      "golden_angle": 2.39996322973,
+      "reach": 2.07846096908,
+      "counts": "16 if sigmaPx<=2;32 if <=3.5;64 otherwise"
+    },
+    "native_rows_filtered": false,
+    "native_rows_registered": false
+  },
+  "rows": [
+    {
+      "theme": "light",
+      "world_y_pt": 412.25,
+      "android_presented_inset_dp": 0.9055000000000177,
+      "native_blue": {
+        "left_plateau": 203.5,
+        "right_plateau": 64.5,
+        "signed_contrast": -139.0,
+        "crossings": {
+          "0.1": [
+            105.8576923076923
+          ],
+          "0.5": [
+            106.66666666666667
+          ],
+          "0.9": [
+            107.99166666666666
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 105.8576923076923,
+        "x50": 106.66666666666667,
+        "x90": 107.99166666666666,
+        "width10_90": 2.1339743589743563
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 232.5,
+        "right_plateau": 153.0,
+        "signed_contrast": -79.5,
+        "crossings": {
+          "0.1": [
+            105.028125
+          ],
+          "0.5": [
+            106.25833333333334
+          ],
+          "0.9": [
+            107.68214285714286
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 105.028125,
+        "x50": 106.25833333333334,
+        "x90": 107.68214285714286,
+        "width10_90": 2.654017857142861
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 1.0,
+      "existing_rim_frost_dp": 1.0467486074380086,
+      "plateau_gate": 0.0,
+      "candidate_total_frost_dp": 1.0467486074380086,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.7974289085398313,
+        "horizontal_mean_dp": 0.006082091253297086,
+        "tap_count": 32
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.7974289085398313,
+        "horizontal_mean_dp": 0.006082091253297086,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 232.5,
+        "right_plateau": 153.0,
+        "crossings": {
+          "0.1": [
+            105.028125
+          ],
+          "0.5": [
+            106.25833333333334
+          ],
+          "0.9": [
+            107.68214285714286
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.654017857142861
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 6.169737398474344,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 5.143828201761668,
+        "horizontal_mean_dp": 0.042050094028479645,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 413.25,
+      "android_presented_inset_dp": 1.9055000000000177,
+      "native_blue": {
+        "left_plateau": 204.5,
+        "right_plateau": 65.0,
+        "signed_contrast": -139.5,
+        "crossings": {
+          "0.1": [
+            105.84083333333334
+          ],
+          "0.5": [
+            106.90625
+          ],
+          "0.9": [
+            108.15071428571429
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 105.84083333333334,
+        "x50": 106.90625,
+        "x90": 108.15071428571429,
+        "width10_90": 2.3098809523809507
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 76.0,
+        "signed_contrast": -142.0,
+        "crossings": {
+          "0.1": [
+            105.98
+          ],
+          "0.5": [
+            106.77173913043478
+          ],
+          "0.9": [
+            107.51666666666667
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 105.98,
+        "x50": 106.77173913043478,
+        "x90": 107.51666666666667,
+        "width10_90": 1.5366666666666617
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.6728517869377167,
+      "existing_edge_frost_w8_weight": 1.0,
+      "existing_rim_frost_dp": 0.6406824917355309,
+      "plateau_gate": 0.9063395380000326,
+      "candidate_total_frost_dp": 1.0569801099712761,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.4295596209999519,
+        "horizontal_mean_dp": -0.0035717993728337405,
+        "tap_count": 16
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8062555825294365,
+        "horizontal_mean_dp": 0.006151762850674911,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.6822950947839642,
+      "surrogate_blue": {
+        "left_plateau": 217.6808244075895,
+        "right_plateau": 76.0,
+        "crossings": {
+          "0.1": [
+            105.61836576253985
+          ],
+          "0.5": [
+            106.765954682941
+          ],
+          "0.9": [
+            107.90272040180436
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.2843546392645067
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 5.763671282771867,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 4.799685341880094,
+        "horizontal_mean_dp": 0.039335661082575885,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 414.25,
+      "android_presented_inset_dp": 2.9055000000000177,
+      "native_blue": {
+        "left_plateau": 206.0,
+        "right_plateau": 65.0,
+        "signed_contrast": -141.0,
+        "crossings": {
+          "0.1": [
+            105.86086956521739
+          ],
+          "0.5": [
+            107.26785714285714
+          ],
+          "0.9": [
+            108.22666666666667
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 105.86086956521739,
+        "x50": 107.26785714285714,
+        "x90": 108.22666666666667,
+        "width10_90": 2.3657971014492887
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            106.78524590163934
+          ],
+          "0.5": [
+            107.25373134328358
+          ],
+          "0.9": [
+            107.68059701492537
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 106.78524590163934,
+        "x50": 107.25373134328358,
+        "x90": 107.68059701492537,
+        "width10_90": 0.8953511132860257
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.854365545354069,
+      "existing_edge_frost_w8_weight": 0.9941635240317984,
+      "existing_rim_frost_dp": 0.3337899297520616,
+      "plateau_gate": 1.0,
+      "candidate_total_frost_dp": 1.1,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.15871331481766293,
+        "horizontal_mean_dp": -0.002948670384133587,
+        "tap_count": 16
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.8282743221742299,
+      "surrogate_blue": {
+        "left_plateau": 217.71633512053745,
+        "right_plateau": 74.99999999999999,
+        "crossings": {
+          "0.1": [
+            106.0605574143479
+          ],
+          "0.5": [
+            107.23600748158809
+          ],
+          "0.9": [
+            108.40225320121047
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.341695786862573
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 5.426878519824148,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 4.514234264310038,
+        "horizontal_mean_dp": 0.0370842696746916,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 415.25,
+      "android_presented_inset_dp": 3.9055000000000177,
+      "native_blue": {
+        "left_plateau": 208.0,
+        "right_plateau": 66.0,
+        "signed_contrast": -142.0,
+        "crossings": {
+          "0.1": [
+            105.95
+          ],
+          "0.5": [
+            107.75
+          ],
+          "0.9": [
+            108.37857142857143
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 105.95,
+        "x50": 107.75,
+        "x90": 108.37857142857143,
+        "width10_90": 2.4285714285714306
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.14117647058823
+          ],
+          "0.5": [
+            107.59740259740259
+          ],
+          "0.9": [
+            108.10104166666666
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.14117647058823,
+        "x50": 107.59740259740259,
+        "x90": 108.10104166666666,
+        "width10_90": 0.9598651960784252
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.8703643045068985,
+      "existing_edge_frost_w8_weight": 0.8632015368491786,
+      "existing_rim_frost_dp": 0.1260709214876005,
+      "plateau_gate": 1.0,
+      "candidate_total_frost_dp": 1.1,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.8433435059770074,
+      "surrogate_blue": {
+        "left_plateau": 217.9080325634915,
+        "right_plateau": 75.0,
+        "crossings": {
+          "0.1": [
+            106.41509487726914
+          ],
+          "0.5": [
+            107.602674189977
+          ],
+          "0.9": [
+            108.7477180554639
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.3326231781947655
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 4.54824271917128,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 3.7694378520270826,
+        "horizontal_mean_dp": 0.031210548275775234,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 416.25,
+      "android_presented_inset_dp": 4.905500000000018,
+      "native_blue": {
+        "left_plateau": 210.5,
+        "right_plateau": 67.0,
+        "signed_contrast": -143.5,
+        "crossings": {
+          "0.1": [
+            106.10178571428571
+          ],
+          "0.5": [
+            107.8644366197183
+          ],
+          "0.9": [
+            108.43928571428572
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 106.10178571428571,
+        "x50": 107.8644366197183,
+        "x90": 108.43928571428572,
+        "width10_90": 2.3375000000000057
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.35568181818182
+          ],
+          "0.5": [
+            107.89240506329114
+          ],
+          "0.9": [
+            108.27333333333334
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.35568181818182,
+        "x50": 107.89240506329114,
+        "x90": 108.27333333333334,
+        "width10_90": 0.917651515151519
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.8387654329378417,
+      "existing_edge_frost_w8_weight": 0.61929570201031,
+      "existing_rim_frost_dp": 0.017525466942147728,
+      "plateau_gate": 1.0,
+      "candidate_total_frost_dp": 1.1,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.8433435059770074,
+      "surrogate_blue": {
+        "left_plateau": 217.94466730317313,
+        "right_plateau": 75.00032274187602,
+        "crossings": {
+          "0.1": [
+            106.69500724275873
+          ],
+          "0.5": [
+            107.86836851209219
+          ],
+          "0.9": [
+            109.05879547762693
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.3637882348681956
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 3.1901704066779444,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 2.617709477579216,
+        "horizontal_mean_dp": 0.022130118782419383,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 418.25,
+      "android_presented_inset_dp": 6.905500000000018,
+      "native_blue": {
+        "left_plateau": 217.0,
+        "right_plateau": 69.0,
+        "signed_contrast": -148.0,
+        "crossings": {
+          "0.1": [
+            107.48333333333333
+          ],
+          "0.5": [
+            107.99561403508773
+          ],
+          "0.9": [
+            108.33571428571429
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.48333333333333,
+        "x50": 107.99561403508773,
+        "x90": 108.33571428571429,
+        "width10_90": 0.8523809523809547
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.6075,
+        "x50": 108.02393617021276,
+        "x90": 108.50344827586207,
+        "width10_90": 0.895948275862068
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 0.10905873936382726,
+      "existing_rim_frost_dp": 0.0,
+      "plateau_gate": 0.09366046199996736,
+      "candidate_total_frost_dp": 0.1030265081999641,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 0.895948275862068
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 0.5587066993254403,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 0.3586649261856251,
+        "horizontal_mean_dp": -0.003654240800944692,
+        "tap_count": 16
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 420.25,
+      "android_presented_inset_dp": 8.905500000000018,
+      "native_blue": {
+        "left_plateau": 224.0,
+        "right_plateau": 71.0,
+        "signed_contrast": -153.0,
+        "crossings": {
+          "0.1": [
+            107.78896551724138
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.21103448275862
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78896551724138,
+        "x50": 108.0,
+        "x90": 108.21103448275862,
+        "width10_90": 0.4220689655172407
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.6075,
+        "x50": 108.02393617021276,
+        "x90": 108.50344827586207,
+        "width10_90": 0.895948275862068
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 0.0,
+      "existing_rim_frost_dp": 0.0,
+      "plateau_gate": 0.0,
+      "candidate_total_frost_dp": 0.0,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 0.895948275862068
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 0.0,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 438.25,
+      "android_presented_inset_dp": 10.405430000000024,
+      "native_blue": {
+        "left_plateau": 231.0,
+        "right_plateau": 73.0,
+        "signed_contrast": -158.0,
+        "crossings": {
+          "0.1": [
+            107.79183006535948
+          ],
+          "0.5": [
+            107.9983660130719
+          ],
+          "0.9": [
+            108.20490196078431
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.79183006535948,
+        "x50": 107.9983660130719,
+        "x90": 108.20490196078431,
+        "width10_90": 0.41307189542483513
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.6075,
+        "x50": 108.02393617021276,
+        "x90": 108.50344827586207,
+        "width10_90": 0.895948275862068
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 0.0,
+      "existing_rim_frost_dp": 0.0,
+      "plateau_gate": 0.0,
+      "candidate_total_frost_dp": 0.0,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 0.895948275862068
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 0.0,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 440.25,
+      "android_presented_inset_dp": 8.405430000000024,
+      "native_blue": {
+        "left_plateau": 231.0,
+        "right_plateau": 73.0,
+        "signed_contrast": -158.0,
+        "crossings": {
+          "0.1": [
+            107.73333333333333
+          ],
+          "0.5": [
+            107.99803149606299
+          ],
+          "0.9": [
+            108.24685039370078
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.73333333333333,
+        "x50": 107.99803149606299,
+        "x90": 108.24685039370078,
+        "width10_90": 0.5135170603674482
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.6075,
+        "x50": 108.02393617021276,
+        "x90": 108.50344827586207,
+        "width10_90": 0.895948275862068
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 0.0,
+      "existing_rim_frost_dp": 0.0,
+      "plateau_gate": 0.0,
+      "candidate_total_frost_dp": 0.0,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 0.895948275862068
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 0.0,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 442.25,
+      "android_presented_inset_dp": 6.405430000000024,
+      "native_blue": {
+        "left_plateau": 231.0,
+        "right_plateau": 73.0,
+        "signed_contrast": -158.0,
+        "crossings": {
+          "0.1": [
+            107.46111111111111
+          ],
+          "0.5": [
+            108.10365853658537
+          ],
+          "0.9": [
+            109.75769230769231
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.46111111111111,
+        "x50": 108.10365853658537,
+        "x90": 109.75769230769231,
+        "width10_90": 2.296581196581201
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.6075,
+        "x50": 108.02393617021276,
+        "x90": 108.50344827586207,
+        "width10_90": 0.895948275862068
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.8250182230660508,
+      "existing_edge_frost_w8_weight": 0.21471840850494617,
+      "existing_rim_frost_dp": 0.0,
+      "plateau_gate": 1.0,
+      "candidate_total_frost_dp": 1.1,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.8433435059770074,
+      "surrogate_blue": {
+        "left_plateau": 217.98428761736787,
+        "right_plateau": 75.00062396762698,
+        "crossings": {
+          "0.1": [
+            106.86934975808538
+          ],
+          "0.5": [
+            108.0307418964835
+          ],
+          "0.9": [
+            109.18220250606016
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.3128527479747873
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 1.1,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 444.25,
+      "android_presented_inset_dp": 4.405430000000024,
+      "native_blue": {
+        "left_plateau": 231.0,
+        "right_plateau": 73.0,
+        "signed_contrast": -158.0,
+        "crossings": {
+          "0.1": [
+            107.73571428571428
+          ],
+          "0.5": [
+            108.5625
+          ],
+          "0.9": [
+            110.10217391304347
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.73571428571428,
+        "x50": 108.5625,
+        "x90": 110.10217391304347,
+        "width10_90": 2.366459627329192
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.81916666666666
+          ],
+          "0.5": [
+            108.28571428571429
+          ],
+          "0.9": [
+            108.65714285714286
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.81916666666666,
+        "x50": 108.28571428571429,
+        "x90": 108.65714285714286,
+        "width10_90": 0.8379761904761978
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.8634557302940369,
+      "existing_edge_frost_w8_weight": 0.7504400566720357,
+      "existing_rim_frost_dp": 0.05940909842479078,
+      "plateau_gate": 1.0,
+      "candidate_total_frost_dp": 1.1,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.8433435059770074,
+      "surrogate_blue": {
+        "left_plateau": 217.95789148144246,
+        "right_plateau": 75.00165674163026,
+        "crossings": {
+          "0.1": [
+            107.08059981982075
+          ],
+          "0.5": [
+            108.25212032827292
+          ],
+          "0.9": [
+            109.41218006513252
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.3315802453117698
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 3.903905097100302,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 3.2231108680076135,
+        "horizontal_mean_dp": 0.0269027418529437,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 446.25,
+      "android_presented_inset_dp": 2.405430000000024,
+      "native_blue": {
+        "left_plateau": 231.0,
+        "right_plateau": 73.0,
+        "signed_contrast": -158.0,
+        "crossings": {
+          "0.1": [
+            107.9241935483871
+          ],
+          "0.5": [
+            109.25
+          ],
+          "0.9": [
+            110.15
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.9241935483871,
+        "x50": 109.25,
+        "x90": 110.15,
+        "width10_90": 2.225806451612911
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            108.3796875
+          ],
+          "0.5": [
+            109.01171875
+          ],
+          "0.9": [
+            109.6108108108108
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 108.3796875,
+        "x50": 109.01171875,
+        "x90": 109.6108108108108,
+        "width10_90": 1.2311233108108013
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.7234717460917747,
+      "existing_edge_frost_w8_weight": 1.0,
+      "existing_rim_frost_dp": 0.4748609992512323,
+      "plateau_gate": 1.0,
+      "candidate_total_frost_dp": 1.1,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.2853172449629476,
+        "horizontal_mean_dp": -0.003603483726256628,
+        "tap_count": 16
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.7936134693919603,
+      "surrogate_blue": {
+        "left_plateau": 217.88857328773832,
+        "right_plateau": 75.07688390308068,
+        "crossings": {
+          "0.1": [
+            107.82526100031838
+          ],
+          "0.5": [
+            109.0048743083754
+          ],
+          "0.9": [
+            110.1710379584298
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.345776958111429
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 5.597849790287568,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 4.6591443784431,
+        "horizontal_mean_dp": 0.03822718206304356,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 447.25,
+      "android_presented_inset_dp": 1.405430000000024,
+      "native_blue": {
+        "left_plateau": 238.5,
+        "right_plateau": 96.0,
+        "signed_contrast": -142.5,
+        "crossings": {
+          "0.1": [
+            108.2720588235294
+          ],
+          "0.5": [
+            109.45486111111111
+          ],
+          "0.9": [
+            110.13858695652173
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 108.2720588235294,
+        "x50": 109.45486111111111,
+        "x90": 110.13858695652173,
+        "width10_90": 1.866528132992329
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 225.0,
+        "right_plateau": 110.0,
+        "signed_contrast": -115.0,
+        "crossings": {
+          "0.1": [
+            108.60416666666667
+          ],
+          "0.5": [
+            109.51612903225806
+          ],
+          "0.9": [
+            110.48214285714286
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 108.60416666666667,
+        "x50": 109.51612903225806,
+        "x90": 110.48214285714286,
+        "width10_90": 1.8779761904761898
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 1.0,
+      "existing_rim_frost_dp": 0.8313472802429653,
+      "plateau_gate": 0.0,
+      "candidate_total_frost_dp": 0.8313472802429653,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.6109042320838097,
+        "horizontal_mean_dp": 0.004623729569497541,
+        "tap_count": 32
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.6109042320838097,
+        "horizontal_mean_dp": 0.004623729569497541,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 225.0,
+        "right_plateau": 110.0,
+        "crossings": {
+          "0.1": [
+            108.60416666666667
+          ],
+          "0.5": [
+            109.51612903225806
+          ],
+          "0.9": [
+            110.48214285714286
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 1.8779761904761898
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 5.9543360712793,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 4.9612772554522335,
+        "horizontal_mean_dp": 0.040610203557698434,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "light",
+      "world_y_pt": 448.25,
+      "android_presented_inset_dp": 0.40543000000002394,
+      "native_blue": {
+        "left_plateau": 206.0,
+        "right_plateau": 70.0,
+        "signed_contrast": -136.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 189.0,
+        "right_plateau": 39.0,
+        "signed_contrast": -150.0,
+        "crossings": {
+          "0.1": [
+            107.5909090909091
+          ],
+          "0.5": [
+            108.01767676767676
+          ],
+          "0.9": [
+            108.5
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.5909090909091,
+        "x50": 108.01767676767676,
+        "x90": 108.5,
+        "width10_90": 0.9090909090909065
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 1.0,
+      "existing_rim_frost_dp": 1.2870071149537068,
+      "plateau_gate": 0.0,
+      "candidate_total_frost_dp": 1.2870071149537068,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.9992035894276851,
+        "horizontal_mean_dp": 0.009371715342199737,
+        "tap_count": 64
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.9992035894276851,
+        "horizontal_mean_dp": 0.009371715342199737,
+        "tap_count": 64
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 189.0,
+        "right_plateau": 39.0,
+        "crossings": {
+          "0.1": [
+            107.5909090909091
+          ],
+          "0.5": [
+            108.01767676767676
+          ],
+          "0.9": [
+            108.5
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 0.9090909090909065
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 6.409995905990042,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 5.347439068852341,
+        "horizontal_mean_dp": 0.043656137561370226,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 412.25,
+      "android_presented_inset_dp": 0.9055000000000177,
+      "native_blue": {
+        "left_plateau": 203.5,
+        "right_plateau": 64.5,
+        "signed_contrast": -139.0,
+        "crossings": {
+          "0.1": [
+            105.8576923076923
+          ],
+          "0.5": [
+            106.66666666666667
+          ],
+          "0.9": [
+            107.99166666666666
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 105.8576923076923,
+        "x50": 106.66666666666667,
+        "x90": 107.99166666666666,
+        "width10_90": 2.1339743589743563
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 223.5,
+        "right_plateau": 113.0,
+        "signed_contrast": -110.5,
+        "crossings": {
+          "0.1": [
+            105.04772727272727
+          ],
+          "0.5": [
+            106.24431818181819
+          ],
+          "0.9": [
+            107.56590909090909
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 105.04772727272727,
+        "x50": 106.24431818181819,
+        "x90": 107.56590909090909,
+        "width10_90": 2.518181818181816
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 1.0,
+      "existing_rim_frost_dp": 1.0467486074380086,
+      "plateau_gate": 0.0,
+      "candidate_total_frost_dp": 1.0467486074380086,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.7974289085398313,
+        "horizontal_mean_dp": 0.006082091253297086,
+        "tap_count": 32
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.7974289085398313,
+        "horizontal_mean_dp": 0.006082091253297086,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 223.5,
+        "right_plateau": 113.0,
+        "crossings": {
+          "0.1": [
+            105.04772727272727
+          ],
+          "0.5": [
+            106.24431818181819
+          ],
+          "0.9": [
+            107.56590909090909
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.518181818181816
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 6.169737398474344,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 5.143828201761668,
+        "horizontal_mean_dp": 0.042050094028479645,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 413.25,
+      "android_presented_inset_dp": 1.9055000000000177,
+      "native_blue": {
+        "left_plateau": 204.5,
+        "right_plateau": 65.0,
+        "signed_contrast": -139.5,
+        "crossings": {
+          "0.1": [
+            105.84083333333334
+          ],
+          "0.5": [
+            106.90625
+          ],
+          "0.9": [
+            108.15071428571429
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 105.84083333333334,
+        "x50": 106.90625,
+        "x90": 108.15071428571429,
+        "width10_90": 2.3098809523809507
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            105.97142857142858
+          ],
+          "0.5": [
+            106.77717391304348
+          ],
+          "0.9": [
+            107.524
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 105.97142857142858,
+        "x50": 106.77717391304348,
+        "x90": 107.524,
+        "width10_90": 1.5525714285714258
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.6672709179655596,
+      "existing_edge_frost_w8_weight": 1.0,
+      "existing_rim_frost_dp": 0.6406824917355309,
+      "plateau_gate": 0.9063395380000326,
+      "candidate_total_frost_dp": 1.0569801099712761,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.4295596209999519,
+        "horizontal_mean_dp": -0.0035717993728337405,
+        "tap_count": 16
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8062555825294365,
+        "horizontal_mean_dp": 0.006151762850674911,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.6822950947839642,
+      "surrogate_blue": {
+        "left_plateau": 217.62469980460895,
+        "right_plateau": 74.99999999999999,
+        "crossings": {
+          "0.1": [
+            105.60615020484988
+          ],
+          "0.5": [
+            106.76829276825316
+          ],
+          "0.9": [
+            107.90971475177896
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.3035645469290813
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 5.763671282771867,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 4.799685341880094,
+        "horizontal_mean_dp": 0.039335661082575885,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 414.25,
+      "android_presented_inset_dp": 2.9055000000000177,
+      "native_blue": {
+        "left_plateau": 206.0,
+        "right_plateau": 65.0,
+        "signed_contrast": -141.0,
+        "crossings": {
+          "0.1": [
+            105.86086956521739
+          ],
+          "0.5": [
+            107.26785714285714
+          ],
+          "0.9": [
+            108.22666666666667
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 105.86086956521739,
+        "x50": 107.26785714285714,
+        "x90": 108.22666666666667,
+        "width10_90": 2.3657971014492887
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            106.78524590163934
+          ],
+          "0.5": [
+            107.25373134328358
+          ],
+          "0.9": [
+            107.68059701492537
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 106.78524590163934,
+        "x50": 107.25373134328358,
+        "x90": 107.68059701492537,
+        "width10_90": 0.8953511132860257
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.854365545354069,
+      "existing_edge_frost_w8_weight": 0.9941635240317984,
+      "existing_rim_frost_dp": 0.3337899297520616,
+      "plateau_gate": 1.0,
+      "candidate_total_frost_dp": 1.1,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.15871331481766293,
+        "horizontal_mean_dp": -0.002948670384133587,
+        "tap_count": 16
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.8282743221742299,
+      "surrogate_blue": {
+        "left_plateau": 217.71633512053745,
+        "right_plateau": 74.99999999999999,
+        "crossings": {
+          "0.1": [
+            106.0605574143479
+          ],
+          "0.5": [
+            107.23600748158809
+          ],
+          "0.9": [
+            108.40225320121047
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.341695786862573
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 5.426878519824148,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 4.514234264310038,
+        "horizontal_mean_dp": 0.0370842696746916,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 415.25,
+      "android_presented_inset_dp": 3.9055000000000177,
+      "native_blue": {
+        "left_plateau": 208.0,
+        "right_plateau": 66.0,
+        "signed_contrast": -142.0,
+        "crossings": {
+          "0.1": [
+            105.95
+          ],
+          "0.5": [
+            107.75
+          ],
+          "0.9": [
+            108.37857142857143
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 105.95,
+        "x50": 107.75,
+        "x90": 108.37857142857143,
+        "width10_90": 2.4285714285714306
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.14117647058823
+          ],
+          "0.5": [
+            107.59740259740259
+          ],
+          "0.9": [
+            108.10104166666666
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.14117647058823,
+        "x50": 107.59740259740259,
+        "x90": 108.10104166666666,
+        "width10_90": 0.9598651960784252
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.8703643045068985,
+      "existing_edge_frost_w8_weight": 0.8632015368491786,
+      "existing_rim_frost_dp": 0.1260709214876005,
+      "plateau_gate": 1.0,
+      "candidate_total_frost_dp": 1.1,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.8433435059770074,
+      "surrogate_blue": {
+        "left_plateau": 217.9080325634915,
+        "right_plateau": 75.0,
+        "crossings": {
+          "0.1": [
+            106.41509487726914
+          ],
+          "0.5": [
+            107.602674189977
+          ],
+          "0.9": [
+            108.7477180554639
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.3326231781947655
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 4.54824271917128,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 3.7694378520270826,
+        "horizontal_mean_dp": 0.031210548275775234,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 416.25,
+      "android_presented_inset_dp": 4.905500000000018,
+      "native_blue": {
+        "left_plateau": 210.5,
+        "right_plateau": 67.0,
+        "signed_contrast": -143.5,
+        "crossings": {
+          "0.1": [
+            106.10178571428571
+          ],
+          "0.5": [
+            107.8644366197183
+          ],
+          "0.9": [
+            108.43928571428572
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 106.10178571428571,
+        "x50": 107.8644366197183,
+        "x90": 108.43928571428572,
+        "width10_90": 2.3375000000000057
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.35568181818182
+          ],
+          "0.5": [
+            107.89240506329114
+          ],
+          "0.9": [
+            108.27333333333334
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.35568181818182,
+        "x50": 107.89240506329114,
+        "x90": 108.27333333333334,
+        "width10_90": 0.917651515151519
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.8387654329378417,
+      "existing_edge_frost_w8_weight": 0.61929570201031,
+      "existing_rim_frost_dp": 0.017525466942147728,
+      "plateau_gate": 1.0,
+      "candidate_total_frost_dp": 1.1,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.8433435059770074,
+      "surrogate_blue": {
+        "left_plateau": 217.94466730317313,
+        "right_plateau": 75.00032274187602,
+        "crossings": {
+          "0.1": [
+            106.69500724275873
+          ],
+          "0.5": [
+            107.86836851209219
+          ],
+          "0.9": [
+            109.05879547762693
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.3637882348681956
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 3.1901704066779444,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 2.617709477579216,
+        "horizontal_mean_dp": 0.022130118782419383,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 418.25,
+      "android_presented_inset_dp": 6.905500000000018,
+      "native_blue": {
+        "left_plateau": 217.0,
+        "right_plateau": 69.0,
+        "signed_contrast": -148.0,
+        "crossings": {
+          "0.1": [
+            107.48333333333333
+          ],
+          "0.5": [
+            107.99561403508773
+          ],
+          "0.9": [
+            108.33571428571429
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.48333333333333,
+        "x50": 107.99561403508773,
+        "x90": 108.33571428571429,
+        "width10_90": 0.8523809523809547
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.6075,
+        "x50": 108.02393617021276,
+        "x90": 108.50344827586207,
+        "width10_90": 0.895948275862068
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 0.10905873936382726,
+      "existing_rim_frost_dp": 0.0,
+      "plateau_gate": 0.09366046199996736,
+      "candidate_total_frost_dp": 0.1030265081999641,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 0.895948275862068
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 0.5587066993254403,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 0.3586649261856251,
+        "horizontal_mean_dp": -0.003654240800944692,
+        "tap_count": 16
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 420.25,
+      "android_presented_inset_dp": 8.905500000000018,
+      "native_blue": {
+        "left_plateau": 224.0,
+        "right_plateau": 71.0,
+        "signed_contrast": -153.0,
+        "crossings": {
+          "0.1": [
+            107.78896551724138
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.21103448275862
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78896551724138,
+        "x50": 108.0,
+        "x90": 108.21103448275862,
+        "width10_90": 0.4220689655172407
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.6075,
+        "x50": 108.02393617021276,
+        "x90": 108.50344827586207,
+        "width10_90": 0.895948275862068
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 0.0,
+      "existing_rim_frost_dp": 0.0,
+      "plateau_gate": 0.0,
+      "candidate_total_frost_dp": 0.0,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 0.895948275862068
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 0.0,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 438.25,
+      "android_presented_inset_dp": 10.405430000000024,
+      "native_blue": {
+        "left_plateau": 231.0,
+        "right_plateau": 73.0,
+        "signed_contrast": -158.0,
+        "crossings": {
+          "0.1": [
+            107.79183006535948
+          ],
+          "0.5": [
+            107.9983660130719
+          ],
+          "0.9": [
+            108.20490196078431
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.79183006535948,
+        "x50": 107.9983660130719,
+        "x90": 108.20490196078431,
+        "width10_90": 0.41307189542483513
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.6075,
+        "x50": 108.02393617021276,
+        "x90": 108.50344827586207,
+        "width10_90": 0.895948275862068
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 0.0,
+      "existing_rim_frost_dp": 0.0,
+      "plateau_gate": 0.0,
+      "candidate_total_frost_dp": 0.0,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 0.895948275862068
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 0.0,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 440.25,
+      "android_presented_inset_dp": 8.405430000000024,
+      "native_blue": {
+        "left_plateau": 231.0,
+        "right_plateau": 73.0,
+        "signed_contrast": -158.0,
+        "crossings": {
+          "0.1": [
+            107.73333333333333
+          ],
+          "0.5": [
+            107.99803149606299
+          ],
+          "0.9": [
+            108.24685039370078
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.73333333333333,
+        "x50": 107.99803149606299,
+        "x90": 108.24685039370078,
+        "width10_90": 0.5135170603674482
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.6075,
+        "x50": 108.02393617021276,
+        "x90": 108.50344827586207,
+        "width10_90": 0.895948275862068
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 0.0,
+      "existing_rim_frost_dp": 0.0,
+      "plateau_gate": 0.0,
+      "candidate_total_frost_dp": 0.0,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 0.895948275862068
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 0.0,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 442.25,
+      "android_presented_inset_dp": 6.405430000000024,
+      "native_blue": {
+        "left_plateau": 231.0,
+        "right_plateau": 73.0,
+        "signed_contrast": -158.0,
+        "crossings": {
+          "0.1": [
+            107.46111111111111
+          ],
+          "0.5": [
+            108.10365853658537
+          ],
+          "0.9": [
+            109.75769230769231
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.46111111111111,
+        "x50": 108.10365853658537,
+        "x90": 109.75769230769231,
+        "width10_90": 2.296581196581201
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.6075
+          ],
+          "0.5": [
+            108.02393617021276
+          ],
+          "0.9": [
+            108.50344827586207
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.6075,
+        "x50": 108.02393617021276,
+        "x90": 108.50344827586207,
+        "width10_90": 0.895948275862068
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.8250182230660508,
+      "existing_edge_frost_w8_weight": 0.21471840850494617,
+      "existing_rim_frost_dp": 0.0,
+      "plateau_gate": 1.0,
+      "candidate_total_frost_dp": 1.1,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.8433435059770074,
+      "surrogate_blue": {
+        "left_plateau": 217.98428761736787,
+        "right_plateau": 75.00062396762698,
+        "crossings": {
+          "0.1": [
+            106.86934975808538
+          ],
+          "0.5": [
+            108.0307418964835
+          ],
+          "0.9": [
+            109.18220250606016
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.3128527479747873
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 1.1,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 444.25,
+      "android_presented_inset_dp": 4.405430000000024,
+      "native_blue": {
+        "left_plateau": 231.0,
+        "right_plateau": 73.0,
+        "signed_contrast": -158.0,
+        "crossings": {
+          "0.1": [
+            107.73571428571428
+          ],
+          "0.5": [
+            108.5625
+          ],
+          "0.9": [
+            110.10217391304347
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.73571428571428,
+        "x50": 108.5625,
+        "x90": 110.10217391304347,
+        "width10_90": 2.366459627329192
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            107.81916666666666
+          ],
+          "0.5": [
+            108.28571428571429
+          ],
+          "0.9": [
+            108.65714285714286
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.81916666666666,
+        "x50": 108.28571428571429,
+        "x90": 108.65714285714286,
+        "width10_90": 0.8379761904761978
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.8634557302940369,
+      "existing_edge_frost_w8_weight": 0.7504400566720357,
+      "existing_rim_frost_dp": 0.05940909842479078,
+      "plateau_gate": 1.0,
+      "candidate_total_frost_dp": 1.1,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.0,
+        "horizontal_mean_dp": 0.0,
+        "tap_count": 0
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.8433435059770074,
+      "surrogate_blue": {
+        "left_plateau": 217.95795602981764,
+        "right_plateau": 75.00165674163026,
+        "crossings": {
+          "0.1": [
+            107.08059739141324
+          ],
+          "0.5": [
+            108.25211980466986
+          ],
+          "0.9": [
+            109.41217979663016
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.3315824052169205
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 3.903905097100302,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 3.2231108680076135,
+        "horizontal_mean_dp": 0.0269027418529437,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 446.25,
+      "android_presented_inset_dp": 2.405430000000024,
+      "native_blue": {
+        "left_plateau": 231.0,
+        "right_plateau": 73.0,
+        "signed_contrast": -158.0,
+        "crossings": {
+          "0.1": [
+            107.9241935483871
+          ],
+          "0.5": [
+            109.25
+          ],
+          "0.9": [
+            110.15
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.9241935483871,
+        "x50": 109.25,
+        "x90": 110.15,
+        "width10_90": 2.225806451612911
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 218.0,
+        "right_plateau": 75.0,
+        "signed_contrast": -143.0,
+        "crossings": {
+          "0.1": [
+            108.3796875
+          ],
+          "0.5": [
+            109.01171875
+          ],
+          "0.9": [
+            109.6108108108108
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 108.3796875,
+        "x50": 109.01171875,
+        "x90": 109.6108108108108,
+        "width10_90": 1.2311233108108013
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": 0.7234717460917747,
+      "existing_edge_frost_w8_weight": 1.0,
+      "existing_rim_frost_dp": 0.4748609992512323,
+      "plateau_gate": 1.0,
+      "candidate_total_frost_dp": 1.1,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.2853172449629476,
+        "horizontal_mean_dp": -0.003603483726256628,
+        "tap_count": 16
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.8433435059770074,
+        "horizontal_mean_dp": 0.006445045386765151,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.7936134693919603,
+      "surrogate_blue": {
+        "left_plateau": 217.8885807995248,
+        "right_plateau": 75.07688390308068,
+        "crossings": {
+          "0.1": [
+            107.82526080066638
+          ],
+          "0.5": [
+            109.00487424851448
+          ],
+          "0.9": [
+            110.17103793672656
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 2.3457771360601782
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 5.597849790287568,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 4.6591443784431,
+        "horizontal_mean_dp": 0.03822718206304356,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 447.25,
+      "android_presented_inset_dp": 1.405430000000024,
+      "native_blue": {
+        "left_plateau": 238.5,
+        "right_plateau": 90.0,
+        "signed_contrast": -148.5,
+        "crossings": {
+          "0.1": [
+            108.28970588235295
+          ],
+          "0.5": [
+            109.49652777777777
+          ],
+          "0.9": [
+            110.14567307692307
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 108.28970588235295,
+        "x50": 109.49652777777777,
+        "x90": 110.14567307692307,
+        "width10_90": 1.8559671945701268
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 92.0,
+        "signed_contrast": -129.0,
+        "crossings": {
+          "0.1": [
+            108.60357142857143
+          ],
+          "0.5": [
+            109.52857142857142
+          ],
+          "0.9": [
+            110.503125
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 108.60357142857143,
+        "x50": 109.52857142857142,
+        "x90": 110.503125,
+        "width10_90": 1.8995535714285694
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 1.0,
+      "existing_rim_frost_dp": 0.8313472802429653,
+      "plateau_gate": 0.0,
+      "candidate_total_frost_dp": 0.8313472802429653,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.6109042320838097,
+        "horizontal_mean_dp": 0.004623729569497541,
+        "tap_count": 32
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.6109042320838097,
+        "horizontal_mean_dp": 0.004623729569497541,
+        "tap_count": 32
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 92.0,
+        "crossings": {
+          "0.1": [
+            108.60357142857143
+          ],
+          "0.5": [
+            109.52857142857142
+          ],
+          "0.9": [
+            110.503125
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 1.8995535714285694
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 5.9543360712793,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 4.9612772554522335,
+        "horizontal_mean_dp": 0.040610203557698434,
+        "tap_count": 64
+      }
+    },
+    {
+      "theme": "dark",
+      "world_y_pt": 448.25,
+      "android_presented_inset_dp": 0.40543000000002394,
+      "native_blue": {
+        "left_plateau": 206.0,
+        "right_plateau": 70.0,
+        "signed_contrast": -136.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "narrow_r2_blue": {
+        "left_plateau": 189.0,
+        "right_plateau": 39.0,
+        "signed_contrast": -150.0,
+        "crossings": {
+          "0.1": [
+            107.5909090909091
+          ],
+          "0.5": [
+            108.01767676767676
+          ],
+          "0.9": [
+            108.5
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.5909090909091,
+        "x50": 108.01767676767676,
+        "x90": 108.5,
+        "width10_90": 0.9090909090909065
+      },
+      "native_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.8
+          ],
+          "0.5": [
+            108.0
+          ],
+          "0.9": [
+            108.2
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.8,
+        "x50": 108.0,
+        "x90": 108.2,
+        "width10_90": 0.4000000000000057
+      },
+      "android_source_blue": {
+        "left_plateau": 221.0,
+        "right_plateau": 57.0,
+        "signed_contrast": -164.0,
+        "crossings": {
+          "0.1": [
+            107.78560606060606
+          ],
+          "0.5": [
+            108.0340909090909
+          ],
+          "0.9": [
+            108.422
+          ]
+        },
+        "unique_each_level": true,
+        "x10": 107.78560606060606,
+        "x50": 108.0340909090909,
+        "x90": 108.422,
+        "width10_90": 0.6363939393939404
+      },
+      "gaussian_equivalent_extra_sigma_dp": null,
+      "existing_edge_frost_w8_weight": 1.0,
+      "existing_rim_frost_dp": 1.2870071149537068,
+      "plateau_gate": 0.0,
+      "candidate_total_frost_dp": 1.2870071149537068,
+      "old_kernel": {
+        "horizontal_sd_dp": 0.9992035894276851,
+        "horizontal_mean_dp": 0.009371715342199737,
+        "tap_count": 64
+      },
+      "candidate_kernel": {
+        "horizontal_sd_dp": 0.9992035894276851,
+        "horizontal_mean_dp": 0.009371715342199737,
+        "tap_count": 64
+      },
+      "gaussian_surrogate_added_sigma_dp": 0.0,
+      "surrogate_blue": {
+        "left_plateau": 189.0,
+        "right_plateau": 39.0,
+        "crossings": {
+          "0.1": [
+            107.5909090909091
+          ],
+          "0.5": [
+            108.01767676767676
+          ],
+          "0.9": [
+            108.5
+          ]
+        },
+        "unique_each_level": true,
+        "width10_90": 0.9090909090909065
+      },
+      "edge_frost_w8_counterexample_total_frost_dp": 6.409995905990042,
+      "edge_frost_w8_counterexample_kernel": {
+        "horizontal_sd_dp": 5.347439068852341,
+        "horizontal_mean_dp": 0.043656137561370226,
+        "tap_count": 64
+      }
+    }
+  ],
+  "limits": [
+    "Offline fixed single-Slider .25 HELD diagnostic; no new capture, renderer execution or parameter search. No Dock, panel, Range or dynamics acceptance.",
+    "The same observed14 rows were used to choose the fixed diagnostic. This is exploratory, not an independent holdout or native-PSF identification.",
+    "The original native/source/r2 profiles are unchanged. Native own-source width0.400pt and Android own-source widthabout0.636394pt retain their raster-phase difference. No source deconvolution, registration, sharpening or color fit.",
+    "Gaussian-equivalent sigma from 10-90 widths assumes local shift-invariant Gaussian response only as a descriptive scale. Broad/mixed edge response does not establish that assumption.",
+    "Vogel horizontal variance uses the saved shader constants, density, noheld blur and legacy sigma-mode contract. The surrogate convolves existing composed output rows with a centered Gaussian of the incremental kernel variance; this is not the actual 2D shader/source/alpha/dispersion/tone/highlight pipeline.",
+    "The actual finite Vogel kernel has a small nonzero mean, unlike the centered Gaussian surrogate; individual taps, rasterization, varying fields and boundaries can change the output.",
+    "Upper rows intersect the conservative native title/exterior exclusion; outer rows can contain contour/material differences. Retained counterexamples are not asserted to be pure blur failures.",
+    "Normal/refraction source-field, midpoint and cap-bending errors remain independent. Later source-field changes require new renderer evidence rather than reuse of these predicted widths.",
+    "All cited prior manifest/geometry/readiness verification is reused from narrow-r2-analysis.json; this document adds input JSON/source receipts, not a new APK reproducibility audit."
+  ]
+}

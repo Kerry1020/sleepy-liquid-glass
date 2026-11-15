@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "packets": [
+    {
+      "role": "witness",
+      "first_input_id": "st01_rgb_star_gwitness_d16",
+      "spec": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/shape-spec.json",
+      "spec_sha256": "ad21ef7966ff4a689baf3c6c39237d8a8cb1dae090ae0c911c907f737ef139f1",
+      "manifest": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/manifest.json",
+      "manifest_sha256": "ef9ea293d10d89bc0968b505b8d3d741e0a16a1c9b42d71622c4e52698215dd4",
+      "source_png": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st01_rgb_star_gwitness_d16.png",
+      "source_sha256": "3f714f7dc170d5bacf52bfa9ba51dc61cc31a3d4698ce5552543f9ddd875880e",
+      "G_min_max": [
+        128,
+        232
+      ],
+      "RB_pixel_exact_original": true
+    },
+    {
+      "role": "control",
+      "first_input_id": "st01_rgb_star_gneutral_d16",
+      "spec": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/shape-spec.json",
+      "spec_sha256": "dc06904e099b192c62f7fc4c4be35b6d779ae23227f9f0ba5f250d2b6c205f03",
+      "manifest": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/manifest.json",
+      "manifest_sha256": "405b9a95158137014f29a01477a0e5922a31cd4f139d3f9fbfd6622eaef4c4e6",
+      "source_png": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st01_rgb_star_gneutral_d16.png",
+      "source_sha256": "b72e79710471f00868b5e7ee56548614bbe153e1f59ca43bf241085dce3bca7a",
+      "G_min_max": [
+        128,
+        128
+      ],
+      "RB_pixel_exact_original": true
+    }
+  ],
+  "original_sources_unchanged": {
+    "parent_spec": "72be8139c968276426532797141097d4ec30a131ff67313794e3689c455a3616",
+    "parent_manifest": "6c7bd1861fc1e97bbe34726fb24910a4e56719c8f4061bffc10ba42b4b8914fe",
+    "parent_source": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724"
+  },
+  "world_size_pt": [
+    375,
+    667
+  ],
+  "png_size_px": [
+    750,
+    1334
+  ],
+  "ICC_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+  "same_multicolor_star_geometry": true,
+  "source_G_support": "positive witness only in original left_blue polygon; no negative source support; neutral elsewhere",
+  "capture_status": "UNSAMPLED",
+  "note": "Both manifests contain the unchanged flat st00 plus one distinct scheduled multicolor source and six unused compatibility star inputs."
+}

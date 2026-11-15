@@ -1,0 +1,47 @@
+{
+  "original_archive": {
+    "archive_id": "narrow-shoulder-r4/regression-plan.json",
+    "sha256": "9a1a51cecb45383004ba869bee711a9ceb050d650c49b47ca6b7831969e78a93",
+    "bytes": 1458
+  },
+  "record": {
+    "status": "frozen before r4 six/eight-star regression acquisition",
+    "created_unix": 1794753100.140178,
+    "candidate": {
+      "refraction": 11.25,
+      "shoulder_width_dp": 6.5,
+      "frost_band_blur_dp": 1.1,
+      "main_apk_sha256": "8ca1b5c9538a0f05591d2fb7827c006cf09539f5b67bec5605320bdcbfe0c49b"
+    },
+    "scope": "single slider optics only; no source or parameters changed for this regression",
+    "data_role": "previously consumed holdouts reused as regression, not untouched validation",
+    "frozen_analysis_policy_sha256": "561f61c186fd9c6755640ce291d0e1e5f6544f6c3e91fa267cef38773caed57a",
+    "inputs": [
+      {
+        "root": "validation-star8-d16",
+        "shape_spec_sha256": "31957a00b8b89532e9aa2984bb18065f57b8e86e32a5b4ce6fdd42a17dfc9471",
+        "stages": [
+          "ingress01",
+          "ingress10",
+          "ingress50",
+          "ingress75",
+          "full100",
+          "far50"
+        ]
+      },
+      {
+        "root": "validation-star6-d12",
+        "shape_spec_sha256": "e1c785e9ac724a5bf5e83da1b82319f40c73fffa3cc821fd8d13c3538f666cac",
+        "stages": [
+          "ingress01",
+          "ingress10",
+          "ingress50",
+          "ingress75",
+          "full100",
+          "far50"
+        ]
+      }
+    ],
+    "report": "All 4/8/16/24 thresholds; every color plus whole, no morphology, registration, largest-component selection or gain fit; compare native and r2/r4, retain regressions. Seven-point data remain unacquired until a candidate is frozen for validation."
+  }
+}

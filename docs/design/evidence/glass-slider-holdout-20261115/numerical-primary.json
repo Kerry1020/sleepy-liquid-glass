@@ -1,0 +1,763 @@
+{
+  "schema": 1,
+  "primary_projection_threshold_byte": 8,
+  "status": "all_36_predeclared_color_pose_rows_no_pooled_score",
+  "rows": [
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "ingress01",
+      "region_id": "left_blue",
+      "native_area_world2": 37.25,
+      "android_area_world2": 33.55694993671232,
+      "android_area_over_native_evidence_area": 0.9008577164218072,
+      "native_centroid_world": [
+        183.08557046979865,
+        419.96812080536915
+      ],
+      "android_centroid_world": [
+        183.6035362555244,
+        419.37411939517153
+      ],
+      "centroid_distance_world": 0.7881156200071502,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.009390503189227498,
+      "android_capsule_approximation": 0.009744861800141743
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "ingress01",
+      "region_id": "middle_red",
+      "native_area_world2": 46.0,
+      "android_area_world2": 48.13219081831464,
+      "android_area_over_native_evidence_area": 1.0463519743111878,
+      "native_centroid_world": [
+        187.5,
+        419.5
+      ],
+      "android_centroid_world": [
+        187.56301890544478,
+        419.4665894431084
+      ],
+      "centroid_distance_world": 0.0713277488447965,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.009390503189227498,
+      "android_capsule_approximation": 0.009744861800141743
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "ingress01",
+      "region_id": "right_green",
+      "native_area_world2": 31.0,
+      "android_area_world2": 34.57382720752179,
+      "android_area_over_native_evidence_area": 1.115284748629735,
+      "native_centroid_world": [
+        191.44354838709677,
+        419.5
+      ],
+      "android_centroid_world": [
+        191.60102612952008,
+        419.41998919728496
+      ],
+      "centroid_distance_world": 0.17663795716053537,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.009390503189227498,
+      "android_capsule_approximation": 0.009744861800141743
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "ingress10",
+      "region_id": "left_blue",
+      "native_area_world2": 32.0,
+      "android_area_world2": 24.179081772580595,
+      "android_area_over_native_evidence_area": 0.7555963053931436,
+      "native_centroid_world": [
+        183.64453125,
+        419.52734375
+      ],
+      "android_centroid_world": [
+        184.06030952816994,
+        418.4308349102021
+      ],
+      "centroid_distance_world": 1.1726905867929724,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.10240963855421686,
+      "android_capsule_approximation": 0.10435861091424521
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "ingress10",
+      "region_id": "middle_red",
+      "native_area_world2": 46.25,
+      "android_area_world2": 48.13219081831464,
+      "android_area_over_native_evidence_area": 1.0406960176932896,
+      "native_centroid_world": [
+        187.48513513513512,
+        419.522972972973
+      ],
+      "android_centroid_world": [
+        187.56301890544478,
+        419.4665894431084
+      ],
+      "centroid_distance_world": 0.09615084044167098,
+      "native_component_count": 2,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.10240963855421686,
+      "android_capsule_approximation": 0.10435861091424521
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "ingress10",
+      "region_id": "right_green",
+      "native_area_world2": 31.0,
+      "android_area_world2": 34.57382720752179,
+      "android_area_over_native_evidence_area": 1.115284748629735,
+      "native_centroid_world": [
+        191.44354838709677,
+        419.5
+      ],
+      "android_centroid_world": [
+        191.60102612952008,
+        419.41998919728496
+      ],
+      "centroid_distance_world": 0.17663795716053537,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.10240963855421686,
+      "android_capsule_approximation": 0.10435861091424521
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "ingress50",
+      "region_id": "left_blue",
+      "native_area_world2": 39.0,
+      "android_area_world2": 65.41910442207553,
+      "android_area_over_native_evidence_area": 1.6774129338993726,
+      "native_centroid_world": [
+        183.10256410256412,
+        420.37179487179486
+      ],
+      "android_centroid_world": [
+        184.0568289825167,
+        420.2861936200806
+      ],
+      "centroid_distance_world": 0.9580965689354853,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.49184975194897235,
+      "android_capsule_approximation": 0.4858256555634302
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "ingress50",
+      "region_id": "middle_red",
+      "native_area_world2": 26.75,
+      "android_area_world2": 29.715413580321012,
+      "android_area_over_native_evidence_area": 1.110856582441907,
+      "native_centroid_world": [
+        187.75467289719626,
+        417.0817757009346
+      ],
+      "android_centroid_world": [
+        187.852503510853,
+        417.2444503006307
+      ],
+      "centroid_distance_world": 0.18982585270386426,
+      "native_component_count": 2,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.49184975194897235,
+      "android_capsule_approximation": 0.4858256555634302
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "ingress50",
+      "region_id": "right_green",
+      "native_area_world2": 32.25,
+      "android_area_world2": 34.57382720752179,
+      "android_area_over_native_evidence_area": 1.0720566575975747,
+      "native_centroid_world": [
+        191.23837209302326,
+        419.5484496124031
+      ],
+      "android_centroid_world": [
+        191.60102612952008,
+        419.41998919728496
+      ],
+      "centroid_distance_world": 0.3847337110778816,
+      "native_component_count": 3,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.49184975194897235,
+      "android_capsule_approximation": 0.4858256555634302
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "ingress75",
+      "region_id": "left_blue",
+      "native_area_world2": 49.5,
+      "android_area_world2": 58.52693625325583,
+      "android_area_over_native_evidence_area": 1.182362348550623,
+      "native_centroid_world": [
+        183.81060606060606,
+        419.84090909090907
+      ],
+      "android_centroid_world": [
+        184.1523574581668,
+        418.96432841091973
+      ],
+      "centroid_distance_world": 0.9408441455763378,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.742735648476258,
+      "android_capsule_approximation": 0.7411410347271439
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "ingress75",
+      "region_id": "middle_red",
+      "native_area_world2": 31.25,
+      "android_area_world2": 41.01404992264839,
+      "android_area_over_native_evidence_area": 1.3124495975247485,
+      "native_centroid_world": [
+        188.018,
+        420.954
+      ],
+      "android_centroid_world": [
+        188.25241860910455,
+        421.1185820435636
+      ],
+      "centroid_distance_world": 0.28642509205389577,
+      "native_component_count": 2,
+      "android_component_count": 2,
+      "native_capsule_approximation": 0.742735648476258,
+      "android_capsule_approximation": 0.7411410347271439
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "ingress75",
+      "region_id": "right_green",
+      "native_area_world2": 31.25,
+      "android_area_world2": 29.263468126627917,
+      "android_area_over_native_evidence_area": 0.9364309800520934,
+      "native_centroid_world": [
+        190.81,
+        418.662
+      ],
+      "android_centroid_world": [
+        191.80752737702875,
+        418.85401401859906
+      ],
+      "centroid_distance_world": 1.015839677931719,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.742735648476258,
+      "android_capsule_approximation": 0.7411410347271439
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "full100",
+      "region_id": "left_blue",
+      "native_area_world2": 55.0,
+      "android_area_world2": 47.341286274351724,
+      "android_area_over_native_evidence_area": 0.8607506595336677,
+      "native_centroid_world": [
+        183.07045454545454,
+        417.0568181818182
+      ],
+      "android_centroid_world": [
+        183.31160010368345,
+        418.01045505333786
+      ],
+      "centroid_distance_world": 0.983653629574643,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 1.0,
+      "android_capsule_approximation": 1.0
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "full100",
+      "region_id": "middle_red",
+      "native_area_world2": 57.0,
+      "android_area_world2": 55.92824989452053,
+      "android_area_over_native_evidence_area": 0.9811973665705357,
+      "native_centroid_world": [
+        187.49780701754386,
+        418.2171052631579
+      ],
+      "android_centroid_world": [
+        187.53891229391314,
+        418.5033387889549
+      ],
+      "centroid_distance_world": 0.28916997602721084,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 1.0,
+      "android_capsule_approximation": 1.0
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "full100",
+      "region_id": "right_green",
+      "native_area_world2": 45.0,
+      "android_area_world2": 42.256899920304406,
+      "android_area_over_native_evidence_area": 0.939042220451209,
+      "native_centroid_world": [
+        191.69444444444446,
+        417.85555555555555
+      ],
+      "android_centroid_world": [
+        191.67482391710024,
+        418.55568628590964
+      ],
+      "centroid_distance_world": 0.7004056001199707,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 1.0,
+      "android_capsule_approximation": 1.0
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "far50",
+      "region_id": "left_blue",
+      "native_area_world2": 31.0,
+      "android_area_world2": 34.46084084409851,
+      "android_area_over_native_evidence_area": 1.1116400272289844,
+      "native_centroid_world": [
+        183.55645161290323,
+        419.5
+      ],
+      "android_centroid_world": [
+        183.52885455558058,
+        419.43351669075935
+      ],
+      "centroid_distance_world": 0.0719835257573422,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.49184975194897235,
+      "android_capsule_approximation": 0.5081502480510276
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "far50",
+      "region_id": "middle_red",
+      "native_area_world2": 34.0,
+      "android_area_world2": 28.24659085581845,
+      "android_area_over_native_evidence_area": 0.8307820839946602,
+      "native_centroid_world": [
+        187.44485294117646,
+        417.75
+      ],
+      "android_centroid_world": [
+        187.26453152052,
+        417.0527590906636
+      ],
+      "centroid_distance_world": 0.7201810191888134,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.49184975194897235,
+      "android_capsule_approximation": 0.5081502480510276
+    },
+    {
+      "shape_id": "st04_rgb_star8_d16",
+      "stage_id": "far50",
+      "region_id": "right_green",
+      "native_area_world2": 41.75,
+      "android_area_world2": 53.66852262605506,
+      "android_area_over_native_evidence_area": 1.285473595833654,
+      "native_centroid_world": [
+        191.50149700598803,
+        420.73802395209583
+      ],
+      "android_centroid_world": [
+        191.3394009103076,
+        420.3821176695971
+      ],
+      "centroid_distance_world": 0.3910810992069266,
+      "native_component_count": 2,
+      "android_component_count": 2,
+      "native_capsule_approximation": 0.49184975194897235,
+      "android_capsule_approximation": 0.5081502480510276
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "ingress01",
+      "region_id": "left_blue",
+      "native_area_world2": 18.75,
+      "android_area_world2": 16.94795451349107,
+      "android_area_over_native_evidence_area": 0.9038909073861904,
+      "native_centroid_world": [
+        184.13,
+        420.04333333333335
+      ],
+      "android_centroid_world": [
+        184.35853722044132,
+        419.4195937449997
+      ],
+      "centroid_distance_world": 0.664289345979353,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.008664955070603338,
+      "android_capsule_approximation": 0.008664955070603338
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "ingress01",
+      "region_id": "middle_red",
+      "native_area_world2": 28.0,
+      "android_area_world2": 29.037495399781367,
+      "android_area_over_native_evidence_area": 1.0370534071350488,
+      "native_centroid_world": [
+        187.5,
+        419.5
+      ],
+      "android_centroid_world": [
+        187.5649807796227,
+        419.43496611911377
+      ],
+      "centroid_distance_world": 0.09193425576735208,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.008664955070603338,
+      "android_capsule_approximation": 0.008664955070603338
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "ingress01",
+      "region_id": "right_green",
+      "native_area_world2": 16.0,
+      "android_area_world2": 17.060940876914344,
+      "android_area_over_native_evidence_area": 1.0663088048071465,
+      "native_centroid_world": [
+        190.578125,
+        419.5
+      ],
+      "android_centroid_world": [
+        190.7896869476893,
+        419.37446417150784
+      ],
+      "centroid_distance_world": 0.2460034592140918,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.008664955070603338,
+      "android_capsule_approximation": 0.008664955070603338
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "ingress10",
+      "region_id": "left_blue",
+      "native_area_world2": 22.25,
+      "android_area_world2": 12.654472703406666,
+      "android_area_over_native_evidence_area": 0.5687403462205244,
+      "native_centroid_world": [
+        183.8567415730337,
+        419.2219101123595
+      ],
+      "android_centroid_world": [
+        184.53780892309888,
+        418.5384012976288
+      ],
+      "centroid_distance_world": 0.9649026039654931,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.09082156611039795,
+      "android_capsule_approximation": 0.09274711168164314
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "ingress10",
+      "region_id": "middle_red",
+      "native_area_world2": 28.5,
+      "android_area_world2": 29.037495399781367,
+      "android_area_over_native_evidence_area": 1.0188594877116268,
+      "native_centroid_world": [
+        187.46052631578948,
+        419.5438596491228
+      ],
+      "android_centroid_world": [
+        187.55844119902963,
+        419.4284265385207
+      ],
+      "centroid_distance_world": 0.15136752420255709,
+      "native_component_count": 2,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.09082156611039795,
+      "android_capsule_approximation": 0.09274711168164314
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "ingress10",
+      "region_id": "right_green",
+      "native_area_world2": 16.0,
+      "android_area_world2": 17.060940876914344,
+      "android_area_over_native_evidence_area": 1.0663088048071465,
+      "native_centroid_world": [
+        190.578125,
+        419.5
+      ],
+      "android_centroid_world": [
+        190.7896869476893,
+        419.37446417150784
+      ],
+      "centroid_distance_world": 0.2460034592140918,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.09082156611039795,
+      "android_capsule_approximation": 0.09274711168164314
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "ingress50",
+      "region_id": "left_blue",
+      "native_area_world2": 3.5,
+      "android_area_world2": 19.998586325919465,
+      "android_area_over_native_evidence_area": 5.713881807405562,
+      "native_centroid_world": [
+        183.57142857142858,
+        421.17857142857144
+      ],
+      "android_centroid_world": [
+        184.96414893630453,
+        420.86026216735195
+      ],
+      "centroid_distance_world": 1.428632493162002,
+      "native_component_count": 3,
+      "android_component_count": 2,
+      "native_capsule_approximation": 0.5093068035943518,
+      "android_capsule_approximation": 0.504813863928113
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "ingress50",
+      "region_id": "middle_red",
+      "native_area_world2": 16.25,
+      "android_area_world2": 18.642749964840178,
+      "android_area_over_native_evidence_area": 1.1472461516824726,
+      "native_centroid_world": [
+        187.69615384615383,
+        417.58846153846156
+      ],
+      "android_centroid_world": [
+        187.73312330512547,
+        417.6877883537591
+      ],
+      "centroid_distance_world": 0.10598375882092104,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.5093068035943518,
+      "android_capsule_approximation": 0.504813863928113
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "ingress50",
+      "region_id": "right_green",
+      "native_area_world2": 16.0,
+      "android_area_world2": 17.060940876914344,
+      "android_area_over_native_evidence_area": 1.0663088048071465,
+      "native_centroid_world": [
+        190.578125,
+        419.5
+      ],
+      "android_centroid_world": [
+        190.7896869476893,
+        419.37446417150784
+      ],
+      "centroid_distance_world": 0.2460034592140918,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.5093068035943518,
+      "android_capsule_approximation": 0.504813863928113
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "ingress75",
+      "region_id": "left_blue",
+      "native_area_world2": 18.0,
+      "android_area_world2": 30.84527721455375,
+      "android_area_over_native_evidence_area": 1.7136265119196528,
+      "native_centroid_world": [
+        184.83333333333334,
+        420.7986111111111
+      ],
+      "android_centroid_world": [
+        185.6096222277924,
+        420.2068378469583
+      ],
+      "centroid_distance_world": 0.97612501444565,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.7657252888318357,
+      "android_capsule_approximation": 0.7310654685494223
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "ingress75",
+      "region_id": "middle_red",
+      "native_area_world2": 7.75,
+      "android_area_world2": 13.558363610792856,
+      "android_area_over_native_evidence_area": 1.7494662723603684,
+      "native_centroid_world": [
+        187.66935483870967,
+        415.9596774193548
+      ],
+      "android_centroid_world": [
+        187.7534950895184,
+        418.14004196728155
+      ],
+      "centroid_distance_world": 2.1819874297671573,
+      "native_component_count": 1,
+      "android_component_count": 2,
+      "native_capsule_approximation": 0.7657252888318357,
+      "android_capsule_approximation": 0.7310654685494223
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "ingress75",
+      "region_id": "right_green",
+      "native_area_world2": 15.5,
+      "android_area_world2": 16.04406360610488,
+      "android_area_over_native_evidence_area": 1.0351008778132182,
+      "native_centroid_world": [
+        190.48387096774192,
+        419.31451612903226
+      ],
+      "android_centroid_world": [
+        190.85808329936137,
+        419.2188283751749
+      ],
+      "centroid_distance_world": 0.3862525279843872,
+      "native_component_count": 2,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.7657252888318357,
+      "android_capsule_approximation": 0.7310654685494223
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "full100",
+      "region_id": "left_blue",
+      "native_area_world2": 41.75,
+      "android_area_world2": 37.059527202833806,
+      "android_area_over_native_evidence_area": 0.88765334617566,
+      "native_centroid_world": [
+        183.53443113772454,
+        416.26197604790417
+      ],
+      "android_centroid_world": [
+        183.763060025181,
+        416.5597318475516
+      ],
+      "centroid_distance_world": 0.37540602606144574,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 1.0,
+      "android_capsule_approximation": 1.0
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "full100",
+      "region_id": "middle_red",
+      "native_area_world2": 42.75,
+      "android_area_world2": 41.01404992264839,
+      "android_area_over_native_evidence_area": 0.9593929806467459,
+      "native_centroid_world": [
+        187.53362573099415,
+        417.44590643274853
+      ],
+      "android_centroid_world": [
+        187.58385368493748,
+        417.60907918678646
+      ],
+      "centroid_distance_world": 0.17072842475011768,
+      "native_component_count": 2,
+      "android_component_count": 1,
+      "native_capsule_approximation": 1.0,
+      "android_capsule_approximation": 1.0
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "full100",
+      "region_id": "right_green",
+      "native_area_world2": 28.5,
+      "android_area_world2": 31.523195395093392,
+      "android_area_over_native_evidence_area": 1.1060770314067856,
+      "native_centroid_world": [
+        191.00438596491227,
+        417.4605263157895
+      ],
+      "android_centroid_world": [
+        191.17315100902874,
+        417.2603094586758
+      ],
+      "centroid_distance_world": 0.26185574270600015,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 1.0,
+      "android_capsule_approximation": 1.0
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "far50",
+      "region_id": "left_blue",
+      "native_area_world2": 16.5,
+      "android_area_world2": 17.060940876914344,
+      "android_area_over_native_evidence_area": 1.0339964167826876,
+      "native_centroid_world": [
+        184.46969696969697,
+        419.5833333333333
+      ],
+      "android_centroid_world": [
+        184.33635086320018,
+        419.37446417150784
+      ],
+      "centroid_distance_world": 0.24780538912527592,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.5093068035943518,
+      "android_capsule_approximation": 0.5266367137355584
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "far50",
+      "region_id": "middle_red",
+      "native_area_world2": 22.75,
+      "android_area_world2": 17.85184542087726,
+      "android_area_over_native_evidence_area": 0.7846965020165829,
+      "native_centroid_world": [
+        187.61813186813185,
+        418.2335164835165
+      ],
+      "android_centroid_world": [
+        187.3885693846625,
+        417.5449279923203
+      ],
+      "centroid_distance_world": 0.7258464328110009,
+      "native_component_count": 1,
+      "android_component_count": 1,
+      "native_capsule_approximation": 0.5093068035943518,
+      "android_capsule_approximation": 0.5266367137355584
+    },
+    {
+      "shape_id": "st06_rgb_star6_d12",
+      "stage_id": "far50",
+      "region_id": "right_green",
+      "native_area_world2": 7.0,
+      "android_area_world2": 14.688227245025594,
+      "android_area_over_native_evidence_area": 2.0983181778607993,
+      "native_centroid_world": [
+        191.23214285714286,
+        421.6607142857143
+      ],
+      "android_centroid_world": [
+        190.91660638160081,
+        420.93599102219036
+      ],
+      "centroid_distance_world": 0.7904347386661643,
+      "native_component_count": 1,
+      "android_component_count": 2,
+      "native_capsule_approximation": 0.5093068035943518,
+      "android_capsule_approximation": 0.5266367137355584
+    }
+  ]
+}

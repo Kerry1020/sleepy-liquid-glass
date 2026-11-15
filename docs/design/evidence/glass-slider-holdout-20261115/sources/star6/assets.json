@@ -1,0 +1,396 @@
+{
+  "schema": 1,
+  "shape_id": "st06_rgb_star6_d12",
+  "input_role": "holdout",
+  "frozen_spec": {
+    "path": "frozen-spec.json",
+    "sha256": "6986900b4de6b2f1bcdc15ab4c2e97ca563617e216dbb569e7b841dafcc7edaf"
+  },
+  "note": "Original spec/manifest bytes are retained. Resolve their immutable PNG/mask references through this asset map; the shared calibration packet stores identical original bytes. Holdout roles are never changed.",
+  "assets": [
+    {
+      "original_spec_relative_path": "inputs/st00_flat128.png",
+      "path": "../../../glass-slider-star-20261115/source/inputs/st00_flat128.png",
+      "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "bytes": 5221
+    },
+    {
+      "original_spec_relative_path": "inputs/st01_rgb_star_d16.png",
+      "path": "../../../glass-slider-star-20261115/source/inputs/st01_rgb_star_d16.png",
+      "sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+      "bytes": 5780
+    },
+    {
+      "original_spec_relative_path": "inputs/st02_rgb_star6_d16.png",
+      "path": "../../../glass-slider-star-20261115/source/inputs/st02_rgb_star6_d16.png",
+      "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "bytes": 5828
+    },
+    {
+      "original_spec_relative_path": "inputs/st03_rgb_star7_d16.png",
+      "path": "../../../glass-slider-star-20261115/source/inputs/st03_rgb_star7_d16.png",
+      "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "bytes": 5921
+    },
+    {
+      "original_spec_relative_path": "inputs/st04_rgb_star8_d16.png",
+      "path": "../../../glass-slider-star-20261115/source/inputs/st04_rgb_star8_d16.png",
+      "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "bytes": 5997
+    },
+    {
+      "original_spec_relative_path": "inputs/st05_rgb_star5_d12.png",
+      "path": "../../../glass-slider-star-20261115/source/inputs/st05_rgb_star5_d12.png",
+      "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "bytes": 5634
+    },
+    {
+      "original_spec_relative_path": "inputs/st06_rgb_star6_d12.png",
+      "path": "../../../glass-slider-star-20261115/source/inputs/st06_rgb_star6_d12.png",
+      "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "bytes": 5673
+    },
+    {
+      "original_spec_relative_path": "inputs/st07_rgb_star7_d12.png",
+      "path": "../../../glass-slider-star-20261115/source/inputs/st07_rgb_star7_d12.png",
+      "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+      "bytes": 5751
+    },
+    {
+      "original_spec_relative_path": "masks/st01_rgb_star_d16-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-coverage16.png",
+      "sha256": "31f4e39921a4a32aad0ddfb1f43fa124aa5a268928cebfeb7ea380f23a83ad03",
+      "bytes": 1331
+    },
+    {
+      "original_spec_relative_path": "masks/st01_rgb_star_d16-left_blue-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-left_blue-coverage16.png",
+      "sha256": "0520b9b21148d9b0febef0f706c5ae9766d6ba3f6600d483e6d0f1980083202d",
+      "bytes": 1170
+    },
+    {
+      "original_spec_relative_path": "masks/st01_rgb_star_d16-left_blue-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-left_blue-support.png",
+      "sha256": "c131ee8c55a619c398de3db039ad32a81434e82a1bd37bd6549fde85ec3b951f",
+      "bytes": 1115
+    },
+    {
+      "original_spec_relative_path": "masks/st01_rgb_star_d16-middle_red-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-middle_red-coverage16.png",
+      "sha256": "be435873597074d453fa0f9b131e7db9349d64b5822b20f05c043ff2fca56076",
+      "bytes": 1163
+    },
+    {
+      "original_spec_relative_path": "masks/st01_rgb_star_d16-middle_red-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-middle_red-support.png",
+      "sha256": "e3ec59cc686e8d71a3413bbaa8b08af5b65e238ecb4e20ea2b92207c62cb2a50",
+      "bytes": 1111
+    },
+    {
+      "original_spec_relative_path": "masks/st01_rgb_star_d16-right_green-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-right_green-coverage16.png",
+      "sha256": "7179be95421bb874a102356a57963f129831669ad05ca3cfedf7264282a8c828",
+      "bytes": 1170
+    },
+    {
+      "original_spec_relative_path": "masks/st01_rgb_star_d16-right_green-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-right_green-support.png",
+      "sha256": "e91bcaf5bee7b003fca7500102262079d42d31a2eb531a7657e3d474ac86a7d3",
+      "bytes": 1116
+    },
+    {
+      "original_spec_relative_path": "masks/st01_rgb_star_d16-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-support.png",
+      "sha256": "00cfa05cda61163b9d186531fcbcf9362444da7702d5ee1fc34e084208740081",
+      "bytes": 1187
+    },
+    {
+      "original_spec_relative_path": "masks/st02_rgb_star6_d16-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-coverage16.png",
+      "sha256": "e7e59c151149960992fd09393d56a7aba5532e17cb9c52683cff7e9aae318615",
+      "bytes": 1340
+    },
+    {
+      "original_spec_relative_path": "masks/st02_rgb_star6_d16-left_blue-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-left_blue-coverage16.png",
+      "sha256": "f9bc4111dec0e4d365ac57034eeb48efad895ac05a4eb9ea1fd745075156c42f",
+      "bytes": 1164
+    },
+    {
+      "original_spec_relative_path": "masks/st02_rgb_star6_d16-left_blue-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-left_blue-support.png",
+      "sha256": "85982dac0145570961a6f76833862c4b76c88ced0f641c673be2678bb0969a02",
+      "bytes": 1103
+    },
+    {
+      "original_spec_relative_path": "masks/st02_rgb_star6_d16-middle_red-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-middle_red-coverage16.png",
+      "sha256": "e3bea1f45af533a8c337eb17e2dc9752bc3ba947cedc3a4f1c07496d6dbe5966",
+      "bytes": 1185
+    },
+    {
+      "original_spec_relative_path": "masks/st02_rgb_star6_d16-middle_red-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-middle_red-support.png",
+      "sha256": "3f276a66c18bb99946fec429261a2a2cea361b3d43df47fbae782fa1d45efd8d",
+      "bytes": 1124
+    },
+    {
+      "original_spec_relative_path": "masks/st02_rgb_star6_d16-right_green-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-right_green-coverage16.png",
+      "sha256": "6e4debbc86621060abeb7f029c4e5642d691a3845464871f353c920528965548",
+      "bytes": 1158
+    },
+    {
+      "original_spec_relative_path": "masks/st02_rgb_star6_d16-right_green-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-right_green-support.png",
+      "sha256": "9ae2122b87f405329f7091548f69ef5be08d1c347f41abc6eb34c3f8e47c2a86",
+      "bytes": 1103
+    },
+    {
+      "original_spec_relative_path": "masks/st02_rgb_star6_d16-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-support.png",
+      "sha256": "272fd00a4232ced6ba907257d1155aa31e30bc248801f7a7e11b5ed888906845",
+      "bytes": 1181
+    },
+    {
+      "original_spec_relative_path": "masks/st03_rgb_star7_d16-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-coverage16.png",
+      "sha256": "10993d87aae70b647c1c81a129f4eebea1f3891bb56f700b3aaefc94c2117378",
+      "bytes": 1385
+    },
+    {
+      "original_spec_relative_path": "masks/st03_rgb_star7_d16-left_blue-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-left_blue-coverage16.png",
+      "sha256": "be0dd180e28efda68dd41fdef0d80df4bd22dbaba5d0fada12983293685f6fb0",
+      "bytes": 1207
+    },
+    {
+      "original_spec_relative_path": "masks/st03_rgb_star7_d16-left_blue-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-left_blue-support.png",
+      "sha256": "b8af1ddfb7ef96f2be63839f3cfd21e22cf8823b169b3aabc17858765a722d70",
+      "bytes": 1131
+    },
+    {
+      "original_spec_relative_path": "masks/st03_rgb_star7_d16-middle_red-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-middle_red-coverage16.png",
+      "sha256": "05bd68d070f2b109a6ab97b5c7334b479d099258146bf68ab49dd8caf82ac0d1",
+      "bytes": 1180
+    },
+    {
+      "original_spec_relative_path": "masks/st03_rgb_star7_d16-middle_red-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-middle_red-support.png",
+      "sha256": "65b97c13da3d95eada2608a9596873cd94c32c8ea0121664dc62b1f10c2d9dcc",
+      "bytes": 1118
+    },
+    {
+      "original_spec_relative_path": "masks/st03_rgb_star7_d16-right_green-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-right_green-coverage16.png",
+      "sha256": "2366d64026a880250e454ff7490d4f9b4617c700f0d6bc45d571da51f163dc96",
+      "bytes": 1207
+    },
+    {
+      "original_spec_relative_path": "masks/st03_rgb_star7_d16-right_green-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-right_green-support.png",
+      "sha256": "32da54fc9bbf3b09bd66c03a4d51760918a0b175b1eaad2d3920711e498085e3",
+      "bytes": 1129
+    },
+    {
+      "original_spec_relative_path": "masks/st03_rgb_star7_d16-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-support.png",
+      "sha256": "58b00750e51f6a9f6147886ec38acd592ac9d846225d3b0148d12754027b3bf4",
+      "bytes": 1208
+    },
+    {
+      "original_spec_relative_path": "masks/st04_rgb_star8_d16-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-coverage16.png",
+      "sha256": "b007afeb34ec62e39fb475540a3bea9aac68b22340cda7a98e32e7593a03467b",
+      "bytes": 1404
+    },
+    {
+      "original_spec_relative_path": "masks/st04_rgb_star8_d16-left_blue-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-left_blue-coverage16.png",
+      "sha256": "16bfa4b9a12f4f3c12fe214af6a9a00aa82e9c22258c9e9d1754abab8ab4b698",
+      "bytes": 1206
+    },
+    {
+      "original_spec_relative_path": "masks/st04_rgb_star8_d16-left_blue-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-left_blue-support.png",
+      "sha256": "8bb94797da8cfebd3a32b066741cf74c2e5a269a39a0f9a1ed4180bd6a66b4f0",
+      "bytes": 1135
+    },
+    {
+      "original_spec_relative_path": "masks/st04_rgb_star8_d16-middle_red-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-middle_red-coverage16.png",
+      "sha256": "cf0825e9d91c00b0d0bfac5d7f11183ce4fafbc210b9263e0299d23c79c84eb9",
+      "bytes": 1212
+    },
+    {
+      "original_spec_relative_path": "masks/st04_rgb_star8_d16-middle_red-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-middle_red-support.png",
+      "sha256": "bd70a94b2414a97c0f9a64385f26e6b6b277394a2b7b381c9949a5000c996e80",
+      "bytes": 1124
+    },
+    {
+      "original_spec_relative_path": "masks/st04_rgb_star8_d16-right_green-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-right_green-coverage16.png",
+      "sha256": "227171dd0daf024ff6f4053e23754160147ab8a30206c98b153f0a41639a87e7",
+      "bytes": 1209
+    },
+    {
+      "original_spec_relative_path": "masks/st04_rgb_star8_d16-right_green-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-right_green-support.png",
+      "sha256": "16ef706c8fde928de56618d1101cf0d3ccb9e87890feee5b7e6742388eb73ab5",
+      "bytes": 1136
+    },
+    {
+      "original_spec_relative_path": "masks/st04_rgb_star8_d16-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-support.png",
+      "sha256": "37c5817ddf682b7768715f7739496183ace1bc4c67b46f88d8985e726d4d305c",
+      "bytes": 1217
+    },
+    {
+      "original_spec_relative_path": "masks/st05_rgb_star5_d12-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-coverage16.png",
+      "sha256": "172eb7ca43a5f609c7735cc45dad3f644c213f45c2bb9f57f477497ebb4a27b1",
+      "bytes": 1262
+    },
+    {
+      "original_spec_relative_path": "masks/st05_rgb_star5_d12-left_blue-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-left_blue-coverage16.png",
+      "sha256": "aa7931e29e856d37586b714e57398f1cd1e3a1093d3865cddb60ef0b6b8fb9b1",
+      "bytes": 1149
+    },
+    {
+      "original_spec_relative_path": "masks/st05_rgb_star5_d12-left_blue-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-left_blue-support.png",
+      "sha256": "10fbe3c94ab0650ba567ba941e03b290b162364a52064b20b53c8bf5aeef74bc",
+      "bytes": 1101
+    },
+    {
+      "original_spec_relative_path": "masks/st05_rgb_star5_d12-middle_red-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-middle_red-coverage16.png",
+      "sha256": "5c818cd0125f3c53fcba48c1b76235efba3e45fb59e10fecb3d8fcd6cfc053fc",
+      "bytes": 1140
+    },
+    {
+      "original_spec_relative_path": "masks/st05_rgb_star5_d12-middle_red-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-middle_red-support.png",
+      "sha256": "6bd3f6494c9e5166802875c02eae858aa26e1d82535d7ae67f65a775347e4356",
+      "bytes": 1099
+    },
+    {
+      "original_spec_relative_path": "masks/st05_rgb_star5_d12-right_green-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-right_green-coverage16.png",
+      "sha256": "f8c7118ddca6932e2cd2afc07aeeb4fa1e483ef4685df674286ef77a4122ee5f",
+      "bytes": 1149
+    },
+    {
+      "original_spec_relative_path": "masks/st05_rgb_star5_d12-right_green-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-right_green-support.png",
+      "sha256": "61637497ddc2dcac7349557cccee1255698bfcfdbf9b016eb3e171caf29209cf",
+      "bytes": 1099
+    },
+    {
+      "original_spec_relative_path": "masks/st05_rgb_star5_d12-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-support.png",
+      "sha256": "ed216587c64df0fe452282449679d2c19e73b82366c93e010e26f483316b3dab",
+      "bytes": 1150
+    },
+    {
+      "original_spec_relative_path": "masks/st06_rgb_star6_d12-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-coverage16.png",
+      "sha256": "578b89fe7f4c0e23c786f6a929e128208662e57de763590a8d55d4f959755b50",
+      "bytes": 1269
+    },
+    {
+      "original_spec_relative_path": "masks/st06_rgb_star6_d12-left_blue-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-left_blue-coverage16.png",
+      "sha256": "d22d33eb8442013c238ff5ca1b71159d1bf4b37641d288a94b95dd0beecdc5da",
+      "bytes": 1135
+    },
+    {
+      "original_spec_relative_path": "masks/st06_rgb_star6_d12-left_blue-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-left_blue-support.png",
+      "sha256": "9c357bbc9d7a117215f906b3a7aa654687bc3ac66a70201a0ce5c765e28f1fd0",
+      "bytes": 1094
+    },
+    {
+      "original_spec_relative_path": "masks/st06_rgb_star6_d12-middle_red-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-middle_red-coverage16.png",
+      "sha256": "11e0eb3d06abed278b88e4881b50041900d9c4ff6039cbd01aa03436a1566146",
+      "bytes": 1162
+    },
+    {
+      "original_spec_relative_path": "masks/st06_rgb_star6_d12-middle_red-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-middle_red-support.png",
+      "sha256": "9044b292859fd4287f72a010047c9af9f9432347a23124711e14a073a3845646",
+      "bytes": 1106
+    },
+    {
+      "original_spec_relative_path": "masks/st06_rgb_star6_d12-right_green-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-right_green-coverage16.png",
+      "sha256": "49c968bc242180a4e400f1ca36b76658bb37e9ea7543cdb149985064a1f51f13",
+      "bytes": 1140
+    },
+    {
+      "original_spec_relative_path": "masks/st06_rgb_star6_d12-right_green-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-right_green-support.png",
+      "sha256": "d65d01c23ff008aa8d181d9192b9a5892d79d1ae00e8cdeddb2ee4c4a7acdcc9",
+      "bytes": 1094
+    },
+    {
+      "original_spec_relative_path": "masks/st06_rgb_star6_d12-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-support.png",
+      "sha256": "88ba9f2eead743fd1bab0fc84ff398ad4698d537b287d7bef6064383c3051cc7",
+      "bytes": 1161
+    },
+    {
+      "original_spec_relative_path": "masks/st07_rgb_star7_d12-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-coverage16.png",
+      "sha256": "f0d5a1ffb453a81233c2f1b527007b8c79e655397aa2656e8926e2635e3823a0",
+      "bytes": 1293
+    },
+    {
+      "original_spec_relative_path": "masks/st07_rgb_star7_d12-left_blue-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-left_blue-coverage16.png",
+      "sha256": "72ed936160d34cd6a4d0ee52093ea7f0861aa5c200844651acec304edabea5da",
+      "bytes": 1173
+    },
+    {
+      "original_spec_relative_path": "masks/st07_rgb_star7_d12-left_blue-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-left_blue-support.png",
+      "sha256": "3a41412365216d759533a5aca563e8d87a9b5c433b7c3fabf1069161d33a1fc5",
+      "bytes": 1108
+    },
+    {
+      "original_spec_relative_path": "masks/st07_rgb_star7_d12-middle_red-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-middle_red-coverage16.png",
+      "sha256": "ac6baef35973ad64edb08b59675f568ea00dc8531a410a384216355fff1b9cbb",
+      "bytes": 1143
+    },
+    {
+      "original_spec_relative_path": "masks/st07_rgb_star7_d12-middle_red-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-middle_red-support.png",
+      "sha256": "1282575f56a018b5d1e48e53216ba7d9101d62af1785cbd44278feb495891bc9",
+      "bytes": 1101
+    },
+    {
+      "original_spec_relative_path": "masks/st07_rgb_star7_d12-right_green-coverage16.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-right_green-coverage16.png",
+      "sha256": "c6b9efb1d8a9d978635deb853d9be24162fd3dfd019515e792d1f44b267d0433",
+      "bytes": 1171
+    },
+    {
+      "original_spec_relative_path": "masks/st07_rgb_star7_d12-right_green-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-right_green-support.png",
+      "sha256": "19a4021b4208ecb1d403c4fc5a63cbdaa37b852e94334590c8d042058ab5c984",
+      "bytes": 1109
+    },
+    {
+      "original_spec_relative_path": "masks/st07_rgb_star7_d12-support.png",
+      "path": "../../../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-support.png",
+      "sha256": "a7c2fd3b68002619050dd377fd4afc651e4c38bbba855651d6189ef879849ed8",
+      "bytes": 1164
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "status": "Completed saved-evidence comparison; no native parity verdict",
+  "frozen_helper": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-optics-20261112/android-slider-material-73/independent-optical-review/compare-material-ablations.py",
+    "sha256": "350f863df4f815af991da32ba66b0d76a83457d0fa99ecbc64d7f80ab269f47e",
+    "bytes": 29592
+  },
+  "frozen_native72_helper": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-optics-20261112/android-dock-parent-response-72/independent-slider-optical-review/compare-slider-optics.py",
+    "sha256": "c34ba9395c0d6ea0b7ae61f3d588a823c40790d4037f1571d399eb8c8a2084dc",
+    "bytes": 26041
+  },
+  "mask_policy": "The extra capsule masks are a fixed Android72 sampling model, not a fitted native outline, an alpha mask or a proven native corner radius. No geometry is normalized to fit them. Full same-world crops preserve observed silhouette differences.",
+  "fixed_windows": {
+    "lower_inner_haze_transmission_proxy": [
+      103,
+      439,
+      125,
+      442
+    ],
+    "upper_right_inner_source_sensitive": [
+      125,
+      418,
+      130,
+      422
+    ],
+    "lower_rim_and_shape": [
+      102,
+      446,
+      125,
+      451
+    ],
+    "upper_right_rim_and_shape": [
+      124,
+      408,
+      133,
+      415
+    ],
+    "left_lower_endcap_and_corner": [
+      84,
+      439,
+      96,
+      447
+    ],
+    "right_lower_endcap_and_corner": [
+      132,
+      439,
+      145,
+      447
+    ]
+  },
+  "model_masks": {
+    "model_interior_eroded3": "Signed distance to frozen72 production layout capsule<=-3dp.",
+    "model_outer_rim_2pt": "Absolute signed distance<=2dp; covers the complete modeled edge except declared source-role exclusions.",
+    "model_left_endcap_2pt": "Outer-rim shell at x<left semicircle center.",
+    "model_right_endcap_2pt": "Outer-rim shell at x>right semicircle center.",
+    "model_upper_right_rim_2pt": "Outer-rim shell above center with world x>=123dp.",
+    "model_lower_rim_2pt": "Outer-rim shell below center.",
+    "model_lower_straight_rim_2pt": "Lower-rim shell between the frozen capsule's semicircle centers.",
+    "model_exterior_shadow_2to6pt": "Signed distance>2 and<=6dp, outside the frozen72 production capsule."
+  },
+  "world_mapping": "None. Native world origin is observed window(0,0); Android uses the report's actual background source screen origin and density. Android is sampled once onto the native2px/pt world grid. No thumb-bounds fitting, center realignment, per-scene registration, phase compensation, color normalization or contrast fitting between platforms.",
+  "rail_exclusion": "All material diagnostic windows exclude world |y-430|<=8pt, including selected rail and conservative halo. The whole raw crop is retained for visual review but receives no aggregate material score.",
+  "title_exclusion": "Native SwiftUI title actual bounds are x20..118,y382.5..402pt. A conservative upper-left influence area x<123,y<430 is excluded from material windows. This is a declared source-dependent exclusion, not proof of finite blur/refraction support; foreground source influence may extend farther.",
+  "phase_limit": "Native REST precedes actual delivered DOWN; native HELD is a captured display bracketed by actual delivered DOWN/UP, with capture starting0.65s+ after DOWN. Android HELD records Compose DOWN/CANCEL injection and active held state on a declared controlled Compose clock settled>=1600ms; no independent raw Android platform receipt trace. These are stable-state comparisons, not equivalent natural-time samples.",
+  "metric_limit": "Luminance/background slope and contrast ratios are apparent image diagnostics, not physical transmission/opacity. Channel-gradient spread is a dispersion-sensitive proxy confounded by background color, refraction, highlights and rasterization; it cannot identify a physical dispersion coefficient.",
+  "comparison_scope": "Single-slider fixed positiveA2.15/bevel5.5/quadraticD5/W6.5; adds an inset-local total-frost replacement1.1dp with gates1.5-2 and6.5-7dp. Range remains isolated. Source field, dispersion, rail and geometry stay fixed. No physical thickness or native kernel identified.",
+  "negative_control_policy": "Report all REST and source differences exactly. Whole-crop REST includes the rail, which is intentionally changed; a whole-crop change alone is not a material negative-control failure.",
+  "holdout_policy": "synthetic_landscape is reported separately and never tunes masks/metrics or selects parameters. No new independent holdout is claimed for these previously observed scenes.",
+  "all_changes": "All strict increases and decreases retained with no suppression threshold. Overlapping masks are descriptive repeated measures, not independent samples or a pooled similarity score.",
+  "no_adoption": "No automatic adoption or full-product acceptance."
+}

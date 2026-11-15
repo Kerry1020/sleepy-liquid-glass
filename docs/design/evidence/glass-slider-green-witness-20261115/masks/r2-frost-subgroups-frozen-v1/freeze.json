@@ -1,0 +1,156 @@
+{
+  "scope": "R2 calibration-derived frost intervention diagnostics; not held-out or native inverse mapping",
+  "r3_read": false,
+  "script_sha256": "f1939dc9607d67cafe7104a89f9a89012739b23cd643d093c3f95571bc1e2b30",
+  "equation": "q=p-7.8*max(1-inset/7.5,0)^2*n; original source index=q/world_scale*2-.5",
+  "actual_source_world_scale_xy": [
+    1.0003361008290386,
+    0.9998361827376697
+  ],
+  "inputs": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/index-original.json": "1de9e3cbb21fb841c1e841e12477db3b62dd5c33096982cfb43c8c7b06a6db8e",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analysis-android-v1_1/ingress75-world-grid.npz": "88e3e0f8542ce7ff1cc380d3a23b2d3d14c8a23274d2259fad74120fd5a41a35",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analysis-native-v1_1/ingress75-world-grid.npz": "c1612de4b4d9e3c42a20ebc7301682715cc52ffb7ed3e6b23bf633ff67e12fdc",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/primary-ingress75-excessB-mask.png": "57b0af6778f510de5dd08a326e9d3d2e871635fd741321ee8411a5db831550fb",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analysis-plan.json": "9a88df9abe12d312f78b8a6a0f7e2e1b790e864eeb0522ac5e1e735b35d8822f",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st01_rgb_star_gwitness_d16.png": "3f714f7dc170d5bacf52bfa9ba51dc61cc31a3d4698ce5552543f9ddd875880e",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st01_rgb_star_gneutral_d16.png": "b72e79710471f00868b5e7ee56548614bbe153e1f59ca43bf241085dce3bca7a"
+  },
+  "masks": {
+    "target": {
+      "samples": 283,
+      "area_pt2": 17.6875,
+      "sourceG_q0_10_50_90_100": [
+        0.0,
+        0.0,
+        4.2757094514300755,
+        45.42274104709989,
+        104.00000000000001
+      ],
+      "nativeG_q0_10_50_90_100": [
+        0.0,
+        0.1875,
+        2.75,
+        12.387500000000003,
+        24.8125
+      ],
+      "r2G_q0_10_50_90_100": [
+        1.6270783269821152,
+        6.506614619693096,
+        27.017883162828014,
+        48.49669050138914,
+        61.70261602934758
+      ],
+      "inset_q0_10_50_90_100": [
+        1.0720643640434666,
+        1.2656288917417513,
+        2.1302482584925357,
+        3.138431220195692,
+        3.8069096020702062
+      ]
+    },
+    "reverse68_sourceG_gt24": {
+      "samples": 68,
+      "area_pt2": 4.25,
+      "sourceG_q0_10_50_90_100": [
+        24.09244546934065,
+        26.317980500978894,
+        40.64757109120494,
+        96.3640019722441,
+        104.00000000000001
+      ],
+      "nativeG_q0_10_50_90_100": [
+        1.6875,
+        4.55,
+        11.125,
+        17.0375,
+        24.8125
+      ],
+      "r2G_q0_10_50_90_100": [
+        35.20671417500077,
+        38.55798672690456,
+        46.22841546210552,
+        54.26608698624998,
+        61.70261602934758
+      ],
+      "inset_q0_10_50_90_100": [
+        1.1700252880972108,
+        1.4923335927890093,
+        2.8081994795415675,
+        3.2316031200207163,
+        3.5273297426621735
+      ]
+    },
+    "neutral138_sourceG_le4": {
+      "samples": 138,
+      "area_pt2": 8.625,
+      "sourceG_q0_10_50_90_100": [
+        0.0,
+        0.0,
+        0.0,
+        2.100474787895209,
+        3.9742541641676183
+      ],
+      "nativeG_q0_10_50_90_100": [
+        0.0,
+        0.0,
+        0.8125,
+        2.5,
+        6.125
+      ],
+      "r2G_q0_10_50_90_100": [
+        1.6270783269821152,
+        4.515158068002757,
+        13.979303128222512,
+        26.86261791743585,
+        45.55136171054528
+      ],
+      "inset_q0_10_50_90_100": [
+        1.077607368535034,
+        1.201141637022074,
+        1.6768952939722617,
+        2.3453205402782733,
+        3.129780475371316
+      ]
+    },
+    "frost_band222_inset1_5_to7": {
+      "samples": 222,
+      "area_pt2": 13.875,
+      "sourceG_q0_10_50_90_100": [
+        0.0,
+        0.0,
+        7.970549449030031,
+        46.845542346609044,
+        104.00000000000001
+      ],
+      "nativeG_q0_10_50_90_100": [
+        0.0,
+        0.6937500000000001,
+        4.25,
+        13.387500000000003,
+        24.8125
+      ],
+      "r2G_q0_10_50_90_100": [
+        2.5563327750000724,
+        12.415955164909002,
+        31.204143999388094,
+        49.49700051249965,
+        61.70261602934758
+      ],
+      "inset_q0_10_50_90_100": [
+        1.512760827796427,
+        1.657591251128201,
+        2.3474721728416057,
+        3.224067219064295,
+        3.8069096020702062
+      ]
+    }
+  },
+  "files": {
+    "frost_band222_inset1_5_to7.png": "7fc0d85e9bf644c0d9d5f50147ac36bdf2bb764498fda82db9d2e7da27169305",
+    "masks.npz": "b14d5dcc4b908ae9154dc5ad4af182e1ffd1f19281fb3e71a6c3d490b8266d83",
+    "neutral138_sourceG_le4.png": "84753bab837259f7f30c96bd9e40bcfd155b36953536c44b33eaef26eba33aec",
+    "reverse68_sourceG_gt24.png": "c3bdb42a178dc40cc703451f7bd692250c9e63536c1f96aaef3ee165fc1f567e",
+    "target.png": "57b0af6778f510de5dd08a326e9d3d2e871635fd741321ee8411a5db831550fb"
+  }
+}

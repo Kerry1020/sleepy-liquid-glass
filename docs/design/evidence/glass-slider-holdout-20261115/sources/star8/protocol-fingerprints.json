@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "status": "UNSAMPLED preparation-time fingerprints, not capture receipts",
+  "expected_input_role": "holdout",
+  "spec_sha256": "073565c8b9f03cfb29762ada32f6fb89bfdeb79bf0cc1de27d7b99dc335503b6",
+  "manifest_sha256": "d807b924713d5b4f1256a1b62dee1d54ca035e81983047ed7f98e435f169bf36",
+  "required_explicit_role_arguments": {
+    "android_instrumentation": [
+      "glassSliderOpticalInputRole",
+      "holdout"
+    ],
+    "android_host": [
+      "--input-role",
+      "holdout"
+    ],
+    "analysis_host": [
+      "--input-role",
+      "holdout"
+    ]
+  },
+  "candidate_equation": "single-slider D=7.8*max(1-inset/7.5,0)^2; q=p-outward_normal*D",
+  "fixed_candidate_source_anchor": {
+    "receipt": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/multicolor-star-v2/pose-corrected-v3/android-matched-native-v1/android-quadratic-shoulder-r2/receipt.json",
+    "receipt_sha256": "efcf5de5efd37735a5d704db9ddc79326747fc81e8f6f81f3305108b2245bc40",
+    "source_hashes": {
+      "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt": "844f5b191c1693113287ad68251ed80cac468dd8cbf27d7d960736ae8c696517",
+      "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+      "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+      "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+      "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9"
+    },
+    "apk_records": [
+      {
+        "package": "com.lingion.sleepy.debug",
+        "sha256": "ee9e8c9f8cab864a9eb736239a09b52c8fc24bc0cdd05217308f7c9e2674bec3",
+        "install": "Performing Streamed Install\nSuccess"
+      },
+      {
+        "package": "com.lingion.sleepy.debug.test",
+        "sha256": "59973c53ff1e5624c90ff19a52a3bdce5632063eca73e4bf1edc2f3382389b8b",
+        "install": "Performing Streamed Install\nSuccess"
+      }
+    ]
+  },
+  "preparation_protocol_source_files": [
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/main.swift",
+      "sha256": "5a21313a4208e4fefc0129c15fdb877d3e1fe5a90b7a0770329e5d2bc7f70a73",
+      "bytes": 112044
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/NativeStage.swift",
+      "sha256": "e9b10e960ddb7c7f14801f74d8f3098c1dfdfe227b0266c1951c2eab7125e4ec",
+      "bytes": 29183
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/ReferenceTrace.swift",
+      "sha256": "b8a7d57193548e46c93b2a90fa254588c3e9150100079bee735a47e00d9f5f99",
+      "bytes": 25340
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/UITests/NativeReferenceTests.swift",
+      "sha256": "ae1e82a305381e6756082cf9f48f9a15c43ea7872069436563fe6324ebf160f7",
+      "bytes": 132196
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt",
+      "sha256": "1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e",
+      "bytes": 71695
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt",
+      "sha256": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+      "bytes": 24092
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt",
+      "sha256": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+      "bytes": 9501
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
+      "sha256": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+      "bytes": 54857
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
+      "sha256": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9",
+      "bytes": 32200
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/capture-native.py",
+      "sha256": "61cc101619d9b3aecfa27fe29d69c936da5e0fb297efc87de14ff005c3d46a65",
+      "bytes": 11393
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/capture-held-endpoints.py",
+      "sha256": "9b7d05d7128f565b6a0c288abd9c6e7ddfaf423559954052c7e74b9d465990f2",
+      "bytes": 6840
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/verify-native-endpoints.py",
+      "sha256": "1e74889b2d7b1014f0cbc74e5fd26d6d5c4beda56fd5334767ca09dfbb31da71",
+      "bytes": 25980
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/capture-android.py",
+      "sha256": "c4b672b87df9215c7a253b15322b826c4e1dd162dca1697d108c7fda64ad73f1",
+      "bytes": 5421
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/index-android-shape-captures.py",
+      "sha256": "78ce1434a4a07ecd45d40df1686384758bc848cc4b3f47e111792c698f7edb29",
+      "bytes": 10304
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/analyze-shape-captures.py",
+      "sha256": "bbc49f9ffcd8c7bf58f8db4b683b2a1d681b54e06e1683d0d1ebde043fe3ff96",
+      "bytes": 67460
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/prepare-validation-specs.py",
+      "sha256": "aa914bd6977c6f42d3f5038a68f5322038a96f33285e18d80fb9f8a9c793cb22",
+      "bytes": 8846
+    }
+  ],
+  "capture_requirements": [
+    "Record actual tool/source/binary hashes anew with the later run, including explicit expected input role.",
+    "Host and device input hashes must match this frozen holdout manifest/spec and original PNGs.",
+    "Strict native endpoints must establish actual carrier bounds before generating a matching Android actual-target spec.",
+    "Protocol role-policy adapters are in progress; preparation hashes are a dated snapshot and do not claim these code paths already accept holdout.",
+    "No parameter tuning based on these validation outputs; no capture or measurement exists at this freeze."
+  ]
+}

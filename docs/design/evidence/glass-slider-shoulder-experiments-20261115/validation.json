@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "passed_bounded_original_png_and_fixed_table_replay",
+  "shared_dependency_files": 88,
+  "original_pngs_verified": 120,
+  "shape_flat_pairs": 60,
+  "replayed_threshold_rows": 384,
+  "actual_support_rows": 288,
+  "relative_markdown_links": 39,
+  "maximum_numeric_tolerance": {
+    "relative": 1e-12,
+    "absolute": 1e-10
+  },
+  "replay_scope": "Original retained Window PNG RGB equals archived analysis Screen ROI. Shared native/r2 originals retained. Replays area/centroid/bounds/error arithmetic and actual added/removed sets at all frozen thresholds.",
+  "not_replayed": [
+    "Omitted full native endpoint/presentation traces and all49 acquisition files per run; saved checks remain hash-addressed historical receipts.",
+    "Stored signed-grid/prepredicted-source diagnostics and normal-localization JSON are preserved with hashes; this minimal checker does not rerun those exploratory models.",
+    "Full omitted Screen PNG hash cannot be reverified from an ROI, Window PNG or resized contact sheet.",
+    "No new GPU rendering, physical thickness recovery, dynamics or parity acceptance."
+  ],
+  "r3": "rejected as universal replacement",
+  "r4": "rejected as universal replacement",
+  "restored_r2": "unaccepted checkpoint",
+  "seven_point": "not acquired"
+}

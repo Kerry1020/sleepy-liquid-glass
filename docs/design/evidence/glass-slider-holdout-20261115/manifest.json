@@ -1,0 +1,734 @@
+{
+  "schema": 1,
+  "input_role": "holdout",
+  "scope": "Frozen r2 eight-point and formal clean-six-point static holdout packet. Both retain unresolved native/Android differences; no parameter change or complete acceptance.",
+  "inventory_rule": "local_files includes every packet file except root manifest.json and SHA256SUMS. Shared dependencies and companion report are outside the packet and separately listed.",
+  "local_file_count": 79,
+  "local_bytes": 4735335,
+  "local_files": [
+    {
+      "path": "README.md",
+      "sha256": "10c373b43c253f90826a3e6001195faae414bfe79326419da0135b984e3458ac",
+      "bytes": 5763
+    },
+    {
+      "path": "captures.json",
+      "sha256": "9a8a58178cea6ae28147369ab9a10af1f93613184ebb577a63f0470e22ef523f",
+      "bytes": 91374
+    },
+    {
+      "path": "figures/all-holdout-poses.png",
+      "sha256": "d7947e42d3439b32166a344e990abc76a0057914bb3ce01a961fd99f08892e12",
+      "bytes": 164876
+    },
+    {
+      "path": "figures/area-ratio-threshold-sensitivity.svg",
+      "sha256": "d6b81b48f27d64b57f6a22175e8a8c0bfce8e2b711e4b3177d32eff1b4ea8607",
+      "bytes": 22529
+    },
+    {
+      "path": "frozen-policy.json",
+      "sha256": "561f61c186fd9c6755640ce291d0e1e5f6544f6c3e91fa267cef38773caed57a",
+      "bytes": 16674
+    },
+    {
+      "path": "frozen-tools/analyze-shape-captures.py",
+      "sha256": "ab3e0a22d8614d262c4083de8eb52d9a6382e4a83b4803ac239046290d343c6a",
+      "bytes": 67631
+    },
+    {
+      "path": "frozen-tools/compare-shape-baselines.py",
+      "sha256": "3e312cf02307e46ad271450d60e549665c2e986fcfd8d9789a187009d05d4d3d",
+      "bytes": 9451
+    },
+    {
+      "path": "frozen-tools/compare-shape-candidates.py",
+      "sha256": "c6b0bfd880efba16b40bd9f872204cedd9b50fafc7baf0c18a4321453c59f203",
+      "bytes": 6957
+    },
+    {
+      "path": "frozen-tools/compare-shape-captures.py",
+      "sha256": "f67a6160d6b2cc71075af41b09a8078ddcfdd962970e8ba61b4d7dd081af545e",
+      "bytes": 10256
+    },
+    {
+      "path": "frozen-tools/index-android-shape-captures.py",
+      "sha256": "b5577513ed38f56cbcd3402aa4b7fe8b2651463e7b8cb0dcb6ac0bb02df81d61",
+      "bytes": 10629
+    },
+    {
+      "path": "geometry.json",
+      "sha256": "dc0a712932b705c6761776c85dc2c6326af582ef973c9632757f0d1c2d06a179",
+      "bytes": 38236
+    },
+    {
+      "path": "numerical-fixed.json",
+      "sha256": "91be31b172ce483dc1d29917902e64c33c6af223dfefe667eac7c9f7da003dfc",
+      "bytes": 583944
+    },
+    {
+      "path": "numerical-primary.json",
+      "sha256": "c92dd5d16e4c2b88c3e1821fe64be5eaea71a7f93418b29010238042f797c6cf",
+      "bytes": 24975
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "8399dae9dde43c145991350c15a926c1683eca3ac62b3e97573c8d2609232d19",
+      "bytes": 653
+    },
+    {
+      "path": "raw/star6/android/far50-flat.png",
+      "sha256": "a7972642dd2aa55974f11c5ac90d42a3bbae7879b32ea647d338f5e8ee2a8657",
+      "bytes": 39909
+    },
+    {
+      "path": "raw/star6/android/far50-shape.png",
+      "sha256": "341bf422b0acea05e8a084b1042cbefc3da58d5558c7555eab3fc908d03f41a1",
+      "bytes": 41216
+    },
+    {
+      "path": "raw/star6/android/full100-flat.png",
+      "sha256": "f0206a7a08f59e8eee0f8e900f0d0be29d435688ee7f37ee3bf67af311a0fd43",
+      "bytes": 40145
+    },
+    {
+      "path": "raw/star6/android/full100-shape.png",
+      "sha256": "a58294f8af158567658f95cf01ea0a9426678a51ca0b3194f7c2467e0cca4179",
+      "bytes": 42879
+    },
+    {
+      "path": "raw/star6/android/ingress01-flat.png",
+      "sha256": "8e08c3b412b9c7d27c4312e76c89866e1b975f38088b0bc72510ab558bbb2d2c",
+      "bytes": 40712
+    },
+    {
+      "path": "raw/star6/android/ingress01-shape.png",
+      "sha256": "5b6ec367e82982d8d6970da960c27833a19bd3643905ccf813e5b50c064ff980",
+      "bytes": 41779
+    },
+    {
+      "path": "raw/star6/android/ingress10-flat.png",
+      "sha256": "eab211d3d30530a9508c88325536046005c24ff5aa563a1d0a47733d13f7a774",
+      "bytes": 40816
+    },
+    {
+      "path": "raw/star6/android/ingress10-shape.png",
+      "sha256": "b06f4149ed766ca6c5679c9b21b1d99b6e6bc6432d193b920fb38f3efa1b41a2",
+      "bytes": 41811
+    },
+    {
+      "path": "raw/star6/android/ingress50-flat.png",
+      "sha256": "5495035059a69558cad59f30427520f365c8be130b635469ca78390a3e4ab139",
+      "bytes": 40672
+    },
+    {
+      "path": "raw/star6/android/ingress50-shape.png",
+      "sha256": "98cbffc1bb46a665ee2c7c1ce01e8a280c5a2af7aa13d1d25f0202bdfb2b8ec3",
+      "bytes": 41629
+    },
+    {
+      "path": "raw/star6/android/ingress75-flat.png",
+      "sha256": "639a317fcd45e25ecf8d35c4924b53a52be231df4ddc7ef41f7a201e15a2306c",
+      "bytes": 40393
+    },
+    {
+      "path": "raw/star6/android/ingress75-shape.png",
+      "sha256": "5d887df1f717f88b0abe8947f65e745bdf12784180acbfe4df1e518da1754a9a",
+      "bytes": 41575
+    },
+    {
+      "path": "raw/star6/ios/far50-flat.png",
+      "sha256": "3523fb6c912c881507f575717bd91f02dba1d15a52adc20861c253ec35255f6e",
+      "bytes": 98483
+    },
+    {
+      "path": "raw/star6/ios/far50-shape.png",
+      "sha256": "bd1ade4591cc0dd8bee43741f52791f43869d31d642c09a8e68cd0765e15ede0",
+      "bytes": 98961
+    },
+    {
+      "path": "raw/star6/ios/full100-flat.png",
+      "sha256": "204bcb004cae69652eece5ad5bbd0dea3fc7de803f7070354c0ba59dfe511be8",
+      "bytes": 98361
+    },
+    {
+      "path": "raw/star6/ios/full100-shape.png",
+      "sha256": "d1305b63fba3d29de4feee22a3c4e396c6b936be7267d00c117710b17dba8ece",
+      "bytes": 99837
+    },
+    {
+      "path": "raw/star6/ios/ingress01-flat.png",
+      "sha256": "35c7bf7f593a32a93dced4d0853214225b776e13c0c5074be2388b1826f19960",
+      "bytes": 98454
+    },
+    {
+      "path": "raw/star6/ios/ingress01-shape.png",
+      "sha256": "6c30f8e7ee3bd75f63a3b2ec3b0280fd5a28346687db6030fdd8a6e380f021d6",
+      "bytes": 98976
+    },
+    {
+      "path": "raw/star6/ios/ingress10-flat.png",
+      "sha256": "6c2d36248c9280c60697d20bf3d79a2ad6f16bdb10ea4552a8bea5786a8061ae",
+      "bytes": 98304
+    },
+    {
+      "path": "raw/star6/ios/ingress10-shape.png",
+      "sha256": "5b1ee82fa44cc5a54b9a07371995c1a168de9bc5fd0fdb2af6677f7025113d62",
+      "bytes": 98983
+    },
+    {
+      "path": "raw/star6/ios/ingress50-flat.png",
+      "sha256": "d72215ccad8bdee15a2e4bdee47090427bba40fb9ed8a4ba7f1d9cf02c8c3935",
+      "bytes": 98188
+    },
+    {
+      "path": "raw/star6/ios/ingress50-shape.png",
+      "sha256": "762f99cb3b415991f68c9d66c73ee5c6f0aa5197f7418e826404ffb6fe721a5a",
+      "bytes": 98743
+    },
+    {
+      "path": "raw/star6/ios/ingress75-flat.png",
+      "sha256": "53f0bf4e8d16462d6425650a5f007cd34dbe2553b9fd23b1cb5c6f2d0c4698fc",
+      "bytes": 98188
+    },
+    {
+      "path": "raw/star6/ios/ingress75-shape.png",
+      "sha256": "a96b72884c78cb5e009fe54df1cb6a939ff4b981d92ece8c0e518e773c89e51a",
+      "bytes": 98667
+    },
+    {
+      "path": "raw/star8/android/far50-flat.png",
+      "sha256": "be3c5b901ab33fcb475ff259bcf1c13d56f04ff4893339a89a49a37fb29db1ac",
+      "bytes": 39554
+    },
+    {
+      "path": "raw/star8/android/far50-shape.png",
+      "sha256": "28ac8c9bc1a73e99cb2627480feef78599df83532c60dd1570f21680910e67e4",
+      "bytes": 41648
+    },
+    {
+      "path": "raw/star8/android/full100-flat.png",
+      "sha256": "b2b57ef7703501faf857156b3f755c073c3a0229abef08a12f030763ad9a3ef4",
+      "bytes": 39571
+    },
+    {
+      "path": "raw/star8/android/full100-shape.png",
+      "sha256": "218a52033c1d5a5778a7336725dd696a9e64bce0551c8d7810b504012ca93fac",
+      "bytes": 43044
+    },
+    {
+      "path": "raw/star8/android/ingress01-flat.png",
+      "sha256": "72b1b5addfa601ea24adf31506bf779a0e7fb035c9b6c0f7bfd5179a19b86c08",
+      "bytes": 39762
+    },
+    {
+      "path": "raw/star8/android/ingress01-shape.png",
+      "sha256": "58703d18f9d9ec3b0608f3417dc216dd398e3d036d86b846e49dc521825c5dfc",
+      "bytes": 41994
+    },
+    {
+      "path": "raw/star8/android/ingress10-flat.png",
+      "sha256": "8b0dbb49ad216bf52a1b5be918a1ca6165f473935197cdce6c681c3c6b799101",
+      "bytes": 39656
+    },
+    {
+      "path": "raw/star8/android/ingress10-shape.png",
+      "sha256": "c52c66a9f5156248685dca0dd270bd26482d75f153c8e32f1965241870a9693e",
+      "bytes": 41339
+    },
+    {
+      "path": "raw/star8/android/ingress50-flat.png",
+      "sha256": "41540ec4134b2889944b9ed847711a56cb94b6ac5f2fd0ff69bb22e84fbaa98d",
+      "bytes": 39989
+    },
+    {
+      "path": "raw/star8/android/ingress50-shape.png",
+      "sha256": "0ed5b767f4ffdfd1c0e9ea8cc21ca165721939ec3516071d1bf3f1c447b7679c",
+      "bytes": 41895
+    },
+    {
+      "path": "raw/star8/android/ingress75-flat.png",
+      "sha256": "0f66939519d63305180d0042c84c529dca9668db0c2c25fb87bb1e9bd4eee4b4",
+      "bytes": 39919
+    },
+    {
+      "path": "raw/star8/android/ingress75-shape.png",
+      "sha256": "cef173286fcac3b6531a27ea664dc8de681e80c7aa51a13553411523fdc35c83",
+      "bytes": 41957
+    },
+    {
+      "path": "raw/star8/ios/far50-flat.png",
+      "sha256": "70d38e7a15bf29fcd7f0505dbc1a03bf3b3fc3cc67c4863d750abfb9d79f8272",
+      "bytes": 98041
+    },
+    {
+      "path": "raw/star8/ios/far50-shape.png",
+      "sha256": "e072e73b80522aa13ef07288d3d9e74997d4401cc039be4e3d8c10730a52b1c6",
+      "bytes": 98972
+    },
+    {
+      "path": "raw/star8/ios/full100-flat.png",
+      "sha256": "47a3a9f4d4eb093c835fbafec53a88d685a806f5c0e6847d4251f3f8f37b86c0",
+      "bytes": 98314
+    },
+    {
+      "path": "raw/star8/ios/full100-shape.png",
+      "sha256": "7f202207ff606c9fae81329252e652026fd682ff6c2f423f013f35da7c391dde",
+      "bytes": 100099
+    },
+    {
+      "path": "raw/star8/ios/ingress01-flat.png",
+      "sha256": "56149b6b1379db8ec8ec700225b0fbafbb058ffe6c27d242dde221a9edb99f99",
+      "bytes": 98031
+    },
+    {
+      "path": "raw/star8/ios/ingress01-shape.png",
+      "sha256": "f9c04958994ac2e93244541bfe97c29bb63d79d35cf84e0370b40d911b5e47b1",
+      "bytes": 98983
+    },
+    {
+      "path": "raw/star8/ios/ingress10-flat.png",
+      "sha256": "277f89fa1ff781b0513054d9406ebe95b9a8d7bae0a41596ac2128a1cd618a85",
+      "bytes": 98062
+    },
+    {
+      "path": "raw/star8/ios/ingress10-shape.png",
+      "sha256": "ea17edfef65ce91a7d9d1248a9a5685340e354f51990ba300bc96d797230c81e",
+      "bytes": 98820
+    },
+    {
+      "path": "raw/star8/ios/ingress50-flat.png",
+      "sha256": "3060e15073b0cfd2c77803c8b3ca6778dcc270121cc4745c83e4addd39fb9927",
+      "bytes": 98111
+    },
+    {
+      "path": "raw/star8/ios/ingress50-shape.png",
+      "sha256": "db23e86917541778bcd6eeb204e5b85f05f6ebd9f97b86c009e1fd23c34a9417",
+      "bytes": 99089
+    },
+    {
+      "path": "raw/star8/ios/ingress75-flat.png",
+      "sha256": "9e5b0b6ecd33a2eb72187e60dde74adbd0831db9b74e9ce0dfe463790582157f",
+      "bytes": 98232
+    },
+    {
+      "path": "raw/star8/ios/ingress75-shape.png",
+      "sha256": "b0bbef3607ac66610f5148365cb99e84a6b992b4e8288441e97bdf54bc7f48c9",
+      "bytes": 99324
+    },
+    {
+      "path": "rejected-six-point-incident.json",
+      "sha256": "e7a5c0d1ddb817c0c2f5ff6fa0df0bd251ae516ab867595b1f7c623f3b9036b1",
+      "bytes": 1145
+    },
+    {
+      "path": "reproduce-figures.py",
+      "sha256": "034094e4793dfd754098fd78e276633c16eb4caad57a6c27ba288df861692d17",
+      "bytes": 7032
+    },
+    {
+      "path": "requirements-figures.txt",
+      "sha256": "570c9387510a35edf1e287600993944ebc8ee5af602c809cf00cd57e2b723779",
+      "bytes": 15
+    },
+    {
+      "path": "shared-assets.json",
+      "sha256": "f7b60f43df74f226edbd29923d4bf657171ae00936bc3d8d109793a8b5ba2b68",
+      "bytes": 13998
+    },
+    {
+      "path": "sources/star6/android-derivation-receipt.json",
+      "sha256": "897b9bea3ab36f9ae40c4754b99c879e25b5e8c00610723e865b090cca88aaa7",
+      "bytes": 2737
+    },
+    {
+      "path": "sources/star6/android-matched-spec.json",
+      "sha256": "e1c785e9ac724a5bf5e83da1b82319f40c73fffa3cc821fd8d13c3538f666cac",
+      "bytes": 54099
+    },
+    {
+      "path": "sources/star6/assets.json",
+      "sha256": "fdeb04b3357d7d9eff7d707c41c893bde1d1bbd1eaed9c324f8aa8af17bcb0be",
+      "bytes": 20030
+    },
+    {
+      "path": "sources/star6/frozen-spec.json",
+      "sha256": "6986900b4de6b2f1bcdc15ab4c2e97ca563617e216dbb569e7b841dafcc7edaf",
+      "bytes": 43313
+    },
+    {
+      "path": "sources/star6/inputs-manifest.json",
+      "sha256": "6930d906ce298120662802ca93ac0cce84ec84b17926c3638b97a6729b24574c",
+      "bytes": 1624
+    },
+    {
+      "path": "sources/star6/protocol-fingerprints.json",
+      "sha256": "6598a1977d41828a1ca363015c4c6626ee7218dbc310047345ccbb1903e2e9b2",
+      "bytes": 7351
+    },
+    {
+      "path": "sources/star8/android-derivation-receipt.json",
+      "sha256": "419d777dcab6aceeb8ebf259f331f24bcb2a2af92450417d0a1d576b5372fa53",
+      "bytes": 2737
+    },
+    {
+      "path": "sources/star8/android-matched-spec.json",
+      "sha256": "31957a00b8b89532e9aa2984bb18065f57b8e86e32a5b4ce6fdd42a17dfc9471",
+      "bytes": 54112
+    },
+    {
+      "path": "sources/star8/assets.json",
+      "sha256": "8511d70286ea20602104bba99a5de58be528c912e131b6dc53f89d95b2e8bf5e",
+      "bytes": 20030
+    },
+    {
+      "path": "sources/star8/frozen-spec.json",
+      "sha256": "073565c8b9f03cfb29762ada32f6fb89bfdeb79bf0cc1de27d7b99dc335503b6",
+      "bytes": 43327
+    },
+    {
+      "path": "sources/star8/inputs-manifest.json",
+      "sha256": "d807b924713d5b4f1256a1b62dee1d54ca035e81983047ed7f98e435f169bf36",
+      "bytes": 1624
+    },
+    {
+      "path": "sources/star8/protocol-fingerprints.json",
+      "sha256": "9a51327195815f6b54bdc41bcba0a153b65e3f03bf5fcfbf27dbc4d70cbf020c",
+      "bytes": 7351
+    },
+    {
+      "path": "verification.json",
+      "sha256": "9d3ff00f96a3ac401f1fdf33ded51601061f733f2b1dfda1b1a66e5edbca8c50",
+      "bytes": 48775
+    }
+  ],
+  "shared_dependencies": [
+    {
+      "path": "../glass-slider-star-20261115/source/inputs/st00_flat128.png",
+      "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "bytes": 5221
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/inputs/st01_rgb_star_d16.png",
+      "sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+      "bytes": 5780
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/inputs/st02_rgb_star6_d16.png",
+      "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "bytes": 5828
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/inputs/st03_rgb_star7_d16.png",
+      "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "bytes": 5921
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/inputs/st04_rgb_star8_d16.png",
+      "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "bytes": 5997
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/inputs/st05_rgb_star5_d12.png",
+      "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "bytes": 5634
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/inputs/st06_rgb_star6_d12.png",
+      "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "bytes": 5673
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/inputs/st07_rgb_star7_d12.png",
+      "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+      "bytes": 5751
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-coverage16.png",
+      "sha256": "31f4e39921a4a32aad0ddfb1f43fa124aa5a268928cebfeb7ea380f23a83ad03",
+      "bytes": 1331
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-left_blue-coverage16.png",
+      "sha256": "0520b9b21148d9b0febef0f706c5ae9766d6ba3f6600d483e6d0f1980083202d",
+      "bytes": 1170
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-left_blue-support.png",
+      "sha256": "c131ee8c55a619c398de3db039ad32a81434e82a1bd37bd6549fde85ec3b951f",
+      "bytes": 1115
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-middle_red-coverage16.png",
+      "sha256": "be435873597074d453fa0f9b131e7db9349d64b5822b20f05c043ff2fca56076",
+      "bytes": 1163
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-middle_red-support.png",
+      "sha256": "e3ec59cc686e8d71a3413bbaa8b08af5b65e238ecb4e20ea2b92207c62cb2a50",
+      "bytes": 1111
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-right_green-coverage16.png",
+      "sha256": "7179be95421bb874a102356a57963f129831669ad05ca3cfedf7264282a8c828",
+      "bytes": 1170
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-right_green-support.png",
+      "sha256": "e91bcaf5bee7b003fca7500102262079d42d31a2eb531a7657e3d474ac86a7d3",
+      "bytes": 1116
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st01_rgb_star_d16-support.png",
+      "sha256": "00cfa05cda61163b9d186531fcbcf9362444da7702d5ee1fc34e084208740081",
+      "bytes": 1187
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-coverage16.png",
+      "sha256": "e7e59c151149960992fd09393d56a7aba5532e17cb9c52683cff7e9aae318615",
+      "bytes": 1340
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-left_blue-coverage16.png",
+      "sha256": "f9bc4111dec0e4d365ac57034eeb48efad895ac05a4eb9ea1fd745075156c42f",
+      "bytes": 1164
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-left_blue-support.png",
+      "sha256": "85982dac0145570961a6f76833862c4b76c88ced0f641c673be2678bb0969a02",
+      "bytes": 1103
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-middle_red-coverage16.png",
+      "sha256": "e3bea1f45af533a8c337eb17e2dc9752bc3ba947cedc3a4f1c07496d6dbe5966",
+      "bytes": 1185
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-middle_red-support.png",
+      "sha256": "3f276a66c18bb99946fec429261a2a2cea361b3d43df47fbae782fa1d45efd8d",
+      "bytes": 1124
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-right_green-coverage16.png",
+      "sha256": "6e4debbc86621060abeb7f029c4e5642d691a3845464871f353c920528965548",
+      "bytes": 1158
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-right_green-support.png",
+      "sha256": "9ae2122b87f405329f7091548f69ef5be08d1c347f41abc6eb34c3f8e47c2a86",
+      "bytes": 1103
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st02_rgb_star6_d16-support.png",
+      "sha256": "272fd00a4232ced6ba907257d1155aa31e30bc248801f7a7e11b5ed888906845",
+      "bytes": 1181
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-coverage16.png",
+      "sha256": "10993d87aae70b647c1c81a129f4eebea1f3891bb56f700b3aaefc94c2117378",
+      "bytes": 1385
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-left_blue-coverage16.png",
+      "sha256": "be0dd180e28efda68dd41fdef0d80df4bd22dbaba5d0fada12983293685f6fb0",
+      "bytes": 1207
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-left_blue-support.png",
+      "sha256": "b8af1ddfb7ef96f2be63839f3cfd21e22cf8823b169b3aabc17858765a722d70",
+      "bytes": 1131
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-middle_red-coverage16.png",
+      "sha256": "05bd68d070f2b109a6ab97b5c7334b479d099258146bf68ab49dd8caf82ac0d1",
+      "bytes": 1180
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-middle_red-support.png",
+      "sha256": "65b97c13da3d95eada2608a9596873cd94c32c8ea0121664dc62b1f10c2d9dcc",
+      "bytes": 1118
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-right_green-coverage16.png",
+      "sha256": "2366d64026a880250e454ff7490d4f9b4617c700f0d6bc45d571da51f163dc96",
+      "bytes": 1207
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-right_green-support.png",
+      "sha256": "32da54fc9bbf3b09bd66c03a4d51760918a0b175b1eaad2d3920711e498085e3",
+      "bytes": 1129
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st03_rgb_star7_d16-support.png",
+      "sha256": "58b00750e51f6a9f6147886ec38acd592ac9d846225d3b0148d12754027b3bf4",
+      "bytes": 1208
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-coverage16.png",
+      "sha256": "b007afeb34ec62e39fb475540a3bea9aac68b22340cda7a98e32e7593a03467b",
+      "bytes": 1404
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-left_blue-coverage16.png",
+      "sha256": "16bfa4b9a12f4f3c12fe214af6a9a00aa82e9c22258c9e9d1754abab8ab4b698",
+      "bytes": 1206
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-left_blue-support.png",
+      "sha256": "8bb94797da8cfebd3a32b066741cf74c2e5a269a39a0f9a1ed4180bd6a66b4f0",
+      "bytes": 1135
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-middle_red-coverage16.png",
+      "sha256": "cf0825e9d91c00b0d0bfac5d7f11183ce4fafbc210b9263e0299d23c79c84eb9",
+      "bytes": 1212
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-middle_red-support.png",
+      "sha256": "bd70a94b2414a97c0f9a64385f26e6b6b277394a2b7b381c9949a5000c996e80",
+      "bytes": 1124
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-right_green-coverage16.png",
+      "sha256": "227171dd0daf024ff6f4053e23754160147ab8a30206c98b153f0a41639a87e7",
+      "bytes": 1209
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-right_green-support.png",
+      "sha256": "16ef706c8fde928de56618d1101cf0d3ccb9e87890feee5b7e6742388eb73ab5",
+      "bytes": 1136
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st04_rgb_star8_d16-support.png",
+      "sha256": "37c5817ddf682b7768715f7739496183ace1bc4c67b46f88d8985e726d4d305c",
+      "bytes": 1217
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-coverage16.png",
+      "sha256": "172eb7ca43a5f609c7735cc45dad3f644c213f45c2bb9f57f477497ebb4a27b1",
+      "bytes": 1262
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-left_blue-coverage16.png",
+      "sha256": "aa7931e29e856d37586b714e57398f1cd1e3a1093d3865cddb60ef0b6b8fb9b1",
+      "bytes": 1149
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-left_blue-support.png",
+      "sha256": "10fbe3c94ab0650ba567ba941e03b290b162364a52064b20b53c8bf5aeef74bc",
+      "bytes": 1101
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-middle_red-coverage16.png",
+      "sha256": "5c818cd0125f3c53fcba48c1b76235efba3e45fb59e10fecb3d8fcd6cfc053fc",
+      "bytes": 1140
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-middle_red-support.png",
+      "sha256": "6bd3f6494c9e5166802875c02eae858aa26e1d82535d7ae67f65a775347e4356",
+      "bytes": 1099
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-right_green-coverage16.png",
+      "sha256": "f8c7118ddca6932e2cd2afc07aeeb4fa1e483ef4685df674286ef77a4122ee5f",
+      "bytes": 1149
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-right_green-support.png",
+      "sha256": "61637497ddc2dcac7349557cccee1255698bfcfdbf9b016eb3e171caf29209cf",
+      "bytes": 1099
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st05_rgb_star5_d12-support.png",
+      "sha256": "ed216587c64df0fe452282449679d2c19e73b82366c93e010e26f483316b3dab",
+      "bytes": 1150
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-coverage16.png",
+      "sha256": "578b89fe7f4c0e23c786f6a929e128208662e57de763590a8d55d4f959755b50",
+      "bytes": 1269
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-left_blue-coverage16.png",
+      "sha256": "d22d33eb8442013c238ff5ca1b71159d1bf4b37641d288a94b95dd0beecdc5da",
+      "bytes": 1135
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-left_blue-support.png",
+      "sha256": "9c357bbc9d7a117215f906b3a7aa654687bc3ac66a70201a0ce5c765e28f1fd0",
+      "bytes": 1094
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-middle_red-coverage16.png",
+      "sha256": "11e0eb3d06abed278b88e4881b50041900d9c4ff6039cbd01aa03436a1566146",
+      "bytes": 1162
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-middle_red-support.png",
+      "sha256": "9044b292859fd4287f72a010047c9af9f9432347a23124711e14a073a3845646",
+      "bytes": 1106
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-right_green-coverage16.png",
+      "sha256": "49c968bc242180a4e400f1ca36b76658bb37e9ea7543cdb149985064a1f51f13",
+      "bytes": 1140
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-right_green-support.png",
+      "sha256": "d65d01c23ff008aa8d181d9192b9a5892d79d1ae00e8cdeddb2ee4c4a7acdcc9",
+      "bytes": 1094
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st06_rgb_star6_d12-support.png",
+      "sha256": "88ba9f2eead743fd1bab0fc84ff398ad4698d537b287d7bef6064383c3051cc7",
+      "bytes": 1161
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-coverage16.png",
+      "sha256": "f0d5a1ffb453a81233c2f1b527007b8c79e655397aa2656e8926e2635e3823a0",
+      "bytes": 1293
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-left_blue-coverage16.png",
+      "sha256": "72ed936160d34cd6a4d0ee52093ea7f0861aa5c200844651acec304edabea5da",
+      "bytes": 1173
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-left_blue-support.png",
+      "sha256": "3a41412365216d759533a5aca563e8d87a9b5c433b7c3fabf1069161d33a1fc5",
+      "bytes": 1108
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-middle_red-coverage16.png",
+      "sha256": "ac6baef35973ad64edb08b59675f568ea00dc8531a410a384216355fff1b9cbb",
+      "bytes": 1143
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-middle_red-support.png",
+      "sha256": "1282575f56a018b5d1e48e53216ba7d9101d62af1785cbd44278feb495891bc9",
+      "bytes": 1101
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-right_green-coverage16.png",
+      "sha256": "c6b9efb1d8a9d978635deb853d9be24162fd3dfd019515e792d1f44b267d0433",
+      "bytes": 1171
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-right_green-support.png",
+      "sha256": "19a4021b4208ecb1d403c4fc5a63cbdaa37b852e94334590c8d042058ab5c984",
+      "bytes": 1109
+    },
+    {
+      "path": "../glass-slider-star-20261115/source/masks/st07_rgb_star7_d12-support.png",
+      "sha256": "a7c2fd3b68002619050dd377fd4afc651e4c38bbba855651d6189ef879849ed8",
+      "bytes": 1164
+    }
+  ],
+  "shared_dependency_count": 64,
+  "shared_dependency_bytes": 111306,
+  "companion_report": {
+    "path": "../../../glass-slider-holdout-validation.md",
+    "sha256": "d38247e5708e80578bcecb3ba4bf2e9fc31f8e7db5c78ea7812c9b737742e8d1",
+    "bytes": 8837
+  }
+}

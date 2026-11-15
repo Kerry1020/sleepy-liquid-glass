@@ -1,0 +1,1088 @@
+{
+  "schema": 1,
+  "scope": "Actual public carrier and source geometry retained without registration; capsule overlap is not optical alpha.",
+  "shapes": {
+    "star8": {
+      "shape_id": "st04_rgb_star8_d16",
+      "stages": [
+        {
+          "stage_id": "ingress01",
+          "requested_stage_label_only": {
+            "id": "ingress01",
+            "requested_fraction": 0.01,
+            "side": "ingress",
+            "requested_lens_center_world_pt": [
+              154.84733863023416,
+              429.5
+            ],
+            "requested_finger_world_pt": [
+              170.5431491313035,
+              430.0
+            ],
+            "predicted_capsule_source_area_fraction": 0.010000000000000389,
+            "predicted_public_rect_source_area_fraction": 0.09537747862746082,
+            "uncorrected_requested_finger_world_pt": [
+              155.34733863023416,
+              430.0
+            ],
+            "predicted_center_from_requested_finger_world_pt": [
+              154.84733863023416,
+              429.5
+            ]
+          },
+          "native_actual_carrier_bounds_world_xywh": [
+            126.13395763635636,
+            410.9,
+            57.35000000000001,
+            37.19999999999999
+          ],
+          "android_actual_carrier_bounds_world_xywh": [
+            126.10712,
+            410.84595,
+            57.483260000000016,
+            37.308130000000006
+          ],
+          "android_minus_native_carrier_center_world": [
+            0.03979236364364169,
+            1.500000001897206e-05
+          ],
+          "native_actual_discrete_capsule_approximation": 0.009390503189227498,
+          "android_actual_discrete_capsule_approximation": 0.009744861800141743,
+          "native_source_render_scale_xy": [
+            1.0,
+            1.0
+          ],
+          "android_source_render_scale_xy": [
+            1.0003361008290386,
+            0.9998361827376697
+          ],
+          "native_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.0,
+            "png_size_px": [
+              750,
+              1334
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "android_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.9750001,
+            "png_size_px": [
+              1216,
+              2640
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "native_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ],
+          "android_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "original_source_rendered_into_observed_integer_layout_scale_not_ideal_world_size",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ]
+        },
+        {
+          "stage_id": "ingress10",
+          "requested_stage_label_only": {
+            "id": "ingress10",
+            "requested_fraction": 0.1,
+            "side": "ingress",
+            "requested_lens_center_world_pt": [
+              157.42353231198268,
+              429.5
+            ],
+            "requested_finger_world_pt": [
+              173.4392057869604,
+              430.0
+            ],
+            "predicted_capsule_source_area_fraction": 0.099999999999999,
+            "predicted_public_rect_source_area_fraction": 0.3212321503913189,
+            "uncorrected_requested_finger_world_pt": [
+              157.92353231198268,
+              430.0
+            ],
+            "predicted_center_from_requested_finger_world_pt": [
+              157.42353231198268,
+              429.5
+            ]
+          },
+          "native_actual_carrier_bounds_world_xywh": [
+            128.80261034965514,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ],
+          "android_actual_carrier_bounds_world_xywh": [
+            128.79605,
+            410.846,
+            57.48354999999998,
+            37.30799999999999
+          ],
+          "android_minus_native_carrier_center_world": [
+            0.06021465034484663,
+            0.0
+          ],
+          "native_actual_discrete_capsule_approximation": 0.10240963855421686,
+          "android_actual_discrete_capsule_approximation": 0.10435861091424521,
+          "native_source_render_scale_xy": [
+            1.0,
+            1.0
+          ],
+          "android_source_render_scale_xy": [
+            1.0003361008290386,
+            0.9998361827376697
+          ],
+          "native_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.0,
+            "png_size_px": [
+              750,
+              1334
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "android_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.9750001,
+            "png_size_px": [
+              1216,
+              2640
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "native_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ],
+          "android_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "original_source_rendered_into_observed_integer_layout_scale_not_ideal_world_size",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ]
+        },
+        {
+          "stage_id": "ingress50",
+          "requested_stage_label_only": {
+            "id": "ingress50",
+            "requested_fraction": 0.5,
+            "side": "ingress",
+            "requested_lens_center_world_pt": [
+              162.01143185099932,
+              429.5
+            ],
+            "requested_finger_world_pt": [
+              178.59674385934488,
+              430.0
+            ],
+            "predicted_capsule_source_area_fraction": 0.4999999999999982,
+            "predicted_public_rect_source_area_fraction": 0.833641281043304,
+            "uncorrected_requested_finger_world_pt": [
+              162.51143185099932,
+              430.0
+            ],
+            "predicted_center_from_requested_finger_world_pt": [
+              162.01143185099932,
+              429.5
+            ]
+          },
+          "native_actual_carrier_bounds_world_xywh": [
+            133.2503767132759,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ],
+          "android_actual_carrier_bounds_world_xywh": [
+            133.16557,
+            410.8462,
+            57.48400000000001,
+            37.30763999999999
+          ],
+          "android_minus_native_carrier_center_world": [
+            -0.017806713275888342,
+            2.0000000006348273e-05
+          ],
+          "native_actual_discrete_capsule_approximation": 0.49184975194897235,
+          "android_actual_discrete_capsule_approximation": 0.4858256555634302,
+          "native_source_render_scale_xy": [
+            1.0,
+            1.0
+          ],
+          "android_source_render_scale_xy": [
+            1.0003361008290386,
+            0.9998361827376697
+          ],
+          "native_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.0,
+            "png_size_px": [
+              750,
+              1334
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "android_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.9750001,
+            "png_size_px": [
+              1216,
+              2640
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "native_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ],
+          "android_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "original_source_rendered_into_observed_integer_layout_scale_not_ideal_world_size",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ]
+        },
+        {
+          "stage_id": "ingress75",
+          "requested_stage_label_only": {
+            "id": "ingress75",
+            "requested_fraction": 0.75,
+            "side": "ingress",
+            "requested_lens_center_world_pt": [
+              164.6822455077865,
+              429.5
+            ],
+            "requested_finger_world_pt": [
+              181.59916860774655,
+              430.0
+            ],
+            "predicted_capsule_source_area_fraction": 0.749999999999999,
+            "predicted_public_rect_source_area_fraction": 0.9846512496359253,
+            "uncorrected_requested_finger_world_pt": [
+              165.1822455077865,
+              430.0
+            ],
+            "predicted_center_from_requested_finger_world_pt": [
+              164.6822455077865,
+              429.5
+            ]
+          },
+          "native_actual_carrier_bounds_world_xywh": [
+            135.9190294265747,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ],
+          "android_actual_carrier_bounds_world_xywh": [
+            135.8545,
+            410.84625,
+            57.48428999999999,
+            37.307500000000005
+          ],
+          "android_minus_native_carrier_center_world": [
+            0.0026155734252881757,
+            0.0
+          ],
+          "native_actual_discrete_capsule_approximation": 0.742735648476258,
+          "android_actual_discrete_capsule_approximation": 0.7411410347271439,
+          "native_source_render_scale_xy": [
+            1.0,
+            1.0
+          ],
+          "android_source_render_scale_xy": [
+            1.0003361008290386,
+            0.9998361827376697
+          ],
+          "native_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.0,
+            "png_size_px": [
+              750,
+              1334
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "android_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.9750001,
+            "png_size_px": [
+              1216,
+              2640
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "native_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ],
+          "android_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "original_source_rendered_into_observed_integer_layout_scale_not_ideal_world_size",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ]
+        },
+        {
+          "stage_id": "full100",
+          "requested_stage_label_only": {
+            "id": "full100",
+            "requested_fraction": 1.0,
+            "side": "ingress",
+            "requested_lens_center_world_pt": [
+              187.5,
+              429.5
+            ],
+            "requested_finger_world_pt": [
+              207.25,
+              430.0
+            ],
+            "predicted_capsule_source_area_fraction": 1.0,
+            "predicted_public_rect_source_area_fraction": 1.0,
+            "uncorrected_requested_finger_world_pt": [
+              188.0,
+              430.0
+            ],
+            "predicted_center_from_requested_finger_world_pt": [
+              187.5,
+              429.5
+            ]
+          },
+          "native_actual_carrier_bounds_world_xywh": [
+            159.04738254547118,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ],
+          "android_actual_carrier_bounds_world_xywh": [
+            159.04657,
+            410.84705,
+            57.48670999999999,
+            37.30589999999995
+          ],
+          "android_minus_native_carrier_center_world": [
+            0.06754245452879104,
+            0.0
+          ],
+          "native_actual_discrete_capsule_approximation": 1.0,
+          "android_actual_discrete_capsule_approximation": 1.0,
+          "native_source_render_scale_xy": [
+            1.0,
+            1.0
+          ],
+          "android_source_render_scale_xy": [
+            1.0003361008290386,
+            0.9998361827376697
+          ],
+          "native_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.0,
+            "png_size_px": [
+              750,
+              1334
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "android_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.9750001,
+            "png_size_px": [
+              1216,
+              2640
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "native_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ],
+          "android_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "original_source_rendered_into_observed_integer_layout_scale_not_ideal_world_size",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ]
+        },
+        {
+          "stage_id": "far50",
+          "requested_stage_label_only": {
+            "id": "far50",
+            "requested_fraction": 0.5,
+            "side": "egress",
+            "requested_lens_center_world_pt": [
+              212.98856814900068,
+              429.5
+            ],
+            "requested_finger_world_pt": [
+              235.90325614065512,
+              430.0
+            ],
+            "predicted_capsule_source_area_fraction": 0.4999999999999982,
+            "predicted_public_rect_source_area_fraction": 0.833641281043304,
+            "uncorrected_requested_finger_world_pt": [
+              213.48856814900068,
+              430.0
+            ],
+            "predicted_center_from_requested_finger_world_pt": [
+              212.98856814900066,
+              429.5
+            ]
+          },
+          "native_actual_carrier_bounds_world_xywh": [
+            184.39963216781615,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ],
+          "android_actual_carrier_bounds_world_xywh": [
+            184.25534,
+            410.8479,
+            57.489330000000024,
+            37.30417
+          ],
+          "android_minus_native_carrier_center_world": [
+            -0.07462716781617473,
+            -1.500000001897206e-05
+          ],
+          "native_actual_discrete_capsule_approximation": 0.49184975194897235,
+          "android_actual_discrete_capsule_approximation": 0.5081502480510276,
+          "native_source_render_scale_xy": [
+            1.0,
+            1.0
+          ],
+          "android_source_render_scale_xy": [
+            1.0003361008290386,
+            0.9998361827376697
+          ],
+          "native_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.0,
+            "png_size_px": [
+              750,
+              1334
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "android_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.9750001,
+            "png_size_px": [
+              1216,
+              2640
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "native_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ],
+          "android_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "original_source_rendered_into_observed_integer_layout_scale_not_ideal_world_size",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ]
+        }
+      ]
+    },
+    "star6": {
+      "shape_id": "st06_rgb_star6_d12",
+      "stages": [
+        {
+          "stage_id": "ingress01",
+          "requested_stage_label_only": {
+            "id": "ingress01",
+            "requested_fraction": 0.01,
+            "side": "ingress",
+            "requested_lens_center_world_pt": [
+              156.23597902871347,
+              429.5
+            ],
+            "requested_finger_world_pt": [
+              172.10420461281547,
+              430.0
+            ],
+            "predicted_capsule_source_area_fraction": 0.009999999999999995,
+            "predicted_public_rect_source_area_fraction": 0.14372187048969728,
+            "uncorrected_requested_finger_world_pt": [
+              156.73597902871347,
+              430.0
+            ],
+            "predicted_center_from_requested_finger_world_pt": [
+              156.23597902871347,
+              429.5
+            ]
+          },
+          "native_actual_carrier_bounds_world_xywh": [
+            127.46827955245972,
+            410.9,
+            57.35000000000001,
+            37.19999999999999
+          ],
+          "android_actual_carrier_bounds_world_xywh": [
+            127.451584,
+            410.84598,
+            57.483416000000005,
+            37.308040000000005
+          ],
+          "android_minus_native_carrier_center_world": [
+            0.05001244754026857,
+            0.0
+          ],
+          "native_actual_discrete_capsule_approximation": 0.008664955070603338,
+          "android_actual_discrete_capsule_approximation": 0.008664955070603338,
+          "native_source_render_scale_xy": [
+            1.0,
+            1.0
+          ],
+          "android_source_render_scale_xy": [
+            1.0003361008290386,
+            0.9998361827376697
+          ],
+          "native_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.0,
+            "png_size_px": [
+              750,
+              1334
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "android_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.9750001,
+            "png_size_px": [
+              1216,
+              2640
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "native_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ],
+          "android_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "original_source_rendered_into_observed_integer_layout_scale_not_ideal_world_size",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ]
+        },
+        {
+          "stage_id": "ingress10",
+          "requested_stage_label_only": {
+            "id": "ingress10",
+            "requested_fraction": 0.1,
+            "side": "ingress",
+            "requested_lens_center_world_pt": [
+              158.94399915252853,
+              429.5
+            ],
+            "requested_finger_world_pt": [
+              175.1484554231445,
+              430.0
+            ],
+            "predicted_capsule_source_area_fraction": 0.09999999999999994,
+            "predicted_public_rect_source_area_fraction": 0.5285921845975982,
+            "uncorrected_requested_finger_world_pt": [
+              159.44399915252853,
+              430.0
+            ],
+            "predicted_center_from_requested_finger_world_pt": [
+              158.94399915252853,
+              429.5
+            ]
+          },
+          "native_actual_carrier_bounds_world_xywh": [
+            130.13694114685057,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ],
+          "android_actual_carrier_bounds_world_xywh": [
+            130.14052,
+            410.84607,
+            57.48366999999999,
+            37.307889999999986
+          ],
+          "android_minus_native_carrier_center_world": [
+            0.07041385314943227,
+            1.499999996212864e-05
+          ],
+          "native_actual_discrete_capsule_approximation": 0.09082156611039795,
+          "android_actual_discrete_capsule_approximation": 0.09274711168164314,
+          "native_source_render_scale_xy": [
+            1.0,
+            1.0
+          ],
+          "android_source_render_scale_xy": [
+            1.0003361008290386,
+            0.9998361827376697
+          ],
+          "native_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.0,
+            "png_size_px": [
+              750,
+              1334
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "android_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.9750001,
+            "png_size_px": [
+              1216,
+              2640
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "native_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ],
+          "android_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "original_source_rendered_into_observed_integer_layout_scale_not_ideal_world_size",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ]
+        },
+        {
+          "stage_id": "ingress50",
+          "requested_stage_label_only": {
+            "id": "ingress50",
+            "requested_fraction": 0.5,
+            "side": "ingress",
+            "requested_lens_center_world_pt": [
+              161.8268237647497,
+              429.5
+            ],
+            "requested_finger_world_pt": [
+              178.38921463486963,
+              430.0
+            ],
+            "predicted_capsule_source_area_fraction": 0.5000000000000006,
+            "predicted_public_rect_source_area_fraction": 0.8979719144669521,
+            "uncorrected_requested_finger_world_pt": [
+              162.3268237647497,
+              430.0
+            ],
+            "predicted_center_from_requested_finger_world_pt": [
+              161.8268237647497,
+              429.5
+            ]
+          },
+          "native_actual_carrier_bounds_world_xywh": [
+            133.2503767132759,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ],
+          "android_actual_carrier_bounds_world_xywh": [
+            133.16557,
+            410.8462,
+            57.48400000000001,
+            37.30763999999999
+          ],
+          "android_minus_native_carrier_center_world": [
+            -0.017806713275888342,
+            2.0000000006348273e-05
+          ],
+          "native_actual_discrete_capsule_approximation": 0.5093068035943518,
+          "android_actual_discrete_capsule_approximation": 0.504813863928113,
+          "native_source_render_scale_xy": [
+            1.0,
+            1.0
+          ],
+          "android_source_render_scale_xy": [
+            1.0003361008290386,
+            0.9998361827376697
+          ],
+          "native_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.0,
+            "png_size_px": [
+              750,
+              1334
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "android_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.9750001,
+            "png_size_px": [
+              1216,
+              2640
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "native_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "color_evidence_intersects_conservative_rail_confounded_domain",
+            "multiple_color_components_all_retained_no_forced_identity"
+          ],
+          "android_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "original_source_rendered_into_observed_integer_layout_scale_not_ideal_world_size",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ]
+        },
+        {
+          "stage_id": "ingress75",
+          "requested_stage_label_only": {
+            "id": "ingress75",
+            "requested_fraction": 0.75,
+            "side": "ingress",
+            "requested_lens_center_world_pt": [
+              164.0382628809861,
+              429.5
+            ],
+            "requested_finger_world_pt": [
+              180.87522840647767,
+              430.0
+            ],
+            "predicted_capsule_source_area_fraction": 0.7499999999999972,
+            "predicted_public_rect_source_area_fraction": 1.0,
+            "uncorrected_requested_finger_world_pt": [
+              164.5382628809861,
+              430.0
+            ],
+            "predicted_center_from_requested_finger_world_pt": [
+              164.0382628809861,
+              429.5
+            ]
+          },
+          "native_actual_carrier_bounds_world_xywh": [
+            135.47425545454024,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ],
+          "android_actual_carrier_bounds_world_xywh": [
+            135.18225,
+            410.84625,
+            57.48425,
+            37.307500000000005
+          ],
+          "android_minus_native_carrier_center_world": [
+            -0.22488045454025496,
+            0.0
+          ],
+          "native_actual_discrete_capsule_approximation": 0.7657252888318357,
+          "android_actual_discrete_capsule_approximation": 0.7310654685494223,
+          "native_source_render_scale_xy": [
+            1.0,
+            1.0
+          ],
+          "android_source_render_scale_xy": [
+            1.0003361008290386,
+            0.9998361827376697
+          ],
+          "native_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.0,
+            "png_size_px": [
+              750,
+              1334
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "android_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.9750001,
+            "png_size_px": [
+              1216,
+              2640
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "native_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "color_evidence_intersects_conservative_rail_confounded_domain",
+            "multiple_color_components_all_retained_no_forced_identity"
+          ],
+          "android_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "original_source_rendered_into_observed_integer_layout_scale_not_ideal_world_size",
+            "color_evidence_intersects_conservative_rail_confounded_domain",
+            "multiple_color_components_all_retained_no_forced_identity"
+          ]
+        },
+        {
+          "stage_id": "full100",
+          "requested_stage_label_only": {
+            "id": "full100",
+            "requested_fraction": 1.0,
+            "side": "ingress",
+            "requested_lens_center_world_pt": [
+              187.5,
+              429.5
+            ],
+            "requested_finger_world_pt": [
+              207.25,
+              430.0
+            ],
+            "predicted_capsule_source_area_fraction": 1.0,
+            "predicted_public_rect_source_area_fraction": 1.0,
+            "uncorrected_requested_finger_world_pt": [
+              188.0,
+              430.0
+            ],
+            "predicted_center_from_requested_finger_world_pt": [
+              187.5,
+              429.5
+            ]
+          },
+          "native_actual_carrier_bounds_world_xywh": [
+            159.04738254547118,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ],
+          "android_actual_carrier_bounds_world_xywh": [
+            159.04657,
+            410.84705,
+            57.48670999999999,
+            37.30589999999995
+          ],
+          "android_minus_native_carrier_center_world": [
+            0.06754245452879104,
+            0.0
+          ],
+          "native_actual_discrete_capsule_approximation": 1.0,
+          "android_actual_discrete_capsule_approximation": 1.0,
+          "native_source_render_scale_xy": [
+            1.0,
+            1.0
+          ],
+          "android_source_render_scale_xy": [
+            1.0003361008290386,
+            0.9998361827376697
+          ],
+          "native_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.0,
+            "png_size_px": [
+              750,
+              1334
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "android_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.9750001,
+            "png_size_px": [
+              1216,
+              2640
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "native_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ],
+          "android_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "original_source_rendered_into_observed_integer_layout_scale_not_ideal_world_size",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ]
+        },
+        {
+          "stage_id": "far50",
+          "requested_stage_label_only": {
+            "id": "far50",
+            "requested_fraction": 0.5,
+            "side": "egress",
+            "requested_lens_center_world_pt": [
+              213.1731762352503,
+              429.5
+            ],
+            "requested_finger_world_pt": [
+              236.11078536513037,
+              430.0
+            ],
+            "predicted_capsule_source_area_fraction": 0.5000000000000006,
+            "predicted_public_rect_source_area_fraction": 0.8979719144669521,
+            "uncorrected_requested_finger_world_pt": [
+              213.6731762352503,
+              430.0
+            ],
+            "predicted_center_from_requested_finger_world_pt": [
+              213.1731762352503,
+              429.5
+            ]
+          },
+          "native_actual_carrier_bounds_world_xywh": [
+            184.39963216781615,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ],
+          "android_actual_carrier_bounds_world_xywh": [
+            184.25534,
+            410.8479,
+            57.489330000000024,
+            37.30417
+          ],
+          "android_minus_native_carrier_center_world": [
+            -0.07462716781617473,
+            -1.500000001897206e-05
+          ],
+          "native_actual_discrete_capsule_approximation": 0.5093068035943518,
+          "android_actual_discrete_capsule_approximation": 0.5266367137355584,
+          "native_source_render_scale_xy": [
+            1.0,
+            1.0
+          ],
+          "android_source_render_scale_xy": [
+            1.0003361008290386,
+            0.9998361827376697
+          ],
+          "native_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.0,
+            "png_size_px": [
+              750,
+              1334
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "android_mapping": {
+            "world_origin_window_px": [
+              0.0,
+              0.0
+            ],
+            "pixels_per_world_unit": 2.9750001,
+            "png_size_px": [
+              1216,
+              2640
+            ],
+            "rule": "world=(original Window pixel center-recorded source Window origin)/recorded pixels-per-world-unit"
+          },
+          "native_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "color_evidence_intersects_conservative_rail_confounded_domain"
+          ],
+          "android_ambiguity_flags": [
+            "color_evidence_is_not_optical_alpha",
+            "no_contour_completion_or_component_selection",
+            "nominal_coverage_is_not_measured_coverage",
+            "original_source_rendered_into_observed_integer_layout_scale_not_ideal_world_size",
+            "color_evidence_intersects_conservative_rail_confounded_domain",
+            "multiple_color_components_all_retained_no_forced_identity"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "frozen_policy_sha256": "f2530e06548f11a930371cf0edb7a6cd2511950ee1eac774c73ee84dfffcbb6d",
+  "production_source_hash_changes": {
+    "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": {
+      "r1": "2aa64d2f0c680641ae58346b2e9a8494711b28a379681e8ec4a71d449e6f46a3",
+      "r2": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a"
+    },
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": {
+      "r1": "5f353d4961ff1e2878849347928ebe2cce29f91a22f2f518be622d7b26a33c6b",
+      "r2": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9"
+    }
+  },
+  "capture_comparisons": [
+    {
+      "scene": "st01_rgb_star_d16-light-ingress01",
+      "source_baseline_roi_byte_identical": true,
+      "carrier_geometry_identical": true,
+      "held_value_identical": true
+    },
+    {
+      "scene": "st00_flat128-light-ingress01",
+      "source_baseline_roi_byte_identical": true,
+      "carrier_geometry_identical": true,
+      "held_value_identical": true
+    },
+    {
+      "scene": "st01_rgb_star_d16-light-ingress10",
+      "source_baseline_roi_byte_identical": true,
+      "carrier_geometry_identical": true,
+      "held_value_identical": true
+    },
+    {
+      "scene": "st00_flat128-light-ingress10",
+      "source_baseline_roi_byte_identical": true,
+      "carrier_geometry_identical": true,
+      "held_value_identical": true
+    },
+    {
+      "scene": "st01_rgb_star_d16-light-ingress50",
+      "source_baseline_roi_byte_identical": true,
+      "carrier_geometry_identical": true,
+      "held_value_identical": true
+    },
+    {
+      "scene": "st00_flat128-light-ingress50",
+      "source_baseline_roi_byte_identical": true,
+      "carrier_geometry_identical": true,
+      "held_value_identical": true
+    },
+    {
+      "scene": "st01_rgb_star_d16-light-ingress75",
+      "source_baseline_roi_byte_identical": true,
+      "carrier_geometry_identical": true,
+      "held_value_identical": true
+    },
+    {
+      "scene": "st00_flat128-light-ingress75",
+      "source_baseline_roi_byte_identical": true,
+      "carrier_geometry_identical": true,
+      "held_value_identical": true
+    },
+    {
+      "scene": "st01_rgb_star_d16-light-full100",
+      "source_baseline_roi_byte_identical": true,
+      "carrier_geometry_identical": true,
+      "held_value_identical": true
+    },
+    {
+      "scene": "st00_flat128-light-full100",
+      "source_baseline_roi_byte_identical": true,
+      "carrier_geometry_identical": true,
+      "held_value_identical": true
+    },
+    {
+      "scene": "st01_rgb_star_d16-light-far50",
+      "source_baseline_roi_byte_identical": true,
+      "carrier_geometry_identical": true,
+      "held_value_identical": true
+    },
+    {
+      "scene": "st00_flat128-light-far50",
+      "source_baseline_roi_byte_identical": true,
+      "carrier_geometry_identical": true,
+      "held_value_identical": true
+    }
+  ]
+}

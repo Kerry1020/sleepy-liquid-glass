@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "status": "actual_r2_single_slider_engineering_sampling_profile_not_physical_thickness",
+  "coordinate": "s >= 0 is signed-distance inset inside the approximate carrier contour, in actual dp",
+  "formula": "W=max(min(widthDp, halfMinor*0.5),0.001); R=min(refraction,max(refractionLimit,0)*halfMinor); D(s)=R*max(1-s/W,0)^2; shift=-normal*D(s)",
+  "refraction": 7.8,
+  "widthDp": 7.5,
+  "blend": 1.0,
+  "refractionLimit": 1.0,
+  "captured_halfMinor_approx_dp": 18.65,
+  "captured_formula": "D(s)=7.8*max(1-s/7.5,0)^2",
+  "captured_support": "0<=s<=7.5dp; zero common RGB sampling shift beyond shoulder",
+  "r1_refraction": 2.15,
+  "r1_common_sampling_support": "original bevel profile; no quadratic shoulder override",
+  "other_material_parameters": {
+    "blur": 0,
+    "frostBand": [
+      1.5,
+      7.0,
+      0.5,
+      1.1
+    ],
+    "bevel": 5.5,
+    "saturation": 1,
+    "brightness": 1,
+    "light_rim": 0.6,
+    "rimWidth": 1.1,
+    "endShade": 0.045,
+    "dispersion": 5.0,
+    "dispersionProfile": 6.5,
+    "rimBlur": 1.5,
+    "hairline": 0.42
+  },
+  "scope": "Only sliderLens(dark); rangeSliderLens(dark) retains sliderLensCheckpoint(dark). Dock/panel/other-control profiles are outside this candidate.",
+  "captured_sources": {
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt": "844f5b191c1693113287ad68251ed80cac468dd8cbf27d7d960736ae8c696517",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+    "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9"
+  },
+  "current_source_check": {
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt": {
+      "recorded_sha256": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+      "packaging_time_sha256": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+      "matches": true
+    },
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt": {
+      "recorded_sha256": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+      "packaging_time_sha256": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+      "matches": true
+    },
+    "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": {
+      "recorded_sha256": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+      "packaging_time_sha256": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+      "matches": true
+    },
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": {
+      "recorded_sha256": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9",
+      "packaging_time_sha256": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9",
+      "matches": true
+    }
+  },
+  "fixture_note": "Captured fixture SHA is retained. The fixture later gained separate holdout loading; do not claim its current bytes equal the r2 capture fixture.",
+  "locally_planar_common_source_inset": {
+    "formula": "u(s)=s+D(s), before channel-specific dispersion",
+    "derivative_at_edge": -1.08,
+    "fold_output_inset_dp": 3.8942307692307687,
+    "minimum_source_inset_dp": 5.697115384615385,
+    "reversed_normal_coordinate_interval_output_dp": [
+      0,
+      3.8942307692307687
+    ],
+    "scope": "Current Android engineering map under locally planar normal approximation. Not native correspondence, physical thickness, or an all-channel optical-ray reconstruction."
+  }
+}

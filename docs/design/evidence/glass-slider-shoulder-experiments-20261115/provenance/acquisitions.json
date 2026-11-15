@@ -1,0 +1,246 @@
+{
+  "star5-r3": {
+    "host_receipt_archive": {
+      "archive_id": "multicolor-star-v2/pose-corrected-v3/android-matched-native-v1/android-frost-half-r3/receipt.json",
+      "sha256": "f7de64c7abfeb5e8caa28cde48a3932d669a83ea9e3ff9d2615a737e2c04df8f",
+      "bytes": 13469
+    },
+    "index_archive": {
+      "archive_id": "multicolor-star-v2/pose-corrected-v3/android-matched-native-v1/android-frost-half-r3/index-original.json",
+      "sha256": "4336d82d87a0e1de744b563d2211cd5c47015c8200be7ee229f5d3b5331da752",
+      "bytes": 40816
+    },
+    "source_result_archive": {
+      "archive_id": "multicolor-star-v2/pose-corrected-v3/android-matched-native-v1/android-frost-half-r3/trace/result.json",
+      "sha256": "a877b36715691244b2ca4bbe80ec974f2aa652b25c33db21d4fc337d338d14a8",
+      "bytes": 2264967
+    },
+    "files_verified": 49,
+    "source_hashes": {
+      "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt": "1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e",
+      "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+      "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+      "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+      "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "e0bb2b9d25533ad662b1094e5b7bf236e39ae6c56ac8d0a102b0cff3404c722d"
+    },
+    "input_hashes": {
+      "inputs/manifest.json": "6c7bd1861fc1e97bbe34726fb24910a4e56719c8f4061bffc10ba42b4b8914fe",
+      "shape-spec.json": "8eab6adf59ee618a08237fa3eea669e82bf29a3de9e9a1537b11f240ea870fd4",
+      "inputs/st00_flat128.png": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "inputs/st01_rgb_star_d16.png": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+      "inputs/st02_rgb_star6_d16.png": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "inputs/st03_rgb_star7_d16.png": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "inputs/st04_rgb_star8_d16.png": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "inputs/st05_rgb_star5_d12.png": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "inputs/st06_rgb_star6_d12.png": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "inputs/st07_rgb_star7_d12.png": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58"
+    },
+    "packages": [
+      {
+        "package": "com.lingion.sleepy.debug",
+        "sha256": "4be8e228c3a3ebfecc292dda85035152e101380257c9638999c8ee2fb59f6679"
+      },
+      {
+        "package": "com.lingion.sleepy.debug.test",
+        "sha256": "9fea17242b6e8cd9f2a0f5231f1a99dd0129e11c663628403c7e3b42808a02bd"
+      }
+    ],
+    "input_role": "calibration",
+    "started_unix": 1794751532.319917,
+    "finished_unix": 1794751588.52563,
+    "all_window_screen_roi_bytes_verified_equal": true,
+    "findings_archive": {
+      "archive_id": "analysis/native-android-star-frost-half-r3/findings.md",
+      "sha256": "01fc7304838e76843eec6d1ce0bbf06394b1d8f6d4d7c35cfb2bc996d46fdaec",
+      "bytes": 7500
+    },
+    "full_analysis_archive": {
+      "archive_id": "analysis/android-star-frost-half-r3/analysis.json",
+      "sha256": "659800beadd4599107a792b8c0b1e721618b67bf1df406e75e85da77662004fb",
+      "bytes": 28962181
+    }
+  },
+  "star5-r4": {
+    "host_receipt_archive": {
+      "archive_id": "multicolor-star-v2/pose-corrected-v3/android-matched-native-v1/android-narrow-shoulder-r4/receipt.json",
+      "sha256": "dd357c653014df0c58add652b0ce2e9f917dfe84b513bf25f4ab1a460a8402bb",
+      "bytes": 13481
+    },
+    "index_archive": {
+      "archive_id": "multicolor-star-v2/pose-corrected-v3/android-matched-native-v1/android-narrow-shoulder-r4/index-original.json",
+      "sha256": "667b1d8918ec28a60d02472caa8521ea4f6cd3634c86402adecf2e8b31638869",
+      "bytes": 40976
+    },
+    "source_result_archive": {
+      "archive_id": "multicolor-star-v2/pose-corrected-v3/android-matched-native-v1/android-narrow-shoulder-r4/trace/result.json",
+      "sha256": "c874bb03dbbfd96b45d8734f764109464aa379caa12de2e19009cdee24c2e88a",
+      "bytes": 2265000
+    },
+    "files_verified": 49,
+    "source_hashes": {
+      "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt": "1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e",
+      "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+      "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+      "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+      "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "9d50e22f50742a702bf60b97d651c1ba473dc7386df74eb18354dae911689eec"
+    },
+    "input_hashes": {
+      "inputs/manifest.json": "6c7bd1861fc1e97bbe34726fb24910a4e56719c8f4061bffc10ba42b4b8914fe",
+      "shape-spec.json": "8eab6adf59ee618a08237fa3eea669e82bf29a3de9e9a1537b11f240ea870fd4",
+      "inputs/st00_flat128.png": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "inputs/st01_rgb_star_d16.png": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+      "inputs/st02_rgb_star6_d16.png": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "inputs/st03_rgb_star7_d16.png": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "inputs/st04_rgb_star8_d16.png": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "inputs/st05_rgb_star5_d12.png": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "inputs/st06_rgb_star6_d12.png": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "inputs/st07_rgb_star7_d12.png": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58"
+    },
+    "packages": [
+      {
+        "package": "com.lingion.sleepy.debug",
+        "sha256": "8ca1b5c9538a0f05591d2fb7827c006cf09539f5b67bec5605320bdcbfe0c49b"
+      },
+      {
+        "package": "com.lingion.sleepy.debug.test",
+        "sha256": "9fea17242b6e8cd9f2a0f5231f1a99dd0129e11c663628403c7e3b42808a02bd"
+      }
+    ],
+    "input_role": "calibration",
+    "started_unix": 1794752374.3690932,
+    "finished_unix": 1794752430.506083,
+    "all_window_screen_roi_bytes_verified_equal": true,
+    "findings_archive": {
+      "archive_id": "analysis/native-android-star-narrow-shoulder-r4/findings.md",
+      "sha256": "9012209787766a9bba7ee6ef6070de3b3c2920629d3f5450b9346329fdaccfef",
+      "bytes": 13520
+    },
+    "full_analysis_archive": {
+      "archive_id": "analysis/android-star-narrow-shoulder-r4/analysis.json",
+      "sha256": "e98c62af3f333bf4a2cc27906bbdffa30f0d510dc400188a1b9728efc3bd1116",
+      "bytes": 29109326
+    }
+  },
+  "star8-r4": {
+    "host_receipt_archive": {
+      "archive_id": "validation-star8-d16/android-matched-native-v1/android-narrow-shoulder-regression-r4/receipt.json",
+      "sha256": "5479787c6b5e5d91232392b1f266be9c70795255e651e26d7d88ba639e723407",
+      "bytes": 13520
+    },
+    "index_archive": {
+      "archive_id": "validation-star8-d16/android-matched-native-v1/android-narrow-shoulder-regression-r4/index-original.json",
+      "sha256": "edbfc6aa989bd7518187792f821ec89b9d377ec06382d6ebcbd141629dd13266",
+      "bytes": 49135
+    },
+    "source_result_archive": {
+      "archive_id": "validation-star8-d16/android-matched-native-v1/android-narrow-shoulder-regression-r4/trace/result.json",
+      "sha256": "70c21e6b0cf25f290cca01190c37ea76e84c45b2d38c69f37a17ecafa6ec310f",
+      "bytes": 2319894
+    },
+    "files_verified": 49,
+    "source_hashes": {
+      "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt": "1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e",
+      "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+      "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+      "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+      "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "9d50e22f50742a702bf60b97d651c1ba473dc7386df74eb18354dae911689eec"
+    },
+    "input_hashes": {
+      "inputs/manifest.json": "d807b924713d5b4f1256a1b62dee1d54ca035e81983047ed7f98e435f169bf36",
+      "shape-spec.json": "31957a00b8b89532e9aa2984bb18065f57b8e86e32a5b4ce6fdd42a17dfc9471",
+      "inputs/st00_flat128.png": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "inputs/st01_rgb_star_d16.png": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+      "inputs/st02_rgb_star6_d16.png": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "inputs/st03_rgb_star7_d16.png": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "inputs/st04_rgb_star8_d16.png": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "inputs/st05_rgb_star5_d12.png": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "inputs/st06_rgb_star6_d12.png": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "inputs/st07_rgb_star7_d12.png": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58"
+    },
+    "packages": [
+      {
+        "package": "com.lingion.sleepy.debug",
+        "sha256": "8ca1b5c9538a0f05591d2fb7827c006cf09539f5b67bec5605320bdcbfe0c49b"
+      },
+      {
+        "package": "com.lingion.sleepy.debug.test",
+        "sha256": "9fea17242b6e8cd9f2a0f5231f1a99dd0129e11c663628403c7e3b42808a02bd"
+      }
+    ],
+    "input_role": "holdout",
+    "started_unix": 1794753100.2365131,
+    "finished_unix": 1794753156.6672928,
+    "all_window_screen_roi_bytes_verified_equal": true,
+    "findings_archive": {
+      "archive_id": "analysis/regression-star8-native-android-r4/findings.md",
+      "sha256": "aee704c2f9a74c1fa63e3eec442fa002f6e0e352976859953b11472fb323047d",
+      "bytes": 9805
+    },
+    "full_analysis_archive": {
+      "archive_id": "analysis/regression-star8-android-r4/analysis.json",
+      "sha256": "97fa3193800cffb3f93d18e619bb888efb2a9834394d3e482350cb6019a3684f",
+      "bytes": 29965836
+    }
+  },
+  "star6-r4": {
+    "host_receipt_archive": {
+      "archive_id": "validation-star6-d12/android-matched-native-v1/android-narrow-shoulder-regression-r4/receipt.json",
+      "sha256": "3bfc50ab9e3fbd908be137da94a644b241f09b2e1dd9af6935d0b7f789c1554b",
+      "bytes": 13520
+    },
+    "index_archive": {
+      "archive_id": "validation-star6-d12/android-matched-native-v1/android-narrow-shoulder-regression-r4/index-original.json",
+      "sha256": "482c66f4a8dd9e09148b4540dea49e23b27cd69e46a76ad47fa54f2b7551c31a",
+      "bytes": 49107
+    },
+    "source_result_archive": {
+      "archive_id": "validation-star6-d12/android-matched-native-v1/android-narrow-shoulder-regression-r4/trace/result.json",
+      "sha256": "7b55aaea5c9943c8a2e39f43fedfab5b258af68e33ead1e7544ce49051fbb3f0",
+      "bytes": 2319797
+    },
+    "files_verified": 49,
+    "source_hashes": {
+      "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt": "1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e",
+      "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+      "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+      "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+      "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "9d50e22f50742a702bf60b97d651c1ba473dc7386df74eb18354dae911689eec"
+    },
+    "input_hashes": {
+      "inputs/manifest.json": "6930d906ce298120662802ca93ac0cce84ec84b17926c3638b97a6729b24574c",
+      "shape-spec.json": "e1c785e9ac724a5bf5e83da1b82319f40c73fffa3cc821fd8d13c3538f666cac",
+      "inputs/st00_flat128.png": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "inputs/st01_rgb_star_d16.png": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+      "inputs/st02_rgb_star6_d16.png": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "inputs/st03_rgb_star7_d16.png": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "inputs/st04_rgb_star8_d16.png": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "inputs/st05_rgb_star5_d12.png": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "inputs/st06_rgb_star6_d12.png": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "inputs/st07_rgb_star7_d12.png": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58"
+    },
+    "packages": [
+      {
+        "package": "com.lingion.sleepy.debug",
+        "sha256": "8ca1b5c9538a0f05591d2fb7827c006cf09539f5b67bec5605320bdcbfe0c49b"
+      },
+      {
+        "package": "com.lingion.sleepy.debug.test",
+        "sha256": "9fea17242b6e8cd9f2a0f5231f1a99dd0129e11c663628403c7e3b42808a02bd"
+      }
+    ],
+    "input_role": "holdout",
+    "started_unix": 1794753185.5967271,
+    "finished_unix": 1794753242.1644921,
+    "all_window_screen_roi_bytes_verified_equal": true,
+    "findings_archive": {
+      "archive_id": "analysis/regression-star6-native-android-r4/findings.md",
+      "sha256": "6772269b74ef17e87e0c1eb4e79191aa80386ed79c237dd63ee22f5e47f3b011",
+      "bytes": 9523
+    },
+    "full_analysis_archive": {
+      "archive_id": "analysis/regression-star6-android-r4/analysis.json",
+      "sha256": "61f24d63e3ec1a0cc9b9d8de7e7336203ed7ac58fb255c6eb99058fa3a4b3722",
+      "bytes": 28070128
+    }
+  }
+}

@@ -1,0 +1,1088 @@
+{
+  "schema": 1,
+  "scope": "Derived summaries of existing accepted acquisition runs; no new capture or build executed.",
+  "shapes": {
+    "star8": {
+      "shape_id": "st04_rgb_star8_d16",
+      "native": {
+        "strict_report": {
+          "archive_id": "validation-star8-d16/native-feasibility-r1/endpoint-verification-strict.json",
+          "sha256": "bcdca6b5dd629d62f13cb9a42605d59429d016ed4e2333d586a1e3b559815e65",
+          "bytes": 2597897
+        },
+        "status": "passed",
+        "limits": {
+          "target_tolerance_pt": 1.0,
+          "minimum_after_last_move_seconds": 0.65,
+          "minimum_geometry_frames": 4,
+          "maximum_geometry_gap_seconds": 0.05,
+          "geometry_range_pt": 0.1,
+          "matrix_range": 0.001,
+          "opacity_range": 0.01
+        },
+        "errors": [],
+        "verifierSHA256": "1e74889b2d7b1014f0cbc74e5fd26d6d5c4beda56fd5334767ca09dfbb31da71",
+        "specSHA256": "073565c8b9f03cfb29762ada32f6fb89bfdeb79bf0cc1de27d7b99dc335503b6",
+        "manifestSHA256": "d807b924713d5b4f1256a1b62dee1d54ca035e81983047ed7f98e435f169bf36",
+        "verifiedHeldEndpoints": 12,
+        "verifiedShapeFlatPairs": 6,
+        "session": {
+          "os": "Version 26.5 (Build 23F77)",
+          "screenWidthPt": 375,
+          "screenHeightPt": 667,
+          "screenScale": 2,
+          "maximumFramesPerSecond": 60,
+          "reduceMotion": false,
+          "reduceTransparency": false
+        },
+        "endpoints": [
+          {
+            "stage_id": "ingress01",
+            "input_id": "st04_rgb_star8_d16",
+            "image_sha256": "f9c04958994ac2e93244541bfe97c29bb63d79d35cf84e0370b40d911b5e47b1",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              126.13395763635636,
+              410.9,
+              57.35000000000001,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.530404090881348,
+            "capture_end_t": 7.259249925613403
+          },
+          {
+            "stage_id": "ingress01",
+            "input_id": "st00_flat128",
+            "image_sha256": "56149b6b1379db8ec8ec700225b0fbafbb058ffe6c27d242dde221a9edb99f99",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              126.13395763635636,
+              410.9,
+              57.35000000000001,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.233530044555664,
+            "capture_end_t": 7.042134046554565
+          },
+          {
+            "stage_id": "ingress10",
+            "input_id": "st04_rgb_star8_d16",
+            "image_sha256": "ea17edfef65ce91a7d9d1248a9a5685340e354f51990ba300bc96d797230c81e",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              128.80261034965514,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.3455281257629395,
+            "capture_end_t": 6.782685041427612
+          },
+          {
+            "stage_id": "ingress10",
+            "input_id": "st00_flat128",
+            "image_sha256": "277f89fa1ff781b0513054d9406ebe95b9a8d7bae0a41596ac2128a1cd618a85",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              128.80261034965514,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.320779085159302,
+            "capture_end_t": 7.106957197189331
+          },
+          {
+            "stage_id": "ingress50",
+            "input_id": "st04_rgb_star8_d16",
+            "image_sha256": "db23e86917541778bcd6eeb204e5b85f05f6ebd9f97b86c009e1fd23c34a9417",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              133.2503767132759,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.366726875305176,
+            "capture_end_t": 7.107085943222046
+          },
+          {
+            "stage_id": "ingress50",
+            "input_id": "st00_flat128",
+            "image_sha256": "3060e15073b0cfd2c77803c8b3ca6778dcc270121cc4745c83e4addd39fb9927",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              133.2503767132759,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.468429088592529,
+            "capture_end_t": 7.005007982254028
+          },
+          {
+            "stage_id": "ingress75",
+            "input_id": "st04_rgb_star8_d16",
+            "image_sha256": "b0bbef3607ac66610f5148365cb99e84a6b992b4e8288441e97bdf54bc7f48c9",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              135.9190294265747,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.393775939941406,
+            "capture_end_t": 7.181689977645874
+          },
+          {
+            "stage_id": "ingress75",
+            "input_id": "st00_flat128",
+            "image_sha256": "9e5b0b6ecd33a2eb72187e60dde74adbd0831db9b74e9ce0dfe463790582157f",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              135.9190294265747,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.4097373485565186,
+            "capture_end_t": 7.00369930267334
+          },
+          {
+            "stage_id": "full100",
+            "input_id": "st04_rgb_star8_d16",
+            "image_sha256": "7f202207ff606c9fae81329252e652026fd682ff6c2f423f013f35da7c391dde",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              159.04738254547118,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 7.235006093978882,
+            "capture_end_t": 8.033871173858643
+          },
+          {
+            "stage_id": "full100",
+            "input_id": "st00_flat128",
+            "image_sha256": "47a3a9f4d4eb093c835fbafec53a88d685a806f5c0e6847d4251f3f8f37b86c0",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              159.04738254547118,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.638912916183472,
+            "capture_end_t": 7.256092071533203
+          },
+          {
+            "stage_id": "far50",
+            "input_id": "st04_rgb_star8_d16",
+            "image_sha256": "e072e73b80522aa13ef07288d3d9e74997d4401cc039be4e3d8c10730a52b1c6",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              184.39963216781615,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 7.0455710887908936,
+            "capture_end_t": 7.773610830307007
+          },
+          {
+            "stage_id": "far50",
+            "input_id": "st00_flat128",
+            "image_sha256": "70d38e7a15bf29fcd7f0505dbc1a03bf3b3fc3cc67c4863d750abfb9d79f8272",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              184.39963216781615,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.967619180679321,
+            "capture_end_t": 7.681804180145264
+          }
+        ]
+      },
+      "android": {
+        "index": {
+          "archive_id": "validation-star8-d16/android-matched-native-v1/android-quadratic-validation-r1/index-original.json",
+          "sha256": "d895d43131c8d7d3e7efe5346a9df35251bb574bd1e35b12fa35a9f19757c1e8",
+          "bytes": 48865
+        },
+        "receipt": {
+          "archive_id": "validation-star8-d16/android-matched-native-v1/android-quadratic-validation-r1/receipt.json",
+          "sha256": "ab0146e9cfa2dd9326860ade35a59a12dcc3137e14a9a7110260daaf2c051534",
+          "bytes": 13395
+        },
+        "result": {
+          "archive_id": "validation-star8-d16/android-matched-native-v1/android-quadratic-validation-r1/trace/result.json",
+          "sha256": "cf0b2c46896dfbbcb734e301fc5997afbbd19d48a4f35ac98a928978bb7d8aa3",
+          "bytes": 2320007
+        },
+        "run": "fixed-shape-quadratic-validation-r1-20261115",
+        "input_role": "holdout",
+        "exit_code": 0,
+        "test_passed": true,
+        "sources": {
+          "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt": "1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e",
+          "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+          "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+          "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+          "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9"
+        },
+        "packages": [
+          {
+            "package": "com.lingion.sleepy.debug",
+            "sha256": "ee9e8c9f8cab864a9eb736239a09b52c8fc24bc0cdd05217308f7c9e2674bec3",
+            "install": "Performing Streamed Install\nSuccess"
+          },
+          {
+            "package": "com.lingion.sleepy.debug.test",
+            "sha256": "9fea17242b6e8cd9f2a0f5231f1a99dd0129e11c663628403c7e3b42808a02bd",
+            "install": "Performing Streamed Install\nSuccess"
+          }
+        ],
+        "files": [
+          {
+            "file": "trace/result.json",
+            "sha256": "cf0b2c46896dfbbcb734e301fc5997afbbd19d48a4f35ac98a928978bb7d8aa3",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-far50-background-screen.png",
+            "sha256": "aa0bb38f7b12570d6fafe059614ba4ac4804a38512091b77d8f26b6b0fb47f6b",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-far50-background-window.png",
+            "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-far50-held-screen.png",
+            "sha256": "be3c5b901ab33fcb475ff259bcf1c13d56f04ff4893339a89a49a37fb29db1ac",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-far50-held-window.png",
+            "sha256": "509a1eaca53bf4d322ff65f27c5205477afb06ba821c4a6937d40c9fdf14511c",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-full100-background-screen.png",
+            "sha256": "d82d77e274be935f8f26575285591b5d6a34f2232f23f9e850dfa52a9d761ba0",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-full100-background-window.png",
+            "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-full100-held-screen.png",
+            "sha256": "b2b57ef7703501faf857156b3f755c073c3a0229abef08a12f030763ad9a3ef4",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-full100-held-window.png",
+            "sha256": "c25afdce41864eb4b17e051d1d2be75497ca02ac388c5736afe66dd6cf831c7a",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress01-background-screen.png",
+            "sha256": "fec745d0193dc5ae488dc60e90c8cfa68136f30b5e5af927fdcad7fde3447b94",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress01-background-window.png",
+            "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress01-held-screen.png",
+            "sha256": "72b1b5addfa601ea24adf31506bf779a0e7fb035c9b6c0f7bfd5179a19b86c08",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress01-held-window.png",
+            "sha256": "2fe8032d0f4aed546fb5f412ec06af296b5f59216c58714f57492b6f9a1ed416",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress10-background-screen.png",
+            "sha256": "a9ab78f18edea6dd4a3a4dc03f542eed9899609deff1fb98150dafd4c9ddc863",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress10-background-window.png",
+            "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress10-held-screen.png",
+            "sha256": "8b0dbb49ad216bf52a1b5be918a1ca6165f473935197cdce6c681c3c6b799101",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress10-held-window.png",
+            "sha256": "a6079dc65d7fcbc3592325a01c0cbf27adf8111da0ce264b8baad79b94244ee4",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress50-background-screen.png",
+            "sha256": "77daab74c58962c8cb04b74e2cd88b8d6363ab6a19257ea86e100518904fae18",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress50-background-window.png",
+            "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress50-held-screen.png",
+            "sha256": "41540ec4134b2889944b9ed847711a56cb94b6ac5f2fd0ff69bb22e84fbaa98d",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress50-held-window.png",
+            "sha256": "527f4c82ddf852ea8b437a8cb0f93fa4000448e9e581a00468a351a5c33541dc",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress75-background-screen.png",
+            "sha256": "681d02b05b60128781d09835f3c56a2ab55c0743e4a240581c6a16386cea150f",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress75-background-window.png",
+            "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress75-held-screen.png",
+            "sha256": "0f66939519d63305180d0042c84c529dca9668db0c2c25fb87bb1e9bd4eee4b4",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress75-held-window.png",
+            "sha256": "5aa2a40f6fb45bc1f8ce388c85f2e653c8d66cb88e6dc255f63e8fb69a38661c",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-far50-background-screen.png",
+            "sha256": "dbd707710c98e5194f90844141d74f20d40a1c9cef3c3afed0c346fae0463aa4",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-far50-background-window.png",
+            "sha256": "0c94e4bc066556ee6361b67f523dc17cbea580cac14f9c3423a072ad650f1e2d",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-far50-held-screen.png",
+            "sha256": "28ac8c9bc1a73e99cb2627480feef78599df83532c60dd1570f21680910e67e4",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-far50-held-window.png",
+            "sha256": "76a692cfb805d9df7bbee9a9f2cfe32233e4dd0734786a0ebefeca7a5e34be17",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-full100-background-screen.png",
+            "sha256": "5b6b74cb58478f083961ed995da246ce165f45510adbdfedd079116f7db9c54b",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-full100-background-window.png",
+            "sha256": "0c94e4bc066556ee6361b67f523dc17cbea580cac14f9c3423a072ad650f1e2d",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-full100-held-screen.png",
+            "sha256": "218a52033c1d5a5778a7336725dd696a9e64bce0551c8d7810b504012ca93fac",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-full100-held-window.png",
+            "sha256": "c2487b86ce63614e5bddc3881d2bfcd1466e6069271f8d2957bcba79cd307604",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress01-background-screen.png",
+            "sha256": "8a17f2b3227e4b31f43fbebe90684d0f13192e9010fffa34dfd7f147ddd6d49a",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress01-background-window.png",
+            "sha256": "0c94e4bc066556ee6361b67f523dc17cbea580cac14f9c3423a072ad650f1e2d",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress01-held-screen.png",
+            "sha256": "58703d18f9d9ec3b0608f3417dc216dd398e3d036d86b846e49dc521825c5dfc",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress01-held-window.png",
+            "sha256": "c8ad75e8b5213cf71df243f2ae990e4940e473e4149138555b2e5a8dfa577723",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress10-background-screen.png",
+            "sha256": "939c16c59a0b0e36521422577f42a98896d49ffdd5cd8075542aa46e4b2f961f",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress10-background-window.png",
+            "sha256": "0c94e4bc066556ee6361b67f523dc17cbea580cac14f9c3423a072ad650f1e2d",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress10-held-screen.png",
+            "sha256": "c52c66a9f5156248685dca0dd270bd26482d75f153c8e32f1965241870a9693e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress10-held-window.png",
+            "sha256": "724e06bfca63a746382b0bb2db18eba8825a3506cccc0f49691faca67689e96a",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress50-background-screen.png",
+            "sha256": "666ce3f9112a363cccc9c2216069d1e7c3494d30a28526836295b86928059ebe",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress50-background-window.png",
+            "sha256": "0c94e4bc066556ee6361b67f523dc17cbea580cac14f9c3423a072ad650f1e2d",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress50-held-screen.png",
+            "sha256": "0ed5b767f4ffdfd1c0e9ea8cc21ca165721939ec3516071d1bf3f1c447b7679c",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress50-held-window.png",
+            "sha256": "d6e39d26855cd6ca9314157839412f7ae0a8ff316169fbad3b41b5724955f7fd",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress75-background-screen.png",
+            "sha256": "dbd707710c98e5194f90844141d74f20d40a1c9cef3c3afed0c346fae0463aa4",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress75-background-window.png",
+            "sha256": "0c94e4bc066556ee6361b67f523dc17cbea580cac14f9c3423a072ad650f1e2d",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress75-held-screen.png",
+            "sha256": "cef173286fcac3b6531a27ea664dc8de681e80c7aa51a13553411523fdc35c83",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st04_rgb_star8_d16-light-ingress75-held-window.png",
+            "sha256": "b2d26b4492830ff7a908f4be31d001b3687c812e0e80f335392be20d80cbde97",
+            "host_device_match": true
+          }
+        ],
+        "all_49_host_device_files_match": true,
+        "capture_policy": "Actual Window PixelCopy and independent composited display PNGs, unchanged>=99.5% RGB3 readiness and whole-holder/carrier6dp shadow room requirements. Each pose has its own unchanged-source background baseline.",
+        "input_policy": "The requested carrier center is converted analytically through the unchanged production relative drag mapping. DOWN starts at the observed quarter REST carrier. A real MOVE11dp crosses the production10dp slop, then a second real MOVE requests the inverse-mapped fraction. Actual pointer dispatch, values and carrier LayoutCoordinates are exported. Nominal source overlap is not actual optical coverage.",
+        "clock_policy": "LocalDockInputTimeNanos uses the Compose clock;1600ms settling after DOWN and each MOVE. Requested event delays and actual dispatch uptime are recorded independently. This is settled static evidence, not a millisecond motion measurement."
+      }
+    },
+    "star6": {
+      "shape_id": "st06_rgb_star6_d12",
+      "native": {
+        "strict_report": {
+          "archive_id": "validation-star6-d12/native-feasibility-r1/endpoint-verification-strict.json",
+          "sha256": "fd4424122e392a1fbe0dc1e142b50ba3b9dec93709933d94c0f79b7369f74350",
+          "bytes": 2551428
+        },
+        "status": "passed",
+        "limits": {
+          "target_tolerance_pt": 1.0,
+          "minimum_after_last_move_seconds": 0.65,
+          "minimum_geometry_frames": 4,
+          "maximum_geometry_gap_seconds": 0.05,
+          "geometry_range_pt": 0.1,
+          "matrix_range": 0.001,
+          "opacity_range": 0.01
+        },
+        "errors": [],
+        "verifierSHA256": "1e74889b2d7b1014f0cbc74e5fd26d6d5c4beda56fd5334767ca09dfbb31da71",
+        "specSHA256": "6986900b4de6b2f1bcdc15ab4c2e97ca563617e216dbb569e7b841dafcc7edaf",
+        "manifestSHA256": "6930d906ce298120662802ca93ac0cce84ec84b17926c3638b97a6729b24574c",
+        "verifiedHeldEndpoints": 12,
+        "verifiedShapeFlatPairs": 6,
+        "session": {
+          "os": "Version 26.5 (Build 23F77)",
+          "screenWidthPt": 375,
+          "screenHeightPt": 667,
+          "screenScale": 2,
+          "maximumFramesPerSecond": 60,
+          "reduceMotion": false,
+          "reduceTransparency": false
+        },
+        "endpoints": [
+          {
+            "stage_id": "ingress01",
+            "input_id": "st06_rgb_star6_d12",
+            "image_sha256": "6c30f8e7ee3bd75f63a3b2ec3b0280fd5a28346687db6030fdd8a6e380f021d6",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              127.46827955245972,
+              410.9,
+              57.35000000000001,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 7.035428047180176,
+            "capture_end_t": 7.719995021820068
+          },
+          {
+            "stage_id": "ingress01",
+            "input_id": "st00_flat128",
+            "image_sha256": "35c7bf7f593a32a93dced4d0853214225b776e13c0c5074be2388b1826f19960",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              127.46827955245972,
+              410.9,
+              57.35000000000001,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.394550800323486,
+            "capture_end_t": 7.2388482093811035
+          },
+          {
+            "stage_id": "ingress10",
+            "input_id": "st06_rgb_star6_d12",
+            "image_sha256": "5b1ee82fa44cc5a54b9a07371995c1a168de9bc5fd0fdb2af6677f7025113d62",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              130.13694114685057,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.651839733123779,
+            "capture_end_t": 7.23631477355957
+          },
+          {
+            "stage_id": "ingress10",
+            "input_id": "st00_flat128",
+            "image_sha256": "6c2d36248c9280c60697d20bf3d79a2ad6f16bdb10ea4552a8bea5786a8061ae",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              130.13694114685057,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.4159629344940186,
+            "capture_end_t": 6.966049909591675
+          },
+          {
+            "stage_id": "ingress50",
+            "input_id": "st06_rgb_star6_d12",
+            "image_sha256": "762f99cb3b415991f68c9d66c73ee5c6f0aa5197f7418e826404ffb6fe721a5a",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              133.2503767132759,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.382528066635132,
+            "capture_end_t": 7.31835412979126
+          },
+          {
+            "stage_id": "ingress50",
+            "input_id": "st00_flat128",
+            "image_sha256": "d72215ccad8bdee15a2e4bdee47090427bba40fb9ed8a4ba7f1d9cf02c8c3935",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              133.2503767132759,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.569130182266235,
+            "capture_end_t": 7.357943058013916
+          },
+          {
+            "stage_id": "ingress75",
+            "input_id": "st06_rgb_star6_d12",
+            "image_sha256": "a96b72884c78cb5e009fe54df1cb6a939ff4b981d92ece8c0e518e773c89e51a",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              135.47425545454024,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.377331256866455,
+            "capture_end_t": 7.05512809753418
+          },
+          {
+            "stage_id": "ingress75",
+            "input_id": "st00_flat128",
+            "image_sha256": "53f0bf4e8d16462d6425650a5f007cd34dbe2553b9fd23b1cb5c6f2d0c4698fc",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              135.47425545454024,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.43306303024292,
+            "capture_end_t": 7.2151570320129395
+          },
+          {
+            "stage_id": "full100",
+            "input_id": "st06_rgb_star6_d12",
+            "image_sha256": "d1305b63fba3d29de4feee22a3c4e396c6b936be7267d00c117710b17dba8ece",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              159.04738254547118,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 7.037111759185791,
+            "capture_end_t": 7.685856819152832
+          },
+          {
+            "stage_id": "full100",
+            "input_id": "st00_flat128",
+            "image_sha256": "204bcb004cae69652eece5ad5bbd0dea3fc7de803f7070354c0ba59dfe511be8",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              159.04738254547118,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 7.110393047332764,
+            "capture_end_t": 7.5974321365356445
+          },
+          {
+            "stage_id": "far50",
+            "input_id": "st06_rgb_star6_d12",
+            "image_sha256": "bd1ade4591cc0dd8bee43741f52791f43869d31d642c09a8e68cd0765e15ede0",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              184.39963216781615,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.9071619510650635,
+            "capture_end_t": 7.408752679824829
+          },
+          {
+            "stage_id": "far50",
+            "input_id": "st00_flat128",
+            "image_sha256": "3523fb6c912c881507f575717bd91f02dba1d15a52adc20861c253ec35255f6e",
+            "verifiedHeldEndpoint": true,
+            "actual_carrier_bounds": [
+              184.39963216781615,
+              410.9,
+              57.349999999999994,
+              37.19999999999999
+            ],
+            "owner_stable": true,
+            "carrier_stable": true,
+            "capture_begin_t": 6.886964797973633,
+            "capture_end_t": 7.499651908874512
+          }
+        ]
+      },
+      "android": {
+        "index": {
+          "archive_id": "validation-star6-d12/android-matched-native-v1/android-quadratic-validation-clean-r1/index-original.json",
+          "sha256": "cd07812a75790377d83a296518b84766560f471141b71aef289cfa6d232ef84a",
+          "bytes": 49107
+        },
+        "receipt": {
+          "archive_id": "validation-star6-d12/android-matched-native-v1/android-quadratic-validation-clean-r1/receipt.json",
+          "sha256": "36fff81a351357c9787160e456f5ba12e87b57bd2c5294d5167cb998b8d9da4e",
+          "bytes": 13517
+        },
+        "result": {
+          "archive_id": "validation-star6-d12/android-matched-native-v1/android-quadratic-validation-clean-r1/trace/result.json",
+          "sha256": "e91bf494490b24aa6fd6e87cc17c2d40136c1c34f4ad2f596cd85ceff27e0091",
+          "bytes": 2319901
+        },
+        "run": "fixed-shape-quadratic-validation-clean-r1-e1c785e9ac72-20261115",
+        "input_role": "holdout",
+        "exit_code": 0,
+        "test_passed": true,
+        "sources": {
+          "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt": "1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e",
+          "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+          "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+          "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+          "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9"
+        },
+        "packages": [
+          {
+            "package": "com.lingion.sleepy.debug",
+            "sha256": "ee9e8c9f8cab864a9eb736239a09b52c8fc24bc0cdd05217308f7c9e2674bec3",
+            "install": "Performing Streamed Install\nSuccess"
+          },
+          {
+            "package": "com.lingion.sleepy.debug.test",
+            "sha256": "9fea17242b6e8cd9f2a0f5231f1a99dd0129e11c663628403c7e3b42808a02bd",
+            "install": "Performing Streamed Install\nSuccess"
+          }
+        ],
+        "files": [
+          {
+            "file": "trace/result.json",
+            "sha256": "e91bf494490b24aa6fd6e87cc17c2d40136c1c34f4ad2f596cd85ceff27e0091",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-far50-background-screen.png",
+            "sha256": "9c615160d09546648cefd72c8c2ecac0c94b5ca3451b860fead8c4e81af3f930",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-far50-background-window.png",
+            "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-far50-held-screen.png",
+            "sha256": "a7972642dd2aa55974f11c5ac90d42a3bbae7879b32ea647d338f5e8ee2a8657",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-far50-held-window.png",
+            "sha256": "509a1eaca53bf4d322ff65f27c5205477afb06ba821c4a6937d40c9fdf14511c",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-full100-background-screen.png",
+            "sha256": "1ce372308b7f793d150b63e93258a65a4354d292d0217e55844c0f9f5c1b3886",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-full100-background-window.png",
+            "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-full100-held-screen.png",
+            "sha256": "f0206a7a08f59e8eee0f8e900f0d0be29d435688ee7f37ee3bf67af311a0fd43",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-full100-held-window.png",
+            "sha256": "c25afdce41864eb4b17e051d1d2be75497ca02ac388c5736afe66dd6cf831c7a",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress01-background-screen.png",
+            "sha256": "c966092f70dce9e6ec5b24606275999f80dae75902d66765d61e559b130544e7",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress01-background-window.png",
+            "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress01-held-screen.png",
+            "sha256": "8e08c3b412b9c7d27c4312e76c89866e1b975f38088b0bc72510ab558bbb2d2c",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress01-held-window.png",
+            "sha256": "5d245b4fa7eb03192a41695ddd4c3fc90b5955ba9355ee3d79168a4d7a979db0",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress10-background-screen.png",
+            "sha256": "0e46f7fa1742a75ab42e15a67e406daedafb0b0ff53ae9647f2b274080c62a57",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress10-background-window.png",
+            "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress10-held-screen.png",
+            "sha256": "eab211d3d30530a9508c88325536046005c24ff5aa563a1d0a47733d13f7a774",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress10-held-window.png",
+            "sha256": "4d81830a8e145c570f6a6a1a68673dd979cd0d098ca730d37ed6dc063b3ff808",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress50-background-screen.png",
+            "sha256": "c164f113efb259b75418a24d6b4c8e3c1b388cff85d01764738d0c3b545281c5",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress50-background-window.png",
+            "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress50-held-screen.png",
+            "sha256": "5495035059a69558cad59f30427520f365c8be130b635469ca78390a3e4ab139",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress50-held-window.png",
+            "sha256": "527f4c82ddf852ea8b437a8cb0f93fa4000448e9e581a00468a351a5c33541dc",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress75-background-screen.png",
+            "sha256": "d7ec803a9995fbd127950d5496eebcf7a33e0fd748ad7b796bf9e34decbe24e1",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress75-background-window.png",
+            "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress75-held-screen.png",
+            "sha256": "639a317fcd45e25ecf8d35c4924b53a52be231df4ddc7ef41f7a201e15a2306c",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st00_flat128-light-ingress75-held-window.png",
+            "sha256": "6dc3f40eda8812583cd1b3c613ad4a7407990bb9cc42112d1e79dd00dfa3c5f4",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-far50-background-screen.png",
+            "sha256": "204665009b9592aca750c6c4d02174998285b414a786f3d000911e6114ac7601",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-far50-background-window.png",
+            "sha256": "72e4c7c594f8a47670dbd96c53292affba8c7ab57d088be271f932eea2e1b495",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-far50-held-screen.png",
+            "sha256": "341bf422b0acea05e8a084b1042cbefc3da58d5558c7555eab3fc908d03f41a1",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-far50-held-window.png",
+            "sha256": "4f54070248ad49da2bdcebdbc1940162691b45ba995a2e5e8753ac32170e273b",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-full100-background-screen.png",
+            "sha256": "d5175c0b19b993ad9f8a427d1ece532abb4c49612e856bd42f4f57a2b20e47f7",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-full100-background-window.png",
+            "sha256": "72e4c7c594f8a47670dbd96c53292affba8c7ab57d088be271f932eea2e1b495",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-full100-held-screen.png",
+            "sha256": "a58294f8af158567658f95cf01ea0a9426678a51ca0b3194f7c2467e0cca4179",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-full100-held-window.png",
+            "sha256": "ea39c14b4f3d2c48c9b82d12bc4406cc1863c5c6da1b42f4ed118c576a84c23b",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress01-background-screen.png",
+            "sha256": "f50348248c0dc52422b0fffc26fd9ec0a1d65baeeadfe100c8c303516f65cecd",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress01-background-window.png",
+            "sha256": "72e4c7c594f8a47670dbd96c53292affba8c7ab57d088be271f932eea2e1b495",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress01-held-screen.png",
+            "sha256": "5b6ec367e82982d8d6970da960c27833a19bd3643905ccf813e5b50c064ff980",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress01-held-window.png",
+            "sha256": "87edaec05b515c486bcc37929128b62164ad81071360dcd1d35de1e9c302904b",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress10-background-screen.png",
+            "sha256": "6397c5dd9886687f7f6dcc7ce8be629be5b5c7b4d78b31257dd5410b981a62e6",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress10-background-window.png",
+            "sha256": "72e4c7c594f8a47670dbd96c53292affba8c7ab57d088be271f932eea2e1b495",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress10-held-screen.png",
+            "sha256": "b06f4149ed766ca6c5679c9b21b1d99b6e6bc6432d193b920fb38f3efa1b41a2",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress10-held-window.png",
+            "sha256": "1cc579f2708493eb157f370ae622789efe93b7708bfe4ead50ec1359737a0725",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress50-background-screen.png",
+            "sha256": "b2d41bd2da9454c08d3e341d7bb4ad92480fe2f957190081bc11485d9dd1c0db",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress50-background-window.png",
+            "sha256": "72e4c7c594f8a47670dbd96c53292affba8c7ab57d088be271f932eea2e1b495",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress50-held-screen.png",
+            "sha256": "98cbffc1bb46a665ee2c7c1ce01e8a280c5a2af7aa13d1d25f0202bdfb2b8ec3",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress50-held-window.png",
+            "sha256": "f62788f72c16288d924d9afaaeaedf848746caeb07f9109cfe49a33584571c53",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress75-background-screen.png",
+            "sha256": "297a58dd6b494dfd02b765835107954a2d520d60f37620775e7d3a1c3b6ab83c",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress75-background-window.png",
+            "sha256": "72e4c7c594f8a47670dbd96c53292affba8c7ab57d088be271f932eea2e1b495",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress75-held-screen.png",
+            "sha256": "5d887df1f717f88b0abe8947f65e745bdf12784180acbfe4df1e518da1754a9a",
+            "host_device_match": true
+          },
+          {
+            "file": "trace/st06_rgb_star6_d12-light-ingress75-held-window.png",
+            "sha256": "7bf1f3ae1451c06b7c4ef2e4f13ca12d2221474a7529922550729ff3ddf0e34f",
+            "host_device_match": true
+          }
+        ],
+        "all_49_host_device_files_match": true,
+        "capture_policy": "Actual Window PixelCopy and independent composited display PNGs, unchanged>=99.5% RGB3 readiness and whole-holder/carrier6dp shadow room requirements. Each pose has its own unchanged-source background baseline.",
+        "input_policy": "The requested carrier center is converted analytically through the unchanged production relative drag mapping. DOWN starts at the observed quarter REST carrier. A real MOVE11dp crosses the production10dp slop, then a second real MOVE requests the inverse-mapped fraction. Actual pointer dispatch, values and carrier LayoutCoordinates are exported. Nominal source overlap is not actual optical coverage.",
+        "clock_policy": "LocalDockInputTimeNanos uses the Compose clock;1600ms settling after DOWN and each MOVE. Requested event delays and actual dispatch uptime are recorded independently. This is settled static evidence, not a millisecond motion measurement.",
+        "clean_identity_audit": {
+          "source": {
+            "archive_id": "validation-star6-d12/android-matched-native-v1/android-quadratic-validation-clean-r1/independent-acquisition-audit/audit.json",
+            "sha256": "80a1b06a3ea459ca6d8a958c75323a4bcd618dad9dc60f083cbe1a13b32e6c6b",
+            "bytes": 19530
+          },
+          "status": "current49_file_package_identity_checks_passed_pending_frozen_pointer_index",
+          "checks": {
+            "current6_shape": true,
+            "unique_run_includes_spec_hash": true,
+            "holdout_role": true,
+            "spec_hash_bound": true,
+            "embedded_spec_and_manifest_exact": true,
+            "manifest_hash_bound": true,
+            "all_original_inputs_exact": true,
+            "exact12captured12baselines": true,
+            "exact49files_no_residuals": true,
+            "all49_hashes_match": true,
+            "current_input_identity": true,
+            "fresh_capture_chronology": true,
+            "same_frozen_production_and_test_sources": true,
+            "same_frozen_installed_apks": true,
+            "same_frozen_spec_and_input_hashes": true,
+            "test_passed": true,
+            "all12_names_current_scene_bound_and_baseline_matched": true
+          },
+          "receipt_sha256": "36fff81a351357c9787160e456f5ba12e87b57bd2c5294d5167cb998b8d9da4e",
+          "result_sha256": "e91bf494490b24aa6fd6e87cc17c2d40136c1c34f4ad2f596cd85ceff27e0091",
+          "remote_directory_absence_provenance": "Root reported the current host pre-capture `adb shell test -e` check returned absent. Current capture-android.py also asserts remote destination absence before capture. This auditor did not interact with the device.",
+          "frozen_index_followup": {
+            "status": "original_hashes_pointer_and_pair_checks_passed",
+            "sha256": "cd07812a75790377d83a296518b84766560f471141b71aef289cfa6d232ef84a",
+            "input_role": "holdout"
+          }
+        }
+      }
+    }
+  },
+  "candidate_profile_reference": {
+    "path": "../glass-slider-star-20261115/profile.json",
+    "sha256": "94262ea2c06098cb02b96228ea74b0436c24a5e7c063d8ae5b72b8ea7a5ef9b2"
+  },
+  "same_production_sources_as_r2_calibration": true,
+  "same_sources_and_apks_between_both_holdouts": true,
+  "fixture_scope": "The capture fixture gained frozen holdout role loading after calibration; its capture SHA is retained separately. No production optical parameter changed."
+}

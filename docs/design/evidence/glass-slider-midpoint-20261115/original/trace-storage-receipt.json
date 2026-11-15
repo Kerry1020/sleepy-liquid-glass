@@ -1,0 +1,125 @@
+{
+  "status": "lossless_authoritative_trace_archive",
+  "rounds": [
+    {
+      "status": "verified_lossless_archive_then_removed_uncompressed_trace_duplicates",
+      "archive": "half/native-feasibility-r1/traces-original-jsonl.tar.gz",
+      "archive_sha256": "9d73cb4957adc2afb3c92166bbcafaf86fed662e9ccb0a3aece13190ae9de07c",
+      "archive_bytes": 12726969,
+      "raw_bytes": 121567348,
+      "members": {
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-07D9DD23-06F6-4A8C-8471-368255915BD7/trace.jsonl": {
+          "sha256": "f25d827b77ce324324cdc712ece71cb501da42b7ee903c480e4f88a79db204c4",
+          "bytes": 9833005
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-3BACEAE3-21E8-4BE0-A8EA-A24D2A07BA54/trace.jsonl": {
+          "sha256": "195f7db0d800220119a02a7f24cedcc9d0a426e151996074c998c0623343c176",
+          "bytes": 10788997
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-545187CB-89E5-4093-90C3-2507F221EE39/trace.jsonl": {
+          "sha256": "049fc21360899d2c4b4ef7a015f2308c1acb843e11a6b1032c70dca6c9bf4370",
+          "bytes": 9962538
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-545EC0FC-A4F8-4FC7-A6A6-A9B38F0CCBC4/trace.jsonl": {
+          "sha256": "9a6c85b7aa69e0b114184b2e0e517d73d0d2e2a877428bf7acce624a8e0e7e10",
+          "bytes": 10306281
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-558AB5F1-7B04-4B6D-9347-D115239C634F/trace.jsonl": {
+          "sha256": "f911aa775eb5201c1a06f9c39c5e96cf82cdc273e4069fea55ed3f247d36f700",
+          "bytes": 9928214
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-5E3F87E3-789D-4F8C-9F24-B53FB172E070/trace.jsonl": {
+          "sha256": "d7af473ac910f31681410fa58e5c6d40af0faf77fb523fb0956aa11cb2964cb2",
+          "bytes": 9917166
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-6AFE0070-1230-4678-A6E1-627B964E74A1/trace.jsonl": {
+          "sha256": "da33c9f8ef90192f40abf567730c8fcc9263d8cf397fe30ea63382b8059b1705",
+          "bytes": 9959512
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-992A40EC-9DCF-42F6-A536-FB018DE10271/trace.jsonl": {
+          "sha256": "0f2fcc292ff0a39efd2bbad56c942a5295c409ca5933773284738e24e549828f",
+          "bytes": 9930122
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-A558C316-0785-44DA-8AFD-709EF32B3DA2/trace.jsonl": {
+          "sha256": "222e34e75dd9a31885222fd2a3b2b3e629031a5e2bbafd756b5043b4860fe887",
+          "bytes": 10366306
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-A7C12664-6811-4237-A2DE-FB11BDCF3127/trace.jsonl": {
+          "sha256": "244351b7f30431c1915947cbf222c3a7064a061d34b8c36ad9e8705d6376dc9a",
+          "bytes": 10012274
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-E525CFC7-839C-42EE-87D6-CC82F56B6CE6/trace.jsonl": {
+          "sha256": "8a8135e9a83286e4ffff5f6a9124c777b46ae63c291c2bdea413fe5d780db2ae",
+          "bytes": 9798554
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-E857C236-1BAF-484A-9F47-1860E75F42BC/trace.jsonl": {
+          "sha256": "392f5dcfe88d35ddc3a472d80045c9fc6e42eed170c9d34deaf7b9d4c2297bfc",
+          "bytes": 10764379
+        }
+      },
+      "removed_same_hash_simulator_duplicate_bytes": 121567348,
+      "restore_before_full_strict_trace_replay": "tar -xzf traces-original-jsonl.tar.gz -C .  # run inside this native-feasibility-r1 folder",
+      "retained": "Original capture PNGs, input files, original endpoint/receipt/index bytes, sessions and saved analysis unchanged."
+    },
+    {
+      "status": "verified_lossless_archive_then_removed_uncompressed_trace_duplicates",
+      "archive": "control-repeat/native-feasibility-r1/traces-original-jsonl.tar.gz",
+      "archive_sha256": "e2cf260f6593bf3507f995ff7586ba4fdc615981ed5794f19d49236b2ffef0d3",
+      "archive_bytes": 12733855,
+      "raw_bytes": 121512337,
+      "members": {
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-0EAAF2FE-F593-46CF-B04D-D0EE5238EA5F/trace.jsonl": {
+          "sha256": "0380cdfc715e97e7ce75500c4f01d3d83eb96f93e6eee5937b4dd24a09f85f90",
+          "bytes": 9992920
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-2F2A453C-850A-426A-B4F8-0A6388E5A452/trace.jsonl": {
+          "sha256": "74f96961dec2f9c6d151d624f0387c9b6a43feb891f434beafd3d09694dfd299",
+          "bytes": 9933743
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-394315C4-4874-41B3-9AB7-14E5C0956EB6/trace.jsonl": {
+          "sha256": "f8e328ec2254994c811dceb1060ab4381728b35d6c289cbe26be28fc98bb7d91",
+          "bytes": 9985487
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-45BFD8B5-016F-4546-8953-3A9637151AB4/trace.jsonl": {
+          "sha256": "e47895146e64a09568d9372328e275bd8c7cba9a886892464a8c199f47ac1b97",
+          "bytes": 9891227
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-66EB95DF-1775-4587-8E54-5B99925044D7/trace.jsonl": {
+          "sha256": "e70728c099d5eae8891c00cfff089a9edecb5d7cdf242ef0caaf5d4b005b3931",
+          "bytes": 10767655
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-67CC53A6-6060-47C8-ADC9-E2CABDE2FED8/trace.jsonl": {
+          "sha256": "09dfe9dba82d11b798fe27da4ca645f995b1a960bc8dbbbf772a8c9aeea2ca24",
+          "bytes": 10369253
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-A00DDB2B-5632-400B-BDA2-2280B35FFD6E/trace.jsonl": {
+          "sha256": "104962c8dd73a221b76e70ed4eeebdcc78ec3986718b43679b74e5967a14fffe",
+          "bytes": 10744755
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-A93A2A37-A4B4-415E-BC61-25179F3CE000/trace.jsonl": {
+          "sha256": "e0d41e591a717be6158b046ead8b2b91bc79e7f2616422e56948a5cefeefc72f",
+          "bytes": 9819130
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-AF85C013-4686-4C56-8652-3BEDB2E3DE3E/trace.jsonl": {
+          "sha256": "04289230a1b942533ea4b8d2bc9f0fc65cc2931c5a36ebd18e78e61bcf698fa1",
+          "bytes": 9921557
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-BDC65EDE-7A06-4F57-8FC8-9FCF3A86C926/trace.jsonl": {
+          "sha256": "c59e6d1dd79a8322f45cc0a0ff432859a28ea15fd427b54464546d7db31887a5",
+          "bytes": 9903122
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-EFEA9792-1D7F-49F5-AB11-BE2F3DB3300D/trace.jsonl": {
+          "sha256": "0ede76c2ff744e50f6f03da4afb1c044433c72c31e6c69fb877b0c61fd9f83b7",
+          "bytes": 10359519
+        },
+        "traces/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-FEB5DCB2-10CD-4122-BC87-604D7D93A04E/trace.jsonl": {
+          "sha256": "34fb928c16ef067c1b770e6d21b88b17451e95f8064fb2ae87612bdd6c2e648b",
+          "bytes": 9823969
+        }
+      },
+      "removed_same_hash_simulator_duplicate_bytes": 121512337,
+      "restore_before_full_strict_trace_replay": "tar -xzf traces-original-jsonl.tar.gz -C .  # run inside this native-feasibility-r1 folder",
+      "retained": "Original capture PNGs, input files, original endpoint/receipt/index bytes, sessions and saved analysis unchanged."
+    }
+  ]
+}

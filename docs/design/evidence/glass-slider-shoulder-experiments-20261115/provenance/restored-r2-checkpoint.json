@@ -1,0 +1,50 @@
+{
+  "original_archive": {
+    "archive_id": "narrow-shoulder-r4/restored-r2-checkpoint.json",
+    "sha256": "c1b1eec979a9ecc93e8c162bcded9c7ad1c0f2eecceee00583c8ea4aa4eab394",
+    "bytes": 1916
+  },
+  "record": {
+    "status": "r4 rejected; restored r2 unaccepted optical checkpoint",
+    "unix": 1794754012.907775,
+    "tests": [
+      {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassStyleReferenceTest",
+        "tests": "27",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T14:46:18.058Z",
+        "hostname": "kerryleedeMacBook.local",
+        "time": "0.011",
+        "sha256": "d0ac2436be629860dd2ab0d9eb08cf765b65f98866bcf526e06b56d66e2ed72e"
+      },
+      {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassRefractionShoulderTest",
+        "tests": "7",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T14:46:13.856Z",
+        "hostname": "kerryleedeMacBook.local",
+        "time": "4.195",
+        "sha256": "45657c0b966123691fd55e95344271b98a3b78a593f39f5648825c27f00a559b"
+      }
+    ],
+    "total": 34,
+    "apk_sha256": "6837260c0999f8ce261dd27055d277d6ee137aad4797c136b3622cd480df55f7",
+    "source_hashes": {
+      "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9",
+      "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassRefractionShoulderTest.kt": "11bab9351090bc1f1a16ae0385aeaa18508379833b88a27710971fedf88c97c7"
+    },
+    "build_log_sha256": "9b7138fe65281f63ce5179ace0f9c930d6f83364d118f9b5493db08f195aea21",
+    "install": "Performing Streamed Install\nSuccess",
+    "installed_sha256": "6837260c0999f8ce261dd27055d277d6ee137aad4797c136b3622cd480df55f7",
+    "start": "Starting: Intent { cmp=com.lingion.sleepy.debug/com.lingion.sleepy.MainActivity }",
+    "activity": "com.lingion.sleepy.debug/com.lingion.sleepy.MainActivity",
+    "display": {
+      "size": "Physical size: 1216x2640",
+      "density": "Physical density: 560\nOverride density: 476"
+    }
+  }
+}

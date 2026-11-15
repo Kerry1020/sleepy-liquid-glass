@@ -1,0 +1,400 @@
+{
+  "status": "passed",
+  "scope": "Original ROI numerical replay; not full-screen hash or endpoint recapture verification",
+  "stages": {
+    "ingress01": {
+      "all_official_metrics_match": true,
+      "all_original_NPZ_arrays_match": true,
+      "flat_per_round_max_RGB": {
+        "control": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "half": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "control_repeat": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "repeat_complete_max_RGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "above_rail_max_abs_RGB": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "above_rail_abs_gt1_5_RGB": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ingress10": {
+      "all_official_metrics_match": true,
+      "all_original_NPZ_arrays_match": true,
+      "flat_per_round_max_RGB": {
+        "control": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "half": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "control_repeat": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "repeat_complete_max_RGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "above_rail_max_abs_RGB": [
+        0.5,
+        1.0,
+        0.0
+      ],
+      "above_rail_abs_gt1_5_RGB": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ingress50": {
+      "all_official_metrics_match": true,
+      "all_original_NPZ_arrays_match": true,
+      "flat_per_round_max_RGB": {
+        "control": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "half": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "control_repeat": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "repeat_complete_max_RGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "above_rail_max_abs_RGB": [
+        0.5,
+        1.0,
+        0.5
+      ],
+      "above_rail_abs_gt1_5_RGB": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ingress75": {
+      "all_official_metrics_match": true,
+      "all_original_NPZ_arrays_match": true,
+      "flat_per_round_max_RGB": {
+        "control": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "half": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "control_repeat": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "repeat_complete_max_RGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "above_rail_max_abs_RGB": [
+        1.0,
+        1.5,
+        1.0
+      ],
+      "above_rail_abs_gt1_5_RGB": [
+        0,
+        0,
+        0
+      ]
+    },
+    "full100": {
+      "all_official_metrics_match": true,
+      "all_original_NPZ_arrays_match": true,
+      "flat_per_round_max_RGB": {
+        "control": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "half": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "control_repeat": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "repeat_complete_max_RGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "above_rail_max_abs_RGB": [
+        7.5,
+        1.5,
+        1.5
+      ],
+      "above_rail_abs_gt1_5_RGB": [
+        5,
+        0,
+        0
+      ]
+    },
+    "far50": {
+      "all_official_metrics_match": true,
+      "all_original_NPZ_arrays_match": true,
+      "flat_per_round_max_RGB": {
+        "control": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "half": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "control_repeat": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "repeat_complete_max_RGB": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "above_rail_max_abs_RGB": [
+        0.5,
+        1.0,
+        0.5
+      ],
+      "above_rail_abs_gt1_5_RGB": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "above_rail_exception_pixels": [
+    {
+      "stage": "full100",
+      "xy": [
+        183.25,
+        411.25
+      ],
+      "inset": 0.3499999999999943,
+      "E_RGB": [
+        -5.0,
+        1.0,
+        0.0
+      ],
+      "C_RGB": [
+        23.0,
+        91.0,
+        175.0
+      ],
+      "H_RGB": [
+        9.0,
+        110.0,
+        164.0
+      ],
+      "F_RGB": [
+        5.0,
+        127.0,
+        153.0
+      ]
+    },
+    {
+      "stage": "full100",
+      "xy": [
+        183.75,
+        411.25
+      ],
+      "inset": 0.3499999999999943,
+      "E_RGB": [
+        -7.5,
+        -0.5,
+        1.0
+      ],
+      "C_RGB": [
+        22.0,
+        94.0,
+        113.0
+      ],
+      "H_RGB": [
+        6.0,
+        119.0,
+        101.0
+      ],
+      "F_RGB": [
+        5.0,
+        145.0,
+        87.0
+      ]
+    },
+    {
+      "stage": "full100",
+      "xy": [
+        184.25,
+        411.25
+      ],
+      "inset": 0.3499999999999943,
+      "E_RGB": [
+        -6.5,
+        -0.5,
+        1.5
+      ],
+      "C_RGB": [
+        20.0,
+        97.0,
+        70.0
+      ],
+      "H_RGB": [
+        6.0,
+        121.0,
+        60.0
+      ],
+      "F_RGB": [
+        5.0,
+        146.0,
+        47.0
+      ]
+    },
+    {
+      "stage": "full100",
+      "xy": [
+        184.75,
+        411.25
+      ],
+      "inset": 0.3499999999999943,
+      "E_RGB": [
+        -2.5,
+        0.0,
+        0.0
+      ],
+      "C_RGB": [
+        12.0,
+        99.0,
+        54.0
+      ],
+      "H_RGB": [
+        6.0,
+        121.0,
+        44.0
+      ],
+      "F_RGB": [
+        5.0,
+        143.0,
+        34.0
+      ]
+    },
+    {
+      "stage": "full100",
+      "xy": [
+        185.25,
+        411.75
+      ],
+      "inset": 0.8499999999999943,
+      "E_RGB": [
+        -3.0,
+        0.0,
+        0.5
+      ],
+      "C_RGB": [
+        53.0,
+        117.0,
+        64.0
+      ],
+      "H_RGB": [
+        47.0,
+        144.0,
+        62.0
+      ],
+      "F_RGB": [
+        47.0,
+        171.0,
+        59.0
+      ]
+    }
+  ],
+  "seven_point_consumed": false,
+  "limitations": [
+    "Archived strict receipts are original evidence, not a new trace-verifier run.",
+    "Original full PNG hashes cannot be reconstructed from crops.",
+    "Encoded-sRGB midpoint does not establish physical linearity or identify an internal processing layer."
+  ]
+}

@@ -1,0 +1,1446 @@
+{
+  "schema": 1,
+  "status": "derived_portable_index_of_original_recorded_calibration_pngs",
+  "shape_id": "st01_rgb_star_d16",
+  "fixed_roi_xyxy_world": [
+    165.5,
+    397.5,
+    209.5,
+    441.5
+  ],
+  "measurement_resampling": false,
+  "platforms": {
+    "ios": [
+      {
+        "stage_id": "ingress01",
+        "shape_id": "st01_rgb_star_d16",
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2,
+        "source_world_xywh": [
+          0,
+          0,
+          375,
+          667
+        ],
+        "actual_control_bounds_world_xywh": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "bounds_kind": "actual public presented native Slider owner bounds; not optical alpha",
+        "actual_carrier_bounds_world_xywh": [
+          127.02350558042527,
+          410.9,
+          57.35000000000001,
+          37.19999999999999
+        ],
+        "carrier_bounds_scope": "actual public presented carrier rectangle; not optical alpha or optical-stability proof",
+        "flat_actual_carrier_bounds_world_xywh": [
+          127.02350558042527,
+          410.9,
+          57.35000000000001,
+          37.19999999999999
+        ],
+        "flat_geometry": {
+          "world_origin_window_px": [
+            0,
+            0
+          ],
+          "pixels_per_world_unit": 2,
+          "actual_control_bounds_world_xywh": [
+            20,
+            414,
+            335,
+            31
+          ],
+          "actual_carrier_bounds_world_xywh": [
+            127.02350558042527,
+            410.9,
+            57.35000000000001,
+            37.19999999999999
+          ]
+        },
+        "shape": {
+          "path": "raw/ios/ingress01-shape.png",
+          "sha256": "597f19ce1f8d08ac828b19638aeda917007b882940e59d35300e9361877f4435",
+          "bytes": 99303
+        },
+        "flat": {
+          "path": "raw/ios/ingress01-flat.png",
+          "sha256": "fc421cc0a4d762def041a7b66fc7436257ada325f177febde7e61b966de4b57f",
+          "bytes": 98873
+        }
+      },
+      {
+        "stage_id": "ingress10",
+        "shape_id": "st01_rgb_star_d16",
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2,
+        "source_world_xywh": [
+          0,
+          0,
+          375,
+          667
+        ],
+        "actual_control_bounds_world_xywh": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "bounds_kind": "actual public presented native Slider owner bounds; not optical alpha",
+        "actual_carrier_bounds_world_xywh": [
+          128.80261034965514,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "carrier_bounds_scope": "actual public presented carrier rectangle; not optical alpha or optical-stability proof",
+        "flat_actual_carrier_bounds_world_xywh": [
+          128.80261034965514,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "flat_geometry": {
+          "world_origin_window_px": [
+            0,
+            0
+          ],
+          "pixels_per_world_unit": 2,
+          "actual_control_bounds_world_xywh": [
+            20,
+            414,
+            335,
+            31
+          ],
+          "actual_carrier_bounds_world_xywh": [
+            128.80261034965514,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ]
+        },
+        "shape": {
+          "path": "raw/ios/ingress10-shape.png",
+          "sha256": "d09bf356a365dc28ea7f99f97fe6efe56b1a2e7f41267651fe1266e66e55ae49",
+          "bytes": 99414
+        },
+        "flat": {
+          "path": "raw/ios/ingress10-flat.png",
+          "sha256": "9336ae0cb2daf2a1496d9011ee6850ac1bceb6944d6af67208d0a0fc310b6128",
+          "bytes": 98729
+        }
+      },
+      {
+        "stage_id": "ingress50",
+        "shape_id": "st01_rgb_star_d16",
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2,
+        "source_world_xywh": [
+          0,
+          0,
+          375,
+          667
+        ],
+        "actual_control_bounds_world_xywh": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "bounds_kind": "actual public presented native Slider owner bounds; not optical alpha",
+        "actual_carrier_bounds_world_xywh": [
+          133.69515068531035,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "carrier_bounds_scope": "actual public presented carrier rectangle; not optical alpha or optical-stability proof",
+        "flat_actual_carrier_bounds_world_xywh": [
+          133.69515068531035,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "flat_geometry": {
+          "world_origin_window_px": [
+            0,
+            0
+          ],
+          "pixels_per_world_unit": 2,
+          "actual_control_bounds_world_xywh": [
+            20,
+            414,
+            335,
+            31
+          ],
+          "actual_carrier_bounds_world_xywh": [
+            133.69515068531035,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ]
+        },
+        "shape": {
+          "path": "raw/ios/ingress50-shape.png",
+          "sha256": "31226f6d2174862266dbc56865bbebc1abfeccd081290320bf1c74952a3820d7",
+          "bytes": 99558
+        },
+        "flat": {
+          "path": "raw/ios/ingress50-flat.png",
+          "sha256": "46ce4195429f63e7149fce00be036d0407372a67b0e8476d46b44167c0b5c7e0",
+          "bytes": 98656
+        }
+      },
+      {
+        "stage_id": "ingress75",
+        "shape_id": "st01_rgb_star_d16",
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2,
+        "source_world_xywh": [
+          0,
+          0,
+          375,
+          667
+        ],
+        "actual_control_bounds_world_xywh": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "bounds_kind": "actual public presented native Slider owner bounds; not optical alpha",
+        "actual_carrier_bounds_world_xywh": [
+          135.9190294265747,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "carrier_bounds_scope": "actual public presented carrier rectangle; not optical alpha or optical-stability proof",
+        "flat_actual_carrier_bounds_world_xywh": [
+          135.9190294265747,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "flat_geometry": {
+          "world_origin_window_px": [
+            0,
+            0
+          ],
+          "pixels_per_world_unit": 2,
+          "actual_control_bounds_world_xywh": [
+            20,
+            414,
+            335,
+            31
+          ],
+          "actual_carrier_bounds_world_xywh": [
+            135.9190294265747,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ]
+        },
+        "shape": {
+          "path": "raw/ios/ingress75-shape.png",
+          "sha256": "0ad5b6b156a232b50e09aeaf326273819937d98cae5a6486db335a538b3ba17e",
+          "bytes": 99498
+        },
+        "flat": {
+          "path": "raw/ios/ingress75-flat.png",
+          "sha256": "cf250ade3009b177e1222d831fa2bc9abc0395cd3be7c5f381b3dbf880496f99",
+          "bytes": 98593
+        }
+      },
+      {
+        "stage_id": "full100",
+        "shape_id": "st01_rgb_star_d16",
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2,
+        "source_world_xywh": [
+          0,
+          0,
+          375,
+          667
+        ],
+        "actual_control_bounds_world_xywh": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "bounds_kind": "actual public presented native Slider owner bounds; not optical alpha",
+        "actual_carrier_bounds_world_xywh": [
+          159.04738254547118,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "carrier_bounds_scope": "actual public presented carrier rectangle; not optical alpha or optical-stability proof",
+        "flat_actual_carrier_bounds_world_xywh": [
+          159.04738254547118,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "flat_geometry": {
+          "world_origin_window_px": [
+            0,
+            0
+          ],
+          "pixels_per_world_unit": 2,
+          "actual_control_bounds_world_xywh": [
+            20,
+            414,
+            335,
+            31
+          ],
+          "actual_carrier_bounds_world_xywh": [
+            159.04738254547118,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ]
+        },
+        "shape": {
+          "path": "raw/ios/full100-shape.png",
+          "sha256": "f94af0f260d01f792c099e7fbe073fc6c1650f1c42dafed16ea9f756e673bca9",
+          "bytes": 100612
+        },
+        "flat": {
+          "path": "raw/ios/full100-flat.png",
+          "sha256": "88b64167ce8e9f84d1616bddafdb9c6dd86095ff90c6cac5c6c85bec5f549055",
+          "bytes": 98786
+        }
+      },
+      {
+        "stage_id": "far50",
+        "shape_id": "st01_rgb_star_d16",
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2,
+        "source_world_xywh": [
+          0,
+          0,
+          375,
+          667
+        ],
+        "actual_control_bounds_world_xywh": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "bounds_kind": "actual public presented native Slider owner bounds; not optical alpha",
+        "actual_carrier_bounds_world_xywh": [
+          183.95484931468962,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "carrier_bounds_scope": "actual public presented carrier rectangle; not optical alpha or optical-stability proof",
+        "flat_actual_carrier_bounds_world_xywh": [
+          183.95484931468962,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "flat_geometry": {
+          "world_origin_window_px": [
+            0,
+            0
+          ],
+          "pixels_per_world_unit": 2,
+          "actual_control_bounds_world_xywh": [
+            20,
+            414,
+            335,
+            31
+          ],
+          "actual_carrier_bounds_world_xywh": [
+            183.95484931468962,
+            410.9,
+            57.349999999999994,
+            37.19999999999999
+          ]
+        },
+        "shape": {
+          "path": "raw/ios/far50-shape.png",
+          "sha256": "e9072a20999013f67b7d9968352fa4a0555f0f6d76215b2a5b872533799a107f",
+          "bytes": 99371
+        },
+        "flat": {
+          "path": "raw/ios/far50-flat.png",
+          "sha256": "8123c7d3b779920f9e57e884f0029f5d5ab53161e84c9a6bffa7adee11a168b8",
+          "bytes": 98673
+        }
+      }
+    ],
+    "android-r2": [
+      {
+        "stage_id": "ingress01",
+        "shape_id": "st01_rgb_star_d16",
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2.9750001,
+        "source_world_xywh": [
+          0,
+          0,
+          375,
+          667
+        ],
+        "source_layout_geometry": {
+          "layout_size_px": [
+            1116,
+            1984
+          ],
+          "logical_size_dp": [
+            375.12604,
+            666.89075
+          ],
+          "density": 2.9750001,
+          "screen_origin_px": [
+            0,
+            0
+          ],
+          "screen_rect_px": [
+            0,
+            0,
+            1116,
+            1984
+          ],
+          "local_to_screen_corners_px": [
+            {
+              "local_px": [
+                0,
+                0
+              ],
+              "screen_px": [
+                0,
+                0
+              ]
+            },
+            {
+              "local_px": [
+                1116,
+                0
+              ],
+              "screen_px": [
+                1116,
+                0
+              ]
+            },
+            {
+              "local_px": [
+                0,
+                1984
+              ],
+              "screen_px": [
+                0,
+                1984
+              ]
+            },
+            {
+              "local_px": [
+                1116,
+                1984
+              ],
+              "screen_px": [
+                1116,
+                1984
+              ]
+            }
+          ],
+          "local_to_screen_unit_basis_px": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+        },
+        "source_declared_world_to_actual_dp_scale_xy": [
+          1.0003361008290386,
+          0.9998361827376697
+        ],
+        "actual_control_bounds_world_xywh": [
+          19.890772440646305,
+          405.46640653894434,
+          335.1260223487051,
+          48.06722527505125
+        ],
+        "bounds_kind": "actual attached production touch-holder layout, not native optical alpha",
+        "actual_carrier_bounds_world_xywh": [
+          126.779335,
+          410.84598,
+          57.483344999999986,
+          37.308040000000005
+        ],
+        "carrier_bounds_scope": "actual attached affine visual carrier corners excluding shadow, not optical alpha",
+        "flat_actual_carrier_bounds_world_xywh": [
+          126.779335,
+          410.84598,
+          57.483344999999986,
+          37.308040000000005
+        ],
+        "flat_geometry": {
+          "world_origin_window_px": [
+            0,
+            0
+          ],
+          "pixels_per_world_unit": 2.9750001,
+          "actual_control_bounds_world_xywh": [
+            19.890772440646305,
+            405.46640653894434,
+            335.1260223487051,
+            48.06722527505125
+          ],
+          "actual_carrier_bounds_world_xywh": [
+            126.779335,
+            410.84598,
+            57.483344999999986,
+            37.308040000000005
+          ]
+        },
+        "capture_checks": [
+          {
+            "stage_id": "ingress01",
+            "role": "shape",
+            "scene": "st01_rgb_star_d16-light-ingress01",
+            "capture_begin_wall_uptime_ms": 740286534,
+            "capture_end_wall_uptime_ms": 740288290,
+            "last_move_dispatch_wall_uptime_ms": 740286326,
+            "settle_wall_ms": 208,
+            "settle_compose_ms": 1600,
+            "cleanup_cancel_wall_uptime_ms": 740288363,
+            "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+          },
+          {
+            "stage_id": "ingress01",
+            "role": "flat",
+            "scene": "st00_flat128-light-ingress01",
+            "capture_begin_wall_uptime_ms": 740290059,
+            "capture_end_wall_uptime_ms": 740291665,
+            "last_move_dispatch_wall_uptime_ms": 740289863,
+            "settle_wall_ms": 196,
+            "settle_compose_ms": 1600,
+            "cleanup_cancel_wall_uptime_ms": 740291775,
+            "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+          }
+        ],
+        "shape": {
+          "path": "raw/android-r2/ingress01-shape.png",
+          "sha256": "4129b361825fe136d5453dcc415aa666acdfef0aa137f597e851b72c3c097393",
+          "bytes": 38996
+        },
+        "flat": {
+          "path": "raw/android-r2/ingress01-flat.png",
+          "sha256": "be8c2426f0ec8ce06274fd2ef0d7d14396bc9c8206ae0ee89d510c7acf7aa0fe",
+          "bytes": 37097
+        }
+      },
+      {
+        "stage_id": "ingress10",
+        "shape_id": "st01_rgb_star_d16",
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2.9750001,
+        "source_world_xywh": [
+          0,
+          0,
+          375,
+          667
+        ],
+        "source_layout_geometry": {
+          "layout_size_px": [
+            1116,
+            1984
+          ],
+          "logical_size_dp": [
+            375.12604,
+            666.89075
+          ],
+          "density": 2.9750001,
+          "screen_origin_px": [
+            0,
+            0
+          ],
+          "screen_rect_px": [
+            0,
+            0,
+            1116,
+            1984
+          ],
+          "local_to_screen_corners_px": [
+            {
+              "local_px": [
+                0,
+                0
+              ],
+              "screen_px": [
+                0,
+                0
+              ]
+            },
+            {
+              "local_px": [
+                1116,
+                0
+              ],
+              "screen_px": [
+                1116,
+                0
+              ]
+            },
+            {
+              "local_px": [
+                0,
+                1984
+              ],
+              "screen_px": [
+                0,
+                1984
+              ]
+            },
+            {
+              "local_px": [
+                1116,
+                1984
+              ],
+              "screen_px": [
+                1116,
+                1984
+              ]
+            }
+          ],
+          "local_to_screen_unit_basis_px": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+        },
+        "source_declared_world_to_actual_dp_scale_xy": [
+          1.0003361008290386,
+          0.9998361827376697
+        ],
+        "actual_control_bounds_world_xywh": [
+          19.890772440646305,
+          405.46640653894434,
+          335.1260223487051,
+          48.06722527505125
+        ],
+        "bounds_kind": "actual attached production touch-holder layout, not native optical alpha",
+        "actual_carrier_bounds_world_xywh": [
+          128.79605,
+          410.846,
+          57.48354999999998,
+          37.30799999999999
+        ],
+        "carrier_bounds_scope": "actual attached affine visual carrier corners excluding shadow, not optical alpha",
+        "flat_actual_carrier_bounds_world_xywh": [
+          128.79605,
+          410.846,
+          57.48354999999998,
+          37.30799999999999
+        ],
+        "flat_geometry": {
+          "world_origin_window_px": [
+            0,
+            0
+          ],
+          "pixels_per_world_unit": 2.9750001,
+          "actual_control_bounds_world_xywh": [
+            19.890772440646305,
+            405.46640653894434,
+            335.1260223487051,
+            48.06722527505125
+          ],
+          "actual_carrier_bounds_world_xywh": [
+            128.79605,
+            410.846,
+            57.48354999999998,
+            37.30799999999999
+          ]
+        },
+        "capture_checks": [
+          {
+            "stage_id": "ingress10",
+            "role": "shape",
+            "scene": "st01_rgb_star_d16-light-ingress10",
+            "capture_begin_wall_uptime_ms": 740293595,
+            "capture_end_wall_uptime_ms": 740295143,
+            "last_move_dispatch_wall_uptime_ms": 740293389,
+            "settle_wall_ms": 206,
+            "settle_compose_ms": 1600,
+            "cleanup_cancel_wall_uptime_ms": 740295241,
+            "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+          },
+          {
+            "stage_id": "ingress10",
+            "role": "flat",
+            "scene": "st00_flat128-light-ingress10",
+            "capture_begin_wall_uptime_ms": 740297050,
+            "capture_end_wall_uptime_ms": 740298678,
+            "last_move_dispatch_wall_uptime_ms": 740296836,
+            "settle_wall_ms": 214,
+            "settle_compose_ms": 1600,
+            "cleanup_cancel_wall_uptime_ms": 740298782,
+            "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+          }
+        ],
+        "shape": {
+          "path": "raw/android-r2/ingress10-shape.png",
+          "sha256": "25d57be7a334e529bad9cc45c8ae2f0cfb8efb16c4d29ff48f48e9892e7b4eab",
+          "bytes": 38260
+        },
+        "flat": {
+          "path": "raw/android-r2/ingress10-flat.png",
+          "sha256": "f39cec4b37ca04391d6ef77a7d0bfe43b5b646dd5c00a1d1b0f486123f8625ad",
+          "bytes": 36892
+        }
+      },
+      {
+        "stage_id": "ingress50",
+        "shape_id": "st01_rgb_star_d16",
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2.9750001,
+        "source_world_xywh": [
+          0,
+          0,
+          375,
+          667
+        ],
+        "source_layout_geometry": {
+          "layout_size_px": [
+            1116,
+            1984
+          ],
+          "logical_size_dp": [
+            375.12604,
+            666.89075
+          ],
+          "density": 2.9750001,
+          "screen_origin_px": [
+            0,
+            0
+          ],
+          "screen_rect_px": [
+            0,
+            0,
+            1116,
+            1984
+          ],
+          "local_to_screen_corners_px": [
+            {
+              "local_px": [
+                0,
+                0
+              ],
+              "screen_px": [
+                0,
+                0
+              ]
+            },
+            {
+              "local_px": [
+                1116,
+                0
+              ],
+              "screen_px": [
+                1116,
+                0
+              ]
+            },
+            {
+              "local_px": [
+                0,
+                1984
+              ],
+              "screen_px": [
+                0,
+                1984
+              ]
+            },
+            {
+              "local_px": [
+                1116,
+                1984
+              ],
+              "screen_px": [
+                1116,
+                1984
+              ]
+            }
+          ],
+          "local_to_screen_unit_basis_px": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+        },
+        "source_declared_world_to_actual_dp_scale_xy": [
+          1.0003361008290386,
+          0.9998361827376697
+        ],
+        "actual_control_bounds_world_xywh": [
+          19.890772440646305,
+          405.46640653894434,
+          335.1260223487051,
+          48.06722527505125
+        ],
+        "bounds_kind": "actual attached production touch-holder layout, not native optical alpha",
+        "actual_carrier_bounds_world_xywh": [
+          133.50168,
+          410.8462,
+          57.48407,
+          37.30763999999999
+        ],
+        "carrier_bounds_scope": "actual attached affine visual carrier corners excluding shadow, not optical alpha",
+        "flat_actual_carrier_bounds_world_xywh": [
+          133.50168,
+          410.8462,
+          57.48407,
+          37.30763999999999
+        ],
+        "flat_geometry": {
+          "world_origin_window_px": [
+            0,
+            0
+          ],
+          "pixels_per_world_unit": 2.9750001,
+          "actual_control_bounds_world_xywh": [
+            19.890772440646305,
+            405.46640653894434,
+            335.1260223487051,
+            48.06722527505125
+          ],
+          "actual_carrier_bounds_world_xywh": [
+            133.50168,
+            410.8462,
+            57.48407,
+            37.30763999999999
+          ]
+        },
+        "capture_checks": [
+          {
+            "stage_id": "ingress50",
+            "role": "shape",
+            "scene": "st01_rgb_star_d16-light-ingress50",
+            "capture_begin_wall_uptime_ms": 740300811,
+            "capture_end_wall_uptime_ms": 740302356,
+            "last_move_dispatch_wall_uptime_ms": 740300567,
+            "settle_wall_ms": 244,
+            "settle_compose_ms": 1600,
+            "cleanup_cancel_wall_uptime_ms": 740302470,
+            "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+          },
+          {
+            "stage_id": "ingress50",
+            "role": "flat",
+            "scene": "st00_flat128-light-ingress50",
+            "capture_begin_wall_uptime_ms": 740304531,
+            "capture_end_wall_uptime_ms": 740306127,
+            "last_move_dispatch_wall_uptime_ms": 740304264,
+            "settle_wall_ms": 267,
+            "settle_compose_ms": 1600,
+            "cleanup_cancel_wall_uptime_ms": 740306281,
+            "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+          }
+        ],
+        "shape": {
+          "path": "raw/android-r2/ingress50-shape.png",
+          "sha256": "b820d0e0a9ae70199a140b79a2e1c8435e50cfe22355452db9700f9801f64c9e",
+          "bytes": 38564
+        },
+        "flat": {
+          "path": "raw/android-r2/ingress50-flat.png",
+          "sha256": "694000913ad4618d3b58871ac82f0986b99c0819ea8a951a9be85c7f87d8da1d",
+          "bytes": 37021
+        }
+      },
+      {
+        "stage_id": "ingress75",
+        "shape_id": "st01_rgb_star_d16",
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2.9750001,
+        "source_world_xywh": [
+          0,
+          0,
+          375,
+          667
+        ],
+        "source_layout_geometry": {
+          "layout_size_px": [
+            1116,
+            1984
+          ],
+          "logical_size_dp": [
+            375.12604,
+            666.89075
+          ],
+          "density": 2.9750001,
+          "screen_origin_px": [
+            0,
+            0
+          ],
+          "screen_rect_px": [
+            0,
+            0,
+            1116,
+            1984
+          ],
+          "local_to_screen_corners_px": [
+            {
+              "local_px": [
+                0,
+                0
+              ],
+              "screen_px": [
+                0,
+                0
+              ]
+            },
+            {
+              "local_px": [
+                1116,
+                0
+              ],
+              "screen_px": [
+                1116,
+                0
+              ]
+            },
+            {
+              "local_px": [
+                0,
+                1984
+              ],
+              "screen_px": [
+                0,
+                1984
+              ]
+            },
+            {
+              "local_px": [
+                1116,
+                1984
+              ],
+              "screen_px": [
+                1116,
+                1984
+              ]
+            }
+          ],
+          "local_to_screen_unit_basis_px": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+        },
+        "source_declared_world_to_actual_dp_scale_xy": [
+          1.0003361008290386,
+          0.9998361827376697
+        ],
+        "actual_control_bounds_world_xywh": [
+          19.890772440646305,
+          405.46640653894434,
+          335.1260223487051,
+          48.06722527505125
+        ],
+        "bounds_kind": "actual attached production touch-holder layout, not native optical alpha",
+        "actual_carrier_bounds_world_xywh": [
+          135.8545,
+          410.84625,
+          57.48428999999999,
+          37.307500000000005
+        ],
+        "carrier_bounds_scope": "actual attached affine visual carrier corners excluding shadow, not optical alpha",
+        "flat_actual_carrier_bounds_world_xywh": [
+          135.8545,
+          410.84625,
+          57.48428999999999,
+          37.307500000000005
+        ],
+        "flat_geometry": {
+          "world_origin_window_px": [
+            0,
+            0
+          ],
+          "pixels_per_world_unit": 2.9750001,
+          "actual_control_bounds_world_xywh": [
+            19.890772440646305,
+            405.46640653894434,
+            335.1260223487051,
+            48.06722527505125
+          ],
+          "actual_carrier_bounds_world_xywh": [
+            135.8545,
+            410.84625,
+            57.48428999999999,
+            37.307500000000005
+          ]
+        },
+        "capture_checks": [
+          {
+            "stage_id": "ingress75",
+            "role": "shape",
+            "scene": "st01_rgb_star_d16-light-ingress75",
+            "capture_begin_wall_uptime_ms": 740308498,
+            "capture_end_wall_uptime_ms": 740310035,
+            "last_move_dispatch_wall_uptime_ms": 740308226,
+            "settle_wall_ms": 272,
+            "settle_compose_ms": 1600,
+            "cleanup_cancel_wall_uptime_ms": 740310163,
+            "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+          },
+          {
+            "stage_id": "ingress75",
+            "role": "flat",
+            "scene": "st00_flat128-light-ingress75",
+            "capture_begin_wall_uptime_ms": 740312441,
+            "capture_end_wall_uptime_ms": 740313967,
+            "last_move_dispatch_wall_uptime_ms": 740312156,
+            "settle_wall_ms": 285,
+            "settle_compose_ms": 1600,
+            "cleanup_cancel_wall_uptime_ms": 740314132,
+            "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+          }
+        ],
+        "shape": {
+          "path": "raw/android-r2/ingress75-shape.png",
+          "sha256": "07ab060d99b86b8e9e69e899bfc81402ff28e3217f5c6a2f4dba3ee5fca28592",
+          "bytes": 39193
+        },
+        "flat": {
+          "path": "raw/android-r2/ingress75-flat.png",
+          "sha256": "e477700299d61ba1aa50d561c3448e2faccd22cd0c6834919553dd15436bc316",
+          "bytes": 36749
+        }
+      },
+      {
+        "stage_id": "full100",
+        "shape_id": "st01_rgb_star_d16",
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2.9750001,
+        "source_world_xywh": [
+          0,
+          0,
+          375,
+          667
+        ],
+        "source_layout_geometry": {
+          "layout_size_px": [
+            1116,
+            1984
+          ],
+          "logical_size_dp": [
+            375.12604,
+            666.89075
+          ],
+          "density": 2.9750001,
+          "screen_origin_px": [
+            0,
+            0
+          ],
+          "screen_rect_px": [
+            0,
+            0,
+            1116,
+            1984
+          ],
+          "local_to_screen_corners_px": [
+            {
+              "local_px": [
+                0,
+                0
+              ],
+              "screen_px": [
+                0,
+                0
+              ]
+            },
+            {
+              "local_px": [
+                1116,
+                0
+              ],
+              "screen_px": [
+                1116,
+                0
+              ]
+            },
+            {
+              "local_px": [
+                0,
+                1984
+              ],
+              "screen_px": [
+                0,
+                1984
+              ]
+            },
+            {
+              "local_px": [
+                1116,
+                1984
+              ],
+              "screen_px": [
+                1116,
+                1984
+              ]
+            }
+          ],
+          "local_to_screen_unit_basis_px": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+        },
+        "source_declared_world_to_actual_dp_scale_xy": [
+          1.0003361008290386,
+          0.9998361827376697
+        ],
+        "actual_control_bounds_world_xywh": [
+          19.890772440646305,
+          405.46640653894434,
+          335.1260223487051,
+          48.06722527505125
+        ],
+        "bounds_kind": "actual attached production touch-holder layout, not native optical alpha",
+        "actual_carrier_bounds_world_xywh": [
+          159.04657,
+          410.84705,
+          57.48670999999999,
+          37.30589999999995
+        ],
+        "carrier_bounds_scope": "actual attached affine visual carrier corners excluding shadow, not optical alpha",
+        "flat_actual_carrier_bounds_world_xywh": [
+          159.04657,
+          410.84705,
+          57.48670999999999,
+          37.30589999999995
+        ],
+        "flat_geometry": {
+          "world_origin_window_px": [
+            0,
+            0
+          ],
+          "pixels_per_world_unit": 2.9750001,
+          "actual_control_bounds_world_xywh": [
+            19.890772440646305,
+            405.46640653894434,
+            335.1260223487051,
+            48.06722527505125
+          ],
+          "actual_carrier_bounds_world_xywh": [
+            159.04657,
+            410.84705,
+            57.48670999999999,
+            37.30589999999995
+          ]
+        },
+        "capture_checks": [
+          {
+            "stage_id": "full100",
+            "role": "shape",
+            "scene": "st01_rgb_star_d16-light-full100",
+            "capture_begin_wall_uptime_ms": 740316699,
+            "capture_end_wall_uptime_ms": 740318255,
+            "last_move_dispatch_wall_uptime_ms": 740316401,
+            "settle_wall_ms": 298,
+            "settle_compose_ms": 1600,
+            "cleanup_cancel_wall_uptime_ms": 740318437,
+            "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+          },
+          {
+            "stage_id": "full100",
+            "role": "flat",
+            "scene": "st00_flat128-light-full100",
+            "capture_begin_wall_uptime_ms": 740320876,
+            "capture_end_wall_uptime_ms": 740322510,
+            "last_move_dispatch_wall_uptime_ms": 740320545,
+            "settle_wall_ms": 331,
+            "settle_compose_ms": 1600,
+            "cleanup_cancel_wall_uptime_ms": 740322701,
+            "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+          }
+        ],
+        "shape": {
+          "path": "raw/android-r2/full100-shape.png",
+          "sha256": "f6c7d9004d439d16bb7ace71256ad227f1ef8c5acf79a9f0c2cae8fa69f42943",
+          "bytes": 40445
+        },
+        "flat": {
+          "path": "raw/android-r2/full100-flat.png",
+          "sha256": "847c681156cc37908ac791c613f6300aadbb5ee1a5c899773823c82eacde75fe",
+          "bytes": 36716
+        }
+      },
+      {
+        "stage_id": "far50",
+        "shape_id": "st01_rgb_star_d16",
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2.9750001,
+        "source_world_xywh": [
+          0,
+          0,
+          375,
+          667
+        ],
+        "source_layout_geometry": {
+          "layout_size_px": [
+            1116,
+            1984
+          ],
+          "logical_size_dp": [
+            375.12604,
+            666.89075
+          ],
+          "density": 2.9750001,
+          "screen_origin_px": [
+            0,
+            0
+          ],
+          "screen_rect_px": [
+            0,
+            0,
+            1116,
+            1984
+          ],
+          "local_to_screen_corners_px": [
+            {
+              "local_px": [
+                0,
+                0
+              ],
+              "screen_px": [
+                0,
+                0
+              ]
+            },
+            {
+              "local_px": [
+                1116,
+                0
+              ],
+              "screen_px": [
+                1116,
+                0
+              ]
+            },
+            {
+              "local_px": [
+                0,
+                1984
+              ],
+              "screen_px": [
+                0,
+                1984
+              ]
+            },
+            {
+              "local_px": [
+                1116,
+                1984
+              ],
+              "screen_px": [
+                1116,
+                1984
+              ]
+            }
+          ],
+          "local_to_screen_unit_basis_px": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+        },
+        "source_declared_world_to_actual_dp_scale_xy": [
+          1.0003361008290386,
+          0.9998361827376697
+        ],
+        "actual_control_bounds_world_xywh": [
+          19.890772440646305,
+          405.46640653894434,
+          335.1260223487051,
+          48.06722527505125
+        ],
+        "bounds_kind": "actual attached production touch-holder layout, not native optical alpha",
+        "actual_carrier_bounds_world_xywh": [
+          183.9192,
+          410.8479,
+          57.48934,
+          37.30420000000004
+        ],
+        "carrier_bounds_scope": "actual attached affine visual carrier corners excluding shadow, not optical alpha",
+        "flat_actual_carrier_bounds_world_xywh": [
+          183.9192,
+          410.8479,
+          57.48934,
+          37.30420000000004
+        ],
+        "flat_geometry": {
+          "world_origin_window_px": [
+            0,
+            0
+          ],
+          "pixels_per_world_unit": 2.9750001,
+          "actual_control_bounds_world_xywh": [
+            19.890772440646305,
+            405.46640653894434,
+            335.1260223487051,
+            48.06722527505125
+          ],
+          "actual_carrier_bounds_world_xywh": [
+            183.9192,
+            410.8479,
+            57.48934,
+            37.30420000000004
+          ]
+        },
+        "capture_checks": [
+          {
+            "stage_id": "far50",
+            "role": "shape",
+            "scene": "st01_rgb_star_d16-light-far50",
+            "capture_begin_wall_uptime_ms": 740325550,
+            "capture_end_wall_uptime_ms": 740327116,
+            "last_move_dispatch_wall_uptime_ms": 740325186,
+            "settle_wall_ms": 364,
+            "settle_compose_ms": 1600,
+            "cleanup_cancel_wall_uptime_ms": 740327322,
+            "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+          },
+          {
+            "stage_id": "far50",
+            "role": "flat",
+            "scene": "st00_flat128-light-far50",
+            "capture_begin_wall_uptime_ms": 740330084,
+            "capture_end_wall_uptime_ms": 740331653,
+            "last_move_dispatch_wall_uptime_ms": 740329697,
+            "settle_wall_ms": 387,
+            "settle_compose_ms": 1600,
+            "cleanup_cancel_wall_uptime_ms": 740331864,
+            "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+          }
+        ],
+        "shape": {
+          "path": "raw/android-r2/far50-shape.png",
+          "sha256": "aa176a066c2e568314059e33c98915a2eb9c57ab3cfeffb5df13277cf8857a52",
+          "bytes": 39058
+        },
+        "flat": {
+          "path": "raw/android-r2/far50-flat.png",
+          "sha256": "90668dfca4333ef3a556c24f393e51ecba0f99d964a1e71e5ac4cd3bdab64ef1",
+          "bytes": 36923
+        }
+      }
+    ]
+  },
+  "android_original_source_baselines": {
+    "shape": {
+      "path": "raw/android-r2/source-baseline-shape.png",
+      "sha256": "6f3a52f2ab16a6dcd8cad6697228af556f169a4b1ca4d94374d1f2d2ab7c1fc0",
+      "bytes": 28550
+    },
+    "flat": {
+      "path": "raw/android-r2/source-baseline-flat.png",
+      "sha256": "c14d68c69355da254247e84913ac9738a03687178a89911b2d21446f9b8d1d2b",
+      "bytes": 26312
+    }
+  }
+}

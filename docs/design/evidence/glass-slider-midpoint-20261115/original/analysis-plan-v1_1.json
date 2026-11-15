@@ -1,0 +1,107 @@
+{
+  "status": "CORRECTIVE_V1_1_FROZEN_BEFORE_NEW_PIXEL_ANALYSIS; capture begun under v1; no new pixels inspected",
+  "analysis_sha256": "237684d42cc053edf54cbd4aa858053fca2f5f37af0dad89de7c3fc90f7bd2ab",
+  "frozen_parser_sha256": "ef475784d5aed32b0dc522ae80c5ff760ad6779a5ef676c5c0de2737307ac2d1",
+  "source_and_prior_hashes": {
+    "control/inputs/st01_rgb_star_gneutral_d16.png": "b72e79710471f00868b5e7ee56548614bbe153e1f59ca43bf241085dce3bca7a",
+    "witness/inputs/st01_rgb_star_gwitness_d16.png": "3f714f7dc170d5bacf52bfa9ba51dc61cc31a3d4698ce5552543f9ddd875880e",
+    "midpoint-v1/half/inputs/st01_rgb_star_gmidpoint_d16.png": "75b56b0afb761635a709a8b71229c0796e9423d7537d991c5ebdc22737a20b64",
+    "control/shape-spec.json": "dc06904e099b192c62f7fc4c4be35b6d779ae23227f9f0ba5f250d2b6c205f03",
+    "witness/shape-spec.json": "ad21ef7966ff4a689baf3c6c39237d8a8cb1dae090ae0c911c907f737ef139f1",
+    "midpoint-v1/half/shape-spec.json": "99f13d7e4eaff2459bb002a2ccfd1c4e562887eef3210cd3508acc8842fbc6c6",
+    "midpoint-v1/half/inputs/manifest.json": "4efd905ee00e34da52f10a780d7f1a6acb33634ae70eeba2e9c04aecfeb5c727",
+    "midpoint-v1/control-repeat/shape-spec.json": "dc06904e099b192c62f7fc4c4be35b6d779ae23227f9f0ba5f250d2b6c205f03",
+    "midpoint-v1/control-repeat/inputs/manifest.json": "405b9a95158137014f29a01477a0e5922a31cd4f139d3f9fbfd6622eaef4c4e6",
+    "control/native-feasibility-r1/index-strict.json": "eb60f57da1a10b72eca12d07ee4d85b5d032e98e265f9bdd68191de21b840562",
+    "witness/native-feasibility-r1/index-strict.json": "82096bbb110179c15ac679f258f9d9b8faf64697c64dcdf20b0b9cf81d4d6dca",
+    "control/native-feasibility-r1/receipt.json": "7580352838d5682ff3f28021c38117d8b0af80f751a03cc4bb8b38b4d63aab22",
+    "witness/native-feasibility-r1/receipt.json": "839264faa14b81ede9b5705b3b32fa523feb48262dc6a954cc3d4e10a811c4ec",
+    "midpoint-v1/source-verification.json": "92bb09e14fbd916edc62fd1593545c20d6264a05c3a9b9eb4c43585f91a5f860",
+    "prepare-midpoint-v1.py": "298254c9249570d0481fc08f8deea84dfd5d6d4685117d4aff61d2a19f602f08",
+    "midpoint-v1/analysis-plan.json": "9794bfde944d3a59aa4686cf6add12e1663635171a292289df856ce57164a1dd",
+    "analyze-midpoint-v1.py": "ae9920c74a773bc0d13f7838f6305dbbfcf76ba6944606cba428f804d5cd1e2e"
+  },
+  "binary_sha256": {
+    "GlassNativeReference.app": "af593434cfc72f0c21b37ee8accdf91ac3428cf1644cd89942b5736064b89566",
+    "GlassNativeReferenceUITests-Runner.app": "7eae7fa216602d3d3f3bfa16c5eb6f6c939bf3d9aa5822ea6a90e225a572d00f"
+  },
+  "rounds": {
+    "control": {
+      "root": "control",
+      "index": "native-feasibility-r1/index-strict.json"
+    },
+    "full": {
+      "root": "witness",
+      "index": "native-feasibility-r1/index-strict.json"
+    },
+    "half": {
+      "root": "midpoint-v1/half",
+      "index": "native-feasibility-r1/index-strict.json"
+    },
+    "control_repeat": {
+      "root": "midpoint-v1/control-repeat",
+      "index": "native-feasibility-r1/index-strict.json"
+    }
+  },
+  "new_capture_order": [
+    "half",
+    "control-repeat"
+  ],
+  "stages": [
+    "ingress01",
+    "ingress10",
+    "ingress50",
+    "ingress75",
+    "full100",
+    "far50"
+  ],
+  "primary_stages": [
+    "ingress75",
+    "full100"
+  ],
+  "inset_bins": [
+    -0.5,
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    20
+  ],
+  "input_G_code_levels": [
+    128,
+    180,
+    232
+  ],
+  "input_encoded_fraction": 0.5,
+  "input_linear_light_fraction_at_full_coverage": 0.4069597,
+  "source_midpoint_max_abs_code_error": 0.5,
+  "gates": {
+    "all_four_rounds_observed_pose_bounds_max_pt": 0.1,
+    "transform_max": 0.001,
+    "opacity_max": 0.01,
+    "source_matrix_and_origin_max": 1e-08,
+    "repeated_control_corrected_RGB_absolute_p99_max_on_prior_active_union_source_box": 3,
+    "prior_active_mask": "prior full-control max_abs_RGB>4 OR x179..197 y410..428, original 2x grid; no new half data defines it",
+    "flat_RGB_absolute_p99_max_per_round": 3
+  },
+  "formula": "E=(H-Hflat)-0.5*(F-Fflat)-0.5*(C-Cflat). Same control is shared; repeat control is a drift diagnostic only.",
+  "interpretation_limits": [
+    "Observes the fixed-G-direction encoded-sRGB midpoint residual of the whole rendered pipeline; it cannot prove physical nonlinearity, unique refraction, a full color matrix or nonlinear processing inside a specific native layer.",
+    "G180 is not a radiometric midpoint: the linear-light amplitude fraction in the opaque polygon is about0.40696, and it varies with AA coverage. Source gamma, internal transfer and compositing remain ambiguous.",
+    "AA input midpoint rounding is at most0.5code byte; no native gain bound permits transferring this directly into an output bound. Last output quantization alone gives worst case2bytes/channel across six independent PNG reads, excluding all internal rounding and drift.",
+    "p99 gates do not bound the remaining1%; all maxima and threshold counts are retained. Up to0.1pt pose variation can generate edge residuals.",
+    "No single residual point or aggregate score declares native nonlinearity, similarity, new runtime, or visual acceptance. Seven-point sources remain unacquired.",
+    "No app build or product change; reuse existing same native binaries."
+  ],
+  "revision": {
+    "prior_plan_sha256": "9794bfde944d3a59aa4686cf6add12e1663635171a292289df856ce57164a1dd",
+    "prior_analyzer_sha256": "ae9920c74a773bc0d13f7838f6305dbbfcf76ba6944606cba428f804d5cd1e2e",
+    "reason": "Independent read-only review found round pooling diluted single-round flat drift. Retain original artifacts; strictly enforce the original p99<=3 separately for every round and RGB channel. No criterion relaxation and no new image result consulted."
+  }
+}

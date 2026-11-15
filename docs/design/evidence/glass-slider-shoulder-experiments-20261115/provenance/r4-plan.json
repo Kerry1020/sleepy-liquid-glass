@@ -1,0 +1,37 @@
+{
+  "original_archive": {
+    "archive_id": "narrow-shoulder-r4/plan.json",
+    "sha256": "8560dce26186bf54a3ab4309c23164329f0549e0a8cc8aaa2ea2df5ec3a8044a",
+    "bytes": 1707
+  },
+  "record": {
+    "status": "frozen before material edit and acquisition; reused calibration, not holdout",
+    "created_unix": 1794752310.99985,
+    "scope": "single slider only",
+    "reference": "r2 A7.8/W7.5/frost1.1; r3 half-frost is rejected mixed experiment, restored to1.1",
+    "intervention": "common inward q=p-n*A*max(1-s/W,0)^2: A7.8/W7.5 -> A11.25/W6.5. Stronger steeper outer fold; same all-channel common displacement, no larger dispersion.",
+    "evidence": "Previously measured support grid best A11.25/W6.5 and new/original G source-sign diagnostic; not physical thickness or a unique inverse.",
+    "preregistered_failures": [
+      "75 R source false support +15 samples predicted",
+      "far G source-sign hit .734->.695 predicted",
+      "outside insets and high-intensity class may still differ"
+    ],
+    "unchanged": "frostBand1.1 restored as r2; shader/dispersion/tint/rim/geometry/input/MD/range/Dock/Sheet/Alert unchanged",
+    "acquisition": [
+      "Original five-point RGB star6pairs",
+      "G witness6pairs",
+      "G control6pairs"
+    ],
+    "analysis": "Frozen RGB four thresholds and witness v1_1; complete ROI/target and all positives, negatives, neutral retained. No new source registration or parameter retuning from failed6/8 holdouts.",
+    "before_r3_sources": [
+      {
+        "path": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
+        "sha256": "e0bb2b9d25533ad662b1094e5b7bf236e39ae6c56ac8d0a102b0cff3404c722d"
+      },
+      {
+        "path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassRefractionShoulderTest.kt",
+        "sha256": "c1f3b7676c4139d9d37430df144624cf03dee3bf01ec6202fff95b073d933a88"
+      }
+    ]
+  }
+}

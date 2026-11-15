@@ -1,0 +1,2 @@
+# Preserve original CRLF and empty fields in hash-addressed historical tables.
+slider-material-20261115/*.csv -whitespace

@@ -1,0 +1,1371 @@
+{
+  "schema": 1,
+  "scope": "Portable original-byte midpoint color diagnostic; not physical nonlinearity or native-equivalence acceptance",
+  "roi_world_xyxy": [
+    165.5,
+    397.5,
+    209.5,
+    441.5
+  ],
+  "pixel_roi_xyxy": [
+    331,
+    795,
+    419,
+    883
+  ],
+  "crop_xyxy": [
+    328,
+    792,
+    422,
+    886
+  ],
+  "pixels_per_world_unit": 2,
+  "rounds": {
+    "control": {
+      "index": {
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/index-strict.json",
+        "original_sha256": "eb60f57da1a10b72eca12d07ee4d85b5d032e98e265f9bdd68191de21b840562",
+        "original_bytes": 20167,
+        "file": "metadata/control-index.json.gz",
+        "stored_sha256": "a6dc4a1a9012d8639d8158d21f6c2c5e6943a5b4466fcef80de8287d56c079f4",
+        "compression": "gzip"
+      },
+      "spec": {
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/shape-spec.json",
+        "original_sha256": "dc06904e099b192c62f7fc4c4be35b6d779ae23227f9f0ba5f250d2b6c205f03",
+        "original_bytes": 42520,
+        "file": "metadata/control-shape-spec.json.gz",
+        "stored_sha256": "060f5903e813fddbd6729a405b9a385df450d03d28fe2f14156d713f2422cbfa",
+        "compression": "gzip"
+      },
+      "manifest": {
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/manifest.json",
+        "original_sha256": "405b9a95158137014f29a01477a0e5922a31cd4f139d3f9fbfd6622eaef4c4e6",
+        "original_bytes": 1686,
+        "file": "metadata/control-source-manifest.json.gz",
+        "stored_sha256": "23ad22ca2bd17d4a917452f909f2311573cd455e3f46d6a599be3c972ee42457",
+        "compression": "gzip"
+      },
+      "main_id": "st01_rgb_star_gneutral_d16",
+      "geometry_receipt_shared": "metadata/native-control-strict-receipt.json.gz"
+    },
+    "full": {
+      "index": {
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/index-strict.json",
+        "original_sha256": "82096bbb110179c15ac679f258f9d9b8faf64697c64dcdf20b0b9cf81d4d6dca",
+        "original_bytes": 20167,
+        "file": "metadata/full-index.json.gz",
+        "stored_sha256": "760daa5f14a366048a28e535d1c463b97c00d9582f65224e887958fb1573f794",
+        "compression": "gzip"
+      },
+      "spec": {
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/shape-spec.json",
+        "original_sha256": "ad21ef7966ff4a689baf3c6c39237d8a8cb1dae090ae0c911c907f737ef139f1",
+        "original_bytes": 42579,
+        "file": "metadata/full-shape-spec.json.gz",
+        "stored_sha256": "44aa5cebff68081a0c678c1ab9bbd1159085e54d9bcdee1ed991088ed597c8fe",
+        "compression": "gzip"
+      },
+      "manifest": {
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/manifest.json",
+        "original_sha256": "ef9ea293d10d89bc0968b505b8d3d741e0a16a1c9b42d71622c4e52698215dd4",
+        "original_bytes": 1686,
+        "file": "metadata/full-source-manifest.json.gz",
+        "stored_sha256": "5904fd6ae5caa3841cb0734798cd5eaa95e1e9cc9826207f2d193ff9e62ff786",
+        "compression": "gzip"
+      },
+      "main_id": "st01_rgb_star_gwitness_d16",
+      "geometry_receipt_shared": "metadata/native-witness-strict-receipt.json.gz"
+    },
+    "half": {
+      "index": {
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/index-strict.json",
+        "original_sha256": "7843ad77d36c7494289d6fbc8176dd672222aff90955fba6490c33663a6bbbf6",
+        "original_bytes": 20473,
+        "file": "metadata/half-index.json.gz",
+        "stored_sha256": "684b9f52ac80b8fc5e6f3f18e7b83ef9f0c7f26b555d2a2d72b2f9104bdffc6a",
+        "compression": "gzip"
+      },
+      "spec": {
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/shape-spec.json",
+        "original_sha256": "99f13d7e4eaff2459bb002a2ccfd1c4e562887eef3210cd3508acc8842fbc6c6",
+        "original_bytes": 40041,
+        "file": "metadata/half-shape-spec.json.gz",
+        "stored_sha256": "56e998726447cb8d6777737c8d7b292b05d245e1dd6bed6c7b973170397afe36",
+        "compression": "gzip"
+      },
+      "manifest": {
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/inputs/manifest.json",
+        "original_sha256": "4efd905ee00e34da52f10a780d7f1a6acb33634ae70eeba2e9c04aecfeb5c727",
+        "original_bytes": 1690,
+        "file": "metadata/half-source-manifest.json.gz",
+        "stored_sha256": "e7fd381fe25c689d67f70f0b7618b26c993a5a99b73af60ad7f23b568ef3882c",
+        "compression": "gzip"
+      },
+      "main_id": "st01_rgb_star_gmidpoint_d16"
+    },
+    "control_repeat": {
+      "index": {
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/index-strict.json",
+        "original_sha256": "da5db01b324fe23b42f590d04c274d62f0a8ad3c269038c03e7fedd0511b5a23",
+        "original_bytes": 20775,
+        "file": "metadata/control_repeat-index.json.gz",
+        "stored_sha256": "643dbdde2b81086beef268ecd6df3e43071086525172307e80cd8cd30b8a3782",
+        "compression": "gzip"
+      },
+      "spec": {
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/shape-spec.json",
+        "original_sha256": "dc06904e099b192c62f7fc4c4be35b6d779ae23227f9f0ba5f250d2b6c205f03",
+        "original_bytes": 42520,
+        "file": "metadata/control_repeat-shape-spec.json.gz",
+        "stored_sha256": "060f5903e813fddbd6729a405b9a385df450d03d28fe2f14156d713f2422cbfa",
+        "compression": "gzip"
+      },
+      "manifest": {
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/inputs/manifest.json",
+        "original_sha256": "405b9a95158137014f29a01477a0e5922a31cd4f139d3f9fbfd6622eaef4c4e6",
+        "original_bytes": 1686,
+        "file": "metadata/control_repeat-source-manifest.json.gz",
+        "stored_sha256": "23ad22ca2bd17d4a917452f909f2311573cd455e3f46d6a599be3c972ee42457",
+        "compression": "gzip"
+      },
+      "main_id": "st01_rgb_star_gneutral_d16"
+    }
+  },
+  "captures": [
+    {
+      "round": "control",
+      "stage": "ingress01",
+      "kind": "shape",
+      "file": "../glass-slider-green-witness-20261115/crops/native/control/ingress01-shape.png",
+      "sha256": "816beadbdbb42b2f02124113436f1e553835a9810dfe502523b20227a8368f5d",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-2B8C568D-C213-47EB-BA61-6891A7B2CC07/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-ingress01-held.png",
+      "original_full_png_sha256": "8686602efb4cdac7f0cfced366c50fc822c601054905303b691455a2430d31b7",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control",
+      "stage": "ingress01",
+      "kind": "flat",
+      "file": "../glass-slider-green-witness-20261115/crops/native/control/ingress01-flat.png",
+      "sha256": "808c4e0e0370f5d97f56bb88cf187655b2881c5ba117d923ebf169dac399cf63",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-0905C39F-43C8-4434-BA1F-1F11A1ED6A23/slider-fixed-shape-coverage-st00_flat128-light-ingress01-held.png",
+      "original_full_png_sha256": "a8baf42259681264339d5bb15dd57e209523911d55ee176144ef7176163c4847",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control",
+      "stage": "ingress10",
+      "kind": "shape",
+      "file": "../glass-slider-green-witness-20261115/crops/native/control/ingress10-shape.png",
+      "sha256": "7f920da747a98d3b3fb94d51086687e32e01a28b1a18767c4d95bb8031afbba1",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-3535BFB6-CD01-4417-B267-BE4A1962C642/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-ingress10-held.png",
+      "original_full_png_sha256": "5a2117c641df9c61704578f75d83e1af2229dd122bc13aae9f43aacd110e0a25",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control",
+      "stage": "ingress10",
+      "kind": "flat",
+      "file": "../glass-slider-green-witness-20261115/crops/native/control/ingress10-flat.png",
+      "sha256": "70afa8f31b173742a5032ecebc08ef5b37ddfb59a80a5217dca20d20d61ea3b0",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-00C83079-01C9-4DDD-9531-A4E477E77C9E/slider-fixed-shape-coverage-st00_flat128-light-ingress10-held.png",
+      "original_full_png_sha256": "bf60c5940a8b78b40d96e96b64ec80e56df5adc75113de441d342cabe88888cb",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control",
+      "stage": "ingress50",
+      "kind": "shape",
+      "file": "../glass-slider-green-witness-20261115/crops/native/control/ingress50-shape.png",
+      "sha256": "17454cd9561471c46818d68e8163029d9fe63bc177df058e5562a8aee197666a",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-A7778A44-6FA0-490E-B462-96255F5CFBBF/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-ingress50-held.png",
+      "original_full_png_sha256": "f6f19124926a4b5a03bc6b25e94e30c2551bfc078edea360a5132a89d8ed7593",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control",
+      "stage": "ingress50",
+      "kind": "flat",
+      "file": "../glass-slider-green-witness-20261115/crops/native/control/ingress50-flat.png",
+      "sha256": "fca37bbcd211af20b76f23febe05c7052f2474314e73b2d72abc153fa668dac1",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-3B90167A-D203-4BA9-A998-712DC16F159C/slider-fixed-shape-coverage-st00_flat128-light-ingress50-held.png",
+      "original_full_png_sha256": "920100d49a688a8ccb316545b6dc4cea5700813b13653403ea95f98a2552e78e",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control",
+      "stage": "ingress75",
+      "kind": "shape",
+      "file": "../glass-slider-green-witness-20261115/crops/native/control/ingress75-shape.png",
+      "sha256": "f18242161a5e0e6f6bae59b4eabad4284038105664979d78eb6a6aa1e26a01ba",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-F86C5B04-7558-4884-A2C6-D609DCB797F1/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-ingress75-held.png",
+      "original_full_png_sha256": "2bee7301dff85b9fdbf743a59ee0497307cd2e51a84715837defe73c7a505bab",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control",
+      "stage": "ingress75",
+      "kind": "flat",
+      "file": "../glass-slider-green-witness-20261115/crops/native/control/ingress75-flat.png",
+      "sha256": "5357fd45721d8552f4c9ead3942e39157fb9aaa9a686588b217738a95a223a66",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-65680958-79FE-4123-A72E-5FC31437B831/slider-fixed-shape-coverage-st00_flat128-light-ingress75-held.png",
+      "original_full_png_sha256": "48aecde42b18e0774bc857bca1e56ae30f0faf431324d3367de8565a94132b50",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control",
+      "stage": "full100",
+      "kind": "shape",
+      "file": "../glass-slider-green-witness-20261115/crops/native/control/full100-shape.png",
+      "sha256": "41833da470458815e16adcba0240b1fdffc5c609f589f425124b887cbe6a1d9b",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-E6FDE5C1-4395-4319-AD33-F547079BF91C/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-full100-held.png",
+      "original_full_png_sha256": "91a05e51dbe3080f87115691ba844ed4b24ccb019696bf0db334f106ca5bb91d",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control",
+      "stage": "full100",
+      "kind": "flat",
+      "file": "../glass-slider-green-witness-20261115/crops/native/control/full100-flat.png",
+      "sha256": "5f358136ee006d8dcb337b131256973e90b29f7ac111482541cf80475d4f3aea",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-F98400AD-E92B-4AEA-8D30-DCB239C32173/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "original_full_png_sha256": "19da208703e2026d1f5bcbbf542d9fd3bd2846b630afc682ad4e9a6a8e45325d",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control",
+      "stage": "far50",
+      "kind": "shape",
+      "file": "../glass-slider-green-witness-20261115/crops/native/control/far50-shape.png",
+      "sha256": "e667ae8710aa1196d0a6a1d784b1359693b61869626104abab6a4cb001525f72",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-FAEE3E3A-F358-477E-9AE6-D9B70B58B7D1/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-far50-held.png",
+      "original_full_png_sha256": "69f736ad2d9c6bda687d78ffa944c5410c2f99bf1f3881461afda6df3546e805",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control",
+      "stage": "far50",
+      "kind": "flat",
+      "file": "../glass-slider-green-witness-20261115/crops/native/control/far50-flat.png",
+      "sha256": "9cb50a66451190adecdba9845ab97095668931d774f05b4d62993a3254e27aad",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-0464F0F1-8FA9-40BD-90CA-300DFA347AE3/slider-fixed-shape-coverage-st00_flat128-light-far50-held.png",
+      "original_full_png_sha256": "44f856ac87c8730aeb9d3d46435875f5283cc201b8a87155fb0de7df6f308d92",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "full",
+      "stage": "ingress01",
+      "kind": "shape",
+      "file": "../glass-slider-green-witness-20261115/crops/native/witness/ingress01-shape.png",
+      "sha256": "f505a6ca5f63eaa861312f81cd949d510e7444e2730d8f9c8563422c5836605e",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-6DBC3694-386C-4A77-805B-AF7AECE58F58/slider-fixed-shape-coverage-st01_rgb_star_gwitness_d16-light-ingress01-held.png",
+      "original_full_png_sha256": "40cc872b6341b41e358e3af886dcc4048e319ce77dc784d50b70c719230f0b69",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "full",
+      "stage": "ingress01",
+      "kind": "flat",
+      "file": "../glass-slider-green-witness-20261115/crops/native/witness/ingress01-flat.png",
+      "sha256": "808c4e0e0370f5d97f56bb88cf187655b2881c5ba117d923ebf169dac399cf63",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-E7C7A17A-760A-4B80-A07F-D4665F4CF355/slider-fixed-shape-coverage-st00_flat128-light-ingress01-held.png",
+      "original_full_png_sha256": "98414f424c0d6a4f386bed149887211fce77ceca16228e39c62364a43d135d97",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "full",
+      "stage": "ingress10",
+      "kind": "shape",
+      "file": "../glass-slider-green-witness-20261115/crops/native/witness/ingress10-shape.png",
+      "sha256": "4cfd5b05badb3dbf729009a342fb386f883a34251af4a64e97127f4815d66e11",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-EE0611AF-6D4A-42B7-9BD5-DE3A8140978B/slider-fixed-shape-coverage-st01_rgb_star_gwitness_d16-light-ingress10-held.png",
+      "original_full_png_sha256": "2b308e5f4bed16fa821780c54f12405b4533d7f8497a3141d34115f417f39360",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "full",
+      "stage": "ingress10",
+      "kind": "flat",
+      "file": "../glass-slider-green-witness-20261115/crops/native/witness/ingress10-flat.png",
+      "sha256": "70afa8f31b173742a5032ecebc08ef5b37ddfb59a80a5217dca20d20d61ea3b0",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-61838CE7-8B3E-41D4-8882-C391DFD98D20/slider-fixed-shape-coverage-st00_flat128-light-ingress10-held.png",
+      "original_full_png_sha256": "31a20d29b41267600053546a9ad314411e25cb436522974dbf467c471fbc236d",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "full",
+      "stage": "ingress50",
+      "kind": "shape",
+      "file": "../glass-slider-green-witness-20261115/crops/native/witness/ingress50-shape.png",
+      "sha256": "6fe1db486143fdc8ebc8a7708903254f962c9d18a1c054da3f6fb192a7113041",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-C9EF1614-C727-43E0-B07A-AB706A3A5BD2/slider-fixed-shape-coverage-st01_rgb_star_gwitness_d16-light-ingress50-held.png",
+      "original_full_png_sha256": "db9754c3995a4fa3ca48eec2868bf3e1d5dd7c43ebc260dea742a60f086d26e5",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "full",
+      "stage": "ingress50",
+      "kind": "flat",
+      "file": "../glass-slider-green-witness-20261115/crops/native/witness/ingress50-flat.png",
+      "sha256": "fca37bbcd211af20b76f23febe05c7052f2474314e73b2d72abc153fa668dac1",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-187E44E6-C87F-4247-8CDD-2FABFE9F0B8F/slider-fixed-shape-coverage-st00_flat128-light-ingress50-held.png",
+      "original_full_png_sha256": "0a94f3afa824fa769318b5ab23b3cedd06b0463427e32cec9d7eb2bc4ca64eeb",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "full",
+      "stage": "ingress75",
+      "kind": "shape",
+      "file": "../glass-slider-green-witness-20261115/crops/native/witness/ingress75-shape.png",
+      "sha256": "aa3e9f8f66be574bd2e435fe997b3eac90ee8f24bb4c99217c1ca5d443c7fea9",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-8C2415C6-DE36-488C-915F-D3845C86C43A/slider-fixed-shape-coverage-st01_rgb_star_gwitness_d16-light-ingress75-held.png",
+      "original_full_png_sha256": "3fe305056aa4ab73ab52624c06e9516e1ccd4932279c188ec8c994e1fcec0bbe",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "full",
+      "stage": "ingress75",
+      "kind": "flat",
+      "file": "../glass-slider-green-witness-20261115/crops/native/witness/ingress75-flat.png",
+      "sha256": "5357fd45721d8552f4c9ead3942e39157fb9aaa9a686588b217738a95a223a66",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-3AD6F0A7-D5CD-4034-A132-A2B5EF8AD324/slider-fixed-shape-coverage-st00_flat128-light-ingress75-held.png",
+      "original_full_png_sha256": "9d5ae945b4d7a47b897d15b671e3899ad1d49e6e5da4021c6a813b55c1937cd7",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "full",
+      "stage": "full100",
+      "kind": "shape",
+      "file": "../glass-slider-green-witness-20261115/crops/native/witness/full100-shape.png",
+      "sha256": "b62362f407788a22939e99afce42585e3e5cb02b6510e7f2346a3b36b72fb5b8",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-FC93D0AE-5A0D-4A3B-9368-C4F315894B4C/slider-fixed-shape-coverage-st01_rgb_star_gwitness_d16-light-full100-held.png",
+      "original_full_png_sha256": "84538383d98726a5dea39050963109f4b4e3ed42f6ee6b22e33286440d26659d",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "full",
+      "stage": "full100",
+      "kind": "flat",
+      "file": "../glass-slider-green-witness-20261115/crops/native/witness/full100-flat.png",
+      "sha256": "5f358136ee006d8dcb337b131256973e90b29f7ac111482541cf80475d4f3aea",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-A42C5C84-55C7-4B05-BA3D-1105F30CA6FA/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "original_full_png_sha256": "913e9b8951690175cb1f2715315c5d0968866fb1f1463b75ce05d5ac323c1927",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "full",
+      "stage": "far50",
+      "kind": "shape",
+      "file": "../glass-slider-green-witness-20261115/crops/native/witness/far50-shape.png",
+      "sha256": "e9d08135240292e2b24f69e9b5cd776c0201282be3d3ed905d0d533dd02a38fd",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-D7C6480D-8396-4C22-9C9E-59A1C7008ABD/slider-fixed-shape-coverage-st01_rgb_star_gwitness_d16-light-far50-held.png",
+      "original_full_png_sha256": "8f37f40dd0d2f7c306ed81c73a4ab4760f9c186b111517c40125c79097de8196",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "full",
+      "stage": "far50",
+      "kind": "flat",
+      "file": "../glass-slider-green-witness-20261115/crops/native/witness/far50-flat.png",
+      "sha256": "9cb50a66451190adecdba9845ab97095668931d774f05b4d62993a3254e27aad",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-4EAE00E3-86A8-4E88-A005-773217CB40D6/slider-fixed-shape-coverage-st00_flat128-light-far50-held.png",
+      "original_full_png_sha256": "08a9fc0b9ba62b3e543932eeec935f37c4a19e6ac6d269dd2f34d6534aa0fe88",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "half",
+      "stage": "ingress01",
+      "kind": "shape",
+      "file": "crops/half/ingress01-shape.png",
+      "sha256": "f24f4408265ef68572f91838d619ecf4166313e6cd4c04226bd2a052c258a5d4",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-558AB5F1-7B04-4B6D-9347-D115239C634F/slider-fixed-shape-coverage-st01_rgb_star_gmidpoint_d16-light-ingress01-held.png",
+      "original_full_png_sha256": "0793146fcec52d6956953313c65baa4879de9a5e0008f8c78c71bb5c7c3ea132",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "half",
+      "stage": "ingress01",
+      "kind": "flat",
+      "file": "crops/half/ingress01-flat.png",
+      "sha256": "808c4e0e0370f5d97f56bb88cf187655b2881c5ba117d923ebf169dac399cf63",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-5E3F87E3-789D-4F8C-9F24-B53FB172E070/slider-fixed-shape-coverage-st00_flat128-light-ingress01-held.png",
+      "original_full_png_sha256": "a64064fc386592fa405515fbac79c1d2e4a4a9d4cba738db7e1dabedeaaf7179",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "half",
+      "stage": "ingress10",
+      "kind": "shape",
+      "file": "crops/half/ingress10-shape.png",
+      "sha256": "209dd2956dc2322c22e86e26a0f9545b79ad9466f6290f41c1d4d499c1d2f4e4",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-E525CFC7-839C-42EE-87D6-CC82F56B6CE6/slider-fixed-shape-coverage-st01_rgb_star_gmidpoint_d16-light-ingress10-held.png",
+      "original_full_png_sha256": "32f50adfb957add21804ed54dd039d36eaec9fb817e528f92240662fde8eea57",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "half",
+      "stage": "ingress10",
+      "kind": "flat",
+      "file": "crops/half/ingress10-flat.png",
+      "sha256": "70afa8f31b173742a5032ecebc08ef5b37ddfb59a80a5217dca20d20d61ea3b0",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-07D9DD23-06F6-4A8C-8471-368255915BD7/slider-fixed-shape-coverage-st00_flat128-light-ingress10-held.png",
+      "original_full_png_sha256": "fe635539d352d70544ff9508bfc6097022c311eac72d6b0d0fbc4fb35fd95ae9",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "half",
+      "stage": "ingress50",
+      "kind": "shape",
+      "file": "crops/half/ingress50-shape.png",
+      "sha256": "50e365cb7f87a89efee196f66a1df38477138c3b567f737e5ff53180815a9130",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-992A40EC-9DCF-42F6-A536-FB018DE10271/slider-fixed-shape-coverage-st01_rgb_star_gmidpoint_d16-light-ingress50-held.png",
+      "original_full_png_sha256": "d8e149c5fd8b5ff8a18cac30c72573dd80fe65164d1632591436979160f41426",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "half",
+      "stage": "ingress50",
+      "kind": "flat",
+      "file": "crops/half/ingress50-flat.png",
+      "sha256": "fca37bbcd211af20b76f23febe05c7052f2474314e73b2d72abc153fa668dac1",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-545187CB-89E5-4093-90C3-2507F221EE39/slider-fixed-shape-coverage-st00_flat128-light-ingress50-held.png",
+      "original_full_png_sha256": "cae6c98a3762dc66c44276855d7ef60c1cfacb75be356bfe8c7eeaa076615344",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "half",
+      "stage": "ingress75",
+      "kind": "shape",
+      "file": "crops/half/ingress75-shape.png",
+      "sha256": "777ce7cb8a3bc18982e20ea5b1768d5ef8ace2eea1de5c9aa92cddba7d084f66",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-A7C12664-6811-4237-A2DE-FB11BDCF3127/slider-fixed-shape-coverage-st01_rgb_star_gmidpoint_d16-light-ingress75-held.png",
+      "original_full_png_sha256": "db02e439cc8a55d6eedbc718c7eecff71c2ca811de57fe6d2ad81061b8666557",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "half",
+      "stage": "ingress75",
+      "kind": "flat",
+      "file": "crops/half/ingress75-flat.png",
+      "sha256": "5357fd45721d8552f4c9ead3942e39157fb9aaa9a686588b217738a95a223a66",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-6AFE0070-1230-4678-A6E1-627B964E74A1/slider-fixed-shape-coverage-st00_flat128-light-ingress75-held.png",
+      "original_full_png_sha256": "c5675c6d5bf4b5405372eb0fff5ef26dc8a1d31e1e97fb6a3247aa9f822dd2a0",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "half",
+      "stage": "full100",
+      "kind": "shape",
+      "file": "crops/half/full100-shape.png",
+      "sha256": "4b159d3c83e93e73d514d64f1179959f8276585ac50233c9f1e6b728dfa207a6",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-A558C316-0785-44DA-8AFD-709EF32B3DA2/slider-fixed-shape-coverage-st01_rgb_star_gmidpoint_d16-light-full100-held.png",
+      "original_full_png_sha256": "3d8e3156482d401242e208c1a31c36ce06e47f51e686f2ea34808e18138a0e3d",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "half",
+      "stage": "full100",
+      "kind": "flat",
+      "file": "crops/half/full100-flat.png",
+      "sha256": "5f358136ee006d8dcb337b131256973e90b29f7ac111482541cf80475d4f3aea",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-545EC0FC-A4F8-4FC7-A6A6-A9B38F0CCBC4/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "original_full_png_sha256": "de891c3901825a34c6a9225ac582aeab655907a0b7c8eb75d4a15fc1d80c7a45",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "half",
+      "stage": "far50",
+      "kind": "shape",
+      "file": "crops/half/far50-shape.png",
+      "sha256": "539b7c9e6fb22282ac0ae87de4aa6d8e91c68a288bf6e16913a548081c445998",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-E857C236-1BAF-484A-9F47-1860E75F42BC/slider-fixed-shape-coverage-st01_rgb_star_gmidpoint_d16-light-far50-held.png",
+      "original_full_png_sha256": "addd089b9d5dbc5228e39fca63a1d5b786029020b0640202e377d1aa05240361",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "half",
+      "stage": "far50",
+      "kind": "flat",
+      "file": "crops/half/far50-flat.png",
+      "sha256": "9cb50a66451190adecdba9845ab97095668931d774f05b4d62993a3254e27aad",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-3BACEAE3-21E8-4BE0-A8EA-A24D2A07BA54/slider-fixed-shape-coverage-st00_flat128-light-far50-held.png",
+      "original_full_png_sha256": "927e80ea1162b64df0199e235d2652706464fa12b6b422897c5852962cc8d7fe",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control_repeat",
+      "stage": "ingress01",
+      "kind": "shape",
+      "file": "crops/control_repeat/ingress01-shape.png",
+      "sha256": "816beadbdbb42b2f02124113436f1e553835a9810dfe502523b20227a8368f5d",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-2F2A453C-850A-426A-B4F8-0A6388E5A452/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-ingress01-held.png",
+      "original_full_png_sha256": "12145cad4a5e3a1586a61c2b789d395ecc39cf7a63cbbc189182a17da4f52d98",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control_repeat",
+      "stage": "ingress01",
+      "kind": "flat",
+      "file": "crops/control_repeat/ingress01-flat.png",
+      "sha256": "808c4e0e0370f5d97f56bb88cf187655b2881c5ba117d923ebf169dac399cf63",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-AF85C013-4686-4C56-8652-3BEDB2E3DE3E/slider-fixed-shape-coverage-st00_flat128-light-ingress01-held.png",
+      "original_full_png_sha256": "e9b933f567ea74182cbe24e60e0eff80927db3db498f3200102fa017b58fa878",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control_repeat",
+      "stage": "ingress10",
+      "kind": "shape",
+      "file": "crops/control_repeat/ingress10-shape.png",
+      "sha256": "7f920da747a98d3b3fb94d51086687e32e01a28b1a18767c4d95bb8031afbba1",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-FEB5DCB2-10CD-4122-BC87-604D7D93A04E/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-ingress10-held.png",
+      "original_full_png_sha256": "409b9a20d18349310c0226d4abf005cc9f3a42749fbb55baed286dc808ce3821",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control_repeat",
+      "stage": "ingress10",
+      "kind": "flat",
+      "file": "crops/control_repeat/ingress10-flat.png",
+      "sha256": "70afa8f31b173742a5032ecebc08ef5b37ddfb59a80a5217dca20d20d61ea3b0",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-A93A2A37-A4B4-415E-BC61-25179F3CE000/slider-fixed-shape-coverage-st00_flat128-light-ingress10-held.png",
+      "original_full_png_sha256": "f160da452223755af9f34a371d2582984fd357b3ef8cf69b15d7a5394d751394",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control_repeat",
+      "stage": "ingress50",
+      "kind": "shape",
+      "file": "crops/control_repeat/ingress50-shape.png",
+      "sha256": "17454cd9561471c46818d68e8163029d9fe63bc177df058e5562a8aee197666a",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-BDC65EDE-7A06-4F57-8FC8-9FCF3A86C926/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-ingress50-held.png",
+      "original_full_png_sha256": "b84343101991788e33285c1f754131910319488f29c68ef3d9de381a3b111177",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control_repeat",
+      "stage": "ingress50",
+      "kind": "flat",
+      "file": "crops/control_repeat/ingress50-flat.png",
+      "sha256": "fca37bbcd211af20b76f23febe05c7052f2474314e73b2d72abc153fa668dac1",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-45BFD8B5-016F-4546-8953-3A9637151AB4/slider-fixed-shape-coverage-st00_flat128-light-ingress50-held.png",
+      "original_full_png_sha256": "b364f8f182bf79f1e4caa925b6662815f0f45761d4b46babf83e13cca590897f",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control_repeat",
+      "stage": "ingress75",
+      "kind": "shape",
+      "file": "crops/control_repeat/ingress75-shape.png",
+      "sha256": "f18242161a5e0e6f6bae59b4eabad4284038105664979d78eb6a6aa1e26a01ba",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-394315C4-4874-41B3-9AB7-14E5C0956EB6/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-ingress75-held.png",
+      "original_full_png_sha256": "611f0c53dc5caf44b0bcfc575579711b63320d0668a7e172286067c3664f70eb",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control_repeat",
+      "stage": "ingress75",
+      "kind": "flat",
+      "file": "crops/control_repeat/ingress75-flat.png",
+      "sha256": "5357fd45721d8552f4c9ead3942e39157fb9aaa9a686588b217738a95a223a66",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-0EAAF2FE-F593-46CF-B04D-D0EE5238EA5F/slider-fixed-shape-coverage-st00_flat128-light-ingress75-held.png",
+      "original_full_png_sha256": "77da8639894223f6daa29d07dff2be0653b658aa942dbc89e09dbf6f63c381a0",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control_repeat",
+      "stage": "full100",
+      "kind": "shape",
+      "file": "crops/control_repeat/full100-shape.png",
+      "sha256": "41833da470458815e16adcba0240b1fdffc5c609f589f425124b887cbe6a1d9b",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-67CC53A6-6060-47C8-ADC9-E2CABDE2FED8/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-full100-held.png",
+      "original_full_png_sha256": "6633ced5e262ed5c2c0f2faa0b4c4e56d6bedeb3de1a5bb9f2a7617196f027e6",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control_repeat",
+      "stage": "full100",
+      "kind": "flat",
+      "file": "crops/control_repeat/full100-flat.png",
+      "sha256": "5f358136ee006d8dcb337b131256973e90b29f7ac111482541cf80475d4f3aea",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-EFEA9792-1D7F-49F5-AB11-BE2F3DB3300D/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "original_full_png_sha256": "eab71aa3cd4c05dd021557d588e22bd37145b5c393e8de75d447946d130cd402",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control_repeat",
+      "stage": "far50",
+      "kind": "shape",
+      "file": "crops/control_repeat/far50-shape.png",
+      "sha256": "e667ae8710aa1196d0a6a1d784b1359693b61869626104abab6a4cb001525f72",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-A00DDB2B-5632-400B-BDA2-2280B35FFD6E/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-far50-held.png",
+      "original_full_png_sha256": "fbfa4b29643f54b5e7afd64a158f65a854342df45516b615f792b5d062b5d064",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    },
+    {
+      "round": "control_repeat",
+      "stage": "far50",
+      "kind": "flat",
+      "file": "crops/control_repeat/far50-flat.png",
+      "sha256": "9cb50a66451190adecdba9845ab97095668931d774f05b4d62993a3254e27aad",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-66EB95DF-1775-4587-8E54-5B99925044D7/slider-fixed-shape-coverage-st00_flat128-light-far50-held.png",
+      "original_full_png_sha256": "addd782cb4d6ac0357246476cb2e2a7df39d2f8018b3632f89281db3ef6e563e",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/analysis.json",
+      "original_sha256": "2e6002a912530fddbf6f131a1ad3aa83f0ace76b9a246aa62df0c103076abd89",
+      "original_bytes": 658759,
+      "file": "original/analysis.json.gz",
+      "stored_sha256": "aeae04ed2dc421928943ec1d01ae236fed0787f112d679b0f7c7c4cab48f75bf",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/analysis-plan-v1_1.json",
+      "original_sha256": "30493ce7cf0d52a49515032135b2131b6fdfa2a112899492c0896abf133dd67b",
+      "original_bytes": 5707,
+      "file": "original/analysis-plan-v1_1.json",
+      "stored_sha256": "30493ce7cf0d52a49515032135b2131b6fdfa2a112899492c0896abf133dd67b",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/analysis-plan.json",
+      "original_sha256": "9794bfde944d3a59aa4686cf6add12e1663635171a292289df856ce57164a1dd",
+      "original_bytes": 4962,
+      "file": "original/analysis-plan.json",
+      "stored_sha256": "9794bfde944d3a59aa4686cf6add12e1663635171a292289df856ce57164a1dd",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/source-verification.json",
+      "original_sha256": "92bb09e14fbd916edc62fd1593545c20d6264a05c3a9b9eb4c43585f91a5f860",
+      "original_bytes": 1587,
+      "file": "original/source-verification.json",
+      "stored_sha256": "92bb09e14fbd916edc62fd1593545c20d6264a05c3a9b9eb4c43585f91a5f860",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/FINDINGS.md",
+      "original_sha256": "ce1347446ecc8d43f34992298d1e6cffec6ae3da5fddcf55344460a286f62c08",
+      "original_bytes": 3999,
+      "file": "original/FINDINGS.md.gz",
+      "stored_sha256": "c4c9a0d2578613e81a10c1bf5f4ebaaa018579478b7b0a7311702771ad436542",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/trace-storage-receipt.json",
+      "original_sha256": "c9d1d9393869748876f62b947948c9ce3e325a6de4633457150a52274bc8f8bf",
+      "original_bytes": 7708,
+      "file": "original/trace-storage-receipt.json",
+      "stored_sha256": "c9d1d9393869748876f62b947948c9ce3e325a6de4633457150a52274bc8f8bf",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analyze-midpoint-v1_1.py",
+      "original_sha256": "237684d42cc053edf54cbd4aa858053fca2f5f37af0dad89de7c3fc90f7bd2ab",
+      "original_bytes": 6270,
+      "file": "frozen/analyze-midpoint-v1_1.py",
+      "stored_sha256": "237684d42cc053edf54cbd4aa858053fca2f5f37af0dad89de7c3fc90f7bd2ab",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analyze-midpoint-v1.py",
+      "original_sha256": "ae9920c74a773bc0d13f7838f6305dbbfcf76ba6944606cba428f804d5cd1e2e",
+      "original_bytes": 5916,
+      "file": "frozen/analyze-midpoint-v1.py",
+      "stored_sha256": "ae9920c74a773bc0d13f7838f6305dbbfcf76ba6944606cba428f804d5cd1e2e",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analyze-witness-control-v1_1.py",
+      "original_sha256": "ef475784d5aed32b0dc522ae80c5ff760ad6779a5ef676c5c0de2737307ac2d1",
+      "original_bytes": 30543,
+      "file": "frozen/analyze-witness-control-v1_1.py",
+      "stored_sha256": "ef475784d5aed32b0dc522ae80c5ff760ad6779a5ef676c5c0de2737307ac2d1",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/ingress01-midpoint-original-byte.npz",
+      "original_sha256": "8acb5636dd4ae1edf0484b618137de801af20e6f64141df5a61918f8be47e9c4",
+      "original_bytes": 48693,
+      "file": "original/ingress01-midpoint-original-byte.npz",
+      "stored_sha256": "8acb5636dd4ae1edf0484b618137de801af20e6f64141df5a61918f8be47e9c4",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/ingress10-midpoint-original-byte.npz",
+      "original_sha256": "74f6797d554d3eac7644811547e8e756f4e727abb3ce6664e85b156daed3c57d",
+      "original_bytes": 47373,
+      "file": "original/ingress10-midpoint-original-byte.npz",
+      "stored_sha256": "74f6797d554d3eac7644811547e8e756f4e727abb3ce6664e85b156daed3c57d",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/ingress50-midpoint-original-byte.npz",
+      "original_sha256": "e1943b3f88d1c0d91331ee5abefc8ab6723c1825db2109708ca79481b8bbc962",
+      "original_bytes": 44128,
+      "file": "original/ingress50-midpoint-original-byte.npz",
+      "stored_sha256": "e1943b3f88d1c0d91331ee5abefc8ab6723c1825db2109708ca79481b8bbc962",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/ingress75-midpoint-original-byte.npz",
+      "original_sha256": "4d3eb408ad346ff52759944446f1fbbd19c8ceb5cd96fafa615371c15fedb1ac",
+      "original_bytes": 43739,
+      "file": "original/ingress75-midpoint-original-byte.npz",
+      "stored_sha256": "4d3eb408ad346ff52759944446f1fbbd19c8ceb5cd96fafa615371c15fedb1ac",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/full100-midpoint-original-byte.npz",
+      "original_sha256": "d90eb3d713d4b451d8873c64a956d238fa28fdbb36a633243b50d1a157eede5d",
+      "original_bytes": 32257,
+      "file": "original/full100-midpoint-original-byte.npz",
+      "stored_sha256": "d90eb3d713d4b451d8873c64a956d238fa28fdbb36a633243b50d1a157eede5d",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/far50-midpoint-original-byte.npz",
+      "original_sha256": "5bfa5d52b848e40aba5caff91952c5e9c63ca8d2e05137428ece43e79971c419",
+      "original_bytes": 42514,
+      "file": "original/far50-midpoint-original-byte.npz",
+      "stored_sha256": "5bfa5d52b848e40aba5caff91952c5e9c63ca8d2e05137428ece43e79971c419",
+      "compression": "none"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/index-strict.json",
+      "original_sha256": "eb60f57da1a10b72eca12d07ee4d85b5d032e98e265f9bdd68191de21b840562",
+      "original_bytes": 20167,
+      "file": "metadata/control-index.json.gz",
+      "stored_sha256": "a6dc4a1a9012d8639d8158d21f6c2c5e6943a5b4466fcef80de8287d56c079f4",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/shape-spec.json",
+      "original_sha256": "dc06904e099b192c62f7fc4c4be35b6d779ae23227f9f0ba5f250d2b6c205f03",
+      "original_bytes": 42520,
+      "file": "metadata/control-shape-spec.json.gz",
+      "stored_sha256": "060f5903e813fddbd6729a405b9a385df450d03d28fe2f14156d713f2422cbfa",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/manifest.json",
+      "original_sha256": "405b9a95158137014f29a01477a0e5922a31cd4f139d3f9fbfd6622eaef4c4e6",
+      "original_bytes": 1686,
+      "file": "metadata/control-source-manifest.json.gz",
+      "stored_sha256": "23ad22ca2bd17d4a917452f909f2311573cd455e3f46d6a599be3c972ee42457",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/index-strict.json",
+      "original_sha256": "82096bbb110179c15ac679f258f9d9b8faf64697c64dcdf20b0b9cf81d4d6dca",
+      "original_bytes": 20167,
+      "file": "metadata/full-index.json.gz",
+      "stored_sha256": "760daa5f14a366048a28e535d1c463b97c00d9582f65224e887958fb1573f794",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/shape-spec.json",
+      "original_sha256": "ad21ef7966ff4a689baf3c6c39237d8a8cb1dae090ae0c911c907f737ef139f1",
+      "original_bytes": 42579,
+      "file": "metadata/full-shape-spec.json.gz",
+      "stored_sha256": "44aa5cebff68081a0c678c1ab9bbd1159085e54d9bcdee1ed991088ed597c8fe",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/manifest.json",
+      "original_sha256": "ef9ea293d10d89bc0968b505b8d3d741e0a16a1c9b42d71622c4e52698215dd4",
+      "original_bytes": 1686,
+      "file": "metadata/full-source-manifest.json.gz",
+      "stored_sha256": "5904fd6ae5caa3841cb0734798cd5eaa95e1e9cc9826207f2d193ff9e62ff786",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/index-strict.json",
+      "original_sha256": "7843ad77d36c7494289d6fbc8176dd672222aff90955fba6490c33663a6bbbf6",
+      "original_bytes": 20473,
+      "file": "metadata/half-index.json.gz",
+      "stored_sha256": "684b9f52ac80b8fc5e6f3f18e7b83ef9f0c7f26b555d2a2d72b2f9104bdffc6a",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/shape-spec.json",
+      "original_sha256": "99f13d7e4eaff2459bb002a2ccfd1c4e562887eef3210cd3508acc8842fbc6c6",
+      "original_bytes": 40041,
+      "file": "metadata/half-shape-spec.json.gz",
+      "stored_sha256": "56e998726447cb8d6777737c8d7b292b05d245e1dd6bed6c7b973170397afe36",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/inputs/manifest.json",
+      "original_sha256": "4efd905ee00e34da52f10a780d7f1a6acb33634ae70eeba2e9c04aecfeb5c727",
+      "original_bytes": 1690,
+      "file": "metadata/half-source-manifest.json.gz",
+      "stored_sha256": "e7fd381fe25c689d67f70f0b7618b26c993a5a99b73af60ad7f23b568ef3882c",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/native-feasibility-r1/endpoint-verification-strict.json",
+      "original_sha256": "37077c0599e50ff80c0fd3807a79bcfb16742fa3b9e90d20cc07f7198e6704f4",
+      "original_bytes": 2715148,
+      "file": "metadata/half-strict-receipt.json.gz",
+      "stored_sha256": "c01f56ccfb5f6332cd24036ace1ef0246e217b85b7d87c1a13530b77501d4203",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/index-strict.json",
+      "original_sha256": "da5db01b324fe23b42f590d04c274d62f0a8ad3c269038c03e7fedd0511b5a23",
+      "original_bytes": 20775,
+      "file": "metadata/control_repeat-index.json.gz",
+      "stored_sha256": "643dbdde2b81086beef268ecd6df3e43071086525172307e80cd8cd30b8a3782",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/shape-spec.json",
+      "original_sha256": "dc06904e099b192c62f7fc4c4be35b6d779ae23227f9f0ba5f250d2b6c205f03",
+      "original_bytes": 42520,
+      "file": "metadata/control_repeat-shape-spec.json.gz",
+      "stored_sha256": "060f5903e813fddbd6729a405b9a385df450d03d28fe2f14156d713f2422cbfa",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/inputs/manifest.json",
+      "original_sha256": "405b9a95158137014f29a01477a0e5922a31cd4f139d3f9fbfd6622eaef4c4e6",
+      "original_bytes": 1686,
+      "file": "metadata/control_repeat-source-manifest.json.gz",
+      "stored_sha256": "23ad22ca2bd17d4a917452f909f2311573cd455e3f46d6a599be3c972ee42457",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/control-repeat/native-feasibility-r1/endpoint-verification-strict.json",
+      "original_sha256": "2a995af7ca0f7a995901b2fb58073fe17de597d3b06d94712b73e420c8419393",
+      "original_bytes": 2672900,
+      "file": "metadata/control_repeat-strict-receipt.json.gz",
+      "stored_sha256": "928f696daa3367d1f4889ec4a4bf63b6782df430c3fdc8b850337ffef9395fef",
+      "compression": "gzip"
+    },
+    {
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/midpoint-v1/half/inputs/st01_rgb_star_gmidpoint_d16.png",
+      "original_sha256": "75b56b0afb761635a709a8b71229c0796e9423d7537d991c5ebdc22737a20b64",
+      "original_bytes": 6932,
+      "file": "original/source-g180.png",
+      "stored_sha256": "75b56b0afb761635a709a8b71229c0796e9423d7537d991c5ebdc22737a20b64",
+      "compression": "none"
+    }
+  ],
+  "seven_point_consumed": false,
+  "omitted": [
+    "Full-screen PNG files; only their original hashes and exact ROI pixels are retained.",
+    "243079685 bytes of raw traces, trace archives, APKs and build caches."
+  ],
+  "shared_dependencies": [
+    {
+      "file": "../glass-slider-green-witness-20261115/manifest.json",
+      "sha256": "c8b647fde49d0b707fb7c78c8a60d2632d0d32dc3751c48ed200e44f6ba2d7c7",
+      "bytes": 177616
+    },
+    {
+      "file": "../glass-slider-green-witness-20261115/checksums.json",
+      "sha256": "b407d294b20cf2d9fee6adaecb1299ab36e9f6cc74dc105fe5766be76186b7e7",
+      "bytes": 20459
+    },
+    {
+      "file": "../glass-slider-green-witness-20261115/frozen/analyze-witness-control-v1_1.py",
+      "sha256": "ef475784d5aed32b0dc522ae80c5ff760ad6779a5ef676c5c0de2737307ac2d1",
+      "bytes": 30543
+    },
+    {
+      "file": "../glass-slider-green-witness-20261115/metadata/native-control-strict-receipt.json.gz",
+      "sha256": "3a4fc96abd0296e98b1f4216eed56711f947ad03560a752e4e234a908ce4cc94",
+      "bytes": 136118
+    },
+    {
+      "file": "../glass-slider-green-witness-20261115/metadata/native-witness-strict-receipt.json.gz",
+      "sha256": "768f39009b996ef3f68112309c10442cf36a8a7853e3b11fb7468c9e5440b540",
+      "bytes": 144171
+    }
+  ]
+}

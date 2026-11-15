@@ -1,0 +1,2202 @@
+{
+  "schema": 1,
+  "status": "derived_receipt_summary_of_existing_runs_not_a_new_run",
+  "native": {
+    "provenance": {
+      "archive_id": "multicolor-star-v2/pose-corrected-v3/native-feasibility-r1/endpoint-verification-strict.json",
+      "sha256": "b5634eaa800bed7b309ccf5e098c772e65b85e9a2f37a466ee9f8849d765532d",
+      "bytes": 2610141
+    },
+    "status": "passed",
+    "limits": {
+      "target_tolerance_pt": 1.0,
+      "minimum_after_last_move_seconds": 0.65,
+      "minimum_geometry_frames": 4,
+      "maximum_geometry_gap_seconds": 0.05,
+      "geometry_range_pt": 0.1,
+      "matrix_range": 0.001,
+      "opacity_range": 0.01
+    },
+    "errors": [],
+    "scope": "Independent fixed-source identity, complete input brackets, PNG integrity and public presented pose; no optical parity or alpha claim",
+    "verifierSHA256": "1e74889b2d7b1014f0cbc74e5fd26d6d5c4beda56fd5334767ca09dfbb31da71",
+    "specSHA256": "72be8139c968276426532797141097d4ec30a131ff67313794e3689c455a3616",
+    "manifestSHA256": "6c7bd1861fc1e97bbe34726fb24910a4e56719c8f4061bffc10ba42b4b8914fe",
+    "sourceSetID": "slider_multicolor_star_transport_20261115_v2",
+    "shapeID": "st01_rgb_star_d16",
+    "flatID": "st00_flat128",
+    "pngValidatorSHA256": "06578a07b3fa55081557de66c3ca5a5d45327d3d4887f9e7903e07a832eab226",
+    "verifiedHeldEndpoints": 12,
+    "verifiedShapeFlatPairs": 6,
+    "session": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "maximumFramesPerSecond": 60,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false,
+      "tintSRGB": [
+        0,
+        0.65,
+        0.75,
+        1
+      ]
+    },
+    "endpoints": [
+      {
+        "stage_id": "ingress01",
+        "input_id": "st01_rgb_star_d16",
+        "png": "raw/ios/ingress01-shape.png",
+        "image_sha256": "597f19ce1f8d08ac828b19638aeda917007b882940e59d35300e9361877f4435",
+        "verifiedHeldEndpoint": true,
+        "errors": [],
+        "captureBeginT": 6.850761890411377,
+        "captureEndT": 7.475620746612549,
+        "actualControlBoundsPt": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actualCarrierBoundsPt": [
+          127.02350558042527,
+          410.9,
+          57.35000000000001,
+          37.19999999999999
+        ],
+        "actualCarrierCenterPt": [
+          155.69850558042526,
+          429.5
+        ],
+        "presentedSampling": {
+          "frames": 44,
+          "gapBeforeSeconds": 0.03871843218803406,
+          "gapAfterSeconds": 0.049444669974036515,
+          "maximumStartGapSeconds": 0.016864583361893892,
+          "firstCaptureStartT": 6.808432041667402,
+          "lastCaptureEndT": 7.528489083284512,
+          "representativeCaptureStartT": 7.15821437491104,
+          "representativeCaptureEndT": 7.162023833254352
+        },
+        "poseScope": "Actual public presented owner/carrier fields only; no optical alpha or optical-stability inference",
+        "ownerPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0,
+              "boundsH": 0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 44,
+            "unknownSamples": 0,
+            "status": "known",
+            "knownMinimum": 0,
+            "knownMaximum": 0
+          }
+        },
+        "carrierPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 0.0,
+              "h": 0.0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0.0,
+              "boundsH": 0.0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 0,
+            "unknownSamples": 44,
+            "status": "unknown_or_partial",
+            "knownMinimum": null,
+            "knownMaximum": null
+          }
+        }
+      },
+      {
+        "stage_id": "ingress01",
+        "input_id": "st00_flat128",
+        "png": "raw/ios/ingress01-flat.png",
+        "image_sha256": "fc421cc0a4d762def041a7b66fc7436257ada325f177febde7e61b966de4b57f",
+        "verifiedHeldEndpoint": true,
+        "errors": [],
+        "captureBeginT": 6.458399772644043,
+        "captureEndT": 7.2923219203948975,
+        "actualControlBoundsPt": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actualCarrierBoundsPt": [
+          127.02350558042527,
+          410.9,
+          57.35000000000001,
+          37.19999999999999
+        ],
+        "actualCarrierCenterPt": [
+          155.69850558042526,
+          429.5
+        ],
+        "presentedSampling": {
+          "frames": 56,
+          "gapBeforeSeconds": 0.03749281435739249,
+          "gapAfterSeconds": 0.04152574623003602,
+          "maximumStartGapSeconds": 0.01702712499536574,
+          "firstCaptureStartT": 6.417233958374709,
+          "lastCaptureEndT": 7.337636666605249,
+          "representativeCaptureStartT": 6.867167375050485,
+          "representativeCaptureEndT": 6.870607375050895
+        },
+        "poseScope": "Actual public presented owner/carrier fields only; no optical alpha or optical-stability inference",
+        "ownerPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0,
+              "boundsH": 0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 56,
+            "unknownSamples": 0,
+            "status": "known",
+            "knownMinimum": 0,
+            "knownMaximum": 0
+          }
+        },
+        "carrierPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 0.0,
+              "h": 0.0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0.0,
+              "boundsH": 0.0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 0,
+            "unknownSamples": 56,
+            "status": "unknown_or_partial",
+            "knownMinimum": null,
+            "knownMaximum": null
+          }
+        }
+      },
+      {
+        "stage_id": "ingress10",
+        "input_id": "st01_rgb_star_d16",
+        "png": "raw/ios/ingress10-shape.png",
+        "image_sha256": "d09bf356a365dc28ea7f99f97fe6efe56b1a2e7f41267651fe1266e66e55ae49",
+        "verifiedHeldEndpoint": true,
+        "errors": [],
+        "captureBeginT": 6.338011026382446,
+        "captureEndT": 7.206407070159912,
+        "actualControlBoundsPt": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actualCarrierBoundsPt": [
+          128.80261034965514,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "actualCarrierCenterPt": [
+          157.47761034965515,
+          429.5
+        ],
+        "presentedSampling": {
+          "frames": 58,
+          "gapBeforeSeconds": 0.03918256796896458,
+          "gapAfterSeconds": 0.03859667992219329,
+          "maximumStartGapSeconds": 0.016968416748568416,
+          "firstCaptureStartT": 6.29516337509267,
+          "lastCaptureEndT": 7.248355166753754,
+          "representativeCaptureStartT": 6.7785038750153035,
+          "representativeCaptureEndT": 6.781272375024855
+        },
+        "poseScope": "Actual public presented owner/carrier fields only; no optical alpha or optical-stability inference",
+        "ownerPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0,
+              "boundsH": 0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 58,
+            "unknownSamples": 0,
+            "status": "known",
+            "knownMinimum": 0,
+            "knownMaximum": 0
+          }
+        },
+        "carrierPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 0.0,
+              "h": 0.0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0.0,
+              "boundsH": 0.0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 0,
+            "unknownSamples": 58,
+            "status": "unknown_or_partial",
+            "knownMinimum": null,
+            "knownMaximum": null
+          }
+        }
+      },
+      {
+        "stage_id": "ingress10",
+        "input_id": "st00_flat128",
+        "png": "raw/ios/ingress10-flat.png",
+        "image_sha256": "9336ae0cb2daf2a1496d9011ee6850ac1bceb6944d6af67208d0a0fc310b6128",
+        "verifiedHeldEndpoint": true,
+        "errors": [],
+        "captureBeginT": 6.162516832351685,
+        "captureEndT": 6.928356885910034,
+        "actualControlBoundsPt": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actualCarrierBoundsPt": [
+          128.80261034965514,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "actualCarrierCenterPt": [
+          157.47761034965515,
+          429.5
+        ],
+        "presentedSampling": {
+          "frames": 52,
+          "gapBeforeSeconds": 0.0418024156242609,
+          "gapAfterSeconds": 0.03906457242555916,
+          "maximumStartGapSeconds": 0.01698733342345804,
+          "firstCaptureStartT": 6.117383750039153,
+          "lastCaptureEndT": 6.9711043334100395,
+          "representativeCaptureStartT": 6.550669250078499,
+          "representativeCaptureEndT": 6.553944625076838
+        },
+        "poseScope": "Actual public presented owner/carrier fields only; no optical alpha or optical-stability inference",
+        "ownerPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0,
+              "boundsH": 0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 52,
+            "unknownSamples": 0,
+            "status": "known",
+            "knownMinimum": 0,
+            "knownMaximum": 0
+          }
+        },
+        "carrierPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 0.0,
+              "h": 0.0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0.0,
+              "boundsH": 0.0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 0,
+            "unknownSamples": 52,
+            "status": "unknown_or_partial",
+            "knownMinimum": null,
+            "knownMaximum": null
+          }
+        }
+      },
+      {
+        "stage_id": "ingress50",
+        "input_id": "st01_rgb_star_d16",
+        "png": "raw/ios/ingress50-shape.png",
+        "image_sha256": "31226f6d2174862266dbc56865bbebc1abfeccd081290320bf1c74952a3820d7",
+        "verifiedHeldEndpoint": true,
+        "errors": [],
+        "captureBeginT": 6.483861923217773,
+        "captureEndT": 7.273807764053345,
+        "actualControlBoundsPt": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actualCarrierBoundsPt": [
+          133.69515068531035,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "actualCarrierCenterPt": [
+          162.37015068531036,
+          429.5
+        ],
+        "presentedSampling": {
+          "frames": 53,
+          "gapBeforeSeconds": 0.03590692323632538,
+          "gapAfterSeconds": 0.037710277596488595,
+          "maximumStartGapSeconds": 0.01684458344243467,
+          "firstCaptureStartT": 6.444855666719377,
+          "lastCaptureEndT": 7.3153284166473895,
+          "representativeCaptureStartT": 6.877971375011839,
+          "representativeCaptureEndT": 6.881272125057876
+        },
+        "poseScope": "Actual public presented owner/carrier fields only; no optical alpha or optical-stability inference",
+        "ownerPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0,
+              "boundsH": 0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 53,
+            "unknownSamples": 0,
+            "status": "known",
+            "knownMinimum": 0,
+            "knownMaximum": 0
+          }
+        },
+        "carrierPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 0.0,
+              "h": 0.0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0.0,
+              "boundsH": 0.0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 0,
+            "unknownSamples": 53,
+            "status": "unknown_or_partial",
+            "knownMinimum": null,
+            "knownMaximum": null
+          }
+        }
+      },
+      {
+        "stage_id": "ingress50",
+        "input_id": "st00_flat128",
+        "png": "raw/ios/ingress50-flat.png",
+        "image_sha256": "46ce4195429f63e7149fce00be036d0407372a67b0e8476d46b44167c0b5c7e0",
+        "verifiedHeldEndpoint": true,
+        "errors": [],
+        "captureBeginT": 6.227065801620483,
+        "captureEndT": 6.706809759140015,
+        "actualControlBoundsPt": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actualCarrierBoundsPt": [
+          133.69515068531035,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "actualCarrierCenterPt": [
+          162.37015068531036,
+          429.5
+        ],
+        "presentedSampling": {
+          "frames": 34,
+          "gapBeforeSeconds": 0.025732301524840295,
+          "gapAfterSeconds": 0.04139140760526061,
+          "maximumStartGapSeconds": 0.018297416740097106,
+          "firstCaptureStartT": 6.197798375040293,
+          "lastCaptureEndT": 6.75252875010483,
+          "representativeCaptureStartT": 6.464565083384514,
+          "representativeCaptureEndT": 6.467806291766465
+        },
+        "poseScope": "Actual public presented owner/carrier fields only; no optical alpha or optical-stability inference",
+        "ownerPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0,
+              "boundsH": 0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 34,
+            "unknownSamples": 0,
+            "status": "known",
+            "knownMinimum": 0,
+            "knownMaximum": 0
+          }
+        },
+        "carrierPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 0.0,
+              "h": 0.0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0.0,
+              "boundsH": 0.0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 0,
+            "unknownSamples": 34,
+            "status": "unknown_or_partial",
+            "knownMinimum": null,
+            "knownMaximum": null
+          }
+        }
+      },
+      {
+        "stage_id": "ingress75",
+        "input_id": "st01_rgb_star_d16",
+        "png": "raw/ios/ingress75-shape.png",
+        "image_sha256": "0ad5b6b156a232b50e09aeaf326273819937d98cae5a6486db335a538b3ba17e",
+        "verifiedHeldEndpoint": true,
+        "errors": [],
+        "captureBeginT": 6.351871013641357,
+        "captureEndT": 7.0017619132995605,
+        "actualControlBoundsPt": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actualCarrierBoundsPt": [
+          135.9190294265747,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "actualCarrierCenterPt": [
+          164.5940294265747,
+          429.5
+        ],
+        "presentedSampling": {
+          "frames": 46,
+          "gapBeforeSeconds": 0.04833884700201452,
+          "gapAfterSeconds": 0.049192128353752196,
+          "maximumStartGapSeconds": 0.017007124959491193,
+          "firstCaptureStartT": 6.300925249932334,
+          "lastCaptureEndT": 7.054118208237924,
+          "representativeCaptureStartT": 6.667529666563496,
+          "representativeCaptureEndT": 6.669984999927692
+        },
+        "poseScope": "Actual public presented owner/carrier fields only; no optical alpha or optical-stability inference",
+        "ownerPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0,
+              "boundsH": 0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 46,
+            "unknownSamples": 0,
+            "status": "known",
+            "knownMinimum": 0,
+            "knownMaximum": 0
+          }
+        },
+        "carrierPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 0.0,
+              "h": 0.0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0.0,
+              "boundsH": 0.0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 0,
+            "unknownSamples": 46,
+            "status": "unknown_or_partial",
+            "knownMinimum": null,
+            "knownMaximum": null
+          }
+        }
+      },
+      {
+        "stage_id": "ingress75",
+        "input_id": "st00_flat128",
+        "png": "raw/ios/ingress75-flat.png",
+        "image_sha256": "cf250ade3009b177e1222d831fa2bc9abc0395cd3be7c5f381b3dbf880496f99",
+        "verifiedHeldEndpoint": true,
+        "errors": [],
+        "captureBeginT": 6.6045098304748535,
+        "captureEndT": 7.389420986175537,
+        "actualControlBoundsPt": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actualCarrierBoundsPt": [
+          135.9190294265747,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "actualCarrierCenterPt": [
+          164.5940294265747,
+          429.5
+        ],
+        "presentedSampling": {
+          "frames": 53,
+          "gapBeforeSeconds": 0.03376487211789936,
+          "gapAfterSeconds": 0.04463463881984353,
+          "maximumStartGapSeconds": 0.017421791679225862,
+          "firstCaptureStartT": 6.567586499964818,
+          "lastCaptureEndT": 7.437870916677639,
+          "representativeCaptureStartT": 7.000902833300643,
+          "representativeCaptureEndT": 7.004765499965288
+        },
+        "poseScope": "Actual public presented owner/carrier fields only; no optical alpha or optical-stability inference",
+        "ownerPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0,
+              "boundsH": 0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 53,
+            "unknownSamples": 0,
+            "status": "known",
+            "knownMinimum": 0,
+            "knownMaximum": 0
+          }
+        },
+        "carrierPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 0.0,
+              "h": 0.0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0.0,
+              "boundsH": 0.0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 0,
+            "unknownSamples": 53,
+            "status": "unknown_or_partial",
+            "knownMinimum": null,
+            "knownMaximum": null
+          }
+        }
+      },
+      {
+        "stage_id": "full100",
+        "input_id": "st01_rgb_star_d16",
+        "png": "raw/ios/full100-shape.png",
+        "image_sha256": "f94af0f260d01f792c099e7fbe073fc6c1650f1c42dafed16ea9f756e673bca9",
+        "verifiedHeldEndpoint": true,
+        "errors": [],
+        "captureBeginT": 6.519698143005371,
+        "captureEndT": 7.3139472007751465,
+        "actualControlBoundsPt": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actualCarrierBoundsPt": [
+          159.04738254547118,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "actualCarrierCenterPt": [
+          187.7223825454712,
+          429.5
+        ],
+        "presentedSampling": {
+          "frames": 54,
+          "gapBeforeSeconds": 0.04023547633551061,
+          "gapAfterSeconds": 0.04534325748682022,
+          "maximumStartGapSeconds": 0.017018749960698187,
+          "firstCaptureStartT": 6.475879499921575,
+          "lastCaptureEndT": 7.3624965832568705,
+          "representativeCaptureStartT": 6.909311083261855,
+          "representativeCaptureEndT": 6.912797749973834
+        },
+        "poseScope": "Actual public presented owner/carrier fields only; no optical alpha or optical-stability inference",
+        "ownerPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0,
+              "boundsH": 0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 54,
+            "unknownSamples": 0,
+            "status": "known",
+            "knownMinimum": 0,
+            "knownMaximum": 0
+          }
+        },
+        "carrierPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 0.0,
+              "h": 0.0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0.0,
+              "boundsH": 0.0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 0,
+            "unknownSamples": 54,
+            "status": "unknown_or_partial",
+            "knownMinimum": null,
+            "knownMaximum": null
+          }
+        }
+      },
+      {
+        "stage_id": "full100",
+        "input_id": "st00_flat128",
+        "png": "raw/ios/full100-flat.png",
+        "image_sha256": "88b64167ce8e9f84d1616bddafdb9c6dd86095ff90c6cac5c6c85bec5f549055",
+        "verifiedHeldEndpoint": true,
+        "errors": [],
+        "captureBeginT": 6.645548105239868,
+        "captureEndT": 7.261857986450195,
+        "actualControlBoundsPt": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actualCarrierBoundsPt": [
+          159.04738254547118,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "actualCarrierCenterPt": [
+          187.7223825454712,
+          429.5
+        ],
+        "presentedSampling": {
+          "frames": 43,
+          "gapBeforeSeconds": 0.03944264689926058,
+          "gapAfterSeconds": 0.040890846867114305,
+          "maximumStartGapSeconds": 0.01717716665007174,
+          "firstCaptureStartT": 6.602920666686259,
+          "lastCaptureEndT": 7.305859541636892,
+          "representativeCaptureStartT": 6.952534375013784,
+          "representativeCaptureEndT": 6.955487583298236
+        },
+        "poseScope": "Actual public presented owner/carrier fields only; no optical alpha or optical-stability inference",
+        "ownerPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0,
+              "boundsH": 0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 43,
+            "unknownSamples": 0,
+            "status": "known",
+            "knownMinimum": 0,
+            "knownMaximum": 0
+          }
+        },
+        "carrierPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 0.0,
+              "h": 0.0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0.0,
+              "boundsH": 0.0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 0,
+            "unknownSamples": 43,
+            "status": "unknown_or_partial",
+            "knownMinimum": null,
+            "knownMaximum": null
+          }
+        }
+      },
+      {
+        "stage_id": "far50",
+        "input_id": "st01_rgb_star_d16",
+        "png": "raw/ios/far50-shape.png",
+        "image_sha256": "e9072a20999013f67b7d9968352fa4a0555f0f6d76215b2a5b872533799a107f",
+        "verifiedHeldEndpoint": true,
+        "errors": [],
+        "captureBeginT": 7.018067836761475,
+        "captureEndT": 7.702953815460205,
+        "actualControlBoundsPt": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actualCarrierBoundsPt": [
+          183.95484931468962,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "actualCarrierCenterPt": [
+          212.62984931468964,
+          429.5
+        ],
+        "presentedSampling": {
+          "frames": 47,
+          "gapBeforeSeconds": 0.0413049201015383,
+          "gapAfterSeconds": 0.03969310119282454,
+          "maximumStartGapSeconds": 0.017068375018425286,
+          "firstCaptureStartT": 6.975843166699633,
+          "lastCaptureEndT": 7.746327916625887,
+          "representativeCaptureStartT": 7.359289875021204,
+          "representativeCaptureEndT": 7.362404166604392
+        },
+        "poseScope": "Actual public presented owner/carrier fields only; no optical alpha or optical-stability inference",
+        "ownerPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0,
+              "boundsH": 0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 47,
+            "unknownSamples": 0,
+            "status": "known",
+            "knownMinimum": 0,
+            "knownMaximum": 0
+          }
+        },
+        "carrierPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 0.0,
+              "h": 0.0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0.0,
+              "boundsH": 0.0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 0,
+            "unknownSamples": 47,
+            "status": "unknown_or_partial",
+            "knownMinimum": null,
+            "knownMaximum": null
+          }
+        }
+      },
+      {
+        "stage_id": "far50",
+        "input_id": "st00_flat128",
+        "png": "raw/ios/far50-flat.png",
+        "image_sha256": "8123c7d3b779920f9e57e884f0029f5d5ab53161e84c9a6bffa7adee11a168b8",
+        "verifiedHeldEndpoint": true,
+        "errors": [],
+        "captureBeginT": 6.8488609790802,
+        "captureEndT": 7.336887836456299,
+        "actualControlBoundsPt": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actualCarrierBoundsPt": [
+          183.95484931468962,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ],
+        "actualCarrierCenterPt": [
+          212.62984931468964,
+          429.5
+        ],
+        "presentedSampling": {
+          "frames": 35,
+          "gapBeforeSeconds": 0.03779847908299416,
+          "gapAfterSeconds": 0.03750653855968267,
+          "maximumStartGapSeconds": 0.017070499947294593,
+          "firstCaptureStartT": 6.80771504167933,
+          "lastCaptureEndT": 7.375621208338998,
+          "representativeCaptureStartT": 7.091073374962434,
+          "representativeCaptureEndT": 7.094540166668594
+        },
+        "poseScope": "Actual public presented owner/carrier fields only; no optical alpha or optical-stability inference",
+        "ownerPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0,
+              "boundsH": 0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 35,
+            "unknownSamples": 0,
+            "status": "known",
+            "knownMinimum": 0,
+            "knownMaximum": 0
+          }
+        },
+        "carrierPoseStability": {
+          "geometry": {
+            "ranges": {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 0.0,
+              "h": 0.0,
+              "boundsX": 0,
+              "boundsY": 0,
+              "boundsW": 0.0,
+              "boundsH": 0.0,
+              "positionX": 0.0,
+              "positionY": 0.0,
+              "anchorPointX": 0.0,
+              "anchorPointY": 0.0
+            },
+            "limit": 0.1,
+            "stable": true
+          },
+          "matrix": {
+            "ranges": {
+              "m11": 0,
+              "m22": 0,
+              "m12": 0,
+              "m21": 0,
+              "m41": 0,
+              "m42": 0
+            },
+            "limit": 0.001,
+            "stable": true
+          },
+          "opacity": {
+            "ranges": {
+              "opacity": 0,
+              "effectiveOpacity": 0
+            },
+            "limit": 0.01,
+            "stable": true
+          },
+          "same_class_and_path": true,
+          "stable": true,
+          "cornerRadiusObservation": {
+            "scope": "optional public getter; unknown does not infer a radius or optical contour",
+            "knownSamples": 0,
+            "unknownSamples": 35,
+            "status": "unknown_or_partial",
+            "knownMinimum": null,
+            "knownMaximum": null
+          }
+        }
+      }
+    ]
+  },
+  "android": {
+    "receipt": {
+      "archive_id": "multicolor-star-v2/pose-corrected-v3/android-matched-native-v1/android-quadratic-shoulder-r2/receipt.json",
+      "sha256": "efcf5de5efd37735a5d704db9ddc79326747fc81e8f6f81f3305108b2245bc40",
+      "bytes": 13281
+    },
+    "result": {
+      "archive_id": "multicolor-star-v2/pose-corrected-v3/android-matched-native-v1/android-quadratic-shoulder-r2/trace/result.json",
+      "sha256": "ddc2bf88a49f4dfe835724b0e4480b70c413bf9ed5332dbe8f10919f14322537",
+      "bytes": 2264938
+    },
+    "run": "fixed-shape-quadratic-shoulder-r2-20261115",
+    "started_unix": 1794747527.7886138,
+    "finished_unix": 1794747584.906692,
+    "exit_code": 0,
+    "test_passed": true,
+    "sources": {
+      "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt": "844f5b191c1693113287ad68251ed80cac468dd8cbf27d7d960736ae8c696517",
+      "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+      "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+      "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+      "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9"
+    },
+    "packages": [
+      {
+        "package": "com.lingion.sleepy.debug",
+        "sha256": "ee9e8c9f8cab864a9eb736239a09b52c8fc24bc0cdd05217308f7c9e2674bec3",
+        "install": "Performing Streamed Install\nSuccess"
+      },
+      {
+        "package": "com.lingion.sleepy.debug.test",
+        "sha256": "59973c53ff1e5624c90ff19a52a3bdce5632063eca73e4bf1edc2f3382389b8b",
+        "install": "Performing Streamed Install\nSuccess"
+      }
+    ],
+    "input_sha256": {
+      "inputs/manifest.json": "6c7bd1861fc1e97bbe34726fb24910a4e56719c8f4061bffc10ba42b4b8914fe",
+      "shape-spec.json": "8eab6adf59ee618a08237fa3eea669e82bf29a3de9e9a1537b11f240ea870fd4",
+      "inputs/st00_flat128.png": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "inputs/st01_rgb_star_d16.png": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+      "inputs/st02_rgb_star6_d16.png": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "inputs/st03_rgb_star7_d16.png": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "inputs/st04_rgb_star8_d16.png": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "inputs/st05_rgb_star5_d12.png": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "inputs/st06_rgb_star6_d12.png": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "inputs/st07_rgb_star7_d12.png": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58"
+    },
+    "files": [
+      {
+        "file": "trace/result.json",
+        "sha256": "ddc2bf88a49f4dfe835724b0e4480b70c413bf9ed5332dbe8f10919f14322537",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-far50-background-screen.png",
+        "sha256": "f5e13ecafadd8e4b0cc79ed7352dad8340b87590b61a92cd17dde8e22b504ed1",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-far50-background-window.png",
+        "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-far50-held-screen.png",
+        "sha256": "90668dfca4333ef3a556c24f393e51ecba0f99d964a1e71e5ac4cd3bdab64ef1",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-far50-held-window.png",
+        "sha256": "bbe3b839328301d5430b4f4534f6910d26464ffe1dbaf40c9ab8102819454cbb",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-full100-background-screen.png",
+        "sha256": "5c905e421343880e8fd3eff621ca350cd19902df2232fb4be0b7b1b79c88a3cc",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-full100-background-window.png",
+        "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-full100-held-screen.png",
+        "sha256": "847c681156cc37908ac791c613f6300aadbb5ee1a5c899773823c82eacde75fe",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-full100-held-window.png",
+        "sha256": "c25afdce41864eb4b17e051d1d2be75497ca02ac388c5736afe66dd6cf831c7a",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress01-background-screen.png",
+        "sha256": "c14d68c69355da254247e84913ac9738a03687178a89911b2d21446f9b8d1d2b",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress01-background-window.png",
+        "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress01-held-screen.png",
+        "sha256": "be8c2426f0ec8ce06274fd2ef0d7d14396bc9c8206ae0ee89d510c7acf7aa0fe",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress01-held-window.png",
+        "sha256": "55ba7c9361eeb425f4737ca16ab83fc06e6eb639e9bda48ac593bffd56ede5a8",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress10-background-screen.png",
+        "sha256": "7c8b91e3204c759c6da234e92004e8e26973c197ce032a18d3f6bb39df541e5e",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress10-background-window.png",
+        "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress10-held-screen.png",
+        "sha256": "f39cec4b37ca04391d6ef77a7d0bfe43b5b646dd5c00a1d1b0f486123f8625ad",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress10-held-window.png",
+        "sha256": "a6079dc65d7fcbc3592325a01c0cbf27adf8111da0ce264b8baad79b94244ee4",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress50-background-screen.png",
+        "sha256": "7c8b91e3204c759c6da234e92004e8e26973c197ce032a18d3f6bb39df541e5e",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress50-background-window.png",
+        "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress50-held-screen.png",
+        "sha256": "694000913ad4618d3b58871ac82f0986b99c0819ea8a951a9be85c7f87d8da1d",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress50-held-window.png",
+        "sha256": "3f57e1ca1ac0b85fd444e33d689ed03546f472dbaa83918b997e015d8d399b02",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress75-background-screen.png",
+        "sha256": "2c683f9083aecfd7ebb98ebd86a373f1d2c0bd6eaef5a0bb244212c50a446935",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress75-background-window.png",
+        "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress75-held-screen.png",
+        "sha256": "e477700299d61ba1aa50d561c3448e2faccd22cd0c6834919553dd15436bc316",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st00_flat128-light-ingress75-held-window.png",
+        "sha256": "5aa2a40f6fb45bc1f8ce388c85f2e653c8d66cb88e6dc255f63e8fb69a38661c",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-far50-background-screen.png",
+        "sha256": "aaa18cecc19122e7f50d40092d0020f178fa2bb8acc6db1ac88071bb9aff9267",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-far50-background-window.png",
+        "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-far50-held-screen.png",
+        "sha256": "aa176a066c2e568314059e33c98915a2eb9c57ab3cfeffb5df13277cf8857a52",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-far50-held-window.png",
+        "sha256": "cf46772d29dc0e7f28619a035024338d23120e50da696993f7ba0422cf074549",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-full100-background-screen.png",
+        "sha256": "aaa18cecc19122e7f50d40092d0020f178fa2bb8acc6db1ac88071bb9aff9267",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-full100-background-window.png",
+        "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-full100-held-screen.png",
+        "sha256": "f6c7d9004d439d16bb7ace71256ad227f1ef8c5acf79a9f0c2cae8fa69f42943",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-full100-held-window.png",
+        "sha256": "3739849f360af4a59f7b6d15b54c362311bd26a5262abc1fad7f9b219429d4b8",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress01-background-screen.png",
+        "sha256": "6f3a52f2ab16a6dcd8cad6697228af556f169a4b1ca4d94374d1f2d2ab7c1fc0",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress01-background-window.png",
+        "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress01-held-screen.png",
+        "sha256": "4129b361825fe136d5453dcc415aa666acdfef0aa137f597e851b72c3c097393",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress01-held-window.png",
+        "sha256": "79ffa1b0aa7b10e2f4c8c0960f2fbea88eefb29dbdbf969d98684fe65533790c",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress10-background-screen.png",
+        "sha256": "aaa18cecc19122e7f50d40092d0020f178fa2bb8acc6db1ac88071bb9aff9267",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress10-background-window.png",
+        "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress10-held-screen.png",
+        "sha256": "25d57be7a334e529bad9cc45c8ae2f0cfb8efb16c4d29ff48f48e9892e7b4eab",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress10-held-window.png",
+        "sha256": "1d582ae679c33f50deff8968eedcde6c77ca7fdea04b0e5a601ee333e791ce18",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress50-background-screen.png",
+        "sha256": "e9f1f9f28f46bf52208000c3dadbfe4d258069662e1d9b3bf17c0aee63406c61",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress50-background-window.png",
+        "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress50-held-screen.png",
+        "sha256": "b820d0e0a9ae70199a140b79a2e1c8435e50cfe22355452db9700f9801f64c9e",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress50-held-window.png",
+        "sha256": "8f9b8b314a8cd1c60457c52c0b185705b67e50fdc8d600de8d45ce1f204b1213",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress75-background-screen.png",
+        "sha256": "771396f2ca31df0b1bfed4f25919d4a045dec9416ba4f8b2c422b2e7819bd5fe",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress75-background-window.png",
+        "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress75-held-screen.png",
+        "sha256": "07ab060d99b86b8e9e69e899bfc81402ff28e3217f5c6a2f4dba3ee5fca28592",
+        "host_device_match": true
+      },
+      {
+        "file": "trace/st01_rgb_star_d16-light-ingress75-held-window.png",
+        "sha256": "f65a1d2d4c3f536896dc5cfe569ce6644c77c5088fd23407e1c1ff77ae21b20e",
+        "host_device_match": true
+      }
+    ],
+    "status": "passed",
+    "sdk": 36,
+    "model": "PKX110",
+    "scope": "First light fixed-object static optical feasibility. Six fresh production GlassSlider scenes, each independently repeated with the original shape and pose-matched flat source. Real DOWN, slop-establishing MOVE, inverse-mapped target MOVE, settled HELD capture, cleanup CANCEL. No setValue, source motion, UP commit, release-dynamics or parity claim.",
+    "selected_themes": [
+      "light"
+    ],
+    "input_policy": "The requested carrier center is converted analytically through the unchanged production relative drag mapping. DOWN starts at the observed quarter REST carrier. A real MOVE11dp crosses the production10dp slop, then a second real MOVE requests the inverse-mapped fraction. Actual pointer dispatch, values and carrier LayoutCoordinates are exported. Nominal source overlap is not actual optical coverage.",
+    "clock_policy": "LocalDockInputTimeNanos uses the Compose clock;1600ms settling after DOWN and each MOVE. Requested event delays and actual dispatch uptime are recorded independently. This is settled static evidence, not a millisecond motion measurement.",
+    "capture_policy": "Actual Window PixelCopy and independent composited display PNGs, unchanged>=99.5% RGB3 readiness and whole-holder/carrier6dp shadow room requirements. Each pose has its own unchanged-source background baseline.",
+    "production_shader_compile_and_bind": "passed: light single/range, lift0/0.5/1; not exhaustive driver introspection",
+    "all_49_host_device_files_hash_match": true,
+    "endpoints": [
+      {
+        "stage_id": "ingress01",
+        "role": "shape",
+        "scene": "st01_rgb_star_d16-light-ingress01",
+        "capture_begin_wall_uptime_ms": 740286534,
+        "capture_end_wall_uptime_ms": 740288290,
+        "last_move_dispatch_wall_uptime_ms": 740286326,
+        "settle_wall_ms": 208,
+        "settle_compose_ms": 1600,
+        "cleanup_cancel_wall_uptime_ms": 740288363,
+        "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+      },
+      {
+        "stage_id": "ingress01",
+        "role": "flat",
+        "scene": "st00_flat128-light-ingress01",
+        "capture_begin_wall_uptime_ms": 740290059,
+        "capture_end_wall_uptime_ms": 740291665,
+        "last_move_dispatch_wall_uptime_ms": 740289863,
+        "settle_wall_ms": 196,
+        "settle_compose_ms": 1600,
+        "cleanup_cancel_wall_uptime_ms": 740291775,
+        "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+      },
+      {
+        "stage_id": "ingress10",
+        "role": "shape",
+        "scene": "st01_rgb_star_d16-light-ingress10",
+        "capture_begin_wall_uptime_ms": 740293595,
+        "capture_end_wall_uptime_ms": 740295143,
+        "last_move_dispatch_wall_uptime_ms": 740293389,
+        "settle_wall_ms": 206,
+        "settle_compose_ms": 1600,
+        "cleanup_cancel_wall_uptime_ms": 740295241,
+        "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+      },
+      {
+        "stage_id": "ingress10",
+        "role": "flat",
+        "scene": "st00_flat128-light-ingress10",
+        "capture_begin_wall_uptime_ms": 740297050,
+        "capture_end_wall_uptime_ms": 740298678,
+        "last_move_dispatch_wall_uptime_ms": 740296836,
+        "settle_wall_ms": 214,
+        "settle_compose_ms": 1600,
+        "cleanup_cancel_wall_uptime_ms": 740298782,
+        "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+      },
+      {
+        "stage_id": "ingress50",
+        "role": "shape",
+        "scene": "st01_rgb_star_d16-light-ingress50",
+        "capture_begin_wall_uptime_ms": 740300811,
+        "capture_end_wall_uptime_ms": 740302356,
+        "last_move_dispatch_wall_uptime_ms": 740300567,
+        "settle_wall_ms": 244,
+        "settle_compose_ms": 1600,
+        "cleanup_cancel_wall_uptime_ms": 740302470,
+        "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+      },
+      {
+        "stage_id": "ingress50",
+        "role": "flat",
+        "scene": "st00_flat128-light-ingress50",
+        "capture_begin_wall_uptime_ms": 740304531,
+        "capture_end_wall_uptime_ms": 740306127,
+        "last_move_dispatch_wall_uptime_ms": 740304264,
+        "settle_wall_ms": 267,
+        "settle_compose_ms": 1600,
+        "cleanup_cancel_wall_uptime_ms": 740306281,
+        "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+      },
+      {
+        "stage_id": "ingress75",
+        "role": "shape",
+        "scene": "st01_rgb_star_d16-light-ingress75",
+        "capture_begin_wall_uptime_ms": 740308498,
+        "capture_end_wall_uptime_ms": 740310035,
+        "last_move_dispatch_wall_uptime_ms": 740308226,
+        "settle_wall_ms": 272,
+        "settle_compose_ms": 1600,
+        "cleanup_cancel_wall_uptime_ms": 740310163,
+        "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+      },
+      {
+        "stage_id": "ingress75",
+        "role": "flat",
+        "scene": "st00_flat128-light-ingress75",
+        "capture_begin_wall_uptime_ms": 740312441,
+        "capture_end_wall_uptime_ms": 740313967,
+        "last_move_dispatch_wall_uptime_ms": 740312156,
+        "settle_wall_ms": 285,
+        "settle_compose_ms": 1600,
+        "cleanup_cancel_wall_uptime_ms": 740314132,
+        "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+      },
+      {
+        "stage_id": "full100",
+        "role": "shape",
+        "scene": "st01_rgb_star_d16-light-full100",
+        "capture_begin_wall_uptime_ms": 740316699,
+        "capture_end_wall_uptime_ms": 740318255,
+        "last_move_dispatch_wall_uptime_ms": 740316401,
+        "settle_wall_ms": 298,
+        "settle_compose_ms": 1600,
+        "cleanup_cancel_wall_uptime_ms": 740318437,
+        "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+      },
+      {
+        "stage_id": "full100",
+        "role": "flat",
+        "scene": "st00_flat128-light-full100",
+        "capture_begin_wall_uptime_ms": 740320876,
+        "capture_end_wall_uptime_ms": 740322510,
+        "last_move_dispatch_wall_uptime_ms": 740320545,
+        "settle_wall_ms": 331,
+        "settle_compose_ms": 1600,
+        "cleanup_cancel_wall_uptime_ms": 740322701,
+        "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+      },
+      {
+        "stage_id": "far50",
+        "role": "shape",
+        "scene": "st01_rgb_star_d16-light-far50",
+        "capture_begin_wall_uptime_ms": 740325550,
+        "capture_end_wall_uptime_ms": 740327116,
+        "last_move_dispatch_wall_uptime_ms": 740325186,
+        "settle_wall_ms": 364,
+        "settle_compose_ms": 1600,
+        "cleanup_cancel_wall_uptime_ms": 740327322,
+        "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+      },
+      {
+        "stage_id": "far50",
+        "role": "flat",
+        "scene": "st00_flat128-light-far50",
+        "capture_begin_wall_uptime_ms": 740330084,
+        "capture_end_wall_uptime_ms": 740331653,
+        "last_move_dispatch_wall_uptime_ms": 740329697,
+        "settle_wall_ms": 387,
+        "settle_compose_ms": 1600,
+        "cleanup_cancel_wall_uptime_ms": 740331864,
+        "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+      }
+    ]
+  },
+  "focused_tests": {
+    "provenance": {
+      "archive_id": "quadratic-shoulder-build.json",
+      "sha256": "f36c9db297c779d3869a5380a000dd87d95c9db660f700edcd8d262634fcf889",
+      "bytes": 1904
+    },
+    "status": "passed",
+    "total": 93,
+    "classes": [
+      {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassShaderContractTest",
+        "tests": "54",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T12:58:13.745Z",
+        "time": "0.734",
+        "sha256": "fdc64bbd060dc67451b6b21a3e6746a2c106fa1d48e9a9f9d5273bf96652f47d"
+      },
+      {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassStyleReferenceTest",
+        "tests": "27",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T12:58:14.483Z",
+        "time": "0.013",
+        "sha256": "e35cc46ed059cf20f1e6fa257413c0d34d373c04c6481dcb703ddb0f94a491b1"
+      },
+      {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassRefractionShoulderTest",
+        "tests": "7",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T12:58:10.903Z",
+        "time": "2.833",
+        "sha256": "db2d41d79373cf6fea701369db5b6c0452c497efd0942735b6c46b385a700ec9"
+      },
+      {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.GlassSliderTrackCoverageTest",
+        "tests": "5",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T12:58:02.733Z",
+        "time": "8.164",
+        "sha256": "ff808fcbdcba629239fd0b0949264cae1e1045fcb7c61d56da2bdfc452ec68c2"
+      }
+    ],
+    "packages": {
+      "app/build/outputs/apk/debug/app-arm64-v8a-debug.apk": "ee9e8c9f8cab864a9eb736239a09b52c8fc24bc0cdd05217308f7c9e2674bec3",
+      "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk": "59973c53ff1e5624c90ff19a52a3bdce5632063eca73e4bf1edc2f3382389b8b"
+    }
+  }
+}

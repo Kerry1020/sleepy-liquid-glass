@@ -1,0 +1,50 @@
+{
+  "status": "strict native actual targets derived; Android capture absent",
+  "expected_input_role": "holdout",
+  "source_frozen_spec_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/shape-spec.json",
+  "source_frozen_spec_sha256": "6986900b4de6b2f1bcdc15ab4c2e97ca563617e216dbb569e7b841dafcc7edaf",
+  "frozen_manifest_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/inputs/manifest.json",
+  "frozen_manifest_sha256": "6930d906ce298120662802ca93ac0cce84ec84b17926c3638b97a6729b24574c",
+  "native_strict_report_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/native-feasibility-r1/endpoint-verification-strict.json",
+  "native_strict_report_sha256": "fd4424122e392a1fbe0dc1e142b50ba3b9dec93709933d94c0f79b7369f74350",
+  "native_index_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/native-feasibility-r1/index-strict.json",
+  "native_index_sha256": "62fa96a9b5bc20ffe23a5be74b8f283c8b1d64e0abde763b760ec43aa1cfd4d8",
+  "strict_held_endpoints": 12,
+  "strict_shape_flat_pairs": 6,
+  "derived_spec_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/android-matched-native-v1/shape-spec.json",
+  "derived_spec_sha256": "e1c785e9ac724a5bf5e83da1b82319f40c73fffa3cc821fd8d13c3538f666cac",
+  "stage_actual_carrier_centers": {
+    "ingress01": [
+      156.14327955245972,
+      429.5
+    ],
+    "ingress10": [
+      158.8119411468506,
+      429.5
+    ],
+    "ingress50": [
+      161.9253767132759,
+      429.5
+    ],
+    "ingress75": [
+      164.14925545454025,
+      429.5
+    ],
+    "full100": [
+      187.7223825454712,
+      429.5
+    ],
+    "far50": [
+      213.07463216781616,
+      429.5
+    ]
+  },
+  "script_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/derive-android-native-matched-spec.py",
+  "script_sha256": "76c7f300dcd8c6ed7d9230124951a205c4cdc0761047fe671a98c7d58e030e5e",
+  "limits": [
+    "Targets are public native carrier centres, not recovered optical alpha, material parameters or an optical parity result.",
+    "The original holdout spec/manifest/PNG/masks remain frozen. Only an Android derivative was created.",
+    "Native nominal requested fraction remains a label; actual capsule coverage must be reported separately.",
+    "No device, build, Git, production mutation, image registration or source-image resampling performed."
+  ]
+}

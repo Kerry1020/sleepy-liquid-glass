@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "overview": {
+    "archive_id": "analysis/validation-holdout-overview-r1/overview.json",
+    "sha256": "89703bc0108a30732e4f86b1461a82ce17a5cfa38652ec45c6c9c258db88af3a",
+    "bytes": 24638
+  },
+  "conclusion": {
+    "archive_id": "analysis/validation-holdout-overview-r1/conclusion.md",
+    "sha256": "a1c8bc34f380dfa8772358d3474d5ae776203b4cc8aadbbb64d7c6245f6dfdad",
+    "bytes": 7947
+  },
+  "parameter_policy": "Frozen r2 profile retained. Both holdouts remain failures; no parameter fitting, threshold change, registration or component selection.",
+  "input_role": "holdout",
+  "new_witness_control_diagnostic_included": false
+}

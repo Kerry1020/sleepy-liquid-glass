@@ -1,0 +1,147 @@
+{
+  "schema": 1,
+  "status": "PREREGISTERED UNSAMPLED independent calibration; source support is not unique optical identification",
+  "packet": "green-witness-calibration-v1",
+  "source_packets": [
+    {
+      "role": "witness",
+      "first_input_id": "st01_rgb_star_gwitness_d16",
+      "spec": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/shape-spec.json",
+      "spec_sha256": "ad21ef7966ff4a689baf3c6c39237d8a8cb1dae090ae0c911c907f737ef139f1",
+      "manifest": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/manifest.json",
+      "manifest_sha256": "ef9ea293d10d89bc0968b505b8d3d741e0a16a1c9b42d71622c4e52698215dd4",
+      "source_png": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st01_rgb_star_gwitness_d16.png",
+      "source_sha256": "3f714f7dc170d5bacf52bfa9ba51dc61cc31a3d4698ce5552543f9ddd875880e",
+      "G_min_max": [
+        128,
+        232
+      ],
+      "RB_pixel_exact_original": true
+    },
+    {
+      "role": "control",
+      "first_input_id": "st01_rgb_star_gneutral_d16",
+      "spec": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/shape-spec.json",
+      "spec_sha256": "dc06904e099b192c62f7fc4c4be35b6d779ae23227f9f0ba5f250d2b6c205f03",
+      "manifest": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/manifest.json",
+      "manifest_sha256": "405b9a95158137014f29a01477a0e5922a31cd4f139d3f9fbfd6622eaef4c4e6",
+      "source_png": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st01_rgb_star_gneutral_d16.png",
+      "source_sha256": "b72e79710471f00868b5e7ee56548614bbe153e1f59ca43bf241085dce3bca7a",
+      "G_min_max": [
+        128,
+        128
+      ],
+      "RB_pixel_exact_original": true
+    }
+  ],
+  "protocol_file": "PROTOCOL.md",
+  "protocol_sha256": "05d158bbfa5e1ff55797e1c2938ca64b8c4e51380e59a1639cd9040f58b85c45",
+  "analysis_entrypoint": "analyze-witness-control.py",
+  "analysis_entrypoint_sha256": "c95daec93f0d4acb45770bd7410037c19815a792217cfb9d4022b34643da7738",
+  "primary_stage": "ingress75",
+  "contrast_reference_stage": "full100",
+  "compatibility_capture_stages": [
+    "ingress01",
+    "ingress10",
+    "ingress50",
+    "ingress75",
+    "full100",
+    "far50"
+  ],
+  "other_stages_role": "exploratory; may reveal violations but cannot replace the registered main pair",
+  "rounds": [
+    "witness",
+    "control"
+  ],
+  "ordinary_flat_id_each_round": "st00_flat128",
+  "expected_captures_per_platform": 24,
+  "world_grid": {
+    "roi_xyxy": [
+      165.5,
+      397.5,
+      209.5,
+      441.5
+    ],
+    "samples_per_pt": 4,
+    "pixel_centers": "origin+(index+.5)/4",
+    "rail_confounded_y": [
+      422,
+      438
+    ],
+    "primary_y_upper_exclusive": 422,
+    "primary_inset_lower_inclusive_pt": 1
+  },
+  "source_mask": {
+    "file": "primary-ingress75-excessB-mask.png",
+    "sha256": "57b0af6778f510de5dd08a326e9d3d2e871635fd741321ee8411a5db831550fb",
+    "samples": 283,
+    "area_pt2": 17.6875,
+    "selection": "Prior calibration native/r2 RGB-star ingress75; Android r2 matched-flat DeltaB>30, native matched-flat DeltaB<10, native carrier inset1..7.5, y<422. No new witness response used.",
+    "selection_is_holdout": false,
+    "provenance": {
+      "native_index": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/multicolor-star-v2/pose-corrected-v3/native-feasibility-r1/index-strict.json",
+      "native_index_sha256": "17a0a25ed96ecf6fcd41447415191c064babf901f43b62d644ca8d28e29983f2",
+      "android_result": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/multicolor-star-v2/pose-corrected-v3/android-matched-native-v1/android-quadratic-shoulder-r2/trace/result.json",
+      "android_result_sha256": "ddc2bf88a49f4dfe835724b0e4480b70c413bf9ed5332dbe8f10919f14322537",
+      "derived_array": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/channel-offset-arrays.npz",
+      "derived_array_sha256": "cd95e1a57db7757e2e1c464b46d8b8473e0164c670550af9a44f86e5ef40774b"
+    }
+  },
+  "pairing_gates": {
+    "carrier_bounds_each_component_pt": 0.1,
+    "carrier_center_each_component_pt": 0.1,
+    "presentation_transform_max_abs": 0.001,
+    "opacity_max_abs": 0.01,
+    "ordinary_flat_delta_RGB_absolute_p99_max_8bit": 3,
+    "no_source_content_registration": true,
+    "strict_each_round_12_captures_required": true
+  },
+  "signed_difference_formulas": {
+    "raw": "witness-control",
+    "flat_drift": "witnessRoundFlat-controlRoundFlat",
+    "corrected": "(witness-witnessRoundFlat)-(control-controlRoundFlat)"
+  },
+  "thresholds_encoded_RGB_8bit": {
+    "all_T": [
+      4,
+      8,
+      16,
+      24
+    ],
+    "positive": "v>T",
+    "negative": "v<-T",
+    "neutral": "abs(v)<=T",
+    "channels": [
+      "R",
+      "G",
+      "B"
+    ],
+    "fields": [
+      "raw witness-control",
+      "flat residual",
+      "corrected difference of differences",
+      "witness-own flat",
+      "control-own flat"
+    ]
+  },
+  "reports_required": [
+    "source/channel equality and hashes",
+    "per-round strict acquisition acceptance",
+    "cross-round pose and flat drift gates",
+    "raw/corrected signed RGB fields",
+    "complete fixed ROI and preregistered target region",
+    "positive/negative/neutral G support; weighted areas centroids boundaries connected components",
+    "all R/B finite-difference support despite identical input R/B",
+    "unconfounded top and rail-confounded band separately",
+    "full100 contrast response and absence/coupling ambiguity",
+    "source-normal reachable intervals only if geometry assumptions and nuisance limits stated"
+  ],
+  "identification_limits": [
+    "G stimulus has positive and neutral source support only; negative output is not a negative source point.",
+    "R/B output variation identifies cross-channel or color-conditioned response, not necessarily nonlinearity. Two amplitudes cannot test additivity.",
+    "Absence at ingress75 cannot uniquely separate common cap mapping from angular contrast suppression, blur or color-conditioned processing.",
+    "full100 is a positive G-response control and a negative control for cap-only modifications, not a negative G stimulus.",
+    "Native G internal sampling is unknown. Android current G common sampler does not prove native uses it identically.",
+    "No production optical intervention is accepted solely from this calibration."
+  ]
+}

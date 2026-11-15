@@ -1,0 +1,649 @@
+{
+  "schema": 1,
+  "scope": "Actual CLI execution on generated synthetic opaque RGBA constant-byte fixtures. No actual new capture read; fixture/output working files removed after extracting checks.",
+  "script": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analyze-witness-control-v1_1.py",
+  "script_sha256": "ef475784d5aed32b0dc522ae80c5ff760ad6779a5ef676c5c0de2737307ac2d1",
+  "frozen_v1_criteria_sha256": "c95daec93f0d4acb45770bd7410037c19815a792217cfb9d4022b34643da7738",
+  "analysis_plan_sha256": "9a88df9abe12d312f78b8a6a0f7e2e1b790e864eeb0522ac5e1e735b35d8822f",
+  "cases": [
+    {
+      "case": "known-signed-G",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"ANALYZED_WITH_GATES\", \"comparability_by_stage\": {\"ingress01\": \"COMPARABLE\", \"ingress10\": \"COMPARABLE\", \"ingress50\": \"COMPARABLE\", \"ingress75\": \"COMPARABLE\", \"full100\": \"COMPARABLE\", \"far50\": \"COMPARABLE\"}}",
+      "stderr": "",
+      "evidence_class": "SYNTHETIC_ONLY_NO_CAPTURE_EVIDENCE",
+      "analysis_json_sha256": "349d4cb20bae379dca9f1a069572bf0452365694117496586d97ec56738daada"
+    },
+    {
+      "case": "reject-bounds",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"ANALYZED_WITH_GATES\", \"comparability_by_stage\": {\"ingress01\": \"NO_SUBTRACTION_REJECTED\", \"ingress10\": \"NO_SUBTRACTION_REJECTED\", \"ingress50\": \"NO_SUBTRACTION_REJECTED\", \"ingress75\": \"NO_SUBTRACTION_REJECTED\", \"full100\": \"NO_SUBTRACTION_REJECTED\", \"far50\": \"NO_SUBTRACTION_REJECTED\"}}",
+      "stderr": "",
+      "evidence_class": "SYNTHETIC_ONLY_NO_CAPTURE_EVIDENCE",
+      "analysis_json_sha256": "4209cab8032d56c48890964e134990b728503c91816f31eda0f391e3dcba5a06"
+    },
+    {
+      "case": "unknown-opacity",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"ANALYZED_WITH_GATES\", \"comparability_by_stage\": {\"ingress01\": \"MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY\", \"ingress10\": \"MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY\", \"ingress50\": \"MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY\", \"ingress75\": \"MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY\", \"full100\": \"MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY\", \"far50\": \"MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY\"}}",
+      "stderr": "",
+      "evidence_class": "SYNTHETIC_ONLY_NO_CAPTURE_EVIDENCE",
+      "analysis_json_sha256": "6971d6f0263f582365aadff8a8dee7bf7f2fb37d88603ae88b11cc3bbc37d39e"
+    }
+  ],
+  "checks": [
+    {
+      "check": "comparable and opaque RGBA loader at ingress01",
+      "passed": true
+    },
+    {
+      "check": "ingress01 original G support T=4",
+      "passed": true,
+      "actual": [
+        16,
+        16,
+        7712
+      ],
+      "expected": [
+        16,
+        16,
+        7712
+      ]
+    },
+    {
+      "check": "ingress01 unchanged R T=4",
+      "passed": true
+    },
+    {
+      "check": "ingress01 unchanged B T=4",
+      "passed": true
+    },
+    {
+      "check": "ingress01 original G support T=8",
+      "passed": true,
+      "actual": [
+        12,
+        12,
+        7720
+      ],
+      "expected": [
+        12,
+        12,
+        7720
+      ]
+    },
+    {
+      "check": "ingress01 unchanged R T=8",
+      "passed": true
+    },
+    {
+      "check": "ingress01 unchanged B T=8",
+      "passed": true
+    },
+    {
+      "check": "ingress01 original G support T=16",
+      "passed": true,
+      "actual": [
+        8,
+        8,
+        7728
+      ],
+      "expected": [
+        8,
+        8,
+        7728
+      ]
+    },
+    {
+      "check": "ingress01 unchanged R T=16",
+      "passed": true
+    },
+    {
+      "check": "ingress01 unchanged B T=16",
+      "passed": true
+    },
+    {
+      "check": "ingress01 original G support T=24",
+      "passed": true,
+      "actual": [
+        4,
+        4,
+        7736
+      ],
+      "expected": [
+        4,
+        4,
+        7736
+      ]
+    },
+    {
+      "check": "ingress01 unchanged R T=24",
+      "passed": true
+    },
+    {
+      "check": "ingress01 unchanged B T=24",
+      "passed": true
+    },
+    {
+      "check": "ingress01 exact original-byte zero flat residual",
+      "passed": true
+    },
+    {
+      "check": "ingress01 exact integer raw/corrected equality",
+      "passed": true
+    },
+    {
+      "check": "comparable and opaque RGBA loader at ingress10",
+      "passed": true
+    },
+    {
+      "check": "ingress10 original G support T=4",
+      "passed": true,
+      "actual": [
+        16,
+        16,
+        7712
+      ],
+      "expected": [
+        16,
+        16,
+        7712
+      ]
+    },
+    {
+      "check": "ingress10 unchanged R T=4",
+      "passed": true
+    },
+    {
+      "check": "ingress10 unchanged B T=4",
+      "passed": true
+    },
+    {
+      "check": "ingress10 original G support T=8",
+      "passed": true,
+      "actual": [
+        12,
+        12,
+        7720
+      ],
+      "expected": [
+        12,
+        12,
+        7720
+      ]
+    },
+    {
+      "check": "ingress10 unchanged R T=8",
+      "passed": true
+    },
+    {
+      "check": "ingress10 unchanged B T=8",
+      "passed": true
+    },
+    {
+      "check": "ingress10 original G support T=16",
+      "passed": true,
+      "actual": [
+        8,
+        8,
+        7728
+      ],
+      "expected": [
+        8,
+        8,
+        7728
+      ]
+    },
+    {
+      "check": "ingress10 unchanged R T=16",
+      "passed": true
+    },
+    {
+      "check": "ingress10 unchanged B T=16",
+      "passed": true
+    },
+    {
+      "check": "ingress10 original G support T=24",
+      "passed": true,
+      "actual": [
+        4,
+        4,
+        7736
+      ],
+      "expected": [
+        4,
+        4,
+        7736
+      ]
+    },
+    {
+      "check": "ingress10 unchanged R T=24",
+      "passed": true
+    },
+    {
+      "check": "ingress10 unchanged B T=24",
+      "passed": true
+    },
+    {
+      "check": "ingress10 exact original-byte zero flat residual",
+      "passed": true
+    },
+    {
+      "check": "ingress10 exact integer raw/corrected equality",
+      "passed": true
+    },
+    {
+      "check": "comparable and opaque RGBA loader at ingress50",
+      "passed": true
+    },
+    {
+      "check": "ingress50 original G support T=4",
+      "passed": true,
+      "actual": [
+        16,
+        16,
+        7712
+      ],
+      "expected": [
+        16,
+        16,
+        7712
+      ]
+    },
+    {
+      "check": "ingress50 unchanged R T=4",
+      "passed": true
+    },
+    {
+      "check": "ingress50 unchanged B T=4",
+      "passed": true
+    },
+    {
+      "check": "ingress50 original G support T=8",
+      "passed": true,
+      "actual": [
+        12,
+        12,
+        7720
+      ],
+      "expected": [
+        12,
+        12,
+        7720
+      ]
+    },
+    {
+      "check": "ingress50 unchanged R T=8",
+      "passed": true
+    },
+    {
+      "check": "ingress50 unchanged B T=8",
+      "passed": true
+    },
+    {
+      "check": "ingress50 original G support T=16",
+      "passed": true,
+      "actual": [
+        8,
+        8,
+        7728
+      ],
+      "expected": [
+        8,
+        8,
+        7728
+      ]
+    },
+    {
+      "check": "ingress50 unchanged R T=16",
+      "passed": true
+    },
+    {
+      "check": "ingress50 unchanged B T=16",
+      "passed": true
+    },
+    {
+      "check": "ingress50 original G support T=24",
+      "passed": true,
+      "actual": [
+        4,
+        4,
+        7736
+      ],
+      "expected": [
+        4,
+        4,
+        7736
+      ]
+    },
+    {
+      "check": "ingress50 unchanged R T=24",
+      "passed": true
+    },
+    {
+      "check": "ingress50 unchanged B T=24",
+      "passed": true
+    },
+    {
+      "check": "ingress50 exact original-byte zero flat residual",
+      "passed": true
+    },
+    {
+      "check": "ingress50 exact integer raw/corrected equality",
+      "passed": true
+    },
+    {
+      "check": "comparable and opaque RGBA loader at ingress75",
+      "passed": true
+    },
+    {
+      "check": "ingress75 original G support T=4",
+      "passed": true,
+      "actual": [
+        16,
+        16,
+        7712
+      ],
+      "expected": [
+        16,
+        16,
+        7712
+      ]
+    },
+    {
+      "check": "ingress75 unchanged R T=4",
+      "passed": true
+    },
+    {
+      "check": "ingress75 unchanged B T=4",
+      "passed": true
+    },
+    {
+      "check": "ingress75 original G support T=8",
+      "passed": true,
+      "actual": [
+        12,
+        12,
+        7720
+      ],
+      "expected": [
+        12,
+        12,
+        7720
+      ]
+    },
+    {
+      "check": "ingress75 unchanged R T=8",
+      "passed": true
+    },
+    {
+      "check": "ingress75 unchanged B T=8",
+      "passed": true
+    },
+    {
+      "check": "ingress75 original G support T=16",
+      "passed": true,
+      "actual": [
+        8,
+        8,
+        7728
+      ],
+      "expected": [
+        8,
+        8,
+        7728
+      ]
+    },
+    {
+      "check": "ingress75 unchanged R T=16",
+      "passed": true
+    },
+    {
+      "check": "ingress75 unchanged B T=16",
+      "passed": true
+    },
+    {
+      "check": "ingress75 original G support T=24",
+      "passed": true,
+      "actual": [
+        4,
+        4,
+        7736
+      ],
+      "expected": [
+        4,
+        4,
+        7736
+      ]
+    },
+    {
+      "check": "ingress75 unchanged R T=24",
+      "passed": true
+    },
+    {
+      "check": "ingress75 unchanged B T=24",
+      "passed": true
+    },
+    {
+      "check": "ingress75 exact original-byte zero flat residual",
+      "passed": true
+    },
+    {
+      "check": "ingress75 exact integer raw/corrected equality",
+      "passed": true
+    },
+    {
+      "check": "comparable and opaque RGBA loader at full100",
+      "passed": true
+    },
+    {
+      "check": "full100 original G support T=4",
+      "passed": true,
+      "actual": [
+        16,
+        16,
+        7712
+      ],
+      "expected": [
+        16,
+        16,
+        7712
+      ]
+    },
+    {
+      "check": "full100 unchanged R T=4",
+      "passed": true
+    },
+    {
+      "check": "full100 unchanged B T=4",
+      "passed": true
+    },
+    {
+      "check": "full100 original G support T=8",
+      "passed": true,
+      "actual": [
+        12,
+        12,
+        7720
+      ],
+      "expected": [
+        12,
+        12,
+        7720
+      ]
+    },
+    {
+      "check": "full100 unchanged R T=8",
+      "passed": true
+    },
+    {
+      "check": "full100 unchanged B T=8",
+      "passed": true
+    },
+    {
+      "check": "full100 original G support T=16",
+      "passed": true,
+      "actual": [
+        8,
+        8,
+        7728
+      ],
+      "expected": [
+        8,
+        8,
+        7728
+      ]
+    },
+    {
+      "check": "full100 unchanged R T=16",
+      "passed": true
+    },
+    {
+      "check": "full100 unchanged B T=16",
+      "passed": true
+    },
+    {
+      "check": "full100 original G support T=24",
+      "passed": true,
+      "actual": [
+        4,
+        4,
+        7736
+      ],
+      "expected": [
+        4,
+        4,
+        7736
+      ]
+    },
+    {
+      "check": "full100 unchanged R T=24",
+      "passed": true
+    },
+    {
+      "check": "full100 unchanged B T=24",
+      "passed": true
+    },
+    {
+      "check": "full100 exact original-byte zero flat residual",
+      "passed": true
+    },
+    {
+      "check": "full100 exact integer raw/corrected equality",
+      "passed": true
+    },
+    {
+      "check": "comparable and opaque RGBA loader at far50",
+      "passed": true
+    },
+    {
+      "check": "far50 original G support T=4",
+      "passed": true,
+      "actual": [
+        16,
+        16,
+        7712
+      ],
+      "expected": [
+        16,
+        16,
+        7712
+      ]
+    },
+    {
+      "check": "far50 unchanged R T=4",
+      "passed": true
+    },
+    {
+      "check": "far50 unchanged B T=4",
+      "passed": true
+    },
+    {
+      "check": "far50 original G support T=8",
+      "passed": true,
+      "actual": [
+        12,
+        12,
+        7720
+      ],
+      "expected": [
+        12,
+        12,
+        7720
+      ]
+    },
+    {
+      "check": "far50 unchanged R T=8",
+      "passed": true
+    },
+    {
+      "check": "far50 unchanged B T=8",
+      "passed": true
+    },
+    {
+      "check": "far50 original G support T=16",
+      "passed": true,
+      "actual": [
+        8,
+        8,
+        7728
+      ],
+      "expected": [
+        8,
+        8,
+        7728
+      ]
+    },
+    {
+      "check": "far50 unchanged R T=16",
+      "passed": true
+    },
+    {
+      "check": "far50 unchanged B T=16",
+      "passed": true
+    },
+    {
+      "check": "far50 original G support T=24",
+      "passed": true,
+      "actual": [
+        4,
+        4,
+        7736
+      ],
+      "expected": [
+        4,
+        4,
+        7736
+      ]
+    },
+    {
+      "check": "far50 unchanged R T=24",
+      "passed": true
+    },
+    {
+      "check": "far50 unchanged B T=24",
+      "passed": true
+    },
+    {
+      "check": "far50 exact original-byte zero flat residual",
+      "passed": true
+    },
+    {
+      "check": "far50 exact integer raw/corrected equality",
+      "passed": true
+    },
+    {
+      "check": "all six 0.11pt mismatches reject without subtraction",
+      "passed": true
+    },
+    {
+      "check": "missing opacity preserves exact raw G diagnostics and mapping unknown for all six poses",
+      "passed": true
+    },
+    {
+      "check": "synthetic label propagated in all reports",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

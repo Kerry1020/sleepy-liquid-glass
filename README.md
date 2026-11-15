@@ -205,6 +205,30 @@ $$\mathrm{RMSE}_x = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_{\mathrm{Android},i}-x_{\m
 
 四背景×浅深主题的指定 lower-inner 窗口，直接 RGB MAE 为 **6.875–23.838**；纯背景对应窗口为 **0.482–1.338**。这说明该记录中的差距不只是纯背景输入误差，但 RGB 差仍不是物理透明度、折射率或色散幅度。该批次早于后续材质修改，是用于解释问题的历史基线，不能标成独立公开库的最终画面。
 
+### 4.5.1 历史滑杆材质检查点：局部 frost 实验
+
+![滑杆八个历史校准条件：原生、窄色散基线、局部frost候选及保留的像素变化](docs/images/slider-material-20261115/all-held-contact.png)
+
+**2026-11-15 · Sleepy 历史应用 backend。** 在 `+2.15 / bevel5.5 / D5W6.5` 的窄色散基线上加入局部总 frost 替换后，112 条重叠区域记录的直接 MAE 为 **68 改善 / 26 退化 / 18 不变**，own-source effect 为 **69 / 25 / 18**。这些数字相对已校准的窄色散臂，不是原始产品基线，也不是独立样本或相似度分数。四背景×浅深主题属于已观察校准条件，不能称为 holdout。
+
+这仍是**有残差、未验收的 checkpoint 实验**。端帽与下缘有退化；平台模糊不能代替中心清晰、边缘放大/折射和最窄外圈色散的源场要求。配图和数据来自历史应用 backend，不能验收公开独立 backend；端点证据仅到 holder/carrier，未覆盖完整升起后可见外缘。[检查点报告](docs/slider-material-checkpoint.md)保留完整区域数据、方法、平台诊断与被否决的 raised-shoulder 反例。
+
+### 4.5.2 当前 r2：单头与双头分开，保留原生差距
+
+**当前仍是未验收检查点。** 单头滑杆的 common refraction 为 **7.8 dp**，二次 shoulder 宽 **7.5 dp**；双头保持 **2.15 dp、无新 shoulder**。旧 frost 报告记录历史比较臂，不能把其中的 2.15 当成当前单头参数。样本是实际应用后端的静态证据，不能验收独立公开后端或动态。
+
+![原生与 Android r2：固定多色五角星的六个 held 姿态，改善与退化同时保留](docs/design/evidence/glass-slider-star-20261115/figures/six-pose-comparison.png)
+
+[五角星标定](docs/glass-slider-star-calibration.md)公开实际位移公式及近边采样折返；[六／八角星原冻结验证](docs/glass-slider-holdout-validation.md)保留失败。它们之后已被用作回归数据，不能继续当独立留出。[r3/r4 实验](docs/glass-slider-shoulder-experiments.md)存在多形状退化，均未替代 r2。七角星仍未消费。
+
+![同一 ROI 的原生、r2 与 r4；下排固定量程 G 响应，不隐去 r4 的剩余上尾](docs/design/evidence/glass-slider-green-witness-20261115/figures/native-r2-r4-ingress75.png)
+
+[G-only 诊断](docs/glass-slider-green-witness.md)保留所有四阈值、实际新增错误和 Android opacity 未观测的限制。[第三 G 幅度实测](docs/glass-slider-midpoint-diagnostic.md)继续使用相同多色五角星：四轮几何与重复 control 零漂移；轨道上方仅 full100 红通道五个像素的中点残差超过 1.5 byte，其中三个超过 4、最大 7.5。其余近中点响应不能证明全局线性，异常也不能唯一定位 native 内部非线性。
+
+![原生 G128、G180、G232 与重复 control 的原始 ROI，以及五个异常像素的实测红通道曲线](docs/design/evidence/glass-slider-midpoint-20261115/figures/midpoint-original-pixels.png)
+
+五份既有研究与新增中点小包均使用相对路径、原像素、SHA-256 和本地复现入口；不包含 APK、构建缓存或庞大 trace。它们没有完成 Dock、背板、高光、Toggle 或全动态对齐的验收。
+
 ### 4.6 Toggle：升起、填色与回落的原生观察
 
 ![图8a：iOS26.5原生Toggle长按时，白色滑块逐步变为可透射背景的玻璃](docs/images/research/switch-white-to-glass.png)

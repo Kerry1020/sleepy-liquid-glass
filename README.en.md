@@ -207,6 +207,30 @@ Across four backgrounds and two themes, the specified lower-inner window has dir
 
 The source pair is settled-state evidence: native capture occurs within real DOWN / UP after at least 0.65 s, while Android has a real active DOWN and a controlled settled Compose clock at 1.6 s. It is not a matched natural-time animation.
 
+### 4.5.1 Historical slider material checkpoint: local frost
+
+![Eight historical slider calibration conditions: native, narrow-dispersion baseline, local-frost candidate and retained pixel changes](docs/images/slider-material-20261115/all-held-contact.png)
+
+**2026-11-15 · Historical Sleepy application backend.** Adding a local total-frost replacement to the `+2.15 / bevel5.5 / D5W6.5` narrow-dispersion arm improves / regresses / leaves unchanged **68 / 26 / 18** of 112 overlapping direct-MAE records; own-source effect counts are **69 / 25 / 18**. The comparator is that already calibrated narrow-dispersion arm, not the original product baseline. These are not independent trials or a similarity score. Four previously observed backgrounds in two themes remain calibration conditions, not an independent holdout.
+
+This is a **checkpoint experiment with residuals, not an accepted material**. Cap and lower-rim regressions remain. Frost cannot replace the required clear center, edge magnification/refraction or dispersion confined to the narrowest outer band. Historical application-backend images do not validate the independent public backend; endpoint evidence reaches holder/carrier geometry, not the fully raised visible outer edge. The [checkpoint report](docs/slider-material-checkpoint.md) retains the complete regional data, method, plateau diagnostic and rejected raised-shoulder counterexample.
+
+### 4.5.2 Current r2: separate single and range profiles, retain native gaps
+
+**This remains an unaccepted checkpoint.** The single-thumb common refraction is **7.8 dp**, with a **7.5 dp** quadratic shoulder. Range retains **2.15 dp and no new shoulder**. The earlier frost report describes a historical comparison arm; its 2.15 value is not the current single-thumb setting. These are static application-backend observations, not independent public-backend or dynamic acceptance.
+
+![Native and Android r2: all six held poses of the fixed multicolor five-point star, retaining improvements and regressions](docs/design/evidence/glass-slider-star-20261115/figures/six-pose-comparison.png)
+
+The [five-point calibration](docs/glass-slider-star-calibration.md) publishes the implemented displacement and near-edge sampling fold. The [original frozen six/eight-point evaluation](docs/glass-slider-holdout-validation.md) retains failures; those inputs were subsequently consumed as regression data and are no longer independent holdouts. [r3/r4 alternatives](docs/glass-slider-shoulder-experiments.md) have multishape regressions and do not replace r2. Seven-point data remain unconsumed.
+
+![Native, r2 and r4 on the same ROI, with a fixed-scale G response that retains r4 residuals](docs/design/evidence/glass-slider-green-witness-20261115/figures/native-r2-r4-ingress75.png)
+
+The [G-only diagnostic](docs/glass-slider-green-witness.md) retains all four thresholds, actual new errors, and unobserved Android opacity. The [third-G-amplitude observation](docs/glass-slider-midpoint-diagnostic.md) keeps the same multicolor star. All four rounds have zero observed geometry drift and the repeated control is byte-identical. Above the rail, five full100 red pixels exceed a 1.5-byte midpoint residual; three exceed 4, with maximum 7.5. Near-midpoint responses elsewhere do not establish universal linearity, and those exceptions do not identify native internal nonlinearity.
+
+![Original native G128, G180, G232 and repeated-control ROIs, plus measured red curves for the five exceptional pixels](docs/design/evidence/glass-slider-midpoint-20261115/figures/midpoint-original-pixels.png)
+
+The five prior studies and new midpoint packet retain relative paths, original pixels, SHA-256 inventories, and local replay tools, without APKs, build caches, or large traces. They do not complete Dock, panel, highlight, Toggle, or full-motion acceptance.
+
 ### 4.6 Toggle: publish the visible native hold→release reference
 
 ![Figure 8a: decoded iOS 26.5 hold frames showing the stationary solid-white thumb rising into a transmitting glass lens](docs/images/research/switch-white-to-glass.png)

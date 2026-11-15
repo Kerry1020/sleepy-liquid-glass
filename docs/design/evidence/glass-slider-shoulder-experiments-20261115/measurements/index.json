@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "comparisons": {
+    "star5-r3": {
+      "path": "measurements/star5-r3-descriptors.json.gz",
+      "sha256": "9a97d892c00b4e2a87caa479bca0c07b76bdb898bf79b4f965422b3f70363032",
+      "bytes": 34300
+    },
+    "star5-r4": {
+      "path": "measurements/star5-r4-descriptors.json.gz",
+      "sha256": "8512712a3332c61ebc34b67f4f6ae44872fc404129c93785d6764a849a12727e",
+      "bytes": 36623
+    },
+    "star8-r4": {
+      "path": "measurements/star8-r4-descriptors.json.gz",
+      "sha256": "e68702bafe4b99dea952a0d66959759da4d43786d929327aef72a45849d92018",
+      "bytes": 34894
+    },
+    "star6-r4": {
+      "path": "measurements/star6-r4-descriptors.json.gz",
+      "sha256": "6aec8a1dc9f86ed9ef6ea1e1333f49dd3e0f8c07daf78a86e6ef88d484b88206",
+      "bytes": 34034
+    }
+  },
+  "all_rows": 384,
+  "per_comparison": {
+    "color_rows": 72,
+    "whole_rows": 24,
+    "poses": [
+      "ingress01",
+      "ingress10",
+      "ingress50",
+      "ingress75",
+      "full100",
+      "far50"
+    ],
+    "thresholds": [
+      4,
+      8,
+      16,
+      24
+    ]
+  },
+  "frozen_helpers": {
+    "path": "../glass-slider-holdout-20261115/frozen-tools/analyze-shape-captures.py",
+    "sha256": "ab3e0a22d8614d262c4083de8eb52d9a6382e4a83b4803ac239046290d343c6a",
+    "bytes": 67631
+  }
+}

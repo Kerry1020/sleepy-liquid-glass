@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "source": {
+    "archive_id": "validation-star6-d12/android-matched-native-v1/android-quadratic-validation-r1/independent-run-directory-audit/audit.json",
+    "sha256": "2aaba60d3189916811b2b14406fce1a9e57fb0aea4976649dec0fc4edefc8ee6",
+    "bytes": 43299
+  },
+  "status": "rejected_as_formal_holdout_capture_due_reused_remote_directory_and_unresolved_flat_overwrite_identity",
+  "reason": "The per-file receipt verifies device/host bytes after the run, but does not contain an independent per-PNG generation identity. Nine common-name flat Window files are byte-identical to previous8. Passing capture code is indirect evidence of overwrite; current-generation identity is not established independently in this reused directory. A fresh unique-run recapture is required under the requested strict provenance criterion.",
+  "current_reference_count": 49,
+  "old_byte_identical_residual_count": 24,
+  "returned_file_count": 73,
+  "ambiguous_shared_flat_window_count": 9,
+  "excluded_from_optical_analysis": true,
+  "replacement_run": "android-quadratic-validation-clean-r1",
+  "replacement_is_new_independent_holdout": false
+}

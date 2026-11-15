@@ -1,0 +1,3844 @@
+{
+  "schema": 1,
+  "scope": "G finite-difference calibration ROI packet; not independent native-parity acceptance",
+  "original_root": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1",
+  "roi_world_xyxy": [
+    165.5,
+    397.5,
+    209.5,
+    441.5
+  ],
+  "thresholds": [
+    4,
+    8,
+    16,
+    24
+  ],
+  "crop_policy": "Exact original pixel crop with two-pixel-or-greater bilinear guard; RGB bytes and opaque alpha preserved without color conversion",
+  "full_screen_images_included": false,
+  "rounds": {
+    "native": {
+      "witness": {
+        "platform": "ios",
+        "accepted_status": "passed",
+        "index": {
+          "file": "metadata/native-witness-index.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/index-strict.json",
+          "original_sha256": "82096bbb110179c15ac679f258f9d9b8faf64697c64dcdf20b0b9cf81d4d6dca",
+          "original_bytes": 20167,
+          "stored_sha256": "760daa5f14a366048a28e535d1c463b97c00d9582f65224e887958fb1573f794",
+          "stored_bytes": 2085
+        },
+        "geometry_receipt": {
+          "file": "metadata/native-witness-strict-receipt.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/endpoint-verification-strict.json",
+          "original_sha256": "362bb011707ce1b343d7a553f045d60d3a5da65b55aba31b92b76dd49a42c6c1",
+          "original_bytes": 2646576,
+          "stored_sha256": "768f39009b996ef3f68112309c10442cf36a8a7853e3b11fb7468c9e5440b540",
+          "stored_bytes": 144171
+        }
+      },
+      "control": {
+        "platform": "ios",
+        "accepted_status": "passed",
+        "index": {
+          "file": "metadata/native-control-index.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/index-strict.json",
+          "original_sha256": "eb60f57da1a10b72eca12d07ee4d85b5d032e98e265f9bdd68191de21b840562",
+          "original_bytes": 20167,
+          "stored_sha256": "a6dc4a1a9012d8639d8158d21f6c2c5e6943a5b4466fcef80de8287d56c079f4",
+          "stored_bytes": 2081
+        },
+        "geometry_receipt": {
+          "file": "metadata/native-control-strict-receipt.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/endpoint-verification-strict.json",
+          "original_sha256": "c8fdbdcda722247dc5e03be972f55c4adeabe2875208586e16b05e14ad37aafc",
+          "original_bytes": 2682407,
+          "stored_sha256": "3a4fc96abd0296e98b1f4216eed56711f947ad03560a752e4e234a908ce4cc94",
+          "stored_bytes": 136118
+        }
+      }
+    },
+    "r2": {
+      "witness": {
+        "platform": "android",
+        "accepted_status": "original_hashes_pointer_and_pair_checks_passed",
+        "index": {
+          "file": "metadata/r2-witness-index.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/index-original.json",
+          "original_sha256": "1de9e3cbb21fb841c1e841e12477db3b62dd5c33096982cfb43c8c7b06a6db8e",
+          "original_bytes": 49173,
+          "stored_sha256": "72dc65dc8eba56c44187c06545f7bbd414066c05066a4f941339581d7c71d308",
+          "stored_bytes": 5075
+        },
+        "source_result": {
+          "file": "metadata/r2-witness-source-result.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/result.json",
+          "original_sha256": "ce009473ae436af5bb825b48ca2e3f53815fbbaa3d3d44ddeb2c001411e3fb67",
+          "original_bytes": 2321213,
+          "stored_sha256": "6e6dbf84f28f2790257bd8791fd199db31654fa8fa0f85b952d0d207418240d6",
+          "stored_bytes": 167813
+        },
+        "host_receipt": {
+          "file": "metadata/r2-witness-host-receipt.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/receipt.json",
+          "original_sha256": "f2961d51d520cde1882d2275daea24d82a50ff738be9497d561cacee8978414e",
+          "original_bytes": 13710,
+          "stored_sha256": "f036ea17be2266558a2058c158fc37cf6123a6375a6e3dc10551004308f4e333",
+          "stored_bytes": 3484
+        }
+      },
+      "control": {
+        "platform": "android",
+        "accepted_status": "original_hashes_pointer_and_pair_checks_passed",
+        "index": {
+          "file": "metadata/r2-control-index.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/index-original.json",
+          "original_sha256": "664f302e3a562a0e9c2fb4f67fb46b3b5bb123cceb8e7fa6837e4d5a327827cc",
+          "original_bytes": 49173,
+          "stored_sha256": "4866cdd36a4680193da156d96fb0319bfaddbd0e225c6506ac2113ea6a7a2eda",
+          "stored_bytes": 5069
+        },
+        "source_result": {
+          "file": "metadata/r2-control-source-result.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/result.json",
+          "original_sha256": "d214fa5bde5e4bfa9c6e6898b16456505d963260d5c467a5c4410d687c51a566",
+          "original_bytes": 2321197,
+          "stored_sha256": "983403a743ab7a37362588a52d07b6f6d286a8990465690697c70fcb8fcd254b",
+          "stored_bytes": 167884
+        },
+        "host_receipt": {
+          "file": "metadata/r2-control-host-receipt.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/receipt.json",
+          "original_sha256": "46e279de40eec0eef9048e11b1bab7d09d27191c5ad5289beddc2d533dfb8679",
+          "original_bytes": 13710,
+          "stored_sha256": "0a82c8443456415ae8357d4bc2dfb6b5bed6fc6353acc9fb697e16ddd11414bd",
+          "stored_bytes": 3459
+        }
+      }
+    },
+    "r3": {
+      "witness": {
+        "platform": "android",
+        "accepted_status": "original_hashes_pointer_and_pair_checks_passed",
+        "index": {
+          "file": "metadata/r3-witness-index.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/index-original.json",
+          "original_sha256": "253113ebf8453acd32eedfcb8201a3bd992dbaa982d8251f7ae73af02db8d448",
+          "original_bytes": 49397,
+          "stored_sha256": "26b2253706b6b60bc7f0e18f92cc398687f11224ca066eb12b946fca007e75ec",
+          "stored_bytes": 5082
+        },
+        "source_result": {
+          "file": "metadata/r3-witness-source-result.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/result.json",
+          "original_sha256": "e38943b3bce85b38474f34a8d4d3bb9676127efce9cf0942a092b0d6f68adbe5",
+          "original_bytes": 2321236,
+          "stored_sha256": "aa73f0fa702d726f54cdc2e01b26d034394899c0d861930fcf07b41233216739",
+          "stored_bytes": 167818
+        },
+        "host_receipt": {
+          "file": "metadata/r3-witness-host-receipt.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/receipt.json",
+          "original_sha256": "69c08516383631c76b79eeaaa1f67f0c94420fb2f7c0993afa4abfdc5d932574",
+          "original_bytes": 13723,
+          "stored_sha256": "92a4da0574aaa49baad270bf9964d056510dff20bc63b3cea883bc8be7992284",
+          "stored_bytes": 3425
+        }
+      },
+      "control": {
+        "platform": "android",
+        "accepted_status": "original_hashes_pointer_and_pair_checks_passed",
+        "index": {
+          "file": "metadata/r3-control-index.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/index-original.json",
+          "original_sha256": "06190d703a606d36c1ea9626bb5ad225ca3d86bd044cb1b47fe03037e537a3c6",
+          "original_bytes": 49205,
+          "stored_sha256": "3ff3850928daeed4fb7f19ecb91fd22509428a7859b0b76bdcbb5d2f14a2f4df",
+          "stored_bytes": 5076
+        },
+        "source_result": {
+          "file": "metadata/r3-control-source-result.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/result.json",
+          "original_sha256": "caf2a70bf9e7dea70f27d96cc1af0f5a3fab0da4781c560bd964c2712f5810fb",
+          "original_bytes": 2321170,
+          "stored_sha256": "3776a125d220f2655c917e032cf8254cf85f02f2e2c0dae5b538a3709334f924",
+          "stored_bytes": 167862
+        },
+        "host_receipt": {
+          "file": "metadata/r3-control-host-receipt.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/receipt.json",
+          "original_sha256": "09ecf6d33b4b5e1c0d4cb47d029e67cdbf7251c65b27f0331bbf5ed23a94a460",
+          "original_bytes": 13712,
+          "stored_sha256": "6b61f27d2000893fe58d34f03dcc245d57f7c05763b6f668cb45ba165e30bd3d",
+          "stored_bytes": 3412
+        }
+      }
+    },
+    "r4": {
+      "witness": {
+        "platform": "android",
+        "accepted_status": "original_hashes_pointer_and_pair_checks_passed",
+        "index": {
+          "file": "metadata/r4-witness-index.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/index-original.json",
+          "original_sha256": "b7d5bbb20efeb4e6a267d67f8a37b1d1e7324cb7ed09f5459da7cce2f182b647",
+          "original_bytes": 49365,
+          "stored_sha256": "be8fa068798e581c10535783b1316a0e7d33eb0989e3f79bb1efdb902edf043e",
+          "stored_bytes": 5070
+        },
+        "source_result": {
+          "file": "metadata/r4-witness-source-result.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/result.json",
+          "original_sha256": "fe15f235170026df704dca8dcf4d67b2ab66f8305498968bb667861bcf35cee4",
+          "original_bytes": 2321323,
+          "stored_sha256": "d44a2eb946ada1231028ce7b0ced7b0d8edf2d8179b06757c61364d2fa8e5dd8",
+          "stored_bytes": 167874
+        },
+        "host_receipt": {
+          "file": "metadata/r4-witness-host-receipt.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/receipt.json",
+          "original_sha256": "028b493ccaa2ded8912c549274a56b3f12ccda7af0ed2651bacbc4570cc6228a",
+          "original_bytes": 13720,
+          "stored_sha256": "22cd99806df7d26e137730ef7ad91fb5ca0005f27f84a3e55954bfca0d9b7bc4",
+          "stored_bytes": 3454
+        }
+      },
+      "control": {
+        "platform": "android",
+        "accepted_status": "original_hashes_pointer_and_pair_checks_passed",
+        "index": {
+          "file": "metadata/r4-control-index.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/index-original.json",
+          "original_sha256": "46a87bfc2c23a720cce38fa66b827b5f166846635b97a9b74dd17fad383ea833",
+          "original_bytes": 49365,
+          "stored_sha256": "6ee82ad2649c7b25a20cd67b98aea4f85ab0927f8961398c0ccef267636e935a",
+          "stored_bytes": 5087
+        },
+        "source_result": {
+          "file": "metadata/r4-control-source-result.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/result.json",
+          "original_sha256": "c3cd6033330109bb968e99d87c38839a95d0d1081fe4247bb547e6f4361b6042",
+          "original_bytes": 2321235,
+          "stored_sha256": "819abe1bb7c889f5a892f392aa23f5e0cf7427e34fa5f2746a814d1a85c5b387",
+          "stored_bytes": 167857
+        },
+        "host_receipt": {
+          "file": "metadata/r4-control-host-receipt.json.gz",
+          "compression": "gzip",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/receipt.json",
+          "original_sha256": "4688a469385a5157ad5b7426a41e15491144d3743faaa0bbaa7c2d299bae1b80",
+          "original_bytes": 13722,
+          "stored_sha256": "280e33cdb6451a4bd54e62eda0a914daa82758145476bcfa49c0998254b9ce37",
+          "stored_bytes": 3446
+        }
+      }
+    }
+  },
+  "captures": [
+    {
+      "version": "native",
+      "role": "witness",
+      "stage": "ingress01",
+      "kind": "shape",
+      "file": "crops/native/witness/ingress01-shape.png",
+      "sha256": "f505a6ca5f63eaa861312f81cd949d510e7444e2730d8f9c8563422c5836605e",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-6DBC3694-386C-4A77-805B-AF7AECE58F58/slider-fixed-shape-coverage-st01_rgb_star_gwitness_d16-light-ingress01-held.png",
+      "original_full_png_sha256": "40cc872b6341b41e358e3af886dcc4048e319ce77dc784d50b70c719230f0b69",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "witness",
+      "stage": "ingress01",
+      "kind": "flat",
+      "file": "crops/native/witness/ingress01-flat.png",
+      "sha256": "808c4e0e0370f5d97f56bb88cf187655b2881c5ba117d923ebf169dac399cf63",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-E7C7A17A-760A-4B80-A07F-D4665F4CF355/slider-fixed-shape-coverage-st00_flat128-light-ingress01-held.png",
+      "original_full_png_sha256": "98414f424c0d6a4f386bed149887211fce77ceca16228e39c62364a43d135d97",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "witness",
+      "stage": "ingress10",
+      "kind": "shape",
+      "file": "crops/native/witness/ingress10-shape.png",
+      "sha256": "4cfd5b05badb3dbf729009a342fb386f883a34251af4a64e97127f4815d66e11",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-EE0611AF-6D4A-42B7-9BD5-DE3A8140978B/slider-fixed-shape-coverage-st01_rgb_star_gwitness_d16-light-ingress10-held.png",
+      "original_full_png_sha256": "2b308e5f4bed16fa821780c54f12405b4533d7f8497a3141d34115f417f39360",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "witness",
+      "stage": "ingress10",
+      "kind": "flat",
+      "file": "crops/native/witness/ingress10-flat.png",
+      "sha256": "70afa8f31b173742a5032ecebc08ef5b37ddfb59a80a5217dca20d20d61ea3b0",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-61838CE7-8B3E-41D4-8882-C391DFD98D20/slider-fixed-shape-coverage-st00_flat128-light-ingress10-held.png",
+      "original_full_png_sha256": "31a20d29b41267600053546a9ad314411e25cb436522974dbf467c471fbc236d",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "witness",
+      "stage": "ingress50",
+      "kind": "shape",
+      "file": "crops/native/witness/ingress50-shape.png",
+      "sha256": "6fe1db486143fdc8ebc8a7708903254f962c9d18a1c054da3f6fb192a7113041",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-C9EF1614-C727-43E0-B07A-AB706A3A5BD2/slider-fixed-shape-coverage-st01_rgb_star_gwitness_d16-light-ingress50-held.png",
+      "original_full_png_sha256": "db9754c3995a4fa3ca48eec2868bf3e1d5dd7c43ebc260dea742a60f086d26e5",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "witness",
+      "stage": "ingress50",
+      "kind": "flat",
+      "file": "crops/native/witness/ingress50-flat.png",
+      "sha256": "fca37bbcd211af20b76f23febe05c7052f2474314e73b2d72abc153fa668dac1",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-187E44E6-C87F-4247-8CDD-2FABFE9F0B8F/slider-fixed-shape-coverage-st00_flat128-light-ingress50-held.png",
+      "original_full_png_sha256": "0a94f3afa824fa769318b5ab23b3cedd06b0463427e32cec9d7eb2bc4ca64eeb",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "witness",
+      "stage": "ingress75",
+      "kind": "shape",
+      "file": "crops/native/witness/ingress75-shape.png",
+      "sha256": "aa3e9f8f66be574bd2e435fe997b3eac90ee8f24bb4c99217c1ca5d443c7fea9",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-8C2415C6-DE36-488C-915F-D3845C86C43A/slider-fixed-shape-coverage-st01_rgb_star_gwitness_d16-light-ingress75-held.png",
+      "original_full_png_sha256": "3fe305056aa4ab73ab52624c06e9516e1ccd4932279c188ec8c994e1fcec0bbe",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "witness",
+      "stage": "ingress75",
+      "kind": "flat",
+      "file": "crops/native/witness/ingress75-flat.png",
+      "sha256": "5357fd45721d8552f4c9ead3942e39157fb9aaa9a686588b217738a95a223a66",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-3AD6F0A7-D5CD-4034-A132-A2B5EF8AD324/slider-fixed-shape-coverage-st00_flat128-light-ingress75-held.png",
+      "original_full_png_sha256": "9d5ae945b4d7a47b897d15b671e3899ad1d49e6e5da4021c6a813b55c1937cd7",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "witness",
+      "stage": "full100",
+      "kind": "shape",
+      "file": "crops/native/witness/full100-shape.png",
+      "sha256": "b62362f407788a22939e99afce42585e3e5cb02b6510e7f2346a3b36b72fb5b8",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-FC93D0AE-5A0D-4A3B-9368-C4F315894B4C/slider-fixed-shape-coverage-st01_rgb_star_gwitness_d16-light-full100-held.png",
+      "original_full_png_sha256": "84538383d98726a5dea39050963109f4b4e3ed42f6ee6b22e33286440d26659d",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "witness",
+      "stage": "full100",
+      "kind": "flat",
+      "file": "crops/native/witness/full100-flat.png",
+      "sha256": "5f358136ee006d8dcb337b131256973e90b29f7ac111482541cf80475d4f3aea",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-A42C5C84-55C7-4B05-BA3D-1105F30CA6FA/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "original_full_png_sha256": "913e9b8951690175cb1f2715315c5d0968866fb1f1463b75ce05d5ac323c1927",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "witness",
+      "stage": "far50",
+      "kind": "shape",
+      "file": "crops/native/witness/far50-shape.png",
+      "sha256": "e9d08135240292e2b24f69e9b5cd776c0201282be3d3ed905d0d533dd02a38fd",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-D7C6480D-8396-4C22-9C9E-59A1C7008ABD/slider-fixed-shape-coverage-st01_rgb_star_gwitness_d16-light-far50-held.png",
+      "original_full_png_sha256": "8f37f40dd0d2f7c306ed81c73a4ab4760f9c186b111517c40125c79097de8196",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "witness",
+      "stage": "far50",
+      "kind": "flat",
+      "file": "crops/native/witness/far50-flat.png",
+      "sha256": "9cb50a66451190adecdba9845ab97095668931d774f05b4d62993a3254e27aad",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-4EAE00E3-86A8-4E88-A005-773217CB40D6/slider-fixed-shape-coverage-st00_flat128-light-far50-held.png",
+      "original_full_png_sha256": "08a9fc0b9ba62b3e543932eeec935f37c4a19e6ac6d269dd2f34d6534aa0fe88",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "control",
+      "stage": "ingress01",
+      "kind": "shape",
+      "file": "crops/native/control/ingress01-shape.png",
+      "sha256": "816beadbdbb42b2f02124113436f1e553835a9810dfe502523b20227a8368f5d",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-2B8C568D-C213-47EB-BA61-6891A7B2CC07/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-ingress01-held.png",
+      "original_full_png_sha256": "8686602efb4cdac7f0cfced366c50fc822c601054905303b691455a2430d31b7",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "control",
+      "stage": "ingress01",
+      "kind": "flat",
+      "file": "crops/native/control/ingress01-flat.png",
+      "sha256": "808c4e0e0370f5d97f56bb88cf187655b2881c5ba117d923ebf169dac399cf63",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-0905C39F-43C8-4434-BA1F-1F11A1ED6A23/slider-fixed-shape-coverage-st00_flat128-light-ingress01-held.png",
+      "original_full_png_sha256": "a8baf42259681264339d5bb15dd57e209523911d55ee176144ef7176163c4847",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "control",
+      "stage": "ingress10",
+      "kind": "shape",
+      "file": "crops/native/control/ingress10-shape.png",
+      "sha256": "7f920da747a98d3b3fb94d51086687e32e01a28b1a18767c4d95bb8031afbba1",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-3535BFB6-CD01-4417-B267-BE4A1962C642/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-ingress10-held.png",
+      "original_full_png_sha256": "5a2117c641df9c61704578f75d83e1af2229dd122bc13aae9f43aacd110e0a25",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "control",
+      "stage": "ingress10",
+      "kind": "flat",
+      "file": "crops/native/control/ingress10-flat.png",
+      "sha256": "70afa8f31b173742a5032ecebc08ef5b37ddfb59a80a5217dca20d20d61ea3b0",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-00C83079-01C9-4DDD-9531-A4E477E77C9E/slider-fixed-shape-coverage-st00_flat128-light-ingress10-held.png",
+      "original_full_png_sha256": "bf60c5940a8b78b40d96e96b64ec80e56df5adc75113de441d342cabe88888cb",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "control",
+      "stage": "ingress50",
+      "kind": "shape",
+      "file": "crops/native/control/ingress50-shape.png",
+      "sha256": "17454cd9561471c46818d68e8163029d9fe63bc177df058e5562a8aee197666a",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-A7778A44-6FA0-490E-B462-96255F5CFBBF/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-ingress50-held.png",
+      "original_full_png_sha256": "f6f19124926a4b5a03bc6b25e94e30c2551bfc078edea360a5132a89d8ed7593",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "control",
+      "stage": "ingress50",
+      "kind": "flat",
+      "file": "crops/native/control/ingress50-flat.png",
+      "sha256": "fca37bbcd211af20b76f23febe05c7052f2474314e73b2d72abc153fa668dac1",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-3B90167A-D203-4BA9-A998-712DC16F159C/slider-fixed-shape-coverage-st00_flat128-light-ingress50-held.png",
+      "original_full_png_sha256": "920100d49a688a8ccb316545b6dc4cea5700813b13653403ea95f98a2552e78e",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "control",
+      "stage": "ingress75",
+      "kind": "shape",
+      "file": "crops/native/control/ingress75-shape.png",
+      "sha256": "f18242161a5e0e6f6bae59b4eabad4284038105664979d78eb6a6aa1e26a01ba",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-F86C5B04-7558-4884-A2C6-D609DCB797F1/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-ingress75-held.png",
+      "original_full_png_sha256": "2bee7301dff85b9fdbf743a59ee0497307cd2e51a84715837defe73c7a505bab",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "control",
+      "stage": "ingress75",
+      "kind": "flat",
+      "file": "crops/native/control/ingress75-flat.png",
+      "sha256": "5357fd45721d8552f4c9ead3942e39157fb9aaa9a686588b217738a95a223a66",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-65680958-79FE-4123-A72E-5FC31437B831/slider-fixed-shape-coverage-st00_flat128-light-ingress75-held.png",
+      "original_full_png_sha256": "48aecde42b18e0774bc857bca1e56ae30f0faf431324d3367de8565a94132b50",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "control",
+      "stage": "full100",
+      "kind": "shape",
+      "file": "crops/native/control/full100-shape.png",
+      "sha256": "41833da470458815e16adcba0240b1fdffc5c609f589f425124b887cbe6a1d9b",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-E6FDE5C1-4395-4319-AD33-F547079BF91C/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-full100-held.png",
+      "original_full_png_sha256": "91a05e51dbe3080f87115691ba844ed4b24ccb019696bf0db334f106ca5bb91d",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "control",
+      "stage": "full100",
+      "kind": "flat",
+      "file": "crops/native/control/full100-flat.png",
+      "sha256": "5f358136ee006d8dcb337b131256973e90b29f7ac111482541cf80475d4f3aea",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-F98400AD-E92B-4AEA-8D30-DCB239C32173/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "original_full_png_sha256": "19da208703e2026d1f5bcbbf542d9fd3bd2846b630afc682ad4e9a6a8e45325d",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "control",
+      "stage": "far50",
+      "kind": "shape",
+      "file": "crops/native/control/far50-shape.png",
+      "sha256": "e667ae8710aa1196d0a6a1d784b1359693b61869626104abab6a4cb001525f72",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-FAEE3E3A-F358-477E-9AE6-D9B70B58B7D1/slider-fixed-shape-coverage-st01_rgb_star_gneutral_d16-light-far50-held.png",
+      "original_full_png_sha256": "69f736ad2d9c6bda687d78ffa944c5410c2f99bf1f3881461afda6df3546e805",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "native",
+      "role": "control",
+      "stage": "far50",
+      "kind": "flat",
+      "file": "crops/native/control/far50-flat.png",
+      "sha256": "9cb50a66451190adecdba9845ab97095668931d774f05b4d62993a3254e27aad",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/held/-_NativeReferenceTests_testSliderFixedShapeCoverageFeasibility_-0464F0F1-8FA9-40BD-90CA-300DFA347AE3/slider-fixed-shape-coverage-st00_flat128-light-far50-held.png",
+      "original_full_png_sha256": "44f856ac87c8730aeb9d3d46435875f5283cc201b8a87155fb0de7df6f308d92",
+      "original_full_dimensions_px": [
+        750,
+        1334
+      ],
+      "original_mode": "RGBA",
+      "original_pixel_crop_xyxy": [
+        328,
+        792,
+        422,
+        886
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.0,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "witness",
+      "stage": "ingress01",
+      "kind": "shape",
+      "file": "crops/r2/witness/ingress01-shape.png",
+      "sha256": "917e8a2aebe78505572664c77931edc7b5e183fcdbcd463fab50ead62748a677",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/st01_rgb_star_gwitness_d16-light-ingress01-held-screen.png",
+      "original_full_png_sha256": "980b2c3950d1864b3bbe376148d3d6b9339006c714584eb47c70bade73a2983d",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "witness",
+      "stage": "ingress01",
+      "kind": "flat",
+      "file": "crops/r2/witness/ingress01-flat.png",
+      "sha256": "c92af7241b86742e0e1a88eaaf8ee38fbc46e1579380b24b6c3d442e638113dd",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/st00_flat128-light-ingress01-held-screen.png",
+      "original_full_png_sha256": "4e954d0c79133ee864c796d76faa95c706b760ea46887b65015d52e88dbf2f8e",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "witness",
+      "stage": "ingress10",
+      "kind": "shape",
+      "file": "crops/r2/witness/ingress10-shape.png",
+      "sha256": "49b977e506fefc3d5e4a7d3e55a8e2d91068bf4cccde03b5cfd611da370b7ed5",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/st01_rgb_star_gwitness_d16-light-ingress10-held-screen.png",
+      "original_full_png_sha256": "210597b79b2142757c6a02b5718ac532de9a60c021397d5cd67393a0a57080d6",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "witness",
+      "stage": "ingress10",
+      "kind": "flat",
+      "file": "crops/r2/witness/ingress10-flat.png",
+      "sha256": "83cf851564f6d916ff14697a7c54430ba4a08c7c1347b35d2a71a80029d02f0b",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/st00_flat128-light-ingress10-held-screen.png",
+      "original_full_png_sha256": "8a7a86f1baf6e070b73d74a167e17ba3c6f483b9dad4dea1ac44091f63a9ab0e",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "witness",
+      "stage": "ingress50",
+      "kind": "shape",
+      "file": "crops/r2/witness/ingress50-shape.png",
+      "sha256": "796a43a95eb498641cff6f26774c7752326965beec590ed1bd702cae3157fdc7",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/st01_rgb_star_gwitness_d16-light-ingress50-held-screen.png",
+      "original_full_png_sha256": "4aabd2b0315995f3fe6aee5c786325a462dfd3e8f19220e3b08b0db3038a47cc",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "witness",
+      "stage": "ingress50",
+      "kind": "flat",
+      "file": "crops/r2/witness/ingress50-flat.png",
+      "sha256": "be10502e8918dfee3739892cbb4771463636b882836d57a05359e9da96b8d9fc",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/st00_flat128-light-ingress50-held-screen.png",
+      "original_full_png_sha256": "4ead5b2ad057109ddc5853a4d2d7ed57796cea7f240f0a1f01f7a993b384c7a1",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "witness",
+      "stage": "ingress75",
+      "kind": "shape",
+      "file": "crops/r2/witness/ingress75-shape.png",
+      "sha256": "4cf6c5fafed23be8f33fb216755ac2432ad3c9083ed840ac65db9ecf278f63b9",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/st01_rgb_star_gwitness_d16-light-ingress75-held-screen.png",
+      "original_full_png_sha256": "9a661bd7e54a502391c083d6500abaaf5ee0d06441d4c9bf36b5d0e76dd8d7e7",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "witness",
+      "stage": "ingress75",
+      "kind": "flat",
+      "file": "crops/r2/witness/ingress75-flat.png",
+      "sha256": "ba8fd9a26f82c3bd5067ac67545e8b257c65b57c91e952d81a2011d90c38df23",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/st00_flat128-light-ingress75-held-screen.png",
+      "original_full_png_sha256": "5f501124e3be1dca745de4b26dd988118c1cfaee1597bca705572eae8885915a",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "witness",
+      "stage": "full100",
+      "kind": "shape",
+      "file": "crops/r2/witness/full100-shape.png",
+      "sha256": "aae3e75ea28f574a60761d4fc5efb106b5522f142e72c730c286bb6255a270cd",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/st01_rgb_star_gwitness_d16-light-full100-held-screen.png",
+      "original_full_png_sha256": "1f4db7097dd187260c6e7a92996be6b55202398126e831cdeb65987a67e2c343",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "witness",
+      "stage": "full100",
+      "kind": "flat",
+      "file": "crops/r2/witness/full100-flat.png",
+      "sha256": "9033ca0a0997685d353770b1c56ccf4e1b2d128839b6cb90abf9228b381c5239",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/st00_flat128-light-full100-held-screen.png",
+      "original_full_png_sha256": "0af4c20e19c1681234ad7ebaa564f9790eb5df3070baa16183ba9e1810a8a825",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "witness",
+      "stage": "far50",
+      "kind": "shape",
+      "file": "crops/r2/witness/far50-shape.png",
+      "sha256": "e2717692f874298c7c22af292d1e3608d916315cd7570b24533a6f9b5097f6ea",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/st01_rgb_star_gwitness_d16-light-far50-held-screen.png",
+      "original_full_png_sha256": "e830a0a370d04f9f695f9f8ab9a6c910483706dae0241c4e58da68b476eec8a0",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "witness",
+      "stage": "far50",
+      "kind": "flat",
+      "file": "crops/r2/witness/far50-flat.png",
+      "sha256": "94f790dbfbfa41c48d64abe5e090d2afdc192303df98055c7a12c969d9f9ac03",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/st00_flat128-light-far50-held-screen.png",
+      "original_full_png_sha256": "a5f4cb14ab1f36e280767eefc72cbc15f75e02304987831b26bc1069995c28d1",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "control",
+      "stage": "ingress01",
+      "kind": "shape",
+      "file": "crops/r2/control/ingress01-shape.png",
+      "sha256": "f81b68a85c4eb4cb3df489a213b79bf9c9209aab1453ae3f2d0c9f5ae8a07ece",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/st01_rgb_star_gneutral_d16-light-ingress01-held-screen.png",
+      "original_full_png_sha256": "66537776d4f0773c7ec24b4eb5276152a54330f56cdc9740dc52334b724143e9",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "control",
+      "stage": "ingress01",
+      "kind": "flat",
+      "file": "crops/r2/control/ingress01-flat.png",
+      "sha256": "c92af7241b86742e0e1a88eaaf8ee38fbc46e1579380b24b6c3d442e638113dd",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/st00_flat128-light-ingress01-held-screen.png",
+      "original_full_png_sha256": "af8f887db549a937223632b5197d860cace7ae81af18ba5292bbe0da9f51d8cd",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "control",
+      "stage": "ingress10",
+      "kind": "shape",
+      "file": "crops/r2/control/ingress10-shape.png",
+      "sha256": "6dcbff07929de377d656f55f93065d331e80f858c5228cd8d48f9b9d7a0bef1e",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/st01_rgb_star_gneutral_d16-light-ingress10-held-screen.png",
+      "original_full_png_sha256": "8a06a6cb3420efe442aa83cfd06e1790f6e8d945ab6f43ab2c8f2fd321d1b2ff",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "control",
+      "stage": "ingress10",
+      "kind": "flat",
+      "file": "crops/r2/control/ingress10-flat.png",
+      "sha256": "83cf851564f6d916ff14697a7c54430ba4a08c7c1347b35d2a71a80029d02f0b",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/st00_flat128-light-ingress10-held-screen.png",
+      "original_full_png_sha256": "76b6d3a94e452dac3cd1ac2b9f2183424a2fa108e9262b6ed34eb68ab561b270",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "control",
+      "stage": "ingress50",
+      "kind": "shape",
+      "file": "crops/r2/control/ingress50-shape.png",
+      "sha256": "f8f2f6ca2bfacb1971adc2561a697d6f8a9dbe51d394171a3b9abf67f284d7b0",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/st01_rgb_star_gneutral_d16-light-ingress50-held-screen.png",
+      "original_full_png_sha256": "05bd8a7e6074c5bcda9f27744ef7ae4c33fce5edf76d236eaa9bf75d06c6e585",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "control",
+      "stage": "ingress50",
+      "kind": "flat",
+      "file": "crops/r2/control/ingress50-flat.png",
+      "sha256": "be10502e8918dfee3739892cbb4771463636b882836d57a05359e9da96b8d9fc",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/st00_flat128-light-ingress50-held-screen.png",
+      "original_full_png_sha256": "59c82709eeeac242a35458eaa550072ab01eba8849804f3acb2577f5c9f213bf",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "control",
+      "stage": "ingress75",
+      "kind": "shape",
+      "file": "crops/r2/control/ingress75-shape.png",
+      "sha256": "d452f7ebacd5adce99b8704fa99522949f20a961572ded8a99975a4436a6a9bb",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/st01_rgb_star_gneutral_d16-light-ingress75-held-screen.png",
+      "original_full_png_sha256": "2c984e72ddaddf690a634c3a76ee3b9d3bef3cb717543a8fccaa2472c05495ed",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "control",
+      "stage": "ingress75",
+      "kind": "flat",
+      "file": "crops/r2/control/ingress75-flat.png",
+      "sha256": "ba8fd9a26f82c3bd5067ac67545e8b257c65b57c91e952d81a2011d90c38df23",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/st00_flat128-light-ingress75-held-screen.png",
+      "original_full_png_sha256": "d4455e97884b21d3c4368c44148cd3b568f1ac45233aefb7f2c853378e7304b7",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "control",
+      "stage": "full100",
+      "kind": "shape",
+      "file": "crops/r2/control/full100-shape.png",
+      "sha256": "52b1162ae80fdc56df4d0e969198e29a8b85e01fb49be441ccdd90aca09b86d1",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/st01_rgb_star_gneutral_d16-light-full100-held-screen.png",
+      "original_full_png_sha256": "84cd4699f6737dd4b80ac0122a365df066b4bce8290b8a9aaed6f6b7a5b5eb25",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "control",
+      "stage": "full100",
+      "kind": "flat",
+      "file": "crops/r2/control/full100-flat.png",
+      "sha256": "9033ca0a0997685d353770b1c56ccf4e1b2d128839b6cb90abf9228b381c5239",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/st00_flat128-light-full100-held-screen.png",
+      "original_full_png_sha256": "1d3e452d419b7635e3429c2e3f19687ff879e7a3ac3a169ddb7090645d273f37",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "control",
+      "stage": "far50",
+      "kind": "shape",
+      "file": "crops/r2/control/far50-shape.png",
+      "sha256": "5949ba0a3b51847f6f7dd81e457a9d5550d56ea82bfe5df6856862ab4d6c9a2a",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/st01_rgb_star_gneutral_d16-light-far50-held-screen.png",
+      "original_full_png_sha256": "d032851940e6edc6ca7bc2ab9485b1de993a2325f954c0724e01ad0b205e87ea",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r2",
+      "role": "control",
+      "stage": "far50",
+      "kind": "flat",
+      "file": "crops/r2/control/far50-flat.png",
+      "sha256": "94f790dbfbfa41c48d64abe5e090d2afdc192303df98055c7a12c969d9f9ac03",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/st00_flat128-light-far50-held-screen.png",
+      "original_full_png_sha256": "77c3f51f69d4700f5b4121fd5e8c0c2e6dd96dd101825abd6dc6b6aa9747baf8",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "witness",
+      "stage": "ingress01",
+      "kind": "shape",
+      "file": "crops/r3/witness/ingress01-shape.png",
+      "sha256": "31bc5756dc6fb6f43a0b320c4312637c3c4b3abb905ae162fd5f307353117a13",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/st01_rgb_star_gwitness_d16-light-ingress01-held-screen.png",
+      "original_full_png_sha256": "45749d7b78ee4331fbf92d136d068bede8d095c770caae006d894d5397a079e0",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "witness",
+      "stage": "ingress01",
+      "kind": "flat",
+      "file": "crops/r3/witness/ingress01-flat.png",
+      "sha256": "7a44baf15b30b3bae96da8652d2f817fff7cbe04d12ee527317952c7e49455f9",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/st00_flat128-light-ingress01-held-screen.png",
+      "original_full_png_sha256": "a07edd1cda84f394e93cbb539d419491d080aeecaff1fcb3cf85be2d28af6654",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "witness",
+      "stage": "ingress10",
+      "kind": "shape",
+      "file": "crops/r3/witness/ingress10-shape.png",
+      "sha256": "7808f71005c78a2172e8b13d0b9985ee5ea5cc0b64a0ae5c0aa462ea314804f7",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/st01_rgb_star_gwitness_d16-light-ingress10-held-screen.png",
+      "original_full_png_sha256": "74d56f961c4239c5e2355e8eb64ccfd30b82850ca3b5a312bfe21e717d2d8406",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "witness",
+      "stage": "ingress10",
+      "kind": "flat",
+      "file": "crops/r3/witness/ingress10-flat.png",
+      "sha256": "d3a04346086722f2842ed47c65b27516061e4b503546b8bcc8a1a6733f952d3f",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/st00_flat128-light-ingress10-held-screen.png",
+      "original_full_png_sha256": "6cd0569b166a1b81ecb77d0bed885e3e0596e1cbc7f929a2ffef89e900fd1b27",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "witness",
+      "stage": "ingress50",
+      "kind": "shape",
+      "file": "crops/r3/witness/ingress50-shape.png",
+      "sha256": "17f81c49212c7e2dcf2efb6777f4ba00323f792209ae7aed76009e66afe36609",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/st01_rgb_star_gwitness_d16-light-ingress50-held-screen.png",
+      "original_full_png_sha256": "f8f8e3952fd115af29bfbc65de835230184f3586b95532cf50706aa103e42da5",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "witness",
+      "stage": "ingress50",
+      "kind": "flat",
+      "file": "crops/r3/witness/ingress50-flat.png",
+      "sha256": "59bb3ceac16c3ce6e4091af3b1da4134dc4ab80f7fa32bc7a10f45f7a6d5c4a4",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/st00_flat128-light-ingress50-held-screen.png",
+      "original_full_png_sha256": "f7dd2eb2ae84352021cfd693255a19e53c0c5f1d518359c21ef5c8ffc896ec67",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "witness",
+      "stage": "ingress75",
+      "kind": "shape",
+      "file": "crops/r3/witness/ingress75-shape.png",
+      "sha256": "d98c265dde280976dcebdb9515965ad086dd984fdeca349cb0b9c63a68c490f4",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/st01_rgb_star_gwitness_d16-light-ingress75-held-screen.png",
+      "original_full_png_sha256": "11becb56e3c12d8986801c3695223c66c8b21016f0d0fb7014ad974877e59f3a",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "witness",
+      "stage": "ingress75",
+      "kind": "flat",
+      "file": "crops/r3/witness/ingress75-flat.png",
+      "sha256": "7525c468eefbf6590437703e784f99acf177d9c87cbd2f33ad522946e42fdbdb",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/st00_flat128-light-ingress75-held-screen.png",
+      "original_full_png_sha256": "0cf6c576dcc224062f6220bcee99646ca4be61ffd0bea3424d3281225681ff29",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "witness",
+      "stage": "full100",
+      "kind": "shape",
+      "file": "crops/r3/witness/full100-shape.png",
+      "sha256": "a02f7e4f9e79c06d64c7bb6dd989cd30213e9b5e8965297cc3b9ed0e890e5ef0",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/st01_rgb_star_gwitness_d16-light-full100-held-screen.png",
+      "original_full_png_sha256": "4acc57dd563494cd3e26c8c619f8f69e7d54b9794cc2c9253567eca6dc537b96",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "witness",
+      "stage": "full100",
+      "kind": "flat",
+      "file": "crops/r3/witness/full100-flat.png",
+      "sha256": "bf0e8bcebc55f573a3600f981d7bdbc4a46f679f54bd67bf485433a81df7d3d5",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/st00_flat128-light-full100-held-screen.png",
+      "original_full_png_sha256": "583052c3da5ede85b8e787c7e21d1f93acdc7e616f1df24e6bf0f662a2c272a3",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "witness",
+      "stage": "far50",
+      "kind": "shape",
+      "file": "crops/r3/witness/far50-shape.png",
+      "sha256": "20a407d8be0e0953a145f525778f6af4582a06c4b23de1a2b01e81b7561fc7b0",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/st01_rgb_star_gwitness_d16-light-far50-held-screen.png",
+      "original_full_png_sha256": "d5cc0a04de566faee5c90986ae69a1184ff5bb083abd15f5a908f035034895df",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "witness",
+      "stage": "far50",
+      "kind": "flat",
+      "file": "crops/r3/witness/far50-flat.png",
+      "sha256": "059f8209227bc23fbabd6b86a826703c6700e02833a8da6cbc5b2464d1a2319a",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/st00_flat128-light-far50-held-screen.png",
+      "original_full_png_sha256": "120081985e6b1c2ab4e669b2e5e095e6e456a6147434cf90d8e309f619984fb9",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "control",
+      "stage": "ingress01",
+      "kind": "shape",
+      "file": "crops/r3/control/ingress01-shape.png",
+      "sha256": "4a284ecce3f7e2e21f371fe99d493dc1b111b6c86bb4613b203d2d009de9243b",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/st01_rgb_star_gneutral_d16-light-ingress01-held-screen.png",
+      "original_full_png_sha256": "cbdd4df85ccfb40e9c5ba7b3aaaa8d850fa400db99bb9fe2dc7d79f5b79e5dda",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "control",
+      "stage": "ingress01",
+      "kind": "flat",
+      "file": "crops/r3/control/ingress01-flat.png",
+      "sha256": "7a44baf15b30b3bae96da8652d2f817fff7cbe04d12ee527317952c7e49455f9",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/st00_flat128-light-ingress01-held-screen.png",
+      "original_full_png_sha256": "10645fcf0d4fb3cb8bf4d844cb35cdf278d7bdd8ead593e719abff3a124602cc",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "control",
+      "stage": "ingress10",
+      "kind": "shape",
+      "file": "crops/r3/control/ingress10-shape.png",
+      "sha256": "e2d392fa4072de134234add32567d7825d29a7221f4bff315434b24ffc3a0b3a",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/st01_rgb_star_gneutral_d16-light-ingress10-held-screen.png",
+      "original_full_png_sha256": "db7e1e11bf293366b8912469b87dab5d49eb9d7d763307914c7f27f5b87d6d37",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "control",
+      "stage": "ingress10",
+      "kind": "flat",
+      "file": "crops/r3/control/ingress10-flat.png",
+      "sha256": "d3a04346086722f2842ed47c65b27516061e4b503546b8bcc8a1a6733f952d3f",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/st00_flat128-light-ingress10-held-screen.png",
+      "original_full_png_sha256": "c9d86dee440bcd23bb00e8219b4f631edcd342a96ad9d4ee3e1a9e688822df1d",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "control",
+      "stage": "ingress50",
+      "kind": "shape",
+      "file": "crops/r3/control/ingress50-shape.png",
+      "sha256": "f3b3917f2508498cda5e80e9f08a672bc962d8490820f3070dd582a7bc4026a6",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/st01_rgb_star_gneutral_d16-light-ingress50-held-screen.png",
+      "original_full_png_sha256": "016d01d4bf52b612d63d37dc78718b23431e23b1e0365b0e75a15fb76db2909e",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "control",
+      "stage": "ingress50",
+      "kind": "flat",
+      "file": "crops/r3/control/ingress50-flat.png",
+      "sha256": "59bb3ceac16c3ce6e4091af3b1da4134dc4ab80f7fa32bc7a10f45f7a6d5c4a4",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/st00_flat128-light-ingress50-held-screen.png",
+      "original_full_png_sha256": "39a7183ecc201953f83caee306425d022b81c6cb4876e0fc62cee6bd573f3852",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "control",
+      "stage": "ingress75",
+      "kind": "shape",
+      "file": "crops/r3/control/ingress75-shape.png",
+      "sha256": "f0d5339d173507c6ab9217fd742c911d96e18db6defe4567306cbe3bf9265dc9",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/st01_rgb_star_gneutral_d16-light-ingress75-held-screen.png",
+      "original_full_png_sha256": "9c82eab036226aecbcb47185017bd2cc3a94b2ec032c52898640d9cd971cf46e",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "control",
+      "stage": "ingress75",
+      "kind": "flat",
+      "file": "crops/r3/control/ingress75-flat.png",
+      "sha256": "7525c468eefbf6590437703e784f99acf177d9c87cbd2f33ad522946e42fdbdb",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/st00_flat128-light-ingress75-held-screen.png",
+      "original_full_png_sha256": "79d229ee6bdfc7360d49dbe42bc34aac4e76ab83efd973fd574215c814e4b312",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "control",
+      "stage": "full100",
+      "kind": "shape",
+      "file": "crops/r3/control/full100-shape.png",
+      "sha256": "3118667d484b55ca1a954081fc753032abfe635b2ea5205fc44d967ab6f552e1",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/st01_rgb_star_gneutral_d16-light-full100-held-screen.png",
+      "original_full_png_sha256": "9da638c5b18f4cfcd3b485f2815d0b4f083828db3d0fa1912acf894eb8986aab",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "control",
+      "stage": "full100",
+      "kind": "flat",
+      "file": "crops/r3/control/full100-flat.png",
+      "sha256": "bf0e8bcebc55f573a3600f981d7bdbc4a46f679f54bd67bf485433a81df7d3d5",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/st00_flat128-light-full100-held-screen.png",
+      "original_full_png_sha256": "4ec3db37decc78748642599f913ba2fd99a687e1a0addda9b455568512accf8f",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "control",
+      "stage": "far50",
+      "kind": "shape",
+      "file": "crops/r3/control/far50-shape.png",
+      "sha256": "b0190ac3a0ded261a2a32f819864d6f614558adc5fcc4f51b2199b454222ce28",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/st01_rgb_star_gneutral_d16-light-far50-held-screen.png",
+      "original_full_png_sha256": "b266f847f6ac7caf69f14c93f3df8898c02902cb58aaff085728cddd62c6f282",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r3",
+      "role": "control",
+      "stage": "far50",
+      "kind": "flat",
+      "file": "crops/r3/control/far50-flat.png",
+      "sha256": "059f8209227bc23fbabd6b86a826703c6700e02833a8da6cbc5b2464d1a2319a",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/st00_flat128-light-far50-held-screen.png",
+      "original_full_png_sha256": "5761b24f4f785f423dcb95d72c32c7f93df068546cb64ec281edf16229d47a98",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "witness",
+      "stage": "ingress01",
+      "kind": "shape",
+      "file": "crops/r4/witness/ingress01-shape.png",
+      "sha256": "59146e8587a94b48c05474d5c91e07c5fe92bd0c779468b9f3bfb903680f991e",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/st01_rgb_star_gwitness_d16-light-ingress01-held-screen.png",
+      "original_full_png_sha256": "38f48e5a4ea714687d09b1cfe111e84dfac92a91295bdd68573c36d93840ea78",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "witness",
+      "stage": "ingress01",
+      "kind": "flat",
+      "file": "crops/r4/witness/ingress01-flat.png",
+      "sha256": "6fbe0a45dedad3fccf08850118619834590d65d45f890c72a47a34bdcaa7005a",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/st00_flat128-light-ingress01-held-screen.png",
+      "original_full_png_sha256": "1e0503040595cf4b4d23c67f6b5550bcecd4070188287212cf6de36d0cd43578",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "witness",
+      "stage": "ingress10",
+      "kind": "shape",
+      "file": "crops/r4/witness/ingress10-shape.png",
+      "sha256": "9e55934490c544306a81b49d9634f6c7cb72e5fa3c583402fb40569b2d2754bf",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/st01_rgb_star_gwitness_d16-light-ingress10-held-screen.png",
+      "original_full_png_sha256": "a2deae7837bbbd3a9471e66a860d818a1a450e84666180bd3ded5cd44c9e3d59",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "witness",
+      "stage": "ingress10",
+      "kind": "flat",
+      "file": "crops/r4/witness/ingress10-flat.png",
+      "sha256": "a0d4d80375aa1ef774d39a72db6b5be51ed57fbb5e4b0e1e09a9cc8e58d00fe4",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/st00_flat128-light-ingress10-held-screen.png",
+      "original_full_png_sha256": "56df13286e14db17b49d9447997d21425e6faef747d261050e935a777ad40178",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "witness",
+      "stage": "ingress50",
+      "kind": "shape",
+      "file": "crops/r4/witness/ingress50-shape.png",
+      "sha256": "158f7546900322122bc7153076ebd35103126f77ef050926571d437a142d51a0",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/st01_rgb_star_gwitness_d16-light-ingress50-held-screen.png",
+      "original_full_png_sha256": "cf75c15fce7172e0fae9d45cae0fbcd417ca1e621b4409cc991dad3dbd2dd0e5",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "witness",
+      "stage": "ingress50",
+      "kind": "flat",
+      "file": "crops/r4/witness/ingress50-flat.png",
+      "sha256": "d875027989601941153911cee9f06f9eb94fa6b5349fe1a2b4d65eab082440b4",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/st00_flat128-light-ingress50-held-screen.png",
+      "original_full_png_sha256": "9aa3d651f1445959aedd4ca813058b40c5a0eef98d5040655b4a09957cb6461d",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "witness",
+      "stage": "ingress75",
+      "kind": "shape",
+      "file": "crops/r4/witness/ingress75-shape.png",
+      "sha256": "9a108d3ae19d3f45dbe124903aef116689e87b7da9e3e959f905a92e54749179",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/st01_rgb_star_gwitness_d16-light-ingress75-held-screen.png",
+      "original_full_png_sha256": "21e507e9fbacd7f648e5f6d871bd299befbd223684c18eb01d67a754cb8018e5",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "witness",
+      "stage": "ingress75",
+      "kind": "flat",
+      "file": "crops/r4/witness/ingress75-flat.png",
+      "sha256": "ed47a60105731e6e7f4417bfbd75be68392c23856e483190b31cd5caf8c33d4c",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/st00_flat128-light-ingress75-held-screen.png",
+      "original_full_png_sha256": "5e98da6c053284b5e16748091ac497e9a8b958f72a8bb06f4a6c8706d902e228",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "witness",
+      "stage": "full100",
+      "kind": "shape",
+      "file": "crops/r4/witness/full100-shape.png",
+      "sha256": "35b66804561470954cf755236ebd1f596ce9fc8bc87574a1bb4522f323c47f21",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/st01_rgb_star_gwitness_d16-light-full100-held-screen.png",
+      "original_full_png_sha256": "e86a1992438876c3d5f425777418e5136f3e89ec717d496c2c90dcb60c2f0a83",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "witness",
+      "stage": "full100",
+      "kind": "flat",
+      "file": "crops/r4/witness/full100-flat.png",
+      "sha256": "c2851e3cc5536deceb4c75e3a0acaf846beb78c5e184aecf5cdb2bc66155338f",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/st00_flat128-light-full100-held-screen.png",
+      "original_full_png_sha256": "1895eef3012e97e7b4fca797240b956341789a1792d785f484a50d1860ab9ea1",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "witness",
+      "stage": "far50",
+      "kind": "shape",
+      "file": "crops/r4/witness/far50-shape.png",
+      "sha256": "61dc17fcd020a879991dd9d0296a33a10c76585808d63133f27bfb7faef1c7dc",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/st01_rgb_star_gwitness_d16-light-far50-held-screen.png",
+      "original_full_png_sha256": "cda14b6577dd79dbc326248f876503abdb21e118973e37813728296d51edb3a2",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "witness",
+      "stage": "far50",
+      "kind": "flat",
+      "file": "crops/r4/witness/far50-flat.png",
+      "sha256": "f925a7c3f5660b341690649907ad26d90dd98c205565f3025ae6547aea97823b",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/st00_flat128-light-far50-held-screen.png",
+      "original_full_png_sha256": "97dd4946df2c5b0d63eb682996874106d51ab9e0221f740bbacc82bbbe94d0f1",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "control",
+      "stage": "ingress01",
+      "kind": "shape",
+      "file": "crops/r4/control/ingress01-shape.png",
+      "sha256": "dee5d1c55d7d25f44cd63ca40638f40ff009c188b02125152d7c6f4cbcd8bcea",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/st01_rgb_star_gneutral_d16-light-ingress01-held-screen.png",
+      "original_full_png_sha256": "a1198b9349ea0686066989f307189b5394586e5b1415261e64409b38de3adb56",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "control",
+      "stage": "ingress01",
+      "kind": "flat",
+      "file": "crops/r4/control/ingress01-flat.png",
+      "sha256": "6fbe0a45dedad3fccf08850118619834590d65d45f890c72a47a34bdcaa7005a",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/st00_flat128-light-ingress01-held-screen.png",
+      "original_full_png_sha256": "4b399d96ea8ebfdb05e52b870d3f13c5b18ab0371dfc513f29e99056169f5f55",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "control",
+      "stage": "ingress10",
+      "kind": "shape",
+      "file": "crops/r4/control/ingress10-shape.png",
+      "sha256": "ddc1d9f2161740d00ca27d604539d2f1e9138848dc04cf20e08f8117e4d59026",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/st01_rgb_star_gneutral_d16-light-ingress10-held-screen.png",
+      "original_full_png_sha256": "a919e92a341fcd2ec690ce5395e8a6f75792195faac04ccee7d3df1ff6b537b7",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "control",
+      "stage": "ingress10",
+      "kind": "flat",
+      "file": "crops/r4/control/ingress10-flat.png",
+      "sha256": "a0d4d80375aa1ef774d39a72db6b5be51ed57fbb5e4b0e1e09a9cc8e58d00fe4",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/st00_flat128-light-ingress10-held-screen.png",
+      "original_full_png_sha256": "a9c12de298fddda1168cc55ad264f29931541ccae192f1414d6c6de26dceb829",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "control",
+      "stage": "ingress50",
+      "kind": "shape",
+      "file": "crops/r4/control/ingress50-shape.png",
+      "sha256": "4d0f752f974329f5ef51e539183e94cc81562c78e07fdfc271bf7c08212bb157",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/st01_rgb_star_gneutral_d16-light-ingress50-held-screen.png",
+      "original_full_png_sha256": "7851fbcfdc8fc2f1291f7dc736454ad1f75ab4d47ef8320ccfc06253fe1dfbc9",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "control",
+      "stage": "ingress50",
+      "kind": "flat",
+      "file": "crops/r4/control/ingress50-flat.png",
+      "sha256": "d875027989601941153911cee9f06f9eb94fa6b5349fe1a2b4d65eab082440b4",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/st00_flat128-light-ingress50-held-screen.png",
+      "original_full_png_sha256": "43a445f850f4b816ffd444646a10ac71476426826cebafc4ac088e49751594f6",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "control",
+      "stage": "ingress75",
+      "kind": "shape",
+      "file": "crops/r4/control/ingress75-shape.png",
+      "sha256": "e61a80cb41ce2573f0c2b7ec580196ede478cfd504d2052c1dd5b73572fd83b2",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/st01_rgb_star_gneutral_d16-light-ingress75-held-screen.png",
+      "original_full_png_sha256": "8a11849e35055d7d1777676488a4d21117ba80940a54a0980ff4e7ee8627a4b9",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "control",
+      "stage": "ingress75",
+      "kind": "flat",
+      "file": "crops/r4/control/ingress75-flat.png",
+      "sha256": "ed47a60105731e6e7f4417bfbd75be68392c23856e483190b31cd5caf8c33d4c",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/st00_flat128-light-ingress75-held-screen.png",
+      "original_full_png_sha256": "a1c70eb2a526577d0f6335e3934543761ccb253ee8184b5dec24501017b42685",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "control",
+      "stage": "full100",
+      "kind": "shape",
+      "file": "crops/r4/control/full100-shape.png",
+      "sha256": "26f71d6be1ca6a2d04d6e9156642fcc6fe13eeb51c6ed5dc39b43fd2afbb2b38",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/st01_rgb_star_gneutral_d16-light-full100-held-screen.png",
+      "original_full_png_sha256": "79d5bef3b52206aa6f9bec8c42e24c50b872e2e2eeb73c2e38d2d6d84043ac10",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "control",
+      "stage": "full100",
+      "kind": "flat",
+      "file": "crops/r4/control/full100-flat.png",
+      "sha256": "c2851e3cc5536deceb4c75e3a0acaf846beb78c5e184aecf5cdb2bc66155338f",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/st00_flat128-light-full100-held-screen.png",
+      "original_full_png_sha256": "754f2d15e81a977f700fd298717e4c4ae0c7fd9c72874514bfca51b4e3957bc4",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "control",
+      "stage": "far50",
+      "kind": "shape",
+      "file": "crops/r4/control/far50-shape.png",
+      "sha256": "2f7cd765a61c878e9b5e764b301760da72fb83666c1d56d12152b235ddbdcdcd",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/st01_rgb_star_gneutral_d16-light-far50-held-screen.png",
+      "original_full_png_sha256": "edbc3980526fb360c7ed5339407e754502acd6348aa84899c10d99cecb25abda",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    },
+    {
+      "version": "r4",
+      "role": "control",
+      "stage": "far50",
+      "kind": "flat",
+      "file": "crops/r4/control/far50-flat.png",
+      "sha256": "f925a7c3f5660b341690649907ad26d90dd98c205565f3025ae6547aea97823b",
+      "original_full_png_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/st00_flat128-light-far50-held-screen.png",
+      "original_full_png_sha256": "7bde776ab3dc00b92dc48073ddb5c1f1c1b7ac38d423a75fafb62694d80f19dd",
+      "original_full_dimensions_px": [
+        1216,
+        2640
+      ],
+      "original_mode": "RGB",
+      "original_pixel_crop_xyxy": [
+        489,
+        1180,
+        626,
+        1316
+      ],
+      "original_world_origin_in_screenshot_px": [
+        0.0,
+        0.0
+      ],
+      "original_pixels_per_world_unit": 2.9750001,
+      "icc_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cropped_pixel_bytes_exact": true
+    }
+  ],
+  "source_roles": {
+    "witness": {
+      "spec": {
+        "file": "sources/witness/shape-spec.json",
+        "compression": "none",
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/shape-spec.json",
+        "original_sha256": "ad21ef7966ff4a689baf3c6c39237d8a8cb1dae090ae0c911c907f737ef139f1",
+        "original_bytes": 42579,
+        "stored_sha256": "ad21ef7966ff4a689baf3c6c39237d8a8cb1dae090ae0c911c907f737ef139f1",
+        "stored_bytes": 42579
+      },
+      "manifest": {
+        "file": "sources/witness/inputs/manifest.json",
+        "compression": "none",
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/manifest.json",
+        "original_sha256": "ef9ea293d10d89bc0968b505b8d3d741e0a16a1c9b42d71622c4e52698215dd4",
+        "original_bytes": 1686,
+        "stored_sha256": "ef9ea293d10d89bc0968b505b8d3d741e0a16a1c9b42d71622c4e52698215dd4",
+        "stored_bytes": 1686
+      },
+      "main_id": "st01_rgb_star_gwitness_d16",
+      "main_sha256": "3f714f7dc170d5bacf52bfa9ba51dc61cc31a3d4698ce5552543f9ddd875880e",
+      "inputs": [
+        {
+          "id": "st00_flat128",
+          "file": "sources/witness/inputs/st00_flat128.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st00_flat128.png",
+          "original_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+          "original_bytes": 5221,
+          "stored_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+          "stored_bytes": 5221
+        },
+        {
+          "id": "st01_rgb_star_gwitness_d16",
+          "file": "sources/witness/inputs/st01_rgb_star_gwitness_d16.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st01_rgb_star_gwitness_d16.png",
+          "original_sha256": "3f714f7dc170d5bacf52bfa9ba51dc61cc31a3d4698ce5552543f9ddd875880e",
+          "original_bytes": 6921,
+          "stored_sha256": "3f714f7dc170d5bacf52bfa9ba51dc61cc31a3d4698ce5552543f9ddd875880e",
+          "stored_bytes": 6921
+        },
+        {
+          "id": "st02_rgb_star6_d16",
+          "file": "sources/witness/inputs/st02_rgb_star6_d16.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st02_rgb_star6_d16.png",
+          "original_sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+          "original_bytes": 5828,
+          "stored_sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+          "stored_bytes": 5828
+        },
+        {
+          "id": "st03_rgb_star7_d16",
+          "file": "sources/witness/inputs/st03_rgb_star7_d16.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st03_rgb_star7_d16.png",
+          "original_sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+          "original_bytes": 5921,
+          "stored_sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+          "stored_bytes": 5921
+        },
+        {
+          "id": "st04_rgb_star8_d16",
+          "file": "sources/witness/inputs/st04_rgb_star8_d16.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st04_rgb_star8_d16.png",
+          "original_sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+          "original_bytes": 5997,
+          "stored_sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+          "stored_bytes": 5997
+        },
+        {
+          "id": "st05_rgb_star5_d12",
+          "file": "sources/witness/inputs/st05_rgb_star5_d12.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st05_rgb_star5_d12.png",
+          "original_sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+          "original_bytes": 5634,
+          "stored_sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+          "stored_bytes": 5634
+        },
+        {
+          "id": "st06_rgb_star6_d12",
+          "file": "sources/witness/inputs/st06_rgb_star6_d12.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st06_rgb_star6_d12.png",
+          "original_sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+          "original_bytes": 5673,
+          "stored_sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+          "stored_bytes": 5673
+        },
+        {
+          "id": "st07_rgb_star7_d12",
+          "file": "sources/witness/inputs/st07_rgb_star7_d12.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st07_rgb_star7_d12.png",
+          "original_sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+          "original_bytes": 5751,
+          "stored_sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+          "stored_bytes": 5751
+        }
+      ]
+    },
+    "control": {
+      "spec": {
+        "file": "sources/control/shape-spec.json",
+        "compression": "none",
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/shape-spec.json",
+        "original_sha256": "dc06904e099b192c62f7fc4c4be35b6d779ae23227f9f0ba5f250d2b6c205f03",
+        "original_bytes": 42520,
+        "stored_sha256": "dc06904e099b192c62f7fc4c4be35b6d779ae23227f9f0ba5f250d2b6c205f03",
+        "stored_bytes": 42520
+      },
+      "manifest": {
+        "file": "sources/control/inputs/manifest.json",
+        "compression": "none",
+        "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/manifest.json",
+        "original_sha256": "405b9a95158137014f29a01477a0e5922a31cd4f139d3f9fbfd6622eaef4c4e6",
+        "original_bytes": 1686,
+        "stored_sha256": "405b9a95158137014f29a01477a0e5922a31cd4f139d3f9fbfd6622eaef4c4e6",
+        "stored_bytes": 1686
+      },
+      "main_id": "st01_rgb_star_gneutral_d16",
+      "main_sha256": "b72e79710471f00868b5e7ee56548614bbe153e1f59ca43bf241085dce3bca7a",
+      "inputs": [
+        {
+          "id": "st00_flat128",
+          "file": "sources/control/inputs/st00_flat128.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st00_flat128.png",
+          "original_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+          "original_bytes": 5221,
+          "stored_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+          "stored_bytes": 5221
+        },
+        {
+          "id": "st01_rgb_star_gneutral_d16",
+          "file": "sources/control/inputs/st01_rgb_star_gneutral_d16.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st01_rgb_star_gneutral_d16.png",
+          "original_sha256": "b72e79710471f00868b5e7ee56548614bbe153e1f59ca43bf241085dce3bca7a",
+          "original_bytes": 6895,
+          "stored_sha256": "b72e79710471f00868b5e7ee56548614bbe153e1f59ca43bf241085dce3bca7a",
+          "stored_bytes": 6895
+        },
+        {
+          "id": "st02_rgb_star6_d16",
+          "file": "sources/control/inputs/st02_rgb_star6_d16.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st02_rgb_star6_d16.png",
+          "original_sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+          "original_bytes": 5828,
+          "stored_sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+          "stored_bytes": 5828
+        },
+        {
+          "id": "st03_rgb_star7_d16",
+          "file": "sources/control/inputs/st03_rgb_star7_d16.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st03_rgb_star7_d16.png",
+          "original_sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+          "original_bytes": 5921,
+          "stored_sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+          "stored_bytes": 5921
+        },
+        {
+          "id": "st04_rgb_star8_d16",
+          "file": "sources/control/inputs/st04_rgb_star8_d16.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st04_rgb_star8_d16.png",
+          "original_sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+          "original_bytes": 5997,
+          "stored_sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+          "stored_bytes": 5997
+        },
+        {
+          "id": "st05_rgb_star5_d12",
+          "file": "sources/control/inputs/st05_rgb_star5_d12.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st05_rgb_star5_d12.png",
+          "original_sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+          "original_bytes": 5634,
+          "stored_sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+          "stored_bytes": 5634
+        },
+        {
+          "id": "st06_rgb_star6_d12",
+          "file": "sources/control/inputs/st06_rgb_star6_d12.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st06_rgb_star6_d12.png",
+          "original_sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+          "original_bytes": 5673,
+          "stored_sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+          "stored_bytes": 5673
+        },
+        {
+          "id": "st07_rgb_star7_d12",
+          "file": "sources/control/inputs/st07_rgb_star7_d12.png",
+          "compression": "none",
+          "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st07_rgb_star7_d12.png",
+          "original_sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+          "original_bytes": 5751,
+          "stored_sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+          "stored_bytes": 5751
+        }
+      ]
+    }
+  },
+  "provenance": [
+    {
+      "file": "frozen/PROTOCOL.md",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/PROTOCOL.md",
+      "original_sha256": "05d158bbfa5e1ff55797e1c2938ca64b8c4e51380e59a1639cd9040f58b85c45",
+      "original_bytes": 11378,
+      "stored_sha256": "05d158bbfa5e1ff55797e1c2938ca64b8c4e51380e59a1639cd9040f58b85c45",
+      "stored_bytes": 11378
+    },
+    {
+      "file": "frozen/analysis-plan.json",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analysis-plan.json",
+      "original_sha256": "9a88df9abe12d312f78b8a6a0f7e2e1b790e864eeb0522ac5e1e735b35d8822f",
+      "original_bytes": 6983,
+      "stored_sha256": "9a88df9abe12d312f78b8a6a0f7e2e1b790e864eeb0522ac5e1e735b35d8822f",
+      "stored_bytes": 6983
+    },
+    {
+      "file": "frozen/asset-verification.json",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/asset-verification.json",
+      "original_sha256": "837d056fb240c4c86447d38988306e1a66a00e046f5f446bbcd9ccaae0374fd6",
+      "original_bytes": 2907,
+      "stored_sha256": "837d056fb240c4c86447d38988306e1a66a00e046f5f446bbcd9ccaae0374fd6",
+      "stored_bytes": 2907
+    },
+    {
+      "file": "frozen/analyze-witness-control.py",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analyze-witness-control.py",
+      "original_sha256": "c95daec93f0d4acb45770bd7410037c19815a792217cfb9d4022b34643da7738",
+      "original_bytes": 26856,
+      "stored_sha256": "c95daec93f0d4acb45770bd7410037c19815a792217cfb9d4022b34643da7738",
+      "stored_bytes": 26856
+    },
+    {
+      "file": "frozen/analyze-witness-control-v1_1.py",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analyze-witness-control-v1_1.py",
+      "original_sha256": "ef475784d5aed32b0dc522ae80c5ff760ad6779a5ef676c5c0de2737307ac2d1",
+      "original_bytes": 30543,
+      "stored_sha256": "ef475784d5aed32b0dc522ae80c5ff760ad6779a5ef676c5c0de2737307ac2d1",
+      "stored_bytes": 30543
+    },
+    {
+      "file": "frozen/IMPLEMENTATION-v1_1.md",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/IMPLEMENTATION-v1_1.md",
+      "original_sha256": "ebe20aad5bc61f544423aa52388620ec7ab4f261d8732e6fd4ae0aafbfb3b29e",
+      "original_bytes": 2878,
+      "stored_sha256": "ebe20aad5bc61f544423aa52388620ec7ab4f261d8732e6fd4ae0aafbfb3b29e",
+      "stored_bytes": 2878
+    },
+    {
+      "file": "frozen/validate-analysis-synthetic.py",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/validate-analysis-synthetic.py",
+      "original_sha256": "3342925ee12402f207bfda2d16171fc1fb9c993e656d2ac424c788204bf73a38",
+      "original_bytes": 7377,
+      "stored_sha256": "3342925ee12402f207bfda2d16171fc1fb9c993e656d2ac424c788204bf73a38",
+      "stored_bytes": 7377
+    },
+    {
+      "file": "frozen/synthetic-cli-validation.json",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/synthetic-cli-validation.json",
+      "original_sha256": "a13b25cc088ee5e29c4816b710102e91994f8f66093fa037e784bdb590fe83e8",
+      "original_bytes": 13434,
+      "stored_sha256": "a13b25cc088ee5e29c4816b710102e91994f8f66093fa037e784bdb590fe83e8",
+      "stored_bytes": 13434
+    },
+    {
+      "file": "frozen/generate.py",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/generate.py",
+      "original_sha256": "0b98d5d0a401123b44144e88bc87676bfad6cfc6df170dd4582a118b8ed88d4c",
+      "original_bytes": 8423,
+      "stored_sha256": "0b98d5d0a401123b44144e88bc87676bfad6cfc6df170dd4582a118b8ed88d4c",
+      "stored_bytes": 8423
+    },
+    {
+      "file": "frozen/freeze-analysis-plan.py",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/freeze-analysis-plan.py",
+      "original_sha256": "19b57267434a3961a893e96bb09757393c28910485eb6063182008eb19b6419d",
+      "original_bytes": 4928,
+      "stored_sha256": "19b57267434a3961a893e96bb09757393c28910485eb6063182008eb19b6419d",
+      "stored_bytes": 4928
+    },
+    {
+      "file": "frozen/freeze-r2-frost-subgroups-v1.py",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/freeze-r2-frost-subgroups-v1.py",
+      "original_sha256": "f1939dc9607d67cafe7104a89f9a89012739b23cd643d093c3f95571bc1e2b30",
+      "original_bytes": 4358,
+      "stored_sha256": "f1939dc9607d67cafe7104a89f9a89012739b23cd643d093c3f95571bc1e2b30",
+      "stored_bytes": 4358
+    },
+    {
+      "file": "masks/primary-ingress75-excessB-mask.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/primary-ingress75-excessB-mask.png",
+      "original_sha256": "57b0af6778f510de5dd08a326e9d3d2e871635fd741321ee8411a5db831550fb",
+      "original_bytes": 231,
+      "stored_sha256": "57b0af6778f510de5dd08a326e9d3d2e871635fd741321ee8411a5db831550fb",
+      "stored_bytes": 231
+    },
+    {
+      "file": "masks/primary-ingress75-excessB-world.csv",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/primary-ingress75-excessB-world.csv",
+      "original_sha256": "34469d8cd1bf5a2bbf0d3d0d8a4266cba6a9266828abfd1dcbc7b33d19ff2ff0",
+      "original_bytes": 4544,
+      "stored_sha256": "34469d8cd1bf5a2bbf0d3d0d8a4266cba6a9266828abfd1dcbc7b33d19ff2ff0",
+      "stored_bytes": 4544
+    },
+    {
+      "file": "masks/r2-frost-subgroups-frozen-v1/freeze.json",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/r2-frost-subgroups-frozen-v1/freeze.json",
+      "original_sha256": "fe269ec10915850ace9319cdab100600b9b879cbcb4b333e554c640c23853177",
+      "original_bytes": 5579,
+      "stored_sha256": "fe269ec10915850ace9319cdab100600b9b879cbcb4b333e554c640c23853177",
+      "stored_bytes": 5579
+    },
+    {
+      "file": "masks/r2-frost-subgroups-frozen-v1/frost_band222_inset1_5_to7.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/r2-frost-subgroups-frozen-v1/frost_band222_inset1_5_to7.png",
+      "original_sha256": "7fc0d85e9bf644c0d9d5f50147ac36bdf2bb764498fda82db9d2e7da27169305",
+      "original_bytes": 236,
+      "stored_sha256": "7fc0d85e9bf644c0d9d5f50147ac36bdf2bb764498fda82db9d2e7da27169305",
+      "stored_bytes": 236
+    },
+    {
+      "file": "masks/r2-frost-subgroups-frozen-v1/masks.npz",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/r2-frost-subgroups-frozen-v1/masks.npz",
+      "original_sha256": "b14d5dcc4b908ae9154dc5ad4af182e1ffd1f19281fb3e71a6c3d490b8266d83",
+      "original_bytes": 188383,
+      "stored_sha256": "b14d5dcc4b908ae9154dc5ad4af182e1ffd1f19281fb3e71a6c3d490b8266d83",
+      "stored_bytes": 188383
+    },
+    {
+      "file": "masks/r2-frost-subgroups-frozen-v1/neutral138_sourceG_le4.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/r2-frost-subgroups-frozen-v1/neutral138_sourceG_le4.png",
+      "original_sha256": "84753bab837259f7f30c96bd9e40bcfd155b36953536c44b33eaef26eba33aec",
+      "original_bytes": 215,
+      "stored_sha256": "84753bab837259f7f30c96bd9e40bcfd155b36953536c44b33eaef26eba33aec",
+      "stored_bytes": 215
+    },
+    {
+      "file": "masks/r2-frost-subgroups-frozen-v1/reverse68_sourceG_gt24.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/r2-frost-subgroups-frozen-v1/reverse68_sourceG_gt24.png",
+      "original_sha256": "c3bdb42a178dc40cc703451f7bd692250c9e63536c1f96aaef3ee165fc1f567e",
+      "original_bytes": 192,
+      "stored_sha256": "c3bdb42a178dc40cc703451f7bd692250c9e63536c1f96aaef3ee165fc1f567e",
+      "stored_bytes": 192
+    },
+    {
+      "file": "masks/r2-frost-subgroups-frozen-v1/target.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/r2-frost-subgroups-frozen-v1/target.png",
+      "original_sha256": "57b0af6778f510de5dd08a326e9d3d2e871635fd741321ee8411a5db831550fb",
+      "original_bytes": 231,
+      "stored_sha256": "57b0af6778f510de5dd08a326e9d3d2e871635fd741321ee8411a5db831550fb",
+      "stored_bytes": 231
+    },
+    {
+      "file": "sources/witness/shape-spec.json",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/shape-spec.json",
+      "original_sha256": "ad21ef7966ff4a689baf3c6c39237d8a8cb1dae090ae0c911c907f737ef139f1",
+      "original_bytes": 42579,
+      "stored_sha256": "ad21ef7966ff4a689baf3c6c39237d8a8cb1dae090ae0c911c907f737ef139f1",
+      "stored_bytes": 42579
+    },
+    {
+      "file": "sources/witness/inputs/manifest.json",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/manifest.json",
+      "original_sha256": "ef9ea293d10d89bc0968b505b8d3d741e0a16a1c9b42d71622c4e52698215dd4",
+      "original_bytes": 1686,
+      "stored_sha256": "ef9ea293d10d89bc0968b505b8d3d741e0a16a1c9b42d71622c4e52698215dd4",
+      "stored_bytes": 1686
+    },
+    {
+      "file": "sources/witness/inputs/st00_flat128.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st00_flat128.png",
+      "original_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "original_bytes": 5221,
+      "stored_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "stored_bytes": 5221
+    },
+    {
+      "file": "sources/witness/inputs/st01_rgb_star_gwitness_d16.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st01_rgb_star_gwitness_d16.png",
+      "original_sha256": "3f714f7dc170d5bacf52bfa9ba51dc61cc31a3d4698ce5552543f9ddd875880e",
+      "original_bytes": 6921,
+      "stored_sha256": "3f714f7dc170d5bacf52bfa9ba51dc61cc31a3d4698ce5552543f9ddd875880e",
+      "stored_bytes": 6921
+    },
+    {
+      "file": "sources/witness/inputs/st02_rgb_star6_d16.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st02_rgb_star6_d16.png",
+      "original_sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "original_bytes": 5828,
+      "stored_sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "stored_bytes": 5828
+    },
+    {
+      "file": "sources/witness/inputs/st03_rgb_star7_d16.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st03_rgb_star7_d16.png",
+      "original_sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "original_bytes": 5921,
+      "stored_sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "stored_bytes": 5921
+    },
+    {
+      "file": "sources/witness/inputs/st04_rgb_star8_d16.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st04_rgb_star8_d16.png",
+      "original_sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "original_bytes": 5997,
+      "stored_sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "stored_bytes": 5997
+    },
+    {
+      "file": "sources/witness/inputs/st05_rgb_star5_d12.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st05_rgb_star5_d12.png",
+      "original_sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "original_bytes": 5634,
+      "stored_sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "stored_bytes": 5634
+    },
+    {
+      "file": "sources/witness/inputs/st06_rgb_star6_d12.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st06_rgb_star6_d12.png",
+      "original_sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "original_bytes": 5673,
+      "stored_sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "stored_bytes": 5673
+    },
+    {
+      "file": "sources/witness/inputs/st07_rgb_star7_d12.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/inputs/st07_rgb_star7_d12.png",
+      "original_sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+      "original_bytes": 5751,
+      "stored_sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+      "stored_bytes": 5751
+    },
+    {
+      "file": "sources/control/shape-spec.json",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/shape-spec.json",
+      "original_sha256": "dc06904e099b192c62f7fc4c4be35b6d779ae23227f9f0ba5f250d2b6c205f03",
+      "original_bytes": 42520,
+      "stored_sha256": "dc06904e099b192c62f7fc4c4be35b6d779ae23227f9f0ba5f250d2b6c205f03",
+      "stored_bytes": 42520
+    },
+    {
+      "file": "sources/control/inputs/manifest.json",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/manifest.json",
+      "original_sha256": "405b9a95158137014f29a01477a0e5922a31cd4f139d3f9fbfd6622eaef4c4e6",
+      "original_bytes": 1686,
+      "stored_sha256": "405b9a95158137014f29a01477a0e5922a31cd4f139d3f9fbfd6622eaef4c4e6",
+      "stored_bytes": 1686
+    },
+    {
+      "file": "sources/control/inputs/st00_flat128.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st00_flat128.png",
+      "original_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "original_bytes": 5221,
+      "stored_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "stored_bytes": 5221
+    },
+    {
+      "file": "sources/control/inputs/st01_rgb_star_gneutral_d16.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st01_rgb_star_gneutral_d16.png",
+      "original_sha256": "b72e79710471f00868b5e7ee56548614bbe153e1f59ca43bf241085dce3bca7a",
+      "original_bytes": 6895,
+      "stored_sha256": "b72e79710471f00868b5e7ee56548614bbe153e1f59ca43bf241085dce3bca7a",
+      "stored_bytes": 6895
+    },
+    {
+      "file": "sources/control/inputs/st02_rgb_star6_d16.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st02_rgb_star6_d16.png",
+      "original_sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "original_bytes": 5828,
+      "stored_sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "stored_bytes": 5828
+    },
+    {
+      "file": "sources/control/inputs/st03_rgb_star7_d16.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st03_rgb_star7_d16.png",
+      "original_sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "original_bytes": 5921,
+      "stored_sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "stored_bytes": 5921
+    },
+    {
+      "file": "sources/control/inputs/st04_rgb_star8_d16.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st04_rgb_star8_d16.png",
+      "original_sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "original_bytes": 5997,
+      "stored_sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "stored_bytes": 5997
+    },
+    {
+      "file": "sources/control/inputs/st05_rgb_star5_d12.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st05_rgb_star5_d12.png",
+      "original_sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "original_bytes": 5634,
+      "stored_sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "stored_bytes": 5634
+    },
+    {
+      "file": "sources/control/inputs/st06_rgb_star6_d12.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st06_rgb_star6_d12.png",
+      "original_sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "original_bytes": 5673,
+      "stored_sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "stored_bytes": 5673
+    },
+    {
+      "file": "sources/control/inputs/st07_rgb_star7_d12.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/inputs/st07_rgb_star7_d12.png",
+      "original_sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+      "original_bytes": 5751,
+      "stored_sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+      "stored_bytes": 5751
+    },
+    {
+      "file": "summaries/native-official-analysis.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analysis-native-v1_1/analysis.json",
+      "original_sha256": "feceb39f186030eb762568f205e8af762153e6d2e89453ac5f39ac95dee402ba",
+      "original_bytes": 17313091,
+      "stored_sha256": "a39196c44aa6cf01ab2026e86fab5e08876dcb8750421dbd42a0c97ecf2f8251",
+      "stored_bytes": 542653
+    },
+    {
+      "file": "metadata/native-witness-index.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/index-strict.json",
+      "original_sha256": "82096bbb110179c15ac679f258f9d9b8faf64697c64dcdf20b0b9cf81d4d6dca",
+      "original_bytes": 20167,
+      "stored_sha256": "760daa5f14a366048a28e535d1c463b97c00d9582f65224e887958fb1573f794",
+      "stored_bytes": 2085
+    },
+    {
+      "file": "metadata/native-witness-strict-receipt.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/native-feasibility-r1/endpoint-verification-strict.json",
+      "original_sha256": "362bb011707ce1b343d7a553f045d60d3a5da65b55aba31b92b76dd49a42c6c1",
+      "original_bytes": 2646576,
+      "stored_sha256": "768f39009b996ef3f68112309c10442cf36a8a7853e3b11fb7468c9e5440b540",
+      "stored_bytes": 144171
+    },
+    {
+      "file": "metadata/native-control-index.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/index-strict.json",
+      "original_sha256": "eb60f57da1a10b72eca12d07ee4d85b5d032e98e265f9bdd68191de21b840562",
+      "original_bytes": 20167,
+      "stored_sha256": "a6dc4a1a9012d8639d8158d21f6c2c5e6943a5b4466fcef80de8287d56c079f4",
+      "stored_bytes": 2081
+    },
+    {
+      "file": "metadata/native-control-strict-receipt.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/native-feasibility-r1/endpoint-verification-strict.json",
+      "original_sha256": "c8fdbdcda722247dc5e03be972f55c4adeabe2875208586e16b05e14ad37aafc",
+      "original_bytes": 2682407,
+      "stored_sha256": "3a4fc96abd0296e98b1f4216eed56711f947ad03560a752e4e234a908ce4cc94",
+      "stored_bytes": 136118
+    },
+    {
+      "file": "summaries/r2-official-analysis.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analysis-android-v1_1/analysis.json",
+      "original_sha256": "a35cf7f3e889686df92fc6e58ba56c0205f0e860b82392c622c9e67d07eafc80",
+      "original_bytes": 18335939,
+      "stored_sha256": "88ae8593d5e6ae8b0b7900d9e69480ddf74be2026b4ebf310e57daeaca3ace27",
+      "stored_bytes": 616032
+    },
+    {
+      "file": "metadata/r2-witness-index.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/index-original.json",
+      "original_sha256": "1de9e3cbb21fb841c1e841e12477db3b62dd5c33096982cfb43c8c7b06a6db8e",
+      "original_bytes": 49173,
+      "stored_sha256": "72dc65dc8eba56c44187c06545f7bbd414066c05066a4f941339581d7c71d308",
+      "stored_bytes": 5075
+    },
+    {
+      "file": "metadata/r2-witness-source-result.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/trace/result.json",
+      "original_sha256": "ce009473ae436af5bb825b48ca2e3f53815fbbaa3d3d44ddeb2c001411e3fb67",
+      "original_bytes": 2321213,
+      "stored_sha256": "6e6dbf84f28f2790257bd8791fd199db31654fa8fa0f85b952d0d207418240d6",
+      "stored_bytes": 167813
+    },
+    {
+      "file": "metadata/r2-witness-host-receipt.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-quadratic-witness-r1/receipt.json",
+      "original_sha256": "f2961d51d520cde1882d2275daea24d82a50ff738be9497d561cacee8978414e",
+      "original_bytes": 13710,
+      "stored_sha256": "f036ea17be2266558a2058c158fc37cf6123a6375a6e3dc10551004308f4e333",
+      "stored_bytes": 3484
+    },
+    {
+      "file": "tools/original-index-android-shape-captures.py",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/index-android-shape-captures.py",
+      "original_sha256": "b5577513ed38f56cbcd3402aa4b7fe8b2651463e7b8cb0dcb6ac0bb02df81d61",
+      "original_bytes": 10629,
+      "stored_sha256": "b5577513ed38f56cbcd3402aa4b7fe8b2651463e7b8cb0dcb6ac0bb02df81d61",
+      "stored_bytes": 10629
+    },
+    {
+      "file": "metadata/r2-control-index.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/index-original.json",
+      "original_sha256": "664f302e3a562a0e9c2fb4f67fb46b3b5bb123cceb8e7fa6837e4d5a327827cc",
+      "original_bytes": 49173,
+      "stored_sha256": "4866cdd36a4680193da156d96fb0319bfaddbd0e225c6506ac2113ea6a7a2eda",
+      "stored_bytes": 5069
+    },
+    {
+      "file": "metadata/r2-control-source-result.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/trace/result.json",
+      "original_sha256": "d214fa5bde5e4bfa9c6e6898b16456505d963260d5c467a5c4410d687c51a566",
+      "original_bytes": 2321197,
+      "stored_sha256": "983403a743ab7a37362588a52d07b6f6d286a8990465690697c70fcb8fcd254b",
+      "stored_bytes": 167884
+    },
+    {
+      "file": "metadata/r2-control-host-receipt.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-quadratic-control-r1/receipt.json",
+      "original_sha256": "46e279de40eec0eef9048e11b1bab7d09d27191c5ad5289beddc2d533dfb8679",
+      "original_bytes": 13710,
+      "stored_sha256": "0a82c8443456415ae8357d4bc2dfb6b5bed6fc6353acc9fb697e16ddd11414bd",
+      "stored_bytes": 3459
+    },
+    {
+      "file": "summaries/r3-official-analysis.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analysis-android-frost-half-r3-v1_1/analysis.json",
+      "original_sha256": "0ae43663c56dfb6055f4b8df19abc7849f88c64360b7f9dc8a27be41acf734ab",
+      "original_bytes": 18501571,
+      "stored_sha256": "95a3cbb62d457400a07d2a02afc1154222ad1b0ddd210ab488658240e1bcc0a5",
+      "stored_bytes": 614627
+    },
+    {
+      "file": "metadata/r3-witness-index.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/index-original.json",
+      "original_sha256": "253113ebf8453acd32eedfcb8201a3bd992dbaa982d8251f7ae73af02db8d448",
+      "original_bytes": 49397,
+      "stored_sha256": "26b2253706b6b60bc7f0e18f92cc398687f11224ca066eb12b946fca007e75ec",
+      "stored_bytes": 5082
+    },
+    {
+      "file": "metadata/r3-witness-source-result.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/trace/result.json",
+      "original_sha256": "e38943b3bce85b38474f34a8d4d3bb9676127efce9cf0942a092b0d6f68adbe5",
+      "original_bytes": 2321236,
+      "stored_sha256": "aa73f0fa702d726f54cdc2e01b26d034394899c0d861930fcf07b41233216739",
+      "stored_bytes": 167818
+    },
+    {
+      "file": "metadata/r3-witness-host-receipt.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-frost-half-witness-clean-r3/receipt.json",
+      "original_sha256": "69c08516383631c76b79eeaaa1f67f0c94420fb2f7c0993afa4abfdc5d932574",
+      "original_bytes": 13723,
+      "stored_sha256": "92a4da0574aaa49baad270bf9964d056510dff20bc63b3cea883bc8be7992284",
+      "stored_bytes": 3425
+    },
+    {
+      "file": "metadata/r3-control-index.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/index-original.json",
+      "original_sha256": "06190d703a606d36c1ea9626bb5ad225ca3d86bd044cb1b47fe03037e537a3c6",
+      "original_bytes": 49205,
+      "stored_sha256": "3ff3850928daeed4fb7f19ecb91fd22509428a7859b0b76bdcbb5d2f14a2f4df",
+      "stored_bytes": 5076
+    },
+    {
+      "file": "metadata/r3-control-source-result.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/trace/result.json",
+      "original_sha256": "caf2a70bf9e7dea70f27d96cc1af0f5a3fab0da4781c560bd964c2712f5810fb",
+      "original_bytes": 2321170,
+      "stored_sha256": "3776a125d220f2655c917e032cf8254cf85f02f2e2c0dae5b538a3709334f924",
+      "stored_bytes": 167862
+    },
+    {
+      "file": "metadata/r3-control-host-receipt.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-frost-half-control-r3/receipt.json",
+      "original_sha256": "09ecf6d33b4b5e1c0d4cb47d029e67cdbf7251c65b27f0331bbf5ed23a94a460",
+      "original_bytes": 13712,
+      "stored_sha256": "6b61f27d2000893fe58d34f03dcc245d57f7c05763b6f668cb45ba165e30bd3d",
+      "stored_bytes": 3412
+    },
+    {
+      "file": "summaries/r4-official-analysis.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analysis-android-narrow-shoulder-r4-v1_1/analysis.json",
+      "original_sha256": "360cf3d33bbe2a6b57b1950adb3b4f61a46de9b6f2e1478e26b86a2e5f577a3e",
+      "original_bytes": 18070332,
+      "stored_sha256": "2809ce24901f8780612495a5a50c592e717cc9ef7096dbf495908a94d292ee9c",
+      "stored_bytes": 603783
+    },
+    {
+      "file": "metadata/r4-witness-index.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/index-original.json",
+      "original_sha256": "b7d5bbb20efeb4e6a267d67f8a37b1d1e7324cb7ed09f5459da7cce2f182b647",
+      "original_bytes": 49365,
+      "stored_sha256": "be8fa068798e581c10535783b1316a0e7d33eb0989e3f79bb1efdb902edf043e",
+      "stored_bytes": 5070
+    },
+    {
+      "file": "metadata/r4-witness-source-result.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/trace/result.json",
+      "original_sha256": "fe15f235170026df704dca8dcf4d67b2ab66f8305498968bb667861bcf35cee4",
+      "original_bytes": 2321323,
+      "stored_sha256": "d44a2eb946ada1231028ce7b0ced7b0d8edf2d8179b06757c61364d2fa8e5dd8",
+      "stored_bytes": 167874
+    },
+    {
+      "file": "metadata/r4-witness-host-receipt.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/witness/android-matched-native-v1/android-narrow-shoulder-witness-r4/receipt.json",
+      "original_sha256": "028b493ccaa2ded8912c549274a56b3f12ccda7af0ed2651bacbc4570cc6228a",
+      "original_bytes": 13720,
+      "stored_sha256": "22cd99806df7d26e137730ef7ad91fb5ca0005f27f84a3e55954bfca0d9b7bc4",
+      "stored_bytes": 3454
+    },
+    {
+      "file": "metadata/r4-control-index.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/index-original.json",
+      "original_sha256": "46a87bfc2c23a720cce38fa66b827b5f166846635b97a9b74dd17fad383ea833",
+      "original_bytes": 49365,
+      "stored_sha256": "6ee82ad2649c7b25a20cd67b98aea4f85ab0927f8961398c0ccef267636e935a",
+      "stored_bytes": 5087
+    },
+    {
+      "file": "metadata/r4-control-source-result.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/trace/result.json",
+      "original_sha256": "c3cd6033330109bb968e99d87c38839a95d0d1081fe4247bb547e6f4361b6042",
+      "original_bytes": 2321235,
+      "stored_sha256": "819abe1bb7c889f5a892f392aa23f5e0cf7427e34fa5f2746a814d1a85c5b387",
+      "stored_bytes": 167857
+    },
+    {
+      "file": "metadata/r4-control-host-receipt.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/control/android-matched-native-v1/android-narrow-shoulder-control-r4/receipt.json",
+      "original_sha256": "4688a469385a5157ad5b7426a41e15491144d3743faaa0bbaa7c2d299bae1b80",
+      "original_bytes": 13722,
+      "stored_sha256": "280e33cdb6451a4bd54e62eda0a914daa82758145476bcfa49c0998254b9ce37",
+      "stored_bytes": 3446
+    },
+    {
+      "file": "summaries/r3-rejection.md",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/frost-half-r3-comparison-v1/VERDICT.md",
+      "original_sha256": "8e109ceede3672f55cf4db35c8e7373cd6f40db146233660c53aac26a1bfe8e1",
+      "original_bytes": 3574,
+      "stored_sha256": "8e109ceede3672f55cf4db35c8e7373cd6f40db146233660c53aac26a1bfe8e1",
+      "stored_bytes": 3574
+    },
+    {
+      "file": "summaries/r4-review.md",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/narrow-shoulder-r4-comparison-v1/REVIEW.md",
+      "original_sha256": "e78ed0a4d8eb055d15574be257905eb0b83df2b35288817add1f43379eba7617",
+      "original_bytes": 7290,
+      "stored_sha256": "e78ed0a4d8eb055d15574be257905eb0b83df2b35288817add1f43379eba7617",
+      "stored_bytes": 7290
+    },
+    {
+      "file": "summaries/r4-support-set-differences.json",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/narrow-shoulder-r4-comparison-v1/support-set-differences.json",
+      "original_sha256": "1e38fc16b1a36d8e5176767147514901d2f2b8a08a53439d9b7f89c76250566d",
+      "original_bytes": 201403,
+      "stored_sha256": "1e38fc16b1a36d8e5176767147514901d2f2b8a08a53439d9b7f89c76250566d",
+      "stored_bytes": 201403
+    },
+    {
+      "file": "frozen/source-preview.png",
+      "compression": "none",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/source-preview.png",
+      "original_sha256": "469485cc92d1268d639e952c2dbd01b2b51425df68e5cfd5b7765e15a76abc71",
+      "original_bytes": 9446,
+      "stored_sha256": "469485cc92d1268d639e952c2dbd01b2b51425df68e5cfd5b7765e15a76abc71",
+      "stored_bytes": 9446
+    }
+  ],
+  "analysis_files": {
+    "native": {
+      "file": "summaries/native-official-analysis.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analysis-native-v1_1/analysis.json",
+      "original_sha256": "feceb39f186030eb762568f205e8af762153e6d2e89453ac5f39ac95dee402ba",
+      "original_bytes": 17313091,
+      "stored_sha256": "a39196c44aa6cf01ab2026e86fab5e08876dcb8750421dbd42a0c97ecf2f8251",
+      "stored_bytes": 542653
+    },
+    "r2": {
+      "file": "summaries/r2-official-analysis.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analysis-android-v1_1/analysis.json",
+      "original_sha256": "a35cf7f3e889686df92fc6e58ba56c0205f0e860b82392c622c9e67d07eafc80",
+      "original_bytes": 18335939,
+      "stored_sha256": "88ae8593d5e6ae8b0b7900d9e69480ddf74be2026b4ebf310e57daeaca3ace27",
+      "stored_bytes": 616032
+    },
+    "r3": {
+      "file": "summaries/r3-official-analysis.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analysis-android-frost-half-r3-v1_1/analysis.json",
+      "original_sha256": "0ae43663c56dfb6055f4b8df19abc7849f88c64360b7f9dc8a27be41acf734ab",
+      "original_bytes": 18501571,
+      "stored_sha256": "95a3cbb62d457400a07d2a02afc1154222ad1b0ddd210ab488658240e1bcc0a5",
+      "stored_bytes": 614627
+    },
+    "r4": {
+      "file": "summaries/r4-official-analysis.json.gz",
+      "compression": "gzip",
+      "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/green-witness-calibration-v1/analysis-android-narrow-shoulder-r4-v1_1/analysis.json",
+      "original_sha256": "360cf3d33bbe2a6b57b1950adb3b4f61a46de9b6f2e1478e26b86a2e5f577a3e",
+      "original_bytes": 18070332,
+      "stored_sha256": "2809ce24901f8780612495a5a50c592e717cc9ef7096dbf495908a94d292ee9c",
+      "stored_bytes": 603783
+    }
+  },
+  "android_adapter": {
+    "file": "tools/original-index-android-shape-captures.py",
+    "compression": "none",
+    "original_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/index-android-shape-captures.py",
+    "original_sha256": "b5577513ed38f56cbcd3402aa4b7fe8b2651463e7b8cb0dcb6ac0bb02df81d61",
+    "original_bytes": 10629,
+    "stored_sha256": "b5577513ed38f56cbcd3402aa4b7fe8b2651463e7b8cb0dcb6ac0bb02df81d61",
+    "stored_bytes": 10629
+  },
+  "current_decision": {
+    "r3": "rejected frost-half intervention",
+    "r4": "substantial G improvement retained as experiment; not selected as general default due original RGB 5/6/8 local multi-shape regressions",
+    "restored_runtime_checkpoint": "r2 A7.8/W7.5; not accepted/passed",
+    "independent_acceptance": false
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "status": "passed_portable_ROI_metric_replay",
+  "scope": "Portable cropped ROI replay only; not reacceptance of uncopied full-screen acquisition",
+  "frozen_analyzer_sha256": "ef475784d5aed32b0dc522ae80c5ff760ad6779a5ef676c5c0de2737307ac2d1",
+  "manifest_sha256": "2b1572f632b852fc9e044be9b1c6912db4e990885d1adf20f510fffb733d90bf",
+  "versions": {
+    "native": {
+      "ingress01": {
+        "status": "COMPARABLE",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "ingress10": {
+        "status": "COMPARABLE",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "ingress50": {
+        "status": "COMPARABLE",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "ingress75": {
+        "status": "COMPARABLE",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "full100": {
+        "status": "COMPARABLE",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "far50": {
+        "status": "COMPARABLE",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      }
+    },
+    "r2": {
+      "ingress01": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "ingress10": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "ingress50": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "ingress75": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "full100": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "far50": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      }
+    },
+    "r3": {
+      "ingress01": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "ingress10": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "ingress50": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "ingress75": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "full100": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "far50": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      }
+    },
+    "r4": {
+      "ingress01": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "ingress10": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "ingress50": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "ingress75": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "full100": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      },
+      "far50": {
+        "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+        "all_official_metrics_match": true,
+        "flat_drift_gate": {
+          "status": "passed",
+          "bilinear_world_grid_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "original_pixel_encoded_RGB_absolute_p99": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "limit_each_channel": 3
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Original full-screen screenshot hashes are preserved provenance, not independently reconstructable from crops.",
+    "Accepted acquisition indexes and geometry receipts are archived as exact bytes, but no device recapture occurs.",
+    "Android effective opacity remains unknown; all current rounds are calibration."
+  ],
+  "subgroup_masks_rebuilt_from_r2_only": true,
+  "r4_actual_added_removed_support_counts_match": true,
+  "r3_r4_actual_added_removed_support_counts_match": true
+}

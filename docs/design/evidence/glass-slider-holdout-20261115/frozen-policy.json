@@ -1,0 +1,369 @@
+{
+  "schema": 1,
+  "status": "frozen_before_any_holdout_capture",
+  "input_role": "holdout",
+  "default_cli_input_role": "calibration",
+  "role_contract": "Explicit --input-role holdout is mandatory for holdout manifests. Manifest split and any spec protocol_split must exactly match. Source hashes and original image/mask reconstruction remain enforced. Android adapter also verifies captured manifest SHA and source identities.",
+  "calibration_frozen_policy": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/analysis/frozen-star-candidate-policy-v1.json",
+    "sha256": "f2530e06548f11a930371cf0edb7a6cd2511950ee1eac774c73ee84dfffcbb6d",
+    "exact_tool_snapshots": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/analysis/frozen-calibration-tools-v1/snapshot-manifest.json"
+  },
+  "fixed_analysis_policy_unchanged": {
+    "projection_thresholds_byte": [
+      4.0,
+      8.0,
+      16.0,
+      24.0
+    ],
+    "primary_projection_threshold_byte": 8.0,
+    "minimum_color_cosine": 0.8,
+    "fixed_roi_xyxy_world": [
+      165.5,
+      397.5,
+      209.5,
+      441.5
+    ],
+    "morphological_closing_or_opening": false,
+    "largest_component_selection": false,
+    "color_profile_normalization_or_registration": false,
+    "region_color_direction_unit_rgb": {
+      "left_blue": [
+        -0.40824829046386296,
+        -0.40824829046386296,
+        0.816496580927726
+      ],
+      "middle_red": [
+        0.816496580927726,
+        -0.40824829046386296,
+        -0.40824829046386296
+      ],
+      "right_green": [
+        -0.40824829046386296,
+        0.816496580927726,
+        -0.40824829046386296
+      ]
+    }
+  },
+  "all_math_helper_AST_unchanged_from_calibration": [
+    "require",
+    "read",
+    "sha",
+    "entry",
+    "resolve",
+    "rgb_image",
+    "mask_image",
+    "mapping",
+    "crop_roi",
+    "weighted_geometry",
+    "byte_signal_moments",
+    "edge_segments",
+    "components",
+    "nearest_distance",
+    "distance_summary",
+    "source_membership",
+    "original_area_sample_points",
+    "public_bounds_overlap",
+    "requested_public_bounds",
+    "color_stats",
+    "scalar_stats",
+    "source_edge_profile",
+    "contour_descriptor",
+    "threshold_descriptors",
+    "fixed_direction_support",
+    "observed_color_regions",
+    "validate_capture_context",
+    "make_stage_images",
+    "contact_sheet",
+    "line_chart"
+  ],
+  "scripts": [
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/analyze-shape-captures.py",
+      "snapshot_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/analysis/frozen-holdout-tools-v1/analyze-shape-captures.py",
+      "sha256": "ab3e0a22d8614d262c4083de8eb52d9a6382e4a83b4803ac239046290d343c6a"
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/index-android-shape-captures.py",
+      "snapshot_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/analysis/frozen-holdout-tools-v1/index-android-shape-captures.py",
+      "sha256": "b5577513ed38f56cbcd3402aa4b7fe8b2651463e7b8cb0dcb6ac0bb02df81d61"
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/compare-shape-captures.py",
+      "snapshot_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/analysis/frozen-holdout-tools-v1/compare-shape-captures.py",
+      "sha256": "f67a6160d6b2cc71075af41b09a8078ddcfdd962970e8ba61b4d7dd081af545e"
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/compare-shape-baselines.py",
+      "snapshot_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/analysis/frozen-holdout-tools-v1/compare-shape-baselines.py",
+      "sha256": "3e312cf02307e46ad271450d60e549665c2e986fcfd8d9789a187009d05d4d3d"
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/compare-shape-candidates.py",
+      "snapshot_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/analysis/frozen-holdout-tools-v1/compare-shape-candidates.py",
+      "sha256": "c6b0bfd880efba16b40bd9f872204cedd9b50fafc7baf0c18a4321453c59f203"
+    }
+  ],
+  "validation_sources": [
+    {
+      "directory": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star8-d16",
+      "spec": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star8-d16/shape-spec.json",
+        "sha256": "073565c8b9f03cfb29762ada32f6fb89bfdeb79bf0cc1de27d7b99dc335503b6"
+      },
+      "manifest": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star8-d16/inputs/manifest.json",
+        "sha256": "d807b924713d5b4f1256a1b62dee1d54ca035e81983047ed7f98e435f169bf36",
+        "bytes": 1624
+      },
+      "shape_id": "st04_rgb_star8_d16",
+      "size_pt": 16.0,
+      "input_role": "holdout",
+      "protocol_split": "holdout",
+      "pre_capture_validation_state": "UNSAMPLED",
+      "original_source": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star8-d16/inputs/st04_rgb_star8_d16.png",
+        "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+        "bytes": 5997
+      },
+      "whole_coverage_mask": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star8-d16/masks/st04_rgb_star8_d16-coverage16.png",
+        "sha256": "b007afeb34ec62e39fb475540a3bea9aac68b22340cda7a98e32e7593a03467b",
+        "bytes": 1404
+      },
+      "whole_binary_support": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star8-d16/masks/st04_rgb_star8_d16-support.png",
+        "sha256": "37c5817ddf682b7768715f7739496183ace1bc4c67b46f88d8985e726d4d305c",
+        "bytes": 1217
+      },
+      "region_masks": [
+        {
+          "region_id": "left_blue",
+          "coverage_mask": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star8-d16/masks/st04_rgb_star8_d16-left_blue-coverage16.png",
+            "sha256": "16bfa4b9a12f4f3c12fe214af6a9a00aa82e9c22258c9e9d1754abab8ab4b698",
+            "bytes": 1206
+          },
+          "binary_mask": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star8-d16/masks/st04_rgb_star8_d16-left_blue-support.png",
+            "sha256": "8bb94797da8cfebd3a32b066741cf74c2e5a269a39a0f9a1ed4180bd6a66b4f0",
+            "bytes": 1135
+          }
+        },
+        {
+          "region_id": "middle_red",
+          "coverage_mask": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star8-d16/masks/st04_rgb_star8_d16-middle_red-coverage16.png",
+            "sha256": "cf0825e9d91c00b0d0bfac5d7f11183ce4fafbc210b9263e0299d23c79c84eb9",
+            "bytes": 1212
+          },
+          "binary_mask": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star8-d16/masks/st04_rgb_star8_d16-middle_red-support.png",
+            "sha256": "bd70a94b2414a97c0f9a64385f26e6b6b277394a2b7b381c9949a5000c996e80",
+            "bytes": 1124
+          }
+        },
+        {
+          "region_id": "right_green",
+          "coverage_mask": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star8-d16/masks/st04_rgb_star8_d16-right_green-coverage16.png",
+            "sha256": "227171dd0daf024ff6f4053e23754160147ab8a30206c98b153f0a41639a87e7",
+            "bytes": 1209
+          },
+          "binary_mask": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star8-d16/masks/st04_rgb_star8_d16-right_green-support.png",
+            "sha256": "16ef706c8fde928de56618d1101cf0d3ccb9e87890feee5b7e6742388eb73ab5",
+            "bytes": 1136
+          }
+        }
+      ],
+      "fixed_roi_xyxy_world": [
+        165.5,
+        397.5,
+        209.5,
+        441.5
+      ],
+      "original_source_area_world2": 88.1875,
+      "original_4x4_sample_count": 5644,
+      "source_only_validation": "passed exactRGB/masks/ICC/SHA/4x4 geometry, wrong/default role rejected"
+    },
+    {
+      "directory": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12",
+      "spec": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/shape-spec.json",
+        "sha256": "6986900b4de6b2f1bcdc15ab4c2e97ca563617e216dbb569e7b841dafcc7edaf"
+      },
+      "manifest": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/inputs/manifest.json",
+        "sha256": "6930d906ce298120662802ca93ac0cce84ec84b17926c3638b97a6729b24574c",
+        "bytes": 1624
+      },
+      "shape_id": "st06_rgb_star6_d12",
+      "size_pt": 12.0,
+      "input_role": "holdout",
+      "protocol_split": "holdout",
+      "pre_capture_validation_state": "UNSAMPLED",
+      "original_source": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/inputs/st06_rgb_star6_d12.png",
+        "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+        "bytes": 5673
+      },
+      "whole_coverage_mask": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/masks/st06_rgb_star6_d12-coverage16.png",
+        "sha256": "578b89fe7f4c0e23c786f6a929e128208662e57de763590a8d55d4f959755b50",
+        "bytes": 1269
+      },
+      "whole_binary_support": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/masks/st06_rgb_star6_d12-support.png",
+        "sha256": "88ba9f2eead743fd1bab0fc84ff398ad4698d537b287d7bef6064383c3051cc7",
+        "bytes": 1161
+      },
+      "region_masks": [
+        {
+          "region_id": "left_blue",
+          "coverage_mask": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/masks/st06_rgb_star6_d12-left_blue-coverage16.png",
+            "sha256": "d22d33eb8442013c238ff5ca1b71159d1bf4b37641d288a94b95dd0beecdc5da",
+            "bytes": 1135
+          },
+          "binary_mask": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/masks/st06_rgb_star6_d12-left_blue-support.png",
+            "sha256": "9c357bbc9d7a117215f906b3a7aa654687bc3ac66a70201a0ce5c765e28f1fd0",
+            "bytes": 1094
+          }
+        },
+        {
+          "region_id": "middle_red",
+          "coverage_mask": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/masks/st06_rgb_star6_d12-middle_red-coverage16.png",
+            "sha256": "11e0eb3d06abed278b88e4881b50041900d9c4ff6039cbd01aa03436a1566146",
+            "bytes": 1162
+          },
+          "binary_mask": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/masks/st06_rgb_star6_d12-middle_red-support.png",
+            "sha256": "9044b292859fd4287f72a010047c9af9f9432347a23124711e14a073a3845646",
+            "bytes": 1106
+          }
+        },
+        {
+          "region_id": "right_green",
+          "coverage_mask": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/masks/st06_rgb_star6_d12-right_green-coverage16.png",
+            "sha256": "49c968bc242180a4e400f1ca36b76658bb37e9ea7543cdb149985064a1f51f13",
+            "bytes": 1140
+          },
+          "binary_mask": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/slider-shape-transport-20261115/validation-star6-d12/masks/st06_rgb_star6_d12-right_green-support.png",
+            "sha256": "d65d01c23ff008aa8d181d9192b9a5892d79d1ae00e8cdeddb2ee4c4a7acdcc9",
+            "bytes": 1094
+          }
+        }
+      ],
+      "fixed_roi_xyxy_world": [
+        165.5,
+        397.5,
+        209.5,
+        441.5
+      ],
+      "original_source_area_world2": 48.6875,
+      "original_4x4_sample_count": 3116,
+      "source_only_validation": "passed exactRGB/masks/ICC/SHA/4x4 geometry, wrong/default role rejected"
+    }
+  ],
+  "source_mapping_policy": {
+    "device_pixel_world_coordinate": "(pixel center-observed source screen origin)/observed actual density; never resample measurement raster",
+    "canonical_source_geometry_to_screen": "source x*actualLayoutWidthPx/375, source y*actualLayoutHeightPx/667; independent x/y scale",
+    "canonical_source_geometry_to_actual_density_world": "source point*[layoutWidthPx/(density*375),layoutHeightPx/(density*667)]",
+    "android_r1_actual_scale_xy": [
+      1.0003361008290386,
+      0.9998361827376697
+    ],
+    "validated_android_r1_source_layout": {
+      "layout_size_px": [
+        1116,
+        1984
+      ],
+      "logical_size_dp": [
+        375.12604,
+        666.89075
+      ],
+      "density": 2.9750001,
+      "screen_origin_px": [
+        0,
+        0
+      ],
+      "screen_rect_px": [
+        0,
+        0,
+        1116,
+        1984
+      ],
+      "local_to_screen_corners_px": [
+        {
+          "local_px": [
+            0,
+            0
+          ],
+          "screen_px": [
+            0,
+            0
+          ]
+        },
+        {
+          "local_px": [
+            1116,
+            0
+          ],
+          "screen_px": [
+            1116,
+            0
+          ]
+        },
+        {
+          "local_px": [
+            0,
+            1984
+          ],
+          "screen_px": [
+            0,
+            1984
+          ]
+        },
+        {
+          "local_px": [
+            1116,
+            1984
+          ],
+          "screen_px": [
+            1116,
+            1984
+          ]
+        }
+      ],
+      "local_to_screen_unit_basis_px": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+    },
+    "distinction": "Canonical source masks are immutable. Only declared source sample coordinate mapping uses observed independent x/y layout scale. Screenshots and carrier coordinates are never source-normalized."
+  },
+  "analysis_rules": [
+    "No threshold, color-cone, ROI, source geometry, integration, contour, component or registration math changes.",
+    "Each shape is a separate six-stage/shape-flat matrix; declare source identity and holdout role in all new analysis/index/comparison outputs.",
+    "Use actual carrier bounds and independently observed x/y source layout scaling; canonical masks and original device pixels remain unchanged.",
+    "Native validity continues to require passed complete strict endpoint verifier. Android continues49original hash checks and actual consumed pointer/readiness/pair checks.",
+    "Both holdout sources remain holdout even after measurements; failures must be retained and not relabeled calibration.",
+    "No production-runtime changes, builds, devices, captures or old-data reanalysis were performed to prepare this policy."
+  ]
+}

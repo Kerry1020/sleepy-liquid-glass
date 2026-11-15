@@ -1,0 +1,298 @@
+{
+  "native": {
+    "ingress01": {
+      "complete_fixed_ROI": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      }
+    },
+    "ingress10": {
+      "complete_fixed_ROI": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      }
+    },
+    "ingress50": {
+      "complete_fixed_ROI": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      }
+    },
+    "ingress75": {
+      "complete_fixed_ROI": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      },
+      "reverse68_sourceG_gt24": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      },
+      "neutral138_sourceG_le4": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      },
+      "frost_band222_inset1_5_to7": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      }
+    },
+    "full100": {
+      "complete_fixed_ROI": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      }
+    },
+    "far50": {
+      "complete_fixed_ROI": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 0.0,
+        "MAE": 0.0
+      }
+    }
+  },
+  "r2": {
+    "ingress01": {
+      "complete_fixed_ROI": {
+        "RMSE": 1.2133392475707228,
+        "MAE": 0.133257114907607
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 4.894638546706194,
+        "MAE": 2.4758540232524315
+      }
+    },
+    "ingress10": {
+      "complete_fixed_ROI": {
+        "RMSE": 1.8144662194543593,
+        "MAE": 0.18268575466187875
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 4.935245273484017,
+        "MAE": 2.4807382883223226
+      }
+    },
+    "ingress50": {
+      "complete_fixed_ROI": {
+        "RMSE": 2.2814438706385682,
+        "MAE": 0.28797772164302377
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 7.482955388783147,
+        "MAE": 2.087957385392412
+      }
+    },
+    "ingress75": {
+      "complete_fixed_ROI": {
+        "RMSE": 3.6312850407530712,
+        "MAE": 0.6053949469669418
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 25.49340498322549,
+        "MAE": 22.676391266339564
+      },
+      "reverse68_sourceG_gt24": {
+        "RMSE": 35.9478415893551,
+        "MAE": 35.32155099175648
+      },
+      "neutral138_sourceG_le4": {
+        "RMSE": 16.159979039926544,
+        "MAE": 13.921882924282738
+      },
+      "frost_band222_inset1_5_to7": {
+        "RMSE": 27.262942554931225,
+        "MAE": 25.36340773409754
+      }
+    },
+    "full100": {
+      "complete_fixed_ROI": {
+        "RMSE": 2.3060446237896834,
+        "MAE": 0.37828866584826537
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 10.734068203289398,
+        "MAE": 8.793077302535327
+      }
+    },
+    "far50": {
+      "complete_fixed_ROI": {
+        "RMSE": 1.899947553007023,
+        "MAE": 0.1577613117062127
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 4.933761930268237,
+        "MAE": 2.496927236230273
+      }
+    }
+  },
+  "r3": {
+    "ingress01": {
+      "complete_fixed_ROI": {
+        "RMSE": 1.2133392475707228,
+        "MAE": 0.133257114907607
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 4.894638546706194,
+        "MAE": 2.4758540232524315
+      }
+    },
+    "ingress10": {
+      "complete_fixed_ROI": {
+        "RMSE": 1.8144662194543593,
+        "MAE": 0.18268575466187875
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 4.935245273484017,
+        "MAE": 2.4807382883223226
+      }
+    },
+    "ingress50": {
+      "complete_fixed_ROI": {
+        "RMSE": 2.5194101568055807,
+        "MAE": 0.27380634604467985
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 7.478357809774119,
+        "MAE": 2.021872184290745
+      }
+    },
+    "ingress75": {
+      "complete_fixed_ROI": {
+        "RMSE": 3.6779792571786984,
+        "MAE": 0.5763995685136073
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 21.22456492157235,
+        "MAE": 17.2570181568975
+      },
+      "reverse68_sourceG_gt24": {
+        "RMSE": 35.456169981722105,
+        "MAE": 33.66580779420921
+      },
+      "neutral138_sourceG_le4": {
+        "RMSE": 9.380791737849162,
+        "MAE": 8.124622462737769
+      },
+      "frost_band222_inset1_5_to7": {
+        "RMSE": 22.18121371360819,
+        "MAE": 18.591491729114793
+      }
+    },
+    "full100": {
+      "complete_fixed_ROI": {
+        "RMSE": 2.439543417052496,
+        "MAE": 0.40049387942883596
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 13.398533864071753,
+        "MAE": 10.963243759093263
+      }
+    },
+    "far50": {
+      "complete_fixed_ROI": {
+        "RMSE": 1.899947553007023,
+        "MAE": 0.1577613117062127
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 4.933761930268237,
+        "MAE": 2.496927236230273
+      }
+    }
+  },
+  "r4": {
+    "ingress01": {
+      "complete_fixed_ROI": {
+        "RMSE": 1.2128829079411805,
+        "MAE": 0.13320246098332458
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 4.894638546706194,
+        "MAE": 2.4758540232524315
+      }
+    },
+    "ingress10": {
+      "complete_fixed_ROI": {
+        "RMSE": 1.8188298387202126,
+        "MAE": 0.18309301540821638
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 4.935245273484017,
+        "MAE": 2.4807382883223226
+      }
+    },
+    "ingress50": {
+      "complete_fixed_ROI": {
+        "RMSE": 1.3861436741255146,
+        "MAE": 0.17160996237902867
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 7.478128636077188,
+        "MAE": 2.0154440058297762
+      }
+    },
+    "ingress75": {
+      "complete_fixed_ROI": {
+        "RMSE": 2.3764799654314017,
+        "MAE": 0.41296478164829875
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 9.927545613532152,
+        "MAE": 6.919698694462637
+      },
+      "reverse68_sourceG_gt24": {
+        "RMSE": 16.58327238201484,
+        "MAE": 15.629913220926095
+      },
+      "neutral138_sourceG_le4": {
+        "RMSE": 2.9243151110666714,
+        "MAE": 1.4692042677426875
+      },
+      "frost_band222_inset1_5_to7": {
+        "RMSE": 11.173486118711828,
+        "MAE": 8.585733477866949
+      }
+    },
+    "full100": {
+      "complete_fixed_ROI": {
+        "RMSE": 1.7632442387111524,
+        "MAE": 0.28223715914984054
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 7.53499977057995,
+        "MAE": 6.33836839697537
+      }
+    },
+    "far50": {
+      "complete_fixed_ROI": {
+        "RMSE": 1.8983872344860848,
+        "MAE": 0.1577148619770752
+      },
+      "frozen_ingress75_target": {
+        "RMSE": 4.933761930268237,
+        "MAE": 2.496927236230273
+      }
+    }
+  }
+}

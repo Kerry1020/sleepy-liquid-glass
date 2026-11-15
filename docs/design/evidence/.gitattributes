@@ -1,0 +1,5 @@
+# Preserve hash-addressed evidence tables, including CRLF and empty trailing fields.
+glass-slider-*/**/*.csv -whitespace
+glass-slider-*/**/*.tsv -whitespace
+# This file is an archived source excerpt whose original bytes are retained.
+glass-slider-star-20261115/source-support.md -whitespace
