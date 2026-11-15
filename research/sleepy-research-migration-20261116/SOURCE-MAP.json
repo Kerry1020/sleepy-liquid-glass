@@ -1,0 +1,434 @@
+{
+  "schema": 1,
+  "source_repository": "lingion/sleepy",
+  "source_commit": "5c604e83cc5ccbc6c5ab622568eae0c99265dfc4",
+  "scope": "Research-only reference projects, capture entry points, reports and extraction archives. Production runtime and necessary application regressions stay in Sleepy.",
+  "files": [
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeControlMotionCaptureTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeControlMotionCaptureTest.kt",
+      "source_git_blob": "1cbbc9373e94b3bf425e4533c1e424da2e527d74",
+      "sha256": "ccac01004d5b9d6efcbb7ebe2b58eb5866d4966b2d2084babf92006e95ebf6dc",
+      "bytes": 65292,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeDockOpticalWorldRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeDockOpticalWorldRenderTest.kt",
+      "source_git_blob": "09db8bbe63bd0656d5cad1964af197b9196ce28d",
+      "sha256": "e0e25da812e03d6a97eb52f12aca1dcfb8612b8785ae7e1f8e6d67889491adb8",
+      "bytes": 98750,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeGlassParityCaptureTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeGlassParityCaptureTest.kt",
+      "source_git_blob": "14fb0b768c205de65cdafc6a28cf09145aaff25c",
+      "sha256": "9b2931b7e82e80e75f94953b231437896fe97a878b1375518b2cffe1c8f8ca09",
+      "bytes": 132779,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeRangeOpticalWorldRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeRangeOpticalWorldRenderTest.kt",
+      "source_git_blob": "758b3160168ce1b21d04335c3f9697cad42a0761",
+      "sha256": "9e8057933fb446ab9c4b634e49aad0b297f19b720c2103d381f5f5ba5ff3ad84",
+      "bytes": 31308,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt",
+      "source_git_blob": "ef4e3425913f603ceee021d87213da48ecc3d3c4",
+      "sha256": "371f197b063fcba5becea4d3f4c9670c1c9f3c354c7c661d88b5fb7972cf349a",
+      "bytes": 32981,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/UnifiedSliderAppearanceCaptureTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/UnifiedSliderAppearanceCaptureTest.kt",
+      "source_git_blob": "eeb7eaf2387e0b30f9e42d3a87aa2575e5a1d7c5",
+      "sha256": "522d8fbcf003c8d8c7a32b42ecfd355d95be1f1454a1359977268b0ca17576a6",
+      "bytes": 21556,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/GlassPanelEdgeProfileRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/GlassPanelEdgeProfileRenderTest.kt",
+      "source_git_blob": "e2716af5d8deda51c346eeb815a68f07bcd7b907",
+      "sha256": "e4adebdeb83abf89f24e15cd0f03e0a134124ad4e90874ddfcfe852e9a37af20",
+      "bytes": 26657,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassLanguageMaterialDiagnosticTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassLanguageMaterialDiagnosticTest.kt",
+      "source_git_blob": "4f293fd1d37e5c8e5a30f8988db20fc1807efa82",
+      "sha256": "1336aa6a64ab449e22489b9f68cfe028a5ec05268319a9bccf5308d084c02d13",
+      "bytes": 24769,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/glass-alert-narrow-edge-checkpoint.md",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/docs/glass-alert-narrow-edge-checkpoint.md",
+      "source_git_blob": "20622e539caad51c8aa323fe9067039c9273111c",
+      "sha256": "8c8958e5e7ec04ac0e2334e660d8f5bedc02045b105399bf517cf2c39248f9d8",
+      "bytes": 2852,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/glass-language-menu-reference.md",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/docs/glass-language-menu-reference.md",
+      "source_git_blob": "240e3af3ed6ccd4d2c6e69578ea238ad1a5b8b24",
+      "sha256": "f62e19c557b8c8eff71394a8151a323d305a5918a81e1987859c36c3ceb7daeb",
+      "bytes": 7052,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/glass-panel-lateral-sampling-checkpoint.md",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/docs/glass-panel-lateral-sampling-checkpoint.md",
+      "source_git_blob": "68dbd04729f20ad52857b1fa4bbf9018e50524c9",
+      "sha256": "877defe11f68dd14917f0c5d097ad1b8d68817f9ba6fd4e131e2587551b2af65",
+      "bytes": 3162,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/glass-panel-material-checkpoint.md",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/docs/glass-panel-material-checkpoint.md",
+      "source_git_blob": "65186831d96aa26946f8c603167ea44b10b288f4",
+      "sha256": "0cecfca2ddb1d7cc990164982dba74223f8becf881c42e7c2d21033cae34762c",
+      "bytes": 5177,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/glass-standalone-button-checkpoint.md",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/docs/glass-standalone-button-checkpoint.md",
+      "source_git_blob": "186185fcc255ac8fd94a0ee21ea9645261991577",
+      "sha256": "d6c40bb0bf34c4441b0ad6cbb9da6c1ac8ab907d03eb0d5068706b9b7d660a49",
+      "bytes": 3707,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/handoffs/2026-11-14-paused-glass-parity.md",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/docs/handoffs/2026-11-14-paused-glass-parity.md",
+      "source_git_blob": "bdd369df430d70c1ea4871444dc047b2e1d1707d",
+      "sha256": "c3b2b80ae2869613c0aea60e47a029e4a2b7c51732ed3a5bedac7b44ad0e876a",
+      "bytes": 5573,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/native-glass-control-alignment.md",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/docs/native-glass-control-alignment.md",
+      "source_git_blob": "957509681faaf58a9c04410d12f7760e8c7e7593",
+      "sha256": "67562424b66cef3df84dfa804c936974f130e3d09c66a285982578724b33aa10",
+      "bytes": 163921,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/README.md",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/README.md",
+      "source_git_blob": "88ddf1337a4810c38c05cd7ce096e92cb5f1c16d",
+      "sha256": "e00b02630bbf9cefccc311fe476208ea4bdb3778b66304791c8a3d649a4f5592",
+      "bytes": 27260,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/asset-catalog.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/asset-catalog.json",
+      "source_git_blob": "665110e4d2a6b82f01c6211a974cefb2fa323ad5",
+      "sha256": "e9b1e1cd15224c5be6cf07a90bb8ba38340079ed7e2f73d29222d2ebdcdf77da",
+      "bytes": 49058,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/docs/images/sample-backgrounds-dark.png",
+      "asset_path": "docs/images/sample-backgrounds-dark.png",
+      "source_git_blob": "43f8a8da6bac71cc9a5355b2b7641e193b86beeb",
+      "sha256": "35836579c25dba67bbf380316156087d702ce501b758273c5ae013beac49d686",
+      "bytes": 143974,
+      "storage": "reused"
+    },
+    {
+      "source_path": "libraries/liquid-glass/docs/images/sample-backgrounds-light.png",
+      "asset_path": "docs/images/sample-backgrounds-light.png",
+      "source_git_blob": "29c8a27a00bcd03f59dce4e287dd3335a1028253",
+      "sha256": "85143105302b97d8540bdef4adfa6a0dedb74925884032dbafe78bf65bb4064e",
+      "bytes": 149102,
+      "storage": "reused"
+    },
+    {
+      "source_path": "libraries/liquid-glass/docs/images/sources.json",
+      "asset_path": "docs/images/sources.json",
+      "source_git_blob": "d2f1a9065de899e1db2c2a69b9177da6d4db2dd9",
+      "sha256": "8a081ed783cb07aff67185fc011861e33310c5b14cc940a5db8343aaa0347a42",
+      "bytes": 4622,
+      "storage": "reused"
+    },
+    {
+      "source_path": "libraries/liquid-glass/extraction-plan.md",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/extraction-plan.md",
+      "source_git_blob": "f78c67fb83f94589f42c32d40e36124ace55a8d8",
+      "sha256": "3d52137b139b9978a7e2e7eae64847e55f384e720e4a416afe0a354d9109fee1",
+      "bytes": 31081,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/migrations/m1.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/migrations/m1.json",
+      "source_git_blob": "3fdfa77c2066e1d34c5b9d979a5eaa6b7999d5af",
+      "sha256": "64e3905bae0723f17d1dd11afca41e7bbd70576186661a5becae377e714ee858",
+      "bytes": 18312,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/migrations/m2-geometry.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/migrations/m2-geometry.json",
+      "source_git_blob": "cf5845039a3989f1aa03309d56cd98a04ce5d29a",
+      "sha256": "c7400a6a5a64009aa4e201e7a8da9c77a3f2c09b848f5c28563a1f8992d8b9fb",
+      "bytes": 42410,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/migrations/m2a.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/migrations/m2a.json",
+      "source_git_blob": "f1eb41bc570cb9b72592100792192fd20987df5e",
+      "sha256": "3925e80444c3d4a49f3aefa03c8c26ed20241c01b0a80bc3d6d55bcdb710bcb4",
+      "bytes": 6765,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/migrations/m2b-endpoints.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/migrations/m2b-endpoints.json",
+      "source_git_blob": "07edb516585ce5d9fee06c27f62bfad3d604b176",
+      "sha256": "1e12151f440aabd31bef093dadab6ed362af274fba2454a23634c0e7a9e2df47",
+      "bytes": 11799,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/migrations/m2b-motion.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/migrations/m2b-motion.json",
+      "source_git_blob": "e8ea6c1ba4c1cf2524fd2b4ff304fd609eb50a20",
+      "sha256": "f77215a8518eda467bb77287e734dc59b827d213b1456930fdfc297e2ec6c1c7",
+      "bytes": 23440,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/migrations/m3a-rendering.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/migrations/m3a-rendering.json",
+      "source_git_blob": "1be55a1d8f0d8acd3bd5d6fe86074680a940efa8",
+      "sha256": "64390b252faff37d28571bd70b9486968abba22e4bf4941f3a7d4bfd76f2d695",
+      "bytes": 24908,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/observations/backdrop-aware-foreground-gpu-93.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/observations/backdrop-aware-foreground-gpu-93.json",
+      "source_git_blob": "a2b4b64cab5803bc71428220a733a613af8ea7b8",
+      "sha256": "69bf6c898911280ee99c293199efa3b7eb4c20f80244555bbdf7886d2192e1a2",
+      "bytes": 14046,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/observations/control-regressions-95.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/observations/control-regressions-95.json",
+      "source_git_blob": "b8e324a55990d118e327e05ebb81001144be6118",
+      "sha256": "e1aedf28b443f0b251a39c0b584c19bed7dc5d2afcb71b0054055ede1b2967e6",
+      "bytes": 18516,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/observations/dock-contrast-diagnostic-90.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/observations/dock-contrast-diagnostic-90.json",
+      "source_git_blob": "a91356f5719385dcd1db93085264f05fd60eb87c",
+      "sha256": "ae6539408584edad36ed488f125f0af968489eeb2bb28330037d44a05d6ddef8",
+      "bytes": 17967,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/observations/dock-foreground-properties-91.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/observations/dock-foreground-properties-91.json",
+      "source_git_blob": "b6c62e69b0f9f84bb690eeeae6f83c769346e72f",
+      "sha256": "d562589e0da5081dcbf2dabab11e07c6197aa2f8c1d1ce474b4bc141fadc62f4",
+      "bytes": 20631,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/observations/dock-horizontal-response-85.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/observations/dock-horizontal-response-85.json",
+      "source_git_blob": "793a41472807024307b23f939f7789a91610d4e0",
+      "sha256": "8e2affb9c4632cccd952b0daf3236a3adf562d9d142aa56756b09e60ce826a7f",
+      "bytes": 17209,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/observations/dock-tonal-history-93.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/observations/dock-tonal-history-93.json",
+      "source_git_blob": "60f8418378f6be0e1ab28d6749c4ce30da265f94",
+      "sha256": "71b074a632aaded6fbda2de4a62e3faf9a7569a0a8b9c1464c06987c68d65e90",
+      "bytes": 33844,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/observations/single-choice-unification-96.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/observations/single-choice-unification-96.json",
+      "source_git_blob": "90d69ed7307a4286fcb6a9dd89671159c0d40898",
+      "sha256": "ba58ca72ce8dfaa16689bf6b504a7b9f9c90d36acbda7ee476bcac6783cc48f3",
+      "bytes": 18566,
+      "storage": "new"
+    },
+    {
+      "source_path": "libraries/liquid-glass/validation/observations/source-aware-sampling-94.json",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/libraries/liquid-glass/validation/observations/source-aware-sampling-94.json",
+      "source_git_blob": "c6b49d70dff393d55d32af12f602890e5cdf39cf",
+      "sha256": "b5cbc176c08b9eae47d0c571ed4f44e0f6cb65e8f3e40347fb722bec1894ad4e",
+      "bytes": 45144,
+      "storage": "new"
+    },
+    {
+      "source_path": "tools/native-glass-reference/.gitignore",
+      "asset_path": "research/slider-fixtures/tools/native-glass-reference/.gitignore",
+      "source_git_blob": "af9ae81056e6330d9a9c264222d4f27c24d2de1a",
+      "sha256": "099c9f409fa89c42b14e03ed92c7ee9ad71c2e0d034882fcd30a5fa588850816",
+      "bytes": 40,
+      "storage": "reused"
+    },
+    {
+      "source_path": "tools/native-glass-reference/App/Info.plist",
+      "asset_path": "research/slider-fixtures/tools/native-glass-reference/App/Info.plist",
+      "source_git_blob": "81c91533f2f93e39931e25511ba4d1a9cd812ce5",
+      "sha256": "77ed9f2bc9c6f16bdb933441e597d24c93235378db68156d48bcf45a349ee525",
+      "bytes": 1040,
+      "storage": "reused"
+    },
+    {
+      "source_path": "tools/native-glass-reference/App/NativeRangeReference.swift",
+      "asset_path": "research/slider-fixtures/tools/native-glass-reference/App/NativeRangeReference.swift",
+      "source_git_blob": "4b94d0fa84a04d6024fd65ff27c219b9c97e26a2",
+      "sha256": "95c1836ca2a9fdc18643b2a0df65914c8518044666ee5361179def7079b4f972",
+      "bytes": 21660,
+      "storage": "reused"
+    },
+    {
+      "source_path": "tools/native-glass-reference/App/NativeStage.swift",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/tools/native-glass-reference/App/NativeStage.swift",
+      "source_git_blob": "27f0b55284a619df2c8d8bc0f8a57c7a66797e64",
+      "sha256": "a35f8ec7ecb37011ace27109487f0a697df28c686dc93fe017886a5d98ab01ce",
+      "bytes": 21944,
+      "storage": "new"
+    },
+    {
+      "source_path": "tools/native-glass-reference/App/ReferenceTrace.swift",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/tools/native-glass-reference/App/ReferenceTrace.swift",
+      "source_git_blob": "a93a28b7666de99b5e6b9f01fa4cc7edea03ed07",
+      "sha256": "fd7e74a0763ac4a6bd665698d733586b51db8470eeeff1d267023cfc46dd0988",
+      "bytes": 21848,
+      "storage": "new"
+    },
+    {
+      "source_path": "tools/native-glass-reference/App/main.swift",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/tools/native-glass-reference/App/main.swift",
+      "source_git_blob": "b91a0dddae6ed73556417ddf39ad64bd919eb4cf",
+      "sha256": "d68ba1c054995b435bd590a873525dba2739d25766cb8930a8105c54f7817731",
+      "bytes": 109565,
+      "storage": "new"
+    },
+    {
+      "source_path": "tools/native-glass-reference/GlassNativeReference.xcodeproj/project.pbxproj",
+      "asset_path": "research/slider-fixtures/tools/native-glass-reference/GlassNativeReference.xcodeproj/project.pbxproj",
+      "source_git_blob": "9f86e3aa0b39e52ebd7c0899cb3440ed379264be",
+      "sha256": "7f3214ccb44d79a3ca76477a58a0bdddebef941c99176fb4ba1898c1afc847de",
+      "bytes": 15126,
+      "storage": "reused"
+    },
+    {
+      "source_path": "tools/native-glass-reference/GlassNativeReference.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "asset_path": "research/slider-fixtures/tools/native-glass-reference/GlassNativeReference.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "source_git_blob": "919434a6254f0e9651f402737811be6634a03e9c",
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f",
+      "bytes": 135,
+      "storage": "reused"
+    },
+    {
+      "source_path": "tools/native-glass-reference/GlassNativeReference.xcodeproj/xcshareddata/xcschemes/GlassNativeReference.xcscheme",
+      "asset_path": "research/slider-fixtures/tools/native-glass-reference/GlassNativeReference.xcodeproj/xcshareddata/xcschemes/GlassNativeReference.xcscheme",
+      "source_git_blob": "75810af513202e805ef505ed028d8ba73292eb6e",
+      "sha256": "8473a320b6d6b7dba5ce094cbf0595edd9796ecbbe97182f120bfa5774f8ec85",
+      "bytes": 4635,
+      "storage": "reused"
+    },
+    {
+      "source_path": "tools/native-glass-reference/README.md",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/tools/native-glass-reference/README.md",
+      "source_git_blob": "ca583276409b58b8f44764fce08da7186a1ab8a7",
+      "sha256": "a67cf4ce0c2452038c7d4a125edc9e2f6ba349204bd06555a71df8f7c9b08fa0",
+      "bytes": 83083,
+      "storage": "new"
+    },
+    {
+      "source_path": "tools/native-glass-reference/UITests/NativeReferenceTests.swift",
+      "asset_path": "research/sleepy-research-migration-20261116/sources/tools/native-glass-reference/UITests/NativeReferenceTests.swift",
+      "source_git_blob": "4508d4819f6f562df5eb0d6d4df48c8f21da3f30",
+      "sha256": "27184ef46d507cd9d8324c7e4d0fa6f205dc8774fb29edcdced73d1d35c1febb",
+      "bytes": 119382,
+      "storage": "new"
+    },
+    {
+      "source_path": "tools/native-glass-reference/capture-static-optics.py",
+      "asset_path": "research/slider-fixtures/tools/native-glass-reference/capture-static-optics.py",
+      "source_git_blob": "f0e262880304abc38e792c668e17b3a7385ef5a3",
+      "sha256": "e41ce1eaf138ba915604386f21a08e3a65d201a7ac9a3abed278df6bbdb63c2b",
+      "bytes": 3108,
+      "storage": "reused"
+    },
+    {
+      "source_path": "tools/native-glass-reference/export-language.py",
+      "asset_path": "research/slider-fixtures/tools/native-glass-reference/export-language.py",
+      "source_git_blob": "200781d07404aa5860db11686709f65ca4b1a05f",
+      "sha256": "c94037bc6d2b9afd782e415d8e354f9ec076026d0ab1f11e70b8d8baa29dd652",
+      "bytes": 7444,
+      "storage": "reused"
+    },
+    {
+      "source_path": "tools/native-glass-reference/export-touches.py",
+      "asset_path": "research/slider-fixtures/tools/native-glass-reference/export-touches.py",
+      "source_git_blob": "4f7fc74e521fedda3125e42b85e875ab0744793b",
+      "sha256": "a3c77ddb5669df0394523621a51fcb5e3375e542e0a5cd3f5758abe0aacbb0e7",
+      "bytes": 3322,
+      "storage": "reused"
+    },
+    {
+      "source_path": "tools/native-glass-reference/inspect-video.swift",
+      "asset_path": "research/slider-fixtures/tools/native-glass-reference/inspect-video.swift",
+      "source_git_blob": "13c8a3fceb0e752d8d3cbf7e160732a0ce07ddd7",
+      "sha256": "4c1766e717ffe255f05be42068d27aa4ebfd80e9495905da4358db615be378cb",
+      "bytes": 6098,
+      "storage": "reused"
+    },
+    {
+      "source_path": "tools/native-glass-reference/project.yml",
+      "asset_path": "research/slider-fixtures/tools/native-glass-reference/project.yml",
+      "source_git_blob": "6506a54639150fe4c3ee3491b08beb9faabb2d08",
+      "sha256": "4a22ab059046d16fac604832e8fb84d16469fc771b18d80ad673e20cd9f9247e",
+      "bytes": 1118,
+      "storage": "reused"
+    },
+    {
+      "source_path": "tools/native-glass-reference/verify-static-optics.py",
+      "asset_path": "research/slider-fixtures/tools/native-glass-reference/verify-static-optics.py",
+      "source_git_blob": "cf8ce972a8afd7062332e52df4a3932360635aff",
+      "sha256": "06578a07b3fa55081557de66c3ca5a5d45327d3d4887f9e7903e07a832eab226",
+      "bytes": 10656,
+      "storage": "reused"
+    }
+  ],
+  "file_count": 52,
+  "total_bytes": 1774394,
+  "new_files": 37,
+  "reused_files": 15,
+  "exclusions": [
+    "Production runtime and deterministic host regressions",
+    "GPU regression assertions and shared capture helpers required by retained tests",
+    "Pre-existing November 9 design docs and attribution audits",
+    "Build products, caches, traces, APKs and device data"
+  ]
+}

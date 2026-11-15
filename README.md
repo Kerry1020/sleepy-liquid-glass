@@ -3,6 +3,7 @@
 **面向 Android / Jetpack Compose、以 iOS 26.5 原生控件为参考的实验性液态玻璃运行库。**
 
 [English](README.en.md) · [实现与 API](docs/architecture.md) · [实验数据与图表](docs/evidence/RESULTS.md) · [面板材质研究](docs/panel-material-study.md) · [受控光学研究与资产](docs/controlled-optical-studies.md) · [验证记录](VALIDATION.md) · [贡献指南](CONTRIBUTING.md) · [研究夹具源码](research/slider-fixtures/README.md)
+[研究迁出记录](research/sleepy-research-migration-20261116/README.md) — Sleepy 仅保留应用改动与必要回归；研究入口、报告和资产只在本库发布。
 
 本项目把 Sleepy 中的输入时钟、弹簧运动、速度形变、连续圆角、AGSL 材质与外部背板采样拆成独立源码模块。目标是让控件的位置、形状、材质和交互节奏能够分别测量、校准与复现，帮助 Compose 开发者构建会响应真实背景与手势的玻璃界面。
 
