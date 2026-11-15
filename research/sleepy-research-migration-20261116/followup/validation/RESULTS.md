@@ -2,7 +2,17 @@
 
 本记录只验证研究迁移与剩余产品测试的状态，不是光学验收。Sleepy 本轮提交 `daabde9ac3b7c421345e6a710fcde1ccd82c475b`。
 
-## 最终范围
+## 最新范围补正（693c3b51）
+
+Sleepy #443 已追加 `693c3b513b5554e92c10823ae2b70349800b39d3`：只删除 18 份历史研究报告、台账、参考指纹及 PNG/GIF/CSV 附件，共 1,450,206 bytes、701 行文本；未改应用实现、测试、材质、业务布局、CI 或 Gradle。累计差异现为 **84 文件、+383/-26,668**，删除70份研究文件。保留真实产品布局说明、必要回归及其输入、来源许可。
+
+三批83份原文共3,477,939 bytes均用现有verify.py实际对照固定Git原件通过；第三批清单与原文先发布于资产库 `a2ef8bcf226697511b708fd7b277e18ddf40b235`，核对Git远端、GitHub API和83份云端blob后才从应用删除。第三批见 [SOURCE-MAP.json](../../third-pass/SOURCE-MAP.json)。独立审计确认剩余3187份跟踪文本无对应悬空引用。仅文档/附件迁移，没有重复本地构建或操作设备；以下真机失败仍保留。
+
+新693c3b51的 **10项云端检查全部SUCCESS**：[CI 43758059038](https://github.com/lingion/sleepy/actions/runs/43758059038) 与 [Debug APK 43758057014](https://github.com/lingion/sleepy/actions/runs/43758057014) 均完成。PR仍OPEN/BLOCKED、mergeCommit为空；`protect-main`仍active update restriction，current_user_can_bypass=never。与此前权限拒绝相同，未重复无效合并请求、未绕过保护。
+
+此前已生成的采后诊断另存资产库 `a4265c6ba209dba7cf097108d2c05d9155cf8113`，与Sleepy提交分开；其光学验收为false，不能将诊断完成当作材质通过。
+
+## 前一检查点范围（daabde9a）
 
 累计 PR #443 为 66 文件、+383/-25,967；其中删除 52 个研究文件，12 份产品测试／辅助文件去掉研究职责，另有简短接入 README 和一条文档注释链接。此前 #442 已以 8 文件、+542/-27 合并。
 
