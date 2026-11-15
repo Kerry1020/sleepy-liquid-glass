@@ -1,0 +1,156 @@
+{
+  "schema": 1,
+  "source_repository": "lingion/sleepy",
+  "source_commit": "daabde9ac3b7c421345e6a710fcde1ccd82c475b",
+  "file_count": 18,
+  "new_files": 18,
+  "reused_files": 0,
+  "total_bytes": 1450206,
+  "scope": "Historical November 9 control-motion and PR #299 floating-control research reports with published evidence attachments, plus FLClash coverage, parity, implementation-verification and reference-inventory records. Original experimental claims and parameters are preserved verbatim as history, not current runtime settings or current acceptance. Product layout documentation and source/license audits remain in Sleepy.",
+  "files": [
+    {
+      "source_path": "docs/design/evidence/glass-control-motion-20261109/dispersion-diagnostic.png",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/evidence/glass-control-motion-20261109/dispersion-diagnostic.png",
+      "source_git_blob": "ff5d89ea7cae2d62b2040400205b5708dcb8b843",
+      "sha256": "c82690fa4e726790fe59d8bc055151387619c1735ecc0f53ac0014097273abba",
+      "bytes": 19355,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/evidence/glass-control-motion-20261109/motion-frames.png",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/evidence/glass-control-motion-20261109/motion-frames.png",
+      "source_git_blob": "c46d31688b4506934de653a065f1636e1869a8a2",
+      "sha256": "9180768e2ca19598f970f4b28bc43337f4c9ab9157208cc99466782909abd7d3",
+      "bytes": 53923,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/evidence/glass-control-motion-20261109/motion-samples.csv",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/evidence/glass-control-motion-20261109/motion-samples.csv",
+      "source_git_blob": "530f8a668a28ce892162999b4e501e2f58c9c45b",
+      "sha256": "1a99e5d71481a10d67d910d784ba15722fd0007bce81e172584b4dcccc0e5153",
+      "bytes": 3270,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/evidence/glass-control-motion-20261109/slider-motion.gif",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/evidence/glass-control-motion-20261109/slider-motion.gif",
+      "source_git_blob": "0e8fff6b8f758ae03b275455179e2753c433e514",
+      "sha256": "12d69a883400fa93e9c178e9e432d1187b97f05beec85a8abab5c45a874db68f",
+      "bytes": 153979,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/evidence/glass-control-motion-20261109/tab-motion.gif",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/evidence/glass-control-motion-20261109/tab-motion.gif",
+      "source_git_blob": "1952948c5e754813b9a96fa18f06005a586e8f51",
+      "sha256": "4072ad62732978e7db494067499026d237e148f106d9aefd15d2bdfca08d0374",
+      "bytes": 292466,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/evidence/glass-control-motion-20261109/toggle-motion.gif",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/evidence/glass-control-motion-20261109/toggle-motion.gif",
+      "source_git_blob": "5fbcb4bbbe6ebeb70336fc6f4216434aa1396a19",
+      "sha256": "922a26a283d310e853f9a5af743f3aa3e1ff90a7d4be15a9024b9fb48a38b735",
+      "bytes": 143617,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/evidence/pr299/final-states.png",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/evidence/pr299/final-states.png",
+      "source_git_blob": "543910ca770dc33e94df5099cc41c7df0f117aeb",
+      "sha256": "93119f0e0b7710da1bc1e65d6784ae20d0623cebc7eae0b16bd4bf0397fbb81a",
+      "bytes": 169194,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/evidence/pr299/reference-frames-1.png",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/evidence/pr299/reference-frames-1.png",
+      "source_git_blob": "55defbca1d1b14cd9c6105f12d50dedbdd8f59f9",
+      "sha256": "3453d53f76fded6c3a512f857b851d5764891c1b22d3fde03ce443d14432927c",
+      "bytes": 83166,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/evidence/pr299/reference-frames-2.png",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/evidence/pr299/reference-frames-2.png",
+      "source_git_blob": "5774f29b56af39f340b4d1335e1bce64fcebcef4",
+      "sha256": "4b182ea3c57554ed2f414800162018af9a539e83f8f9479ffc54b1f784ed15f8",
+      "bytes": 128140,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/evidence/pr299/reference-frames-3.png",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/evidence/pr299/reference-frames-3.png",
+      "source_git_blob": "d107e35c69a5e476381998e23edd13d145f857ce",
+      "sha256": "b31564996ec736a4e8958dd304d9ce2b9c761239b8ada7cb0eb78d53be3ac750",
+      "bytes": 73450,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/evidence/pr299/reference-vs-sleepy.png",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/evidence/pr299/reference-vs-sleepy.png",
+      "source_git_blob": "727a4a0253287d994255d04c6611d1d7d8360d91",
+      "sha256": "2b1b7316da6266b6b4cdc04f89d677db1f83c4501394e7ad73e2c5c797017e2e",
+      "bytes": 202503,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/flclash-control-coverage.csv",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/flclash-control-coverage.csv",
+      "source_git_blob": "3e0ae2d5679354262376163f22cc717b9617b76d",
+      "sha256": "10f67feceb3ad61b4188c6b6dee4cee9f9f4362cfa7792fff69cc108e590952f",
+      "bytes": 90980,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/flclash-control-parity.md",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/flclash-control-parity.md",
+      "source_git_blob": "55a6f8dde4c68a1a0260cf17fc17044a15486656",
+      "sha256": "0e10ef3981516434563ac48c7408ba394a55fb5a3627af9ca4bf07a7f1c296be",
+      "bytes": 7558,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/flclash-implementation-verification.md",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/flclash-implementation-verification.md",
+      "source_git_blob": "42cb3b9fd8ae59405f41f71d801f5736e1bcc21e",
+      "sha256": "9df1ffabd7691573248bef6b944c7964d8dbc3a13caaaed92ef1c1a48a1e7278",
+      "bytes": 11676,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/flclash-pr299-revision-reference.json",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/flclash-pr299-revision-reference.json",
+      "source_git_blob": "fd983f8f5081e1b54305fe0e631e787b939102d5",
+      "sha256": "0310201025f6913307c2f2dfc7e989989719492f9ff77b49b0dda8d5f649eb27",
+      "bytes": 1187,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/flclash-reference-manifest.json",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/flclash-reference-manifest.json",
+      "source_git_blob": "97aa8d90b0493dc3bde27f5699052ff55a38df4f",
+      "sha256": "bc60f4c9e269b802639bfa355af01da49697d9b59d771e53258acd2f68f24998",
+      "bytes": 1188,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/glass-control-motion-20261109.md",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/glass-control-motion-20261109.md",
+      "source_git_blob": "8fec81891febe1f1797a3abc98c10df5ecd923fb",
+      "sha256": "20914f8593bd680696eaf0c544f3b2292fa25cbd1316ab0b7722b0fd1799c528",
+      "bytes": 5610,
+      "storage": "new"
+    },
+    {
+      "source_path": "docs/design/pr299-floating-controls-20261109.md",
+      "asset_path": "research/sleepy-research-migration-20261116/third-pass/sources/docs/design/pr299-floating-controls-20261109.md",
+      "source_git_blob": "5196435d41beb87fbbe93d1bb9012b0e712a7069",
+      "sha256": "cf4005ba884b5e5a7a47f1493234609b30db2733fc46eccb470ab070a37c6d30",
+      "bytes": 8944,
+      "storage": "new"
+    }
+  ]
+}

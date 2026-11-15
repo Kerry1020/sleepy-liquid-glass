@@ -17,11 +17,13 @@
 
 15 份字节在本库已经存在，清单直接指向已有文件；37 份缺失版本保存在 `sources/`，不覆盖既有冻结镜像。特别是原生工程的五份旧文件与此前 slider fixture 版本不同，两版均保留。所有映射都带原 Git blob、SHA-256 与字节数。
 
-应用保留生产 `runtime`、确定性 JVM 回归、真正验证行为／采样的 GPU 回归及其共享辅助代码。11 月 9 日的原有设计档案和来源审计不在本次范围。没有复制 APK、DerivedData、Gradle 缓存、trace 或设备数据。
+应用保留生产 `runtime`、确定性 JVM 回归、真正验证行为／采样的 GPU 回归及其共享辅助代码，以及产品布局说明和来源许可审计；历史研究报告另按下述第三批清单迁出。没有复制 APK、DerivedData、Gradle 缓存、trace 或设备数据。
 
 再次排查发现 13 份含有研究职责的测试或辅助文件，原文另存于[补充迁移清单](followup/SOURCE-MAP.json)，共 253,339 bytes，来源固定为 `d38e9d1a92adcde69264bdd50313948bdd29ab0e`。语言菜单的逐帧录制、可配采集协议和反射 shader 诊断、采样／运动／轮廓／背板／窗口回归中的成功路径 PNG／CSV／JSON 研究导出，以及不设性能通过阈值的 exact-contour A/B 采集器，都属于研究职责。应用保留真正的行为、呈现交接、运动与 GPU 误差断言及其内存采样；用于这些断言的 shader instrumentation 也保留。原 52 份清单不改写；补充 13 份完整原文保留拆分前的全部职责。
 
 补充范围也包含 `BackdropAwareForegroundRenderTest` 的成功路径 PNG／JSON 导出，以及产品回归已无调用的背景、布局、采集就绪和指标辅助框架。它们的完整原文保存在本库；Sleepy 只保留必要的 `OpticalCaptureWindow` 截图辅助及实际前景遮罩、颜色误差等内存断言。
+
+[第三批迁移清单](third-pass/SOURCE-MAP.json)另保全 18 份历史研究文件，共 1,450,206 bytes，固定来源为 `daabde9ac3b7c421345e6a710fcde1ccd82c475b`：11 月 9 日的[控件运动报告](third-pass/sources/docs/design/glass-control-motion-20261109.md)及 6 份附件、[PR #299 浮动控件报告](third-pass/sources/docs/design/pr299-floating-controls-20261109.md)及 5 张证据图，以及 5 份 FLClash 控件覆盖、对齐、实现核验和参考版本盘点记录。18 份在本库均无相同字节的已有版本，因而按原目录关系归档到 `third-pass/sources/`，报告与附件的相对链接保持可读。原文中的实验结论、尺寸和参数仅作为历史保留，不代表当前运行时设置或当前验收状态；来源许可由应用的致谢和许可审计独立保留，原 52 份和补充 13 份清单不改写。
 
 ## 校验与使用
 
@@ -29,9 +31,10 @@
 python3 research/sleepy-research-migration-20261116/verify.py
 python3 research/sleepy-research-migration-20261116/verify.py --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/followup/SOURCE-MAP.json --source /path/to/sleepy
+python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/third-pass/SOURCE-MAP.json --source /path/to/sleepy
 ```
 
-第一条逐字节校验本库所有 52 个映射；第二条另外使用 `git show` 对照固定来源提交，不要求来源工作区恢复被迁出的文件。归档源码与原文不改写，旧文档中的相对路径、机器路径与历史状态仅保留来源，不能当作当前可执行说明；执行研究使用外置入口并显式选择所需源码。
+第一条逐字节校验本库原 52 个映射；第二条另外使用 `git show` 对照固定来源提交；第三、四条分别校验补充批次与第三批，不要求来源工作区恢复被迁出的文件。归档源码与原文不改写，旧文档中的相对路径、机器路径与历史状态仅保留来源，不能当作当前可执行说明；执行研究使用外置入口并显式选择所需源码。
 
 旧版外置研究 fixture 依赖上述已从 Sleepy 移出的辅助框架，不能假定它仍由应用仓库提供。后续构建外置 Android 研究入口时，必须从本资产仓库显式提供所需辅助源码并完成外置集成；这里记录的是依赖限制，不表示该集成已经完成。不得为恢复旧入口而把研究框架放回 Sleepy。
 
