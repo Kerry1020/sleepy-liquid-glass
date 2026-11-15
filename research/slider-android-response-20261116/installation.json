@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "recorded_unix": 1794769762.663023,
+  "serial": "d3efcd6a",
+  "scope": "Both adb install -r -t calls returned Streamed Install / Success in preceding root tool outputs; no invented installation start timestamps. Installed package paths and hashes read back now.",
+  "apks": [
+    {
+      "host_relative_path": "app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+      "application_id": "com.lingion.sleepy.debug",
+      "bytes": 31952171,
+      "sha256": "566fc53eb6c28a0df7be03b7b07ee0ab8fd28a96b1f471f1669d7bbdbf3063b5",
+      "output_metadata_sha256": "9a6daaca604562c8f5d4a05b9e01e09bd4c4a38b9f0066fc52df1ae417d29412",
+      "installed_path": "/data/app/~~X4kymf7McyY7mZaFnjj2Cg==/com.lingion.sleepy.debug-tSW2jYSnJunN-tSMRIvGGQ==/base.apk",
+      "installed_sha256": "566fc53eb6c28a0df7be03b7b07ee0ab8fd28a96b1f471f1669d7bbdbf3063b5"
+    },
+    {
+      "host_relative_path": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+      "application_id": "com.lingion.sleepy.debug.test",
+      "bytes": 2176994,
+      "sha256": "e75911933bd3c90b103df140ae82759460e52ac94d200afbdfe5b6f4fc7d6971",
+      "output_metadata_sha256": "87f99c2b968301f4f6ddd9b680f9e108b7f4e66d8c72aa6de1413310ba02598a",
+      "installed_path": "/data/app/~~ORnZLz9AGXxOH4AQEg4sHw==/com.lingion.sleepy.debug.test-ww5syFJ4A78O-ijnwt6-Qg==/base.apk",
+      "installed_sha256": "e75911933bd3c90b103df140ae82759460e52ac94d200afbdfe5b6f4fc7d6971"
+    }
+  ],
+  "device_api": "36",
+  "display": {
+    "size": "Physical size: 1216x2640",
+    "density": "Physical density: 560\nOverride density: 476"
+  }
+}

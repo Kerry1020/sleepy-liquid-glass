@@ -74,3 +74,9 @@ The map hash is pinned rather than silently accepting a newer fixture export. A 
 `static-verification.json` records preparation, hash/rename checks and pure in-memory rejection checks. It also records source inspection of the Gradle entry point. It does not claim that Gradle configuration, Kotlin compilation, installation or a device capture has passed. Those require a separate explicit host run.
 
 The current host uses AGP 9.5.1 built-in Kotlin. The `AndroidSourceSet.getKotlin()` and `AndroidSourceDirectorySet.srcDir(Object)` signatures were inspected in its installed Gradle API JAR. Android's [built-in Kotlin migration guide](https://developer.android.com/build/migrate-to-built-in-kotlin) documents the Kotlin source-set requirement; Gradle's [init script documentation](https://docs.gradle.org/current/userguide/init_scripts.html) documents `-I` and `beforeProject`.
+
+## Explicit host build checkpoint, 2026-11-16
+
+[host-build-20261116.json](host-build-20261116.json) records a real opt-in build against clean Sleepy commit `d38e9d1a92adcde69264bdd50313948bdd29ab0e`: `:app:assembleDebug :app:assembleDebugAndroidTest --offline --console=plain` completed successfully in34s (100 tasks,14 executed). The receipt binds the external alias, init script and actual arm64 application/test APK hashes. No research source, Gradle configuration or CI file was added to Sleepy.
+
+The first post-build recorder assumed a nonexistent `app-debug.apk`; this failed after Gradle had succeeded. The corrected receipt selected the real arm64 output from AGP metadata without rebuilding. This is build evidence only. The earlier static receipt remains a static result, and this build receipt does not claim installation, capture or optical acceptance. The separately recorded [Android G-response study](../slider-android-response-20261116/PLAN.md) tracks later device work.

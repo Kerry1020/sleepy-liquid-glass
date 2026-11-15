@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "status": "BUILT_NOT_INSTALLED_OR_CAPTURED",
+  "recorded_utc": "2026-11-15T18:54:49.056504+00:00",
+  "host_repository": "lingion/sleepy",
+  "host_commit": "d38e9d1a92adcde69264bdd50313948bdd29ab0e",
+  "host_git_status": "",
+  "command": [
+    "./gradlew",
+    "-I",
+    "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/overlay.init.gradle",
+    "-PglassResearchSources=/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/.local/sources",
+    ":app:assembleDebug",
+    ":app:assembleDebugAndroidTest",
+    "--offline",
+    "--console=plain"
+  ],
+  "gradle_result": "BUILD SUCCESSFUL in 34s",
+  "tasks": "100 actionable tasks: 14 executed, 86 up-to-date",
+  "log_sha256": "f9d00050218076536aae5be583d155c3bd1ac913e2ee9c0478a53b51ad151ba9",
+  "opt_in_sources": [
+    {
+      "asset_relative_path": "research/slider-android-host/overlay.init.gradle",
+      "sha256": "0447b34d330ef7d5f09567827d322d9e1a756cc2a1de1bbf99ca760c9095dc78",
+      "bytes": 4207
+    },
+    {
+      "asset_relative_path": "research/slider-android-host/.local/preparation.json",
+      "sha256": "e160b017992354db24116721e2feb56d4495a8485bbc9009f74b54a6494d395e",
+      "bytes": 1162
+    },
+    {
+      "asset_relative_path": "research/slider-android-host/.local/sources/com/lingion/sleepy/ui/component/AssetNativeSliderOpticalWorldRenderTest.kt",
+      "sha256": "2ab0164e70f7374f9851e03631c35613ba838152aa8ef10c107347dd33965da5",
+      "bytes": 71700
+    }
+  ],
+  "apks": [
+    {
+      "host_relative_path": "app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+      "application_id": "com.lingion.sleepy.debug",
+      "bytes": 31952171,
+      "sha256": "566fc53eb6c28a0df7be03b7b07ee0ab8fd28a96b1f471f1669d7bbdbf3063b5",
+      "output_metadata_sha256": "9a6daaca604562c8f5d4a05b9e01e09bd4c4a38b9f0066fc52df1ae417d29412"
+    },
+    {
+      "host_relative_path": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+      "application_id": "com.lingion.sleepy.debug.test",
+      "bytes": 2176994,
+      "sha256": "e75911933bd3c90b103df140ae82759460e52ac94d200afbdfe5b6f4fc7d6971",
+      "output_metadata_sha256": "87f99c2b968301f4f6ddd9b680f9e108b7f4e66d8c72aa6de1413310ba02598a"
+    }
+  ],
+  "incident": "Post-build recorder first assumed app-debug.apk and stopped after the successful Gradle build. This receipt selects actual arm64 output from output-metadata.json; no rebuild or inferred start timestamp.",
+  "scope": "External asset-only source injection, explicit -I/-P; no host source, Gradle or CI edit. Build evidence only, not optical acceptance."
+}

@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "pre_freeze": [
+    {
+      "stage": "prepare metadata",
+      "error": "First source reference check searched textual centre literals; strict native index contains carrier bounds, not centre literal. Assertion failed before any derived file or device capture.",
+      "correction": "Read shape/flat carrier arrays, require equality and compute centre numerically with1e-10 tolerance; source bytes unchanged.",
+      "status": "corrected before freeze"
+    }
+  ]
+}
