@@ -8,4 +8,4 @@ Sleepy 提交 `1b6b96834765412f5a34658c3e459c01f3b75d71` 为 10 文件、+91/-24
 
 [默认测试编译收据](compile.json)和[公开日志](compile.log)：单次 `:app:compileDebugAndroidTestKotlin --offline --console=plain` 成功，3.379s；没有加载外置研究 overlay，没有设备操作或新增光学实验。原始日志只在忽略目录保留，收据分别记录原始与公开哈希。
 
-本 head 的云端检查开始运行：CI 43765226389、Debug APK 43765223227。未将旧 head 的成功冒称为本 head 成功。当前 PR 为 OPEN/BLOCKED，主分支 update restriction、账号不能 bypass；未修改保护规则或声称已合并。该清理不修复或隐藏历史光学/设备失败，也不构成光学验收。
+本 head 的云端 CI 43765226389、Debug APK 43765223227 均已完成，10 项检查全部 SUCCESS；[云端收据](remote-1b6b9683.json)记录本 head、完整检查与规则。未将旧 head 的成功冒称为本 head 成功。当前 PR 为 OPEN/BLOCKED，主分支 update restriction、账号不能 bypass；未修改保护规则或声称已合并。该清理不修复或隐藏历史光学/设备失败，也不构成光学验收。
