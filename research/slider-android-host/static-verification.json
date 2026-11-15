@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "status": "STATIC_PREPARATION_VERIFIED_NOT_GRADLE_VALIDATED",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "prepare-overlay.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "result": {
+        "output_sha256": "2ab0164e70f7374f9851e03631c35613ba838152aa8ef10c107347dd33965da5",
+        "source_root": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/.local/sources",
+        "source_sha256": "1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e",
+        "status": "VERIFIED",
+        "test_class": "com.lingion.sleepy.ui.component.AssetNativeSliderOpticalWorldRenderTest"
+      }
+    },
+    {
+      "argv": [
+        "python3",
+        "prepare-overlay.py",
+        "--self-test"
+      ],
+      "exit_code": 0,
+      "result": {
+        "device_used": false,
+        "gradle_executed": false,
+        "invalid_inputs_rejected": 3,
+        "rename_only": true,
+        "status": "PASS"
+      }
+    }
+  ],
+  "files_sha256": {
+    ".gitignore": "4ca429f0c4a3074b3c173ff196dbf4c579d7fa2eb7fc77760799352e510dd538",
+    "README.md": "780a0f75873c74bf0cbdea5abde3e0b6d2c104ed265b3e67eb3c5f85ab8396a6",
+    "prepare-overlay.py": "77f7c9e5dc6f70b2701aceba6ec00ef42e3cdddfc1ed21e7260899175324babf",
+    "overlay.init.gradle": "0447b34d330ef7d5f09567827d322d9e1a756cc2a1de1bbf99ca760c9095dc78",
+    "verify-static.py": "8524d90467290fb76b82f465c43caab31d91118e32390ba297ff45036657aed8"
+  },
+  "generated_receipt_sha256": "e160b017992354db24116721e2feb56d4495a8485bbc9009f74b54a6494d395e",
+  "static_entry_point_checks": 13,
+  "existing_comparison": {
+    "path": "../../docs/design/evidence/glass-slider-star-20261115/figures/six-pose-comparison.png",
+    "sha256": "17b4aafd0e5bc4eaaa118d55e68d1c188ad20194cba81422496378bdf285b53f"
+  },
+  "observed_agp_api": {
+    "version": "9.5.1",
+    "signatures": [
+      "AndroidSourceSet.getKotlin()",
+      "AndroidSourceDirectorySet.srcDir(Object)",
+      "AndroidSourceDirectorySet.getDirectories()"
+    ],
+    "method": "Read-only javap of the installed gradle-api-9.5.1.jar; not Gradle execution"
+  },
+  "gradle_executed": false,
+  "kotlin_compilation_executed": false,
+  "device_used": false,
+  "optical_acceptance": false,
+  "limits": [
+    "Static text guards do not prove Groovy/Gradle execution.",
+    "The corresponding Sleepy :app instrumentation host is required."
+  ]
+}

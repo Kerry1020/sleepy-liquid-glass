@@ -1,0 +1,69 @@
+// This file is inert unless explicitly supplied with Gradle -I/--init-script.
+import groovy.json.JsonSlurper
+import java.security.MessageDigest
+
+def aliasName = 'AssetNativeSliderOpticalWorldRenderTest'
+def aliasRelative = 'com/lingion/sleepy/ui/component/' + aliasName + '.kt'
+def expectedMap = '4743df6a03b68f30fe5f0071b9d23a23aa5db6042696e60c5cf063cfa9227032'
+def expectedSource = '1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e'
+def expectedOutput = '2ab0164e70f7374f9851e03631c35613ba838152aa8ef10c107347dd33965da5'
+def digest = { File file ->
+    MessageDigest.getInstance('SHA-256').digest(file.bytes).encodeHex().toString()
+}
+
+gradle.beforeProject { p ->
+    if (p.path == ':app') {
+        p.pluginManager.withPlugin('com.android.application') {
+            def raw = p.providers.gradleProperty('glassResearchSources').orNull
+            if (!raw || !new File(raw).isAbsolute()) {
+                throw new GradleException('Provide an absolute -PglassResearchSources path from prepare-overlay.py.')
+            }
+            File sources = new File(raw).canonicalFile
+            File host = p.rootProject.projectDir.canonicalFile
+            if (!sources.isDirectory() || sources.toPath().startsWith(host.toPath())) {
+                throw new GradleException('Research sources must be an existing directory outside the Sleepy checkout.')
+            }
+            File source = new File(sources, aliasRelative).canonicalFile
+            File receiptFile = new File(sources.parentFile, 'preparation.json')
+            if (!source.isFile() || !source.toPath().startsWith(sources.toPath()) || !receiptFile.isFile()) {
+                throw new GradleException('Missing prepared aliased source or preparation.json; run prepare-overlay.py.')
+            }
+            def actualFiles = p.fileTree(sources).files.collect { it.canonicalFile } as Set
+            if (actualFiles != ([source] as Set)) {
+                throw new GradleException('Overlay must contain exactly one prepared Kotlin source file.')
+            }
+            def receipt = new JsonSlurper().parse(receiptFile)
+            if (receipt.schema != 1 || receipt.alias_class != aliasName ||
+                    receipt.output_relative_path != aliasRelative || receipt.selected_android_tests != 1 ||
+                    receipt.source_map_sha256 != expectedMap || receipt.source_sha256 != expectedSource ||
+                    receipt.output_sha256 != expectedOutput || digest(source) != expectedOutput) {
+                throw new GradleException('Prepared overlay identity/hash differs; rerun prepare-overlay.py --check.')
+            }
+            def android = p.extensions.getByName('android')
+            // AGP built-in Kotlin reads AndroidSourceSet.kotlin, not java.srcDir.
+            android.sourceSets.named('androidTest') { ss ->
+                ss.kotlin.srcDir(sources)
+            }
+            p.afterEvaluate {
+                // Canonical paths deduplicate overlapping Java/Kotlin source roots.
+                Set<File> candidates = [] as Set
+                android.sourceSets.each { ss ->
+                    (ss.kotlin.directories + ss.java.directories).each { root ->
+                        File folder = p.file(root)
+                        if (folder.isDirectory()) {
+                            candidates.addAll(p.fileTree(folder).matching {
+                                include '**/*.kt', '**/*.java'
+                            }.files.collect { it.canonicalFile })
+                        }
+                    }
+                }
+                def declaration = ~/(?m)^\s*(?:(?:public|private|protected|internal|open|final|abstract|data|sealed|expect|actual)\s+)*(?:class|object|interface|typealias)\s+AssetNativeSliderOpticalWorldRenderTest\b/
+                def definitions = candidates.findAll { (it.getText('UTF-8') =~ declaration).find() }
+                if (definitions != ([source] as Set)) {
+                    throw new GradleException('Research alias must be unique across :app source sets: ' + definitions)
+                }
+                p.logger.lifecycle('Opt-in asset research source attached to :app androidTest: ' + source)
+            }
+        }
+    }
+}
