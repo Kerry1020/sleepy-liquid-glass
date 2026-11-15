@@ -1,7 +1,11 @@
 {
-  "sleepyRepository": "https://github.com/lingion/sleepy",
-  "sourceBaseCommit": "64519c74fae1ed40adc121a7151d9e6c3a138ad8",
+  "sleepyRepository": "https://github.com/Kerry1020/sleepy",
+  "upstreamRepository": "https://github.com/lingion/sleepy",
+  "sourceBaseCommit": "ddbf20e63ea39b4b202531fe427b0d5f548fe60b",
+  "pullRequest": 427,
   "runtimeSourcesByteIdenticalAtImport": true,
+  "status": "experimental; importing mechanisms does not validate independent-backend optics",
+  "previousImport": "runtime-import-20261114.json",
   "files": [
     {
       "source": "libraries/liquid-glass/runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass/BackdropAppearanceHysteresisTest.kt",
@@ -12,6 +16,16 @@
       "source": "libraries/liquid-glass/runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass/BackdropForegroundAtlasTest.kt",
       "target": "runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass/BackdropForegroundAtlasTest.kt",
       "sha256": "ef083e82bb710428c838c7c2ede973ae00a80a974391ca2773c5b739a15f76b0"
+    },
+    {
+      "source": "libraries/liquid-glass/runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputBlurTest.kt",
+      "target": "runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputBlurTest.kt",
+      "sha256": "f30702e35f142d1d75aa0ce230e707afa09bbb4e4611e4aa51c8594995903536"
+    },
+    {
+      "source": "libraries/liquid-glass/runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputGeometryTest.kt",
+      "target": "runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputGeometryTest.kt",
+      "sha256": "92208a9878ce9afb71f433536e43c28d5c936d1fd92c0aa38e5d176b90e3b351"
     },
     {
       "source": "libraries/liquid-glass/runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass/NativeDockEndpointTest.kt",
@@ -41,7 +55,7 @@
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
       "target": "runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
-      "sha256": "2b45241e8c640d996e1ebfbe4eceff3d0fcdfc55a84e428f7fcd215560247f19"
+      "sha256": "024acfba12aa7efd036f82a10b13ba9dc3292dbe7e80f53ef485453c08231914"
     },
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/ActiveFrameLoop.kt",
@@ -106,7 +120,7 @@
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassEffect.kt",
       "target": "runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassEffect.kt",
-      "sha256": "17bcec74d13faee03c1c6f16f4c02e3db735253bdf716adc687c0564e58a376a"
+      "sha256": "a46f891c93afd1e90eea0abcb190b146141a284b77af97389efb8feaa8bbdfd0"
     },
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassExactContour.kt",
@@ -117,6 +131,16 @@
       "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGeometry.kt",
       "target": "runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGeometry.kt",
       "sha256": "2d7e1b79440149cffb9c71151e0a557a2a6ec14cb184bd78492d5b10fae9cff4"
+    },
+    {
+      "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputBlur.kt",
+      "target": "runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputBlur.kt",
+      "sha256": "06e97f0184c81d9eb34894a9997e78dd3ff0e0d8f72951b3cac0b6337bf6b045"
+    },
+    {
+      "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputGeometry.kt",
+      "target": "runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputGeometry.kt",
+      "sha256": "6842a8fb57e6520621a250c4281d969f892bb8153bbb2115f1b872bfc5dde368"
     },
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassOutlineProfile.kt",
@@ -131,12 +155,12 @@
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt",
       "target": "runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt",
-      "sha256": "068b2e8d83d499f0a36d9167ab6bef2f5b6af16d3460c4b3ce0b0a5654c477d4"
+      "sha256": "145a05887002e19cf1c44fd6e67d7fd6e839d2f43a8cb97b55c581736cc92ca2"
     },
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
       "target": "runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
-      "sha256": "a755c6125dee7f885a38800f3c79b0941ed63c07e870a76533546c860a8f808e"
+      "sha256": "2acfbc9c7c184334b7442cd17c8dcde7968ab5915d15943e92b0f9b553ef3c3b"
     },
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassSuperellipse.kt",

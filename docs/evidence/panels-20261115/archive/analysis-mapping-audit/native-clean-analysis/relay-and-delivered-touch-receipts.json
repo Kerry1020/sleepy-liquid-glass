@@ -1,0 +1,342 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "checks": {
+      "one_relay_one_state_set": true,
+      "real_title_DOWN_UP": true,
+      "rest_repeat_spacing_at_least025_s": true,
+      "same_requestID_carrier_order": true
+    },
+    "relay": [
+      {
+        "trigger": "reference-title",
+        "event": "panel-plain-backing-command",
+        "carrier": "alert",
+        "requestID": 1,
+        "t": 4.065153999952599,
+        "phase": "relay-requested"
+      }
+    ],
+    "state_set": [
+      {
+        "showSheet": false,
+        "requestID": 1,
+        "t": 4.065780916600488,
+        "showAlert": true,
+        "event": "panel-plain-backing-command",
+        "carrier": "alert",
+        "phase": "state-set"
+      }
+    ],
+    "title_touches": [
+      {
+        "windowWidthPt": 375,
+        "touchID": 1,
+        "touchType": 0,
+        "sampleT": 3.9853498331503943,
+        "majorRadius": 18.009,
+        "y": 42,
+        "x": 187.5,
+        "force": 0,
+        "maximumPossibleForce": 0,
+        "nx": 0.5,
+        "event": "touch",
+        "windowFrameY": 0,
+        "hitIdentifier": "reference-title",
+        "t": 4.015402958262712,
+        "timestampUptimeSeconds": 568660.2880640833,
+        "deliveredT": 4.008942708256654,
+        "windowClass": "UIWindow",
+        "windowHeightPt": 667,
+        "windowFrameX": 0,
+        "phase": 0,
+        "ny": 0.06296851574212893,
+        "source": "delivery",
+        "tapCount": 1,
+        "hitClass": "UILabel"
+      },
+      {
+        "deliveredT": 4.06495629157871,
+        "x": 187.5,
+        "source": "delivery",
+        "event": "touch",
+        "phase": 3,
+        "touchType": 0,
+        "force": 0,
+        "hitIdentifier": "reference-title",
+        "tapCount": 1,
+        "windowWidthPt": 375,
+        "windowHeightPt": 667,
+        "windowFrameX": 0,
+        "windowClass": "UIWindow",
+        "touchID": 1,
+        "nx": 0.5,
+        "y": 42,
+        "windowFrameY": 0,
+        "timestampUptimeSeconds": 568660.35473075,
+        "sampleT": 4.052016499801539,
+        "maximumPossibleForce": 0,
+        "ny": 0.06296851574212893,
+        "majorRadius": 0,
+        "hitClass": "UILabel",
+        "t": 4.065003541647457
+      }
+    ]
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "checks": {
+      "one_relay_one_state_set": true,
+      "real_title_DOWN_UP": true,
+      "rest_repeat_spacing_at_least025_s": true,
+      "same_requestID_carrier_order": true
+    },
+    "relay": [
+      {
+        "trigger": "reference-title",
+        "event": "panel-plain-backing-command",
+        "requestID": 1,
+        "t": 3.7448397499974817,
+        "phase": "relay-requested",
+        "carrier": "sheet"
+      }
+    ],
+    "state_set": [
+      {
+        "phase": "state-set",
+        "event": "panel-plain-backing-command",
+        "showSheet": true,
+        "carrier": "sheet",
+        "requestID": 1,
+        "showAlert": false,
+        "t": 3.745495875016786
+      }
+    ],
+    "title_touches": [
+      {
+        "windowClass": "UIWindow",
+        "event": "touch",
+        "windowHeightPt": 667,
+        "x": 187.5,
+        "phase": 0,
+        "force": 0,
+        "t": 3.6797660416923463,
+        "touchType": 0,
+        "nx": 0.5,
+        "source": "delivery",
+        "maximumPossibleForce": 0,
+        "windowFrameY": 0,
+        "y": 42,
+        "majorRadius": 18.009,
+        "sampleT": 3.6698453748831525,
+        "deliveredT": 3.67238925001584,
+        "tapCount": 1,
+        "hitClass": "UILabel",
+        "hitIdentifier": "reference-title",
+        "ny": 0.06296851574212893,
+        "windowFrameX": 0,
+        "windowWidthPt": 375,
+        "touchID": 1,
+        "timestampUptimeSeconds": 568676.0926842083
+      },
+      {
+        "windowHeightPt": 667,
+        "y": 42,
+        "touchType": 0,
+        "timestampUptimeSeconds": 568676.159350875,
+        "maximumPossibleForce": 0,
+        "nx": 0.5,
+        "hitIdentifier": "reference-title",
+        "x": 187.5,
+        "phase": 3,
+        "ny": 0.06296851574212893,
+        "windowWidthPt": 375,
+        "event": "touch",
+        "tapCount": 1,
+        "touchID": 1,
+        "windowClass": "UIWindow",
+        "force": 0,
+        "majorRadius": 0,
+        "windowFrameY": 0,
+        "sampleT": 3.736512041534297,
+        "source": "delivery",
+        "deliveredT": 3.7445387083571404,
+        "hitClass": "UILabel",
+        "windowFrameX": 0,
+        "t": 3.7446037917397916
+      }
+    ]
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "checks": {
+      "one_relay_one_state_set": true,
+      "real_title_DOWN_UP": true,
+      "rest_repeat_spacing_at_least025_s": true,
+      "same_requestID_carrier_order": true
+    },
+    "relay": [
+      {
+        "phase": "relay-requested",
+        "t": 3.8703450416214764,
+        "event": "panel-plain-backing-command",
+        "carrier": "alert",
+        "trigger": "reference-title",
+        "requestID": 1
+      }
+    ],
+    "state_set": [
+      {
+        "showSheet": false,
+        "event": "panel-plain-backing-command",
+        "requestID": 1,
+        "t": 3.8705396249424666,
+        "phase": "state-set",
+        "showAlert": true,
+        "carrier": "alert"
+      }
+    ],
+    "title_touches": [
+      {
+        "ny": 0.06296851574212893,
+        "t": 3.801415583351627,
+        "source": "delivery",
+        "majorRadius": 18.009,
+        "windowWidthPt": 375,
+        "windowHeightPt": 667,
+        "windowFrameY": 0,
+        "hitClass": "UILabel",
+        "windowClass": "UIWindow",
+        "touchType": 0,
+        "timestampUptimeSeconds": 568691.9225210417,
+        "force": 0,
+        "event": "touch",
+        "maximumPossibleForce": 0,
+        "phase": 0,
+        "hitIdentifier": "reference-title",
+        "windowFrameX": 0,
+        "x": 187.5,
+        "tapCount": 1,
+        "nx": 0.5,
+        "sampleT": 3.7919137915596366,
+        "deliveredT": 3.793773500015959,
+        "touchID": 1,
+        "y": 42
+      },
+      {
+        "hitClass": "UILabel",
+        "sampleT": 3.858580458210781,
+        "windowWidthPt": 375,
+        "event": "touch",
+        "touchType": 0,
+        "ny": 0.06296851574212893,
+        "windowHeightPt": 667,
+        "phase": 3,
+        "x": 187.5,
+        "nx": 0.5,
+        "timestampUptimeSeconds": 568691.9891877084,
+        "deliveredT": 3.870089999982156,
+        "maximumPossibleForce": 0,
+        "touchID": 1,
+        "tapCount": 1,
+        "windowClass": "UIWindow",
+        "windowFrameX": 0,
+        "windowFrameY": 0,
+        "t": 3.8701341666746885,
+        "source": "delivery",
+        "y": 42,
+        "hitIdentifier": "reference-title",
+        "force": 0,
+        "majorRadius": 0
+      }
+    ]
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "checks": {
+      "one_relay_one_state_set": true,
+      "real_title_DOWN_UP": true,
+      "rest_repeat_spacing_at_least025_s": true,
+      "same_requestID_carrier_order": true
+    },
+    "relay": [
+      {
+        "phase": "relay-requested",
+        "carrier": "sheet",
+        "requestID": 1,
+        "trigger": "reference-title",
+        "t": 3.595617041690275,
+        "event": "panel-plain-backing-command"
+      }
+    ],
+    "state_set": [
+      {
+        "t": 3.5960780832683668,
+        "showAlert": false,
+        "showSheet": true,
+        "phase": "state-set",
+        "event": "panel-plain-backing-command",
+        "requestID": 1,
+        "carrier": "sheet"
+      }
+    ],
+    "title_touches": [
+      {
+        "force": 0,
+        "x": 187.5,
+        "windowHeightPt": 667,
+        "t": 3.5223417916567996,
+        "phase": 0,
+        "touchType": 0,
+        "ny": 0.06296851574212893,
+        "touchID": 1,
+        "maximumPossibleForce": 0,
+        "hitClass": "UILabel",
+        "windowWidthPt": 375,
+        "y": 42,
+        "nx": 0.5,
+        "windowClass": "UIWindow",
+        "windowFrameY": 0,
+        "timestampUptimeSeconds": 568706.9527016666,
+        "sampleT": 3.5138914164854214,
+        "event": "touch",
+        "source": "delivery",
+        "deliveredT": 3.5166359583381563,
+        "tapCount": 1,
+        "windowFrameX": 0,
+        "majorRadius": 18.009,
+        "hitIdentifier": "reference-title"
+      },
+      {
+        "majorRadius": 0,
+        "touchID": 1,
+        "event": "touch",
+        "deliveredT": 3.595276083331555,
+        "ny": 0.06296851574212893,
+        "hitIdentifier": "reference-title",
+        "hitClass": "UILabel",
+        "y": 42,
+        "windowClass": "UIWindow",
+        "windowFrameX": 0,
+        "windowWidthPt": 375,
+        "source": "delivery",
+        "maximumPossibleForce": 0,
+        "nx": 0.5,
+        "force": 0,
+        "windowHeightPt": 667,
+        "t": 3.595347791677341,
+        "sampleT": 3.580558083136566,
+        "phase": 3,
+        "touchType": 0,
+        "timestampUptimeSeconds": 568707.0193683333,
+        "tapCount": 1,
+        "windowFrameY": 0,
+        "x": 187.5
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "phase": "A_mode12",
+  "design_json": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sheet-body6-plan.json",
+  "design_json_sha256": "fbd358aef373d8f7bbd981261826063168ddb2312f21f2a8abe76a8ea1174a07",
+  "design_md_sha256": "5345a0c7d2502b1ad54e4bbc26d10c3993831a945c3cc6ff1dd996f328df4a07",
+  "control": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115",
+  "candidate": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115",
+  "file_hash_binding": "run-input-freeze.json",
+  "mode_evidence": "root explicit handoff states light Sheet true-radius input12 only; Alert and dark unchanged",
+  "implementation_hash_status": "GlassHost.kt/GlassFilterBands.kt required in next build freeze before phase B decode; not supplied by this analysis",
+  "all_four_actual_windows_rgba_zero_difference": true,
+  "no_material_parity_claim": true
+}

@@ -1,0 +1,69 @@
+{
+  "scope": "All8 unchanged Sheet complete actual app windows, no crop or excluded pixels. Not system composited display.",
+  "rows": [
+    {
+      "scene": "fine_grid-light-share_sheet",
+      "raw_max": 0,
+      "changed_channels": 0,
+      "icc_to_srgb_max": 0,
+      "color_policy": "no ICC; identical sRGB declaration/assumption preserves bytes",
+      "geometry_equal": true
+    },
+    {
+      "scene": "color_stripes-light-share_sheet",
+      "raw_max": 0,
+      "changed_channels": 0,
+      "icc_to_srgb_max": 0,
+      "color_policy": "no ICC; identical sRGB declaration/assumption preserves bytes",
+      "geometry_equal": true
+    },
+    {
+      "scene": "tonal_blocks-light-share_sheet",
+      "raw_max": 0,
+      "changed_channels": 0,
+      "icc_to_srgb_max": 0,
+      "color_policy": "no ICC; identical sRGB declaration/assumption preserves bytes",
+      "geometry_equal": true
+    },
+    {
+      "scene": "synthetic_landscape-light-share_sheet",
+      "raw_max": 0,
+      "changed_channels": 0,
+      "icc_to_srgb_max": 0,
+      "color_policy": "no ICC; identical sRGB declaration/assumption preserves bytes",
+      "geometry_equal": true
+    },
+    {
+      "scene": "fine_grid-dark-share_sheet",
+      "raw_max": 0,
+      "changed_channels": 0,
+      "icc_to_srgb_max": 0,
+      "color_policy": "no ICC; identical sRGB declaration/assumption preserves bytes",
+      "geometry_equal": true
+    },
+    {
+      "scene": "color_stripes-dark-share_sheet",
+      "raw_max": 0,
+      "changed_channels": 0,
+      "icc_to_srgb_max": 0,
+      "color_policy": "no ICC; identical sRGB declaration/assumption preserves bytes",
+      "geometry_equal": true
+    },
+    {
+      "scene": "tonal_blocks-dark-share_sheet",
+      "raw_max": 0,
+      "changed_channels": 0,
+      "icc_to_srgb_max": 0,
+      "color_policy": "no ICC; identical sRGB declaration/assumption preserves bytes",
+      "geometry_equal": true
+    },
+    {
+      "scene": "synthetic_landscape-dark-share_sheet",
+      "raw_max": 0,
+      "changed_channels": 0,
+      "icc_to_srgb_max": 0,
+      "color_policy": "no ICC; identical sRGB declaration/assumption preserves bytes",
+      "geometry_equal": true
+    }
+  ]
+}

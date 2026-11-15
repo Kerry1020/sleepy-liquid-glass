@@ -1,0 +1,9 @@
+background,theme,carrier,mean_rgb_rmse_8bit,horizontal_profile_rgb_rmse_8bit
+fine_grid,light,share_sheet,0.2304800021869709,0.4122631028363764
+fine_grid,dark,share_sheet,0.276203191375766,0.3033036588342403
+color_stripes,light,share_sheet,0.5768780925642575,3.5818516601402086
+color_stripes,dark,share_sheet,0.546019240038153,2.4027340436919786
+tonal_blocks,light,share_sheet,0.43256360740811656,1.23384954474769
+tonal_blocks,dark,share_sheet,1.3837314488899621,1.5538295218171023
+synthetic_landscape,light,share_sheet,1.3598075622928514,1.3947197630520318
+synthetic_landscape,dark,share_sheet,0.628812664740518,0.6946656354333957

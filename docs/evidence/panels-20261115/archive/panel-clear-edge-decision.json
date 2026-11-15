@@ -1,0 +1,5 @@
+{
+  "decision": "rejected",
+  "evidence": "Fixed raw S02 d12 native/baseline/candidate width12.53/24.14/27.04pt; peak contrast49.88/42.72/36.01. Coordinate widths and crossings also regress. RimBlur -8/-6 removed from production wrapper. Input blur helper remains optional/default null for pipeline audit; not accepted for production optics.",
+  "next": "Audit true RenderEffect Gaussian sigma vs declared radius; do not tune new material on inconsistent blur contract."
+}

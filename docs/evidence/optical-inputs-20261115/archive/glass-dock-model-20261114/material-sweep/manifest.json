@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "set_id": "plain_flat_material_20261114_v1",
+  "split": "calibration",
+  "protocol_id": "plain_flat_material_transfer_20261114_v1",
+  "protocol_sha256": "e12723129b121fc3d5f1653281cac419375896e81274bb021f5721fd56cfae3b",
+  "dimensions_px": [
+    750,
+    1334
+  ],
+  "color_space": "sRGB",
+  "opaque": true,
+  "icc_profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+  "inputs": [
+    {
+      "id": "ms01_gray_26",
+      "file": "ms01_gray_26.png",
+      "sha256": "4b413181e93b65b5821fe0a258091c284455f25545202cc311f8ee743206ad0d",
+      "pixel_sha256": "c7edd0793f811646007d6523b649f5c5ed9ed1125107014750c48b1916115370",
+      "rgb": [
+        26,
+        26,
+        26
+      ],
+      "width": 750,
+      "height": 1334,
+      "mode": "RGB",
+      "role": "flat_material_calibration"
+    },
+    {
+      "id": "ms02_gray_77",
+      "file": "ms02_gray_77.png",
+      "sha256": "53104f48413e7fe4e8d9b681042738982da581fbf1dd766af257c8b13b4f5a32",
+      "pixel_sha256": "6e5bfed53bd4286804b256c8d005e0ee76349d2b9980e20128fb3f7e46aa29a2",
+      "rgb": [
+        77,
+        77,
+        77
+      ],
+      "width": 750,
+      "height": 1334,
+      "mode": "RGB",
+      "role": "flat_material_calibration"
+    },
+    {
+      "id": "ms03_gray_128",
+      "file": "ms03_gray_128.png",
+      "sha256": "5032e181255ed070a53e1eb7f5c3e0f055d75f3a69933f2638174d8cb31f8b50",
+      "pixel_sha256": "2afdc267ef6fac247a5caf85dce93e09c41beff01185f108e9b226de1c33a7c8",
+      "rgb": [
+        128,
+        128,
+        128
+      ],
+      "width": 750,
+      "height": 1334,
+      "mode": "RGB",
+      "role": "flat_material_calibration"
+    },
+    {
+      "id": "ms04_gray_179",
+      "file": "ms04_gray_179.png",
+      "sha256": "b20b14a3fb2c1c97ffd28312279c84209f448c04ccb20c431ce3f463e992a7fe",
+      "pixel_sha256": "a912c5307f65de420cc5f9b7ec5bca043bd74afc39dec7329c7ab76800940bfb",
+      "rgb": [
+        179,
+        179,
+        179
+      ],
+      "width": 750,
+      "height": 1334,
+      "mode": "RGB",
+      "role": "flat_material_calibration"
+    },
+    {
+      "id": "ms05_gray_230",
+      "file": "ms05_gray_230.png",
+      "sha256": "33d31ce2577f602d74dc363b18df0343254d1fdf8e575f6952f6206561f809e3",
+      "pixel_sha256": "406ea9815fdbdafe3376521dd02c2d18db8a2203bcb2e5c5bc141f768bf37253",
+      "rgb": [
+        230,
+        230,
+        230
+      ],
+      "width": 750,
+      "height": 1334,
+      "mode": "RGB",
+      "role": "flat_material_calibration"
+    },
+    {
+      "id": "ms06_red",
+      "file": "ms06_red.png",
+      "sha256": "10183f5741570cc9365b1e3d184e84cdcbfe20bb651ac0cdd7b66e441748856b",
+      "pixel_sha256": "8916fe5192385145bd60d40bfef73fcb6de0ca3852fe76d3a6419dd93e0ea256",
+      "rgb": [
+        232,
+        48,
+        48
+      ],
+      "width": 750,
+      "height": 1334,
+      "mode": "RGB",
+      "role": "flat_material_calibration"
+    },
+    {
+      "id": "ms07_green",
+      "file": "ms07_green.png",
+      "sha256": "be8373be1c3f1d0c790fc41305deeffd356bcdb9f05e80819576993864ae6c60",
+      "pixel_sha256": "b4bbdd159d85d199847488624474370fb55f3fd8459ac02dc6762a63999c8551",
+      "rgb": [
+        48,
+        232,
+        48
+      ],
+      "width": 750,
+      "height": 1334,
+      "mode": "RGB",
+      "role": "flat_material_calibration"
+    },
+    {
+      "id": "ms08_blue",
+      "file": "ms08_blue.png",
+      "sha256": "dadda68b13790153e82854265988290495a8098a97c045663ff00adcb9735715",
+      "pixel_sha256": "01cb22ae155d3df5d3eb922665adbeb71d7a4785f745c171590c31c62a270e33",
+      "rgb": [
+        48,
+        48,
+        232
+      ],
+      "width": 750,
+      "height": 1334,
+      "mode": "RGB",
+      "role": "flat_material_calibration"
+    }
+  ]
+}

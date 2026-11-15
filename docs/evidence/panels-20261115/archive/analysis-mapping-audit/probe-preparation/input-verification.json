@@ -1,0 +1,34 @@
+{
+  "scope": "independent exact input/oracle verification only; no optical output, capture or build tested",
+  "passed": true,
+  "checks": [
+    {
+      "a": 20,
+      "opposite_contrast_pixel_sum": 250,
+      "filled_pixels": 43008,
+      "continuous_centroid": [
+        187.5,
+        316.92857142857144
+      ],
+      "raster_centroid": [
+        187.5,
+        316.9300595238095
+      ]
+    },
+    {
+      "a": 24,
+      "opposite_contrast_pixel_sum": 250,
+      "filled_pixels": 49152,
+      "continuous_centroid": [
+        187.5,
+        313.5
+      ],
+      "raster_centroid": [
+        187.5,
+        313.5013020833333
+      ]
+    }
+  ],
+  "json_count": 6,
+  "max_CPU_tangent_slope": 9.104525093744858e-05
+}

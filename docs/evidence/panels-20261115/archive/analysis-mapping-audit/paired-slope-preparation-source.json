@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "scope": "source preparation only; not execution or decode authorization",
+  "source": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/UITests/NativeReferenceTests.swift",
+  "before_full_UITest_sha256": "84459663646a8abbd0a81d3138964f7d705ad2f0f2ec772db9399120de483790",
+  "after_full_UITest_sha256": "27184ef46d507cd9d8324c7e4d0fa6f205dc8774fb29edcdced73d1d35c1febb",
+  "before_plain_test_function_sha256": "df732b82611074bb7cfcf50df92ec748ab40518cd573a603e836e330df112a51",
+  "reconstructed_plain_test_function_sha256": "df732b82611074bb7cfcf50df92ec748ab40518cd573a603e836e330df112a51",
+  "before_plain_test_body_sha256": "031090930448f4be8769e2bf98ca77bacdd8984fcb3fcd61a321e810693d6b5d",
+  "reconstructed_plain_test_body_sha256": "031090930448f4be8769e2bf98ca77bacdd8984fcb3fcd61a321e810693d6b5d",
+  "shared_helper_source_sha256": "fc54d22a6e62adc855218af297b77efba86c918dffd076c5e85508966e364d25",
+  "source_diff_sha256": "673234a75a631968084eb35b8ad0edb45fab1623f581ca4944d468212a82b0db",
+  "before_native_source_hashes": {
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/Info.plist": "77ed9f2bc9c6f16bdb933441e597d24c93235378db68156d48bcf45a349ee525",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/NativeRangeReference.swift": "95c1836ca2a9fdc18643b2a0df65914c8518044666ee5361179def7079b4f972",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/NativeStage.swift": "a35f8ec7ecb37011ace27109487f0a697df28c686dc93fe017886a5d98ab01ce",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/ReferenceTrace.swift": "fd7e74a0763ac4a6bd665698d733586b51db8470eeeff1d267023cfc46dd0988",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/main.swift": "d68ba1c054995b435bd590a873525dba2739d25766cb8930a8105c54f7817731",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/GlassNativeReference.xcodeproj/project.pbxproj": "7f3214ccb44d79a3ca76477a58a0bdddebef941c99176fb4ba1898c1afc847de",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/UITests/NativeReferenceTests.swift": "84459663646a8abbd0a81d3138964f7d705ad2f0f2ec772db9399120de483790",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/inspect-video.swift": "4c1766e717ffe255f05be42068d27aa4ebfd80e9495905da4358db615be378cb",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/project.yml": "4a22ab059046d16fac604832e8fb84d16469fc771b18d80ad673e20cd9f9247e"
+  },
+  "after_native_source_hashes": {
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/Info.plist": "77ed9f2bc9c6f16bdb933441e597d24c93235378db68156d48bcf45a349ee525",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/NativeRangeReference.swift": "95c1836ca2a9fdc18643b2a0df65914c8518044666ee5361179def7079b4f972",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/NativeStage.swift": "a35f8ec7ecb37011ace27109487f0a697df28c686dc93fe017886a5d98ab01ce",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/ReferenceTrace.swift": "fd7e74a0763ac4a6bd665698d733586b51db8470eeeff1d267023cfc46dd0988",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/main.swift": "d68ba1c054995b435bd590a873525dba2739d25766cb8930a8105c54f7817731",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/GlassNativeReference.xcodeproj/project.pbxproj": "7f3214ccb44d79a3ca76477a58a0bdddebef941c99176fb4ba1898c1afc847de",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/UITests/NativeReferenceTests.swift": "27184ef46d507cd9d8324c7e4d0fa6f205dc8774fb29edcdced73d1d35c1febb",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/inspect-video.swift": "4c1766e717ffe255f05be42068d27aa4ebfd80e9495905da4358db615be378cb",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/project.yml": "4a22ab059046d16fac604832e8fb84d16469fc771b18d80ad673e20cd9f9247e"
+  },
+  "source_hash_set_scope": "Nine native source/project/config files: App Swift/plist, UITest Swift, inspect-video.swift, project.yml and project.pbxproj. DerivedData metadata is excluded from the source hash set. No binary or image was read.",
+  "old_test": {
+    "name": "testPanelPlainBackingFeasibility",
+    "inputIDs": [
+      "panel_probe_coordinate",
+      "panel_probe_shapes"
+    ],
+    "carriers": [
+      "alert",
+      "sheet"
+    ],
+    "style": "light",
+    "split": "calibration",
+    "fresh_launch_count": 4
+  },
+  "new_test": {
+    "name": "testPanelPairedSlopeMappingFeasibility",
+    "inputIDs": [
+      "paired_slope_alert_a20_normal",
+      "paired_slope_alert_a20_reversed",
+      "paired_slope_alert_a24_normal",
+      "paired_slope_alert_a24_reversed"
+    ],
+    "carriers": [
+      "alert"
+    ],
+    "style": "light",
+    "split": "calibration",
+    "fresh_launch_count": 4
+  },
+  "shared_cycle": {
+    "stages": [
+      "clean-before",
+      "rest",
+      "rest-repeat",
+      "dismiss-after"
+    ],
+    "expected_screenshots_per_test": 16,
+    "expected_AX_per_test": 16,
+    "trigger": "real tap on existing reference-title; no timer-based presentation",
+    "visibility": "existing native control wait and settled REST unchanged",
+    "dismissal": "existing actual Cancel/Done plus disappearance expectation unchanged",
+    "manifest_and_trace": "existing complete checksum-bound manifest, selected entry, 25 fixture parameters, actual launch args/env, target/control AX geometry unchanged",
+    "minimum_runtime_manifest_entries": 8,
+    "runtime_manifest_note": "Fixed8 loader contract unchanged; only the four paired IDs are launched by the new test; compatibility entries must be specified by the separate plan"
+  },
+  "checks": {
+    "whole_old_function_reconstructs_byte_exact": true,
+    "whole_old_file_reconstructs_byte_exact": true,
+    "old_plain_wrapper_keeps_same_two_ids_and_order": true,
+    "old_plain_wrapper_keeps_same_two_carriers_and_order": true,
+    "new_wrapper_fixed_four_ids": true,
+    "new_wrapper_alert_only": true,
+    "shared_cycle_light_only": true,
+    "shared_cycle_calibration_only": true,
+    "shared_cycle_request_capture_wait_and_termination_unchanged": true,
+    "existing_manifest_loader_and_launch_helper_unchanged": true,
+    "only_UITest_changed_in_native_source_hash_set": true
+  },
+  "not_performed": [
+    "Swift compile",
+    "build",
+    "XCTest execution",
+    "simulator or physical device operation",
+    "capture",
+    "image decode",
+    "Git command or mutation"
+  ],
+  "remaining_gates": [
+    "Separate candidate plan/source footprint/tangent eligibility must be frozen before root authorizes acquisition",
+    "New manifest provenance, explicit color declaration/CRC and capture receipts remain outside this source-only task",
+    "No new runtime visibility, geometry, repeat stability, image mapping or native optical acceptance follows from old-test source preservation"
+  ],
+  "markdown_sha256": "1ad01d7ded6e7601ae7c8423b2255b32060dab2277106df239a1ffdcd57d4fc4",
+  "excluded_generated_metadata_root": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/DerivedData"
+}

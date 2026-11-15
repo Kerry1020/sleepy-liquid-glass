@@ -1,0 +1,41 @@
+{
+  "scope": "Ordinary Alert/Sheet static positive refraction only; no Dock change or inference",
+  "sampling_map": "S(q)=q-D(d)*n(q); flat inward g(d)=d+D(d)",
+  "image_magnification": "signed 1/g_prime, only on an invertible local branch",
+  "A60_B20_p1": {
+    "stationary_d_pt": 13.675444679663242,
+    "minimum_source_inward_g_pt": 16.754446796632408,
+    "source_u20_preimages_d_pt": [
+      8.0,
+      20.0
+    ]
+  },
+  "amplitude_counterexample_at_d8": [
+    {
+      "d": 8.0,
+      "D": 5.999999999999999,
+      "g": 14.0,
+      "gp": -0.125,
+      "gpp": 0.14648437499999997,
+      "A": 30.0
+    },
+    {
+      "d": 8.0,
+      "D": 11.999999999999998,
+      "g": 20.0,
+      "gp": -1.25,
+      "gpp": 0.29296874999999994,
+      "A": 60.0
+    }
+  ],
+  "half_power_shoulder": {
+    "gp_limit_inside": -1.1213203435596424,
+    "gp_outside": 1.0,
+    "continuous_first_derivative": false
+  },
+  "model_limitations": [
+    "Exact scalar flat-edge mathematics, not exact contour solver/GPU arithmetic",
+    "No native refraction field or physical thickness recovered",
+    "Rendered contour crossings are not automatically source coordinates"
+  ]
+}

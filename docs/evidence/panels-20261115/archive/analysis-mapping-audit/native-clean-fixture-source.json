@@ -1,0 +1,40 @@
+{
+  "status": "implemented source only; NOT compiled or captured",
+  "scope": "two specified native App files only; no UITests/build/device/Git operations",
+  "source_only_checks": {
+    "system_sheet_alert_modifiers_unchanged": true,
+    "native_sheet_content_unchanged": true,
+    "existing_presentations_stack_unchanged": true,
+    "view_did_layout_unchanged": true,
+    "scene_install_and_parent_unchanged": true,
+    "external_loader_unchanged": true,
+    "no_new_fixed_delay": true
+  },
+  "files": {
+    "NativeStage.swift": {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/NativeStage.swift",
+      "before_sha256": "fa66a5e37570cca07311677e50c28f1e6cec9e7be84e4d370a7f7070dfd48339",
+      "after_sha256": "a35f8ec7ecb37011ace27109487f0a697df28c686dc93fe017886a5d98ab01ce"
+    },
+    "main.swift": {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/main.swift",
+      "before_sha256": "1dbadf2d915a4a66b80e4b04d08daa516ab5b80f7656f2b496f7c4d9892bed9a",
+      "after_sha256": "2744c1f87e3bfd00d45387da1536a199220651e97d38ca2718438a18310e5550"
+    }
+  },
+  "required_followup": "Root unified native build; same-run clean before screenshot and actual public controller/foreground geometry must be measured before any optical inference.",
+  "design_receipt": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/native-clean-fixture-source.md",
+  "patch_sha256": "7837b50ae5f3fba7f212f998a729a4389e9b53858b7ae7fa1d9ba8ed96abc3b6",
+  "launch_contract": {
+    "required": [
+      "-ReferenceStaticOptics",
+      "-ReferenceScene presentations",
+      "-ReferenceExternalInputFile <validated PNG>",
+      "-ReferencePanelPlainBacking",
+      "-ReferencePanelCarrier alert|sheet"
+    ],
+    "trigger_identifier": "reference-title",
+    "trigger_AX_value": "panel-plain-backing:alert|sheet",
+    "auto_present": false
+  }
+}

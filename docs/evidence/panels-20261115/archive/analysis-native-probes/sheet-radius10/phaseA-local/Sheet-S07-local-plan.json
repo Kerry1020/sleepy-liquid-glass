@@ -1,0 +1,43 @@
+{
+  "status": "exploratory operational local extraction after existing screenshot decode, not independent preregistration",
+  "source_id": "S07 cross vertical stem right edge",
+  "source_vertices_after_y668.9px": "stem x153.1..190.9px, y668.9..704px",
+  "frozen_parent_region": "Sheet top_left x48..110pt, inward[-5.75,24)pt",
+  "local_scan_x_pixel_centers_pt": [
+    84.25,
+    109.75
+  ],
+  "row_centers_pt": [
+    334.75,
+    341.25
+  ],
+  "row_step_pt": 0.5,
+  "high_plateau_pt": [
+    84,
+    90
+  ],
+  "neutral_plateau_pt": [
+    100,
+    110
+  ],
+  "reason": "The upper horizontal arm has no right gray plateau inside frozen x110 bound; only stem rows have one. Both plateaus use original known source membership. No ROI movement or centroid completion.",
+  "gates": "same frozen source direction/contrast,5xrobustspread_floor1,secondary_peak<=.8,12clear_pixels,\u00b1.25pt minimum sampling floor",
+  "files": {
+    "source": {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/panel_probe_shapes.png",
+      "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+    },
+    "native": {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/D7877EDC-B156-4BCF-8306-36EC447D522E.png",
+      "sha256": "708015f01175893a3fff32a2fdd0a7c7292f1db0442c4fc5660d309102b09640"
+    },
+    "baseline60": {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png",
+      "sha256": "a27b420fc8d73a96f9b247a42ed8f76f4cb6727270f4104c75ab4de269c5506d"
+    },
+    "candidate": {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png",
+      "sha256": "7acdf5d9a1c108a0111f7801efa7354fcbdab8f0ec6076dcef058fe02cd4b6f2"
+    }
+  }
+}

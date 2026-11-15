@@ -1,0 +1,2966 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "alert_source_core",
+      "ltrb_pt": [
+        148.5,
+        257.5,
+        226.5,
+        317.5
+      ],
+      "collar_pt": 0,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "alert_source_core",
+      "ltrb_pt": [
+        148.5,
+        257.5,
+        226.5,
+        317.5
+      ],
+      "collar_pt": 0,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "alert_source_core_collar2pt",
+      "ltrb_pt": [
+        146.5,
+        255.5,
+        228.5,
+        319.5
+      ],
+      "collar_pt": 2,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "alert_source_core_collar2pt",
+      "ltrb_pt": [
+        146.5,
+        255.5,
+        228.5,
+        319.5
+      ],
+      "collar_pt": 2,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "alert_source_core_collar8pt",
+      "ltrb_pt": [
+        140.5,
+        249.5,
+        234.5,
+        325.5
+      ],
+      "collar_pt": 8,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "alert_source_core_collar8pt",
+      "ltrb_pt": [
+        140.5,
+        249.5,
+        234.5,
+        325.5
+      ],
+      "collar_pt": 8,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "alert_source_core_collar24pt",
+      "ltrb_pt": [
+        124.5,
+        233.5,
+        250.5,
+        341.5
+      ],
+      "collar_pt": 24,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "alert_source_core_collar24pt",
+      "ltrb_pt": [
+        124.5,
+        233.5,
+        250.5,
+        341.5
+      ],
+      "collar_pt": 24,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "alert_source_core_collar60pt",
+      "ltrb_pt": [
+        88.5,
+        197.5,
+        286.5,
+        377.5
+      ],
+      "collar_pt": 60,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 142560,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 142560,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "alert_source_core_collar60pt",
+      "ltrb_pt": [
+        88.5,
+        197.5,
+        286.5,
+        377.5
+      ],
+      "collar_pt": 60,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 142560,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 142560,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "old_show-sheet",
+      "ltrb_pt": [
+        126.5,
+        286,
+        249,
+        319.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "old_show-sheet",
+      "ltrb_pt": [
+        126.5,
+        286,
+        249,
+        319.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "old_show-alert",
+      "ltrb_pt": [
+        130,
+        345.5,
+        245,
+        379
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "old_show-alert",
+      "ltrb_pt": [
+        130,
+        345.5,
+        245,
+        379
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "old_show-menu",
+      "ltrb_pt": [
+        126.5,
+        405,
+        249,
+        438.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "old_show-menu",
+      "ltrb_pt": [
+        126.5,
+        405,
+        249,
+        438.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "sheet_source_core",
+      "ltrb_pt": [
+        51,
+        317.5,
+        129,
+        377.5
+      ],
+      "collar_pt": 0,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "sheet_source_core",
+      "ltrb_pt": [
+        51,
+        317.5,
+        129,
+        377.5
+      ],
+      "collar_pt": 0,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "sheet_source_core_collar2pt",
+      "ltrb_pt": [
+        49,
+        315.5,
+        131,
+        379.5
+      ],
+      "collar_pt": 2,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "sheet_source_core_collar2pt",
+      "ltrb_pt": [
+        49,
+        315.5,
+        131,
+        379.5
+      ],
+      "collar_pt": 2,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "sheet_source_core_collar8pt",
+      "ltrb_pt": [
+        43,
+        309.5,
+        137,
+        385.5
+      ],
+      "collar_pt": 8,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "sheet_source_core_collar8pt",
+      "ltrb_pt": [
+        43,
+        309.5,
+        137,
+        385.5
+      ],
+      "collar_pt": 8,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "sheet_source_core_collar24pt",
+      "ltrb_pt": [
+        27,
+        293.5,
+        153,
+        401.5
+      ],
+      "collar_pt": 24,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "sheet_source_core_collar24pt",
+      "ltrb_pt": [
+        27,
+        293.5,
+        153,
+        401.5
+      ],
+      "collar_pt": 24,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "sheet_source_core_collar60pt",
+      "ltrb_pt": [
+        0,
+        257.5,
+        189,
+        437.5
+      ],
+      "collar_pt": 60,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 136080,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 136080,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "sheet_source_core_collar60pt",
+      "ltrb_pt": [
+        0,
+        257.5,
+        189,
+        437.5
+      ],
+      "collar_pt": 60,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 136080,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 136080,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "S07_original_frozen_support",
+      "ltrb_pt": [
+        27,
+        266,
+        145,
+        384
+      ],
+      "scope": "Previously declared support retained unchanged"
+    },
+    "raw_RGBA": {
+      "pixels": 55696,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 55696,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "S07_original_frozen_support",
+      "ltrb_pt": [
+        27,
+        266,
+        145,
+        384
+      ],
+      "scope": "Previously declared support retained unchanged"
+    },
+    "raw_RGBA": {
+      "pixels": 55696,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 55696,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "old_show-sheet",
+      "ltrb_pt": [
+        126.5,
+        286,
+        249,
+        319.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "old_show-sheet",
+      "ltrb_pt": [
+        126.5,
+        286,
+        249,
+        319.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "old_show-alert",
+      "ltrb_pt": [
+        130,
+        345.5,
+        245,
+        379
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "old_show-alert",
+      "ltrb_pt": [
+        130,
+        345.5,
+        245,
+        379
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "old_show-menu",
+      "ltrb_pt": [
+        126.5,
+        405,
+        249,
+        438.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "old_show-menu",
+      "ltrb_pt": [
+        126.5,
+        405,
+        249,
+        438.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "alert_source_core",
+      "ltrb_pt": [
+        148.5,
+        257.5,
+        226.5,
+        317.5
+      ],
+      "collar_pt": 0,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "alert_source_core",
+      "ltrb_pt": [
+        148.5,
+        257.5,
+        226.5,
+        317.5
+      ],
+      "collar_pt": 0,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "alert_source_core_collar2pt",
+      "ltrb_pt": [
+        146.5,
+        255.5,
+        228.5,
+        319.5
+      ],
+      "collar_pt": 2,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "alert_source_core_collar2pt",
+      "ltrb_pt": [
+        146.5,
+        255.5,
+        228.5,
+        319.5
+      ],
+      "collar_pt": 2,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "alert_source_core_collar8pt",
+      "ltrb_pt": [
+        140.5,
+        249.5,
+        234.5,
+        325.5
+      ],
+      "collar_pt": 8,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "alert_source_core_collar8pt",
+      "ltrb_pt": [
+        140.5,
+        249.5,
+        234.5,
+        325.5
+      ],
+      "collar_pt": 8,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "alert_source_core_collar24pt",
+      "ltrb_pt": [
+        124.5,
+        233.5,
+        250.5,
+        341.5
+      ],
+      "collar_pt": 24,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "alert_source_core_collar24pt",
+      "ltrb_pt": [
+        124.5,
+        233.5,
+        250.5,
+        341.5
+      ],
+      "collar_pt": 24,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "alert_source_core_collar60pt",
+      "ltrb_pt": [
+        88.5,
+        197.5,
+        286.5,
+        377.5
+      ],
+      "collar_pt": 60,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 142560,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 142560,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "alert_source_core_collar60pt",
+      "ltrb_pt": [
+        88.5,
+        197.5,
+        286.5,
+        377.5
+      ],
+      "collar_pt": 60,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 142560,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 142560,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "old_show-sheet",
+      "ltrb_pt": [
+        126.5,
+        286,
+        249,
+        319.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "old_show-sheet",
+      "ltrb_pt": [
+        126.5,
+        286,
+        249,
+        319.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "old_show-alert",
+      "ltrb_pt": [
+        130,
+        345.5,
+        245,
+        379
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "old_show-alert",
+      "ltrb_pt": [
+        130,
+        345.5,
+        245,
+        379
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "support": {
+      "name": "old_show-menu",
+      "ltrb_pt": [
+        126.5,
+        405,
+        249,
+        438.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "old_show-menu",
+      "ltrb_pt": [
+        126.5,
+        405,
+        249,
+        438.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "sheet_source_core",
+      "ltrb_pt": [
+        51,
+        317.5,
+        129,
+        377.5
+      ],
+      "collar_pt": 0,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "sheet_source_core",
+      "ltrb_pt": [
+        51,
+        317.5,
+        129,
+        377.5
+      ],
+      "collar_pt": 0,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 18720,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "sheet_source_core_collar2pt",
+      "ltrb_pt": [
+        49,
+        315.5,
+        131,
+        379.5
+      ],
+      "collar_pt": 2,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "sheet_source_core_collar2pt",
+      "ltrb_pt": [
+        49,
+        315.5,
+        131,
+        379.5
+      ],
+      "collar_pt": 2,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 20992,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "sheet_source_core_collar8pt",
+      "ltrb_pt": [
+        43,
+        309.5,
+        137,
+        385.5
+      ],
+      "collar_pt": 8,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "sheet_source_core_collar8pt",
+      "ltrb_pt": [
+        43,
+        309.5,
+        137,
+        385.5
+      ],
+      "collar_pt": 8,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 28576,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "sheet_source_core_collar24pt",
+      "ltrb_pt": [
+        27,
+        293.5,
+        153,
+        401.5
+      ],
+      "collar_pt": 24,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "sheet_source_core_collar24pt",
+      "ltrb_pt": [
+        27,
+        293.5,
+        153,
+        401.5
+      ],
+      "collar_pt": 24,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 54432,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "sheet_source_core_collar60pt",
+      "ltrb_pt": [
+        0,
+        257.5,
+        189,
+        437.5
+      ],
+      "collar_pt": 60,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 136080,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 136080,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "sheet_source_core_collar60pt",
+      "ltrb_pt": [
+        0,
+        257.5,
+        189,
+        437.5
+      ],
+      "collar_pt": 60,
+      "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+    },
+    "raw_RGBA": {
+      "pixels": 136080,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 136080,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "S07_original_frozen_support",
+      "ltrb_pt": [
+        27,
+        266,
+        145,
+        384
+      ],
+      "scope": "Previously declared support retained unchanged"
+    },
+    "raw_RGBA": {
+      "pixels": 55696,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 55696,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "S07_original_frozen_support",
+      "ltrb_pt": [
+        27,
+        266,
+        145,
+        384
+      ],
+      "scope": "Previously declared support retained unchanged"
+    },
+    "raw_RGBA": {
+      "pixels": 55696,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 55696,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "old_show-sheet",
+      "ltrb_pt": [
+        126.5,
+        286,
+        249,
+        319.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "old_show-sheet",
+      "ltrb_pt": [
+        126.5,
+        286,
+        249,
+        319.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "old_show-alert",
+      "ltrb_pt": [
+        130,
+        345.5,
+        245,
+        379
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "old_show-alert",
+      "ltrb_pt": [
+        130,
+        345.5,
+        245,
+        379
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 15410,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "support": {
+      "name": "old_show-menu",
+      "ltrb_pt": [
+        126.5,
+        405,
+        249,
+        438.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "support": {
+      "name": "old_show-menu",
+      "ltrb_pt": [
+        126.5,
+        405,
+        249,
+        438.5
+      ],
+      "scope": "Former backing control footprint; same fixed region for both selected inputs"
+    },
+    "raw_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 16415,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  }
+]

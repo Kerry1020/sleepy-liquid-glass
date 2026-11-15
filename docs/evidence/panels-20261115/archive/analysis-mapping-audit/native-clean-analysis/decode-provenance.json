@@ -1,0 +1,290 @@
+[
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/panel_probe_coordinate.png",
+    "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+    "icc_description": "sRGB built-in",
+    "raw_rgba_sha256": "f09fea3fcaf320dc57d713e6e17436dfdc3966560c054593df347ec990082a35",
+    "normalized_rgba_sha256": "f09fea3fcaf320dc57d713e6e17436dfdc3966560c054593df347ec990082a35",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": true,
+    "no_profile_assumption": null
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/panel_probe_shapes.png",
+    "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+    "icc_description": "sRGB built-in",
+    "raw_rgba_sha256": "6888e3ede3d667e4fe493f7b8a0309ca7425779748c1fccce764ed4886d3b1dc",
+    "normalized_rgba_sha256": "6888e3ede3d667e4fe493f7b8a0309ca7425779748c1fccce764ed4886d3b1dc",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": true,
+    "no_profile_assumption": null
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/5F76FBAD-53BB-4F7A-BABF-8F39C5A3D17A.png",
+    "sha256": "a1c75243759634b1fd80d2da9475e424e3d1d8617bae96baf53f50f26526c419",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "a2c66602eff2071ac7f926589382ec4cd7d837fe10ab730477ec7e4d89c98cb6",
+    "normalized_rgba_sha256": "a2c66602eff2071ac7f926589382ec4cd7d837fe10ab730477ec7e4d89c98cb6",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/F5387126-8EFF-45F2-8840-A1E88273B5C6.png",
+    "sha256": "8cb61244f0fbc4c77f5ada595776f8b8bb45087be289181ff61e8e459a551742",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "9052e98c135bb0326a3a168712ba15f6dc46d584999aab201b646188fc4ae6d1",
+    "normalized_rgba_sha256": "9052e98c135bb0326a3a168712ba15f6dc46d584999aab201b646188fc4ae6d1",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/D83E36DC-98F0-467F-86AA-01892B329CA2.png",
+    "sha256": "8cb61244f0fbc4c77f5ada595776f8b8bb45087be289181ff61e8e459a551742",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "9052e98c135bb0326a3a168712ba15f6dc46d584999aab201b646188fc4ae6d1",
+    "normalized_rgba_sha256": "9052e98c135bb0326a3a168712ba15f6dc46d584999aab201b646188fc4ae6d1",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/3F10AC23-0A5D-48D2-8A2C-222197CF026F.png",
+    "sha256": "025ab3c4f4e1d08bc6d935d66ab09942154ae84d53f0df88bcaa726c7fd6df2b",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "3b9ce7d834618edc81a99dd619b58c676cdf043733fc72f1760078103ee33674",
+    "normalized_rgba_sha256": "3b9ce7d834618edc81a99dd619b58c676cdf043733fc72f1760078103ee33674",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/38742180-53DA-4932-8FFF-AB3D22E39651.png",
+    "sha256": "025ab3c4f4e1d08bc6d935d66ab09942154ae84d53f0df88bcaa726c7fd6df2b",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "3b9ce7d834618edc81a99dd619b58c676cdf043733fc72f1760078103ee33674",
+    "normalized_rgba_sha256": "3b9ce7d834618edc81a99dd619b58c676cdf043733fc72f1760078103ee33674",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/C2A68B4C-F904-40C3-8847-AB418E61AECD.png",
+    "sha256": "25e7cb315aa725885bdca7f68ad79b6936b08dae90f7e8d60f44e82bb95590c2",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "e1199df3f9575f42b33ffec30e1016ae8bac6d50a219aff4863a8c595df2df30",
+    "normalized_rgba_sha256": "e1199df3f9575f42b33ffec30e1016ae8bac6d50a219aff4863a8c595df2df30",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/30447895-A8DD-48FF-BF1A-91332EA5E964.png",
+    "sha256": "25e7cb315aa725885bdca7f68ad79b6936b08dae90f7e8d60f44e82bb95590c2",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "e1199df3f9575f42b33ffec30e1016ae8bac6d50a219aff4863a8c595df2df30",
+    "normalized_rgba_sha256": "e1199df3f9575f42b33ffec30e1016ae8bac6d50a219aff4863a8c595df2df30",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/65149BCF-0070-402A-8E91-F53A3F155569.png",
+    "sha256": "025ab3c4f4e1d08bc6d935d66ab09942154ae84d53f0df88bcaa726c7fd6df2b",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "3b9ce7d834618edc81a99dd619b58c676cdf043733fc72f1760078103ee33674",
+    "normalized_rgba_sha256": "3b9ce7d834618edc81a99dd619b58c676cdf043733fc72f1760078103ee33674",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/2A64DEC1-D0F1-4059-B0BA-7FB9B1E5140D.png",
+    "sha256": "468a124bc0be1376e54f254e903f9b392eb7ad89b2bddaaf9dbb603b0197bb6c",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "823e71f4ae90449997ee0971e3ba70ad583e8446a2e98d475a4e96b42151ca8d",
+    "normalized_rgba_sha256": "823e71f4ae90449997ee0971e3ba70ad583e8446a2e98d475a4e96b42151ca8d",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/15E9760E-380F-4DF1-A3F3-23F6A5DB096A.png",
+    "sha256": "27572349b321646eccd5943826e936b02ac51676917adda1fffa2d996f5314be",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "db7c220a4b0330611f6c22905549f6dda7b174deb6d9d75ef77975708fbc6478",
+    "normalized_rgba_sha256": "db7c220a4b0330611f6c22905549f6dda7b174deb6d9d75ef77975708fbc6478",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/80F13C1A-56F3-402C-AC0C-DD37F2AAB2A8.png",
+    "sha256": "27572349b321646eccd5943826e936b02ac51676917adda1fffa2d996f5314be",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "db7c220a4b0330611f6c22905549f6dda7b174deb6d9d75ef77975708fbc6478",
+    "normalized_rgba_sha256": "db7c220a4b0330611f6c22905549f6dda7b174deb6d9d75ef77975708fbc6478",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/BF012EDD-0B6B-4C2C-953D-B3A7E5C89672.png",
+    "sha256": "944b39cec4d503da9ce286dc4b1b04e1da31261532d284a4e581421278e489dd",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "dda585e3851d7eadb90a8032a3f002e2a98b792b7eacfa4ea4159b1f4894e1c6",
+    "normalized_rgba_sha256": "dda585e3851d7eadb90a8032a3f002e2a98b792b7eacfa4ea4159b1f4894e1c6",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/F6808FFF-8C0F-494D-B274-F65CD900C800.png",
+    "sha256": "468a124bc0be1376e54f254e903f9b392eb7ad89b2bddaaf9dbb603b0197bb6c",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "823e71f4ae90449997ee0971e3ba70ad583e8446a2e98d475a4e96b42151ca8d",
+    "normalized_rgba_sha256": "823e71f4ae90449997ee0971e3ba70ad583e8446a2e98d475a4e96b42151ca8d",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/889BF0CD-4F3D-46C8-82AF-43CB1C4995E6.png",
+    "sha256": "75b08a266caca3a4d94a02ef431b73a54273af6d83f7dadfc1668cc84ce5ede1",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "1aad628d36bb7c2f44f0de6e7b39869a25f7885b18989f3f12b80ea1b273b3a5",
+    "normalized_rgba_sha256": "1aad628d36bb7c2f44f0de6e7b39869a25f7885b18989f3f12b80ea1b273b3a5",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/9F818AFD-EB74-4C7F-8372-19E4E838B8EF.png",
+    "sha256": "75b08a266caca3a4d94a02ef431b73a54273af6d83f7dadfc1668cc84ce5ede1",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "1aad628d36bb7c2f44f0de6e7b39869a25f7885b18989f3f12b80ea1b273b3a5",
+    "normalized_rgba_sha256": "1aad628d36bb7c2f44f0de6e7b39869a25f7885b18989f3f12b80ea1b273b3a5",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation/attachments/10339ACE-907A-4848-ABD4-9335863644C7.png",
+    "sha256": "944b39cec4d503da9ce286dc4b1b04e1da31261532d284a4e581421278e489dd",
+    "original_mode": "RGB",
+    "size_px": [
+      750,
+      1334
+    ],
+    "icc_sha256": null,
+    "icc_description": null,
+    "raw_rgba_sha256": "dda585e3851d7eadb90a8032a3f002e2a98b792b7eacfa4ea4159b1f4894e1c6",
+    "normalized_rgba_sha256": "dda585e3851d7eadb90a8032a3f002e2a98b792b7eacfa4ea4159b1f4894e1c6",
+    "raw_normalized_identical": true,
+    "normalized_sRGB_available": false,
+    "no_profile_assumption": "unnormalized diagnostic retained"
+  }
+]

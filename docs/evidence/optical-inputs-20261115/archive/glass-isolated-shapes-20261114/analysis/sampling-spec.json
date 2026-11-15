@@ -1,0 +1,1378 @@
+{
+  "ic01_circle_top": {
+    "-1.0": {
+      "full_canvas": {
+        "count": 1000500,
+        "sha256": "f4c1545192a4c5972be390106d9c57adb68faf02b84974d26f8f90c3b0680284"
+      },
+      "nominal_dock_all": {
+        "count": 77808,
+        "sha256": "7d13a49dfce9a6359e15cf031a40acd4752c81fca1a76bb16dc3eaa3b3ce9313"
+      },
+      "nominal_base_excluding_selected_and_glyph_neighborhoods": {
+        "count": 46272,
+        "sha256": "1d95bc5c481d15ca814e2638bb5cdad8992c89ba23155b0819cb862a63abf4cc"
+      },
+      "nominal_selected_lens_DIAGNOSTIC": {
+        "count": 16080,
+        "sha256": "b9147cd8a33fb124c48cece9ed4c2de56bcdc3b6d8353e187902d00684b2c8ce"
+      },
+      "nominal_glyph_neighborhoods_DIAGNOSTIC": {
+        "count": 20608,
+        "sha256": "1724ee26366ca0a1bbf7c55bbf09290cdb895e5ae35b975cc179a2cca9d5ea08"
+      },
+      "nominal_rim_inner_0_4px": {
+        "count": 5804,
+        "sha256": "f3bca97d50bb0f6f83595b8cfdc4486e545f2089a85586e54a6fa4e9d8a157ec"
+      },
+      "nominal_rim_outer_0_8px": {
+        "count": 11952,
+        "sha256": "868c905c475de0d2650c3e5957862df930920640959fe7cb9516478918c0d274"
+      },
+      "source_coverage_support": {
+        "count": 1321,
+        "sha256": "645c476b2a1d49a911e35e8d5d7e83dfafca06c5cee6f699014d6b8b96312c67"
+      },
+      "source_center_disk_128px": {
+        "count": 51433,
+        "sha256": "ccd214d61a287d8ba47da0769aea61b09ce9c0ba7d1bc64d9c4773cf4822ba08"
+      },
+      "remote_canvas_beyond_128px": {
+        "count": 949067,
+        "sha256": "87abfff9f73074b9d3d9230171d11673944b2d8d485348a7ca96d3076bee841f"
+      },
+      "dock_beyond_128px": {
+        "count": 52486,
+        "sha256": "05947d7a8f01d17c178a5cf7f6a04c2b982fb4350785d5b151c05303605e0fde"
+      },
+      "background_far_fixed": {
+        "count": 8960,
+        "sha256": "fa77d78f0a2513b114c7e63d70f2b619ea7bc764e1bab8a71f8cb95715c9c7d3"
+      },
+      "backing_scroll_text_DIAGNOSTIC": {
+        "count": 13600,
+        "sha256": "9ed318c9eba3cc4a0891e4fe1ee18491ae419ade4908c990efa60146a242e551"
+      },
+      "source_radial_r0_1": {
+        "count": 1245,
+        "sha256": "837abeb7bee8362dee1cd43caf07a4b29584b0a34bdffd48f16d38635bf3a57c"
+      },
+      "source_radial_r1_2": {
+        "count": 3768,
+        "sha256": "6d5e79b2b8529e446d4b570f3c0dbdc2168b90c2a0a01798cfe39769797f1070"
+      },
+      "source_radial_r2_4": {
+        "count": 15056,
+        "sha256": "9313d9ab362df03c7f1e263094740bc4dad906a6016e9b257fa7bbbd7a2fa4d4"
+      },
+      "source_radial_r4_to_128": {
+        "count": 31360,
+        "sha256": "75348625db7842e75b82b28a0aada412f79bba91df75565aa9e2e1a88f6aa6d4"
+      },
+      "source_sector_0_45deg_within128px": {
+        "count": 6449,
+        "sha256": "bcf9a0c4b2fef0cd767cd71090f5b84585551f3043e2aa8ab6f8ac3d198f1e03"
+      },
+      "source_sector_1_45deg_within128px": {
+        "count": 6410,
+        "sha256": "7e1f16f243ea966a35d885d9d17e758b85a3bf4d1c34d96acedb0ea1c2db1649"
+      },
+      "source_sector_2_45deg_within128px": {
+        "count": 6448,
+        "sha256": "cf525e34afb4c68ab1f491ac79d6df8db790255fbd841d67e8ae77bcbf2ea78a"
+      },
+      "source_sector_3_45deg_within128px": {
+        "count": 6410,
+        "sha256": "8c21edb2537b712b69a119e3a462dbb0d0fcb07a6d7a00bcac70ddcc6cc1c3c7"
+      },
+      "source_sector_4_45deg_within128px": {
+        "count": 6448,
+        "sha256": "a589532bea13934561b96396b93026b0d468360dcf0a689b1d2a89f6d518c522"
+      },
+      "source_sector_5_45deg_within128px": {
+        "count": 6410,
+        "sha256": "461c955728651ac1aa7e71f2af842bd50d326a271c48bb9c6a3f1d9964e594ef"
+      },
+      "source_sector_6_45deg_within128px": {
+        "count": 6448,
+        "sha256": "78b2ec5cec85d789ff75d61c39422241b6119c87282cf2879366c01fa77c0c54"
+      },
+      "source_sector_7_45deg_within128px": {
+        "count": 6410,
+        "sha256": "619673be235e9382442705f90cca0cd1b849557ac75428d566304bcc90279be3"
+      },
+      "source_color_band_0_support": {
+        "count": 476,
+        "sha256": "b71c7cdb8958fdd51182fe4790221545f6c6b3805036c9a58aac37ac0b984501"
+      },
+      "source_color_band_1_support": {
+        "count": 447,
+        "sha256": "6a157f860db525886660a91d4ad7fda9389482f7ec20358f8a877e4479e65c18"
+      },
+      "source_color_band_2_support": {
+        "count": 476,
+        "sha256": "941e2c39c3b784728cfb2e26dfc21be2725f185a1876937b18ec6a19c3df53db"
+      }
+    },
+    "0.0": {
+      "full_canvas": {
+        "count": 1000500,
+        "sha256": "f4c1545192a4c5972be390106d9c57adb68faf02b84974d26f8f90c3b0680284"
+      },
+      "nominal_dock_all": {
+        "count": 79304,
+        "sha256": "a6dd7be5b8ae7bdd1345c948499ded5907b9b9330eeca000add34f187bf8286b"
+      },
+      "nominal_base_excluding_selected_and_glyph_neighborhoods": {
+        "count": 47286,
+        "sha256": "934efdc9ce08aec29b1349aa07f3492ad4fdd158b6b9938143745e6f7b0619dc"
+      },
+      "nominal_selected_lens_DIAGNOSTIC": {
+        "count": 16562,
+        "sha256": "3f6065bff39b88aba677619a8cf823724c87d283c2d91a702bbca4dae9e2055f"
+      },
+      "nominal_glyph_neighborhoods_DIAGNOSTIC": {
+        "count": 20608,
+        "sha256": "1724ee26366ca0a1bbf7c55bbf09290cdb895e5ae35b975cc179a2cca9d5ea08"
+      },
+      "nominal_rim_inner_0_4px": {
+        "count": 5852,
+        "sha256": "274014cd738de77baca830a8273a5e15cf51e666aad5fdd3c3db1a15d1b33351"
+      },
+      "nominal_rim_outer_0_8px": {
+        "count": 11956,
+        "sha256": "eb8a8cd230fa69be46c48decfe617686b0f7139cf1819b4139435cab1d385e75"
+      },
+      "source_coverage_support": {
+        "count": 1321,
+        "sha256": "645c476b2a1d49a911e35e8d5d7e83dfafca06c5cee6f699014d6b8b96312c67"
+      },
+      "source_center_disk_128px": {
+        "count": 51433,
+        "sha256": "ccd214d61a287d8ba47da0769aea61b09ce9c0ba7d1bc64d9c4773cf4822ba08"
+      },
+      "remote_canvas_beyond_128px": {
+        "count": 949067,
+        "sha256": "87abfff9f73074b9d3d9230171d11673944b2d8d485348a7ca96d3076bee841f"
+      },
+      "dock_beyond_128px": {
+        "count": 53654,
+        "sha256": "78c86ff30064cde6d193e37f22fd2659cd262199ba187528344a8edc65eceaf8"
+      },
+      "background_far_fixed": {
+        "count": 8960,
+        "sha256": "fa77d78f0a2513b114c7e63d70f2b619ea7bc764e1bab8a71f8cb95715c9c7d3"
+      },
+      "backing_scroll_text_DIAGNOSTIC": {
+        "count": 13600,
+        "sha256": "9ed318c9eba3cc4a0891e4fe1ee18491ae419ade4908c990efa60146a242e551"
+      },
+      "source_radial_r0_1": {
+        "count": 1245,
+        "sha256": "837abeb7bee8362dee1cd43caf07a4b29584b0a34bdffd48f16d38635bf3a57c"
+      },
+      "source_radial_r1_2": {
+        "count": 3768,
+        "sha256": "6d5e79b2b8529e446d4b570f3c0dbdc2168b90c2a0a01798cfe39769797f1070"
+      },
+      "source_radial_r2_4": {
+        "count": 15056,
+        "sha256": "9313d9ab362df03c7f1e263094740bc4dad906a6016e9b257fa7bbbd7a2fa4d4"
+      },
+      "source_radial_r4_to_128": {
+        "count": 31360,
+        "sha256": "75348625db7842e75b82b28a0aada412f79bba91df75565aa9e2e1a88f6aa6d4"
+      },
+      "source_sector_0_45deg_within128px": {
+        "count": 6449,
+        "sha256": "bcf9a0c4b2fef0cd767cd71090f5b84585551f3043e2aa8ab6f8ac3d198f1e03"
+      },
+      "source_sector_1_45deg_within128px": {
+        "count": 6410,
+        "sha256": "7e1f16f243ea966a35d885d9d17e758b85a3bf4d1c34d96acedb0ea1c2db1649"
+      },
+      "source_sector_2_45deg_within128px": {
+        "count": 6448,
+        "sha256": "cf525e34afb4c68ab1f491ac79d6df8db790255fbd841d67e8ae77bcbf2ea78a"
+      },
+      "source_sector_3_45deg_within128px": {
+        "count": 6410,
+        "sha256": "8c21edb2537b712b69a119e3a462dbb0d0fcb07a6d7a00bcac70ddcc6cc1c3c7"
+      },
+      "source_sector_4_45deg_within128px": {
+        "count": 6448,
+        "sha256": "a589532bea13934561b96396b93026b0d468360dcf0a689b1d2a89f6d518c522"
+      },
+      "source_sector_5_45deg_within128px": {
+        "count": 6410,
+        "sha256": "461c955728651ac1aa7e71f2af842bd50d326a271c48bb9c6a3f1d9964e594ef"
+      },
+      "source_sector_6_45deg_within128px": {
+        "count": 6448,
+        "sha256": "78b2ec5cec85d789ff75d61c39422241b6119c87282cf2879366c01fa77c0c54"
+      },
+      "source_sector_7_45deg_within128px": {
+        "count": 6410,
+        "sha256": "619673be235e9382442705f90cca0cd1b849557ac75428d566304bcc90279be3"
+      },
+      "source_color_band_0_support": {
+        "count": 476,
+        "sha256": "b71c7cdb8958fdd51182fe4790221545f6c6b3805036c9a58aac37ac0b984501"
+      },
+      "source_color_band_1_support": {
+        "count": 447,
+        "sha256": "6a157f860db525886660a91d4ad7fda9389482f7ec20358f8a877e4479e65c18"
+      },
+      "source_color_band_2_support": {
+        "count": 476,
+        "sha256": "941e2c39c3b784728cfb2e26dfc21be2725f185a1876937b18ec6a19c3df53db"
+      }
+    },
+    "1.0": {
+      "full_canvas": {
+        "count": 1000500,
+        "sha256": "f4c1545192a4c5972be390106d9c57adb68faf02b84974d26f8f90c3b0680284"
+      },
+      "nominal_dock_all": {
+        "count": 80784,
+        "sha256": "2e2c11f450bbebd48647077c50c2627e1ed654424eca050408b38dad0df096bc"
+      },
+      "nominal_base_excluding_selected_and_glyph_neighborhoods": {
+        "count": 48292,
+        "sha256": "2e6ea1da0b5ff5fb970a5061f18648b4f9409b6e6bf538ed58837725bcf7039e"
+      },
+      "nominal_selected_lens_DIAGNOSTIC": {
+        "count": 17036,
+        "sha256": "fffdcac5d848bbbef9d2122e0c0c3419dc83ba0ab3fb528594c680bbf90c6255"
+      },
+      "nominal_glyph_neighborhoods_DIAGNOSTIC": {
+        "count": 20608,
+        "sha256": "1724ee26366ca0a1bbf7c55bbf09290cdb895e5ae35b975cc179a2cca9d5ea08"
+      },
+      "nominal_rim_inner_0_4px": {
+        "count": 5868,
+        "sha256": "3cf25e3417a6967be37d33198af6a89664aa638e06ac1669e96cef955169b3a8"
+      },
+      "nominal_rim_outer_0_8px": {
+        "count": 12036,
+        "sha256": "f461d3aaecfe49ee97120d32955f4891293d62d7164152059cef35447cebf975"
+      },
+      "source_coverage_support": {
+        "count": 1321,
+        "sha256": "645c476b2a1d49a911e35e8d5d7e83dfafca06c5cee6f699014d6b8b96312c67"
+      },
+      "source_center_disk_128px": {
+        "count": 51433,
+        "sha256": "ccd214d61a287d8ba47da0769aea61b09ce9c0ba7d1bc64d9c4773cf4822ba08"
+      },
+      "remote_canvas_beyond_128px": {
+        "count": 949067,
+        "sha256": "87abfff9f73074b9d3d9230171d11673944b2d8d485348a7ca96d3076bee841f"
+      },
+      "dock_beyond_128px": {
+        "count": 54816,
+        "sha256": "9eb7f14de5ceca80b70af971a6f215b73ae666de2eec093b0430939d8bd62c22"
+      },
+      "background_far_fixed": {
+        "count": 8960,
+        "sha256": "fa77d78f0a2513b114c7e63d70f2b619ea7bc764e1bab8a71f8cb95715c9c7d3"
+      },
+      "backing_scroll_text_DIAGNOSTIC": {
+        "count": 13600,
+        "sha256": "9ed318c9eba3cc4a0891e4fe1ee18491ae419ade4908c990efa60146a242e551"
+      },
+      "source_radial_r0_1": {
+        "count": 1245,
+        "sha256": "837abeb7bee8362dee1cd43caf07a4b29584b0a34bdffd48f16d38635bf3a57c"
+      },
+      "source_radial_r1_2": {
+        "count": 3768,
+        "sha256": "6d5e79b2b8529e446d4b570f3c0dbdc2168b90c2a0a01798cfe39769797f1070"
+      },
+      "source_radial_r2_4": {
+        "count": 15056,
+        "sha256": "9313d9ab362df03c7f1e263094740bc4dad906a6016e9b257fa7bbbd7a2fa4d4"
+      },
+      "source_radial_r4_to_128": {
+        "count": 31360,
+        "sha256": "75348625db7842e75b82b28a0aada412f79bba91df75565aa9e2e1a88f6aa6d4"
+      },
+      "source_sector_0_45deg_within128px": {
+        "count": 6449,
+        "sha256": "bcf9a0c4b2fef0cd767cd71090f5b84585551f3043e2aa8ab6f8ac3d198f1e03"
+      },
+      "source_sector_1_45deg_within128px": {
+        "count": 6410,
+        "sha256": "7e1f16f243ea966a35d885d9d17e758b85a3bf4d1c34d96acedb0ea1c2db1649"
+      },
+      "source_sector_2_45deg_within128px": {
+        "count": 6448,
+        "sha256": "cf525e34afb4c68ab1f491ac79d6df8db790255fbd841d67e8ae77bcbf2ea78a"
+      },
+      "source_sector_3_45deg_within128px": {
+        "count": 6410,
+        "sha256": "8c21edb2537b712b69a119e3a462dbb0d0fcb07a6d7a00bcac70ddcc6cc1c3c7"
+      },
+      "source_sector_4_45deg_within128px": {
+        "count": 6448,
+        "sha256": "a589532bea13934561b96396b93026b0d468360dcf0a689b1d2a89f6d518c522"
+      },
+      "source_sector_5_45deg_within128px": {
+        "count": 6410,
+        "sha256": "461c955728651ac1aa7e71f2af842bd50d326a271c48bb9c6a3f1d9964e594ef"
+      },
+      "source_sector_6_45deg_within128px": {
+        "count": 6448,
+        "sha256": "78b2ec5cec85d789ff75d61c39422241b6119c87282cf2879366c01fa77c0c54"
+      },
+      "source_sector_7_45deg_within128px": {
+        "count": 6410,
+        "sha256": "619673be235e9382442705f90cca0cd1b849557ac75428d566304bcc90279be3"
+      },
+      "source_color_band_0_support": {
+        "count": 476,
+        "sha256": "b71c7cdb8958fdd51182fe4790221545f6c6b3805036c9a58aac37ac0b984501"
+      },
+      "source_color_band_1_support": {
+        "count": 447,
+        "sha256": "6a157f860db525886660a91d4ad7fda9389482f7ec20358f8a877e4479e65c18"
+      },
+      "source_color_band_2_support": {
+        "count": 476,
+        "sha256": "941e2c39c3b784728cfb2e26dfc21be2725f185a1876937b18ec6a19c3df53db"
+      }
+    }
+  },
+  "ic02_triangle_body": {
+    "-1.0": {
+      "full_canvas": {
+        "count": 1000500,
+        "sha256": "f4c1545192a4c5972be390106d9c57adb68faf02b84974d26f8f90c3b0680284"
+      },
+      "nominal_dock_all": {
+        "count": 77808,
+        "sha256": "7d13a49dfce9a6359e15cf031a40acd4752c81fca1a76bb16dc3eaa3b3ce9313"
+      },
+      "nominal_base_excluding_selected_and_glyph_neighborhoods": {
+        "count": 46272,
+        "sha256": "1d95bc5c481d15ca814e2638bb5cdad8992c89ba23155b0819cb862a63abf4cc"
+      },
+      "nominal_selected_lens_DIAGNOSTIC": {
+        "count": 16080,
+        "sha256": "b9147cd8a33fb124c48cece9ed4c2de56bcdc3b6d8353e187902d00684b2c8ce"
+      },
+      "nominal_glyph_neighborhoods_DIAGNOSTIC": {
+        "count": 20608,
+        "sha256": "1724ee26366ca0a1bbf7c55bbf09290cdb895e5ae35b975cc179a2cca9d5ea08"
+      },
+      "nominal_rim_inner_0_4px": {
+        "count": 5804,
+        "sha256": "f3bca97d50bb0f6f83595b8cfdc4486e545f2089a85586e54a6fa4e9d8a157ec"
+      },
+      "nominal_rim_outer_0_8px": {
+        "count": 11952,
+        "sha256": "868c905c475de0d2650c3e5957862df930920640959fe7cb9516478918c0d274"
+      },
+      "source_coverage_support": {
+        "count": 688,
+        "sha256": "5d3a762ee631582825cc6abbf1128c5af9f6da1482a9061452a4b31298c27fa2"
+      },
+      "source_center_disk_128px": {
+        "count": 48928,
+        "sha256": "f9dc987ffc16cf3fd58397d0bb0e6eeb2b9ff51e912d046575d11ed7e0618883"
+      },
+      "remote_canvas_beyond_128px": {
+        "count": 951572,
+        "sha256": "60dc595c44c7b6631a14e0cbcc332b52d62f4161806644b0b6e2393328d4fb1d"
+      },
+      "dock_beyond_128px": {
+        "count": 47814,
+        "sha256": "c9d7dc63686ccbf07a64164e223a2bc93f6747f39e636aee0abd2e0adc078be3"
+      },
+      "background_far_fixed": {
+        "count": 8960,
+        "sha256": "fa77d78f0a2513b114c7e63d70f2b619ea7bc764e1bab8a71f8cb95715c9c7d3"
+      },
+      "backing_scroll_text_DIAGNOSTIC": {
+        "count": 13600,
+        "sha256": "9ed318c9eba3cc4a0891e4fe1ee18491ae419ade4908c990efa60146a242e551"
+      },
+      "source_radial_r0_1": {
+        "count": 1513,
+        "sha256": "31f984544ab3a1e81810d8bca1479bd567e9ff06e8bc43c6dae094d65a26f19f"
+      },
+      "source_radial_r1_2": {
+        "count": 4560,
+        "sha256": "dd55f5594842e04f0c92a7739825df0835fe72c61a9bfb370797dbb64dafc650"
+      },
+      "source_radial_r2_4": {
+        "count": 18236,
+        "sha256": "66a60c8a37d9a56132568869fcf9c945532ce3330f5a75bb02f8ee9340d3b93d"
+      },
+      "source_radial_r4_to_128": {
+        "count": 24616,
+        "sha256": "84bcd0d83db0fb8f0a8559e668ed9a1d75ee75df24dafa3fed8333ca27740de8"
+      },
+      "source_sector_0_45deg_within128px": {
+        "count": 6449,
+        "sha256": "e287fb648111be86ca883cd60751cfc52cd86c256396a127e580655af7317ecc"
+      },
+      "source_sector_1_45deg_within128px": {
+        "count": 5170,
+        "sha256": "3dedd1ffcb26d34fb6ed8251c8fa62d09181c6bf906f60e1676368da8f33175a"
+      },
+      "source_sector_2_45deg_within128px": {
+        "count": 5183,
+        "sha256": "1f52e30a1d2e77fcb27323c35ba8de48b0ad869f2349232137251787eb1e9c88"
+      },
+      "source_sector_3_45deg_within128px": {
+        "count": 6410,
+        "sha256": "467cdaf18ad4c030350c3ca9f1e077899a9508acb42ac12b18dbcb57ca295cbf"
+      },
+      "source_sector_4_45deg_within128px": {
+        "count": 6448,
+        "sha256": "b1a8d13368b096c44627989804409df90b8d318b751ebc0fef2831a49e94d3a8"
+      },
+      "source_sector_5_45deg_within128px": {
+        "count": 6410,
+        "sha256": "047301cf689b6b4b3f5ca8a1fc5859d56087337689b0048d1c685555336ef5ee"
+      },
+      "source_sector_6_45deg_within128px": {
+        "count": 6448,
+        "sha256": "dd51ac9fec8e124ed73cfe3fe875d54cc5a4a928a618cfe6d5390f828cbfded9"
+      },
+      "source_sector_7_45deg_within128px": {
+        "count": 6410,
+        "sha256": "b50c8bfd06f35bfdf7ef0f11df0fad8eee8d87223bc928c0333352be253432f5"
+      },
+      "source_color_band_0_support": {
+        "count": 180,
+        "sha256": "379935cf568d0bbf858cbc222bee02b377c0d0338db3de35f5531c66a6849425"
+      },
+      "source_color_band_1_support": {
+        "count": 328,
+        "sha256": "50a6dd23675df54d5b49188a0bbcd342a96a8be631ba92fdb0a6a397c54dda89"
+      },
+      "source_color_band_2_support": {
+        "count": 180,
+        "sha256": "3e00c12ba0f98ce3931f09468babb49aafc302ab2591e572dbf8b0c400a2a934"
+      }
+    },
+    "0.0": {
+      "full_canvas": {
+        "count": 1000500,
+        "sha256": "f4c1545192a4c5972be390106d9c57adb68faf02b84974d26f8f90c3b0680284"
+      },
+      "nominal_dock_all": {
+        "count": 79304,
+        "sha256": "a6dd7be5b8ae7bdd1345c948499ded5907b9b9330eeca000add34f187bf8286b"
+      },
+      "nominal_base_excluding_selected_and_glyph_neighborhoods": {
+        "count": 47286,
+        "sha256": "934efdc9ce08aec29b1349aa07f3492ad4fdd158b6b9938143745e6f7b0619dc"
+      },
+      "nominal_selected_lens_DIAGNOSTIC": {
+        "count": 16562,
+        "sha256": "3f6065bff39b88aba677619a8cf823724c87d283c2d91a702bbca4dae9e2055f"
+      },
+      "nominal_glyph_neighborhoods_DIAGNOSTIC": {
+        "count": 20608,
+        "sha256": "1724ee26366ca0a1bbf7c55bbf09290cdb895e5ae35b975cc179a2cca9d5ea08"
+      },
+      "nominal_rim_inner_0_4px": {
+        "count": 5852,
+        "sha256": "274014cd738de77baca830a8273a5e15cf51e666aad5fdd3c3db1a15d1b33351"
+      },
+      "nominal_rim_outer_0_8px": {
+        "count": 11956,
+        "sha256": "eb8a8cd230fa69be46c48decfe617686b0f7139cf1819b4139435cab1d385e75"
+      },
+      "source_coverage_support": {
+        "count": 688,
+        "sha256": "5d3a762ee631582825cc6abbf1128c5af9f6da1482a9061452a4b31298c27fa2"
+      },
+      "source_center_disk_128px": {
+        "count": 48928,
+        "sha256": "f9dc987ffc16cf3fd58397d0bb0e6eeb2b9ff51e912d046575d11ed7e0618883"
+      },
+      "remote_canvas_beyond_128px": {
+        "count": 951572,
+        "sha256": "60dc595c44c7b6631a14e0cbcc332b52d62f4161806644b0b6e2393328d4fb1d"
+      },
+      "dock_beyond_128px": {
+        "count": 48862,
+        "sha256": "9e61b2fc5e2b2626d6e935f91b424b0805d47a93d244e063c13db601faa421d5"
+      },
+      "background_far_fixed": {
+        "count": 8960,
+        "sha256": "fa77d78f0a2513b114c7e63d70f2b619ea7bc764e1bab8a71f8cb95715c9c7d3"
+      },
+      "backing_scroll_text_DIAGNOSTIC": {
+        "count": 13600,
+        "sha256": "9ed318c9eba3cc4a0891e4fe1ee18491ae419ade4908c990efa60146a242e551"
+      },
+      "source_radial_r0_1": {
+        "count": 1513,
+        "sha256": "31f984544ab3a1e81810d8bca1479bd567e9ff06e8bc43c6dae094d65a26f19f"
+      },
+      "source_radial_r1_2": {
+        "count": 4560,
+        "sha256": "dd55f5594842e04f0c92a7739825df0835fe72c61a9bfb370797dbb64dafc650"
+      },
+      "source_radial_r2_4": {
+        "count": 18236,
+        "sha256": "66a60c8a37d9a56132568869fcf9c945532ce3330f5a75bb02f8ee9340d3b93d"
+      },
+      "source_radial_r4_to_128": {
+        "count": 24616,
+        "sha256": "84bcd0d83db0fb8f0a8559e668ed9a1d75ee75df24dafa3fed8333ca27740de8"
+      },
+      "source_sector_0_45deg_within128px": {
+        "count": 6449,
+        "sha256": "e287fb648111be86ca883cd60751cfc52cd86c256396a127e580655af7317ecc"
+      },
+      "source_sector_1_45deg_within128px": {
+        "count": 5170,
+        "sha256": "3dedd1ffcb26d34fb6ed8251c8fa62d09181c6bf906f60e1676368da8f33175a"
+      },
+      "source_sector_2_45deg_within128px": {
+        "count": 5183,
+        "sha256": "1f52e30a1d2e77fcb27323c35ba8de48b0ad869f2349232137251787eb1e9c88"
+      },
+      "source_sector_3_45deg_within128px": {
+        "count": 6410,
+        "sha256": "467cdaf18ad4c030350c3ca9f1e077899a9508acb42ac12b18dbcb57ca295cbf"
+      },
+      "source_sector_4_45deg_within128px": {
+        "count": 6448,
+        "sha256": "b1a8d13368b096c44627989804409df90b8d318b751ebc0fef2831a49e94d3a8"
+      },
+      "source_sector_5_45deg_within128px": {
+        "count": 6410,
+        "sha256": "047301cf689b6b4b3f5ca8a1fc5859d56087337689b0048d1c685555336ef5ee"
+      },
+      "source_sector_6_45deg_within128px": {
+        "count": 6448,
+        "sha256": "dd51ac9fec8e124ed73cfe3fe875d54cc5a4a928a618cfe6d5390f828cbfded9"
+      },
+      "source_sector_7_45deg_within128px": {
+        "count": 6410,
+        "sha256": "b50c8bfd06f35bfdf7ef0f11df0fad8eee8d87223bc928c0333352be253432f5"
+      },
+      "source_color_band_0_support": {
+        "count": 180,
+        "sha256": "379935cf568d0bbf858cbc222bee02b377c0d0338db3de35f5531c66a6849425"
+      },
+      "source_color_band_1_support": {
+        "count": 328,
+        "sha256": "50a6dd23675df54d5b49188a0bbcd342a96a8be631ba92fdb0a6a397c54dda89"
+      },
+      "source_color_band_2_support": {
+        "count": 180,
+        "sha256": "3e00c12ba0f98ce3931f09468babb49aafc302ab2591e572dbf8b0c400a2a934"
+      }
+    },
+    "1.0": {
+      "full_canvas": {
+        "count": 1000500,
+        "sha256": "f4c1545192a4c5972be390106d9c57adb68faf02b84974d26f8f90c3b0680284"
+      },
+      "nominal_dock_all": {
+        "count": 80784,
+        "sha256": "2e2c11f450bbebd48647077c50c2627e1ed654424eca050408b38dad0df096bc"
+      },
+      "nominal_base_excluding_selected_and_glyph_neighborhoods": {
+        "count": 48292,
+        "sha256": "2e6ea1da0b5ff5fb970a5061f18648b4f9409b6e6bf538ed58837725bcf7039e"
+      },
+      "nominal_selected_lens_DIAGNOSTIC": {
+        "count": 17036,
+        "sha256": "fffdcac5d848bbbef9d2122e0c0c3419dc83ba0ab3fb528594c680bbf90c6255"
+      },
+      "nominal_glyph_neighborhoods_DIAGNOSTIC": {
+        "count": 20608,
+        "sha256": "1724ee26366ca0a1bbf7c55bbf09290cdb895e5ae35b975cc179a2cca9d5ea08"
+      },
+      "nominal_rim_inner_0_4px": {
+        "count": 5868,
+        "sha256": "3cf25e3417a6967be37d33198af6a89664aa638e06ac1669e96cef955169b3a8"
+      },
+      "nominal_rim_outer_0_8px": {
+        "count": 12036,
+        "sha256": "f461d3aaecfe49ee97120d32955f4891293d62d7164152059cef35447cebf975"
+      },
+      "source_coverage_support": {
+        "count": 688,
+        "sha256": "5d3a762ee631582825cc6abbf1128c5af9f6da1482a9061452a4b31298c27fa2"
+      },
+      "source_center_disk_128px": {
+        "count": 48928,
+        "sha256": "f9dc987ffc16cf3fd58397d0bb0e6eeb2b9ff51e912d046575d11ed7e0618883"
+      },
+      "remote_canvas_beyond_128px": {
+        "count": 951572,
+        "sha256": "60dc595c44c7b6631a14e0cbcc332b52d62f4161806644b0b6e2393328d4fb1d"
+      },
+      "dock_beyond_128px": {
+        "count": 49896,
+        "sha256": "4cebf047c0726025c39c23ad847097a18b778df22f28200ef2ccc6545ae6d3da"
+      },
+      "background_far_fixed": {
+        "count": 8960,
+        "sha256": "fa77d78f0a2513b114c7e63d70f2b619ea7bc764e1bab8a71f8cb95715c9c7d3"
+      },
+      "backing_scroll_text_DIAGNOSTIC": {
+        "count": 13600,
+        "sha256": "9ed318c9eba3cc4a0891e4fe1ee18491ae419ade4908c990efa60146a242e551"
+      },
+      "source_radial_r0_1": {
+        "count": 1513,
+        "sha256": "31f984544ab3a1e81810d8bca1479bd567e9ff06e8bc43c6dae094d65a26f19f"
+      },
+      "source_radial_r1_2": {
+        "count": 4560,
+        "sha256": "dd55f5594842e04f0c92a7739825df0835fe72c61a9bfb370797dbb64dafc650"
+      },
+      "source_radial_r2_4": {
+        "count": 18236,
+        "sha256": "66a60c8a37d9a56132568869fcf9c945532ce3330f5a75bb02f8ee9340d3b93d"
+      },
+      "source_radial_r4_to_128": {
+        "count": 24616,
+        "sha256": "84bcd0d83db0fb8f0a8559e668ed9a1d75ee75df24dafa3fed8333ca27740de8"
+      },
+      "source_sector_0_45deg_within128px": {
+        "count": 6449,
+        "sha256": "e287fb648111be86ca883cd60751cfc52cd86c256396a127e580655af7317ecc"
+      },
+      "source_sector_1_45deg_within128px": {
+        "count": 5170,
+        "sha256": "3dedd1ffcb26d34fb6ed8251c8fa62d09181c6bf906f60e1676368da8f33175a"
+      },
+      "source_sector_2_45deg_within128px": {
+        "count": 5183,
+        "sha256": "1f52e30a1d2e77fcb27323c35ba8de48b0ad869f2349232137251787eb1e9c88"
+      },
+      "source_sector_3_45deg_within128px": {
+        "count": 6410,
+        "sha256": "467cdaf18ad4c030350c3ca9f1e077899a9508acb42ac12b18dbcb57ca295cbf"
+      },
+      "source_sector_4_45deg_within128px": {
+        "count": 6448,
+        "sha256": "b1a8d13368b096c44627989804409df90b8d318b751ebc0fef2831a49e94d3a8"
+      },
+      "source_sector_5_45deg_within128px": {
+        "count": 6410,
+        "sha256": "047301cf689b6b4b3f5ca8a1fc5859d56087337689b0048d1c685555336ef5ee"
+      },
+      "source_sector_6_45deg_within128px": {
+        "count": 6448,
+        "sha256": "dd51ac9fec8e124ed73cfe3fe875d54cc5a4a928a618cfe6d5390f828cbfded9"
+      },
+      "source_sector_7_45deg_within128px": {
+        "count": 6410,
+        "sha256": "b50c8bfd06f35bfdf7ef0f11df0fad8eee8d87223bc928c0333352be253432f5"
+      },
+      "source_color_band_0_support": {
+        "count": 180,
+        "sha256": "379935cf568d0bbf858cbc222bee02b377c0d0338db3de35f5531c66a6849425"
+      },
+      "source_color_band_1_support": {
+        "count": 328,
+        "sha256": "50a6dd23675df54d5b49188a0bbcd342a96a8be631ba92fdb0a6a397c54dda89"
+      },
+      "source_color_band_2_support": {
+        "count": 180,
+        "sha256": "3e00c12ba0f98ce3931f09468babb49aafc302ab2591e572dbf8b0c400a2a934"
+      }
+    }
+  },
+  "ic03_star_right": {
+    "-1.0": {
+      "full_canvas": {
+        "count": 1000500,
+        "sha256": "f4c1545192a4c5972be390106d9c57adb68faf02b84974d26f8f90c3b0680284"
+      },
+      "nominal_dock_all": {
+        "count": 77808,
+        "sha256": "7d13a49dfce9a6359e15cf031a40acd4752c81fca1a76bb16dc3eaa3b3ce9313"
+      },
+      "nominal_base_excluding_selected_and_glyph_neighborhoods": {
+        "count": 46272,
+        "sha256": "1d95bc5c481d15ca814e2638bb5cdad8992c89ba23155b0819cb862a63abf4cc"
+      },
+      "nominal_selected_lens_DIAGNOSTIC": {
+        "count": 16080,
+        "sha256": "b9147cd8a33fb124c48cece9ed4c2de56bcdc3b6d8353e187902d00684b2c8ce"
+      },
+      "nominal_glyph_neighborhoods_DIAGNOSTIC": {
+        "count": 20608,
+        "sha256": "1724ee26366ca0a1bbf7c55bbf09290cdb895e5ae35b975cc179a2cca9d5ea08"
+      },
+      "nominal_rim_inner_0_4px": {
+        "count": 5804,
+        "sha256": "f3bca97d50bb0f6f83595b8cfdc4486e545f2089a85586e54a6fa4e9d8a157ec"
+      },
+      "nominal_rim_outer_0_8px": {
+        "count": 11952,
+        "sha256": "868c905c475de0d2650c3e5957862df930920640959fe7cb9516478918c0d274"
+      },
+      "source_coverage_support": {
+        "count": 840,
+        "sha256": "8031b3a1cd06eb9c495d815d3102897100a30b9695cc7f111ff623c915facb32"
+      },
+      "source_center_disk_128px": {
+        "count": 34197,
+        "sha256": "edb22ec01ec7c64faf6c9757ee17efc4200298240f9fb8d47f079cbd94296d21"
+      },
+      "remote_canvas_beyond_128px": {
+        "count": 966303,
+        "sha256": "27410b4b6f83a50d3523f1048765a31d3b5d7976876a3c8ceeb130014fc444f7"
+      },
+      "dock_beyond_128px": {
+        "count": 64472,
+        "sha256": "40359db080fb5172ffc16b22a0cbdc6e18f6bd93223e1b7bb8c2fbd040454291"
+      },
+      "background_far_fixed": {
+        "count": 8960,
+        "sha256": "fa77d78f0a2513b114c7e63d70f2b619ea7bc764e1bab8a71f8cb95715c9c7d3"
+      },
+      "backing_scroll_text_DIAGNOSTIC": {
+        "count": 13600,
+        "sha256": "9ed318c9eba3cc4a0891e4fe1ee18491ae419ade4908c990efa60146a242e551"
+      },
+      "source_radial_r0_1": {
+        "count": 1789,
+        "sha256": "413f3f94635776b8b7bfe9b023e126c1ae31ba49ff0fdaf870b18ada51b00e9c"
+      },
+      "source_radial_r1_2": {
+        "count": 5259,
+        "sha256": "f3c9b326138c83dd718257dab4e96571cc703795424d3cbc5ad048c428b54cc5"
+      },
+      "source_radial_r2_4": {
+        "count": 15286,
+        "sha256": "1251308ae7bd4c060601cc8f357419c043f19900c1490f4ff011931f92abebea"
+      },
+      "source_radial_r4_to_128": {
+        "count": 11861,
+        "sha256": "530dba9a10a61fd567d1e92d7f43b6590cc591dab47d065ef54bbfd7932395b4"
+      },
+      "source_sector_0_45deg_within128px": {
+        "count": 904,
+        "sha256": "ad71bdd0a09de08b3483d4ed7756f0f725e53e47a0a52dcd9d49c357efe45053"
+      },
+      "source_sector_1_45deg_within128px": {
+        "count": 3465,
+        "sha256": "1c1adba6467e055f6f1d4d65d47e7dfe3b295982dbe64f5b5e66f2eb46bcee8b"
+      },
+      "source_sector_2_45deg_within128px": {
+        "count": 5183,
+        "sha256": "7b40e13b5d469d5919906dd16ef030f854cdeda5a01d779899309e24bbbcddfa"
+      },
+      "source_sector_3_45deg_within128px": {
+        "count": 6410,
+        "sha256": "46a21318e302ffd6102943673a44e92fe12d096617530e7858fe20e81a93f424"
+      },
+      "source_sector_4_45deg_within128px": {
+        "count": 6448,
+        "sha256": "4599f3c747e37abdec6799f9dce7378039ab18c120ade41e969cc823f7ea6cec"
+      },
+      "source_sector_5_45deg_within128px": {
+        "count": 6410,
+        "sha256": "35e25c7d8b928e8779d84882db7670eddf98f43166f3cf3e36b9cd744a23da98"
+      },
+      "source_sector_6_45deg_within128px": {
+        "count": 4474,
+        "sha256": "af61fd22c391ead76b13483a918c59a708131987b64315dc67c27fe048370846"
+      },
+      "source_sector_7_45deg_within128px": {
+        "count": 903,
+        "sha256": "2ebc7739b49286083ec737d81aae51067d99485fcb98caa7a8a7ae6f78780d04"
+      },
+      "source_color_band_0_support": {
+        "count": 244,
+        "sha256": "3c33ff12c60c18fdbfccdfe2581de94f54bcd9f07748c2d74cc1ccf442b988f9"
+      },
+      "source_color_band_1_support": {
+        "count": 400,
+        "sha256": "6afc81e98b3af3ae1ec1d211a8536d0a31a5248c7b28a44c1f5a4f026316b0ee"
+      },
+      "source_color_band_2_support": {
+        "count": 244,
+        "sha256": "49ffecb0bd30485f08d4b1e29afc87954a7368ebb7cc61eda3acfa8ba00871df"
+      }
+    },
+    "0.0": {
+      "full_canvas": {
+        "count": 1000500,
+        "sha256": "f4c1545192a4c5972be390106d9c57adb68faf02b84974d26f8f90c3b0680284"
+      },
+      "nominal_dock_all": {
+        "count": 79304,
+        "sha256": "a6dd7be5b8ae7bdd1345c948499ded5907b9b9330eeca000add34f187bf8286b"
+      },
+      "nominal_base_excluding_selected_and_glyph_neighborhoods": {
+        "count": 47286,
+        "sha256": "934efdc9ce08aec29b1349aa07f3492ad4fdd158b6b9938143745e6f7b0619dc"
+      },
+      "nominal_selected_lens_DIAGNOSTIC": {
+        "count": 16562,
+        "sha256": "3f6065bff39b88aba677619a8cf823724c87d283c2d91a702bbca4dae9e2055f"
+      },
+      "nominal_glyph_neighborhoods_DIAGNOSTIC": {
+        "count": 20608,
+        "sha256": "1724ee26366ca0a1bbf7c55bbf09290cdb895e5ae35b975cc179a2cca9d5ea08"
+      },
+      "nominal_rim_inner_0_4px": {
+        "count": 5852,
+        "sha256": "274014cd738de77baca830a8273a5e15cf51e666aad5fdd3c3db1a15d1b33351"
+      },
+      "nominal_rim_outer_0_8px": {
+        "count": 11956,
+        "sha256": "eb8a8cd230fa69be46c48decfe617686b0f7139cf1819b4139435cab1d385e75"
+      },
+      "source_coverage_support": {
+        "count": 840,
+        "sha256": "8031b3a1cd06eb9c495d815d3102897100a30b9695cc7f111ff623c915facb32"
+      },
+      "source_center_disk_128px": {
+        "count": 34197,
+        "sha256": "edb22ec01ec7c64faf6c9757ee17efc4200298240f9fb8d47f079cbd94296d21"
+      },
+      "remote_canvas_beyond_128px": {
+        "count": 966303,
+        "sha256": "27410b4b6f83a50d3523f1048765a31d3b5d7976876a3c8ceeb130014fc444f7"
+      },
+      "dock_beyond_128px": {
+        "count": 65661,
+        "sha256": "162333c69b936ca6c90ff8be60b2f0e63d41aabbe74d9b250c7ed3cbf898ca61"
+      },
+      "background_far_fixed": {
+        "count": 8960,
+        "sha256": "fa77d78f0a2513b114c7e63d70f2b619ea7bc764e1bab8a71f8cb95715c9c7d3"
+      },
+      "backing_scroll_text_DIAGNOSTIC": {
+        "count": 13600,
+        "sha256": "9ed318c9eba3cc4a0891e4fe1ee18491ae419ade4908c990efa60146a242e551"
+      },
+      "source_radial_r0_1": {
+        "count": 1789,
+        "sha256": "413f3f94635776b8b7bfe9b023e126c1ae31ba49ff0fdaf870b18ada51b00e9c"
+      },
+      "source_radial_r1_2": {
+        "count": 5259,
+        "sha256": "f3c9b326138c83dd718257dab4e96571cc703795424d3cbc5ad048c428b54cc5"
+      },
+      "source_radial_r2_4": {
+        "count": 15286,
+        "sha256": "1251308ae7bd4c060601cc8f357419c043f19900c1490f4ff011931f92abebea"
+      },
+      "source_radial_r4_to_128": {
+        "count": 11861,
+        "sha256": "530dba9a10a61fd567d1e92d7f43b6590cc591dab47d065ef54bbfd7932395b4"
+      },
+      "source_sector_0_45deg_within128px": {
+        "count": 904,
+        "sha256": "ad71bdd0a09de08b3483d4ed7756f0f725e53e47a0a52dcd9d49c357efe45053"
+      },
+      "source_sector_1_45deg_within128px": {
+        "count": 3465,
+        "sha256": "1c1adba6467e055f6f1d4d65d47e7dfe3b295982dbe64f5b5e66f2eb46bcee8b"
+      },
+      "source_sector_2_45deg_within128px": {
+        "count": 5183,
+        "sha256": "7b40e13b5d469d5919906dd16ef030f854cdeda5a01d779899309e24bbbcddfa"
+      },
+      "source_sector_3_45deg_within128px": {
+        "count": 6410,
+        "sha256": "46a21318e302ffd6102943673a44e92fe12d096617530e7858fe20e81a93f424"
+      },
+      "source_sector_4_45deg_within128px": {
+        "count": 6448,
+        "sha256": "4599f3c747e37abdec6799f9dce7378039ab18c120ade41e969cc823f7ea6cec"
+      },
+      "source_sector_5_45deg_within128px": {
+        "count": 6410,
+        "sha256": "35e25c7d8b928e8779d84882db7670eddf98f43166f3cf3e36b9cd744a23da98"
+      },
+      "source_sector_6_45deg_within128px": {
+        "count": 4474,
+        "sha256": "af61fd22c391ead76b13483a918c59a708131987b64315dc67c27fe048370846"
+      },
+      "source_sector_7_45deg_within128px": {
+        "count": 903,
+        "sha256": "2ebc7739b49286083ec737d81aae51067d99485fcb98caa7a8a7ae6f78780d04"
+      },
+      "source_color_band_0_support": {
+        "count": 244,
+        "sha256": "3c33ff12c60c18fdbfccdfe2581de94f54bcd9f07748c2d74cc1ccf442b988f9"
+      },
+      "source_color_band_1_support": {
+        "count": 400,
+        "sha256": "6afc81e98b3af3ae1ec1d211a8536d0a31a5248c7b28a44c1f5a4f026316b0ee"
+      },
+      "source_color_band_2_support": {
+        "count": 244,
+        "sha256": "49ffecb0bd30485f08d4b1e29afc87954a7368ebb7cc61eda3acfa8ba00871df"
+      }
+    },
+    "1.0": {
+      "full_canvas": {
+        "count": 1000500,
+        "sha256": "f4c1545192a4c5972be390106d9c57adb68faf02b84974d26f8f90c3b0680284"
+      },
+      "nominal_dock_all": {
+        "count": 80784,
+        "sha256": "2e2c11f450bbebd48647077c50c2627e1ed654424eca050408b38dad0df096bc"
+      },
+      "nominal_base_excluding_selected_and_glyph_neighborhoods": {
+        "count": 48292,
+        "sha256": "2e6ea1da0b5ff5fb970a5061f18648b4f9409b6e6bf538ed58837725bcf7039e"
+      },
+      "nominal_selected_lens_DIAGNOSTIC": {
+        "count": 17036,
+        "sha256": "fffdcac5d848bbbef9d2122e0c0c3419dc83ba0ab3fb528594c680bbf90c6255"
+      },
+      "nominal_glyph_neighborhoods_DIAGNOSTIC": {
+        "count": 20608,
+        "sha256": "1724ee26366ca0a1bbf7c55bbf09290cdb895e5ae35b975cc179a2cca9d5ea08"
+      },
+      "nominal_rim_inner_0_4px": {
+        "count": 5868,
+        "sha256": "3cf25e3417a6967be37d33198af6a89664aa638e06ac1669e96cef955169b3a8"
+      },
+      "nominal_rim_outer_0_8px": {
+        "count": 12036,
+        "sha256": "f461d3aaecfe49ee97120d32955f4891293d62d7164152059cef35447cebf975"
+      },
+      "source_coverage_support": {
+        "count": 840,
+        "sha256": "8031b3a1cd06eb9c495d815d3102897100a30b9695cc7f111ff623c915facb32"
+      },
+      "source_center_disk_128px": {
+        "count": 34197,
+        "sha256": "edb22ec01ec7c64faf6c9757ee17efc4200298240f9fb8d47f079cbd94296d21"
+      },
+      "remote_canvas_beyond_128px": {
+        "count": 966303,
+        "sha256": "27410b4b6f83a50d3523f1048765a31d3b5d7976876a3c8ceeb130014fc444f7"
+      },
+      "dock_beyond_128px": {
+        "count": 66843,
+        "sha256": "1b4fdd934d6a0e1cd938ecfed32f6126621d00157463de043972ad94d73c9c55"
+      },
+      "background_far_fixed": {
+        "count": 8960,
+        "sha256": "fa77d78f0a2513b114c7e63d70f2b619ea7bc764e1bab8a71f8cb95715c9c7d3"
+      },
+      "backing_scroll_text_DIAGNOSTIC": {
+        "count": 13600,
+        "sha256": "9ed318c9eba3cc4a0891e4fe1ee18491ae419ade4908c990efa60146a242e551"
+      },
+      "source_radial_r0_1": {
+        "count": 1789,
+        "sha256": "413f3f94635776b8b7bfe9b023e126c1ae31ba49ff0fdaf870b18ada51b00e9c"
+      },
+      "source_radial_r1_2": {
+        "count": 5259,
+        "sha256": "f3c9b326138c83dd718257dab4e96571cc703795424d3cbc5ad048c428b54cc5"
+      },
+      "source_radial_r2_4": {
+        "count": 15286,
+        "sha256": "1251308ae7bd4c060601cc8f357419c043f19900c1490f4ff011931f92abebea"
+      },
+      "source_radial_r4_to_128": {
+        "count": 11861,
+        "sha256": "530dba9a10a61fd567d1e92d7f43b6590cc591dab47d065ef54bbfd7932395b4"
+      },
+      "source_sector_0_45deg_within128px": {
+        "count": 904,
+        "sha256": "ad71bdd0a09de08b3483d4ed7756f0f725e53e47a0a52dcd9d49c357efe45053"
+      },
+      "source_sector_1_45deg_within128px": {
+        "count": 3465,
+        "sha256": "1c1adba6467e055f6f1d4d65d47e7dfe3b295982dbe64f5b5e66f2eb46bcee8b"
+      },
+      "source_sector_2_45deg_within128px": {
+        "count": 5183,
+        "sha256": "7b40e13b5d469d5919906dd16ef030f854cdeda5a01d779899309e24bbbcddfa"
+      },
+      "source_sector_3_45deg_within128px": {
+        "count": 6410,
+        "sha256": "46a21318e302ffd6102943673a44e92fe12d096617530e7858fe20e81a93f424"
+      },
+      "source_sector_4_45deg_within128px": {
+        "count": 6448,
+        "sha256": "4599f3c747e37abdec6799f9dce7378039ab18c120ade41e969cc823f7ea6cec"
+      },
+      "source_sector_5_45deg_within128px": {
+        "count": 6410,
+        "sha256": "35e25c7d8b928e8779d84882db7670eddf98f43166f3cf3e36b9cd744a23da98"
+      },
+      "source_sector_6_45deg_within128px": {
+        "count": 4474,
+        "sha256": "af61fd22c391ead76b13483a918c59a708131987b64315dc67c27fe048370846"
+      },
+      "source_sector_7_45deg_within128px": {
+        "count": 903,
+        "sha256": "2ebc7739b49286083ec737d81aae51067d99485fcb98caa7a8a7ae6f78780d04"
+      },
+      "source_color_band_0_support": {
+        "count": 244,
+        "sha256": "3c33ff12c60c18fdbfccdfe2581de94f54bcd9f07748c2d74cc1ccf442b988f9"
+      },
+      "source_color_band_1_support": {
+        "count": 400,
+        "sha256": "6afc81e98b3af3ae1ec1d211a8536d0a31a5248c7b28a44c1f5a4f026316b0ee"
+      },
+      "source_color_band_2_support": {
+        "count": 244,
+        "sha256": "49ffecb0bd30485f08d4b1e29afc87954a7368ebb7cc61eda3acfa8ba00871df"
+      }
+    }
+  },
+  "ic04_asymmetric_lower": {
+    "-1.0": {
+      "full_canvas": {
+        "count": 1000500,
+        "sha256": "f4c1545192a4c5972be390106d9c57adb68faf02b84974d26f8f90c3b0680284"
+      },
+      "nominal_dock_all": {
+        "count": 77808,
+        "sha256": "7d13a49dfce9a6359e15cf031a40acd4752c81fca1a76bb16dc3eaa3b3ce9313"
+      },
+      "nominal_base_excluding_selected_and_glyph_neighborhoods": {
+        "count": 46272,
+        "sha256": "1d95bc5c481d15ca814e2638bb5cdad8992c89ba23155b0819cb862a63abf4cc"
+      },
+      "nominal_selected_lens_DIAGNOSTIC": {
+        "count": 16080,
+        "sha256": "b9147cd8a33fb124c48cece9ed4c2de56bcdc3b6d8353e187902d00684b2c8ce"
+      },
+      "nominal_glyph_neighborhoods_DIAGNOSTIC": {
+        "count": 20608,
+        "sha256": "1724ee26366ca0a1bbf7c55bbf09290cdb895e5ae35b975cc179a2cca9d5ea08"
+      },
+      "nominal_rim_inner_0_4px": {
+        "count": 5804,
+        "sha256": "f3bca97d50bb0f6f83595b8cfdc4486e545f2089a85586e54a6fa4e9d8a157ec"
+      },
+      "nominal_rim_outer_0_8px": {
+        "count": 11952,
+        "sha256": "868c905c475de0d2650c3e5957862df930920640959fe7cb9516478918c0d274"
+      },
+      "source_coverage_support": {
+        "count": 939,
+        "sha256": "ab509b34033ea4036f6c1d7c76e45cd3ee16f79e8f7b838a2a5e62a00b28937a"
+      },
+      "source_center_disk_128px": {
+        "count": 36385,
+        "sha256": "d11cf52b9852699bdcd790326b380f82fd09a3d726432246d13f487bba5682eb"
+      },
+      "remote_canvas_beyond_128px": {
+        "count": 964115,
+        "sha256": "4e1ef617d936f0b26f475453b04fc461330fbddeaa8cac1a54a2da4b70cf9f36"
+      },
+      "dock_beyond_128px": {
+        "count": 52486,
+        "sha256": "b8ecf2bdb6f2ea78ba5a2877113a17069f8f600985b79b1e0498a3bdf3eac2c6"
+      },
+      "background_far_fixed": {
+        "count": 8960,
+        "sha256": "fa77d78f0a2513b114c7e63d70f2b619ea7bc764e1bab8a71f8cb95715c9c7d3"
+      },
+      "backing_scroll_text_DIAGNOSTIC": {
+        "count": 13600,
+        "sha256": "9ed318c9eba3cc4a0891e4fe1ee18491ae419ade4908c990efa60146a242e551"
+      },
+      "source_radial_r0_1": {
+        "count": 1245,
+        "sha256": "da0cfac882ad10e68e04cf6cd4a3b1a4e08092ed228da1853747a183409b57c7"
+      },
+      "source_radial_r1_2": {
+        "count": 3768,
+        "sha256": "a3151c648e508c9c0e2ae15b0877bbde986d5c73ae5a249b53419bea24af13ba"
+      },
+      "source_radial_r2_4": {
+        "count": 11477,
+        "sha256": "65c8e762872ec601e79dc9284de7ea37de5c830b0c5f1963e45dbf8a16101221"
+      },
+      "source_radial_r4_to_128": {
+        "count": 19892,
+        "sha256": "899360d200c8bd0d7c258650985c766a0fb33f4dea154433ee31bc41e7988b40"
+      },
+      "source_sector_0_45deg_within128px": {
+        "count": 4475,
+        "sha256": "cc811baa30bbbf5de62a4acd1522cd0154e939af378647042b6dc8bc708af467"
+      },
+      "source_sector_1_45deg_within128px": {
+        "count": 903,
+        "sha256": "c7cca02aa07e422a69175d32fb897cea331296a1d25f6a645e3575c3405d176b"
+      },
+      "source_sector_2_45deg_within128px": {
+        "count": 903,
+        "sha256": "f0568e203c5d81cc2d970ad81d422ca067f7de4eb196ef0e377594f5eca5a031"
+      },
+      "source_sector_3_45deg_within128px": {
+        "count": 4388,
+        "sha256": "c48de4de5b246a32693a193b64d713f0152f2fcca0cc0803d1ac1c9ece8e6d1f"
+      },
+      "source_sector_4_45deg_within128px": {
+        "count": 6448,
+        "sha256": "0ab9186a628d298d314126bdbc5087eb3917ef9f7993d62a3c3b67b67c1b7858"
+      },
+      "source_sector_5_45deg_within128px": {
+        "count": 6410,
+        "sha256": "841860d3c913fe4130c89411e7407cb0eef5edc54967b04a340fad67583a06aa"
+      },
+      "source_sector_6_45deg_within128px": {
+        "count": 6448,
+        "sha256": "e537f87519491aa1d369ae083ea4cfc2d92b173703683405ed4fb7e392ba42db"
+      },
+      "source_sector_7_45deg_within128px": {
+        "count": 6410,
+        "sha256": "ce59ea4516a44c20f2f1b73a0dc931ced1184bf1b32e8dc308e00a825b8a770e"
+      },
+      "source_color_band_0_support": {
+        "count": 303,
+        "sha256": "ee13b38486c78d948339946039a9167d45bcebc2eff2941482e6122f2a738588"
+      },
+      "source_color_band_1_support": {
+        "count": 382,
+        "sha256": "3fd9bf8a26bd84a9327a14d55973a51c1c453bcd86eed388390dbd6e0bd6aa48"
+      },
+      "source_color_band_2_support": {
+        "count": 320,
+        "sha256": "f8bef5e5074eaa6fd5f70022733d59d03a1281c883267eca9467490eb7d491de"
+      }
+    },
+    "0.0": {
+      "full_canvas": {
+        "count": 1000500,
+        "sha256": "f4c1545192a4c5972be390106d9c57adb68faf02b84974d26f8f90c3b0680284"
+      },
+      "nominal_dock_all": {
+        "count": 79304,
+        "sha256": "a6dd7be5b8ae7bdd1345c948499ded5907b9b9330eeca000add34f187bf8286b"
+      },
+      "nominal_base_excluding_selected_and_glyph_neighborhoods": {
+        "count": 47286,
+        "sha256": "934efdc9ce08aec29b1349aa07f3492ad4fdd158b6b9938143745e6f7b0619dc"
+      },
+      "nominal_selected_lens_DIAGNOSTIC": {
+        "count": 16562,
+        "sha256": "3f6065bff39b88aba677619a8cf823724c87d283c2d91a702bbca4dae9e2055f"
+      },
+      "nominal_glyph_neighborhoods_DIAGNOSTIC": {
+        "count": 20608,
+        "sha256": "1724ee26366ca0a1bbf7c55bbf09290cdb895e5ae35b975cc179a2cca9d5ea08"
+      },
+      "nominal_rim_inner_0_4px": {
+        "count": 5852,
+        "sha256": "274014cd738de77baca830a8273a5e15cf51e666aad5fdd3c3db1a15d1b33351"
+      },
+      "nominal_rim_outer_0_8px": {
+        "count": 11956,
+        "sha256": "eb8a8cd230fa69be46c48decfe617686b0f7139cf1819b4139435cab1d385e75"
+      },
+      "source_coverage_support": {
+        "count": 939,
+        "sha256": "ab509b34033ea4036f6c1d7c76e45cd3ee16f79e8f7b838a2a5e62a00b28937a"
+      },
+      "source_center_disk_128px": {
+        "count": 36385,
+        "sha256": "d11cf52b9852699bdcd790326b380f82fd09a3d726432246d13f487bba5682eb"
+      },
+      "remote_canvas_beyond_128px": {
+        "count": 964115,
+        "sha256": "4e1ef617d936f0b26f475453b04fc461330fbddeaa8cac1a54a2da4b70cf9f36"
+      },
+      "dock_beyond_128px": {
+        "count": 53654,
+        "sha256": "60a52e3d87e21e85a4cedb009fcf12b3bdd3afe50cd02159c6689e4307a00378"
+      },
+      "background_far_fixed": {
+        "count": 8960,
+        "sha256": "fa77d78f0a2513b114c7e63d70f2b619ea7bc764e1bab8a71f8cb95715c9c7d3"
+      },
+      "backing_scroll_text_DIAGNOSTIC": {
+        "count": 13600,
+        "sha256": "9ed318c9eba3cc4a0891e4fe1ee18491ae419ade4908c990efa60146a242e551"
+      },
+      "source_radial_r0_1": {
+        "count": 1245,
+        "sha256": "da0cfac882ad10e68e04cf6cd4a3b1a4e08092ed228da1853747a183409b57c7"
+      },
+      "source_radial_r1_2": {
+        "count": 3768,
+        "sha256": "a3151c648e508c9c0e2ae15b0877bbde986d5c73ae5a249b53419bea24af13ba"
+      },
+      "source_radial_r2_4": {
+        "count": 11477,
+        "sha256": "65c8e762872ec601e79dc9284de7ea37de5c830b0c5f1963e45dbf8a16101221"
+      },
+      "source_radial_r4_to_128": {
+        "count": 19892,
+        "sha256": "899360d200c8bd0d7c258650985c766a0fb33f4dea154433ee31bc41e7988b40"
+      },
+      "source_sector_0_45deg_within128px": {
+        "count": 4475,
+        "sha256": "cc811baa30bbbf5de62a4acd1522cd0154e939af378647042b6dc8bc708af467"
+      },
+      "source_sector_1_45deg_within128px": {
+        "count": 903,
+        "sha256": "c7cca02aa07e422a69175d32fb897cea331296a1d25f6a645e3575c3405d176b"
+      },
+      "source_sector_2_45deg_within128px": {
+        "count": 903,
+        "sha256": "f0568e203c5d81cc2d970ad81d422ca067f7de4eb196ef0e377594f5eca5a031"
+      },
+      "source_sector_3_45deg_within128px": {
+        "count": 4388,
+        "sha256": "c48de4de5b246a32693a193b64d713f0152f2fcca0cc0803d1ac1c9ece8e6d1f"
+      },
+      "source_sector_4_45deg_within128px": {
+        "count": 6448,
+        "sha256": "0ab9186a628d298d314126bdbc5087eb3917ef9f7993d62a3c3b67b67c1b7858"
+      },
+      "source_sector_5_45deg_within128px": {
+        "count": 6410,
+        "sha256": "841860d3c913fe4130c89411e7407cb0eef5edc54967b04a340fad67583a06aa"
+      },
+      "source_sector_6_45deg_within128px": {
+        "count": 6448,
+        "sha256": "e537f87519491aa1d369ae083ea4cfc2d92b173703683405ed4fb7e392ba42db"
+      },
+      "source_sector_7_45deg_within128px": {
+        "count": 6410,
+        "sha256": "ce59ea4516a44c20f2f1b73a0dc931ced1184bf1b32e8dc308e00a825b8a770e"
+      },
+      "source_color_band_0_support": {
+        "count": 303,
+        "sha256": "ee13b38486c78d948339946039a9167d45bcebc2eff2941482e6122f2a738588"
+      },
+      "source_color_band_1_support": {
+        "count": 382,
+        "sha256": "3fd9bf8a26bd84a9327a14d55973a51c1c453bcd86eed388390dbd6e0bd6aa48"
+      },
+      "source_color_band_2_support": {
+        "count": 320,
+        "sha256": "f8bef5e5074eaa6fd5f70022733d59d03a1281c883267eca9467490eb7d491de"
+      }
+    },
+    "1.0": {
+      "full_canvas": {
+        "count": 1000500,
+        "sha256": "f4c1545192a4c5972be390106d9c57adb68faf02b84974d26f8f90c3b0680284"
+      },
+      "nominal_dock_all": {
+        "count": 80784,
+        "sha256": "2e2c11f450bbebd48647077c50c2627e1ed654424eca050408b38dad0df096bc"
+      },
+      "nominal_base_excluding_selected_and_glyph_neighborhoods": {
+        "count": 48292,
+        "sha256": "2e6ea1da0b5ff5fb970a5061f18648b4f9409b6e6bf538ed58837725bcf7039e"
+      },
+      "nominal_selected_lens_DIAGNOSTIC": {
+        "count": 17036,
+        "sha256": "fffdcac5d848bbbef9d2122e0c0c3419dc83ba0ab3fb528594c680bbf90c6255"
+      },
+      "nominal_glyph_neighborhoods_DIAGNOSTIC": {
+        "count": 20608,
+        "sha256": "1724ee26366ca0a1bbf7c55bbf09290cdb895e5ae35b975cc179a2cca9d5ea08"
+      },
+      "nominal_rim_inner_0_4px": {
+        "count": 5868,
+        "sha256": "3cf25e3417a6967be37d33198af6a89664aa638e06ac1669e96cef955169b3a8"
+      },
+      "nominal_rim_outer_0_8px": {
+        "count": 12036,
+        "sha256": "f461d3aaecfe49ee97120d32955f4891293d62d7164152059cef35447cebf975"
+      },
+      "source_coverage_support": {
+        "count": 939,
+        "sha256": "ab509b34033ea4036f6c1d7c76e45cd3ee16f79e8f7b838a2a5e62a00b28937a"
+      },
+      "source_center_disk_128px": {
+        "count": 36385,
+        "sha256": "d11cf52b9852699bdcd790326b380f82fd09a3d726432246d13f487bba5682eb"
+      },
+      "remote_canvas_beyond_128px": {
+        "count": 964115,
+        "sha256": "4e1ef617d936f0b26f475453b04fc461330fbddeaa8cac1a54a2da4b70cf9f36"
+      },
+      "dock_beyond_128px": {
+        "count": 54816,
+        "sha256": "48a92890a25eb23aa99801a249915821bb23fac115bf2432b4d110eca41c288e"
+      },
+      "background_far_fixed": {
+        "count": 8960,
+        "sha256": "fa77d78f0a2513b114c7e63d70f2b619ea7bc764e1bab8a71f8cb95715c9c7d3"
+      },
+      "backing_scroll_text_DIAGNOSTIC": {
+        "count": 13600,
+        "sha256": "9ed318c9eba3cc4a0891e4fe1ee18491ae419ade4908c990efa60146a242e551"
+      },
+      "source_radial_r0_1": {
+        "count": 1245,
+        "sha256": "da0cfac882ad10e68e04cf6cd4a3b1a4e08092ed228da1853747a183409b57c7"
+      },
+      "source_radial_r1_2": {
+        "count": 3768,
+        "sha256": "a3151c648e508c9c0e2ae15b0877bbde986d5c73ae5a249b53419bea24af13ba"
+      },
+      "source_radial_r2_4": {
+        "count": 11477,
+        "sha256": "65c8e762872ec601e79dc9284de7ea37de5c830b0c5f1963e45dbf8a16101221"
+      },
+      "source_radial_r4_to_128": {
+        "count": 19892,
+        "sha256": "899360d200c8bd0d7c258650985c766a0fb33f4dea154433ee31bc41e7988b40"
+      },
+      "source_sector_0_45deg_within128px": {
+        "count": 4475,
+        "sha256": "cc811baa30bbbf5de62a4acd1522cd0154e939af378647042b6dc8bc708af467"
+      },
+      "source_sector_1_45deg_within128px": {
+        "count": 903,
+        "sha256": "c7cca02aa07e422a69175d32fb897cea331296a1d25f6a645e3575c3405d176b"
+      },
+      "source_sector_2_45deg_within128px": {
+        "count": 903,
+        "sha256": "f0568e203c5d81cc2d970ad81d422ca067f7de4eb196ef0e377594f5eca5a031"
+      },
+      "source_sector_3_45deg_within128px": {
+        "count": 4388,
+        "sha256": "c48de4de5b246a32693a193b64d713f0152f2fcca0cc0803d1ac1c9ece8e6d1f"
+      },
+      "source_sector_4_45deg_within128px": {
+        "count": 6448,
+        "sha256": "0ab9186a628d298d314126bdbc5087eb3917ef9f7993d62a3c3b67b67c1b7858"
+      },
+      "source_sector_5_45deg_within128px": {
+        "count": 6410,
+        "sha256": "841860d3c913fe4130c89411e7407cb0eef5edc54967b04a340fad67583a06aa"
+      },
+      "source_sector_6_45deg_within128px": {
+        "count": 6448,
+        "sha256": "e537f87519491aa1d369ae083ea4cfc2d92b173703683405ed4fb7e392ba42db"
+      },
+      "source_sector_7_45deg_within128px": {
+        "count": 6410,
+        "sha256": "ce59ea4516a44c20f2f1b73a0dc931ced1184bf1b32e8dc308e00a825b8a770e"
+      },
+      "source_color_band_0_support": {
+        "count": 303,
+        "sha256": "ee13b38486c78d948339946039a9167d45bcebc2eff2941482e6122f2a738588"
+      },
+      "source_color_band_1_support": {
+        "count": 382,
+        "sha256": "3fd9bf8a26bd84a9327a14d55973a51c1c453bcd86eed388390dbd6e0bd6aa48"
+      },
+      "source_color_band_2_support": {
+        "count": 320,
+        "sha256": "f8bef5e5074eaa6fd5f70022733d59d03a1281c883267eca9467490eb7d491de"
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "scope": "Exactly common native raw-row identities whose nearest real draw bracket is wholly held in both Android69 and Android72; no replacement/interpolation of the excluded post-UP match.",
+  "common_native_rows": 541,
+  "common_both_held_rows": 540,
+  "cases": [
+    {
+      "gesture_index": 0,
+      "n": 209,
+      "android69": {
+        "n": 209,
+        "rmse": 3.579756606689068,
+        "max_abs": 8.580543902078375,
+        "median": -0.43269884552580606
+      },
+      "android72": {
+        "n": 209,
+        "rmse": 0.04642658606379305,
+        "max_abs": 0.16207873270667505,
+        "median": -0.010610152310164267
+      },
+      "rmse_reduction_percent": 98.70307981338617
+    },
+    {
+      "gesture_index": 1,
+      "n": 214,
+      "android69": {
+        "n": 214,
+        "rmse": 3.587388051278758,
+        "max_abs": 8.614421599878966,
+        "median": 0.404776654184019
+      },
+      "android72": {
+        "n": 214,
+        "rmse": 0.04770643454245961,
+        "max_abs": 0.15310049559664662,
+        "median": -0.01010642257681127
+      },
+      "rmse_reduction_percent": 98.67016241732047
+    },
+    {
+      "gesture_index": 2,
+      "n": 57,
+      "android69": {
+        "n": 57,
+        "rmse": 4.6665959800070205,
+        "max_abs": 8.710548165853027,
+        "median": 6.722688851823477e-06
+      },
+      "android72": {
+        "n": 57,
+        "rmse": 0.19823113721602104,
+        "max_abs": 0.3902509836557613,
+        "median": -2.689075543571562e-05
+      },
+      "rmse_reduction_percent": 95.75212557364516
+    },
+    {
+      "gesture_index": 3,
+      "n": 60,
+      "android69": {
+        "n": 60,
+        "rmse": 4.2452308767836175,
+        "max_abs": 8.583925746473227,
+        "median": -6.722688823401768e-07
+      },
+      "android72": {
+        "n": 60,
+        "rmse": 0.2129428416235352,
+        "max_abs": 0.4236139973970978,
+        "median": 2.18487387684263e-05
+      },
+      "rmse_reduction_percent": 94.98395145507679
+    }
+  ],
+  "excluded_rows": [
+    {
+      "gesture_index": 3,
+      "native_raw_line": 2419,
+      "android69": {
+        "native_frame": "1628",
+        "native_elapsed_start_s": "1.0305739999748766",
+        "native_elapsed_end_s": "1.032521374989301",
+        "android_raw_line": "4382",
+        "android_draw_id": "837",
+        "android_elapsed_start_s": "1.024379323",
+        "android_elapsed_end_s": "1.024665625",
+        "phase_gap_ms": "-7.025213482088732",
+        "android_wholly_held": "True",
+        "total_center_difference_dp": "-8.489589159632658"
+      },
+      "android72": {
+        "native_frame": "1628",
+        "native_elapsed_start_s": "1.0305739999748766",
+        "native_elapsed_end_s": "1.032521374989301",
+        "android_raw_line": "4374",
+        "android_draw_id": "835",
+        "android_elapsed_start_s": "1.03821203",
+        "android_elapsed_end_s": "1.038459374",
+        "phase_gap_ms": "6.788014517911112",
+        "android_wholly_held": "False",
+        "total_center_difference_dp": "0.008191058929384099"
+      }
+    }
+  ]
+}

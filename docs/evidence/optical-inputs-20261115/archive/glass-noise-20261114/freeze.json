@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "protocol_id": "glass_noise_20261114_v1",
+  "frozen_utc": "2026-11-14T12:11:09.072629+00:00",
+  "file_sha256": {
+    "protocol.json": "716847d57d155dee9ee7c23d2ff725e01c19702fae9039be87d34a375909fb71",
+    "generate.py": "7161bf0b28083e7c60b68d89bc5d091dd6622ea455000b884e0eab63ff076f29",
+    "README.md": "d367ed630952f1ad67ef6797e1fbf7d4542f60b348172424346a0c14078f42d5",
+    "sRGB.icc": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957"
+  },
+  "dependencies": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "pillow": "11.3.0",
+    "littlecms2": "2.17"
+  },
+  "generation_started": false,
+  "statement": "Frozen before registered calibration/test PNG generation; no native or Android capture consumed."
+}

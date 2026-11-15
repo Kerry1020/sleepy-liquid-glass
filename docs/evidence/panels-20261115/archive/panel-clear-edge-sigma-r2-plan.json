@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "kind": "blur-unit-contract-correction",
+  "hypothesis": "First clear-edge attempt mixed Java blur radius with true sigma. Convert physical radius to sigma for actual input, shader targets and prefilter/fallback/haze; keep legacy default path unchanged.",
+  "changes": "Alert-8/Sheet-6 rimBlur and default refraction60; CPU Alert dark outline zero kept as existing intermediate reference. Other styles/geometry fixed. Explicit radius sampling uniform enabled only inputBlurPx opt-in.",
+  "reference": "panels-alert-outline-zero-20261115 for edge-unit effect; native/baseline/failed-candidate also retained",
+  "checks": [
+    "13 input blur host +8 modal tests +shader contract tests",
+    "same4 light calibration REST fixed tracks",
+    "fail if source geometry, full controls or convergence fail"
+  ],
+  "decision": "Not physical thickness fit, native parity or a completed product. Assess all fixed ROI positives and negatives."
+}

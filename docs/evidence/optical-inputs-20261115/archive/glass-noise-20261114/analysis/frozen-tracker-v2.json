@@ -1,0 +1,74 @@
+{
+  "schema": 2,
+  "implementation_version": 2,
+  "frozen_at_utc": "2026-11-14T12:29:19.269627+00:00",
+  "actual_captures_opened": false,
+  "preserved_v1": {
+    "track_dots.py": "e3d78a41033cd6b4587eda342d9e35e20b85e55cddd1a3adfc1931baf62f2d11",
+    "tracking-protocol.json": "cc9cd80366c6ef0cb65b4496f9fe9d3b6c226914d7e356307482e6c78b04f075",
+    "frozen-tracker.json": "3402ed5639c65bbfc1cbfe9c35d0058d57314ffef0516b17871e948722193631"
+  },
+  "source_sha256": "be42b444c4bfedd1b626e29ff2530dff391d0bcc5fd06fedf6493aea06187b16",
+  "protocol_sha256": "836c1db7a6bbcc633ea75d732740ed7008181d4c76e8be8ca3626de78bb15381",
+  "self_test": {
+    "v2_gates": {
+      "weak_candidates_remain": "unidentified",
+      "clamped_peak_boundary": [
+        14.5,
+        1050.5
+      ],
+      "foreground_overlap_pixels": 96,
+      "foreground_overlap_fraction": 0.375,
+      "template_foreground_intersection_area_px2": 792,
+      "shared_support_pixels": 160,
+      "shared_support_centroid_separation_px": 2.8255528255527906,
+      "shared_support_identities_rejected": 2,
+      "disjoint_support_bbox_overlap_not_fused": true,
+      "registered_source_contract_points": 1680,
+      "malformed_contracts_rejected": 5,
+      "wrong_source_sha_rejected": true,
+      "nonopaque_alpha_rejected": true,
+      "opaque_unprofiled_input_assumption_recorded": true,
+      "profiled_source_converted_with_littlecms2": "2.17",
+      "scope": "source inputs and constructed arrays only; no captured output read"
+    },
+    "translation_known_px": [
+      3,
+      -2
+    ],
+    "translation_tracked": 4,
+    "translation_total": 6,
+    "translation_max_center_error_px": 0.64846005749246,
+    "blur_sigma_px": 2,
+    "blur_tracked": 5,
+    "blank_false_tracked": 0,
+    "duplicate_identity_rejected": true,
+    "fft_direct_identity_check": true,
+    "affine_known_scale_xy": [
+      1.04,
+      0.97
+    ],
+    "affine_identified": 3,
+    "affine_max_center_error_px": 0.6131702779364954,
+    "nonlocal_reflection_false_tracked": 0,
+    "wide_search_translation_px": [
+      70,
+      0
+    ],
+    "wide_search_identified": 2,
+    "wide_search_max_error_px": 0.360555127546607,
+    "duplicated_patch_lobes_status": "multiple_lobes",
+    "scope": "synthetic algorithm checks only; rejected points retained; no real capture opened"
+  },
+  "input_registration_sha256": {
+    "protocol.json": "716847d57d155dee9ee7c23d2ff725e01c19702fae9039be87d34a375909fb71",
+    "test/manifest.json": "c0bf459fa970ccfe6dba439edc85db2e4d8d7006247765638c29148478bc6375",
+    "calibration/manifest.json": "096d4c917ebfa7e8f83681b950d41df755da13da6e33d6e18e31bd7cd9ecef1c"
+  },
+  "versions": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "pillow": "11.3.0",
+    "littlecms2": "2.17"
+  }
+}

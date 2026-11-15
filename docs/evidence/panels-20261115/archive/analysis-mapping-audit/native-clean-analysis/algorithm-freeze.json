@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "status": "algorithm frozen; not executed; awaiting root successful-capture handoff",
+  "algorithm_sha256": {
+    "analyze.py": "a54297463748be1e26803e763643fead962824a5b0b1441c48419ce34a13c8aa",
+    "analysis-plan.json": "b1914427e6102734ef5fba5c30ae778874a3cfa8e2fdde8489712145b37929d2",
+    "README.md": "63440aa0458942769cb2e24eb0d6a4ff12156f4ea15a1ae17fadc5530daccf37",
+    "static-review.json": "0f89bd79342437aaa738c7ee0c2c235b80661872d8aebb7455781a4c7377c2b9"
+  },
+  "capture_plan_sha256": "43d85ae6373c1946f962fd530fbf0d31559ca15df04bb61efb079b3e5fc4f970",
+  "no_pixels_decoded_during_preparation": true
+}

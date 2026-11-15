@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "split": "historical-calibration",
+  "script_sha256": "43f5423126efbcfa96d395868769fbc229ca01e512aa02c22f683b1a6cdd88da",
+  "build_receipt": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/alert-profile-half-build-result.json",
+  "build_receipt_sha256": "9eaee933b698bdd01da8c69c859079f522374443a1e0e2cf3cdf94fe2f0ec707",
+  "installed": {
+    "com.lingion.sleepy.debug": {
+      "installed_path": "/data/app/~~KG9BpDHf7aGUXUIQtIjkdQ==/com.lingion.sleepy.debug-cs8Gc1uvHqFhzvA3fKDsGQ==/base.apk",
+      "sha256": "bdf62e01bd8e5f7c11a10b810e5b134bef510a3105dbffd80165bbf788318979",
+      "local_path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/debug/app-arm64-v8a-debug.apk"
+    },
+    "com.lingion.sleepy.debug.test": {
+      "installed_path": "/data/app/~~UaBas4sj1wIk-eqzNIUcxQ==/com.lingion.sleepy.debug.test-qSkReMt5pCp2Y4kJxc864w==/base.apk",
+      "sha256": "3a2f170ca90dfa7e9e2222cbff2cdf9855b17dd9ad4d2754515e7f8278387261",
+      "local_path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/androidTest/debug/app-debug-androidTest.apk"
+    }
+  },
+  "current_source_sha256": {
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "fe462300bcd94fdde0d22039416cdbad13106b3b2e79aae0fc0d3df0a8878dd1",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt": "52451323a2a3a8d8134062f3e5dc04b0f2bde114cca9ede50c3fa330cfd52a7c",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassEffect.kt": "17bcec74d13faee03c1c6f16f4c02e3db735253bdf716adc687c0564e58a376a",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "9ceeb97eb4fcaec61c68e6103a7029ce47448a34f96c7cccc313813643d89297",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeDockOpticalWorldRenderTest.kt": "e0e25da812e03d6a97eb52f12aca1dcfb8612b8785ae7e1f8e6d67889491adb8",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassNavigationBar.kt": "f48da9dad35ada4c34a48d9c9473a6689d04e4587696392f24a6216cf3a2e188",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeGlassParityCaptureTest.kt": "f71b6c0645da956107428b402791c999ec6bc1ba2ba8ad78d1ce65e93dd832d2",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassOverlays.kt": "5e5ee50c5f46a55abdb5b4fa6355bc971b1b6d3c6de81923cb069d890dea78af",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassControlModifier.kt": "5ebd28c626e7baea243f4e51fafad1f38694c2970d7fdb295f148f979c0eb7d2",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGeometry.kt": "2d7e1b79440149cffb9c71151e0a557a2a6ec14cb184bd78492d5b10fae9cff4"
+  },
+  "inputs": {
+    "fine_grid-light.png": {
+      "local_original": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/traces/-_NativeReferenceTests_testStaticOpticsFineGridLight_-1B364144-3B4C-4C1B-9FC2-E7ED92299764/background-input.png",
+      "sha256": "0d82f51b359b4820cf1028a8e7618be0a55e1bc8d555c320125f2a8553fa4d54"
+    },
+    "color_stripes-light.png": {
+      "local_original": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/traces/-_NativeReferenceTests_testStaticOpticsColorStripesLight_-C058F89A-6425-4D23-9171-033269F12FF2/background-input.png",
+      "sha256": "be768f215b3818c5c276f3fa136bc8c67409aab57f9046795730c801a3412b93"
+    },
+    "tonal_blocks-light.png": {
+      "local_original": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/traces/-_NativeReferenceTests_testStaticOpticsTonalBlocksLight_-0FEBDADC-065B-4A9E-B1D2-0B37D1CA07FD/background-input.png",
+      "sha256": "0a2a4b089c512067a1f606129e4e9d0c37a401f84dc556c7f9fcac396c72e4d9"
+    },
+    "synthetic_landscape-light.png": {
+      "local_original": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/traces/-_NativeReferenceTests_testStaticOpticsLandscapeLight_-9F3E467D-6F2E-4F1D-A7A8-07D99F7F1A7D/background-input.png",
+      "sha256": "9acd71617281acdb5e55d3cc0a74a24088a4f5d16f763fdb55ad6ed7a522deef"
+    },
+    "fine_grid-dark.png": {
+      "local_original": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/traces/-_NativeReferenceTests_testStaticOpticsFineGridDark_-E83F34D4-61C9-4873-8E77-FFA228FE0B1B/background-input.png",
+      "sha256": "0d82f51b359b4820cf1028a8e7618be0a55e1bc8d555c320125f2a8553fa4d54"
+    },
+    "color_stripes-dark.png": {
+      "local_original": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/traces/-_NativeReferenceTests_testStaticOpticsColorStripesDark_-54C1029F-15B2-47CD-8C8D-2C4EAB284533/background-input.png",
+      "sha256": "be768f215b3818c5c276f3fa136bc8c67409aab57f9046795730c801a3412b93"
+    },
+    "tonal_blocks-dark.png": {
+      "local_original": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/traces/-_NativeReferenceTests_testStaticOpticsTonalBlocksDark_-16DBCC35-9393-4E19-9E12-D5BF1016D935/background-input.png",
+      "sha256": "0a2a4b089c512067a1f606129e4e9d0c37a401f84dc556c7f9fcac396c72e4d9"
+    },
+    "synthetic_landscape-dark.png": {
+      "local_original": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/traces/-_NativeReferenceTests_testStaticOpticsLandscapeDark_-843EC0AD-4EFA-43D7-9E7E-6D5163C05ED8/background-input.png",
+      "sha256": "9acd71617281acdb5e55d3cc0a74a24088a4f5d16f763fdb55ad6ed7a522deef"
+    }
+  },
+  "native_refs_sha256": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/rest/optics-color_stripes-light-presentations-sheet-rest.png": "99afdc5b50bbbd11d97ea5e2c432253fc76ed465aae0ecd985d79f396b6b7122",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/rest/optics-tonal_blocks-dark-presentations-sheet-rest.png": "f32b4d7b6e5ecef09042c2d3c492c4ae8b5da8a4244a345e01627f67bb70d3f2",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/rest/optics-color_stripes-dark-presentations-sheet-rest.png": "1d31a7c44e289a562593b71b7359dcc5f614f2671a98380fe588e3d9ab0aec5b",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/rest/optics-fine_grid-dark-presentations-sheet-rest.png": "8f043af948194783d4222a64390fc5c84a4d974dc024187fdded42c909515576",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/rest/optics-synthetic_landscape-dark-presentations-sheet-rest.png": "ea8ef47c6d5c27d7542b9ebda81ae88677fa0feba29b75be625112dfb950aedb",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/rest/optics-fine_grid-light-presentations-sheet-rest.png": "d67d3a957189f0403a2ecb62590f416fbabdca0fc72ed3ae8cda2a88c4b1f6da",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/rest/optics-tonal_blocks-light-presentations-sheet-rest.png": "76c1bd5ae434fc481e0e5b70d903a67510fc608710c7282af08ba9ec280e6975",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-static-optics/rest/optics-synthetic_landscape-light-presentations-sheet-rest.png": "5b842af9b8d2b3cf4feb3672df15bc0c2a85ba7cfb84b68afefca980134f7697",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-alert-optics-20261113/rest/alert-optics-synthetic_landscape-dark-alert-rest.png": "dd39be73418ff96c488e92b54651e9a484f23f4c7002df83540640c3121a37b3",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-alert-optics-20261113/rest/alert-optics-fine_grid-dark-alert-rest.png": "9801d4123ab80e0096921583d50ff780ea692e6b05c0852e39e0a2d7b84f90d9",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-alert-optics-20261113/rest/alert-optics-color_stripes-light-alert-rest.png": "06bfae97ec012fd100c67c4ed31d23d8e38fd444544a23b1369b045e7af8f4b3",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-alert-optics-20261113/rest/alert-optics-synthetic_landscape-light-alert-rest.png": "6b0642ab3c58a2977d938a4643e8bfd12cbfcda0cf8e3bb2e6fa13b33db12aca",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-alert-optics-20261113/rest/alert-optics-tonal_blocks-light-alert-rest.png": "b321b9085839f3007c70bc701b42d4b968c5b86a46095a17ca264cc06cf29581",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-alert-optics-20261113/rest/alert-optics-color_stripes-dark-alert-rest.png": "078833be7e6efba55438075322dce8f960da49fb06c27ed66263beb8a785123c",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-alert-optics-20261113/rest/alert-optics-tonal_blocks-dark-alert-rest.png": "3f177a89619b363dd23fe30e99edcf6088a7bda31d7dcc3770fff7bea8ff95d7",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/outputs/glass-native-parity-20261112/native-alert-optics-20261113/rest/alert-optics-fine_grid-light-alert-rest.png": "5c1fda3052b4390e83db65641d4dbcb4f55a480ccb87b9ed7b387f2101b11566"
+  },
+  "capture_argv": [
+    "/Users/kerrylee/Library/Android/sdk/platform-tools/adb",
+    "-s",
+    "d3efcd6a",
+    "shell",
+    "am",
+    "instrument",
+    "-w",
+    "-r",
+    "-e",
+    "class",
+    "com.lingion.sleepy.ui.component.NativeGlassParityCaptureTest#captureStaticOpticalBackgroundMatrix",
+    "-e",
+    "glassStaticCapture",
+    "true",
+    "-e",
+    "glassStaticNativeInputDirectory",
+    "native-optics-20261114",
+    "-e",
+    "glassStaticNativeCanvas",
+    "true",
+    "-e",
+    "glassStaticSheetContentHeightDp",
+    "277.3",
+    "-e",
+    "glassStaticBackgrounds",
+    "fine_grid,color_stripes,tonal_blocks,synthetic_landscape",
+    "-e",
+    "glassStaticThemes",
+    "light,dark",
+    "-e",
+    "glassStaticSurfaces",
+    "share_sheet,alert",
+    "-e",
+    "glassStaticStates",
+    "rest",
+    "-e",
+    "glassStaticRunId",
+    "panels-alert-profile-half-20261115",
+    "com.lingion.sleepy.debug.test/com.lingion.sleepy.SleepyRenderTestRunner"
+  ],
+  "expected_count": 16,
+  "expected_world_px": [
+    750,
+    1334
+  ],
+  "expected_sheet_material_ltrb_px": [
+    16,
+    635,
+    734,
+    1318
+  ],
+  "expected_alert_native_ax_ltrb_pt": [
+    27.5,
+    257.5,
+    347.5,
+    429.5
+  ],
+  "analysis_policy": "No posthoc resize/recenter/warp. Raw encoded RGB and ICC-normalized sRGB retained separately. Source registration, exterior dimming, body, straight edges and corners separated. Native backdrop controls differ; lower sheet bands diagnostic only. Native AX is not an optical alpha contour. Static carrier fixture uses production wrappers and illustrative content, not full product data flow. No heldout inputs read. No universal parity acceptance threshold.",
+  "limits": [
+    "Candidate build receipt enumerates all registered current fixture and wrapper hashes; exact installed APK independently matched.",
+    "Historical source references validated by original session metadata rather than later mutable Swift source."
+  ]
+}

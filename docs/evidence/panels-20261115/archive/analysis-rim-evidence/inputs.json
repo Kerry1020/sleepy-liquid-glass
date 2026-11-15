@@ -1,0 +1,72 @@
+[
+  {
+    "key": "source",
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/panel_probe_shapes.png",
+    "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "key": "alert_native",
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/26EDA3DE-BADE-47D2-B16B-53CD93B19564.png",
+    "sha256": "896015f962d54a136cc2cda982c8ea020534c32731d5aec92ef6a50318922563",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "key": "alert_before",
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/1FE30ED3-6756-49FB-9FD1-92E0FCC122AA.png",
+    "sha256": "1ba81da37730ce929fa0e9f7ab898ad94c6405a485a0fd4e464e5303bb1b32aa",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "key": "alert_android",
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_shapes-light-alert-rest-screen.png",
+    "sha256": "48ba849785571d9fb6bd8cd02567f990ff8a139f36e20f4bc5645b017a1d6b92",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "key": "sheet_native",
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/D7877EDC-B156-4BCF-8306-36EC447D522E.png",
+    "sha256": "708015f01175893a3fff32a2fdd0a7c7292f1db0442c4fc5660d309102b09640",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "key": "sheet_before",
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/6A6F985A-338D-4533-8303-E472269B633D.png",
+    "sha256": "1ba81da37730ce929fa0e9f7ab898ad94c6405a485a0fd4e464e5303bb1b32aa",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "key": "sheet_android",
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png",
+    "sha256": "a27b420fc8d73a96f9b247a42ed8f76f4cb6727270f4104c75ab4de269c5506d",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  }
+]

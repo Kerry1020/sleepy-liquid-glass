@@ -1,0 +1,1 @@
+First completion pass stopped before corner metrics because the original CSV correctly exports masked NaN values as empty strings. The parser attempted float('') at line126. The rerun parses an empty cell as NaN, retaining the original mask, sample grid, source captures, thresholds, and parameters. No product changes or candidate retuning occurred.

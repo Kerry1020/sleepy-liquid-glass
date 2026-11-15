@@ -1,0 +1,31 @@
+{
+  "renderer_sha256": "701c86b024da12128e5528578dc2707fad823cd1c4a0c9632f67adb906e19f3c",
+  "input_sources_sha256": "d04c5fcc2d5700a39c44b4414b7d8a2e9dcb256e23afe381d0fe09a477424b94",
+  "input_policy": "Only public original crops and archived raw CSVs. Original coordinates remain fixed; plot display scaling and typography only. No fitting or new measurements.",
+  "figures": {
+    "history-light-alert-comparison.png": {
+      "sha256": "a648bb557048ff8ce7dafa82caa6e6ea5529859fe5d4475d01e9bbc183e42192",
+      "bytes": 466973
+    },
+    "history-dark-alert-comparison.png": {
+      "sha256": "5be16c9d36fd7af2e27544d78a258ed1200af1816701b13a41ec3c31cee6fb77",
+      "bytes": 317320
+    },
+    "sheet12-10-comparison.png": {
+      "sha256": "150173782d79b265dc8dc2f6f0053303cc9365624c6b8aed994871656f0d3c0b",
+      "bytes": 567750
+    },
+    "budget-neutral-curves.png": {
+      "sha256": "9e7cbfdeed09678956ab3bc47ee558d4d7bfab294ce68c12096132d16d536e57",
+      "bytes": 96403
+    },
+    "history-light-all-straight-curves.png": {
+      "sha256": "7ecc0b6877016530a418ca809346ac7d4699ce1f551559a06f6e5e99b2240c12",
+      "bytes": 303504
+    },
+    "history-dark-all-straight-curves.png": {
+      "sha256": "cb2d932e48b3c4a9912799408386f46840fa950e7453a7f6400514d17e4602a9",
+      "bytes": 319749
+    }
+  }
+}

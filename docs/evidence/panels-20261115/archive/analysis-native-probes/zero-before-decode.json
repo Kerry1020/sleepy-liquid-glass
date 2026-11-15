@@ -1,0 +1,15 @@
+{
+  "status": "before-first-zero-output-decode",
+  "files": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-refraction-zero-20261115/matrix.json": "29b61f466b5dbdae88464454bf5ec333b3c6bfa37b763c7ce3e063db2123894b",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-refraction-zero-20261115/capture-result.json": "2a0fc28b5839cbd1244c4e147ef911af5d3fa0b170ffb9fae626135bf57e33fd",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-refraction-zero-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png": "0132a6d8eb8c5fe79ab756918197076b0d01aaac1e43c0f01b6967ddadd6d5b3",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-refraction-zero-20261115/panel_probe_shapes-light-background-screen.png": "f6393f969242c6db34b22ecc183dad83c863f1ede4bb385c9b6db879cfcd5799",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-refraction-zero-20261115/panel_probe_shapes-light-alert-rest-screen.png": "8f48137d2698b369902ab82256ebb9dda3fbe8e6e7b25d3cb4b8edfa43060df7",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-refraction-zero-20261115/panel_probe_coordinate-light-alert-rest-screen.png": "fff2dbb18a74f35a77ec93cb171c1a5a1cbd185cd546fdbb9f79441ffdeeec18",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-refraction-zero-20261115/panel_probe_coordinate-light-background-screen.png": "6b52f4b51148bef8c4741cdb3d0cf4ba4056777b35876d235f7b9a95680a7224",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-refraction-zero-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png": "81ab683fb5717a976abbbb6d0f0e85a09b6fffa4f6462b0a34b5c8fe96487f52"
+  },
+  "purpose": "single-variable refraction60\u21920 mechanism ablation; not a fix or parameter fit",
+  "unchanged_S02_transects": "All original rows y261.75..277.25pt in0.5pt steps; fixed right-edge scan x84.25..141.75pt, high plateau84..92, neutral120..140. New local operational plateau limits are declared before zero decode; parent analysis plan fixed support remains unchanged."
+}

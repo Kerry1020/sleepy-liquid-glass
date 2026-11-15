@@ -1,0 +1,800 @@
+[
+  {
+    "input": "panel_probe_shapes",
+    "phase": "after-sheet-context",
+    "file": "6D1C1281-8A14-4434-86E4-8EA0A9ED885D.png",
+    "capture_unix": 1794716072.548,
+    "capture_rel_session_s": 16.964352130889893,
+    "request_matched": true,
+    "capture_after_request_s": 0.044615983963012695,
+    "capture_before_next_operation_s": null,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "649C6900-9A6D-485A-965E-1A50790F77FB.txt",
+    "ax_after_png_s": 0.06799983978271484,
+    "latest_public_context": {
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "t": 15.680536916595884,
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "viewRectInWindowPt": {
+            "w": 375,
+            "y": 0,
+            "x": 0,
+            "h": 667
+          },
+          "isBeingPresented": false,
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingDismissed": false,
+          "effectiveInterfaceStyle": 1,
+          "class": "ReferenceViewController",
+          "presentationStyle": 2
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_shapes",
+    "phase": "sheet-rest-repeat",
+    "file": "1722A28F-672F-4154-BB8D-9652CB18AA12.png",
+    "capture_unix": 1794716070.381,
+    "capture_rel_session_s": 14.797352075576782,
+    "request_matched": true,
+    "capture_after_request_s": 0.04529404640197754,
+    "capture_before_next_operation_s": 0.142441987991333,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "8E22F716-DAC6-4088-BB31-DDFF6905E99A.txt",
+    "ax_after_png_s": 0.10199999809265137,
+    "latest_public_context": {
+      "t": 12.180732708307914,
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "viewRectInWindowPt": {
+            "y": 0,
+            "h": 667,
+            "w": 375,
+            "x": 0
+          },
+          "isBeingPresented": false,
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingDismissed": false,
+          "effectiveInterfaceStyle": 1,
+          "class": "ReferenceViewController",
+          "presentationStyle": 2
+        },
+        {
+          "viewEffectiveInterfaceStyle": 1,
+          "effectiveInterfaceStyle": 1,
+          "class": "PresentationHostingController<AnyView>",
+          "isBeingDismissed": false,
+          "isBeingPresented": false,
+          "viewRectInWindowPt": {
+            "y": 317.71066666666667,
+            "w": 359,
+            "h": 341.28933333333333,
+            "x": 8
+          },
+          "presentationStyle": 2
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1,
+      "scope": "public traits/geometry only; native material adaptation may differ"
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_shapes",
+    "phase": "sheet-rest",
+    "file": "D7877EDC-B156-4BCF-8306-36EC447D522E.png",
+    "capture_unix": 1794716069.885,
+    "capture_rel_session_s": 14.30135202407837,
+    "request_matched": true,
+    "capture_after_request_s": 0.050501108169555664,
+    "capture_before_next_operation_s": 0.45070600509643555,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "318FF015-F807-43FF-BCA9-F34FDD125A99.txt",
+    "ax_after_png_s": 0.0989999771118164,
+    "latest_public_context": {
+      "t": 12.180732708307914,
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "viewRectInWindowPt": {
+            "y": 0,
+            "h": 667,
+            "w": 375,
+            "x": 0
+          },
+          "isBeingPresented": false,
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingDismissed": false,
+          "effectiveInterfaceStyle": 1,
+          "class": "ReferenceViewController",
+          "presentationStyle": 2
+        },
+        {
+          "viewEffectiveInterfaceStyle": 1,
+          "effectiveInterfaceStyle": 1,
+          "class": "PresentationHostingController<AnyView>",
+          "isBeingDismissed": false,
+          "isBeingPresented": false,
+          "viewRectInWindowPt": {
+            "y": 317.71066666666667,
+            "w": 359,
+            "h": 341.28933333333333,
+            "x": 8
+          },
+          "presentationStyle": 2
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1,
+      "scope": "public traits/geometry only; native material adaptation may differ"
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_shapes",
+    "phase": "after-alert-before-sheet-context",
+    "file": "6A6F985A-338D-4533-8303-E472269B633D.png",
+    "capture_unix": 1794716066.69,
+    "capture_rel_session_s": 11.106352090835571,
+    "request_matched": true,
+    "capture_after_request_s": 0.08276104927062988,
+    "capture_before_next_operation_s": 0.12228012084960938,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "040B408F-135F-489A-9229-42F4CE288701.txt",
+    "ax_after_png_s": 0.08899998664855957,
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "windowEffectiveInterfaceStyle": 1,
+      "t": 10.030078000039794,
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "publicControllers": [
+        {
+          "viewRectInWindowPt": {
+            "x": 0,
+            "w": 375,
+            "y": 0,
+            "h": 667
+          },
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "class": "ReferenceViewController",
+          "presentationStyle": 2,
+          "isBeingDismissed": false,
+          "effectiveInterfaceStyle": 1
+        }
+      ]
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_shapes",
+    "phase": "alert-rest-repeat",
+    "file": "99066F28-F7E5-433A-BB09-1D0F7E64729F.png",
+    "capture_unix": 1794716063.943,
+    "capture_rel_session_s": 8.359352111816406,
+    "request_matched": true,
+    "capture_after_request_s": 0.13500213623046875,
+    "capture_before_next_operation_s": 0.36847496032714844,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "20ABF3FF-9840-4B0F-8ED2-CA1FEDF67562.txt",
+    "ax_after_png_s": 0.2869999408721924,
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "t": 4.9297017499338835,
+      "publicControllers": [
+        {
+          "viewRectInWindowPt": {
+            "w": 375,
+            "h": 667,
+            "y": 0,
+            "x": 0
+          },
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "class": "ReferenceViewController",
+          "presentationStyle": 2,
+          "isBeingDismissed": false,
+          "effectiveInterfaceStyle": 1
+        },
+        {
+          "presentationStyle": 4,
+          "viewRectInWindowPt": {
+            "h": 172,
+            "w": 320,
+            "y": 257.5,
+            "x": 27.5
+          },
+          "class": "PlatformAlertController",
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "effectiveInterfaceStyle": 1,
+          "isBeingDismissed": false
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_shapes",
+    "phase": "alert-rest",
+    "file": "26EDA3DE-BADE-47D2-B16B-53CD93B19564.png",
+    "capture_unix": 1794716062.706,
+    "capture_rel_session_s": 7.122352123260498,
+    "request_matched": true,
+    "capture_after_request_s": 0.07100319862365723,
+    "capture_before_next_operation_s": 1.1019978523254395,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "E227A599-74CC-4B46-890A-F6C35977624D.txt",
+    "ax_after_png_s": 0.619999885559082,
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "t": 4.9297017499338835,
+      "publicControllers": [
+        {
+          "viewRectInWindowPt": {
+            "w": 375,
+            "h": 667,
+            "y": 0,
+            "x": 0
+          },
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "class": "ReferenceViewController",
+          "presentationStyle": 2,
+          "isBeingDismissed": false,
+          "effectiveInterfaceStyle": 1
+        },
+        {
+          "presentationStyle": 4,
+          "viewRectInWindowPt": {
+            "h": 172,
+            "w": 320,
+            "y": 257.5,
+            "x": 27.5
+          },
+          "class": "PlatformAlertController",
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "effectiveInterfaceStyle": 1,
+          "isBeingDismissed": false
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_shapes",
+    "phase": "before-alert-context",
+    "file": "1FE30ED3-6756-49FB-9FD1-92E0FCC122AA.png",
+    "capture_unix": 1794716059.501,
+    "capture_rel_session_s": 3.9173519611358643,
+    "request_matched": true,
+    "capture_after_request_s": 0.07603287696838379,
+    "capture_before_next_operation_s": 0.12053489685058594,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-ADA6F4AB-3115-440A-A35E-F2045CD6F29C",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "CC02950B-6DB9-4F9E-B240-816F37981D8F.txt",
+    "ax_after_png_s": 0.08500003814697266,
+    "latest_public_context": {
+      "windowEffectiveInterfaceStyle": 1,
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "publicControllers": [
+        {
+          "viewRectInWindowPt": {
+            "y": 0,
+            "w": 375,
+            "h": 667,
+            "x": 0
+          },
+          "isBeingDismissed": false,
+          "class": "ReferenceViewController",
+          "presentationStyle": 2,
+          "isBeingPresented": false,
+          "viewEffectiveInterfaceStyle": 1,
+          "effectiveInterfaceStyle": 1
+        }
+      ],
+      "event": "external-presentation-context",
+      "t": 0.6789870833745226
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "phase": "after-sheet-context",
+    "file": "A2F65958-3989-4217-9F24-D71784DE20EB.png",
+    "capture_unix": 1794716051.479,
+    "capture_rel_session_s": 15.584904193878174,
+    "request_matched": true,
+    "capture_after_request_s": 0.0821390151977539,
+    "capture_before_next_operation_s": 7.945966958999634,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-B4101548-B39B-423D-9364-87A5998491E2",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-B4101548-B39B-423D-9364-87A5998491E2",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "CE5DB57C-B692-41D9-B983-021953ECF798.txt",
+    "ax_after_png_s": 0.12199997901916504,
+    "latest_public_context": {
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "publicControllers": [
+        {
+          "effectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "w": 375,
+            "x": 0,
+            "y": 0,
+            "h": 667
+          },
+          "class": "ReferenceViewController",
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "isBeingDismissed": false,
+          "presentationStyle": 2
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1,
+      "t": 14.239973458345048,
+      "event": "external-presentation-context"
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "phase": "sheet-rest-repeat",
+    "file": "782A7225-8207-4650-8792-C8855EDA3B66.png",
+    "capture_unix": 1794716049.069,
+    "capture_rel_session_s": 13.174904108047485,
+    "request_matched": true,
+    "capture_after_request_s": 0.07447695732116699,
+    "capture_before_next_operation_s": 0.24263596534729004,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-B4101548-B39B-423D-9364-87A5998491E2",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-B4101548-B39B-423D-9364-87A5998491E2",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "84035790-792F-4077-AC57-0A7D77453103.txt",
+    "ax_after_png_s": 0.18000006675720215,
+    "latest_public_context": {
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "t": 10.490525416680612,
+      "publicControllers": [
+        {
+          "effectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "y": 0,
+            "x": 0,
+            "h": 667,
+            "w": 375
+          },
+          "class": "ReferenceViewController",
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "isBeingDismissed": false,
+          "presentationStyle": 2
+        },
+        {
+          "presentationStyle": 2,
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "y": 317.71066666666667,
+            "x": 8,
+            "w": 359,
+            "h": 341.28933333333333
+          },
+          "isBeingDismissed": false,
+          "isBeingPresented": false,
+          "class": "PresentationHostingController<AnyView>"
+        }
+      ],
+      "event": "external-presentation-context",
+      "windowEffectiveInterfaceStyle": 1
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "phase": "sheet-rest",
+    "file": "8F68A4D0-14DC-4E2A-A4B6-67794F2D40EB.png",
+    "capture_unix": 1794716048.446,
+    "capture_rel_session_s": 12.551904201507568,
+    "request_matched": true,
+    "capture_after_request_s": 0.08020710945129395,
+    "capture_before_next_operation_s": 0.54852294921875,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-B4101548-B39B-423D-9364-87A5998491E2",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-B4101548-B39B-423D-9364-87A5998491E2",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "78BD4346-836F-4BEC-9F15-627C6438330E.txt",
+    "ax_after_png_s": 0.18499994277954102,
+    "latest_public_context": {
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "t": 10.490525416680612,
+      "publicControllers": [
+        {
+          "effectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "y": 0,
+            "x": 0,
+            "h": 667,
+            "w": 375
+          },
+          "class": "ReferenceViewController",
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "isBeingDismissed": false,
+          "presentationStyle": 2
+        },
+        {
+          "presentationStyle": 2,
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "y": 317.71066666666667,
+            "x": 8,
+            "w": 359,
+            "h": 341.28933333333333
+          },
+          "isBeingDismissed": false,
+          "isBeingPresented": false,
+          "class": "PresentationHostingController<AnyView>"
+        }
+      ],
+      "event": "external-presentation-context",
+      "windowEffectiveInterfaceStyle": 1
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "phase": "after-alert-before-sheet-context",
+    "file": "E3F76C23-C479-4FDC-A442-172FCC27A849.png",
+    "capture_unix": 1794716045.13,
+    "capture_rel_session_s": 9.235904216766357,
+    "request_matched": true,
+    "capture_after_request_s": 0.06014204025268555,
+    "capture_before_next_operation_s": 0.14925384521484375,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-B4101548-B39B-423D-9364-87A5998491E2",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-B4101548-B39B-423D-9364-87A5998491E2",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "0C401F42-E0FF-425C-AE7A-A340CA9260F7.txt",
+    "ax_after_png_s": 0.10299992561340332,
+    "latest_public_context": {
+      "t": 8.49234158336185,
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "presentationStyle": 2,
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "h": 667,
+            "x": 0,
+            "y": 0,
+            "w": 375
+          },
+          "isBeingDismissed": false,
+          "isBeingPresented": false,
+          "class": "ReferenceViewController"
+        }
+      ],
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "windowEffectiveInterfaceStyle": 1
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "phase": "alert-rest-repeat",
+    "file": "6CFC112F-EA78-4B4C-8B56-FF178AE625CD.png",
+    "capture_unix": 1794716043.386,
+    "capture_rel_session_s": 7.491904020309448,
+    "request_matched": true,
+    "capture_after_request_s": 0.06698894500732422,
+    "capture_before_next_operation_s": 0.23586511611938477,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-B4101548-B39B-423D-9364-87A5998491E2",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-B4101548-B39B-423D-9364-87A5998491E2",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "2A9EC376-32BA-4151-B7FE-9918A84B4DB9.txt",
+    "ax_after_png_s": 0.1809999942779541,
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "t": 4.74043995840475,
+      "publicControllers": [
+        {
+          "presentationStyle": 2,
+          "isBeingPresented": false,
+          "isBeingDismissed": false,
+          "class": "ReferenceViewController",
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "x": 0,
+            "w": 375,
+            "h": 667,
+            "y": 0
+          }
+        },
+        {
+          "presentationStyle": 4,
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "h": 172,
+            "x": 27.5,
+            "w": 320,
+            "y": 257.5
+          },
+          "isBeingDismissed": false,
+          "isBeingPresented": false,
+          "class": "PlatformAlertController"
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "phase": "alert-rest",
+    "file": "5F2FA6A3-1BFF-4023-8E0A-10DCBF5C2BC2.png",
+    "capture_unix": 1794716042.836,
+    "capture_rel_session_s": 6.941904067993164,
+    "request_matched": true,
+    "capture_after_request_s": 0.06870412826538086,
+    "capture_before_next_operation_s": 0.48301100730895996,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-B4101548-B39B-423D-9364-87A5998491E2",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-B4101548-B39B-423D-9364-87A5998491E2",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "DEC4B43C-977C-4A0A-81ED-2F5E3B2DD070.txt",
+    "ax_after_png_s": 0.16499996185302734,
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "t": 4.74043995840475,
+      "publicControllers": [
+        {
+          "presentationStyle": 2,
+          "isBeingPresented": false,
+          "isBeingDismissed": false,
+          "class": "ReferenceViewController",
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "x": 0,
+            "w": 375,
+            "h": 667,
+            "y": 0
+          }
+        },
+        {
+          "presentationStyle": 4,
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "h": 172,
+            "x": 27.5,
+            "w": 320,
+            "y": 257.5
+          },
+          "isBeingDismissed": false,
+          "isBeingPresented": false,
+          "class": "PlatformAlertController"
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "phase": "before-alert-context",
+    "file": "CC3F9BE7-2C82-4C11-87CA-5AC5B666EC1C.png",
+    "capture_unix": 1794716039.561,
+    "capture_rel_session_s": 3.6669042110443115,
+    "request_matched": true,
+    "capture_after_request_s": 0.10864996910095215,
+    "capture_before_next_operation_s": 0.12600088119506836,
+    "request_reference_run": "-[NativeReferenceTests testPanelExternalInputFeasibility]-B4101548-B39B-423D-9364-87A5998491E2",
+    "session_run": "-_NativeReferenceTests_testPanelExternalInputFeasibility_-B4101548-B39B-423D-9364-87A5998491E2",
+    "request_session_uuid_matches": true,
+    "loader_manifest_matches": true,
+    "ax_attachment": "8EA3E6DB-5751-462B-8BB6-304DAE82F210.txt",
+    "ax_after_png_s": 0.09200000762939453,
+    "latest_public_context": {
+      "publicControllers": [
+        {
+          "viewEffectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "w": 375,
+            "x": 0,
+            "y": 0,
+            "h": 667
+          },
+          "class": "ReferenceViewController",
+          "effectiveInterfaceStyle": 1,
+          "presentationStyle": 2,
+          "isBeingDismissed": false,
+          "isBeingPresented": false
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1,
+      "t": 0.4895547917112708,
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "event": "external-presentation-context"
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    },
+    "source_original_bytes_equal": true
+  }
+]

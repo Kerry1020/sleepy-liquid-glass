@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "kind": "mechanism-ablation-not-thickness-fix",
+  "change": "Only production wrapper Sheet/Alert refraction60->0. Existing fields/style factories/Dock/MD/geometry/tint/blur/shine untouched. Dark scrim correction retained.",
+  "hypothesis": "Current inward sampling60dp may remove visible source shapes in very outer band; compare against no-shift ablation to isolate mapping from blur/tone/highlight. Bigger stretch does not imply bigger shift amplitude.",
+  "before_source_sha256": "028873a4682733a57297d8b565827167a5b5f744d88fa882bef450c9d1241f67",
+  "candidate_source_sha256": "c63acda280fa0b9c301ab0f93b9bd186891a957d45580bd4c1cb85fb240a4d4b",
+  "registered_checks": [
+    "same two new calibration probe inputs \u00d7 Alert/Sheet \u00d7 light REST=4",
+    "same historical4inputs\u00d72themes\u00d72roles REST=16",
+    "compare fixed ROI visible colorfeatures and complete profiles, no isolated bestpoint selection",
+    "source/input/APK/geometry unchanged and display restored"
+  ],
+  "decision": "Diagnostic only; neither accepting zero-shift nor claiming native refraction physical formula. Any mixed regression retained."
+}

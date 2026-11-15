@@ -1,0 +1,193 @@
+{
+  "schema": 1,
+  "candidate": "alert-profile-half",
+  "frozen_before_candidate_image_decode": true,
+  "capture_complete_confirmed_by_root": true,
+  "plan": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/alert-profile-half-plan.json",
+    "sha256": "9d16ceaadbda637358fef8fc83b81142c521bef371f8582760c236b4bb096a5c"
+  },
+  "analyzer": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-alert-baseline/analyze_alert_baseline.py",
+    "sha256": "e2caa294988003f81f150fc2295d2fe89710210d0ca260598e4fb88c0850ec8b"
+  },
+  "baseline": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-alert-baseline/analysis.json",
+    "sha256": "cd0b6088b597fa93045ae73417410d8457104e416a363a5c4fbc9350f4f9ac38"
+  },
+  "native_map": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-alert-map.md",
+    "sha256": "ce6926fddb7089d28b81182136829f62ea28fe91ef4cda43fc6a21b6cc2c6fb1"
+  },
+  "source": {
+    "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassControlModifier.kt",
+    "sha256": "5ebd28c626e7baea243f4e51fafad1f38694c2970d7fdb295f148f979c0eb7d2"
+  },
+  "coordinate_policy": "Original 750x1334px display; 2px/pt; no warp, resize, recenter, fitted translation or native/source substitution.",
+  "exterior_roi_pt": [
+    32,
+    176,
+    343,
+    220
+  ],
+  "body_rois_pt": {
+    "left_gutter": [
+      49.5,
+      307,
+      54.5,
+      338
+    ],
+    "right_gutter": [
+      320.5,
+      307,
+      325.5,
+      338
+    ],
+    "left_gap": [
+      60,
+      350,
+      110,
+      359
+    ],
+    "right_gap": [
+      265,
+      350,
+      315,
+      359
+    ]
+  },
+  "foreground_union_expansion_pt": 2,
+  "pane_px": [
+    55,
+    515,
+    695,
+    859
+  ],
+  "straight_profiles": {
+    "left": [
+      "x",
+      27.5,
+      1,
+      [
+        [
+          307,
+          338
+        ]
+      ],
+      24
+    ],
+    "right": [
+      "x",
+      347.5,
+      -1,
+      [
+        [
+          307,
+          338
+        ]
+      ],
+      24
+    ],
+    "top": [
+      "y",
+      257.5,
+      1,
+      [
+        [
+          62,
+          104
+        ],
+        [
+          271,
+          313
+        ]
+      ],
+      20
+    ],
+    "bottom": [
+      "y",
+      429.5,
+      -1,
+      [
+        [
+          62,
+          104
+        ],
+        [
+          271,
+          313
+        ]
+      ],
+      10
+    ]
+  },
+  "curve_spacing_pt": 0.5,
+  "first_signed_distance_pt": -5.75,
+  "corner_horizontal_scan_depths_pt": [
+    4.25,
+    8.25,
+    12.25,
+    16.25,
+    20.25,
+    24.25
+  ],
+  "corner_horizontal_inward_range_pt": [
+    -5.75,
+    28
+  ],
+  "derivative_smoothing": "fixed sigma.75pt,7samples; reflect ends; no differentiation across NaN foreground gaps",
+  "blue_centroid": {
+    "background": "color_stripes",
+    "opponent": "B-(R+G)/2 positive weighted centroid",
+    "x_pt": [
+      60.25,
+      96
+    ],
+    "top_y_pt": [
+      259.75,
+      277.5
+    ],
+    "body_y_pt": [
+      350.25,
+      359
+    ],
+    "bottom_y_pt": [
+      415.75,
+      427.5
+    ],
+    "spacing_pt": 0.5,
+    "interpretation": "Color-response bending only, not recovered physical ray or feature correspondence."
+  },
+  "tracks": [
+    "raw encoded RGB",
+    "ICC-normalized sRGB"
+  ],
+  "controls": [
+    "eight Sheet complete Window RGBA",
+    "Alert Window outside pane bbox",
+    "Alert conservative deep core [61.5,291.5,313.5,395.5]pt excluding foreground union",
+    "each action inner8pt separately"
+  ],
+  "audit": {
+    "source_matches_plan": true,
+    "change": "Alert role copy(refractionProfilePower=0.5) only",
+    "unchanged_expected": [
+      "boundary refraction60dp",
+      "support20dp",
+      "contour",
+      "normal",
+      "tint",
+      "blur",
+      "shine",
+      "scrim",
+      "Sheet full Window"
+    ],
+    "child_controls": "Keep separately; child optics sample parent material."
+  },
+  "immutable_existing_outputs": [
+    "analysis-alert-baseline",
+    "analysis-alert-frost8"
+  ],
+  "input_split": "only four public historical calibration backgrounds; no holdout",
+  "acceptance_policy": "Retain every improvement/regression; no pooled winner or numerical acceptance claim."
+}

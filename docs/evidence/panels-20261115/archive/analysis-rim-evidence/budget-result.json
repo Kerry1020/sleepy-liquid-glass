@@ -1,0 +1,6765 @@
+{
+  "status": "mixed_optical_result_not_native_appearance_acceptance",
+  "candidate_history": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-budget-history-r2-20261115",
+  "failed_history_optical_decode": false,
+  "metadata_note": "Some inherited script labels say isolated screen increment; candidate is the preregistered budget-normalized headroom exponential. These labels do not change any image, region, threshold, reference or numerical calculation.",
+  "controls": {
+    "dark8_three_references_all_zero": true,
+    "dark8_actual_checks": [
+      {
+        "input": "fine_grid",
+        "carrier": "share_sheet",
+        "field": "window_vs_additive",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "carrier": "share_sheet",
+        "field": "visible_app_vs_additive",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "carrier": "share_sheet",
+        "field": "window_vs_original",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "carrier": "share_sheet",
+        "field": "visible_app_vs_original",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "carrier": "share_sheet",
+        "field": "window_vs_screen",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "carrier": "share_sheet",
+        "field": "visible_app_vs_screen",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "carrier": "alert",
+        "field": "window_vs_additive",
+        "channels": 936992,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "carrier": "alert",
+        "field": "visible_app_vs_additive",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "carrier": "alert",
+        "field": "window_vs_original",
+        "channels": 936992,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "carrier": "alert",
+        "field": "visible_app_vs_original",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "carrier": "alert",
+        "field": "window_vs_screen",
+        "channels": 936992,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "carrier": "alert",
+        "field": "visible_app_vs_screen",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "carrier": "share_sheet",
+        "field": "window_vs_additive",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "carrier": "share_sheet",
+        "field": "visible_app_vs_additive",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "carrier": "share_sheet",
+        "field": "window_vs_original",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "carrier": "share_sheet",
+        "field": "visible_app_vs_original",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "carrier": "share_sheet",
+        "field": "window_vs_screen",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "carrier": "share_sheet",
+        "field": "visible_app_vs_screen",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "carrier": "alert",
+        "field": "window_vs_additive",
+        "channels": 936992,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "carrier": "alert",
+        "field": "visible_app_vs_additive",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "carrier": "alert",
+        "field": "window_vs_original",
+        "channels": 936992,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "carrier": "alert",
+        "field": "visible_app_vs_original",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "carrier": "alert",
+        "field": "window_vs_screen",
+        "channels": 936992,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "carrier": "alert",
+        "field": "visible_app_vs_screen",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "carrier": "share_sheet",
+        "field": "window_vs_additive",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "carrier": "share_sheet",
+        "field": "visible_app_vs_additive",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "carrier": "share_sheet",
+        "field": "window_vs_original",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "carrier": "share_sheet",
+        "field": "visible_app_vs_original",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "carrier": "share_sheet",
+        "field": "window_vs_screen",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "carrier": "share_sheet",
+        "field": "visible_app_vs_screen",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "carrier": "alert",
+        "field": "window_vs_additive",
+        "channels": 936992,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "carrier": "alert",
+        "field": "visible_app_vs_additive",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "carrier": "alert",
+        "field": "window_vs_original",
+        "channels": 936992,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "carrier": "alert",
+        "field": "visible_app_vs_original",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "carrier": "alert",
+        "field": "window_vs_screen",
+        "channels": 936992,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "carrier": "alert",
+        "field": "visible_app_vs_screen",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "carrier": "share_sheet",
+        "field": "window_vs_additive",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "carrier": "share_sheet",
+        "field": "visible_app_vs_additive",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "carrier": "share_sheet",
+        "field": "window_vs_original",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "carrier": "share_sheet",
+        "field": "visible_app_vs_original",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "carrier": "share_sheet",
+        "field": "window_vs_screen",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "carrier": "share_sheet",
+        "field": "visible_app_vs_screen",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "carrier": "alert",
+        "field": "window_vs_additive",
+        "channels": 936992,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "carrier": "alert",
+        "field": "visible_app_vs_additive",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "carrier": "alert",
+        "field": "window_vs_original",
+        "channels": 936992,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "carrier": "alert",
+        "field": "visible_app_vs_original",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "carrier": "alert",
+        "field": "window_vs_screen",
+        "channels": 936992,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "carrier": "alert",
+        "field": "visible_app_vs_screen",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      }
+    ],
+    "light_alert4_body_deep80_top_additive_and_screen_all_zero": true,
+    "light_alert4_actual_checks": [
+      {
+        "input": "fine_grid",
+        "field": "deep80_vs_additive",
+        "channels": 353280,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "deep80_vs_screen",
+        "channels": 353280,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "neutral_top_full_declared_display",
+        "channels": 27360,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "neutral_top_actual_window_intersection",
+        "channels": 22800,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "neutral_top_display_vs_screen",
+        "channels": 27360,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "neutral_top_window_vs_screen",
+        "channels": 22800,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "original_body_rois",
+        "roi": "left_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "original_body_rois",
+        "roi": "right_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "original_body_rois",
+        "roi": "left_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "original_body_rois",
+        "roi": "right_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "original_body_rois_vs_screen",
+        "roi": "left_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "original_body_rois_vs_screen",
+        "roi": "right_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "original_body_rois_vs_screen",
+        "roi": "left_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "original_body_rois_vs_screen",
+        "roi": "right_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "deep80_vs_additive",
+        "channels": 353280,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "deep80_vs_screen",
+        "channels": 353280,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "neutral_top_full_declared_display",
+        "channels": 27360,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "neutral_top_actual_window_intersection",
+        "channels": 22800,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "neutral_top_display_vs_screen",
+        "channels": 27360,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "neutral_top_window_vs_screen",
+        "channels": 22800,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "original_body_rois",
+        "roi": "left_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "original_body_rois",
+        "roi": "right_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "original_body_rois",
+        "roi": "left_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "original_body_rois",
+        "roi": "right_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "original_body_rois_vs_screen",
+        "roi": "left_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "original_body_rois_vs_screen",
+        "roi": "right_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "original_body_rois_vs_screen",
+        "roi": "left_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "original_body_rois_vs_screen",
+        "roi": "right_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "deep80_vs_additive",
+        "channels": 353280,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "deep80_vs_screen",
+        "channels": 353280,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "neutral_top_full_declared_display",
+        "channels": 27360,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "neutral_top_actual_window_intersection",
+        "channels": 22800,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "neutral_top_display_vs_screen",
+        "channels": 27360,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "neutral_top_window_vs_screen",
+        "channels": 22800,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "original_body_rois",
+        "roi": "left_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "original_body_rois",
+        "roi": "right_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "original_body_rois",
+        "roi": "left_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "original_body_rois",
+        "roi": "right_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "original_body_rois_vs_screen",
+        "roi": "left_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "original_body_rois_vs_screen",
+        "roi": "right_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "original_body_rois_vs_screen",
+        "roi": "left_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "original_body_rois_vs_screen",
+        "roi": "right_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "deep80_vs_additive",
+        "channels": 353280,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "deep80_vs_screen",
+        "channels": 353280,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "neutral_top_full_declared_display",
+        "channels": 27360,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "neutral_top_actual_window_intersection",
+        "channels": 22800,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "neutral_top_display_vs_screen",
+        "channels": 27360,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "neutral_top_window_vs_screen",
+        "channels": 22800,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "original_body_rois",
+        "roi": "left_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "original_body_rois",
+        "roi": "right_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "original_body_rois",
+        "roi": "left_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "original_body_rois",
+        "roi": "right_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "original_body_rois_vs_screen",
+        "roi": "left_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "original_body_rois_vs_screen",
+        "roi": "right_gutter",
+        "channels": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "original_body_rois_vs_screen",
+        "roi": "left_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "original_body_rois_vs_screen",
+        "roi": "right_gap",
+        "channels": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      }
+    ],
+    "light_sheet4_vs_existing_screen_sheet10_all_zero": true,
+    "light_sheet4_screen_sheet10_actual_checks": [
+      {
+        "input": "fine_grid",
+        "field": "window_vs_screen",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "fine_grid",
+        "field": "visible_app_vs_screen",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "window_vs_screen",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "color_stripes",
+        "field": "visible_app_vs_screen",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "window_vs_screen",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "tonal_blocks",
+        "field": "visible_app_vs_screen",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "window_vs_screen",
+        "channels": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "synthetic_landscape",
+        "field": "visible_app_vs_screen",
+        "channels": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      }
+    ],
+    "light_sheet4_additive_and_original_scope": "combined radius12to10; not strict unchanged control",
+    "new_probe_sheet10_2_all_zero": true,
+    "new_probe_sheet10_actual_checks": [
+      {
+        "input": "panel_probe_coordinate",
+        "field": "actual_window",
+        "samples": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_coordinate",
+        "field": "visible_app_screen",
+        "samples": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_coordinate",
+        "field": "deep80_rgba",
+        "samples": 1167336,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_shapes",
+        "field": "actual_window",
+        "samples": 4002000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_shapes",
+        "field": "visible_app_screen",
+        "samples": 3666000,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_shapes",
+        "field": "deep80_rgba",
+        "samples": 1167336,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      }
+    ],
+    "new_probe_alert2_deep80_body_vs_additive_all_zero": true,
+    "new_probe_alert2_actual_checks": [
+      {
+        "input": "panel_probe_coordinate",
+        "field": "deep80_rgba",
+        "samples": 353280,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_coordinate",
+        "field": "original_body_rois",
+        "roi": "left_gutter",
+        "samples": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_coordinate",
+        "field": "original_body_rois",
+        "roi": "right_gutter",
+        "samples": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_coordinate",
+        "field": "original_body_rois",
+        "roi": "left_gap",
+        "samples": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_coordinate",
+        "field": "original_body_rois",
+        "roi": "right_gap",
+        "samples": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_shapes",
+        "field": "deep80_rgba",
+        "samples": 353280,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_shapes",
+        "field": "original_body_rois",
+        "roi": "left_gutter",
+        "samples": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_shapes",
+        "field": "original_body_rois",
+        "roi": "right_gutter",
+        "samples": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_shapes",
+        "field": "original_body_rois",
+        "roi": "left_gap",
+        "samples": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      },
+      {
+        "input": "panel_probe_shapes",
+        "field": "original_body_rois",
+        "roi": "right_gap",
+        "samples": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "passed": true
+      }
+    ],
+    "new_probe_top_actual_checks": [
+      {
+        "input": "panel_probe_coordinate",
+        "neutral_top_rect_screen_px": [
+          280,
+          503,
+          470,
+          539
+        ],
+        "neutral_top_full_declared_display_rgba": {
+          "channels": 27360,
+          "changed_channels": 0,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "neutral_top_display_vs_screen_rgba": {
+          "channels": 27360,
+          "changed_channels": 0,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "neutral_top_window_vs_screen_rgba": {
+          "channels": 22800,
+          "changed_channels": 0,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "neutral_top_window_intersection_rect_screen_px": [
+          280,
+          509,
+          470,
+          539
+        ],
+        "neutral_top_window_intersection_rgba": {
+          "channels": 22800,
+          "changed_channels": 0,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "unavailable_window_rows_screen_px_half_open": [
+          503,
+          509
+        ],
+        "window_coverage_limit": "Prescribed6 exterior rows503..<509 fall outside actual Window; original coordinates retained and full segment separately checked in display, no synthetic Window padding.",
+        "first4_top_rows_window_rgba": {
+          "channels": 3040,
+          "changed_channels": 0,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "radius10_alert_vs_additive_window_rgba": {
+          "channels": 936992,
+          "changed_channels": 0,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      {
+        "input": "panel_probe_shapes",
+        "neutral_top_rect_screen_px": [
+          280,
+          503,
+          470,
+          539
+        ],
+        "neutral_top_full_declared_display_rgba": {
+          "channels": 27360,
+          "changed_channels": 0,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "neutral_top_display_vs_screen_rgba": {
+          "channels": 27360,
+          "changed_channels": 0,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "neutral_top_window_vs_screen_rgba": {
+          "channels": 22800,
+          "changed_channels": 0,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "neutral_top_window_intersection_rect_screen_px": [
+          280,
+          509,
+          470,
+          539
+        ],
+        "neutral_top_window_intersection_rgba": {
+          "channels": 22800,
+          "changed_channels": 0,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "unavailable_window_rows_screen_px_half_open": [
+          503,
+          509
+        ],
+        "window_coverage_limit": "Prescribed6 exterior rows503..<509 fall outside actual Window; original coordinates retained and full segment separately checked in display, no synthetic Window padding.",
+        "first4_top_rows_window_rgba": {
+          "channels": 3040,
+          "changed_channels": 0,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "radius10_alert_vs_additive_window_rgba": {
+          "channels": 936992,
+          "changed_channels": 0,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      }
+    ]
+  },
+  "primary124": [
+    {
+      "inset_pt": 0.25,
+      "pixels": 62,
+      "platforms": {
+        "body8": {
+          "mean_edge_rgb": [
+            248.61290322580646,
+            189.3548387096774,
+            227.48387096774192
+          ],
+          "min_edge_rgb": [
+            243.0,
+            184.0,
+            226.0
+          ],
+          "max_edge_rgb": [
+            252.0,
+            197.0,
+            229.0
+          ],
+          "mean_shoulder_rgb": [
+            227.28225806451613,
+            191.08467741935485,
+            245.7358870967742
+          ],
+          "mean_response_rgb": [
+            21.330645161290324,
+            -1.7298387096774193,
+            -18.25201612903226
+          ],
+          "channel255": [
+            0,
+            0,
+            0
+          ],
+          "channel0": [
+            0,
+            0,
+            0
+          ]
+        },
+        "additive": {
+          "mean_edge_rgb": [
+            255.0,
+            206.25806451612902,
+            244.40322580645162
+          ],
+          "min_edge_rgb": [
+            255.0,
+            201.0,
+            244.0
+          ],
+          "max_edge_rgb": [
+            255.0,
+            213.0,
+            245.0
+          ],
+          "mean_shoulder_rgb": [
+            227.28225806451613,
+            191.08467741935485,
+            245.7358870967742
+          ],
+          "mean_response_rgb": [
+            27.717741935483872,
+            15.173387096774194,
+            -1.3326612903225807
+          ],
+          "channel255": [
+            62,
+            0,
+            0
+          ],
+          "channel0": [
+            0,
+            0,
+            0
+          ]
+        },
+        "screen": {
+          "mean_edge_rgb": [
+            249.01612903225808,
+            193.7258064516129,
+            229.25806451612902
+          ],
+          "min_edge_rgb": [
+            244.0,
+            189.0,
+            228.0
+          ],
+          "max_edge_rgb": [
+            252.0,
+            200.0,
+            230.0
+          ],
+          "mean_shoulder_rgb": [
+            227.28225806451613,
+            191.08467741935485,
+            245.7358870967742
+          ],
+          "mean_response_rgb": [
+            21.733870967741936,
+            2.6411290322580645,
+            -16.47782258064516
+          ],
+          "channel255": [
+            0,
+            0,
+            0
+          ],
+          "channel0": [
+            0,
+            0,
+            0
+          ]
+        },
+        "candidate": {
+          "mean_edge_rgb": [
+            250.41935483870967,
+            208.16129032258064,
+            235.29032258064515
+          ],
+          "min_edge_rgb": [
+            247.0,
+            204.0,
+            235.0
+          ],
+          "max_edge_rgb": [
+            253.0,
+            214.0,
+            236.0
+          ],
+          "mean_shoulder_rgb": [
+            227.28225806451613,
+            191.08467741935485,
+            245.7358870967742
+          ],
+          "mean_response_rgb": [
+            23.137096774193548,
+            17.076612903225808,
+            -10.445564516129032
+          ],
+          "channel255": [
+            0,
+            0,
+            0
+          ],
+          "channel0": [
+            0,
+            0,
+            0
+          ]
+        },
+        "native": {
+          "mean_edge_rgb": [
+            252.5483870967742,
+            225.08064516129033,
+            248.56451612903226
+          ],
+          "min_edge_rgb": [
+            251.0,
+            223.0,
+            248.0
+          ],
+          "max_edge_rgb": [
+            253.0,
+            229.0,
+            249.0
+          ],
+          "mean_shoulder_rgb": [
+            229.60887096774192,
+            192.4415322580645,
+            247.73185483870967
+          ],
+          "mean_response_rgb": [
+            22.93951612903226,
+            32.63911290322581,
+            0.8326612903225806
+          ],
+          "channel255": [
+            0,
+            0,
+            0
+          ],
+          "channel0": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "candidate_vs_additive_shoulder_max_abs": 0.0,
+      "candidate_vs_screen_shoulder_max_abs": 0.0
+    },
+    {
+      "inset_pt": 0.75,
+      "pixels": 62,
+      "platforms": {
+        "body8": {
+          "mean_edge_rgb": [
+            242.5,
+            196.59677419354838,
+            226.16129032258064
+          ],
+          "min_edge_rgb": [
+            231.0,
+            185.0,
+            225.0
+          ],
+          "max_edge_rgb": [
+            251.0,
+            215.0,
+            227.0
+          ],
+          "mean_shoulder_rgb": [
+            227.28225806451613,
+            191.08467741935485,
+            245.7358870967742
+          ],
+          "mean_response_rgb": [
+            15.21774193548387,
+            5.512096774193548,
+            -19.574596774193548
+          ],
+          "channel255": [
+            0,
+            0,
+            0
+          ],
+          "channel0": [
+            0,
+            0,
+            0
+          ]
+        },
+        "additive": {
+          "mean_edge_rgb": [
+            250.98387096774192,
+            206.88709677419354,
+            236.43548387096774
+          ],
+          "min_edge_rgb": [
+            241.0,
+            195.0,
+            235.0
+          ],
+          "max_edge_rgb": [
+            255.0,
+            225.0,
+            238.0
+          ],
+          "mean_shoulder_rgb": [
+            227.28225806451613,
+            191.08467741935485,
+            245.7358870967742
+          ],
+          "mean_response_rgb": [
+            23.701612903225808,
+            15.80241935483871,
+            -9.300403225806452
+          ],
+          "channel255": [
+            30,
+            0,
+            0
+          ],
+          "channel0": [
+            0,
+            0,
+            0
+          ]
+        },
+        "screen": {
+          "mean_edge_rgb": [
+            242.9516129032258,
+            198.9516129032258,
+            227.33870967741936
+          ],
+          "min_edge_rgb": [
+            232.0,
+            188.0,
+            226.0
+          ],
+          "max_edge_rgb": [
+            251.0,
+            216.0,
+            228.0
+          ],
+          "mean_shoulder_rgb": [
+            227.28225806451613,
+            191.08467741935485,
+            245.7358870967742
+          ],
+          "mean_response_rgb": [
+            15.669354838709678,
+            7.866935483870968,
+            -18.39717741935484
+          ],
+          "channel255": [
+            0,
+            0,
+            0
+          ],
+          "channel0": [
+            0,
+            0,
+            0
+          ]
+        },
+        "candidate": {
+          "mean_edge_rgb": [
+            245.08064516129033,
+            208.0483870967742,
+            232.01612903225808
+          ],
+          "min_edge_rgb": [
+            237.0,
+            197.0,
+            232.0
+          ],
+          "max_edge_rgb": [
+            252.0,
+            224.0,
+            233.0
+          ],
+          "mean_shoulder_rgb": [
+            227.28225806451613,
+            191.08467741935485,
+            245.7358870967742
+          ],
+          "mean_response_rgb": [
+            17.798387096774192,
+            16.963709677419356,
+            -13.71975806451613
+          ],
+          "channel255": [
+            0,
+            0,
+            0
+          ],
+          "channel0": [
+            0,
+            0,
+            0
+          ]
+        },
+        "native": {
+          "mean_edge_rgb": [
+            248.90322580645162,
+            213.09677419354838,
+            241.56451612903226
+          ],
+          "min_edge_rgb": [
+            243.0,
+            207.0,
+            240.0
+          ],
+          "max_edge_rgb": [
+            252.0,
+            224.0,
+            242.0
+          ],
+          "mean_shoulder_rgb": [
+            229.60887096774192,
+            192.4415322580645,
+            247.73185483870967
+          ],
+          "mean_response_rgb": [
+            19.294354838709676,
+            20.655241935483872,
+            -6.167338709677419
+          ],
+          "channel255": [
+            0,
+            0,
+            0
+          ],
+          "channel0": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "candidate_vs_additive_shoulder_max_abs": 0.0,
+      "candidate_vs_screen_shoulder_max_abs": 0.0
+    }
+  ],
+  "neutral_peaks": [
+    {
+      "segment": "neutral_top",
+      "platform": "candidate",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        247.55789473684212,
+        247.55789473684212,
+        247.55789473684212
+      ],
+      "peak_luma": 247.5578947368421,
+      "shoulder_8_12_luma": 223.0,
+      "peak_minus_shoulder_luma": 24.557894736842087,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.1889458808751177,
+        1.0362965838509322
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_top",
+      "platform": "native",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        237.5421052631579,
+        248.03684210526316,
+        248.79473684210527
+      ],
+      "peak_luma": 245.86038105263157,
+      "shoulder_8_12_luma": 222.91165828947368,
+      "peak_minus_shoulder_luma": 22.94872276315789,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.19433925990341439,
+        0.9884522206104766
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_top",
+      "platform": "body8",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        254.65263157894736,
+        254.65263157894736,
+        254.65263157894736
+      ],
+      "peak_luma": 254.65263157894736,
+      "shoulder_8_12_luma": 223.0,
+      "peak_minus_shoulder_luma": 31.652631578947364,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.17649359538476583,
+        0.9054736024844722
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_top",
+      "platform": "additive",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        247.55789473684212,
+        247.55789473684212,
+        247.55789473684212
+      ],
+      "peak_luma": 247.5578947368421,
+      "shoulder_8_12_luma": 223.0,
+      "peak_minus_shoulder_luma": 24.557894736842087,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.1889458808751177,
+        1.0362965838509322
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_top",
+      "platform": "screen",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        247.55789473684212,
+        247.55789473684212,
+        247.55789473684212
+      ],
+      "peak_luma": 247.5578947368421,
+      "shoulder_8_12_luma": 223.0,
+      "peak_minus_shoulder_luma": 24.557894736842087,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.1889458808751177,
+        1.0362965838509322
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_bottom",
+      "platform": "candidate",
+      "diagnostic_only": true,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        247.55789473684212,
+        247.55789473684212,
+        247.55789473684212
+      ],
+      "peak_luma": 247.5578947368421,
+      "shoulder_8_12_luma": 215.4496253947368,
+      "peak_minus_shoulder_luma": 32.108269342105274,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.17097926989909557,
+        1.175521270865684
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_bottom",
+      "platform": "native",
+      "diagnostic_only": true,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        244.90526315789472,
+        245.26842105263157,
+        245.2578947368421
+      ],
+      "peak_luma": 245.1904536842105,
+      "shoulder_8_12_luma": 231.6627975,
+      "peak_minus_shoulder_luma": 13.527656184210485,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 1,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.20515148273910105,
+        0.5926257025130499
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_bottom",
+      "platform": "body8",
+      "diagnostic_only": true,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        254.65263157894736,
+        254.65263157894736,
+        254.65263157894736
+      ],
+      "peak_luma": 254.65263157894736,
+      "shoulder_8_12_luma": 215.4496253947368,
+      "peak_minus_shoulder_luma": 39.20300618421055,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.1598172191507541,
+        1.0446982894992238
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_bottom",
+      "platform": "additive",
+      "diagnostic_only": true,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        247.55789473684212,
+        247.55789473684212,
+        247.55789473684212
+      ],
+      "peak_luma": 247.5578947368421,
+      "shoulder_8_12_luma": 215.4496253947368,
+      "peak_minus_shoulder_luma": 32.108269342105274,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.17097926989909557,
+        1.175521270865684
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_bottom",
+      "platform": "screen",
+      "diagnostic_only": true,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        247.55789473684212,
+        247.55789473684212,
+        247.55789473684212
+      ],
+      "peak_luma": 247.5578947368421,
+      "shoulder_8_12_luma": 215.4496253947368,
+      "peak_minus_shoulder_luma": 32.108269342105274,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.17097926989909557,
+        1.175521270865684
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_left",
+      "platform": "candidate",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        238.66666666666666,
+        232.08333333333334,
+        236.5
+      ],
+      "peak_luma": 233.80183333333332,
+      "shoulder_8_12_luma": 222.94785,
+      "peak_minus_shoulder_luma": 10.853983333333332,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.21873918753636162,
+        1.036476745892914
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_left",
+      "platform": "native",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        247.83333333333334,
+        236.5,
+        245.66666666666666
+      ],
+      "peak_luma": 239.57129999999998,
+      "shoulder_8_12_luma": 223.5696,
+      "peak_minus_shoulder_luma": 16.00169999999997,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.20999643006068902,
+        0.8754295090698089
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_left",
+      "platform": "body8",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 1.75,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        223.0,
+        223.0,
+        223.0
+      ],
+      "peak_luma": 223.0,
+      "shoulder_8_12_luma": 222.94785,
+      "peak_minus_shoulder_luma": 0.05215000000001169,
+      "minimum8_count_contrast_gate": false,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        1.640625000000067,
+        2.4687499999997615
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_left",
+      "platform": "additive",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        245.66666666666666,
+        234.75,
+        241.83333333333334
+      ],
+      "peak_luma": 237.58229999999998,
+      "shoulder_8_12_luma": 222.94785,
+      "peak_minus_shoulder_luma": 14.634449999999987,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.20961007282879762,
+        0.9542600696946978
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_left",
+      "platform": "screen",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.75,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        225.58333333333334,
+        223.08333333333334,
+        225.0
+      ],
+      "peak_luma": 223.75321666666667,
+      "shoulder_8_12_luma": 222.94785,
+      "peak_minus_shoulder_luma": 0.8053666666666857,
+      "minimum8_count_contrast_gate": false,
+      "halfheight_support_pixels": 1,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.6039414822875053,
+        1.1591063022791317
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_right",
+      "platform": "candidate",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        236.5,
+        236.0,
+        235.66666666666666
+      ],
+      "peak_luma": 236.0822333333333,
+      "shoulder_8_12_luma": 223.0,
+      "peak_minus_shoulder_luma": 13.082233333333306,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.21328607612367156,
+        0.9214859554649998
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_right",
+      "platform": "native",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        246.0,
+        243.58333333333334,
+        241.5
+      ],
+      "peak_luma": 243.9467,
+      "shoulder_8_12_luma": 223.95127916666667,
+      "peak_minus_shoulder_luma": 19.995420833333327,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.2020075959771876,
+        0.7999847295443325
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_right",
+      "platform": "body8",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 3.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        223.0,
+        223.0,
+        223.0
+      ],
+      "peak_luma": 223.0,
+      "shoulder_8_12_luma": 223.0,
+      "peak_minus_shoulder_luma": 0.0,
+      "minimum8_count_contrast_gate": false,
+      "halfheight_support_pixels": 1,
+      "bracketed": false,
+      "linear_crossings_pt_diagnostic": [
+        null,
+        null
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_right",
+      "platform": "additive",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        240.83333333333334,
+        239.83333333333334,
+        239.41666666666666
+      ],
+      "peak_luma": 240.01585,
+      "shoulder_8_12_luma": 223.0,
+      "peak_minus_shoulder_luma": 17.01585,
+      "minimum8_count_contrast_gate": true,
+      "halfheight_support_pixels": 2,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.20426626214779525,
+        0.866350231806931
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    },
+    {
+      "segment": "neutral_right",
+      "platform": "screen",
+      "diagnostic_only": false,
+      "raw_argmax_inset_pt": 0.25,
+      "minimum_sampling_uncertainty_pt": 0.25,
+      "peak_rgb": [
+        225.5,
+        224.58333333333334,
+        224.0
+      ],
+      "peak_luma": 224.7361,
+      "shoulder_8_12_luma": 223.0,
+      "peak_minus_shoulder_luma": 1.7360999999999933,
+      "minimum8_count_contrast_gate": false,
+      "halfheight_support_pixels": 1,
+      "bracketed": true,
+      "linear_crossings_pt_diagnostic": [
+        0.24441668671312294,
+        0.7176825545059511
+      ],
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved_fewer_than3pixels_or_missing_crossing"
+    }
+  ],
+  "history_inward_clipping_vs_each_reference": [
+    {
+      "reference": "additive",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0,
+      "sample_policy": "fixed inward samples; overlapping tracks retained"
+    },
+    {
+      "reference": "additive",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0,
+      "sample_policy": "fixed inward samples; overlapping tracks retained"
+    },
+    {
+      "reference": "original",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0,
+      "sample_policy": "fixed inward samples; overlapping tracks retained"
+    },
+    {
+      "reference": "original",
+      "endpoint": "255",
+      "channels": 2548,
+      "rows_with_new_endpoint": 219,
+      "sample_policy": "fixed inward samples; overlapping tracks retained"
+    },
+    {
+      "reference": "native",
+      "endpoint": "0",
+      "channels": 110,
+      "rows_with_new_endpoint": 99,
+      "sample_policy": "fixed inward samples; overlapping tracks retained"
+    },
+    {
+      "reference": "native",
+      "endpoint": "255",
+      "channels": 5556,
+      "rows_with_new_endpoint": 502,
+      "sample_policy": "fixed inward samples; overlapping tracks retained"
+    },
+    {
+      "reference": "screen",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0,
+      "sample_policy": "fixed inward samples; overlapping tracks retained"
+    },
+    {
+      "reference": "screen",
+      "endpoint": "255",
+      "channels": 1,
+      "rows_with_new_endpoint": 1,
+      "sample_policy": "fixed inward samples; overlapping tracks retained"
+    }
+  ],
+  "history_inward_clipping_by_scene": [
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "endpoint": "255",
+      "channels": 2548,
+      "rows_with_new_endpoint": 219
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "native",
+      "endpoint": "0",
+      "channels": 54,
+      "rows_with_new_endpoint": 49
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "native",
+      "endpoint": "0",
+      "channels": 56,
+      "rows_with_new_endpoint": 50
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "native",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "native",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "native",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "native",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "native",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "native",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "native",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "native",
+      "endpoint": "255",
+      "channels": 5556,
+      "rows_with_new_endpoint": 502
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "native",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "native",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "native",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "native",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "native",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "native",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "endpoint": "0",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "endpoint": "255",
+      "channels": 1,
+      "rows_with_new_endpoint": 1
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "endpoint": "255",
+      "channels": 0,
+      "rows_with_new_endpoint": 0
+    }
+  ],
+  "history_new255_vs_screen_rows": [
+    {
+      "scene": "color_stripes-light",
+      "track": "straight",
+      "edge": "right",
+      "distance_pt": 2.25,
+      "clear_pixels": 62,
+      "new0_vs_additive_channels": [
+        0,
+        0,
+        0
+      ],
+      "new255_vs_additive_channels": [
+        0,
+        0,
+        0
+      ],
+      "new0_vs_original_channels": [
+        0,
+        0,
+        0
+      ],
+      "new255_vs_original_channels": [
+        62,
+        0,
+        2
+      ],
+      "new0_vs_native_channels": [
+        0,
+        0,
+        0
+      ],
+      "new255_vs_native_channels": [
+        62,
+        0,
+        2
+      ],
+      "new0_vs_screen_channels": [
+        0,
+        0,
+        0
+      ],
+      "new255_vs_screen_channels": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "new_probe_clipping": [
+    {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "track": "corner",
+      "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+      "new255_channels_vs_chosen_reference": 0,
+      "new0_channels_vs_chosen_reference": 0,
+      "rows_with_new255_vs_chosen_reference": []
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "track": "straight",
+      "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+      "new255_channels_vs_chosen_reference": 0,
+      "new0_channels_vs_chosen_reference": 0,
+      "rows_with_new255_vs_chosen_reference": []
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "track": "corner",
+      "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+      "new255_channels_vs_chosen_reference": 0,
+      "new0_channels_vs_chosen_reference": 0,
+      "rows_with_new255_vs_chosen_reference": []
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "track": "straight",
+      "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+      "new255_channels_vs_chosen_reference": 0,
+      "new0_channels_vs_chosen_reference": 0,
+      "rows_with_new255_vs_chosen_reference": []
+    },
+    {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "track": "corner",
+      "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+      "new255_channels_vs_chosen_reference": 0,
+      "new0_channels_vs_chosen_reference": 0,
+      "rows_with_new255_vs_chosen_reference": []
+    },
+    {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "track": "straight",
+      "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+      "new255_channels_vs_chosen_reference": 0,
+      "new0_channels_vs_chosen_reference": 0,
+      "rows_with_new255_vs_chosen_reference": []
+    },
+    {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "track": "corner",
+      "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+      "new255_channels_vs_chosen_reference": 0,
+      "new0_channels_vs_chosen_reference": 0,
+      "rows_with_new255_vs_chosen_reference": []
+    },
+    {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "track": "straight",
+      "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+      "new255_channels_vs_chosen_reference": 0,
+      "new0_channels_vs_chosen_reference": 0,
+      "rows_with_new255_vs_chosen_reference": []
+    }
+  ],
+  "new_probe_whole_fixed_scan_counts": [
+    {
+      "reference": "additive",
+      "track": "corner",
+      "field": "d1",
+      "improved": 6,
+      "regressed": 39,
+      "unchanged": 3
+    },
+    {
+      "reference": "additive",
+      "track": "corner",
+      "field": "d2",
+      "improved": 6,
+      "regressed": 40,
+      "unchanged": 2
+    },
+    {
+      "reference": "additive",
+      "track": "corner",
+      "field": "raw",
+      "improved": 22,
+      "regressed": 22,
+      "unchanged": 4
+    },
+    {
+      "reference": "additive",
+      "track": "corner",
+      "field": "smooth",
+      "improved": 15,
+      "regressed": 31,
+      "unchanged": 2
+    },
+    {
+      "reference": "body8",
+      "track": "corner",
+      "field": "d1",
+      "improved": 39,
+      "regressed": 9,
+      "unchanged": 0
+    },
+    {
+      "reference": "body8",
+      "track": "corner",
+      "field": "d2",
+      "improved": 34,
+      "regressed": 14,
+      "unchanged": 0
+    },
+    {
+      "reference": "body8",
+      "track": "corner",
+      "field": "raw",
+      "improved": 31,
+      "regressed": 15,
+      "unchanged": 2
+    },
+    {
+      "reference": "body8",
+      "track": "corner",
+      "field": "smooth",
+      "improved": 38,
+      "regressed": 10,
+      "unchanged": 0
+    },
+    {
+      "reference": "screen",
+      "track": "corner",
+      "field": "d1",
+      "improved": 46,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    {
+      "reference": "screen",
+      "track": "corner",
+      "field": "d2",
+      "improved": 42,
+      "regressed": 6,
+      "unchanged": 0
+    },
+    {
+      "reference": "screen",
+      "track": "corner",
+      "field": "raw",
+      "improved": 36,
+      "regressed": 11,
+      "unchanged": 1
+    },
+    {
+      "reference": "screen",
+      "track": "corner",
+      "field": "smooth",
+      "improved": 42,
+      "regressed": 6,
+      "unchanged": 0
+    }
+  ],
+  "new_probe_whole_fixed_scan_by_input": [
+    {
+      "input": "panel_probe_coordinate",
+      "reference": "additive",
+      "track": "corner",
+      "field": "d1",
+      "improved": 4,
+      "regressed": 20,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "reference": "additive",
+      "track": "corner",
+      "field": "d2",
+      "improved": 4,
+      "regressed": 20,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "reference": "additive",
+      "track": "corner",
+      "field": "raw",
+      "improved": 16,
+      "regressed": 8,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "reference": "additive",
+      "track": "corner",
+      "field": "smooth",
+      "improved": 9,
+      "regressed": 15,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "reference": "body8",
+      "track": "corner",
+      "field": "d1",
+      "improved": 20,
+      "regressed": 4,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "reference": "body8",
+      "track": "corner",
+      "field": "d2",
+      "improved": 18,
+      "regressed": 6,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "reference": "body8",
+      "track": "corner",
+      "field": "raw",
+      "improved": 19,
+      "regressed": 3,
+      "unchanged": 2
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "reference": "body8",
+      "track": "corner",
+      "field": "smooth",
+      "improved": 22,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "reference": "screen",
+      "track": "corner",
+      "field": "d1",
+      "improved": 23,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "reference": "screen",
+      "track": "corner",
+      "field": "d2",
+      "improved": 21,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "reference": "screen",
+      "track": "corner",
+      "field": "raw",
+      "improved": 21,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_coordinate",
+      "reference": "screen",
+      "track": "corner",
+      "field": "smooth",
+      "improved": 23,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_shapes",
+      "reference": "additive",
+      "track": "corner",
+      "field": "d1",
+      "improved": 2,
+      "regressed": 19,
+      "unchanged": 3
+    },
+    {
+      "input": "panel_probe_shapes",
+      "reference": "additive",
+      "track": "corner",
+      "field": "d2",
+      "improved": 2,
+      "regressed": 20,
+      "unchanged": 2
+    },
+    {
+      "input": "panel_probe_shapes",
+      "reference": "additive",
+      "track": "corner",
+      "field": "raw",
+      "improved": 6,
+      "regressed": 14,
+      "unchanged": 4
+    },
+    {
+      "input": "panel_probe_shapes",
+      "reference": "additive",
+      "track": "corner",
+      "field": "smooth",
+      "improved": 6,
+      "regressed": 16,
+      "unchanged": 2
+    },
+    {
+      "input": "panel_probe_shapes",
+      "reference": "body8",
+      "track": "corner",
+      "field": "d1",
+      "improved": 19,
+      "regressed": 5,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_shapes",
+      "reference": "body8",
+      "track": "corner",
+      "field": "d2",
+      "improved": 16,
+      "regressed": 8,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_shapes",
+      "reference": "body8",
+      "track": "corner",
+      "field": "raw",
+      "improved": 12,
+      "regressed": 12,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_shapes",
+      "reference": "body8",
+      "track": "corner",
+      "field": "smooth",
+      "improved": 16,
+      "regressed": 8,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_shapes",
+      "reference": "screen",
+      "track": "corner",
+      "field": "d1",
+      "improved": 23,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_shapes",
+      "reference": "screen",
+      "track": "corner",
+      "field": "d2",
+      "improved": 21,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "input": "panel_probe_shapes",
+      "reference": "screen",
+      "track": "corner",
+      "field": "raw",
+      "improved": 15,
+      "regressed": 8,
+      "unchanged": 1
+    },
+    {
+      "input": "panel_probe_shapes",
+      "reference": "screen",
+      "track": "corner",
+      "field": "smooth",
+      "improved": 19,
+      "regressed": 5,
+      "unchanged": 0
+    }
+  ],
+  "history_raw_rmse_counts": [
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "corner_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 24
+      }
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "scope": "combined blur+rim+compositing vs original factory",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "corner_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 24
+      }
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "corner_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 24
+      }
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 3,
+        "regressed": 1,
+        "unchanged": 0
+      },
+      "corner_rgb": {
+        "improved": 21,
+        "regressed": 3,
+        "unchanged": 0
+      }
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "scope": "combined blur+rim+compositing vs original factory",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 4,
+        "unchanged": 0
+      },
+      "straight_rgb": {
+        "improved": 3,
+        "regressed": 1,
+        "unchanged": 0
+      },
+      "corner_rgb": {
+        "improved": 11,
+        "regressed": 13,
+        "unchanged": 0
+      }
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 4,
+        "regressed": 0,
+        "unchanged": 0
+      },
+      "corner_rgb": {
+        "improved": 24,
+        "regressed": 0,
+        "unchanged": 0
+      }
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "corner_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 24
+      }
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "scope": "combined blur+rim+compositing vs original factory",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "corner_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 24
+      }
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "corner_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 24
+      }
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 3,
+        "regressed": 1,
+        "unchanged": 0
+      },
+      "corner_rgb": {
+        "improved": 10,
+        "regressed": 14,
+        "unchanged": 0
+      }
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "scope": "combined blur+rim+compositing vs original factory",
+      "body_rgb": {
+        "improved": 1,
+        "regressed": 3,
+        "unchanged": 0
+      },
+      "straight_rgb": {
+        "improved": 4,
+        "regressed": 0,
+        "unchanged": 0
+      },
+      "corner_rgb": {
+        "improved": 24,
+        "regressed": 0,
+        "unchanged": 0
+      }
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 2,
+        "regressed": 2,
+        "unchanged": 0
+      },
+      "corner_rgb": {
+        "improved": 12,
+        "regressed": 12,
+        "unchanged": 0
+      }
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "corner_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 24
+      }
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "scope": "combined blur+rim+compositing vs original factory",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "corner_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 24
+      }
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "corner_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 24
+      }
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 4,
+        "unchanged": 0
+      },
+      "corner_rgb": {
+        "improved": 1,
+        "regressed": 23,
+        "unchanged": 0
+      }
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "scope": "combined blur+rim+compositing vs original factory",
+      "body_rgb": {
+        "improved": 1,
+        "regressed": 3,
+        "unchanged": 0
+      },
+      "straight_rgb": {
+        "improved": 4,
+        "regressed": 0,
+        "unchanged": 0
+      },
+      "corner_rgb": {
+        "improved": 24,
+        "regressed": 0,
+        "unchanged": 0
+      }
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 4,
+        "regressed": 0,
+        "unchanged": 0
+      },
+      "corner_rgb": {
+        "improved": 24,
+        "regressed": 0,
+        "unchanged": 0
+      }
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "corner_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 24
+      }
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "scope": "combined blur+rim+compositing vs original factory",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "corner_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 24
+      }
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "corner_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 24
+      }
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 1,
+        "regressed": 3,
+        "unchanged": 0
+      },
+      "corner_rgb": {
+        "improved": 13,
+        "regressed": 9,
+        "unchanged": 2
+      }
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "scope": "combined blur+rim+compositing vs original factory",
+      "body_rgb": {
+        "improved": 2,
+        "regressed": 2,
+        "unchanged": 0
+      },
+      "straight_rgb": {
+        "improved": 3,
+        "regressed": 1,
+        "unchanged": 0
+      },
+      "corner_rgb": {
+        "improved": 23,
+        "regressed": 1,
+        "unchanged": 0
+      }
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "scope": "isolated incremental compositing",
+      "body_rgb": {
+        "improved": 0,
+        "regressed": 0,
+        "unchanged": 4
+      },
+      "straight_rgb": {
+        "improved": 3,
+        "regressed": 1,
+        "unchanged": 0
+      },
+      "corner_rgb": {
+        "improved": 15,
+        "regressed": 9,
+        "unchanged": 0
+      }
+    }
+  ],
+  "history_straight_all_fields_by_background": [
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 2,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 4,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 2,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 1,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 1,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 4,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 1,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 2,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 1,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "field": "d1_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "field": "d2_rgb_rmse_inward_0_20",
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "field": "rgb_rmse_inward_0_20",
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    }
+  ],
+  "history_corner16_whole_fixed_scan_counts": [
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "field": "d1",
+      "improved": 17,
+      "regressed": 7,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "field": "d2",
+      "improved": 15,
+      "regressed": 9,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "field": "raw",
+      "improved": 22,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "field": "smooth",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "field": "raw",
+      "improved": 3,
+      "regressed": 21,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "field": "smooth",
+      "improved": 3,
+      "regressed": 21,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "field": "raw",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "field": "smooth",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "field": "d1",
+      "improved": 2,
+      "regressed": 22,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "field": "d2",
+      "improved": 2,
+      "regressed": 22,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "field": "raw",
+      "improved": 13,
+      "regressed": 9,
+      "unchanged": 2
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "field": "smooth",
+      "improved": 13,
+      "regressed": 11,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "field": "raw",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "field": "smooth",
+      "improved": 21,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "field": "d1",
+      "improved": 21,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "field": "d2",
+      "improved": 19,
+      "regressed": 5,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "field": "raw",
+      "improved": 7,
+      "regressed": 16,
+      "unchanged": 1
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "field": "smooth",
+      "improved": 8,
+      "regressed": 16,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "field": "d1",
+      "improved": 4,
+      "regressed": 19,
+      "unchanged": 1
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "field": "d2",
+      "improved": 7,
+      "regressed": 16,
+      "unchanged": 1
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "field": "raw",
+      "improved": 1,
+      "regressed": 20,
+      "unchanged": 3
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "field": "smooth",
+      "improved": 1,
+      "regressed": 23,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "field": "raw",
+      "improved": 23,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "field": "smooth",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "field": "raw",
+      "improved": 23,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "field": "smooth",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "field": "d1",
+      "improved": 5,
+      "regressed": 15,
+      "unchanged": 4
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "field": "d2",
+      "improved": 5,
+      "regressed": 17,
+      "unchanged": 2
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "field": "raw",
+      "improved": 13,
+      "regressed": 9,
+      "unchanged": 2
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "field": "smooth",
+      "improved": 7,
+      "regressed": 15,
+      "unchanged": 2
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "field": "raw",
+      "improved": 17,
+      "regressed": 7,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "field": "smooth",
+      "improved": 15,
+      "regressed": 9,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "field": "d1",
+      "improved": 19,
+      "regressed": 3,
+      "unchanged": 2
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "field": "d2",
+      "improved": 22,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "field": "raw",
+      "improved": 12,
+      "regressed": 12,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "field": "smooth",
+      "improved": 15,
+      "regressed": 9,
+      "unchanged": 0
+    }
+  ],
+  "history_corner16_both_scopes_counts": [
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 17,
+      "regressed": 7,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 15,
+      "regressed": 9,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 22,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 17,
+      "regressed": 7,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 15,
+      "regressed": 9,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 22,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 3,
+      "regressed": 21,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 3,
+      "regressed": 21,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 3,
+      "regressed": 21,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 3,
+      "regressed": 21,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "color_stripes-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 2,
+      "regressed": 22,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 2,
+      "regressed": 22,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 13,
+      "regressed": 9,
+      "unchanged": 2
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 13,
+      "regressed": 11,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 2,
+      "regressed": 22,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 2,
+      "regressed": 22,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 13,
+      "regressed": 9,
+      "unchanged": 2
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 13,
+      "regressed": 11,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 21,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 21,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 21,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 19,
+      "regressed": 5,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 7,
+      "regressed": 16,
+      "unchanged": 1
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 8,
+      "regressed": 16,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 21,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 19,
+      "regressed": 5,
+      "unchanged": 0
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 7,
+      "regressed": 16,
+      "unchanged": 1
+    },
+    {
+      "scene": "fine_grid-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 8,
+      "regressed": 16,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 4,
+      "regressed": 19,
+      "unchanged": 1
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 7,
+      "regressed": 16,
+      "unchanged": 1
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 1,
+      "regressed": 20,
+      "unchanged": 3
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 1,
+      "regressed": 23,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 4,
+      "regressed": 19,
+      "unchanged": 1
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 7,
+      "regressed": 16,
+      "unchanged": 1
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 1,
+      "regressed": 20,
+      "unchanged": 3
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 1,
+      "regressed": 23,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 23,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 23,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 23,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 23,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    {
+      "scene": "synthetic_landscape-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-dark",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 5,
+      "regressed": 15,
+      "unchanged": 4
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 5,
+      "regressed": 17,
+      "unchanged": 2
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 13,
+      "regressed": 9,
+      "unchanged": 2
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 7,
+      "regressed": 15,
+      "unchanged": 2
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 5,
+      "regressed": 15,
+      "unchanged": 4
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 5,
+      "regressed": 17,
+      "unchanged": 2
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 13,
+      "regressed": 9,
+      "unchanged": 2
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "additive",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 7,
+      "regressed": 15,
+      "unchanged": 2
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 17,
+      "regressed": 7,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 15,
+      "regressed": 9,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 17,
+      "regressed": 7,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "original",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 15,
+      "regressed": 9,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d1",
+      "improved": 19,
+      "regressed": 3,
+      "unchanged": 2
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "d2",
+      "improved": 22,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "raw",
+      "improved": 12,
+      "regressed": 12,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "scope": "inward_only",
+      "field": "smooth",
+      "improved": 15,
+      "regressed": 9,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d1",
+      "improved": 19,
+      "regressed": 3,
+      "unchanged": 2
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "d2",
+      "improved": 22,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "raw",
+      "improved": 12,
+      "regressed": 12,
+      "unchanged": 0
+    },
+    {
+      "scene": "tonal_blocks-light",
+      "reference": "screen",
+      "scope": "whole_fixed_scan",
+      "field": "smooth",
+      "improved": 15,
+      "regressed": 9,
+      "unchanged": 0
+    }
+  ],
+  "all_regressions": "budget-regressions.json",
+  "limits": [
+    "No new noise/heldout inputs or parameter fitting.",
+    "Encoded working RGB curves do not identify physical thickness or linear-light transport.",
+    "Raw neutral native and candidate FWHM have only 2 half-height pixels; unchanged minimum3 gate unresolved.",
+    "No registration, warp, ROI movement or mask relaxation.",
+    "Top exterior six Window rows are unavailable and separately represented by full-display samples.",
+    "History has no body8-only captures.",
+    "Mean error counts are not acceptance percentages and cannot establish frame-by-frame dynamic parity."
+  ]
+}

@@ -1,0 +1,726 @@
+[
+  {
+    "pair": "ic01_circle_top",
+    "power": 1,
+    "region": "base",
+    "native_comparison": {
+      "nominal_pixels": 47286,
+      "mean_signed_RGB": [
+        -0.02905722624032483,
+        -0.07748593664086621,
+        -0.017087510045256524
+      ],
+      "mean_abs_RGB": 0.14989637524848792,
+      "max_abs_channel": 91.0
+    },
+    "android_response_abs_mean": 0.1635438255156565,
+    "native_response_abs_mean": 0.021965627599430416
+  },
+  {
+    "pair": "ic01_circle_top",
+    "power": 1,
+    "region": "base_depth0_4",
+    "native_comparison": {
+      "nominal_pixels": 5852,
+      "mean_signed_RGB": [
+        0.04425837320574163,
+        -0.19958988380041012,
+        0.050580997949419004
+      ],
+      "mean_abs_RGB": 0.5058669400774664,
+      "max_abs_channel": 91.0
+    },
+    "android_response_abs_mean": 0.617053998632946,
+    "native_response_abs_mean": 0.11312371838687628
+  },
+  {
+    "pair": "ic01_circle_top",
+    "power": 1,
+    "region": "base_depth_ge32",
+    "native_comparison": {
+      "nominal_pixels": 16778,
+      "mean_signed_RGB": [
+        -0.04315174633448564,
+        -0.02139706758850876,
+        -0.03969483847896054
+      ],
+      "mean_abs_RGB": 0.05870783168434855,
+      "max_abs_channel": 2.0
+    },
+    "android_response_abs_mean": 0.05870783168434855,
+    "native_response_abs_mean": 0.0
+  },
+  {
+    "pair": "ic01_circle_top",
+    "power": 1,
+    "region": "source_disk128",
+    "native_comparison": {
+      "nominal_pixels": 51433,
+      "mean_signed_RGB": [
+        -0.032449983473645326,
+        -0.08502323411039604,
+        -0.02908638422802481
+      ],
+      "mean_abs_RGB": 0.1984588364150124,
+      "max_abs_channel": 91.0
+    },
+    "android_response_abs_mean": 1.1466114491992818,
+    "native_response_abs_mean": 0.9686323307344831
+  },
+  {
+    "pair": "ic01_circle_top",
+    "power": 2,
+    "region": "base",
+    "native_comparison": {
+      "nominal_pixels": 47286,
+      "mean_signed_RGB": [
+        -0.06885758998435054,
+        -0.10375163896290657,
+        -0.05124138222729772
+      ],
+      "mean_abs_RGB": 0.29710696612105064,
+      "max_abs_channel": 91.0
+    },
+    "android_response_abs_mean": 0.3139688984759407,
+    "native_response_abs_mean": 0.021965627599430416
+  },
+  {
+    "pair": "ic01_circle_top",
+    "power": 2,
+    "region": "base_depth0_4",
+    "native_comparison": {
+      "nominal_pixels": 5852,
+      "mean_signed_RGB": [
+        0.04254955570745044,
+        -0.20352016404647982,
+        0.05177717019822283
+      ],
+      "mean_abs_RGB": 0.5263727500569606,
+      "max_abs_channel": 91.0
+    },
+    "android_response_abs_mean": 0.6375598086124402,
+    "native_response_abs_mean": 0.11312371838687628
+  },
+  {
+    "pair": "ic01_circle_top",
+    "power": 2,
+    "region": "base_depth_ge32",
+    "native_comparison": {
+      "nominal_pixels": 16778,
+      "mean_signed_RGB": [
+        -0.04315174633448564,
+        -0.02139706758850876,
+        -0.03969483847896054
+      ],
+      "mean_abs_RGB": 0.05870783168434855,
+      "max_abs_channel": 2.0
+    },
+    "android_response_abs_mean": 0.05870783168434855,
+    "native_response_abs_mean": 0.0
+  },
+  {
+    "pair": "ic01_circle_top",
+    "power": 2,
+    "region": "source_disk128",
+    "native_comparison": {
+      "nominal_pixels": 51433,
+      "mean_signed_RGB": [
+        -0.06849687943538195,
+        -0.10979332335271129,
+        -0.060797542433845976
+      ],
+      "mean_abs_RGB": 0.33429250999682436,
+      "max_abs_channel": 91.0
+    },
+    "android_response_abs_mean": 1.2854004238523904,
+    "native_response_abs_mean": 0.9686323307344831
+  },
+  {
+    "pair": "ic01_circle_top",
+    "probe_change_gamma2_minus1": {
+      "base": {
+        "nominal_pixels": 47286,
+        "mean_signed_RGB": [
+          -0.039800363744025714,
+          -0.02626570232204035,
+          -0.034153872182041196
+        ],
+        "mean_abs_RGB": 0.15332938572375193,
+        "max_abs_channel": 33.0
+      },
+      "base_depth0_4": {
+        "nominal_pixels": 5852,
+        "mean_signed_RGB": [
+          -0.0017088174982911825,
+          -0.00393028024606972,
+          0.0011961722488038277
+        ],
+        "mean_abs_RGB": 0.020619731146046937,
+        "max_abs_channel": 3.0
+      },
+      "base_depth_ge32": {
+        "nominal_pixels": 16778,
+        "mean_signed_RGB": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_abs_RGB": 0.0,
+        "max_abs_channel": 0.0
+      },
+      "source_disk128": {
+        "nominal_pixels": 51433,
+        "mean_signed_RGB": [
+          -0.03604689596173663,
+          -0.024770089242315246,
+          -0.03171115820582117
+        ],
+        "mean_abs_RGB": 0.14160169540956197,
+        "max_abs_channel": 33.0
+      }
+    }
+  },
+  {
+    "pair": "ic02_triangle_body",
+    "power": 1,
+    "region": "base",
+    "native_comparison": {
+      "nominal_pixels": 47286,
+      "mean_signed_RGB": [
+        0.08512033159920483,
+        0.05341961679989849,
+        0.15461235883771096
+      ],
+      "mean_abs_RGB": 0.8436041675478295,
+      "max_abs_channel": 87.0
+    },
+    "android_response_abs_mean": 0.5042225323915465,
+    "native_response_abs_mean": 1.0196675548788225
+  },
+  {
+    "pair": "ic02_triangle_body",
+    "power": 1,
+    "region": "base_depth0_4",
+    "native_comparison": {
+      "nominal_pixels": 5852,
+      "mean_signed_RGB": [
+        0.424812030075188,
+        0.2452153110047847,
+        0.2134313055365687
+      ],
+      "mean_abs_RGB": 1.0566188197767146,
+      "max_abs_channel": 87.0
+    },
+    "android_response_abs_mean": 0.36363636363636365,
+    "native_response_abs_mean": 1.2928913192071088
+  },
+  {
+    "pair": "ic02_triangle_body",
+    "power": 1,
+    "region": "base_depth_ge32",
+    "native_comparison": {
+      "nominal_pixels": 16778,
+      "mean_signed_RGB": [
+        0.22893074263917035,
+        0.13839551794015972,
+        0.25426153295982834
+      ],
+      "mean_abs_RGB": 1.642130567807049,
+      "max_abs_channel": 66.0
+    },
+    "android_response_abs_mean": 1.0740453768824254,
+    "native_response_abs_mean": 2.1760638931934677
+  },
+  {
+    "pair": "ic02_triangle_body",
+    "power": 1,
+    "region": "source_disk128",
+    "native_comparison": {
+      "nominal_pixels": 48928,
+      "mean_signed_RGB": [
+        0.0611102027468934,
+        0.05093198168737737,
+        0.14772727272727273
+      ],
+      "mean_abs_RGB": 0.8217516895574449,
+      "max_abs_channel": 87.0
+    },
+    "android_response_abs_mean": 0.493759537824286,
+    "native_response_abs_mean": 0.9854480052321779
+  },
+  {
+    "pair": "ic02_triangle_body",
+    "power": 2,
+    "region": "base",
+    "native_comparison": {
+      "nominal_pixels": 47286,
+      "mean_signed_RGB": [
+        0.13771517996870108,
+        0.10053715687518504,
+        0.09080911897813307
+      ],
+      "mean_abs_RGB": 0.8557571656163205,
+      "max_abs_channel": 93.0
+    },
+    "android_response_abs_mean": 0.41960270129284216,
+    "native_response_abs_mean": 1.0196675548788225
+  },
+  {
+    "pair": "ic02_triangle_body",
+    "power": 2,
+    "region": "base_depth0_4",
+    "native_comparison": {
+      "nominal_pixels": 5852,
+      "mean_signed_RGB": [
+        0.5215311004784688,
+        0.3284347231715653,
+        0.10714285714285714
+      ],
+      "mean_abs_RGB": 1.2980747322852586,
+      "max_abs_channel": 93.0
+    },
+    "android_response_abs_mean": 0.05747322852586011,
+    "native_response_abs_mean": 1.2928913192071088
+  },
+  {
+    "pair": "ic02_triangle_body",
+    "power": 2,
+    "region": "base_depth_ge32",
+    "native_comparison": {
+      "nominal_pixels": 16778,
+      "mean_signed_RGB": [
+        0.22893074263917035,
+        0.13839551794015972,
+        0.25426153295982834
+      ],
+      "mean_abs_RGB": 1.642130567807049,
+      "max_abs_channel": 66.0
+    },
+    "android_response_abs_mean": 1.0740453768824254,
+    "native_response_abs_mean": 2.1760638931934677
+  },
+  {
+    "pair": "ic02_triangle_body",
+    "power": 2,
+    "region": "source_disk128",
+    "native_comparison": {
+      "nominal_pixels": 48928,
+      "mean_signed_RGB": [
+        0.11298234139960758,
+        0.09646827992151732,
+        0.08606523871811642
+      ],
+      "mean_abs_RGB": 0.8331493895792457,
+      "max_abs_channel": 93.0
+    },
+    "android_response_abs_mean": 0.41163205798997166,
+    "native_response_abs_mean": 0.9854480052321779
+  },
+  {
+    "pair": "ic02_triangle_body",
+    "probe_change_gamma2_minus1": {
+      "base": {
+        "nominal_pixels": 47286,
+        "mean_signed_RGB": [
+          0.05259484836949626,
+          0.047117540075286554,
+          -0.06380323985957789
+        ],
+        "mean_abs_RGB": 0.08697429824190388,
+        "max_abs_channel": 34.0
+      },
+      "base_depth0_4": {
+        "nominal_pixels": 5852,
+        "mean_signed_RGB": [
+          0.09671907040328093,
+          0.08321941216678058,
+          -0.10628844839371156
+        ],
+        "mean_abs_RGB": 0.3225677830940989,
+        "max_abs_channel": 30.0
+      },
+      "base_depth_ge32": {
+        "nominal_pixels": 16778,
+        "mean_signed_RGB": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_abs_RGB": 0.0,
+        "max_abs_channel": 0.0
+      },
+      "source_disk128": {
+        "nominal_pixels": 48928,
+        "mean_signed_RGB": [
+          0.05187213865271419,
+          0.04553629823413996,
+          -0.06166203400915631
+        ],
+        "mean_abs_RGB": 0.08440293219969479,
+        "max_abs_channel": 34.0
+      }
+    }
+  },
+  {
+    "pair": "ic03_star_right",
+    "power": 1,
+    "region": "base",
+    "native_comparison": {
+      "nominal_pixels": 47286,
+      "mean_signed_RGB": [
+        0.0901746817239775,
+        -0.11870321025250603,
+        0.017362432855390603
+      ],
+      "mean_abs_RGB": 0.0981826897319855,
+      "max_abs_channel": 97.0
+    },
+    "android_response_abs_mean": 0.10491477392885844,
+    "native_response_abs_mean": 0.01664340396734763
+  },
+  {
+    "pair": "ic03_star_right",
+    "power": 1,
+    "region": "base_depth0_4",
+    "native_comparison": {
+      "nominal_pixels": 5852,
+      "mean_signed_RGB": [
+        0.5768967874231032,
+        -0.3559466848940533,
+        -0.2407723855092276
+      ],
+      "mean_abs_RGB": 0.40248348143084983,
+      "max_abs_channel": 97.0
+    },
+    "android_response_abs_mean": 0.439336978810663,
+    "native_response_abs_mean": 0.10087719298245613
+  },
+  {
+    "pair": "ic03_star_right",
+    "power": 1,
+    "region": "base_depth_ge32",
+    "native_comparison": {
+      "nominal_pixels": 16778,
+      "mean_signed_RGB": [
+        5.960185957801883e-05,
+        -0.02199308618428895,
+        0.02109905829061867
+      ],
+      "mean_abs_RGB": 0.014383915444828546,
+      "max_abs_channel": 2.0
+    },
+    "android_response_abs_mean": 0.014443517304406564,
+    "native_response_abs_mean": 5.960185957801883e-05
+  },
+  {
+    "pair": "ic03_star_right",
+    "power": 1,
+    "region": "source_disk128",
+    "native_comparison": {
+      "nominal_pixels": 34197,
+      "mean_signed_RGB": [
+        0.1431119688861596,
+        -0.15317133081849285,
+        -0.009737696289148171
+      ],
+      "mean_abs_RGB": 0.2933298242535895,
+      "max_abs_channel": 97.0
+    },
+    "android_response_abs_mean": 1.0962365119747346,
+    "native_response_abs_mean": 0.8954879082960494
+  },
+  {
+    "pair": "ic03_star_right",
+    "power": 2,
+    "region": "base",
+    "native_comparison": {
+      "nominal_pixels": 47286,
+      "mean_signed_RGB": [
+        0.10089667131920653,
+        -0.17470287188597047,
+        0.07769741572558474
+      ],
+      "mean_abs_RGB": 0.1478097816125985,
+      "max_abs_channel": 97.0
+    },
+    "android_response_abs_mean": 0.1550776128240917,
+    "native_response_abs_mean": 0.01664340396734763
+  },
+  {
+    "pair": "ic03_star_right",
+    "power": 2,
+    "region": "base_depth0_4",
+    "native_comparison": {
+      "nominal_pixels": 5852,
+      "mean_signed_RGB": [
+        0.5898838004101162,
+        -0.39712918660287083,
+        -0.19360902255639098
+      ],
+      "mean_abs_RGB": 0.4347801321485532,
+      "max_abs_channel": 97.0
+    },
+    "android_response_abs_mean": 0.4715197083618136,
+    "native_response_abs_mean": 0.10087719298245613
+  },
+  {
+    "pair": "ic03_star_right",
+    "power": 2,
+    "region": "base_depth_ge32",
+    "native_comparison": {
+      "nominal_pixels": 16778,
+      "mean_signed_RGB": [
+        5.960185957801883e-05,
+        -0.02199308618428895,
+        0.02109905829061867
+      ],
+      "mean_abs_RGB": 0.014383915444828546,
+      "max_abs_channel": 2.0
+    },
+    "android_response_abs_mean": 0.014443517304406564,
+    "native_response_abs_mean": 5.960185957801883e-05
+  },
+  {
+    "pair": "ic03_star_right",
+    "power": 2,
+    "region": "source_disk128",
+    "native_comparison": {
+      "nominal_pixels": 34197,
+      "mean_signed_RGB": [
+        0.1579378308038717,
+        -0.23060502383249992,
+        0.07369067462058075
+      ],
+      "mean_abs_RGB": 0.3619518281330721,
+      "max_abs_channel": 97.0
+    },
+    "android_response_abs_mean": 1.1655993215779161,
+    "native_response_abs_mean": 0.8954879082960494
+  },
+  {
+    "pair": "ic03_star_right",
+    "probe_change_gamma2_minus1": {
+      "base": {
+        "nominal_pixels": 47286,
+        "mean_signed_RGB": [
+          0.010721989595229032,
+          -0.055999661633464454,
+          0.06033498287019414
+        ],
+        "mean_abs_RGB": 0.054942266209871846,
+        "max_abs_channel": 31.0
+      },
+      "base_depth0_4": {
+        "nominal_pixels": 5852,
+        "mean_signed_RGB": [
+          0.012987012987012988,
+          -0.0411825017088175,
+          0.047163362952836636
+        ],
+        "mean_abs_RGB": 0.034347231715652765,
+        "max_abs_channel": 3.0
+      },
+      "base_depth_ge32": {
+        "nominal_pixels": 16778,
+        "mean_signed_RGB": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_abs_RGB": 0.0,
+        "max_abs_channel": 0.0
+      },
+      "source_disk128": {
+        "nominal_pixels": 34197,
+        "mean_signed_RGB": [
+          0.01482586191771208,
+          -0.07743369301400707,
+          0.08342837090972892
+        ],
+        "mean_abs_RGB": 0.07597157645407492,
+        "max_abs_channel": 31.0
+      }
+    }
+  },
+  {
+    "pair": "ic04_asymmetric_lower",
+    "power": 1,
+    "region": "base",
+    "native_comparison": {
+      "nominal_pixels": 47286,
+      "mean_signed_RGB": [
+        -0.03434420335828787,
+        -0.041682527598020554,
+        -0.05088186778327623
+      ],
+      "mean_abs_RGB": 0.11365590943055731,
+      "max_abs_channel": 93.0
+    },
+    "android_response_abs_mean": 0.11957732380267591,
+    "native_response_abs_mean": 0.007458162387739852
+  },
+  {
+    "pair": "ic04_asymmetric_lower",
+    "power": 1,
+    "region": "base_depth0_4",
+    "native_comparison": {
+      "nominal_pixels": 5852,
+      "mean_signed_RGB": [
+        0.017942583732057416,
+        -0.15054682159945318,
+        -0.01281613123718387
+      ],
+      "mean_abs_RGB": 0.49504442925495556,
+      "max_abs_channel": 93.0
+    },
+    "android_response_abs_mean": 0.5417521075415812,
+    "native_response_abs_mean": 0.04910002278423331
+  },
+  {
+    "pair": "ic04_asymmetric_lower",
+    "power": 1,
+    "region": "base_depth_ge32",
+    "native_comparison": {
+      "nominal_pixels": 16778,
+      "mean_signed_RGB": [
+        -0.03397305995947074,
+        -0.0008940278936702826,
+        -0.047264274645368934
+      ],
+      "mean_abs_RGB": 0.03059562125004967,
+      "max_abs_channel": 2.0
+    },
+    "android_response_abs_mean": 0.03059562125004967,
+    "native_response_abs_mean": 0.0
+  },
+  {
+    "pair": "ic04_asymmetric_lower",
+    "power": 1,
+    "region": "source_disk128",
+    "native_comparison": {
+      "nominal_pixels": 36385,
+      "mean_signed_RGB": [
+        -0.07450872612340251,
+        -0.056369382987494845,
+        -0.07530575786725299
+      ],
+      "mean_abs_RGB": 0.3170903760707251,
+      "max_abs_channel": 93.0
+    },
+    "android_response_abs_mean": 1.0718885987815492,
+    "native_response_abs_mean": 0.8148046356099126
+  },
+  {
+    "pair": "ic04_asymmetric_lower",
+    "power": 2,
+    "region": "base",
+    "native_comparison": {
+      "nominal_pixels": 47286,
+      "mean_signed_RGB": [
+        -0.058875777185636344,
+        -0.045827517658503576,
+        -0.09761874550606944
+      ],
+      "mean_abs_RGB": 0.18166758307603378,
+      "max_abs_channel": 93.0
+    },
+    "android_response_abs_mean": 0.18764539187074397,
+    "native_response_abs_mean": 0.007458162387739852
+  },
+  {
+    "pair": "ic04_asymmetric_lower",
+    "power": 2,
+    "region": "base_depth0_4",
+    "native_comparison": {
+      "nominal_pixels": 5852,
+      "mean_signed_RGB": [
+        0.01572112098427888,
+        -0.15054682159945318,
+        -0.019138755980861243
+      ],
+      "mean_abs_RGB": 0.5055251765778082,
+      "max_abs_channel": 93.0
+    },
+    "android_response_abs_mean": 0.5522328548644339,
+    "native_response_abs_mean": 0.04910002278423331
+  },
+  {
+    "pair": "ic04_asymmetric_lower",
+    "power": 2,
+    "region": "base_depth_ge32",
+    "native_comparison": {
+      "nominal_pixels": 16778,
+      "mean_signed_RGB": [
+        -0.03397305995947074,
+        -0.0008940278936702826,
+        -0.047264274645368934
+      ],
+      "mean_abs_RGB": 0.03059562125004967,
+      "max_abs_channel": 2.0
+    },
+    "android_response_abs_mean": 0.03059562125004967,
+    "native_response_abs_mean": 0.0
+  },
+  {
+    "pair": "ic04_asymmetric_lower",
+    "power": 2,
+    "region": "source_disk128",
+    "native_comparison": {
+      "nominal_pixels": 36385,
+      "mean_signed_RGB": [
+        -0.10559296413357153,
+        -0.062470798405936515,
+        -0.13670468599697677
+      ],
+      "mean_abs_RGB": 0.4062021895469745,
+      "max_abs_channel": 93.0
+    },
+    "android_response_abs_mean": 1.161073702533095,
+    "native_response_abs_mean": 0.8148046356099126
+  },
+  {
+    "pair": "ic04_asymmetric_lower",
+    "probe_change_gamma2_minus1": {
+      "base": {
+        "nominal_pixels": 47286,
+        "mean_signed_RGB": [
+          -0.024531573827348475,
+          -0.004144990060483018,
+          -0.04673687772279322
+        ],
+        "mean_abs_RGB": 0.0714235362122686,
+        "max_abs_channel": 27.0
+      },
+      "base_depth0_4": {
+        "nominal_pixels": 5852,
+        "mean_signed_RGB": [
+          -0.0022214627477785374,
+          0.0,
+          -0.0063226247436773755
+        ],
+        "mean_abs_RGB": 0.010594668489405332,
+        "max_abs_channel": 2.0
+      },
+      "base_depth_ge32": {
+        "nominal_pixels": 16778,
+        "mean_signed_RGB": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_abs_RGB": 0.0,
+        "max_abs_channel": 0.0
+      },
+      "source_disk128": {
+        "nominal_pixels": 36385,
+        "mean_signed_RGB": [
+          -0.031084238010169025,
+          -0.006101415418441666,
+          -0.061398928129723786
+        ],
+        "mean_abs_RGB": 0.09404058448994548,
+        "max_abs_channel": 27.0
+      }
+    }
+  }
+]

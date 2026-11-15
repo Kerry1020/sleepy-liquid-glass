@@ -1,0 +1,2 @@
+Initial CSV export failed because Alert and Sheet use carrier-specific fields. No capture, ROI, threshold or decode changed; fieldnames changed to union across rows.
+Second export failed on numpy int64 JSON serialization; explicit int cast only.

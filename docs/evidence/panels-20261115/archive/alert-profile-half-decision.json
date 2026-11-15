@@ -1,0 +1,8 @@
+{
+  "status": "rejected_as_thickness_fix_reverted",
+  "reason": "Top blue span increases only .417003->.618 light and .314626->.620 dark while light bottom decreases; stripe edge RGB RMSE increases in all four side/theme comparisons. Not accepted on a selected feature.",
+  "analysis": "analysis-alert-profile-half/analysis.json",
+  "analysis_sha256": "ff69c037c355665808cfccefcf24aaa53fc34b66830394c79381dc45122b3961",
+  "candidate_source_archive_sha256": "5ebd28c626e7baea243f4e51fafad1f38694c2970d7fdb295f148f979c0eb7d2",
+  "restored_source_sha256": "028873a4682733a57297d8b565827167a5b5f744d88fa882bef450c9d1241f67"
+}

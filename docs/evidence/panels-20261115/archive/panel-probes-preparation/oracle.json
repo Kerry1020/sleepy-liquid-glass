@@ -1,0 +1,3757 @@
+{
+  "schema": 1,
+  "split": "calibration",
+  "seed": 40174869,
+  "world_px": [
+    750,
+    1334
+  ],
+  "pixels_per_pt_or_dp": 2,
+  "coordinate_convention": "Continuous source pixel bounds from0; pixel centers(i+.5,j+.5); world logical coordinate=pixel/2.",
+  "no_prior_inputs_read": true,
+  "probes": [
+    {
+      "id": "panel_probe_coordinate",
+      "seed": 40174869,
+      "x_cuts_px": [
+        0,
+        72,
+        154,
+        244,
+        350,
+        438,
+        532,
+        630,
+        750
+      ],
+      "y_cuts_px": [
+        0,
+        96,
+        202,
+        306,
+        418,
+        530,
+        642,
+        750,
+        850,
+        958,
+        1070,
+        1182,
+        1292,
+        1334
+      ],
+      "cells": [
+        {
+          "id": "C00_00",
+          "row": 0,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            0,
+            72,
+            96
+          ],
+          "center_rgb": [
+            133,
+            181,
+            204
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "66f2dc29400bf232e89ea7493a8729b532c159f6edc11bb769a769d7310a518b"
+        },
+        {
+          "id": "C00_01",
+          "row": 0,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            0,
+            154,
+            96
+          ],
+          "center_rgb": [
+            97,
+            152,
+            99
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "fff29d03bcb6bc6e15f247a1019e266902f7173c5f2cff430f67eae461af019c"
+        },
+        {
+          "id": "C00_02",
+          "row": 0,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            0,
+            244,
+            96
+          ],
+          "center_rgb": [
+            196,
+            159,
+            134
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "856393905116b25638c37b9937e03276884460a4cd0a8b25488ea74835e6ca47"
+        },
+        {
+          "id": "C00_03",
+          "row": 0,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            0,
+            350,
+            96
+          ],
+          "center_rgb": [
+            119,
+            191,
+            78
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "b02c810e722e5d9b85ea1fffcbb1882911cf50e030b314a811515d013df3d75e"
+        },
+        {
+          "id": "C00_04",
+          "row": 0,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            0,
+            438,
+            96
+          ],
+          "center_rgb": [
+            81,
+            193,
+            171
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "7a9c907fdc00214f734587932d31694a8a688c890118dc456758b4f4b9787172"
+        },
+        {
+          "id": "C00_05",
+          "row": 0,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            0,
+            532,
+            96
+          ],
+          "center_rgb": [
+            205,
+            191,
+            196
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "0702c1ed630731fcb0a452f954eb80fdcbdb0f38f5c19ed415bd7bb74ae8b6c6"
+        },
+        {
+          "id": "C00_06",
+          "row": 0,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            0,
+            630,
+            96
+          ],
+          "center_rgb": [
+            85,
+            95,
+            137
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "406c8c952325f1f33b8456d46e0aba09de0e80cc3ba755ed32d1a185ca3db21e"
+        },
+        {
+          "id": "C00_07",
+          "row": 0,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            0,
+            750,
+            96
+          ],
+          "center_rgb": [
+            191,
+            78,
+            62
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "1a9b764b3562091fd1690c85b76e1606dff43d1ba70b82a30c29ce1c24ba3885"
+        },
+        {
+          "id": "C01_00",
+          "row": 1,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            96,
+            72,
+            202
+          ],
+          "center_rgb": [
+            77,
+            161,
+            100
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "a494bdd53952724d6e3a3b6fd3aa3df4826b8417c3f95d4a7988ec5f3e68b319"
+        },
+        {
+          "id": "C01_01",
+          "row": 1,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            96,
+            154,
+            202
+          ],
+          "center_rgb": [
+            207,
+            66,
+            129
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "4a865edd8e48f647d52eebe4df2289fb67b4065d9398626a8370950e4d4309fc"
+        },
+        {
+          "id": "C01_02",
+          "row": 1,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            96,
+            244,
+            202
+          ],
+          "center_rgb": [
+            87,
+            177,
+            110
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "78a090fc5ac8b4cb0bd999b0842ea65def40cdcfe6b7060cd16bf41672c1d5cb"
+        },
+        {
+          "id": "C01_03",
+          "row": 1,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            96,
+            350,
+            202
+          ],
+          "center_rgb": [
+            102,
+            79,
+            91
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "0c60aeaab9b0e234507cd791df29a7be6228b993b6ad1a0f053dcbd5c17c1d1a"
+        },
+        {
+          "id": "C01_04",
+          "row": 1,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            96,
+            438,
+            202
+          ],
+          "center_rgb": [
+            198,
+            175,
+            105
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "68555e8edfc13c5a978c82fed5128308418765de51489182131c96c00c518d19"
+        },
+        {
+          "id": "C01_05",
+          "row": 1,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            96,
+            532,
+            202
+          ],
+          "center_rgb": [
+            176,
+            61,
+            179
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "307e89fc3987ac25a21c9e5395ed4aaefcd1dcc8597bba7be8a9bdf64bd0f263"
+        },
+        {
+          "id": "C01_06",
+          "row": 1,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            96,
+            630,
+            202
+          ],
+          "center_rgb": [
+            186,
+            197,
+            73
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "7b06d8839cbdd9241506bebfac8d383ee9d31ec8fe0c5fa7e23b165fed639bc2"
+        },
+        {
+          "id": "C01_07",
+          "row": 1,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            96,
+            750,
+            202
+          ],
+          "center_rgb": [
+            194,
+            174,
+            189
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "ef166a5c9630126d4956f7a7137b92ea5be0126359ea35bae3796fab3cf5ed7a"
+        },
+        {
+          "id": "C02_00",
+          "row": 2,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            202,
+            72,
+            306
+          ],
+          "center_rgb": [
+            189,
+            187,
+            145
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "8768bba34c96c51b880886452062192cf0cfa405dcad50d8f4e31bc230c0da2b"
+        },
+        {
+          "id": "C02_01",
+          "row": 2,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            202,
+            154,
+            306
+          ],
+          "center_rgb": [
+            109,
+            88,
+            83
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "e3483589b0c81070f3a1060aa1c8782f9042f48952816f57513451d0e450975a"
+        },
+        {
+          "id": "C02_02",
+          "row": 2,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            202,
+            244,
+            306
+          ],
+          "center_rgb": [
+            208,
+            151,
+            85
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "5c54bf895c02dabbfc3d855ae77821f8ea927f70dbd895810f9d650ff9870749"
+        },
+        {
+          "id": "C02_03",
+          "row": 2,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            202,
+            350,
+            306
+          ],
+          "center_rgb": [
+            108,
+            184,
+            96
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "39e336328c16f7b13563bbd658df927c81058de82717cd83ed15031e5804504e"
+        },
+        {
+          "id": "C02_04",
+          "row": 2,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            202,
+            438,
+            306
+          ],
+          "center_rgb": [
+            68,
+            54,
+            57
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "71c34392acfc4337807e7b6e87392415d4462e9f285087259b5a8f785c51c374"
+        },
+        {
+          "id": "C02_05",
+          "row": 2,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            202,
+            532,
+            306
+          ],
+          "center_rgb": [
+            78,
+            186,
+            163
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "acdc2f14b8bb70e57c54a82a721dcefeec3953e394b43b9c10ee2e69a41535f9"
+        },
+        {
+          "id": "C02_06",
+          "row": 2,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            202,
+            630,
+            306
+          ],
+          "center_rgb": [
+            198,
+            50,
+            115
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "04d768ef0dbdf5d52c01400af0e45ec0d3340b3a8bfc269acbce4f3ce89eda58"
+        },
+        {
+          "id": "C02_07",
+          "row": 2,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            202,
+            750,
+            306
+          ],
+          "center_rgb": [
+            87,
+            158,
+            67
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "0f930886d26f94859dfbee931070ba28b517488bc85d914d970054a6732bb594"
+        },
+        {
+          "id": "C03_00",
+          "row": 3,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            306,
+            72,
+            418
+          ],
+          "center_rgb": [
+            107,
+            81,
+            100
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "c25a14b05b31490f30046eb42a8cadf42ff9175e9a75333cbf0b85334f4d42df"
+        },
+        {
+          "id": "C03_01",
+          "row": 3,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            306,
+            154,
+            418
+          ],
+          "center_rgb": [
+            56,
+            153,
+            180
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "581efe5c5bc8f5f5776d8dc234544444e538c3fa859c46833e204cce4e58f15c"
+        },
+        {
+          "id": "C03_02",
+          "row": 3,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            306,
+            244,
+            418
+          ],
+          "center_rgb": [
+            207,
+            53,
+            139
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "2f9a69704990274e117de569b80534e18855d253a04652693c527d1f5e7499ba"
+        },
+        {
+          "id": "C03_03",
+          "row": 3,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            306,
+            350,
+            418
+          ],
+          "center_rgb": [
+            52,
+            97,
+            71
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "28b99553683523a1b4b8a62968e6907be525a7e4c245fe2b2f8afacfca7c4337"
+        },
+        {
+          "id": "C03_04",
+          "row": 3,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            306,
+            438,
+            418
+          ],
+          "center_rgb": [
+            62,
+            201,
+            90
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "34d3a69c6eabbc48f0464e205ff675d19b3b06b62f2fafb6bdd3d593c97c2271"
+        },
+        {
+          "id": "C03_05",
+          "row": 3,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            306,
+            532,
+            418
+          ],
+          "center_rgb": [
+            140,
+            76,
+            105
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "fc65c69716ad97ad89c62bb722ea468e6a792452a8907413ba4a154b0e91cd9a"
+        },
+        {
+          "id": "C03_06",
+          "row": 3,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            306,
+            630,
+            418
+          ],
+          "center_rgb": [
+            73,
+            81,
+            192
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "62b8ee6afdd100b092cc91aaa65c840e2c6ddbb1a204d3e31f5c6cf067a6189f"
+        },
+        {
+          "id": "C03_07",
+          "row": 3,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            306,
+            750,
+            418
+          ],
+          "center_rgb": [
+            204,
+            199,
+            129
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "75d4c45222efd0a12fc439122615fd669117f80c6ac0123e088787d735edb5b6"
+        },
+        {
+          "id": "C04_00",
+          "row": 4,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            418,
+            72,
+            530
+          ],
+          "center_rgb": [
+            161,
+            190,
+            129
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "84be65b9067606413b7dcf6742002709294e753585837d7fbeac418233ffcf3c"
+        },
+        {
+          "id": "C04_01",
+          "row": 4,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            418,
+            154,
+            530
+          ],
+          "center_rgb": [
+            52,
+            190,
+            73
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "e7a5467af2a85a11e68e259a6715b7ae01c696dfdbce46f4d1ab2dee91e62f7b"
+        },
+        {
+          "id": "C04_02",
+          "row": 4,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            418,
+            244,
+            530
+          ],
+          "center_rgb": [
+            167,
+            163,
+            174
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "576bdd71f35e8cd60c473779e6621246f6202bf95393fb8f2603daec2ecdc395"
+        },
+        {
+          "id": "C04_03",
+          "row": 4,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            418,
+            350,
+            530
+          ],
+          "center_rgb": [
+            158,
+            193,
+            58
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "8bf53e35004b52d8d7fcb634a51f44e2832b14dd4d9a786942bac8f9f690a8bd"
+        },
+        {
+          "id": "C04_04",
+          "row": 4,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            418,
+            438,
+            530
+          ],
+          "center_rgb": [
+            107,
+            148,
+            195
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "1540c3e26c46c38983ada002f43300c2a299ad63420774a192930c90d0068839"
+        },
+        {
+          "id": "C04_05",
+          "row": 4,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            418,
+            532,
+            530
+          ],
+          "center_rgb": [
+            158,
+            186,
+            99
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "5777f85193189a5b392c2187723f2704f48099778e574c4dc2ba3c6dc859d8d7"
+        },
+        {
+          "id": "C04_06",
+          "row": 4,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            418,
+            630,
+            530
+          ],
+          "center_rgb": [
+            75,
+            196,
+            198
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "01db15fd00e8880ff235cbdda22b7908a4146ddb067bfaebae1714709871e36d"
+        },
+        {
+          "id": "C04_07",
+          "row": 4,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            418,
+            750,
+            530
+          ],
+          "center_rgb": [
+            122,
+            67,
+            104
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "a6d80fb652118a3ce3865697e6670f3187df9d704795cf9d09f473edcabaf29a"
+        },
+        {
+          "id": "C05_00",
+          "row": 5,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            530,
+            72,
+            642
+          ],
+          "center_rgb": [
+            196,
+            70,
+            138
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "0e5e549562354b4b281039fe8a5baa51c46f24e51e94915ba1cd94dcd70c0fc5"
+        },
+        {
+          "id": "C05_01",
+          "row": 5,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            530,
+            154,
+            642
+          ],
+          "center_rgb": [
+            56,
+            63,
+            162
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "18d8183fd7d42a7b87e3826a2aebf06e5cac49784c20d469732775ba49eea807"
+        },
+        {
+          "id": "C05_02",
+          "row": 5,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            530,
+            244,
+            642
+          ],
+          "center_rgb": [
+            203,
+            139,
+            60
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "f77c0bd762d658009aa66b43b74c68d4d7accc0f263dfe41d124b1483c2f1285"
+        },
+        {
+          "id": "C05_03",
+          "row": 5,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            530,
+            350,
+            642
+          ],
+          "center_rgb": [
+            67,
+            142,
+            114
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "96c8e626bd763b95f282fa3102cd86c6fcb31f1fc7011bf3d651857380285601"
+        },
+        {
+          "id": "C05_04",
+          "row": 5,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            530,
+            438,
+            642
+          ],
+          "center_rgb": [
+            203,
+            71,
+            193
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "7b33a912132aab2ba7dd068282047d0d3a849aa11868e5bb51f7df3551de171a"
+        },
+        {
+          "id": "C05_05",
+          "row": 5,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            530,
+            532,
+            642
+          ],
+          "center_rgb": [
+            75,
+            140,
+            196
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "9904f6c8f5aa4e00697143fbfd36b10cfee208770bbddab73c9b85f9b54f16de"
+        },
+        {
+          "id": "C05_06",
+          "row": 5,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            530,
+            630,
+            642
+          ],
+          "center_rgb": [
+            190,
+            76,
+            181
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "f3ad653692ce7d91290d4b2f30ab2ac4819988f02a513a31805d28a88edc1f91"
+        },
+        {
+          "id": "C05_07",
+          "row": 5,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            530,
+            750,
+            642
+          ],
+          "center_rgb": [
+            208,
+            195,
+            68
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "72f894d5f259771a03484d187e391e4c3c1361614bc36d1ca984ec3939224189"
+        },
+        {
+          "id": "C06_00",
+          "row": 6,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            642,
+            72,
+            750
+          ],
+          "center_rgb": [
+            203,
+            160,
+            52
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "bce09b4d685e1ce2ba80557cbd331559315011ed5efe6f36ff64fb757c9ea8da"
+        },
+        {
+          "id": "C06_01",
+          "row": 6,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            642,
+            154,
+            750
+          ],
+          "center_rgb": [
+            152,
+            137,
+            184
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "2085064ed1eba4753eca462d3b88d16dfcacd8c324cf1ab26ab7b772c522c325"
+        },
+        {
+          "id": "C06_02",
+          "row": 6,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            642,
+            244,
+            750
+          ],
+          "center_rgb": [
+            74,
+            152,
+            111
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "246617baaf3a813e2c329e33ece5c83abf6dcbacdf0a9e58f8ebcceb0182290d"
+        },
+        {
+          "id": "C06_03",
+          "row": 6,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            642,
+            350,
+            750
+          ],
+          "center_rgb": [
+            188,
+            100,
+            71
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "dfc3a1ae99cf2c1a1393ef9655fba2e9bbe91c6c2bed35f93e524f49dcd13e35"
+        },
+        {
+          "id": "C06_04",
+          "row": 6,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            642,
+            438,
+            750
+          ],
+          "center_rgb": [
+            146,
+            192,
+            187
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "39b1b883ba2ff09bdb27c4d69926cd6b8305ed28c083a03c0970892750b32d1f"
+        },
+        {
+          "id": "C06_05",
+          "row": 6,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            642,
+            532,
+            750
+          ],
+          "center_rgb": [
+            124,
+            62,
+            98
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "051e5262a7deaa3581c54cc4c24dd368956d3d6eb3e0fb1ca74bd1f214ecfbd3"
+        },
+        {
+          "id": "C06_06",
+          "row": 6,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            642,
+            630,
+            750
+          ],
+          "center_rgb": [
+            114,
+            204,
+            193
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "8f4137d91ec1bc5a6402ce1b6bacd949da8b69b5b808b6fe9f985bf49ade1eae"
+        },
+        {
+          "id": "C06_07",
+          "row": 6,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            642,
+            750,
+            750
+          ],
+          "center_rgb": [
+            71,
+            118,
+            97
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "2a99783596d8c34ad797324c19837993e75b22b85721901ef5037405551d0921"
+        },
+        {
+          "id": "C07_00",
+          "row": 7,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            750,
+            72,
+            850
+          ],
+          "center_rgb": [
+            120,
+            140,
+            130
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "b354695da64456d214031a0f073d0dbdb10ad803d25719001a6815706e5ec49c"
+        },
+        {
+          "id": "C07_01",
+          "row": 7,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            750,
+            154,
+            850
+          ],
+          "center_rgb": [
+            65,
+            64,
+            170
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "4413904afc54a4c953e296be0c3657c8bdc99e724548d9d0f58a2bf9be8f9f02"
+        },
+        {
+          "id": "C07_02",
+          "row": 7,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            750,
+            244,
+            850
+          ],
+          "center_rgb": [
+            171,
+            75,
+            168
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "de4401e909c635f42388868be780de41a996333dcaa0f61a8ee7b59ad5b655f4"
+        },
+        {
+          "id": "C07_03",
+          "row": 7,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            750,
+            350,
+            850
+          ],
+          "center_rgb": [
+            70,
+            202,
+            180
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "18e65f3a6cb7ba0d730bf90821f10eb0c1da58102019a3398c43eda69b94b060"
+        },
+        {
+          "id": "C07_04",
+          "row": 7,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            750,
+            438,
+            850
+          ],
+          "center_rgb": [
+            206,
+            116,
+            69
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "eb14477947325dd69deb36e3e5b318cba449c8e1c20485f4a9ebdf216c67669b"
+        },
+        {
+          "id": "C07_05",
+          "row": 7,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            750,
+            532,
+            850
+          ],
+          "center_rgb": [
+            202,
+            98,
+            204
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "a57c3f72564113049e97369e117fe6ef80ed232ceb967b6e46e11a1752de280a"
+        },
+        {
+          "id": "C07_06",
+          "row": 7,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            750,
+            630,
+            850
+          ],
+          "center_rgb": [
+            60,
+            70,
+            132
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "d63b4327fce8d461a7a70f637487ca12938df4ab96701236245375458d0b7a87"
+        },
+        {
+          "id": "C07_07",
+          "row": 7,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            750,
+            750,
+            850
+          ],
+          "center_rgb": [
+            171,
+            70,
+            144
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "d7ae9e64fc6cfad28ae054b79db67ade1b5fe6989fb9d2e856b693aa1c68d6d4"
+        },
+        {
+          "id": "C08_00",
+          "row": 8,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            850,
+            72,
+            958
+          ],
+          "center_rgb": [
+            196,
+            56,
+            177
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "545dc14d23b6910f760e45d1cd81cf44178dc7c42c4a5240049bcf4759dc57eb"
+        },
+        {
+          "id": "C08_01",
+          "row": 8,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            850,
+            154,
+            958
+          ],
+          "center_rgb": [
+            165,
+            190,
+            178
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "836f04847cd28158095aa00ea8b0f94ec5a9323704ca625052dd326983012603"
+        },
+        {
+          "id": "C08_02",
+          "row": 8,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            850,
+            244,
+            958
+          ],
+          "center_rgb": [
+            132,
+            160,
+            55
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "7129ae047f164cecc0a2610ae4a05a6aa14c3a155d57bba370ad4c6f24fe11f2"
+        },
+        {
+          "id": "C08_03",
+          "row": 8,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            850,
+            350,
+            958
+          ],
+          "center_rgb": [
+            101,
+            96,
+            131
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "8466a7a1d7b93410f27d46304be4783e6892eac9320b33116f76ef66fb395dff"
+        },
+        {
+          "id": "C08_04",
+          "row": 8,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            850,
+            438,
+            958
+          ],
+          "center_rgb": [
+            200,
+            147,
+            172
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "9c3544b2ad00e7a40e9fc102abd871e8933f992bdcd7b15909123f0e9c34a039"
+        },
+        {
+          "id": "C08_05",
+          "row": 8,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            850,
+            532,
+            958
+          ],
+          "center_rgb": [
+            79,
+            81,
+            132
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "48ecc9428cb4eb55ccb2eb3e6ba929009a500206c3fca3e95426f959bd6ba6bc"
+        },
+        {
+          "id": "C08_06",
+          "row": 8,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            850,
+            630,
+            958
+          ],
+          "center_rgb": [
+            166,
+            184,
+            181
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "dd29b234146a2268f1b015174adf2eaa91d899b7354b963046f5f93b44f0c0ba"
+        },
+        {
+          "id": "C08_07",
+          "row": 8,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            850,
+            750,
+            958
+          ],
+          "center_rgb": [
+            75,
+            199,
+            60
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "5dc54f571559eae73c141856a9583a2aa647bc10dda4ca9f9705b1ec515af86c"
+        },
+        {
+          "id": "C09_00",
+          "row": 9,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            958,
+            72,
+            1070
+          ],
+          "center_rgb": [
+            115,
+            187,
+            177
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "7baeb426cdd03ce4b9d8fd6b4d6d50b4720be0eb400c3c134d3039dc301f602d"
+        },
+        {
+          "id": "C09_01",
+          "row": 9,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            958,
+            154,
+            1070
+          ],
+          "center_rgb": [
+            140,
+            60,
+            149
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "48f6e2d9ed48e113179d10a9fe7e7af78c6b2bd155e479e9670378dc5373b1f7"
+        },
+        {
+          "id": "C09_02",
+          "row": 9,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            958,
+            244,
+            1070
+          ],
+          "center_rgb": [
+            74,
+            199,
+            208
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "326429be74d84c54caf9616e2196bbe0e744c7cc5534cc7107d7e4f2e4600b3b"
+        },
+        {
+          "id": "C09_03",
+          "row": 9,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            958,
+            350,
+            1070
+          ],
+          "center_rgb": [
+            167,
+            86,
+            50
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "7d721c32349a65b061b4806c2a1fb6a2183b359e4864f35754360789dd5e3c57"
+        },
+        {
+          "id": "C09_04",
+          "row": 9,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            958,
+            438,
+            1070
+          ],
+          "center_rgb": [
+            84,
+            69,
+            185
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "1a28cab56ed84841efbf959df692e5f3166c2afe45e34c26113fffd57e256cce"
+        },
+        {
+          "id": "C09_05",
+          "row": 9,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            958,
+            532,
+            1070
+          ],
+          "center_rgb": [
+            156,
+            173,
+            181
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "c085c0309600cc2dbe2c67c49c34934c7decef5c4adbc5434a748f649d5b910d"
+        },
+        {
+          "id": "C09_06",
+          "row": 9,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            958,
+            630,
+            1070
+          ],
+          "center_rgb": [
+            104,
+            108,
+            104
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "ff2da032b4ebea4a261f9067ae77138e6bf357d139cc572be77bda0a2009026e"
+        },
+        {
+          "id": "C09_07",
+          "row": 9,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            958,
+            750,
+            1070
+          ],
+          "center_rgb": [
+            196,
+            205,
+            131
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "02760dac421808c9640a633e4d0bf27207066de0ff2d16b0bb03bb548ddf51b6"
+        },
+        {
+          "id": "C10_00",
+          "row": 10,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            1070,
+            72,
+            1182
+          ],
+          "center_rgb": [
+            87,
+            101,
+            113
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "7bb3d84cb892f2ce5ac6472bb69833dcf80eae99b0dde142c25d5fbbd674ba30"
+        },
+        {
+          "id": "C10_01",
+          "row": 10,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            1070,
+            154,
+            1182
+          ],
+          "center_rgb": [
+            197,
+            207,
+            123
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "20dfa13d53475d56dfefe62d889a65896fdd0cc3aef74341f2ffd676100486f6"
+        },
+        {
+          "id": "C10_02",
+          "row": 10,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            1070,
+            244,
+            1182
+          ],
+          "center_rgb": [
+            93,
+            52,
+            149
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "e5e84b1e2647620ce4ab0eab4afc5144a6992f5b96e505fe6707bafd5161bb58"
+        },
+        {
+          "id": "C10_03",
+          "row": 10,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            1070,
+            350,
+            1182
+          ],
+          "center_rgb": [
+            109,
+            195,
+            61
+          ],
+          "full_width_rgb_slope": [
+            18,
+            24,
+            -14
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "91801e78c0ce42b9e1cd5f76a417ec9d4f20ca46b443bfe59614b897b1598f5d"
+        },
+        {
+          "id": "C10_04",
+          "row": 10,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            1070,
+            438,
+            1182
+          ],
+          "center_rgb": [
+            119,
+            186,
+            191
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "da12fec36d7c279987313ef05630acdbec8168896447b2f3b282690663d438ac"
+        },
+        {
+          "id": "C10_05",
+          "row": 10,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            1070,
+            532,
+            1182
+          ],
+          "center_rgb": [
+            98,
+            129,
+            75
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "7594a1a7d492bfde514a1ad0beb24e3002aa34f53f33df532b52da12221b56e8"
+        },
+        {
+          "id": "C10_06",
+          "row": 10,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            1070,
+            630,
+            1182
+          ],
+          "center_rgb": [
+            208,
+            194,
+            138
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "b85e049a768848f3bafc190e676f40f31f51392d8734920d0ae2077573c82a79"
+        },
+        {
+          "id": "C10_07",
+          "row": 10,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            1070,
+            750,
+            1182
+          ],
+          "center_rgb": [
+            165,
+            85,
+            183
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "98108409ef614bc15ef8e5b43d69eff7685cd8635fe621d78751dfc9e65a8cbd"
+        },
+        {
+          "id": "C11_00",
+          "row": 11,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            1182,
+            72,
+            1292
+          ],
+          "center_rgb": [
+            84,
+            162,
+            193
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "0be109b92398ad09664a0331545b415d55caf6f18b911c06d47844617b5286d2"
+        },
+        {
+          "id": "C11_01",
+          "row": 11,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            1182,
+            154,
+            1292
+          ],
+          "center_rgb": [
+            162,
+            114,
+            140
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "61380c84c6074d46a55005ebbd385f016677df9e4a1a08760bd0350082f09b05"
+        },
+        {
+          "id": "C11_02",
+          "row": 11,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            1182,
+            244,
+            1292
+          ],
+          "center_rgb": [
+            135,
+            201,
+            67
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "2f71a33bd08a68a83d552fcb2e3b1354ded995bd2101d74662c902643b48b5e0"
+        },
+        {
+          "id": "C11_03",
+          "row": 11,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            1182,
+            350,
+            1292
+          ],
+          "center_rgb": [
+            66,
+            152,
+            170
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "b263d84122e8606eb9cdaf80350d740b7eb91daa61564450e03cedbd071858b5"
+        },
+        {
+          "id": "C11_04",
+          "row": 11,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            1182,
+            438,
+            1292
+          ],
+          "center_rgb": [
+            116,
+            71,
+            76
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "dcf4af59477541650e21bb45e3ff10c0026b072eb6105f780e44ff50147a3f6e"
+        },
+        {
+          "id": "C11_05",
+          "row": 11,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            1182,
+            532,
+            1292
+          ],
+          "center_rgb": [
+            190,
+            187,
+            182
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "b67c4abe8213a844bf2225a6970461d14000c6b37080aba1c5d76a1225267c78"
+        },
+        {
+          "id": "C11_06",
+          "row": 11,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            1182,
+            630,
+            1292
+          ],
+          "center_rgb": [
+            106,
+            91,
+            208
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "df196fade27722b5d304f9cfdc3e088de85ab6aa44d5b9a490dc52a24ba98b36"
+        },
+        {
+          "id": "C11_07",
+          "row": 11,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            1182,
+            750,
+            1292
+          ],
+          "center_rgb": [
+            197,
+            134,
+            50
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "903b06681c41e16962fdbe961315dfd02710ebd51c36426168f905e8c95c8f05"
+        },
+        {
+          "id": "C12_00",
+          "row": 12,
+          "column": 0,
+          "bbox_ltrb_px_half_open": [
+            0,
+            1292,
+            72,
+            1334
+          ],
+          "center_rgb": [
+            183,
+            57,
+            51
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "dea8004fb5146828b2e6ab9f308d7848ab80bd5da54a2dcf156c92a3198e8f2d"
+        },
+        {
+          "id": "C12_01",
+          "row": 12,
+          "column": 1,
+          "bbox_ltrb_px_half_open": [
+            72,
+            1292,
+            154,
+            1334
+          ],
+          "center_rgb": [
+            86,
+            200,
+            165
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "a637112dadf5a20ed94ac575d7506e2335ed98090a1cf6f20a7eb1f43085402f"
+        },
+        {
+          "id": "C12_02",
+          "row": 12,
+          "column": 2,
+          "bbox_ltrb_px_half_open": [
+            154,
+            1292,
+            244,
+            1334
+          ],
+          "center_rgb": [
+            183,
+            48,
+            112
+          ],
+          "full_width_rgb_slope": [
+            -24,
+            16,
+            12
+          ],
+          "full_height_rgb_slope": [
+            -16,
+            12,
+            26
+          ],
+          "raster_rgb_sha256": "76dbb69a4243641348bdfce258a97e982e441d95a8e45e9cca700cc58d706828"
+        },
+        {
+          "id": "C12_03",
+          "row": 12,
+          "column": 3,
+          "bbox_ltrb_px_half_open": [
+            244,
+            1292,
+            350,
+            1334
+          ],
+          "center_rgb": [
+            196,
+            205,
+            113
+          ],
+          "full_width_rgb_slope": [
+            12,
+            -24,
+            24
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "9b06615a6d5df986e30e3b705778b95f2e0c9f3866ee6d19782de68e2392b1a2"
+        },
+        {
+          "id": "C12_04",
+          "row": 12,
+          "column": 4,
+          "bbox_ltrb_px_half_open": [
+            350,
+            1292,
+            438,
+            1334
+          ],
+          "center_rgb": [
+            120,
+            127,
+            169
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "cf5a9001af0081a999ab820c8019b84a0c6ca81f831c131adbc9253ec35a950a"
+        },
+        {
+          "id": "C12_05",
+          "row": 12,
+          "column": 5,
+          "bbox_ltrb_px_half_open": [
+            438,
+            1292,
+            532,
+            1334
+          ],
+          "center_rgb": [
+            179,
+            164,
+            50
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            22,
+            10,
+            -26
+          ],
+          "raster_rgb_sha256": "abecd3ddfa71e82add81e5468b4b92c6110c7126143f5cd2d7b26a94258ff16a"
+        },
+        {
+          "id": "C12_06",
+          "row": 12,
+          "column": 6,
+          "bbox_ltrb_px_half_open": [
+            532,
+            1292,
+            630,
+            1334
+          ],
+          "center_rgb": [
+            176,
+            51,
+            105
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            10,
+            26,
+            -18
+          ],
+          "raster_rgb_sha256": "f8ae7a94b3ea34289e5761a4209facd00104d38e393d5f196dc9662f45d2928f"
+        },
+        {
+          "id": "C12_07",
+          "row": 12,
+          "column": 7,
+          "bbox_ltrb_px_half_open": [
+            630,
+            1292,
+            750,
+            1334
+          ],
+          "center_rgb": [
+            56,
+            153,
+            173
+          ],
+          "full_width_rgb_slope": [
+            26,
+            -14,
+            10
+          ],
+          "full_height_rgb_slope": [
+            -20,
+            24,
+            8
+          ],
+          "raster_rgb_sha256": "769777eb6d78c82339c67c1ba54375114e1b4d4313f1a85ff69bca27daef0a15"
+        }
+      ],
+      "pixel_formula": "round(center_rgb + ((x+.5-left)/width-.5)*x_slope + ((y+.5-top)/height-.5)*y_slope), clipped0..255; x/y integer pixel indices.",
+      "minimum_full_cell_width_px": 72,
+      "minimum_full_cell_height_px": 96,
+      "last_canvas_clipped_row_height_px": 42,
+      "meaning": "Two-dimensional nonperiodic coarse RGB code. Each tile/color/ramp is a known input; local output correspondence remains conditional on visibility/uniqueness gates. No fine dot coding."
+    },
+    {
+      "id": "panel_probe_shapes",
+      "seed": 1361921093,
+      "background_rgb": [
+        184,
+        184,
+        184
+      ],
+      "shapes": [
+        {
+          "id": "S01",
+          "shape": "circle",
+          "center_px": [
+            57,
+            512
+          ],
+          "width_px": 84,
+          "height_px": 84,
+          "color_rgb": [
+            222,
+            40,
+            62
+          ],
+          "design_bbox_ltrb_px": [
+            15.0,
+            470.0,
+            99.0,
+            554.0
+          ],
+          "vertices_px": null,
+          "visible_raster_bbox_ltrb_px_half_open": [
+            15,
+            470,
+            100,
+            555
+          ],
+          "visible_area_px": 5653,
+          "visible_pixel_center_centroid_px": [
+            57.5,
+            512.5
+          ],
+          "mask_sha256": "643841e4b1b827dabdad325b5f214aa22930eeaf6d376a9281f912f3a72d43c7",
+          "purpose": "Alert TL corner",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S02",
+          "shape": "triangle_up",
+          "center_px": [
+            168,
+            512
+          ],
+          "width_px": 104,
+          "height_px": 104,
+          "color_rgb": [
+            30,
+            95,
+            225
+          ],
+          "design_bbox_ltrb_px": [
+            116.0,
+            460.0,
+            220.0,
+            564.0
+          ],
+          "vertices_px": [
+            [
+              168.0,
+              460.0
+            ],
+            [
+              220.0,
+              564.0
+            ],
+            [
+              116.0,
+              564.0
+            ]
+          ],
+          "visible_raster_bbox_ltrb_px_half_open": [
+            116,
+            460,
+            221,
+            565
+          ],
+          "visible_area_px": 5513,
+          "visible_pixel_center_centroid_px": [
+            168.5,
+            529.9968256847452
+          ],
+          "mask_sha256": "084ee9e303376b81401cae54b6063132e7ccf84b1e8c8783cf696ea9377bc349",
+          "purpose": "Alert top-left straight",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S03",
+          "shape": "pentagon",
+          "center_px": [
+            586,
+            509
+          ],
+          "width_px": 112,
+          "height_px": 108,
+          "color_rgb": [
+            25,
+            173,
+            92
+          ],
+          "design_bbox_ltrb_px": [
+            530.0,
+            455.0,
+            642.0,
+            563.0
+          ],
+          "vertices_px": [
+            [
+              586.0,
+              455.0
+            ],
+            [
+              639.2591649125286,
+              492.3130823037528
+            ],
+            [
+              618.9159741283785,
+              552.6869176962472
+            ],
+            [
+              553.0840258716215,
+              552.6869176962472
+            ],
+            [
+              532.7408350874714,
+              492.3130823037528
+            ]
+          ],
+          "visible_raster_bbox_ltrb_px_half_open": [
+            532,
+            455,
+            640,
+            553
+          ],
+          "visible_area_px": 7267,
+          "visible_pixel_center_centroid_px": [
+            586.0474060822899,
+            509.1193752580157
+          ],
+          "mask_sha256": "9a1832df278b3094f493e3fb6eddf1bd64c044372c916491092396ebaedfb887",
+          "purpose": "Alert top-right straight",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S04",
+          "shape": "diamond",
+          "center_px": [
+            698,
+            512
+          ],
+          "width_px": 88,
+          "height_px": 100,
+          "color_rgb": [
+            235,
+            119,
+            24
+          ],
+          "design_bbox_ltrb_px": [
+            654.0,
+            462.0,
+            742.0,
+            562.0
+          ],
+          "vertices_px": [
+            [
+              698.0,
+              462.0
+            ],
+            [
+              742.0,
+              512.0
+            ],
+            [
+              698.0,
+              562.0
+            ],
+            [
+              654.0,
+              512.0
+            ]
+          ],
+          "visible_raster_bbox_ltrb_px_half_open": [
+            654,
+            462,
+            743,
+            563
+          ],
+          "visible_area_px": 4501,
+          "visible_pixel_center_centroid_px": [
+            698.5,
+            512.5
+          ],
+          "mask_sha256": "6d49a77ade0dfc90eccc46fcdcd756673b9cec790841fb8923eef29f7a39b9a7",
+          "purpose": "Alert TR corner",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S05",
+          "shape": "bowtie",
+          "center_px": [
+            56,
+            644
+          ],
+          "width_px": 104,
+          "height_px": 102,
+          "color_rgb": [
+            156,
+            48,
+            211
+          ],
+          "design_bbox_ltrb_px": [
+            4.0,
+            593.0,
+            108.0,
+            695.0
+          ],
+          "vertices_px": [
+            [
+              4.0,
+              593.0
+            ],
+            [
+              108.0,
+              695.0
+            ],
+            [
+              108.0,
+              593.0
+            ],
+            [
+              4.0,
+              695.0
+            ]
+          ],
+          "visible_raster_bbox_ltrb_px_half_open": [
+            4,
+            593,
+            109,
+            696
+          ],
+          "visible_area_px": 5509,
+          "visible_pixel_center_centroid_px": [
+            56.5,
+            644.5
+          ],
+          "mask_sha256": "e5c34367cc3b369506fcba789aa99f8c1e7de0b8958e8511479060a1664a3a8b",
+          "purpose": "Alert left / Sheet TL",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S06",
+          "shape": "rotated_rectangle",
+          "center_px": [
+            700,
+            643
+          ],
+          "width_px": 92,
+          "height_px": 110,
+          "color_rgb": [
+            20,
+            169,
+            210
+          ],
+          "design_bbox_ltrb_px": [
+            654.0,
+            588.0,
+            746.0,
+            698.0
+          ],
+          "vertices_px": [
+            [
+              683.9,
+              588.0
+            ],
+            [
+              746.0,
+              615.5
+            ],
+            [
+              716.1,
+              698.0
+            ],
+            [
+              654.0,
+              670.5
+            ]
+          ],
+          "visible_raster_bbox_ltrb_px_half_open": [
+            654,
+            588,
+            747,
+            699
+          ],
+          "visible_area_px": 6077,
+          "visible_pixel_center_centroid_px": [
+            700.3507487246997,
+            643.2294717788383
+          ],
+          "mask_sha256": "7a402a0fcd0a9463be34575c2e2ecd3e767e71d51e1fb05d2ddf75a902aa36d9",
+          "purpose": "Alert right / Sheet TR",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S07",
+          "shape": "cross",
+          "center_px": [
+            172,
+            650
+          ],
+          "width_px": 108,
+          "height_px": 108,
+          "color_rgb": [
+            215,
+            43,
+            154
+          ],
+          "design_bbox_ltrb_px": [
+            118.0,
+            596.0,
+            226.0,
+            704.0
+          ],
+          "vertices_px": [
+            [
+              153.1,
+              596.0
+            ],
+            [
+              190.9,
+              596.0
+            ],
+            [
+              190.9,
+              631.1
+            ],
+            [
+              226.0,
+              631.1
+            ],
+            [
+              226.0,
+              668.9
+            ],
+            [
+              190.9,
+              668.9
+            ],
+            [
+              190.9,
+              704.0
+            ],
+            [
+              153.1,
+              704.0
+            ],
+            [
+              153.1,
+              668.9
+            ],
+            [
+              118.0,
+              668.9
+            ],
+            [
+              118.0,
+              631.1
+            ],
+            [
+              153.1,
+              631.1
+            ]
+          ],
+          "visible_raster_bbox_ltrb_px_half_open": [
+            118,
+            596,
+            227,
+            705
+          ],
+          "visible_area_px": 6840,
+          "visible_pixel_center_centroid_px": [
+            172.30277777777778,
+            650.3027777777778
+          ],
+          "mask_sha256": "449000b487c5e6579ea5859fdbf0bc63f277ce03870f3b85877dca9f79342ab4",
+          "purpose": "Sheet top-left straight",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S08",
+          "shape": "ellipse_horizontal",
+          "center_px": [
+            586,
+            654
+          ],
+          "width_px": 120,
+          "height_px": 80,
+          "color_rgb": [
+            118,
+            63,
+            30
+          ],
+          "design_bbox_ltrb_px": [
+            526.0,
+            614.0,
+            646.0,
+            694.0
+          ],
+          "vertices_px": null,
+          "visible_raster_bbox_ltrb_px_half_open": [
+            526,
+            614,
+            647,
+            695
+          ],
+          "visible_area_px": 7685,
+          "visible_pixel_center_centroid_px": [
+            586.5,
+            654.5
+          ],
+          "mask_sha256": "dce197f52edb7952e257135ae7b511c2e0e3bffc255f6450d535c09dcbd8ec53",
+          "purpose": "Sheet top-right straight",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S09",
+          "shape": "hexagon",
+          "center_px": [
+            167,
+            855
+          ],
+          "width_px": 108,
+          "height_px": 104,
+          "color_rgb": [
+            10,
+            136,
+            140
+          ],
+          "design_bbox_ltrb_px": [
+            113.0,
+            803.0,
+            221.0,
+            907.0
+          ],
+          "vertices_px": [
+            [
+              221.0,
+              855.0
+            ],
+            [
+              194.0,
+              900.0333209967908
+            ],
+            [
+              140.0,
+              900.0333209967908
+            ],
+            [
+              113.0,
+              855.0
+            ],
+            [
+              139.99999999999997,
+              809.9666790032093
+            ],
+            [
+              194.0,
+              809.9666790032092
+            ]
+          ],
+          "visible_raster_bbox_ltrb_px_half_open": [
+            113,
+            809,
+            222,
+            901
+          ],
+          "visible_area_px": 7540,
+          "visible_pixel_center_centroid_px": [
+            167.38302387267905,
+            854.957824933687
+          ],
+          "mask_sha256": "0c13e57f853bafb3450fdeb89fa24112fec2e7f58a6621f120021c2ff3de44f4",
+          "purpose": "Alert bottom-left",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S10",
+          "shape": "triangle_down",
+          "center_px": [
+            587,
+            857
+          ],
+          "width_px": 112,
+          "height_px": 108,
+          "color_rgb": [
+            168,
+            153,
+            15
+          ],
+          "design_bbox_ltrb_px": [
+            531.0,
+            803.0,
+            643.0,
+            911.0
+          ],
+          "vertices_px": [
+            [
+              531.0,
+              803.0
+            ],
+            [
+              643.0,
+              803.0
+            ],
+            [
+              587.0,
+              911.0
+            ]
+          ],
+          "visible_raster_bbox_ltrb_px_half_open": [
+            531,
+            803,
+            644,
+            912
+          ],
+          "visible_area_px": 6213,
+          "visible_pixel_center_centroid_px": [
+            587.5,
+            839.527361982939
+          ],
+          "mask_sha256": "f26a5b0636f599c364a75a6977b129a6b17c15203f8c89da5fe3abe44eda25eb",
+          "purpose": "Alert bottom-right",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S11",
+          "shape": "L_shape",
+          "center_px": [
+            52,
+            1036
+          ],
+          "width_px": 92,
+          "height_px": 112,
+          "color_rgb": [
+            60,
+            47,
+            171
+          ],
+          "design_bbox_ltrb_px": [
+            6.0,
+            980.0,
+            98.0,
+            1092.0
+          ],
+          "vertices_px": [
+            [
+              6.0,
+              980.0
+            ],
+            [
+              42.8,
+              980.0
+            ],
+            [
+              42.8,
+              1050.0
+            ],
+            [
+              98.0,
+              1050.0
+            ],
+            [
+              98.0,
+              1092.0
+            ],
+            [
+              6.0,
+              1092.0
+            ]
+          ],
+          "visible_raster_bbox_ltrb_px_half_open": [
+            6,
+            980,
+            99,
+            1093
+          ],
+          "visible_area_px": 6589,
+          "visible_pixel_center_centroid_px": [
+            41.49377750796783,
+            1049.291015328578
+          ],
+          "mask_sha256": "0360c795354c9c8eff19389c4567db0e18859629d9f2a8d42f230e76b1c62cc4",
+          "purpose": "Sheet left mid",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S12",
+          "shape": "capsule_vertical",
+          "center_px": [
+            699,
+            1038
+          ],
+          "width_px": 84,
+          "height_px": 124,
+          "color_rgb": [
+            175,
+            49,
+            34
+          ],
+          "design_bbox_ltrb_px": [
+            657.0,
+            976.0,
+            741.0,
+            1100.0
+          ],
+          "vertices_px": null,
+          "visible_raster_bbox_ltrb_px_half_open": [
+            657,
+            976,
+            742,
+            1101
+          ],
+          "visible_area_px": 9053,
+          "visible_pixel_center_centroid_px": [
+            699.5,
+            1038.5
+          ],
+          "mask_sha256": "6dc1d33b1af864e06525a3650e56d820a2cfa7d30c09e9cc9a67bd2c7e37e03e",
+          "purpose": "Sheet right mid",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S13",
+          "shape": "arrow_up",
+          "center_px": [
+            56,
+            1229
+          ],
+          "width_px": 100,
+          "height_px": 116,
+          "color_rgb": [
+            64,
+            137,
+            20
+          ],
+          "design_bbox_ltrb_px": [
+            6.0,
+            1171.0,
+            106.0,
+            1287.0
+          ],
+          "vertices_px": [
+            [
+              56.0,
+              1171.0
+            ],
+            [
+              106.0,
+              1220.3
+            ],
+            [
+              74.0,
+              1220.3
+            ],
+            [
+              74.0,
+              1287.0
+            ],
+            [
+              38.0,
+              1287.0
+            ],
+            [
+              38.0,
+              1220.3
+            ],
+            [
+              6.0,
+              1220.3
+            ]
+          ],
+          "visible_raster_bbox_ltrb_px_half_open": [
+            6,
+            1171,
+            107,
+            1288
+          ],
+          "visible_area_px": 5029,
+          "visible_pixel_center_centroid_px": [
+            56.5,
+            1229.1023066215948
+          ],
+          "mask_sha256": "e2504e06c088f4d54c4c33c5434361b508627b0d02a51d4b29ca30fc5fff45c5",
+          "purpose": "Sheet left lower",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S14",
+          "shape": "crescent",
+          "center_px": [
+            699,
+            1231
+          ],
+          "width_px": 90,
+          "height_px": 110,
+          "color_rgb": [
+            218,
+            72,
+            17
+          ],
+          "design_bbox_ltrb_px": [
+            654.0,
+            1176.0,
+            744.0,
+            1286.0
+          ],
+          "vertices_px": null,
+          "visible_raster_bbox_ltrb_px_half_open": [
+            654,
+            1176,
+            722,
+            1287
+          ],
+          "visible_area_px": 4006,
+          "visible_pixel_center_centroid_px": [
+            681.6467798302547,
+            1231.7935596605093
+          ],
+          "mask_sha256": "a534fd3ee5e6cd4f7d9f1d39aeaa58dcbc834acb5b4a511ef45bad181832e5d2",
+          "purpose": "Sheet right lower",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S15",
+          "shape": "trapezoid",
+          "center_px": [
+            169,
+            1281
+          ],
+          "width_px": 112,
+          "height_px": 94,
+          "color_rgb": [
+            111,
+            35,
+            137
+          ],
+          "design_bbox_ltrb_px": [
+            113.0,
+            1234.0,
+            225.0,
+            1328.0
+          ],
+          "vertices_px": [
+            [
+              141.0,
+              1234.0
+            ],
+            [
+              197.0,
+              1234.0
+            ],
+            [
+              225.0,
+              1328.0
+            ],
+            [
+              113.0,
+              1328.0
+            ]
+          ],
+          "visible_raster_bbox_ltrb_px_half_open": [
+            113,
+            1234,
+            226,
+            1329
+          ],
+          "visible_area_px": 8075,
+          "visible_pixel_center_centroid_px": [
+            169.5,
+            1286.7795046439628
+          ],
+          "mask_sha256": "5e12b8cc6d478597793c1cedacf5444b3c60467c03facc6c21dadc698af1be59",
+          "purpose": "Sheet bottom-left",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        },
+        {
+          "id": "S16",
+          "shape": "parallelogram",
+          "center_px": [
+            584,
+            1281
+          ],
+          "width_px": 120,
+          "height_px": 96,
+          "color_rgb": [
+            30,
+            105,
+            154
+          ],
+          "design_bbox_ltrb_px": [
+            524.0,
+            1233.0,
+            644.0,
+            1329.0
+          ],
+          "vertices_px": [
+            [
+              557.0,
+              1233.0
+            ],
+            [
+              644.0,
+              1233.0
+            ],
+            [
+              611.0,
+              1329.0
+            ],
+            [
+              524.0,
+              1329.0
+            ]
+          ],
+          "visible_raster_bbox_ltrb_px_half_open": [
+            524,
+            1233,
+            645,
+            1330
+          ],
+          "visible_area_px": 8533,
+          "visible_pixel_center_centroid_px": [
+            584.5,
+            1281.5
+          ],
+          "mask_sha256": "d4d39b08bdd9c4baeb2a6773837a5a7e361ae71aa2a4951804cbfd34a73a044a",
+          "purpose": "Sheet bottom-right",
+          "tracking_warning": "Output may be clipped by pane/foreground, blurred or blended with nearby color. No automatic correspondence unless fixed gates pass."
+        }
+      ],
+      "exterior_controls": [
+        {
+          "id": "K01",
+          "bbox_ltrb_px_half_open": [
+            86,
+            352,
+            208,
+            438
+          ],
+          "color_rgb": [
+            210,
+            54,
+            70
+          ],
+          "purpose": "Exterior encoded-RGB scrim control; not a glass feature."
+        },
+        {
+          "id": "K02",
+          "bbox_ltrb_px_half_open": [
+            292,
+            352,
+            414,
+            438
+          ],
+          "color_rgb": [
+            36,
+            152,
+            90
+          ],
+          "purpose": "Exterior encoded-RGB scrim control; not a glass feature."
+        },
+        {
+          "id": "K03",
+          "bbox_ltrb_px_half_open": [
+            498,
+            352,
+            620,
+            438
+          ],
+          "color_rgb": [
+            37,
+            94,
+            211
+          ],
+          "purpose": "Exterior encoded-RGB scrim control; not a glass feature."
+        }
+      ],
+      "rasterization": "Pillow ImageDraw filled shapes at original750x1334 pixels, no supersampling/resizing; polygon vertices/ellipse bbox and visible raster mask hashes provided.",
+      "minimum_nominal_shape_dimension_px": 80,
+      "warning": "No microdots, outline-only features, text glyphs or periodic shape lattice. Nearby markers still require empirical blur/separability gates."
+    }
+  ]
+}

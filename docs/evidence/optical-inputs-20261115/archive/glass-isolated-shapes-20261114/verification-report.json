@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "verified_utc": "2026-11-14T12:47:50.106178+00:00",
+  "protocol_sha256": "e0ca7d24ec7dd5db28b5aafc51eeaac486a4c62b7ce4c08d8342a329c75b1f2a",
+  "freeze_sha256": "c3a15180db0c122f28c1416f85cad1252acf2d25c6a4687e190f9b01e2ebc280",
+  "manifest_sha256": {
+    "calibration": "4f69c2f5ca826fbddf31f04ca429d377ce329408fe65761692546790c9b4ff75",
+    "test": "ba5f6ddd463505299ddc8245d8b3e6b4dd4dc932fb2405e56a55f777420cf95f"
+  },
+  "input_pngs": 16,
+  "pairs": 8,
+  "byte_identical_controls": 8,
+  "control_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+  "coverage_reconstruction": "all pixels of16 inputs checked; all8 shape masks match fresh frozen geometry rasterization",
+  "atlas_sha256": "115b6fa16c7dc6c89039e5e2564b583fbb25c2e6e9887e004ee55abe3c98464d",
+  "capture_or_optical_validation_claimed": false,
+  "passed": true,
+  "pair_details": [
+    {
+      "pair_id": "ic01_circle_top",
+      "center_px": [
+        375.5,
+        1168.5
+      ],
+      "radius_px": 20,
+      "coverage_area_px2": 1256.75,
+      "metadata_sha256": "684522aae84caa8422e4c92593e72d8699314852c6fb1806764811c7c88bb7f1"
+    },
+    {
+      "pair_id": "ic02_triangle_body",
+      "center_px": [
+        536.5,
+        1230.5
+      ],
+      "radius_px": 22,
+      "coverage_area_px2": 628.625,
+      "metadata_sha256": "4eb9ebf7af1a99faecf18c89b9e5bbb855ae9fdda3368a6a804a5a852bf1d68b"
+    },
+    {
+      "pair_id": "ic03_star_right",
+      "center_px": [
+        707.5,
+        1230.5
+      ],
+      "radius_px": 24,
+      "coverage_area_px2": 761.625,
+      "metadata_sha256": "1ac5123d9212937933b9d1dc17c73c99ea77653a746da967df4b74e6523c1a71"
+    },
+    {
+      "pair_id": "ic04_asymmetric_lower",
+      "center_px": [
+        375.5,
+        1291.5
+      ],
+      "radius_px": 20,
+      "coverage_area_px2": 881.125,
+      "metadata_sha256": "6e231b661f3bfaa03d21dd7711c2e6ee8e5a57e1fdcfc2c40e68600c2c1169b4"
+    },
+    {
+      "pair_id": "it01_circle_top",
+      "center_px": [
+        369.5,
+        1166.5
+      ],
+      "radius_px": 14,
+      "coverage_area_px2": 616.0,
+      "metadata_sha256": "0d774718eeba50a4e4de06da12dbb3eb74570f19c687e14406bf238c17541f5d"
+    },
+    {
+      "pair_id": "it02_triangle_body",
+      "center_px": [
+        530.5,
+        1226.5
+      ],
+      "radius_px": 23,
+      "coverage_area_px2": 687.0,
+      "metadata_sha256": "68e7aed99bc3400e33c58bb26010a1f4b66cabfb1002e182aa00c1f4054c9334"
+    },
+    {
+      "pair_id": "it03_star_right",
+      "center_px": [
+        707.5,
+        1232.5
+      ],
+      "radius_px": 19,
+      "coverage_area_px2": 477.5,
+      "metadata_sha256": "64297542388acadeb1ed2965d43ddeb31868f9ea425af44d7fc9b088dd94b4a8"
+    },
+    {
+      "pair_id": "it04_asymmetric_lower",
+      "center_px": [
+        378.5,
+        1295.5
+      ],
+      "radius_px": 15,
+      "coverage_area_px2": 495.4375,
+      "metadata_sha256": "34b6dc835c0058f91a26d84675df92f10514db79b5221f415bf44e576bf8a15b"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "renderer": "render_figures.py",
+  "matplotlib": "3.9.4",
+  "scope": "charts from committed completed outputs, not a fresh analysis",
+  "outputs": [
+    {
+      "file": "images/holdout/local-median-errors.png",
+      "sha256": "914d590e1811032bcdc412e7318c63b10a4245d1eca1e0c5d8f96052c3ef4901",
+      "bytes": 127950
+    },
+    {
+      "file": "images/holdout/local-median-errors.svg",
+      "sha256": "9752b7ce1c22c5cb40c5e36bd8eab2639223cc14ced602278e982cfc73aad766",
+      "bytes": 93453
+    },
+    {
+      "file": "images/holdout/representative-Y-curves.png",
+      "sha256": "42104fbe77a4c3d89736ab5e71d0d9902c4f135dc948e1743064cf6bc3223e34",
+      "bytes": 188417
+    },
+    {
+      "file": "images/holdout/representative-Y-curves.svg",
+      "sha256": "3602942e8163b5ad6bd6ade19bc381296587a191cf0f005ea531dad145ec07cd",
+      "bytes": 118505
+    }
+  ]
+}

@@ -1,0 +1,565 @@
+{
+  "schema": 1,
+  "status": "FROZEN BEFORE NEW CLEAN PIXEL DECODE; root handoff still required",
+  "scope": "Native panel plain-backing-r2 calibration feasibility only; no Android, Dock, refraction fitting, dynamic behavior or parity acceptance",
+  "capture_directory": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-r2-preparation",
+  "capture_plan_sha256": "43d85ae6373c1946f962fd530fbf0d31559ca15df04bb61efb079b3e5fc4f970",
+  "input_manifest_sha256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+  "input_set_id": "panel_nonperiodic_calibration_20261115",
+  "input_ids": [
+    "panel_probe_coordinate",
+    "panel_probe_shapes"
+  ],
+  "carriers": [
+    "alert",
+    "sheet"
+  ],
+  "phases": [
+    "clean-before",
+    "rest",
+    "rest-repeat",
+    "dismiss-after"
+  ],
+  "source_png_sha256": {
+    "panel_probe_coordinate": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e",
+    "panel_probe_shapes": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+  },
+  "expected_sessions": 4,
+  "expected_PNG_attachments": 16,
+  "expected_AX_attachments": 16,
+  "expected_requests": 24,
+  "expected_session_traits": {
+    "screenWidthPt": 375,
+    "screenHeightPt": 667,
+    "screenScale": 2,
+    "interfaceStyle": 1,
+    "reduceMotion": false,
+    "reduceTransparency": false,
+    "darkerSystemColors": false
+  },
+  "expected_native_os": "Version 26.5 (Build 23F77)",
+  "excluded_backing_AX_ids": [
+    "show-sheet",
+    "show-alert",
+    "show-menu"
+  ],
+  "old_fixture_geometry": {
+    "panel_probe_coordinate": {
+      "alert": {
+        "AX_ltrb_pt": [
+          27.5,
+          257.5,
+          347.5,
+          429.5
+        ],
+        "foreground_ltrb_pt": [
+          [
+            57.5,
+            279.5,
+            317.5,
+            300.0
+          ],
+          [
+            57.5,
+            307.0,
+            317.5,
+            345.0
+          ],
+          [
+            43.5,
+            365.5,
+            183.5,
+            413.5
+          ],
+          [
+            191.5,
+            365.5,
+            331.5,
+            413.5
+          ]
+        ],
+        "public_controllers": [
+          {
+            "presentationStyle": 2,
+            "isBeingPresented": false,
+            "isBeingDismissed": false,
+            "class": "ReferenceViewController",
+            "effectiveInterfaceStyle": 1,
+            "viewEffectiveInterfaceStyle": 1,
+            "viewRectInWindowPt": {
+              "x": 0,
+              "w": 375,
+              "h": 667,
+              "y": 0
+            }
+          },
+          {
+            "presentationStyle": 4,
+            "effectiveInterfaceStyle": 1,
+            "viewEffectiveInterfaceStyle": 1,
+            "viewRectInWindowPt": {
+              "h": 172,
+              "x": 27.5,
+              "w": 320,
+              "y": 257.5
+            },
+            "isBeingDismissed": false,
+            "isBeingPresented": false,
+            "class": "PlatformAlertController"
+          }
+        ]
+      },
+      "sheet": {
+        "AX_ltrb_pt": [
+          8.0,
+          317.7,
+          367.0,
+          659.0
+        ],
+        "foreground_ltrb_pt": [
+          [
+            151.1,
+            312.9,
+            223.89999999999998,
+            336.79999999999995
+          ],
+          [
+            129.3,
+            375.2,
+            245.60000000000002,
+            400.59999999999997
+          ],
+          [
+            74.5,
+            423.5,
+            300.4,
+            443.1
+          ],
+          [
+            31.0,
+            466.1,
+            344.0,
+            492.90000000000003
+          ],
+          [
+            31.0,
+            469.7,
+            128.6,
+            489.3
+          ],
+          [
+            285.6,
+            466.1,
+            345.90000000000003,
+            492.90000000000003
+          ],
+          [
+            31.0,
+            515.9,
+            344.0,
+            545.6
+          ],
+          [
+            156.9,
+            568.5,
+            218.60000000000002,
+            601.5
+          ]
+        ],
+        "public_controllers": [
+          {
+            "effectiveInterfaceStyle": 1,
+            "viewRectInWindowPt": {
+              "y": 0,
+              "x": 0,
+              "h": 667,
+              "w": 375
+            },
+            "class": "ReferenceViewController",
+            "viewEffectiveInterfaceStyle": 1,
+            "isBeingPresented": false,
+            "isBeingDismissed": false,
+            "presentationStyle": 2
+          },
+          {
+            "presentationStyle": 2,
+            "effectiveInterfaceStyle": 1,
+            "viewEffectiveInterfaceStyle": 1,
+            "viewRectInWindowPt": {
+              "y": 317.71066666666667,
+              "x": 8,
+              "w": 359,
+              "h": 341.28933333333333
+            },
+            "isBeingDismissed": false,
+            "isBeingPresented": false,
+            "class": "PresentationHostingController<AnyView>"
+          }
+        ]
+      }
+    },
+    "panel_probe_shapes": {
+      "alert": {
+        "AX_ltrb_pt": [
+          27.5,
+          257.5,
+          347.5,
+          429.5
+        ],
+        "foreground_ltrb_pt": [
+          [
+            57.5,
+            279.5,
+            317.5,
+            300.0
+          ],
+          [
+            57.5,
+            307.0,
+            317.5,
+            345.0
+          ],
+          [
+            43.5,
+            365.5,
+            183.5,
+            413.5
+          ],
+          [
+            191.5,
+            365.5,
+            331.5,
+            413.5
+          ]
+        ],
+        "public_controllers": [
+          {
+            "viewRectInWindowPt": {
+              "w": 375,
+              "h": 667,
+              "y": 0,
+              "x": 0
+            },
+            "viewEffectiveInterfaceStyle": 1,
+            "isBeingPresented": false,
+            "class": "ReferenceViewController",
+            "presentationStyle": 2,
+            "isBeingDismissed": false,
+            "effectiveInterfaceStyle": 1
+          },
+          {
+            "presentationStyle": 4,
+            "viewRectInWindowPt": {
+              "h": 172,
+              "w": 320,
+              "y": 257.5,
+              "x": 27.5
+            },
+            "class": "PlatformAlertController",
+            "viewEffectiveInterfaceStyle": 1,
+            "isBeingPresented": false,
+            "effectiveInterfaceStyle": 1,
+            "isBeingDismissed": false
+          }
+        ]
+      },
+      "sheet": {
+        "AX_ltrb_pt": [
+          8.0,
+          317.7,
+          367.0,
+          659.0
+        ],
+        "foreground_ltrb_pt": [
+          [
+            151.1,
+            312.9,
+            223.89999999999998,
+            336.79999999999995
+          ],
+          [
+            129.3,
+            375.2,
+            245.60000000000002,
+            400.59999999999997
+          ],
+          [
+            74.5,
+            423.5,
+            300.4,
+            443.1
+          ],
+          [
+            31.0,
+            466.1,
+            344.0,
+            492.90000000000003
+          ],
+          [
+            31.0,
+            469.7,
+            128.6,
+            489.3
+          ],
+          [
+            285.6,
+            466.1,
+            345.90000000000003,
+            492.90000000000003
+          ],
+          [
+            31.0,
+            515.9,
+            344.0,
+            545.6
+          ],
+          [
+            156.9,
+            568.5,
+            218.60000000000002,
+            601.5
+          ]
+        ],
+        "public_controllers": [
+          {
+            "viewRectInWindowPt": {
+              "y": 0,
+              "h": 667,
+              "w": 375,
+              "x": 0
+            },
+            "isBeingPresented": false,
+            "viewEffectiveInterfaceStyle": 1,
+            "isBeingDismissed": false,
+            "effectiveInterfaceStyle": 1,
+            "class": "ReferenceViewController",
+            "presentationStyle": 2
+          },
+          {
+            "viewEffectiveInterfaceStyle": 1,
+            "effectiveInterfaceStyle": 1,
+            "class": "PresentationHostingController<AnyView>",
+            "isBeingDismissed": false,
+            "isBeingPresented": false,
+            "viewRectInWindowPt": {
+              "y": 317.71066666666667,
+              "w": 359,
+              "h": 341.28933333333333,
+              "x": 8
+            },
+            "presentationStyle": 2
+          }
+        ]
+      }
+    }
+  },
+  "geometry_tolerances_pt": {
+    "public_controller_rect": 0.01,
+    "AX_pane_and_foreground": 0.1
+  },
+  "geometry_tolerance_reason": "Public geometry is numeric; AX text is rounded to one decimal. Neither allowance is an optical acceptance tolerance.",
+  "source_footprints": {
+    "alert": [
+      {
+        "name": "alert_source_core",
+        "ltrb_pt": [
+          148.5,
+          257.5,
+          226.5,
+          317.5
+        ],
+        "collar_pt": 0,
+        "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+      },
+      {
+        "name": "alert_source_core_collar2pt",
+        "ltrb_pt": [
+          146.5,
+          255.5,
+          228.5,
+          319.5
+        ],
+        "collar_pt": 2,
+        "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+      },
+      {
+        "name": "alert_source_core_collar8pt",
+        "ltrb_pt": [
+          140.5,
+          249.5,
+          234.5,
+          325.5
+        ],
+        "collar_pt": 8,
+        "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+      },
+      {
+        "name": "alert_source_core_collar24pt",
+        "ltrb_pt": [
+          124.5,
+          233.5,
+          250.5,
+          341.5
+        ],
+        "collar_pt": 24,
+        "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+      },
+      {
+        "name": "alert_source_core_collar60pt",
+        "ltrb_pt": [
+          88.5,
+          197.5,
+          286.5,
+          377.5
+        ],
+        "collar_pt": 60,
+        "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+      },
+      {
+        "name": "old_show-sheet",
+        "ltrb_pt": [
+          126.5,
+          286,
+          249,
+          319.5
+        ],
+        "scope": "Former backing control footprint; same fixed region for both selected inputs"
+      },
+      {
+        "name": "old_show-alert",
+        "ltrb_pt": [
+          130,
+          345.5,
+          245,
+          379
+        ],
+        "scope": "Former backing control footprint; same fixed region for both selected inputs"
+      },
+      {
+        "name": "old_show-menu",
+        "ltrb_pt": [
+          126.5,
+          405,
+          249,
+          438.5
+        ],
+        "scope": "Former backing control footprint; same fixed region for both selected inputs"
+      }
+    ],
+    "sheet": [
+      {
+        "name": "sheet_source_core",
+        "ltrb_pt": [
+          51,
+          317.5,
+          129,
+          377.5
+        ],
+        "collar_pt": 0,
+        "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+      },
+      {
+        "name": "sheet_source_core_collar2pt",
+        "ltrb_pt": [
+          49,
+          315.5,
+          131,
+          379.5
+        ],
+        "collar_pt": 2,
+        "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+      },
+      {
+        "name": "sheet_source_core_collar8pt",
+        "ltrb_pt": [
+          43,
+          309.5,
+          137,
+          385.5
+        ],
+        "collar_pt": 8,
+        "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+      },
+      {
+        "name": "sheet_source_core_collar24pt",
+        "ltrb_pt": [
+          27,
+          293.5,
+          153,
+          401.5
+        ],
+        "collar_pt": 24,
+        "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+      },
+      {
+        "name": "sheet_source_core_collar60pt",
+        "ltrb_pt": [
+          0,
+          257.5,
+          189,
+          437.5
+        ],
+        "collar_pt": 60,
+        "scope": "Fixed source-footprint exactness only; collar60 is not a native blur support upper bound"
+      },
+      {
+        "name": "S07_original_frozen_support",
+        "ltrb_pt": [
+          27,
+          266,
+          145,
+          384
+        ],
+        "scope": "Previously declared support retained unchanged"
+      },
+      {
+        "name": "old_show-sheet",
+        "ltrb_pt": [
+          126.5,
+          286,
+          249,
+          319.5
+        ],
+        "scope": "Former backing control footprint; same fixed region for both selected inputs"
+      },
+      {
+        "name": "old_show-alert",
+        "ltrb_pt": [
+          130,
+          345.5,
+          245,
+          379
+        ],
+        "scope": "Former backing control footprint; same fixed region for both selected inputs"
+      },
+      {
+        "name": "old_show-menu",
+        "ltrb_pt": [
+          126.5,
+          405,
+          249,
+          438.5
+        ],
+        "scope": "Former backing control footprint; same fixed region for both selected inputs"
+      }
+    ]
+  },
+  "RGBA_repeat_rule": "Entire 750x1334 decoded RGBA raw AND embedded-profile-normalized sRGB tracks must each have zero changed pixels and zero channel difference; no mask/crop/tolerance/registration/warp",
+  "source_footprint_rule": "Fixed listed rectangles are compared before/dismiss-after with the original source, exact RGBA on raw and normalized tracks, using pixel-center membership in the fixed375x667pt @2 canvas",
+  "full_context_rule": "Before vs after, before vs bare source and after vs bare source are also reported across the entire image independently. Expected system chrome differences are not cropped away or used to relax source-footprint checks.",
+  "input_policy": "Hash complete new attachment/session inventory before the first decode; decode only two declared calibration sources plus sixteen new r2 screenshots. Old captures, failed native captures, compatibility sources and heldout inputs remain undecoded.",
+  "separate_condition": "Native adaptation can change with backing; r2 clean optical pixels cannot be pooled with old polluted fixture pixels.",
+  "claims_not_established": [
+    "Unique two-dimensional source mapping",
+    "Native central contour/tangent invariance",
+    "Native blur support upper bound",
+    "Physical lens thickness",
+    "Refraction fit",
+    "99.99% similarity or visual parity"
+  ],
+  "next_decision": "Root reviews failures and independent contour/support feasibility. Source exactness alone never approves paired-slope inversion.",
+  "metadata_sources": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/geometry-and-mask.json": "c40a3cbcb8f41f7967749f81f88c47769bb8eeb84356ebf32ef9abac9b10d0cc",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/capture-receipts.json": "3d099685495051aa237331a7b5505352b5241c152906fe7c28b969b1583f9ec1"
+  }
+}

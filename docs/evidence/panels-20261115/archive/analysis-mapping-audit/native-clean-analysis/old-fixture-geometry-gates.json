@@ -1,0 +1,946 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [],
+      "foreground_ltrb_pt": []
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "viewRectInWindowPt": {
+          "y": 0,
+          "x": 0,
+          "w": 375,
+          "h": 667
+        },
+        "presentationStyle": 2,
+        "isBeingDismissed": false,
+        "class": "ReferenceViewController",
+        "effectiveInterfaceStyle": 1,
+        "viewEffectiveInterfaceStyle": 1,
+        "isBeingPresented": false
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "rest",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [
+        [
+          27.5,
+          257.5,
+          347.5,
+          429.5
+        ]
+      ],
+      "foreground_ltrb_pt": [
+        [
+          57.5,
+          279.5,
+          317.5,
+          300.0
+        ],
+        [
+          57.5,
+          307.0,
+          317.5,
+          345.0
+        ],
+        [
+          43.5,
+          365.5,
+          183.5,
+          413.5
+        ],
+        [
+          191.5,
+          365.5,
+          331.5,
+          413.5
+        ]
+      ]
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "viewRectInWindowPt": {
+          "x": 0,
+          "y": 0,
+          "w": 375,
+          "h": 667
+        },
+        "presentationStyle": 2,
+        "effectiveInterfaceStyle": 1,
+        "class": "ReferenceViewController",
+        "isBeingPresented": false,
+        "isBeingDismissed": false,
+        "viewEffectiveInterfaceStyle": 1
+      },
+      {
+        "effectiveInterfaceStyle": 1,
+        "viewRectInWindowPt": {
+          "x": 27.5,
+          "y": 257.5,
+          "w": 320,
+          "h": 172
+        },
+        "presentationStyle": 4,
+        "isBeingPresented": false,
+        "isBeingDismissed": false,
+        "viewEffectiveInterfaceStyle": 1,
+        "class": "PlatformAlertController"
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "rest-repeat",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [
+        [
+          27.5,
+          257.5,
+          347.5,
+          429.5
+        ]
+      ],
+      "foreground_ltrb_pt": [
+        [
+          57.5,
+          279.5,
+          317.5,
+          300.0
+        ],
+        [
+          57.5,
+          307.0,
+          317.5,
+          345.0
+        ],
+        [
+          43.5,
+          365.5,
+          183.5,
+          413.5
+        ],
+        [
+          191.5,
+          365.5,
+          331.5,
+          413.5
+        ]
+      ]
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "viewRectInWindowPt": {
+          "x": 0,
+          "y": 0,
+          "w": 375,
+          "h": 667
+        },
+        "presentationStyle": 2,
+        "effectiveInterfaceStyle": 1,
+        "class": "ReferenceViewController",
+        "isBeingPresented": false,
+        "isBeingDismissed": false,
+        "viewEffectiveInterfaceStyle": 1
+      },
+      {
+        "effectiveInterfaceStyle": 1,
+        "viewRectInWindowPt": {
+          "x": 27.5,
+          "y": 257.5,
+          "w": 320,
+          "h": 172
+        },
+        "presentationStyle": 4,
+        "isBeingPresented": false,
+        "isBeingDismissed": false,
+        "viewEffectiveInterfaceStyle": 1,
+        "class": "PlatformAlertController"
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [],
+      "foreground_ltrb_pt": []
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "effectiveInterfaceStyle": 1,
+        "viewRectInWindowPt": {
+          "x": 0,
+          "y": 0,
+          "w": 375,
+          "h": 667
+        },
+        "presentationStyle": 2,
+        "isBeingPresented": false,
+        "isBeingDismissed": false,
+        "viewEffectiveInterfaceStyle": 1,
+        "class": "ReferenceViewController"
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [],
+      "foreground_ltrb_pt": []
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "effectiveInterfaceStyle": 1,
+        "viewEffectiveInterfaceStyle": 1,
+        "isBeingDismissed": false,
+        "isBeingPresented": false,
+        "viewRectInWindowPt": {
+          "w": 375,
+          "x": 0,
+          "h": 667,
+          "y": 0
+        },
+        "presentationStyle": 2,
+        "class": "ReferenceViewController"
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "rest",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [
+        [
+          8.0,
+          317.7,
+          367.0,
+          659.0
+        ]
+      ],
+      "foreground_ltrb_pt": [
+        [
+          151.1,
+          312.9,
+          223.89999999999998,
+          336.79999999999995
+        ],
+        [
+          129.3,
+          375.2,
+          245.60000000000002,
+          400.59999999999997
+        ],
+        [
+          74.5,
+          423.5,
+          300.4,
+          443.1
+        ],
+        [
+          31.0,
+          466.1,
+          344.0,
+          492.90000000000003
+        ],
+        [
+          31.0,
+          469.7,
+          128.6,
+          489.3
+        ],
+        [
+          285.6,
+          466.1,
+          345.90000000000003,
+          492.90000000000003
+        ],
+        [
+          31.0,
+          515.9,
+          344.0,
+          545.6
+        ],
+        [
+          156.9,
+          568.5,
+          218.60000000000002,
+          601.5
+        ]
+      ]
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "class": "ReferenceViewController",
+        "effectiveInterfaceStyle": 1,
+        "presentationStyle": 2,
+        "viewRectInWindowPt": {
+          "w": 375,
+          "y": 0,
+          "x": 0,
+          "h": 667
+        },
+        "isBeingDismissed": false,
+        "isBeingPresented": false,
+        "viewEffectiveInterfaceStyle": 1
+      },
+      {
+        "isBeingDismissed": false,
+        "viewRectInWindowPt": {
+          "w": 359,
+          "y": 317.71066666666667,
+          "x": 8,
+          "h": 341.28933333333333
+        },
+        "effectiveInterfaceStyle": 1,
+        "viewEffectiveInterfaceStyle": 1,
+        "presentationStyle": 2,
+        "isBeingPresented": false,
+        "class": "PresentationHostingController<AnyView>"
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "rest-repeat",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [
+        [
+          8.0,
+          317.7,
+          367.0,
+          659.0
+        ]
+      ],
+      "foreground_ltrb_pt": [
+        [
+          151.1,
+          312.9,
+          223.89999999999998,
+          336.79999999999995
+        ],
+        [
+          129.3,
+          375.2,
+          245.60000000000002,
+          400.59999999999997
+        ],
+        [
+          74.5,
+          423.5,
+          300.4,
+          443.1
+        ],
+        [
+          31.0,
+          466.1,
+          344.0,
+          492.90000000000003
+        ],
+        [
+          31.0,
+          469.7,
+          128.6,
+          489.3
+        ],
+        [
+          285.6,
+          466.1,
+          345.90000000000003,
+          492.90000000000003
+        ],
+        [
+          31.0,
+          515.9,
+          344.0,
+          545.6
+        ],
+        [
+          156.9,
+          568.5,
+          218.60000000000002,
+          601.5
+        ]
+      ]
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "class": "ReferenceViewController",
+        "effectiveInterfaceStyle": 1,
+        "presentationStyle": 2,
+        "viewRectInWindowPt": {
+          "w": 375,
+          "y": 0,
+          "x": 0,
+          "h": 667
+        },
+        "isBeingDismissed": false,
+        "isBeingPresented": false,
+        "viewEffectiveInterfaceStyle": 1
+      },
+      {
+        "isBeingDismissed": false,
+        "viewRectInWindowPt": {
+          "w": 359,
+          "y": 317.71066666666667,
+          "x": 8,
+          "h": 341.28933333333333
+        },
+        "effectiveInterfaceStyle": 1,
+        "viewEffectiveInterfaceStyle": 1,
+        "presentationStyle": 2,
+        "isBeingPresented": false,
+        "class": "PresentationHostingController<AnyView>"
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [],
+      "foreground_ltrb_pt": []
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "class": "ReferenceViewController",
+        "effectiveInterfaceStyle": 1,
+        "presentationStyle": 2,
+        "viewRectInWindowPt": {
+          "x": 0,
+          "h": 667,
+          "y": 0,
+          "w": 375
+        },
+        "isBeingDismissed": false,
+        "isBeingPresented": false,
+        "viewEffectiveInterfaceStyle": 1
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [],
+      "foreground_ltrb_pt": []
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "class": "ReferenceViewController",
+        "viewEffectiveInterfaceStyle": 1,
+        "isBeingDismissed": false,
+        "presentationStyle": 2,
+        "effectiveInterfaceStyle": 1,
+        "isBeingPresented": false,
+        "viewRectInWindowPt": {
+          "y": 0,
+          "x": 0,
+          "h": 667,
+          "w": 375
+        }
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "rest",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [
+        [
+          27.5,
+          257.5,
+          347.5,
+          429.5
+        ]
+      ],
+      "foreground_ltrb_pt": [
+        [
+          57.5,
+          279.5,
+          317.5,
+          300.0
+        ],
+        [
+          57.5,
+          307.0,
+          317.5,
+          345.0
+        ],
+        [
+          43.5,
+          365.5,
+          183.5,
+          413.5
+        ],
+        [
+          191.5,
+          365.5,
+          331.5,
+          413.5
+        ]
+      ]
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "isBeingPresented": false,
+        "presentationStyle": 2,
+        "viewRectInWindowPt": {
+          "y": 0,
+          "w": 375,
+          "h": 667,
+          "x": 0
+        },
+        "class": "ReferenceViewController",
+        "effectiveInterfaceStyle": 1,
+        "isBeingDismissed": false,
+        "viewEffectiveInterfaceStyle": 1
+      },
+      {
+        "class": "PlatformAlertController",
+        "isBeingPresented": false,
+        "effectiveInterfaceStyle": 1,
+        "isBeingDismissed": false,
+        "viewEffectiveInterfaceStyle": 1,
+        "presentationStyle": 4,
+        "viewRectInWindowPt": {
+          "y": 257.5,
+          "w": 320,
+          "h": 172,
+          "x": 27.5
+        }
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "rest-repeat",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [
+        [
+          27.5,
+          257.5,
+          347.5,
+          429.5
+        ]
+      ],
+      "foreground_ltrb_pt": [
+        [
+          57.5,
+          279.5,
+          317.5,
+          300.0
+        ],
+        [
+          57.5,
+          307.0,
+          317.5,
+          345.0
+        ],
+        [
+          43.5,
+          365.5,
+          183.5,
+          413.5
+        ],
+        [
+          191.5,
+          365.5,
+          331.5,
+          413.5
+        ]
+      ]
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "isBeingPresented": false,
+        "presentationStyle": 2,
+        "viewRectInWindowPt": {
+          "y": 0,
+          "w": 375,
+          "h": 667,
+          "x": 0
+        },
+        "class": "ReferenceViewController",
+        "effectiveInterfaceStyle": 1,
+        "isBeingDismissed": false,
+        "viewEffectiveInterfaceStyle": 1
+      },
+      {
+        "class": "PlatformAlertController",
+        "isBeingPresented": false,
+        "effectiveInterfaceStyle": 1,
+        "isBeingDismissed": false,
+        "viewEffectiveInterfaceStyle": 1,
+        "presentationStyle": 4,
+        "viewRectInWindowPt": {
+          "y": 257.5,
+          "w": 320,
+          "h": 172,
+          "x": 27.5
+        }
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [],
+      "foreground_ltrb_pt": []
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "isBeingPresented": false,
+        "presentationStyle": 2,
+        "viewRectInWindowPt": {
+          "w": 375,
+          "x": 0,
+          "y": 0,
+          "h": 667
+        },
+        "class": "ReferenceViewController",
+        "effectiveInterfaceStyle": 1,
+        "isBeingDismissed": false,
+        "viewEffectiveInterfaceStyle": 1
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [],
+      "foreground_ltrb_pt": []
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "class": "ReferenceViewController",
+        "isBeingPresented": false,
+        "effectiveInterfaceStyle": 1,
+        "viewEffectiveInterfaceStyle": 1,
+        "presentationStyle": 2,
+        "viewRectInWindowPt": {
+          "h": 667,
+          "w": 375,
+          "x": 0,
+          "y": 0
+        },
+        "isBeingDismissed": false
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "rest",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [
+        [
+          8.0,
+          317.7,
+          367.0,
+          659.0
+        ]
+      ],
+      "foreground_ltrb_pt": [
+        [
+          151.1,
+          312.9,
+          223.89999999999998,
+          336.79999999999995
+        ],
+        [
+          129.3,
+          375.2,
+          245.60000000000002,
+          400.59999999999997
+        ],
+        [
+          74.5,
+          423.5,
+          300.4,
+          443.1
+        ],
+        [
+          31.0,
+          466.1,
+          344.0,
+          492.90000000000003
+        ],
+        [
+          31.0,
+          469.7,
+          128.6,
+          489.3
+        ],
+        [
+          285.6,
+          466.1,
+          345.90000000000003,
+          492.90000000000003
+        ],
+        [
+          31.0,
+          515.9,
+          344.0,
+          545.6
+        ],
+        [
+          156.9,
+          568.5,
+          218.60000000000002,
+          601.5
+        ]
+      ]
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "presentationStyle": 2,
+        "isBeingDismissed": false,
+        "effectiveInterfaceStyle": 1,
+        "viewEffectiveInterfaceStyle": 1,
+        "isBeingPresented": false,
+        "class": "ReferenceViewController",
+        "viewRectInWindowPt": {
+          "y": 0,
+          "w": 375,
+          "x": 0,
+          "h": 667
+        }
+      },
+      {
+        "class": "PresentationHostingController<AnyView>",
+        "effectiveInterfaceStyle": 1,
+        "isBeingPresented": false,
+        "viewRectInWindowPt": {
+          "y": 317.71066666666667,
+          "w": 359,
+          "x": 8,
+          "h": 341.28933333333333
+        },
+        "presentationStyle": 2,
+        "viewEffectiveInterfaceStyle": 1,
+        "isBeingDismissed": false
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "rest-repeat",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [
+        [
+          8.0,
+          317.7,
+          367.0,
+          659.0
+        ]
+      ],
+      "foreground_ltrb_pt": [
+        [
+          151.1,
+          312.9,
+          223.89999999999998,
+          336.79999999999995
+        ],
+        [
+          129.3,
+          375.2,
+          245.60000000000002,
+          400.59999999999997
+        ],
+        [
+          74.5,
+          423.5,
+          300.4,
+          443.1
+        ],
+        [
+          31.0,
+          466.1,
+          344.0,
+          492.90000000000003
+        ],
+        [
+          31.0,
+          469.7,
+          128.6,
+          489.3
+        ],
+        [
+          285.6,
+          466.1,
+          345.90000000000003,
+          492.90000000000003
+        ],
+        [
+          31.0,
+          515.9,
+          344.0,
+          545.6
+        ],
+        [
+          156.9,
+          568.5,
+          218.60000000000002,
+          601.5
+        ]
+      ]
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "presentationStyle": 2,
+        "isBeingDismissed": false,
+        "effectiveInterfaceStyle": 1,
+        "viewEffectiveInterfaceStyle": 1,
+        "isBeingPresented": false,
+        "class": "ReferenceViewController",
+        "viewRectInWindowPt": {
+          "y": 0,
+          "w": 375,
+          "x": 0,
+          "h": 667
+        }
+      },
+      {
+        "class": "PresentationHostingController<AnyView>",
+        "effectiveInterfaceStyle": 1,
+        "isBeingPresented": false,
+        "viewRectInWindowPt": {
+          "y": 317.71066666666667,
+          "w": 359,
+          "x": 8,
+          "h": 341.28933333333333
+        },
+        "presentationStyle": 2,
+        "viewEffectiveInterfaceStyle": 1,
+        "isBeingDismissed": false
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "AX_pane_old_fixture_match": true,
+    "foreground_old_fixture_match": true,
+    "actual_AX": {
+      "panes_ltrb_pt": [],
+      "foreground_ltrb_pt": []
+    },
+    "public_controller_geometry_old_fixture_match": true,
+    "public_controllers_stable": true,
+    "actual_public_controllers": [
+      {
+        "class": "ReferenceViewController",
+        "effectiveInterfaceStyle": 1,
+        "isBeingPresented": false,
+        "viewRectInWindowPt": {
+          "x": 0,
+          "w": 375,
+          "y": 0,
+          "h": 667
+        },
+        "presentationStyle": 2,
+        "viewEffectiveInterfaceStyle": 1,
+        "isBeingDismissed": false
+      }
+    ],
+    "limitation": "Public controller/AX geometry gate only; not an optical material contour or physical thickness measurement."
+  }
+]

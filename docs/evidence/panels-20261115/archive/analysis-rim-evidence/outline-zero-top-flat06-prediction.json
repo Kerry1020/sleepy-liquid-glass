@@ -1,0 +1,234 @@
+[
+  {
+    "distance_pt": 0.25,
+    "native_rgb": [
+      237.5421052631579,
+      248.03684210526316,
+      248.79473684210527
+    ],
+    "baseline_rgb": [
+      239.46315789473684,
+      239.46315789473684,
+      239.46315789473684
+    ],
+    "candidate_rgb": [
+      254.65263157894736,
+      254.65263157894736,
+      254.65263157894736
+    ],
+    "flat06_predicted_mean_rgb": [
+      247.05789473684212,
+      247.05789473684212,
+      247.05789473684212
+    ],
+    "prediction_limit": "First-pixel CPU alpha/coverage inferred from baseline .12 vs zero. Quantization and actual hardware drawing require recapture; deeper unchanged rows follow measured zero effect.",
+    "native_rgb_mae": {
+      "baseline": 6.60877192982456,
+      "candidate": 9.86140350877192,
+      "flat06_prediction": 4.077192982456135
+    }
+  },
+  {
+    "distance_pt": 0.75,
+    "native_rgb": [
+      227.57894736842104,
+      241.2736842105263,
+      243.02631578947367
+    ],
+    "baseline_rgb": [
+      243.0421052631579,
+      243.0421052631579,
+      243.0421052631579
+    ],
+    "candidate_rgb": [
+      243.0421052631579,
+      243.0421052631579,
+      243.0421052631579
+    ],
+    "flat06_predicted_mean_rgb": [
+      243.0421052631579,
+      243.0421052631579,
+      243.0421052631579
+    ],
+    "prediction_limit": "First-pixel CPU alpha/coverage inferred from baseline .12 vs zero. Quantization and actual hardware drawing require recapture; deeper unchanged rows follow measured zero effect.",
+    "native_rgb_mae": {
+      "baseline": 5.749122807017566,
+      "candidate": 5.749122807017566,
+      "flat06_prediction": 5.749122807017566
+    }
+  },
+  {
+    "distance_pt": 1.25,
+    "native_rgb": [
+      222.53157894736842,
+      231.66315789473686,
+      233.93684210526317
+    ],
+    "baseline_rgb": [
+      229.4842105263158,
+      229.4842105263158,
+      229.4842105263158
+    ],
+    "candidate_rgb": [
+      229.4842105263158,
+      229.4842105263158,
+      229.4842105263158
+    ],
+    "flat06_predicted_mean_rgb": [
+      229.4842105263158,
+      229.4842105263158,
+      229.4842105263158
+    ],
+    "prediction_limit": "First-pixel CPU alpha/coverage inferred from baseline .12 vs zero. Quantization and actual hardware drawing require recapture; deeper unchanged rows follow measured zero effect.",
+    "native_rgb_mae": {
+      "baseline": 4.528070175438605,
+      "candidate": 4.528070175438605,
+      "flat06_prediction": 4.528070175438605
+    }
+  },
+  {
+    "distance_pt": 1.75,
+    "native_rgb": [
+      226.3578947368421,
+      231.90526315789472,
+      233.59473684210528
+    ],
+    "baseline_rgb": [
+      228.0421052631579,
+      228.0421052631579,
+      228.0421052631579
+    ],
+    "candidate_rgb": [
+      228.0421052631579,
+      228.0421052631579,
+      228.0421052631579
+    ],
+    "flat06_predicted_mean_rgb": [
+      228.0421052631579,
+      228.0421052631579,
+      228.0421052631579
+    ],
+    "prediction_limit": "First-pixel CPU alpha/coverage inferred from baseline .12 vs zero. Quantization and actual hardware drawing require recapture; deeper unchanged rows follow measured zero effect.",
+    "native_rgb_mae": {
+      "baseline": 3.699999999999998,
+      "candidate": 3.699999999999998,
+      "flat06_prediction": 3.699999999999998
+    }
+  },
+  {
+    "distance_pt": 2.25,
+    "native_rgb": [
+      227.58947368421053,
+      231.6157894736842,
+      233.05263157894737
+    ],
+    "baseline_rgb": [
+      226.90526315789472,
+      226.90526315789472,
+      226.90526315789472
+    ],
+    "candidate_rgb": [
+      226.90526315789472,
+      226.90526315789472,
+      226.90526315789472
+    ],
+    "flat06_predicted_mean_rgb": [
+      226.90526315789472,
+      226.90526315789472,
+      226.90526315789472
+    ],
+    "prediction_limit": "First-pixel CPU alpha/coverage inferred from baseline .12 vs zero. Quantization and actual hardware drawing require recapture; deeper unchanged rows follow measured zero effect.",
+    "native_rgb_mae": {
+      "baseline": 3.847368421052645,
+      "candidate": 3.847368421052645,
+      "flat06_prediction": 3.847368421052645
+    }
+  },
+  {
+    "distance_pt": 2.75,
+    "native_rgb": [
+      228.01052631578946,
+      230.85263157894738,
+      232.32631578947368
+    ],
+    "baseline_rgb": [
+      226.0,
+      226.0,
+      226.0
+    ],
+    "candidate_rgb": [
+      226.0,
+      226.0,
+      226.0
+    ],
+    "flat06_predicted_mean_rgb": [
+      226.0,
+      226.0,
+      226.0
+    ],
+    "prediction_limit": "First-pixel CPU alpha/coverage inferred from baseline .12 vs zero. Quantization and actual hardware drawing require recapture; deeper unchanged rows follow measured zero effect.",
+    "native_rgb_mae": {
+      "baseline": 4.396491228070175,
+      "candidate": 4.396491228070175,
+      "flat06_prediction": 4.396491228070175
+    }
+  },
+  {
+    "distance_pt": 3.25,
+    "native_rgb": [
+      226.98947368421054,
+      229.69473684210527,
+      230.75263157894736
+    ],
+    "baseline_rgb": [
+      225.0,
+      225.0,
+      225.0
+    ],
+    "candidate_rgb": [
+      225.0,
+      225.0,
+      225.0
+    ],
+    "flat06_predicted_mean_rgb": [
+      225.0,
+      225.0,
+      225.0
+    ],
+    "prediction_limit": "First-pixel CPU alpha/coverage inferred from baseline .12 vs zero. Quantization and actual hardware drawing require recapture; deeper unchanged rows follow measured zero effect.",
+    "native_rgb_mae": {
+      "baseline": 4.145614035087722,
+      "candidate": 4.145614035087722,
+      "flat06_prediction": 4.145614035087722
+    }
+  },
+  {
+    "distance_pt": 3.75,
+    "native_rgb": [
+      225.9578947368421,
+      228.33684210526314,
+      229.55789473684212
+    ],
+    "baseline_rgb": [
+      225.0,
+      225.0,
+      225.0
+    ],
+    "candidate_rgb": [
+      225.0,
+      225.0,
+      225.0
+    ],
+    "flat06_predicted_mean_rgb": [
+      225.0,
+      225.0,
+      225.0
+    ],
+    "prediction_limit": "First-pixel CPU alpha/coverage inferred from baseline .12 vs zero. Quantization and actual hardware drawing require recapture; deeper unchanged rows follow measured zero effect.",
+    "native_rgb_mae": {
+      "baseline": 2.950877192982451,
+      "candidate": 2.950877192982451,
+      "flat06_prediction": 2.950877192982451
+    }
+  }
+]

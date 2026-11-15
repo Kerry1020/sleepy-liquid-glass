@@ -1,0 +1,13 @@
+{
+  "script": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-alert-baseline/analyze_alert_baseline.py",
+  "sha256": "e2caa294988003f81f150fc2295d2fe89710210d0ca260598e4fb88c0850ec8b",
+  "frozen_before_candidate_image_decode": true,
+  "unchanged_baseline_rois_and_curve_algorithms": true,
+  "added_controls": [
+    "eight full Sheet Window RGBA raw/ICC",
+    "Alert Window outside pane bbox",
+    "Alert guaranteed deep central rectangle excluding foreground",
+    "each action inner8pt sampled separately"
+  ],
+  "label_correction": "The lag loop offsets native samples; key renamed native_sample_offset_pt without changing numerical algorithm or samples, before candidate decoding."
+}

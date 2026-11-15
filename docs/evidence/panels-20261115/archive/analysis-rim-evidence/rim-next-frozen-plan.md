@@ -1,0 +1,33 @@
+# Frozen next light-Alert rim-stage evaluation
+
+Status: frozen after reading body8 baseline, before decoding any next-rim candidate. This is calibration and a bounded mechanism evaluation, not independent validation, a physical thickness model, or final product parity.
+
+## Candidate and attribution
+
+The registered light Alert candidate keeps blur8, original refraction60/profile1, tint/brightness/saturation, shape and geometry fixed. Only its rim configuration changes from body8 outline-zero to CPU side0/corner0/flat0.06 and minimumShine0.08. Shader shine remains0.16. These are two declared rim parameters in one bounded rim stage, not a single scalar intervention. Dark keeps the original material/rim factory and is checked against actual original-dark captures; body8 has no dark screenshot.
+
+The two new calibration sources ×light×Alert/Sheet (four REST) compare directly against `panels-alert-body8-20261115`; this isolates the rim-stage effect. An additional four historical sources ×two themes×Alert/Sheet (16 REST) tests the final combination across colors/textures. Historical light Alert has no captured blur8-only counterpart: it compares a **combined blur+rim** change against the original baseline and native, and cannot attribute all improvement to the rim. No additional16-REST matrix is required merely to pretend that attribution is available.
+
+## Source and rendering validity gates
+
+- Keep original750×1334 pixels,375×667pt/dp world and2px density. Require actual attached Alert pane[55,515,695,859]px and Sheet[16,635,734,1318]px. Use the source-byte hashes, actual source mappings, installed binary/source receipt and actual window origins. No image translation, resize or registration.
+- Decode raw RGBA and ICC-normalized sRGB independently. Retain distinct results if not identical. Use the existing union native-AX/actual-Android foreground boxes expanded2pt; do not move or replace a masked ROI.
+- All original fixed source/background readiness and convergence requirements remain. A failed gate retains its capture and fails affected optical inference.
+- Sheet actual Windows must be strictly RGBA-identical to their unchanged baseline, as must the visible application area. Full-display system-bar differences are still reported. Dark Alert actual Windows must be strictly identical to `panels-dark-scrim-20261115` for the same four historical sources; do not compare against a nonexistent body8-dark capture.
+
+## Fixed tracks and controls
+
+Reuse every straight segment, bin, corner slice, sample center and smoothing setting in `../panel-probes-preparation/analysis-plan.{md,json}`. Reuse the four Alert neutral candidate segments in `analyze_body8.py` unchanged. Track source/RGB levels, apparent feature width/crossing, clipping, rim peak and derivatives separately. Neutral bottom remains backing-context contaminated and is labelled diagnostic; the Sheet top neutral candidates remain excluded by the frozen grabber mask.
+
+The new rim-stage Alert actual deep80px rectangle and every originally declared unmasked body ROI must be strictly equal to body8. They were intentionally nonzero between blur16 and body8; that earlier blur change does not excuse new rim-stage body differences. Keep the8px-eroded bounding rectangle only as a non-deep diagnostic, especially near corners. No nominal-radius distance is treated as an exact optical contour.
+
+## Predeclared gates and interpretation
+
+1. **Clipping.** In the fixed shapes neutral top x140..<235pt, report each original row0.25/0.75/1.25/1.75pt and every RGB channel. Native has zero255 values in these rows. Candidate must return the first row's count of any255 and RGB255 pixels to zero (body8 retains142/190 RGB255). A mean below255 is insufficient. For every other fixed segment, report total/channel255 and0 counts against native/body8; no newly introduced plateau may be hidden by mean improvements. Genuine native clipped channels are retained as reference rather than globally banning255.
+2. **Top peak placement.** Use raw encoded luminance and full RGB at the existing normal samples, without recentering. Native peak is0.25pt. Candidate peak should be in the same original pixel row; record at least±0.25pt sampling uncertainty per platform. An adjacent-row peak remains a measurable location mismatch, not exact matching within a fitted tolerance. Peak placement alone cannot pass the candidate if clipping or color error worsens.
+3. **Width limit.** Native half-height peak has only two original pixels. Its FWHM remains unresolved under the original minimum-three-pixel support rule; do not lower the gate, fit a curve, or infer a precise native taper width. Keep candidate half-height support count, crossings and any independently identifiable FWHM. A broader identifiable candidate width is a diagnostic mismatch, not evidence that native has an exact width of1pt. Report first-row-to-next-row decay and first/second derivatives; do not call unresolved widths equal.
+4. **Separate top/side improvement.** Fixed shapes neutral top/left/right0..<2pt mean RGB error must each decrease versus body8; no averaging across the three hides one regression. Keep full per-channel errors and every bin, including unchanged shoulder/deep bins. The top should also improve over the original styled baseline's5.1465 mean-RGB first-band error, rather than only recovering part of body8's known regression. Lower error is a bounded calibration improvement, not proof of identical appearance.
+5. **All corners retained.** Report every fixed corner scan and its raw/smoothed RGB/D1/D2 error separately. Any worsened corner scan remains a failure of an all-rim-improved claim; do not pool it away or trim a depth. This rule does not retroactively declare the existing body8 mixed corner results accepted.
+6. **Multiple backgrounds.** The four public historical sources must all be reported separately in light Alert, with their same fixed old straight/corner ROIs. They include periodic fine-grid, stripes, tonal blocks and a landscape, not four independent test distributions. Any worse source/edge blocks a claim that this combination improved every background. The dark and Sheet unchanged controls must all pass strict equality. This is still calibration; no independent-test or motion claim follows.
+
+The above gates distinguish strict rendering controls, a bounded light rim improvement, and unresolved native matching. Candidate failure must retain original files, decoded measurements and all failed gates. Do not retune0.06 or0.08 after inspecting the next output under the same experiment identity. A revised parameter combination requires its own plan and captured result; these inputs then remain calibration.

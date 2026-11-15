@@ -1,0 +1,101 @@
+{
+  "renderer": "render_figures.py",
+  "matplotlib": "3.9.4",
+  "outputs": [
+    {
+      "path": "dock-parent-errors.png",
+      "sha256": "cb5e3f64a16605f6afd6a9fa3f495067baaadd7b7a304e35650dcc30f2bee0b1",
+      "bytes": 71822
+    },
+    {
+      "path": "dock-parent-errors.svg",
+      "sha256": "222ee3b76649637a5faebed93f76c39af766e4eacb93ab00da602294c43acc16",
+      "bytes": 51149
+    },
+    {
+      "path": "dock-parent-trajectories.png",
+      "sha256": "c2a3864f9e36101b6d49724eff3b5027d220915e6a9aaad5c184b5142a619dbc",
+      "bytes": 183111
+    },
+    {
+      "path": "dock-parent-trajectories.svg",
+      "sha256": "9889a8d91e3d1fcb6f2256587e22e10bd502fdc4385573f22430e37f39c33569",
+      "bytes": 171658
+    },
+    {
+      "path": "menu-corner-errors.png",
+      "sha256": "24424a9edb92ef2bccd9381d379bf6adf87d60af7f3ad2412429dd69c0bacb76",
+      "bytes": 57161
+    },
+    {
+      "path": "menu-corner-errors.svg",
+      "sha256": "6f11a4fcbd199b9c79fd9b816c0601be44a6110be2f52956ed185eb36dc4ad2b",
+      "bytes": 45542
+    },
+    {
+      "path": "menu-corner-montage.png",
+      "sha256": "848f42cbe7f1c39a26a441cb25520aee4ec7955d2e9b88bc113c83dbaa07950a",
+      "bytes": 79312
+    },
+    {
+      "path": "menu-corner-profiles.png",
+      "sha256": "4d12d9eff9e8cd3b8a4c9ce4ac1da409b9034ce2b43448374d0b1c6da45b01f1",
+      "bytes": 203569
+    },
+    {
+      "path": "menu-corner-profiles.svg",
+      "sha256": "697905ca97048d9b05bee4a5ca306169c5c1e2c5213b7b7cd81b81195c7d7362",
+      "bytes": 103568
+    },
+    {
+      "path": "sheet-background-matrix.png",
+      "sha256": "094d07a7e5974bef78b0b0b3a39835d80d8a293b80d78cf70a5df3457b014904",
+      "bytes": 574995
+    },
+    {
+      "path": "sheet-body-errors.png",
+      "sha256": "f824750c1d578e7c06d9f88f3a1eef50a974853d1d5389a3fec6e761d485e90b",
+      "bytes": 76521
+    },
+    {
+      "path": "sheet-body-errors.svg",
+      "sha256": "4971222cc2dfd3071e4dd01e21e9d941b8c0d721ed5ab62fb4412ae621ba52e2",
+      "bytes": 53149
+    },
+    {
+      "path": "slider-held-optical-gap.png",
+      "sha256": "bbdcbcc96cabbc84203a104809de28bcb85d47793c954c246193bb855a88ca42",
+      "bytes": 447714
+    },
+    {
+      "path": "slider-native-deformation.png",
+      "sha256": "2cfa620a09c7d8a276cb83fd708e0ff5959beee1855ba4b7e8351a4b2353b4d6",
+      "bytes": 316056
+    },
+    {
+      "path": "slider-native-deformation.svg",
+      "sha256": "056810ea515a9aed2f3b6df7fccdb6c26f62361c530e4a674aab9e7257e237e1",
+      "bytes": 149154
+    },
+    {
+      "path": "slider-native-errors.png",
+      "sha256": "2ea19c2aa0fc3a64e0c375b8cf7756e84ec6867b73dddf9768be6ca1cd865d2f",
+      "bytes": 99912
+    },
+    {
+      "path": "slider-native-errors.svg",
+      "sha256": "362b05c20673126b907389f0f523a29107badd1b5441e7af67c2113f7433d863",
+      "bytes": 74691
+    },
+    {
+      "path": "switch-release-theme-fill.png",
+      "sha256": "af957d9aa74111f6c5bbcb9945c7779397c3c5f64b4af48fb4add18c10b98472",
+      "bytes": 70744
+    },
+    {
+      "path": "switch-white-to-glass.png",
+      "sha256": "0111b9f04a3ade5fd884efa01376cf5fae3eba8f89682894bc13301ed345e43d",
+      "bytes": 94213
+    }
+  ]
+}

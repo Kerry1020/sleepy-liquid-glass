@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "figures": [
+    {
+      "published": "docs/images/optical-inputs-20261115/historical-power-regressions.svg",
+      "sha256": "e9e61b9e06b58f685209cd206ffa6b2a476ef250bc394678a197614c4776ea78",
+      "kind": "observed fixed-size static calibration; no product acceptance",
+      "sources": [
+        {
+          "archive": "archive/glass-dock-model-20261114/mechanism-analysis/profile-power-response.json",
+          "sha256": "7f885f9ec8450c6ee0703cfed7cc52e47de426f545e019138bb0308c0cfb3c72"
+        }
+      ]
+    },
+    {
+      "published": "docs/images/optical-inputs-20261115/historical-power-regressions.png",
+      "sha256": "e7962b6018414b13a2fd27cc346cd841a43668771f28746c2cc0391bde198a54",
+      "kind": "observed fixed-size static calibration; no product acceptance",
+      "sources": [
+        {
+          "archive": "archive/glass-dock-model-20261114/mechanism-analysis/profile-power-response.json",
+          "sha256": "7f885f9ec8450c6ee0703cfed7cc52e47de426f545e019138bb0308c0cfb3c72"
+        }
+      ]
+    },
+    {
+      "published": "docs/images/optical-inputs-20261115/conditional-versus-absolute.svg",
+      "sha256": "78f77bd2b5ca60d4e4aa7fd3e6f39f2e9d5efdb9125155e200d36a91c860ff85",
+      "kind": "observed historical D46.5/plain-scroll static calibration",
+      "sources": [
+        {
+          "archive": "archive/glass-plain-context-20261114/calibration-results/native-android-differential.csv.gz",
+          "sha256": "99c919c0d410939a2741cb678e19b7c985ffa412b4ceea63f4d4e8d477a6f731"
+        }
+      ]
+    },
+    {
+      "published": "docs/images/optical-inputs-20261115/conditional-versus-absolute.png",
+      "sha256": "3c9441fd613c236be1a175d523fe0e5435f046625b873beb6e1d090a529a4c1a",
+      "kind": "observed historical D46.5/plain-scroll static calibration",
+      "sources": [
+        {
+          "archive": "archive/glass-plain-context-20261114/calibration-results/native-android-differential.csv.gz",
+          "sha256": "99c919c0d410939a2741cb678e19b7c985ffa412b4ceea63f4d4e8d477a6f731"
+        }
+      ]
+    },
+    {
+      "published": "docs/images/optical-inputs-20261115/shoulder-headroom-mathematics.svg",
+      "sha256": "e2a615815cfc135587b142069d69d2159bafba5fac569301f11ab4d79e49b86c",
+      "kind": "mathematical illustration only; no fitted/native curve",
+      "sources": [
+        {
+          "scope": "runtime-source-identities.json; symbolic formulas documented in controlled-optical-studies.md"
+        }
+      ]
+    },
+    {
+      "published": "docs/images/optical-inputs-20261115/shoulder-headroom-mathematics.png",
+      "sha256": "0035c9b504dabc4aea4a32823c6c9a2ec64c60362339c0d4dba6d31611051e51",
+      "kind": "mathematical illustration only; no fitted/native curve",
+      "sources": [
+        {
+          "scope": "runtime-source-identities.json; symbolic formulas documented in controlled-optical-studies.md"
+        }
+      ]
+    },
+    {
+      "published": "docs/images/optical-inputs-20261115/headroom-retained-regressions.svg",
+      "sha256": "716e019480071821b51d8dd36a23b32f78779a0b8ccb349430c174c6f06c9111",
+      "kind": "observed same-size static GPU diagnostic; disabled-by-default candidate",
+      "sources": [
+        {
+          "archive": "archive/glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/independent-review.md",
+          "sha256": "d763f809fd8929e685567f83567dcbcfdd50345f9b6dbd9058bac389699757fb"
+        }
+      ]
+    },
+    {
+      "published": "docs/images/optical-inputs-20261115/headroom-retained-regressions.png",
+      "sha256": "e5d4bed258da8b0a4e68f29ce1ee6dc2a91e0888fce7556840fda0f53140f6f3",
+      "kind": "observed same-size static GPU diagnostic; disabled-by-default candidate",
+      "sources": [
+        {
+          "archive": "archive/glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/independent-review.md",
+          "sha256": "d763f809fd8929e685567f83567dcbcfdd50345f9b6dbd9058bac389699757fb"
+        }
+      ]
+    },
+    {
+      "published": "docs/images/optical-inputs-20261115/calibration-fields-source-only.png",
+      "sha256": "2714d1646ac8e12f0bcf813b7476ef9c1f1eac952717193eaad7f26f8e39b959",
+      "kind": "generated calibration source crops; no observed output",
+      "sources": [
+        {
+          "file": "c01_rgb_noise_s0.png",
+          "sha256": "f7717fabe23ac87c275b359c960c7af9a8489126d758f74732035c202105dd62",
+          "crop_ltrb_px": [
+            210,
+            1030,
+            510,
+            1250
+          ],
+          "source_only": true,
+          "resampling": "none"
+        },
+        {
+          "file": "c05_dots_s0.png",
+          "sha256": "9d51245c7d63756efd1aa73bc9730182dcf22e0cd737dafbb82da85b30528e76",
+          "crop_ltrb_px": [
+            210,
+            1030,
+            510,
+            1250
+          ],
+          "source_only": true,
+          "resampling": "none"
+        }
+      ]
+    }
+  ],
+  "figure_data_sha256": "c2b83752ca7b24a41446f751906737df350a5f4cc77a3a3bffb3a286f9c59595"
+}

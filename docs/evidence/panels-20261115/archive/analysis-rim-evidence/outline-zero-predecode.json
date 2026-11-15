@@ -1,0 +1,27 @@
+{
+  "status": "before-first-outline-zero-pixel-decode",
+  "files": {
+    "panels-alert-outline-zero-20261115/panel_probe_coordinate-light-share_sheet-rest-window.png": "4ad0450ab2997051219ce8c04487da7c551bbccf94fb83a49daa02a8a6a9ff9e",
+    "panels-alert-outline-zero-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png": "a490ad0a6d78d7a0ee39276eb748eecc1bb993ec0cdd3a377a2ae6bcc5adf8b0",
+    "panels-alert-outline-zero-20261115/panel_probe_shapes-light-background-screen.png": "f4daf8d58014183422c59ab2c0ef18e1bd309233a880db0c9de5aaa2eb04d5a4",
+    "panels-alert-outline-zero-20261115/panel_probe_shapes-light-alert-rest-rejected-display.png": "450b6c70477d245be7ef794ff530a9e3c45623aeef1b9c765c7ec4c35156c93c",
+    "panels-alert-outline-zero-20261115/panel_probe_shapes-light-background-window.png": "c643291836e46fe7a0867ec94ff8a6a143163e2cc8363c45ef3352bc82298e01",
+    "panels-alert-outline-zero-20261115/panel_probe_shapes-light-alert-rest-window.png": "0d3e18a50ab7fd040617ff196328278036417bea8439da9be0ce9334b50a129d",
+    "panels-alert-outline-zero-20261115/panel_probe_shapes-light-alert-rest-screen.png": "81e394bc17e589a77d81ac992b1cbbf2ab3d1c726aa40e28e4f9c57cc1dcb3db",
+    "panels-alert-outline-zero-20261115/panel_probe_coordinate-light-alert-rest-screen.png": "a6b88970cc76a83f838da3637b9b313c1433e421c465a57e51d8a280a84ef7a4",
+    "panels-alert-outline-zero-20261115/panel_probe_coordinate-light-alert-rest-window.png": "82efce11986105a574440a4d0e202f8753f95210a04897b628265de69a900eab",
+    "panels-alert-outline-zero-20261115/panel_probe_coordinate-light-background-window.png": "907b7aac6e6677972cbf942004b222a45d8b118ec94215abf5bdcfe4c61799d0",
+    "panels-alert-outline-zero-20261115/panel_probe_coordinate-light-background-screen.png": "547c2b181b79696e960ea6ed34911aa58840e72bbfb48c153567a0d7d43a5689",
+    "panels-alert-outline-zero-20261115/panel_probe_shapes-light-share_sheet-rest-window.png": "dd254d82659a4619bcac14f8f08e00b3718287e9c11917d09b0b0b2da8892cec",
+    "panels-alert-outline-zero-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png": "cf4830e9d97a50a900fa25b68d1213c7fe59a8fd96efca7018616079c8d00ea9",
+    "panels-alert-outline-zero-20261115/panel_probe_coordinate-light-alert-rest-rejected-display.png": "b1e063bdaa8d66a4316f4f5f602bf06213e5b6618b958bffc45c8dcc97b6dd8e",
+    "panels-alert-outline-zero-20261115/matrix.json": "6b7e093d57371d97ad27c947af9619b4eba0dcb18bc412950af691d87e3af2e0",
+    "panels-alert-outline-zero-20261115/capture-plan.json": "e8d80548a5aabdf26d734ff1bc63761f3ca2238b9da3293e2f4e0c03fe60a2f9",
+    "panels-alert-outline-zero-20261115/capture-result.json": "23fcf03f282e0223cf4a1e16a5a234c093144c36436805c4d0b8175db7d76882",
+    "analysis-native-probes/geometry-and-mask.json": "c40a3cbcb8f41f7967749f81f88c47769bb8eeb84356ebf32ef9abac9b10d0cc",
+    "panel-probes-preparation/analysis-plan.md": "675bf82c495e89c5a4088afd4462a2b51ef28ecbe073b45c27119fccb1d13294"
+  },
+  "plan": "Reuse all original straight profiles and corners from analysis-plan; compare shapes neutral rim tracks unchanged. Compare actual Window RGBA plus ICC-normalized RGBA. Sheet full-window must remain zero; full-screen system bars separately retained. Alert window rectangle origin from actual geometry; deep control original actual pane screen rect eroded 8px; also report each originally frozen body ROI (with union masks). Corner scans fixed previous depths/ranges; no moved or newly favorable region. No parity or test-set acceptance.",
+  "clarification_before_decode": "The 8px-eroded bounding rectangle is NOT guaranteed deep optical interior at rounded corners; retain as broad diagnostic. Actual strict deep control reuses original inset80px rectangle from analysis-dark-scrim/analyze.py. Neither is an actual signed contour. This clarification is made before output PNG decode.",
+  "prior_record_sha256": "6b5f3e63ec5776673a2eb92f8b013d183e7827237ad02cdcb5fd9312bd27ee21"
+}

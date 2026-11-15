@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "set_id": "panel_nonperiodic_calibration_20261115",
+  "split": "calibration",
+  "inputs": [
+    {
+      "id": "panel_probe_coordinate",
+      "file": "panel_probe_coordinate.png",
+      "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e",
+      "role": "selected_calibration"
+    },
+    {
+      "id": "panel_probe_shapes",
+      "file": "panel_probe_shapes.png",
+      "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149",
+      "role": "selected_calibration"
+    },
+    {
+      "id": "compatibility_unselected_01",
+      "file": "compatibility_unselected_01.png",
+      "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172",
+      "role": "compatibility_unselected"
+    },
+    {
+      "id": "compatibility_unselected_02",
+      "file": "compatibility_unselected_02.png",
+      "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172",
+      "role": "compatibility_unselected"
+    },
+    {
+      "id": "compatibility_unselected_03",
+      "file": "compatibility_unselected_03.png",
+      "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172",
+      "role": "compatibility_unselected"
+    },
+    {
+      "id": "compatibility_unselected_04",
+      "file": "compatibility_unselected_04.png",
+      "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172",
+      "role": "compatibility_unselected"
+    },
+    {
+      "id": "compatibility_unselected_05",
+      "file": "compatibility_unselected_05.png",
+      "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172",
+      "role": "compatibility_unselected"
+    },
+    {
+      "id": "compatibility_unselected_06",
+      "file": "compatibility_unselected_06.png",
+      "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172",
+      "role": "compatibility_unselected"
+    }
+  ],
+  "selected_ids": [
+    "panel_probe_coordinate",
+    "panel_probe_shapes"
+  ],
+  "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+  "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility."
+}

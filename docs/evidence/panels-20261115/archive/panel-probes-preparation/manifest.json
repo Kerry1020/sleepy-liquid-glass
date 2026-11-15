@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "id": "panel-nonperiodic-calibration-v1",
+  "split": "calibration",
+  "seed": 40174869,
+  "world_px": [
+    750,
+    1334
+  ],
+  "selected_ids": [
+    "panel_probe_coordinate",
+    "panel_probe_shapes"
+  ],
+  "unselected_policy": "Six fresh gray slots are compatibility_unselected. They must never be captured, decoded as experimental observations, tuned on, or scored.",
+  "asset_count": 8,
+  "selected_count": 2,
+  "compatibility_unselected_count": 6,
+  "generator": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/generate_probes.py",
+    "sha256": "629f2414c9565ae042dba158df5eee20f0cdcad893168f0bfadb787a3b975347",
+    "python": "3.9.6",
+    "pillow": "11.3.0",
+    "numpy": "2.0.2",
+    "prng": "Python random.Random / MT19937"
+  },
+  "oracle": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/oracle.json",
+    "sha256": "4d16120ec71791abc4c526e45fd1435cb9aa12f5130d0244cf72862d2133dd04"
+  },
+  "srgb_icc": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/srgb.icc",
+    "sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+    "policy": "Persist one generated ICC profile so metadata creation time cannot change output bytes on regeneration."
+  },
+  "files": [
+    {
+      "id": "panel_probe_coordinate",
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/panel_probe_coordinate.png",
+      "filename": "panel_probe_coordinate.png",
+      "selected": true,
+      "split": "calibration",
+      "purpose": "Two-dimensional nonperiodic coordinate-coded color cells/ramps",
+      "size_px": [
+        750,
+        1334
+      ],
+      "mode": "RGB",
+      "bit_depth": 8,
+      "color_profile": "embedded sRGB ICC",
+      "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+      "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e",
+      "decoded_rgb_sha256": "ff39b96877bd9d0cd9628196205adb8da6e8f9f7ca4ff0f2d8263586568c74a3",
+      "bytes": 162481
+    },
+    {
+      "id": "panel_probe_shapes",
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/panel_probe_shapes.png",
+      "filename": "panel_probe_shapes.png",
+      "selected": true,
+      "split": "calibration",
+      "purpose": "Sparse unique filled multicolor shapes at declared pane locations",
+      "size_px": [
+        750,
+        1334
+      ],
+      "mode": "RGB",
+      "bit_depth": 8,
+      "color_profile": "embedded sRGB ICC",
+      "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+      "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149",
+      "decoded_rgb_sha256": "dc1416df14431475a030163a2bc473976ddd1fe4b7d31804125069c2a70445cb",
+      "bytes": 9495
+    },
+    {
+      "id": "compatibility_unselected_01",
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/compatibility_unselected_01.png",
+      "filename": "compatibility_unselected_01.png",
+      "selected": false,
+      "split": "compatibility_unselected",
+      "purpose": "Fresh uniform gray compatibility slot; excluded from capture, analysis and scoring",
+      "size_px": [
+        750,
+        1334
+      ],
+      "mode": "RGB",
+      "bit_depth": 8,
+      "color_profile": "embedded sRGB ICC",
+      "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+      "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172",
+      "decoded_rgb_sha256": "15ecf50a4555bcfa400c91d3b348a2f1fb6a9202a8bc970f165205387c0713da",
+      "bytes": 5221
+    },
+    {
+      "id": "compatibility_unselected_02",
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/compatibility_unselected_02.png",
+      "filename": "compatibility_unselected_02.png",
+      "selected": false,
+      "split": "compatibility_unselected",
+      "purpose": "Fresh uniform gray compatibility slot; excluded from capture, analysis and scoring",
+      "size_px": [
+        750,
+        1334
+      ],
+      "mode": "RGB",
+      "bit_depth": 8,
+      "color_profile": "embedded sRGB ICC",
+      "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+      "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172",
+      "decoded_rgb_sha256": "15ecf50a4555bcfa400c91d3b348a2f1fb6a9202a8bc970f165205387c0713da",
+      "bytes": 5221
+    },
+    {
+      "id": "compatibility_unselected_03",
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/compatibility_unselected_03.png",
+      "filename": "compatibility_unselected_03.png",
+      "selected": false,
+      "split": "compatibility_unselected",
+      "purpose": "Fresh uniform gray compatibility slot; excluded from capture, analysis and scoring",
+      "size_px": [
+        750,
+        1334
+      ],
+      "mode": "RGB",
+      "bit_depth": 8,
+      "color_profile": "embedded sRGB ICC",
+      "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+      "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172",
+      "decoded_rgb_sha256": "15ecf50a4555bcfa400c91d3b348a2f1fb6a9202a8bc970f165205387c0713da",
+      "bytes": 5221
+    },
+    {
+      "id": "compatibility_unselected_04",
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/compatibility_unselected_04.png",
+      "filename": "compatibility_unselected_04.png",
+      "selected": false,
+      "split": "compatibility_unselected",
+      "purpose": "Fresh uniform gray compatibility slot; excluded from capture, analysis and scoring",
+      "size_px": [
+        750,
+        1334
+      ],
+      "mode": "RGB",
+      "bit_depth": 8,
+      "color_profile": "embedded sRGB ICC",
+      "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+      "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172",
+      "decoded_rgb_sha256": "15ecf50a4555bcfa400c91d3b348a2f1fb6a9202a8bc970f165205387c0713da",
+      "bytes": 5221
+    },
+    {
+      "id": "compatibility_unselected_05",
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/compatibility_unselected_05.png",
+      "filename": "compatibility_unselected_05.png",
+      "selected": false,
+      "split": "compatibility_unselected",
+      "purpose": "Fresh uniform gray compatibility slot; excluded from capture, analysis and scoring",
+      "size_px": [
+        750,
+        1334
+      ],
+      "mode": "RGB",
+      "bit_depth": 8,
+      "color_profile": "embedded sRGB ICC",
+      "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+      "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172",
+      "decoded_rgb_sha256": "15ecf50a4555bcfa400c91d3b348a2f1fb6a9202a8bc970f165205387c0713da",
+      "bytes": 5221
+    },
+    {
+      "id": "compatibility_unselected_06",
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/compatibility_unselected_06.png",
+      "filename": "compatibility_unselected_06.png",
+      "selected": false,
+      "split": "compatibility_unselected",
+      "purpose": "Fresh uniform gray compatibility slot; excluded from capture, analysis and scoring",
+      "size_px": [
+        750,
+        1334
+      ],
+      "mode": "RGB",
+      "bit_depth": 8,
+      "color_profile": "embedded sRGB ICC",
+      "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+      "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172",
+      "decoded_rgb_sha256": "15ecf50a4555bcfa400c91d3b348a2f1fb6a9202a8bc970f165205387c0713da",
+      "bytes": 5221
+    }
+  ],
+  "constraints": [
+    "New deterministic calibration sources only; no old noise, hidden or holdout input was read.",
+    "The input images are original sources, not simulations of native/Android glass.",
+    "No runtime source, device, build or capture is changed by this generator.",
+    "This first light pair is an identifiability feasibility check, not parity/generalization acceptance."
+  ]
+}

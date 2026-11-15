@@ -1,0 +1,98 @@
+[
+  {
+    "scene": "fine_grid-light",
+    "phase": "held",
+    "lower_inner_world_rect": [
+      103,
+      439,
+      125,
+      442
+    ],
+    "lower_inner_direct_RGB_MAE": 6.875,
+    "plain_source_crop_RGB_MAE": 0.6560314685314685
+  },
+  {
+    "scene": "fine_grid-dark",
+    "phase": "held",
+    "lower_inner_world_rect": [
+      103,
+      439,
+      125,
+      442
+    ],
+    "lower_inner_direct_RGB_MAE": 18.282828282828284,
+    "plain_source_crop_RGB_MAE": 0.6560314685314685
+  },
+  {
+    "scene": "color_stripes-light",
+    "phase": "held",
+    "lower_inner_world_rect": [
+      103,
+      439,
+      125,
+      442
+    ],
+    "lower_inner_direct_RGB_MAE": 14.852272727272727,
+    "plain_source_crop_RGB_MAE": 0.5281385281385281
+  },
+  {
+    "scene": "color_stripes-dark",
+    "phase": "held",
+    "lower_inner_world_rect": [
+      103,
+      439,
+      125,
+      442
+    ],
+    "lower_inner_direct_RGB_MAE": 8.554292929292929,
+    "plain_source_crop_RGB_MAE": 0.5281385281385281
+  },
+  {
+    "scene": "tonal_blocks-light",
+    "phase": "held",
+    "lower_inner_world_rect": [
+      103,
+      439,
+      125,
+      442
+    ],
+    "lower_inner_direct_RGB_MAE": 22.36111111111111,
+    "plain_source_crop_RGB_MAE": 0.4817890442890443
+  },
+  {
+    "scene": "tonal_blocks-dark",
+    "phase": "held",
+    "lower_inner_world_rect": [
+      103,
+      439,
+      125,
+      442
+    ],
+    "lower_inner_direct_RGB_MAE": 23.838383838383837,
+    "plain_source_crop_RGB_MAE": 0.4817890442890443
+  },
+  {
+    "scene": "synthetic_landscape-light",
+    "phase": "held",
+    "lower_inner_world_rect": [
+      103,
+      439,
+      125,
+      442
+    ],
+    "lower_inner_direct_RGB_MAE": 15.005050505050505,
+    "plain_source_crop_RGB_MAE": 1.3382242757242757
+  },
+  {
+    "scene": "synthetic_landscape-dark",
+    "phase": "held",
+    "lower_inner_world_rect": [
+      103,
+      439,
+      125,
+      442
+    ],
+    "lower_inner_direct_RGB_MAE": 11.859848484848484,
+    "plain_source_crop_RGB_MAE": 1.3382242757242757
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "frozen_utc": "2026-11-14T11:53:11.859477+00:00",
+  "split": "holdout",
+  "capture_outputs_opened": false,
+  "freeze_scope": "Analyzer source, calibrated color dependency, test vectors, new-input manifest, protocol and exact fixed sampling; no new capture output read by this analyzer/author before freezing.",
+  "source_sha256": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-holdout-20261114/analysis/analyze_holdout.py": "9dfad1e0a6664013a31743295eb3720251aded697c0083f9cd79e259ca3403bf",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-thickness-profile-20261114/quantitative-comparison/analyze_photometry.py": "b2e2e1f14ee50b5bd4b99a33b10cad543cc26d87e84f151986f60f6bc5e6df8a",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-thickness-profile-20261114/quantitative-comparison/sharma-ciede2000-testdata.txt": "44aebb39107128328add54fbef5ac8ee89909e50508f448a1580adea2058a4b8",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-holdout-20261114/protocol.json": "61e7e45f7728eae53cda2b8b2e6c7f1a2c32f439ff20490b45426d9500fa40a4",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-holdout-20261114/inputs/manifest.json": "33bf9b7d34bfba3537318aac7adf5d08bb6876e1fd41b704e472d10909a2ccf8"
+  },
+  "sampling_sha256": "4a8a4fff71562cc896725cf7558c180b3ac2590b684b23e6754ecb7915ac75d6",
+  "algorithm_self_checks": {
+    "ciede2000_vector_pairs": 34,
+    "max_absolute_deltaE00_test_error": 4.9498977271467126e-05,
+    "vector_rounding_tolerance": 5e-05,
+    "testdata_sha256": "44aebb39107128328add54fbef5ac8ee89909e50508f448a1580adea2058a4b8",
+    "identity_symmetry_black_white_checks": "passed",
+    "sampling_and_engineering_trigger_synthetic_checks": "passed"
+  },
+  "versions": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "pillow": "11.3.0",
+    "matplotlib": "3.9.4"
+  }
+}

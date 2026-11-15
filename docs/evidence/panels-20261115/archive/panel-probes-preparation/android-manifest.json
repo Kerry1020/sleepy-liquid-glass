@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "set_id": "panel_nonperiodic_calibration_20261115",
+  "split": "calibration",
+  "inputs": [
+    {
+      "id": "panel_probe_coordinate",
+      "file": "panel_probe_coordinate.png",
+      "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e",
+      "role": "selected_calibration"
+    },
+    {
+      "id": "panel_probe_shapes",
+      "file": "panel_probe_shapes.png",
+      "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149",
+      "role": "selected_calibration"
+    }
+  ],
+  "selected_ids": [
+    "panel_probe_coordinate",
+    "panel_probe_shapes"
+  ],
+  "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+  "notice": "Android loader accepts2 entries. Same selected native PNG original-byte hashes; six native-only compatibility entries excluded before Android preflight."
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-alert-rest-window.png",
+    "sha256": "06964fb07f80a2792507507a48da5b5cafda05074daa827554065e5425a3c587",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-budget-20261115/panel_probe_coordinate-light-alert-rest-window.png",
+    "sha256": "52b96834121d1715e9536cb3fc7cefe2cd753b625465441f718e593cc831757f",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_coordinate-light-alert-rest-window.png",
+    "sha256": "06964fb07f80a2792507507a48da5b5cafda05074daa827554065e5425a3c587",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-20261115/panel_probe_coordinate-light-alert-rest-window.png",
+    "sha256": "560c6f7623e2678e81eed4f8b0252aaa864bb97c3db951371a5188678795cae6",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-alert-rest-screen.png",
+    "sha256": "1a1fdf3ecba637758119df32189958ae77636d5b78e5c8a5e1470967ef82232a",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-budget-20261115/panel_probe_coordinate-light-alert-rest-screen.png",
+    "sha256": "a68779f5671851b36dd30c82ac8cba692a4417a67c80c631afb920610823b1b8",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-20261115/panel_probe_coordinate-light-alert-rest-screen.png",
+    "sha256": "aaeb342d551ceabead702d8d8385b4af7280c10069800b442d5b68ec3660f48d",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115/panel_probe_shapes-light-alert-rest-window.png",
+    "sha256": "38fd0263450f3d01eb4d20fd0383dcfdee7797735e6bd90e5d6dfc74c00ee4b2",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-budget-20261115/panel_probe_shapes-light-alert-rest-window.png",
+    "sha256": "a106ca1d3cd6e6f79b7cbecf0f6318c2a56eec812994bf4937e465ceddd59e6b",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_shapes-light-alert-rest-window.png",
+    "sha256": "38fd0263450f3d01eb4d20fd0383dcfdee7797735e6bd90e5d6dfc74c00ee4b2",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-20261115/panel_probe_shapes-light-alert-rest-window.png",
+    "sha256": "3fda50fa91881e899e44f1a93cc4287afb2eaec4aee3f2358292bbea968ac485",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115/panel_probe_shapes-light-alert-rest-screen.png",
+    "sha256": "1dd1ffb5c110aeea9576860b3226bf17d3d0d2b50e6e0c2511ab5298e1b7cefb",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-budget-20261115/panel_probe_shapes-light-alert-rest-screen.png",
+    "sha256": "9876b1dfa316733464700394a3c6819a676fb9808eac2496f4961375c00c11b3",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-20261115/panel_probe_shapes-light-alert-rest-screen.png",
+    "sha256": "2e8d43deba1e9f7268c5440db14ffc49636d93b00a0fbbad5f4a2b4f37716964",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_shapes-light-alert-rest-screen.png",
+    "sha256": "5a7417092e302f5841c9a5956b4c6f300677ba54f408b1f7aa6cb43951e12cdb",
+    "raw_icc_rgba_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/26EDA3DE-BADE-47D2-B16B-53CD93B19564.png",
+    "sha256": "896015f962d54a136cc2cda982c8ea020534c32731d5aec92ef6a50318922563",
+    "raw_icc_rgba_identical": true
+  }
+]

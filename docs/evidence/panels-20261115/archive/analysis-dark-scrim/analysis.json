@@ -1,0 +1,684 @@
+{
+  "scope": "Exterior dim correction only; not thickness/refraction acceptance",
+  "old_matrix_sha256": "1ee0db5a78c81e6b287906ddd830389903629c95dcc5538902813e70f6d62059",
+  "new_matrix_sha256": "18f7cb8f3f6aac45729e72c832d15ac5d057ec014c0f58c3be79bf7861aded82",
+  "analysis_policy": "Raw RGBA strict controls. Window separate from screen; screen coordinates mapped using observed Window rectangle. Visible screen excludes system-bar top80/bottom32. Fixed historical exterior ROI; deep optical body rectangle inset80px is not full optical contour. No geometric image transforms.",
+  "light_full_window_unchanged": true,
+  "light_visible_screen_unchanged": true,
+  "dark_alert_full_window_unchanged": true,
+  "all_deep_pane_unchanged": true,
+  "results": [
+    {
+      "scene": "fine_grid-light-share_sheet",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "full_actual_window_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "deep_pane_screen_roi_px": [
+        96,
+        715,
+        654,
+        1238
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.8001335192700424,
+        0.8001335192700424,
+        0.7997778401904613
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.8001335192700424,
+        0.8001335192700424,
+        0.7997778401904613
+      ]
+    },
+    {
+      "scene": "fine_grid-light-alert",
+      "theme": "light",
+      "carrier": "alert",
+      "full_actual_window_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "deep_pane_screen_roi_px": [
+        135,
+        595,
+        615,
+        779
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.8001335192700424,
+        0.8001335192700424,
+        0.7997778401904613
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.8001335192700424,
+        0.8001335192700424,
+        0.7997778401904613
+      ]
+    },
+    {
+      "scene": "color_stripes-light-share_sheet",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "full_actual_window_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "deep_pane_screen_roi_px": [
+        96,
+        715,
+        654,
+        1238
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.8104258193279867,
+        0.80905371707845,
+        0.8105711475610337
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.8104258193279867,
+        0.80905371707845,
+        0.8105711475610337
+      ]
+    },
+    {
+      "scene": "color_stripes-light-alert",
+      "theme": "light",
+      "carrier": "alert",
+      "full_actual_window_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "deep_pane_screen_roi_px": [
+        135,
+        595,
+        615,
+        779
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.8104258193279867,
+        0.80905371707845,
+        0.8105711475610337
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.8104258193279867,
+        0.80905371707845,
+        0.8105711475610337
+      ]
+    },
+    {
+      "scene": "tonal_blocks-light-share_sheet",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "full_actual_window_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "deep_pane_screen_roi_px": [
+        96,
+        715,
+        654,
+        1238
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.8099243335906634,
+        0.8099243335906634,
+        0.8100099954003468
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.8099243335906634,
+        0.8099243335906634,
+        0.8100099954003468
+      ]
+    },
+    {
+      "scene": "tonal_blocks-light-alert",
+      "theme": "light",
+      "carrier": "alert",
+      "full_actual_window_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "deep_pane_screen_roi_px": [
+        135,
+        595,
+        615,
+        779
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.8099243335906634,
+        0.8099243335906634,
+        0.8100099954003468
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.8099243335906634,
+        0.8099243335906634,
+        0.8100099954003468
+      ]
+    },
+    {
+      "scene": "synthetic_landscape-light-share_sheet",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "full_actual_window_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "deep_pane_screen_roi_px": [
+        96,
+        715,
+        654,
+        1238
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.8000099074954238,
+        0.8000048536441149,
+        0.7999995073049125
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.8000099074954238,
+        0.8000048536441149,
+        0.7999995073049125
+      ]
+    },
+    {
+      "scene": "synthetic_landscape-light-alert",
+      "theme": "light",
+      "carrier": "alert",
+      "full_actual_window_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "deep_pane_screen_roi_px": [
+        135,
+        595,
+        615,
+        779
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.8000099074954238,
+        0.8000048536441149,
+        0.7999995073049125
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.8000099074954238,
+        0.8000048536441149,
+        0.7999995073049125
+      ]
+    },
+    {
+      "scene": "fine_grid-dark-share_sheet",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "full_actual_window_rgba": {
+        "max_abs": 40,
+        "changed_channels": 516602,
+        "mean_abs": 5.134186656671664
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 40,
+        "changed_channels": 1322244,
+        "mean_abs": 13.263301145662847
+      },
+      "deep_pane_screen_roi_px": [
+        96,
+        715,
+        654,
+        1238
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.6792209607944596,
+        0.6792209607944596,
+        0.6778418885744201
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.5211438610376482,
+        0.5211438610376482,
+        0.522396474638924
+      ]
+    },
+    {
+      "scene": "fine_grid-dark-alert",
+      "theme": "dark",
+      "carrier": "alert",
+      "full_actual_window_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 31,
+        "changed_channels": 2103439,
+        "mean_abs": 16.284215493726133
+      },
+      "deep_pane_screen_roi_px": [
+        135,
+        595,
+        615,
+        779
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.40024262878381867,
+        0.40024262878381867,
+        0.40011746121322234
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.5211438610376482,
+        0.5211438610376482,
+        0.522396474638924
+      ]
+    },
+    {
+      "scene": "color_stripes-dark-share_sheet",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "full_actual_window_rgba": {
+        "max_abs": 40,
+        "changed_channels": 516538,
+        "mean_abs": 5.133957771114443
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 40,
+        "changed_channels": 1173806,
+        "mean_abs": 7.457400709219858
+      },
+      "deep_pane_screen_roi_px": [
+        96,
+        715,
+        654,
+        1238
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.6778275378024984,
+        0.6792879977373807,
+        0.6789532655649492
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.5215727026951239,
+        0.5222679312792414,
+        0.5223763382924214
+      ]
+    },
+    {
+      "scene": "color_stripes-dark-alert",
+      "theme": "dark",
+      "carrier": "alert",
+      "full_actual_window_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 31,
+        "changed_channels": 1878338,
+        "mean_abs": 9.416386797599564
+      },
+      "deep_pane_screen_roi_px": [
+        135,
+        595,
+        615,
+        779
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.4002375285157932,
+        0.3997326377375824,
+        0.39953919044317987
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.5215727026951239,
+        0.5222679312792414,
+        0.5223763382924214
+      ]
+    },
+    {
+      "scene": "tonal_blocks-dark-share_sheet",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "full_actual_window_rgba": {
+        "max_abs": 40,
+        "changed_channels": 516596,
+        "mean_abs": 5.134172163918041
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 38,
+        "changed_channels": 1321935,
+        "mean_abs": 7.1599127114020735
+      },
+      "deep_pane_screen_roi_px": [
+        96,
+        715,
+        654,
+        1238
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.6775772496413756,
+        0.6775772496413756,
+        0.679089669927705
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.5223897956809987,
+        0.5223897956809987,
+        0.5209616612316027
+      ]
+    },
+    {
+      "scene": "tonal_blocks-dark-alert",
+      "theme": "dark",
+      "carrier": "alert",
+      "full_actual_window_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 31,
+        "changed_channels": 2103158,
+        "mean_abs": 9.2665736497545
+      },
+      "deep_pane_screen_roi_px": [
+        135,
+        595,
+        615,
+        779
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.39993409064474855,
+        0.39993409064474855,
+        0.4001026623186155
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.5223897956809987,
+        0.5223897956809987,
+        0.5209616612316027
+      ]
+    },
+    {
+      "scene": "synthetic_landscape-dark-share_sheet",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "full_actual_window_rgba": {
+        "max_abs": 40,
+        "changed_channels": 516555,
+        "mean_abs": 5.13340179910045
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 37,
+        "changed_channels": 1322002,
+        "mean_abs": 7.86061811238407
+      },
+      "deep_pane_screen_roi_px": [
+        96,
+        715,
+        654,
+        1238
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.6784521495192971,
+        0.6784911804958563,
+        0.6785263138670997
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.5215709143481821,
+        0.5215437798582289,
+        0.5214470619527095
+      ]
+    },
+    {
+      "scene": "synthetic_landscape-dark-alert",
+      "theme": "dark",
+      "carrier": "alert",
+      "full_actual_window_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "visible_app_screen_rgba": {
+        "max_abs": 29,
+        "changed_channels": 2103221,
+        "mean_abs": 8.62636906710311
+      },
+      "deep_pane_screen_roi_px": [
+        135,
+        595,
+        615,
+        779
+      ],
+      "deep_pane_rgba": {
+        "max_abs": 0,
+        "changed_channels": 0,
+        "mean_abs": 0.0
+      },
+      "exterior_roi_px": [
+        64,
+        352,
+        686,
+        440
+      ],
+      "exterior_old_gain_zero_intercept_rgb": [
+        0.39999113524707147,
+        0.40000090400062355,
+        0.39999247805493265
+      ],
+      "exterior_new_gain_zero_intercept_rgb": [
+        0.5215709143481821,
+        0.5215437798582289,
+        0.5214470619527095
+      ]
+    }
+  ]
+}

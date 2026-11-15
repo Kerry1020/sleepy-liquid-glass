@@ -1,0 +1,358 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "segment": "left",
+    "tangent_samples": 62,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "segment": "right",
+    "tangent_samples": 62,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "segment": "top_left",
+    "tangent_samples": 84,
+    "normal_samples": 52,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "segment": "bottom_left",
+    "tangent_samples": 84,
+    "normal_samples": 32,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "segment": "top_right",
+    "tangent_samples": 84,
+    "normal_samples": 52,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "segment": "bottom_right",
+    "tangent_samples": 84,
+    "normal_samples": 32,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "segment": "top_left",
+    "tangent_samples": 124,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "segment": "bottom_left",
+    "tangent_samples": 124,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "segment": "top_right",
+    "tangent_samples": 124,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "segment": "bottom_right",
+    "tangent_samples": 124,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "segment": "left_upper_straight",
+    "tangent_samples": 23,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "segment": "left_corner_proximal",
+    "tangent_samples": 13,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "segment": "left_lower",
+    "tangent_samples": 30,
+    "normal_samples": 60,
+    "excluded_pixels": 88,
+    "exclusion_runs_by_normal": [
+      [
+        22.25,
+        22
+      ],
+      [
+        22.75,
+        22
+      ],
+      [
+        23.25,
+        22
+      ],
+      [
+        23.75,
+        22
+      ]
+    ]
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "segment": "right_upper_straight",
+    "tangent_samples": 23,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "segment": "right_corner_proximal",
+    "tangent_samples": 13,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "segment": "right_lower",
+    "tangent_samples": 30,
+    "normal_samples": 60,
+    "excluded_pixels": 88,
+    "exclusion_runs_by_normal": [
+      [
+        22.25,
+        22
+      ],
+      [
+        22.75,
+        22
+      ],
+      [
+        23.25,
+        22
+      ],
+      [
+        23.75,
+        22
+      ]
+    ]
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "segment": "left",
+    "tangent_samples": 62,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "segment": "right",
+    "tangent_samples": 62,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "segment": "top_left",
+    "tangent_samples": 84,
+    "normal_samples": 52,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "segment": "bottom_left",
+    "tangent_samples": 84,
+    "normal_samples": 32,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "segment": "top_right",
+    "tangent_samples": 84,
+    "normal_samples": 52,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "segment": "bottom_right",
+    "tangent_samples": 84,
+    "normal_samples": 32,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "segment": "top_left",
+    "tangent_samples": 124,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "segment": "bottom_left",
+    "tangent_samples": 124,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "segment": "top_right",
+    "tangent_samples": 124,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "segment": "bottom_right",
+    "tangent_samples": 124,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "segment": "left_upper_straight",
+    "tangent_samples": 23,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "segment": "left_corner_proximal",
+    "tangent_samples": 13,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "segment": "left_lower",
+    "tangent_samples": 30,
+    "normal_samples": 60,
+    "excluded_pixels": 88,
+    "exclusion_runs_by_normal": [
+      [
+        22.25,
+        22
+      ],
+      [
+        22.75,
+        22
+      ],
+      [
+        23.25,
+        22
+      ],
+      [
+        23.75,
+        22
+      ]
+    ]
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "segment": "right_upper_straight",
+    "tangent_samples": 23,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "segment": "right_corner_proximal",
+    "tangent_samples": 13,
+    "normal_samples": 60,
+    "excluded_pixels": 0,
+    "exclusion_runs_by_normal": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "segment": "right_lower",
+    "tangent_samples": 30,
+    "normal_samples": 60,
+    "excluded_pixels": 88,
+    "exclusion_runs_by_normal": [
+      [
+        22.25,
+        22
+      ],
+      [
+        22.75,
+        22
+      ],
+      [
+        23.25,
+        22
+      ],
+      [
+        23.75,
+        22
+      ]
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "scope": "Synthetic source-only numerical review; no actual captures or files loaded",
+  "fft_direct_max_absolute_error": 4.440892098500626e-16,
+  "weak_retained_candidates": {
+    "status": "unidentified",
+    "reasons": [
+      "retained_candidates_weak_not_full_search_absence"
+    ],
+    "strong_search_signal_present": true,
+    "corrected": true
+  },
+  "clamped_search_boundary": {
+    "status": "unidentified",
+    "best_center": [
+      14.5,
+      1050.5
+    ],
+    "best_boundary_flag": true,
+    "corrected": true
+  },
+  "foreground_component_support": {
+    "risk": true,
+    "primary_box": [
+      176,
+      1192,
+      192,
+      1208
+    ],
+    "known_overlap_pixels": 96,
+    "corrected": true
+  },
+  "shared_support_different_projection_centroids": {
+    "valid": [
+      true,
+      true
+    ],
+    "centers": [
+      [
+        348.5872235872235,
+        1049.9999999999986
+      ],
+      [
+        351.4127764127763,
+        1049.9999999999982
+      ]
+    ],
+    "boxes": [
+      [
+        340,
+        1046,
+        360,
+        1054
+      ],
+      [
+        340,
+        1046,
+        360,
+        1054
+      ]
+    ],
+    "areas": [
+      160,
+      160
+    ],
+    "centroid_separation_px": 2.8255528255527906,
+    "known_support_intersection_fraction": 1.0,
+    "requirement": "Identity competition must use component pixels, not only a two-pixel centroid radius.",
+    "competition_gate": {
+      "statuses": [
+        "fused",
+        "fused"
+      ],
+      "accepted_measurements_remaining": 0,
+      "preserved_rejected_measurements": 2,
+      "disjoint_support_same_box_rejected_by_intersection": false,
+      "multi_span_exact_intersection_pixels": 3
+    }
+  },
+  "metadata_contract": {
+    "registered_calibration_point_count": 1680,
+    "rejected_cases": [
+      "empty_points",
+      "wrong_coordinate_scale",
+      "wrong_seed",
+      "nonfinite_position",
+      "mismatched_pixel_point",
+      "unknown_overlap_identity",
+      "wrong_source_binding"
+    ]
+  },
+  "color_preflight": {
+    "unprofiled_srgb_policy_reported": true,
+    "profiled_srgb_pixels_preserved": true,
+    "nonopaque_alpha_rejected": true,
+    "littlecms2_recorded": true
+  },
+  "reviewed_tracker_sha256": "be42b444c4bfedd1b626e29ff2530dff391d0bcc5fd06fedf6493aea06187b16",
+  "review_helper_sha256": "4543f179fcdedd1b7d3b0abf5c24aae847fa410dc8fa53a2e156b2ca12ff3d76"
+}

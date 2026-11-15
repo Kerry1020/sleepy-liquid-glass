@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "frozen_utc": "2026-11-14T12:56:44.288210+00:00",
+  "analysis_id": "glass_isolated_calibration_response_v1",
+  "split": "calibration",
+  "set_id": "glass_isolated_shapes_20261114_v1_calibration",
+  "capture_outputs_opened_before_freeze_by_author": false,
+  "source_sha256": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/ic01_circle_top_control.png": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/ic01_circle_top.geometry.json": "684522aae84caa8422e4c92593e72d8699314852c6fb1806764811c7c88bb7f1",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/ic01_circle_top_shape.png": "00758f2979f5f2434a01afdbb964803962732839d26ce4fd48379caaa502169e",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/ic02_triangle_body_control.png": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/ic02_triangle_body.geometry.json": "4eb9ebf7af1a99faecf18c89b9e5bbb855ae9fdda3368a6a804a5a852bf1d68b",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/ic02_triangle_body_shape.png": "cdb2b38f7d44e0088fa7e0c581e75c19384fb95a70eeaa362beb811009b2fc60",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/ic03_star_right_control.png": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/ic03_star_right.geometry.json": "1ac5123d9212937933b9d1dc17c73c99ea77653a746da967df4b74e6523c1a71",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/ic03_star_right_shape.png": "e6cfa715b01956a8d6225bb322b97d1936d12cc573b2bbe6c9ec1bf2a406c831",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/ic04_asymmetric_lower_control.png": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/ic04_asymmetric_lower.geometry.json": "6e231b661f3bfaa03d21dd7711c2e6ee8e5a57e1fdcfc2c40e68600c2c1169b4",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/ic04_asymmetric_lower_shape.png": "d33a06aa300a7118ffd4cc3aed8bfba766a5693660558a639d2ab941bf0ff83a",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/analysis/analyze_calibration.py": "c4f83d787111735e21808c6c94fc34b1e7b36ecf126ccf74f50d4bb1f50c7f31",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/analysis/analysis-protocol.json": "75473886aa268fd4b221584ad76caf21869a152813be9aa535ecafedd07f8fc1",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/analysis/README.md": "5948d23dc3af9e26801972cf29052b241fc5bf28c1476875294d82b8daba9080",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/protocol.json": "e0ca7d24ec7dd5db28b5aafc51eeaac486a4c62b7ce4c08d8342a329c75b1f2a",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/freeze.json": "c3a15180db0c122f28c1416f85cad1252acf2d25c6a4687e190f9b01e2ebc280",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/generate.py": "f51ec20b02aff4dc38a6f4fe8aa64e3d48ba9851b22574445d6cd88374ddd5c9",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/sRGB.icc": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/calibration/manifest.json": "4f69c2f5ca826fbddf31f04ca429d377ce329408fe65761692546790c9b4ff75"
+  },
+  "sampling_sha256": "48bea627dcd527dacbb09b69342cde6392e0ac745528676d09a872409ba398e9",
+  "self_checks": {
+    "passed": true,
+    "checks": [
+      "all5123x3 masks vs independent graph traversal",
+      "8-connected diagonal/split components",
+      "empty/full masks",
+      "signed RGB and polarity",
+      "global shift preserved",
+      "threshold monotonicity",
+      "sRGB endpoints",
+      "zero response",
+      "closed-form component area/bounds/moments/color/coverage/direction"
+    ]
+  },
+  "versions": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "pillow": "11.3.0",
+    "littlecms2": "2.17"
+  },
+  "limits": "Method freeze before this packet's actual-output reading; calibration can inform a later explicitly frozen test method. No holdout supported or native equivalence claim."
+}

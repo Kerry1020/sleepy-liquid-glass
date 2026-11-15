@@ -1,0 +1,24 @@
+{
+  "status": "frozen-before-next-rim-output-decode",
+  "candidate_light_alert": {
+    "body_blur": 8,
+    "refraction": 60,
+    "rim_side": 0,
+    "rim_corner": 0,
+    "rim_flat": 0.06,
+    "minimumShine": 0.08,
+    "shine": 0.16
+  },
+  "dark_candidate": "restore original factory; compare actual historical dark reference, no body8 dark exists",
+  "files": {
+    "analysis-rim-evidence/rim-next-frozen-plan.md": "179c6679b5400d5fd8551279b4ad99fc82eb456c8fa01203d62d0cf235ca10ac",
+    "analysis-rim-evidence/body8-controls.json": "32ac30a58fdfedfd471772abcca71e77155f0bcbded99e9fabcadcd6bf97ef74",
+    "analysis-rim-evidence/body8-straight-tracks.csv": "2d6bac85f6b12f3ecc0e5d0a8ea446eb7b67b146d7dd22c330aa8831663faa25",
+    "analysis-rim-evidence/body8-corner-tracks.csv": "cc482eeed41296b0809942c76b219860ba0dfa92768cf17af6372a3ecee6bcac",
+    "analysis-rim-evidence/body8-straight-metrics.json": "f19bbdeafddc2bf28665e9d2b0a95cda8da5d7708500d3f064925d93a9aa84ae",
+    "analysis-rim-evidence/body8-corner-metrics.json": "304166eb639e41aa5c23654d8238c8a7a9839db5b75958a192d91fd942644be1",
+    "panels-alert-body8-20261115/matrix.json": "2ba82b32d78bb85b199e467fa525e6d39ce0b4705d82451fc3b87cbbcefe1242",
+    "panels-alert-body8-20261115/capture-plan.json": "c3476253980a0e981e68a95e422304a7e285be45dde031f9176e3383ca325687",
+    "panels-alert-body8-20261115/capture-result.json": "e4996e15b1a83bf87d3e1bdbcd123ca304917fb2227b803291c28b61cec5f82c"
+  }
+}

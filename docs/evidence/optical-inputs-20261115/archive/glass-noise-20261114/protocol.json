@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "protocol_id": "glass_noise_20261114_v1",
+  "purpose": "Fixed controlled-input extrapolation challenge for the unchanged D46.5 candidate; calibration inputs are generated separately and no training is claimed.",
+  "production_candidate": "D46.5, unchanged",
+  "dimensions_px": [750, 1334],
+  "logical_dimensions_pt": [375, 667],
+  "px_per_pt": 2,
+  "image_mode": "RGB",
+  "background_rgb": [128, 128, 128],
+  "color_space": "sRGB, embedded frozen ICC profile; pixel arithmetic is in sRGB code values, not scene-linear radiance",
+  "rng": "numpy.random.Generator(numpy.random.PCG64(seed)); per-image independent explicit seeds",
+  "noise": {
+    "scales": [
+      {"name": "fine", "gaussian_sigma_px": 2, "expected_channel_std_code": 12},
+      {"name": "medium", "gaussian_sigma_px": 12, "expected_channel_std_code": 18},
+      {"name": "coarse", "gaussian_sigma_px": 48, "expected_channel_std_code": 22}
+    ],
+    "expected_rgb_channel_correlation": 0.65,
+    "filter": "Periodic full-canvas FFT Gaussian exp(-2*pi^2*sigma^2*(fx^2+fy^2)); DC fixed to zero; divide by the analytic RMS filter gain, never a measured per-image standard deviation",
+    "composition": "Each scale combines sqrt(.65)*shared + sqrt(.35)*independent channel fields, then sums the three stated amplitudes around code value 128, clips to [0,255] and uses numpy.rint once",
+    "no_per_image_normalization": true
+  },
+  "dots": {
+    "scales_in_draw_order": [
+      {"name": "coarse", "radius_px": 10, "count": 80},
+      {"name": "medium", "radius_px": 4, "count": 320},
+      {"name": "fine", "radius_px": 1.5, "count": 1280}
+    ],
+    "total_per_image": 1680,
+    "centers": "Independent continuous uniform draws on the full half-open canvas [0,750) x [0,1334), without rejection for position, overlap, Dock location or resulting appearance",
+    "palette_rgb": [[24,24,24], [232,232,232], [232,48,48], [48,232,48], [48,48,232], [232,232,48]],
+    "palette_assignment": "For each scale, integer index modulo six, then a seed-controlled permutation; positions and colors have no Dock-dependent selection",
+    "polarity": "Rec.709 weighted sRGB code value relative to background 128; this is a source-code contrast label, not physical luminance",
+    "shape": "Ideal hard circular disks, sigma=null; exact membership at 4x4 subpixel sample centers followed by BOX area averaging, coarse then medium then fine source-over",
+    "antialias_samples_per_axis": 4,
+    "source_neighborhood": {"radius_px": 64, "relative_coordinate_quantization_px": 2, "nearest_source_neighbors": 6},
+    "overlap_policy": "Keep and label every source point including overlaps and edge clipping. Save overlap IDs and final raster RGB at its center. Do not regenerate difficult inputs."
+  },
+  "splits": {
+    "calibration": {
+      "set_id": "glass_noise_20261114_v1_calibration",
+      "manifest_split": "calibration",
+      "inputs": [
+        {"id":"c01_rgb_noise_s0","kind":"rgb_noise","seed":3390112001},
+        {"id":"c02_rgb_noise_s1","kind":"rgb_noise","seed":3390112002},
+        {"id":"c03_rgb_noise_s2","kind":"rgb_noise","seed":3390112003},
+        {"id":"c04_rgb_noise_s3","kind":"rgb_noise","seed":3390112004},
+        {"id":"c05_dots_s0","kind":"dots","seed":3390112257},
+        {"id":"c06_dots_s1","kind":"dots","seed":3390112258},
+        {"id":"c07_dots_s2","kind":"dots","seed":3390112259},
+        {"id":"c08_dots_s3","kind":"dots","seed":3390112260}
+      ]
+    },
+    "test": {
+      "set_id": "glass_noise_20261114_v1_test",
+      "manifest_split": "holdout",
+      "inputs": [
+        {"id":"n01_rgb_noise_s0","kind":"rgb_noise","seed":2119639297},
+        {"id":"n02_rgb_noise_s1","kind":"rgb_noise","seed":2119639298},
+        {"id":"n03_rgb_noise_s2","kind":"rgb_noise","seed":2119639299},
+        {"id":"n04_rgb_noise_s3","kind":"rgb_noise","seed":2119639300},
+        {"id":"n05_dots_s0","kind":"dots","seed":2119639553},
+        {"id":"n06_dots_s1","kind":"dots","seed":2119639554},
+        {"id":"n07_dots_s2","kind":"dots","seed":2119639555},
+        {"id":"n08_dots_s3","kind":"dots","seed":2119639556}
+      ]
+    }
+  },
+  "precommitted_controls": [
+    "Freeze protocol, generator, ICC bytes and dependency versions before generating the registered images.",
+    "Use every predeclared seed; never select seeds, points, crops or frequencies by native/Android captured appearance.",
+    "Do not inspect test captures to tune the current candidate. This batch tests extrapolation only.",
+    "Calibration inputs are not holdout and generation is not evidence of completed calibration or training.",
+    "All three scales are mixed across the full canvas; no quadrant or Dock-specific point placement.",
+    "Test and calibration share a declared design but have disjoint seeds. This is seed independence, not design blindness or a representative natural-scene sample."
+  ],
+  "tracking_contract": [
+    "Use known source point positions, sizes, colors, overlap records and local constellations; retain the source identity when evidence supports correspondence.",
+    "Allow zero, one or multiple observed lobes per source point, as well as fusion, occlusion, clipping and unresolved ambiguity.",
+    "Do not force nearest-neighbor matches or assign a displacement to a point without supported correspondence.",
+    "Record search support, confidence, residual, competing candidates and rejection reason; use cross-correlation where individual dots are unresolved.",
+    "Cross-correlation and point tracking have different resolution/robustness limits. Neither uniquely identifies native thickness, refractive index, blur or its rendering implementation."
+  ],
+  "primary_method_reference": {
+    "title": "A Dot-Tracking Methodology for Background-Oriented Schlieren (BOS)",
+    "authors": ["Lalit K. Rajendran", "Sally P. M. Bane", "Pavlos P. Vlachos"],
+    "journal_doi": "10.1007/s00348-019-2793-3",
+    "author_preprint": "https://arxiv.org/abs/1812.10870",
+    "scope": "Motivates known dot-position/size priors and retaining a distinction between dot tracking and correlation. No fluid-diagnostic physical model is assumed for a UI renderer."
+  }
+}

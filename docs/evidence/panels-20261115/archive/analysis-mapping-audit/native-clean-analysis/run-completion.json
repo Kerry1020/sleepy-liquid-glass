@@ -1,0 +1,32 @@
+{
+  "analyzer_exit_code": 0,
+  "all_frozen_algorithm_hashes_unchanged": true,
+  "all_registered_input_hashes_unchanged": true,
+  "original_decision_overall": false,
+  "original_failed_gates": [
+    "embedded_profile_available_for_normalized_sRGB_all"
+  ],
+  "result_files_sha256": {
+    "AX-trigger-and-panel-exclusion.json": "ee1538166959e0297b475cc923a9227ea56d69e2093308b358a1bea10f1164a1",
+    "README.md": "63440aa0458942769cb2e24eb0d6a4ff12156f4ea15a1ae17fadc5530daccf37",
+    "REST-repeat-FULL-RGBA.json": "03f088e1a0110a6c1b7a8a2e9522535381f7d3f7fd7d3736162ca342b5128c30",
+    "RESULTS.md": "54d34b2fb23302713f4c0eeaf9a1b44bc7cf255b101bb9eeb70e0ffef96aabd6",
+    "algorithm-freeze.json": "404e18fc0926bf2515a25961045df0cd5ed97a099b54ca1e5ef2881bd1a7234b",
+    "analysis-plan.json": "b1914427e6102734ef5fba5c30ae778874a3cfa8e2fdde8489712145b37929d2",
+    "analyze.py": "a54297463748be1e26803e763643fead962824a5b0b1441c48419ce34a13c8aa",
+    "capture-time-and-public-context-receipts.json": "d5ebd75a975dc595265f4a0577afbb4d7794ecb6285a138f0e2593621c681f51",
+    "decision.json": "0f5bde5188ea690bc381ac322d86f54ef2da300e1f7f10066ac90252b23b0685",
+    "decode-provenance.json": "f07fc0754950423513cdd4c8dba544970dd78b8a618580004502974a164806b2",
+    "fixed-source-footprint-exactness.json": "285cb7f4b693df5d683004147741bacd0f900cdce66eb28396c5851064c182ca",
+    "full-context-system-differences.json": "adf92b259a26e17f3d4f714eb47e22971efb5dc8fb1907c51765212ac242e6b2",
+    "metadata-session-receipts.json": "fbf7e49e98a93901a8231f77e89ce37bd82c85eaf1faae76437dee112d8cc14f",
+    "old-fixture-geometry-gates.json": "61a33f966ad1b7bfaca894773cc38634cb0e948000c8c5d10479523969baf1f2",
+    "relay-and-delivered-touch-receipts.json": "f7e36b06d7733b37c67a8a594c6ad6f903f74559b307cc85bfae0140a7d0f12e",
+    "run-input-freeze.json": "3f3b58a6282870191f2f48decd821ef03bae997373d97ffac977fbc6bdeb2c35",
+    "static-review.json": "0f89bd79342437aaa738c7ee0c2c235b80661872d8aebb7455781a4c7377c2b9",
+    "supplemental-metadata-and-geometry.json": "acc8b2b914751794e9ba7eca8990142641452f3d7deaf8260ce25e938374c449"
+  },
+  "source_changes_during_analysis": false,
+  "build_device_git_operations": false,
+  "allowed_next_scope": "root review, then separately registered paired-slope feasibility only; no fit or unique2D claim"
+}

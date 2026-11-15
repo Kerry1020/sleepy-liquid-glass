@@ -1,0 +1,27 @@
+{
+  "status": "before-first-bounded-rim-candidate-pixel-decode",
+  "frozen_plan_unchanged": true,
+  "files": {
+    "panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-share_sheet-rest-window.png": "4ad0450ab2997051219ce8c04487da7c551bbccf94fb83a49daa02a8a6a9ff9e",
+    "panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png": "9a8f090cf5f657f9005ff7d5735f1c0b71eb91cddf765c35e7086363a452287c",
+    "panels-alert-rim-bounded-20261115/panel_probe_shapes-light-background-screen.png": "6a1d546050d68c78a3a10df3cef0afe05c52adda0651a7092b9a25f12243541c",
+    "panels-alert-rim-bounded-20261115/panel_probe_shapes-light-alert-rest-rejected-display.png": "eda9daa61c5ed59a3ea82de4cc009a2b6a10e0d7e9e80176406f95a6520d3612",
+    "panels-alert-rim-bounded-20261115/panel_probe_shapes-light-background-window.png": "c643291836e46fe7a0867ec94ff8a6a143163e2cc8363c45ef3352bc82298e01",
+    "panels-alert-rim-bounded-20261115/panel_probe_shapes-light-alert-rest-window.png": "38fd0263450f3d01eb4d20fd0383dcfdee7797735e6bd90e5d6dfc74c00ee4b2",
+    "panels-alert-rim-bounded-20261115/panel_probe_shapes-light-alert-rest-screen.png": "1dd1ffb5c110aeea9576860b3226bf17d3d0d2b50e6e0c2511ab5298e1b7cefb",
+    "panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-alert-rest-screen.png": "1a1fdf3ecba637758119df32189958ae77636d5b78e5c8a5e1470967ef82232a",
+    "panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-alert-rest-window.png": "06964fb07f80a2792507507a48da5b5cafda05074daa827554065e5425a3c587",
+    "panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-background-window.png": "907b7aac6e6677972cbf942004b222a45d8b118ec94215abf5bdcfe4c61799d0",
+    "panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-background-screen.png": "94247156a02e3c0be410b6e9eec591814f2a95cd96a5357428637d25e93c2f3b",
+    "panels-alert-rim-bounded-20261115/panel_probe_shapes-light-share_sheet-rest-window.png": "dd254d82659a4619bcac14f8f08e00b3718287e9c11917d09b0b0b2da8892cec",
+    "panels-alert-rim-bounded-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png": "4480c956deb23df407610ba7cd0c931e8b3d01966dcd2be005c32cc9f826a68c",
+    "panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-alert-rest-rejected-display.png": "d3b9ff679298bea630f842e1940eee46a005e0ab0396fab88443d7a09305c9a4",
+    "panels-alert-rim-bounded-20261115/matrix.json": "32b078be8212d77c7546454d5a15df6fe7593ca68172b2f8afa4c875e0b123f4",
+    "panels-alert-rim-bounded-20261115/capture-plan.json": "7a29c7e6fdaa070be50c07062e15dd2cf9188a95384e29679e9ecbce824d05c0",
+    "panels-alert-rim-bounded-20261115/capture-result.json": "2ce1f3007bddf7d357eefd4d6c855d94c7ed4a41c69cfbcd44138e4f4d748854",
+    "panel-alert-rim-bounded-plan.json": "95318607976e73caf0dc9fa21322712ac03cd9e5b431fca7fbb46baef1cf38db",
+    "panel-alert-rim-bounded-build-result.json": "6a2de7a5d8423c7909a4d2fdb0d029694a43dea95153e93b7dcf4b3d79a454b1",
+    "analysis-rim-evidence/rim-next-frozen-plan.md": "179c6679b5400d5fd8551279b4ad99fc82eb456c8fa01203d62d0cf235ca10ac",
+    "analysis-rim-evidence/rim-next-frozen-plan.json": "7b42d16ce8c71ad5e3ef9f5315a9650aa078ca68973bde36eee3388b5326dd5b"
+  }
+}

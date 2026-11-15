@@ -1,0 +1,39 @@
+{
+  "status": "proposal-input preparation only; no new captures",
+  "read_scope": "two existing current nonperiodic calibration source/before-context pairs; no heldout images or optical output decoded",
+  "files_sha256": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/prepare_paired_slope_probes.py": "af2d839d26a8a1f7fe7594529d0336f6d5223a288c69845f0e63ff0acaec48e9",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/manifest.json": "728b459c724cb983110ecc6a1968349d9d22e3b36ee18a69e771bf974e5b280e",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/srgb.icc": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/analysis-plan.json": "4a8d7cbedb4cce07f2a95ef2f18dcdfa4f106c13e2b6abe84072a9861dbe513f",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/geometry-and-mask.json": "c40a3cbcb8f41f7967749f81f88c47769bb8eeb84356ebf32ef9abac9b10d0cc",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/radial-vs-nearest/summary.json": "1fc3ac2f6cac4ad03a13acfedc91326e4ac91e5742af7ae90ac371b2de754343",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/NativeStage.swift": "fa66a5e37570cca07311677e50c28f1e6cec9e7be84e4d370a7f7070dfd48339",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/main.swift": "1dbadf2d915a4a66b80e4b04d08daa516ab5b80f7656f2b496f7c4d9892bed9a",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/CC3F9BE7-2C82-4C11-87CA-5AC5B666EC1C.png": "c6d12bb84b39b4aa780d06d771de37a96bf45b90b352303936b3639e48dcfb18",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/8EA3E6DB-5751-462B-8BB6-304DAE82F210.txt": "95b4d810545631522d4776a0bcf69a0f5a5a48cfd70e02dec050a7e50daefb7c",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/panel_probe_coordinate.png": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/1FE30ED3-6756-49FB-9FD1-92E0FCC122AA.png": "1ba81da37730ce929fa0e9f7ab898ad94c6405a485a0fd4e464e5303bb1b32aa",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/CC02950B-6DB9-4F9E-B240-816F37981D8F.txt": "7aed34003d7039e54e99a9996affcb4b8f6f2068e2ea48509b37f02542b0389e",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/panel_probe_shapes.png": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+  },
+  "frozen_source_diagnostic_corridor_ltrb_pt": [
+    148.5,
+    257.5,
+    226.5,
+    317.5
+  ],
+  "corridor_reason": "c +/- (24 + .25*60), b..b+60; illustrative A60 flat-model footprint, not a proven bound on native sampling",
+  "fixed_world": {
+    "size_px": [
+      750,
+      1334
+    ],
+    "size_pt": [
+      375,
+      667
+    ],
+    "px_per_pt": 2
+  },
+  "no_registration_no_warp_no_gate_changes": true
+}

@@ -1,0 +1,28 @@
+{
+  "status": "before-first-budget-probe-output-pixel-decode",
+  "complete_parent_handback": true,
+  "files": {
+    "panels-alert-floor-budget-20261115/capture-plan.json": "91c732a154584125fb6152e069d34ca7539610eef556a0983bdd6376332312ed",
+    "panels-alert-floor-budget-20261115/capture-result.json": "655ff7d05228bce939676727398f871449d979f3566c7f0081556b4849506867",
+    "panels-alert-floor-budget-20261115/display-before.json": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+    "panels-alert-floor-budget-20261115/display-restored.json": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+    "panels-alert-floor-budget-20261115/matrix.json": "b1f4855b5d4a20fcc29f95a94ceb867fa9b5cbd54b899439eee54528d886eb10",
+    "panels-alert-floor-budget-20261115/panel_probe_coordinate-light-alert-rest-rejected-display.png": "47e471ba4a276f245ce69909c84ac26084915e01bcd9d9b027abd798eaf85c66",
+    "panels-alert-floor-budget-20261115/panel_probe_coordinate-light-alert-rest-screen.png": "a68779f5671851b36dd30c82ac8cba692a4417a67c80c631afb920610823b1b8",
+    "panels-alert-floor-budget-20261115/panel_probe_coordinate-light-alert-rest-window.png": "52b96834121d1715e9536cb3fc7cefe2cd753b625465441f718e593cc831757f",
+    "panels-alert-floor-budget-20261115/panel_probe_coordinate-light-background-screen.png": "6c72a4c1239cf24f223bb1845187cae01a70883bf574339d2788a9e0f717ec41",
+    "panels-alert-floor-budget-20261115/panel_probe_coordinate-light-background-window.png": "907b7aac6e6677972cbf942004b222a45d8b118ec94215abf5bdcfe4c61799d0",
+    "panels-alert-floor-budget-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png": "88259a1d71a7245734c6979ff7dfcf58f3d085841cee985ee0a3132be4347b19",
+    "panels-alert-floor-budget-20261115/panel_probe_coordinate-light-share_sheet-rest-window.png": "42f4100e8151580170c7f7d716012879397e56e243b61abbfe2081e794b2fc3d",
+    "panels-alert-floor-budget-20261115/panel_probe_shapes-light-alert-rest-rejected-display.png": "52b792de9fb13f21b6ab7e87c2ea6d848241cc729e9dacae82609f3bc23a9f19",
+    "panels-alert-floor-budget-20261115/panel_probe_shapes-light-alert-rest-screen.png": "9876b1dfa316733464700394a3c6819a676fb9808eac2496f4961375c00c11b3",
+    "panels-alert-floor-budget-20261115/panel_probe_shapes-light-alert-rest-window.png": "a106ca1d3cd6e6f79b7cbecf0f6318c2a56eec812994bf4937e465ceddd59e6b",
+    "panels-alert-floor-budget-20261115/panel_probe_shapes-light-background-screen.png": "bc47b06b3d240d5eb3cb33d3cb29100743f079a2ace4bd766bcd51cbedc0d370",
+    "panels-alert-floor-budget-20261115/panel_probe_shapes-light-background-window.png": "c643291836e46fe7a0867ec94ff8a6a143163e2cc8363c45ef3352bc82298e01",
+    "panels-alert-floor-budget-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png": "49d686615381548e5fe4a7454e8df0e4438fec3e2e21185769dd8e29a6fc5264",
+    "panels-alert-floor-budget-20261115/panel_probe_shapes-light-share_sheet-rest-window.png": "5209095ca981bdea19528021cd59f7490fa9d622d239793cb0bcd3412f27e1a1",
+    "panel-alert-floor-budget-build-result.json": "1f3b655eec21f228a414651eb59d87f957e08bfecfa8e5dea4bc13d2518f8ad9",
+    "analysis-rim-evidence/budget-analysis-plan.md": "d8eb67aac6ddc26adf3a0e093ac9afae85c23819405305e0fc04f77878d27011",
+    "analysis-rim-evidence/budget-analysis-plan.json": "2769ee22ebc61c2d3fe54cc33f5778563142585080e90311a72b3c4928a0956f"
+  }
+}

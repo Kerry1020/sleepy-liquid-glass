@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "publication_date": "2026-11-14",
+  "status": "completed fixed Dock REST photometry; candidate NOT accepted; no global score",
+  "backend_scope": "Historical Sleepy application path, not validation of this repository's official Kyant 2.0.0 backend",
+  "reference": "iOS 26.5 (23F77), native four-item SwiftUI TabView Dock",
+  "comparison": "old D31 baseline versus frozen D46.5 / b15.5 / refractionLimit1.5 candidate",
+  "design": {
+    "backgrounds": 8,
+    "approximately_designed_families": 7,
+    "paired_requested_themes": 2,
+    "scenes": 16,
+    "world_logical_units": [
+      375,
+      667
+    ],
+    "pixels_per_unit": 2,
+    "input_pixels": [
+      750,
+      1334
+    ],
+    "state": "REST"
+  },
+  "rows": {
+    "cell_errors": 3392,
+    "candidate_minus_baseline": 656,
+    "native_repeat_stability": 656,
+    "normal_curves": 41280
+  },
+  "engineering_review_cells": 12,
+  "review_count_scope": "Two ROI and ten normal/depth cells; overlapping and correlated, not twelve independent errors or trials",
+  "representative_curve_selection": [
+    {
+      "scene": "h01_horizontal_steps-light",
+      "probe": "top"
+    },
+    {
+      "scene": "h01_horizontal_steps-light",
+      "probe": "bottom"
+    },
+    {
+      "scene": "h02_chirp_pos-dark",
+      "probe": "tip"
+    },
+    {
+      "scene": "h04_multiscale_checker-dark",
+      "probe": "bottom"
+    }
+  ],
+  "selection_purpose": "Show one large local improvement and three local median regressions, with the same-scene full probe curves; not an average, random subset or pass rate",
+  "native_repeat": {
+    "metric_cells": 656,
+    "all_reported_Y_and_deltaE00_residuals_zero": true,
+    "full_png_pairs_sha256_equal": 15,
+    "full_png_pairs_total": 16,
+    "minimum_capture_separation_range_seconds": [
+      0.3810000419616699,
+      0.4960000514984131
+    ],
+    "limit": "Two observed REST captures establish this capture's sampled stability only, not a noise distribution or future dynamic stability"
+  },
+  "effective_theme_scope": "Actual UITabBar public effectiveInterfaceStyle observed within acquisition brackets; does not reveal private material shader adaptation",
+  "analysis_freeze_sha256": "ba4dba6459e9d81e60069051a370f7fb5d9524d924a638a22c14a982818a80c7",
+  "native_index_sha256": "04236b47219cead46d7a4877bb3c4c5d000fa60fef86b72ec2ce71355271d2a8",
+  "baseline_result_sha256": "f4c0e455f9645d1964dee8b1b8093cd0a8d9f6661fabebd3f19942f87960f178",
+  "candidate_result_sha256": "46e54f73e2cc47dfc858c657cae5867eb4c37695102c587be9613a3a6a653bfb",
+  "sources": [
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/analysis/frozen-analysis.json",
+      "sha256": "ba4dba6459e9d81e60069051a370f7fb5d9524d924a638a22c14a982818a80c7"
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/analysis/analyze_holdout.py",
+      "sha256": "9dfad1e0a6664013a31743295eb3720251aded697c0083f9cd79e259ca3403bf"
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/analysis/sampling-spec.json",
+      "sha256": "4a8a4fff71562cc896725cf7558c180b3ac2590b684b23e6754ecb7915ac75d6"
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/protocol.json",
+      "sha256": "61e7e45f7728eae53cda2b8b2e6c7f1a2c32f439ff20490b45426d9500fa40a4"
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/inputs/manifest.json",
+      "sha256": "33bf9b7d34bfba3537318aac7adf5d08bb6876e1fd41b704e472d10909a2ccf8"
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/native-dock-index.json",
+      "sha256": "04236b47219cead46d7a4877bb3c4c5d000fa60fef86b72ec2ce71355271d2a8"
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/analysis/results/candidate-minus-baseline.csv",
+      "sha256": "8146c2183a041c95c3de9c4bbd44a93b92b406715695e5d09edec48c3e864b25"
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/analysis/results/engineering-review-triggers.csv",
+      "sha256": "2a37ead26acc7f95c56516c5518508d8d75f28df2fb0e0deb367d0be89896c37"
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/analysis/results/native-repeat-stability.csv",
+      "sha256": "97e1ad5230f269af2e990e14a761acfbc17253ad730874b3bd23c638f5b18282"
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/analysis/results/source-guards.csv",
+      "sha256": "a1111ff2c98004c03e92704bba7a4fd923197dd5ae03b4536ded1fe5f003865f"
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/analysis/results/analysis.json",
+      "sha256": "9b6da63c184eacdeab5edfab96a1bc19186caf7bd6ce7ed6498818b5dc201262"
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/analysis/results/normal-curves.csv",
+      "sha256": "584aa00dfeed0817f14e3d05a4b78c72338b18a1f15ed8d51d1e597a578816ef"
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-holdout-20261114/analysis/results/README.md",
+      "sha256": "dff3152e9d25cec3d43aebe64c0c27b13cae517bd2d98cb7d2bcdf4ec397768a"
+    }
+  ],
+  "exports": [
+    {
+      "file": "candidate-minus-baseline.csv",
+      "sha256": "8146c2183a041c95c3de9c4bbd44a93b92b406715695e5d09edec48c3e864b25",
+      "rows": 656,
+      "export": "byte-for-byte original completed output"
+    },
+    {
+      "file": "engineering-review-triggers.csv",
+      "sha256": "2a37ead26acc7f95c56516c5518508d8d75f28df2fb0e0deb367d0be89896c37",
+      "rows": 12,
+      "export": "byte-for-byte original completed output"
+    },
+    {
+      "file": "native-repeat-stability.csv",
+      "sha256": "97e1ad5230f269af2e990e14a761acfbc17253ad730874b3bd23c638f5b18282",
+      "rows": 656,
+      "export": "byte-for-byte original completed output"
+    },
+    {
+      "file": "source-guards.csv",
+      "sha256": "a1111ff2c98004c03e92704bba7a4fd923197dd5ae03b4536ded1fe5f003865f",
+      "rows": 64,
+      "export": "byte-for-byte original completed output"
+    },
+    {
+      "file": "representative-normal-curves.csv",
+      "sha256": "0196bb42de5018cb3ba0bd47b7cdbafc0029c83a2de99ee4f7188fa86dfd38b4",
+      "rows": 2064,
+      "export": "exact CSV values selected by the four declared scene/probe keys; no interpolation, refit or new measurement"
+    },
+    {
+      "file": "protocol.json",
+      "sha256": "61e7e45f7728eae53cda2b8b2e6c7f1a2c32f439ff20490b45426d9500fa40a4",
+      "export": "byte-for-byte frozen methodological record"
+    },
+    {
+      "file": "sampling-spec.json",
+      "sha256": "4a8a4fff71562cc896725cf7558c180b3ac2590b684b23e6754ecb7915ac75d6",
+      "export": "byte-for-byte frozen methodological record"
+    },
+    {
+      "file": "frozen-analysis.json",
+      "sha256": "ba4dba6459e9d81e60069051a370f7fb5d9524d924a638a22c14a982818a80c7",
+      "export": "byte-for-byte frozen methodological record"
+    }
+  ],
+  "limits": [
+    "No candidate acceptance, universal similarity percentage, population inference or native-equivalence claim.",
+    "Source-step loci, color islands and topology require independent transport review; smaller color residuals cannot pass those checks.",
+    "Sheet, other controls, sizes, real photographs, nested surfaces and dynamics remain outside this Dock REST analysis.",
+    "Rendering this public subset reproduces charts of saved values, not original screenshot photometry.",
+    "If these results guide tuning, this set becomes calibration and another preregistered unseen set is required."
+  ]
+}

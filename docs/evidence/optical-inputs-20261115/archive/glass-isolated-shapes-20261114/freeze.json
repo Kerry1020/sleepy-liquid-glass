@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "protocol_id": "glass_isolated_shapes_20261114_v1",
+  "frozen_utc": "2026-11-14T12:46:56.572198+00:00",
+  "file_sha256": {
+    "protocol.json": "e0ca7d24ec7dd5db28b5aafc51eeaac486a4c62b7ce4c08d8342a329c75b1f2a",
+    "generate.py": "f51ec20b02aff4dc38a6f4fe8aa64e3d48ba9851b22574445d6cd88374ddd5c9",
+    "README.md": "0c54bca9fdc42dff36a1b60c5e620bbeb29f96a17aeafb38f65d63538b5e3684",
+    "sRGB.icc": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957"
+  },
+  "dependencies": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "pillow": "11.3.0",
+    "littlecms2": "2.17"
+  },
+  "before_registered_generation": true,
+  "statement": "Source protocol/generator frozen before this packet's PNG generation. No new actual capture used to choose parameters; prior pilot explicitly informs design."
+}

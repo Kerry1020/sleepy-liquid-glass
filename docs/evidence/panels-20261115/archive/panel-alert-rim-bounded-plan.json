@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "kind": "bounded-light-alert-rim-stage",
+  "changes": "Light Alert retains body8, true-radius input, refraction60/profile1 and all tone/shape parameters. Replace outline-zero intermediate with CPU side0/corner0/flat.06 and existing minimumShine floor.08, keeping shine.16. This is a two-parameter rim candidate, not a scalar ablation. Sheet unchanged. Restore dark Alert original blur16, original rim factory and null input opt-in.",
+  "reference": "panels-input-geometry-20261115 actual Windows are strictly pixel-identical to panels-alert-body8-20261115; their original optical conclusions remain applicable",
+  "analysis_plan": "analysis-rim-evidence/rim-next-frozen-plan.md",
+  "analysis_plan_sha256": "179c6679b5400d5fd8551279b4ad99fc82eb456c8fa01203d62d0cf235ca10ac",
+  "execution": [
+    "Run76 targeted checks and build both APKs with complete source freeze",
+    "Four nonperiodic light REST and16 public historical background/theme/carrier REST",
+    "New light Alert versus body8 isolates rim-stage; historical light Alert measures combined blur+rim regression, not pure rim attribution",
+    "Dark original controls versus panels-dark-scrim-20261115; Sheet unchanged actual Windows versus original baseline",
+    "Preserve clipping, every side and corner regression; no threshold retuning after decode"
+  ],
+  "acceptance": "Candidate must eliminate fixed top255 clipping and improve top/left/right separately; no native parity or physical thickness claim. Rejected candidate will not be called final material."
+}

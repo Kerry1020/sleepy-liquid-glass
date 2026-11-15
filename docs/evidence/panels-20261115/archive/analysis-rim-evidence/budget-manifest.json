@@ -1,0 +1,246 @@
+{
+  "schema": 1,
+  "scope": "Current budget experiment and its generated history outputs; no optical decode of failed first history run",
+  "files": {
+    "budget-124-pixels.csv": {
+      "sha256": "d1689f2e9cb6b883ac3a98c1d1f54b661eb4701c52a3f92b5d6ec5d1dbf47a6b",
+      "bytes": 38462
+    },
+    "budget-124-pixels.json": {
+      "sha256": "51a485046ac957c282fdb2a417ff9963565d80e03350db54211fc0998248549e",
+      "bytes": 700918
+    },
+    "budget-124-summary.json": {
+      "sha256": "9933ceee4b9afeadca9b2e94be7e95797410fed55f399bc29b0bc29fa685ad9f",
+      "bytes": 7645
+    },
+    "budget-all-reference-neutral-peaks.json": {
+      "sha256": "25ad3f35fc4a00d443863b3be89ff6ee252101915975acf7f456b8a856634f94",
+      "bytes": 13567
+    },
+    "budget-all-reference-probe-metrics.json": {
+      "sha256": "069354d02da36046e7b81e557ff73f572a76bc6255a164a7c46cdfa7edf99935",
+      "bytes": 3584207
+    },
+    "budget-all-reference-probe-summary.json": {
+      "sha256": "75efc6af8f069e3cd00deb2985ec7e1feff4f412418f374dab48d2bc3e67afd6",
+      "bytes": 439
+    },
+    "budget-analysis-plan.json": {
+      "sha256": "2769ee22ebc61c2d3fe54cc33f5778563142585080e90311a72b3c4928a0956f",
+      "bytes": 42982
+    },
+    "budget-analysis-plan.md": {
+      "sha256": "d8eb67aac6ddc26adf3a0e093ac9afae85c23819405305e0fc04f77878d27011",
+      "bytes": 9250
+    },
+    "budget-clipping-all-fixed.json": {
+      "sha256": "b78b3bf6119733dd5a714cf6d94654d3c83422f450afe2e7994c351b71244519",
+      "bytes": 18704702
+    },
+    "budget-clipping-pointwise.json": {
+      "sha256": "0b47ea0f45b2b9dba8b4f93885fac0259a0e4f761f6b201a4ad3392c466fcbd2",
+      "bytes": 11285351
+    },
+    "budget-clipping-summary.json": {
+      "sha256": "906cc4851e9fa579713f5ab34b87f239dede5bd145a5d8a810086f8d495fdf92",
+      "bytes": 2603
+    },
+    "budget-completion-decode.json": {
+      "sha256": "bacd4fa49ed0d7e30111be27bd936a6e311db53e4eac8c1751cacc27274b9eb9",
+      "bytes": 6477
+    },
+    "budget-controls.json": {
+      "sha256": "024af53a4c9685d6f2ed9b0293c00db4d84febbfc72d25e9a3911f96fe26ab4d",
+      "bytes": 5392
+    },
+    "budget-corner-complete-metrics.json": {
+      "sha256": "636258466e1efd30c1650e4e64ec96292fa379fe3bd7a8d34c8bd8ab35ec2db6",
+      "bytes": 484335
+    },
+    "budget-corner-metrics.json": {
+      "sha256": "507e511847160c288b765f054624b896f9d291fd297094803cabe454a1a624ed",
+      "bytes": 36333
+    },
+    "budget-corner-tracks.csv": {
+      "sha256": "47b8d0ffbadea2db1c734a0a1f5973ff5084112a62e9e789fdbfa2085f13fff3",
+      "bytes": 4716084
+    },
+    "budget-decision.md": {
+      "sha256": "380bef4144a8126481722a4ee5cfe572442788508c0949eb8ecc9c7088b68604",
+      "bytes": 14423
+    },
+    "budget-decode.json": {
+      "sha256": "4767fd0ba6d91fa28c428d300b208f05c3023f10157f2fa48535b80e07e325aa",
+      "bytes": 7351
+    },
+    "budget-five-way-fixed-comparison.png": {
+      "sha256": "b076397144d799ba9d28eeffcbdb0e50778b032bb75504ba0458f6cedfdd6471",
+      "bytes": 153470
+    },
+    "budget-history/analysis.json": {
+      "sha256": "dfa8513f6c5d48332f5b44eb8a4af548fc89bf6cbf9f909e6d97c916e58ab499",
+      "bytes": 405608
+    },
+    "budget-history/blue-feature-tracks.csv": {
+      "sha256": "362269fc432223fc60a451004d6a050ec7e5831508e4c241e94ec744474906fc",
+      "bytes": 20974
+    },
+    "budget-history/corner-profiles.csv": {
+      "sha256": "41a101609e0ec2e8467cf322c6212cb915be98e059e35e7623b7d66ebc8d0374",
+      "bytes": 5059203
+    },
+    "budget-history/left-edge-first-derivative.png": {
+      "sha256": "24bba413047035bba39063dae8ec3bf7904efcf73a54586c9e16db8fc83bfca5",
+      "bytes": 190186
+    },
+    "budget-history/left-edge-response.png": {
+      "sha256": "2f63e232e7f52eedb40ba77e4fa8f14dd5b555f0f5cac1a1bc5b767854c9705e",
+      "bytes": 158081
+    },
+    "budget-history/left-edge-second-derivative.png": {
+      "sha256": "124e43d8e19dc6187e593592b5101d8170d1c1fd5b7dddaaf199febe6106bd2e",
+      "bytes": 199643
+    },
+    "budget-history/straight-profiles.csv": {
+      "sha256": "04d0916573519e508c30dfc9db019e97bd57fb772aa516d35ed9b5b65983f6d1",
+      "bytes": 816449
+    },
+    "budget-history-clipping-pointwise.json": {
+      "sha256": "dd7ac1e4af1b43950b27a9935515744a03bf9c1657bf108b0ebfec1ec29b65af",
+      "bytes": 10282048
+    },
+    "budget-history-clipping.json": {
+      "sha256": "6b3b0bf8d199edd91a1eaaa72c68c738bd2b9ff838c6990f94eb911bbe1f7192",
+      "bytes": 23606186
+    },
+    "budget-history-controls.json": {
+      "sha256": "568e3b0c5f67b159eb677cd45d6625c9f2ed27384c54092e73e6b56aada5204c",
+      "bytes": 36678
+    },
+    "budget-history-corner16-metrics.json": {
+      "sha256": "726b489f532707b71a6d34745f7a52d8d52d5efcf9552683428cdb8cf9bf2886",
+      "bytes": 3062648
+    },
+    "budget-history-decode.json": {
+      "sha256": "d864eba409c20f12c3e9b317f61cfa3fefccfc3efb32afb5b99ea7a010c3a963",
+      "bytes": 44553
+    },
+    "budget-history-metric-changes.json": {
+      "sha256": "ec1e22c95f9662fd3aa12e9dc45b1e4fafaf0728de58cfeb636bf3272e047187",
+      "bytes": 1312783
+    },
+    "budget-history-predecode.json": {
+      "sha256": "cb8c0ab7f65f1b6556c8a784803af344f67a23fab11682aea28225febe68f6d2",
+      "bytes": 17579
+    },
+    "budget-history-run.log": {
+      "sha256": "273937f64f8a401895d9de5dcdbca61ac3640cd48abe06efe0800a7c0ccc0a09",
+      "bytes": 5830
+    },
+    "budget-history-summary.json": {
+      "sha256": "a9ff47b42dc465af7e4264ad3f685d3824f2cfab3152cf31943d35e4c3e70fe9",
+      "bytes": 9624
+    },
+    "budget-integrity-verification.json": {
+      "sha256": "3e769cd0b57bbeff25a27bd862a1052efef706037d09658ecd35645fc627b8b9",
+      "bytes": 111437
+    },
+    "budget-neutral-peaks.json": {
+      "sha256": "82c43db2ebc2e44269aff84425c6b44d052d65903668962052fbd682d5a5f0d8",
+      "bytes": 25851
+    },
+    "budget-primary-controls.json": {
+      "sha256": "4231656f6b5a0f97c31fe3ce48309a7446bd0182227ef527a6dedc823dde3f36",
+      "bytes": 2835
+    },
+    "budget-primary-decode.json": {
+      "sha256": "fcd12577db12c3d6a45106fbe00cb520ab8492ca90786d4f992e87f80897e357",
+      "bytes": 5220
+    },
+    "budget-probes-predecode.json": {
+      "sha256": "d997cf5831e3e84c7dc32b69d9e2f4e6f22c5267d5dcd31f5b90130fd0a8bcad",
+      "bytes": 3391
+    },
+    "budget-regression-index.csv": {
+      "sha256": "3523ab0823b7c4b73443c88a41032b6e20bd828ef7fc387568b3545d7bdacafa",
+      "bytes": 194405
+    },
+    "budget-regressions.json": {
+      "sha256": "2ff84bc07e3e18d79781ea1d6ae8fe9f9b2607dc0db1d7e2f5ddbc628860dc30",
+      "bytes": 1064998
+    },
+    "budget-result.json": {
+      "sha256": "bb0d3e7d4afa4d76532c7d3a338384b7e20215563b55b3422d9a95a85ad5f22a",
+      "bytes": 160587
+    },
+    "budget-straight-metrics.json": {
+      "sha256": "8bba84c0fe5e471669484582373aacadb71ed0894385ec9151d2748547b55a4c",
+      "bytes": 128592
+    },
+    "budget-straight-tracks.csv": {
+      "sha256": "74512a7e99165ebd0cd305deee87b4a7af0185211ddf070c559506342903d5d1",
+      "bytes": 1671271
+    },
+    "budget-summary-run.log": {
+      "sha256": "48a48430a059346d6ef6a7bc9e6f8ec34ab2c96ea257d0bc59081a38d8c299ef",
+      "bytes": 3793
+    },
+    "budget_analyze_history.py": {
+      "sha256": "06a0846f7af3abfbaaf4a3aa2911c4dd68b55fbfefedd357b726aa0c788447f1",
+      "bytes": 10647
+    },
+    "budget_analyze_probes-run.log": {
+      "sha256": "54bf4259cda05c6055cb6997380be33b637498296743b8dbd7921b3711f26869",
+      "bytes": 3667
+    },
+    "budget_analyze_probes.py": {
+      "sha256": "8a250e7717766e4db18d4968a210269392d92c69d10632b2be85cf5f63c24233",
+      "bytes": 9132
+    },
+    "budget_compare_probe_metrics-run.log": {
+      "sha256": "b6d3b401f29cae9ac768f39da09e43ffd6e2c6f69014cbe8b00cf423e71cd3e1",
+      "bytes": 15059
+    },
+    "budget_compare_probe_metrics.py": {
+      "sha256": "e96795bd486be12cf05854dc702800202f43526a5fb579e08716f63314d15dc1",
+      "bytes": 5780
+    },
+    "budget_complete_history_derivatives.py": {
+      "sha256": "af7a93fd238a8ea2410ce73dcd182608647ccb3f456cacb063844f1a11c1e167",
+      "bytes": 3306
+    },
+    "budget_complete_probes-run.log": {
+      "sha256": "40c51cdb73987fca658dd120e1b141ad222f99dfb5678d183e83950ec210281a",
+      "bytes": 2933
+    },
+    "budget_complete_probes.py": {
+      "sha256": "7c1282a30cad2ab6ee4707df578160fd1bd9adf95b6e8a6b456004691d0a249f",
+      "bytes": 11223
+    },
+    "budget_extract_primary-run.log": {
+      "sha256": "d7ed8ecccac06eed009f6a4dedb1fc5db700e65d7a2a642f426167a7805920e4",
+      "bytes": 11511
+    },
+    "budget_extract_primary.py": {
+      "sha256": "9a87d72e586ff2e4cdf81ec6d46fb6738020d188bb9d362822cd42f7aea78327",
+      "bytes": 6719
+    },
+    "budget_history_driver.py": {
+      "sha256": "e0e186625193739871f9b6076a5c01525cfd39a4c702263b633b88452dd8a2ba",
+      "bytes": 1501
+    },
+    "budget_plot_fixed_comparison.py": {
+      "sha256": "3251f92615bcff6fde204d74329ff374e78c8d4fd2c267bf87cf6a3997bcb784",
+      "bytes": 4637
+    },
+    "budget_summarize_evidence.py": {
+      "sha256": "2a16d67d8a84a1484fbb0e9a8278e14ea31ddf2ecc709480bec7759edd3dfea3",
+      "bytes": 10338
+    },
+    "budget_write_decision.py": {
+      "sha256": "43523e2efdf2305d8d99feb8f0d534e1a6d6d9a5e2c421b8cc87faff3c429352",
+      "bytes": 16256
+    }
+  }
+}

@@ -1,0 +1,571 @@
+{
+  "status": "EMPIRICAL_FEASIBILITY_ONLY_NOT_PRODUCTION_READY",
+  "method": "Independent Slider-only optimization; 65 forward slow/fast train; complete reverse slow/fast held out until train-only winner selection. No Android data, fitted clock shift, native frame interpolation, model coefficient copied from Segment/Dock, or old SliderGrid fitting.",
+  "observables": "Native bounds separate measured isotropic lift; sx=m11 and sy=m22 fit directly. Carrier width/height errors condition on measured native lift and do not validate production rise/fall or center motion.",
+  "equations": "p''=kf(u-p)-2*zf*sqrt(kf)*p'; a''=ki(p''-a)-2*sqrt(ki)*a'; q''=a-2*zd*sqrt(kd)*q'-kd*q; dx=gx(sign q)*q; dy=-gy(sign q)*q",
+  "parameters": {
+    "followerStiffness": 1752.035627116624,
+    "followerDampingRatio": 3.0000000000000004,
+    "accelerationFilterStiffness": 458.09850777050656,
+    "deformationStiffness": 207.20738709773104,
+    "deformationDampingRatio": 0.32789191709185495,
+    "positiveGain": 0.008486517928081605,
+    "negativeGain": 0.00902358581609397,
+    "positiveYGain": 0.008532549853722714,
+    "negativeYGain": 0.00903171943606799,
+    "positiveXAspect": 1.0054241240083628,
+    "negativeXAspect": 1.0009013733719374
+  },
+  "identifiability": {
+    "structural_symmetry": "Interchange follower (kf,zf) with deformation (kd,zd); rescale all gains by kf/kd. Transfer function and predicted geometry are unchanged. Physical roles are therefore not uniquely identifiable even with perfect observations.",
+    "equivalent_parameters": {
+      "followerStiffness": 207.20738709773104,
+      "followerDampingRatio": 0.32789191709185495,
+      "accelerationFilterStiffness": 458.09850777050656,
+      "deformationStiffness": 1752.035627116624,
+      "deformationDampingRatio": 3.0000000000000004,
+      "positiveGain": 0.07175748880588892,
+      "negativeGain": 0.07629864965520813,
+      "positiveYGain": 0.07214671032370078,
+      "negativeYGain": 0.07636742322632212,
+      "positiveXAspect": 1.005424124008363,
+      "negativeXAspect": 1.0009013733719374
+    },
+    "equivalent_prediction_error": {
+      "n": 856,
+      "rmse": 1.5364077936668122e-17,
+      "mean": 1.097495486748777e-19,
+      "max_abs": 9.71445146547012e-17
+    },
+    "profiled_local_jacobian_singular_values": [
+      0.0829971041463766,
+      0.03103471328627294,
+      0.014776836513705838,
+      0.0030504060199710564,
+      0.00023739473901826543
+    ],
+    "profiled_local_condition_number": 349.6164425951777,
+    "limit": "Three local searches and a local Jacobian are feasibility checks, not global identifiability or confidence intervals. Only one fast training waveform exists."
+  },
+  "production_limits": [
+    "No simultaneous production center/lift/optics validation. Width/height reports use native observed lift.",
+    "Native held business mapping is directly verified, but post-UP native value behavior differs from Android66; no callback semantics are changed or inferred by this fit.",
+    "Actual current-delivery forcing is a declared empirical choice. Native internals may use coalesced/historical samples or another filter; no choice of a hidden native input pipeline is proven.",
+    "Must verify production numerical integration and native held-out phase errors before exposing any explicit Slider profile; no automatic inheritance from Segment.",
+    "Native65 is one runtime, one slow/fast pair per direction; old native reverse begins on track, schema1 frame timing is weaker and was not used."
+  ],
+  "per_gesture": [
+    {
+      "gestureIndex": 0,
+      "split": "train",
+      "direction": "forward",
+      "speed": "slow",
+      "sx_error": {
+        "n": 288,
+        "rmse": 0.0011981771635574438,
+        "mean": 1.5673085978643354e-05,
+        "max_abs": 0.0057595605626893955
+      },
+      "sy_error": {
+        "n": 288,
+        "rmse": 0.0012100663870463961,
+        "mean": -1.9204304264955896e-05,
+        "max_abs": 0.005801598295988437
+      },
+      "carrier_width_error_pt_given_measured_lift": {
+        "n": 288,
+        "rmse": 0.0673677434886472,
+        "mean": 0.000818646552274982,
+        "max_abs": 0.33031079827023685
+      },
+      "carrier_height_error_pt_given_measured_lift": {
+        "n": 288,
+        "rmse": 0.044146357031717175,
+        "mean": -0.0006618380059541071,
+        "max_abs": 0.21581945661076987
+      },
+      "isotropic_baseline_sx_error": {
+        "n": 288,
+        "rmse": 0.004243928800791115,
+        "mean": -6.584174118440063e-05,
+        "max_abs": 0.017628361682962668
+      },
+      "isotropic_baseline_sy_error": {
+        "n": 288,
+        "rmse": 0.004269251164890586,
+        "mean": 6.576843810440307e-05,
+        "max_abs": 0.017734878700753298
+      },
+      "fit_grid_vs_exact_q_error": {
+        "n": 288,
+        "rmse": 0.0019297815637117901,
+        "mean": -1.5847677051410586e-06,
+        "max_abs": 0.005666626343639902
+      },
+      "phase_errors": {
+        "pre_down": {
+          "sx": {
+            "n": 5,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          },
+          "sy": {
+            "n": 5,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          },
+          "width_pt_given_measured_lift": {
+            "n": 5,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          },
+          "height_pt_given_measured_lift": {
+            "n": 5,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          }
+        },
+        "held": {
+          "sx": {
+            "n": 211,
+            "rmse": 0.0013333090065952376,
+            "mean": -1.5187815746978363e-05,
+            "max_abs": 0.0057595605626893955
+          },
+          "sy": {
+            "n": 211,
+            "rmse": 0.001346502901088841,
+            "mean": 1.1694830530149349e-05,
+            "max_abs": 0.005801598295988437
+          },
+          "width_pt_given_measured_lift": {
+            "n": 211,
+            "rmse": 0.07646527152823689,
+            "mean": -0.0008710212330892078,
+            "max_abs": 0.33031079827023685
+          },
+          "height_pt_given_measured_lift": {
+            "n": 211,
+            "rmse": 0.05008990792050489,
+            "mean": 0.00043504769572155663,
+            "max_abs": 0.21581945661076987
+          }
+        },
+        "post_up": {
+          "sx": {
+            "n": 72,
+            "rmse": 0.0007299504264615236,
+            "mean": 0.00010720108172863499,
+            "max_abs": 0.0017744961303640095
+          },
+          "sy": {
+            "n": 72,
+            "rmse": 0.0007373873470266592,
+            "mean": -0.0001110895676412335,
+            "max_abs": 0.001771948268982077
+          },
+          "width_pt_given_measured_lift": {
+            "n": 72,
+            "rmse": 0.031919829966493285,
+            "mean": 0.005827162322736366,
+            "max_abs": 0.09825211982668156
+          },
+          "height_pt_given_measured_lift": {
+            "n": 72,
+            "rmse": 0.02104382957669942,
+            "mean": -0.003922283465444879,
+            "max_abs": 0.06581932794230824
+          }
+        }
+      }
+    },
+    {
+      "gestureIndex": 1,
+      "split": "held_out",
+      "direction": "reverse",
+      "speed": "slow",
+      "sx_error": {
+        "n": 336,
+        "rmse": 0.001810411870490693,
+        "mean": -0.00046949029523405544,
+        "max_abs": 0.009727737996224839
+      },
+      "sy_error": {
+        "n": 336,
+        "rmse": 0.0018129641598433899,
+        "mean": 0.00046627884967641433,
+        "max_abs": 0.009689656197557461
+      },
+      "carrier_width_error_pt_given_measured_lift": {
+        "n": 336,
+        "rmse": 0.10288243564446256,
+        "mean": -0.02687356498053643,
+        "max_abs": 0.5821496347213672
+      },
+      "carrier_height_error_pt_given_measured_lift": {
+        "n": 336,
+        "rmse": 0.06682076278407963,
+        "mean": 0.017315587790149627,
+        "max_abs": 0.37613231758655474
+      },
+      "isotropic_baseline_sx_error": {
+        "n": 336,
+        "rmse": 0.003971782453696836,
+        "mean": 0.00042625866535727833,
+        "max_abs": 0.016258984010806277
+      },
+      "isotropic_baseline_sy_error": {
+        "n": 336,
+        "rmse": 0.003990338791357178,
+        "mean": -0.00042606102296788957,
+        "max_abs": 0.016357268593285568
+      },
+      "fit_grid_vs_exact_q_error": {
+        "n": 336,
+        "rmse": 0.0019003491095685489,
+        "mean": 1.5740137071329905e-06,
+        "max_abs": 0.005658850673975535
+      },
+      "phase_errors": {
+        "pre_down": {
+          "sx": {
+            "n": 6,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          },
+          "sy": {
+            "n": 6,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          },
+          "width_pt_given_measured_lift": {
+            "n": 6,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          },
+          "height_pt_given_measured_lift": {
+            "n": 6,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          }
+        },
+        "held": {
+          "sx": {
+            "n": 258,
+            "rmse": 0.0019517793305196048,
+            "mean": -0.000574547074009765,
+            "max_abs": 0.009727737996224839
+          },
+          "sy": {
+            "n": 258,
+            "rmse": 0.0019545182669803685,
+            "mean": 0.0005705699517514519,
+            "max_abs": 0.009689656197557461
+          },
+          "width_pt_given_measured_lift": {
+            "n": 258,
+            "rmse": 0.11398638031013301,
+            "mean": -0.03334892525798344,
+            "max_abs": 0.5821496347213672
+          },
+          "height_pt_given_measured_lift": {
+            "n": 258,
+            "rmse": 0.07402686931820952,
+            "mean": 0.02148277312769546,
+            "max_abs": 0.37613231758655474
+          }
+        },
+        "post_up": {
+          "sx": {
+            "n": 72,
+            "rmse": 0.0012825454513937372,
+            "mean": -0.00013216102922393428,
+            "max_abs": 0.003182259461258785
+          },
+          "sy": {
+            "n": 72,
+            "rmse": 0.0012844225455697585,
+            "mean": 0.00013142563804723116,
+            "max_abs": 0.003178189767298227
+          },
+          "width_pt_given_measured_lift": {
+            "n": 72,
+            "rmse": 0.053271373687626515,
+            "mean": -0.005909654401395989,
+            "max_abs": 0.14356182929375913
+          },
+          "height_pt_given_measured_lift": {
+            "n": 72,
+            "rmse": 0.034643151801874786,
+            "mean": 0.0038261393131228533,
+            "max_abs": 0.09387516595270072
+          }
+        }
+      }
+    },
+    {
+      "gestureIndex": 2,
+      "split": "train",
+      "direction": "forward",
+      "speed": "fast",
+      "sx_error": {
+        "n": 140,
+        "rmse": 0.0032882221852917866,
+        "mean": -0.0004219796786161356,
+        "max_abs": 0.009965673225583505
+      },
+      "sy_error": {
+        "n": 140,
+        "rmse": 0.003288137663055376,
+        "mean": 0.00041789401078074314,
+        "max_abs": 0.009929029028005187
+      },
+      "carrier_width_error_pt_given_measured_lift": {
+        "n": 140,
+        "rmse": 0.1756116451293812,
+        "mean": -0.02451008272543157,
+        "max_abs": 0.5966098385634878
+      },
+      "carrier_height_error_pt_given_measured_lift": {
+        "n": 140,
+        "rmse": 0.11390803643180741,
+        "mean": 0.01579308002437075,
+        "max_abs": 0.3855671865179102
+      },
+      "isotropic_baseline_sx_error": {
+        "n": 140,
+        "rmse": 0.05863513520085792,
+        "mean": 0.00031111990521893253,
+        "max_abs": 0.1604670660406904
+      },
+      "isotropic_baseline_sy_error": {
+        "n": 140,
+        "rmse": 0.05881333961360013,
+        "mean": -0.00037342786102117576,
+        "max_abs": 0.16056436223361992
+      },
+      "fit_grid_vs_exact_q_error": {
+        "n": 140,
+        "rmse": 0.0203656465629159,
+        "mean": 0.0005087196985210526,
+        "max_abs": 0.06065322821974206
+      },
+      "phase_errors": {
+        "pre_down": {
+          "sx": {
+            "n": 6,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          },
+          "sy": {
+            "n": 6,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          },
+          "width_pt_given_measured_lift": {
+            "n": 6,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          },
+          "height_pt_given_measured_lift": {
+            "n": 6,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          }
+        },
+        "held": {
+          "sx": {
+            "n": 64,
+            "rmse": 0.003841456824765736,
+            "mean": -0.001195854017591588,
+            "max_abs": 0.009965673225583505
+          },
+          "sy": {
+            "n": 64,
+            "rmse": 0.0038329935138553344,
+            "mean": 0.0012023720701414974,
+            "max_abs": 0.009929029028005187
+          },
+          "width_pt_given_measured_lift": {
+            "n": 64,
+            "rmse": 0.22455803337554575,
+            "mean": -0.0701002759150331,
+            "max_abs": 0.5966098385634878
+          },
+          "height_pt_given_measured_lift": {
+            "n": 64,
+            "rmse": 0.1453302937596888,
+            "mean": 0.04570929486072299,
+            "max_abs": 0.3855671865179102
+          }
+        },
+        "post_up": {
+          "sx": {
+            "n": 70,
+            "rmse": 0.0028518217867576725,
+            "mean": 0.00024939288742289474,
+            "max_abs": 0.009133626815482201
+          },
+          "sy": {
+            "n": 70,
+            "rmse": 0.0028620202330921153,
+            "mean": -0.00026352358542502567,
+            "max_abs": 0.00925323463964052
+          },
+          "width_pt_given_measured_lift": {
+            "n": 70,
+            "rmse": 0.12479921726420896,
+            "mean": 0.015071515385738542,
+            "max_abs": 0.46407278882198183
+          },
+          "height_pt_given_measured_lift": {
+            "n": 70,
+            "rmse": 0.08148343150878139,
+            "mean": -0.010205195252490942,
+            "max_abs": 0.3049621449434507
+          }
+        }
+      }
+    },
+    {
+      "gestureIndex": 3,
+      "split": "held_out",
+      "direction": "reverse",
+      "speed": "fast",
+      "sx_error": {
+        "n": 143,
+        "rmse": 0.007499980812639625,
+        "mean": -0.003626106746740811,
+        "max_abs": 0.016267520997489765
+      },
+      "sy_error": {
+        "n": 143,
+        "rmse": 0.00753430560222882,
+        "mean": 0.0036344775964339657,
+        "max_abs": 0.01641570952225803
+      },
+      "carrier_width_error_pt_given_measured_lift": {
+        "n": 143,
+        "rmse": 0.39329939233607925,
+        "mean": -0.2051201517283271,
+        "max_abs": 0.932942329206038
+      },
+      "carrier_height_error_pt_given_measured_lift": {
+        "n": 143,
+        "rmse": 0.25656170191638816,
+        "mean": 0.13349077615321728,
+        "max_abs": 0.6106643942279987
+      },
+      "isotropic_baseline_sx_error": {
+        "n": 143,
+        "rmse": 0.0565389135005435,
+        "mean": 0.0026831442967360335,
+        "max_abs": 0.15661062141579674
+      },
+      "isotropic_baseline_sy_error": {
+        "n": 143,
+        "rmse": 0.056677516117503976,
+        "mean": -0.0027544469838270153,
+        "max_abs": 0.15739573232459592
+      },
+      "fit_grid_vs_exact_q_error": {
+        "n": 143,
+        "rmse": 0.020928284979421344,
+        "mean": 3.8658760567720527e-05,
+        "max_abs": 0.07111569203879853
+      },
+      "phase_errors": {
+        "pre_down": {
+          "sx": {
+            "n": 6,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          },
+          "sy": {
+            "n": 6,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          },
+          "width_pt_given_measured_lift": {
+            "n": 6,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          },
+          "height_pt_given_measured_lift": {
+            "n": 6,
+            "rmse": 0.0,
+            "mean": 0.0,
+            "max_abs": 0.0
+          }
+        },
+        "held": {
+          "sx": {
+            "n": 65,
+            "rmse": 0.008493080214957096,
+            "mean": -0.00656103530504658,
+            "max_abs": 0.016267520997489765
+          },
+          "sy": {
+            "n": 65,
+            "rmse": 0.008559487912857247,
+            "mean": 0.0065987183927566735,
+            "max_abs": 0.01641570952225803
+          },
+          "width_pt_given_measured_lift": {
+            "n": 65,
+            "rmse": 0.488375689995955,
+            "mean": -0.3776047275512514,
+            "max_abs": 0.932942329206038
+          },
+          "height_pt_given_measured_lift": {
+            "n": 65,
+            "rmse": 0.3192380964473931,
+            "mean": 0.24632942823598922,
+            "max_abs": 0.6106643942279987
+          }
+        },
+        "post_up": {
+          "sx": {
+            "n": 72,
+            "rmse": 0.006826319666081693,
+            "mean": -0.0012786940271653933,
+            "max_abs": 0.015660425198061417
+          },
+          "sy": {
+            "n": 72,
+            "rmse": 0.006826510458966556,
+            "mean": 0.0012613000105676825,
+            "max_abs": 0.01569635060142062
+          },
+          "width_pt_given_measured_lift": {
+            "n": 72,
+            "rmse": 0.30314710331943084,
+            "mean": -0.06649825564332547,
+            "max_abs": 0.7818207442215591
+          },
+          "height_pt_given_measured_lift": {
+            "n": 72,
+            "rmse": 0.19679643108726622,
+            "mean": 0.042746779924594004,
+            "max_abs": 0.5081490847799934
+          }
+        }
+      }
+    }
+  ]
+}

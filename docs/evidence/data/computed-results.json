@@ -1,0 +1,71 @@
+{
+  "dock_common_rows": 540,
+  "menu_corners": [
+    {
+      "corner": "TL",
+      "split": "light calibration",
+      "n": 44,
+      "baseline_mae": 3.303332993432657,
+      "candidate_mae": 0.301326844149442
+    },
+    {
+      "corner": "TR",
+      "split": "light calibration",
+      "n": 44,
+      "baseline_mae": 3.416969357069021,
+      "candidate_mae": 0.22034911119529374
+    },
+    {
+      "corner": "BL",
+      "split": "dark evaluation",
+      "n": 44,
+      "baseline_mae": 3.5269292420283525,
+      "candidate_mae": 0.16491568315027533
+    },
+    {
+      "corner": "BR",
+      "split": "dark evaluation",
+      "n": 44,
+      "baseline_mae": 3.951967451194371,
+      "candidate_mae": 0.3691754704020463
+    }
+  ],
+  "slider_native_exact_prediction": [
+    {
+      "gesture": 0,
+      "split": "train",
+      "n": 288,
+      "isotropic_width_rmse": 0.24182363879359153,
+      "isotropic_height_rmse": 0.15779904833427283,
+      "exact_width_rmse": 0.06736774348864798,
+      "exact_height_rmse": 0.044146357031715995
+    },
+    {
+      "gesture": 1,
+      "split": "held_out",
+      "n": 336,
+      "isotropic_width_rmse": 0.22694727374817936,
+      "isotropic_height_rmse": 0.14789355017395422,
+      "exact_width_rmse": 0.10288243564446327,
+      "exact_height_rmse": 0.06682076278408186
+    },
+    {
+      "gesture": 2,
+      "split": "train",
+      "n": 140,
+      "isotropic_width_rmse": 3.3262122341882265,
+      "isotropic_height_rmse": 2.1641625790725207,
+      "exact_width_rmse": 0.17561164512938204,
+      "exact_height_rmse": 0.11390803643180764
+    },
+    {
+      "gesture": 3,
+      "split": "held_out",
+      "n": 143,
+      "isotropic_width_rmse": 3.191232451019507,
+      "isotropic_height_rmse": 2.074936145901531,
+      "exact_width_rmse": 0.39329939233607886,
+      "exact_height_rmse": 0.2565617019163908
+    }
+  ]
+}

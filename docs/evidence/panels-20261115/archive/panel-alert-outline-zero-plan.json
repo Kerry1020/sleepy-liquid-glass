@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "kind": "alert-outline-isolation",
+  "changes": "Restore default16/12 blur and refraction60. Remove only Alert CPU exterior dark stroke by zeroing side/corner/flat. Keep Alert shine .16/.22 and minimum0, Sheet untouched. Optional input support is dormant.",
+  "hypothesis": "CPU black stroke suppresses outermost native highlight and shifts top peak inward. Before any shine increase isolate removal.",
+  "checks": [
+    "same4 new probe REST; all3 fixed Alert rim profiles and full curve",
+    "same source/panel geometry; Sheet raw screen control and deep Alert control",
+    "subsequent floor candidate separate build; native narrow peak FWHM unresolved"
+  ]
+}

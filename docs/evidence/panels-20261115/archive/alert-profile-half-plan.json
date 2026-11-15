@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "candidate": "alert-profile-half",
+  "split": "historical-calibration",
+  "changed_source": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassControlModifier.kt",
+  "changed_source_sha256": "5ebd28c626e7baea243f4e51fafad1f38694c2970d7fdb295f148f979c0eb7d2",
+  "hypothesis": "Native corner color response bends more than current while extra edge frost makes it flatter. Isolate depth shoulder: power.5 retains same60dp edge depth and20dp support but increases interior refraction. It does not alter optical normals, contour, tint, shine or scrim. No claim UIKit uses this formula.",
+  "baseline": "panels-current-baseline-20261115",
+  "count": 16,
+  "evaluation": "Reuse exactly fixed Alert body/straight/corner/blue feature metrics, all8 scenes, no ROI changes. UnchangedSheet completewindow controls must be zero. Keep regressions. This is the second bounded material candidate after rejectedfrost, not global tuning."
+}

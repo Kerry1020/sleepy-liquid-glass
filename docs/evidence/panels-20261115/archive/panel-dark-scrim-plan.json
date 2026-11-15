@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "panel-dark-scrim",
+  "kind": "confirmed-exterior-correction-not-thickness-acceptance",
+  "change": {
+    "light_dim": 0.2,
+    "dark_dim": 0.48,
+    "scope": "LiquidGlass defaults only; explicit Sheet scrim and Material Design preserved; Window dim restored on disposal and theme transition"
+  },
+  "basis": {
+    "native_dark_exterior_gain_approx": 0.52,
+    "baseline_alert_dark_gain_approx": 0.4,
+    "baseline_sheet_dark_gain_approx": 0.68,
+    "source": "analysis-alert-baseline/analysis.json and panels-current-baseline-20261115/analysis-baseline/analysis.json"
+  },
+  "checks": [
+    "GlassModalScrimTest SDK31/35 actual Dialog Window enter/theme/light-dark-light/exit/dispose; explicit sheet scrim and MD defaults",
+    "16 REST historical backgrounds; light complete actual Window and screen application bounds unchanged",
+    "dark Alert actual Window unchanged; dark exteriors move to gain approx .52; deep optical body not changed by exterior correction",
+    "exact source, APK, input, geometry identity and normal display restoration"
+  ],
+  "decision_scope": "Only exterior contrast; no panel thickness or refraction parity claim. Profile-half and rim-frost8 both rejected/reverted before this change."
+}

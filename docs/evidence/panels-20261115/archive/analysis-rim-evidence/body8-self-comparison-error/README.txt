@@ -1,0 +1,1 @@
+Initial script adaptation replaced the baseline directory label as well as output filenames, causing a trivial self-comparison. Invalid outputs are retained here. Fixed adaptation changes output filename prefixes only; new capture bytes, original fixed ROI and thresholds unchanged. No claimed optics result uses this failed self-comparison.

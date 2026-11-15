@@ -1,0 +1,28 @@
+{
+  "status": "source-only opt-in AX revision; not built/captured by subagent",
+  "before_main_sha256": "2744c1f87e3bfd00d45387da1536a199220651e97d38ca2718438a18310e5550",
+  "after_main_sha256": "d68ba1c054995b435bd590a873525dba2739d25766cb8930a8105c54f7817731",
+  "NativeStage_sha256_unchanged": "a35f8ec7ecb37011ace27109487f0a697df28c686dc93fe017886a5d98ab01ce",
+  "failure_AX_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-clean-preparation/failure-attachments/7231F6DE-3F99-4D17-945E-D3229C6D6960.txt",
+  "failure_AX_sha256": "750345eeefcde446dfcb0d92a5647691db8acea5cef9a9ff4c3c7726b2ee54f4",
+  "observations": [
+    "reference-title was classified Button at original 20,30,335,24pt frame and held correct panel-plain-backing value",
+    "show-sheet/show-alert/show-menu persisted in AX at original geometry despite SwiftUI opacity0/accessibilityHidden"
+  ],
+  "hypotheses": [
+    "Enabling heading interaction plus a tap recognizer changed its inferred AX traits; explicitly restore staticText after registration",
+    "SwiftUI backing subtree accessibility modifiers did not suppress descendant controls in recorded hierarchy; UIKit host exclusion is explicit for this opt-in subtree"
+  ],
+  "changes": [
+    "heading.accessibilityTraits = .staticText only under ReferencePanelPlainBacking.carrier",
+    "controller.view.accessibilityElementsHidden = true only under ReferencePanelPlainBacking.carrier"
+  ],
+  "preserved": [
+    "Original visibility gate and all UITests",
+    "All frames, parent installation, native sheet/alert content and modifiers",
+    "Default-fixture source path",
+    "Original source receipts"
+  ],
+  "verification": "Exact inverse substitutions reproduce pre-revision main.swift byte-for-byte; NativeStage untouched. Runtime title identity and native modal AX visibility require root recapture.",
+  "patch_sha256": "890ee75c04e6b66ca47fb5f0068b4be291a0f7e746c525aeaa8c1cd594e9f7b0"
+}

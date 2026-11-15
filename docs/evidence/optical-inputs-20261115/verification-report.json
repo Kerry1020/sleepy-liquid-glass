@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "verification_scope": "Published byte identity, input manifest/oracle relationships, current source snapshot, Python AST and local documentation links; no optical evaluation",
+  "source_records": 131,
+  "source_bytes": 199541897,
+  "published_record_bytes": 10982954,
+  "omitted_numeric_identities": 0,
+  "registered_input_manifest_records": 32,
+  "published_oracle_references": 24,
+  "new_figure_files": 9,
+  "runtime_sources": 2,
+  "actual_input_reconstruction": {
+    "status": "passed",
+    "input_count": 40,
+    "receipt": "docs/evidence/optical-inputs-20261115/rebuild-verification.json"
+  },
+  "primary_local_links": 56,
+  "missing_primary_local_links": [],
+  "archival_link_observations": {
+    "status": "historical byte-exact Markdown, outside complete-link gate",
+    "local_links": 39,
+    "missing_local_links": [
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+        "target": "calibration-results/native-android-differential.csv"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+        "target": "calibration-results/signed-response-strata.csv"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+        "target": "calibration-results/capture-sources-and-state.json"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+        "target": "../native-calibration-r2/native-dock-index.json"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+        "target": "../numeric-audit/synthetic-repro.json"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+        "target": "../numeric-audit/audit_response_numerics.py"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+        "target": "calibration-results/threshold-sensitivity.csv"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+        "target": "calibration-visualizations/README.md"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+        "target": "calibration-visualizations/visualization-manifest.json"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+        "target": "calibration-visualizations/ic02_triangle_body-light-absolute.png"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+        "target": "calibration-visualizations/ic02_triangle_body-dark-signed-full.png"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+        "target": "calibration-visualizations/ic02_triangle_body-dark-signed-dock-detail.png"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/README.md",
+        "target": "review_counterexamples.py"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/README.md",
+        "target": "synthetic-selftest-v2.png"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/STATIC-RESULTS.md",
+        "target": "tracking-summary-v2/README.md"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/STATIC-RESULTS.md",
+        "target": "tracking-summary-v2/all-point-statuses.csv"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/STATIC-RESULTS.md",
+        "target": "tracking-summary-v2/same-id-comparisons.csv"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/STATIC-RESULTS.md",
+        "target": "tracking-summary-v2/n07_dots_s2-light-tracking.png"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/STATIC-RESULTS.md",
+        "target": "storage-receipt-v2.json"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/rejection-audit-n05-light-native/README.md",
+        "target": "source-native-dock.png"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/noise-analysis/README.md",
+        "target": "../calibration/c01_rgb_noise_s0.png"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/CALIBRATION-RESULTS.md",
+        "target": "control-profiles/gray-control-depth-profiles.png"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/CALIBRATION-RESULTS.md",
+        "target": "calibration-visualizations/README.md"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/CALIBRATION-RESULTS.md",
+        "target": "context-comparison-at-nominal-offset.csv"
+      },
+      {
+        "document": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/CALIBRATION-RESULTS.md",
+        "target": "run-receipt.json"
+      }
+    ]
+  },
+  "forbidden_files": [],
+  "python_ast_files": [
+    "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/generate_material_sweep.py",
+    "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/generate.py",
+    "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/track_dots_v2.py",
+    "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/generate.py",
+    "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/noise-analysis/analyze_noise.py",
+    "docs/evidence/optical-inputs-20261115/export_from_archive.py",
+    "docs/evidence/optical-inputs-20261115/rebuild_inputs.py",
+    "docs/evidence/optical-inputs-20261115/redraw_figures.py",
+    "docs/evidence/optical-inputs-20261115/verify_publication.py"
+  ],
+  "checks": 483,
+  "failures": [],
+  "not_executed": [
+    "build/device operations",
+    "capture image decoding",
+    "new optical fitting or heldout evaluation",
+    "dynamic v4 acquisition and frame analysis"
+  ]
+}

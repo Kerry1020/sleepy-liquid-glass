@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "protocol_id": "glass_isolated_shapes_20261114_v1",
+  "purpose": "Targeted static diagnostic of the visible response to one known multicolor shape, paired with an identical RGB128 control. Not a random natural-scene or overall-generalization sample.",
+  "informed_by": "The completed n05_dots_s0-light-native pilot rejection audit; no other newly captured actual pixels were read to choose these regions.",
+  "world": {
+    "dimensions_px": [750, 1334],
+    "dimensions_pt": [375, 667],
+    "pixels_per_pt": 2,
+    "origin": "top-left image edge",
+    "pixel_centers": "integer index + 0.5",
+    "mode": "opaque RGB8",
+    "color_space": "sRGB with frozen embedded ICC profile; code-value arithmetic, not linear radiance",
+    "background_rgb": [128, 128, 128],
+    "dock_ltrb_px_from_existing_frozen_geometry": [42, 1168, 708, 1292],
+    "position_basis": "Known frozen rest geometry; targeted diagnostic. A nominal source region is not recovered native output geometry."
+  },
+  "rasterization": {
+    "antialias_samples_per_axis": 4,
+    "sample_centers": "For output pixel (i,j), subpixel (a,b) is (i+(a+.5)/4,j+(b+.5)/4), a,b=0..3.",
+    "shape_membership": "Analytic disk or even-odd polygon interior; boundary included by disk <= and polygon even-odd half-open crossings. Exact implementation and dependencies are frozen.",
+    "color_band_rule": "u=x-center_x. Left band u < -radius/4, middle -radius/4 <= u < radius/4, right u >= radius/4, intersected with shape support.",
+    "composition": "For each RGB channel, sum 16 subpixel code values including background and divide by16; round half-up using (integer_sum+8)//16. No output-selected normalization.",
+    "coverage": "Lossless integer subpixel-count RLE per color band, denominator16. Sum counts is the exact AA mask for the declared sampler.",
+    "circle_boundary": "(x-cx)^2+(y-cy)^2=r^2",
+    "triangle_boundary": "3 circumcircle vertices with angle -pi/2+2*pi*k/3, k=0..2; orientation fixed in both splits",
+    "star_boundary": "10 alternating outer r / inner .45r vertices with angle -pi/2+pi*k/5, k=0..9; orientation fixed",
+    "asymmetric_normalized_vertices_before_unit_radius_normalization": [[-0.95,-0.15],[-0.3,-0.9],[0.45,-0.7],[0.95,0.15],[0.2,0.95],[-0.55,0.45]],
+    "asymmetric_rule": "Divide all given vertex coordinates by their maximum Euclidean norm, then multiply by radius and translate. Save resulting float64 world vertices.",
+    "source_measurements": "Coverage-weighted pixel-center area/centroid/covariance with exact coverage counts; also keep analytic center, circumradius and vertices. Pixel-center moments are not continuum shape moments."
+  },
+  "palette_rgb": [[232,48,48],[48,232,48],[48,48,232]],
+  "palette_assignment": "Case index k uses palette[(band+k) mod3] for left/middle/right band, band=0..2.",
+  "cases": [
+    {"id":"circle_top","family":"circle","target":"upper_edge","anchor_center_px":[375.5,1168.5],"calibration_radius_px":20,"palette_roll":0},
+    {"id":"triangle_body","family":"triangle","target":"body","anchor_center_px":[536.5,1230.5],"calibration_radius_px":22,"palette_roll":1},
+    {"id":"star_right","family":"star","target":"right_end","anchor_center_px":[707.5,1230.5],"calibration_radius_px":24,"palette_roll":2},
+    {"id":"asymmetric_lower","family":"asymmetric","target":"lower_edge","anchor_center_px":[375.5,1291.5],"calibration_radius_px":20,"palette_roll":0}
+  ],
+  "test_variation": {
+    "rng": "numpy.random.Generator(numpy.random.PCG64(pair_seed))",
+    "draw_order": ["dx integer", "dy integer", "radius integer", "RGB perturbation array in band-major/channel-minor order"],
+    "dx_dy_inclusive_px": [-6,6],
+    "radius_inclusive_px": [14,24],
+    "rgb_per_channel_perturbation_inclusive": [-16,16],
+    "color_result_bounds": [32,248],
+    "policy": "One predeclared draw per test case, no rejection/resampling. Check canvas and nominal target support, report generation failure rather than replacing seed."
+  },
+  "splits": {
+    "calibration": {
+      "set_id": "glass_isolated_shapes_20261114_v1_calibration",
+      "manifest_split": "calibration",
+      "pair_prefix": "ic",
+      "pair_seeds": [3402000001,3402000002,3402000003,3402000004],
+      "seed_use": "Registered independent pair identifiers; calibration geometry/color is fixed by cases and consumes zero RNG draws."
+    },
+    "test": {
+      "set_id": "glass_isolated_shapes_20261114_v1_test",
+      "manifest_split": "holdout",
+      "pair_prefix": "it",
+      "pair_seeds": [2122000001,2122000002,2122000003,2122000004],
+      "seed_use": "The fixed test_variation draw order determines independent center/radius/color variation; no actual test capture has been read."
+    }
+  },
+  "pair_contract": {
+    "pairs_per_split": 4,
+    "fixture_pngs_per_split": 8,
+    "roles": ["control","shape"],
+    "control": "Exactly the same full-canvas RGB128 background, profile, encoder options and pixel bytes for all eight controls; no identifiers embedded in PNG metadata.",
+    "shape": "One and only one ideal shape on that background, using three known local color bands.",
+    "metadata": "Both input manifest entries bind the same pair metadata. Metadata stores analytic boundary, world/pixel/point coordinates, colors, original coverage masks, areas/moments, source PNG and pixel hashes.",
+    "capture": "Not performed by this packet. Root must retain native/candidate roles, selection, theme, foreground, background and state timing. Paired captures need repeat/state checks; equal controls do not guarantee identical private native state."
+  },
+  "interpretation_limits": [
+    "This packet deliberately targets known geometric regions; disjoint test seeds do not make the design blind or representative of arbitrary scenes.",
+    "A control/shape difference is an observed conditional image response, not a proven linear shift-invariant PSF, linear transmittance, physical thickness, IOR, or uniquely inverted native renderer.",
+    "Global material adaptation, nonlinear color/contrast changes, foreground layering, selected lens and base Dock can affect a response. Do not infer their absence from a difference image.",
+    "Responses can be blurred, warped, split, obscured, clipped, fused with foreground or unidentified. Weak detection does not prove physical disappearance.",
+    "Different families have different source areas at the same circumradius. Preserve source area and threshold sensitivity rather than pooling raw visible area.",
+    "Freeze analysis/thresholds using calibration before opening test captures. Output-informed changes require a new frozen version and new test seeds; retain the earlier failures."
+  ],
+  "preservation": "Preserve this protocol, generator, README, ICC, freeze, both manifests, all16 fixture PNGs, eight metadata/coverage tables, input atlas and verification report. Do not overwrite a freeze to revise the design."
+}

@@ -1,0 +1,14 @@
+{
+  "purpose": "Single rimBlur mechanism candidate; reuse unchanged baseline local supports and extraction",
+  "candidate_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115",
+  "files": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/matrix.json": "f9d964cadd69296b7cf614b6de11769ea7f5bf99b02b0127214d04ddfb4dddc2",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/capture-result.json": "f751d99789e3b942b6d1a9a927793e88e85dc07bf7b4aaf9c47e7cdb690b43cd",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png": "a19e0de4fd5bf8ac1d7dd5b7f463ff7d482567b69352d2096bab25df4e7fee28",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_shapes-light-background-screen.png": "f85ed61fbcc85ba70c06b9162b7add58b0b7cab0288bbbe91181593e483b6f34",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_shapes-light-alert-rest-screen.png": "ced6453f4f42a6e9232555136df6a2bea9f62141360568415263e8c8990fe8ce",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_coordinate-light-alert-rest-screen.png": "439ee880bf7be1b7262b74bb3128c286142fa095cb711e8465c3ba301751c6d1",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_coordinate-light-background-screen.png": "f8e7439b540c106df4ecef8c3e66d258b098e6f8b3fd0cfde030a4ea2c633a71",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png": "d92f1a0fd1b6a001b6abc45c65ee5d1b8e47a24d250922ee9f6c98aac2ce5a45"
+  }
+}

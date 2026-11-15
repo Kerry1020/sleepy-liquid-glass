@@ -1,0 +1,12 @@
+{
+  "status": "strict-actual-window-control-only",
+  "all_four_actual_windows_rgba_identical": true,
+  "both_background_actual_windows_rgba_identical": true,
+  "all_six_displays_y80_to1302_identical": true,
+  "all_foreground_slot_rectangles_exact": true,
+  "full_display_zero_difference": false,
+  "material_parity_accepted": false,
+  "existing_alert_body8_limitations_unchanged": true,
+  "no_repeated_material_plots": true,
+  "report_sha256": "4c19bc131ee2d12d6438cb8e1e9b7ee2a6dc74a71c35f60c544bff43683a7d8b"
+}

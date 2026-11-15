@@ -1,0 +1,125 @@
+{
+  "status": "SOURCE REVIEW AND INSTRUMENTATION PROPOSAL ONLY — NOT IMPLEMENTED, BUILT OR MEASURED",
+  "scope": "Native Alert/Sheet clean backing only; no change to Dock/control optics or acceptance gates",
+  "source_files": {
+    "native_stage": {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/NativeStage.swift",
+      "sha256": "fa66a5e37570cca07311677e50c28f1e6cec9e7be84e4d370a7f7070dfd48339"
+    },
+    "native_main": {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/main.swift",
+      "sha256": "1dbadf2d915a4a66b80e4b04d08daa516ab5b80f7656f2b496f7c4d9892bed9a"
+    },
+    "ui_tests": {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/UITests/NativeReferenceTests.swift",
+      "sha256": "9afcdbd4ac1987e75bc18a704c8fb073f7cd0e9fd03a58c6ee2ffbd199bf3805"
+    }
+  },
+  "existing_modes": [
+    {
+      "argument": "-ReferenceStaticOptics",
+      "locations": [
+        {
+          "file": "native_main",
+          "lines": [
+            1637,
+            1644
+          ]
+        }
+      ],
+      "behavior": "Export input and sample public presentation context; skip PresentationRecorder for external static input.",
+      "removes_presentation_triggers": false
+    },
+    {
+      "argument": "-ReferenceDockContent plain-scroll",
+      "requires": "-ReferenceDockParent swiftui-tabview plus static optics and external input",
+      "locations": [
+        {
+          "file": "native_main",
+          "lines": [
+            1343,
+            1349
+          ]
+        },
+        {
+          "file": "native_main",
+          "lines": [
+            1742,
+            1756
+          ]
+        }
+      ],
+      "behavior": "Keep actual ScrollViews and text layout/padding, set inner content opacity0 and accessibilityHidden; change root to dock navigation parent.",
+      "reusable_implementation_pattern": true,
+      "directly_reusable_for_same_panel_fixture": false,
+      "reason": "Different root containment; current panel NativeStage/Alert/Sheet path is not installed."
+    },
+    {
+      "argument": "-ReferenceScene presentations",
+      "locations": [
+        {
+          "file": "native_stage",
+          "lines": [
+            148,
+            169
+          ]
+        },
+        {
+          "file": "native_stage",
+          "lines": [
+            197,
+            213
+          ]
+        }
+      ],
+      "behavior": "Draw System sheet/System alert/System menu as GlassButtonStyle controls; system .sheet/.alert modifiers are attached outside that VStack.",
+      "removes_presentation_triggers": false
+    }
+  ],
+  "finding": "No existing launch parameter removes the panel trigger drawing while retaining the same ReferenceViewController/NativeStage panel scene.",
+  "recommended_minimum": {
+    "proposed_arguments_NOT_EXISTING": [
+      "-ReferencePanelPlainBacking",
+      "-ReferencePanelCarrier alert|sheet"
+    ],
+    "guards": [
+      "Require -ReferenceStaticOptics, -ReferenceExternalInputFile, -ReferenceScene presentations",
+      "Reject -ReferenceDockParent and all other scene/content changes for this probe",
+      "Validate carrier as alert or sheet; no menu expansion"
+    ],
+    "native_stage_change": "Only presentation trigger VStack gets opacity0 plus accessibilityHidden under the opt-in; keep its children, spacing26, font16, frame, host containment, tint, and original .sheet/.alert modifier attachment.",
+    "do_not_hide": "Do not apply opacity/alpha/hidden to NativeStage root, UIHostingController, ReferenceViewController or presented content.",
+    "trigger_relay": {
+      "recommendation": "Under opt-in, add a tap handler to the already drawn reference-title UILabel; send a probe-only command to the mounted NativeStage, which assigns the existing showAlert/showSheet Bool.",
+      "transport_proposal": "A narrowly named NotificationCenter message or injected probe command object; exactly one registered observer per mounted stage. No timer or new drawn trigger.",
+      "why": "A fully transparent SwiftUI Button must not be assumed hittable or visible to XCUITest. Existing heading is outside the proposed source footprint and already has a stable AX identifier and geometry.",
+      "command_guard": "Ignore duplicate request while either system presentation is active; record carrier/source ID and request clocks in ReferenceTrace. Resolve existing original modal state through native dismissal.",
+      "input_scope": "XCUITest taps the existing heading in this static diagnostic mode; no production native-control gesture/delegate/timing override."
+    },
+    "main_change": "Only opt-in parser/guards and heading relay. Keep ReferenceViewController root, source canvas, selectors, UITabBar, heading appearance, viewDidLayoutSubviews frames and UIHostingController<NativeStage>.",
+    "tests_change": "Use a separate narrow test or an explicit launch option; capture clean before in the same run, then tap reference-title to present the selected carrier. Preserve original fixture tests and outputs.",
+    "panel_content_invariants": {
+      "alert": "Native Alert title/message, Cancel/Confirm labels/roles/order, existing bindings and native .alert modifier unchanged.",
+      "sheet": "NativeReferenceSheet exact VStack spacing24/padding24/font/tint/content and .presentationDetents medium/large plus visible indicator unchanged.",
+      "stage": "Existing 335x392pt stage at20,166 in the measured375x667pt world; do not replace it with EmptyView or alter frame/safe-area policy."
+    }
+  },
+  "required_fresh_receipts_before_any_mapping": [
+    "Freeze new native App binary/source hashes and these input hashes under a new fixture identity; retain old polluted evidence as rejected.",
+    "Verify source canvas remains0,0,375,667pt@2 and original exported PNG is byte-identical.",
+    "Capture before-Alert/Sheet full window and AX in the same native run before heading relay; trace exact request/delivery and eventual actual public controller frames.",
+    "Confirm no trigger painting/halo remains in both side source footprints and required plateau/blur supports. Same-coordinate clean output alone is insufficient.",
+    "Measure Alert/Sheet actual public geometry and foreground mask; expected old Alert AX27.5,257.5,320x172 and Sheet material raster8,317.5..367,659 are gates to check, not forced frames.",
+    "Check clean before/after context stability and unchanged outer layout; record source/touch/presentation/context time binding.",
+    "Recheck native central optical contour and tangent invariance. CPU Android near-flatness is not native evidence.",
+    "Reuse original contrast8, contrast/spread5, direction cosine.7, secondary peak.8, plateau/support/location gates exactly; failures remain unresolved.",
+    "Only then decide whether four fixed inputs support both sides/two widths/reversed contrast; do not automatically enable capture or physical inverse."
+  ],
+  "interpretation_limits": [
+    "This proposal is not evidence that opacity0 removes all native material contribution until clean context pixels are verified.",
+    "Hiding backing glass changes the material context and possible adaptation; old polluted and future clean optical outputs are separate fixture conditions.",
+    "Preserving source code structure does not prove realized native geometry/material invariance; measure them.",
+    "No normal/tangent field, blur kernel, physical thickness, dynamic parity or percentage closeness recovered."
+  ],
+  "writes": "Only this JSON and companion Markdown under analysis-mapping-audit. No native source, build, device, Git or optical-output/heldout image operation."
+}

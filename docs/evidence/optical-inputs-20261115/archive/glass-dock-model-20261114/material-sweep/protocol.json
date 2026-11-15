@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "protocol_id": "plain_flat_material_transfer_20261114_v1",
+  "scope": "Calibration diagnostic: same native plain-scroll context, five gray and three chromatic constants. No motion, refractive geometry, control-size or held-out validation claim.",
+  "dimensions_px": [
+    750,
+    1334
+  ],
+  "world_dimensions_pt": [
+    375,
+    667
+  ],
+  "pixels_per_pt": 2,
+  "colors_rgb": [
+    [
+      26,
+      26,
+      26
+    ],
+    [
+      77,
+      77,
+      77
+    ],
+    [
+      128,
+      128,
+      128
+    ],
+    [
+      179,
+      179,
+      179
+    ],
+    [
+      230,
+      230,
+      230
+    ],
+    [
+      232,
+      48,
+      48
+    ],
+    [
+      48,
+      232,
+      48
+    ],
+    [
+      48,
+      48,
+      232
+    ]
+  ],
+  "mode": "RGB",
+  "alpha": 255,
+  "raster": "Every pixel is the declared RGB code, no resampling or normalization.",
+  "native_context": "Unchanged built testSwiftUITabViewDockPlainInputMatrix; independently relaunched sessions; retain requested and all effective traits without forcing material appearance.",
+  "android_context": "Original preserved D46.5 APK, production default backdrop appearance disabled; REST only, no override.",
+  "analysis": "Posthoc transfer diagnostic on original source pixels and previously frozen nominal base/glyph exclusions and inward-depth bins. Report theme and effective native appearance separately; one constant cannot identify alpha vs tint.",
+  "comparison_limits": "No physical thickness/IOR inference; pixels and repeat frames are correlated; context and foreground differences remain.",
+  "budget": {
+    "native_sessions": 16,
+    "native_png": 32,
+    "android_scenes": 16,
+    "dynamic_clips": 0
+  },
+  "icc_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+  "generator_sha256": "b024f1e4506ee7e5b3bd10096b1514285ae5745ab06171781316ec4c89e5a21a",
+  "python": "3.9.6",
+  "pillow": "11.3.0"
+}

@@ -13,6 +13,7 @@ import androidx.compose.ui.graphics.GraphicsLayerScope
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.drawscope.ContentDrawScope
 import androidx.compose.ui.graphics.drawscope.DrawScope
+import androidx.compose.ui.graphics.drawscope.translate
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.layer.GraphicsLayer
 import androidx.compose.ui.graphics.layer.CompositingStrategy
@@ -293,8 +294,10 @@ private class DrawBackdropNode(
             val padding = padding
 
             val recordingSize = IntSize(
-                size.width.toInt() + padding.toInt() * 2,
-                size.height.toInt() + padding.toInt() * 2
+                // Match the runtime's actual input-raster bounds even when
+                // source geometry or Gaussian support has fractional pixels.
+                kotlin.math.ceil(size.width + padding * 2f).toInt(),
+                kotlin.math.ceil(size.height + padding * 2f).toInt()
             )
             val inputLayer = inputGraphicsLayer
             if (inputLayer != null) {
@@ -307,10 +310,10 @@ private class DrawBackdropNode(
                 recordLayer(layer, size = recordingSize, block = recordBackdropBlock)
             }
 
-            layer.topLeft =
-                if (padding != 0f) IntOffset(-padding.toInt(), -padding.toInt())
-                else IntOffset.Zero
-            drawLayer(layer)
+            // Undo the recording's floating-point origin exactly. topLeft is
+            // integer-only and would retain a fractional padding offset.
+            layer.topLeft = IntOffset.Zero
+            translate(-padding, -padding) { drawLayer(layer) }
         }
     }
 

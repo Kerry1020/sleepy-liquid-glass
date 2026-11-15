@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "analysis_id": "glass_isolated_calibration_response_v1",
+  "analyzed_utc": "2026-11-14T13:52:46.301417+00:00",
+  "split": "calibration",
+  "set_id": "glass_isolated_shapes_20261114_v1_calibration",
+  "analysis_freeze_sha256": "2474b50cf772f4e01f077d259c62b162597e755035b8659dd3630eb6cc251331",
+  "native_index": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-plain-context-20261114/native-matrix-r2/native-dock-index.json",
+    "sha256": "470773743a342e90acfdf0a3c82304ae1dc986bd9e95a64f3e80412dcf0d0daa"
+  },
+  "android_result": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/android-candidate-calibration/result.json",
+    "sha256": "eb8d14bc5eb28f693b2d76344bd89d1ce8962b3abdbb1c75e011c209d80a2655"
+  },
+  "pair_theme_count": 8,
+  "native_entries": 16,
+  "android_entries": 16,
+  "row_counts": {
+    "signed_response_strata": 10080,
+    "threshold_sensitivity": 30240,
+    "native_android_differential": 2016,
+    "bare_source_guards": 32
+  },
+  "verdict": "Descriptive calibration diagnostics only; no aggregate fidelity score, acceptance threshold, native equivalence, independent test or unique physical inversion.",
+  "component_identity": "IDs are local per system/pair/theme/lobe/threshold. No native-Android or cross-threshold correspondence is asserted.",
+  "global_adaptation": "Shape-minus-control retains global changes; remote/near and positive/negative outputs are not centered or subtracted.",
+  "repeat": "Native repeat shows within-session response differences; it is not between-session material stability or a statistical confidence interval. Android repeat is unavailable in the supplied capture contract.",
+  "foreground": "All nominal selected/glyph/backing domains remain diagnostic; nominal base exclusion cannot remove blurred foreground influence. AX frames are accessibility bounds, not optical contours.",
+  "file_sha256": {
+    "capture-sources-and-state.json": "f8faaaa63a2b0d7d38da746304425782152b91296ab1a50caa5f836ae18e2b0d",
+    "ic02_triangle_body-dark-signed-responses.npz": "799646127851bbdcb5ee187086301b3004164b93cb42e750a158434566b0a97d",
+    "bare-source-guards.csv": "c9456efb5221c9c517dcf719707a488d8ce51f1c36cad645d3cdf8ae5976abd3",
+    "native-android-differential.csv": "1a7dca59b015ba53cef2313ac767f0beaf98f124c89e9f51abb3a70dec3e5ca5",
+    "ic03_star_right-dark-signed-responses.npz": "3695818e7cf709f0a797df2c4f65ba66094235948d345673693078ccdf9a9160",
+    "ic04_asymmetric_lower-light-signed-responses.npz": "1b105a7c750e22ba326f19965fca0fec5d073b764edbcad0893b5b035e1e66ea",
+    "threshold-sensitivity.csv": "54852caf71d76d1a3bfc56b43e0cbf36c2628f752ab2d999812d75503194b1df",
+    "ic01_circle_top-light-signed-responses.npz": "b5f4c63afd814f0870f73ae764c3787a02464e569790d07c8310cc9713d50212",
+    "ic03_star_right-light-signed-responses.npz": "2369ee5dd1dab74e26fcef330e1f0e890e747b41661affca5d9104411add7f8b",
+    "signed-response-strata.csv": "665f50a1277c394b6e14619c9b424d5ff22d2f840901eecbeff52705e88ddb26",
+    "ic04_asymmetric_lower-dark-signed-responses.npz": "73d58a0f536e8d021c7e4c17d37cb3086f6fe9f9abc0818d1c9a4279757e798f",
+    "components.jsonl.gz": "7176c4d6fa476cbc5ed4d4b64708426ca1eced014bab380499bee9197847869f",
+    "ic01_circle_top-dark-signed-responses.npz": "7ac11432faa601d33992e70e8eaf11bb5274e6b3271904fc9f4aa200020bd794",
+    "ic02_triangle_body-light-signed-responses.npz": "35db933b9d3a840e7f458534566f85f1ffd7e790d095479708babac205b0f621"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "before-first-radius10-candidate-pixel-decode",
+  "build_receipt": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-sheet-radius10-build-result.json",
+  "build_receipt_sha256": "50ecb5966250592be904bf2a1be5bb2415acc4214fa6b2c9034f37cce76fe930",
+  "build_result": {
+    "exit_code": 0,
+    "sources_unchanged": true,
+    "test_sources_unchanged": true
+  },
+  "declared_build_source_sha256": {
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "fe462300bcd94fdde0d22039416cdbad13106b3b2e79aae0fc0d3df0a8878dd1",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt": "3a51a5595fbf63962ccaf8b06dfed6164110b7d983f94ecb8ce54023c6e0f82e",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassEffect.kt": "a46f891c93afd1e90eea0abcb190b146141a284b77af97389efb8feaa8bbdfd0",
+    "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "80fc9cbfa6f29631084556de2e2b5073c29b0716a9c8ac8eb937f088d190275f",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeDockOpticalWorldRenderTest.kt": "e0e25da812e03d6a97eb52f12aca1dcfb8612b8785ae7e1f8e6d67889491adb8",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassNavigationBar.kt": "f48da9dad35ada4c34a48d9c9473a6689d04e4587696392f24a6216cf3a2e188",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeGlassParityCaptureTest.kt": "7bd4255c53a7ff606e9d4c80403107f5e6141b35593780b2b20dc6f4b7c77f62",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassOverlays.kt": "2e4bdf5a6158955b474ff60cf16606c38665e36b8e85c66b38de6b927ba21632",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassControlModifier.kt": "b840fe7e1212ba06a9210441235fd76f47f85462e4bd0f74fe8090b8bab19343",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGeometry.kt": "2d7e1b79440149cffb9c71151e0a557a2a6ec14cb184bd78492d5b10fae9cff4",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputBlur.kt": "06e97f0184c81d9eb34894a9997e78dd3ff0e0d8f72951b3cac0b6337bf6b045",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputGeometry.kt": "6842a8fb57e6520621a250c4281d969f892bb8153bbb2115f1b872bfc5dde368",
+    "third-party/kyant-backdrop/src/commonMain/kotlin/com/kyant/backdrop/BackdropEffectScope.kt": "2c4f3cd5632a4fc4c40f84449edaacbe81f09c9f1276c81c3002719606978157",
+    "third-party/kyant-backdrop/src/commonMain/kotlin/com/kyant/backdrop/DrawBackdropModifier.kt": "712eba6b69b9d758dc733484a8cfdc102c7c8c96cd6a31eca4135c90e60aacd1",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassHost.kt": "5b4236fdf6340b4b42b8a783920b75e11359c6b52598a803322b7399ff3c820d",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassFilterBands.kt": "d0fcf91e572f2270de6d3a2316fc0cbc1e2667c482a0390eb6565288e2c4e8f2"
+  },
+  "required_routing_sources": {
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassHost.kt": "5b4236fdf6340b4b42b8a783920b75e11359c6b52598a803322b7399ff3c820d",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassFilterBands.kt": "d0fcf91e572f2270de6d3a2316fc0cbc1e2667c482a0390eb6565288e2c4e8f2"
+  },
+  "binaries": {
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/debug/app-arm64-v8a-debug.apk": "68b6ef4a919c5b097d9d6fcf822e97d4aba1df4a6095a0edb5392408722b4619",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/androidTest/debug/app-debug-androidTest.apk": "bf660ca314b21e90af98dfbf4deec2e240bee66879fc641ac5514ec971319c4c"
+  },
+  "root_experiment_plan_sha256": "3653d172c31a9d72a708dd30829290e105c443a751bd36cfd32c5e9892dcd107",
+  "analysis_plan_sha256": "fbd358aef373d8f7bbd981261826063168ddb2312f21f2a8abe76a8ea1174a07",
+  "analysis_scripts": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/analyze.py": "89b3a225189a568500638cb1e6fbe521b2715a56908d316b4f59026b169a327c",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/local_features.py": "0d169f510cb5164c8e5e178a9bb6ef8265ecd08528ada2ae9493b87e18b3f9e2",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sheet_local_features.py": "222b827860761852034ecc237fd5456b7baa6c0f605a9238403abfffcba982c3"
+  },
+  "causal_interpretation": "API input12 to10 with known exact12 shared band to10 local-preblur fallback routing; not same Gaussian execution path or radius-only physical inference",
+  "declaration_source": "root complete-capture handoff and immutable build receipt; no mutable source read needed"
+}

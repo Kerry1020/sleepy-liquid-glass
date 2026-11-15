@@ -1,0 +1,17 @@
+{
+  "status": "not-parity-accepted",
+  "native_eligible_rows": 14,
+  "phaseA_eligible_rows": 0,
+  "phaseB_eligible_rows": 1,
+  "total_S07_rows": 14,
+  "phaseB_failed_gate_counts": {
+    "secondary_peak>0.8primary": 13
+  },
+  "all_actual_alert_windows_zero_difference": true,
+  "all_geometry_mask_slot_density_source_controls_exact": true,
+  "fixed_roi_comparisons": 180,
+  "causal_scope": "Same true-radius API12 to10 plus deterministic shared12-band to local-preblur routing; not one common Gaussian execution path.",
+  "no_fitted_sigma_or_thickness": true,
+  "no_material_dynamic_multisize_or_holdout_acceptance": true,
+  "report_sha256": "96895df0941d4d19d974f01249cd37f24eea2c92e0df466f1d77b2aaae3c188d"
+}

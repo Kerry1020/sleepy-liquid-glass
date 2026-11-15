@@ -1,0 +1,318 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "run": "-_NativeReferenceTests_testPanelPlainBackingFeasibility_-FC7E501C-EAAB-4DC6-890B-B8031C675892",
+    "source_checks": {
+      "original_source_bytes_exact": true,
+      "input_metadata_identity": true,
+      "window_canvas_exact": true,
+      "original_world_mapping_exact": true,
+      "session_world_traits_exact": true,
+      "native_OS_exact": true,
+      "hidden_trigger_configuration_exact": true,
+      "request_identity_manifest_and_source_exact": true
+    },
+    "configuration": {
+      "inputID": "panel_probe_coordinate",
+      "carrier": "alert",
+      "scope": "inner trigger stack opacity0; existing parent/layout/system presentation unchanged in source; realized geometry and clean footprint require measurement",
+      "event": "panel-plain-backing-configuration",
+      "inputSHA256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e",
+      "t": 0.39910974993836135,
+      "hiddenBackingIDs": [
+        "show-sheet",
+        "show-alert",
+        "show-menu"
+      ],
+      "trigger": "reference-title-relay"
+    },
+    "metadata": {
+      "canvasRectInWindowPt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "colorSpace": "sRGB",
+      "decodedICCProfileName": "sRGB built-in",
+      "encoding": "opaque RGB8 PNG",
+      "event": "external-input",
+      "file": "panel_probe_coordinate.png",
+      "hashScope": "original PNG bytes; shared unchanged with Android",
+      "id": "panel_probe_coordinate",
+      "pixelsPerPt": 2,
+      "rendering": "fixed375x667pt at origin0,0; interpolation.none; no bounds fit",
+      "requestedInterfaceStyle": "light",
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e",
+      "sizePx": [
+        750,
+        1334
+      ],
+      "split": "calibration",
+      "windowEffectiveInterfaceStyle": 1,
+      "windowRectPt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "worldOriginPt": [
+        0,
+        0
+      ],
+      "worldSizePt": [
+        375,
+        667
+      ]
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "run": "-_NativeReferenceTests_testPanelPlainBackingFeasibility_-FAFEC7CE-8C36-46C5-8DEB-5790AC7ED88D",
+    "source_checks": {
+      "original_source_bytes_exact": true,
+      "input_metadata_identity": true,
+      "window_canvas_exact": true,
+      "original_world_mapping_exact": true,
+      "session_world_traits_exact": true,
+      "native_OS_exact": true,
+      "hidden_trigger_configuration_exact": true,
+      "request_identity_manifest_and_source_exact": true
+    },
+    "configuration": {
+      "event": "panel-plain-backing-configuration",
+      "trigger": "reference-title-relay",
+      "hiddenBackingIDs": [
+        "show-sheet",
+        "show-alert",
+        "show-menu"
+      ],
+      "inputID": "panel_probe_coordinate",
+      "inputSHA256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e",
+      "t": 0.2857638333225623,
+      "scope": "inner trigger stack opacity0; existing parent/layout/system presentation unchanged in source; realized geometry and clean footprint require measurement",
+      "carrier": "sheet"
+    },
+    "metadata": {
+      "canvasRectInWindowPt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "colorSpace": "sRGB",
+      "decodedICCProfileName": "sRGB built-in",
+      "encoding": "opaque RGB8 PNG",
+      "event": "external-input",
+      "file": "panel_probe_coordinate.png",
+      "hashScope": "original PNG bytes; shared unchanged with Android",
+      "id": "panel_probe_coordinate",
+      "pixelsPerPt": 2,
+      "rendering": "fixed375x667pt at origin0,0; interpolation.none; no bounds fit",
+      "requestedInterfaceStyle": "light",
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e",
+      "sizePx": [
+        750,
+        1334
+      ],
+      "split": "calibration",
+      "windowEffectiveInterfaceStyle": 1,
+      "windowRectPt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "worldOriginPt": [
+        0,
+        0
+      ],
+      "worldSizePt": [
+        375,
+        667
+      ]
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "run": "-_NativeReferenceTests_testPanelPlainBackingFeasibility_-182E6A2B-2BC2-4AF7-A0F8-D9EB9F1D6ED6",
+    "source_checks": {
+      "original_source_bytes_exact": true,
+      "input_metadata_identity": true,
+      "window_canvas_exact": true,
+      "original_world_mapping_exact": true,
+      "session_world_traits_exact": true,
+      "native_OS_exact": true,
+      "hidden_trigger_configuration_exact": true,
+      "request_identity_manifest_and_source_exact": true
+    },
+    "configuration": {
+      "carrier": "alert",
+      "trigger": "reference-title-relay",
+      "inputID": "panel_probe_shapes",
+      "inputSHA256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149",
+      "scope": "inner trigger stack opacity0; existing parent/layout/system presentation unchanged in source; realized geometry and clean footprint require measurement",
+      "event": "panel-plain-backing-configuration",
+      "t": 0.23172149993479252,
+      "hiddenBackingIDs": [
+        "show-sheet",
+        "show-alert",
+        "show-menu"
+      ]
+    },
+    "metadata": {
+      "canvasRectInWindowPt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "colorSpace": "sRGB",
+      "decodedICCProfileName": "sRGB built-in",
+      "encoding": "opaque RGB8 PNG",
+      "event": "external-input",
+      "file": "panel_probe_shapes.png",
+      "hashScope": "original PNG bytes; shared unchanged with Android",
+      "id": "panel_probe_shapes",
+      "pixelsPerPt": 2,
+      "rendering": "fixed375x667pt at origin0,0; interpolation.none; no bounds fit",
+      "requestedInterfaceStyle": "light",
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149",
+      "sizePx": [
+        750,
+        1334
+      ],
+      "split": "calibration",
+      "windowEffectiveInterfaceStyle": 1,
+      "windowRectPt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "worldOriginPt": [
+        0,
+        0
+      ],
+      "worldSizePt": [
+        375,
+        667
+      ]
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "run": "-_NativeReferenceTests_testPanelPlainBackingFeasibility_-566C789C-42EE-4567-BD7E-BA7308537FBA",
+    "source_checks": {
+      "original_source_bytes_exact": true,
+      "input_metadata_identity": true,
+      "window_canvas_exact": true,
+      "original_world_mapping_exact": true,
+      "session_world_traits_exact": true,
+      "native_OS_exact": true,
+      "hidden_trigger_configuration_exact": true,
+      "request_identity_manifest_and_source_exact": true
+    },
+    "configuration": {
+      "hiddenBackingIDs": [
+        "show-sheet",
+        "show-alert",
+        "show-menu"
+      ],
+      "t": 0.1668387500103563,
+      "inputSHA256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149",
+      "event": "panel-plain-backing-configuration",
+      "inputID": "panel_probe_shapes",
+      "trigger": "reference-title-relay",
+      "scope": "inner trigger stack opacity0; existing parent/layout/system presentation unchanged in source; realized geometry and clean footprint require measurement",
+      "carrier": "sheet"
+    },
+    "metadata": {
+      "canvasRectInWindowPt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "colorSpace": "sRGB",
+      "decodedICCProfileName": "sRGB built-in",
+      "encoding": "opaque RGB8 PNG",
+      "event": "external-input",
+      "file": "panel_probe_shapes.png",
+      "hashScope": "original PNG bytes; shared unchanged with Android",
+      "id": "panel_probe_shapes",
+      "pixelsPerPt": 2,
+      "rendering": "fixed375x667pt at origin0,0; interpolation.none; no bounds fit",
+      "requestedInterfaceStyle": "light",
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149",
+      "sizePx": [
+        750,
+        1334
+      ],
+      "split": "calibration",
+      "windowEffectiveInterfaceStyle": 1,
+      "windowRectPt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "worldOriginPt": [
+        0,
+        0
+      ],
+      "worldSizePt": [
+        375,
+        667
+      ]
+    },
+    "session_traits": {
+      "os": "Version 26.5 (Build 23F77)",
+      "screenWidthPt": 375,
+      "screenHeightPt": 667,
+      "screenScale": 2,
+      "interfaceStyle": 1,
+      "reduceMotion": false,
+      "reduceTransparency": false,
+      "darkerSystemColors": false
+    }
+  }
+]

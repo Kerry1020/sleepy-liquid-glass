@@ -1,0 +1,9 @@
+{
+  "sourceCommit": "ddbf20e63ea39b4b202531fe427b0d5f548fe60b",
+  "runtimeFiles": 38,
+  "runtimeKotlinFiles": 28,
+  "independentBackendChanges": [
+    "backdrop/src/commonMain/kotlin/com/kyant/backdrop/BackdropEffectScope.kt"
+  ],
+  "scope": "independent local geometry adapters; app backend is not copied"
+}

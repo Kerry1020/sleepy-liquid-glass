@@ -1,0 +1,366 @@
+{
+  "schema": 1,
+  "scope": "Static Dock dot fields only; conditional correspondence diagnostics, not a global similarity score",
+  "unique_test_source_points": 6720,
+  "scene_count": 8,
+  "role_scene_count": 24,
+  "point_role_theme_observations": 40320,
+  "plan_sha256": "0f967969207a8a41ced757e09251d306f5d394f85c7b5bb539d40fadd315734d",
+  "analysis_source_sha256": "571e853b4ebd2263d55295601256971865783bed8ca7f3ed7d640ed80b630f04",
+  "per_source_report_sha256": {
+    "analysis/tracking-v2/n05_dots_s0-light-native/per-source.json": "8eeb096cca2299778baac84cb5e6fa80e1a98c41ae1cc056a0e93ca69e6245cb",
+    "analysis/tracking-v2/n05_dots_s0-light-baseline/per-source.json": "7ef0bdb13babdc191d70ceb43ab208beec9a53e7413fef855d9c5ff92410458c",
+    "analysis/tracking-v2/n05_dots_s0-light-candidate/per-source.json": "ac6884661d722166e8b9330cc22bcf09a77d826e5f968651fc16e7fd8aa46042",
+    "analysis/tracking-v2/n05_dots_s0-dark-native/per-source.json": "4f30a2f0b725fbcd74591d6565497a1916def567e63d71b1b663f902fd2bbe46",
+    "analysis/tracking-v2/n05_dots_s0-dark-baseline/per-source.json": "a088ca9b592a9e0830d46d0d75c8355fbe9556836c8e5f44181b5b78a675375b",
+    "analysis/tracking-v2/n05_dots_s0-dark-candidate/per-source.json": "f1a0e616b3d2980484ff7a1006c2a5adc7f1b2fc7d43928dcfa3167e50a19cf0",
+    "analysis/tracking-v2/n06_dots_s1-light-native/per-source.json": "a1b8d02da6cf063b638b249c9b951ea8fe4d9bfd6d21dfbdbb8756716b7af3c9",
+    "analysis/tracking-v2/n06_dots_s1-light-baseline/per-source.json": "16284ba026a9555ffc8e059063aeb16d5f502d5d1e5ce51d8368b2d9e5baa107",
+    "analysis/tracking-v2/n06_dots_s1-light-candidate/per-source.json": "05520d03fac32fd4943e8e610b50998f11a54c5661bb49583f93962cbbd9c7da",
+    "analysis/tracking-v2/n06_dots_s1-dark-native/per-source.json": "7714a5767c45818e55608b9366b27f6197a8b9373c25f0a94946e5f074be8e8a",
+    "analysis/tracking-v2/n06_dots_s1-dark-baseline/per-source.json": "9fba172f83c1212cf2f8f9342984c802ecc3f3f5b0119f89df90acde177bd93f",
+    "analysis/tracking-v2/n06_dots_s1-dark-candidate/per-source.json": "c59a25ae543e408756460f7e02bf8545142f9530bfecbd4d735c9389a37f3a55",
+    "analysis/tracking-v2/n07_dots_s2-light-native/per-source.json": "16440b4cbfb336895d315a15b2fb37f25ae9798f0e7fd5d57e14b825e083e9dc",
+    "analysis/tracking-v2/n07_dots_s2-light-baseline/per-source.json": "80c3b6777514b0dd9f26cc715aedfc57826e21024f8c3a6bf166a15c776bbb12",
+    "analysis/tracking-v2/n07_dots_s2-light-candidate/per-source.json": "7531759d16abfb1ec1200b14fd43c3d25a29debc63a3b64abb4380c295968204",
+    "analysis/tracking-v2/n07_dots_s2-dark-native/per-source.json": "fdb90068926a3aa554f68bea64aa8f603c17a4bd09a6326a346e4b549fe524de",
+    "analysis/tracking-v2/n07_dots_s2-dark-baseline/per-source.json": "8d32e43c5dbe20f5577aa9059a0e24e846168c9dd5094f9e291ed939c1939952",
+    "analysis/tracking-v2/n07_dots_s2-dark-candidate/per-source.json": "a1f73304773d7e6055753f12bc4f672a4ebb86e71e92eab605111035f9483fac",
+    "analysis/tracking-v2/n08_dots_s3-light-native/per-source.json": "42cef07fc860000b0b0abbff651034fe1e73f4253053d9bce92dd883c390824e",
+    "analysis/tracking-v2/n08_dots_s3-light-baseline/per-source.json": "3150529949609a97468f18c1990e78579d58a46484035185f9a0eb505e2b4631",
+    "analysis/tracking-v2/n08_dots_s3-light-candidate/per-source.json": "6692345a8c4618bb2c5813d0c1b74caac98eb4f5615cbdfa1cd8c11ec3d9ba70",
+    "analysis/tracking-v2/n08_dots_s3-dark-native/per-source.json": "daf3cde02ff73e6207995b32909466c96cb0b955ebde4763f4c05b1c5735c0b7",
+    "analysis/tracking-v2/n08_dots_s3-dark-baseline/per-source.json": "6ef09a81f4d80cba32dd38f92b3ab9934112df60e05fc7d8c677438fbfd9b3c8",
+    "analysis/tracking-v2/n08_dots_s3-dark-candidate/per-source.json": "e043f320d519c3f10c59ed37b016071895c2a5bdc46aef62c12d327c8bbe9038"
+  },
+  "conditional_center_differences": [
+    {
+      "input_id": "n05_dots_s0",
+      "theme": "dark",
+      "role": "baseline",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n05_dots_s0",
+      "theme": "dark",
+      "role": "baseline",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n05_dots_s0",
+      "theme": "dark",
+      "role": "candidate",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n05_dots_s0",
+      "theme": "dark",
+      "role": "candidate",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n05_dots_s0",
+      "theme": "light",
+      "role": "baseline",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n05_dots_s0",
+      "theme": "light",
+      "role": "baseline",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n05_dots_s0",
+      "theme": "light",
+      "role": "candidate",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n05_dots_s0",
+      "theme": "light",
+      "role": "candidate",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n06_dots_s1",
+      "theme": "dark",
+      "role": "baseline",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n06_dots_s1",
+      "theme": "dark",
+      "role": "baseline",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n06_dots_s1",
+      "theme": "dark",
+      "role": "candidate",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n06_dots_s1",
+      "theme": "dark",
+      "role": "candidate",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n06_dots_s1",
+      "theme": "light",
+      "role": "baseline",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 1,
+      "center_difference_median_px": 0.09389088526618863,
+      "center_difference_max_px": 0.09389088526618863,
+      "same_layer_pairs": 1
+    },
+    {
+      "input_id": "n06_dots_s1",
+      "theme": "light",
+      "role": "baseline",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 1,
+      "center_difference_median_px": 0.09389088526618863,
+      "center_difference_max_px": 0.09389088526618863,
+      "same_layer_pairs": 1
+    },
+    {
+      "input_id": "n06_dots_s1",
+      "theme": "light",
+      "role": "candidate",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 1,
+      "center_difference_median_px": 0.09389088526618863,
+      "center_difference_max_px": 0.09389088526618863,
+      "same_layer_pairs": 1
+    },
+    {
+      "input_id": "n06_dots_s1",
+      "theme": "light",
+      "role": "candidate",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 1,
+      "center_difference_median_px": 0.09389088526618863,
+      "center_difference_max_px": 0.09389088526618863,
+      "same_layer_pairs": 1
+    },
+    {
+      "input_id": "n07_dots_s2",
+      "theme": "dark",
+      "role": "baseline",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 3,
+      "center_difference_median_px": 0.15085413901893024,
+      "center_difference_max_px": 0.35790274022837854,
+      "same_layer_pairs": 3
+    },
+    {
+      "input_id": "n07_dots_s2",
+      "theme": "dark",
+      "role": "baseline",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 3,
+      "center_difference_median_px": 0.15085413901893024,
+      "center_difference_max_px": 0.35790274022837854,
+      "same_layer_pairs": 3
+    },
+    {
+      "input_id": "n07_dots_s2",
+      "theme": "dark",
+      "role": "candidate",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 3,
+      "center_difference_median_px": 0.15085413901893024,
+      "center_difference_max_px": 0.35790274022837854,
+      "same_layer_pairs": 3
+    },
+    {
+      "input_id": "n07_dots_s2",
+      "theme": "dark",
+      "role": "candidate",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 3,
+      "center_difference_median_px": 0.15085413901893024,
+      "center_difference_max_px": 0.35790274022837854,
+      "same_layer_pairs": 3
+    },
+    {
+      "input_id": "n07_dots_s2",
+      "theme": "light",
+      "role": "baseline",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 3,
+      "center_difference_median_px": 0.14700053818300085,
+      "center_difference_max_px": 0.33971019367336697,
+      "same_layer_pairs": 3
+    },
+    {
+      "input_id": "n07_dots_s2",
+      "theme": "light",
+      "role": "baseline",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 3,
+      "center_difference_median_px": 0.14700053818300085,
+      "center_difference_max_px": 0.33971019367336697,
+      "same_layer_pairs": 3
+    },
+    {
+      "input_id": "n07_dots_s2",
+      "theme": "light",
+      "role": "candidate",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 3,
+      "center_difference_median_px": 0.14700053818300085,
+      "center_difference_max_px": 0.33971019367336697,
+      "same_layer_pairs": 3
+    },
+    {
+      "input_id": "n07_dots_s2",
+      "theme": "light",
+      "role": "candidate",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 3,
+      "center_difference_median_px": 0.14700053818300085,
+      "center_difference_max_px": 0.33971019367336697,
+      "same_layer_pairs": 3
+    },
+    {
+      "input_id": "n08_dots_s3",
+      "theme": "dark",
+      "role": "baseline",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n08_dots_s3",
+      "theme": "dark",
+      "role": "baseline",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n08_dots_s3",
+      "theme": "dark",
+      "role": "candidate",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n08_dots_s3",
+      "theme": "dark",
+      "role": "candidate",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n08_dots_s3",
+      "theme": "light",
+      "role": "baseline",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n08_dots_s3",
+      "theme": "light",
+      "role": "baseline",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 1,
+      "center_difference_median_px": 0.7220385266616854,
+      "center_difference_max_px": 0.7220385266616854,
+      "same_layer_pairs": 1
+    },
+    {
+      "input_id": "n08_dots_s3",
+      "theme": "light",
+      "role": "candidate",
+      "domain": "both_output_centers_inside_dock",
+      "paired_ids": 0,
+      "center_difference_median_px": null,
+      "center_difference_max_px": null,
+      "same_layer_pairs": 0
+    },
+    {
+      "input_id": "n08_dots_s3",
+      "theme": "light",
+      "role": "candidate",
+      "domain": "at_least_one_output_center_inside_dock",
+      "paired_ids": 1,
+      "center_difference_median_px": 0.7220895198435469,
+      "center_difference_max_px": 0.7220895198435469,
+      "same_layer_pairs": 1
+    }
+  ],
+  "limits": [
+    "Source identity does not make every rendered point recoverable.",
+    "Dense overlap, blur, foreground, tint, multiple images and non-affine deformation can prevent identification.",
+    "Rejected IDs are retained. Empty intersections are not zero error.",
+    "Status labels and paired center errors are algorithm-dependent; no physical thickness inversion.",
+    "The 4 seeds, themes, roles, source pixels and overlapping ROIs are not independent population samples.",
+    "No controls, material parameters, or tracking thresholds were tuned on these captures."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "purpose": "Single rimBlur mechanism candidate; reuse unchanged baseline local supports and extraction",
+  "candidate_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-clear-edge-20261115",
+  "files": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-clear-edge-20261115/matrix.json": "e461e3361d94292f288b373ad25071346d96c86c8afba4117f2f5ceef287c286",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-clear-edge-20261115/capture-result.json": "5bd3bd7e5e72d7674ddf48f2e50e2b56cc08a7d661cf527809bb285cb119fe7f",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-clear-edge-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png": "df7e08e4b4dfd86ad7215e290e1bb979812fd99103242473aa2ac27cdcf7f99f",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-clear-edge-20261115/panel_probe_shapes-light-background-screen.png": "48e6a61bf8b7308b374f9eaf9852df32155aff06460015a281e79e214517360b",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-clear-edge-20261115/panel_probe_shapes-light-alert-rest-screen.png": "bb2ec32bdd57c328946d56dbba6a558bd5813673be1387b0fd154010efc8e0e4",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-clear-edge-20261115/panel_probe_coordinate-light-alert-rest-screen.png": "5aaf9bfcf8fc8ad5c338a9d98bc2cb4c75f523039ed89f4df6c3f6ce9099cb20",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-clear-edge-20261115/panel_probe_coordinate-light-background-screen.png": "5e8fdf04f90f865dcaf6879c75eb3e1b5129341cfc09647265fc26ef27539d29",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-nonperiodic-clear-edge-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png": "98392273e5ba3595cc30add4554eabc1eef9437091818f3c0425d63d7d3d48a9"
+  }
+}

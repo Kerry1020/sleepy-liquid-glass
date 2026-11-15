@@ -1,0 +1,348 @@
+{
+  "summary": [
+    {
+      "inset_pt": 0.25,
+      "pixels": 62,
+      "platforms": {
+        "body8": {
+          "mean_edge_rgb": [
+            248.61290322580646,
+            189.3548387096774,
+            227.48387096774192
+          ],
+          "min_edge_rgb": [
+            243.0,
+            184.0,
+            226.0
+          ],
+          "max_edge_rgb": [
+            252.0,
+            197.0,
+            229.0
+          ],
+          "mean_shoulder_rgb": [
+            227.28225806451613,
+            191.08467741935485,
+            245.7358870967742
+          ],
+          "mean_response_rgb": [
+            21.330645161290324,
+            -1.7298387096774193,
+            -18.25201612903226
+          ],
+          "min_response_rgb": [
+            17.375,
+            -7.5,
+            -21.875
+          ],
+          "max_response_rgb": [
+            24.0,
+            3.375,
+            -10.125
+          ],
+          "channel255_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        "candidate": {
+          "mean_edge_rgb": [
+            255.0,
+            206.25806451612902,
+            244.40322580645162
+          ],
+          "min_edge_rgb": [
+            255.0,
+            201.0,
+            244.0
+          ],
+          "max_edge_rgb": [
+            255.0,
+            213.0,
+            245.0
+          ],
+          "mean_shoulder_rgb": [
+            227.28225806451613,
+            191.08467741935485,
+            245.7358870967742
+          ],
+          "mean_response_rgb": [
+            27.717741935483872,
+            15.173387096774194,
+            -1.3326612903225807
+          ],
+          "min_response_rgb": [
+            27.0,
+            10.5,
+            -4.875
+          ],
+          "max_response_rgb": [
+            29.375,
+            19.375,
+            5.875
+          ],
+          "channel255_counts": [
+            62,
+            0,
+            0
+          ]
+        },
+        "native": {
+          "mean_edge_rgb": [
+            252.5483870967742,
+            225.08064516129033,
+            248.56451612903226
+          ],
+          "min_edge_rgb": [
+            251.0,
+            223.0,
+            248.0
+          ],
+          "max_edge_rgb": [
+            253.0,
+            229.0,
+            249.0
+          ],
+          "mean_shoulder_rgb": [
+            229.60887096774192,
+            192.4415322580645,
+            247.73185483870967
+          ],
+          "mean_response_rgb": [
+            22.93951612903226,
+            32.63911290322581,
+            0.8326612903225806
+          ],
+          "min_response_rgb": [
+            22.0,
+            25.0,
+            -2.75
+          ],
+          "max_response_rgb": [
+            24.0,
+            35.875,
+            9.0
+          ],
+          "channel255_counts": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "candidate_minus_body8": {
+        "mean_edge_rgb": [
+          6.387096774193548,
+          16.903225806451612,
+          16.919354838709676
+        ],
+        "min_edge_rgb": [
+          3.0,
+          16.0,
+          15.0
+        ],
+        "max_edge_rgb": [
+          12.0,
+          18.0,
+          18.0
+        ],
+        "max_abs_shoulder_delta": 0.0,
+        "GB_increment_disagreement_max": 1.0,
+        "GB_increment_agree_within1_count_pixels": 62,
+        "red_observed255_pixels": 62,
+        "red_diagnostic_above255_pixels": 62,
+        "red_diagnostic_above254_5_pixels": 62,
+        "red_diagnostic_min_max": [
+          261.0,
+          269.5
+        ],
+        "clipped_red_min_diagnostic_overshoot_counts": 6.0
+      }
+    },
+    {
+      "inset_pt": 0.75,
+      "pixels": 62,
+      "platforms": {
+        "body8": {
+          "mean_edge_rgb": [
+            242.5,
+            196.59677419354838,
+            226.16129032258064
+          ],
+          "min_edge_rgb": [
+            231.0,
+            185.0,
+            225.0
+          ],
+          "max_edge_rgb": [
+            251.0,
+            215.0,
+            227.0
+          ],
+          "mean_shoulder_rgb": [
+            227.28225806451613,
+            191.08467741935485,
+            245.7358870967742
+          ],
+          "mean_response_rgb": [
+            15.21774193548387,
+            5.512096774193548,
+            -19.574596774193548
+          ],
+          "min_response_rgb": [
+            5.0,
+            -3.0,
+            -22.0
+          ],
+          "max_response_rgb": [
+            23.0,
+            17.125,
+            -13.125
+          ],
+          "channel255_counts": [
+            0,
+            0,
+            0
+          ]
+        },
+        "candidate": {
+          "mean_edge_rgb": [
+            250.98387096774192,
+            206.88709677419354,
+            236.43548387096774
+          ],
+          "min_edge_rgb": [
+            241.0,
+            195.0,
+            235.0
+          ],
+          "max_edge_rgb": [
+            255.0,
+            225.0,
+            238.0
+          ],
+          "mean_shoulder_rgb": [
+            227.28225806451613,
+            191.08467741935485,
+            245.7358870967742
+          ],
+          "mean_response_rgb": [
+            23.701612903225808,
+            15.80241935483871,
+            -9.300403225806452
+          ],
+          "min_response_rgb": [
+            15.0,
+            7.0,
+            -12.0
+          ],
+          "max_response_rgb": [
+            28.0,
+            27.125,
+            -2.125
+          ],
+          "channel255_counts": [
+            30,
+            0,
+            0
+          ]
+        },
+        "native": {
+          "mean_edge_rgb": [
+            248.90322580645162,
+            213.09677419354838,
+            241.56451612903226
+          ],
+          "min_edge_rgb": [
+            243.0,
+            207.0,
+            240.0
+          ],
+          "max_edge_rgb": [
+            252.0,
+            224.0,
+            242.0
+          ],
+          "mean_shoulder_rgb": [
+            229.60887096774192,
+            192.4415322580645,
+            247.73185483870967
+          ],
+          "mean_response_rgb": [
+            19.294354838709676,
+            20.655241935483872,
+            -6.167338709677419
+          ],
+          "min_response_rgb": [
+            15.0,
+            18.0,
+            -9.0
+          ],
+          "max_response_rgb": [
+            22.0,
+            24.375,
+            1.25
+          ],
+          "channel255_counts": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "candidate_minus_body8": {
+        "mean_edge_rgb": [
+          8.483870967741936,
+          10.290322580645162,
+          10.274193548387096
+        ],
+        "min_edge_rgb": [
+          4.0,
+          9.0,
+          9.0
+        ],
+        "max_edge_rgb": [
+          11.0,
+          11.0,
+          11.0
+        ],
+        "max_abs_shoulder_delta": 0.0,
+        "GB_increment_disagreement_max": 1.0,
+        "GB_increment_agree_within1_count_pixels": 62,
+        "red_observed255_pixels": 30,
+        "red_diagnostic_above255_pixels": 30,
+        "red_diagnostic_above254_5_pixels": 30,
+        "red_diagnostic_min_max": [
+          241.0,
+          261.0
+        ],
+        "clipped_red_min_diagnostic_overshoot_counts": 0.0
+      }
+    }
+  ],
+  "source_references_at_read": [
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
+      "sha256": "80fc9cbfa6f29631084556de2e2b5073c29b0716a9c8ac8eb937f088d190275f"
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt",
+      "sha256": "3a51a5595fbf63962ccaf8b06dfed6164110b7d983f94ecb8ce54023c6e0f82e"
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGeometry.kt",
+      "sha256": "2d7e1b79440149cffb9c71151e0a557a2a6ec14cb184bd78492d5b10fae9cff4"
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassControlModifier.kt",
+      "sha256": "b840fe7e1212ba06a9210441235fd76f47f85462e4bd0f74fe8090b8bab19343"
+    }
+  ],
+  "limits": [
+    "Shoulder subtraction is an observed image-response diagnostic, not isolation of only specular light.",
+    "Red clipping destroys its true unclamped value; measured unsaturated GB increments do not recover exact shader arithmetic.",
+    "Source+paired captures support additive floor as direct mechanism at these side samples; this does not prove an iOS physical lighting model.",
+    "CPU flat.06 is zero in the side-to-corner0 first gradient segment; the fixed side samples are within that zero segment."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "before minimal clean-backing fixture source edits; no build/device/Git",
+  "files": {
+    "NativeStage.swift": {
+      "source": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/NativeStage.swift",
+      "sha256": "fa66a5e37570cca07311677e50c28f1e6cec9e7be84e4d370a7f7070dfd48339",
+      "backup": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/native-clean-fixture-source.before-NativeStage.swift"
+    },
+    "main.swift": {
+      "source": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/main.swift",
+      "sha256": "1dbadf2d915a4a66b80e4b04d08daa516ab5b80f7656f2b496f7c4d9892bed9a",
+      "backup": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/native-clean-fixture-source.before-main.swift"
+    }
+  }
+}

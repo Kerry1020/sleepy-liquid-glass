@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "protocol_id": "plain_scroll_static_context_20261114_v1",
+  "scope": "New calibration context only; do not overwrite earlier experiment or claim matched full native/Android rendering",
+  "source": "Unchanged isolated-shape calibration manifest, 4 control/shape pairs; no held-out output",
+  "native_intervention": "Real TabView, UITabBarController, hidden navigation parent and real ScrollView retained; existing title/24 row VStack layout retained but opacity0 and accessibilityHidden; system tab item glyphs/labels remain",
+  "feasibility": "First 2 input records (circle control and shape), light only; exactly 1 passed test, 2 real sessions; inspect parent classes, bar frame and scroll geometry against prior synthetic-scroll and verify repeat identity before full16 matrix",
+  "identity_policy": "Each input still launches a fresh process; instance identity required within session only, never across control/shape sessions",
+  "clock_policy": "Simulator status bar fixed9:41 for each acquisition, with all supported status fields fixed; prior overrides must be empty, restore clear in finally; clocks not inferred from image time",
+  "android_reuse": "Prior Android isolated-shape pure-background candidate captures may be reused conditionally because product, input and fixture unchanged; bind prior result and candidate source/APK hashes; this does not establish whole-context equality",
+  "remaining_limits": [
+    "Native SF Symbols/tab labels, system material adaptation and native parent remain different from Android",
+    "Opacity is an intentional source-context intervention; source code alone cannot prove actual scroll geometry unchanged",
+    "No private material property, physical thickness, all-size parity or dynamic completion is inferred",
+    "Input foreground absence must be checked in actual calibration screenshots before interpreting optical response"
+  ],
+  "budget": "One native build reusing existing DerivedData; 2-session feasibility first, up to16 fresh full-matrix sessions only after passed gate; no Android rebuild or capture, no dynamic capture, no whole-video frame dumps"
+}

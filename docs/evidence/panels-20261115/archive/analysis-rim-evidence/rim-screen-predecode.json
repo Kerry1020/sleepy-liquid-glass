@@ -1,0 +1,33 @@
+{
+  "status": "before-first-screen-increment-candidate-pixel-decode",
+  "complete_parent_handback": true,
+  "candidate": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-20261115",
+  "files": {
+    "panels-alert-floor-screen-20261115/capture-plan.json": "73242be0fb2976ffc59a4c1216690476cb6c938b202fe3c4f54b09f48e59444f",
+    "panels-alert-floor-screen-20261115/capture-result.json": "ddaf3136b7158e28dacd6077fb587bc9286198d3663b376917d3f7c21a2507e2",
+    "panels-alert-floor-screen-20261115/display-before.json": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+    "panels-alert-floor-screen-20261115/display-restored.json": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+    "panels-alert-floor-screen-20261115/matrix.json": "6af60cf5d5ea3b1682e4b4bcff2466ac52d726fbaa7b686966466804d5a99c84",
+    "panels-alert-floor-screen-20261115/panel_probe_coordinate-light-alert-rest-rejected-display.png": "e884f177627319e4cece41abdfc423e2b230bca1a10ae20ab27b5e6003f06261",
+    "panels-alert-floor-screen-20261115/panel_probe_coordinate-light-alert-rest-screen.png": "aaeb342d551ceabead702d8d8385b4af7280c10069800b442d5b68ec3660f48d",
+    "panels-alert-floor-screen-20261115/panel_probe_coordinate-light-alert-rest-window.png": "560c6f7623e2678e81eed4f8b0252aaa864bb97c3db951371a5188678795cae6",
+    "panels-alert-floor-screen-20261115/panel_probe_coordinate-light-background-screen.png": "4a9f0b3d9a883cb553f3dee9215f0925224b729720b772847813dd5be52c96a5",
+    "panels-alert-floor-screen-20261115/panel_probe_coordinate-light-background-window.png": "907b7aac6e6677972cbf942004b222a45d8b118ec94215abf5bdcfe4c61799d0",
+    "panels-alert-floor-screen-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png": "af78953f7c1ffe997f0a8ce5f26ff560d2788e28d3de35ec4462893ed46ccc86",
+    "panels-alert-floor-screen-20261115/panel_probe_coordinate-light-share_sheet-rest-window.png": "42f4100e8151580170c7f7d716012879397e56e243b61abbfe2081e794b2fc3d",
+    "panels-alert-floor-screen-20261115/panel_probe_shapes-light-alert-rest-rejected-display.png": "46aabf2af2506e4403154d6d5db04b305f88672e8283efcc4e95c0d122b6f482",
+    "panels-alert-floor-screen-20261115/panel_probe_shapes-light-alert-rest-screen.png": "2e8d43deba1e9f7268c5440db14ffc49636d93b00a0fbbad5f4a2b4f37716964",
+    "panels-alert-floor-screen-20261115/panel_probe_shapes-light-alert-rest-window.png": "3fda50fa91881e899e44f1a93cc4287afb2eaec4aee3f2358292bbea968ac485",
+    "panels-alert-floor-screen-20261115/panel_probe_shapes-light-background-screen.png": "a46c1d080ec4edb59c03ecd72bd584c3850869c54c92b59bb0290edcbd2f508f",
+    "panels-alert-floor-screen-20261115/panel_probe_shapes-light-background-window.png": "c643291836e46fe7a0867ec94ff8a6a143163e2cc8363c45ef3352bc82298e01",
+    "panels-alert-floor-screen-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png": "2e85381e273f8407678bdd367d8be901424e2c872beaa14188e3c5af4e886c08",
+    "panels-alert-floor-screen-20261115/panel_probe_shapes-light-share_sheet-rest-window.png": "5209095ca981bdea19528021cd59f7490fa9d622d239793cb0bcd3412f27e1a1",
+    "analysis-rim-evidence/rim-screen-increment-frozen-plan.md": "98ad62d4c92c43a60b8bca15a76ffb2b2faf01821155af24592ff90628ecfb19",
+    "analysis-rim-evidence/rim-screen-increment-frozen-plan.json": "187aa4dc46f9f73ef4563beb1d1c74af08823ecdb804b2d8fac4fa3788ad48f1",
+    "analysis-rim-evidence/rim-screen-increment-predecode-amendment.md": "03b9bb85a0c290a96c2fa859d52153daf13852e13521fb4f63c49371c3dd6262",
+    "analysis-rim-evidence/rim-screen-increment-predecode-amendment.json": "8173b1c07ec025d6ba7d664795d6aee54495b8f788d1891be11a678e0fd14a65",
+    "panel-alert-floor-screen-plan.json": "6f868a03b7bb8a9a526febecdd1955b79afd99235e9921c1e062a0f124c66b81",
+    "panel-alert-floor-screen-build-input.json": "24563ed3f9b4e75b61683632fc09de3ccb9c02653c2908f442c5a5443a85ca16",
+    "panel-alert-floor-screen-build-result.json": "a0a49efe235c435f53458c302074cdf8733a02408101cd873e34f5aa98cf7b2f"
+  }
+}

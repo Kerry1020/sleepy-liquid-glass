@@ -1,0 +1,16 @@
+{
+  "revisions": [
+    {
+      "version": 1,
+      "json_sha256": "78303e13466b74220f77d7ed43ea3b72ef333a0d42e190d6bb803615c6215437",
+      "md_sha256": "0dcac281c9198ffb419d8bdd72dbda67a5f25670ab6dbd21f1c434eed4a16671",
+      "reason": "Initial root-approved mode12 then12to10 design; no candidate pixels decoded."
+    },
+    {
+      "version": 2,
+      "json_sha256": "fbd358aef373d8f7bbd981261826063168ddb2312f21f2a8abe76a8ea1174a07",
+      "md_sha256": "5345a0c7d2502b1ad54e4bbc26d10c3993831a945c3cc6ff1dd996f328df4a07",
+      "reason": "Root disclosed deterministic exact12 shared-band versus10 local-fallback routing; causal interpretation narrowed before any new Sheet candidate decode."
+    }
+  ]
+}

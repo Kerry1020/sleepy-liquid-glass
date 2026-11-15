@@ -1,0 +1,24 @@
+{
+  "status": "before-body8-first-rim-analyst-decode",
+  "files": {
+    "panels-alert-body8-20261115/panel_probe_coordinate-light-share_sheet-rest-window.png": "4ad0450ab2997051219ce8c04487da7c551bbccf94fb83a49daa02a8a6a9ff9e",
+    "panels-alert-body8-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png": "9f4186a61bb542122d7a1aebb82c6a01f06fd7069b08363c325e9ae18a56fd97",
+    "panels-alert-body8-20261115/panel_probe_shapes-light-background-screen.png": "6d12cf3118b8e32574898b2aa059de70c0a6c1b5b66225da93ff2eba0d68d62d",
+    "panels-alert-body8-20261115/panel_probe_shapes-light-alert-rest-rejected-display.png": "8e2b85e0281b2ba035ae642e96ca86b0d5845f907134fb8c62d8a0754b54b945",
+    "panels-alert-body8-20261115/panel_probe_shapes-light-background-window.png": "c643291836e46fe7a0867ec94ff8a6a143163e2cc8363c45ef3352bc82298e01",
+    "panels-alert-body8-20261115/panel_probe_shapes-light-alert-rest-window.png": "53c3821ee6a5fa101e61369ca8e092b261c7450e87bbe3f0f17a1a6d43d919c1",
+    "panels-alert-body8-20261115/panel_probe_shapes-light-alert-rest-screen.png": "5a7417092e302f5841c9a5956b4c6f300677ba54f408b1f7aa6cb43951e12cdb",
+    "panels-alert-body8-20261115/panel_probe_coordinate-light-alert-rest-screen.png": "540ff3d85f3401bd89f386ef7e159e1cee825b2ccde933f98da8e036cff3664c",
+    "panels-alert-body8-20261115/panel_probe_coordinate-light-alert-rest-window.png": "fbb3ef9e8052ec43515f52a8ca689131f7e5c4a016c9854a162cd08840b2ae73",
+    "panels-alert-body8-20261115/panel_probe_coordinate-light-background-window.png": "907b7aac6e6677972cbf942004b222a45d8b118ec94215abf5bdcfe4c61799d0",
+    "panels-alert-body8-20261115/panel_probe_coordinate-light-background-screen.png": "b5740f1c99b0b77dc1562697fa8fc3f8f77d573d8c13577a04b5a76de81f5f15",
+    "panels-alert-body8-20261115/panel_probe_shapes-light-share_sheet-rest-window.png": "dd254d82659a4619bcac14f8f08e00b3718287e9c11917d09b0b0b2da8892cec",
+    "panels-alert-body8-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png": "1d1ecb820574eb9e3b4ebb1f63d9bef826157b8db13e042cb015fd1fe4505ab0",
+    "panels-alert-body8-20261115/panel_probe_coordinate-light-alert-rest-rejected-display.png": "76e222436ae48c700de59b861d47360a45c18bd46d34f6a53a245b5e10a602d3",
+    "panels-alert-body8-20261115/matrix.json": "2ba82b32d78bb85b199e467fa525e6d39ce0b4705d82451fc3b87cbbcefe1242",
+    "panels-alert-body8-20261115/capture-plan.json": "c3476253980a0e981e68a95e422304a7e285be45dde031f9176e3383ca325687",
+    "panels-alert-body8-20261115/capture-result.json": "e4996e15b1a83bf87d3e1bdbcd123ca304917fb2227b803291c28b61cec5f82c",
+    "panel-alert-body8-plan.json": "3d84e7bd0d9e7aed3dad595c0b9807d4ba2b87353bfb6efbdb77f93816d1e84a"
+  },
+  "scope": "Unchanged fixed all straight+neutral top/left/right, fixed corner tracks and original foreground unions. body8 vs outlinezero16 isolates blur; this stage cannot require Alert deep pixels zero because body blur intentionally changes. Sheet actualWindow/appscreen strict zero; full-screen system-bar diff separately retained. Next rim candidate will compare against body8 to isolate rim."
+}

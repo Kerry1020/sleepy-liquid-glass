@@ -1,0 +1,182 @@
+[
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_coordinate-light-share_sheet-rest-window.png",
+    "sha256": "4ad0450ab2997051219ce8c04487da7c551bbccf94fb83a49daa02a8a6a9ff9e",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-share_sheet-rest-window.png",
+    "sha256": "4ad0450ab2997051219ce8c04487da7c551bbccf94fb83a49daa02a8a6a9ff9e",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png",
+    "sha256": "9f4186a61bb542122d7a1aebb82c6a01f06fd7069b08363c325e9ae18a56fd97",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png",
+    "sha256": "9a8f090cf5f657f9005ff7d5735f1c0b71eb91cddf765c35e7086363a452287c",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/8F68A4D0-14DC-4E2A-A4B6-67794F2D40EB.png",
+    "sha256": "5cc9e04aae4ff5a8276b85bf63d8bf089833638565b14f82ce32589eeef12e0f",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_coordinate-light-alert-rest-window.png",
+    "sha256": "fbb3ef9e8052ec43515f52a8ca689131f7e5c4a016c9854a162cd08840b2ae73",
+    "size": [
+      658,
+      356
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-alert-rest-window.png",
+    "sha256": "06964fb07f80a2792507507a48da5b5cafda05074daa827554065e5425a3c587",
+    "size": [
+      658,
+      356
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_coordinate-light-alert-rest-screen.png",
+    "sha256": "540ff3d85f3401bd89f386ef7e159e1cee825b2ccde933f98da8e036cff3664c",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115/panel_probe_coordinate-light-alert-rest-screen.png",
+    "sha256": "1a1fdf3ecba637758119df32189958ae77636d5b78e5c8a5e1470967ef82232a",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/5F2FA6A3-1BFF-4023-8E0A-10DCBF5C2BC2.png",
+    "sha256": "904e3c3a5531e1f957c1d53e70ca97e6a441a801819d4e38ee48fed319fed374",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_shapes-light-share_sheet-rest-window.png",
+    "sha256": "dd254d82659a4619bcac14f8f08e00b3718287e9c11917d09b0b0b2da8892cec",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115/panel_probe_shapes-light-share_sheet-rest-window.png",
+    "sha256": "dd254d82659a4619bcac14f8f08e00b3718287e9c11917d09b0b0b2da8892cec",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png",
+    "sha256": "1d1ecb820574eb9e3b4ebb1f63d9bef826157b8db13e042cb015fd1fe4505ab0",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png",
+    "sha256": "4480c956deb23df407610ba7cd0c931e8b3d01966dcd2be005c32cc9f826a68c",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/D7877EDC-B156-4BCF-8306-36EC447D522E.png",
+    "sha256": "708015f01175893a3fff32a2fdd0a7c7292f1db0442c4fc5660d309102b09640",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_shapes-light-alert-rest-window.png",
+    "sha256": "53c3821ee6a5fa101e61369ca8e092b261c7450e87bbe3f0f17a1a6d43d919c1",
+    "size": [
+      658,
+      356
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115/panel_probe_shapes-light-alert-rest-window.png",
+    "sha256": "38fd0263450f3d01eb4d20fd0383dcfdee7797735e6bd90e5d6dfc74c00ee4b2",
+    "size": [
+      658,
+      356
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_shapes-light-alert-rest-screen.png",
+    "sha256": "5a7417092e302f5841c9a5956b4c6f300677ba54f408b1f7aa6cb43951e12cdb",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-20261115/panel_probe_shapes-light-alert-rest-screen.png",
+    "sha256": "1dd1ffb5c110aeea9576860b3226bf17d3d0d2b50e6e0c2511ab5298e1b7cefb",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  },
+  {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/26EDA3DE-BADE-47D2-B16B-53CD93B19564.png",
+    "sha256": "896015f962d54a136cc2cda982c8ea020534c32731d5aec92ef6a50318922563",
+    "size": [
+      750,
+      1334
+    ],
+    "raw_icc_identical": true
+  }
+]

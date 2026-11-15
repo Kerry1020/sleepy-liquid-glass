@@ -1,0 +1,1174 @@
+[
+  {
+    "id": "S01",
+    "shape": "circle",
+    "carrier": "alert",
+    "source_bbox_px": [
+      15,
+      470,
+      100,
+      555
+    ],
+    "fixed_support_px": [
+      0,
+      406.0,
+      163.0,
+      618.0
+    ],
+    "source_color_rgb": [
+      222,
+      40,
+      62
+    ],
+    "source_feature_pixels": 5653,
+    "source_feature_inside_pane_pixels": 1407,
+    "source_feature_clear_in_pane_pixels": 1407,
+    "source_structure_tensor_eigenvalues": [
+      8916816.363927763,
+      16724123.636072237
+    ],
+    "source_structure_tensor_ratio": 0.5331709187257558,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S01",
+    "shape": "circle",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      15,
+      470,
+      100,
+      555
+    ],
+    "fixed_support_px": [
+      0,
+      406.0,
+      163.0,
+      618.0
+    ],
+    "source_color_rgb": [
+      222,
+      40,
+      62
+    ],
+    "source_feature_pixels": 5653,
+    "source_feature_inside_pane_pixels": 0,
+    "source_feature_clear_in_pane_pixels": 0,
+    "source_structure_tensor_eigenvalues": [
+      8916816.363927763,
+      16724123.636072237
+    ],
+    "source_structure_tensor_ratio": 0.5331709187257558,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "fewer_than64_clear_source_feature_pixels",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S02",
+    "shape": "triangle_up",
+    "carrier": "alert",
+    "source_bbox_px": [
+      116,
+      460,
+      221,
+      565
+    ],
+    "fixed_support_px": [
+      52.0,
+      396.0,
+      284.0,
+      628.0
+    ],
+    "source_color_rgb": [
+      30,
+      95,
+      225
+    ],
+    "source_feature_pixels": 5513,
+    "source_feature_inside_pane_pixels": 4000,
+    "source_feature_clear_in_pane_pixels": 3000,
+    "source_structure_tensor_eigenvalues": [
+      12181136.565224249,
+      19073975.43477575
+    ],
+    "source_structure_tensor_ratio": 0.6386259962889305,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "source_shape_overlaps_direct_foreground_union",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "S02 right local transects separately measured"
+  },
+  {
+    "id": "S02",
+    "shape": "triangle_up",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      116,
+      460,
+      221,
+      565
+    ],
+    "fixed_support_px": [
+      52.0,
+      396.0,
+      284.0,
+      628.0
+    ],
+    "source_color_rgb": [
+      30,
+      95,
+      225
+    ],
+    "source_feature_pixels": 5513,
+    "source_feature_inside_pane_pixels": 0,
+    "source_feature_clear_in_pane_pixels": 0,
+    "source_structure_tensor_eigenvalues": [
+      12181136.565224249,
+      19073975.43477575
+    ],
+    "source_structure_tensor_ratio": 0.6386259962889305,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "fewer_than64_clear_source_feature_pixels",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S03",
+    "shape": "pentagon",
+    "carrier": "alert",
+    "source_bbox_px": [
+      532,
+      455,
+      640,
+      553
+    ],
+    "fixed_support_px": [
+      466.0,
+      391.0,
+      706.0,
+      627.0
+    ],
+    "source_color_rgb": [
+      25,
+      173,
+      92
+    ],
+    "source_feature_pixels": 7267,
+    "source_feature_inside_pane_pixels": 2998,
+    "source_feature_clear_in_pane_pixels": 2998,
+    "source_structure_tensor_eigenvalues": [
+      12480243.83723553,
+      22196744.16276447
+    ],
+    "source_structure_tensor_ratio": 0.5622556058546377,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S03",
+    "shape": "pentagon",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      532,
+      455,
+      640,
+      553
+    ],
+    "fixed_support_px": [
+      466.0,
+      391.0,
+      706.0,
+      627.0
+    ],
+    "source_color_rgb": [
+      25,
+      173,
+      92
+    ],
+    "source_feature_pixels": 7267,
+    "source_feature_inside_pane_pixels": 0,
+    "source_feature_clear_in_pane_pixels": 0,
+    "source_structure_tensor_eigenvalues": [
+      12480243.83723553,
+      22196744.16276447
+    ],
+    "source_structure_tensor_ratio": 0.5622556058546377,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "fewer_than64_clear_source_feature_pixels",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S04",
+    "shape": "diamond",
+    "carrier": "alert",
+    "source_bbox_px": [
+      654,
+      462,
+      743,
+      563
+    ],
+    "fixed_support_px": [
+      590.0,
+      398.0,
+      750,
+      626.0
+    ],
+    "source_color_rgb": [
+      235,
+      119,
+      24
+    ],
+    "source_feature_pixels": 4501,
+    "source_feature_inside_pane_pixels": 855,
+    "source_feature_clear_in_pane_pixels": 855,
+    "source_structure_tensor_eigenvalues": [
+      9609462.580469973,
+      17891132.419530027
+    ],
+    "source_structure_tensor_ratio": 0.537107565644098,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S04",
+    "shape": "diamond",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      654,
+      462,
+      743,
+      563
+    ],
+    "fixed_support_px": [
+      590.0,
+      398.0,
+      750,
+      626.0
+    ],
+    "source_color_rgb": [
+      235,
+      119,
+      24
+    ],
+    "source_feature_pixels": 4501,
+    "source_feature_inside_pane_pixels": 0,
+    "source_feature_clear_in_pane_pixels": 0,
+    "source_structure_tensor_eigenvalues": [
+      9609462.580469973,
+      17891132.419530027
+    ],
+    "source_structure_tensor_ratio": 0.537107565644098,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "fewer_than64_clear_source_feature_pixels",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S05",
+    "shape": "bowtie",
+    "carrier": "alert",
+    "source_bbox_px": [
+      4,
+      593,
+      109,
+      696
+    ],
+    "fixed_support_px": [
+      0,
+      529.0,
+      172.0,
+      759.0
+    ],
+    "source_color_rgb": [
+      156,
+      48,
+      211
+    ],
+    "source_feature_pixels": 5509,
+    "source_feature_inside_pane_pixels": 2758,
+    "source_feature_clear_in_pane_pixels": 2758,
+    "source_structure_tensor_eigenvalues": [
+      9120992.864425005,
+      16372035.135574995
+    ],
+    "source_structure_tensor_ratio": 0.557108068049884,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S05",
+    "shape": "bowtie",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      4,
+      593,
+      109,
+      696
+    ],
+    "fixed_support_px": [
+      0,
+      529.0,
+      172.0,
+      759.0
+    ],
+    "source_color_rgb": [
+      156,
+      48,
+      211
+    ],
+    "source_feature_pixels": 5509,
+    "source_feature_inside_pane_pixels": 3005,
+    "source_feature_clear_in_pane_pixels": 3005,
+    "source_structure_tensor_eigenvalues": [
+      9120992.864425005,
+      16372035.135574995
+    ],
+    "source_structure_tensor_ratio": 0.557108068049884,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S06",
+    "shape": "rotated_rectangle",
+    "carrier": "alert",
+    "source_bbox_px": [
+      654,
+      588,
+      747,
+      699
+    ],
+    "fixed_support_px": [
+      590.0,
+      524.0,
+      750,
+      762.0
+    ],
+    "source_color_rgb": [
+      20,
+      169,
+      210
+    ],
+    "source_feature_pixels": 6077,
+    "source_feature_inside_pane_pixels": 2526,
+    "source_feature_clear_in_pane_pixels": 2526,
+    "source_structure_tensor_eigenvalues": [
+      8951572.338408593,
+      17723296.661591407
+    ],
+    "source_structure_tensor_ratio": 0.5050737743282132,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S06",
+    "shape": "rotated_rectangle",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      654,
+      588,
+      747,
+      699
+    ],
+    "fixed_support_px": [
+      590.0,
+      524.0,
+      750,
+      762.0
+    ],
+    "source_color_rgb": [
+      20,
+      169,
+      210
+    ],
+    "source_feature_pixels": 6077,
+    "source_feature_inside_pane_pixels": 3590,
+    "source_feature_clear_in_pane_pixels": 3590,
+    "source_structure_tensor_eigenvalues": [
+      8951572.338408593,
+      17723296.661591407
+    ],
+    "source_structure_tensor_ratio": 0.5050737743282132,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S07",
+    "shape": "cross",
+    "carrier": "alert",
+    "source_bbox_px": [
+      118,
+      596,
+      227,
+      705
+    ],
+    "fixed_support_px": [
+      54.0,
+      532.0,
+      290.0,
+      768.0
+    ],
+    "source_color_rgb": [
+      215,
+      43,
+      154
+    ],
+    "source_feature_pixels": 6840,
+    "source_feature_inside_pane_pixels": 6840,
+    "source_feature_clear_in_pane_pixels": 570,
+    "source_structure_tensor_eigenvalues": [
+      9953630.027590701,
+      15044402.972409299
+    ],
+    "source_structure_tensor_ratio": 0.6616168182841934,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_overlaps_direct_foreground_union",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S07",
+    "shape": "cross",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      118,
+      596,
+      227,
+      705
+    ],
+    "fixed_support_px": [
+      54.0,
+      532.0,
+      290.0,
+      768.0
+    ],
+    "source_color_rgb": [
+      215,
+      43,
+      154
+    ],
+    "source_feature_pixels": 6840,
+    "source_feature_inside_pane_pixels": 5074,
+    "source_feature_clear_in_pane_pixels": 5074,
+    "source_structure_tensor_eigenvalues": [
+      9953630.027590701,
+      15044402.972409299
+    ],
+    "source_structure_tensor_ratio": 0.6616168182841934,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S08",
+    "shape": "ellipse_horizontal",
+    "carrier": "alert",
+    "source_bbox_px": [
+      526,
+      614,
+      647,
+      695
+    ],
+    "fixed_support_px": [
+      462.0,
+      550.0,
+      710.0,
+      758.0
+    ],
+    "source_color_rgb": [
+      118,
+      63,
+      30
+    ],
+    "source_feature_pixels": 7685,
+    "source_feature_inside_pane_pixels": 7685,
+    "source_feature_clear_in_pane_pixels": 218,
+    "source_structure_tensor_eigenvalues": [
+      9340988.534514528,
+      18310682.465485472
+    ],
+    "source_structure_tensor_ratio": 0.5101387428962151,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_overlaps_direct_foreground_union",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S08",
+    "shape": "ellipse_horizontal",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      526,
+      614,
+      647,
+      695
+    ],
+    "fixed_support_px": [
+      462.0,
+      550.0,
+      710.0,
+      758.0
+    ],
+    "source_color_rgb": [
+      118,
+      63,
+      30
+    ],
+    "source_feature_pixels": 7685,
+    "source_feature_inside_pane_pixels": 6108,
+    "source_feature_clear_in_pane_pixels": 6108,
+    "source_structure_tensor_eigenvalues": [
+      9340988.534514528,
+      18310682.465485472
+    ],
+    "source_structure_tensor_ratio": 0.5101387428962151,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S09",
+    "shape": "hexagon",
+    "carrier": "alert",
+    "source_bbox_px": [
+      113,
+      809,
+      222,
+      901
+    ],
+    "fixed_support_px": [
+      49.0,
+      739.0,
+      285.0,
+      971.0
+    ],
+    "source_color_rgb": [
+      10,
+      136,
+      140
+    ],
+    "source_feature_pixels": 7540,
+    "source_feature_inside_pane_pixels": 4196,
+    "source_feature_clear_in_pane_pixels": 2697,
+    "source_structure_tensor_eigenvalues": [
+      4983671.376538191,
+      8891760.623461809
+    ],
+    "source_structure_tensor_ratio": 0.5604819548772231,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "source_shape_overlaps_direct_foreground_union",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S09",
+    "shape": "hexagon",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      113,
+      809,
+      222,
+      901
+    ],
+    "fixed_support_px": [
+      49.0,
+      739.0,
+      285.0,
+      971.0
+    ],
+    "source_color_rgb": [
+      10,
+      136,
+      140
+    ],
+    "source_feature_pixels": 7540,
+    "source_feature_inside_pane_pixels": 7540,
+    "source_feature_clear_in_pane_pixels": 0,
+    "source_structure_tensor_eigenvalues": [
+      4983671.376538191,
+      8891760.623461809
+    ],
+    "source_structure_tensor_ratio": 0.5604819548772231,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_overlaps_direct_foreground_union",
+      "fewer_than64_clear_source_feature_pixels",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S10",
+    "shape": "triangle_down",
+    "carrier": "alert",
+    "source_bbox_px": [
+      531,
+      803,
+      644,
+      912
+    ],
+    "fixed_support_px": [
+      467.0,
+      739.0,
+      707.0,
+      975.0
+    ],
+    "source_color_rgb": [
+      168,
+      153,
+      15
+    ],
+    "source_feature_pixels": 6213,
+    "source_feature_inside_pane_pixels": 4730,
+    "source_feature_clear_in_pane_pixels": 1958,
+    "source_structure_tensor_eigenvalues": [
+      4909195.764369521,
+      8312236.235630479
+    ],
+    "source_structure_tensor_ratio": 0.5905986818957584,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "source_shape_overlaps_direct_foreground_union",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S10",
+    "shape": "triangle_down",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      531,
+      803,
+      644,
+      912
+    ],
+    "fixed_support_px": [
+      467.0,
+      739.0,
+      707.0,
+      975.0
+    ],
+    "source_color_rgb": [
+      168,
+      153,
+      15
+    ],
+    "source_feature_pixels": 6213,
+    "source_feature_inside_pane_pixels": 6213,
+    "source_feature_clear_in_pane_pixels": 0,
+    "source_structure_tensor_eigenvalues": [
+      4909195.764369521,
+      8312236.235630479
+    ],
+    "source_structure_tensor_ratio": 0.5905986818957584,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_overlaps_direct_foreground_union",
+      "fewer_than64_clear_source_feature_pixels",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S11",
+    "shape": "L_shape",
+    "carrier": "alert",
+    "source_bbox_px": [
+      6,
+      980,
+      99,
+      1093
+    ],
+    "fixed_support_px": [
+      0,
+      916.0,
+      162.0,
+      1156.0
+    ],
+    "source_color_rgb": [
+      60,
+      47,
+      171
+    ],
+    "source_feature_pixels": 6589,
+    "source_feature_inside_pane_pixels": 0,
+    "source_feature_clear_in_pane_pixels": 0,
+    "source_structure_tensor_eigenvalues": [
+      6381546.6854871,
+      7755821.3145129
+    ],
+    "source_structure_tensor_ratio": 0.8228073374441698,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "fewer_than64_clear_source_feature_pixels",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S11",
+    "shape": "L_shape",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      6,
+      980,
+      99,
+      1093
+    ],
+    "fixed_support_px": [
+      0,
+      916.0,
+      162.0,
+      1156.0
+    ],
+    "source_color_rgb": [
+      60,
+      47,
+      171
+    ],
+    "source_feature_pixels": 6589,
+    "source_feature_inside_pane_pixels": 5459,
+    "source_feature_clear_in_pane_pixels": 3696,
+    "source_structure_tensor_eigenvalues": [
+      6381546.6854871,
+      7755821.3145129
+    ],
+    "source_structure_tensor_ratio": 0.8228073374441698,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "source_shape_overlaps_direct_foreground_union",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S12",
+    "shape": "capsule_vertical",
+    "carrier": "alert",
+    "source_bbox_px": [
+      657,
+      976,
+      742,
+      1101
+    ],
+    "fixed_support_px": [
+      593.0,
+      912.0,
+      750,
+      1164.0
+    ],
+    "source_color_rgb": [
+      175,
+      49,
+      34
+    ],
+    "source_feature_pixels": 9053,
+    "source_feature_inside_pane_pixels": 0,
+    "source_feature_clear_in_pane_pixels": 0,
+    "source_structure_tensor_eigenvalues": [
+      5924414.144220121,
+      11214105.855779879
+    ],
+    "source_structure_tensor_ratio": 0.528300180184817,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "fewer_than64_clear_source_feature_pixels",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S12",
+    "shape": "capsule_vertical",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      657,
+      976,
+      742,
+      1101
+    ],
+    "fixed_support_px": [
+      593.0,
+      912.0,
+      750,
+      1164.0
+    ],
+    "source_color_rgb": [
+      175,
+      49,
+      34
+    ],
+    "source_feature_pixels": 9053,
+    "source_feature_inside_pane_pixels": 8465,
+    "source_feature_clear_in_pane_pixels": 4905,
+    "source_structure_tensor_eigenvalues": [
+      5924414.144220121,
+      11214105.855779879
+    ],
+    "source_structure_tensor_ratio": 0.528300180184817,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "source_shape_overlaps_direct_foreground_union",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S13",
+    "shape": "arrow_up",
+    "carrier": "alert",
+    "source_bbox_px": [
+      6,
+      1171,
+      107,
+      1288
+    ],
+    "fixed_support_px": [
+      0,
+      1107.0,
+      170.0,
+      1334
+    ],
+    "source_color_rgb": [
+      64,
+      137,
+      20
+    ],
+    "source_feature_pixels": 5029,
+    "source_feature_inside_pane_pixels": 0,
+    "source_feature_clear_in_pane_pixels": 0,
+    "source_structure_tensor_eigenvalues": [
+      9478597.563164003,
+      15645555.436835997
+    ],
+    "source_structure_tensor_ratio": 0.6058332413592381,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "fewer_than64_clear_source_feature_pixels",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S13",
+    "shape": "arrow_up",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      6,
+      1171,
+      107,
+      1288
+    ],
+    "fixed_support_px": [
+      0,
+      1107.0,
+      170.0,
+      1334
+    ],
+    "source_color_rgb": [
+      64,
+      137,
+      20
+    ],
+    "source_feature_pixels": 5029,
+    "source_feature_inside_pane_pixels": 4974,
+    "source_feature_clear_in_pane_pixels": 3553,
+    "source_structure_tensor_eigenvalues": [
+      9478597.563164003,
+      15645555.436835997
+    ],
+    "source_structure_tensor_ratio": 0.6058332413592381,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "source_shape_overlaps_direct_foreground_union",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S14",
+    "shape": "crescent",
+    "carrier": "alert",
+    "source_bbox_px": [
+      654,
+      1176,
+      722,
+      1287
+    ],
+    "fixed_support_px": [
+      590.0,
+      1112.0,
+      750,
+      1334
+    ],
+    "source_color_rgb": [
+      218,
+      72,
+      17
+    ],
+    "source_feature_pixels": 4006,
+    "source_feature_inside_pane_pixels": 0,
+    "source_feature_clear_in_pane_pixels": 0,
+    "source_structure_tensor_eigenvalues": [
+      8328920.758160599,
+      15525858.241839401
+    ],
+    "source_structure_tensor_ratio": 0.5364547729616422,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "fewer_than64_clear_source_feature_pixels",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S14",
+    "shape": "crescent",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      654,
+      1176,
+      722,
+      1287
+    ],
+    "fixed_support_px": [
+      590.0,
+      1112.0,
+      750,
+      1334
+    ],
+    "source_color_rgb": [
+      218,
+      72,
+      17
+    ],
+    "source_feature_pixels": 4006,
+    "source_feature_inside_pane_pixels": 4006,
+    "source_feature_clear_in_pane_pixels": 2171,
+    "source_structure_tensor_eigenvalues": [
+      8328920.758160599,
+      15525858.241839401
+    ],
+    "source_structure_tensor_ratio": 0.5364547729616422,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_overlaps_direct_foreground_union",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S15",
+    "shape": "trapezoid",
+    "carrier": "alert",
+    "source_bbox_px": [
+      113,
+      1234,
+      226,
+      1329
+    ],
+    "fixed_support_px": [
+      49.0,
+      1170.0,
+      289.0,
+      1334
+    ],
+    "source_color_rgb": [
+      111,
+      35,
+      137
+    ],
+    "source_feature_pixels": 8075,
+    "source_feature_inside_pane_pixels": 0,
+    "source_feature_clear_in_pane_pixels": 0,
+    "source_structure_tensor_eigenvalues": [
+      10101329.052946668,
+      12711294.947053332
+    ],
+    "source_structure_tensor_ratio": 0.7946734848826954,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "fewer_than64_clear_source_feature_pixels",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S15",
+    "shape": "trapezoid",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      113,
+      1234,
+      226,
+      1329
+    ],
+    "fixed_support_px": [
+      49.0,
+      1170.0,
+      289.0,
+      1334
+    ],
+    "source_color_rgb": [
+      111,
+      35,
+      137
+    ],
+    "source_feature_pixels": 8075,
+    "source_feature_inside_pane_pixels": 6864,
+    "source_feature_clear_in_pane_pixels": 6392,
+    "source_structure_tensor_eigenvalues": [
+      10101329.052946668,
+      12711294.947053332
+    ],
+    "source_structure_tensor_ratio": 0.7946734848826954,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "source_shape_overlaps_direct_foreground_union",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S16",
+    "shape": "parallelogram",
+    "carrier": "alert",
+    "source_bbox_px": [
+      524,
+      1233,
+      645,
+      1330
+    ],
+    "fixed_support_px": [
+      460.0,
+      1169.0,
+      708.0,
+      1334
+    ],
+    "source_color_rgb": [
+      30,
+      105,
+      154
+    ],
+    "source_feature_pixels": 8533,
+    "source_feature_inside_pane_pixels": 0,
+    "source_feature_clear_in_pane_pixels": 0,
+    "source_structure_tensor_eigenvalues": [
+      9692108.953486543,
+      17693858.046513457
+    ],
+    "source_structure_tensor_ratio": 0.547766853786665,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "fewer_than64_clear_source_feature_pixels",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  },
+  {
+    "id": "S16",
+    "shape": "parallelogram",
+    "carrier": "sheet",
+    "source_bbox_px": [
+      524,
+      1233,
+      645,
+      1330
+    ],
+    "fixed_support_px": [
+      460.0,
+      1169.0,
+      708.0,
+      1334
+    ],
+    "source_color_rgb": [
+      30,
+      105,
+      154
+    ],
+    "source_feature_pixels": 8533,
+    "source_feature_inside_pane_pixels": 7477,
+    "source_feature_clear_in_pane_pixels": 6685,
+    "source_structure_tensor_eigenvalues": [
+      9692108.953486543,
+      17693858.046513457
+    ],
+    "source_structure_tensor_ratio": 0.547766853786665,
+    "complete_material_centroid_geometry_possible": false,
+    "complete_centroid_not_attempted_reasons": [
+      "source_shape_intrinsically_pane_clipped_or_outside",
+      "source_shape_overlaps_direct_foreground_union",
+      "observed_full_connected_support95percent_mass_and_ID_separation_not_established"
+    ],
+    "local_contour_scope": "not measured as a unique local contour in this pass; geometry audit does not assert invisibility"
+  }
+]

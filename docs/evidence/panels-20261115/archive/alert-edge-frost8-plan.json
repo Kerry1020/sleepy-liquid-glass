@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "candidate": "alert-edge-frost8",
+  "split": "historical-calibration",
+  "hypothesis": "Alert native side RGB has weaker chroma than current at a broadly similar modulo-period phase. Existing rimBlur0 has no edge-specific frost. Test only +8dp edge frost, preserving refraction/contour/tint/rim/scrim and Sheet. This is an optical response candidate, not a physical thickness measurement.",
+  "changed_source": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
+  "changed_source_sha256": "6a6fc0170131525e6f4d7feaf0efc9f0f70edbd7224e789ed9c7b6887e310a23",
+  "baseline_capture": "panels-current-baseline-20261115",
+  "surfaces": [
+    "share_sheet",
+    "alert"
+  ],
+  "backgrounds": [
+    "fine_grid",
+    "color_stripes",
+    "tonal_blocks",
+    "synthetic_landscape"
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "states": [
+    "rest"
+  ],
+  "count": 16,
+  "decision": "Assess all8Alert edgeRGB, first/second derivatives, body, and corners against original native. All8Sheet complete app windows raw/ICC must remain bit identical; alert deep body and exterior remain unchanged subject to recorded separate-window systems. Keep every regression; do not accept solely pooled mean. No heldout decode. Revert candidate if not supported.",
+  "source_archive": "source-before-panel-candidates/manifest.json"
+}

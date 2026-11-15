@@ -1,0 +1,3730 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "10339ACE-907A-4848-ABD4-9335863644C7.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-alert-clean-before_0_AAD82108-BF29-4E08-A050-2D07890FA294.png",
+      "timestamp": 1794722465.06
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "A86D39D4-5A99-48FB-88C5-B77AD693BE52.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-alert-clean-before-accessibility_0_9078E723-8BBD-40E6-9C24-511923D9A224.txt",
+      "timestamp": 1794722465.13
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 4,
+        "exists": true,
+        "identifier": "",
+        "isHittable": true,
+        "label": "",
+        "screenFramePt": {
+          "h": 667,
+          "w": 375,
+          "x": 0,
+          "y": 0
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "none",
+      "externalInputFile": "panel_probe_coordinate.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_coordinate.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "alert"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FC7E501C-EAAB-4DC6-890B-B8031C675892"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_coordinate.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "alert",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_coordinate",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-alert: clean-before",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "clean-before",
+      "presentationControls": [],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FC7E501C-EAAB-4DC6-890B-B8031C675892",
+      "requestedAtUnixSeconds": 1794722464.955955,
+      "requestedCarrier": "alert",
+      "requestedTheme": "light",
+      "screenFramePt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_coordinate.png",
+        "id": "panel_probe_coordinate",
+        "role": "selected_calibration",
+        "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "",
+      "targetLabel": "",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 3.6466939449310303,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "windowEffectiveInterfaceStyle": 1,
+      "t": 0.4026972915744409,
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "viewRectInWindowPt": {
+            "y": 0,
+            "x": 0,
+            "w": 375,
+            "h": 667
+          },
+          "presentationStyle": 2,
+          "isBeingDismissed": false,
+          "class": "ReferenceViewController",
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingPresented": false
+        }
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "rest",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "9F818AFD-EB74-4C7F-8372-19E4E838B8EF.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-alert-rest_0_A3832F9C-898D-4308-B6B5-56CBF4988E58.png",
+      "timestamp": 1794722470.497
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "A32AA6C6-58C0-45E9-BAA3-ACA421AD371A.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-alert-rest-accessibility_0_02015431-CEE8-4498-BDD9-9EFEE7B2B825.txt",
+      "timestamp": 1794722470.613
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 7,
+        "exists": true,
+        "identifier": "",
+        "isHittable": true,
+        "label": "Native Alert",
+        "screenFramePt": {
+          "h": 172,
+          "w": 320,
+          "x": 27.5,
+          "y": 257.5
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "alert",
+      "externalInputFile": "panel_probe_coordinate.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_coordinate.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "alert"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FC7E501C-EAAB-4DC6-890B-B8031C675892"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_coordinate.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "alert",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_coordinate",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-alert: rest",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "rest",
+      "presentationControls": [
+        {
+          "elementType": 9,
+          "exists": true,
+          "identifier": "",
+          "isHittable": true,
+          "label": "Confirm",
+          "screenFramePt": {
+            "h": 48,
+            "w": 140,
+            "x": 191.5,
+            "y": 365.5
+          },
+          "value": ""
+        },
+        {
+          "elementType": 9,
+          "exists": true,
+          "identifier": "",
+          "isHittable": true,
+          "label": "Cancel",
+          "screenFramePt": {
+            "h": 48,
+            "w": 140,
+            "x": 43.5,
+            "y": 365.5
+          },
+          "value": ""
+        }
+      ],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FC7E501C-EAAB-4DC6-890B-B8031C675892",
+      "repeatScope": "same presentation capture stability only; not independent statistical samples",
+      "repeatSpacingMinimumSeconds": 0.25,
+      "requestedAtUnixSeconds": 1794722470.44168,
+      "requestedCarrier": "alert",
+      "requestedTheme": "light",
+      "sampleIndex": 0,
+      "screenFramePt": {
+        "h": 172,
+        "w": 320,
+        "x": 27.5,
+        "y": 257.5
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_coordinate.png",
+        "id": "panel_probe_coordinate",
+        "role": "selected_calibration",
+        "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "",
+      "targetLabel": "Native Alert",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 9.083693981170654,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "publicControllers": [
+        {
+          "viewRectInWindowPt": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 667
+          },
+          "presentationStyle": 2,
+          "effectiveInterfaceStyle": 1,
+          "class": "ReferenceViewController",
+          "isBeingPresented": false,
+          "isBeingDismissed": false,
+          "viewEffectiveInterfaceStyle": 1
+        },
+        {
+          "effectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "x": 27.5,
+            "y": 257.5,
+            "w": 320,
+            "h": 172
+          },
+          "presentationStyle": 4,
+          "isBeingPresented": false,
+          "isBeingDismissed": false,
+          "viewEffectiveInterfaceStyle": 1,
+          "class": "PlatformAlertController"
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1,
+      "t": 4.6542565416311845
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "rest-repeat",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "889BF0CD-4F3D-46C8-82AF-43CB1C4995E6.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-alert-rest-repeat_0_F20DEE1D-E130-4987-B81D-6A73A4DFB35A.png",
+      "timestamp": 1794722471.324
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "4565E6E4-F1A5-42B7-99B2-072B1DE125D4.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-alert-rest-repeat-accessibility_0_C5BD9408-987C-48CF-A5D9-0E827DEC8F30.txt",
+      "timestamp": 1794722471.449
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 7,
+        "exists": true,
+        "identifier": "",
+        "isHittable": true,
+        "label": "Native Alert",
+        "screenFramePt": {
+          "h": 172,
+          "w": 320,
+          "x": 27.5,
+          "y": 257.5
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "alert",
+      "externalInputFile": "panel_probe_coordinate.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_coordinate.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "alert"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FC7E501C-EAAB-4DC6-890B-B8031C675892"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_coordinate.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "alert",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_coordinate",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-alert: rest",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "rest",
+      "presentationControls": [
+        {
+          "elementType": 9,
+          "exists": true,
+          "identifier": "",
+          "isHittable": true,
+          "label": "Confirm",
+          "screenFramePt": {
+            "h": 48,
+            "w": 140,
+            "x": 191.5,
+            "y": 365.5
+          },
+          "value": ""
+        },
+        {
+          "elementType": 9,
+          "exists": true,
+          "identifier": "",
+          "isHittable": true,
+          "label": "Cancel",
+          "screenFramePt": {
+            "h": 48,
+            "w": 140,
+            "x": 43.5,
+            "y": 365.5
+          },
+          "value": ""
+        }
+      ],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FC7E501C-EAAB-4DC6-890B-B8031C675892",
+      "repeatScope": "same presentation capture stability only; not independent statistical samples",
+      "repeatSpacingMinimumSeconds": 0.25,
+      "requestedAtUnixSeconds": 1794722471.258255,
+      "requestedCarrier": "alert",
+      "requestedTheme": "light",
+      "sampleIndex": 1,
+      "screenFramePt": {
+        "h": 172,
+        "w": 320,
+        "x": 27.5,
+        "y": 257.5
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_coordinate.png",
+        "id": "panel_probe_coordinate",
+        "role": "selected_calibration",
+        "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "",
+      "targetLabel": "Native Alert",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 9.910693883895874,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "publicControllers": [
+        {
+          "viewRectInWindowPt": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 667
+          },
+          "presentationStyle": 2,
+          "effectiveInterfaceStyle": 1,
+          "class": "ReferenceViewController",
+          "isBeingPresented": false,
+          "isBeingDismissed": false,
+          "viewEffectiveInterfaceStyle": 1
+        },
+        {
+          "effectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "x": 27.5,
+            "y": 257.5,
+            "w": 320,
+            "h": 172
+          },
+          "presentationStyle": 4,
+          "isBeingPresented": false,
+          "isBeingDismissed": false,
+          "viewEffectiveInterfaceStyle": 1,
+          "class": "PlatformAlertController"
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1,
+      "t": 4.6542565416311845
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "F6808FFF-8C0F-494D-B274-F65CD900C800.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-alert-dismiss-after_0_A0FFCE5B-D771-4FD0-A57F-64B50775F3A7.png",
+      "timestamp": 1794722474.56
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "79DF5FFF-9F6D-4DB5-87DC-D6BAC3A19381.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-alert-dismiss-after-accessibility_0_8EF491B2-29E5-4032-8984-9C1AD4548012.txt",
+      "timestamp": 1794722474.623
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 4,
+        "exists": true,
+        "identifier": "",
+        "isHittable": true,
+        "label": "",
+        "screenFramePt": {
+          "h": 667,
+          "w": 375,
+          "x": 0,
+          "y": 0
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "none",
+      "externalInputFile": "panel_probe_coordinate.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_coordinate.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "alert"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FC7E501C-EAAB-4DC6-890B-B8031C675892"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_coordinate.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "alert",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_coordinate",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-alert: dismiss-after",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "dismiss-after",
+      "presentationControls": [],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FC7E501C-EAAB-4DC6-890B-B8031C675892",
+      "requestedAtUnixSeconds": 1794722474.512933,
+      "requestedCarrier": "alert",
+      "requestedTheme": "light",
+      "screenFramePt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_coordinate.png",
+        "id": "panel_probe_coordinate",
+        "role": "selected_calibration",
+        "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "",
+      "targetLabel": "",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 13.14669394493103,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "t": 11.153878291603178,
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "publicControllers": [
+        {
+          "effectiveInterfaceStyle": 1,
+          "viewRectInWindowPt": {
+            "x": 0,
+            "y": 0,
+            "w": 375,
+            "h": 667
+          },
+          "presentationStyle": 2,
+          "isBeingPresented": false,
+          "isBeingDismissed": false,
+          "viewEffectiveInterfaceStyle": 1,
+          "class": "ReferenceViewController"
+        }
+      ],
+      "event": "external-presentation-context",
+      "windowEffectiveInterfaceStyle": 1
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "BF012EDD-0B6B-4C2C-953D-B3A7E5C89672.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-sheet-clean-before_0_01525C1A-0305-49F3-8E46-2A3D17262D7A.png",
+      "timestamp": 1794722481.005
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "B048F2A6-FD72-478E-8743-EB41E40B25C9.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-sheet-clean-before-accessibility_0_3AF8C03D-C86E-406F-B704-C318D637A183.txt",
+      "timestamp": 1794722481.074
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 4,
+        "exists": true,
+        "identifier": "",
+        "isHittable": true,
+        "label": "",
+        "screenFramePt": {
+          "h": 667,
+          "w": 375,
+          "x": 0,
+          "y": 0
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "none",
+      "externalInputFile": "panel_probe_coordinate.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_coordinate.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "sheet"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FAFEC7CE-8C36-46C5-8DEB-5790AC7ED88D"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_coordinate.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "sheet",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_coordinate",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-sheet: clean-before",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "clean-before",
+      "presentationControls": [],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FAFEC7CE-8C36-46C5-8DEB-5790AC7ED88D",
+      "requestedAtUnixSeconds": 1794722480.9475741,
+      "requestedCarrier": "sheet",
+      "requestedTheme": "light",
+      "screenFramePt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_coordinate.png",
+        "id": "panel_probe_coordinate",
+        "role": "selected_calibration",
+        "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "",
+      "targetLabel": "",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 3.4714622497558594,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "t": 0.28862312505953014,
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingDismissed": false,
+          "isBeingPresented": false,
+          "viewRectInWindowPt": {
+            "w": 375,
+            "x": 0,
+            "h": 667,
+            "y": 0
+          },
+          "presentationStyle": 2,
+          "class": "ReferenceViewController"
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1,
+      "scope": "public traits/geometry only; native material adaptation may differ"
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "rest",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "80F13C1A-56F3-402C-AC0C-DD37F2AAB2A8.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-sheet-rest_0_821340DC-2E9B-4469-B09B-1DD5079C25C4.png",
+      "timestamp": 1794722485.451
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "90599CED-3E6B-4267-8680-AAFBBE5A35A2.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-sheet-rest-accessibility_0_72F5E2AE-EA48-46A8-9C4A-631D1FC1DAA0.txt",
+      "timestamp": 1794722485.534
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 48,
+        "exists": true,
+        "identifier": "sheet-title",
+        "isHittable": true,
+        "label": "Native Sheet",
+        "screenFramePt": {
+          "h": 25.369333333333373,
+          "w": 116.31600000000003,
+          "x": 129.34199999999998,
+          "y": 375.1506666666667
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "sheet",
+      "externalInputFile": "panel_probe_coordinate.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_coordinate.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "sheet"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FAFEC7CE-8C36-46C5-8DEB-5790AC7ED88D"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_coordinate.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "sheet",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_coordinate",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-sheet: rest",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "rest",
+      "presentationControls": [
+        {
+          "elementType": 48,
+          "exists": true,
+          "identifier": "sheet-title",
+          "isHittable": true,
+          "label": "Native Sheet",
+          "screenFramePt": {
+            "h": 25.369333333333373,
+            "w": 116.31600000000003,
+            "x": 129.34199999999998,
+            "y": 375.1506666666667
+          },
+          "value": ""
+        },
+        {
+          "elementType": 9,
+          "exists": true,
+          "identifier": "dismiss-sheet",
+          "isHittable": true,
+          "label": "Done",
+          "screenFramePt": {
+            "h": 33.02800000000002,
+            "w": 61.74800000000002,
+            "x": 156.86533333333333,
+            "y": 568.532
+          },
+          "value": ""
+        }
+      ],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FAFEC7CE-8C36-46C5-8DEB-5790AC7ED88D",
+      "repeatScope": "same presentation capture stability only; not independent statistical samples",
+      "repeatSpacingMinimumSeconds": 0.25,
+      "requestedAtUnixSeconds": 1794722485.383187,
+      "requestedCarrier": "sheet",
+      "requestedTheme": "light",
+      "sampleIndex": 0,
+      "screenFramePt": {
+        "h": 25.369333333333373,
+        "w": 116.31600000000003,
+        "x": 129.34199999999998,
+        "y": 375.1506666666667
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_coordinate.png",
+        "id": "panel_probe_coordinate",
+        "role": "selected_calibration",
+        "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "sheet-title",
+      "targetLabel": "Native Sheet",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 7.917462110519409,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "class": "ReferenceViewController",
+          "effectiveInterfaceStyle": 1,
+          "presentationStyle": 2,
+          "viewRectInWindowPt": {
+            "w": 375,
+            "y": 0,
+            "x": 0,
+            "h": 667
+          },
+          "isBeingDismissed": false,
+          "isBeingPresented": false,
+          "viewEffectiveInterfaceStyle": 1
+        },
+        {
+          "isBeingDismissed": false,
+          "viewRectInWindowPt": {
+            "w": 359,
+            "y": 317.71066666666667,
+            "x": 8,
+            "h": 341.28933333333333
+          },
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "presentationStyle": 2,
+          "isBeingPresented": false,
+          "class": "PresentationHostingController<AnyView>"
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1,
+      "t": 4.540114750037901,
+      "scope": "public traits/geometry only; native material adaptation may differ"
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "rest-repeat",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "15E9760E-380F-4DF1-A3F3-23F6A5DB096A.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-sheet-rest-repeat_0_379EAFCA-67FB-4DB8-9A32-DD992BA19D05.png",
+      "timestamp": 1794722486.322
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "0D18EEF1-E667-49AC-8A21-6286D5DD2908.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-sheet-rest-repeat-accessibility_0_C1021936-C4D8-4A0E-ABC2-D292C9598929.txt",
+      "timestamp": 1794722486.424
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 48,
+        "exists": true,
+        "identifier": "sheet-title",
+        "isHittable": true,
+        "label": "Native Sheet",
+        "screenFramePt": {
+          "h": 25.369333333333373,
+          "w": 116.31600000000003,
+          "x": 129.34199999999998,
+          "y": 375.1506666666667
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "sheet",
+      "externalInputFile": "panel_probe_coordinate.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_coordinate.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "sheet"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FAFEC7CE-8C36-46C5-8DEB-5790AC7ED88D"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_coordinate.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "sheet",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_coordinate",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-sheet: rest",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "rest",
+      "presentationControls": [
+        {
+          "elementType": 48,
+          "exists": true,
+          "identifier": "sheet-title",
+          "isHittable": true,
+          "label": "Native Sheet",
+          "screenFramePt": {
+            "h": 25.369333333333373,
+            "w": 116.31600000000003,
+            "x": 129.34199999999998,
+            "y": 375.1506666666667
+          },
+          "value": ""
+        },
+        {
+          "elementType": 9,
+          "exists": true,
+          "identifier": "dismiss-sheet",
+          "isHittable": true,
+          "label": "Done",
+          "screenFramePt": {
+            "h": 33.02800000000002,
+            "w": 61.74800000000002,
+            "x": 156.86533333333333,
+            "y": 568.532
+          },
+          "value": ""
+        }
+      ],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FAFEC7CE-8C36-46C5-8DEB-5790AC7ED88D",
+      "repeatScope": "same presentation capture stability only; not independent statistical samples",
+      "repeatSpacingMinimumSeconds": 0.25,
+      "requestedAtUnixSeconds": 1794722486.26968,
+      "requestedCarrier": "sheet",
+      "requestedTheme": "light",
+      "sampleIndex": 1,
+      "screenFramePt": {
+        "h": 25.369333333333373,
+        "w": 116.31600000000003,
+        "x": 129.34199999999998,
+        "y": 375.1506666666667
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_coordinate.png",
+        "id": "panel_probe_coordinate",
+        "role": "selected_calibration",
+        "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "sheet-title",
+      "targetLabel": "Native Sheet",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 8.788462162017822,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "class": "ReferenceViewController",
+          "effectiveInterfaceStyle": 1,
+          "presentationStyle": 2,
+          "viewRectInWindowPt": {
+            "w": 375,
+            "y": 0,
+            "x": 0,
+            "h": 667
+          },
+          "isBeingDismissed": false,
+          "isBeingPresented": false,
+          "viewEffectiveInterfaceStyle": 1
+        },
+        {
+          "isBeingDismissed": false,
+          "viewRectInWindowPt": {
+            "w": 359,
+            "y": 317.71066666666667,
+            "x": 8,
+            "h": 341.28933333333333
+          },
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "presentationStyle": 2,
+          "isBeingPresented": false,
+          "class": "PresentationHostingController<AnyView>"
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1,
+      "t": 4.540114750037901,
+      "scope": "public traits/geometry only; native material adaptation may differ"
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "2A64DEC1-D0F1-4059-B0BA-7FB9B1E5140D.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-sheet-dismiss-after_0_F08F2171-B0B5-4CAA-8B46-51247EF15623.png",
+      "timestamp": 1794722490.228
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "350D3237-D19D-424C-BA09-B562D514E2FD.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-sheet-dismiss-after-accessibility_0_3BAC1B38-AAB0-4E49-BC0A-4C22E9EE2829.txt",
+      "timestamp": 1794722490.406
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 4,
+        "exists": true,
+        "identifier": "",
+        "isHittable": true,
+        "label": "",
+        "screenFramePt": {
+          "h": 667,
+          "w": 375,
+          "x": 0,
+          "y": 0
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "none",
+      "externalInputFile": "panel_probe_coordinate.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_coordinate.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "sheet"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FAFEC7CE-8C36-46C5-8DEB-5790AC7ED88D"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_coordinate.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "sheet",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_coordinate",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-sheet: dismiss-after",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "dismiss-after",
+      "presentationControls": [],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-FAFEC7CE-8C36-46C5-8DEB-5790AC7ED88D",
+      "requestedAtUnixSeconds": 1794722490.180678,
+      "requestedCarrier": "sheet",
+      "requestedTheme": "light",
+      "screenFramePt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_coordinate.png",
+        "id": "panel_probe_coordinate",
+        "role": "selected_calibration",
+        "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "",
+      "targetLabel": "",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 12.694462060928345,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "t": 10.29022283339873,
+      "windowEffectiveInterfaceStyle": 1,
+      "publicControllers": [
+        {
+          "class": "ReferenceViewController",
+          "effectiveInterfaceStyle": 1,
+          "presentationStyle": 2,
+          "viewRectInWindowPt": {
+            "x": 0,
+            "h": 667,
+            "y": 0,
+            "w": 375
+          },
+          "isBeingDismissed": false,
+          "isBeingPresented": false,
+          "viewEffectiveInterfaceStyle": 1
+        }
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "clean-before",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "65149BCF-0070-402A-8E91-F53A3F155569.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-alert-clean-before_0_1B9F9D1D-5402-4856-8978-20AA2AFB1BEC.png",
+      "timestamp": 1794722496.593
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "1CF30486-AA25-4335-B22B-DC27848BBA38.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-alert-clean-before-accessibility_0_AD7C9BD2-21E7-4C70-B5DB-0D19A1B9E20C.txt",
+      "timestamp": 1794722496.759
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 4,
+        "exists": true,
+        "identifier": "",
+        "isHittable": true,
+        "label": "",
+        "screenFramePt": {
+          "h": 667,
+          "w": 375,
+          "x": 0,
+          "y": 0
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "none",
+      "externalInputFile": "panel_probe_shapes.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_shapes.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "alert"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-182E6A2B-2BC2-4AF7-A0F8-D9EB9F1D6ED6"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_shapes.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "alert",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_shapes",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-alert: clean-before",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "clean-before",
+      "presentationControls": [],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-182E6A2B-2BC2-4AF7-A0F8-D9EB9F1D6ED6",
+      "requestedAtUnixSeconds": 1794722496.553176,
+      "requestedCarrier": "alert",
+      "requestedTheme": "light",
+      "screenFramePt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_shapes.png",
+        "id": "panel_probe_shapes",
+        "role": "selected_calibration",
+        "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "",
+      "targetLabel": "",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 3.351585865020752,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "class": "ReferenceViewController",
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingDismissed": false,
+          "presentationStyle": 2,
+          "effectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "viewRectInWindowPt": {
+            "y": 0,
+            "x": 0,
+            "h": 667,
+            "w": 375
+          }
+        }
+      ],
+      "t": 0.23419070825912058,
+      "windowEffectiveInterfaceStyle": 1,
+      "scope": "public traits/geometry only; native material adaptation may differ"
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "rest",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "30447895-A8DD-48FF-BF1A-91332EA5E964.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-alert-rest_0_C1F09839-C7ED-4B68-94FD-74F63F26766B.png",
+      "timestamp": 1794722502.176
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "DC587FD9-D5B5-4566-B937-CCB3C3BC1E14.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-alert-rest-accessibility_0_DE66E854-DCD9-459F-8FAC-97716BD5BA33.txt",
+      "timestamp": 1794722502.29
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 7,
+        "exists": true,
+        "identifier": "",
+        "isHittable": true,
+        "label": "Native Alert",
+        "screenFramePt": {
+          "h": 172,
+          "w": 320,
+          "x": 27.5,
+          "y": 257.5
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "alert",
+      "externalInputFile": "panel_probe_shapes.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_shapes.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "alert"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-182E6A2B-2BC2-4AF7-A0F8-D9EB9F1D6ED6"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_shapes.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "alert",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_shapes",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-alert: rest",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "rest",
+      "presentationControls": [
+        {
+          "elementType": 9,
+          "exists": true,
+          "identifier": "",
+          "isHittable": true,
+          "label": "Confirm",
+          "screenFramePt": {
+            "h": 48,
+            "w": 140,
+            "x": 191.5,
+            "y": 365.5
+          },
+          "value": ""
+        },
+        {
+          "elementType": 9,
+          "exists": true,
+          "identifier": "",
+          "isHittable": true,
+          "label": "Cancel",
+          "screenFramePt": {
+            "h": 48,
+            "w": 140,
+            "x": 43.5,
+            "y": 365.5
+          },
+          "value": ""
+        }
+      ],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-182E6A2B-2BC2-4AF7-A0F8-D9EB9F1D6ED6",
+      "repeatScope": "same presentation capture stability only; not independent statistical samples",
+      "repeatSpacingMinimumSeconds": 0.25,
+      "requestedAtUnixSeconds": 1794722502.12492,
+      "requestedCarrier": "alert",
+      "requestedTheme": "light",
+      "sampleIndex": 0,
+      "screenFramePt": {
+        "h": 172,
+        "w": 320,
+        "x": 27.5,
+        "y": 257.5
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_shapes.png",
+        "id": "panel_probe_shapes",
+        "role": "selected_calibration",
+        "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "",
+      "targetLabel": "Native Alert",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 8.93458604812622,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "windowEffectiveInterfaceStyle": 1,
+      "publicControllers": [
+        {
+          "isBeingPresented": false,
+          "presentationStyle": 2,
+          "viewRectInWindowPt": {
+            "y": 0,
+            "w": 375,
+            "h": 667,
+            "x": 0
+          },
+          "class": "ReferenceViewController",
+          "effectiveInterfaceStyle": 1,
+          "isBeingDismissed": false,
+          "viewEffectiveInterfaceStyle": 1
+        },
+        {
+          "class": "PlatformAlertController",
+          "isBeingPresented": false,
+          "effectiveInterfaceStyle": 1,
+          "isBeingDismissed": false,
+          "viewEffectiveInterfaceStyle": 1,
+          "presentationStyle": 4,
+          "viewRectInWindowPt": {
+            "y": 257.5,
+            "w": 320,
+            "h": 172,
+            "x": 27.5
+          }
+        }
+      ],
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "t": 4.485999124939553
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "rest-repeat",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "C2A68B4C-F904-40C3-8847-AB418E61AECD.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-alert-rest-repeat_0_98EFAD52-AE1E-429F-9D5F-AC3BC3F8B9E5.png",
+      "timestamp": 1794722502.935
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "1BFE8C9F-3BDA-475B-BEAB-26AEE668552F.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-alert-rest-repeat-accessibility_0_2B948C7A-9B27-4A91-9B95-0E0CF6A62ABC.txt",
+      "timestamp": 1794722503.04
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 7,
+        "exists": true,
+        "identifier": "",
+        "isHittable": true,
+        "label": "Native Alert",
+        "screenFramePt": {
+          "h": 172,
+          "w": 320,
+          "x": 27.5,
+          "y": 257.5
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "alert",
+      "externalInputFile": "panel_probe_shapes.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_shapes.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "alert"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-182E6A2B-2BC2-4AF7-A0F8-D9EB9F1D6ED6"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_shapes.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "alert",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_shapes",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-alert: rest",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "rest",
+      "presentationControls": [
+        {
+          "elementType": 9,
+          "exists": true,
+          "identifier": "",
+          "isHittable": true,
+          "label": "Confirm",
+          "screenFramePt": {
+            "h": 48,
+            "w": 140,
+            "x": 191.5,
+            "y": 365.5
+          },
+          "value": ""
+        },
+        {
+          "elementType": 9,
+          "exists": true,
+          "identifier": "",
+          "isHittable": true,
+          "label": "Cancel",
+          "screenFramePt": {
+            "h": 48,
+            "w": 140,
+            "x": 43.5,
+            "y": 365.5
+          },
+          "value": ""
+        }
+      ],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-182E6A2B-2BC2-4AF7-A0F8-D9EB9F1D6ED6",
+      "repeatScope": "same presentation capture stability only; not independent statistical samples",
+      "repeatSpacingMinimumSeconds": 0.25,
+      "requestedAtUnixSeconds": 1794722502.8945332,
+      "requestedCarrier": "alert",
+      "requestedTheme": "light",
+      "sampleIndex": 1,
+      "screenFramePt": {
+        "h": 172,
+        "w": 320,
+        "x": 27.5,
+        "y": 257.5
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_shapes.png",
+        "id": "panel_probe_shapes",
+        "role": "selected_calibration",
+        "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "",
+      "targetLabel": "Native Alert",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 9.693585872650146,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "event": "external-presentation-context",
+      "windowEffectiveInterfaceStyle": 1,
+      "publicControllers": [
+        {
+          "isBeingPresented": false,
+          "presentationStyle": 2,
+          "viewRectInWindowPt": {
+            "y": 0,
+            "w": 375,
+            "h": 667,
+            "x": 0
+          },
+          "class": "ReferenceViewController",
+          "effectiveInterfaceStyle": 1,
+          "isBeingDismissed": false,
+          "viewEffectiveInterfaceStyle": 1
+        },
+        {
+          "class": "PlatformAlertController",
+          "isBeingPresented": false,
+          "effectiveInterfaceStyle": 1,
+          "isBeingDismissed": false,
+          "viewEffectiveInterfaceStyle": 1,
+          "presentationStyle": 4,
+          "viewRectInWindowPt": {
+            "y": 257.5,
+            "w": 320,
+            "h": 172,
+            "x": 27.5
+          }
+        }
+      ],
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "t": 4.485999124939553
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "phase": "dismiss-after",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "38742180-53DA-4932-8FFF-AB3D22E39651.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-alert-dismiss-after_0_8D16B880-4A5D-443B-BAD3-4AEB5956816D.png",
+      "timestamp": 1794722506.014
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "FB139347-81CF-4AB9-B458-1D1419A49EF6.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-alert-dismiss-after-accessibility_0_9B97114B-F444-488B-BDA6-B4CF5DF73BC0.txt",
+      "timestamp": 1794722506.082
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 4,
+        "exists": true,
+        "identifier": "",
+        "isHittable": true,
+        "label": "",
+        "screenFramePt": {
+          "h": 667,
+          "w": 375,
+          "x": 0,
+          "y": 0
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "none",
+      "externalInputFile": "panel_probe_shapes.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_shapes.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "alert"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-182E6A2B-2BC2-4AF7-A0F8-D9EB9F1D6ED6"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_shapes.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "alert",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_shapes",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-alert: dismiss-after",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "dismiss-after",
+      "presentationControls": [],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-182E6A2B-2BC2-4AF7-A0F8-D9EB9F1D6ED6",
+      "requestedAtUnixSeconds": 1794722505.973444,
+      "requestedCarrier": "alert",
+      "requestedTheme": "light",
+      "screenFramePt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_shapes.png",
+        "id": "panel_probe_shapes",
+        "role": "selected_calibration",
+        "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "",
+      "targetLabel": "",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 12.77258586883545,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "windowEffectiveInterfaceStyle": 1,
+      "t": 10.772209041635506,
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "isBeingPresented": false,
+          "presentationStyle": 2,
+          "viewRectInWindowPt": {
+            "w": 375,
+            "x": 0,
+            "y": 0,
+            "h": 667
+          },
+          "class": "ReferenceViewController",
+          "effectiveInterfaceStyle": 1,
+          "isBeingDismissed": false,
+          "viewEffectiveInterfaceStyle": 1
+        }
+      ],
+      "scope": "public traits/geometry only; native material adaptation may differ"
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "clean-before",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "3F10AC23-0A5D-48D2-8A2C-222197CF026F.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-sheet-clean-before_0_07B3A91E-ABEE-4986-8731-D941C5213223.png",
+      "timestamp": 1794722511.861
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "A29300D3-988A-4431-AC4F-00F15D6BF10E.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-sheet-clean-before-accessibility_0_4CD8528D-700E-4295-9F22-B01203096AD8.txt",
+      "timestamp": 1794722511.928
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 4,
+        "exists": true,
+        "identifier": "",
+        "isHittable": true,
+        "label": "",
+        "screenFramePt": {
+          "h": 667,
+          "w": 375,
+          "x": 0,
+          "y": 0
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "none",
+      "externalInputFile": "panel_probe_shapes.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_shapes.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "sheet"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-566C789C-42EE-4567-BD7E-BA7308537FBA"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_shapes.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "sheet",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_shapes",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-sheet: clean-before",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "clean-before",
+      "presentationControls": [],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-566C789C-42EE-4567-BD7E-BA7308537FBA",
+      "requestedAtUnixSeconds": 1794722511.815737,
+      "requestedCarrier": "sheet",
+      "requestedTheme": "light",
+      "screenFramePt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_shapes.png",
+        "id": "panel_probe_shapes",
+        "role": "selected_calibration",
+        "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "",
+      "targetLabel": "",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 3.311276912689209,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "publicControllers": [
+        {
+          "class": "ReferenceViewController",
+          "isBeingPresented": false,
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "presentationStyle": 2,
+          "viewRectInWindowPt": {
+            "h": 667,
+            "w": 375,
+            "x": 0,
+            "y": 0
+          },
+          "isBeingDismissed": false
+        }
+      ],
+      "windowEffectiveInterfaceStyle": 1,
+      "event": "external-presentation-context",
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "t": 0.16987141664139926
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "rest",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "D83E36DC-98F0-467F-86AA-01892B329CA2.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-sheet-rest_0_2C3E16A0-2F37-4AA9-94B5-B8AA7BBCAFB8.png",
+      "timestamp": 1794722516.215
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "D2F59B15-BDEE-471C-B60C-343C14C5731D.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-sheet-rest-accessibility_0_37950295-87F3-4E4E-BCAE-65E1D71AC129.txt",
+      "timestamp": 1794722516.302
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 48,
+        "exists": true,
+        "identifier": "sheet-title",
+        "isHittable": true,
+        "label": "Native Sheet",
+        "screenFramePt": {
+          "h": 25.369333333333373,
+          "w": 116.31600000000003,
+          "x": 129.34199999999998,
+          "y": 375.1506666666667
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "sheet",
+      "externalInputFile": "panel_probe_shapes.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_shapes.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "sheet"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-566C789C-42EE-4567-BD7E-BA7308537FBA"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_shapes.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "sheet",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_shapes",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-sheet: rest",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "rest",
+      "presentationControls": [
+        {
+          "elementType": 48,
+          "exists": true,
+          "identifier": "sheet-title",
+          "isHittable": true,
+          "label": "Native Sheet",
+          "screenFramePt": {
+            "h": 25.369333333333373,
+            "w": 116.31600000000003,
+            "x": 129.34199999999998,
+            "y": 375.1506666666667
+          },
+          "value": ""
+        },
+        {
+          "elementType": 9,
+          "exists": true,
+          "identifier": "dismiss-sheet",
+          "isHittable": true,
+          "label": "Done",
+          "screenFramePt": {
+            "h": 33.02800000000002,
+            "w": 61.74800000000002,
+            "x": 156.86533333333333,
+            "y": 568.532
+          },
+          "value": ""
+        }
+      ],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-566C789C-42EE-4567-BD7E-BA7308537FBA",
+      "repeatScope": "same presentation capture stability only; not independent statistical samples",
+      "repeatSpacingMinimumSeconds": 0.25,
+      "requestedAtUnixSeconds": 1794722516.164048,
+      "requestedCarrier": "sheet",
+      "requestedTheme": "light",
+      "sampleIndex": 0,
+      "screenFramePt": {
+        "h": 25.369333333333373,
+        "w": 116.31600000000003,
+        "x": 129.34199999999998,
+        "y": 375.1506666666667
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_shapes.png",
+        "id": "panel_probe_shapes",
+        "role": "selected_calibration",
+        "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "sheet-title",
+      "targetLabel": "Native Sheet",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 7.665276765823364,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "t": 4.421673625009134,
+      "windowEffectiveInterfaceStyle": 1,
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "presentationStyle": 2,
+          "isBeingDismissed": false,
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "class": "ReferenceViewController",
+          "viewRectInWindowPt": {
+            "y": 0,
+            "w": 375,
+            "x": 0,
+            "h": 667
+          }
+        },
+        {
+          "class": "PresentationHostingController<AnyView>",
+          "effectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "viewRectInWindowPt": {
+            "y": 317.71066666666667,
+            "w": 359,
+            "x": 8,
+            "h": 341.28933333333333
+          },
+          "presentationStyle": 2,
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingDismissed": false
+        }
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "rest-repeat",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "F5387126-8EFF-45F2-8840-A1E88273B5C6.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-sheet-rest-repeat_0_28A5980F-D945-4C7B-B863-19493693BDFB.png",
+      "timestamp": 1794722516.933
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "43A7D02E-F938-4AA8-9119-0537CD50E980.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-sheet-rest-repeat-accessibility_0_878077E7-A73D-4C37-AE64-2DA754866BEE.txt",
+      "timestamp": 1794722517.016
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 48,
+        "exists": true,
+        "identifier": "sheet-title",
+        "isHittable": true,
+        "label": "Native Sheet",
+        "screenFramePt": {
+          "h": 25.369333333333373,
+          "w": 116.31600000000003,
+          "x": 129.34199999999998,
+          "y": 375.1506666666667
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "sheet",
+      "externalInputFile": "panel_probe_shapes.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_shapes.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "sheet"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-566C789C-42EE-4567-BD7E-BA7308537FBA"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_shapes.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "sheet",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_shapes",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-sheet: rest",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "rest",
+      "presentationControls": [
+        {
+          "elementType": 48,
+          "exists": true,
+          "identifier": "sheet-title",
+          "isHittable": true,
+          "label": "Native Sheet",
+          "screenFramePt": {
+            "h": 25.369333333333373,
+            "w": 116.31600000000003,
+            "x": 129.34199999999998,
+            "y": 375.1506666666667
+          },
+          "value": ""
+        },
+        {
+          "elementType": 9,
+          "exists": true,
+          "identifier": "dismiss-sheet",
+          "isHittable": true,
+          "label": "Done",
+          "screenFramePt": {
+            "h": 33.02800000000002,
+            "w": 61.74800000000002,
+            "x": 156.86533333333333,
+            "y": 568.532
+          },
+          "value": ""
+        }
+      ],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-566C789C-42EE-4567-BD7E-BA7308537FBA",
+      "repeatScope": "same presentation capture stability only; not independent statistical samples",
+      "repeatSpacingMinimumSeconds": 0.25,
+      "requestedAtUnixSeconds": 1794722516.888454,
+      "requestedCarrier": "sheet",
+      "requestedTheme": "light",
+      "sampleIndex": 1,
+      "screenFramePt": {
+        "h": 25.369333333333373,
+        "w": 116.31600000000003,
+        "x": 129.34199999999998,
+        "y": 375.1506666666667
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_shapes.png",
+        "id": "panel_probe_shapes",
+        "role": "selected_calibration",
+        "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "sheet-title",
+      "targetLabel": "Native Sheet",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 8.38327693939209,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "t": 4.421673625009134,
+      "windowEffectiveInterfaceStyle": 1,
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "presentationStyle": 2,
+          "isBeingDismissed": false,
+          "effectiveInterfaceStyle": 1,
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "class": "ReferenceViewController",
+          "viewRectInWindowPt": {
+            "y": 0,
+            "w": 375,
+            "x": 0,
+            "h": 667
+          }
+        },
+        {
+          "class": "PresentationHostingController<AnyView>",
+          "effectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "viewRectInWindowPt": {
+            "y": 317.71066666666667,
+            "w": 359,
+            "x": 8,
+            "h": 341.28933333333333
+          },
+          "presentationStyle": 2,
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingDismissed": false
+        }
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "phase": "dismiss-after",
+    "png": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "5F76FBAD-53BB-4F7A-BABF-8F39C5A3D17A.png",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-sheet-dismiss-after_0_C82B788B-0CCD-49EE-886C-49361E3F074F.png",
+      "timestamp": 1794722520.512
+    },
+    "AX": {
+      "configurationName": "Test Scheme Action",
+      "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+      "deviceName": "Sleepy alignment small phone",
+      "exportedFileName": "0AC6A7C2-73D9-41A3-9A2C-31C45EB44366.txt",
+      "isAssociatedWithFailure": false,
+      "suggestedHumanReadableName": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-sheet-dismiss-after-accessibility_0_E75D82B7-E356-4F7C-8C5A-D5F3D040A087.txt",
+      "timestamp": 1794722520.578
+    },
+    "request": {
+      "actualTarget": {
+        "elementType": 4,
+        "exists": true,
+        "identifier": "",
+        "isHittable": true,
+        "label": "",
+        "screenFramePt": {
+          "h": 667,
+          "w": 375,
+          "x": 0,
+          "y": 0
+        },
+        "value": ""
+      },
+      "actualTraitsAndPresentationGeometrySource": "App trace.jsonl external-input, panel-plain-backing-configuration, panel-plain-backing-command and external-presentation-context events; public controller geometry",
+      "backingScope": "Original PNG and existing parent/layout; only three inner presentation triggers are hidden by explicit fixture flag; clean footprint requires screenshot measurement",
+      "carrier": "none",
+      "externalInputFile": "panel_probe_shapes.png",
+      "fixtureLaunchArguments": [
+        "-ReferenceScene",
+        "presentations",
+        "-ReferenceBackground",
+        "grid",
+        "-ReferenceInterfaceStyle",
+        "light",
+        "-ReferenceStaticOptics",
+        "-ReferenceExternalInputFile",
+        "panel_probe_shapes.png",
+        "-ReferencePanelPlainBacking",
+        "-ReferencePanelCarrier",
+        "sheet"
+      ],
+      "fixtureLaunchEnvironment": {
+        "REFERENCE_RUN_ID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-566C789C-42EE-4567-BD7E-BA7308537FBA"
+      },
+      "fixtureParameters": {
+        "appearanceControls": false,
+        "background": "grid",
+        "controlWidth": null,
+        "dockContent": null,
+        "dockParent": null,
+        "externalInputFile": "panel_probe_shapes.png",
+        "focused": false,
+        "foregroundProperties": false,
+        "horizontalLocalAppearance": false,
+        "initialSlider": null,
+        "localAppearance": false,
+        "nativeControlSize": null,
+        "panelCarrier": "sheet",
+        "panelPlainBacking": true,
+        "rangeGeometryProbe": false,
+        "rangeLower": null,
+        "rangeScale": null,
+        "rangeUpper": null,
+        "scene": "presentations",
+        "sliderLayerProbe": false,
+        "staticOptics": true,
+        "style": "light",
+        "tabCount": 3,
+        "tonalResponse": false,
+        "tonalReturn": false
+      },
+      "inputID": "panel_probe_shapes",
+      "inputManifest": {
+        "inputs": [
+          {
+            "file": "panel_probe_coordinate.png",
+            "id": "panel_probe_coordinate",
+            "role": "selected_calibration",
+            "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+          },
+          {
+            "file": "panel_probe_shapes.png",
+            "id": "panel_probe_shapes",
+            "role": "selected_calibration",
+            "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+          },
+          {
+            "file": "compatibility_unselected_01.png",
+            "id": "compatibility_unselected_01",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_02.png",
+            "id": "compatibility_unselected_02",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_03.png",
+            "id": "compatibility_unselected_03",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_04.png",
+            "id": "compatibility_unselected_04",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_05.png",
+            "id": "compatibility_unselected_05",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          },
+          {
+            "file": "compatibility_unselected_06.png",
+            "id": "compatibility_unselected_06",
+            "role": "compatibility_unselected",
+            "sha256": "dfe986d4e20ff2456653548b81864dcaca5fa9ce41bf7a44b6c1dbe4f9a4c172"
+          }
+        ],
+        "notice": "Only the two selected IDs are acquired/scored. Six gray entries solely satisfy native fixed-eight loader compatibility.",
+        "schema": 1,
+        "selected_ids": [
+          "panel_probe_coordinate",
+          "panel_probe_shapes"
+        ],
+        "set_id": "panel_nonperiodic_calibration_20261115",
+        "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+        "split": "calibration"
+      },
+      "inputManifestSHA256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "kind": "externalPanelPlainBacking",
+      "label": "panel-plain-backing-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-sheet: dismiss-after",
+      "notice": "REST feasibility observation; AX rectangles are not fitted optical material boundaries",
+      "panelPlainBacking": true,
+      "phase": "dismiss-after",
+      "presentationControls": [],
+      "referenceRunID": "-[NativeReferenceTests testPanelPlainBackingFeasibility]-566C789C-42EE-4567-BD7E-BA7308537FBA",
+      "requestedAtUnixSeconds": 1794722520.4755979,
+      "requestedCarrier": "sheet",
+      "requestedTheme": "light",
+      "screenFramePt": {
+        "h": 667,
+        "w": 375,
+        "x": 0,
+        "y": 0
+      },
+      "selectedInputIDs": [
+        "panel_probe_coordinate",
+        "panel_probe_shapes"
+      ],
+      "selectedManifestEntry": {
+        "file": "panel_probe_shapes.png",
+        "id": "panel_probe_shapes",
+        "role": "selected_calibration",
+        "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+      },
+      "set_id": "panel_nonperiodic_calibration_20261115",
+      "split": "calibration",
+      "target": "",
+      "targetLabel": "",
+      "unselectedManifestEntryCount": 6
+    },
+    "capture_relative_session_s": 11.962276935577393,
+    "checks": {
+      "capture_after_request": true,
+      "capture_before_next_operation": true,
+      "AX_after_PNG_before_next_operation": true,
+      "public_context_present": true
+    },
+    "latest_public_context": {
+      "scope": "public traits/geometry only; native material adaptation may differ",
+      "windowEffectiveInterfaceStyle": 1,
+      "t": 9.671737083350308,
+      "event": "external-presentation-context",
+      "publicControllers": [
+        {
+          "class": "ReferenceViewController",
+          "effectiveInterfaceStyle": 1,
+          "isBeingPresented": false,
+          "viewRectInWindowPt": {
+            "x": 0,
+            "w": 375,
+            "y": 0,
+            "h": 667
+          },
+          "presentationStyle": 2,
+          "viewEffectiveInterfaceStyle": 1,
+          "isBeingDismissed": false
+        }
+      ]
+    }
+  }
+]

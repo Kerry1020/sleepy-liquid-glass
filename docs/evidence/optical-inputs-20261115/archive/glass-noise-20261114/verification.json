@@ -1,0 +1,57 @@
+{
+  "verified": true,
+  "image_count": 16,
+  "total_source_points": 13440,
+  "calibration_or_training_completed": false,
+  "point_tables": [
+    {
+      "id": "c05_dots_s0",
+      "point_count": 1680,
+      "edge_clipped_count": 17,
+      "source_signature_duplicate_point_count": 0
+    },
+    {
+      "id": "c06_dots_s1",
+      "point_count": 1680,
+      "edge_clipped_count": 16,
+      "source_signature_duplicate_point_count": 0
+    },
+    {
+      "id": "c07_dots_s2",
+      "point_count": 1680,
+      "edge_clipped_count": 20,
+      "source_signature_duplicate_point_count": 0
+    },
+    {
+      "id": "c08_dots_s3",
+      "point_count": 1680,
+      "edge_clipped_count": 16,
+      "source_signature_duplicate_point_count": 0
+    },
+    {
+      "id": "n05_dots_s0",
+      "point_count": 1680,
+      "edge_clipped_count": 15,
+      "source_signature_duplicate_point_count": 0
+    },
+    {
+      "id": "n06_dots_s1",
+      "point_count": 1680,
+      "edge_clipped_count": 18,
+      "source_signature_duplicate_point_count": 0
+    },
+    {
+      "id": "n07_dots_s2",
+      "point_count": 1680,
+      "edge_clipped_count": 11,
+      "source_signature_duplicate_point_count": 0
+    },
+    {
+      "id": "n08_dots_s3",
+      "point_count": 1680,
+      "edge_clipped_count": 22,
+      "source_signature_duplicate_point_count": 0
+    }
+  ],
+  "scope": "Input bytes and metadata only; no capture, rendering or target tracking inspected."
+}

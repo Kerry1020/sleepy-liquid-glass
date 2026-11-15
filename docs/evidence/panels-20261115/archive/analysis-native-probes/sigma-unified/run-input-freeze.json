@@ -1,0 +1,17 @@
+{
+  "status": "before-first-this-candidate-pixel-decode",
+  "candidate_directory": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-clear-edge-sigma-20261115",
+  "files": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-clear-edge-sigma-20261115/matrix.json": "7b69051c6180f4c0ff4b274f6794fecaced2d1dd9293f04570ec46164c18377a",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-clear-edge-sigma-20261115/capture-result.json": "07f6c5231b3b6bd843d2759e5318909e7b850c4db715594cc33c41dafdd96c2c",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-clear-edge-sigma-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png": "9cb8e77a2ecebd6c9a7db587b9a7a522e35eccc515d449943423438a2e4db76d",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-clear-edge-sigma-20261115/panel_probe_shapes-light-background-screen.png": "8a425a7cd53fee5f835656a950a272d2eb20f4927f9b324828df9af4d8715382",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-clear-edge-sigma-20261115/panel_probe_shapes-light-alert-rest-screen.png": "8928153979ce91c71c027a005b0c3301d2a4bc4ac899592d0a83ea46869bedd4",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-clear-edge-sigma-20261115/panel_probe_coordinate-light-alert-rest-screen.png": "6add620944f4fd859dc89354a756f687ac2d6a7a16feac070746c96bd5eb99d5",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-clear-edge-sigma-20261115/panel_probe_coordinate-light-background-screen.png": "ff4f24374cb853a626842a53a621b1062633b08e1f9196ae252efc8d87092611",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-clear-edge-sigma-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png": "3389d4311fd5b6ace22915c28e6d489d6c927ff4d30226cb84cdd71edb9d63d7"
+  },
+  "script_sha256": "89b3a225189a568500638cb1e6fbe521b2715a56908d316b4f59026b169a327c",
+  "fixed_parent_plan_sha256": "4a8d7cbedb4cce07f2a95ef2f18dcdfa4f106c13e2b6abe84072a9861dbe513f",
+  "no_registration_or_source_substitution": true
+}

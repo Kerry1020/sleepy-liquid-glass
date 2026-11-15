@@ -1,0 +1,16 @@
+{
+  "status": "phaseA-mode12-strict-actual-window-control",
+  "all_four_actual_windows_raw_rgba_and_normalized_srgb_zero_difference": true,
+  "both_background_actual_windows_zero_difference": true,
+  "geometry_slot_density_source_mapping_exact": true,
+  "full_display_zero_difference": false,
+  "all_display_changes_within_declared_system_bar_insets": true,
+  "phaseB_input": 10,
+  "phaseB_comparison_label": "API-input engineering response with deterministic shared-band-to-local routing change",
+  "phaseB_execution_source_binding_required": [
+    "GlassHost.kt",
+    "GlassFilterBands.kt"
+  ],
+  "material_parity_accepted": false,
+  "report_sha256": "e238acc9779a6a59a852cd333af9b14d12496868ffdeaccc24bff2470b2f81be"
+}

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "kind": "luminance-budget-normalized-incremental-reflection",
+  "evidence": "Screen-only candidate fixes clipping but loses neutral-side peak14.634->.805 vs native16.002. Existing shineFloor is an additive encoded-space increment; treating it as alpha unintentionally scales delivered luma by remaining headroom. Current candidate rejected, original evidence retained.",
+  "source_before_sha256": "df9162c72f4674b3cc6fdd7903f5237a4bc9410ee8e43762fdc0e05973200891",
+  "formula": "After inherited additive rim, H=max(coverage-glass,0); E=coverage*addedFloor; Y=dot(H,[.2126,.7152,.0722]); if Y>0 alpha=dockOneMinusExp(E/Y) using existing fixed stable primitive; glass += alpha*H. Exact zero-delta branch and all legacy/default branches unchanged.",
+  "choice_basis": "No new fitted intensity/width. Exponential gives first-order E for E/Y small, smooth asymptotic bounded response for exhausted headroom, and reuses the already implemented stable exp primitive. Hard E/max(Y,E) would reintroduce a white platform; rational E/(Y+E) loses twice as much second-order increment. No curve chosen by calibration MAE.",
+  "unchanged": "light Alert blur8/CPUflat.06/shine.16/floor.08; Sheet10; all geometry/sigma controls; dark factories; Dock and MD. No new uniforms.",
+  "predecode_checks": [
+    "Same4nonperiodic REST and full16history sequential exactsource/geometry; preserve original overlays failure",
+    "Frozen124 points no new255 versus originalbody8; all same shoulders/body strictzero",
+    "Delta0 top exactsame actual windowintersection and originalfulldisplay",
+    "Sheet10 new2 actualWindows strictzero; historical8dark strictzero; historicallightSheets radius-response only",
+    "All fixedside RGB/neutralpeak/cornertracks, D1/D2 and everybackground regressions retained; float/half/8bit saturation possible despite real boundedness",
+    "No claim native physical or radiometric law: dot uses encodedworkingRGB, not measured linear luminance. Inherited base can still clip. Independenttests/size/dynamic not covered."
+  ],
+  "status": "registered before source change and any new GPU result"
+}

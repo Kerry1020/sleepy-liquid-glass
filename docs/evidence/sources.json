@@ -1,0 +1,430 @@
+{
+  "schema": 1,
+  "publication_date": "2026-11-14",
+  "reference": "iOS 26.5 (23F77), synthetic native reference fixture",
+  "scope": "Historical Sleepy application calibration and diagnostics. The independent public runtime uses official Kyant AndroidLiquidGlass 2.0.0; these app captures are not equivalence validation of that public backend.",
+  "privacy": "Only control/synthetic fixture crops and numerical observations exported. No user schedule, photographs, account data, status bars, or raw device video.",
+  "reproduction": "python3 docs/evidence/render_figures.py reads only committed data/crops. export_sources.py requires the original capture archive to replace inputs.",
+  "sources": [
+    {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/android-dock-parent-response-72/independent-dock-parent-review/device-parent-comparison/android69-nearest-draw-comparison.csv",
+      "sha256": "91823de2788d72a153b443bc479851bd5ef4f0fa6652e395813fc058c539efdd",
+      "bytes": 297452,
+      "purpose": "Actual nearest window-draw parent carrier translation; full eligible rows, including explicit non-held match."
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/android-dock-parent-response-72/independent-dock-parent-review/device-parent-comparison/android72-nearest-draw-comparison.csv",
+      "sha256": "2b5ec237da06f304215a1ff36b48dda3b843be21928dd4013481ecb41703ccb9",
+      "bytes": 299460,
+      "purpose": "Actual nearest window-draw parent carrier translation; full eligible rows, including explicit non-held match."
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/android-dock-parent-response-72/independent-dock-parent-review/device-parent-comparison/common-held-summary.json",
+      "sha256": "501b0c7e6a8436bf4530ccdecabd5f6e7b014a47565d5208e8677ef265a037c1",
+      "bytes": 3049,
+      "purpose": "Frozen same-row held summary; not a native optical score."
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/menu-alert-visible-corners-20261113/menu32-full-gpu-validation/candidate-baseline-native-intervals.csv",
+      "sha256": "dd70b4288de500783b8785df19787c8ef994d18ff9066f1a9d4c86c03e1769c5",
+      "bytes": 54734,
+      "purpose": "Native color-threshold inset family against actual GPU Menu24 and Menu32 Window coverage."
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/menu-alert-visible-corners-20261113/menu32-full-gpu-validation/native-baseline-candidate-corners.png",
+      "sha256": "848f42cbe7f1c39a26a441cb25520aee4ec7955d2e9b88bc113c83dbaa07950a",
+      "bytes": 79312,
+      "purpose": "Existing synthetic-fixture corner montage, 6 pixels/unit density conversion only; no status bars or personal content."
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/android-native-replay-66/independent-slider-gap-review/native-empirical-predictions.csv",
+      "sha256": "7c68621e16dc18e96b9f06577ca3a2df6a3c7d69d1b348a17d6ac4efb971f59f",
+      "bytes": 137956,
+      "purpose": "Frozen native-only empirical predictions; measured lift is an input, not predicted rise/fall."
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/android-native-replay-66/independent-slider-gap-review/native-fit-dataset.json",
+      "sha256": "493daf1bafb7c719c20ec104c1b793b95470828c4d123a1f06ee232d002ab880",
+      "bytes": 528840,
+      "purpose": "Only gesture split/direction/speed/actual UP extracted; private full raw capture not required to redraw."
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/android-native-replay-66/independent-slider-gap-review/native-empirical-fit.json",
+      "sha256": "1a7dfcad86dcfda6fe87012ee6f17e76b34e79a4e98edf540e34dcd245db8514",
+      "bytes": 50063,
+      "purpose": "Parameter and numerical summary of frozen native-only fit."
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/body-summary.csv",
+      "sha256": "cc345e99c16e0af62b1b1313b0418956ed9d370a44b67cef0998cc2e1dc5c477",
+      "bytes": 2517,
+      "purpose": "Foreground-free body ROI means; not an entire-sheet image score, and not edge/contour acceptance."
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/fine_grid-light-ios26.5-display-preview.png",
+      "sha256": "cae67711bbe73c0edaa0db289a7a41dfdf364e993019fac1c7bf42173a7a1fc9",
+      "bytes": 73143,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          300,
+          375,
+          667
+        ],
+        "output": "crops/sheet-fine_grid-light-ios26.5.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/fine_grid-light-android36-display-preview.png",
+      "sha256": "0860d937b72c2c7687100a270a727bec93919fd45367ef2144c0786773c97a6c",
+      "bytes": 82593,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          346,
+          375,
+          814
+        ],
+        "output": "crops/sheet-fine_grid-light-android36.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/fine_grid-dark-ios26.5-display-preview.png",
+      "sha256": "6135337c6174f8e613b920a947a14804383ec462c1b09e21dc9858648ea8d160",
+      "bytes": 51840,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          300,
+          375,
+          667
+        ],
+        "output": "crops/sheet-fine_grid-dark-ios26.5.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/fine_grid-dark-android36-display-preview.png",
+      "sha256": "ca933031acdc172f758b9915c64c3f38521783b97259baca598e18cb26de52b3",
+      "bytes": 75893,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          346,
+          375,
+          814
+        ],
+        "output": "crops/sheet-fine_grid-dark-android36.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/color_stripes-light-ios26.5-display-preview.png",
+      "sha256": "fa64c06383cca102c9888dd05dbd3c0208f7f50dcd76b6d107c544759516811f",
+      "bytes": 93291,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          300,
+          375,
+          667
+        ],
+        "output": "crops/sheet-color_stripes-light-ios26.5.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/color_stripes-light-android36-display-preview.png",
+      "sha256": "0ba1aa53d809828ca1cf14e28871dc220adce925e8bd1458153c5a0f2fae4257",
+      "bytes": 48089,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          346,
+          375,
+          814
+        ],
+        "output": "crops/sheet-color_stripes-light-android36.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/color_stripes-dark-ios26.5-display-preview.png",
+      "sha256": "b8609198401d355a75a89cb925decf0c07094617ab6d2eb6a934a9a70934c64c",
+      "bytes": 85133,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          300,
+          375,
+          667
+        ],
+        "output": "crops/sheet-color_stripes-dark-ios26.5.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/color_stripes-dark-android36-display-preview.png",
+      "sha256": "68e50d942652d7cff4050fc7e37305a1fb4c73a11690e0bcd2fa15501bfa103e",
+      "bytes": 47486,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          346,
+          375,
+          814
+        ],
+        "output": "crops/sheet-color_stripes-dark-android36.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/tonal_blocks-light-ios26.5-display-preview.png",
+      "sha256": "b4dbd34ad3b0cff6570eddeba4bde14d9a7979754a9f1cf0be430d0dc857ad5d",
+      "bytes": 70044,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          300,
+          375,
+          667
+        ],
+        "output": "crops/sheet-tonal_blocks-light-ios26.5.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/tonal_blocks-light-android36-display-preview.png",
+      "sha256": "bab37b9270ae943ca1e633b106fe997b974145eaa5c3ab06bfb80bb2f37268b6",
+      "bytes": 43564,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          346,
+          375,
+          814
+        ],
+        "output": "crops/sheet-tonal_blocks-light-android36.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/tonal_blocks-dark-ios26.5-display-preview.png",
+      "sha256": "cb4b7feb7cf36f626480e09f4eed5fb3bd760e3d68a1a02b52bcb02534676d96",
+      "bytes": 61632,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          300,
+          375,
+          667
+        ],
+        "output": "crops/sheet-tonal_blocks-dark-ios26.5.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/tonal_blocks-dark-android36-display-preview.png",
+      "sha256": "d29d1dbdf3b9f76ea91a7471e911a8bca1266e3b6ce6a3e903c64ab0626138ed",
+      "bytes": 42515,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          346,
+          375,
+          814
+        ],
+        "output": "crops/sheet-tonal_blocks-dark-android36.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/synthetic_landscape-light-ios26.5-display-preview.png",
+      "sha256": "fc39a7352cdc9bddb5448df9aa9cacbd292e9466f1f20dd8edaf3d4a56138c5a",
+      "bytes": 239395,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          300,
+          375,
+          667
+        ],
+        "output": "crops/sheet-synthetic_landscape-light-ios26.5.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/synthetic_landscape-light-android36-display-preview.png",
+      "sha256": "ea22108a4601fa70df1f342e51d183caeda93eeeddd9a46bad14470374f0800b",
+      "bytes": 233378,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          346,
+          375,
+          814
+        ],
+        "output": "crops/sheet-synthetic_landscape-light-android36.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/synthetic_landscape-dark-ios26.5-display-preview.png",
+      "sha256": "1648ee44996ecef945cfde769127e0a4f3f18600b9b8dc1b4bb455b6e231d9c5",
+      "bytes": 199144,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          300,
+          375,
+          667
+        ],
+        "output": "crops/sheet-synthetic_landscape-dark-ios26.5.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/synthetic_landscape-dark-android36-display-preview.png",
+      "sha256": "9be872e9f0594c392b5683dae1dc80cceb5ec61a005119b4f74e564a92890590",
+      "bytes": 214369,
+      "purpose": "Synthetic test fixture; strip system status bar and upper scene, retain full sheet pane and differences in contents/height.",
+      "public_transform": {
+        "crop_xyxy_px": [
+          0,
+          346,
+          375,
+          814
+        ],
+        "output": "crops/sheet-synthetic_landscape-dark-android36.png",
+        "color": "RGB",
+        "resize": null,
+        "note": "Crops use the existing preview pixel grids; montage is visual context, not geometry registration."
+      }
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/android-dock-parent-response-72/independent-slider-optical-review/held-comparison-contact.png",
+      "sha256": "bbdcbcc96cabbc84203a104809de28bcb85d47793c954c246193bb855a88ca42",
+      "bytes": 447714,
+      "purpose": "Historical settled-HELD synthetic fixture crops; rail palette differs and full RGB difference x3 includes it. No optical score for whole crop."
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/android-dock-parent-response-72/independent-slider-optical-review/comparison.json",
+      "sha256": "468661fc9d4c1180837d216564ee825a3b7f5df66acf0ba503d3c76453139659",
+      "bytes": 520060,
+      "purpose": "Full methodology retained as sanitized text-only JSON; no user or device identifiers exported."
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-analysis/optical-review/switch-white-to-glass.png",
+      "sha256": "0111b9f04a3ade5fd884efa01376cf5fae3eba8f89682894bc13301ed345e43d",
+      "bytes": 94213,
+      "purpose": "Native-only UIKit Toggle from original decoded video PTS, crop/enlargement only. Approximate video-trace registration one frame; not Android acceptance."
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-analysis/optical-review/switch-release-theme-fill.png",
+      "sha256": "af957d9aa74111f6c5bbcb9945c7779397c3c5f64b4af48fb4add18c10b98472",
+      "bytes": 70744,
+      "purpose": "Native-only UIKit Toggle from original decoded video PTS, crop/enlargement only. Approximate video-trace registration one frame; not Android acceptance."
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-analysis/optical-review/switch-opacity-proxy.csv",
+      "sha256": "79c501f6cc8cb8502bdce14f6f380477fdd48e4cefb3c96d8719ef218785be82",
+      "bytes": 1204,
+      "purpose": "Stationary center patch white-mixture proxy, not measured layer alpha; native-only and approximate registration."
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-analysis/optical-review/optical-evidence.md",
+      "sha256": "ce12141e536af91a54b0ca0ae6af2ec06a530bd4f78d381dfbb13d5ac36cc8d7",
+      "bytes": 10083,
+      "purpose": "Original methodological interpretation, including video/trace alignment and moving-release limitations."
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/delta-from-geometry-2/delta.csv",
+      "sha256": "13f02ce2ba926e69e50293b9b02e8964d1be7d2fbd156e433507530bf5d17b8f",
+      "bytes": 3796,
+      "purpose": "Archived eight-rest horizontal body-profile errors; export only the after/rim4 mean and profile statistics. Profiles are not recomputed from raw pixels by the public figure renderer."
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-3/edges/edge-summary.csv",
+      "sha256": "966d0401444316360fc4b827a2b9e239a486442b47a3cca87872fb0fc8a7f9a5",
+      "bytes": 1951,
+      "purpose": "Archived neutral/fine-grid edge RGB profile summary, rim3 baseline; inward 0..6 logical units, 8-bit channel values."
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/edges/edge-summary.csv",
+      "sha256": "c4e1486ceb22c6d2de6c4b37c1c8074922bfb192513d81ba2478d559402fc12c",
+      "bytes": 1948,
+      "purpose": "Archived neutral/fine-grid edge RGB profile summary, rim4; retain light top degradation and dark residuals."
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/menu-alert-visible-corners-20261113/menu32-secondary-grid-threshold-intervals.csv",
+      "sha256": "c46bf59776ffff3fe64f54f04a298f00646ea83d865e2b249a851cc9f1c2ce4a",
+      "bytes": 29790,
+      "purpose": "Secondary fine-grid dark menu threshold diagnostics, not primary shape validation. Export fixed 2..24 depth rows with all threshold crossings present; retain grid/rim/shadow contamination."
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/README.md",
+      "sha256": "bb0b54eedc21a7fc765201090486ec567645b0c37786523927e2feea624fbfbf",
+      "bytes": 5664,
+      "purpose": "Archived methodology: matched body input policy and distinction between mean RGB, complete horizontal profiles, and mismatched edge inputs."
+    },
+    {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/README.md",
+      "sha256": "5cd79d676a99d7859cfcbf5bd4baf2e94f6294d462a6d454921ba68bd5321aac",
+      "bytes": 4404,
+      "purpose": "Archived edge method: 16 logical units tangential average, interpolated original pixel centers, inward 0..6 RGB-profile RMSE; rim3 to rim4 failure retained."
+    },
+    {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/menu-alert-visible-corners-20261113/GPU32-VALIDATION.md",
+      "sha256": "5185feda7a81e65cdfd4e271a97bfcd8577c205ed19e3247fb33b57c9b2956b5",
+      "bytes": 7179,
+      "purpose": "Archived primary/secondary distinction, frozen fine-grid dark color thresholds 110/130/150, and native grid/rim/shadow dip explaining the retained outlier."
+    }
+  ]
+}

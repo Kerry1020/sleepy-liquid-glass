@@ -1,0 +1,830 @@
+{
+  "status": "not capture eligible; actual native central straightness unresolved",
+  "native_alert_AX_ltrb_pt": [
+    27.5,
+    257.5,
+    347.5,
+    429.5
+  ],
+  "AX_is_not_optical_contour": true,
+  "inherited_primary_top_ROIs_pt": [
+    [
+      62,
+      104
+    ],
+    [
+      271,
+      313
+    ]
+  ],
+  "proposed_central_ROI_is_new_not_inherited": true,
+  "proposed_output_row_centers_pt": {
+    "first": 257.75,
+    "last": 277.25,
+    "step": 0.5
+  },
+  "title_union_mask_ltrb_pt": [
+    55.5,
+    277.5,
+    319.5,
+    302.5
+  ],
+  "title_direct_output_clearance_last_row_pt": 0.25,
+  "no_sampling_beyond_last_clear_row": true,
+  "native_actual_central_tangent_invariance_confirmed": false,
+  "android_CPU_contour_scope": "Double replay from existing cubic summary, not GPU bit-equivalence/native raster proof",
+  "android_CPU_contour_offset_pt_range": [
+    -0.002535747508898498,
+    -4.736208777850441e-50
+  ],
+  "android_CPU_max_abs_tangent_slope": 9.104525093744858e-05,
+  "android_CPU_contour_samples": [
+    {
+      "world_x": 148.5,
+      "contour_offset_from_AX_top_pt": -0.002535747508898498,
+      "absolute_tangent_slope": 7.033945772768238e-05
+    },
+    {
+      "world_x": 149.0,
+      "contour_offset_from_AX_top_pt": -0.002500052153402027,
+      "absolute_tangent_slope": 7.242079378392101e-05
+    },
+    {
+      "world_x": 149.5,
+      "contour_offset_from_AX_top_pt": -0.0024633476457590407,
+      "absolute_tangent_slope": 7.437654351572832e-05
+    },
+    {
+      "world_x": 150.0,
+      "contour_offset_from_AX_top_pt": -0.002425696069417627,
+      "absolute_tangent_slope": 7.620953367506977e-05
+    },
+    {
+      "world_x": 150.5,
+      "contour_offset_from_AX_top_pt": -0.0023871581124257904,
+      "absolute_tangent_slope": 7.79225194695978e-05
+    },
+    {
+      "world_x": 151.0,
+      "contour_offset_from_AX_top_pt": -0.0023477931026709073,
+      "absolute_tangent_slope": 7.951818668113788e-05
+    },
+    {
+      "world_x": 151.5,
+      "contour_offset_from_AX_top_pt": -0.0023076590420781874,
+      "absolute_tangent_slope": 8.099915371160718e-05
+    },
+    {
+      "world_x": 152.0,
+      "contour_offset_from_AX_top_pt": -0.002266812639803743,
+      "absolute_tangent_slope": 8.236797355919528e-05
+    },
+    {
+      "world_x": 152.5,
+      "contour_offset_from_AX_top_pt": -0.002225309344456413,
+      "absolute_tangent_slope": 8.362713572751381e-05
+    },
+    {
+      "world_x": 153.0,
+      "contour_offset_from_AX_top_pt": -0.002183203375381262,
+      "absolute_tangent_slope": 8.477906807030012e-05
+    },
+    {
+      "world_x": 153.5,
+      "contour_offset_from_AX_top_pt": -0.002140547753036284,
+      "absolute_tangent_slope": 8.582613857415363e-05
+    },
+    {
+      "world_x": 154.0,
+      "contour_offset_from_AX_top_pt": -0.002097394328492765,
+      "absolute_tangent_slope": 8.677065708167196e-05
+    },
+    {
+      "world_x": 154.5,
+      "contour_offset_from_AX_top_pt": -0.002053793812088484,
+      "absolute_tangent_slope": 8.761487695725523e-05
+    },
+    {
+      "world_x": 155.0,
+      "contour_offset_from_AX_top_pt": -0.0020097958012618936,
+      "absolute_tangent_slope": 8.836099669774947e-05
+    },
+    {
+      "world_x": 155.5,
+      "contour_offset_from_AX_top_pt": -0.001965448807594341,
+      "absolute_tangent_slope": 8.901116149000649e-05
+    },
+    {
+      "world_x": 156.0,
+      "contour_offset_from_AX_top_pt": -0.0019208002830863654,
+      "absolute_tangent_slope": 8.956746471735241e-05
+    },
+    {
+      "world_x": 156.5,
+      "contour_offset_from_AX_top_pt": -0.001875896645693122,
+      "absolute_tangent_slope": 9.003194941687089e-05
+    },
+    {
+      "world_x": 157.0,
+      "contour_offset_from_AX_top_pt": -0.001830783304143077,
+      "absolute_tangent_slope": 9.040660968932884e-05
+    },
+    {
+      "world_x": 157.5,
+      "contour_offset_from_AX_top_pt": -0.001785504682063252,
+      "absolute_tangent_slope": 9.06933920634945e-05
+    },
+    {
+      "world_x": 158.0,
+      "contour_offset_from_AX_top_pt": -0.0017401042414332806,
+      "absolute_tangent_slope": 9.089419681652822e-05
+    },
+    {
+      "world_x": 158.5,
+      "contour_offset_from_AX_top_pt": -0.0016946245053900194,
+      "absolute_tangent_slope": 9.101087925205289e-05
+    },
+    {
+      "world_x": 159.0,
+      "contour_offset_from_AX_top_pt": -0.0016491070804032816,
+      "absolute_tangent_slope": 9.104525093744858e-05
+    },
+    {
+      "world_x": 159.5,
+      "contour_offset_from_AX_top_pt": -0.0016035926778428817,
+      "absolute_tangent_slope": 9.09990809018508e-05
+    },
+    {
+      "world_x": 160.0,
+      "contour_offset_from_AX_top_pt": -0.0015581211349561493,
+      "absolute_tangent_slope": 9.08740967962721e-05
+    },
+    {
+      "world_x": 160.5,
+      "contour_offset_from_AX_top_pt": -0.0015127314352746232,
+      "absolute_tangent_slope": 9.067198601720887e-05
+    },
+    {
+      "world_x": 161.0,
+      "contour_offset_from_AX_top_pt": -0.0014674617284677483,
+      "absolute_tangent_slope": 9.039439679504103e-05
+    },
+    {
+      "world_x": 161.5,
+      "contour_offset_from_AX_top_pt": -0.0014223493496609463,
+      "absolute_tangent_slope": 9.00429392484791e-05
+    },
+    {
+      "world_x": 162.0,
+      "contour_offset_from_AX_top_pt": -0.0013774308382346763,
+      "absolute_tangent_slope": 8.96191864062631e-05
+    },
+    {
+      "world_x": 162.5,
+      "contour_offset_from_AX_top_pt": -0.0013327419561206116,
+      "absolute_tangent_slope": 8.91246751972703e-05
+    },
+    {
+      "world_x": 163.0,
+      "contour_offset_from_AX_top_pt": -0.0012883177056103939,
+      "absolute_tangent_slope": 8.856090741014188e-05
+    },
+    {
+      "world_x": 163.5,
+      "contour_offset_from_AX_top_pt": -0.0012441923466920278,
+      "absolute_tangent_slope": 8.792935062349686e-05
+    },
+    {
+      "world_x": 164.0,
+      "contour_offset_from_AX_top_pt": -0.0012003994139282445,
+      "absolute_tangent_slope": 8.723143910775677e-05
+    },
+    {
+      "world_x": 164.5,
+      "contour_offset_from_AX_top_pt": -0.001156971732890887,
+      "absolute_tangent_slope": 8.64685746995673e-05
+    },
+    {
+      "world_x": 165.0,
+      "contour_offset_from_AX_top_pt": -0.0011139414361647179,
+      "absolute_tangent_slope": 8.56421276497635e-05
+    },
+    {
+      "world_x": 165.5,
+      "contour_offset_from_AX_top_pt": -0.0010713399789336901,
+      "absolute_tangent_slope": 8.475343744578841e-05
+    },
+    {
+      "world_x": 166.0,
+      "contour_offset_from_AX_top_pt": -0.0010291981541621638,
+      "absolute_tangent_slope": 8.380381360943897e-05
+    },
+    {
+      "world_x": 166.5,
+      "contour_offset_from_AX_top_pt": -0.00098754610738331,
+      "absolute_tangent_slope": 8.279453647078333e-05
+    },
+    {
+      "world_x": 167.0,
+      "contour_offset_from_AX_top_pt": -0.0009464133511062839,
+      "absolute_tangent_slope": 8.172685791905551e-05
+    },
+    {
+      "world_x": 167.5,
+      "contour_offset_from_AX_top_pt": -0.0009058287788535774,
+      "absolute_tangent_slope": 8.060200213130805e-05
+    },
+    {
+      "world_x": 168.0,
+      "contour_offset_from_AX_top_pt": -0.0008658206788394408,
+      "absolute_tangent_slope": 7.942116627957038e-05
+    },
+    {
+      "world_x": 168.5,
+      "contour_offset_from_AX_top_pt": -0.0008264167472999409,
+      "absolute_tangent_slope": 7.818552121723368e-05
+    },
+    {
+      "world_x": 169.0,
+      "contour_offset_from_AX_top_pt": -0.0007876441014848923,
+      "absolute_tangent_slope": 7.68962121453563e-05
+    },
+    {
+      "world_x": 169.5,
+      "contour_offset_from_AX_top_pt": -0.0007495292923214871,
+      "absolute_tangent_slope": 7.555435925955569e-05
+    },
+    {
+      "world_x": 170.0,
+      "contour_offset_from_AX_top_pt": -0.0007120983167592441,
+      "absolute_tangent_slope": 7.416105837813227e-05
+    },
+    {
+      "world_x": 170.5,
+      "contour_offset_from_AX_top_pt": -0.0006753766298053959,
+      "absolute_tangent_slope": 7.271738155204009e-05
+    },
+    {
+      "world_x": 171.0,
+      "contour_offset_from_AX_top_pt": -0.0006393891562597673,
+      "absolute_tangent_slope": 7.122437765730438e-05
+    },
+    {
+      "world_x": 171.5,
+      "contour_offset_from_AX_top_pt": -0.0006041603021576746,
+      "absolute_tangent_slope": 6.968307297045694e-05
+    },
+    {
+      "world_x": 172.0,
+      "contour_offset_from_AX_top_pt": -0.0005697139659292352,
+      "absolute_tangent_slope": 6.809447172754302e-05
+    },
+    {
+      "world_x": 172.5,
+      "contour_offset_from_AX_top_pt": -0.000536073549283206,
+      "absolute_tangent_slope": 6.64595566672342e-05
+    },
+    {
+      "world_x": 173.0,
+      "contour_offset_from_AX_top_pt": -0.0005032619678230912,
+      "absolute_tangent_slope": 6.477928955855758e-05
+    },
+    {
+      "world_x": 173.5,
+      "contour_offset_from_AX_top_pt": -0.000471301661403138,
+      "absolute_tangent_slope": 6.305461171373809e-05
+    },
+    {
+      "world_x": 174.0,
+      "contour_offset_from_AX_top_pt": -0.0004402146042315555,
+      "absolute_tangent_slope": 6.12864444866314e-05
+    },
+    {
+      "world_x": 174.5,
+      "contour_offset_from_AX_top_pt": -0.0004100223147279951,
+      "absolute_tangent_slope": 5.947568975720494e-05
+    },
+    {
+      "world_x": 175.0,
+      "contour_offset_from_AX_top_pt": -0.00038074586514220634,
+      "absolute_tangent_slope": 5.762323040251308e-05
+    },
+    {
+      "world_x": 175.5,
+      "contour_offset_from_AX_top_pt": -0.0003524058909404743,
+      "absolute_tangent_slope": 5.572993075459106e-05
+    },
+    {
+      "world_x": 176.0,
+      "contour_offset_from_AX_top_pt": -0.000325022599966305,
+      "absolute_tangent_slope": 5.379663704568305e-05
+    },
+    {
+      "world_x": 176.5,
+      "contour_offset_from_AX_top_pt": -0.00029861578138158505,
+      "absolute_tangent_slope": 5.1824177841200564e-05
+    },
+    {
+      "world_x": 177.0,
+      "contour_offset_from_AX_top_pt": -0.00027320481439423297,
+      "absolute_tangent_slope": 4.981336446079461e-05
+    },
+    {
+      "world_x": 177.5,
+      "contour_offset_from_AX_top_pt": -0.00024880867677822276,
+      "absolute_tangent_slope": 4.776499138791318e-05
+    },
+    {
+      "world_x": 178.0,
+      "contour_offset_from_AX_top_pt": -0.00022544595319162815,
+      "absolute_tangent_slope": 4.567983666820092e-05
+    },
+    {
+      "world_x": 178.5,
+      "contour_offset_from_AX_top_pt": -0.00020313484329818982,
+      "absolute_tangent_slope": 4.355866229708641e-05
+    },
+    {
+      "world_x": 179.0,
+      "contour_offset_from_AX_top_pt": -0.0001818931696976979,
+      "absolute_tangent_slope": 4.140221459688717e-05
+    },
+    {
+      "world_x": 179.5,
+      "contour_offset_from_AX_top_pt": -0.00016173838567041246,
+      "absolute_tangent_slope": 3.921122458376004e-05
+    },
+    {
+      "world_x": 180.0,
+      "contour_offset_from_AX_top_pt": -0.0001426875827404607,
+      "absolute_tangent_slope": 3.698640832480168e-05
+    },
+    {
+      "world_x": 180.5,
+      "contour_offset_from_AX_top_pt": -0.00012475749806308256,
+      "absolute_tangent_slope": 3.472846728560094e-05
+    },
+    {
+      "world_x": 181.0,
+      "contour_offset_from_AX_top_pt": -0.00010796452164043338,
+      "absolute_tangent_slope": 3.2438088668533436e-05
+    },
+    {
+      "world_x": 181.5,
+      "contour_offset_from_AX_top_pt": -9.232470337049186e-05,
+      "absolute_tangent_slope": 3.011594574207743e-05
+    },
+    {
+      "world_x": 182.0,
+      "contour_offset_from_AX_top_pt": -7.785375993349957e-05,
+      "absolute_tangent_slope": 2.776269816142114e-05
+    },
+    {
+      "world_x": 182.5,
+      "contour_offset_from_AX_top_pt": -6.456708152022625e-05,
+      "absolute_tangent_slope": 2.5378992280624557e-05
+    },
+    {
+      "world_x": 183.0,
+      "contour_offset_from_AX_top_pt": -5.2479738406193324e-05,
+      "absolute_tangent_slope": 2.2965461456582874e-05
+    },
+    {
+      "world_x": 183.5,
+      "contour_offset_from_AX_top_pt": -4.1606487375936505e-05,
+      "absolute_tangent_slope": 2.052272634504319e-05
+    },
+    {
+      "world_x": 184.0,
+      "contour_offset_from_AX_top_pt": -3.1961778001186804e-05,
+      "absolute_tangent_slope": 1.8051395188904394e-05
+    },
+    {
+      "world_x": 184.5,
+      "contour_offset_from_AX_top_pt": -2.3559758776779763e-05,
+      "absolute_tangent_slope": 1.555206409902909e-05
+    },
+    {
+      "world_x": 185.0,
+      "contour_offset_from_AX_top_pt": -1.6414283117990155e-05,
+      "absolute_tangent_slope": 1.3025317327790013e-05
+    },
+    {
+      "world_x": 185.5,
+      "contour_offset_from_AX_top_pt": -1.0538915222867277e-05,
+      "absolute_tangent_slope": 1.047172753556402e-05
+    },
+    {
+      "world_x": 186.0,
+      "contour_offset_from_AX_top_pt": -5.946935803038353e-06,
+      "absolute_tangent_slope": 7.891856050377304e-06
+    },
+    {
+      "world_x": 186.5,
+      "contour_offset_from_AX_top_pt": -2.6513476863600664e-06,
+      "absolute_tangent_slope": 5.286253120902104e-06
+    },
+    {
+      "world_x": 187.0,
+      "contour_offset_from_AX_top_pt": -6.648812946971051e-07,
+      "absolute_tangent_slope": 2.655458163000838e-06
+    },
+    {
+      "world_x": 187.5,
+      "contour_offset_from_AX_top_pt": -4.736208777850441e-50,
+      "absolute_tangent_slope": 7.108976509131214e-28
+    },
+    {
+      "world_x": 188.0,
+      "contour_offset_from_AX_top_pt": -6.648812946971051e-07,
+      "absolute_tangent_slope": 2.655458163000838e-06
+    },
+    {
+      "world_x": 188.5,
+      "contour_offset_from_AX_top_pt": -2.6513476863600664e-06,
+      "absolute_tangent_slope": 5.286253120902104e-06
+    },
+    {
+      "world_x": 189.0,
+      "contour_offset_from_AX_top_pt": -5.946935803038353e-06,
+      "absolute_tangent_slope": 7.891856050377304e-06
+    },
+    {
+      "world_x": 189.5,
+      "contour_offset_from_AX_top_pt": -1.0538915222867277e-05,
+      "absolute_tangent_slope": 1.047172753556402e-05
+    },
+    {
+      "world_x": 190.0,
+      "contour_offset_from_AX_top_pt": -1.6414283117990155e-05,
+      "absolute_tangent_slope": 1.3025317327790013e-05
+    },
+    {
+      "world_x": 190.5,
+      "contour_offset_from_AX_top_pt": -2.3559758776779763e-05,
+      "absolute_tangent_slope": 1.555206409902909e-05
+    },
+    {
+      "world_x": 191.0,
+      "contour_offset_from_AX_top_pt": -3.1961778001186804e-05,
+      "absolute_tangent_slope": 1.8051395188904394e-05
+    },
+    {
+      "world_x": 191.5,
+      "contour_offset_from_AX_top_pt": -4.1606487375936505e-05,
+      "absolute_tangent_slope": 2.052272634504319e-05
+    },
+    {
+      "world_x": 192.0,
+      "contour_offset_from_AX_top_pt": -5.2479738406193324e-05,
+      "absolute_tangent_slope": 2.2965461456582874e-05
+    },
+    {
+      "world_x": 192.5,
+      "contour_offset_from_AX_top_pt": -6.456708152022625e-05,
+      "absolute_tangent_slope": 2.5378992280624557e-05
+    },
+    {
+      "world_x": 193.0,
+      "contour_offset_from_AX_top_pt": -7.785375993349957e-05,
+      "absolute_tangent_slope": 2.776269816142114e-05
+    },
+    {
+      "world_x": 193.5,
+      "contour_offset_from_AX_top_pt": -9.232470337049186e-05,
+      "absolute_tangent_slope": 3.011594574207743e-05
+    },
+    {
+      "world_x": 194.0,
+      "contour_offset_from_AX_top_pt": -0.00010796452164043338,
+      "absolute_tangent_slope": 3.2438088668533436e-05
+    },
+    {
+      "world_x": 194.5,
+      "contour_offset_from_AX_top_pt": -0.00012475749806308256,
+      "absolute_tangent_slope": 3.472846728560094e-05
+    },
+    {
+      "world_x": 195.0,
+      "contour_offset_from_AX_top_pt": -0.0001426875827404607,
+      "absolute_tangent_slope": 3.698640832480168e-05
+    },
+    {
+      "world_x": 195.5,
+      "contour_offset_from_AX_top_pt": -0.00016173838567041246,
+      "absolute_tangent_slope": 3.921122458376004e-05
+    },
+    {
+      "world_x": 196.0,
+      "contour_offset_from_AX_top_pt": -0.0001818931696976979,
+      "absolute_tangent_slope": 4.140221459688717e-05
+    },
+    {
+      "world_x": 196.5,
+      "contour_offset_from_AX_top_pt": -0.00020313484329818982,
+      "absolute_tangent_slope": 4.355866229708641e-05
+    },
+    {
+      "world_x": 197.0,
+      "contour_offset_from_AX_top_pt": -0.00022544595319162815,
+      "absolute_tangent_slope": 4.567983666820092e-05
+    },
+    {
+      "world_x": 197.5,
+      "contour_offset_from_AX_top_pt": -0.00024880867677822276,
+      "absolute_tangent_slope": 4.776499138791318e-05
+    },
+    {
+      "world_x": 198.0,
+      "contour_offset_from_AX_top_pt": -0.00027320481439423297,
+      "absolute_tangent_slope": 4.981336446079461e-05
+    },
+    {
+      "world_x": 198.5,
+      "contour_offset_from_AX_top_pt": -0.00029861578138158505,
+      "absolute_tangent_slope": 5.1824177841200564e-05
+    },
+    {
+      "world_x": 199.0,
+      "contour_offset_from_AX_top_pt": -0.000325022599966305,
+      "absolute_tangent_slope": 5.379663704568305e-05
+    },
+    {
+      "world_x": 199.5,
+      "contour_offset_from_AX_top_pt": -0.0003524058909404743,
+      "absolute_tangent_slope": 5.572993075459106e-05
+    },
+    {
+      "world_x": 200.0,
+      "contour_offset_from_AX_top_pt": -0.00038074586514220634,
+      "absolute_tangent_slope": 5.762323040251308e-05
+    },
+    {
+      "world_x": 200.5,
+      "contour_offset_from_AX_top_pt": -0.0004100223147279951,
+      "absolute_tangent_slope": 5.947568975720494e-05
+    },
+    {
+      "world_x": 201.0,
+      "contour_offset_from_AX_top_pt": -0.0004402146042315555,
+      "absolute_tangent_slope": 6.12864444866314e-05
+    },
+    {
+      "world_x": 201.5,
+      "contour_offset_from_AX_top_pt": -0.000471301661403138,
+      "absolute_tangent_slope": 6.305461171373809e-05
+    },
+    {
+      "world_x": 202.0,
+      "contour_offset_from_AX_top_pt": -0.0005032619678230912,
+      "absolute_tangent_slope": 6.477928955855758e-05
+    },
+    {
+      "world_x": 202.5,
+      "contour_offset_from_AX_top_pt": -0.000536073549283206,
+      "absolute_tangent_slope": 6.64595566672342e-05
+    },
+    {
+      "world_x": 203.0,
+      "contour_offset_from_AX_top_pt": -0.0005697139659292352,
+      "absolute_tangent_slope": 6.809447172754302e-05
+    },
+    {
+      "world_x": 203.5,
+      "contour_offset_from_AX_top_pt": -0.0006041603021576746,
+      "absolute_tangent_slope": 6.968307297045694e-05
+    },
+    {
+      "world_x": 204.0,
+      "contour_offset_from_AX_top_pt": -0.0006393891562597673,
+      "absolute_tangent_slope": 7.122437765730438e-05
+    },
+    {
+      "world_x": 204.5,
+      "contour_offset_from_AX_top_pt": -0.0006753766298053959,
+      "absolute_tangent_slope": 7.271738155204009e-05
+    },
+    {
+      "world_x": 205.0,
+      "contour_offset_from_AX_top_pt": -0.0007120983167592441,
+      "absolute_tangent_slope": 7.416105837813227e-05
+    },
+    {
+      "world_x": 205.5,
+      "contour_offset_from_AX_top_pt": -0.0007495292923214871,
+      "absolute_tangent_slope": 7.555435925955569e-05
+    },
+    {
+      "world_x": 206.0,
+      "contour_offset_from_AX_top_pt": -0.0007876441014848923,
+      "absolute_tangent_slope": 7.68962121453563e-05
+    },
+    {
+      "world_x": 206.5,
+      "contour_offset_from_AX_top_pt": -0.0008264167472999409,
+      "absolute_tangent_slope": 7.818552121723368e-05
+    },
+    {
+      "world_x": 207.0,
+      "contour_offset_from_AX_top_pt": -0.0008658206788394408,
+      "absolute_tangent_slope": 7.942116627957038e-05
+    },
+    {
+      "world_x": 207.5,
+      "contour_offset_from_AX_top_pt": -0.0009058287788535774,
+      "absolute_tangent_slope": 8.060200213130805e-05
+    },
+    {
+      "world_x": 208.0,
+      "contour_offset_from_AX_top_pt": -0.0009464133511062839,
+      "absolute_tangent_slope": 8.172685791905551e-05
+    },
+    {
+      "world_x": 208.5,
+      "contour_offset_from_AX_top_pt": -0.00098754610738331,
+      "absolute_tangent_slope": 8.279453647078333e-05
+    },
+    {
+      "world_x": 209.0,
+      "contour_offset_from_AX_top_pt": -0.0010291981541621638,
+      "absolute_tangent_slope": 8.380381360943897e-05
+    },
+    {
+      "world_x": 209.5,
+      "contour_offset_from_AX_top_pt": -0.0010713399789336901,
+      "absolute_tangent_slope": 8.475343744578841e-05
+    },
+    {
+      "world_x": 210.0,
+      "contour_offset_from_AX_top_pt": -0.0011139414361647179,
+      "absolute_tangent_slope": 8.56421276497635e-05
+    },
+    {
+      "world_x": 210.5,
+      "contour_offset_from_AX_top_pt": -0.001156971732890887,
+      "absolute_tangent_slope": 8.64685746995673e-05
+    },
+    {
+      "world_x": 211.0,
+      "contour_offset_from_AX_top_pt": -0.0012003994139282445,
+      "absolute_tangent_slope": 8.723143910775677e-05
+    },
+    {
+      "world_x": 211.5,
+      "contour_offset_from_AX_top_pt": -0.0012441923466920278,
+      "absolute_tangent_slope": 8.792935062349686e-05
+    },
+    {
+      "world_x": 212.0,
+      "contour_offset_from_AX_top_pt": -0.0012883177056103939,
+      "absolute_tangent_slope": 8.856090741014188e-05
+    },
+    {
+      "world_x": 212.5,
+      "contour_offset_from_AX_top_pt": -0.0013327419561206116,
+      "absolute_tangent_slope": 8.91246751972703e-05
+    },
+    {
+      "world_x": 213.0,
+      "contour_offset_from_AX_top_pt": -0.0013774308382346763,
+      "absolute_tangent_slope": 8.96191864062631e-05
+    },
+    {
+      "world_x": 213.5,
+      "contour_offset_from_AX_top_pt": -0.0014223493496609463,
+      "absolute_tangent_slope": 9.00429392484791e-05
+    },
+    {
+      "world_x": 214.0,
+      "contour_offset_from_AX_top_pt": -0.0014674617284677483,
+      "absolute_tangent_slope": 9.039439679504103e-05
+    },
+    {
+      "world_x": 214.5,
+      "contour_offset_from_AX_top_pt": -0.0015127314352746232,
+      "absolute_tangent_slope": 9.067198601720887e-05
+    },
+    {
+      "world_x": 215.0,
+      "contour_offset_from_AX_top_pt": -0.0015581211349561493,
+      "absolute_tangent_slope": 9.08740967962721e-05
+    },
+    {
+      "world_x": 215.5,
+      "contour_offset_from_AX_top_pt": -0.0016035926778428817,
+      "absolute_tangent_slope": 9.09990809018508e-05
+    },
+    {
+      "world_x": 216.0,
+      "contour_offset_from_AX_top_pt": -0.0016491070804032816,
+      "absolute_tangent_slope": 9.104525093744858e-05
+    },
+    {
+      "world_x": 216.5,
+      "contour_offset_from_AX_top_pt": -0.0016946245053900194,
+      "absolute_tangent_slope": 9.101087925205289e-05
+    },
+    {
+      "world_x": 217.0,
+      "contour_offset_from_AX_top_pt": -0.0017401042414332806,
+      "absolute_tangent_slope": 9.089419681652822e-05
+    },
+    {
+      "world_x": 217.5,
+      "contour_offset_from_AX_top_pt": -0.001785504682063252,
+      "absolute_tangent_slope": 9.06933920634945e-05
+    },
+    {
+      "world_x": 218.0,
+      "contour_offset_from_AX_top_pt": -0.001830783304143077,
+      "absolute_tangent_slope": 9.040660968932884e-05
+    },
+    {
+      "world_x": 218.5,
+      "contour_offset_from_AX_top_pt": -0.001875896645693122,
+      "absolute_tangent_slope": 9.003194941687089e-05
+    },
+    {
+      "world_x": 219.0,
+      "contour_offset_from_AX_top_pt": -0.0019208002830863654,
+      "absolute_tangent_slope": 8.956746471735241e-05
+    },
+    {
+      "world_x": 219.5,
+      "contour_offset_from_AX_top_pt": -0.001965448807594341,
+      "absolute_tangent_slope": 8.901116149000649e-05
+    },
+    {
+      "world_x": 220.0,
+      "contour_offset_from_AX_top_pt": -0.0020097958012618936,
+      "absolute_tangent_slope": 8.836099669774947e-05
+    },
+    {
+      "world_x": 220.5,
+      "contour_offset_from_AX_top_pt": -0.002053793812088484,
+      "absolute_tangent_slope": 8.761487695725523e-05
+    },
+    {
+      "world_x": 221.0,
+      "contour_offset_from_AX_top_pt": -0.002097394328492765,
+      "absolute_tangent_slope": 8.677065708167196e-05
+    },
+    {
+      "world_x": 221.5,
+      "contour_offset_from_AX_top_pt": -0.002140547753036284,
+      "absolute_tangent_slope": 8.582613857415363e-05
+    },
+    {
+      "world_x": 222.0,
+      "contour_offset_from_AX_top_pt": -0.002183203375381262,
+      "absolute_tangent_slope": 8.477906807030012e-05
+    },
+    {
+      "world_x": 222.5,
+      "contour_offset_from_AX_top_pt": -0.002225309344456413,
+      "absolute_tangent_slope": 8.362713572751381e-05
+    },
+    {
+      "world_x": 223.0,
+      "contour_offset_from_AX_top_pt": -0.002266812639803743,
+      "absolute_tangent_slope": 8.236797355919528e-05
+    },
+    {
+      "world_x": 223.5,
+      "contour_offset_from_AX_top_pt": -0.0023076590420781874,
+      "absolute_tangent_slope": 8.099915371160718e-05
+    },
+    {
+      "world_x": 224.0,
+      "contour_offset_from_AX_top_pt": -0.0023477931026709073,
+      "absolute_tangent_slope": 7.951818668113788e-05
+    },
+    {
+      "world_x": 224.5,
+      "contour_offset_from_AX_top_pt": -0.0023871581124257904,
+      "absolute_tangent_slope": 7.79225194695978e-05
+    },
+    {
+      "world_x": 225.0,
+      "contour_offset_from_AX_top_pt": -0.002425696069417627,
+      "absolute_tangent_slope": 7.620953367506977e-05
+    },
+    {
+      "world_x": 225.5,
+      "contour_offset_from_AX_top_pt": -0.0024633476457590407,
+      "absolute_tangent_slope": 7.437654351572832e-05
+    },
+    {
+      "world_x": 226.0,
+      "contour_offset_from_AX_top_pt": -0.002500052153402027,
+      "absolute_tangent_slope": 7.242079378392101e-05
+    },
+    {
+      "world_x": 226.5,
+      "contour_offset_from_AX_top_pt": -0.002535747508898498,
+      "absolute_tangent_slope": 7.033945772768238e-05
+    }
+  ],
+  "backing_source_failure": "Proposed possible source coordinates y286..317.5 and x148.5..226.5 overlap native show-sheet AX x126.5..249,y286..319.5. Native optical footprint and blur support are not bounded.",
+  "decision": "Generate inspectable input proposals only; no loader/capture matrix approved; no inversion, fitting, parity or physical-thickness claim."
+}

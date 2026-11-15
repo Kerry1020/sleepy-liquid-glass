@@ -1,0 +1,7 @@
+{
+  "status": "rejected_as_thickness_fix_reverted",
+  "reason": "8Sheet and body controls pass, but mixed edges and light native blue bend becomes weaker: top .417003->.306947 vs native3.133626; bottom .358107->.198823 vs native2.732946. No production acceptance.",
+  "analysis": "analysis-alert-frost8/analysis.json",
+  "analysis_sha256": "84b5d638c4f7811ee7147600649d91f1df9892ad4454e61fe0b2d2ce75fd24f0",
+  "candidate_style_archive_sha256": "6a6fc0170131525e6f4d7feaf0efc9f0f70edbd7224e789ed9c7b6887e310a23"
+}

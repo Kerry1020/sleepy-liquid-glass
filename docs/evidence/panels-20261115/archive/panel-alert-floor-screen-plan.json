@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "kind": "screen-only-new-angular-floor",
+  "evidence": "bounded additive floor causes first-row62/62 and second-row30/62 red255 pixels absent from native/body8; original shoulder unchanged and nonclipped GB additions diagnose unbounded achromatic addition followed by final clamp",
+  "changes": "Keep lightAlert8 CPU flat.06 originalshine.16 and angularfloor.08 exactly. Separate only the floor increment into uShineFloorLit, keep inherited light additive, replace new delta addition by clamp(delta,0,1)*max(coverage-glass,0). No new/fitted gain or width. Enable only lightAlert. Sheet10 stays fixed as preceding radius10 API-response candidate; dark factories/null-input unchanged.",
+  "reference": "panels-sheet-radius10-20261115 holds same lightAlert bounded additive candidate and Sheet10. Alert existing inherited shine expression stays byte-identical in default and zero-delta branches.",
+  "checks": [
+    "Targeted78 checks including two new ABI/opt-in separation tests and APK build",
+    "Four nonperiodic light REST plus16 historical colors/themes/carriers",
+    "All124 known red-clipping points must have zero newly introduced255 compared with native/body8",
+    "Fixed neutral top at delta0 strictly unchanged, top side wings treated separately",
+    "Both Sheet10 actualWindows strict controls versus radius10; historical dark4 Alert and4 Sheet strict controls versus originaldark",
+    "All fixed RGB/derivative/corner/clipping regressions preserved, no parameter retuning or parity assertion"
+  ],
+  "prediction_limit": "Screening will reduce neutral side highlight as well; boundedness alone cannot establish the required brightness or native thickness. This is a distinct rejected-additive mechanism repair, not an appearance acceptance."
+}

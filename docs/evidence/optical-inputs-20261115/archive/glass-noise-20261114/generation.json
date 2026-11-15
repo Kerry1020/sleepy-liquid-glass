@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "freeze_sha256": "5f865bd7945337365b46616441ffc6690c7405d59200ea7cd567aacc1f117a4c",
+  "generated_utc": "2026-11-14T12:11:43.481422+00:00",
+  "dependencies": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "pillow": "11.3.0",
+    "littlecms2": "2.17"
+  },
+  "manifest_sha256": {
+    "calibration": "096d4c917ebfa7e8f83681b950d41df755da13da6e33d6e18e31bd7cd9ecef1c",
+    "test": "c0bf459fa970ccfe6dba439edc85db2e4d8d7006247765638c29148478bc6375"
+  },
+  "captures_consumed": 0,
+  "visual_input_selection": false,
+  "calibration_or_training_completed": false
+}

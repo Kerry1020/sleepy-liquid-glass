@@ -1,0 +1,227 @@
+{
+  "schema": 1,
+  "protocol_id": "glass_noise_static_texture_20261114_v1_draft",
+  "status": "draft, root review pending; numerical kernel and source/synthetic checks only; not frozen and no captured-output adapter yet",
+  "actual_noise_outputs_opened_by_this_analysis": 0,
+  "test_cases": [
+    "n01_rgb_noise_s0",
+    "n02_rgb_noise_s1",
+    "n03_rgb_noise_s2",
+    "n04_rgb_noise_s3"
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "test_policy": "These four RGB-noise output cases remain unopened holdout. Freeze complete method/capture adapter/model identity before one-time evaluation. If outputs guide changes, keep result and classify opened cases as calibration for the revised method/model; register disjoint new test. Dot-output use does not relabel these cases.",
+  "world_px": [
+    750,
+    1334
+  ],
+  "pixels_per_pt": 2,
+  "source_families": "Three Gaussian-correlated scales are mixed. Radial analysis bands are not recovered independent source scales or native physical blur.",
+  "candidate_identity": {
+    "name": "D46.5 unchanged historical captured candidate"
+  },
+  "capture_identity": {
+    "frozen_product_source_sha256": {
+      "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "fed973da52e7e6308d8289d6ff828004d04316a1ff849f5225ac4417a1f402be",
+      "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt": "43dc91d87ed5c6a427e26aca15902835261041bdf6ede2799d8017003dfad279",
+      "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "7dee70c322fd10d8e2281e801b319f4caf0b2e28b70b99cc40e9de8d9fd8b245"
+    },
+    "baseline_main_apk_sha256": "fbfdaee51500635b39a0bc65f12e7033ba946c9a0fa3f3bf24203be8ed1223f0",
+    "candidate_main_apk_sha256": "23d3b08b067029cc45b22528a4194cb8f9deab8931b1a1d4e8959bf9603f06c6",
+    "test_apk_sha256": "dbbb32812c298ca1f97cdfa49baaf563311eae7a5453b0fafecabde25040a8b0",
+    "native_runtime": "26.5/23F77"
+  },
+  "input_inventory_sha256": "9b4ae93a7f3dc32cfbc29039b61cc20c6123a41378251fde7690e0c2e772690a",
+  "dock_ltrb_px": [
+    42,
+    1168,
+    708,
+    1292
+  ],
+  "lens_ltrb_px": [
+    50,
+    1176,
+    226.5,
+    1284
+  ],
+  "interior_inset_px": 8,
+  "lens_exclusion_outset_px": 8,
+  "foreground_rects_ltrb_px": [
+    [
+      96,
+      1184,
+      182,
+      1280
+    ],
+    [
+      254,
+      1184,
+      340,
+      1280
+    ],
+    [
+      414,
+      1184,
+      500,
+      1280
+    ],
+    [
+      572,
+      1184,
+      658,
+      1280
+    ]
+  ],
+  "foreground_padding_px": 8,
+  "sparse_scroll_context_ltrb_px": [
+    32,
+    1186.4,
+    360,
+    1227.4
+  ],
+  "context_padding_px": 8,
+  "mask_geometry": "Pixel center x+.5,y+.5. Horizontal nominal capsule: radius half height, centers on mid-y, x clamped between l+r and right-r; strict distance<radius. Insets/outsets change rectangle before radius construction. Rectangles use half-open bounds. No decoded output or recovered alpha used.",
+  "rois": [
+    {
+      "id": "outside_right_control",
+      "bounds_ltrb_px": [
+        400,
+        1000,
+        700,
+        1124
+      ],
+      "mask_kind": "rectangle",
+      "exclude_context": false,
+      "context_status": "Fixed right-side off-Dock control intended to avoid sparse left text; no proof it is unaffected by native global context/adaptation."
+    },
+    {
+      "id": "base_interior",
+      "bounds_ltrb_px": [
+        42,
+        1168,
+        708,
+        1292
+      ],
+      "mask_kind": "base_interior",
+      "exclude_context": true,
+      "context_status": "Nominal inset base minus outset selected lens, padded glyph rectangles and padded sparse-scroll rectangle; residual/influence contamination remains possible."
+    },
+    {
+      "id": "selected_lens_interior",
+      "bounds_ltrb_px": [
+        42,
+        1168,
+        708,
+        1292
+      ],
+      "mask_kind": "lens_interior",
+      "exclude_context": true,
+      "context_status": "Nominal inset selected lens over base, minus same fixed padded context; do not pool with base material."
+    },
+    {
+      "id": "base_edge",
+      "bounds_ltrb_px": [
+        42,
+        1168,
+        708,
+        1292
+      ],
+      "mask_kind": "base_edge",
+      "exclude_context": true,
+      "context_status": "Nominal outer capsule minus inset and outset lens and padded context; not measured physical alpha/material boundary."
+    },
+    {
+      "id": "dock_context_diagnostic",
+      "bounds_ltrb_px": [
+        42,
+        1168,
+        708,
+        1292
+      ],
+      "mask_kind": "dock_context",
+      "exclude_context": false,
+      "context_status": "Context-retaining nominal Dock; foreground/selected lens/text remain. Descriptive composite only, never a clean material statistic."
+    }
+  ],
+  "channels": {
+    "R": "sRGB code value 0..255",
+    "G": "sRGB code value 0..255",
+    "B": "sRGB code value 0..255",
+    "Yprime": ".2126R+.7152G+.0722B, code-weighted scalar, not physical luminance",
+    "Ylinear": "u=c/255; linearized channel u/12.92 if u<=.04045, else ((u+.055)/1.055)^2.4; weighted .2126/.7152/.0722, normalized units, not measured scene radiance"
+  },
+  "color_policy": "Registered source RGB/profile/hash/pixel hash must match exactly. Future observed adapter must retain original bytes/container/profile assumptions, reject nonopaque input, convert profiled captures through frozen LittleCMS into sRGB without fitted mapping, and explicitly label any unprofiled sRGB assumption. Source-only checker reads frozen sRGB bytes directly.",
+  "spatial_statistics": "On fixed binary support: source/observed means and population variances, signed covariance, signed zero-lag covariance/sqrt(vs*vo), RMS texture ratio sqrt(vo/vs), raw difference mean and RMS. Means are removed only to define contrast statistics, never to normalize or recolor images. Ratios are not clamped to one.",
+  "fft": "Full two-sided numpy fft2 of W*(field-muW), W=mask*Hann(height)*Hann(width), muW=sum(W*field)/sum(W). No zero padding, interpolation, registration, frequency/phase fitting, detrending or optimized lag. Energies sum|F|^2/(N*sum(W**2)), cross energy sum Re(conj(Fs)*Fo)/(N*sum(W**2)). Signed spectral correlation Ec/sqrt(Es*Eo); power ratio Eo/Es; RMS ratio sqrt(Eo/Es). These are masked-window finite-field descriptors, not transfer-function estimates.",
+  "frequency_bands": [
+    {
+      "id": "coarse",
+      "cycles_per_px": [
+        0.00390625,
+        0.015625
+      ]
+    },
+    {
+      "id": "medium",
+      "cycles_per_px": [
+        0.015625,
+        0.0625
+      ]
+    },
+    {
+      "id": "fine",
+      "cycles_per_px": [
+        0.0625,
+        0.25
+      ]
+    },
+    {
+      "id": "sampling_tail_diagnostic",
+      "cycles_per_px": [
+        0.25,
+        0.7071067811875476
+      ]
+    }
+  ],
+  "frequency_membership": "sqrt(fx^2+fy^2), lower inclusive upper exclusive. Report full two-sided bin counts, total energy, unbinned low-frequency/DC energy and window diagnostics. At 2px/pt multiply numerical frequency by2 for cycles/pt. Low band has few y cycles in124px height and mask/window leakage. No radial-bin selection from outputs.",
+  "numerical_zero_threshold": 1e-24,
+  "undefined_semantics": "Any correlation denominator<=threshold gives null correlation plus raw energies/denominator and explicit reason; source energy<=threshold gives null power/RMS ratios. A blank output can give texture RMS ratio zero while correlation stays undefined. Threshold is arithmetic guard, not detectability/quality/acceptance gate.",
+  "aggregation": "All4 seeds and2 themes reported individually. Native repeat is stability only. Any seed summary is descriptive min/median/max with4 independent source realizations, never spatial-pixel p-values, fitted uncertainty or acceptance probability. Do not count ROI pixels/bins/themes/repeats as independent scenes.",
+  "capture_adapter_future_requirements": [
+    "No holdout decoding in this revision. Root must review and freeze complete method+adapter+candidate/model identity first.",
+    "Use native index exact750x1334 world and independently recorded source identity/theme; preserve REST+repeat.",
+    "Use Android result geometry source.screen_rect_px and unit local_to_screen basis; require750x1334 at2px/pt and integer world origin; crop only those metadata coordinates. No appearance alignment, resizing or one-pixel optimization.",
+    "Require REST, selected0, pointer_up and passed Window/display readiness; preserve actual theme/material observations separately from requested theme. Do not infer private adaptation state.",
+    "Read historical baseline/candidate outputs from corresponding captured identity, not modified current working source. Changing candidate requires separately registered captures; no recapture here.",
+    "Report source→each output and nativeREST→nativeRepeat separately; cross-system native/candidate comparison only descriptive fixed-coordinate composite, no physical inversion.",
+    "Hash and preserve all inputs and decode diagnostics in future run receipt; no overwrites."
+  ],
+  "limits": [
+    "No native thickness,IOR,blur,alpha or compositor implementation inversion.",
+    "No physical cross-system transmittance, material equivalence, per-millisecond equality or UI acceptance score.",
+    "Fixed padded foreground/context masks do not bound optical blur/refraction influence, and native/Android glyph/scroll contexts differ. No clean control-free paired native context.",
+    "Private native material adaptation is unobserved; observed public themes are not adaptation equivalence.",
+    "Finite masked FFT has leakage; nonstationary warp, occlusion, tint and foreground can change energy/correlation. An energy decrease is not uniquely blur; a negative correlation is not necessarily physical inversion.",
+    "Noise sources are designed finite seeded fields, not representative natural backgrounds.",
+    "No source,output,frequency,ROI or seed selection after decoding. Preserve negative/ambiguous/null/failed rows."
+  ],
+  "now_allowed": [
+    "read metadata",
+    "read c01–c04 calibration source PNGs",
+    "pure synthetic self-tests",
+    "draft method review"
+  ],
+  "now_forbidden": [
+    "read n01–n04 captured outputs",
+    "evaluate or tune D46.5 from noise test",
+    "relabel unopened tests calibration",
+    "recapture",
+    "build",
+    "device operation",
+    "Git",
+    "modify old freezes or results"
+  ]
+}

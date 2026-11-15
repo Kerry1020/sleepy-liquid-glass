@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "generated_utc": "2026-11-14T12:47:04.903914+00:00",
+  "protocol_sha256": "e0ca7d24ec7dd5db28b5aafc51eeaac486a4c62b7ce4c08d8342a329c75b1f2a",
+  "freeze_sha256": "c3a15180db0c122f28c1416f85cad1252acf2d25c6a4687e190f9b01e2ebc280",
+  "fixture_png_count": 16,
+  "pair_metadata_count": 8,
+  "manifest_sha256": {
+    "calibration": "4f69c2f5ca826fbddf31f04ca429d377ce329408fe65761692546790c9b4ff75",
+    "test": "ba5f6ddd463505299ddc8245d8b3e6b4dd4dc932fb2405e56a55f777420cf95f"
+  },
+  "atlas_sha256": "115b6fa16c7dc6c89039e5e2564b583fbb25c2e6e9887e004ee55abe3c98464d",
+  "captures": 0,
+  "product_changes": 0
+}

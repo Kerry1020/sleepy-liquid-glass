@@ -1,0 +1,17 @@
+stage,background,theme,edge,rgb_profile_rmse_0_to_6_8bit
+rim3,fine_grid,light,left,5.551976850394298
+rim3,fine_grid,light,right,9.018607662718695
+rim3,fine_grid,light,top,3.1439516616135283
+rim3,fine_grid,light,bottom,5.039148270363746
+rim3,fine_grid,dark,left,12.777861567318086
+rim3,fine_grid,dark,right,10.326799714411527
+rim3,fine_grid,dark,top,11.636878328933225
+rim3,fine_grid,dark,bottom,8.07858637297237
+rim4,fine_grid,light,left,2.003642324612862
+rim4,fine_grid,light,right,6.100227214489138
+rim4,fine_grid,light,top,3.9924013220834667
+rim4,fine_grid,light,bottom,4.88531207883734
+rim4,fine_grid,dark,left,8.08231747137752
+rim4,fine_grid,dark,right,8.331621554244515
+rim4,fine_grid,dark,top,10.280208201380619
+rim4,fine_grid,dark,bottom,7.759025435537737

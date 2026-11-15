@@ -1,0 +1,30 @@
+[
+  {
+    "distance_pt": 0.25,
+    "RGB255_count": 142,
+    "any255_count": 142,
+    "pixel_count": 190,
+    "strictly_equal_outlinezero": true
+  },
+  {
+    "distance_pt": 0.75,
+    "RGB255_count": 0,
+    "any255_count": 0,
+    "pixel_count": 190,
+    "strictly_equal_outlinezero": true
+  },
+  {
+    "distance_pt": 1.25,
+    "RGB255_count": 0,
+    "any255_count": 0,
+    "pixel_count": 190,
+    "strictly_equal_outlinezero": true
+  },
+  {
+    "distance_pt": 1.75,
+    "RGB255_count": 0,
+    "any255_count": 0,
+    "pixel_count": 190,
+    "strictly_equal_outlinezero": true
+  }
+]

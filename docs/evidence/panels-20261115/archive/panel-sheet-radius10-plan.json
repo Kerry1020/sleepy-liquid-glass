@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "kind": "light-sheet-api-radius-response",
+  "changes": "Only light Sheet blur input12->10, true-radius mode already active at12. Alert remains bounded-rim body8; dark original factories/null mode unchanged.",
+  "reference": "panels-sheet-radius12-control-20261115: all4 actualWindows and2 backgroundWindows strict RGBA zero-difference versus preceding bounded-rim candidate",
+  "analysis_plan": "analysis-native-probes/sheet-body6-plan.json",
+  "analysis_plan_sha256": "fbd358aef373d8f7bbd981261826063168ddb2312f21f2a8abe76a8ea1174a07",
+  "routing_limit": "Exact shared-band lookup supports2.5/12/16. API input12->10 deterministically routes shared12 to local input prefilter. This is the deployed API engineering response including that route change, not isolated equality of Gaussian executions.",
+  "checks": [
+    "Freeze GlassHost and GlassFilterBands sources in addition to existing source manifest",
+    "Same four nonperiodic light REST; source/geometry readiness mandatory",
+    "Alert strict actualWindow zero-difference control",
+    "All14 frozen S07 rows and all fixed regions/corners preserved without relaxing gates or selecting only passing rows"
+  ],
+  "limits": "Radius6 is not executed or inferred; no optimal radius, physical thickness, independent-test or material parity claim."
+}

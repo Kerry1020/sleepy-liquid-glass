@@ -1,0 +1,1199 @@
+{
+  "schema": 1,
+  "publication_date": "2026-11-15",
+  "scope": "Controlled synthetic inputs and already-observed fixed-size static optical diagnostics; not native parity acceptance.",
+  "unopened_outputs_accessed": false,
+  "device_or_build_operations": false,
+  "records": [
+    {
+      "source_namespace": "glass-noise-20261114/README.md",
+      "source_sha256": "d367ed630952f1ad67ef6797e1fbf7d4542f60b348172424346a0c14078f42d5",
+      "source_bytes": 3355,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/README.md",
+      "published_sha256": "d367ed630952f1ad67ef6797e1fbf7d4542f60b348172424346a0c14078f42d5",
+      "published_bytes": 3355,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/generate.py",
+      "source_sha256": "7161bf0b28083e7c60b68d89bc5d091dd6622ea455000b884e0eab63ff076f29",
+      "source_bytes": 14992,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/generate.py",
+      "published_sha256": "7161bf0b28083e7c60b68d89bc5d091dd6622ea455000b884e0eab63ff076f29",
+      "published_bytes": 14992,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/protocol.json",
+      "source_sha256": "716847d57d155dee9ee7c23d2ff725e01c19702fae9039be87d34a375909fb71",
+      "source_bytes": 6166,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/protocol.json",
+      "published_sha256": "716847d57d155dee9ee7c23d2ff725e01c19702fae9039be87d34a375909fb71",
+      "published_bytes": 6166,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/freeze.json",
+      "source_sha256": "5f865bd7945337365b46616441ffc6690c7405d59200ea7cd567aacc1f117a4c",
+      "source_bytes": 747,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/freeze.json",
+      "published_sha256": "5f865bd7945337365b46616441ffc6690c7405d59200ea7cd567aacc1f117a4c",
+      "published_bytes": 747,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/sRGB.icc",
+      "source_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+      "source_bytes": 588,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/sRGB.icc",
+      "published_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+      "published_bytes": 588,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/calibration/manifest.json",
+      "source_sha256": "096d4c917ebfa7e8f83681b950d41df755da13da6e33d6e18e31bd7cd9ecef1c",
+      "source_bytes": 4656,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/calibration/manifest.json",
+      "published_sha256": "096d4c917ebfa7e8f83681b950d41df755da13da6e33d6e18e31bd7cd9ecef1c",
+      "published_bytes": 4656,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/test/manifest.json",
+      "source_sha256": "c0bf459fa970ccfe6dba439edc85db2e4d8d7006247765638c29148478bc6375",
+      "source_bytes": 4645,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/test/manifest.json",
+      "published_sha256": "c0bf459fa970ccfe6dba439edc85db2e4d8d7006247765638c29148478bc6375",
+      "published_bytes": 4645,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/README.md",
+      "source_sha256": "0c54bca9fdc42dff36a1b60c5e620bbeb29f96a17aeafb38f65d63538b5e3684",
+      "source_bytes": 3229,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/README.md",
+      "published_sha256": "0c54bca9fdc42dff36a1b60c5e620bbeb29f96a17aeafb38f65d63538b5e3684",
+      "published_bytes": 3229,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/generate.py",
+      "source_sha256": "f51ec20b02aff4dc38a6f4fe8aa64e3d48ba9851b22574445d6cd88374ddd5c9",
+      "source_bytes": 20266,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/generate.py",
+      "published_sha256": "f51ec20b02aff4dc38a6f4fe8aa64e3d48ba9851b22574445d6cd88374ddd5c9",
+      "published_bytes": 20266,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/protocol.json",
+      "source_sha256": "e0ca7d24ec7dd5db28b5aafc51eeaac486a4c62b7ce4c08d8342a329c75b1f2a",
+      "source_bytes": 6901,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/protocol.json",
+      "published_sha256": "e0ca7d24ec7dd5db28b5aafc51eeaac486a4c62b7ce4c08d8342a329c75b1f2a",
+      "published_bytes": 6901,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/freeze.json",
+      "source_sha256": "c3a15180db0c122f28c1416f85cad1252acf2d25c6a4687e190f9b01e2ebc280",
+      "source_bytes": 827,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/freeze.json",
+      "published_sha256": "c3a15180db0c122f28c1416f85cad1252acf2d25c6a4687e190f9b01e2ebc280",
+      "published_bytes": 827,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/sRGB.icc",
+      "source_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+      "source_bytes": 588,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/sRGB.icc",
+      "published_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+      "published_bytes": 588,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/manifest.json",
+      "source_sha256": "4f69c2f5ca826fbddf31f04ca429d377ce329408fe65761692546790c9b4ff75",
+      "source_bytes": 5710,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/manifest.json",
+      "published_sha256": "4f69c2f5ca826fbddf31f04ca429d377ce329408fe65761692546790c9b4ff75",
+      "published_bytes": 5710,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/test/manifest.json",
+      "source_sha256": "ba5f6ddd463505299ddc8245d8b3e6b4dd4dc932fb2405e56a55f777420cf95f",
+      "source_bytes": 5699,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/test/manifest.json",
+      "published_sha256": "ba5f6ddd463505299ddc8245d8b3e6b4dd4dc932fb2405e56a55f777420cf95f",
+      "published_bytes": 5699,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/generation.json",
+      "source_sha256": "05e22cc0a0bb3f8621b2831d5774d25bc88abc5fbcdc65ee898c968f2fa74f0f",
+      "source_bytes": 580,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/generation.json",
+      "published_sha256": "05e22cc0a0bb3f8621b2831d5774d25bc88abc5fbcdc65ee898c968f2fa74f0f",
+      "published_bytes": 580,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/verification.json",
+      "source_sha256": "97c98f2e2824b78217e7e422d4cd05e9067fe027baef44dbfee50e25817bbebf",
+      "source_bytes": 1435,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/verification.json",
+      "published_sha256": "97c98f2e2824b78217e7e422d4cd05e9067fe027baef44dbfee50e25817bbebf",
+      "published_bytes": 1435,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/generation-report.json",
+      "source_sha256": "b87e815beed4edd8a1900e7f7bc77164360ad3ee7658c16f2e230f682461ad99",
+      "source_bytes": 625,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/generation-report.json",
+      "published_sha256": "b87e815beed4edd8a1900e7f7bc77164360ad3ee7658c16f2e230f682461ad99",
+      "published_bytes": 625,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/verification-report.json",
+      "source_sha256": "b8d2539d90fae901a0159f78428d3df9a9f45cb88ff91c7aa660a51b04cb6531",
+      "source_bytes": 2990,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/verification-report.json",
+      "published_sha256": "b8d2539d90fae901a0159f78428d3df9a9f45cb88ff91c7aa660a51b04cb6531",
+      "published_bytes": 2990,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/calibration/c05_dots_s0.points.json",
+      "source_sha256": "bf9711c0b88b01437a5a18646eaf5765df8c6892cc8baec4c150532c916d11ed",
+      "source_bytes": 1895898,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/calibration/c05_dots_s0.points.json.gz",
+      "published_sha256": "6cf9d995b4b34ac9240d6b379448d84c2bc5a0a1511327f2b4a91410520fb7ac",
+      "published_bytes": 209834,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/calibration/c06_dots_s1.points.json",
+      "source_sha256": "35931e04110350106e78da1f8f71ff9711ba9c3089a1d5619a07d3b120709894",
+      "source_bytes": 1896696,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/calibration/c06_dots_s1.points.json.gz",
+      "published_sha256": "176cfc76d68b7087b81aaa00ef8bf8bb99e8ebc62f4ac3c353760a4b558f7780",
+      "published_bytes": 209818,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/calibration/c07_dots_s2.points.json",
+      "source_sha256": "2194757313fa9e5a994d3cd2acd1476eacd3d7b081929a6460f6d7de5893159a",
+      "source_bytes": 1894937,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/calibration/c07_dots_s2.points.json.gz",
+      "published_sha256": "25dd63563e76286e657d93e2a3a580347cb8b2f93a204b61eeabb167799d8e69",
+      "published_bytes": 209449,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/calibration/c08_dots_s3.points.json",
+      "source_sha256": "9968c4e29622da734913097cb779dbaf672066dd29546d1b0e5532f7f796f6aa",
+      "source_bytes": 1894808,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/calibration/c08_dots_s3.points.json.gz",
+      "published_sha256": "5e23c9941e07aedd82bda248cfb56ea9d5d45d6f725b37b85beed0219bc392b8",
+      "published_bytes": 209262,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/test/n05_dots_s0.points.json",
+      "source_sha256": "6a34eabc15cce1917956ff256626bd8b836a541e0fc21965b35fe95bd6032169",
+      "source_bytes": 1896661,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/test/n05_dots_s0.points.json.gz",
+      "published_sha256": "8bd99b605d1b0464955271ab412eacc2c13cabfa02c3297996de2e1fb58b9ce8",
+      "published_bytes": 209870,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/test/n06_dots_s1.points.json",
+      "source_sha256": "25f2850bdb7437054e973cb4ed0d6d3789e713223f29e1cb9543934a5ed6d406",
+      "source_bytes": 1897590,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/test/n06_dots_s1.points.json.gz",
+      "published_sha256": "71ba6f5177c4f2eab4b885907abad134608b12521b1151b76b9d24616ec0c8f3",
+      "published_bytes": 210024,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/test/n07_dots_s2.points.json",
+      "source_sha256": "b7215f7f28c0e3c3a402f89623ac7b50597f67abf4bfdb3b21361c5865f10ecd",
+      "source_bytes": 1894842,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/test/n07_dots_s2.points.json.gz",
+      "published_sha256": "5157c8c61836ea53f3f1a0584b93d5bce4b8ef443970a8e39df3363d3a31e897",
+      "published_bytes": 209553,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/test/n08_dots_s3.points.json",
+      "source_sha256": "5305bef18c1c4ab942d6c72bbe40ea2ddcef0fac9665bd813628d0a88a6104d6",
+      "source_bytes": 1897184,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/test/n08_dots_s3.points.json.gz",
+      "published_sha256": "981bfc2eb2985e34fdd4b9135985158bb16f51511e522cadfb0081aa37d17af1",
+      "published_bytes": 209904,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/ic01_circle_top.geometry.json",
+      "source_sha256": "684522aae84caa8422e4c92593e72d8699314852c6fb1806764811c7c88bb7f1",
+      "source_bytes": 37865,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/ic01_circle_top.geometry.json",
+      "published_sha256": "684522aae84caa8422e4c92593e72d8699314852c6fb1806764811c7c88bb7f1",
+      "published_bytes": 37865,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/ic01_circle_top_control.png",
+      "source_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "source_bytes": 5221,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/ic01_circle_top_control.png",
+      "published_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "published_bytes": 5221,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/ic01_circle_top_shape.png",
+      "source_sha256": "00758f2979f5f2434a01afdbb964803962732839d26ce4fd48379caaa502169e",
+      "source_bytes": 5903,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/ic01_circle_top_shape.png",
+      "published_sha256": "00758f2979f5f2434a01afdbb964803962732839d26ce4fd48379caaa502169e",
+      "published_bytes": 5903,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/ic02_triangle_body.geometry.json",
+      "source_sha256": "4eb9ebf7af1a99faecf18c89b9e5bbb855ae9fdda3368a6a804a5a852bf1d68b",
+      "source_bytes": 23214,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/ic02_triangle_body.geometry.json",
+      "published_sha256": "4eb9ebf7af1a99faecf18c89b9e5bbb855ae9fdda3368a6a804a5a852bf1d68b",
+      "published_bytes": 23214,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/ic02_triangle_body_control.png",
+      "source_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "source_bytes": 5221,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/ic02_triangle_body_control.png",
+      "published_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "published_bytes": 5221,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/ic02_triangle_body_shape.png",
+      "source_sha256": "cdb2b38f7d44e0088fa7e0c581e75c19384fb95a70eeaa362beb811009b2fc60",
+      "source_bytes": 5692,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/ic02_triangle_body_shape.png",
+      "published_sha256": "cdb2b38f7d44e0088fa7e0c581e75c19384fb95a70eeaa362beb811009b2fc60",
+      "published_bytes": 5692,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/ic03_star_right.geometry.json",
+      "source_sha256": "1ac5123d9212937933b9d1dc17c73c99ea77653a746da967df4b74e6523c1a71",
+      "source_bytes": 29063,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/ic03_star_right.geometry.json",
+      "published_sha256": "1ac5123d9212937933b9d1dc17c73c99ea77653a746da967df4b74e6523c1a71",
+      "published_bytes": 29063,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/ic03_star_right_control.png",
+      "source_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "source_bytes": 5221,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/ic03_star_right_control.png",
+      "published_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "published_bytes": 5221,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/ic03_star_right_shape.png",
+      "source_sha256": "e6cfa715b01956a8d6225bb322b97d1936d12cc573b2bbe6c9ec1bf2a406c831",
+      "source_bytes": 5957,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/ic03_star_right_shape.png",
+      "published_sha256": "e6cfa715b01956a8d6225bb322b97d1936d12cc573b2bbe6c9ec1bf2a406c831",
+      "published_bytes": 5957,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/ic04_asymmetric_lower.geometry.json",
+      "source_sha256": "6e231b661f3bfaa03d21dd7711c2e6ee8e5a57e1fdcfc2c40e68600c2c1169b4",
+      "source_bytes": 30977,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/ic04_asymmetric_lower.geometry.json",
+      "published_sha256": "6e231b661f3bfaa03d21dd7711c2e6ee8e5a57e1fdcfc2c40e68600c2c1169b4",
+      "published_bytes": 30977,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/ic04_asymmetric_lower_control.png",
+      "source_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "source_bytes": 5221,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/ic04_asymmetric_lower_control.png",
+      "published_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "published_bytes": 5221,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/calibration/ic04_asymmetric_lower_shape.png",
+      "source_sha256": "d33a06aa300a7118ffd4cc3aed8bfba766a5693660558a639d2ab941bf0ff83a",
+      "source_bytes": 5853,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/calibration/ic04_asymmetric_lower_shape.png",
+      "published_sha256": "d33a06aa300a7118ffd4cc3aed8bfba766a5693660558a639d2ab941bf0ff83a",
+      "published_bytes": 5853,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/test/it01_circle_top.geometry.json",
+      "source_sha256": "0d774718eeba50a4e4de06da12dbb3eb74570f19c687e14406bf238c17541f5d",
+      "source_bytes": 22654,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/test/it01_circle_top.geometry.json",
+      "published_sha256": "0d774718eeba50a4e4de06da12dbb3eb74570f19c687e14406bf238c17541f5d",
+      "published_bytes": 22654,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/test/it02_triangle_body.geometry.json",
+      "source_sha256": "68e7aed99bc3400e33c58bb26010a1f4b66cabfb1002e182aa00c1f4054c9334",
+      "source_bytes": 25007,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/test/it02_triangle_body.geometry.json",
+      "published_sha256": "68e7aed99bc3400e33c58bb26010a1f4b66cabfb1002e182aa00c1f4054c9334",
+      "published_bytes": 25007,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/test/it03_star_right.geometry.json",
+      "source_sha256": "64297542388acadeb1ed2965d43ddeb31868f9ea425af44d7fc9b088dd94b4a8",
+      "source_bytes": 22081,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/test/it03_star_right.geometry.json",
+      "published_sha256": "64297542388acadeb1ed2965d43ddeb31868f9ea425af44d7fc9b088dd94b4a8",
+      "published_bytes": 22081,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/test/it04_asymmetric_lower.geometry.json",
+      "source_sha256": "34b6dc835c0058f91a26d84675df92f10514db79b5221f415bf44e576bf8a15b",
+      "source_bytes": 22242,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/test/it04_asymmetric_lower.geometry.json",
+      "published_sha256": "34b6dc835c0058f91a26d84675df92f10514db79b5221f415bf44e576bf8a15b",
+      "published_bytes": 22242,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/input-atlas.png",
+      "source_sha256": "115b6fa16c7dc6c89039e5e2564b583fbb25c2e6e9887e004ee55abe3c98464d",
+      "source_bytes": 31391,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/input-atlas.png",
+      "published_sha256": "115b6fa16c7dc6c89039e5e2564b583fbb25c2e6e9887e004ee55abe3c98464d",
+      "published_bytes": 31391,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/input-atlas.png",
+      "source_sha256": "115b6fa16c7dc6c89039e5e2564b583fbb25c2e6e9887e004ee55abe3c98464d",
+      "source_bytes": 31391,
+      "published": "docs/images/optical-inputs-20261115/isolated-source-atlas.png",
+      "published_sha256": "115b6fa16c7dc6c89039e5e2564b583fbb25c2e6e9887e004ee55abe3c98464d",
+      "published_bytes": 31391,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/README.md",
+      "source_sha256": "16a1cc5bb74cc842041ada4c254bb71d80e81e1d8725ddc6d03f31fec56f14a6",
+      "source_bytes": 8699,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/README.md",
+      "published_sha256": "16a1cc5bb74cc842041ada4c254bb71d80e81e1d8725ddc6d03f31fec56f14a6",
+      "published_bytes": 8699,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/STATIC-RESULTS.md",
+      "source_sha256": "79e1cae1c2b766287aace566ec40bb529514adf7baf733dee89920b86a2af6eb",
+      "source_bytes": 2783,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/STATIC-RESULTS.md",
+      "published_sha256": "79e1cae1c2b766287aace566ec40bb529514adf7baf733dee89920b86a2af6eb",
+      "published_bytes": 2783,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/track_dots_v2.py",
+      "source_sha256": "be42b444c4bfedd1b626e29ff2530dff391d0bcc5fd06fedf6493aea06187b16",
+      "source_bytes": 47107,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/track_dots_v2.py",
+      "published_sha256": "be42b444c4bfedd1b626e29ff2530dff391d0bcc5fd06fedf6493aea06187b16",
+      "published_bytes": 47107,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/tracking-protocol-v2.json",
+      "source_sha256": "836c1db7a6bbcc633ea75d732740ed7008181d4c76e8be8ca3626de78bb15381",
+      "source_bytes": 3877,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/tracking-protocol-v2.json",
+      "published_sha256": "836c1db7a6bbcc633ea75d732740ed7008181d4c76e8be8ca3626de78bb15381",
+      "published_bytes": 3877,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/frozen-tracker-v2.json",
+      "source_sha256": "c4cee49a828034234cda23fbd6b7d46df5f64e14041c6fb96a267267cf0e6e60",
+      "source_bytes": 2751,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/frozen-tracker-v2.json",
+      "published_sha256": "c4cee49a828034234cda23fbd6b7d46df5f64e14041c6fb96a267267cf0e6e60",
+      "published_bytes": 2751,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/tracker-v1-review.md",
+      "source_sha256": "38def243bd34f8d73d80054c03816150ab0d9380259a062964ec7a094b4f8714",
+      "source_bytes": 6518,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/tracker-v1-review.md",
+      "published_sha256": "38def243bd34f8d73d80054c03816150ab0d9380259a062964ec7a094b4f8714",
+      "published_bytes": 6518,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/tracker-v2-independent-review.json",
+      "source_sha256": "dc47222768f0292b2b5b8754da209c6ad3f0c6e2c8b9a129e4662a86db04989c",
+      "source_bytes": 2379,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/tracker-v2-independent-review.json",
+      "published_sha256": "dc47222768f0292b2b5b8754da209c6ad3f0c6e2c8b9a129e4662a86db04989c",
+      "published_bytes": 2379,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/tracking-summary-v2/summary.json",
+      "source_sha256": "7ced94913875367a7620a0be79ea86ce7165e4d2ad0e4d93d29d2f8a0a4aa2f7",
+      "source_bytes": 13939,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/tracking-summary-v2/summary.json",
+      "published_sha256": "7ced94913875367a7620a0be79ea86ce7165e4d2ad0e4d93d29d2f8a0a4aa2f7",
+      "published_bytes": 13939,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/tracking-summary-v2/status-counts.csv",
+      "source_sha256": "99121cb82bf8d99d5b240cbfffaeb3ab222b79958b96c967c594723305c457eb",
+      "source_bytes": 5227,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/tracking-summary-v2/status-counts.csv",
+      "published_sha256": "99121cb82bf8d99d5b240cbfffaeb3ab222b79958b96c967c594723305c457eb",
+      "published_bytes": 5227,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/tracking-summary-v2/conditional-center-differences.csv",
+      "source_sha256": "821fd5cc0e5b1cee37d5b2864b5eafa43b5530c6ce1dec665fb01278ec0dcb6c",
+      "source_bytes": 2861,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/tracking-summary-v2/conditional-center-differences.csv",
+      "published_sha256": "821fd5cc0e5b1cee37d5b2864b5eafa43b5530c6ce1dec665fb01278ec0dcb6c",
+      "published_bytes": 2861,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/rejection-audit-n05-light-native/README.md",
+      "source_sha256": "f06f5d401e369252fc2f4c03e2693fe3bec0a2ac28be0ebb7de2f180e7dfcb30",
+      "source_bytes": 9231,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/rejection-audit-n05-light-native/README.md",
+      "published_sha256": "f06f5d401e369252fc2f4c03e2693fe3bec0a2ac28be0ebb7de2f180e7dfcb30",
+      "published_bytes": 9231,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/rejection-audit-n05-light-native/rejection-summary.json",
+      "source_sha256": "6bbe972131543a8af656b57db9e4f9f81d6b636c116c4a4005f94552e44c6d93",
+      "source_bytes": 9161,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/rejection-audit-n05-light-native/rejection-summary.json",
+      "published_sha256": "6bbe972131543a8af656b57db9e4f9f81d6b636c116c4a4005f94552e44c6d93",
+      "published_bytes": 9161,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/rejection-audit-n05-light-native/per-source-rejection-summary.csv",
+      "source_sha256": "6172397128503da2087ac3b6f022f03a0e744b94c65e6988aa24af556e0060b4",
+      "source_bytes": 29029,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/rejection-audit-n05-light-native/per-source-rejection-summary.csv",
+      "published_sha256": "6172397128503da2087ac3b6f022f03a0e744b94c65e6988aa24af556e0060b4",
+      "published_bytes": 29029,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/noise-analysis/README.md",
+      "source_sha256": "aac48b12f244f54a82fdd37b47527cf9591f97f1b8376a0c174fab941bc6746d",
+      "source_bytes": 4251,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/noise-analysis/README.md",
+      "published_sha256": "aac48b12f244f54a82fdd37b47527cf9591f97f1b8376a0c174fab941bc6746d",
+      "published_bytes": 4251,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/noise-analysis/protocol.json",
+      "source_sha256": "accd55fbab5eae80983e4150f516e7c413d689b3a8f33d3e46ab3b5fff5621ff",
+      "source_bytes": 10476,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/noise-analysis/protocol.json",
+      "published_sha256": "accd55fbab5eae80983e4150f516e7c413d689b3a8f33d3e46ab3b5fff5621ff",
+      "published_bytes": 10476,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/noise-analysis/analyze_noise.py",
+      "source_sha256": "ec5aca7900c57e33fc55e028bd7e665775cbdd785528d4c9a995b2e918746d50",
+      "source_bytes": 14739,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/noise-analysis/analyze_noise.py",
+      "published_sha256": "ec5aca7900c57e33fc55e028bd7e665775cbdd785528d4c9a995b2e918746d50",
+      "published_bytes": 14739,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/next-stage-dynamic-controlled-shapes-protocol.md",
+      "source_sha256": "67f17fff70256b0691dbfca0a6eb3018ac9b299adb4523f09d5f219e91441cbb",
+      "source_bytes": 45565,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/next-stage-dynamic-controlled-shapes-protocol.md",
+      "published_sha256": "67f17fff70256b0691dbfca0a6eb3018ac9b299adb4523f09d5f219e91441cbb",
+      "published_bytes": 45565,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/next-stage-dynamic-controlled-shapes-protocol.json",
+      "source_sha256": "f90a0458b1015458c843008e020fef50f207c11d6082c955766fb408ef3ffe32",
+      "source_bytes": 135261,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/next-stage-dynamic-controlled-shapes-protocol.json",
+      "published_sha256": "f90a0458b1015458c843008e020fef50f207c11d6082c955766fb408ef3ffe32",
+      "published_bytes": 135261,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/tracking-summary-v2/all-point-statuses.csv",
+      "source_sha256": "eb8f65f15d1ff2dc1973665d89d1ff0986817d8d13e453c78478618935cb5175",
+      "source_bytes": 6169746,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/tracking-summary-v2/all-point-statuses.csv.gz",
+      "published_sha256": "8177d3c4b56cfa327d98f47a0b4dae38f44f7ba11f569b3c35f1348ade611687",
+      "published_bytes": 1275027,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/tracking-summary-v2/same-id-comparisons.csv",
+      "source_sha256": "5e811c71670111876a6c64da78b9eaea2042d93299535b82a8bd1ba58ad9df6b",
+      "source_bytes": 4318696,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-noise-20261114/analysis/tracking-summary-v2/same-id-comparisons.csv.gz",
+      "published_sha256": "ababb7ca5367d2554f9a2c2602b50e14030867457f8b653ea63e36f5fda5ae2b",
+      "published_bytes": 428265,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/synthetic-selftest-v2.png",
+      "source_sha256": "85fdf17ddaa2d7af68a925b96463d249a4409c2900cbd07b5495bd8f5aedbeea",
+      "source_bytes": 13915,
+      "published": "docs/images/optical-inputs-20261115/dot-tracker-synthetic-check.png",
+      "published_sha256": "85fdf17ddaa2d7af68a925b96463d249a4409c2900cbd07b5495bd8f5aedbeea",
+      "published_bytes": 13915,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-noise-20261114/analysis/rejection-audit-n05-light-native/source-native-dock.png",
+      "source_sha256": "c761fd1093941104b36715200749c1e918c18bd080fe56ec1dc8b5fd4914de6f",
+      "source_bytes": 132396,
+      "published": "docs/images/optical-inputs-20261115/dot-pilot-source-native-crop.png",
+      "published_sha256": "c761fd1093941104b36715200749c1e918c18bd080fe56ec1dc8b5fd4914de6f",
+      "published_bytes": 132396,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/analysis/README.md",
+      "source_sha256": "5948d23dc3af9e26801972cf29052b241fc5bf28c1476875294d82b8daba9080",
+      "source_bytes": 7365,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/README.md",
+      "published_sha256": "5948d23dc3af9e26801972cf29052b241fc5bf28c1476875294d82b8daba9080",
+      "published_bytes": 7365,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+      "source_sha256": "021c27e85a036a147bcfc7c972f0cb8a6d28cc3934800e25ef0c328f118b4c03",
+      "source_bytes": 10868,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/CALIBRATION-RESULTS.md",
+      "published_sha256": "021c27e85a036a147bcfc7c972f0cb8a6d28cc3934800e25ef0c328f118b4c03",
+      "published_bytes": 10868,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/analysis/analysis-protocol.json",
+      "source_sha256": "75473886aa268fd4b221584ad76caf21869a152813be9aa535ecafedd07f8fc1",
+      "source_bytes": 3828,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/analysis-protocol.json",
+      "published_sha256": "75473886aa268fd4b221584ad76caf21869a152813be9aa535ecafedd07f8fc1",
+      "published_bytes": 3828,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/analysis/frozen-analysis.json",
+      "source_sha256": "2474b50cf772f4e01f077d259c62b162597e755035b8659dd3630eb6cc251331",
+      "source_bytes": 5306,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/frozen-analysis.json",
+      "published_sha256": "2474b50cf772f4e01f077d259c62b162597e755035b8659dd3630eb6cc251331",
+      "published_bytes": 5306,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/analysis/sampling-spec.json",
+      "source_sha256": "48bea627dcd527dacbb09b69342cde6392e0ac745528676d09a872409ba398e9",
+      "source_bytes": 52939,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/sampling-spec.json",
+      "published_sha256": "48bea627dcd527dacbb09b69342cde6392e0ac745528676d09a872409ba398e9",
+      "published_bytes": 52939,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/numeric-audit/calibration-numerics-audit.json",
+      "source_sha256": "d28e2c4d7a25f1fa9d3a805be2e12baad38fb80e3d0223288dfab981320ce5ee",
+      "source_bytes": 26088,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/numeric-audit/calibration-numerics-audit.json",
+      "published_sha256": "d28e2c4d7a25f1fa9d3a805be2e12baad38fb80e3d0223288dfab981320ce5ee",
+      "published_bytes": 26088,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/analysis/calibration-results/native-android-differential.csv",
+      "source_sha256": "57747aebaa96b38dc617afe583bcc1151974731b1ce345ecf297728b0cfb8bdd",
+      "source_bytes": 481799,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/calibration-results/native-android-differential.csv.gz",
+      "published_sha256": "18676896ea3a90bbea09929d4fab12dae2a7ae68a21ce760c802f5126d3e94a1",
+      "published_bytes": 48833,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/analysis/calibration-results/signed-response-strata.csv",
+      "source_sha256": "50936ecd4328e22bfa096bbe715370aaee212126b5035daaf19db719fa32ce9d",
+      "source_bytes": 1992716,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/calibration-results/signed-response-strata.csv.gz",
+      "published_sha256": "e78b64f1e5acde1dde28e1a9aab786bf244f36403ccd7e745cae99e6ebf18d65",
+      "published_bytes": 247555,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/analysis/calibration-results/threshold-sensitivity.csv",
+      "source_sha256": "7a3b72f87a5d357dcd362d6deca33ffae6e6d505f7199384524d00ec763c0741",
+      "source_bytes": 4764585,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/calibration-results/threshold-sensitivity.csv.gz",
+      "published_sha256": "20b03c3877b7e2062ff61095395cf2328e5f9ecdfc65bb4eba27a5fe579b20df",
+      "published_bytes": 326620,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/analysis/calibration-results/report.json",
+      "source_sha256": "68a4f3fab20261da58d480386254a7ae68f03dfae59147b05af30cbaf682250f",
+      "source_bytes": 3568,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/calibration-results/report.json",
+      "published_sha256": "68a4f3fab20261da58d480386254a7ae68f03dfae59147b05af30cbaf682250f",
+      "published_bytes": 3568,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/analysis/calibration-results/bare-source-guards.csv",
+      "source_sha256": "c9456efb5221c9c517dcf719707a488d8ce51f1c36cad645d3cdf8ae5976abd3",
+      "source_bytes": 3837,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/calibration-results/bare-source-guards.csv",
+      "published_sha256": "c9456efb5221c9c517dcf719707a488d8ce51f1c36cad645d3cdf8ae5976abd3",
+      "published_bytes": 3837,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-isolated-shapes-20261114/analysis/calibration-results/components.jsonl.gz",
+      "source_sha256": "b2e3a3c9b71c4ae10e6567d80833a822fbccf9ceb0da67dab05bf82b778d6e1a",
+      "source_bytes": 643362,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-isolated-shapes-20261114/analysis/calibration-results/components.jsonl.gz",
+      "published_sha256": "b2e3a3c9b71c4ae10e6567d80833a822fbccf9ceb0da67dab05bf82b778d6e1a",
+      "published_bytes": 643362,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-results/native-android-differential.csv",
+      "source_sha256": "1a7dca59b015ba53cef2313ac767f0beaf98f124c89e9f51abb3a70dec3e5ca5",
+      "source_bytes": 481611,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/calibration-results/native-android-differential.csv.gz",
+      "published_sha256": "99c919c0d410939a2741cb678e19b7c985ffa412b4ceea63f4d4e8d477a6f731",
+      "published_bytes": 48813,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-results/signed-response-strata.csv",
+      "source_sha256": "665f50a1277c394b6e14619c9b424d5ff22d2f840901eecbeff52705e88ddb26",
+      "source_bytes": 1989232,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/calibration-results/signed-response-strata.csv.gz",
+      "published_sha256": "7c82cf75ca8e20f97ce9e067511127b34d2c9103dfb2a8ee94a3ebc1683f2601",
+      "published_bytes": 246918,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-results/threshold-sensitivity.csv",
+      "source_sha256": "54852caf71d76d1a3bfc56b43e0cbf36c2628f752ab2d999812d75503194b1df",
+      "source_bytes": 4755159,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/calibration-results/threshold-sensitivity.csv.gz",
+      "published_sha256": "a316b63835bd642ccfbd40dbd8951c27bd0d48cad6fe97cb84a4fc8edae759f1",
+      "published_bytes": 319472,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-results/report.json",
+      "source_sha256": "feb2c757d2aa76d28bc1b1e68580934f16b122b773b10179484a7badbf717a79",
+      "source_bytes": 3561,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/calibration-results/report.json",
+      "published_sha256": "feb2c757d2aa76d28bc1b1e68580934f16b122b773b10179484a7badbf717a79",
+      "published_bytes": 3561,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-results/bare-source-guards.csv",
+      "source_sha256": "c9456efb5221c9c517dcf719707a488d8ce51f1c36cad645d3cdf8ae5976abd3",
+      "source_bytes": 3837,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/calibration-results/bare-source-guards.csv",
+      "published_sha256": "c9456efb5221c9c517dcf719707a488d8ce51f1c36cad645d3cdf8ae5976abd3",
+      "published_bytes": 3837,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-results/components.jsonl.gz",
+      "source_sha256": "7176c4d6fa476cbc5ed4d4b64708426ca1eced014bab380499bee9197847869f",
+      "source_bytes": 365307,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/calibration-results/components.jsonl.gz",
+      "published_sha256": "7176c4d6fa476cbc5ed4d4b64708426ca1eced014bab380499bee9197847869f",
+      "published_bytes": 365307,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/README.md",
+      "source_sha256": "bbdd914e21cfd9bade8acff7fa1e8f1584e141736dd0934641a3c4d5020f9d7d",
+      "source_bytes": 3326,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/README.md",
+      "published_sha256": "bbdd914e21cfd9bade8acff7fa1e8f1584e141736dd0934641a3c4d5020f9d7d",
+      "published_bytes": 3326,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/CALIBRATION-RESULTS.md",
+      "source_sha256": "b01cf049cd4f50bfff14a28916cd0815430e9375610294fa609313aa402a1550",
+      "source_bytes": 3817,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/CALIBRATION-RESULTS.md",
+      "published_sha256": "b01cf049cd4f50bfff14a28916cd0815430e9375610294fa609313aa402a1550",
+      "published_bytes": 3817,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/protocol.json",
+      "source_sha256": "1e9d4a706c1d8017380874ee106683298f6f088c531c41a7e1ae73dfff091513",
+      "source_bytes": 2137,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/protocol.json",
+      "published_sha256": "1e9d4a706c1d8017380874ee106683298f6f088c531c41a7e1ae73dfff091513",
+      "published_bytes": 2137,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/analysis-plan.json",
+      "source_sha256": "987599e5940f30fa1991d86016d10ed26d9f42f5421d2e96c1cef3e9c057f158",
+      "source_bytes": 2624,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/analysis-plan.json",
+      "published_sha256": "987599e5940f30fa1991d86016d10ed26d9f42f5421d2e96c1cef3e9c057f158",
+      "published_bytes": 2624,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/control-profiles/gray-control-depth-profiles.csv",
+      "source_sha256": "9a9f1b5edf80a4eeb18b953a10386056ebc3eb78a1c04755251abf6cf18710a8",
+      "source_bytes": 31847,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/control-profiles/gray-control-depth-profiles.csv",
+      "published_sha256": "9a9f1b5edf80a4eeb18b953a10386056ebc3eb78a1c04755251abf6cf18710a8",
+      "published_bytes": 31847,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/numeric-audit.json",
+      "source_sha256": "0c4479dd235984177410312da40d837aa0a1ad012843684925332ba8bcfc82c3",
+      "source_bytes": 26088,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/numeric-audit.json",
+      "published_sha256": "0c4479dd235984177410312da40d837aa0a1ad012843684925332ba8bcfc82c3",
+      "published_bytes": 26088,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/context-comparison-at-nominal-offset.csv",
+      "source_sha256": "73e11300e0d85601d67d3568710dc7fe59a58a594124dfa039f8d88dbd5bd7fa",
+      "source_bytes": 105830,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-plain-context-20261114/context-comparison-at-nominal-offset.csv.gz",
+      "published_sha256": "da9292f2a0ca49a9223beb823719e16630386cf1b9e2f16173706248407948ef",
+      "published_bytes": 22930,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/control-profiles/gray-control-depth-profiles.png",
+      "source_sha256": "903b5142a9e8323025525458d3ddc8f4593059239e707829ab12782325d6c3c8",
+      "source_bytes": 148041,
+      "published": "docs/images/optical-inputs-20261115/plain-gray-control-depth-profiles.png",
+      "published_sha256": "903b5142a9e8323025525458d3ddc8f4593059239e707829ab12782325d6c3c8",
+      "published_bytes": 148041,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-visualizations/ic01_circle_top-light-signed-dock-detail.png",
+      "source_sha256": "cb2d4802d72187acb3312349dc15f7f3ee41a12a49f483bddc09ca6e1f97436b",
+      "source_bytes": 103486,
+      "published": "docs/images/optical-inputs-20261115/plain-ic01_circle_top-light-signed-dock-detail.png",
+      "published_sha256": "cb2d4802d72187acb3312349dc15f7f3ee41a12a49f483bddc09ca6e1f97436b",
+      "published_bytes": 103486,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-visualizations/ic01_circle_top-dark-signed-dock-detail.png",
+      "source_sha256": "0d15ff3874c7ac5d42eabccc03b19528141bda845d42b26715afcd4b3b792c03",
+      "source_bytes": 104317,
+      "published": "docs/images/optical-inputs-20261115/plain-ic01_circle_top-dark-signed-dock-detail.png",
+      "published_sha256": "0d15ff3874c7ac5d42eabccc03b19528141bda845d42b26715afcd4b3b792c03",
+      "published_bytes": 104317,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-visualizations/ic02_triangle_body-light-signed-dock-detail.png",
+      "source_sha256": "cfb1825b0453d4a5e7f76b77dd8dde60b9ea976bf4dfb21ec397fe656cb21830",
+      "source_bytes": 118168,
+      "published": "docs/images/optical-inputs-20261115/plain-ic02_triangle_body-light-signed-dock-detail.png",
+      "published_sha256": "cfb1825b0453d4a5e7f76b77dd8dde60b9ea976bf4dfb21ec397fe656cb21830",
+      "published_bytes": 118168,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-visualizations/ic02_triangle_body-dark-signed-dock-detail.png",
+      "source_sha256": "ab04b593cb17aafacdc6af525f8e372d4c578cfa3fafcd0681d9fd15fd8a33d8",
+      "source_bytes": 119809,
+      "published": "docs/images/optical-inputs-20261115/plain-ic02_triangle_body-dark-signed-dock-detail.png",
+      "published_sha256": "ab04b593cb17aafacdc6af525f8e372d4c578cfa3fafcd0681d9fd15fd8a33d8",
+      "published_bytes": 119809,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-visualizations/ic03_star_right-light-signed-dock-detail.png",
+      "source_sha256": "7b46f58a85256c6cfe155b951b2be5f418a8b4c608d0984ac66bb498b064d81d",
+      "source_bytes": 103557,
+      "published": "docs/images/optical-inputs-20261115/plain-ic03_star_right-light-signed-dock-detail.png",
+      "published_sha256": "7b46f58a85256c6cfe155b951b2be5f418a8b4c608d0984ac66bb498b064d81d",
+      "published_bytes": 103557,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-visualizations/ic03_star_right-dark-signed-dock-detail.png",
+      "source_sha256": "b0bf7796de23f4c2bb64f3a5cd683666ccedf5a3df0cde42c75aceb0a35e715d",
+      "source_bytes": 104500,
+      "published": "docs/images/optical-inputs-20261115/plain-ic03_star_right-dark-signed-dock-detail.png",
+      "published_sha256": "b0bf7796de23f4c2bb64f3a5cd683666ccedf5a3df0cde42c75aceb0a35e715d",
+      "published_bytes": 104500,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-visualizations/ic04_asymmetric_lower-light-signed-dock-detail.png",
+      "source_sha256": "a970b3c17c5ddf0045540dee418bad96c5c5166a437df39b884dab06f3e50ef5",
+      "source_bytes": 103628,
+      "published": "docs/images/optical-inputs-20261115/plain-ic04_asymmetric_lower-light-signed-dock-detail.png",
+      "published_sha256": "a970b3c17c5ddf0045540dee418bad96c5c5166a437df39b884dab06f3e50ef5",
+      "published_bytes": 103628,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-plain-context-20261114/calibration-visualizations/ic04_asymmetric_lower-dark-signed-dock-detail.png",
+      "source_sha256": "5451f9c423ddcf1a1aef138925eabed6d6704e58285ee16abc1bc1825b572ece",
+      "source_bytes": 103527,
+      "published": "docs/images/optical-inputs-20261115/plain-ic04_asymmetric_lower-dark-signed-dock-detail.png",
+      "published_sha256": "5451f9c423ddcf1a1aef138925eabed6d6704e58285ee16abc1bc1825b572ece",
+      "published_bytes": 103527,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/dock-material-root-cause.md",
+      "source_sha256": "b98225403726901a582cb123f3792a41b56b5713ac7e1c2dc999bcef549618a1",
+      "source_bytes": 14823,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/dock-material-root-cause.md",
+      "published_sha256": "b98225403726901a582cb123f3792a41b56b5713ac7e1c2dc999bcef549618a1",
+      "published_bytes": 14823,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/dock-edge-root-cause.md",
+      "source_sha256": "2ac9679259c8568f24ac9fd06b38e3e9457c5ceec28b4b4e4a149f5e8708518d",
+      "source_bytes": 16953,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/dock-edge-root-cause.md",
+      "published_sha256": "2ac9679259c8568f24ac9fd06b38e3e9457c5ceec28b4b4e4a149f5e8708518d",
+      "published_bytes": 16953,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/dynamic-size-claims-audit.md",
+      "source_sha256": "a9cdfe24ddd06b9b9ab38759c85d446c68b9d0dfe53b673c1e026fd3d306e15b",
+      "source_bytes": 9930,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/dynamic-size-claims-audit.md",
+      "published_sha256": "a9cdfe24ddd06b9b9ab38759c85d446c68b9d0dfe53b673c1e026fd3d306e15b",
+      "published_bytes": 9930,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/native-size-capability-audit.md",
+      "source_sha256": "502287133cc50263db64a15455c9e0f3c38ffeb1df32233cd086f489cfffdf5a",
+      "source_bytes": 16332,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/native-size-capability-audit.md",
+      "published_sha256": "502287133cc50263db64a15455c9e0f3c38ffeb1df32233cd086f489cfffdf5a",
+      "published_bytes": 16332,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/mechanism-numerical-review.md",
+      "source_sha256": "83c47feff208572aedf894cd38a6eca9625cbb7c6b71a437e43ae3dbf01f9b92",
+      "source_bytes": 1859,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/mechanism-numerical-review.md",
+      "published_sha256": "83c47feff208572aedf894cd38a6eca9625cbb7c6b71a437e43ae3dbf01f9b92",
+      "published_bytes": 1859,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/flat-material-independent-review.md",
+      "source_sha256": "3deb406315c76ef32f5f2ce4b0e6a7c0edd7b312f55a13941d20fe2694290a95",
+      "source_bytes": 4176,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/flat-material-independent-review.md",
+      "published_sha256": "3deb406315c76ef32f5f2ce4b0e6a7c0edd7b312f55a13941d20fe2694290a95",
+      "published_bytes": 4176,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/mechanism-analysis/profile-power-response.json",
+      "source_sha256": "7f885f9ec8450c6ee0703cfed7cc52e47de426f545e019138bb0308c0cfb3c72",
+      "source_bytes": 18947,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/mechanism-analysis/profile-power-response.json",
+      "published_sha256": "7f885f9ec8450c6ee0703cfed7cc52e47de426f545e019138bb0308c0cfb3c72",
+      "published_bytes": 18947,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/generate_material_sweep.py",
+      "source_sha256": "b024f1e4506ee7e5b3bd10096b1514285ae5745ab06171781316ec4c89e5a21a",
+      "source_bytes": 4532,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/generate_material_sweep.py",
+      "published_sha256": "b024f1e4506ee7e5b3bd10096b1514285ae5745ab06171781316ec4c89e5a21a",
+      "published_bytes": 4532,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-sweep/manifest.json",
+      "source_sha256": "cd7f574e3cc5eadd348f5ee47950f2a6a757f76d73a073a003682a06d4f952b4",
+      "source_bytes": 3742,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-sweep/manifest.json",
+      "published_sha256": "cd7f574e3cc5eadd348f5ee47950f2a6a757f76d73a073a003682a06d4f952b4",
+      "published_bytes": 3742,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-sweep/protocol.json",
+      "source_sha256": "e12723129b121fc3d5f1653281cac419375896e81274bb021f5721fd56cfae3b",
+      "source_bytes": 1918,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-sweep/protocol.json",
+      "published_sha256": "e12723129b121fc3d5f1653281cac419375896e81274bb021f5721fd56cfae3b",
+      "published_bytes": 1918,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/flat-material-analysis/scene-summaries.csv",
+      "source_sha256": "0227883b8ce47c70c16d37e1a7cbfa3a934ec20a26107aaa78a8390d2a802565",
+      "source_bytes": 146490,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/flat-material-analysis/scene-summaries.csv.gz",
+      "published_sha256": "b0e02b4523e331b6d134f5205ac6a45a08f11cf490dbb49c29830bc4a4d4a61b",
+      "published_bytes": 12254,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/flat-material-analysis/scene-errors.csv",
+      "source_sha256": "ffdbaf7a576f5e8254eef10a208f169f1cfd7c941d4c4dc0a21e71022d9e575f",
+      "source_bytes": 102697,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/flat-material-analysis/scene-errors.csv.gz",
+      "published_sha256": "1387ea634dacb7ce588f56068de5d7972eb6fda470a1721bcf22d54704017d1f",
+      "published_bytes": 8594,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/flat-material-analysis/depth-bins.csv",
+      "source_sha256": "fdbc7261b7f1d330b5caed952c953b0947a547f3f13e539799a55139ee2bf170",
+      "source_bytes": 4251367,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/flat-material-analysis/depth-bins.csv.gz",
+      "published_sha256": "450c90bc3299b4e6b8b8f500d560b39d525867e8ac534848afc8246f08e38849",
+      "published_bytes": 317782,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/flat-material-analysis/depth-bin-errors.csv",
+      "source_sha256": "967b0117a904bcdaf0eda8bcabb9e4bdf23a4ac7c98c1d88116656076fd84f38",
+      "source_bytes": 3049737,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/flat-material-analysis/depth-bin-errors.csv.gz",
+      "published_sha256": "b310dee58153f9e0b2055173a32120e946424b9630c6a3ee7788ebec61bb89c6",
+      "published_bytes": 325135,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/mechanism-analysis/border-hairline-depth.json",
+      "source_sha256": "e35afc6e8755d21a5f1a955b7b0540fbcc35e5a19ca78f607e3d0bf4940268ee",
+      "source_bytes": 401662,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/mechanism-analysis/border-hairline-depth.json.gz",
+      "published_sha256": "52035d00e3607bdb415b0fe3831735b07d402b88ac82aca1d5a07367218f5043",
+      "published_bytes": 55554,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/flat-material-analysis/gray-nominal_base-response.svg",
+      "source_sha256": "8ba69eca7eae4dbf26cdaa62ceb37b8a13e6d3c80671dfcf395ad60c08694ad1",
+      "source_bytes": 36837,
+      "published": "docs/images/optical-inputs-20261115/historical-gray-transfer.svg",
+      "published_sha256": "8ba69eca7eae4dbf26cdaa62ceb37b8a13e6d3c80671dfcf395ad60c08694ad1",
+      "published_bytes": 36837,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/mechanism-analysis/border-hairline-depth.png",
+      "source_sha256": "e63de79ed5543366b72914355fe6111fcf21ad88dbde041f4bb3c1be234fd603",
+      "source_bytes": 120750,
+      "published": "docs/images/optical-inputs-20261115/historical-border-hairline-depth.png",
+      "published_sha256": "e63de79ed5543366b72914355fe6111fcf21ad88dbde041f4bb3c1be234fd603",
+      "published_bytes": 120750,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/analysis/summary.md",
+      "source_sha256": "37f2119b9bff432bb93a07c8b26c05dbcd52073851274f66685b13a38a54f6e9",
+      "source_bytes": 4111,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/analysis/summary.md",
+      "published_sha256": "37f2119b9bff432bb93a07c8b26c05dbcd52073851274f66685b13a38a54f6e9",
+      "published_bytes": 4111,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/haze-sigma39-20261115/SUMMARY.md",
+      "source_sha256": "a41796cb0ce238541c75cdedcd496de900067c6badc874e6e1297ee219bc41a4",
+      "source_bytes": 3469,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/haze-sigma39-20261115/SUMMARY.md",
+      "published_sha256": "a41796cb0ce238541c75cdedcd496de900067c6badc874e6e1297ee219bc41a4",
+      "published_bytes": 3469,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/rim-cosine-structure-20261115/REVIEW.md",
+      "source_sha256": "5427a614d40266c1832ac522b044a983930ebaebea7219883585910660e90aca",
+      "source_bytes": 5101,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/rim-cosine-structure-20261115/REVIEW.md",
+      "published_sha256": "5427a614d40266c1832ac522b044a983930ebaebea7219883585910660e90aca",
+      "published_bytes": 5101,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/analysis/signed-three-coeff-summary.md",
+      "source_sha256": "5e7eda9cdad65abfa26c55b046296d717e2fd38ce2a01d2f52f6e55441cbf6dd",
+      "source_bytes": 3263,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/analysis/signed-three-coeff-summary.md",
+      "published_sha256": "5e7eda9cdad65abfa26c55b046296d717e2fd38ce2a01d2f52f6e55441cbf6dd",
+      "published_bytes": 3263,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/independent-review.md",
+      "source_sha256": "d763f809fd8929e685567f83567dcbcfdd50345f9b6dbd9058bac389699757fb",
+      "source_bytes": 10950,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/independent-review.md",
+      "published_sha256": "d763f809fd8929e685567f83567dcbcfdd50345f9b6dbd9058bac389699757fb",
+      "published_bytes": 10950,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/protocol.json",
+      "source_sha256": "22632c7ec6a525bfb4dc7122f6cf470e2ed944dc41eefdc6a0f7a7f4eeb753f9",
+      "source_bytes": 19815,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/protocol.json",
+      "published_sha256": "22632c7ec6a525bfb4dc7122f6cf470e2ed944dc41eefdc6a0f7a7f4eeb753f9",
+      "published_bytes": 19815,
+      "processing": "byte-exact copy"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/rim-cosine-structure-20261115/report.json",
+      "source_sha256": "2b77f97b59b0f7f11d66c5350837ee29432f94a1ce0ac4857439559091b22f81",
+      "source_bytes": 2500178,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/rim-cosine-structure-20261115/report.json.gz",
+      "published_sha256": "6f77ee9f9645cfec2d3da3c7c9999c970c25ab32907f53e80ce9afd22c7968ef",
+      "published_bytes": 61062,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/rim-cosine-structure-20261115/method-r2.json",
+      "source_sha256": "1ffb131c984f1bf617826bafd9737c34866551bd9ed69a0f745a55cdf0119af1",
+      "source_bytes": 6552,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/rim-cosine-structure-20261115/method-r2.json.gz",
+      "published_sha256": "b57f8e345046e0004498080c5b6eae3edb86c2066b99b0d345731d7d5bb49d9c",
+      "published_bytes": 2686,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/analysis/signed-three-coeff-report.json",
+      "source_sha256": "c56c27388a30ddaa06b6c543d793715cdb862288758cf7762f2c80325dc6de03",
+      "source_bytes": 148362,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/analysis/signed-three-coeff-report.json.gz",
+      "published_sha256": "56e8cfffbd560d72b71d19c85bbfd1521b1c13d122da98f60032eb6ead9a355e",
+      "published_bytes": 9671,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/report.json",
+      "source_sha256": "92105d4b59c9a222c7fde9b80a7c32685869c208bb62e1bebab8f206ae048583",
+      "source_bytes": 647262,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/report.json.gz",
+      "published_sha256": "beccacea280db29fd8d4516cd45143ad14f1fb7703e31a3431250f33db718d24",
+      "published_bytes": 16904,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/haze-sigma39-20261115/numbers.json",
+      "source_sha256": "da3e2af0592e9968475fcb920b7575a7ef824f6c201815dab9c37e00c7c9b3cb",
+      "source_bytes": 5116363,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/haze-sigma39-20261115/numbers.json.gz",
+      "published_sha256": "a618c366e7ca8b81412d966ab79291df877d2516ce60b2ab05416679dc4294ff",
+      "published_bytes": 311677,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/analysis/strips.csv",
+      "source_sha256": "edfaddcce15ba55acb5689a8a8028dfe11699bbc71bc7588437069edcbb5d4d5",
+      "source_bytes": 84918220,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/analysis/strips.csv.gz",
+      "published_sha256": "dbd4b9e4ba02b6530182f68e8ccb4d6a09f632429a2ee8ab3df649294dc3d332",
+      "published_bytes": 1009573,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/analysis/metrics.csv",
+      "source_sha256": "2842d02b3792661fe681d2eafd6ad5b7ff8ed2780a675895100e36cd2636660b",
+      "source_bytes": 41486861,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/analysis/metrics.csv.gz",
+      "published_sha256": "a0b4c243a8f7301ef9991cfa19fabaf4d6fc9a6c673f6c964a4fb2b82acd40ef",
+      "published_bytes": 686810,
+      "processing": "deterministic lossless gzip"
+    },
+    {
+      "source_namespace": "glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/analysis/regressions.csv",
+      "source_sha256": "f43bc7c9efc3f0ebbbe84a741070a13f9d3d20dd8f7f443e875c95275a58b40c",
+      "source_bytes": 13127572,
+      "published": "docs/evidence/optical-inputs-20261115/archive/glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-runtime-gpu-v1/analysis/regressions.csv.gz",
+      "published_sha256": "321dc8057bde12d3af2a32fc485b1cc9f35e1264681b73f32e2f0770015f3461",
+      "published_bytes": 112521,
+      "processing": "deterministic lossless gzip"
+    }
+  ],
+  "omitted_numeric_identities": [],
+  "exclusions": [
+    "APKs",
+    "build caches",
+    "xcresult",
+    "video",
+    "raw full-screen device captures",
+    "unopened RGB noise n01-n04 outputs",
+    "unopened isolated-shape test outputs",
+    "fresh calibration or parameter fitting"
+  ]
+}

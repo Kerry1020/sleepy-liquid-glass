@@ -1,0 +1,482 @@
+[
+  {
+    "scene": "color_stripes-dark",
+    "reference": "additive",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "corner_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    }
+  },
+  {
+    "scene": "color_stripes-dark",
+    "reference": "original",
+    "scope": "combined blur+rim+compositing vs original factory",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "corner_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    }
+  },
+  {
+    "scene": "color_stripes-dark",
+    "reference": "screen",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "corner_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    }
+  },
+  {
+    "scene": "color_stripes-light",
+    "reference": "additive",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    "corner_rgb": {
+      "improved": 21,
+      "regressed": 3,
+      "unchanged": 0
+    }
+  },
+  {
+    "scene": "color_stripes-light",
+    "reference": "original",
+    "scope": "combined blur+rim+compositing vs original factory",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 4,
+      "unchanged": 0
+    },
+    "straight_rgb": {
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    "corner_rgb": {
+      "improved": 11,
+      "regressed": 13,
+      "unchanged": 0
+    }
+  },
+  {
+    "scene": "color_stripes-light",
+    "reference": "screen",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    "corner_rgb": {
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    }
+  },
+  {
+    "scene": "fine_grid-dark",
+    "reference": "additive",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "corner_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    }
+  },
+  {
+    "scene": "fine_grid-dark",
+    "reference": "original",
+    "scope": "combined blur+rim+compositing vs original factory",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "corner_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    }
+  },
+  {
+    "scene": "fine_grid-dark",
+    "reference": "screen",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "corner_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    }
+  },
+  {
+    "scene": "fine_grid-light",
+    "reference": "additive",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    "corner_rgb": {
+      "improved": 10,
+      "regressed": 14,
+      "unchanged": 0
+    }
+  },
+  {
+    "scene": "fine_grid-light",
+    "reference": "original",
+    "scope": "combined blur+rim+compositing vs original factory",
+    "body_rgb": {
+      "improved": 1,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    "straight_rgb": {
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    "corner_rgb": {
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    }
+  },
+  {
+    "scene": "fine_grid-light",
+    "reference": "screen",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 2,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    "corner_rgb": {
+      "improved": 12,
+      "regressed": 12,
+      "unchanged": 0
+    }
+  },
+  {
+    "scene": "synthetic_landscape-dark",
+    "reference": "additive",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "corner_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    }
+  },
+  {
+    "scene": "synthetic_landscape-dark",
+    "reference": "original",
+    "scope": "combined blur+rim+compositing vs original factory",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "corner_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    }
+  },
+  {
+    "scene": "synthetic_landscape-dark",
+    "reference": "screen",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "corner_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    }
+  },
+  {
+    "scene": "synthetic_landscape-light",
+    "reference": "additive",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 4,
+      "unchanged": 0
+    },
+    "corner_rgb": {
+      "improved": 1,
+      "regressed": 23,
+      "unchanged": 0
+    }
+  },
+  {
+    "scene": "synthetic_landscape-light",
+    "reference": "original",
+    "scope": "combined blur+rim+compositing vs original factory",
+    "body_rgb": {
+      "improved": 1,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    "straight_rgb": {
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    "corner_rgb": {
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    }
+  },
+  {
+    "scene": "synthetic_landscape-light",
+    "reference": "screen",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 4,
+      "regressed": 0,
+      "unchanged": 0
+    },
+    "corner_rgb": {
+      "improved": 24,
+      "regressed": 0,
+      "unchanged": 0
+    }
+  },
+  {
+    "scene": "tonal_blocks-dark",
+    "reference": "additive",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "corner_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    }
+  },
+  {
+    "scene": "tonal_blocks-dark",
+    "reference": "original",
+    "scope": "combined blur+rim+compositing vs original factory",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "corner_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    }
+  },
+  {
+    "scene": "tonal_blocks-dark",
+    "reference": "screen",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "corner_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 24
+    }
+  },
+  {
+    "scene": "tonal_blocks-light",
+    "reference": "additive",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 1,
+      "regressed": 3,
+      "unchanged": 0
+    },
+    "corner_rgb": {
+      "improved": 13,
+      "regressed": 9,
+      "unchanged": 2
+    }
+  },
+  {
+    "scene": "tonal_blocks-light",
+    "reference": "original",
+    "scope": "combined blur+rim+compositing vs original factory",
+    "body_rgb": {
+      "improved": 2,
+      "regressed": 2,
+      "unchanged": 0
+    },
+    "straight_rgb": {
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    "corner_rgb": {
+      "improved": 23,
+      "regressed": 1,
+      "unchanged": 0
+    }
+  },
+  {
+    "scene": "tonal_blocks-light",
+    "reference": "screen",
+    "scope": "isolated incremental compositing",
+    "body_rgb": {
+      "improved": 0,
+      "regressed": 0,
+      "unchanged": 4
+    },
+    "straight_rgb": {
+      "improved": 3,
+      "regressed": 1,
+      "unchanged": 0
+    },
+    "corner_rgb": {
+      "improved": 15,
+      "regressed": 9,
+      "unchanged": 0
+    }
+  }
+]

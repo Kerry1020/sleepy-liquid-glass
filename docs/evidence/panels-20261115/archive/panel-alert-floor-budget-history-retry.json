@@ -1,0 +1,8 @@
+{
+  "status": "failed_unmodified_retry_registered",
+  "reason": "Display-readiness failure at landscape background. Timeout display has external blue pill \u5df2\u4f7f\u752820\u5206\u949f (screen-use reminder) over top of Activity PixelCopy; not an optical material failure. Partial run excluded from fitting/appearance.",
+  "matrix_sha256": "18f5f541ee5935643e37f0ed84e39183f08e2f1ba428df99e38562e9f42e42fc",
+  "timeout_sha256": "ea67cbac526a08253df77bb25f4da34c5c29b18b7106454615da28b59c6f63bb",
+  "retry": "panels-alert-floor-budget-history-r2-20261115",
+  "change": "Run ID only; same installed binaries, sources, input list, geometry, timing, exact display-readiness thresholds; original untouched."
+}

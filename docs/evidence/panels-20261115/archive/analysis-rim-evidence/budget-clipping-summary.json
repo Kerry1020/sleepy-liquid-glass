@@ -1,0 +1,74 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "track": "corner",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_chosen_reference": 0,
+    "new0_channels_vs_chosen_reference": 0,
+    "rows_with_new255_vs_chosen_reference": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "track": "straight",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_chosen_reference": 0,
+    "new0_channels_vs_chosen_reference": 0,
+    "rows_with_new255_vs_chosen_reference": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "track": "corner",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_chosen_reference": 0,
+    "new0_channels_vs_chosen_reference": 0,
+    "rows_with_new255_vs_chosen_reference": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "track": "straight",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_chosen_reference": 0,
+    "new0_channels_vs_chosen_reference": 0,
+    "rows_with_new255_vs_chosen_reference": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "track": "corner",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_chosen_reference": 0,
+    "new0_channels_vs_chosen_reference": 0,
+    "rows_with_new255_vs_chosen_reference": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "track": "straight",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_chosen_reference": 0,
+    "new0_channels_vs_chosen_reference": 0,
+    "rows_with_new255_vs_chosen_reference": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "track": "corner",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_chosen_reference": 0,
+    "new0_channels_vs_chosen_reference": 0,
+    "rows_with_new255_vs_chosen_reference": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "track": "straight",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_chosen_reference": 0,
+    "new0_channels_vs_chosen_reference": 0,
+    "rows_with_new255_vs_chosen_reference": []
+  }
+]

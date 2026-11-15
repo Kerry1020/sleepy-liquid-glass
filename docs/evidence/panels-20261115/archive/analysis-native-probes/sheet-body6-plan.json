@@ -1,0 +1,1046 @@
+{
+  "schema": 1,
+  "status": "preregistered_design_before_new_sheet_candidate_decode_control_binding_pending",
+  "filename_note": "Historical requested filename; radius6 is excluded from execution.",
+  "prior_user_and_root_scope": "Light Sheet mode control then smallest prescribed local radius probe; no new optical fit, gates or ROI.",
+  "phases": [
+    {
+      "id": "A_mode12",
+      "control_role": "preceding completed rim candidate legacy/default Sheet12; exact path, configuration and file hashes must be bound before phase A candidate first decode",
+      "control": {
+        "light_sheet": {
+          "true_radius_input": false,
+          "body_blur_input": 12,
+          "all_other_parameters": "unchanged from preceding completed rim candidate"
+        },
+        "alert": "preceding completed rim candidate exact configuration, strict whole actual-Window RGBA control",
+        "dark": "unchanged original factory/null path; true-radius opt-in remains disabled",
+        "source_shaping": "unchanged",
+        "input_raster_geometry": "retain established geometry fix; exact observed canvas/unit basis/slots"
+      },
+      "candidate": {
+        "light_sheet": {
+          "true_radius_input": true,
+          "body_blur_input": 12,
+          "all_other_parameters": "unchanged from preceding completed rim candidate",
+          "execution_route": "exact12 shared filter band"
+        },
+        "alert": "preceding completed rim candidate exact configuration, strict whole actual-Window RGBA control",
+        "dark": "unchanged original factory/null path; true-radius opt-in remains disabled",
+        "source_shaping": "unchanged",
+        "input_raster_geometry": "retain established geometry fix; exact observed canvas/unit basis/slots"
+      },
+      "isolated_change": "light Sheet true-radius input mode only, blur input remains12",
+      "interpretation": "Complete mode/path response at fixed declared input12; not an isolated radius response."
+    },
+    {
+      "id": "B_api_radius10_route_disclosed",
+      "control_role": "completed A_mode12 candidate; bind hashes before B first decode",
+      "control": {
+        "light_sheet": {
+          "true_radius_input": true,
+          "body_blur_input": 12,
+          "all_other_parameters": "unchanged from preceding completed rim candidate",
+          "execution_route": "exact12 shared filter band"
+        },
+        "alert": "preceding completed rim candidate exact configuration, strict whole actual-Window RGBA control",
+        "dark": "unchanged original factory/null path; true-radius opt-in remains disabled",
+        "source_shaping": "unchanged",
+        "input_raster_geometry": "retain established geometry fix; exact observed canvas/unit basis/slots"
+      },
+      "candidate": {
+        "light_sheet": {
+          "true_radius_input": true,
+          "body_blur_input": 10,
+          "all_other_parameters": "unchanged from preceding completed rim candidate",
+          "execution_route": "no exact10 band; local preblurred input fallback"
+        },
+        "alert": "preceding completed rim candidate exact configuration, strict whole actual-Window RGBA control",
+        "dark": "unchanged original factory/null path; true-radius opt-in remains disabled",
+        "source_shaping": "unchanged",
+        "input_raster_geometry": "retain established geometry fix; exact observed canvas/unit basis/slots"
+      },
+      "isolated_change": "Only configured scalar changes12 to10 through true-radius API; deterministic internal route switches shared12 to local preblur fallback.",
+      "interpretation": "API-input engineering response including known shared-band-to-local implementation route change; not independently isolated Gaussian-radius effect or identical execution path."
+    }
+  ],
+  "excluded_radii": [
+    6
+  ],
+  "no_result_dependent_radius_search": true,
+  "rationale": {
+    "native_S07_eligible_rows": [
+      14,
+      14
+    ],
+    "native_raw_width_range_pt": [
+      9.59635700148442,
+      10.152325581395345
+    ],
+    "legacy12_S07_eligible_rows": [
+      0,
+      14
+    ],
+    "legacy12_available_descriptive_raw_width_range_pt": [
+      11.784590961570188,
+      12.866666666666674
+    ],
+    "corrected_rim_candidate_eligible_rows": [
+      2,
+      14
+    ],
+    "representative_y339_75": {
+      "native_raw_width_pt": 10.017441860465127,
+      "corrected_rim_raw_width_pt": 12.18364670954972,
+      "candidate_eligible": true
+    },
+    "limits": "Existing data support testing weaker blur direction, not radius6 or an optimum. Failure rows do not become eligible for fitted inference."
+  },
+  "methodological_disclosure": "Original parent supports and gates were preregistered before pixels; exact S07 localization was operationalized after existing native/baseline decode inside unchanged support. This is preregistration of new candidate comparisons, not independent confirmatory localization or held-out testing.",
+  "capture_matrix": {
+    "sources": [
+      "panel_probe_coordinate",
+      "panel_probe_shapes"
+    ],
+    "themes": [
+      "light"
+    ],
+    "carriers": [
+      "alert",
+      "share_sheet"
+    ],
+    "phases": [
+      "rest"
+    ],
+    "observations_per_phase": 4,
+    "actual_windows_and_composited_displays_separate": true,
+    "same_existing_rest_timing": "unchanged inherited capture protocol; no motion claim",
+    "no_new_native_captures": true,
+    "no_unselected_hidden_or_holdout_read": true
+  },
+  "geometry": {
+    "world_px": [
+      750,
+      1334
+    ],
+    "density_px_per_pt": 2,
+    "alert_pane_px": [
+      55,
+      515,
+      695,
+      859
+    ],
+    "alert_actual_window_px": [
+      46,
+      509,
+      704,
+      865
+    ],
+    "sheet_pane_px": [
+      16,
+      635,
+      734,
+      1318
+    ],
+    "sheet_actual_window_px": [
+      0,
+      0,
+      750,
+      1334
+    ],
+    "sheet_raster_top_pt": 317.5,
+    "sheet_native_AX_top_pt": 317.7,
+    "no_registration_or_recentring": true,
+    "gates": [
+      "exact canvas and unit basis",
+      "exact original PNG byte hashes and native source mapping",
+      "exact pane and observed captured-surface placement",
+      "exact foreground slot rectangles",
+      "exact density and fontScale",
+      "all whole Alert actual Window RGBA pixels equal to phase control"
+    ]
+  },
+  "S07": {
+    "source_id": "S07 cross vertical stem right edge",
+    "source_stem_x_px": [
+      153.1,
+      190.9
+    ],
+    "source_stem_y_px": [
+      668.9,
+      704
+    ],
+    "source_edge_crossing_pt": 95.5,
+    "source_high_rgb": [
+      215,
+      43,
+      154
+    ],
+    "source_low_rgb": [
+      184,
+      184,
+      184
+    ],
+    "source_scalar_direction_unnormalized": [
+      31,
+      -141,
+      -30
+    ],
+    "parent_window": {
+      "x_half_open_pt": [
+        48,
+        110
+      ],
+      "inward_half_open_pt": [
+        -5.75,
+        24
+      ]
+    },
+    "x_pixel_indices_half_open": [
+      168,
+      220
+    ],
+    "x_pixel_centers_pt": [
+      84.25,
+      109.75
+    ],
+    "x_step_pt": 0.5,
+    "x_original_pixel_count": 52,
+    "row_centers_pt": [
+      334.75,
+      335.25,
+      335.75,
+      336.25,
+      336.75,
+      337.25,
+      337.75,
+      338.25,
+      338.75,
+      339.25,
+      339.75,
+      340.25,
+      340.75,
+      341.25
+    ],
+    "row_count": 14,
+    "row_pixel_indices": [
+      669,
+      670,
+      671,
+      672,
+      673,
+      674,
+      675,
+      676,
+      677,
+      678,
+      679,
+      680,
+      681,
+      682
+    ],
+    "row_step_pt": 0.5,
+    "inward_depths_pt": [
+      17.25,
+      17.75,
+      18.25,
+      18.75,
+      19.25,
+      19.75,
+      20.25,
+      20.75,
+      21.25,
+      21.75,
+      22.25,
+      22.75,
+      23.25,
+      23.75
+    ],
+    "high_plateau_half_open_pt": [
+      84,
+      90
+    ],
+    "high_plateau_pixel_indices_half_open": [
+      168,
+      180
+    ],
+    "neutral_plateau_half_open_pt": [
+      100,
+      110
+    ],
+    "neutral_plateau_pixel_indices_half_open": [
+      200,
+      220
+    ],
+    "smoothing": {
+      "sigma_pt": 0.75,
+      "samples": 7,
+      "endpoints": "reflect"
+    },
+    "operational_gates": {
+      "smoothed_crossings_10_50_90_each_unique": true,
+      "raw_width_only_if_raw_crossings_unique": true,
+      "maximum_raw_upward_step_between_smoothed_90_and_10_counts": 1,
+      "secondary_peak_must_be_more_than_sample_indices_from_primary": 3,
+      "location_floor_pt": 0.25,
+      "location_floor_addition": "half full tied-derivative-peak span",
+      "fine_comparison_max_location_uncertainty_pt": 1
+    },
+    "reported_per_row": [
+      "all_raw_RGB_and_scalar_tracks",
+      "smoothed_scalar_track",
+      "raw_and_smoothed_crossings10_50_90",
+      "separate_raw_and_smoothed_width",
+      "contrast",
+      "source_color_direction_cosine",
+      "neutral_robust_spread",
+      "secondary_primary_ratio",
+      "location_uncertainty",
+      "eligible",
+      "all_failed_gates"
+    ],
+    "forbidden": [
+      "omit failed rows",
+      "move plateau or source support",
+      "complete upper arm by expanding ROI",
+      "infer full2D source map",
+      "fit candidate radius from scalar width"
+    ]
+  },
+  "inherited_frozen_definitions": {
+    "direct_foreground_mask": "native AX union actual Android layout, expanded2pt, including Sheet drag indicator",
+    "straight": [
+      {
+        "carrier": "alert",
+        "segment": "left",
+        "axis": "x",
+        "boundary_pt": 27.5,
+        "inward_sign": 1,
+        "tangent_half_open_pt": [
+          307,
+          338
+        ],
+        "last_inward_pt_exclusive": 24,
+        "status": "primary"
+      },
+      {
+        "carrier": "alert",
+        "segment": "right",
+        "axis": "x",
+        "boundary_pt": 347.5,
+        "inward_sign": -1,
+        "tangent_half_open_pt": [
+          307,
+          338
+        ],
+        "last_inward_pt_exclusive": 24,
+        "status": "primary"
+      },
+      {
+        "carrier": "alert",
+        "segment": "top_left",
+        "axis": "y",
+        "boundary_pt": 257.5,
+        "inward_sign": 1,
+        "tangent_half_open_pt": [
+          62,
+          104
+        ],
+        "last_inward_pt_exclusive": 20,
+        "status": "primary"
+      },
+      {
+        "carrier": "alert",
+        "segment": "bottom_left",
+        "axis": "y",
+        "boundary_pt": 429.5,
+        "inward_sign": -1,
+        "tangent_half_open_pt": [
+          62,
+          104
+        ],
+        "last_inward_pt_exclusive": 10,
+        "status": "primary"
+      },
+      {
+        "carrier": "alert",
+        "segment": "top_right",
+        "axis": "y",
+        "boundary_pt": 257.5,
+        "inward_sign": 1,
+        "tangent_half_open_pt": [
+          271,
+          313
+        ],
+        "last_inward_pt_exclusive": 20,
+        "status": "primary"
+      },
+      {
+        "carrier": "alert",
+        "segment": "bottom_right",
+        "axis": "y",
+        "boundary_pt": 429.5,
+        "inward_sign": -1,
+        "tangent_half_open_pt": [
+          271,
+          313
+        ],
+        "last_inward_pt_exclusive": 10,
+        "status": "primary"
+      },
+      {
+        "carrier": "sheet",
+        "segment": "top_left",
+        "axis": "y",
+        "boundary_pt": 317.5,
+        "inward_sign": 1,
+        "tangent_half_open_pt": [
+          48,
+          110
+        ],
+        "last_inward_pt_exclusive": 24,
+        "status": "primary"
+      },
+      {
+        "carrier": "sheet",
+        "segment": "bottom_left",
+        "axis": "y",
+        "boundary_pt": 659,
+        "inward_sign": -1,
+        "tangent_half_open_pt": [
+          48,
+          110
+        ],
+        "last_inward_pt_exclusive": 24,
+        "status": "backing_context_diagnostic"
+      },
+      {
+        "carrier": "sheet",
+        "segment": "top_right",
+        "axis": "y",
+        "boundary_pt": 317.5,
+        "inward_sign": 1,
+        "tangent_half_open_pt": [
+          265,
+          327
+        ],
+        "last_inward_pt_exclusive": 24,
+        "status": "primary"
+      },
+      {
+        "carrier": "sheet",
+        "segment": "bottom_right",
+        "axis": "y",
+        "boundary_pt": 659,
+        "inward_sign": -1,
+        "tangent_half_open_pt": [
+          265,
+          327
+        ],
+        "last_inward_pt_exclusive": 24,
+        "status": "backing_context_diagnostic"
+      },
+      {
+        "carrier": "sheet",
+        "segment": "left_upper_straight",
+        "axis": "x",
+        "boundary_pt": 8,
+        "inward_sign": 1,
+        "tangent_half_open_pt": [
+          353.5,
+          365
+        ],
+        "last_inward_pt_exclusive": 24,
+        "status": "primary"
+      },
+      {
+        "carrier": "sheet",
+        "segment": "left_corner_proximal",
+        "axis": "x",
+        "boundary_pt": 8,
+        "inward_sign": 1,
+        "tangent_half_open_pt": [
+          347,
+          353.5
+        ],
+        "last_inward_pt_exclusive": 24,
+        "status": "corner_proximal_raster_diagnostic"
+      },
+      {
+        "carrier": "sheet",
+        "segment": "left_lower",
+        "axis": "x",
+        "boundary_pt": 8,
+        "inward_sign": 1,
+        "tangent_half_open_pt": [
+          610,
+          625
+        ],
+        "last_inward_pt_exclusive": 24,
+        "status": "backing_context_diagnostic"
+      },
+      {
+        "carrier": "sheet",
+        "segment": "right_upper_straight",
+        "axis": "x",
+        "boundary_pt": 367,
+        "inward_sign": -1,
+        "tangent_half_open_pt": [
+          353.5,
+          365
+        ],
+        "last_inward_pt_exclusive": 24,
+        "status": "primary"
+      },
+      {
+        "carrier": "sheet",
+        "segment": "right_corner_proximal",
+        "axis": "x",
+        "boundary_pt": 367,
+        "inward_sign": -1,
+        "tangent_half_open_pt": [
+          347,
+          353.5
+        ],
+        "last_inward_pt_exclusive": 24,
+        "status": "corner_proximal_raster_diagnostic"
+      },
+      {
+        "carrier": "sheet",
+        "segment": "right_lower",
+        "axis": "x",
+        "boundary_pt": 367,
+        "inward_sign": -1,
+        "tangent_half_open_pt": [
+          610,
+          625
+        ],
+        "last_inward_pt_exclusive": 24,
+        "status": "backing_context_diagnostic"
+      }
+    ],
+    "sample_grid": {
+      "first_signed_distance_pt": -5.75,
+      "step_pt": 0.5,
+      "bins_pt": [
+        [
+          -6,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          12,
+          20
+        ],
+        [
+          20,
+          24
+        ]
+      ],
+      "smoothing_sigma_pt": 0.75,
+      "smoothing_samples": 7,
+      "endpoints": "reflect",
+      "derivative_crosses_masked_gap": false
+    },
+    "corner_horizontal_slices": {
+      "alert": {
+        "top_bottom_depths_pt": [
+          4.25,
+          8.25,
+          12.25,
+          16.25,
+          20.25,
+          24.25
+        ],
+        "x_boundaries_pt": [
+          27.5,
+          347.5
+        ],
+        "y_boundaries_pt": [
+          257.5,
+          429.5
+        ],
+        "inward_range_pt": [
+          -5.75,
+          28
+        ]
+      },
+      "sheet": {
+        "top_depths_pt": [
+          4.25,
+          8.25,
+          12.25,
+          16.25,
+          20.25,
+          24.25,
+          28.25,
+          32.25
+        ],
+        "bottom_depths_pt": [
+          4.25,
+          8.25,
+          12.25,
+          16.25
+        ],
+        "x_boundaries_pt": [
+          8,
+          367
+        ],
+        "y_boundaries_pt": [
+          317.5,
+          659
+        ],
+        "top_inward_range_pt": [
+          -5.75,
+          40
+        ],
+        "bottom_inward_range_pt": [
+          -5.75,
+          24
+        ]
+      },
+      "minimum_contiguous_clear_pixels_for_derivatives": 16,
+      "normal_inference": false
+    },
+    "exterior_rois_pt": {
+      "alert": [
+        32,
+        176,
+        343,
+        220
+      ],
+      "sheet": [
+        24,
+        170,
+        351,
+        272
+      ]
+    },
+    "body_rois_pt": {
+      "alert": {
+        "left_gutter": [
+          49.5,
+          307,
+          54.5,
+          338
+        ],
+        "right_gutter": [
+          320.5,
+          307,
+          325.5,
+          338
+        ],
+        "left_gap": [
+          60,
+          350,
+          110,
+          359
+        ],
+        "right_gap": [
+          265,
+          350,
+          315,
+          359
+        ]
+      },
+      "sheet": {
+        "upper_left_primary": [
+          48,
+          348,
+          110,
+          365
+        ],
+        "middle_left_diagnostic": [
+          48,
+          430,
+          110,
+          442
+        ],
+        "lower_right_backdrop_diagnostic": [
+          265,
+          610,
+          327,
+          625
+        ]
+      }
+    },
+    "separate_questions": [
+      "source identity / exterior encoded scrim response",
+      "body encoded color / contrast transfer",
+      "apparent color-edge width; not isolated blur kernel",
+      "eligible local contour/complete-feature movement and extent; not brightness",
+      "narrow rim excess/width/location; not physical thickness by itself"
+    ],
+    "visibility_gates": {
+      "minimum_encoded_contrast": 8,
+      "minimum_contrast_over_robust_spread": 5,
+      "quantization_floor_counts": 1,
+      "minimum_source_color_direction_cosine": 0.7,
+      "minimum_clear_support_width_px": 12,
+      "maximum_secondary_to_primary_peak": 0.8,
+      "minimum_complete_feature_area_px": 64,
+      "minimum_contained_contrast_mass": 0.95,
+      "minimum_source_structure_tensor_eigenvalue_ratio_for_2d": 0.05,
+      "minimum_sampling_location_uncertainty_pt": 0.25,
+      "maximum_location_uncertainty_for_fine_scalar_comparison_pt": 1,
+      "parameter_acceptance_claim": false,
+      "on_failure": "not identifiable; retain all failed IDs/gates; no ROI movement, lowered gates or forced nearest match"
+    },
+    "shape_supports": [
+      {
+        "id": "S01",
+        "source_design_bbox_px": [
+          15.0,
+          470.0,
+          99.0,
+          554.0
+        ],
+        "fixed_support_ltrb_px": [
+          0,
+          406.0,
+          163.0,
+          618.0
+        ]
+      },
+      {
+        "id": "S02",
+        "source_design_bbox_px": [
+          116.0,
+          460.0,
+          220.0,
+          564.0
+        ],
+        "fixed_support_ltrb_px": [
+          52.0,
+          396.0,
+          284.0,
+          628.0
+        ]
+      },
+      {
+        "id": "S03",
+        "source_design_bbox_px": [
+          530.0,
+          455.0,
+          642.0,
+          563.0
+        ],
+        "fixed_support_ltrb_px": [
+          466.0,
+          391.0,
+          706.0,
+          627.0
+        ]
+      },
+      {
+        "id": "S04",
+        "source_design_bbox_px": [
+          654.0,
+          462.0,
+          742.0,
+          562.0
+        ],
+        "fixed_support_ltrb_px": [
+          590.0,
+          398.0,
+          750,
+          626.0
+        ]
+      },
+      {
+        "id": "S05",
+        "source_design_bbox_px": [
+          4.0,
+          593.0,
+          108.0,
+          695.0
+        ],
+        "fixed_support_ltrb_px": [
+          0,
+          529.0,
+          172.0,
+          759.0
+        ]
+      },
+      {
+        "id": "S06",
+        "source_design_bbox_px": [
+          654.0,
+          588.0,
+          746.0,
+          698.0
+        ],
+        "fixed_support_ltrb_px": [
+          590.0,
+          524.0,
+          750,
+          762.0
+        ]
+      },
+      {
+        "id": "S07",
+        "source_design_bbox_px": [
+          118.0,
+          596.0,
+          226.0,
+          704.0
+        ],
+        "fixed_support_ltrb_px": [
+          54.0,
+          532.0,
+          290.0,
+          768.0
+        ]
+      },
+      {
+        "id": "S08",
+        "source_design_bbox_px": [
+          526.0,
+          614.0,
+          646.0,
+          694.0
+        ],
+        "fixed_support_ltrb_px": [
+          462.0,
+          550.0,
+          710.0,
+          758.0
+        ]
+      },
+      {
+        "id": "S09",
+        "source_design_bbox_px": [
+          113.0,
+          803.0,
+          221.0,
+          907.0
+        ],
+        "fixed_support_ltrb_px": [
+          49.0,
+          739.0,
+          285.0,
+          971.0
+        ]
+      },
+      {
+        "id": "S10",
+        "source_design_bbox_px": [
+          531.0,
+          803.0,
+          643.0,
+          911.0
+        ],
+        "fixed_support_ltrb_px": [
+          467.0,
+          739.0,
+          707.0,
+          975.0
+        ]
+      },
+      {
+        "id": "S11",
+        "source_design_bbox_px": [
+          6.0,
+          980.0,
+          98.0,
+          1092.0
+        ],
+        "fixed_support_ltrb_px": [
+          0,
+          916.0,
+          162.0,
+          1156.0
+        ]
+      },
+      {
+        "id": "S12",
+        "source_design_bbox_px": [
+          657.0,
+          976.0,
+          741.0,
+          1100.0
+        ],
+        "fixed_support_ltrb_px": [
+          593.0,
+          912.0,
+          750,
+          1164.0
+        ]
+      },
+      {
+        "id": "S13",
+        "source_design_bbox_px": [
+          6.0,
+          1171.0,
+          106.0,
+          1287.0
+        ],
+        "fixed_support_ltrb_px": [
+          0,
+          1107.0,
+          170.0,
+          1334
+        ]
+      },
+      {
+        "id": "S14",
+        "source_design_bbox_px": [
+          654.0,
+          1176.0,
+          744.0,
+          1286.0
+        ],
+        "fixed_support_ltrb_px": [
+          590.0,
+          1112.0,
+          750,
+          1334
+        ]
+      },
+      {
+        "id": "S15",
+        "source_design_bbox_px": [
+          113.0,
+          1234.0,
+          225.0,
+          1328.0
+        ],
+        "fixed_support_ltrb_px": [
+          49.0,
+          1170.0,
+          289.0,
+          1334
+        ]
+      },
+      {
+        "id": "S16",
+        "source_design_bbox_px": [
+          524.0,
+          1233.0,
+          644.0,
+          1329.0
+        ],
+        "fixed_support_ltrb_px": [
+          460.0,
+          1169.0,
+          708.0,
+          1334
+        ]
+      }
+    ],
+    "highlight_candidate_neutral_segments": {
+      "alert": {
+        "top_bottom_x_pt": [
+          140,
+          235
+        ],
+        "left_right_y_pt": [
+          353,
+          359
+        ]
+      },
+      "sheet": {
+        "top_x_pt": [
+          [
+            140,
+            160
+          ],
+          [
+            215,
+            235
+          ]
+        ],
+        "bottom_x_pt": [
+          140,
+          235
+        ]
+      },
+      "signed_distance_ranges_pt": [
+        [
+          -2,
+          4
+        ],
+        [
+          4,
+          12
+        ]
+      ],
+      "source_before_max_channel_range_counts": 2,
+      "minimum_peak_coverage_pixels": 3,
+      "backdrop_warning": "Neutrality at same coordinates does not establish a clean broad material footprint; mismatched controls/shape halos prohibit thickness attribution."
+    }
+  },
+  "analysis_outputs": {
+    "all_fixed_ROIs": "retain all existing straight segment/bin, corner, body/exterior, rim, geometry and shape/exclusion results; no aggregate winner score",
+    "S07": "all14 native/control/candidate rows, pass/fail reasons and fixed tracks",
+    "controls": "exact whole Alert actual Window, sources/mapping/geometry/foreground; full-screen overlay deltas reported separately with coordinates",
+    "dark": "unchanged implementation/configuration evidence only in light matrix; no pixel parity claim",
+    "decode": "bind all actual input file hashes before first candidate decode; raw/ICC-sRGB provenance; no duplicate screenshots",
+    "acceptance": "No automatic material acceptance from an improved width or gate count. No new tolerance, physical thickness/sigma, dynamic or whole-product parity claim."
+  },
+  "prerequisites_and_stop_rules": [
+    "Do not decode unfinished rim/candidate runs.",
+    "Bind prior rim control configuration, source revision and files before phase A first decode.",
+    "Phase A must pass source/geometry/Alert strict Window controls before phase B.",
+    "Bind completed phase A files/configuration before phase B first decode.",
+    "If a source/shaping, tint, refraction, rim, scrim, geometry, slot, timing or non-light branch differs unexpectedly, report confounding and stop causal comparison; do not compensate.",
+    "Any subsequent radius or gate/window change requires a separate before-capture plan."
+  ],
+  "execution_ownership": "Root implements/builds/captures; this task only writes analysis-native-probes.",
+  "bound_existing_files": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/analysis-plan.json": "4a8d7cbedb4cce07f2a95ef2f18dcdfa4f106c13e2b6abe84072a9861dbe513f",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/analysis-plan.md": "675bf82c495e89c5a4088afd4462a2b51ef28ecbe073b45c27119fccb1d13294",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/manifest.json": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/oracle.json": "4d16120ec71791abc4c526e45fd1435cb9aa12f5130d0244cf72862d2133dd04",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/loader-manifest.json": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/analyze.py": "89b3a225189a568500638cb1e6fbe521b2715a56908d316b4f59026b169a327c",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/local_features.py": "0d169f510cb5164c8e5e178a9bb6ef8265ecd08528ada2ae9493b87e18b3f9e2",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sheet_local_features.py": "222b827860761852034ecc237fd5456b7baa6c0f605a9238403abfffcba982c3",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sigma-unified/Sheet-S07-local-plan.json": "172a6e3471068df5ad5d961bd419fe50e3fe980a5beeb8449a13fa083f9d92c2",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sigma-unified/Sheet-S07-local-contours.json": "93f9cca2358f079f02e8d03bbf5311cbc5c2504acbc50d9fed5f0f4ea92a8980",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/alert-body8/Sheet-S07-local-contours.json": "07cd5ee46269aa00a1d0e508ad710d094199f68ba29b3f5e8d0d2a96256349ff",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/input-geometry/decision.json": "25bb4d452a9d128974b692a23209d271894e2380bbe5f33b992f3a8ec8893031",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sheet-body6-plan.md": "5345a0c7d2502b1ad54e4bbc26d10c3993831a945c3cc6ff1dd996f328df4a07"
+  },
+  "control_binding": "pending root completion handoff; the binding record may only name/hash exact completed captures and frozen configurations, not change design or choices",
+  "revision": 2,
+  "revision_reason": "Before any new Sheet candidate decode: disclose exact filterBand routing and downgrade phaseB causal interpretation.",
+  "runtime_routing_disclosure": {
+    "source": "root implementation boundary message before candidate decode",
+    "filterBand": "exact radius lookup",
+    "available_exact_radii": [
+      2.5,
+      12,
+      16
+    ],
+    "phaseA_true12": "shared12 reused",
+    "phaseB_true10": "no matching band; local input preblur fallback",
+    "public_API_mode_unchanged": true,
+    "same_Gaussian_execution_path": false,
+    "configured_scalar_mutations": [
+      "light Sheet radius12 to10"
+    ],
+    "new_global_band": false,
+    "new_dependency": false,
+    "required_before_phaseB_decode_source_bindings": [
+      "GlassHost.kt",
+      "GlassFilterBands.kt"
+    ],
+    "interpretation_limit": "Cannot separate numerical radius effect from band-versus-local implementation effect. No sigma/thickness inversion."
+  },
+  "previous_plan_revision_sha256": {
+    "json": "78303e13466b74220f77d7ed43ea3b72ef333a0d42e190d6bb803615c6215437",
+    "md": "0dcac281c9198ffb419d8bdd72dbda67a5f25670ab6dbd21f1c434eed4a16671"
+  }
+}

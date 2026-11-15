@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "kind": "alert-shoulder-sharpness-candidate",
+  "evidence": "Frozen coordinate source seam native apparent10-90% raw width12.13..13.04pt across inward8..20; baseline~21pt. Isolated shape native~12.0..12.9 baseline~24. Correcting only rim blur leaves shoulder too broad.",
+  "engineering_target": "Uniform Alert Java blur radius8dp -> true Gaussian sigma4.87dp at2px/dp, predicted isolated-step width~12.5pt. This is an engineering image-response hypothesis, not fitted physical thickness or a complete native material model.",
+  "changes": "Only Alert effective blur16->8 with explicit radius sampling. Default refraction60/profile1/tint/brightness/geometry unchanged. Keep Alert CPU outlinezero intermediate for isolation. Sheet restored default12/rimBlur0/input opt-in off, preserving its old default.",
+  "checks": [
+    "same4 calibration REST with frozen complete tracks +all side/shoulder/corners",
+    "source/input/geometry validity and Sheet exact actualWindow control against pre-optin",
+    "retreat if over-sharp/colour/mapping regression; no free refraction fit from failed correspondence"
+  ]
+}

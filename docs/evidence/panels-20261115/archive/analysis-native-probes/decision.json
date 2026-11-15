@@ -1,0 +1,34 @@
+{
+  "status": "do-not-accept",
+  "scope": "Static calibration feasibility; two new source images \u00d7 Alert/Sheet \u00d7 light \u00d7 REST; no holdout/motion/percentage acceptance",
+  "native_repeat_pixel_identical_all4": true,
+  "native14_requests_sources_sessions_and_time_binding_passed": true,
+  "raw_icc_identical_all26": true,
+  "candidate_geometry_source_and_slot_gates_all4": true,
+  "refraction_zero_decision": "do-not-accept: some descriptive crossings move closer but broad transitions persist and near-top color amplitude overshoots",
+  "clear_edge_decision": "do-not-accept: S02 and independent coordinate seam often widen, weaken and drift farther from native; fixed ROI color regressions",
+  "identifiable_native_local_features": {
+    "S02_right_contour": "18/32 rows pass stated gates in fixed x84.25..141.75pt, y261.75..277.25pt; scalar apparent contour only",
+    "coordinate_x77_seam": "25/32 rows pass stated local gates in fixed x62.25..103.75pt; early same-row source direction not confirmed"
+  },
+  "unidentified_or_limited": [
+    "No complete material-only shape centroid is supported by the source/pane/foreground geometry",
+    "No unique2D inverse source map recovered",
+    "Narrow Alert highlight FWHM unresolved at2px/pt minimum3pixel gate",
+    "Sheet top-center rim unavailable under conservative union foreground mask",
+    "Broad backing UI differs; cannot interpret whole response as isolated physical lens thickness",
+    "No motion,size,speed,acceleration or reproduction-percentage proof"
+  ],
+  "outputs_sha256": {
+    "predecode-freeze.json": "75d7425a97e2a876ca8d8c4ebdf165b5470a3a2ea48f7edfebc607b834e34617",
+    "analyze.py": "89b3a225189a568500638cb1e6fbe521b2715a56908d316b4f59026b169a327c",
+    "local_features.py": "0d169f510cb5164c8e5e178a9bb6ef8265ecd08528ada2ae9493b87e18b3f9e2",
+    "report.md": "3a1b5044f5041b7321b5ce6960e9a0d5633d87a06d8b1cf472ae5e2df44e4c28",
+    "S02-local-contours.json": "6680d38faa1c8515923a87679e81ad8989470488146fa177af4dd22e8bb27ec3",
+    "coordinate-local-contours.json": "5a4734f5dacf2cd1069cf4eacd8dd32c4182a0152ac41c63ff69d7bb8e0e993c",
+    "candidate-fixed-roi-delta.json": "b5ee3e575b3fad47a4253e8a03ae00b5c82d2435b4a8a4328ffde2e9316d7574",
+    "narrow-rim-diagnostics.json": "99ffa086e93ad074d112bfb0764efc79bbe7a2d2f4a88593e4dcf1f356598f1e"
+  },
+  "local_operational_scan_status": "Exploratory plateau/scan operationalization after first native/baseline review, frozen before zero decode and reused unchanged for clear-edge; parent supports/smoothing/gates preregistered. Not independent confirmatory localization.",
+  "corner_derivative_guard": "Script explicitly clears derivatives for rows with<16 contiguous clear pixels; this audit found0 such populated entries in current output, so measurement files unchanged."
+}

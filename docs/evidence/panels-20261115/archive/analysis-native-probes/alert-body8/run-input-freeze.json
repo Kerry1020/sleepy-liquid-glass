@@ -1,0 +1,17 @@
+{
+  "status": "before-first-this-candidate-pixel-decode",
+  "candidate_directory": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115",
+  "files": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/matrix.json": "2ba82b32d78bb85b199e467fa525e6d39ce0b4705d82451fc3b87cbbcefe1242",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/capture-result.json": "e4996e15b1a83bf87d3e1bdbcd123ca304917fb2227b803291c28b61cec5f82c",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png": "9f4186a61bb542122d7a1aebb82c6a01f06fd7069b08363c325e9ae18a56fd97",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_shapes-light-background-screen.png": "6d12cf3118b8e32574898b2aa059de70c0a6c1b5b66225da93ff2eba0d68d62d",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_shapes-light-alert-rest-screen.png": "5a7417092e302f5841c9a5956b4c6f300677ba54f408b1f7aa6cb43951e12cdb",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_coordinate-light-alert-rest-screen.png": "540ff3d85f3401bd89f386ef7e159e1cee825b2ccde933f98da8e036cff3664c",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_coordinate-light-background-screen.png": "b5740f1c99b0b77dc1562697fa8fc3f8f77d573d8c13577a04b5a76de81f5f15",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-body8-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png": "1d1ecb820574eb9e3b4ebb1f63d9bef826157b8db13e042cb015fd1fe4505ab0"
+  },
+  "script_sha256": "89b3a225189a568500638cb1e6fbe521b2715a56908d316b4f59026b169a327c",
+  "fixed_parent_plan_sha256": "4a8d7cbedb4cce07f2a95ef2f18dcdfa4f106c13e2b6abe84072a9861dbe513f",
+  "no_registration_or_source_substitution": true
+}

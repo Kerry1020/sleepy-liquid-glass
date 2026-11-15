@@ -1,0 +1,190 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "scope": "ENTIRE750x1334 descriptive context only; no zero assumption or cropped replacement",
+    "before_vs_after_raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 836,
+      "max_channel_delta": 255,
+      "mean_absolute_channel_delta": 0.11754372813593203,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        836,
+        836,
+        836,
+        0
+      ],
+      "strict_all_channels_exact_zero": false
+    },
+    "before_vs_bare_source_raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 246771,
+      "max_channel_delta": 227,
+      "mean_absolute_channel_delta": 5.538520989505248,
+      "q95_absolute_channel_delta": 40.0,
+      "changed_pixels_by_channel_RGBA": [
+        238171,
+        242243,
+        237673,
+        0
+      ],
+      "strict_all_channels_exact_zero": false
+    },
+    "after_vs_bare_source_raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 246771,
+      "max_channel_delta": 227,
+      "mean_absolute_channel_delta": 5.553770864567716,
+      "q95_absolute_channel_delta": 40.0,
+      "changed_pixels_by_channel_RGBA": [
+        238163,
+        242251,
+        237681,
+        0
+      ],
+      "strict_all_channels_exact_zero": false
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "scope": "ENTIRE750x1334 descriptive context only; no zero assumption or cropped replacement",
+    "before_vs_after_raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 836,
+      "max_channel_delta": 255,
+      "mean_absolute_channel_delta": 0.11754372813593203,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        836,
+        836,
+        836,
+        0
+      ],
+      "strict_all_channels_exact_zero": false
+    },
+    "before_vs_bare_source_raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 246771,
+      "max_channel_delta": 227,
+      "mean_absolute_channel_delta": 5.538520989505248,
+      "q95_absolute_channel_delta": 40.0,
+      "changed_pixels_by_channel_RGBA": [
+        238171,
+        242243,
+        237673,
+        0
+      ],
+      "strict_all_channels_exact_zero": false
+    },
+    "after_vs_bare_source_raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 246771,
+      "max_channel_delta": 227,
+      "mean_absolute_channel_delta": 5.553770864567716,
+      "q95_absolute_channel_delta": 40.0,
+      "changed_pixels_by_channel_RGBA": [
+        238163,
+        242251,
+        237681,
+        0
+      ],
+      "strict_all_channels_exact_zero": false
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "scope": "ENTIRE750x1334 descriptive context only; no zero assumption or cropped replacement",
+    "before_vs_after_raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "before_vs_bare_source_raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 246345,
+      "max_channel_delta": 223,
+      "mean_absolute_channel_delta": 4.779542728635682,
+      "q95_absolute_channel_delta": 26.0,
+      "changed_pixels_by_channel_RGBA": [
+        244620,
+        245554,
+        240439,
+        0
+      ],
+      "strict_all_channels_exact_zero": false
+    },
+    "after_vs_bare_source_raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 246345,
+      "max_channel_delta": 223,
+      "mean_absolute_channel_delta": 4.779542728635682,
+      "q95_absolute_channel_delta": 26.0,
+      "changed_pixels_by_channel_RGBA": [
+        244620,
+        245554,
+        240439,
+        0
+      ],
+      "strict_all_channels_exact_zero": false
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "scope": "ENTIRE750x1334 descriptive context only; no zero assumption or cropped replacement",
+    "before_vs_after_raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 848,
+      "max_channel_delta": 184,
+      "mean_absolute_channel_delta": 0.034320589705147425,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        720,
+        673,
+        708,
+        0
+      ],
+      "strict_all_channels_exact_zero": false
+    },
+    "before_vs_bare_source_raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 246345,
+      "max_channel_delta": 223,
+      "mean_absolute_channel_delta": 4.779542728635682,
+      "q95_absolute_channel_delta": 26.0,
+      "changed_pixels_by_channel_RGBA": [
+        244620,
+        245554,
+        240439,
+        0
+      ],
+      "strict_all_channels_exact_zero": false
+    },
+    "after_vs_bare_source_raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 246360,
+      "max_channel_delta": 223,
+      "mean_absolute_channel_delta": 4.784010244877561,
+      "q95_absolute_channel_delta": 26.0,
+      "changed_pixels_by_channel_RGBA": [
+        244638,
+        245569,
+        240458,
+        0
+      ],
+      "strict_all_channels_exact_zero": false
+    }
+  }
+]

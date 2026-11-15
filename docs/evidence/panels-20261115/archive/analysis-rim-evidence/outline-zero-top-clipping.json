@@ -1,0 +1,266 @@
+[
+  {
+    "platform": "baseline",
+    "distance_pt": 0.25,
+    "count_pixels": 190,
+    "count_any255": 0,
+    "count_rgb255": 0,
+    "count255_by_channel": [
+      0,
+      0,
+      0
+    ],
+    "min_rgb": [
+      226,
+      226,
+      226
+    ],
+    "max_rgb": [
+      240,
+      240,
+      240
+    ]
+  },
+  {
+    "platform": "baseline",
+    "distance_pt": 0.75,
+    "count_pixels": 190,
+    "count_any255": 0,
+    "count_rgb255": 0,
+    "count255_by_channel": [
+      0,
+      0,
+      0
+    ],
+    "min_rgb": [
+      241,
+      241,
+      241
+    ],
+    "max_rgb": [
+      245,
+      245,
+      245
+    ]
+  },
+  {
+    "platform": "baseline",
+    "distance_pt": 1.25,
+    "count_pixels": 190,
+    "count_any255": 0,
+    "count_rgb255": 0,
+    "count255_by_channel": [
+      0,
+      0,
+      0
+    ],
+    "min_rgb": [
+      229,
+      229,
+      229
+    ],
+    "max_rgb": [
+      230,
+      230,
+      230
+    ]
+  },
+  {
+    "platform": "baseline",
+    "distance_pt": 1.75,
+    "count_pixels": 190,
+    "count_any255": 0,
+    "count_rgb255": 0,
+    "count255_by_channel": [
+      0,
+      0,
+      0
+    ],
+    "min_rgb": [
+      227,
+      227,
+      227
+    ],
+    "max_rgb": [
+      229,
+      229,
+      229
+    ]
+  },
+  {
+    "platform": "candidate",
+    "distance_pt": 0.25,
+    "count_pixels": 190,
+    "count_any255": 142,
+    "count_rgb255": 142,
+    "count255_by_channel": [
+      142,
+      142,
+      142
+    ],
+    "min_rgb": [
+      253,
+      253,
+      253
+    ],
+    "max_rgb": [
+      255,
+      255,
+      255
+    ]
+  },
+  {
+    "platform": "candidate",
+    "distance_pt": 0.75,
+    "count_pixels": 190,
+    "count_any255": 0,
+    "count_rgb255": 0,
+    "count255_by_channel": [
+      0,
+      0,
+      0
+    ],
+    "min_rgb": [
+      241,
+      241,
+      241
+    ],
+    "max_rgb": [
+      245,
+      245,
+      245
+    ]
+  },
+  {
+    "platform": "candidate",
+    "distance_pt": 1.25,
+    "count_pixels": 190,
+    "count_any255": 0,
+    "count_rgb255": 0,
+    "count255_by_channel": [
+      0,
+      0,
+      0
+    ],
+    "min_rgb": [
+      229,
+      229,
+      229
+    ],
+    "max_rgb": [
+      230,
+      230,
+      230
+    ]
+  },
+  {
+    "platform": "candidate",
+    "distance_pt": 1.75,
+    "count_pixels": 190,
+    "count_any255": 0,
+    "count_rgb255": 0,
+    "count255_by_channel": [
+      0,
+      0,
+      0
+    ],
+    "min_rgb": [
+      227,
+      227,
+      227
+    ],
+    "max_rgb": [
+      229,
+      229,
+      229
+    ]
+  },
+  {
+    "platform": "native",
+    "distance_pt": 0.25,
+    "count_pixels": 190,
+    "count_any255": 0,
+    "count_rgb255": 0,
+    "count255_by_channel": [
+      0,
+      0,
+      0
+    ],
+    "min_rgb": [
+      234,
+      247,
+      248
+    ],
+    "max_rgb": [
+      241,
+      249,
+      250
+    ]
+  },
+  {
+    "platform": "native",
+    "distance_pt": 0.75,
+    "count_pixels": 190,
+    "count_any255": 0,
+    "count_rgb255": 0,
+    "count255_by_channel": [
+      0,
+      0,
+      0
+    ],
+    "min_rgb": [
+      224,
+      241,
+      243
+    ],
+    "max_rgb": [
+      232,
+      242,
+      244
+    ]
+  },
+  {
+    "platform": "native",
+    "distance_pt": 1.25,
+    "count_pixels": 190,
+    "count_any255": 0,
+    "count_rgb255": 0,
+    "count255_by_channel": [
+      0,
+      0,
+      0
+    ],
+    "min_rgb": [
+      220,
+      231,
+      233
+    ],
+    "max_rgb": [
+      225,
+      232,
+      235
+    ]
+  },
+  {
+    "platform": "native",
+    "distance_pt": 1.75,
+    "count_pixels": 190,
+    "count_any255": 0,
+    "count_rgb255": 0,
+    "count255_by_channel": [
+      0,
+      0,
+      0
+    ],
+    "min_rgb": [
+      225,
+      231,
+      233
+    ],
+    "max_rgb": [
+      229,
+      232,
+      234
+    ]
+  }
+]

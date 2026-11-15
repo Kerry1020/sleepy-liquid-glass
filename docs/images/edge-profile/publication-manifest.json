@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "publication_date": "2026-11-14",
+  "scope": "New Android-only controlled static bevel-bandwidth comparison, separate from the older native-reference evidence atlas. Not iOS optical or motion parity.",
+  "privacy": "Four locally generated synthetic fixtures only; no user data, photographs, production-screen captures, status bars, or raw device videos.",
+  "public_subset": "Four composed comparison PNGs, one 16-scene compact summary and the controlled capture report. Original 32 full PNGs remain in the capture archive; their hashes are preserved inside capture-result.json.",
+  "assets": [
+    {
+      "public_file": "pill-light-comparison.png",
+      "archive_path": "artifacts/glass-thickness-profile-20261114/pill-light-comparison.png",
+      "sha256": "0b6aee06e93fce2710074bf6da7a359461dffa0eacc4d220da7e5d357428548e",
+      "bytes": 140858,
+      "processing": "Copied byte-for-byte; comparison PNG crops/resizing are described in the report."
+    },
+    {
+      "public_file": "pill-dark-comparison.png",
+      "archive_path": "artifacts/glass-thickness-profile-20261114/pill-dark-comparison.png",
+      "sha256": "f21b51a3b6f283a3a4fcdfc360133e68129b7d0463deb7157bac830acb645673",
+      "bytes": 161204,
+      "processing": "Copied byte-for-byte; comparison PNG crops/resizing are described in the report."
+    },
+    {
+      "public_file": "sheet-light-comparison.png",
+      "archive_path": "artifacts/glass-thickness-profile-20261114/sheet-light-comparison.png",
+      "sha256": "e491a8e2fd9710bfedd5fc9bf539176569e929d7653f0d3f0ae58214bdec268f",
+      "bytes": 356221,
+      "processing": "Copied byte-for-byte; comparison PNG crops/resizing are described in the report."
+    },
+    {
+      "public_file": "sheet-dark-comparison.png",
+      "archive_path": "artifacts/glass-thickness-profile-20261114/sheet-dark-comparison.png",
+      "sha256": "b6fe71c5a4d583a1822d1f01787243a331a7045c556cd91dfac4e015776a3d30",
+      "bytes": 286261,
+      "processing": "Copied byte-for-byte; comparison PNG crops/resizing are described in the report."
+    },
+    {
+      "public_file": "comparison-summary.json",
+      "archive_path": "artifacts/glass-thickness-profile-20261114/comparison-summary.json",
+      "sha256": "689bbe6125013b6c9d881e5351c0ddeb76a66708268f8ec14694d96b552e732a",
+      "bytes": 2171,
+      "processing": "Copied byte-for-byte."
+    },
+    {
+      "public_file": "capture-result.json",
+      "archive_path": "artifacts/glass-thickness-profile-20261114/capture-a/result.json",
+      "sha256": "4f8596a6648e1cbe01ea20bf7b53ebb3017451082d413e5a760ffaf6fe93a24f",
+      "bytes": 429227,
+      "processing": "Copied byte-for-byte after checking all string values for absolute paths, account/device identifiers, credentials and personal names. The run_id is an experiment label, not a device identifier."
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "schema": 1,
+  "date": "2026-11-15",
+  "scope": "read-only mathematical/source review; exactly two new review files; no runtime source edit, candidate pixels, build, test, device or Git action",
+  "reviewed_source_hashes": {
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "df9162c72f4674b3cc6fdd7903f5237a4bc9410ee8e43762fdc0e05973200891",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt": "145a05887002e19cf1c44fd6e67d7fd6e839d2f43a8cb97b55c581736cc92ca2",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "2acfbc9c7c184334b7442cd17c8dcde7968ab5915d15943e92b0f9b553ef3c3b",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassControlModifier.kt": "1a57e8eb4f72b49ce327fa0f4e6276152d67d55929a5cdb2e4715ad1a472c51f",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-rim-evidence/rim-screen-increment-frozen-plan.md": "98ad62d4c92c43a60b8bca15a76ffb2b2faf01821155af24592ff90628ecfb19",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-rim-evidence/rim-screen-increment-predecode-amendment.md": "03b9bb85a0c290a96c2fa859d52153daf13852e13521fb4f63c49371c3dd6262"
+  },
+  "current_formula": {
+    "E": "coverage*addedFloor",
+    "H": "max(coverage-glass,0) componentwise after inherited additive shine",
+    "Y": "dot(H,kLuma)",
+    "weights": [
+      0.2126,
+      0.7152,
+      0.0722
+    ],
+    "increment": "clamp(addedFloor,0,1)*H",
+    "weighted_increment_in_frozen_range": "E*Y/coverage for positive coverage"
+  },
+  "hard": {
+    "alpha": "E/max(Y,E), only evaluate when E>0",
+    "weighted_increment": "min(E,Y)",
+    "new_parameters": 0,
+    "bounded_in_valid_premult_domain": true,
+    "exact_feasible_weighted_budget": true,
+    "exact_original_per_channel_budget": false,
+    "strict_no_new_saturation": false,
+    "failure_condition": "E>=Y and H has positive components: all remaining headroom consumed; white plateau possible",
+    "regularity": "continuous, derivative kink at E=Y"
+  },
+  "soft": {
+    "alpha": "E/(Y+E), only evaluate when E>0",
+    "weighted_increment": "E*Y/(E+Y)",
+    "target_fraction": "Y/(E+Y)",
+    "new_parameters": 0,
+    "bounded_in_valid_premult_domain": true,
+    "exact_feasible_weighted_budget": false,
+    "at_equal_budget_and_headroom_target_fraction": 0.5,
+    "strict_real_arithmetic_ceiling_for_positive_headroom": true,
+    "display_code_clipping_guarantee": false,
+    "current_screen_brightness_ratio_in_frozen_range": "coverage/(Y+E); brighter only if Y+E<coverage",
+    "regularity": "smooth on positive E+Y; zero handled by branch"
+  },
+  "premult": {
+    "positive_scale_covariance": true,
+    "zero_coverage_requires_E_guard": true,
+    "epsilon_needed": false,
+    "upper_bound_requires_valid_initial_G_for_total_output": true,
+    "preexisting_overshoot_not_repaired": true,
+    "negative_upstream_values_not_fixed_by_upper_clamp": true
+  },
+  "neutral_and_color": {
+    "neutral_components_remain_equal": true,
+    "channel_difference_formula_in_valid_domain": "out_i-out_j=(1-alpha)*(G_i-G_j)",
+    "perceptual_hue_or_native_color_claim": false,
+    "working_space_linear_light_proven": false
+  },
+  "impossibility": "Any 0<=Delta<=H has dot(Delta,w)<=Y. E>Y is unattainable; E=Y forces Delta=H with all weights positive, hence white. Full target preservation in all cases and strict no-new-saturation cannot both hold.",
+  "minimal_fragment": "float E = coverage * addedFloor; if (E > 0.0) { float3 H = max(float3(coverage) - glass, 0.0); glass += H * (E / (dot(H, kLuma) + E)); }",
+  "rejected_simplifications": [
+    "min(E,H) is independently clamped additive floor and retains plateaus",
+    "H/coverage adds zero-coverage division without changing algebra",
+    "min(1,E/Y) needs a Y guard and is only a hard-form rewrite"
+  ],
+  "arithmetic_examples_notice": "Decimal evaluation of symbolic formulas only; these are not native pixels, runtime tests or candidate acceptance.",
+  "arithmetic_examples": [
+    {
+      "label": "neutral midgray",
+      "coverage": 1.0,
+      "glass_after_inherited_addition": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "addedFloor": 0.08,
+      "E": 0.08,
+      "H": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "Y": 0.5,
+      "current_delta_weighted": 0.04,
+      "hard_alpha": 0.16,
+      "hard_output": [
+        0.58,
+        0.58,
+        0.58
+      ],
+      "hard_delta_weighted": 0.08,
+      "soft_alpha": 0.13793103448275862,
+      "soft_output": [
+        0.5689655172413793,
+        0.5689655172413793,
+        0.5689655172413793
+      ],
+      "soft_delta_weighted": 0.06896551724137931,
+      "exponential_alpha": 0.14785621103378865,
+      "exponential_output": [
+        0.5739281055168943,
+        0.5739281055168943,
+        0.5739281055168943
+      ],
+      "exponential_delta_weighted": 0.07392810551689433
+    },
+    {
+      "label": "neutral bright, budget feasible",
+      "coverage": 1.0,
+      "glass_after_inherited_addition": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "addedFloor": 0.08,
+      "E": 0.08,
+      "H": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "Y": 0.1,
+      "current_delta_weighted": 0.008,
+      "hard_alpha": 0.8,
+      "hard_output": [
+        0.98,
+        0.98,
+        0.98
+      ],
+      "hard_delta_weighted": 0.08,
+      "soft_alpha": 0.4444444444444444,
+      "soft_output": [
+        0.9444444444444444,
+        0.9444444444444444,
+        0.9444444444444444
+      ],
+      "soft_delta_weighted": 0.044444444444444446,
+      "exponential_alpha": 0.5506710358827784,
+      "exponential_output": [
+        0.9550671035882778,
+        0.9550671035882778,
+        0.9550671035882778
+      ],
+      "exponential_delta_weighted": 0.05506710358827784
+    },
+    {
+      "label": "neutral near-white, budget impossible without saturation",
+      "coverage": 1.0,
+      "glass_after_inherited_addition": [
+        0.95,
+        0.95,
+        0.95
+      ],
+      "addedFloor": 0.08,
+      "E": 0.08,
+      "H": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "Y": 0.05,
+      "current_delta_weighted": 0.004,
+      "hard_alpha": 1.0,
+      "hard_output": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "hard_delta_weighted": 0.05,
+      "soft_alpha": 0.6153846153846154,
+      "soft_output": [
+        0.9807692307692307,
+        0.9807692307692307,
+        0.9807692307692307
+      ],
+      "soft_delta_weighted": 0.03076923076923077,
+      "exponential_alpha": 0.7981034820053446,
+      "exponential_output": [
+        0.9899051741002672,
+        0.9899051741002672,
+        0.9899051741002672
+      ],
+      "exponential_delta_weighted": 0.03990517410026723
+    },
+    {
+      "label": "colored red near ceiling",
+      "coverage": 1.0,
+      "glass_after_inherited_addition": [
+        0.99,
+        0.6,
+        0.6
+      ],
+      "addedFloor": 0.08,
+      "E": 0.08,
+      "H": [
+        0.01,
+        0.4,
+        0.4
+      ],
+      "Y": 0.317086,
+      "current_delta_weighted": 0.02536688,
+      "hard_alpha": 0.2522974839633412,
+      "hard_output": [
+        0.9925229748396334,
+        0.7009189935853365,
+        0.7009189935853365
+      ],
+      "hard_delta_weighted": 0.08,
+      "soft_alpha": 0.20146769213721966,
+      "soft_output": [
+        0.9920146769213722,
+        0.6805870768548878,
+        0.6805870768548878
+      ],
+      "soft_delta_weighted": 0.06388258462902242,
+      "exponential_alpha": 0.22298644538783027,
+      "exponential_output": [
+        0.9922298644538783,
+        0.6891945781551321,
+        0.6891945781551321
+      ],
+      "exponential_delta_weighted": 0.07070588002224555
+    },
+    {
+      "label": "same colored case at quarter coverage",
+      "coverage": 0.25,
+      "glass_after_inherited_addition": [
+        0.2475,
+        0.15,
+        0.15
+      ],
+      "addedFloor": 0.08,
+      "E": 0.02,
+      "H": [
+        0.0025,
+        0.1,
+        0.1
+      ],
+      "Y": 0.0792715,
+      "current_delta_weighted": 0.00634172,
+      "hard_alpha": 0.2522974839633412,
+      "hard_output": [
+        0.24813074370990834,
+        0.17522974839633412,
+        0.17522974839633412
+      ],
+      "hard_delta_weighted": 0.02,
+      "soft_alpha": 0.20146769213721966,
+      "soft_output": [
+        0.24800366923034306,
+        0.17014676921372196,
+        0.17014676921372196
+      ],
+      "soft_delta_weighted": 0.015970646157255606,
+      "exponential_alpha": 0.22298644538783027,
+      "exponential_output": [
+        0.24805746611346957,
+        0.17229864453878302,
+        0.17229864453878302
+      ],
+      "exponential_delta_weighted": 0.017676470005561388
+    },
+    {
+      "label": "exact white",
+      "coverage": 1.0,
+      "glass_after_inherited_addition": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "addedFloor": 0.08,
+      "E": 0.08,
+      "H": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Y": 0.0,
+      "current_delta_weighted": 0.0,
+      "hard_alpha": 1.0,
+      "hard_output": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "hard_delta_weighted": 0.0,
+      "soft_alpha": 1.0,
+      "soft_output": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "soft_delta_weighted": 0.0,
+      "exponential_alpha": 0.0,
+      "exponential_output": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "exponential_delta_weighted": 0.0
+    },
+    {
+      "label": "zero coverage",
+      "coverage": 0.0,
+      "glass_after_inherited_addition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "addedFloor": 0.08,
+      "E": 0.0,
+      "H": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Y": 0.0,
+      "current_delta_weighted": 0.0,
+      "hard_alpha": 0.0,
+      "hard_output": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hard_delta_weighted": 0.0,
+      "soft_alpha": 0.0,
+      "soft_output": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "soft_delta_weighted": 0.0,
+      "exponential_alpha": 0.0,
+      "exponential_output": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exponential_delta_weighted": 0.0
+    }
+  ],
+  "native_target_representability_condition": "For H_i>0, (N_i-G_i)/H_i must be a common alpha in[0,1]; for H_i=0, native increment must be0.",
+  "native_acceptance": false,
+  "motion_acceptance": false,
+  "thickness_or_transmission_inference": false,
+  "holdout_acceptance": false,
+  "next_probe_requirements": [
+    "New candidate identity and preregistered formula; preserve prior frozen plans",
+    "Keep original inherited shine, defaults/zero-delta code, knots, depth bands, coverage and final clamp",
+    "Preserve fixed ROIs, all raw/ICC curves and per-channel clipping gates",
+    "Retain delta-zero top, body/dark/Sheet strict controls and unresolved context/geometry gates",
+    "Do not claim structural bound or scalar conservation proves native appearance"
+  ],
+  "markdown_sha256": "358fa7b31ec82bd849e228806f23448df5a57c1cc4b7ba7b547f15d5a5cc20b6",
+  "exponential": {
+    "alpha": "1-exp(-E/Y), only evaluate when E>0 and Y>0",
+    "weighted_increment": "Y*(1-exp(-E/Y))",
+    "small_budget_expansion": "E-E^2/(2Y)+E^3/(6Y^2)-...",
+    "new_parameters": 0,
+    "exact_finite_budget_preserved": false,
+    "at_equal_budget_and_headroom_target_fraction": 0.6321205588285577,
+    "strict_real_arithmetic_ceiling_for_positive_headroom_and_finite_ratio": true,
+    "display_code_clipping_guarantee": false,
+    "numeric_helper_available": "dockOneMinusExp(x); existing fixed small-x fourth-order series and .01 numerical join; not a new fitted optical parameter",
+    "numerical_limits": [
+      "Direct 1-exp(-x) cancels precision for small x",
+      "Subtraction can round alpha to1 for large x",
+      "E/Y may overflow at extremely small positive Y",
+      "half/display quantization may create max-code plateaus",
+      "Existing helper makes no exact C1 numerical-join guarantee"
+    ],
+    "neutral_output_for_h_1_minus_g": "1-h*exp(-d/h), h>0,d>0; white extension at h0",
+    "neutral_slope_with_respect_to_g": "exp(-d/h)*(1+d/h), approaches0 near white for fixed positive d",
+    "minimal_fragment": "float E = coverage * addedFloor; if (E > 0.0) { float3 H = max(float3(coverage) - glass, 0.0); float Y = dot(H, kLuma); if (Y > 0.0) glass += H * dockOneMinusExp(E / Y); }",
+    "native_physical_law_identified": false,
+    "runtime_or_performance_verified": false
+  },
+  "structural_increment_order": "soft rational < exponential < hard for E>0,Y>0 along the same H; mathematical ordering, not native accuracy ranking",
+  "neutral_regularities": {
+    "hard": "min(g+d,1); derivative kink at g=1-d",
+    "soft": "1-h^2/(h+d); slope h*(h+2d)/(h+d)^2 approaches0 near white",
+    "exponential": "1-h*exp(-d/h); slope exp(-d/h)*(1+d/h) approaches0 near white",
+    "domain": "h=1-g>=0 and fixed d>0; no universal joint-origin differentiability claim"
+  },
+  "calibration_simulation_used_to_fit_or_rank": false,
+  "recommendation": "For the declared first-order frozen-budget plus gradual neutral-ceiling objective, exponential is a separate defensible mechanism probe using the existing helper. Rational-soft is smaller; hard alone preserves the exact feasible weighted budget. No native acceptance follows."
+}

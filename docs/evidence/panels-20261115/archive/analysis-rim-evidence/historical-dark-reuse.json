@@ -1,0 +1,11 @@
+{
+  "input_manifests_equal": true,
+  "historical_dark_actual_windows_unchanged": true,
+  "sources": {
+    "analysis-dark-scrim/analysis.json": "18a6bbab03e763204d039399627d213d0dfa05716c6ce8adf00da7a913741c92",
+    "analysis-alert-baseline/analysis.json": "cd0b6088b597fa93045ae73417410d8457104e416a363a5c4fbc9350f4f9ac38",
+    "analysis-alert-baseline/straight-profiles.csv": "2ecfe3d49dbb4fae644e84629ea4aea6d09f8ce1aca7a7aca966634a68b96037",
+    "analysis-alert-baseline/analyze_alert_baseline.py": "e2caa294988003f81f150fc2295d2fe89710210d0ca260598e4fb88c0850ec8b",
+    "native-alert-map.md": "ce6926fddb7089d28b81182136829f62ea28fe91ef4cda43fc6a21b6cc2c6fb1"
+  }
+}

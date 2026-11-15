@@ -1,0 +1,706 @@
+{
+  "schema": 1,
+  "status": "preregistered-before-new-output-decode",
+  "split": "calibration",
+  "manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+  "oracle_sha256": "4d16120ec71791abc4c526e45fd1435cb9aa12f5130d0244cf72862d2133dd04",
+  "analysis_plan_markdown_sha256": "675bf82c495e89c5a4088afd4462a2b51ef28ecbe073b45c27119fccb1d13294",
+  "selected_ids": [
+    "panel_probe_coordinate",
+    "panel_probe_shapes"
+  ],
+  "matrix": {
+    "themes": [
+      "light"
+    ],
+    "carriers": [
+      "alert",
+      "share_sheet"
+    ],
+    "phases": [
+      "rest"
+    ],
+    "observations_per_platform": 4,
+    "compatibility_unselected_excluded": true
+  },
+  "world_px": [
+    750,
+    1334
+  ],
+  "density_px_per_pt": 2,
+  "source_warp_or_registration": false,
+  "direct_foreground_mask": "native AX union actual Android layout, expanded2pt, including Sheet drag indicator",
+  "straight": [
+    {
+      "carrier": "alert",
+      "segment": "left",
+      "axis": "x",
+      "boundary_pt": 27.5,
+      "inward_sign": 1,
+      "tangent_half_open_pt": [
+        307,
+        338
+      ],
+      "last_inward_pt_exclusive": 24,
+      "status": "primary"
+    },
+    {
+      "carrier": "alert",
+      "segment": "right",
+      "axis": "x",
+      "boundary_pt": 347.5,
+      "inward_sign": -1,
+      "tangent_half_open_pt": [
+        307,
+        338
+      ],
+      "last_inward_pt_exclusive": 24,
+      "status": "primary"
+    },
+    {
+      "carrier": "alert",
+      "segment": "top_left",
+      "axis": "y",
+      "boundary_pt": 257.5,
+      "inward_sign": 1,
+      "tangent_half_open_pt": [
+        62,
+        104
+      ],
+      "last_inward_pt_exclusive": 20,
+      "status": "primary"
+    },
+    {
+      "carrier": "alert",
+      "segment": "bottom_left",
+      "axis": "y",
+      "boundary_pt": 429.5,
+      "inward_sign": -1,
+      "tangent_half_open_pt": [
+        62,
+        104
+      ],
+      "last_inward_pt_exclusive": 10,
+      "status": "primary"
+    },
+    {
+      "carrier": "alert",
+      "segment": "top_right",
+      "axis": "y",
+      "boundary_pt": 257.5,
+      "inward_sign": 1,
+      "tangent_half_open_pt": [
+        271,
+        313
+      ],
+      "last_inward_pt_exclusive": 20,
+      "status": "primary"
+    },
+    {
+      "carrier": "alert",
+      "segment": "bottom_right",
+      "axis": "y",
+      "boundary_pt": 429.5,
+      "inward_sign": -1,
+      "tangent_half_open_pt": [
+        271,
+        313
+      ],
+      "last_inward_pt_exclusive": 10,
+      "status": "primary"
+    },
+    {
+      "carrier": "sheet",
+      "segment": "top_left",
+      "axis": "y",
+      "boundary_pt": 317.5,
+      "inward_sign": 1,
+      "tangent_half_open_pt": [
+        48,
+        110
+      ],
+      "last_inward_pt_exclusive": 24,
+      "status": "primary"
+    },
+    {
+      "carrier": "sheet",
+      "segment": "bottom_left",
+      "axis": "y",
+      "boundary_pt": 659,
+      "inward_sign": -1,
+      "tangent_half_open_pt": [
+        48,
+        110
+      ],
+      "last_inward_pt_exclusive": 24,
+      "status": "backing_context_diagnostic"
+    },
+    {
+      "carrier": "sheet",
+      "segment": "top_right",
+      "axis": "y",
+      "boundary_pt": 317.5,
+      "inward_sign": 1,
+      "tangent_half_open_pt": [
+        265,
+        327
+      ],
+      "last_inward_pt_exclusive": 24,
+      "status": "primary"
+    },
+    {
+      "carrier": "sheet",
+      "segment": "bottom_right",
+      "axis": "y",
+      "boundary_pt": 659,
+      "inward_sign": -1,
+      "tangent_half_open_pt": [
+        265,
+        327
+      ],
+      "last_inward_pt_exclusive": 24,
+      "status": "backing_context_diagnostic"
+    },
+    {
+      "carrier": "sheet",
+      "segment": "left_upper_straight",
+      "axis": "x",
+      "boundary_pt": 8,
+      "inward_sign": 1,
+      "tangent_half_open_pt": [
+        353.5,
+        365
+      ],
+      "last_inward_pt_exclusive": 24,
+      "status": "primary"
+    },
+    {
+      "carrier": "sheet",
+      "segment": "left_corner_proximal",
+      "axis": "x",
+      "boundary_pt": 8,
+      "inward_sign": 1,
+      "tangent_half_open_pt": [
+        347,
+        353.5
+      ],
+      "last_inward_pt_exclusive": 24,
+      "status": "corner_proximal_raster_diagnostic"
+    },
+    {
+      "carrier": "sheet",
+      "segment": "left_lower",
+      "axis": "x",
+      "boundary_pt": 8,
+      "inward_sign": 1,
+      "tangent_half_open_pt": [
+        610,
+        625
+      ],
+      "last_inward_pt_exclusive": 24,
+      "status": "backing_context_diagnostic"
+    },
+    {
+      "carrier": "sheet",
+      "segment": "right_upper_straight",
+      "axis": "x",
+      "boundary_pt": 367,
+      "inward_sign": -1,
+      "tangent_half_open_pt": [
+        353.5,
+        365
+      ],
+      "last_inward_pt_exclusive": 24,
+      "status": "primary"
+    },
+    {
+      "carrier": "sheet",
+      "segment": "right_corner_proximal",
+      "axis": "x",
+      "boundary_pt": 367,
+      "inward_sign": -1,
+      "tangent_half_open_pt": [
+        347,
+        353.5
+      ],
+      "last_inward_pt_exclusive": 24,
+      "status": "corner_proximal_raster_diagnostic"
+    },
+    {
+      "carrier": "sheet",
+      "segment": "right_lower",
+      "axis": "x",
+      "boundary_pt": 367,
+      "inward_sign": -1,
+      "tangent_half_open_pt": [
+        610,
+        625
+      ],
+      "last_inward_pt_exclusive": 24,
+      "status": "backing_context_diagnostic"
+    }
+  ],
+  "sample_grid": {
+    "first_signed_distance_pt": -5.75,
+    "step_pt": 0.5,
+    "bins_pt": [
+      [
+        -6,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        12,
+        20
+      ],
+      [
+        20,
+        24
+      ]
+    ],
+    "smoothing_sigma_pt": 0.75,
+    "smoothing_samples": 7,
+    "endpoints": "reflect",
+    "derivative_crosses_masked_gap": false
+  },
+  "corner_horizontal_slices": {
+    "alert": {
+      "top_bottom_depths_pt": [
+        4.25,
+        8.25,
+        12.25,
+        16.25,
+        20.25,
+        24.25
+      ],
+      "x_boundaries_pt": [
+        27.5,
+        347.5
+      ],
+      "y_boundaries_pt": [
+        257.5,
+        429.5
+      ],
+      "inward_range_pt": [
+        -5.75,
+        28
+      ]
+    },
+    "sheet": {
+      "top_depths_pt": [
+        4.25,
+        8.25,
+        12.25,
+        16.25,
+        20.25,
+        24.25,
+        28.25,
+        32.25
+      ],
+      "bottom_depths_pt": [
+        4.25,
+        8.25,
+        12.25,
+        16.25
+      ],
+      "x_boundaries_pt": [
+        8,
+        367
+      ],
+      "y_boundaries_pt": [
+        317.5,
+        659
+      ],
+      "top_inward_range_pt": [
+        -5.75,
+        40
+      ],
+      "bottom_inward_range_pt": [
+        -5.75,
+        24
+      ]
+    },
+    "minimum_contiguous_clear_pixels_for_derivatives": 16,
+    "normal_inference": false
+  },
+  "exterior_rois_pt": {
+    "alert": [
+      32,
+      176,
+      343,
+      220
+    ],
+    "sheet": [
+      24,
+      170,
+      351,
+      272
+    ]
+  },
+  "body_rois_pt": {
+    "alert": {
+      "left_gutter": [
+        49.5,
+        307,
+        54.5,
+        338
+      ],
+      "right_gutter": [
+        320.5,
+        307,
+        325.5,
+        338
+      ],
+      "left_gap": [
+        60,
+        350,
+        110,
+        359
+      ],
+      "right_gap": [
+        265,
+        350,
+        315,
+        359
+      ]
+    },
+    "sheet": {
+      "upper_left_primary": [
+        48,
+        348,
+        110,
+        365
+      ],
+      "middle_left_diagnostic": [
+        48,
+        430,
+        110,
+        442
+      ],
+      "lower_right_backdrop_diagnostic": [
+        265,
+        610,
+        327,
+        625
+      ]
+    }
+  },
+  "separate_questions": [
+    "source identity / exterior encoded scrim response",
+    "body encoded color / contrast transfer",
+    "apparent color-edge width; not isolated blur kernel",
+    "eligible local contour/complete-feature movement and extent; not brightness",
+    "narrow rim excess/width/location; not physical thickness by itself"
+  ],
+  "visibility_gates": {
+    "minimum_encoded_contrast": 8,
+    "minimum_contrast_over_robust_spread": 5,
+    "quantization_floor_counts": 1,
+    "minimum_source_color_direction_cosine": 0.7,
+    "minimum_clear_support_width_px": 12,
+    "maximum_secondary_to_primary_peak": 0.8,
+    "minimum_complete_feature_area_px": 64,
+    "minimum_contained_contrast_mass": 0.95,
+    "minimum_source_structure_tensor_eigenvalue_ratio_for_2d": 0.05,
+    "minimum_sampling_location_uncertainty_pt": 0.25,
+    "maximum_location_uncertainty_for_fine_scalar_comparison_pt": 1,
+    "parameter_acceptance_claim": false,
+    "on_failure": "not identifiable; retain all failed IDs/gates; no ROI movement, lowered gates or forced nearest match"
+  },
+  "shape_supports": [
+    {
+      "id": "S01",
+      "source_design_bbox_px": [
+        15.0,
+        470.0,
+        99.0,
+        554.0
+      ],
+      "fixed_support_ltrb_px": [
+        0,
+        406.0,
+        163.0,
+        618.0
+      ]
+    },
+    {
+      "id": "S02",
+      "source_design_bbox_px": [
+        116.0,
+        460.0,
+        220.0,
+        564.0
+      ],
+      "fixed_support_ltrb_px": [
+        52.0,
+        396.0,
+        284.0,
+        628.0
+      ]
+    },
+    {
+      "id": "S03",
+      "source_design_bbox_px": [
+        530.0,
+        455.0,
+        642.0,
+        563.0
+      ],
+      "fixed_support_ltrb_px": [
+        466.0,
+        391.0,
+        706.0,
+        627.0
+      ]
+    },
+    {
+      "id": "S04",
+      "source_design_bbox_px": [
+        654.0,
+        462.0,
+        742.0,
+        562.0
+      ],
+      "fixed_support_ltrb_px": [
+        590.0,
+        398.0,
+        750,
+        626.0
+      ]
+    },
+    {
+      "id": "S05",
+      "source_design_bbox_px": [
+        4.0,
+        593.0,
+        108.0,
+        695.0
+      ],
+      "fixed_support_ltrb_px": [
+        0,
+        529.0,
+        172.0,
+        759.0
+      ]
+    },
+    {
+      "id": "S06",
+      "source_design_bbox_px": [
+        654.0,
+        588.0,
+        746.0,
+        698.0
+      ],
+      "fixed_support_ltrb_px": [
+        590.0,
+        524.0,
+        750,
+        762.0
+      ]
+    },
+    {
+      "id": "S07",
+      "source_design_bbox_px": [
+        118.0,
+        596.0,
+        226.0,
+        704.0
+      ],
+      "fixed_support_ltrb_px": [
+        54.0,
+        532.0,
+        290.0,
+        768.0
+      ]
+    },
+    {
+      "id": "S08",
+      "source_design_bbox_px": [
+        526.0,
+        614.0,
+        646.0,
+        694.0
+      ],
+      "fixed_support_ltrb_px": [
+        462.0,
+        550.0,
+        710.0,
+        758.0
+      ]
+    },
+    {
+      "id": "S09",
+      "source_design_bbox_px": [
+        113.0,
+        803.0,
+        221.0,
+        907.0
+      ],
+      "fixed_support_ltrb_px": [
+        49.0,
+        739.0,
+        285.0,
+        971.0
+      ]
+    },
+    {
+      "id": "S10",
+      "source_design_bbox_px": [
+        531.0,
+        803.0,
+        643.0,
+        911.0
+      ],
+      "fixed_support_ltrb_px": [
+        467.0,
+        739.0,
+        707.0,
+        975.0
+      ]
+    },
+    {
+      "id": "S11",
+      "source_design_bbox_px": [
+        6.0,
+        980.0,
+        98.0,
+        1092.0
+      ],
+      "fixed_support_ltrb_px": [
+        0,
+        916.0,
+        162.0,
+        1156.0
+      ]
+    },
+    {
+      "id": "S12",
+      "source_design_bbox_px": [
+        657.0,
+        976.0,
+        741.0,
+        1100.0
+      ],
+      "fixed_support_ltrb_px": [
+        593.0,
+        912.0,
+        750,
+        1164.0
+      ]
+    },
+    {
+      "id": "S13",
+      "source_design_bbox_px": [
+        6.0,
+        1171.0,
+        106.0,
+        1287.0
+      ],
+      "fixed_support_ltrb_px": [
+        0,
+        1107.0,
+        170.0,
+        1334
+      ]
+    },
+    {
+      "id": "S14",
+      "source_design_bbox_px": [
+        654.0,
+        1176.0,
+        744.0,
+        1286.0
+      ],
+      "fixed_support_ltrb_px": [
+        590.0,
+        1112.0,
+        750,
+        1334
+      ]
+    },
+    {
+      "id": "S15",
+      "source_design_bbox_px": [
+        113.0,
+        1234.0,
+        225.0,
+        1328.0
+      ],
+      "fixed_support_ltrb_px": [
+        49.0,
+        1170.0,
+        289.0,
+        1334
+      ]
+    },
+    {
+      "id": "S16",
+      "source_design_bbox_px": [
+        524.0,
+        1233.0,
+        644.0,
+        1329.0
+      ],
+      "fixed_support_ltrb_px": [
+        460.0,
+        1169.0,
+        708.0,
+        1334
+      ]
+    }
+  ],
+  "highlight_candidate_neutral_segments": {
+    "alert": {
+      "top_bottom_x_pt": [
+        140,
+        235
+      ],
+      "left_right_y_pt": [
+        353,
+        359
+      ]
+    },
+    "sheet": {
+      "top_x_pt": [
+        [
+          140,
+          160
+        ],
+        [
+          215,
+          235
+        ]
+      ],
+      "bottom_x_pt": [
+        140,
+        235
+      ]
+    },
+    "signed_distance_ranges_pt": [
+      [
+        -2,
+        4
+      ],
+      [
+        4,
+        12
+      ]
+    ],
+    "source_before_max_channel_range_counts": 2,
+    "minimum_peak_coverage_pixels": 3,
+    "backdrop_warning": "Neutrality at same coordinates does not establish a clean broad material footprint; mismatched controls/shape halos prohibit thickness attribution."
+  },
+  "free_optical_parameter_fit": false,
+  "test_or_holdout_claim": false
+}

@@ -1,0 +1,2728 @@
+{
+  "schema": 1,
+  "status": "Static calibration candidate not accepted; publication integrity only",
+  "scope": "Only new panel-material-study.md and the two panels-20261115 evidence/image directories",
+  "original_records": 606,
+  "copied_figures": 10,
+  "original_pane_crops": 50,
+  "portable_redrawn_figures": 6,
+  "files": {
+    "docs/evidence/panels-20261115/REDRAWING.md": {
+      "sha256": "f5d7d045d511baaed14ec19d18785683de83ed504f2030ceb8f61fbf557a1bfa",
+      "bytes": 5311
+    },
+    "docs/evidence/panels-20261115/archive/alert-edge-frost8-build-input.json": {
+      "sha256": "d8e90e3560d2a406a386e663548ddfe59f5dc02dd5b74baea59349cab87ced9d",
+      "bytes": 2700
+    },
+    "docs/evidence/panels-20261115/archive/alert-edge-frost8-build-result.json": {
+      "sha256": "05b7de05a86f52573187ea1db220f6fed3105a4edeb32dd17d08d3292c6f536c",
+      "bytes": 4617
+    },
+    "docs/evidence/panels-20261115/archive/alert-edge-frost8-decision.json": {
+      "sha256": "0d12604a2620e3667a862cc3e88dc8ed2cde0006cb4eb16ee1286722dbcce84d",
+      "bytes": 513
+    },
+    "docs/evidence/panels-20261115/archive/alert-edge-frost8-install-r2.json": {
+      "sha256": "5125c0d1f23719f269af230ae73643f45d98ea8e9b02ad9bb12370eeb9578a88",
+      "bytes": 544
+    },
+    "docs/evidence/panels-20261115/archive/alert-edge-frost8-install.json": {
+      "sha256": "bdc3b4b08ca2c1b64a31eb84f093f16b79797942e777969f02db9b9327cb9e92",
+      "bytes": 658
+    },
+    "docs/evidence/panels-20261115/archive/alert-edge-frost8-plan.json": {
+      "sha256": "f63010b70b56d01895fa347d951e35cb2a1866f9dd51eda5d7498364ee63abf4",
+      "bytes": 1470
+    },
+    "docs/evidence/panels-20261115/archive/alert-frost8-sheet-controls.json": {
+      "sha256": "94dbd16beff328d04d58a795a769b078a89ffe496b4b76b2f33195b138fabeaa",
+      "bytes": 2188
+    },
+    "docs/evidence/panels-20261115/archive/alert-profile-half-build-input.json": {
+      "sha256": "bdf7ffca329b4dabb73cc6287221b6dec18b43c51d0ba06ccc88f4110e44965f",
+      "bytes": 2700
+    },
+    "docs/evidence/panels-20261115/archive/alert-profile-half-build-result.json": {
+      "sha256": "9eaee933b698bdd01da8c69c859079f522374443a1e0e2cf3cdf94fe2f0ec707",
+      "bytes": 4617
+    },
+    "docs/evidence/panels-20261115/archive/alert-profile-half-decision.json": {
+      "sha256": "f54f0588a499dcf05b1310df66b913c1f629a7c08695e08ac9c6bb43f7633664",
+      "bytes": 622
+    },
+    "docs/evidence/panels-20261115/archive/alert-profile-half-install.json": {
+      "sha256": "f70a6cd5e527490e7085bb1fb8cab1e2cf1fcd4565c62da59d0b5f5c7a6a8e6e",
+      "bytes": 428
+    },
+    "docs/evidence/panels-20261115/archive/alert-profile-half-plan.json": {
+      "sha256": "9d16ceaadbda637358fef8fc83b81142c521bef371f8582760c236b4bb096a5c",
+      "bytes": 1028
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-baseline/README.md": {
+      "sha256": "decc9ce742baec2abec33a35e9a823b42a257523ba7cd08fcffefa1553ec8940",
+      "bytes": 3803
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-baseline/analysis.json.gz": {
+      "sha256": "6ff894f9349b8602388ec86a715c8563d1d71c36828dec2de886f90fac2ad06f",
+      "bytes": 32577
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-baseline/analyze_alert_baseline.py": {
+      "sha256": "e2caa294988003f81f150fc2295d2fe89710210d0ca260598e4fb88c0850ec8b",
+      "bytes": 24169
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-baseline/blue-feature-tracks.csv": {
+      "sha256": "f00112c0bb046e8789ea806eb6224f28a03f9d82c5a4c016e3c3f759eac8eef6",
+      "bytes": 20976
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-baseline/candidate-comparison-freeze.json": {
+      "sha256": "aa4e629c5fb734bdb85e116305aa68ba98340ab53adb9336f1d30d5a3eef3fec",
+      "bytes": 751
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-baseline/corner-profiles.csv.gz": {
+      "sha256": "92ef797cde1e3841d2d89ace94c7ccc692d97f5fb93f77a00794bac6749a4bef",
+      "bytes": 905326
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-baseline/straight-profiles.csv.gz": {
+      "sha256": "5824f15e7d328f0e8b46fb3d2f0743f41702af4506716894adc54e9b9f6babf2",
+      "bytes": 244676
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-frost8/README.md": {
+      "sha256": "20d6d6c6e9df295472cb1fde56bf2d18421bba35b3e20bdadddf3fd557bf36a4",
+      "bytes": 7412
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-frost8/analysis.json.gz": {
+      "sha256": "2bbbb0bb89904d828722f3980301f4cfcb24ec6da0194512520f15973f0c3883",
+      "bytes": 64130
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-frost8/blue-feature-tracks.csv": {
+      "sha256": "65cf10e4051078288352508282fa7842fc7018c736314d4fd0bd5481d5ea05ec",
+      "bytes": 20981
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-frost8/corner-profiles.csv.gz": {
+      "sha256": "0a67bb05daa74d85405e0ff5105eb85381042d0b778e7a4ade782cc14947dc83",
+      "bytes": 907758
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-frost8/straight-profiles.csv.gz": {
+      "sha256": "74b60c2389d3db6bc491b615a5b0e65f09fc40a03e3e3f9496573649e41d8b02",
+      "bytes": 254199
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-profile-half/README.md": {
+      "sha256": "b1a3a20dc6c05fba218380dcb70a9687e7809e3498408a50daa4b27c8727f979",
+      "bytes": 10506
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-profile-half/analysis.json.gz": {
+      "sha256": "94e1c31528ae987abd4d7534aefa90605c4ae273f07bbe4f3e93f83105188ee4",
+      "bytes": 62322
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-profile-half/blue-feature-tracks.csv": {
+      "sha256": "3fc2d4b3163c43f7d38debd81735fcb6963c8c05d9239cd457ae4430f3bfeaf2",
+      "bytes": 20978
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-profile-half/build_comparison_report.py": {
+      "sha256": "249b85511f7accaab3fcfe5b70ebe0d13a28271087450b56fa1ad14e4eed6d89",
+      "bytes": 12785
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-profile-half/corner-comparison.md": {
+      "sha256": "3b022626aecc8aaf6dc1d7a3e38cdc3943853f7109409e1a712c621ad2195924",
+      "bytes": 20361
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-profile-half/corner-profiles.csv.gz": {
+      "sha256": "f4ee679a83b2cfe5c63cb1f0550a101d1dd321477b51e2f14264a7bdc4de28a7",
+      "bytes": 894406
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-profile-half/decision.json": {
+      "sha256": "15baa215972c4d1c5e728b32d1c4ad1efb57e7acd89307d872f5a23a5f62cdcf",
+      "bytes": 1295
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-profile-half/frozen-analysis-plan.json": {
+      "sha256": "3a69b3c36db95dd0d98d33c137d05046b2902ebf3fdc382670fcaadf78499bec",
+      "bytes": 4465
+    },
+    "docs/evidence/panels-20261115/archive/analysis-alert-profile-half/straight-profiles.csv.gz": {
+      "sha256": "9f2f6297718f343ed711f55a381255e2483ae05a8edfb9741eb61360814a5a7c",
+      "bytes": 249122
+    },
+    "docs/evidence/panels-20261115/archive/analysis-dark-scrim/analysis.json": {
+      "sha256": "18a6bbab03e763204d039399627d213d0dfa05716c6ce8adf00da7a913741c92",
+      "bytes": 15826
+    },
+    "docs/evidence/panels-20261115/archive/analysis-dark-scrim/analyze.py": {
+      "sha256": "571e8250b3795feeb904e731d72d3e5da1cf6ea5a3c58cc4f21e427974cc8613",
+      "bytes": 3862
+    },
+    "docs/evidence/panels-20261115/archive/analysis-dark-scrim/initial-analysis-error.json": {
+      "sha256": "d13c353a338acb7b59d93142acc72a42111222a9553800491581d17a4998e5e9",
+      "bytes": 271
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/README.md": {
+      "sha256": "24314ad111d9fcbd6c0b0dbf8ca7e6e0447844d635a3cd627bfef09e9317c52c",
+      "bytes": 8949
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/analyze_mapping.py": {
+      "sha256": "5bdf8358585d1146310d12a6f0f306afda1e9025feba399a9709e1d9c77e50a5",
+      "bytes": 11261
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/current-probe-observations.json": {
+      "sha256": "d757651d3803fcf3d2d97406f9a702b40e62c7b64a1d6a89e925dc1a1a6831a1",
+      "bytes": 40755
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/diagnosis.json": {
+      "sha256": "d07ecb080719f09e645e351ba9adbc828713c3db11373533d28923c54e07b9c1",
+      "bytes": 1153
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/input-provenance.json": {
+      "sha256": "6bb9e8897353d5792231fd5e51883a9c3b0902324ee798655774da943bb7b242",
+      "bytes": 3242
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/model-derivative-self-check.json": {
+      "sha256": "43b7cc4d0ec46ce0104958165e2831c5dc69cdc95d1b9b12d9016a77f1a4b437",
+      "bytes": 6501
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/AX-trigger-and-panel-exclusion.json": {
+      "sha256": "ee1538166959e0297b475cc923a9227ea56d69e2093308b358a1bea10f1164a1",
+      "bytes": 11227
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/README.md": {
+      "sha256": "63440aa0458942769cb2e24eb0d6a4ff12156f4ea15a1ae17fadc5530daccf37",
+      "bytes": 2198
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/REST-repeat-FULL-RGBA.json": {
+      "sha256": "03f088e1a0110a6c1b7a8a2e9522535381f7d3f7fd7d3736162ca342b5128c30",
+      "bytes": 3239
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/RESULTS.md": {
+      "sha256": "54d34b2fb23302713f4c0eeaf9a1b44bc7cf255b101bb9eeb70e0ffef96aabd6",
+      "bytes": 5847
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/algorithm-freeze.json": {
+      "sha256": "404e18fc0926bf2515a25961045df0cd5ed97a099b54ca1e5ef2881bd1a7234b",
+      "bytes": 634
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/analysis-plan.json": {
+      "sha256": "b1914427e6102734ef5fba5c30ae778874a3cfa8e2fdde8489712145b37929d2",
+      "bytes": 15427
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/analyze.py": {
+      "sha256": "a54297463748be1e26803e763643fead962824a5b0b1441c48419ce34a13c8aa",
+      "bytes": 22362
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/capture-time-and-public-context-receipts.json": {
+      "sha256": "d5ebd75a975dc595265f4a0577afbb4d7794ecb6285a138f0e2593621c681f51",
+      "bytes": 142971
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/decision.json": {
+      "sha256": "0f5bde5188ea690bc381ac322d86f54ef2da300e1f7f10066ac90252b23b0685",
+      "bytes": 1349
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/decode-provenance.json": {
+      "sha256": "f07fc0754950423513cdd4c8dba544970dd78b8a618580004502974a164806b2",
+      "bytes": 13581
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/fixed-source-footprint-exactness.json": {
+      "sha256": "285cb7f4b693df5d683004147741bacd0f900cdce66eb28396c5851064c182ca",
+      "bytes": 70301
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/full-context-system-differences.json": {
+      "sha256": "adf92b259a26e17f3d4f714eb47e22971efb5dc8fb1907c51765212ac242e6b2",
+      "bytes": 5305
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/metadata-session-receipts.json": {
+      "sha256": "fbf7e49e98a93901a8231f77e89ce37bd82c85eaf1faae76437dee112d8cc14f",
+      "bytes": 9869
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/old-fixture-geometry-gates.json": {
+      "sha256": "61a33f966ad1b7bfaca894773cc38634cb0e948000c8c5d10479523969baf1f2",
+      "bytes": 22707
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/relay-and-delivered-touch-receipts.json": {
+      "sha256": "f7e36b06d7733b37c67a8a594c6ad6f903f74559b307cc85bfae0140a7d0f12e",
+      "bytes": 8956
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/run-completion.json": {
+      "sha256": "5d8f6d1a1f444ea3e660c9f4d81d1b2abfa7b7dcfe94a00768a720feb7058f27",
+      "bytes": 2322
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/run-input-freeze.json": {
+      "sha256": "3f3b58a6282870191f2f48decd821ef03bae997373d97ffac977fbc6bdeb2c35",
+      "bytes": 16179
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/static-review.json": {
+      "sha256": "0f89bd79342437aaa738c7ee0c2c235b80661872d8aebb7455781a4c7377c2b9",
+      "bytes": 482
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/supplemental-metadata-and-geometry.json": {
+      "sha256": "acc8b2b914751794e9ba7eca8990142641452f3d7deaf8260ce25e938374c449",
+      "bytes": 67534
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-fixture-AX-revision1.json": {
+      "sha256": "0315bbe6f15d37d5d92c1b772a1210d6883ebd276c134eca27db53d2fc26dfab",
+      "bytes": 1994
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-fixture-source.before.json": {
+      "sha256": "e73677a4870839a9b0ad1d72bf059d4a82319e5e2db4a3ce36c47377dc59149d",
+      "bytes": 991
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-fixture-source.json": {
+      "sha256": "1b655ec4aee37283f4aa99c98208e114fbc9469f6505a56f462fd9f20a95a789",
+      "bytes": 2033
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-fixture-source.md": {
+      "sha256": "9895c1cb28563d81581a7a693c2a54c7ff5ea90fa5c0b856f78f124da7825dab",
+      "bytes": 2781
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-plain-backing-review.json": {
+      "sha256": "47b71098b620c33553d710e8f003020640720c1a5d9c79a3460a01281627e4b5",
+      "bytes": 7775
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-plain-backing-review.md": {
+      "sha256": "3a4b3386830fa91826938014884735260fd4d07dc23cfd7b2f140fd640627ad8",
+      "bytes": 3288
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/README.md": {
+      "sha256": "cd03f4e3ffade226831e8670522e8d768b5a87aa09d774b8943e3ade76a77b93",
+      "bytes": 1964
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/analysis-plan.json": {
+      "sha256": "ee56e7a1ec61b415379a6689c40a412477e26b61a05b8c20dbc1926886a30f21",
+      "bytes": 16205
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/capture-handoff.schema.json": {
+      "sha256": "cce44bb099f39069cfe75a235fd1121dbb2f536fb9d3408f5d2f3697518c4952",
+      "bytes": 5866
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/preparation-freeze.json": {
+      "sha256": "d2be0ddd7a5af3a9f01783d2068601a79ce65c0151f07a84e83dcabc260764ad",
+      "bytes": 531
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/paired-slope-preparation-source.json": {
+      "sha256": "8687e77ef3017347056b13be6223fead84dd6d9ec4db2e3d262df8f876d851de",
+      "bytes": 7906
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/paired-slope-preparation-source.md": {
+      "sha256": "1ad01d7ded6e7601ae7c8423b2255b32060dab2277106df239a1ffdcd57d4fc4",
+      "bytes": 2486
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/prepare_paired_slope_probes.py": {
+      "sha256": "af2d839d26a8a1f7fe7594529d0336f6d5223a288c69845f0e63ff0acaec48e9",
+      "bytes": 17115
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/probe-preparation/README.md": {
+      "sha256": "ed8e3f936b8bc200bafed835f3dcedbc5169cb2c5bc76122ac43021aada7ff19",
+      "bytes": 1520
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/probe-preparation/before-alert-backing-audit.json": {
+      "sha256": "3e2013bc0a95d0f1c4379976611d7153a37110d18113b0df30c563fa69f6bcb6",
+      "bytes": 7602
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/probe-preparation/geometry-eligibility.json": {
+      "sha256": "29ca4224567a0c4e11b58be45ffd55652804edf812c5bab4cfb209b03e87be9e",
+      "bytes": 25551
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/probe-preparation/input-provenance-before-decode.json": {
+      "sha256": "6f7fe29e2f941e0e1a90538283798730e874d49f658b936e0c1316d12c7bebcd",
+      "bytes": 3894
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/probe-preparation/input-verification.json": {
+      "sha256": "04af3c41d304b178964a4ec43c3697d57b1c30b76b91af189c9907fb4827a8cf",
+      "bytes": 718
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/probe-preparation/oracle.json": {
+      "sha256": "f0355544b1b50b5929da1bbce54fe6ed0e08b8202cf2f77887a532511fbd4a2c",
+      "bytes": 199892
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/probe-preparation/proposal-manifest.json": {
+      "sha256": "f5e88a96c7ad4b470e97058e607b0deabe596c98ba114e0398928d433b0e1a28",
+      "bytes": 4604
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/probe-preparation/proposal-plan.json": {
+      "sha256": "c039c7e26a789864c01be97f6372b8363e2ff5528f431f77740a6898763bdfb2",
+      "bytes": 2744
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/proposed-diagnostic-plan.json": {
+      "sha256": "b66bfb64b0a8179b3f8392c2cef9d6288427ff9f5a867a8e0c05cf1849cb86f3",
+      "bytes": 2610
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/scalar-mapping-model.csv": {
+      "sha256": "a0f1a2adcca6767ecddc7841da49a5e98281460b214ef8dead9862d342cc8186",
+      "bytes": 48343
+    },
+    "docs/evidence/panels-20261115/archive/analysis-mapping-audit/scalar-mapping-model.svg": {
+      "sha256": "721841af2c9f6bc7b97a2266aa15f3ae1ac850ff457753d6f7fa71c89f7cb059",
+      "bytes": 36980
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/S02-local-contours.json": {
+      "sha256": "6680d38faa1c8515923a87679e81ad8989470488146fa177af4dd22e8bb27ec3",
+      "bytes": 198167
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/S02-local-transects.csv.gz": {
+      "sha256": "ed24fc994cb1166df670592b1d94bc4918f76f49614d27aa7f4a43a295fed4ba",
+      "bytes": 309887
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/S02-local-contours.json": {
+      "sha256": "7c32529cfcce0a3ceca164c9c059e50a723fa03848de7075b73c15a422c08175",
+      "bytes": 198140
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/S02-local-transects.csv.gz": {
+      "sha256": "5b8f2c6f2c0cfd6e6635c5c14fb1cd78cee237e9d5d706e0ced135e2bb848400",
+      "bytes": 291992
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/Sheet-S07-local-contours.json": {
+      "sha256": "07cd5ee46269aa00a1d0e508ad710d094199f68ba29b3f5e8d0d2a96256349ff",
+      "bytes": 61078
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/Sheet-S07-local-plan.json": {
+      "sha256": "d4de2950349346294c655ba7a9ddbf0f338eda4b85864cf79f44d891d08f6a92",
+      "bytes": 2147
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/Sheet-S07-local-transects.csv.gz": {
+      "sha256": "4e1a74a3487ed1c757c67dd0f50d0741ba12935c8f4a6dc81aa58e4e6b230aba",
+      "bytes": 50189
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/all-shape-geometry-audit.json": {
+      "sha256": "bd977400ca816da4a50e8c56c8ce6df39bd189002d7604e3111408e67707cc2d",
+      "bytes": 32105
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/body-exterior.json": {
+      "sha256": "34a503ca9a061a6dd4395a80a3ccf276fa6a612d655775d8cff04e0cb80c5bad",
+      "bytes": 88371
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/candidate-fixed-roi-delta.json": {
+      "sha256": "e8eac196fc24837fb863f83a045cae68ce85476c1506cb2438c2fdd131b7d708",
+      "bytes": 168555
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/candidate-geometry-gates.json": {
+      "sha256": "86d89f9a8c210de7ed78448e9e006fcdc4e8815a30c7c919e443e770199efeae",
+      "bytes": 895
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/capture-receipts.json": {
+      "sha256": "3d099685495051aa237331a7b5505352b5241c152906fe7c28b969b1583f9ec1",
+      "bytes": 28214
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/context-stability.json": {
+      "sha256": "e72798c983a080652b8a12336f4b4a9bb6ae401d6288bcaa42b2eb36cb3592e3",
+      "bytes": 2966
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/coordinate-local-contours.json": {
+      "sha256": "8bac6018263c3479e652eae55d3f81e6d51782c014ed3bde397080bcacfebccd",
+      "bytes": 191348
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/coordinate-local-transects.csv.gz": {
+      "sha256": "324bd9e1070d62426b95946f33df52891e19b0e47f0f35db6ac195d83ae5b82c",
+      "bytes": 352469
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/corner-raster-tracks.csv.gz": {
+      "sha256": "a444899adf11c3a189545a94fba2c1dc7c81ace8f3308421a93f29f18803d3b0",
+      "bytes": 834962
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/decision.json": {
+      "sha256": "4a3b2603f33dade177c6eeee657b0745ca6d2aca09536b6f8b049fc67c2242f2",
+      "bytes": 1700
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/decode-provenance.json": {
+      "sha256": "98bafea20d7b9bffe297d9cadbfb73bad95a3a7ec360d61fa7b1aebccfea9625",
+      "bytes": 15137
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/exclusions.json": {
+      "sha256": "524574b62628b63715a795e1baf2b1dd80d928bec01c5ce6d093e0115196861f",
+      "bytes": 7595
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/geometry-and-mask.json": {
+      "sha256": "c40a3cbcb8f41f7967749f81f88c47769bb8eeb84356ebf32ef9abac9b10d0cc",
+      "bytes": 12733
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/narrow-rim-diagnostics.json": {
+      "sha256": "2df1dd4a8e13293e5d8c05af9cebb2439f21ca35ae0ebd73cd2cea17d13c3c0a",
+      "bytes": 21523
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/narrow-rim-tracks.csv": {
+      "sha256": "b97bc2b880279f51934c1ca51dc0b72d0cbb51b5c6e452144daf6c6c0ae0ec5a",
+      "bytes": 105547
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/repeat-stability.json": {
+      "sha256": "cc065dcf1f34d7894b80d55498526759577239f806dd31199af9697bec015813",
+      "bytes": 5055
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/report.md": {
+      "sha256": "fdf96aae3ae6ddf0438def2175750a484521919040f02a999dbd17a3df2f45ac",
+      "bytes": 3508
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/rim-candidate-before-decode.json": {
+      "sha256": "4ae0e9b77f9572456f43eefdea7e719ac3227a29576024ad2d0f82013fa8b237",
+      "bytes": 2258
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/run-input-freeze.json": {
+      "sha256": "846f0b7d88b51988972e9067bc9508393a5fb35a3103aba511f3917723bc1511",
+      "bytes": 2447
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/straight-bin-stats.json.gz": {
+      "sha256": "eeec4d4a085913113870224a6af81fee6cd356300e3d7bf502bc176b97eb471f",
+      "bytes": 44350
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/straight-tracks.csv.gz": {
+      "sha256": "f04acf698d1c6ba82184c7c0bc458c6a64fd56dc54bb1425b46fa9349126e982",
+      "bytes": 485083
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/alert-body8/zero-before-decode.json": {
+      "sha256": "dbde0cecc3b8fb5dce499126accc0710de173ad6e239f9a1e85d0db485aa6a3e",
+      "bytes": 2556
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/all-shape-geometry-audit.json": {
+      "sha256": "bd977400ca816da4a50e8c56c8ce6df39bd189002d7604e3111408e67707cc2d",
+      "bytes": 32105
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/analyze.py": {
+      "sha256": "89b3a225189a568500638cb1e6fbe521b2715a56908d316b4f59026b169a327c",
+      "bytes": 28437
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/body-exterior.json": {
+      "sha256": "189faf6e31a588bf129b2fdb225fe554efeb90cf659884d0d86d7edf5c83fbc8",
+      "bytes": 88320
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/candidate-fixed-roi-delta.json": {
+      "sha256": "b5ee3e575b3fad47a4253e8a03ae00b5c82d2435b4a8a4328ffde2e9316d7574",
+      "bytes": 177203
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/candidate-geometry-gates.json": {
+      "sha256": "86d89f9a8c210de7ed78448e9e006fcdc4e8815a30c7c919e443e770199efeae",
+      "bytes": 895
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/capture-receipts.json": {
+      "sha256": "3d099685495051aa237331a7b5505352b5241c152906fe7c28b969b1583f9ec1",
+      "bytes": 28214
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/context-stability.json": {
+      "sha256": "e72798c983a080652b8a12336f4b4a9bb6ae401d6288bcaa42b2eb36cb3592e3",
+      "bytes": 2966
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/coordinate-local-contours.json": {
+      "sha256": "5a4734f5dacf2cd1069cf4eacd8dd32c4182a0152ac41c63ff69d7bb8e0e993c",
+      "bytes": 192714
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/coordinate-local-transects.csv.gz": {
+      "sha256": "2f4e0303d63f46ba4bf0ec5a91d2ccc5ae0af87bf98b3eef93042b96184ec61c",
+      "bytes": 356821
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/corner-raster-tracks.csv.gz": {
+      "sha256": "4b4dee10c0fe83cf0defee244ea0dde7a09d6eed13d904a6617888d3ba223ffb",
+      "bytes": 941321
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/decision.json": {
+      "sha256": "9366b9077a3426f22d16dd67f362ca7ece1f199647842c8e06b69a2b3ca6bc08",
+      "bytes": 2812
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/decode-provenance.json": {
+      "sha256": "c73f5be9fc0ccd9b11eb5f186e8150bf51022ea58186a94651ffadf24a31d490",
+      "bytes": 15181
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/exact_window_control.py": {
+      "sha256": "035453cc5130c617ca40c8963f8ab3b6ad2035c1d5ec2bce55181e564d0164f2",
+      "bytes": 6793
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/exclusions.json": {
+      "sha256": "524574b62628b63715a795e1baf2b1dd80d928bec01c5ce6d093e0115196861f",
+      "bytes": 7595
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/geometry-and-mask.json": {
+      "sha256": "c40a3cbcb8f41f7967749f81f88c47769bb8eeb84356ebf32ef9abac9b10d0cc",
+      "bytes": 12733
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/input-geometry/control-comparison.json.gz": {
+      "sha256": "a705ae8f73a9f903c974c58eb2828ec0d384c6eceb890d7848354c6435eff89a",
+      "bytes": 23928
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/input-geometry/decision.json": {
+      "sha256": "25bb4d452a9d128974b692a23209d271894e2380bbe5f33b992f3a8ec8893031",
+      "bytes": 513
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/input-geometry/report.md": {
+      "sha256": "4c19bc131ee2d12d6438cb8e1e9b7ee2a6dc74a71c35f60c544bff43683a7d8b",
+      "bytes": 2566
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/input-geometry/run-input-freeze.json": {
+      "sha256": "d6fc30677012957412431e8689ad4bd28ec7df46dcb46c070d527fbb7a2c4468",
+      "bytes": 8523
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/input-geometry/system-overlay-differences.json": {
+      "sha256": "615a9ba6d1246e14be10eb78a72883c26659971aa6e7b71561be67fbb8717bf5",
+      "bytes": 3635
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/input_geometry_control.py": {
+      "sha256": "ba6665831d14e61ae7735056043fd0b143f7147106d738b79bbdac69c1a366fe",
+      "bytes": 7656
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/local_features.py": {
+      "sha256": "0d169f510cb5164c8e5e178a9bb6ef8265ecd08528ada2ae9493b87e18b3f9e2",
+      "bytes": 10441
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/narrow-rim-diagnostics.json": {
+      "sha256": "99ffa086e93ad074d112bfb0764efc79bbe7a2d2f4a88593e4dcf1f356598f1e",
+      "bytes": 21630
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/narrow-rim-tracks.csv": {
+      "sha256": "f8440b324dedd14034cedefde342512c89b07fde28df0b315cd66cee9ca352a1",
+      "bytes": 107892
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/native-depth-trend.json": {
+      "sha256": "33f115fb0c04cf24e9d7d5c5ff888d662abfc5df5e51fad758c2f2c0820dd65e",
+      "bytes": 9556
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/predecode-freeze.json": {
+      "sha256": "75d7425a97e2a876ca8d8c4ebdf165b5470a3a2ea48f7edfebc607b834e34617",
+      "bytes": 19269
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/repeat-stability.json": {
+      "sha256": "cc065dcf1f34d7894b80d55498526759577239f806dd31199af9697bec015813",
+      "bytes": 5055
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/report.md": {
+      "sha256": "3a1b5044f5041b7321b5ce6960e9a0d5633d87a06d8b1cf472ae5e2df44e4c28",
+      "bytes": 12840
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/rim-candidate-before-decode.json": {
+      "sha256": "5a8a5a7315c8cd1c90d9bd05f6dc95b7ad222656f436380613b74f1b52356802",
+      "bytes": 2357
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-body6-plan-revisions.json": {
+      "sha256": "ad10eb700b91c32389951571d6af72b3d9107e53072d352e1134a6452bd2bf36",
+      "bytes": 707
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-body6-plan-v1-before-routing.json": {
+      "sha256": "78303e13466b74220f77d7ed43ea3b72ef333a0d42e190d6bb803615c6215437",
+      "bytes": 27393
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-body6-plan-v1-before-routing.md": {
+      "sha256": "0dcac281c9198ffb419d8bdd72dbda67a5f25670ab6dbd21f1c434eed4a16671",
+      "bytes": 8646
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-body6-plan.json": {
+      "sha256": "fbd358aef373d8f7bbd981261826063168ddb2312f21f2a8abe76a8ea1174a07",
+      "bytes": 28938
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-body6-plan.md": {
+      "sha256": "5345a0c7d2502b1ad54e4bbc26d10c3993831a945c3cc6ff1dd996f328df4a07",
+      "bytes": 10239
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-mode12-control/control-binding.json": {
+      "sha256": "c240dffe4cb4c694fde7f795d1567c1b20636d5d77b6a08a43c7f6f270160379",
+      "bytes": 1091
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-mode12-control/decision.json": {
+      "sha256": "6470ffadbdfbe6efdd0c58dbbacb4f1220e150347a56777b23088a236785b04a",
+      "bytes": 722
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-mode12-control/exact-control-comparison.json": {
+      "sha256": "c87664e0b49d8b2d6bbc6b3d64ff073965cba84e6c023ebf9820b73b7ccc2c47",
+      "bytes": 38894
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-mode12-control/report.md": {
+      "sha256": "e238acc9779a6a59a852cd333af9b14d12496868ffdeaccc24bff2470b2f81be",
+      "bytes": 2116
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-mode12-control/run-input-freeze.json": {
+      "sha256": "5d1a3d1085cf7fd3cd8e479925b4c2244da340480b7f80007b734bf0568646c2",
+      "bytes": 9707
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/S02-local-contours.json": {
+      "sha256": "7c32529cfcce0a3ceca164c9c059e50a723fa03848de7075b73c15a422c08175",
+      "bytes": 198140
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/S02-local-transects.csv.gz": {
+      "sha256": "5b8f2c6f2c0cfd6e6635c5c14fb1cd78cee237e9d5d706e0ced135e2bb848400",
+      "bytes": 291992
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/Sheet-S07-local-contours.json": {
+      "sha256": "f3db20ce00c38152bfcaf584acc4d0cf36abb9ad83096a63324392b90065d5c4",
+      "bytes": 60949
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/Sheet-S07-local-plan.json": {
+      "sha256": "13c177056c18b6952715ca319cc2ead74cc6b4875d172371fceb745ec06967a7",
+      "bytes": 2150
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/Sheet-S07-local-transects.csv": {
+      "sha256": "efd89604059175ef55a1c21fd4f574dab3bd7b51c902887a6bbc0b814164a281",
+      "bytes": 262143
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/all-shape-geometry-audit.json": {
+      "sha256": "bd977400ca816da4a50e8c56c8ce6df39bd189002d7604e3111408e67707cc2d",
+      "bytes": 32105
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/body-exterior.json": {
+      "sha256": "70c7208d3097a5fbec2badca3483d937bd42b20eec1c1760767483feb2bfe5f2",
+      "bytes": 88351
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/build-before-decode.json": {
+      "sha256": "5f5d3276bb29b5ca623222f00cf8af19397f30e82f0526896c13d502821ebf91",
+      "bytes": 5208
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/candidate-fixed-roi-delta.json": {
+      "sha256": "2cfd209e7bc635ba6c92accc57c219566436a3ef3ac9cbbbf1c5a631fd90e679",
+      "bytes": 177423
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/candidate-geometry-gates.json": {
+      "sha256": "86d89f9a8c210de7ed78448e9e006fcdc4e8815a30c7c919e443e770199efeae",
+      "bytes": 895
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/capture-receipts.json": {
+      "sha256": "3d099685495051aa237331a7b5505352b5241c152906fe7c28b969b1583f9ec1",
+      "bytes": 28214
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/context-stability.json": {
+      "sha256": "e72798c983a080652b8a12336f4b4a9bb6ae401d6288bcaa42b2eb36cb3592e3",
+      "bytes": 2966
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/coordinate-local-contours.json": {
+      "sha256": "b2778ebdfba707adce01a29243abb10083db7e4403119b4e7b3a3239b21e752b",
+      "bytes": 191325
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/coordinate-local-transects.csv.gz": {
+      "sha256": "767dac8256925b2dc8935f2a1ad6cb81a425b5e87f82f1eeaff03c5f5820227f",
+      "bytes": 352483
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/corner-raster-tracks.csv.gz": {
+      "sha256": "62ff6246aa91d09635fc26bc34290baca0a20b50a5c0efd4e2c52d7b15f856dc",
+      "bytes": 940140
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/decision.json": {
+      "sha256": "555a3b8ae707960efd7428895b3a599c0c4955a20eb2c7e569b832172863e1da",
+      "bytes": 710
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/decode-provenance.json": {
+      "sha256": "f3a0de07b9f014d067bed17fbc566ea3011845124790b0af6cb28566577ea68c",
+      "bytes": 15149
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/exact-control-comparison.json": {
+      "sha256": "8ead86c149c27559555dd16b186db892463684ae8d286432d121a76a92aa2c91",
+      "bytes": 42118
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/exclusions.json": {
+      "sha256": "524574b62628b63715a795e1baf2b1dd80d928bec01c5ce6d093e0115196861f",
+      "bytes": 7595
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/geometry-and-mask.json": {
+      "sha256": "c40a3cbcb8f41f7967749f81f88c47769bb8eeb84356ebf32ef9abac9b10d0cc",
+      "bytes": 12733
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/narrow-rim-diagnostics.json": {
+      "sha256": "0d3f1a1e41cb4d3aa11fdc7e999c092ccd151dca88d4c56c495242f4e6be86ea",
+      "bytes": 21608
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/narrow-rim-tracks.csv": {
+      "sha256": "15f35e0712bf855afb5d3b9dde36031474288ce9cf1d4a5f1b6542b5d6ed7b62",
+      "bytes": 106209
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/output-manifest.json": {
+      "sha256": "7200021440ba44509f68e955988dd7e2c96e0f821bc3b2ed811f6dfd83407184",
+      "bytes": 2142
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/all-shape-geometry-audit.json": {
+      "sha256": "bd977400ca816da4a50e8c56c8ce6df39bd189002d7604e3111408e67707cc2d",
+      "bytes": 32105
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/body-exterior.json": {
+      "sha256": "34a503ca9a061a6dd4395a80a3ccf276fa6a612d655775d8cff04e0cb80c5bad",
+      "bytes": 88371
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/candidate-fixed-roi-delta.json": {
+      "sha256": "1943c8d335e1f8305665095ea9f5040ecb828c76bf45fd311ba510d747741c23",
+      "bytes": 168599
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/candidate-geometry-gates.json": {
+      "sha256": "86d89f9a8c210de7ed78448e9e006fcdc4e8815a30c7c919e443e770199efeae",
+      "bytes": 895
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/capture-receipts.json": {
+      "sha256": "3d099685495051aa237331a7b5505352b5241c152906fe7c28b969b1583f9ec1",
+      "bytes": 28214
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/context-stability.json": {
+      "sha256": "e72798c983a080652b8a12336f4b4a9bb6ae401d6288bcaa42b2eb36cb3592e3",
+      "bytes": 2966
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/corner-raster-tracks.csv.gz": {
+      "sha256": "36823b95a912fd21899308d9c3d40ddd7dd329f0d46cc2cb8e308f3d48e72d9b",
+      "bytes": 838498
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/decode-provenance.json": {
+      "sha256": "b8836b268f32430adb18005540336517d3c66d8f2a973f22e5ec2923f66d70f6",
+      "bytes": 15181
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/exclusions.json": {
+      "sha256": "524574b62628b63715a795e1baf2b1dd80d928bec01c5ce6d093e0115196861f",
+      "bytes": 7595
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/geometry-and-mask.json": {
+      "sha256": "c40a3cbcb8f41f7967749f81f88c47769bb8eeb84356ebf32ef9abac9b10d0cc",
+      "bytes": 12733
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/narrow-rim-diagnostics.json": {
+      "sha256": "481a36efaeabdd26244e749a643a831ef8bad78809072cb9f567b44199e41584",
+      "bytes": 21608
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/narrow-rim-tracks.csv": {
+      "sha256": "563138e17b57f8dcb85ca8d6f086b819315a68da2b1adda5a213542705c0654f",
+      "bytes": 106266
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/repeat-stability.json": {
+      "sha256": "cc065dcf1f34d7894b80d55498526759577239f806dd31199af9697bec015813",
+      "bytes": 5055
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/run-input-freeze.json": {
+      "sha256": "053054adecd5e56a5cd74f97057c66c4618dce824b02890051c80d1523d8cecd",
+      "bytes": 2546
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/straight-bin-stats.json.gz": {
+      "sha256": "1925793df26ddf467b1adb6b5415e3492d054f01acca244ac16ea9bb2ae6e76c",
+      "bytes": 44342
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-fixed/straight-tracks.csv.gz": {
+      "sha256": "734e8564bfc437f841643ac20a9d36d95c791930d1911f1ccd7953ffd832472b",
+      "bytes": 485031
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-local/Sheet-S07-local-contours.json": {
+      "sha256": "07cd5ee46269aa00a1d0e508ad710d094199f68ba29b3f5e8d0d2a96256349ff",
+      "bytes": 61078
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-local/Sheet-S07-local-plan.json": {
+      "sha256": "a7b22376d1799b35f56107f40f5f7f82d4356749861fc208bf833867a8f3ce21",
+      "bytes": 2158
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-local/Sheet-S07-local-transects.csv.gz": {
+      "sha256": "4e1a74a3487ed1c757c67dd0f50d0741ba12935c8f4a6dc81aa58e4e6b230aba",
+      "bytes": 50189
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-phaseB-S07-all14.json": {
+      "sha256": "8e84669a96c3ec22ea0cd6eb083f27077ee74598cf70c88ba09f91ed2df9a168",
+      "bytes": 55421
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-phaseB-body-exterior-all.json": {
+      "sha256": "f4593b374a4ac6ad0fc2bc4fa82ae0d41ce3954c9e013eb7145fcc4c18f63419",
+      "bytes": 52061
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-phaseB-corner-raster-tracks.csv.gz": {
+      "sha256": "f4c5aa384f7231685ac9183cf2d18a08ca1830479bda0b5c6f7216cd8b37e706",
+      "bytes": 519284
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-phaseB-fixed-roi-all180.csv": {
+      "sha256": "9b4498dc290bd78f6d9801cebd56f43861931a179177307d10dc4ca9881aa195",
+      "bytes": 73130
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-phaseB-fixed-roi-all180.json": {
+      "sha256": "2cd75631f826c043222dba5e27a91fd87504b43c550642693226168dcc23624e",
+      "bytes": 170843
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-phaseB-narrow-rim-tracks.csv": {
+      "sha256": "cf4b88a82f974772fb0c15870621bc42957daa05eaf886ca17399821b2996b97",
+      "bytes": 71559
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-phaseB-rim-all.json": {
+      "sha256": "9c9754959b22fa5a21bbf84c49802d542ce0f7626d2031ed4f762483172d24fa",
+      "bytes": 23614
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-phaseB-straight-tracks.csv.gz": {
+      "sha256": "cf5b6ac87b00d6aa8afb2728c4e23ba4ce367c632041328b860986f0a3e38d87",
+      "bytes": 362211
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/phaseA-phaseB-track-controls.json": {
+      "sha256": "ed8e50c24a794325337d16dfcc0d495a7793ff61a5d7e6e7a0145a163974aae3",
+      "bytes": 489
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/repeat-stability.json": {
+      "sha256": "cc065dcf1f34d7894b80d55498526759577239f806dd31199af9697bec015813",
+      "bytes": 5055
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/report.md": {
+      "sha256": "96895df0941d4d19d974f01249cd37f24eea2c92e0df466f1d77b2aaae3c188d",
+      "bytes": 9823
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/rim-candidate-before-decode.json": {
+      "sha256": "32870d9647e60b19fcacaa6ef3b32941ae8156acbe4ad8d1ec4fd30a429a4169",
+      "bytes": 2285
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/run-input-freeze.json": {
+      "sha256": "1410bd46f74b00b556c2224c29b3ab3094b5ec688422fe258cceb7430de9d4fd",
+      "bytes": 9656
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/straight-bin-stats.json.gz": {
+      "sha256": "7a9f3ea844d5528bbfa2f33eb3d796ed0d26da4a94a1f43d39d9ee966b9b2221",
+      "bytes": 50026
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/straight-tracks.csv.gz": {
+      "sha256": "bf135ef56528a15360c4168bba5f52a5eac48a5e06ef5c5f0b1ca0af8298ab47",
+      "bytes": 568945
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet-radius10/zero-before-decode.json": {
+      "sha256": "dbde0cecc3b8fb5dce499126accc0710de173ad6e239f9a1e85d0db485aa6a3e",
+      "bytes": 2556
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sheet_local_features.py": {
+      "sha256": "222b827860761852034ecc237fd5456b7baa6c0f605a9238403abfffcba982c3",
+      "bytes": 6043
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/S02-local-contours.json": {
+      "sha256": "14702fadb4108012a621032d7d509d820b6b46376410b50da9f5bcb0c72871a2",
+      "bytes": 197794
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/S02-local-transects.csv.gz": {
+      "sha256": "82b3de17f140460838497481b3494a92068eb7d67eebdbf51bf64d01dfebe7bd",
+      "bytes": 292716
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/Sheet-S07-local-contours.json": {
+      "sha256": "93f9cca2358f079f02e8d03bbf5311cbc5c2504acbc50d9fed5f0f4ea92a8980",
+      "bytes": 60924
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/Sheet-S07-local-plan.json": {
+      "sha256": "172a6e3471068df5ad5d961bd419fe50e3fe980a5beeb8449a13fa083f9d92c2",
+      "bytes": 2152
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/Sheet-S07-local-transects.csv.gz": {
+      "sha256": "dbb46d4add44a504301f72a138d6fa58d989c3e787617ee43b3eaa1786f0a12d",
+      "bytes": 65718
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/all-shape-geometry-audit.json": {
+      "sha256": "bd977400ca816da4a50e8c56c8ce6df39bd189002d7604e3111408e67707cc2d",
+      "bytes": 32105
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/body-exterior.json": {
+      "sha256": "cf02efefcc116e4ae99ebb4025a600aa98a6056cbe0ba4f29b308071e1fcc53b",
+      "bytes": 88307
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/candidate-fixed-roi-delta.json": {
+      "sha256": "e3756f9ec299cdbd7fdbe82ac6c2bb89e152a96d0127887abb2da99e498096df",
+      "bytes": 177347
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/candidate-geometry-gates.json": {
+      "sha256": "86d89f9a8c210de7ed78448e9e006fcdc4e8815a30c7c919e443e770199efeae",
+      "bytes": 895
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/capture-receipts.json": {
+      "sha256": "3d099685495051aa237331a7b5505352b5241c152906fe7c28b969b1583f9ec1",
+      "bytes": 28214
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/context-stability.json": {
+      "sha256": "e72798c983a080652b8a12336f4b4a9bb6ae401d6288bcaa42b2eb36cb3592e3",
+      "bytes": 2966
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/coordinate-local-contours.json": {
+      "sha256": "5809ac7680c113f04c29ce472fa9a568036a989b2372d15355b40e2937dbee83",
+      "bytes": 192365
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/coordinate-local-transects.csv.gz": {
+      "sha256": "e6da729be2239372ffe39d63d26de3cee5637438ab876f632505d9729e52d8a8",
+      "bytes": 354573
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/corner-raster-tracks.csv.gz": {
+      "sha256": "5edc812fdf7947daff20a935b23d5fdd59a6d4fafe1cf2e31067b90d797eb6c8",
+      "bytes": 939874
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/decision.json": {
+      "sha256": "7f8545a2336836516c3f5a01547e072b32b54fcade33b9f493a29aa1f081d4fb",
+      "bytes": 1659
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/decode-provenance.json": {
+      "sha256": "5973c87f29806e3c04f45e2813083b1e65417a6086922f9ab91339026833431f",
+      "bytes": 15157
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/exclusions.json": {
+      "sha256": "524574b62628b63715a795e1baf2b1dd80d928bec01c5ce6d093e0115196861f",
+      "bytes": 7595
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/geometry-and-mask.json": {
+      "sha256": "c40a3cbcb8f41f7967749f81f88c47769bb8eeb84356ebf32ef9abac9b10d0cc",
+      "bytes": 12733
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/narrow-rim-diagnostics.json": {
+      "sha256": "aded9753933565dba1450efd8244c0e5cef46090fd122db46df21164060aaaf8",
+      "bytes": 21547
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/narrow-rim-tracks.csv": {
+      "sha256": "ee3939e09d38388fa0d80953d60dfbc8910aaf1fd120c0b83549a46bd071187b",
+      "bytes": 105961
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/repeat-stability.json": {
+      "sha256": "cc065dcf1f34d7894b80d55498526759577239f806dd31199af9697bec015813",
+      "bytes": 5055
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/report.md": {
+      "sha256": "57fa526481c4fdc8350a686371ed255dbce02ea724b9a0111026577bc32c473e",
+      "bytes": 3196
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/rim-candidate-before-decode.json": {
+      "sha256": "7ef01cd712e972e11ac968402836f9ae04b3bdb257acb07f6b2ecbb25752e13e",
+      "bytes": 2303
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/run-input-freeze.json": {
+      "sha256": "c98dba657d0c56ae1cc6a23a16daea19f91ccfde74ddff46530300c0327c6fa6",
+      "bytes": 2492
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/straight-bin-stats.json.gz": {
+      "sha256": "8eaf87ed2c5edf00d24c85937f0a5e81dfb7e483826b9b8b86fa507a9b4da52b",
+      "bytes": 49918
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/straight-tracks.csv.gz": {
+      "sha256": "00ded3dcc790c645fd395a7ed03bad8dadf1f45decb33c1a1d946f2b6218329a",
+      "bytes": 567915
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/sigma-unified/zero-before-decode.json": {
+      "sha256": "dbde0cecc3b8fb5dce499126accc0710de173ad6e239f9a1e85d0db485aa6a3e",
+      "bytes": 2556
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/straight-bin-stats.json.gz": {
+      "sha256": "16edb82af44991b7d635ab2d92195fe7a16add38e2b7e0d133a26e0f454de678",
+      "bytes": 50346
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/straight-tracks.csv.gz": {
+      "sha256": "4b7ac2ee5f6273bd15bef94799aa69c0634ff2fec0498453aa67ceda10b1420c",
+      "bytes": 572260
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/summarize_sheet_radius10.py": {
+      "sha256": "f91a6fb31a2b05ad0b60e9d91e457d4dde0b19e0b2eeae94f978c5bff31a5bd9",
+      "bytes": 16134
+    },
+    "docs/evidence/panels-20261115/archive/analysis-native-probes/zero-before-decode.json": {
+      "sha256": "dbde0cecc3b8fb5dce499126accc0710de173ad6e239f9a1e85d0db485aa6a3e",
+      "bytes": 2556
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/README.md": {
+      "sha256": "4bb1f76d09dac5b4db997140407ed6662eb2a482af3a70fe42e2cbfb7b370aca",
+      "bytes": 4638
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/alert-candidate-review.md": {
+      "sha256": "0caa959e6f216d950be755c693f52a48f1ca7d9d931814c56db560b84010d7b3",
+      "bytes": 4508
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/analyze.py": {
+      "sha256": "75f723ab4ee400c0363f86ff1ddfc36245e878e42350576ec62b88e9829b86d5",
+      "bytes": 4984
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/analyze_body8.py": {
+      "sha256": "cef748f49a311487e23eba16e82e3829eeeda4c3fe4980ac873d525d0d353da8",
+      "bytes": 8857
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/analyze_outline_zero.py": {
+      "sha256": "208d2e04be3610f043a4013456103e40d5fa31b10cd91011ed0a9bba6881d804",
+      "bytes": 8908
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/analyze_rim_bounded.py": {
+      "sha256": "18fc6d141b6f88f552d27cfde6fb4cee63092141950a5de976ab7d2efa0c7c1b",
+      "bytes": 8892
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/analyze_screen_history.py": {
+      "sha256": "70045147e9ec3e75534cd28ffd858db26ca77f3fca2448e2fe27e26f74beba68",
+      "bytes": 9766
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/analyze_screen_increment.py": {
+      "sha256": "1d526d05ab21c751e52d13d2d3d705c73352e8e6bf657cd827e87c58f7e66738",
+      "bytes": 9156
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-brief.md": {
+      "sha256": "30de509f7b5ee7aa0147e48ab5fbe823ab53d6d85e2784fcd0bef9733af8676b",
+      "bytes": 2020
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-controls.json": {
+      "sha256": "32ac30a58fdfedfd471772abcca71e77155f0bcbded99e9fabcadcd6bf97ef74",
+      "bytes": 5579
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-corner-metrics.json": {
+      "sha256": "304166eb639e41aa5c23654d8238c8a7a9839db5b75958a192d91fd942644be1",
+      "bytes": 36233
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-corner-tracks.csv.gz": {
+      "sha256": "93572dd18b5f2633a93ffff49ef7c457dd3a292ea2007dd0ee38cc7329ccd540",
+      "bytes": 667513
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-decode.json": {
+      "sha256": "f5f47f488c9dec9c2c97c7d44cd24fcc58fecd165aa3755fb822af1b157339a4",
+      "bytes": 7315
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-neutral-top-clipping.json": {
+      "sha256": "f763635206915888ee894852e06315c2241f0cc04d8c4ebdef1c2a343613a12a",
+      "bytes": 579
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-predecode.json": {
+      "sha256": "22f4a2134d8ece130b491ed53b24ab61423473a5739f4446a0bc1d1ca82928c0",
+      "bytes": 3107
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-self-comparison-error/README.txt": {
+      "sha256": "31cc94a03f8907e508e6ee0552a3e6416897a2b5144d00e29ffd1690bdce0de4",
+      "bytes": 342
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-self-comparison-error/analyze_body8.py": {
+      "sha256": "120e2e8a61eb8bc3ad3d0b2fb89c3ab4adcf37ec391cabfff45e11620e4d502c",
+      "bytes": 8850
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-self-comparison-error/body8-controls.json": {
+      "sha256": "39e80263c1680cf3381ce8033736bdc9d2a796a6733c3fa23c19fad38ece64f0",
+      "bytes": 5183
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-self-comparison-error/body8-corner-metrics.json": {
+      "sha256": "d7b9910e3aab8b68fe843f317a56163cff910f3cbcb4e166e052dc325404d184",
+      "bytes": 35505
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-self-comparison-error/body8-straight-metrics.json": {
+      "sha256": "a1170f3e77d6c282eb703011081347316788596cf22fd31d2041821a04342dac",
+      "bytes": 127561
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-straight-metrics.json": {
+      "sha256": "f19bbdeafddc2bf28665e9d2b0a95cda8da5d7708500d3f064925d93a9aa84ae",
+      "bytes": 129635
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/body8-straight-tracks.csv.gz": {
+      "sha256": "a7a087a3aeee94a68b44732e77a9b2b7aba8f2aad55ebd97dc8f5ada6d42fc4d",
+      "bytes": 445579
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-124-pixels.csv": {
+      "sha256": "d1689f2e9cb6b883ac3a98c1d1f54b661eb4701c52a3f92b5d6ec5d1dbf47a6b",
+      "bytes": 38462
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-124-pixels.json.gz": {
+      "sha256": "e3df40bd753eccf7f3ecd4700a468868320408211914fed1c6969221bdd74b82",
+      "bytes": 14582
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-124-summary.json": {
+      "sha256": "9933ceee4b9afeadca9b2e94be7e95797410fed55f399bc29b0bc29fa685ad9f",
+      "bytes": 7645
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-all-reference-neutral-peaks.json": {
+      "sha256": "25ad3f35fc4a00d443863b3be89ff6ee252101915975acf7f456b8a856634f94",
+      "bytes": 13567
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-all-reference-probe-metrics.json.gz": {
+      "sha256": "5aa6a2be8b65a06a50aff80fe23e5f85075e1f8521dc5fc5e009bb4f6c5a5fb4",
+      "bytes": 234925
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-all-reference-probe-summary.json": {
+      "sha256": "75efc6af8f069e3cd00deb2985ec7e1feff4f412418f374dab48d2bc3e67afd6",
+      "bytes": 439
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-analysis-plan.json": {
+      "sha256": "2769ee22ebc61c2d3fe54cc33f5778563142585080e90311a72b3c4928a0956f",
+      "bytes": 42982
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-analysis-plan.md": {
+      "sha256": "d8eb67aac6ddc26adf3a0e093ac9afae85c23819405305e0fc04f77878d27011",
+      "bytes": 9250
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-clipping-all-fixed.json.gz": {
+      "sha256": "bdc4e9bc40f3b7e006239ac0dea9e8a00a1ca3d9d13e14a993f6e25bf7aba1c5",
+      "bytes": 181347
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-clipping-pointwise.json.gz": {
+      "sha256": "b3ce3f9b75ea7ac8e79e63dfd0f67242a5c4ead627f73d4be0fcb50c11ec43c8",
+      "bytes": 78848
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-clipping-summary.json": {
+      "sha256": "906cc4851e9fa579713f5ab34b87f239dede5bd145a5d8a810086f8d495fdf92",
+      "bytes": 2603
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-completion-decode.json": {
+      "sha256": "bacd4fa49ed0d7e30111be27bd936a6e311db53e4eac8c1751cacc27274b9eb9",
+      "bytes": 6477
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-controls.json": {
+      "sha256": "024af53a4c9685d6f2ed9b0293c00db4d84febbfc72d25e9a3911f96fe26ab4d",
+      "bytes": 5392
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-corner-complete-metrics.json.gz": {
+      "sha256": "5bfc22ad98d0e1aafbd5d1430fe545e93c278d3501879554950424db4155e669",
+      "bytes": 50527
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-corner-metrics.json": {
+      "sha256": "507e511847160c288b765f054624b896f9d291fd297094803cabe454a1a624ed",
+      "bytes": 36333
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-corner-tracks.csv.gz": {
+      "sha256": "4b75d63ddb98906cd85df14f9820a2e34579ebebe24c22c581ca8b9a99f2b1e1",
+      "bytes": 629442
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-decision.md": {
+      "sha256": "380bef4144a8126481722a4ee5cfe572442788508c0949eb8ecc9c7088b68604",
+      "bytes": 14423
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-decode.json": {
+      "sha256": "4767fd0ba6d91fa28c428d300b208f05c3023f10157f2fa48535b80e07e325aa",
+      "bytes": 7351
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-history/analysis.json.gz": {
+      "sha256": "b79b81621d248fcd688ca132d4f9c2473ebaef3c698eed860a0ad1c5f7842864",
+      "bytes": 32689
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-history/blue-feature-tracks.csv": {
+      "sha256": "362269fc432223fc60a451004d6a050ec7e5831508e4c241e94ec744474906fc",
+      "bytes": 20974
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-history/corner-profiles.csv.gz": {
+      "sha256": "a744f74b4f55778f513f7957d196e1207fb831038928bc4ddb15dfb7c0b96774",
+      "bytes": 907009
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-history/straight-profiles.csv.gz": {
+      "sha256": "0733733962205b2ac89dcad7aa436d788fcc65519845bef502d34235000a239c",
+      "bytes": 249310
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-history-clipping-pointwise.json.gz": {
+      "sha256": "7060e471c3aa784b287e5464aa8b0d29c3296b4fc984e037b71c292937198709",
+      "bytes": 78339
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-history-clipping.json.gz": {
+      "sha256": "9ef63f7f4ddb8ff7268674e44b83c8d588bceff6e48514538cd7a9e4f9626e15",
+      "bytes": 262912
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-history-controls.json": {
+      "sha256": "568e3b0c5f67b159eb677cd45d6625c9f2ed27384c54092e73e6b56aada5204c",
+      "bytes": 36678
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-history-corner16-metrics.json.gz": {
+      "sha256": "b604bfd9c3f116d2e75409585976138935b1123a0dbd682a84cd2cac0eacfcc2",
+      "bytes": 174932
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-history-decode.json": {
+      "sha256": "d864eba409c20f12c3e9b317f61cfa3fefccfc3efb32afb5b99ea7a010c3a963",
+      "bytes": 44553
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-history-metric-changes.json.gz": {
+      "sha256": "2f70b1329ea7241082239cd2f9e64d68ed4d72c2bbbfcf8755dd8c5c8b135276",
+      "bytes": 56409
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-history-predecode.json": {
+      "sha256": "cb8c0ab7f65f1b6556c8a784803af344f67a23fab11682aea28225febe68f6d2",
+      "bytes": 17579
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-history-summary.json": {
+      "sha256": "a9ff47b42dc465af7e4264ad3f685d3824f2cfab3152cf31943d35e4c3e70fe9",
+      "bytes": 9624
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-integrity-verification.json": {
+      "sha256": "3e769cd0b57bbeff25a27bd862a1052efef706037d09658ecd35645fc627b8b9",
+      "bytes": 111437
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-manifest.json": {
+      "sha256": "1794b65d5e6401b2dafdda6ae1ba1a2d38fc9df3f26b4ef60872a9d9e353e295",
+      "bytes": 9234
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-neutral-peaks.json": {
+      "sha256": "82c43db2ebc2e44269aff84425c6b44d052d65903668962052fbd682d5a5f0d8",
+      "bytes": 25851
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-primary-controls.json": {
+      "sha256": "4231656f6b5a0f97c31fe3ce48309a7446bd0182227ef527a6dedc823dde3f36",
+      "bytes": 2835
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-primary-decode.json": {
+      "sha256": "fcd12577db12c3d6a45106fbe00cb520ab8492ca90786d4f992e87f80897e357",
+      "bytes": 5220
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-probes-predecode.json": {
+      "sha256": "d997cf5831e3e84c7dc32b69d9e2f4e6f22c5267d5dcd31f5b90130fd0a8bcad",
+      "bytes": 3391
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-regression-index.csv": {
+      "sha256": "3523ab0823b7c4b73443c88a41032b6e20bd828ef7fc387568b3545d7bdacafa",
+      "bytes": 194405
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-regressions.json.gz": {
+      "sha256": "be2d660db59dad5f0fdfdbd63c63acb99e5b985b090de8d8443366ccb1302c39",
+      "bytes": 111058
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-result.json": {
+      "sha256": "bb0d3e7d4afa4d76532c7d3a338384b7e20215563b55b3422d9a95a85ad5f22a",
+      "bytes": 160587
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-straight-metrics.json": {
+      "sha256": "8bba84c0fe5e471669484582373aacadb71ed0894385ec9151d2748547b55a4c",
+      "bytes": 128592
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget-straight-tracks.csv.gz": {
+      "sha256": "8cf8d0b05de137c11a80fe27f30780025b1b1cd25de809568d2f5a478e764b68",
+      "bytes": 402119
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget_analyze_history.py": {
+      "sha256": "06a0846f7af3abfbaaf4a3aa2911c4dd68b55fbfefedd357b726aa0c788447f1",
+      "bytes": 10647
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget_analyze_probes.py": {
+      "sha256": "8a250e7717766e4db18d4968a210269392d92c69d10632b2be85cf5f63c24233",
+      "bytes": 9132
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget_compare_probe_metrics.py": {
+      "sha256": "e96795bd486be12cf05854dc702800202f43526a5fb579e08716f63314d15dc1",
+      "bytes": 5780
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget_complete_history_derivatives.py": {
+      "sha256": "af7a93fd238a8ea2410ce73dcd182608647ccb3f456cacb063844f1a11c1e167",
+      "bytes": 3306
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget_complete_probes.py": {
+      "sha256": "7c1282a30cad2ab6ee4707df578160fd1bd9adf95b6e8a6b456004691d0a249f",
+      "bytes": 11223
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget_extract_primary.py": {
+      "sha256": "9a87d72e586ff2e4cdf81ec6d46fb6738020d188bb9d362822cd42f7aea78327",
+      "bytes": 6719
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget_history_driver.py": {
+      "sha256": "e0e186625193739871f9b6076a5c01525cfd39a4c702263b633b88452dd8a2ba",
+      "bytes": 1501
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget_plot_fixed_comparison.py": {
+      "sha256": "3251f92615bcff6fde204d74329ff374e78c8d4fd2c267bf87cf6a3997bcb784",
+      "bytes": 4637
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget_publish_evidence.py": {
+      "sha256": "72daf87c6a4a24a85947e48d044f1460650cef6a9fc617cd10878581e42ffebf",
+      "bytes": 9513
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget_summarize_evidence.py": {
+      "sha256": "2a16d67d8a84a1484fbb0e9a8278e14ea31ddf2ecc709480bec7759edd3dfea3",
+      "bytes": 10338
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/budget_write_decision.py": {
+      "sha256": "43523e2efdf2305d8d99feb8f0d534e1a6d6d9a5e2c421b8cc87faff3c429352",
+      "bytes": 16256
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/complete_rim_bounded.py": {
+      "sha256": "3d04dfeae3b80c0342ca1da1868fa078d542621a929d4e15fc9eaa2c1ae4c562",
+      "bytes": 14126
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/complete_screen_history_derivatives.py": {
+      "sha256": "ebe2a5067adbe28a0e0f2301d064ab85a47d2783a56c98744f121d5953ba24bb",
+      "bytes": 3273
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/complete_screen_increment_4.py": {
+      "sha256": "c3f45567c835906eaf43b93c2405ff2e74b10acb94bb2148d0c2dc9025468371",
+      "bytes": 11164
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/curves-and-derivatives.csv": {
+      "sha256": "dffa9f258805a8b381801b7a50cba7edca2919b38f8dd6da1f24ac4c1d3eb0e6",
+      "bytes": 113505
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/derive.py": {
+      "sha256": "7d32ebb7d24c003e30d36dba01e5d9944333fe8907e7f20008492e5e3dc8985f",
+      "bytes": 1358
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/extract_left_red_clipping.py": {
+      "sha256": "0f10558ed133df0f086516a9351000f2bceb23d477c09803fb2e707b0099a86b",
+      "bytes": 7792
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/extract_screen_primary.py": {
+      "sha256": "c8f93a27282591a3d6bb1a23d2bd47100329f26c5b9ec3289541c13e7e351cf4",
+      "bytes": 6055
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/historical-dark-brief.md": {
+      "sha256": "cbd7f8a453ff3bca8fc7be2966febd6b204a7056bef17a10b194f8edae8004a1",
+      "bytes": 1791
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/historical-dark-first-two-rows.json": {
+      "sha256": "06d4e978312190d7b5967c6b78375e873f90fb4eaccbca2d61d59e94a145b2ac",
+      "bytes": 13094
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/historical-dark-fixed-rim.csv": {
+      "sha256": "85f4432867827424bbcee22a750a951071ec698678693405f4b1e4cb0c2f1e53",
+      "bytes": 66741
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/historical-dark-reuse.json": {
+      "sha256": "c6b01879043015205beb4e026c68744826988911013b09c450b8be6ac668bf65",
+      "bytes": 670
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/history-reference/analysis.json.gz": {
+      "sha256": "8b6dab9789fb2ddb42f37fb79522a2a00959f9e89b43bb4bfb08ad16cabe6335",
+      "bytes": 32829
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/history-reference/blue-feature-tracks.csv": {
+      "sha256": "f00112c0bb046e8789ea806eb6224f28a03f9d82c5a4c016e3c3f759eac8eef6",
+      "bytes": 20976
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/history-reference/corner-profiles.csv.gz": {
+      "sha256": "079f1e07a076b71a301c7a0dd3c4f4955664b52c8791cc63e37a95263b4f476e",
+      "bytes": 905192
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/history-reference/straight-profiles.csv.gz": {
+      "sha256": "8964975ed4ba5f4d7773caacf40bca0dee30b2b46e436abf571c4ffd5a36a68f",
+      "bytes": 244718
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/history-rim-bounded/analysis.json.gz": {
+      "sha256": "dbf37090363dd87231c1b0193927e3ce20d3c5c2876121a8ac007aa141a450e3",
+      "bytes": 32653
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/history-rim-bounded/blue-feature-tracks.csv": {
+      "sha256": "716ca80677a84a35611b7134a8c6810420c005dea3101c2939762733ea95cc48",
+      "bytes": 20972
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/history-rim-bounded/corner-profiles.csv.gz": {
+      "sha256": "dc06f734c1669d1092c7e95e967479994fa8eea5ff05a69cc44f8ce51fd9df5e",
+      "bytes": 906475
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/history-rim-bounded/straight-profiles.csv.gz": {
+      "sha256": "50861fb4e4f577d006d4b130fe9b6b61d8a4e6c5c5400dfa202a4d722522c69d",
+      "bytes": 249368
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/history-screen-increment/analysis.json.gz": {
+      "sha256": "f56ac0b759d60b12dfcfd28bdee9a1e77086297311b2216345b60504d866d5b8",
+      "bytes": 32673
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/history-screen-increment/blue-feature-tracks.csv": {
+      "sha256": "a9378d891ec7daa215ba95073bd39fdbc5cf6f200d1ac4f4ce4fdbfebe2f0d37",
+      "bytes": 20975
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/history-screen-increment/corner-profiles.csv.gz": {
+      "sha256": "7b0d9e6a59f988935349c8e917d59be43d161fa2361efd704994df965ad3485b",
+      "bytes": 902368
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/history-screen-increment/straight-profiles.csv.gz": {
+      "sha256": "db12ff147855cebcffc0c2b7d4286f6f56b5f2c88585d4f0de870fcb64176922",
+      "bytes": 249318
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/initial-error.txt": {
+      "sha256": "6e6311f9ee83aa60e813e3addc78282f185be41940c6ce342296dff85e1d450b",
+      "bytes": 246
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/inputs.json": {
+      "sha256": "4a786636dd2239311766750e863d2365eb65db268a30aae2d2f44a4e01ca79fc",
+      "bytes": 2744
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/manifest.json": {
+      "sha256": "54c47a14e77172d2f243c20a7b855ae500542aa7ec946c3d0e35779f62a2ecd8",
+      "bytes": 15501
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/outline-zero-controls.json": {
+      "sha256": "fc927aab440bd6e1fc242021e4447e2993b5fd4afb27f1138dda2b6d178b6339",
+      "bytes": 5394
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/outline-zero-corner-metrics.json": {
+      "sha256": "902c764206510d52fd55b36962d9a303322363596dae518209ae07b7fbac5ac0",
+      "bytes": 36253
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/outline-zero-corner-tracks.csv.gz": {
+      "sha256": "42b8e9436427bfe1df12f5c163bb9b6a7b0cdcff7b8457282045d17e86ab33cd",
+      "bytes": 640891
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/outline-zero-decision.md": {
+      "sha256": "371a09ed721518602d893229103e4324c767d8f7924033613b1eaf7b5d631de8",
+      "bytes": 6222
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/outline-zero-decode.json": {
+      "sha256": "a079c87908e567f15dea8f439a71eaf7022b3b5c79d603f72d640f816a5a21f8",
+      "bytes": 7387
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/outline-zero-predecode.json": {
+      "sha256": "739bfc962d9c5adae9653b3264b046f183a8bf0e654b29667eb1b1774148c6dc",
+      "bytes": 3951
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/outline-zero-straight-metrics.json": {
+      "sha256": "aff3ae290a4f8c283158a2d9b767df1f861271b49038a2ffbcbf5a6e0bd8fc98",
+      "bytes": 128234
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/outline-zero-straight-tracks.csv.gz": {
+      "sha256": "429fc7395911f486863b473d6cacf4ad81432952f03b792fea22d1527b310a13",
+      "bytes": 403493
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/outline-zero-top-clipping.json": {
+      "sha256": "f372cd6fbd7c769cb524809c049452b9676e791e0aa17b50e01660ee043f09df",
+      "bytes": 3681
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/outline-zero-top-flat06-prediction.json": {
+      "sha256": "2a90d979cfa796b0d13957b87d6c54cef86dadb86d4d56c75cdf9ed08e636c88",
+      "bytes": 6218
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/plot_screen_comparison.py": {
+      "sha256": "8d2bff0f2cbcc76c922feaa4201830710fd394457b6f29e99536f91954b2ee5f",
+      "bytes": 3880
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-clipping-all-fixed.json.gz": {
+      "sha256": "79af54c317f01beae7916dd8e60bc9f000b505fa22e89c5149b72407d75f3157",
+      "bytes": 106075
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-clipping-pointwise.json.gz": {
+      "sha256": "fbbeff5c9b2d5080693a41aaada11c4c5fb6a29c2fb829b12351bedf27eeb049",
+      "bytes": 49471
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-clipping-summary.json": {
+      "sha256": "2d482e6183e8d5f1cb868bd45fef4815c73eb6abcfdcf5c99f71b3efccb7d6e3",
+      "bytes": 4014
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-completion-decode.json": {
+      "sha256": "422d6474f425072ae619785bf82e0087d06a408d3c8009a0d3c8169a1638e5f1",
+      "bytes": 3883
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-completion-initial-error.txt": {
+      "sha256": "0b84e45256058b7a235d8fc70e007cec26a30d3c8b7304b76673658a3319dad4",
+      "bytes": 351
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-completion-summary.json": {
+      "sha256": "58e34f968a710d52e295cf4e1bd09cf94ae6beb5ae7f60086c771714d3be4448",
+      "bytes": 36433
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-controls.json": {
+      "sha256": "8c51ed1986ab00bd485d5856735ba338dea900ed921a09f360cdd92c078f78b7",
+      "bytes": 5396
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-corner-complete-metrics.json.gz": {
+      "sha256": "edd6dd805eb1264d8905d8f01cb8a1342bfce6746971e641fd45d887ed9448ac",
+      "bytes": 52546
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-corner-metrics.json": {
+      "sha256": "aef1d26dd796c213bfef6ca70f8e002bff3cbdbd73777c1a564f3907bbe9280a",
+      "bytes": 36336
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-corner-tracks.csv.gz": {
+      "sha256": "61a4047ac6c8d245b05427b49ebb45d02a53624f5af60889f974393d22d65112",
+      "bytes": 650459
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-decision.md": {
+      "sha256": "37d4121fd343161007fa24eaf63851ecec1b804fd51aaad1d2548b3f7d4f9560",
+      "bytes": 6444
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-decode.json": {
+      "sha256": "9fc647a391ed354d968f0305c5f1b1cd6e563f5a56072b752acecffab509ae62",
+      "bytes": 7307
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-history-controls.json": {
+      "sha256": "b5befb30369241c66c642fb0538b8a592e84be0cb91a13c5ee5bc2f587c37740",
+      "bytes": 31313
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-history-metric-changes.json.gz": {
+      "sha256": "253fbf7b78387d26c2f83bae0de8bfd3102f46de7958d91cfc59f60f348de4c6",
+      "bytes": 24646
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-history-predecode.json": {
+      "sha256": "e7a37aac2b58ad8d4d7a47774195a79afdc512993a46957f72a2e457b198157d",
+      "bytes": 10199
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-history-summary.json": {
+      "sha256": "3b6394d8d02854d27866359e07432169b4cb6a8d657293b2e3daf5a438acc079",
+      "bytes": 3045
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-left-red-124-pixels.csv": {
+      "sha256": "d86c4d35d32b6b6eb5f6e8a79118c38f52a677f02d1414baa1f779189e74ece6",
+      "bytes": 30889
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-left-red-124-pixels.json.gz": {
+      "sha256": "360df994682d0b9ffc467a9124a28419892ad2e4ff3d7c2e3931abb5946dce9b",
+      "bytes": 11471
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-left-red-summary.json": {
+      "sha256": "aa89607763a2ff8eb622bdb5198d1244ecd46e8f1497574b90186f1dd3b48f25",
+      "bytes": 8957
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-neutral-peaks.json": {
+      "sha256": "9983eff04bb5d09a88e8b0a52de84ad5143a199c44a0131bc09642e05666a804",
+      "bytes": 25683
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-neutral-top-clipping.json": {
+      "sha256": "016f970a2ae3d2474232bf30c973ed9fdc6c9d905f8d4e7a8844143702055072",
+      "bytes": 1262
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-predecode.json": {
+      "sha256": "d2e343001b1d8617ac15df32c2813c7b1c2b23f59c6e024f59a41a67dfafa768",
+      "bytes": 3219
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-straight-metrics.json": {
+      "sha256": "dae4f4cf6904675a5f7cf2b5b57f49c6a679db5e4fe9b927017f893eee1ed3b2",
+      "bytes": 129026
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-bounded-straight-tracks.csv.gz": {
+      "sha256": "5699e85280cb1c14c01730aa99cf060dc8711bf8d30f95f496fa946d33f2cf34",
+      "bytes": 413472
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-next-frozen-plan.json": {
+      "sha256": "7b42d16ce8c71ad5e3ef9f5315a9650aa078ca68973bde36eee3388b5326dd5b",
+      "bytes": 1455
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-next-frozen-plan.md": {
+      "sha256": "179c6679b5400d5fd8551279b4ad99fc82eb456c8fa01203d62d0cf235ca10ac",
+      "bytes": 6718
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-124-pixels.csv": {
+      "sha256": "b18dc421f770563f50e0802481c489f1e30d877a6eaadc9043abd6329c96d792",
+      "bytes": 31219
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-124-pixels.json.gz": {
+      "sha256": "194879ebef98403e523fb4e3274199c765bf4a701fac3242679b2120e7b63095",
+      "bytes": 12299
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-124-summary.json": {
+      "sha256": "8e76c4aedacdebe7beaf64126364a4c813459e349abcbdf7e058804e5ec00c64",
+      "bytes": 6083
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-analysis-control-correction.txt": {
+      "sha256": "a10e994cb1b23bac3a72a739c947bcb453808aa90d742f98966d35cf6cdbed55",
+      "bytes": 372
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-clipping-all-fixed.json.gz": {
+      "sha256": "6473b710b4fa3e0323e6775cb1b4c85ec1e524b3c758bbde7be0f7031e760767",
+      "bytes": 145368
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-clipping-pointwise.json.gz": {
+      "sha256": "c6ddd0f3773e5a7f6db74db40607004a4d8dd8e5fb06fe02312bad12a88d3989",
+      "bytes": 61683
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-clipping-summary.json": {
+      "sha256": "906cc4851e9fa579713f5ab34b87f239dede5bd145a5d8a810086f8d495fdf92",
+      "bytes": 2603
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-completion-decode.json": {
+      "sha256": "4b74bc8d40c28a4c2dc05c1db5ed1453094075c59b0935cc3d210b996f4f16fd",
+      "bytes": 5177
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-controls.json": {
+      "sha256": "81ad645223d5a3306a6beeaea802e0ca726a5c21e5d49f338c6848df034d6f7a",
+      "bytes": 5395
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-corner-complete-metrics.json.gz": {
+      "sha256": "1286ce949c2a8c6e9ea421337e001703c5d91b6b2b2384af9aafe040595ea6a0",
+      "bytes": 52559
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-corner-metrics.json": {
+      "sha256": "9f7b890e4f4fd377be65aa977fa1b72d3da764d8a8c96c031a45d49561eaa40f",
+      "bytes": 36399
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-corner-tracks.csv.gz": {
+      "sha256": "24e5910b3613fc3bb9d85359433288463b9be5477bb23bca75cd183fda41178f",
+      "bytes": 648130
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-decision.md": {
+      "sha256": "ff1d1c96e11bf2b3332804fdfa1a4f61291b1c8731ca8e0523cffa58eb8d3776",
+      "bytes": 8243
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-decode.json": {
+      "sha256": "8215a7dfb48956c1d131a356de7c46de28d098fcb3bfb740e372bb1cdb158129",
+      "bytes": 7351
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-history-clipping-pointwise.json.gz": {
+      "sha256": "2eed083f0512b7a2356d55b4d5bae54705ee4dd2065531b6336a4378880781c0",
+      "bytes": 76584
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-history-clipping.json.gz": {
+      "sha256": "c35ef455723b5995a33f76dc2ccacbc362973c1a677cb7142d0f957f7000d5de",
+      "bytes": 212203
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-history-controls.json": {
+      "sha256": "80758166fd2891a5f2560fec4ead10706cd10fe912010ad13609ddb24953ce07",
+      "bytes": 24288
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-history-corner16-metrics.json.gz": {
+      "sha256": "5c87a1a2d374a3c36907adb3f8533517656de51385601eefe25acb875d8a8cd2",
+      "bytes": 141631
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-history-decode.json": {
+      "sha256": "be89ee31e68b9175adad20752dc888d3744ab509107c656e1eee18ad42fdda2a",
+      "bytes": 33873
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-history-metric-changes.json.gz": {
+      "sha256": "9a05e8a4def5e508724d1b84b4f827b4e60b0489053868ec82f52dc647caba63",
+      "bytes": 40635
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-history-original-controls.json": {
+      "sha256": "1d1d47bf9aafcc907bc478b5713bb09c08eb726bb669f46ffa6a3856c94e2879",
+      "bytes": 32822
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-history-predecode.json": {
+      "sha256": "5a8d0907e3afe7d58d5c433e53e423a5101d4e9c92016c76c36f927f8951e485",
+      "bytes": 10890
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-history-summary.json": {
+      "sha256": "d0a6781943af5a7453246988b2d861b0982419a3aa2044f03925cc916d59439d",
+      "bytes": 6472
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-increment-frozen-plan.json": {
+      "sha256": "187aa4dc46f9f73ef4563beb1d1c74af08823ecdb804b2d8fac4fa3788ad48f1",
+      "bytes": 16098
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-increment-frozen-plan.md": {
+      "sha256": "98ad62d4c92c43a60b8bca15a76ffb2b2faf01821155af24592ff90628ecfb19",
+      "bytes": 11292
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-increment-predecode-amendment.json": {
+      "sha256": "8173b1c07ec025d6ba7d664795d6aee54495b8f788d1891be11a678e0fd14a65",
+      "bytes": 4361
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-increment-predecode-amendment.md": {
+      "sha256": "03b9bb85a0c290a96c2fa859d52153daf13852e13521fb4f63c49371c3dd6262",
+      "bytes": 3351
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-neutral-peaks.json": {
+      "sha256": "f9804bd102c705cf3b5a365e45b5ddf8c898d0e8ccdf7a16a1048a0de324c3c7",
+      "bytes": 25715
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-predecode.json": {
+      "sha256": "1bbc17cd49cbfa0f0e26aea6225d1243002f49723ba6e101b42aa07946d74cdf",
+      "bytes": 4088
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-primary-controls.json": {
+      "sha256": "ea568adc26d7b7239e5711c3a99f85c75c005306f81b6f7e6b9b21067b1233db",
+      "bytes": 2241
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-primary-coverage-error.txt": {
+      "sha256": "dd814767baf30fb8d1251e5192cc1df748712e79430cbb13d689e76801f1b36d",
+      "bytes": 577
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-primary-decode.json": {
+      "sha256": "7242c1c7feb2891fed85cc9f8c755f1cb2ed0c1a5a19f4fa990057b531a5854b",
+      "bytes": 3912
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-straight-metrics.json": {
+      "sha256": "720499abf8c4f153cddfd03a7489eb5b3258c4b898436ca316312d172a190fb4",
+      "bytes": 128804
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/rim-screen-straight-tracks.csv.gz": {
+      "sha256": "89b3a77eb3a55329184f8e115b250696978c812ca0951171af71143b6b7d1a3d",
+      "bytes": 407664
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/screen-headroom-normalization-review.json": {
+      "sha256": "cd00cd7a07b52e12baafa4f850ab78bc296bfc6f68ea5c33c068d22be65196be",
+      "bytes": 13721
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/screen-headroom-normalization-review.md": {
+      "sha256": "358fa7b31ec82bd849e228806f23448df5a57c1cc4b7ba7b547f15d5a5cc20b6",
+      "bytes": 16187
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/source-references.json": {
+      "sha256": "0dc91d51abda474ed3005f3f18c24a5eb57c681f5a22bbf49a0a94065d3fcf55",
+      "bytes": 1104
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/summary.json": {
+      "sha256": "1b20bfd03da3cb8e7658c73e6930305dbb9c36303d9d331aec6decf5c8b9c00a",
+      "bytes": 7714
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/tracks.csv": {
+      "sha256": "2ad640e0cd09462aae212ed8316d076d414af8e5b0321d5aba8c94e0dac2357c",
+      "bytes": 37614
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/verify_rim_history_controls.py": {
+      "sha256": "bc878414d2bcb31d804b15ddf9251594c1cdc4aad17cb421bccf989cd31016f9",
+      "bytes": 2319
+    },
+    "docs/evidence/panels-20261115/archive/analysis-rim-evidence/verify_screen_history_original_controls.py": {
+      "sha256": "672375bc2ff88e7bbd6746a92ffe3c524c02cb58b6aa6ce3cc5275488e82f188",
+      "bytes": 2541
+    },
+    "docs/evidence/panels-20261115/archive/build-panel-candidate-v2.py": {
+      "sha256": "dbf4c4464e5dfcfe124c29b71dc2feb2a72cac0894954dea926b3a2484b08340",
+      "bytes": 2549
+    },
+    "docs/evidence/panels-20261115/archive/build-panel-candidate.py": {
+      "sha256": "5b00afc5415cff81691613c21c6e1f441f24be777740ac6e860604b69fc1b08b",
+      "bytes": 2578
+    },
+    "docs/evidence/panels-20261115/archive/build-panel-clear-edge.py": {
+      "sha256": "5ecf5bc17d71aa43f93265b14ee5e8453a7f2f3344b5b87b5938271a96d63987",
+      "bytes": 3318
+    },
+    "docs/evidence/panels-20261115/archive/build-panel-geometry-v3.py": {
+      "sha256": "4fa71539a34e1abd2936e155b1588bfda90a837e9ef3c975d8b5e6fb2952a801",
+      "bytes": 4159
+    },
+    "docs/evidence/panels-20261115/archive/build-panel-scrim.py": {
+      "sha256": "573d6c11a60cb227bcd7a261b4ceb7dd8ede8eaffc57898ecc1275446ea9a85f",
+      "bytes": 2650
+    },
+    "docs/evidence/panels-20261115/archive/build-panel-sigma-r2.py": {
+      "sha256": "6d33eab95c83ba46c688119439a7daa1a6dfc8440653c1d85f5134fc5e6d69e2",
+      "bytes": 3704
+    },
+    "docs/evidence/panels-20261115/archive/build-panel-sigma.py": {
+      "sha256": "5c92dce84d49455903da2caa8463cb2a1c4351227b1710710a9a2f0c2b4d4edf",
+      "bytes": 3489
+    },
+    "docs/evidence/panels-20261115/archive/capture-panels-v2.py": {
+      "sha256": "43f5423126efbcfa96d395868769fbc229ca01e512aa02c22f683b1a6cdd88da",
+      "bytes": 6336
+    },
+    "docs/evidence/panels-20261115/archive/capture-panels.py": {
+      "sha256": "0d3641af68e71ad6893edfe65e1aea322aa440755c86bf9c2cde7c792049ad3b",
+      "bytes": 6412
+    },
+    "docs/evidence/panels-20261115/archive/capture-probes.py": {
+      "sha256": "bee9de3d8b28f146f1b87468efc6d9dc671be1afe6fd0a8fd6cb224e88ee35a5",
+      "bytes": 5078
+    },
+    "docs/evidence/panels-20261115/archive/native-alert-map.md": {
+      "sha256": "ce6926fddb7089d28b81182136829f62ea28fe91ef4cda43fc6a21b6cc2c6fb1",
+      "bytes": 11897
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-body8-build-input.json": {
+      "sha256": "d07e062ff85179af4e4d1a6f8316350198db0eefd6affaca0a0bcf4598f7e314",
+      "bytes": 3248
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-body8-build-result.json": {
+      "sha256": "a469cf0d1575fa481e3dbbce6c7234cc1e0b2310e92708da409a83e4e2053e61",
+      "bytes": 5806
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-body8-plan.json": {
+      "sha256": "3d84e7bd0d9e7aed3dad595c0b9807d4ba2b87353bfb6efbdb77f93816d1e84a",
+      "bytes": 1128
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-floor-budget-build-input.json": {
+      "sha256": "b763af6052dfa5567459ffad127a078f24ed575f8b3797eedcc5affe0040b0ec",
+      "bytes": 4840
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-floor-budget-build-result.json": {
+      "sha256": "1f3b655eec21f228a414651eb59d87f957e08bfecfa8e5dea4bc13d2518f8ad9",
+      "bytes": 8716
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-floor-budget-history-retry.json": {
+      "sha256": "5529f94b1b343db2b3e388fc8ff3c55b1dcbcd4eb54669d28fc8f02b8a13ec2f",
+      "bytes": 707
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-floor-budget-plan.json": {
+      "sha256": "eb44f1bb7ca00381c27c9aaca7cff5dd80d1acd304d5018f79737afe41b7e42f",
+      "bytes": 2125
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-floor-screen-build-input.json": {
+      "sha256": "24563ed3f9b4e75b61683632fc09de3ccb9c02653c2908f442c5a5443a85ca16",
+      "bytes": 4840
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-floor-screen-build-result.json": {
+      "sha256": "a0a49efe235c435f53458c302074cdf8733a02408101cd873e34f5aa98cf7b2f",
+      "bytes": 8715
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-floor-screen-history-retry.json": {
+      "sha256": "99c853313ee90ed86e637e712ba4e08e4ce3f4737b3c0d16473f9550f4a1c1e4",
+      "bytes": 805
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-floor-screen-plan.json": {
+      "sha256": "6f868a03b7bb8a9a526febecdd1955b79afd99235e9921c1e062a0f124c66b81",
+      "bytes": 1779
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-outline-zero-build-input.json": {
+      "sha256": "8e204591e701b701f61b5f2d13e57d746726b6ac20aab6ebbba26674bd635bbb",
+      "bytes": 2956
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-outline-zero-build-result.json": {
+      "sha256": "9e775345b67c137563f338f18d7d562c0d6d0a2ccd58289c2273f9e2bc4640db",
+      "bytes": 4870
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-outline-zero-plan.json": {
+      "sha256": "952be09d550fedc7fa386723c8e4dfc6852b526d8dccaa667095e8245a5b2a69",
+      "bytes": 683
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-rim-bounded-build-input.json": {
+      "sha256": "75ffaf8a07bbc053ff60c6fa004bead71170167939f1399b7c299fb3ca89a38a",
+      "bytes": 4533
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-rim-bounded-build-result.json": {
+      "sha256": "6a2de7a5d8423c7909a4d2fdb0d029694a43dea95153e93b7dcf4b3d79a454b1",
+      "bytes": 8408
+    },
+    "docs/evidence/panels-20261115/archive/panel-alert-rim-bounded-plan.json": {
+      "sha256": "95318607976e73caf0dc9fa21322712ac03cd9e5b431fca7fbb46baef1cf38db",
+      "bytes": 1545
+    },
+    "docs/evidence/panels-20261115/archive/panel-clear-edge-build-input.json": {
+      "sha256": "12032886b6149c49e35315e1bff021e604c67eb0aa279cf6c6bfb9269353e124",
+      "bytes": 2956
+    },
+    "docs/evidence/panels-20261115/archive/panel-clear-edge-build-result.json": {
+      "sha256": "a31eea4bdac1b6865e5a91047c241974b14ba0014963e1201ba4aceb38ae4c29",
+      "bytes": 4869
+    },
+    "docs/evidence/panels-20261115/archive/panel-clear-edge-decision.json": {
+      "sha256": "2685c7b17fec105b69ac6714f5297ab8e908b035474a618ff37920cd91e11096",
+      "bytes": 473
+    },
+    "docs/evidence/panels-20261115/archive/panel-clear-edge-plan.json": {
+      "sha256": "a6986d151e50f67b624eb89a73486bbd426bab188371f9154d47675d094c996e",
+      "bytes": 992
+    },
+    "docs/evidence/panels-20261115/archive/panel-clear-edge-sigma-build-input.json": {
+      "sha256": "39f7e055ec8d8f685779b81ee3053f4684d56b10a340d9e972fca662e844eaa9",
+      "bytes": 3009
+    },
+    "docs/evidence/panels-20261115/archive/panel-clear-edge-sigma-build-result.json": {
+      "sha256": "efef27ddfa623a04efc8283aac84a0de1cb2f4a52a3204aca5f564b0b4b5cc7f",
+      "bytes": 5568
+    },
+    "docs/evidence/panels-20261115/archive/panel-clear-edge-sigma-plan.json": {
+      "sha256": "bd1ba6f45726029a2bbdbccfafd0570381a03484d45eff0d66bb1a132b84bec6",
+      "bytes": 954
+    },
+    "docs/evidence/panels-20261115/archive/panel-clear-edge-sigma-r2-build-input.json": {
+      "sha256": "1a7b883991fa9219eb9e487b89646b02d0488dde727c911a2fcd7e4c967c0b7f",
+      "bytes": 3248
+    },
+    "docs/evidence/panels-20261115/archive/panel-clear-edge-sigma-r2-build-result.json": {
+      "sha256": "660ec006fe58818ee624f6492b95b5a3e2b15afcf025bed51aa3068b90c88cc8",
+      "bytes": 5808
+    },
+    "docs/evidence/panels-20261115/archive/panel-clear-edge-sigma-r2-plan.json": {
+      "sha256": "bd1ba6f45726029a2bbdbccfafd0570381a03484d45eff0d66bb1a132b84bec6",
+      "bytes": 954
+    },
+    "docs/evidence/panels-20261115/archive/panel-dark-scrim-build-input.json": {
+      "sha256": "89676aac993626929b5012744be713271c36dacb62856557452a1612e8a5b55e",
+      "bytes": 2388
+    },
+    "docs/evidence/panels-20261115/archive/panel-dark-scrim-build-result.json": {
+      "sha256": "ded9ed21f1c2af78524bb649e887bcaf159d77d32baee158e5d724ab2f426e2f",
+      "bytes": 3639
+    },
+    "docs/evidence/panels-20261115/archive/panel-dark-scrim-install.json": {
+      "sha256": "295234e06e6a02e1ea50f633b02564bee25f5de73fdb47daba0906b0a556f4bb",
+      "bytes": 967
+    },
+    "docs/evidence/panels-20261115/archive/panel-dark-scrim-plan.json": {
+      "sha256": "1556385561438010285b0e0f9a0ee94b9be09f20a0155c535bdd06ba4ff7ea6d",
+      "bytes": 1248
+    },
+    "docs/evidence/panels-20261115/archive/panel-input-geometry-build-input.json": {
+      "sha256": "6921887e1e048f4f5e799509a2a9b91e7fab8e5f22218138a86628fbc0b547b9",
+      "bytes": 4533
+    },
+    "docs/evidence/panels-20261115/archive/panel-input-geometry-build-result.json": {
+      "sha256": "8911390303b57695a1587b3d692acf78275197d631c3195f0dca54756dd66f08",
+      "bytes": 8408
+    },
+    "docs/evidence/panels-20261115/archive/panel-input-geometry-plan.json": {
+      "sha256": "45c299fb64d996c3d7c4f5b3e142e4eaa842fbf48f230ebda1a72b59081a0123",
+      "bytes": 865
+    },
+    "docs/evidence/panels-20261115/archive/panel-probes-android-build-input.json": {
+      "sha256": "df7c80752b0027fddeeaa1d9375e0e1ba2bdcc202a2d1f6cfc0fb5a2bdd185c2",
+      "bytes": 2388
+    },
+    "docs/evidence/panels-20261115/archive/panel-probes-android-build-result.json": {
+      "sha256": "d253dc82279dffc69f6e0454f48401edb204bd9a084c664ec593b466399a0c93",
+      "bytes": 3639
+    },
+    "docs/evidence/panels-20261115/archive/panel-probes-android-plan.json": {
+      "sha256": "86d313685ef4b27a2ada00bb71a4b6364b8a6de831a75500121b8fad8eb7165a",
+      "bytes": 973
+    },
+    "docs/evidence/panels-20261115/archive/panel-probes-preparation/README.md": {
+      "sha256": "4b312a9fd7f2212629b4551b429046511632f30eed3860e4a9ae5a373e8d7ca8",
+      "bytes": 2631
+    },
+    "docs/evidence/panels-20261115/archive/panel-probes-preparation/analysis-plan.json": {
+      "sha256": "4a8d7cbedb4cce07f2a95ef2f18dcdfa4f106c13e2b6abe84072a9861dbe513f",
+      "bytes": 13371
+    },
+    "docs/evidence/panels-20261115/archive/panel-probes-preparation/analysis-plan.md": {
+      "sha256": "675bf82c495e89c5a4088afd4462a2b51ef28ecbe073b45c27119fccb1d13294",
+      "bytes": 14619
+    },
+    "docs/evidence/panels-20261115/archive/panel-probes-preparation/android-manifest.json": {
+      "sha256": "ad1e98f20ffd973f8cb38ca69cdb8c300e06fb22a97128cb69472bc0a0b3c656",
+      "bytes": 884
+    },
+    "docs/evidence/panels-20261115/archive/panel-probes-preparation/generate_probes.py": {
+      "sha256": "629f2414c9565ae042dba158df5eee20f0cdcad893168f0bfadb787a3b975347",
+      "bytes": 13192
+    },
+    "docs/evidence/panels-20261115/archive/panel-probes-preparation/loader-manifest.json": {
+      "sha256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838",
+      "bytes": 2231
+    },
+    "docs/evidence/panels-20261115/archive/panel-probes-preparation/manifest.json": {
+      "sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+      "bytes": 8927
+    },
+    "docs/evidence/panels-20261115/archive/panel-probes-preparation/oracle.json": {
+      "sha256": "4d16120ec71791abc4c526e45fd1435cb9aa12f5130d0244cf72862d2133dd04",
+      "bytes": 85016
+    },
+    "docs/evidence/panels-20261115/archive/panel-refraction-zero-build-input.json": {
+      "sha256": "8f87ba42da4252a01610d48d9045162cce060d8ce7366e474e84f941fc83e31e",
+      "bytes": 2388
+    },
+    "docs/evidence/panels-20261115/archive/panel-refraction-zero-build-result.json": {
+      "sha256": "d51114dd379bd79b0c481a142c06a60f20c36a948cdc62e7c8ed129ea1cd6fb8",
+      "bytes": 3638
+    },
+    "docs/evidence/panels-20261115/archive/panel-refraction-zero-plan.json": {
+      "sha256": "e73681d3ccf25374c354e3a2c7ae43ea1dbd5ff03d6f6853321710ecf42194f2",
+      "bytes": 1153
+    },
+    "docs/evidence/panels-20261115/archive/panel-sheet-radius10-build-input.json": {
+      "sha256": "4f5871f2d282addeddd613500bb74f7d5419363c32c518ff5adc12f99c00516a",
+      "bytes": 4840
+    },
+    "docs/evidence/panels-20261115/archive/panel-sheet-radius10-build-result.json": {
+      "sha256": "50ecb5966250592be904bf2a1be5bb2415acc4214fa6b2c9034f37cce76fe930",
+      "bytes": 8716
+    },
+    "docs/evidence/panels-20261115/archive/panel-sheet-radius10-plan.json": {
+      "sha256": "3653d172c31a9d72a708dd30829290e105c443a751bd36cfd32c5e9892dcd107",
+      "bytes": 1323
+    },
+    "docs/evidence/panels-20261115/archive/panel-sheet-radius12-control-build-input.json": {
+      "sha256": "e39f1365e1e2ab0947c8b69dbe132dbcbdbce55f9848e5154c5b547116e5d847",
+      "bytes": 4533
+    },
+    "docs/evidence/panels-20261115/archive/panel-sheet-radius12-control-build-result.json": {
+      "sha256": "01996071fceaceab606d577b8be46b9ece508d158a5c4f3412457444f66f3d19",
+      "bytes": 8409
+    },
+    "docs/evidence/panels-20261115/archive/panel-sheet-radius12-control-plan.json": {
+      "sha256": "0d269b2243948acbb8626af7b86d1012e7af8da53a989358d6c270b9f323dabf",
+      "bytes": 887
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-body8-20261115/capture-plan.json": {
+      "sha256": "c3476253980a0e981e68a95e422304a7e285be45dde031f9176e3383ca325687",
+      "bytes": 5220
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-body8-20261115/capture-result.json": {
+      "sha256": "e4996e15b1a83bf87d3e1bdbcd123ca304917fb2227b803291c28b61cec5f82c",
+      "bytes": 179
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-body8-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-body8-20261115/display-restored.json": {
+      "sha256": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+      "bytes": 152
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-body8-20261115/matrix.json.gz": {
+      "sha256": "4107cb1b4c2331e63cc7b6dae28e9b933c5ceef21a8d48c5ff4da4701197f160",
+      "bytes": 38357
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-20261115/capture-plan.json": {
+      "sha256": "91c732a154584125fb6152e069d34ca7539610eef556a0983bdd6376332312ed",
+      "bytes": 6075
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-20261115/capture-result.json": {
+      "sha256": "655ff7d05228bce939676727398f871449d979f3566c7f0081556b4849506867",
+      "bytes": 179
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-20261115/display-restored.json": {
+      "sha256": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+      "bytes": 152
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-20261115/matrix.json.gz": {
+      "sha256": "09494a2125a224f8212648d096ce7af77d09ea1d6a5a27ebc6ab6477dd73f83e",
+      "bytes": 38373
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-history-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-history-20261115/display-restored.json": {
+      "sha256": "24b68e607705030754d2b6fef847c45bb3622f9e37dc52f015c8a57b4203200a",
+      "bytes": 564
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-history-20261115/matrix.json.gz": {
+      "sha256": "bdf2de587a7fe47dc38c232a122edcb154f5623bc554319df0c5cb04a789484e",
+      "bytes": 55335
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-history-20261115/plan.json": {
+      "sha256": "03d43d584c82cdfa8194090d576898073e26e4a57082555139c425f344658d0c",
+      "bytes": 14358
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-history-20261115/synthetic_landscape-light-background-display-readiness.json": {
+      "sha256": "8544ec02469ce96d10c611657a13a318dd5aeb96e653b2c52a53903fe2659ed4",
+      "bytes": 6186
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-history-r2-20261115/capture-result.json": {
+      "sha256": "2e6f5360dd7b1882e570abaa95ddbda7e1e0853cb3b8718941e2de518c59988d",
+      "bytes": 197
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-history-r2-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-history-r2-20261115/display-restored.json": {
+      "sha256": "24b68e607705030754d2b6fef847c45bb3622f9e37dc52f015c8a57b4203200a",
+      "bytes": 564
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-history-r2-20261115/matrix.json.gz": {
+      "sha256": "1c9bfddec5921ef4aa27695c1f3c752ca54e865331cc7a45fc50f07b55bb5a24",
+      "bytes": 137761
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-budget-history-r2-20261115/plan.json": {
+      "sha256": "c9d9bc79392baeb17ba5b8ca08ee182dcd6f46f623020e803386d438601662a1",
+      "bytes": 14361
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-20261115/capture-plan.json": {
+      "sha256": "73242be0fb2976ffc59a4c1216690476cb6c938b202fe3c4f54b09f48e59444f",
+      "bytes": 6075
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-20261115/capture-result.json": {
+      "sha256": "ddaf3136b7158e28dacd6077fb587bc9286198d3663b376917d3f7c21a2507e2",
+      "bytes": 179
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-20261115/display-restored.json": {
+      "sha256": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+      "bytes": 152
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-20261115/matrix.json.gz": {
+      "sha256": "32df85db20d87b43d1f8c18ec83070db8e376489dbe59a7cd693706f9ab73381",
+      "bytes": 38356
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-history-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-history-20261115/display-restored.json": {
+      "sha256": "24b68e607705030754d2b6fef847c45bb3622f9e37dc52f015c8a57b4203200a",
+      "bytes": 564
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-history-20261115/matrix.json.gz": {
+      "sha256": "3cd0d2bb33c3b44c8f4ce5be4730ee9011556f55e140f093995c9aa2f10eba21",
+      "bytes": 55318
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-history-20261115/plan.json": {
+      "sha256": "9914456480d868394e4590d17d863512949224ad588b38d34a562a4f99c3ac3b",
+      "bytes": 14358
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-history-20261115/synthetic_landscape-light-background-display-readiness.json": {
+      "sha256": "5a2376ae08bde97985e7e7c7217cf87ff2c922851854be4bd25bedad9ca9294f",
+      "bytes": 6791
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-history-r2-20261115/capture-result.json": {
+      "sha256": "37acfbeae295d4109532fa37eb201bcf3330c272ad42e00614ad4c4a71cd6e12",
+      "bytes": 197
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-history-r2-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-history-r2-20261115/display-restored.json": {
+      "sha256": "24b68e607705030754d2b6fef847c45bb3622f9e37dc52f015c8a57b4203200a",
+      "bytes": 564
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-history-r2-20261115/matrix.json.gz": {
+      "sha256": "83dcad479e1a7b61ef77e2146c4644f333d24929ad646e5190f880fc3ad25bc4",
+      "bytes": 137757
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-floor-screen-history-r2-20261115/plan.json": {
+      "sha256": "5de9316d33ab5eb82d4273f1f56c2574072a84dbef08e2319abcaf9a54fc42a4",
+      "bytes": 14361
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-frost8-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-frost8-20261115-r2/capture-result.json": {
+      "sha256": "0162d77b46a724a2263b5334d602f98e371b2d30194d5b8f6fd7b97715bffe3a",
+      "bytes": 197
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-frost8-20261115-r2/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-frost8-20261115-r2/display-restored.json": {
+      "sha256": "24b68e607705030754d2b6fef847c45bb3622f9e37dc52f015c8a57b4203200a",
+      "bytes": 564
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-frost8-20261115-r2/matrix.json.gz": {
+      "sha256": "ee4cf9dd8e538540a085a5428899859b06b315310e862e8a8fc9b7d45acafae2",
+      "bytes": 137872
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-frost8-20261115-r2/plan.json": {
+      "sha256": "ad9eec5d6814dd16208779fe3b9741784b160479fd38082bf37d1edeaa2256a3",
+      "bytes": 12888
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-outline-zero-20261115/capture-plan.json": {
+      "sha256": "e8d80548a5aabdf26d734ff1bc63761f3ca2238b9da3293e2f4e0c03fe60a2f9",
+      "bytes": 5234
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-outline-zero-20261115/capture-result.json": {
+      "sha256": "23fcf03f282e0223cf4a1e16a5a234c093144c36436805c4d0b8175db7d76882",
+      "bytes": 179
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-outline-zero-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-outline-zero-20261115/display-restored.json": {
+      "sha256": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+      "bytes": 152
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-outline-zero-20261115/matrix.json.gz": {
+      "sha256": "3b101b6b708d890ab940c773eb8e6738024aa2a6afcaf76a3383210ef8a1fe1f",
+      "bytes": 38353
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-profile-half-20261115/capture-result.json": {
+      "sha256": "99dff1d8b268686a4f5dc70083cf2272425e57331d61ba0e4977fc20969d8d82",
+      "bytes": 197
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-profile-half-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-profile-half-20261115/display-restored.json": {
+      "sha256": "24b68e607705030754d2b6fef847c45bb3622f9e37dc52f015c8a57b4203200a",
+      "bytes": 564
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-profile-half-20261115/matrix.json.gz": {
+      "sha256": "7e1fe7888cac5ea4498d9a15c762fa36641e9c30fee4f57ae8d1bd7b352db0b3",
+      "bytes": 137809
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-profile-half-20261115/plan.json": {
+      "sha256": "0f360ae8ef06cf01e8ab59559914a5c91ec9a2bdbb1023da792b12a86bdb1bcc",
+      "bytes": 12892
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-rim-bounded-20261115/capture-plan.json": {
+      "sha256": "7a29c7e6fdaa070be50c07062e15dd2cf9188a95384e29679e9ecbce824d05c0",
+      "bytes": 5766
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-rim-bounded-20261115/capture-result.json": {
+      "sha256": "2ce1f3007bddf7d357eefd4d6c855d94c7ed4a41c69cfbcd44138e4f4d748854",
+      "bytes": 179
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-rim-bounded-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-rim-bounded-20261115/display-restored.json": {
+      "sha256": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+      "bytes": 152
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-rim-bounded-20261115/matrix.json.gz": {
+      "sha256": "002988fa079576c7b490e553dde1e73dc415e730f2f6bfab519303b194ec7aed",
+      "bytes": 38369
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-rim-bounded-history-20261115/capture-result.json": {
+      "sha256": "16b0ff5b8b644bb6a7d570dc706678e84dd8c54761d05617a6540d1dcec36bc5",
+      "bytes": 197
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-rim-bounded-history-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-rim-bounded-history-20261115/display-restored.json": {
+      "sha256": "24b68e607705030754d2b6fef847c45bb3622f9e37dc52f015c8a57b4203200a",
+      "bytes": 564
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-rim-bounded-history-20261115/matrix.json.gz": {
+      "sha256": "5c374b910b472c14f32c7c0a91a7cab3236d19eed8ed93cf014ebfb1d7b6b4e3",
+      "bytes": 137814
+    },
+    "docs/evidence/panels-20261115/archive/panels-alert-rim-bounded-history-20261115/plan.json": {
+      "sha256": "d7e58830bbcaf0756907c2d449c9e2c8cf2409cdd9973b2f7f7e6f15ea5efe5d",
+      "bytes": 13911
+    },
+    "docs/evidence/panels-20261115/archive/panels-clear-edge-sigma-20261115/capture-plan.json": {
+      "sha256": "d7942d21029c8e531eee27e87147759f202725b774a03e7519d7d7305d723cb7",
+      "bytes": 5233
+    },
+    "docs/evidence/panels-20261115/archive/panels-clear-edge-sigma-20261115/capture-result.json": {
+      "sha256": "07f6c5231b3b6bd843d2759e5318909e7b850c4db715594cc33c41dafdd96c2c",
+      "bytes": 179
+    },
+    "docs/evidence/panels-20261115/archive/panels-clear-edge-sigma-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-clear-edge-sigma-20261115/display-restored.json": {
+      "sha256": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+      "bytes": 152
+    },
+    "docs/evidence/panels-20261115/archive/panels-clear-edge-sigma-20261115/matrix.json.gz": {
+      "sha256": "392150f5ce3f6c0fac2add892bc6ac41769ef679f85315fd53a451cef23ca523",
+      "bytes": 38355
+    },
+    "docs/evidence/panels-20261115/archive/panels-current-baseline-20261115/capture-validation.json": {
+      "sha256": "dc933103621d76a1e69e61b0640a280811b9ef416cd1c5b205b3f06e70fd4b48",
+      "bytes": 461
+    },
+    "docs/evidence/panels-20261115/archive/panels-current-baseline-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-current-baseline-20261115/display-restored.json": {
+      "sha256": "24b68e607705030754d2b6fef847c45bb3622f9e37dc52f015c8a57b4203200a",
+      "bytes": 564
+    },
+    "docs/evidence/panels-20261115/archive/panels-current-baseline-20261115/matrix.json.gz": {
+      "sha256": "b562d8705c137e3dfe6880698ed3479026c29826ddf7359573721cc735e9db9e",
+      "bytes": 137833
+    },
+    "docs/evidence/panels-20261115/archive/panels-current-baseline-20261115/plan.json": {
+      "sha256": "61be62b6ece83f9487bfacd330f7181caa594d051d7e57aa468f7e6331dfba86",
+      "bytes": 12971
+    },
+    "docs/evidence/panels-20261115/archive/panels-dark-scrim-20261115/capture-result.json": {
+      "sha256": "835dc69190cd7865638f8a3beae69aa94aeac73993c0dee488721bd26b3e19bb",
+      "bytes": 197
+    },
+    "docs/evidence/panels-20261115/archive/panels-dark-scrim-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-dark-scrim-20261115/display-restored.json": {
+      "sha256": "24b68e607705030754d2b6fef847c45bb3622f9e37dc52f015c8a57b4203200a",
+      "bytes": 564
+    },
+    "docs/evidence/panels-20261115/archive/panels-dark-scrim-20261115/matrix.json.gz": {
+      "sha256": "32160ae52a0be1e3bc3984cc4632de1a4650ecac3fb78ed645ca4a7c8a5f4410",
+      "bytes": 137813
+    },
+    "docs/evidence/panels-20261115/archive/panels-dark-scrim-20261115/plan.json": {
+      "sha256": "a44689284f7ab27debf9ec4f88de51ff8fe5b4f0abb6e11a0e95b516c6d45e1a",
+      "bytes": 12882
+    },
+    "docs/evidence/panels-20261115/archive/panels-input-geometry-20261115/capture-plan.json": {
+      "sha256": "ef48f2208a42a30065c7265ffa057825c689df4f4fed56618c9ef1737a62ba10",
+      "bytes": 5760
+    },
+    "docs/evidence/panels-20261115/archive/panels-input-geometry-20261115/capture-result.json": {
+      "sha256": "bdde3930fa6f5912191e38e8eaf6f8414f8b00f11751e2d1b34b30230fa855dd",
+      "bytes": 179
+    },
+    "docs/evidence/panels-20261115/archive/panels-input-geometry-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-input-geometry-20261115/display-restored.json": {
+      "sha256": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+      "bytes": 152
+    },
+    "docs/evidence/panels-20261115/archive/panels-input-geometry-20261115/matrix.json.gz": {
+      "sha256": "834456ad7ad418f7d6bd12fe10b142316d9b36a3de43648f1c0ca63389bbaefb",
+      "bytes": 38374
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-baseline-20261115/capture-plan.json": {
+      "sha256": "aeb652c9898dd586eb91cf12023617c3cd3388eb549adbbd63af61c8ca302dbf",
+      "bytes": 5035
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-baseline-20261115/capture-result.json": {
+      "sha256": "253029df7516069824f856e30b1a8eb08602a3744ec3b53c7d73bbb738542b9a",
+      "bytes": 179
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-baseline-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-baseline-20261115/display-restored.json": {
+      "sha256": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+      "bytes": 152
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-baseline-20261115/matrix.json.gz": {
+      "sha256": "c336b0ab5d8282d29bedcac5a2fe961c4f78600c5c3919e7a7af2b8d1efecfcc",
+      "bytes": 38351
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-clear-edge-20261115/capture-plan.json": {
+      "sha256": "83acf1c560a1ba51239854e2881ae48dbeb9e1bf409c633d5a7becf4499a2447",
+      "bytes": 5230
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-clear-edge-20261115/capture-result.json": {
+      "sha256": "5bd3bd7e5e72d7674ddf48f2e50e2b56cc08a7d661cf527809bb285cb119fe7f",
+      "bytes": 179
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-clear-edge-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-clear-edge-20261115/display-restored.json": {
+      "sha256": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+      "bytes": 152
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-clear-edge-20261115/matrix.json.gz": {
+      "sha256": "0f3d36db194e7a0c030679a940eecf50b55fef8633b5c0973c2d308ef15ef5c8",
+      "bytes": 38427
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-refraction-zero-20261115/capture-plan.json": {
+      "sha256": "7172a966d135d90c84a8455b267d8e0ce7cd6540a98e6af5eb3533d64dee12ae",
+      "bytes": 5043
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-refraction-zero-20261115/capture-result.json": {
+      "sha256": "2a0fc28b5839cbd1244c4e147ef911af5d3fa0b170ffb9fae626135bf57e33fd",
+      "bytes": 179
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-refraction-zero-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-refraction-zero-20261115/display-restored.json": {
+      "sha256": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+      "bytes": 152
+    },
+    "docs/evidence/panels-20261115/archive/panels-nonperiodic-refraction-zero-20261115/matrix.json.gz": {
+      "sha256": "67451cc734ad9f7bd8b135d8c693c1faa318a1b3a8ff8b43f269995491e9d991",
+      "bytes": 38368
+    },
+    "docs/evidence/panels-20261115/archive/panels-sheet-radius10-20261115/capture-plan.json": {
+      "sha256": "3b3ea58cc44cbe1848dc059957460b8e0b87ab49d8e545e23b1c194eb71d985e",
+      "bytes": 6067
+    },
+    "docs/evidence/panels-20261115/archive/panels-sheet-radius10-20261115/capture-result.json": {
+      "sha256": "f751d99789e3b942b6d1a9a927793e88e85dc07bf7b4aaf9c47e7cdb690b43cd",
+      "bytes": 179
+    },
+    "docs/evidence/panels-20261115/archive/panels-sheet-radius10-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-sheet-radius10-20261115/display-restored.json": {
+      "sha256": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+      "bytes": 152
+    },
+    "docs/evidence/panels-20261115/archive/panels-sheet-radius10-20261115/matrix.json.gz": {
+      "sha256": "6da4761988eb50e79beaec0394d708647df435fc108c7c49981688a6f32f6650",
+      "bytes": 38369
+    },
+    "docs/evidence/panels-20261115/archive/panels-sheet-radius12-control-20261115/capture-plan.json": {
+      "sha256": "9840c6abae1b907a2e56a7362e4a53a996d5c62361eb2d850b90c63b799c4335",
+      "bytes": 5776
+    },
+    "docs/evidence/panels-20261115/archive/panels-sheet-radius12-control-20261115/capture-result.json": {
+      "sha256": "b03c8d3814dbe7eb4e915ecbcfdce110fb64fa97019843e37a04c48620aea8c6",
+      "bytes": 179
+    },
+    "docs/evidence/panels-20261115/archive/panels-sheet-radius12-control-20261115/display-before.json": {
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    "docs/evidence/panels-20261115/archive/panels-sheet-radius12-control-20261115/display-restored.json": {
+      "sha256": "f7ea1af068d4decfdd127f8c52a45aae6b09c32ccebbd8da2000969eb3985625",
+      "bytes": 152
+    },
+    "docs/evidence/panels-20261115/archive/panels-sheet-radius12-control-20261115/matrix.json.gz": {
+      "sha256": "b8b2e34457d60c44c349b04767e3702fc16986e21f594e87df9ba9a25cbd6ae6",
+      "bytes": 38384
+    },
+    "docs/evidence/panels-20261115/archive/pr-427-before-20261115.md": {
+      "sha256": "b3714511b573db6fbd4235582bdb708f76466d6aedfb2cf922d4a923f6a90552",
+      "bytes": 5862
+    },
+    "docs/evidence/panels-20261115/archive/pr-427-updated.md": {
+      "sha256": "84e58f6ed4d699be660e1816bdf84d6bca95fb63ee9f129107805dc59168c509",
+      "bytes": 8238
+    },
+    "docs/evidence/panels-20261115/archive/public-runtime-sync.json": {
+      "sha256": "16629b63ed4bc96d2944e510c6473d963f8a7c10da19fa6f21592c64bca67e24",
+      "bytes": 309
+    },
+    "docs/evidence/panels-20261115/archive/publication-validation-input.json": {
+      "sha256": "29e63ef238a271a2936f67abc2d0dfc02e42b7bfa374a5aff20be44ff584c0a2",
+      "bytes": 7065
+    },
+    "docs/evidence/panels-20261115/archive/publication-validation-result.json.gz": {
+      "sha256": "ff12fe2e055617016f9baf88c551a3b5fca77ee7b8612e8de98bc3dcfa38cac4",
+      "bytes": 46324
+    },
+    "docs/evidence/panels-20261115/archive/radial-vs-nearest/bevel40-field.csv.gz": {
+      "sha256": "a55bbdad2c99efa0e637c91241158dbb0867fdeac10e9867611382bf012f31bc",
+      "bytes": 141446
+    },
+    "docs/evidence/panels-20261115/archive/radial-vs-nearest/bevel40-summary.json": {
+      "sha256": "352d62853aac2500567d59c888aee9c9e6b2c2560f526cdbc32d35c35580072c",
+      "bytes": 4612
+    },
+    "docs/evidence/panels-20261115/archive/radial-vs-nearest/bevel40.py": {
+      "sha256": "1c9a60b84d561203b7b6f3a3b830217d4416b8bc8f2a2d190489fc7eedc838f3",
+      "bytes": 3313
+    },
+    "docs/evidence/panels-20261115/archive/radial-vs-nearest/geometry.py": {
+      "sha256": "81f191ca6e3ea2f154769d8cc1f3243fa661605efe5fbf9a1d558c58456484b3",
+      "bytes": 9420
+    },
+    "docs/evidence/panels-20261115/archive/radial-vs-nearest/point-shift-field.csv.gz": {
+      "sha256": "d2734fab5eacbef3255de97003f4384ce50df73639fe5e366911960fa827c27b",
+      "bytes": 414497
+    },
+    "docs/evidence/panels-20261115/archive/radial-vs-nearest/summary.json": {
+      "sha256": "1fc3ac2f6cac4ad03a13acfedc91326e4ac91e5742af7ae90ac371b2de754343",
+      "bytes": 12144
+    },
+    "docs/evidence/panels-20261115/archive/radial-vs-nearest/two-points.json": {
+      "sha256": "a79102099fc37274179f43f437bd1f4e857c1fe604ec55b4e5a4106e22e7bc80",
+      "bytes": 2111
+    },
+    "docs/evidence/panels-20261115/archive/stripe-phase-diagnostic.json": {
+      "sha256": "3ad26289a61aa718abde78d4098d9883aeb5adc1b5fef285d261afb366f5d89b",
+      "bytes": 14914
+    },
+    "docs/evidence/panels-20261115/archive/stripe-phase-diagnostic.py": {
+      "sha256": "0a2235b47a0ec7879d0ac16e781cdde07a915bd492e46bb02b31437a65a69fbc",
+      "bytes": 1374
+    },
+    "docs/evidence/panels-20261115/redraw-products.json": {
+      "sha256": "847aa6c6b526595fba2b04a0a139ada428544477405b9f050f51128da7c4667d",
+      "bytes": 1312
+    },
+    "docs/evidence/panels-20261115/redraw_figures.py": {
+      "sha256": "701c86b024da12128e5528578dc2707fad823cd1c4a0c9632f67adb906e19f3c",
+      "bytes": 6983
+    },
+    "docs/evidence/panels-20261115/restore_archive.py": {
+      "sha256": "5ed66c32bd4b0c666b8588a827b139cfddc071e48060c1162a49165bbd8f44c0",
+      "bytes": 1251
+    },
+    "docs/evidence/panels-20261115/sources.json": {
+      "sha256": "d04c5fcc2d5700a39c44b4414b7d8a2e9dcb256e23afe381d0fe09a477424b94",
+      "bytes": 361643
+    },
+    "docs/evidence/panels-20261115/verify_publication.py": {
+      "sha256": "caddfb8356083f78190de3ca169f9ccef81571c1b4ebd73373f693a155bcbcc1",
+      "bytes": 1312
+    },
+    "docs/images/panels-20261115/additive-primary124-clipping.png": {
+      "sha256": "c198395c23edca21d803c175fd67f572b1cf6fce334387755ab0cc007e253f38",
+      "bytes": 144102
+    },
+    "docs/images/panels-20261115/body8-S02-local-contours.png": {
+      "sha256": "19bea1ed01ac0abe6e0b1df3623afe619e94ca1240fb4ca17379b5fafd01d3ed",
+      "bytes": 126250
+    },
+    "docs/images/panels-20261115/budget-five-way-fixed-comparison.png": {
+      "sha256": "b076397144d799ba9d28eeffcbdb0e50778b032bb75504ba0458f6cedfdd6471",
+      "bytes": 153470
+    },
+    "docs/images/panels-20261115/budget-neutral-curves.png": {
+      "sha256": "9e7cbfdeed09678956ab3bc47ee558d4d7bfab294ce68c12096132d16d536e57",
+      "bytes": 96403
+    },
+    "docs/images/panels-20261115/history-dark-alert-comparison.png": {
+      "sha256": "5be16c9d36fd7af2e27544d78a258ed1200af1816701b13a41ec3c31cee6fb77",
+      "bytes": 317320
+    },
+    "docs/images/panels-20261115/history-dark-all-straight-curves.png": {
+      "sha256": "cb2d932e48b3c4a9912799408386f46840fa950e7453a7f6400514d17e4602a9",
+      "bytes": 319749
+    },
+    "docs/images/panels-20261115/history-light-alert-comparison.png": {
+      "sha256": "a648bb557048ff8ce7dafa82caa6e6ea5529859fe5d4475d01e9bbc183e42192",
+      "bytes": 466973
+    },
+    "docs/images/panels-20261115/history-light-all-straight-curves.png": {
+      "sha256": "7ecc0b6877016530a418ca809346ac7d4699ce1f551559a06f6e5e99b2240c12",
+      "bytes": 303504
+    },
+    "docs/images/panels-20261115/mapping-theory.svg": {
+      "sha256": "721841af2c9f6bc7b97a2266aa15f3ae1ac850ff457753d6f7fa71c89f7cb059",
+      "bytes": 36980
+    },
+    "docs/images/panels-20261115/native-S02-local-contours.png": {
+      "sha256": "7e9494941939ed216eafcf3ba309bddec91dd39636f6702353dbd059a8f7f595",
+      "bytes": 122241
+    },
+    "docs/images/panels-20261115/native-coordinate-local-contours.png": {
+      "sha256": "98d066143160c24ceb0c317b0149471a4763151c2025da0022f27d92df77db36",
+      "bytes": 120863
+    },
+    "docs/images/panels-20261115/original-crops/additive-color_stripes-dark-alert.png": {
+      "sha256": "630c6e656ca3fecc381abe5995df9c1f8703a7f20f009570399a7b40994dabeb",
+      "bytes": 58149
+    },
+    "docs/images/panels-20261115/original-crops/additive-color_stripes-light-alert.png": {
+      "sha256": "8eb5bb863dc76d67cdd80c64fa6ac72722d343e83ba09d1bf195ac6a6f5265ec",
+      "bytes": 59602
+    },
+    "docs/images/panels-20261115/original-crops/additive-fine_grid-dark-alert.png": {
+      "sha256": "fcf957d1f6dd51cd0a29e601417c00ac674e276214c446ed9dd4213906c3d854",
+      "bytes": 28735
+    },
+    "docs/images/panels-20261115/original-crops/additive-fine_grid-light-alert.png": {
+      "sha256": "7447881f637eb8e55e371b92c3fe8531bdf4b10d715af8958a9ba00befab6998",
+      "bytes": 48912
+    },
+    "docs/images/panels-20261115/original-crops/additive-panel_probe_coordinate-alert.png": {
+      "sha256": "3790c363b3f662ee5787a9d371eb2f37a3dfb414d73ae1804a713ac46232db94",
+      "bytes": 102677
+    },
+    "docs/images/panels-20261115/original-crops/additive-panel_probe_shapes-alert.png": {
+      "sha256": "307b4380f1c29ddffb33439d52a362853f07d3be31abbe49b8105762cffb7a52",
+      "bytes": 66306
+    },
+    "docs/images/panels-20261115/original-crops/additive-synthetic_landscape-dark-alert.png": {
+      "sha256": "fd639703cc28f187ecb27265365a1988335cadc88a13109ec9f78568cf803381",
+      "bytes": 56075
+    },
+    "docs/images/panels-20261115/original-crops/additive-synthetic_landscape-light-alert.png": {
+      "sha256": "02b11b80b0044961fe6cb92ff4dd9b455f3167c903454b8ecc9963219bb5b5f2",
+      "bytes": 67860
+    },
+    "docs/images/panels-20261115/original-crops/additive-tonal_blocks-dark-alert.png": {
+      "sha256": "24b75fa22141e0542b5146563d273bb131e4687727209e6bfed4579baa8e12d5",
+      "bytes": 47565
+    },
+    "docs/images/panels-20261115/original-crops/additive-tonal_blocks-light-alert.png": {
+      "sha256": "13a557e8d4a7893a4267b1fe8b0e72d11206dfafaaeb9e122599b1d20ccafb55",
+      "bytes": 41925
+    },
+    "docs/images/panels-20261115/original-crops/body8-panel_probe_coordinate-alert.png": {
+      "sha256": "b34d34e41f6d1a6b6a98245bad95f167dd81da39a6905879169d8b8cfe2f5049",
+      "bytes": 101894
+    },
+    "docs/images/panels-20261115/original-crops/body8-panel_probe_shapes-alert.png": {
+      "sha256": "4e73377e032686d004b9e164ee8b29fc55292c856fb714a0c5f01716b258d1db",
+      "bytes": 65772
+    },
+    "docs/images/panels-20261115/original-crops/budget-color_stripes-dark-alert.png": {
+      "sha256": "630c6e656ca3fecc381abe5995df9c1f8703a7f20f009570399a7b40994dabeb",
+      "bytes": 58149
+    },
+    "docs/images/panels-20261115/original-crops/budget-color_stripes-light-alert.png": {
+      "sha256": "70178fc667ca5852b87066e37b8f4c0850b6c3026599ad288643441d1a2c81d2",
+      "bytes": 59771
+    },
+    "docs/images/panels-20261115/original-crops/budget-fine_grid-dark-alert.png": {
+      "sha256": "fcf957d1f6dd51cd0a29e601417c00ac674e276214c446ed9dd4213906c3d854",
+      "bytes": 28735
+    },
+    "docs/images/panels-20261115/original-crops/budget-fine_grid-light-alert.png": {
+      "sha256": "962a9e4a9cc63a5db845791121e497f730511e1b654dfa6b8f2a4e5c936eeb13",
+      "bytes": 49004
+    },
+    "docs/images/panels-20261115/original-crops/budget-panel_probe_coordinate-alert.png": {
+      "sha256": "7e521f35e7eeab3715baa140cf86fbdcdb8cad2f044c25398959089e8e88ed18",
+      "bytes": 102505
+    },
+    "docs/images/panels-20261115/original-crops/budget-panel_probe_coordinate-sheet.png": {
+      "sha256": "bd5f5defaaf5a7c77e1b15b3345731c07bccd6cad00bcad34ec361d12793ef4e",
+      "bytes": 207635
+    },
+    "docs/images/panels-20261115/original-crops/budget-panel_probe_shapes-alert.png": {
+      "sha256": "5c2a9fe7feb9d10d49f09ed3b54944fce480bfa57e924dcb7c81ba524f0784fb",
+      "bytes": 66241
+    },
+    "docs/images/panels-20261115/original-crops/budget-panel_probe_shapes-sheet.png": {
+      "sha256": "462afbb80474d7dcf78d1259dd2cf0dcd5a3167890b7bfe63b512f6e839cc3b6",
+      "bytes": 104277
+    },
+    "docs/images/panels-20261115/original-crops/budget-synthetic_landscape-dark-alert.png": {
+      "sha256": "fd639703cc28f187ecb27265365a1988335cadc88a13109ec9f78568cf803381",
+      "bytes": 56075
+    },
+    "docs/images/panels-20261115/original-crops/budget-synthetic_landscape-light-alert.png": {
+      "sha256": "4fbadb25e9ecd9f33d67686ca5c1812169c951159f372ee3a8b558d6e32a663f",
+      "bytes": 67727
+    },
+    "docs/images/panels-20261115/original-crops/budget-tonal_blocks-dark-alert.png": {
+      "sha256": "24b75fa22141e0542b5146563d273bb131e4687727209e6bfed4579baa8e12d5",
+      "bytes": 47565
+    },
+    "docs/images/panels-20261115/original-crops/budget-tonal_blocks-light-alert.png": {
+      "sha256": "142c348eb16c2a4d8deea4337b8e88c518d1293fe562f9b78688f2d432b17c91",
+      "bytes": 42196
+    },
+    "docs/images/panels-20261115/original-crops/native-color_stripes-dark-alert.png": {
+      "sha256": "44d36c8636c80b11eef32c05fb24d950d898eb2471d5d296a527ea4794ad396b",
+      "bytes": 89822
+    },
+    "docs/images/panels-20261115/original-crops/native-color_stripes-light-alert.png": {
+      "sha256": "37445d9d26a5bbe409740948f2f779c6496410a94f09589270f0baade49da5d3",
+      "bytes": 104149
+    },
+    "docs/images/panels-20261115/original-crops/native-fine_grid-dark-alert.png": {
+      "sha256": "c29911f172ef7cc65bf2e605336afd19c1d1c758d9e54ed26c76c082d3fda61e",
+      "bytes": 50241
+    },
+    "docs/images/panels-20261115/original-crops/native-fine_grid-light-alert.png": {
+      "sha256": "e46100ca6e47959ff1b047ae15051da2a699541b06b7902f1ce0444e8596e5c9",
+      "bytes": 56370
+    },
+    "docs/images/panels-20261115/original-crops/native-panel_probe_coordinate-alert.png": {
+      "sha256": "ae51b5eaa52047c67013f3a892f61bd8be6ab9fbef6926e6c5b7e2493cfd068e",
+      "bytes": 108348
+    },
+    "docs/images/panels-20261115/original-crops/native-panel_probe_coordinate-sheet.png": {
+      "sha256": "f6bffc468d1b24dd0dadeb007b3910549be889e84c4559bf9dae214d0062792d",
+      "bytes": 220285
+    },
+    "docs/images/panels-20261115/original-crops/native-panel_probe_shapes-alert.png": {
+      "sha256": "8d2b09c1eb828c92ca93a307db98283f4fa17bc25f6369ab59c660b4b5670050",
+      "bytes": 82458
+    },
+    "docs/images/panels-20261115/original-crops/native-panel_probe_shapes-sheet.png": {
+      "sha256": "45108342f14d4111a9e04cbef2a27068e391f8fcc355a8a967b95da1c21b0a30",
+      "bytes": 130006
+    },
+    "docs/images/panels-20261115/original-crops/native-synthetic_landscape-dark-alert.png": {
+      "sha256": "c6f133dc2cdc65c264142ca17c58a3ebd8ed6631317b3b28606ce9a4dec8ced2",
+      "bytes": 58251
+    },
+    "docs/images/panels-20261115/original-crops/native-synthetic_landscape-light-alert.png": {
+      "sha256": "da93570063be6d0b17869fffc85c774e7e83c9f11a0c31dd75ff6bb0b02620d6",
+      "bytes": 83011
+    },
+    "docs/images/panels-20261115/original-crops/native-tonal_blocks-dark-alert.png": {
+      "sha256": "9fc9ce520c956cac1a1c4224d55dd0725740c5daaec096978cabec5f05f6b4e6",
+      "bytes": 59421
+    },
+    "docs/images/panels-20261115/original-crops/native-tonal_blocks-light-alert.png": {
+      "sha256": "bae3fe70dd56cea52d2ade7dad9de2346d9e5fd8640851bf8fae745a806fc2d1",
+      "bytes": 72836
+    },
+    "docs/images/panels-20261115/original-crops/screen-color_stripes-dark-alert.png": {
+      "sha256": "630c6e656ca3fecc381abe5995df9c1f8703a7f20f009570399a7b40994dabeb",
+      "bytes": 58149
+    },
+    "docs/images/panels-20261115/original-crops/screen-color_stripes-light-alert.png": {
+      "sha256": "3702a6209b3f48bae182813a5dc4b27c07aa46128be08e379e6dee0ed8b3b653",
+      "bytes": 59615
+    },
+    "docs/images/panels-20261115/original-crops/screen-fine_grid-dark-alert.png": {
+      "sha256": "fcf957d1f6dd51cd0a29e601417c00ac674e276214c446ed9dd4213906c3d854",
+      "bytes": 28735
+    },
+    "docs/images/panels-20261115/original-crops/screen-fine_grid-light-alert.png": {
+      "sha256": "cb4982020e6a9de131de2a7aa167752a1b355544317a648c802889d96db9ca38",
+      "bytes": 48388
+    },
+    "docs/images/panels-20261115/original-crops/screen-panel_probe_coordinate-alert.png": {
+      "sha256": "6828e312d25310428901df3dc15239d3e9418d5f69d4a777f60808430531f86b",
+      "bytes": 102142
+    },
+    "docs/images/panels-20261115/original-crops/screen-panel_probe_shapes-alert.png": {
+      "sha256": "394b818e4018791957ff8e69e0ff0c0b00f516bed193f1475cdbb11c915fade9",
+      "bytes": 66044
+    },
+    "docs/images/panels-20261115/original-crops/screen-synthetic_landscape-dark-alert.png": {
+      "sha256": "fd639703cc28f187ecb27265365a1988335cadc88a13109ec9f78568cf803381",
+      "bytes": 56075
+    },
+    "docs/images/panels-20261115/original-crops/screen-synthetic_landscape-light-alert.png": {
+      "sha256": "7d0d38c35c77b89ad0f85c179a18b56e9723c35f2c1d52196bfc3cdcbe7f64a9",
+      "bytes": 67518
+    },
+    "docs/images/panels-20261115/original-crops/screen-tonal_blocks-dark-alert.png": {
+      "sha256": "24b75fa22141e0542b5146563d273bb131e4687727209e6bfed4579baa8e12d5",
+      "bytes": 47565
+    },
+    "docs/images/panels-20261115/original-crops/screen-tonal_blocks-light-alert.png": {
+      "sha256": "24dc891ce70d2a8f58fa76c6c7517ae915d4eb36c9e0394e74b9e678d82385ce",
+      "bytes": 41615
+    },
+    "docs/images/panels-20261115/original-crops/sheet10-panel_probe_coordinate-sheet.png": {
+      "sha256": "369bac118e9c61686c608b93dcdcb6e0a01df26017eb77bbafe5ac8e9b94e9bc",
+      "bytes": 207555
+    },
+    "docs/images/panels-20261115/original-crops/sheet10-panel_probe_shapes-sheet.png": {
+      "sha256": "7d7986074b6086b87f49336d2e60e6a36e4c0bb2744af9224f9749e7cf95b803",
+      "bytes": 104263
+    },
+    "docs/images/panels-20261115/original-crops/sheet12-panel_probe_coordinate-sheet.png": {
+      "sha256": "cfa296245cebf2d4cabea738586ae1adf9fba4e9c1caa4dbfaa1d350f29e0529",
+      "bytes": 213708
+    },
+    "docs/images/panels-20261115/original-crops/sheet12-panel_probe_shapes-sheet.png": {
+      "sha256": "c7108ecf4a628e7ecbd27da28c23a6021bcd7b1381b3d9d84a9259aae0eaa82d",
+      "bytes": 109936
+    },
+    "docs/images/panels-20261115/profile-half-blue-feature-bend.png": {
+      "sha256": "c464f611c6c13c1738812b5edf1be33f4792e2384f3c9b53aa57d9ae4b733155",
+      "bytes": 133568
+    },
+    "docs/images/panels-20261115/rimBlur8-blue-feature-bend.png": {
+      "sha256": "0ca2f48d883e384e51dd05911ef384f1c184cbc4e0f6f75e27a64de1540a1c10",
+      "bytes": 122550
+    },
+    "docs/images/panels-20261115/screen-four-way-fixed-comparison.png": {
+      "sha256": "32b7f7d55db9db476cff047c713365fcd52ecb07b01c924c343d6aeea2eb5507",
+      "bytes": 134884
+    },
+    "docs/images/panels-20261115/sheet10-S07-local-contours.png": {
+      "sha256": "c0de45d534fe1543b3aee763ed7f2b7c85818f492f652c9348f0afee6ac09d8e",
+      "bytes": 121529
+    },
+    "docs/images/panels-20261115/sheet12-10-comparison.png": {
+      "sha256": "150173782d79b265dc8dc2f6f0053303cc9365624c6b8aed994871656f0d3c0b",
+      "bytes": 567750
+    },
+    "docs/panel-material-study.md": {
+      "sha256": "1597d5b3983db753109958fd43800af9121a012606516c10b27816e296590ce2",
+      "bytes": 26255
+    }
+  },
+  "limits": "No device/build validation performed during publication; source optical conclusions and regressions unchanged."
+}

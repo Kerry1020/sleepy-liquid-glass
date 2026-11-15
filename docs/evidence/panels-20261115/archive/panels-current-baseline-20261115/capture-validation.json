@@ -1,0 +1,8 @@
+{
+  "status": "16_rest_captured_geometry_checked_not_parity_acceptance",
+  "captures": 16,
+  "note": "Original runner successfully captured but read nonexistent surface field during local validation. Original script/plan/log retained; separate validation uses actual carrier. No new capture or thresholds changed.",
+  "matrix_sha256": "1ee0db5a78c81e6b287906ddd830389903629c95dcc5538902813e70f6d62059",
+  "sources_unchanged": true,
+  "display_restored": true
+}

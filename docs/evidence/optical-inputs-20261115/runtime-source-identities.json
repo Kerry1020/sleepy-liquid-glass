@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-11-15",
+  "scope": "Current public source identity for the engineering equations; not a native appearance or build acceptance receipt.",
+  "sources": [
+    {
+      "path": "runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
+      "sha256": "2acfbc9c7c184334b7442cd17c8dcde7968ab5915d15943e92b0f9b553ef3c3b",
+      "bytes": 27480
+    },
+    {
+      "path": "runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
+      "sha256": "024acfba12aa7efd036f82a10b13ba9dc3292dbe7e80f53ef485453c08231914",
+      "bytes": 51069
+    }
+  ],
+  "defaults": {
+    "DockBrightRimResponse.cubicShoulderBlend": 0.0,
+    "DockBrightRimResponse.logitBlend": 0.0,
+    "DockBrightRimResponse.headroomBlend": 0.0,
+    "LiquidGlassStyle.dockBaseRimCubicShoulderBlend": 0.0,
+    "LiquidGlassStyle.dockToneResponse": null
+  },
+  "factory_enablement_observation": "No runtime factory assigns these new blends a nonzero literal at this snapshot; interpolation/scale forwarding is not enablement.",
+  "equations": {
+    "cubic_shoulder": "(1-t^3)^2 for 0<=t<1, otherwise0; rim amplitude, not refraction or physical thickness",
+    "positive_headroom": "c+(1-c)*(1-exp(-s/(1-c))) when s>0 and c<1; exact c>=1 stays1; s<=0 uses max(c+s,0)",
+    "logit": "stable logistic(logit(c)+s), exact body endpoints retained",
+    "small_x": "Fixed fourth-order expansion for1-exp(-x) below0.01; no float-implementation C1 claim"
+  },
+  "status": {
+    "historical_D46_5": "Static legacy diagnostic, not this current candidate acceptance",
+    "new_shoulder": "Opt-in mathematical function; no native acceptance inferred",
+    "positive_headroom": "Actual GPU mixed regressions and2false255; keep disabled by default",
+    "dynamics_v4": "Draft only; not frozen/generated/captured/validated"
+  }
+}

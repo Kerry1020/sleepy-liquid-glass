@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "purpose": "Capture2selected calibration inputs in actual production Alert/Sheet wrappers, same source PNG pixels, no candidate optics change",
+  "manifest": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/android-manifest.json",
+  "manifest_sha256": "ad1e98f20ffd973f8cb38ca69cdb8c300e06fb22a97128cb69472bc0a0b3c656",
+  "change": "Fixture external-input loader now accepts explicit calibration split alongside holdout. Does not relabel any heldout/noise. Production runtime unchanged relative to panel-dark-scrim build.",
+  "expected_count": 4,
+  "themes": [
+    "light"
+  ],
+  "carriers": [
+    "alert",
+    "share_sheet"
+  ],
+  "input_directory": "panel-calibration-20261115",
+  "analysis": "Fixed new-probe ROI plan; native foreground source mismatch must be diagnosed, not fit away.",
+  "build": "Minimal fixture rebuild and existing scrim regression; no full suite"
+}

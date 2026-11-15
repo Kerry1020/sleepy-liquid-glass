@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "scope": "Archived historical application summaries and secondary diagnostics only; no new device run, public-backend parity, or new bevel result.",
+  "reproduction_boundary": "Public verification recalculates secondary Menu statistics from the exported boundary rows and checks archived Sheet summary consistency. Sheet full profiles and edge pixels are not remeasured or refitted by render_figures.py.",
+  "sources": {
+    "sheet_profiles": {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/delta-from-geometry-2/delta.csv",
+      "sha256": "13f02ce2ba926e69e50293b9b02e8964d1be7d2fbd156e433507530bf5d17b8f",
+      "bytes": 3796,
+      "purpose": "Archived eight-rest horizontal body-profile errors; export only the after/rim4 mean and profile statistics. Profiles are not recomputed from raw pixels by the public figure renderer."
+    },
+    "sheet_rim3_edges": {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-3/edges/edge-summary.csv",
+      "sha256": "966d0401444316360fc4b827a2b9e239a486442b47a3cca87872fb0fc8a7f9a5",
+      "bytes": 1951,
+      "purpose": "Archived neutral/fine-grid edge RGB profile summary, rim3 baseline; inward 0..6 logical units, 8-bit channel values."
+    },
+    "sheet_rim4_edges": {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/edges/edge-summary.csv",
+      "sha256": "c4e1486ceb22c6d2de6c4b37c1c8074922bfb192513d81ba2478d559402fc12c",
+      "bytes": 1948,
+      "purpose": "Archived neutral/fine-grid edge RGB profile summary, rim4; retain light top degradation and dark residuals."
+    },
+    "menu_secondary_grid": {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/menu-alert-visible-corners-20261113/menu32-secondary-grid-threshold-intervals.csv",
+      "sha256": "c46bf59776ffff3fe64f54f04a298f00646ea83d865e2b249a851cc9f1c2ce4a",
+      "bytes": 29790,
+      "purpose": "Secondary fine-grid dark menu threshold diagnostics, not primary shape validation. Export fixed 2..24 depth rows with all threshold crossings present; retain grid/rim/shadow contamination."
+    },
+    "sheet_profile_method": {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/eight-rest/README.md",
+      "sha256": "bb0b54eedc21a7fc765201090486ec567645b0c37786523927e2feea624fbfbf",
+      "bytes": 5664,
+      "purpose": "Archived methodology: matched body input policy and distinction between mean RGB, complete horizontal profiles, and mismatched edge inputs."
+    },
+    "sheet_edge_method": {
+      "path_in_capture_archive": "outputs/glass-native-parity-20261112/native-static-optics/sheet-comparison-rim-4/README.md",
+      "sha256": "5cd79d676a99d7859cfcbf5bd4baf2e94f6294d462a6d454921ba68bd5321aac",
+      "bytes": 4404,
+      "purpose": "Archived edge method: 16 logical units tangential average, interpolated original pixel centers, inward 0..6 RGB-profile RMSE; rim3 to rim4 failure retained."
+    },
+    "menu_secondary_method": {
+      "path_in_capture_archive": "artifacts/glass-optics-20261112/menu-alert-visible-corners-20261113/GPU32-VALIDATION.md",
+      "sha256": "5185feda7a81e65cdfd4e271a97bfcd8577c205ed19e3247fb33b57c9b2956b5",
+      "bytes": 7179,
+      "purpose": "Archived primary/secondary distinction, frozen fine-grid dark color thresholds 110/130/150, and native grid/rim/shadow dip explaining the retained outlier."
+    }
+  },
+  "exports": {
+    "sheet_profiles": {
+      "path": "data/sheet-historical-profiles.csv",
+      "sha256": "de2fcc17bc94f499bba3da1bec2edcc3b0dae8997625c249bb57795218468e83",
+      "rows": 8
+    },
+    "sheet_edges": {
+      "path": "data/sheet-historical-edges.csv",
+      "sha256": "d35b48b8f9188e3f7946da5dd396f7306ce985009cc89df33184b102a4587c49",
+      "rows": 16
+    },
+    "menu_secondary": {
+      "path": "data/menu-secondary-grid.csv",
+      "sha256": "6420df49d3e160680219d5e8d22868cf4901cc59b1b64895a296bf77d8a67544",
+      "rows": 176
+    }
+  },
+  "sheet_profile_method": {
+    "stage": "rim4 eight-rest",
+    "metric": "RMSE across same-coordinate horizontal RGB profiles in the declared foreground-free body strips",
+    "units": "8-bit RGB code values (0..255)",
+    "input_policy": "Periodic phase matched; tonal body strip shifted by two whole 224-unit periods; synthetic landscape full-screen UV matched. These are body regions, not whole sheets.",
+    "roi_reference": "body_rect_px in sheet-body.csv; original method and source hash recorded above."
+  },
+  "sheet_edge_method": {
+    "background": "fine_grid / neutral fixture",
+    "metric": "Complete inward 0..6 logical-unit RGB profile RMSE",
+    "tangential_average_length_logical_units": 16,
+    "sampling": "Interpolate original pixel-center samples along the inward normal; preserve each actual pane position and size.",
+    "units": "8-bit RGB code values (0..255)",
+    "limitations": "Includes rasterization/refraction, native dimmed scene and possible native backing controls; not physical alpha or automatic optical parity."
+  },
+  "sheet_light_top_rim3_to_rim4": [
+    {
+      "stage": "rim3",
+      "rgb_profile_rmse_0_to_6_8bit": 3.1439516616135283
+    },
+    {
+      "stage": "rim4",
+      "rgb_profile_rmse_0_to_6_8bit": 3.9924013220834667
+    }
+  ],
+  "sheet_rim4_dark_edge_range_8bit": [
+    7.759025435537737,
+    10.280208201380619
+  ],
+  "menu_secondary_method": {
+    "scene": "fine_grid-dark-menu",
+    "fixed_depth_window_pt": [
+      2,
+      24
+    ],
+    "native_color_thresholds_maxRGB_less_than": [
+      110,
+      130,
+      150
+    ],
+    "reference_threshold_maxRGB_less_than": 130,
+    "android_window_coverage_thresholds": [
+      64,
+      128,
+      192
+    ],
+    "reference_coverage_threshold": 128,
+    "qualification": "All native and Window threshold crossings present; not the primary flat/matched-input selection.",
+    "limitations": "Color crossings are not alpha. Grid/rim/shadow dips contaminate this secondary scene; the outlier is retained and was not used to tune Menu32."
+  },
+  "menu_secondary_by_corner": [
+    {
+      "corner": "TL",
+      "rows": 44,
+      "reference_mae_dp": 1.5763468807415857,
+      "reference_max_abs_dp": 15.004200991455429,
+      "max_abs_depth_pt": 4.75,
+      "native_reference_inset_pt_at_max": 0.75,
+      "android_reference_inset_dp_at_max": 15.754200991455429
+    },
+    {
+      "corner": "TR",
+      "rows": 44,
+      "reference_mae_dp": 0.513321497069407,
+      "reference_max_abs_dp": 7.004200991455429,
+      "max_abs_depth_pt": 4.75,
+      "native_reference_inset_pt_at_max": 8.75,
+      "android_reference_inset_dp_at_max": 15.754200991455429
+    },
+    {
+      "corner": "BL",
+      "rows": 44,
+      "reference_mae_dp": 0.4745036475338727,
+      "reference_max_abs_dp": 5.995797664006801,
+      "max_abs_depth_pt": 12.75,
+      "native_reference_inset_pt_at_max": 0.75,
+      "android_reference_inset_dp_at_max": 6.745797664006801
+    },
+    {
+      "corner": "BR",
+      "rows": 44,
+      "reference_mae_dp": 0.9146300158565918,
+      "reference_max_abs_dp": 2.3298329552997323,
+      "max_abs_depth_pt": 2.25,
+      "native_reference_inset_pt_at_max": 23.75,
+      "android_reference_inset_dp_at_max": 21.420167044700268
+    }
+  ]
+}

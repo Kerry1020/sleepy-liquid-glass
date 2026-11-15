@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "/Users/kerrylee/Library/Android/sdk/platform-tools/adb",
+    "-s",
+    "d3efcd6a",
+    "install",
+    "-t",
+    "-r",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/debug/app-arm64-v8a-debug.apk"
+  ],
+  "exit_code": 0,
+  "output": "Performing Streamed Install\nSuccess\n",
+  "sha256": "bdf62e01bd8e5f7c11a10b810e5b134bef510a3105dbffd80165bbf788318979"
+}

@@ -1,0 +1,74 @@
+{
+  "status": "UNMEASURED PROPOSAL — NOT ELIGIBLE FOR CURRENT NATIVE FIXTURE",
+  "scope": "Four Alert-centered paired-slope wedge inputs only; no Sheet source included",
+  "parameters_frozen": {
+    "anchor_c_b_pt": [
+      187.5,
+      257.5
+    ],
+    "half_widths_a_pt": [
+      20,
+      24
+    ],
+    "m": 0.25,
+    "u_extent_pt": [
+      -64.0,
+      128.0
+    ],
+    "gray_pair": [
+      60,
+      190
+    ],
+    "output_inward_centers_pt": [
+      0.25,
+      19.75,
+      0.5
+    ]
+  },
+  "source_files_generated": true,
+  "capture_authorized_or_performed": false,
+  "capture_matrix": null,
+  "loader_manifest": null,
+  "why_blocked": [
+    "Center source-footprint overlaps native backing show-sheet glass button",
+    "Actual native central optical contour/tangent invariance not established",
+    "Before-context PNG for these four proposals has not been captured; existing contexts only demonstrate fixture interference"
+  ],
+  "preconditions_for_a_separate_future_plan": [
+    "Establish an interpretable unobstructed backing/source footprint without silently changing this proposal",
+    "Freeze any fixture/ROI revision before new outputs",
+    "Confirm actual contour and both source sides under the same original gates"
+  ],
+  "required_local_model": "S_t=x+U(d), S_n=g(d); g independent of tangent across both sides and both widths",
+  "conditional_observables": {
+    "g": "(R-L-2*a)/(2*m)",
+    "D": "g-d",
+    "U": "c-(R+L)/2",
+    "g_prime": "W_prime/(2*m)",
+    "g_second": "W_second/(2*m)"
+  },
+  "operator": "Centered secants h4pt only with both eligible endpoints; retain multiplicity/sign; no edge extrapolation",
+  "quantization_floor": {
+    "edge_pt": 0.25,
+    "g_pt": 1.0,
+    "g_prime_h4": 0.25,
+    "g_second_h4_per_pt": 0.25
+  },
+  "visibility_gates_UNCHANGED": {
+    "minimum_encoded_contrast": 8,
+    "minimum_contrast_over_robust_spread": 5,
+    "quantization_floor_counts": 1,
+    "minimum_source_color_direction_cosine": 0.7,
+    "minimum_clear_support_width_px": 12,
+    "maximum_secondary_to_primary_peak": 0.8,
+    "minimum_complete_feature_area_px": 64,
+    "minimum_contained_contrast_mass": 0.95,
+    "minimum_source_structure_tensor_eigenvalue_ratio_for_2d": 0.05,
+    "minimum_sampling_location_uncertainty_pt": 0.25,
+    "maximum_location_uncertainty_for_fine_scalar_comparison_pt": 1,
+    "parameter_acceptance_claim": false,
+    "on_failure": "not identifiable; retain all failed IDs/gates; no ROI movement, lowered gates or forced nearest match"
+  },
+  "required_falsification": "two widths and reversed contrast must agree within declared uncertainty before scalar inversion",
+  "on_failure": "Report unresolved; never move ROI, lower gates, fill missing edges or fit refraction/power"
+}

@@ -1,0 +1,696 @@
+{
+  "strict_controls_all_zero": true,
+  "raw_equals_icc": true,
+  "baseline": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115",
+  "candidate": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115",
+  "rows": [
+    {
+      "input": "fine_grid",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "expected_unchanged": false,
+      "comparison_scope": "combined radius12to10 response, not strict equality",
+      "actual_window": {
+        "changed_channels": 747020,
+        "max_abs": 3.0,
+        "mean_abs": 0.21093978010994502,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 728338,
+        "max_abs": 3.0,
+        "mean_abs": 0.22422613202400438,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 766923,
+        "max_abs": 244.0,
+        "mean_abs": 0.7791979010494753,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-light-share_sheet-rest-window.png",
+          "sha256": "832a10ebd3983dcf73976e3695e66142ece69fed1768149739109f907e3828cc"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/fine_grid-light-share_sheet-rest-window.png",
+          "sha256": "9f1a31a5586e9f57d720daf74d740356b3460f37931e3c11525d63b8716db149"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-light-share_sheet-rest-screen.png",
+          "sha256": "3ff7ef74fccec2a5a4f49b86db63bf3b7f9eeba0db59adf5159fcd57e94084ba"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/fine_grid-light-share_sheet-rest-screen.png",
+          "sha256": "2d89e5cc83660dc096de3b1e8a8506d3321d233c80b0174609445dd6f0679cd1"
+        }
+      }
+    },
+    {
+      "input": "fine_grid",
+      "theme": "light",
+      "carrier": "alert",
+      "expected_unchanged": false,
+      "comparison_scope": "combined original factory versus candidate, not incremental-screen isolation",
+      "actual_window": {
+        "changed_channels": 167452,
+        "max_abs": 127.0,
+        "mean_abs": 0.36443000580581264,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 166723,
+        "max_abs": 76.0,
+        "mean_abs": 0.07939852700490999,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 187801,
+        "max_abs": 244.0,
+        "mean_abs": 0.34891804097951024,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-light-alert-rest-window.png",
+          "sha256": "dd7fdc05b42c3551efbaa21ac89597204e69a88383b74e68b0d842788b3ab282"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/fine_grid-light-alert-rest-window.png",
+          "sha256": "f8083b5e09c318ba2c77ee91d72e9b48bd5a91d73ee4a99ac40c6ae071c69768"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-light-alert-rest-screen.png",
+          "sha256": "d100971c41a1871eb67b421b329c291825a700026c9e946e06409c0678993cea"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/fine_grid-light-alert-rest-screen.png",
+          "sha256": "c846ab2afd97c5a004b65482cb1bf8d58f322bfdd7911526eac653ec15d5767e"
+        }
+      }
+    },
+    {
+      "input": "color_stripes",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "expected_unchanged": false,
+      "comparison_scope": "combined radius12to10 response, not strict equality",
+      "actual_window": {
+        "changed_channels": 856035,
+        "max_abs": 6.0,
+        "mean_abs": 0.40494177911044477,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 837327,
+        "max_abs": 6.0,
+        "mean_abs": 0.43289552645935625,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 874727,
+        "max_abs": 255.0,
+        "mean_abs": 0.8553345827086457,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-light-share_sheet-rest-window.png",
+          "sha256": "9dab9b2457e821a435317684f7b24ceebc673f48d6e7c5e612d1345df9a84333"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/color_stripes-light-share_sheet-rest-window.png",
+          "sha256": "fb448a9da09efa041abbc561ff528b4ccdbf532d136e7902ed1f06133ec74756"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-light-share_sheet-rest-screen.png",
+          "sha256": "87bf03532cb98b9d2db1e87edd09857db4f49ad21a41059f2c653a1c19cdd787"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/color_stripes-light-share_sheet-rest-screen.png",
+          "sha256": "7e799a9990deef7243579d884a4779b144aa14ab748f9b22b0b288940e547e2b"
+        }
+      }
+    },
+    {
+      "input": "color_stripes",
+      "theme": "light",
+      "carrier": "alert",
+      "expected_unchanged": false,
+      "comparison_scope": "combined original factory versus candidate, not incremental-screen isolation",
+      "actual_window": {
+        "changed_channels": 525132,
+        "max_abs": 255.0,
+        "mean_abs": 2.7661580888630852,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 524300,
+        "max_abs": 80.0,
+        "mean_abs": 0.6942815057283143,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 546600,
+        "max_abs": 255.0,
+        "mean_abs": 1.12215992003998,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-light-alert-rest-window.png",
+          "sha256": "66c5f63517192f3372642f5ad2d6230129e9231c2eca687302d47b5b58333f5a"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/color_stripes-light-alert-rest-window.png",
+          "sha256": "95e6fc800fcbd221d38596746650995a288b7db3c671a3daf02cd2b812cac02f"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-light-alert-rest-screen.png",
+          "sha256": "55717d66ca0fa3be6890e9981a50657e36f9eecc4cf096faf00caf37edf34ec4"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/color_stripes-light-alert-rest-screen.png",
+          "sha256": "80a3c6b3d932521e319db8aa11d21366d78a48a786697cf903c70104e18b7199"
+        }
+      }
+    },
+    {
+      "input": "tonal_blocks",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "expected_unchanged": false,
+      "comparison_scope": "combined radius12to10 response, not strict equality",
+      "actual_window": {
+        "changed_channels": 654908,
+        "max_abs": 5.0,
+        "mean_abs": 0.3059597701149425,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 645737,
+        "max_abs": 5.0,
+        "mean_abs": 0.32960692853246043,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 676471,
+        "max_abs": 254.0,
+        "mean_abs": 0.6541101949025487,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-light-share_sheet-rest-window.png",
+          "sha256": "23d0673eb9ccd6b38b49e3f62290249ff90fb525fa989909e7fdf09f7977b74b"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/tonal_blocks-light-share_sheet-rest-window.png",
+          "sha256": "75d9990f6521f97a067720e32e228695685d9a6595e548fa4f5dafde90ec2470"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-light-share_sheet-rest-screen.png",
+          "sha256": "ff46f01a83bd7bb6afcca941014b80d3d7201da1fb4b3d76a2de423543367906"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/tonal_blocks-light-share_sheet-rest-screen.png",
+          "sha256": "a46814d3a47e5c1d9acd37f54548d2809cd91fb0287013290d6e15bb49ae2995"
+        }
+      }
+    },
+    {
+      "input": "tonal_blocks",
+      "theme": "light",
+      "carrier": "alert",
+      "expected_unchanged": false,
+      "comparison_scope": "combined original factory versus candidate, not incremental-screen isolation",
+      "actual_window": {
+        "changed_channels": 363480,
+        "max_abs": 127.0,
+        "mean_abs": 1.9122287063283359,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 362691,
+        "max_abs": 77.0,
+        "mean_abs": 0.4755930169121658,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 386710,
+        "max_abs": 243.0,
+        "mean_abs": 1.0956009495252375,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-light-alert-rest-window.png",
+          "sha256": "d6c20b14d7cc0940d3cca2828e35417df3540ea21fa5f71e5b06c513b309c5f3"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/tonal_blocks-light-alert-rest-window.png",
+          "sha256": "eac31579e0844f76b900faba6d8b23d5882c3debda20e9a86ec7ebd805e0818d"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-light-alert-rest-screen.png",
+          "sha256": "2a26db0aacbdca6c65e16aca58c35608961b85cd071ca64ad0656944b778a6ad"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/tonal_blocks-light-alert-rest-screen.png",
+          "sha256": "9865db7770fbf6feb8098a1fd61c1f6241545435d7e8f174ad354366796391b2"
+        }
+      }
+    },
+    {
+      "input": "synthetic_landscape",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "expected_unchanged": false,
+      "comparison_scope": "combined radius12to10 response, not strict equality",
+      "actual_window": {
+        "changed_channels": 452047,
+        "max_abs": 4.0,
+        "mean_abs": 0.12277811094452773,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 443459,
+        "max_abs": 4.0,
+        "mean_abs": 0.1316355701036552,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 474893,
+        "max_abs": 251.0,
+        "mean_abs": 0.5872076461769116,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-light-share_sheet-rest-window.png",
+          "sha256": "74d38b7e4570b08223d40361b553bcf318899bdce833aa8d0e0b77ba6e30caf3"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/synthetic_landscape-light-share_sheet-rest-window.png",
+          "sha256": "010fc59b62b798fea4b1c1a92424b011862ee4334cf47d729831f14f886f5931"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-light-share_sheet-rest-screen.png",
+          "sha256": "d7f403a7aa29965d18bdf96669edc08cbff3aa9050bb43a455e0097e04f4bef7"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/synthetic_landscape-light-share_sheet-rest-screen.png",
+          "sha256": "183032300543eb3cec6490b42bb8579a0acc21990373e6611bb652a4e40a5888"
+        }
+      }
+    },
+    {
+      "input": "synthetic_landscape",
+      "theme": "light",
+      "carrier": "alert",
+      "expected_unchanged": false,
+      "comparison_scope": "combined original factory versus candidate, not incremental-screen isolation",
+      "actual_window": {
+        "changed_channels": 275423,
+        "max_abs": 127.0,
+        "mean_abs": 0.5392383286089956,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 274606,
+        "max_abs": 67.0,
+        "mean_abs": 0.12475231860338243,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 298476,
+        "max_abs": 243.0,
+        "mean_abs": 0.6525089955022488,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-light-alert-rest-window.png",
+          "sha256": "7ffd3c5dbd632192f9e7446c56125556ad6b5bfa08d39e73fdf27879e2ec1bab"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/synthetic_landscape-light-alert-rest-window.png",
+          "sha256": "8738d6fbc6a0cacfbf3018a06df5e804293f45405a3a732e01a642c18df12d80"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-light-alert-rest-screen.png",
+          "sha256": "dce77b32270d3067a4e2ba565e8b33e1e44d56272abd85633cece800cbbc9694"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/synthetic_landscape-light-alert-rest-screen.png",
+          "sha256": "784c6e8539bea8c1243146f844a1bc23af7c3dc6cd5438c29db9611af3f16565"
+        }
+      }
+    },
+    {
+      "input": "fine_grid",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "expected_unchanged": true,
+      "comparison_scope": "strict originaldark control",
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 23906,
+        "max_abs": 243.0,
+        "mean_abs": 0.4442383808095952,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-dark-share_sheet-rest-window.png",
+          "sha256": "91c743195b7f141b96a22a83aaddb45462c1cff81e15d3edec5eea2c6c4681cc"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/fine_grid-dark-share_sheet-rest-window.png",
+          "sha256": "91c743195b7f141b96a22a83aaddb45462c1cff81e15d3edec5eea2c6c4681cc"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-dark-share_sheet-rest-screen.png",
+          "sha256": "d61915b3ed58aeb8c7f44fff4f07f5621bd9646ab301b1bb86cf186d4f31ebef"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/fine_grid-dark-share_sheet-rest-screen.png",
+          "sha256": "20ace7394683ed8fb40dd922aa8ed5e7af17a44e53cfd08fad3a7113c3f8ce24"
+        }
+      }
+    },
+    {
+      "input": "fine_grid",
+      "theme": "dark",
+      "carrier": "alert",
+      "expected_unchanged": true,
+      "comparison_scope": "strict originaldark control",
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 24784,
+        "max_abs": 254.0,
+        "mean_abs": 0.49513468265867067,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-dark-alert-rest-window.png",
+          "sha256": "96d959e87302745b8e14d8744991a2301e06752a7cdab97dec8825ef9dcf25cd"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/fine_grid-dark-alert-rest-window.png",
+          "sha256": "96d959e87302745b8e14d8744991a2301e06752a7cdab97dec8825ef9dcf25cd"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-dark-alert-rest-screen.png",
+          "sha256": "61bd148fa3bfd1b3844c314aa574dff1e1b42e25d19622e5e32a9ff427f4e952"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/fine_grid-dark-alert-rest-screen.png",
+          "sha256": "5290e12e9a2d0d2cb3d40364d3b11cc655ff7c79f4e90722a9b2086f01865770"
+        }
+      }
+    },
+    {
+      "input": "color_stripes",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "expected_unchanged": true,
+      "comparison_scope": "strict originaldark control",
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 24731,
+        "max_abs": 255.0,
+        "mean_abs": 0.6426211894052973,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-dark-share_sheet-rest-window.png",
+          "sha256": "9084ed98296c0c9fc4c832edbe1731c5803bb9be36c3718a0da90347033ce044"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/color_stripes-dark-share_sheet-rest-window.png",
+          "sha256": "9084ed98296c0c9fc4c832edbe1731c5803bb9be36c3718a0da90347033ce044"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-dark-share_sheet-rest-screen.png",
+          "sha256": "bc2fdf38b4220c5b160c593cd31c73bb60b0cb9199054866f8c903fbffa760f1"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/color_stripes-dark-share_sheet-rest-screen.png",
+          "sha256": "75c3ca79320a85803ea75536505193978390a7068300545f84c84d50c7c8de78"
+        }
+      }
+    },
+    {
+      "input": "color_stripes",
+      "theme": "dark",
+      "carrier": "alert",
+      "expected_unchanged": true,
+      "comparison_scope": "strict originaldark control",
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 23354,
+        "max_abs": 255.0,
+        "mean_abs": 0.5964797601199401,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-dark-alert-rest-window.png",
+          "sha256": "002428116e3e26808f7b0c8a3838f4fdbe309a7a5ea83c88c1a544628677cb3f"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/color_stripes-dark-alert-rest-window.png",
+          "sha256": "002428116e3e26808f7b0c8a3838f4fdbe309a7a5ea83c88c1a544628677cb3f"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-dark-alert-rest-screen.png",
+          "sha256": "a8a7bfc373d5f7021e069c33edecd6a97be44086ca56acf709a89eecf71f2251"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/color_stripes-dark-alert-rest-screen.png",
+          "sha256": "cf767bf77d42fdaf8203a92b51c42c4b58db910c0354d86289dbd73bb069d80b"
+        }
+      }
+    },
+    {
+      "input": "tonal_blocks",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "expected_unchanged": true,
+      "comparison_scope": "strict originaldark control",
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 23372,
+        "max_abs": 254.0,
+        "mean_abs": 0.6945452273863069,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-dark-share_sheet-rest-window.png",
+          "sha256": "c21a140d90e6f29d4ebb3c7d747e97521f1114c25f41cd2e45f53929b241475e"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/tonal_blocks-dark-share_sheet-rest-window.png",
+          "sha256": "c21a140d90e6f29d4ebb3c7d747e97521f1114c25f41cd2e45f53929b241475e"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-dark-share_sheet-rest-screen.png",
+          "sha256": "c7160d49cfc8ad7909ee54b4235ee73fd02c4fba067626270faf551f07f53740"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/tonal_blocks-dark-share_sheet-rest-screen.png",
+          "sha256": "b73f6e2112625882be17423795a677f9c9c60d2a4a213381544a38fcf912a386"
+        }
+      }
+    },
+    {
+      "input": "tonal_blocks",
+      "theme": "dark",
+      "carrier": "alert",
+      "expected_unchanged": true,
+      "comparison_scope": "strict originaldark control",
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 23414,
+        "max_abs": 254.0,
+        "mean_abs": 0.6922983508245877,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-dark-alert-rest-window.png",
+          "sha256": "776e4960f658fa80a82c6d37896b6f6d4ce1d375825b29db214b5bd937003b0b"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/tonal_blocks-dark-alert-rest-window.png",
+          "sha256": "776e4960f658fa80a82c6d37896b6f6d4ce1d375825b29db214b5bd937003b0b"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-dark-alert-rest-screen.png",
+          "sha256": "207b76ace935e28e9fa34f56bf2aa48e99c94a2819fd9dbc4c502c680dde0dd1"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/tonal_blocks-dark-alert-rest-screen.png",
+          "sha256": "6ba24629e18eed90f8e3978759bac6cfdb4629c1687b575b72059b9f8e319e5a"
+        }
+      }
+    },
+    {
+      "input": "synthetic_landscape",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "expected_unchanged": true,
+      "comparison_scope": "strict originaldark control",
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 23079,
+        "max_abs": 254.0,
+        "mean_abs": 0.5942416291854073,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-dark-share_sheet-rest-window.png",
+          "sha256": "ba9259eace3cde0762092770f97de120c8dca834059a14c483e3c5a9f346b297"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/synthetic_landscape-dark-share_sheet-rest-window.png",
+          "sha256": "ba9259eace3cde0762092770f97de120c8dca834059a14c483e3c5a9f346b297"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-dark-share_sheet-rest-screen.png",
+          "sha256": "014f1c771bbe3ac93b2cdca87df5c5726c26a5367b42f90f1c8bbcc0b58387d1"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/synthetic_landscape-dark-share_sheet-rest-screen.png",
+          "sha256": "749e072c5d591f21e8b10716be4bfd90a6748dbe749e70467e3a9fc0c8b01764"
+        }
+      }
+    },
+    {
+      "input": "synthetic_landscape",
+      "theme": "dark",
+      "carrier": "alert",
+      "expected_unchanged": true,
+      "comparison_scope": "strict originaldark control",
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 23037,
+        "max_abs": 254.0,
+        "mean_abs": 0.5940072463768116,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-dark-alert-rest-window.png",
+          "sha256": "027dcc751a0ba7acff43b80c23808074e4248ce1d24a4cf3731992d75ccc3f45"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/synthetic_landscape-dark-alert-rest-window.png",
+          "sha256": "027dcc751a0ba7acff43b80c23808074e4248ce1d24a4cf3731992d75ccc3f45"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-dark-alert-rest-screen.png",
+          "sha256": "f0a98dc9f662ad43e07c0536c6b702a2ae881ad9c26b13e7f57d0b952b450f97"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-floor-screen-history-r2-20261115/synthetic_landscape-dark-alert-rest-screen.png",
+          "sha256": "9a69dd8ba5fd861d9f4513b814046973184de8206dd11f3ebb94b586ae034ed8"
+        }
+      }
+    }
+  ]
+}

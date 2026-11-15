@@ -1,0 +1,648 @@
+[
+  {
+    "carrier": "alert",
+    "segment": "top",
+    "native": {
+      "carrier": "alert",
+      "segment": "top",
+      "platform": "native",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 223.57317907894736,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 22.287201973684205,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 2
+    },
+    "phaseA": {
+      "carrier": "alert",
+      "segment": "top",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 223.13026315789475,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 24.42763157894734,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 2
+    },
+    "phaseB": {
+      "carrier": "alert",
+      "segment": "top",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 223.13026315789475,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 24.42763157894734,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 2
+    }
+  },
+  {
+    "carrier": "alert",
+    "segment": "bottom",
+    "native": {
+      "carrier": "alert",
+      "segment": "bottom",
+      "platform": "native",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            233.0,
+            67.0,
+            42.0
+          ],
+          "eligible_same_coordinate_neutral": false
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 230.14557605263155,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 15.044877631578942,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 1
+    },
+    "phaseA": {
+      "carrier": "alert",
+      "segment": "bottom",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            233.0,
+            67.0,
+            42.0
+          ],
+          "eligible_same_coordinate_neutral": false
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 218.2175617105263,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 29.34033302631579,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 2
+    },
+    "phaseB": {
+      "carrier": "alert",
+      "segment": "bottom",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            233.0,
+            67.0,
+            42.0
+          ],
+          "eligible_same_coordinate_neutral": false
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 218.2175617105263,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 29.34033302631579,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 2
+    }
+  },
+  {
+    "carrier": "alert",
+    "segment": "left",
+    "native": {
+      "carrier": "alert",
+      "segment": "left",
+      "platform": "native",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 223.52914270833335,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 16.042157291666626,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 2
+    },
+    "phaseA": {
+      "carrier": "alert",
+      "segment": "left",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 222.95406145833334,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 14.628238541666633,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 2
+    },
+    "phaseB": {
+      "carrier": "alert",
+      "segment": "left",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 222.95406145833334,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 14.628238541666633,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 2
+    }
+  },
+  {
+    "carrier": "alert",
+    "segment": "right",
+    "native": {
+      "carrier": "alert",
+      "segment": "right",
+      "platform": "native",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 223.96235208333331,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 19.984347916666678,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 2
+    },
+    "phaseA": {
+      "carrier": "alert",
+      "segment": "right",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 223.125,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 16.89085,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 2
+    },
+    "phaseB": {
+      "carrier": "alert",
+      "segment": "right",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 223.125,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 16.89085,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 2
+    }
+  },
+  {
+    "carrier": "sheet",
+    "segment": "top_left_center",
+    "native": {
+      "carrier": "sheet",
+      "segment": "top_left_center",
+      "platform": "native",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": null,
+          "eligible_same_coordinate_neutral": false
+        },
+        "native_before": {
+          "range_rgb": null,
+          "eligible_same_coordinate_neutral": false
+        }
+      },
+      "direct_foreground_excluded_pixels": 1120,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": null,
+      "peak_distance_pt": null,
+      "peak_excess_luma": null,
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved"
+    },
+    "phaseA": {
+      "carrier": "sheet",
+      "segment": "top_left_center",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": null,
+          "eligible_same_coordinate_neutral": false
+        },
+        "native_before": {
+          "range_rgb": null,
+          "eligible_same_coordinate_neutral": false
+        }
+      },
+      "direct_foreground_excluded_pixels": 1120,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": null,
+      "peak_distance_pt": null,
+      "peak_excess_luma": null,
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved"
+    },
+    "phaseB": {
+      "carrier": "sheet",
+      "segment": "top_left_center",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": null,
+          "eligible_same_coordinate_neutral": false
+        },
+        "native_before": {
+          "range_rgb": null,
+          "eligible_same_coordinate_neutral": false
+        }
+      },
+      "direct_foreground_excluded_pixels": 1120,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": null,
+      "peak_distance_pt": null,
+      "peak_excess_luma": null,
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved"
+    }
+  },
+  {
+    "carrier": "sheet",
+    "segment": "top_right_center",
+    "native": {
+      "carrier": "sheet",
+      "segment": "top_right_center",
+      "platform": "native",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": null,
+          "eligible_same_coordinate_neutral": false
+        },
+        "native_before": {
+          "range_rgb": null,
+          "eligible_same_coordinate_neutral": false
+        }
+      },
+      "direct_foreground_excluded_pixels": 1120,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": null,
+      "peak_distance_pt": null,
+      "peak_excess_luma": null,
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved"
+    },
+    "phaseA": {
+      "carrier": "sheet",
+      "segment": "top_right_center",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": null,
+          "eligible_same_coordinate_neutral": false
+        },
+        "native_before": {
+          "range_rgb": null,
+          "eligible_same_coordinate_neutral": false
+        }
+      },
+      "direct_foreground_excluded_pixels": 1120,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": null,
+      "peak_distance_pt": null,
+      "peak_excess_luma": null,
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved"
+    },
+    "phaseB": {
+      "carrier": "sheet",
+      "segment": "top_right_center",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": null,
+          "eligible_same_coordinate_neutral": false
+        },
+        "native_before": {
+          "range_rgb": null,
+          "eligible_same_coordinate_neutral": false
+        }
+      },
+      "direct_foreground_excluded_pixels": 1120,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": null,
+      "peak_distance_pt": null,
+      "peak_excess_luma": null,
+      "FWHM_pt": null,
+      "FWHM_status": "unresolved"
+    }
+  },
+  {
+    "carrier": "sheet",
+    "segment": "bottom",
+    "native": {
+      "carrier": "sheet",
+      "segment": "bottom",
+      "platform": "native",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            7.0,
+            7.0,
+            7.0
+          ],
+          "eligible_same_coordinate_neutral": false
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 220.1697,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 28.290459999999968,
+      "FWHM_pt": null,
+      "FWHM_status": "insufficient3pixel_peak_coverage_or_missing_crossing",
+      "above_half_peak_original_pixels": 2
+    },
+    "phaseA": {
+      "carrier": "sheet",
+      "segment": "bottom",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            7.0,
+            7.0,
+            7.0
+          ],
+          "eligible_same_coordinate_neutral": false
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 218.2861842105263,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 36.71381578947367,
+      "FWHM_pt": 2.9152687750549604,
+      "FWHM_status": "descriptive_halfheight_width; mixed_context",
+      "above_half_peak_original_pixels": 6
+    },
+    "phaseB": {
+      "carrier": "sheet",
+      "segment": "bottom",
+      "platform": "rim_blur",
+      "same_coordinate_neutrality": {
+        "source": {
+          "range_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "eligible_same_coordinate_neutral": true
+        },
+        "native_before": {
+          "range_rgb": [
+            7.0,
+            7.0,
+            7.0
+          ],
+          "eligible_same_coordinate_neutral": false
+        }
+      },
+      "direct_foreground_excluded_pixels": 0,
+      "nearby_backdrop_context": "Alert top broad inward footprint may include System sheet; Alert bottom/Sheet body include system controls/Dock with different platform appearances. Same-coordinate neutrality does not remove these broad-footprint confounds.",
+      "interpretation": "mixed highlight/backdrop response; not physical thickness",
+      "shoulder_luma_reference_4_12": 218.28684210526316,
+      "peak_distance_pt": 0.25,
+      "peak_excess_luma": 36.71315789473681,
+      "FWHM_pt": 2.915256853743696,
+      "FWHM_status": "descriptive_halfheight_width; mixed_context",
+      "above_half_peak_original_pixels": 6
+    }
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "scope": "Local source and current nonperiodic calibration data only; no old heldout image/source decode",
+  "no_devices_builds_git_or_runtime_code_changes": true,
+  "files": [
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
+      "sha256": "80fc9cbfa6f29631084556de2e2b5073c29b0716a9c8ac8eb937f088d190275f"
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
+      "sha256": "fe462300bcd94fdde0d22039416cdbad13106b3b2e79aae0fc0d3df0a8878dd1"
+    },
+    {
+      "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassControlModifier.kt",
+      "sha256": "8be11d1cf3f14e0ea9798c00e44918cd7c31f9c17c01340406cb9e56d4a97f0a"
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/oracle.json",
+      "sha256": "4d16120ec71791abc4c526e45fd1435cb9aa12f5130d0244cf72862d2133dd04"
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/analysis-plan.md",
+      "sha256": "675bf82c495e89c5a4088afd4462a2b51ef28ecbe073b45c27119fccb1d13294"
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/S02-local-contours.json",
+      "sha256": "6680d38faa1c8515923a87679e81ad8989470488146fa177af4dd22e8bb27ec3"
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/coordinate-local-contours.json",
+      "sha256": "5a4734f5dacf2cd1069cf4eacd8dd32c4182a0152ac41c63ff69d7bb8e0e993c"
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/alert-body8/S02-local-contours.json",
+      "sha256": "7c32529cfcce0a3ceca164c9c059e50a723fa03848de7075b73c15a422c08175"
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/alert-body8/coordinate-local-contours.json",
+      "sha256": "8bac6018263c3479e652eae55d3f81e6d51782c014ed3bde397080bcacfebccd"
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/alert-body8/Sheet-S07-local-contours.json",
+      "sha256": "07cd5ee46269aa00a1d0e508ad710d094199f68ba29b3f5e8d0d2a96256349ff"
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/alert-body8/decision.json",
+      "sha256": "4a3b2603f33dade177c6eeee657b0745ca6d2aca09536b6f8b049fc67c2242f2"
+    }
+  ],
+  "script_sha256": "5bdf8358585d1146310d12a6f0f306afda1e9025feba399a9709e1d9c77e50a5"
+}

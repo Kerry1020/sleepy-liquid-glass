@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassControlModifier.kt",
+    "sha256": "e17345b39a0667bdd7f58e6eb18265431c33a17a0fe6f759805c008c2c424022"
+  },
+  {
+    "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGeometry.kt",
+    "sha256": "2d7e1b79440149cffb9c71151e0a557a2a6ec14cb184bd78492d5b10fae9cff4"
+  },
+  {
+    "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
+    "sha256": "fe462300bcd94fdde0d22039416cdbad13106b3b2e79aae0fc0d3df0a8878dd1"
+  },
+  {
+    "path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
+    "sha256": "53285e018b378d0f8f87071743ff29d2db05fb9215fe7a38f38b9a762dc86ae0"
+  }
+]

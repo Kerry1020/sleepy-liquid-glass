@@ -1,0 +1,309 @@
+[
+  {
+    "carrier": "alert",
+    "segment": "top",
+    "retained_min": 190,
+    "tangent_count": 190,
+    "direct_foreground_all_clear": true,
+    "profiles": {
+      "source": {
+        "max_tangent_rgb_range": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "alert_before": {
+        "max_tangent_rgb_range": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "alert_native": {
+        "max_tangent_rgb_range": [
+          8.0,
+          2.0,
+          2.0
+        ],
+        "shoulder_8_12_mean_luma": 222.91165828947368,
+        "rim_peak_luma": 245.86038105263157,
+        "peak_location_pt": 0.25,
+        "peak_minus_shoulder_luma": 22.94872276315789,
+        "halfheight_support_pixels": 2,
+        "bracketed": true,
+        "FWHM_pt": null,
+        "FWHM_status": "unresolved_fewer_than_3_pixels_or_missing_crossing"
+      },
+      "alert_android": {
+        "max_tangent_rgb_range": [
+          14.0,
+          14.0,
+          14.0
+        ],
+        "shoulder_8_12_mean_luma": 223.0,
+        "rim_peak_luma": 243.0421052631579,
+        "peak_location_pt": 0.75,
+        "peak_minus_shoulder_luma": 20.042105263157907,
+        "halfheight_support_pixels": 2,
+        "bracketed": true,
+        "FWHM_pt": null,
+        "FWHM_status": "unresolved_fewer_than_3_pixels_or_missing_crossing"
+      }
+    }
+  },
+  {
+    "carrier": "alert",
+    "segment": "bottom",
+    "retained_min": 190,
+    "tangent_count": 190,
+    "direct_foreground_all_clear": true,
+    "profiles": {
+      "source": {
+        "max_tangent_rgb_range": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "alert_before": {
+        "max_tangent_rgb_range": [
+          233.0,
+          67.0,
+          42.0
+        ]
+      },
+      "alert_native": {
+        "max_tangent_rgb_range": [
+          138.0,
+          39.0,
+          24.0
+        ],
+        "shoulder_8_12_mean_luma": 231.6627975,
+        "rim_peak_luma": 245.1904536842105,
+        "peak_location_pt": 0.25,
+        "peak_minus_shoulder_luma": 13.527656184210485,
+        "halfheight_support_pixels": 1,
+        "bracketed": true,
+        "FWHM_pt": null,
+        "FWHM_status": "unresolved_fewer_than_3_pixels_or_missing_crossing"
+      },
+      "alert_android": {
+        "max_tangent_rgb_range": [
+          110.0,
+          125.0,
+          70.0
+        ],
+        "shoulder_8_12_mean_luma": 215.23856013157894,
+        "rim_peak_luma": 243.0421052631579,
+        "peak_location_pt": 0.75,
+        "peak_minus_shoulder_luma": 27.80354513157897,
+        "halfheight_support_pixels": 3,
+        "bracketed": true,
+        "FWHM_pt": 1.144288498721971,
+        "FWHM_status": "identified_raster_diagnostic"
+      }
+    }
+  },
+  {
+    "carrier": "alert",
+    "segment": "left",
+    "retained_min": 12,
+    "tangent_count": 12,
+    "direct_foreground_all_clear": true,
+    "profiles": {
+      "source": {
+        "max_tangent_rgb_range": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "alert_before": {
+        "max_tangent_rgb_range": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "alert_native": {
+        "max_tangent_rgb_range": [
+          2.0,
+          3.0,
+          1.0
+        ],
+        "shoulder_8_12_mean_luma": 223.5696,
+        "rim_peak_luma": 239.57129999999998,
+        "peak_location_pt": 0.25,
+        "peak_minus_shoulder_luma": 16.00169999999997,
+        "halfheight_support_pixels": 2,
+        "bracketed": true,
+        "FWHM_pt": null,
+        "FWHM_status": "unresolved_fewer_than_3_pixels_or_missing_crossing"
+      },
+      "alert_android": {
+        "max_tangent_rgb_range": [
+          14.0,
+          19.0,
+          17.0
+        ],
+        "shoulder_8_12_mean_luma": 221.91518125,
+        "rim_peak_luma": 221.81906666666666,
+        "peak_location_pt": 2.75,
+        "peak_minus_shoulder_luma": -0.0961145833333319,
+        "halfheight_support_pixels": 1,
+        "bracketed": false,
+        "FWHM_pt": null,
+        "FWHM_status": "unresolved_fewer_than_3_pixels_or_missing_crossing"
+      }
+    }
+  },
+  {
+    "carrier": "alert",
+    "segment": "right",
+    "retained_min": 12,
+    "tangent_count": 12,
+    "direct_foreground_all_clear": true,
+    "profiles": {
+      "source": {
+        "max_tangent_rgb_range": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "alert_before": {
+        "max_tangent_rgb_range": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "alert_native": {
+        "max_tangent_rgb_range": [
+          1.0,
+          2.0,
+          4.0
+        ],
+        "shoulder_8_12_mean_luma": 223.95127916666667,
+        "rim_peak_luma": 243.9467,
+        "peak_location_pt": 0.25,
+        "peak_minus_shoulder_luma": 19.995420833333327,
+        "halfheight_support_pixels": 2,
+        "bracketed": true,
+        "FWHM_pt": null,
+        "FWHM_status": "unresolved_fewer_than_3_pixels_or_missing_crossing"
+      },
+      "alert_android": {
+        "max_tangent_rgb_range": [
+          16.0,
+          19.0,
+          21.0
+        ],
+        "shoulder_8_12_mean_luma": 222.51846874999998,
+        "rim_peak_luma": 221.60563333333332,
+        "peak_location_pt": 3.75,
+        "peak_minus_shoulder_luma": -0.9128354166666668,
+        "halfheight_support_pixels": 1,
+        "bracketed": false,
+        "FWHM_pt": null,
+        "FWHM_status": "unresolved_fewer_than_3_pixels_or_missing_crossing"
+      }
+    }
+  },
+  {
+    "carrier": "sheet",
+    "segment": "top_left_neutral",
+    "retained_min": 0,
+    "tangent_count": 40,
+    "direct_foreground_all_clear": false,
+    "profiles": {
+      "source": {
+        "max_tangent_rgb_range": null
+      },
+      "sheet_before": {
+        "max_tangent_rgb_range": null
+      },
+      "sheet_native": {
+        "max_tangent_rgb_range": null
+      },
+      "sheet_android": {
+        "max_tangent_rgb_range": null
+      }
+    }
+  },
+  {
+    "carrier": "sheet",
+    "segment": "top_right_neutral",
+    "retained_min": 0,
+    "tangent_count": 40,
+    "direct_foreground_all_clear": false,
+    "profiles": {
+      "source": {
+        "max_tangent_rgb_range": null
+      },
+      "sheet_before": {
+        "max_tangent_rgb_range": null
+      },
+      "sheet_native": {
+        "max_tangent_rgb_range": null
+      },
+      "sheet_android": {
+        "max_tangent_rgb_range": null
+      }
+    }
+  },
+  {
+    "carrier": "sheet",
+    "segment": "bottom",
+    "retained_min": 190,
+    "tangent_count": 190,
+    "direct_foreground_all_clear": true,
+    "profiles": {
+      "source": {
+        "max_tangent_rgb_range": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "sheet_before": {
+        "max_tangent_rgb_range": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "sheet_native": {
+        "max_tangent_rgb_range": [
+          9.0,
+          9.0,
+          9.0
+        ],
+        "shoulder_8_12_mean_luma": 219.0,
+        "rim_peak_luma": 248.46015999999997,
+        "peak_location_pt": 0.25,
+        "peak_minus_shoulder_luma": 29.460159999999973,
+        "halfheight_support_pixels": 2,
+        "bracketed": true,
+        "FWHM_pt": null,
+        "FWHM_status": "unresolved_fewer_than_3_pixels_or_missing_crossing"
+      },
+      "sheet_android": {
+        "max_tangent_rgb_range": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "shoulder_8_12_mean_luma": 218.0,
+        "rim_peak_luma": 254.99999999999997,
+        "peak_location_pt": 0.25,
+        "peak_minus_shoulder_luma": 36.99999999999997,
+        "halfheight_support_pixels": 6,
+        "bracketed": true,
+        "FWHM_pt": 2.9204545454545454,
+        "FWHM_status": "identified_raster_diagnostic"
+      }
+    }
+  }
+]

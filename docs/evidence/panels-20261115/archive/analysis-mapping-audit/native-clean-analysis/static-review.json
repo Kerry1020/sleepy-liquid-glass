@@ -1,0 +1,12 @@
+{
+  "status": "AST/source-only review; analyzer not imported or executed; no PNG decoded",
+  "syntax_valid": true,
+  "no_device_build_network_or_git_imports": true,
+  "exact_declared_matrix": true,
+  "source_regions_nonempty_in_canvas": true,
+  "capture_plan_binding_current": true,
+  "source_png_byte_hashes_match": true,
+  "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+  "Pillow_distribution": "11.3.0",
+  "numpy_distribution": "2.0.2"
+}

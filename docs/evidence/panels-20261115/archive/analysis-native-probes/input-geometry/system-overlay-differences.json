@@ -1,0 +1,160 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "share_sheet",
+    "row_band_differences": [
+      {
+        "bbox_screen_px_exclusive": [
+          39,
+          35,
+          712,
+          61
+        ],
+        "changed_pixels": 7962
+      },
+      {
+        "bbox_screen_px_exclusive": [
+          255,
+          1312,
+          495,
+          1320
+        ],
+        "changed_pixels": 1857
+      }
+    ],
+    "middle_display_y80_to1302_exact": true,
+    "observed_geometry_equal": {
+      "window_size_px": true,
+      "content_origin_in_window_px": true,
+      "content_origin_on_screen_px": true,
+      "background_canvas": true,
+      "actual_alert_layout": true,
+      "sheet_geometry_comparison": true
+    },
+    "foreground_slot_rectangles_exact": true
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "row_band_differences": [
+      {
+        "bbox_screen_px_exclusive": [
+          39,
+          35,
+          712,
+          61
+        ],
+        "changed_pixels": 7987
+      }
+    ],
+    "middle_display_y80_to1302_exact": true,
+    "observed_geometry_equal": {
+      "window_size_px": true,
+      "content_origin_in_window_px": true,
+      "content_origin_on_screen_px": true,
+      "background_canvas": true,
+      "actual_alert_layout": true,
+      "sheet_geometry_comparison": true
+    },
+    "foreground_slot_rectangles_exact": true
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "share_sheet",
+    "row_band_differences": [
+      {
+        "bbox_screen_px_exclusive": [
+          39,
+          35,
+          712,
+          61
+        ],
+        "changed_pixels": 7977
+      }
+    ],
+    "middle_display_y80_to1302_exact": true,
+    "observed_geometry_equal": {
+      "window_size_px": true,
+      "content_origin_in_window_px": true,
+      "content_origin_on_screen_px": true,
+      "background_canvas": true,
+      "actual_alert_layout": true,
+      "sheet_geometry_comparison": true
+    },
+    "foreground_slot_rectangles_exact": true
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "row_band_differences": [
+      {
+        "bbox_screen_px_exclusive": [
+          39,
+          35,
+          712,
+          61
+        ],
+        "changed_pixels": 7885
+      }
+    ],
+    "middle_display_y80_to1302_exact": true,
+    "observed_geometry_equal": {
+      "window_size_px": true,
+      "content_origin_in_window_px": true,
+      "content_origin_on_screen_px": true,
+      "background_canvas": true,
+      "actual_alert_layout": true,
+      "sheet_geometry_comparison": true
+    },
+    "foreground_slot_rectangles_exact": true
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "background",
+    "row_band_differences": [
+      {
+        "bbox_screen_px_exclusive": [
+          39,
+          35,
+          712,
+          61
+        ],
+        "changed_pixels": 7851
+      },
+      {
+        "bbox_screen_px_exclusive": [
+          255,
+          1312,
+          495,
+          1320
+        ],
+        "changed_pixels": 1916
+      }
+    ],
+    "middle_display_y80_to1302_exact": true,
+    "observed_geometry_equal": {
+      "background_canvas": true
+    },
+    "foreground_slot_rectangles_exact": true
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "background",
+    "row_band_differences": [
+      {
+        "bbox_screen_px_exclusive": [
+          39,
+          35,
+          712,
+          61
+        ],
+        "changed_pixels": 7978
+      }
+    ],
+    "middle_display_y80_to1302_exact": true,
+    "observed_geometry_equal": {
+      "background_canvas": true
+    },
+    "foreground_slot_rectangles_exact": true
+  }
+]

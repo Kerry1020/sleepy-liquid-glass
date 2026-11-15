@@ -1,0 +1,23 @@
+{
+  "status": "FEASIBILITY GATES ONLY; never optical parity or inverse recovery",
+  "gates": {
+    "same_run_original_source_canvas_and_session_all": true,
+    "capture_request_and_AX_time_binding_all": true,
+    "original_backing_trigger_AX_absence_and_panel_presence_all": true,
+    "old_fixture_public_AX_and_foreground_geometry_all": true,
+    "explicit_title_touch_relay_and_repeat_spacing_all": true,
+    "embedded_profile_available_for_normalized_sRGB_all": false,
+    "FULL_RAW_RGBA_rest_repeat_strict_zero_all": true,
+    "FULL_NORMALIZED_sRGB_RGBA_rest_repeat_strict_zero_all": true,
+    "all_fixed_source_footprints_and_support_stresses_raw_and_normalized_exact": true
+  },
+  "all_requested_feasibility_gates_pass": false,
+  "native_adaptation_condition": "plain-backing-v1 is separate from old polluted backing; do not pool its optical pixels",
+  "full_context_changes_reported_separately_not_cropped_out": true,
+  "native_central_optical_contour_and_tangent_invariance_established": false,
+  "native_blur_source_support_bound_established": false,
+  "unique_2D_mapping_recoverable_claim": false,
+  "refraction_fit_performed": false,
+  "physical_thickness_or_parity_claim": false,
+  "next_decision": "Root reviews gate failures and independent contour/support feasibility; source exactness alone cannot approve paired-slope inversion."
+}

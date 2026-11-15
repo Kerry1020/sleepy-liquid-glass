@@ -1,0 +1,14 @@
+{
+  "report_sha256": "96895df0941d4d19d974f01249cd37f24eea2c92e0df466f1d77b2aaae3c188d",
+  "summary_script_sha256": "f91a6fb31a2b05ad0b60e9d91e457d4dde0b19e0b2eeae94f978c5bff31a5bd9",
+  "files": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sheet-radius10/build-before-decode.json": "5f5d3276bb29b5ca623222f00cf8af19397f30e82f0526896c13d502821ebf91",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sheet-radius10/run-input-freeze.json": "1410bd46f74b00b556c2224c29b3ab3094b5ec688422fe258cceb7430de9d4fd",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sheet-radius10/exact-control-comparison.json": "8ead86c149c27559555dd16b186db892463684ae8d286432d121a76a92aa2c91",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sheet-radius10/phaseA-phaseB-S07-all14.json": "8e84669a96c3ec22ea0cd6eb083f27077ee74598cf70c88ba09f91ed2df9a168",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sheet-radius10/phaseA-phaseB-fixed-roi-all180.json": "2cd75631f826c043222dba5e27a91fd87504b43c550642693226168dcc23624e",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sheet-radius10/phaseA-phaseB-body-exterior-all.json": "f4593b374a4ac6ad0fc2bc4fa82ae0d41ce3954c9e013eb7145fcc4c18f63419",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sheet-radius10/phaseA-phaseB-rim-all.json": "9c9754959b22fa5a21bbf84c49802d542ce0f7626d2031ed4f762483172d24fa",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/sheet-radius10/decision.json": "555a3b8ae707960efd7428895b3a599c0c4955a20eb2c7e569b832172863e1da"
+  }
+}

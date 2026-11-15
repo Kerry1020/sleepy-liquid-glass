@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "status": "UNMEASURED PROPOSAL — NOT ELIGIBLE FOR CURRENT NATIVE FIXTURE",
+  "set_id": "paired_slope_alert_proposal_20261115",
+  "capture_eligible": false,
+  "not_a_loader_manifest": true,
+  "inputs": [
+    {
+      "id": "paired_slope_alert_a20_normal",
+      "file": "inputs/paired_slope_alert_a20_normal.png",
+      "a_pt": 20.0,
+      "contrast": "normal",
+      "fill_rgb": [
+        60,
+        60,
+        60
+      ],
+      "background_rgb": [
+        190,
+        190,
+        190
+      ],
+      "size_px": [
+        750,
+        1334
+      ],
+      "world_size_pt": [
+        375,
+        667
+      ],
+      "png_sha256": "814c5a72ab91603ebe4d4b415e1aabee2b153044dc8403921c84fd1c32c84be6",
+      "decoded_rgb_sha256": "35723a1615a4dc9e84017e85d7e48da212ab04b0ff3aaa3bd54bad0bf9e14976",
+      "binary_mask_sha256": "1448d7a5e8085f883a142978cbdb3b161f7409b5319c027ca9de0644e45996ec",
+      "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+      "encoding": "opaque RGB8 PNG with persisted sRGB ICC",
+      "split": "unmeasured proposal; not calibration/test acceptance evidence",
+      "current_fixture_capture_eligible": false
+    },
+    {
+      "id": "paired_slope_alert_a20_reversed",
+      "file": "inputs/paired_slope_alert_a20_reversed.png",
+      "a_pt": 20.0,
+      "contrast": "reversed",
+      "fill_rgb": [
+        190,
+        190,
+        190
+      ],
+      "background_rgb": [
+        60,
+        60,
+        60
+      ],
+      "size_px": [
+        750,
+        1334
+      ],
+      "world_size_pt": [
+        375,
+        667
+      ],
+      "png_sha256": "6cb66865d9852ed03f9e276a7d209bad7680731b561bafc6058f5099fcd23a2e",
+      "decoded_rgb_sha256": "40beaea2c9f45572d934b1bc3932885ac74654c4800592d6d96cce2020417f7c",
+      "binary_mask_sha256": "1448d7a5e8085f883a142978cbdb3b161f7409b5319c027ca9de0644e45996ec",
+      "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+      "encoding": "opaque RGB8 PNG with persisted sRGB ICC",
+      "split": "unmeasured proposal; not calibration/test acceptance evidence",
+      "current_fixture_capture_eligible": false
+    },
+    {
+      "id": "paired_slope_alert_a24_normal",
+      "file": "inputs/paired_slope_alert_a24_normal.png",
+      "a_pt": 24.0,
+      "contrast": "normal",
+      "fill_rgb": [
+        60,
+        60,
+        60
+      ],
+      "background_rgb": [
+        190,
+        190,
+        190
+      ],
+      "size_px": [
+        750,
+        1334
+      ],
+      "world_size_pt": [
+        375,
+        667
+      ],
+      "png_sha256": "71082428026f435bf5763ac21b69e918c82360fdde6b1b980a1e93cae7047cde",
+      "decoded_rgb_sha256": "4ac6adf64bf67045ec824000e96a8303c7f7864f7914114f18eeca1923d9ede7",
+      "binary_mask_sha256": "5b925212470928932a557a943b355085d8a667d4e5da33dab6cbd56b2485e619",
+      "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+      "encoding": "opaque RGB8 PNG with persisted sRGB ICC",
+      "split": "unmeasured proposal; not calibration/test acceptance evidence",
+      "current_fixture_capture_eligible": false
+    },
+    {
+      "id": "paired_slope_alert_a24_reversed",
+      "file": "inputs/paired_slope_alert_a24_reversed.png",
+      "a_pt": 24.0,
+      "contrast": "reversed",
+      "fill_rgb": [
+        190,
+        190,
+        190
+      ],
+      "background_rgb": [
+        60,
+        60,
+        60
+      ],
+      "size_px": [
+        750,
+        1334
+      ],
+      "world_size_pt": [
+        375,
+        667
+      ],
+      "png_sha256": "c9db9acdb24e940d739fd249d687dae6aa131c509a023bfaa7d2150a739bc20d",
+      "decoded_rgb_sha256": "9dd547df7ad34996d334f9bf6005aa55e5b83257ea0832b72640eea1dee74886",
+      "binary_mask_sha256": "5b925212470928932a557a943b355085d8a667d4e5da33dab6cbd56b2485e619",
+      "icc_sha256": "fdc96271cfac30d9fff540752580b2938ff09118c7347dcc4328d52d00342623",
+      "encoding": "opaque RGB8 PNG with persisted sRGB ICC",
+      "split": "unmeasured proposal; not calibration/test acceptance evidence",
+      "current_fixture_capture_eligible": false
+    }
+  ],
+  "oracle_sha256": "f0355544b1b50b5929da1bbce54fe6ed0e08b8202cf2f77887a532511fbd4a2c",
+  "proposal_plan_sha256": "c039c7e26a789864c01be97f6372b8363e2ff5528f431f77740a6898763bdfb2",
+  "geometry_eligibility_sha256": "29ca4224567a0c4e11b58be45ffd55652804edf812c5bab4cfb209b03e87be9e",
+  "before_alert_backing_audit_sha256": "3e2013bc0a95d0f1c4379976611d7153a37110d18113b0df30c563fa69f6bcb6",
+  "generator_sha256": "af2d839d26a8a1f7fe7594529d0336f6d5223a288c69845f0e63ff0acaec48e9"
+}

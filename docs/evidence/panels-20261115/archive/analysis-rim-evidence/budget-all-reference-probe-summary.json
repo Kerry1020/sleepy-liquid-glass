@@ -1,0 +1,26 @@
+[
+  {
+    "reference": "body8",
+    "alert_corner_raw_whole_scan": {
+      "improved": 31,
+      "regressed": 15,
+      "unchanged": 2
+    }
+  },
+  {
+    "reference": "additive",
+    "alert_corner_raw_whole_scan": {
+      "improved": 22,
+      "regressed": 22,
+      "unchanged": 4
+    }
+  },
+  {
+    "reference": "screen",
+    "alert_corner_raw_whole_scan": {
+      "improved": 36,
+      "regressed": 11,
+      "unchanged": 1
+    }
+  }
+]

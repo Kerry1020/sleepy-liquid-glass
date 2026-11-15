@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "candidate": "alert-profile-half",
+  "independent_recommendation": "do-not-accept",
+  "analysis_sha256": "ff69c037c355665808cfccefcf24aaa53fc34b66830394c79381dc45122b3961",
+  "basis": [
+    "All isolation controls are exactly unchanged; the candidate is a clean Alert-edge shoulder comparison.",
+    "Stripe-light left/right RGB RMSE regress16.760114\u219223.648207 and10.636204\u219224.153223.",
+    "Stripe-dark all12 straight RGB/D1/D2 metrics regress; left/right RGB13.570376\u219216.900431 and12.897795\u219215.663720.",
+    "Stripe-light corner RGB/D1/D2 metrics have13 improvements and59 regressions; dark25 improvements and47 regressions.",
+    "Blue top centroid span increases but remains far below native; light bottom decreases. A larger top span alone cannot accept the profile.",
+    "Other calibration backgrounds have mixed small improvements/regressions and do not override the scene-specific failure."
+  ],
+  "scope": "Eight public historical calibration REST scenes only. No blind/noise test decoded; no motion or physical-thickness proof.",
+  "next_step": "Use read-only identifiability audit of existing Alert/Sheet profiles to plan controlled nonperiodic excitation; avoid additional blind parameter sweeps.",
+  "runtime_mutation_by_this_agent": false
+}

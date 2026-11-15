@@ -1,0 +1,70 @@
+{
+  "status": "Proposal only; not a capture plan approval or generated source assets",
+  "source": {
+    "shape": "one filled wide trapezoid with two nonparallel straight sides",
+    "local_source_coordinates": "u=y_source-b; v=x_source-c",
+    "side_equations": "v_left=-a-m*u; v_right=a+m*u",
+    "u_extent_pt": [
+      -64.0,
+      128.0
+    ],
+    "m": 0.25,
+    "contrast_pair_rgb": [
+      [
+        60,
+        60,
+        60
+      ],
+      [
+        190,
+        190,
+        190
+      ]
+    ],
+    "reverse_contrast_with_identical_geometry": true,
+    "base_half_width_a_pt": 20.0,
+    "falsification_half_width_a_pt": 24.0,
+    "alert_proposed_world_anchor_c_b_pt": [
+      187.5,
+      257.5
+    ],
+    "sheet_proposed_world_anchor_c_b_pt": [
+      90.0,
+      317.5
+    ],
+    "anchors_require_actual_contour_and_foreground_eligibility_before_freeze": true
+  },
+  "observables": {
+    "W": "right_edge_x-left_edge_x",
+    "C": "(right_edge_x+left_edge_x)/2",
+    "g": "(W-2*a)/(2*m)",
+    "D": "g-d",
+    "tangent_input_shift_U": "c-C",
+    "g_prime": "W_prime/(2*m)",
+    "g_second": "W_second/(2*m)"
+  },
+  "required_model_condition": "Flat strip with mapping approximately invariant along its tangent; two widths must agree before scalar inversion",
+  "capture_basis": "Keep original 750x1334 pixels / 375x667 world; never register/warp output images",
+  "output_depth_sample_centers_pt": [
+    0.25,
+    19.75,
+    0.5
+  ],
+  "derivative_operator": "Fixed centered secants at h=4pt for g_prime/g_second only where both endpoints are eligible; otherwise report interval slopes at their interval center or unresolved, never an edge derivative extrapolation",
+  "minimum_quantization_floor": {
+    "each_edge_location_pt": 0.25,
+    "g_bound_pt_at_m025": 1.0,
+    "g_prime_bound_h4": 0.25,
+    "g_second_bound_h4_per_pt": 0.25
+  },
+  "gates": [
+    "Freeze every new source PNG hash, its oracle and actual pre-presentation backing capture",
+    "Require clean source/foreground footprint for BOTH sides; do not fill missing edges",
+    "Reuse original contrast/secondary-peak/plateau/location gates, report failures",
+    "Reverse contrast positions must agree within declared uncertainty",
+    "Two widths must yield compatible g and U; disagreement rejects local 1D model",
+    "Retain crossing multiplicity/sign, do not choose nearest correspondence",
+    "No refraction/power fitting if these conditions fail"
+  ],
+  "caveat": "Crossing reversal tests can expose bias but cannot prove an isolated blur kernel; any remaining spatially varying photometric bias keeps g apparent, not physical"
+}

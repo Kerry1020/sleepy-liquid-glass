@@ -1,0 +1,159 @@
+{
+  "schema": 1,
+  "set_id": "sleepy-holdout-20261114-seed20261114",
+  "split": "holdout",
+  "seed": 20261114,
+  "registered_at_utc": "2026-11-14T11:47:44.730206+00:00",
+  "registered_before": "generation of the eight inputs and any native/Android output for this set",
+  "calibration_exclusion": "All previously viewed eight-scene inputs, all earlier phases/crops and stripes/45deg checks are calibration; none is independent holdout.",
+  "frozen_parameters": {
+    "dock_positive_actual_D_pt": 46.5,
+    "dock_actual_b_pt": 15.5,
+    "sheet_style_refraction": 60,
+    "sheet_style_bevel": 20,
+    "sheet_note": "Freeze existing shader clamping and all colors/compositing; style values are not a measurement of native optics."
+  },
+  "frozen_product_source_sha256": {
+    "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "fed973da52e7e6308d8289d6ff828004d04316a1ff849f5225ac4417a1f402be",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt": "43dc91d87ed5c6a427e26aca15902835261041bdf6ede2799d8017003dfad279",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "7dee70c322fd10d8e2281e801b319f4caf0b2e28b70b99cc40e9de8d9fd8b245"
+  },
+  "world": {
+    "width_pt": 375,
+    "height_pt": 667,
+    "pixels_per_pt": 2,
+    "size_px": [
+      750,
+      1334
+    ],
+    "encoding": "8-bit RGB PNG, opaque, embedded sRGB ICC, exact original bytes shared"
+  },
+  "surfaces": [
+    "four-tab SwiftUI TabView REST",
+    "native system medium Sheet REST"
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "inputs": [
+    "h01_horizontal_steps",
+    "h02_chirp_pos",
+    "h03_chirp_neg",
+    "h04_multiscale_checker",
+    "h05_low_contrast_weave",
+    "h06_offcenter_spots",
+    "h07_broad_chroma_gradient",
+    "h08_bandlimited_texture"
+  ],
+  "frequency_coverage": [
+    "Nonperiodic horizontal steps with unequal widths: vertical-normal excitation missing in old vertical stripes.",
+    "+31deg and -47deg diagonal log chirps, periods 96..3pt; independent phases.",
+    "Checker zones at 3,7,19,53pt cell widths with nonlegacy offsets.",
+    "Low-contrast weave: periods 11.3,23.7,67.1pt, small chroma and luminance differences.",
+    "Off-center light/dark Gaussian spots, scales 7..95pt, including oblique edge support.",
+    "Broad nonseparable chroma gradients, scale about 90..300pt.",
+    "Seeded band-limited texture: wavelengths 4..120pt and six independent orientations."
+  ],
+  "capture_contract": {
+    "shared_input": "Verify byte SHA256 before rendering on both platforms; export native original PNG bytes unchanged.",
+    "geometry": "375x667 source at world origin0,0; native iOS26.5 SE3 375x667pt at 2px/pt. Android predeclared wm size750x1334 and density320:375x667dp at 2px/dp. Record actual density/origin; no output-driven registration or scale fitting.",
+    "android_restore": "In a finally block restore wm size with reset and density476; this capture-only override must not remain on the user device.",
+    "rest_repeats": 2,
+    "repeat_spacing_seconds": 0.25,
+    "trace": "Retain session, native effective material theme, window/canvas/control rectangles and per-capture AX.",
+    "no_motion_claim": "REST only; no inference about held/moving control dynamics.",
+    "validity": "Reject missing scenes, input mismatch, unfinished capture, wrong geometry, or interventions that change product parameters."
+  },
+  "analysis_preregistration": {
+    "units": "Pair each candidate/native/baseline by input id, requested theme, effective material state, surface, probe and depth band.",
+    "dock_probes": {
+      "top_bottom_x_pt": [
+        252,
+        268
+      ],
+      "top_y": 584,
+      "bottom_y": 646,
+      "right_cap_center_pt": [
+        323,
+        615
+      ],
+      "nominal_radius_pt": 31,
+      "tip_roi_pt": [
+        326,
+        610,
+        354,
+        620
+      ],
+      "corner_angles_deg": [
+        -45,
+        45
+      ],
+      "corner_boundary_arc_half_width_pt": 4,
+      "corner_min_x_pt": 326.5
+    },
+    "sheet_probes": {
+      "top_bottom_x_pt": [
+        54,
+        70
+      ],
+      "top_y": 317.5,
+      "bottom_y": 659,
+      "left_right_y_pt": [
+        381.5,
+        397.5
+      ],
+      "left_x": 8,
+      "right_x": 367
+    },
+    "depth_bands_pt": [
+      [
+        0.5,
+        2
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        12,
+        20
+      ],
+      [
+        20,
+        26
+      ]
+    ],
+    "primary_metrics": [
+      "linear-sRGB luminance",
+      "Lab DeltaE2000",
+      "edge-normal curves and native contrast/texture attenuation",
+      "input-dependent visible edge/step loci when excitation is sufficient"
+    ],
+    "aggregation": "Report every scene/probe/layer and candidate-minus-baseline change. No single global score can hide a direction/theme/input failure.",
+    "geometry_sensitivity_pt": [
+      -0.5,
+      0,
+      0.5
+    ],
+    "sensitivity_rule": "Keep observed pixels fixed when shifting the nominal contour. Report independent/native-vs-Android placement uncertainty; do not optimize alignment.",
+    "uncertainty": "Two actual REST repeats describe capture variability only, not independent statistical samples. Pixels are spatially correlated; do not invent pixel-count confidence intervals.",
+    "material_mismatch": "Retain mismatches as product behavior and separate their photometric effect from refraction claims; do not force native material to match Android.",
+    "unidentifiable": "Flat or weak/periodic input regions may not identify displacement. Mark insufficient excitation rather than scoring a pass.",
+    "decision_1_absolute_native_alignment": "Report all fixed-cell luminance/DeltaE2000, contour and identifiable transfer residuals with repeat and geometry sensitivity. No single similarity percentage or default absolute pass; retain unmet alignment and missing coverage explicitly.",
+    "decision_2_relative_to_baseline": "Report every scene/role/requested and effective theme/probe/depth cell and candidate-minus-baseline residual. Do not select favorable scenes or average away regressions.",
+    "review_flags": [
+      "candidate worsens median or P95 DeltaE2000 by >1.0 and >10% in a fixed layer/probe, beyond REST repeat and geometry sensitivity",
+      "candidate increases linear-luminance MAE by >0.01 and >10% in a fixed layer/probe, beyond REST repeat and geometry sensitivity",
+      "candidate increases an identifiable source-step/edge-locus error by >0.5pt beyond geometric sensitivity",
+      "new cap islands, vanished transitions, direction asymmetry or high-frequency aliases absent in native"
+    ],
+    "threshold_scope": "Flags are preregistered engineering review triggers, not claims of universal perception thresholds or 99.99% parity.",
+    "coverage_limit": "Eight synthetic backgrounds only. No extrapolation to all photos, controls, sizes or dynamic states. Real scenes, motion/acceleration/overshoot and a size family remain unvalidated.",
+    "freeze_rule": "No parameter changes after viewing this set. Any used-to-tune scene becomes calibration, all failures stay in report, and subsequent validation requires another registered unseen set."
+  }
+}

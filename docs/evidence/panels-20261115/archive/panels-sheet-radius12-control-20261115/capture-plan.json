@@ -1,0 +1,101 @@
+{
+  "build_receipt": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-sheet-radius12-control-build-result.json",
+  "build_receipt_sha256": "01996071fceaceab606d577b8be46b9ece508d158a5c4f3412457444f66f3d19",
+  "manifest": {
+    "schema": 1,
+    "set_id": "panel_nonperiodic_calibration_20261115",
+    "split": "calibration",
+    "inputs": [
+      {
+        "id": "panel_probe_coordinate",
+        "file": "panel_probe_coordinate.png",
+        "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e",
+        "role": "selected_calibration"
+      },
+      {
+        "id": "panel_probe_shapes",
+        "file": "panel_probe_shapes.png",
+        "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149",
+        "role": "selected_calibration"
+      }
+    ],
+    "selected_ids": [
+      "panel_probe_coordinate",
+      "panel_probe_shapes"
+    ],
+    "source_manifest_sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282",
+    "notice": "Android loader accepts2 entries. Same selected native PNG original-byte hashes; six native-only compatibility entries excluded before Android preflight."
+  },
+  "manifest_sha256": "ad1e98f20ffd973f8cb38ca69cdb8c300e06fb22a97128cb69472bc0a0b3c656",
+  "installed": {
+    "com.lingion.sleepy.debug": {
+      "local_path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/debug/app-arm64-v8a-debug.apk",
+      "sha256": "a517a1446f1bf260f5f043e3f431b2baa1e3c8240acdf91468e9dcb3e997eae8",
+      "remote_path": "/data/app/~~6xhvLEBXUHHh2xlycearCQ==/com.lingion.sleepy.debug-9ZIRnOyskL-acwVIUxv9rQ==/base.apk"
+    },
+    "com.lingion.sleepy.debug.test": {
+      "local_path": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/androidTest/debug/app-debug-androidTest.apk",
+      "sha256": "bf660ca314b21e90af98dfbf4deec2e240bee66879fc641ac5514ec971319c4c",
+      "remote_path": "/data/app/~~YVFlZpCkwx1E7dKyOfjdWQ==/com.lingion.sleepy.debug.test-I_e9J3SMZUrzpa_NbQQ2uA==/base.apk"
+    }
+  },
+  "source_sha256": {
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "fe462300bcd94fdde0d22039416cdbad13106b3b2e79aae0fc0d3df0a8878dd1",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt": "3a51a5595fbf63962ccaf8b06dfed6164110b7d983f94ecb8ce54023c6e0f82e",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassEffect.kt": "a46f891c93afd1e90eea0abcb190b146141a284b77af97389efb8feaa8bbdfd0",
+    "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "80fc9cbfa6f29631084556de2e2b5073c29b0716a9c8ac8eb937f088d190275f",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeDockOpticalWorldRenderTest.kt": "e0e25da812e03d6a97eb52f12aca1dcfb8612b8785ae7e1f8e6d67889491adb8",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassNavigationBar.kt": "f48da9dad35ada4c34a48d9c9473a6689d04e4587696392f24a6216cf3a2e188",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeGlassParityCaptureTest.kt": "7bd4255c53a7ff606e9d4c80403107f5e6141b35593780b2b20dc6f4b7c77f62",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassOverlays.kt": "2e4bdf5a6158955b474ff60cf16606c38665e36b8e85c66b38de6b927ba21632",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassControlModifier.kt": "8be11d1cf3f14e0ea9798c00e44918cd7c31f9c17c01340406cb9e56d4a97f0a",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGeometry.kt": "2d7e1b79440149cffb9c71151e0a557a2a6ec14cb184bd78492d5b10fae9cff4",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputBlur.kt": "06e97f0184c81d9eb34894a9997e78dd3ff0e0d8f72951b3cac0b6337bf6b045",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputGeometry.kt": "6842a8fb57e6520621a250c4281d969f892bb8153bbb2115f1b872bfc5dde368",
+    "third-party/kyant-backdrop/src/commonMain/kotlin/com/kyant/backdrop/BackdropEffectScope.kt": "2c4f3cd5632a4fc4c40f84449edaacbe81f09c9f1276c81c3002719606978157",
+    "third-party/kyant-backdrop/src/commonMain/kotlin/com/kyant/backdrop/DrawBackdropModifier.kt": "712eba6b69b9d758dc733484a8cfdc102c7c8c96cd6a31eca4135c90e60aacd1"
+  },
+  "argv": [
+    "/Users/kerrylee/Library/Android/sdk/platform-tools/adb",
+    "-s",
+    "d3efcd6a",
+    "shell",
+    "am",
+    "instrument",
+    "-w",
+    "-r",
+    "-e",
+    "class",
+    "com.lingion.sleepy.ui.component.NativeGlassParityCaptureTest#captureStaticOpticalBackgroundMatrix",
+    "-e",
+    "glassStaticCapture",
+    "true",
+    "-e",
+    "glassStaticExternalInputsDirectory",
+    "panel-calibration-20261115",
+    "-e",
+    "glassStaticNativeCanvas",
+    "true",
+    "-e",
+    "glassStaticSheetContentHeightDp",
+    "277.3",
+    "-e",
+    "glassStaticBackgrounds",
+    "panel_probe_coordinate,panel_probe_shapes",
+    "-e",
+    "glassStaticThemes",
+    "light",
+    "-e",
+    "glassStaticSurfaces",
+    "share_sheet,alert",
+    "-e",
+    "glassStaticStates",
+    "rest",
+    "-e",
+    "glassStaticRunId",
+    "panels-sheet-radius12-control-20261115",
+    "com.lingion.sleepy.debug.test/com.lingion.sleepy.SleepyRenderTestRunner"
+  ],
+  "expected_count": 4,
+  "purpose": "Nonperiodic static calibration feasibility; no parity acceptance. Source PNGs match native originals; backing live UI differs and is separately audited."
+}

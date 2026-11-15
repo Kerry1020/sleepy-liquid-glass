@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "status": "BOUNDED PLAN/SCHEMA FREEZE ONLY \u2014 no collection/execution/pass; algorithm implementation deferred",
+  "files_sha256": {
+    "analysis-plan.json": "ee56e7a1ec61b415379a6689c40a412477e26b61a05b8c20dbc1926886a30f21",
+    "capture-handoff.schema.json": "cce44bb099f39069cfe75a235fd1121dbb2f536fb9d3408f5d2f3697518c4952",
+    "README.md": "cd03f4e3ffade226831e8670522e8d768b5a87aa09d774b8943e3ade76a77b93"
+  },
+  "new_capture_images_decoded": 0,
+  "source_PNG_decode_during_this_preparation": false
+}

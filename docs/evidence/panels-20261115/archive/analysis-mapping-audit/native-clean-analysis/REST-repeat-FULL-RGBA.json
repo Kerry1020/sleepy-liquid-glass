@@ -1,0 +1,134 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "scope": "ENTIRE750x1334 RGBA; no mask/crop/tolerance",
+    "raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "scope": "ENTIRE750x1334 RGBA; no mask/crop/tolerance",
+    "raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "scope": "ENTIRE750x1334 RGBA; no mask/crop/tolerance",
+    "raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "scope": "ENTIRE750x1334 RGBA; no mask/crop/tolerance",
+    "raw_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    },
+    "normalized_sRGB_RGBA": {
+      "pixels": 1000500,
+      "changed_RGBA_pixels": 0,
+      "max_channel_delta": 0,
+      "mean_absolute_channel_delta": 0.0,
+      "q95_absolute_channel_delta": 0.0,
+      "changed_pixels_by_channel_RGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strict_all_channels_exact_zero": true
+    }
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "track": "corner",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_body8": 0,
+    "new0_channels_vs_body8": 0,
+    "rows_with_new255_vs_body8": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "track": "straight",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_body8": 0,
+    "new0_channels_vs_body8": 0,
+    "rows_with_new255_vs_body8": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "track": "corner",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_body8": 0,
+    "new0_channels_vs_body8": 0,
+    "rows_with_new255_vs_body8": []
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "track": "straight",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_body8": 0,
+    "new0_channels_vs_body8": 0,
+    "rows_with_new255_vs_body8": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "track": "corner",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_body8": 0,
+    "new0_channels_vs_body8": 0,
+    "rows_with_new255_vs_body8": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "track": "straight",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_body8": 92,
+    "new0_channels_vs_body8": 0,
+    "rows_with_new255_vs_body8": [
+      {
+        "input": "panel_probe_shapes",
+        "carrier": "alert",
+        "track": "straight",
+        "segment": "left",
+        "distance_pt": 0.25,
+        "masked_pixels": 0,
+        "pixel_count": 62,
+        "candidate_new_255_vs_baseline_channels": [
+          62,
+          0,
+          0
+        ],
+        "candidate_new_255_vs_baseline_any_pixels": 62,
+        "candidate_new_255_vs_native_channels": [
+          62,
+          0,
+          0
+        ],
+        "candidate_new_255_vs_native_any_pixels": 62,
+        "candidate_new_0_vs_baseline_channels": [
+          0,
+          0,
+          0
+        ],
+        "candidate_new_0_vs_baseline_any_pixels": 0,
+        "candidate_new_0_vs_native_channels": [
+          0,
+          0,
+          0
+        ],
+        "candidate_new_0_vs_native_any_pixels": 0
+      },
+      {
+        "input": "panel_probe_shapes",
+        "carrier": "alert",
+        "track": "straight",
+        "segment": "left",
+        "distance_pt": 0.75,
+        "masked_pixels": 0,
+        "pixel_count": 62,
+        "candidate_new_255_vs_baseline_channels": [
+          30,
+          0,
+          0
+        ],
+        "candidate_new_255_vs_baseline_any_pixels": 30,
+        "candidate_new_255_vs_native_channels": [
+          30,
+          0,
+          0
+        ],
+        "candidate_new_255_vs_native_any_pixels": 30,
+        "candidate_new_0_vs_baseline_channels": [
+          0,
+          0,
+          0
+        ],
+        "candidate_new_0_vs_baseline_any_pixels": 0,
+        "candidate_new_0_vs_native_channels": [
+          0,
+          0,
+          0
+        ],
+        "candidate_new_0_vs_native_any_pixels": 0
+      }
+    ]
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "track": "corner",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_body8": 0,
+    "new0_channels_vs_body8": 0,
+    "rows_with_new255_vs_body8": []
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "track": "straight",
+    "scope": "original inward-only fixed samples; overlaps retained, not unique pixel total",
+    "new255_channels_vs_body8": 0,
+    "new0_channels_vs_body8": 0,
+    "rows_with_new255_vs_body8": []
+  }
+]

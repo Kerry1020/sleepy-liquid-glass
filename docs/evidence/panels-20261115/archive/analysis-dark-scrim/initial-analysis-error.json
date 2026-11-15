@@ -1,0 +1,4 @@
+{
+  "status": "analysis_failed_before_output",
+  "reason": "Used screen coordinates directly on smaller Alert Window array, causing empty ROI. Reanalysis uses observed captured_surface_screen_rect_px to map to the named Window; no image transform or tolerance change."
+}

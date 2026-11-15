@@ -1,0 +1,241 @@
+{
+  "status": "current fixture invalidates proposed central clean-source assumption",
+  "scope": "existing nonperiodic source/before-context pairs only; proposal images not presented",
+  "source_footprint_not_native_bound": true,
+  "observations": [
+    {
+      "input": "panel_probe_coordinate",
+      "before_alert_attachment": {
+        "configurationName": "Test Scheme Action",
+        "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+        "deviceName": "Sleepy alignment small phone",
+        "exportedFileName": "CC3F9BE7-2C82-4C11-87CA-5AC5B666EC1C.png",
+        "isAssociatedWithFailure": false,
+        "suggestedHumanReadableName": "panel-feasibility-panel_nonperiodic_calibration_20261115-panel_probe_coordinate-light-before-alert-context_0_A6D61455-33FD-47FA-9CF2-E1C19877169B.png",
+        "timestamp": 1794716039.561
+      },
+      "before_decode": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/CC3F9BE7-2C82-4C11-87CA-5AC5B666EC1C.png",
+        "sha256": "c6d12bb84b39b4aa780d06d771de37a96bf45b90b352303936b3639e48dcfb18",
+        "raw_normalized_identical": true,
+        "max_raw_normalized_channel_delta": 0,
+        "size_px": [
+          750,
+          1334
+        ],
+        "mode": "RGB"
+      },
+      "source_decode": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/panel_probe_coordinate.png",
+        "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e",
+        "raw_normalized_identical": true,
+        "max_raw_normalized_channel_delta": 0,
+        "size_px": [
+          750,
+          1334
+        ],
+        "mode": "RGB"
+      },
+      "before_alert_AX_controls": [
+        {
+          "identifier": "reference-title",
+          "ltrb_pt": [
+            20.0,
+            30.0,
+            355.0,
+            54.0
+          ]
+        },
+        {
+          "identifier": "background-selector",
+          "ltrb_pt": [
+            20.0,
+            64.0,
+            355.0,
+            95.0
+          ]
+        },
+        {
+          "identifier": "scene-selector",
+          "ltrb_pt": [
+            20.0,
+            108.0,
+            355.0,
+            139.0
+          ]
+        },
+        {
+          "identifier": "show-sheet",
+          "ltrb_pt": [
+            126.5,
+            286.0,
+            249.0,
+            319.5
+          ]
+        },
+        {
+          "identifier": "show-alert",
+          "ltrb_pt": [
+            130.0,
+            345.5,
+            245.0,
+            379.0
+          ]
+        },
+        {
+          "identifier": "show-menu",
+          "ltrb_pt": [
+            126.5,
+            405.0,
+            249.0,
+            438.5
+          ]
+        },
+        {
+          "identifier": "uikit-tabbar",
+          "ltrb_pt": [
+            12.0,
+            572.0,
+            363.0,
+            655.0
+          ]
+        }
+      ],
+      "fixed_diagnostic_regions": {
+        "fixed_proposed_corridor": {
+          "pixels": 18720,
+          "pixels_any_exact_RGB_difference": 18697,
+          "max_channel_difference": 212,
+          "mean_absolute_channel_difference": 39.34150641025641,
+          "q95_absolute_channel_difference": 113.0,
+          "meaning": "descriptive existing context/source difference, no optical threshold or clean-source acceptance"
+        },
+        "corridor_intersection_show_sheet_AX": {
+          "pixels": 9828,
+          "pixels_any_exact_RGB_difference": 9828,
+          "max_channel_difference": 212,
+          "mean_absolute_channel_difference": 72.29585537918871,
+          "q95_absolute_channel_difference": 120.0,
+          "meaning": "descriptive existing context/source difference, no optical threshold or clean-source acceptance"
+        }
+      }
+    },
+    {
+      "input": "panel_probe_shapes",
+      "before_alert_attachment": {
+        "configurationName": "Test Scheme Action",
+        "deviceId": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+        "deviceName": "Sleepy alignment small phone",
+        "exportedFileName": "1FE30ED3-6756-49FB-9FD1-92E0FCC122AA.png",
+        "isAssociatedWithFailure": false,
+        "suggestedHumanReadableName": "panel-feasibility-panel_nonperiodic_calibration_20261115-panel_probe_shapes-light-before-alert-context_0_F19DD7EB-57A8-4F96-A99B-9A1EC47A8D89.png",
+        "timestamp": 1794716059.501
+      },
+      "before_decode": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/1FE30ED3-6756-49FB-9FD1-92E0FCC122AA.png",
+        "sha256": "1ba81da37730ce929fa0e9f7ab898ad94c6405a485a0fd4e464e5303bb1b32aa",
+        "raw_normalized_identical": true,
+        "max_raw_normalized_channel_delta": 0,
+        "size_px": [
+          750,
+          1334
+        ],
+        "mode": "RGB"
+      },
+      "source_decode": {
+        "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/panel_probe_shapes.png",
+        "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149",
+        "raw_normalized_identical": true,
+        "max_raw_normalized_channel_delta": 0,
+        "size_px": [
+          750,
+          1334
+        ],
+        "mode": "RGB"
+      },
+      "before_alert_AX_controls": [
+        {
+          "identifier": "reference-title",
+          "ltrb_pt": [
+            20.0,
+            30.0,
+            355.0,
+            54.0
+          ]
+        },
+        {
+          "identifier": "background-selector",
+          "ltrb_pt": [
+            20.0,
+            64.0,
+            355.0,
+            95.0
+          ]
+        },
+        {
+          "identifier": "scene-selector",
+          "ltrb_pt": [
+            20.0,
+            108.0,
+            355.0,
+            139.0
+          ]
+        },
+        {
+          "identifier": "show-sheet",
+          "ltrb_pt": [
+            126.5,
+            286.0,
+            249.0,
+            319.5
+          ]
+        },
+        {
+          "identifier": "show-alert",
+          "ltrb_pt": [
+            130.0,
+            345.5,
+            245.0,
+            379.0
+          ]
+        },
+        {
+          "identifier": "show-menu",
+          "ltrb_pt": [
+            126.5,
+            405.0,
+            249.0,
+            438.5
+          ]
+        },
+        {
+          "identifier": "uikit-tabbar",
+          "ltrb_pt": [
+            12.0,
+            572.0,
+            363.0,
+            655.0
+          ]
+        }
+      ],
+      "fixed_diagnostic_regions": {
+        "fixed_proposed_corridor": {
+          "pixels": 18720,
+          "pixels_any_exact_RGB_difference": 18408,
+          "max_channel_difference": 184,
+          "mean_absolute_channel_difference": 27.896883903133904,
+          "q95_absolute_channel_difference": 49.0,
+          "meaning": "descriptive existing context/source difference, no optical threshold or clean-source acceptance"
+        },
+        "corridor_intersection_show_sheet_AX": {
+          "pixels": 9828,
+          "pixels_any_exact_RGB_difference": 9828,
+          "max_channel_difference": 184,
+          "mean_absolute_channel_difference": 50.05857414190748,
+          "q95_absolute_channel_difference": 58.0,
+          "meaning": "descriptive existing context/source difference, no optical threshold or clean-source acceptance"
+        }
+      }
+    }
+  ]
+}

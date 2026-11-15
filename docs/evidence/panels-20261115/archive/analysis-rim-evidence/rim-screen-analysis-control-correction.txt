@@ -1,0 +1,1 @@
+The first export pass used the old script default Sheet12 reference. It was not a claimed control result. Before reporting, the Sheet reference was corrected to the predeclared same-source radius10 batch; Alert references, candidate, geometry, masks, thresholds and parameters unchanged. All final rim-screen outputs were regenerated with the corrected control selection.

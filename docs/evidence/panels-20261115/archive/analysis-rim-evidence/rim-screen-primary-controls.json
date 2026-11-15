@@ -1,0 +1,90 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "neutral_top_rect_screen_px": [
+      280,
+      503,
+      470,
+      539
+    ],
+    "neutral_top_full_declared_display_rgba": {
+      "channels": 27360,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "neutral_top_window_intersection_rect_screen_px": [
+      280,
+      509,
+      470,
+      539
+    ],
+    "neutral_top_window_intersection_rgba": {
+      "channels": 22800,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "unavailable_window_rows_screen_px_half_open": [
+      503,
+      509
+    ],
+    "window_coverage_limit": "Prescribed6 exterior rows503..<509 fall outside actual Window; original coordinates retained and full segment separately checked in display, no synthetic Window padding.",
+    "first4_top_rows_window_rgba": {
+      "channels": 3040,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "radius10_alert_vs_additive_window_rgba": {
+      "channels": 936992,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "neutral_top_rect_screen_px": [
+      280,
+      503,
+      470,
+      539
+    ],
+    "neutral_top_full_declared_display_rgba": {
+      "channels": 27360,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "neutral_top_window_intersection_rect_screen_px": [
+      280,
+      509,
+      470,
+      539
+    ],
+    "neutral_top_window_intersection_rgba": {
+      "channels": 22800,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "unavailable_window_rows_screen_px_half_open": [
+      503,
+      509
+    ],
+    "window_coverage_limit": "Prescribed6 exterior rows503..<509 fall outside actual Window; original coordinates retained and full segment separately checked in display, no synthetic Window padding.",
+    "first4_top_rows_window_rgba": {
+      "channels": 3040,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "radius10_alert_vs_additive_window_rgba": {
+      "channels": 936992,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    }
+  }
+]

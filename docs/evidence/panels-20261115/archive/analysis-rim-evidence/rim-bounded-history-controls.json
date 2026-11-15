@@ -1,0 +1,680 @@
+{
+  "strict_controls_all_zero": true,
+  "raw_equals_icc": true,
+  "baseline": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115",
+  "candidate": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115",
+  "rows": [
+    {
+      "input": "fine_grid",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "expected_unchanged": true,
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 23072,
+        "max_abs": 255.0,
+        "mean_abs": 0.5760929535232384,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-light-share_sheet-rest-window.png",
+          "sha256": "832a10ebd3983dcf73976e3695e66142ece69fed1768149739109f907e3828cc"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/fine_grid-light-share_sheet-rest-window.png",
+          "sha256": "832a10ebd3983dcf73976e3695e66142ece69fed1768149739109f907e3828cc"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-light-share_sheet-rest-screen.png",
+          "sha256": "3ff7ef74fccec2a5a4f49b86db63bf3b7f9eeba0db59adf5159fcd57e94084ba"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/fine_grid-light-share_sheet-rest-screen.png",
+          "sha256": "2267af698ba2f2c638e552582e90fa521334e6aef13a9ba0b5e2c72ee3c6d2d9"
+        }
+      }
+    },
+    {
+      "input": "fine_grid",
+      "theme": "light",
+      "carrier": "alert",
+      "expected_unchanged": false,
+      "actual_window": {
+        "changed_channels": 174919,
+        "max_abs": 127.0,
+        "mean_abs": 0.4278435675011099,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 174190,
+        "max_abs": 91.0,
+        "mean_abs": 0.09378150572831424,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 197102,
+        "max_abs": 255.0,
+        "mean_abs": 0.3996744127936032,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-light-alert-rest-window.png",
+          "sha256": "dd7fdc05b42c3551efbaa21ac89597204e69a88383b74e68b0d842788b3ab282"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/fine_grid-light-alert-rest-window.png",
+          "sha256": "6a4a14240bf65cc9acf6763f5e05046fc23760b4f77435bc44ac18dbb2c87d19"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-light-alert-rest-screen.png",
+          "sha256": "d100971c41a1871eb67b421b329c291825a700026c9e946e06409c0678993cea"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/fine_grid-light-alert-rest-screen.png",
+          "sha256": "b439f58f90fd5e3c8f022fb4568980e5e9908e2db4f060248ed775044f6f5d43"
+        }
+      }
+    },
+    {
+      "input": "color_stripes",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "expected_unchanged": true,
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 21384,
+        "max_abs": 255.0,
+        "mean_abs": 0.4763945527236382,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-light-share_sheet-rest-window.png",
+          "sha256": "9dab9b2457e821a435317684f7b24ceebc673f48d6e7c5e612d1345df9a84333"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/color_stripes-light-share_sheet-rest-window.png",
+          "sha256": "9dab9b2457e821a435317684f7b24ceebc673f48d6e7c5e612d1345df9a84333"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-light-share_sheet-rest-screen.png",
+          "sha256": "87bf03532cb98b9d2db1e87edd09857db4f49ad21a41059f2c653a1c19cdd787"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/color_stripes-light-share_sheet-rest-screen.png",
+          "sha256": "04699383d6b1efd742788fa0b7b2e049c09a8b8314171369e673c6536ce949ed"
+        }
+      }
+    },
+    {
+      "input": "color_stripes",
+      "theme": "light",
+      "carrier": "alert",
+      "expected_unchanged": false,
+      "actual_window": {
+        "changed_channels": 525265,
+        "max_abs": 127.0,
+        "mean_abs": 2.7938691045387793,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 524444,
+        "max_abs": 80.0,
+        "mean_abs": 0.7003385160938352,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 548663,
+        "max_abs": 255.0,
+        "mean_abs": 1.1597668665667167,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-light-alert-rest-window.png",
+          "sha256": "66c5f63517192f3372642f5ad2d6230129e9231c2eca687302d47b5b58333f5a"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/color_stripes-light-alert-rest-window.png",
+          "sha256": "15613d206d2dfc2b374e852ec8210efb6ae794c7516e87d246075af0183838fd"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-light-alert-rest-screen.png",
+          "sha256": "55717d66ca0fa3be6890e9981a50657e36f9eecc4cf096faf00caf37edf34ec4"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/color_stripes-light-alert-rest-screen.png",
+          "sha256": "65a00e503d90d0326037652e161917581e037e31c0ce13110971886f453bdcfe"
+        }
+      }
+    },
+    {
+      "input": "tonal_blocks",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "expected_unchanged": true,
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 23779,
+        "max_abs": 255.0,
+        "mean_abs": 0.42340104947526236,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-light-share_sheet-rest-window.png",
+          "sha256": "23d0673eb9ccd6b38b49e3f62290249ff90fb525fa989909e7fdf09f7977b74b"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/tonal_blocks-light-share_sheet-rest-window.png",
+          "sha256": "23d0673eb9ccd6b38b49e3f62290249ff90fb525fa989909e7fdf09f7977b74b"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-light-share_sheet-rest-screen.png",
+          "sha256": "ff46f01a83bd7bb6afcca941014b80d3d7201da1fb4b3d76a2de423543367906"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/tonal_blocks-light-share_sheet-rest-screen.png",
+          "sha256": "6a8cecef96b1ae3f6a79145c24c2392f6f7c691208d12267d8a0a657616708d1"
+        }
+      }
+    },
+    {
+      "input": "tonal_blocks",
+      "theme": "light",
+      "carrier": "alert",
+      "expected_unchanged": false,
+      "actual_window": {
+        "changed_channels": 369349,
+        "max_abs": 127.0,
+        "mean_abs": 1.9652547727195109,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 368570,
+        "max_abs": 93.0,
+        "mean_abs": 0.48773404255319147,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 394140,
+        "max_abs": 255.0,
+        "mean_abs": 1.1556939030484759,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-light-alert-rest-window.png",
+          "sha256": "d6c20b14d7cc0940d3cca2828e35417df3540ea21fa5f71e5b06c513b309c5f3"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/tonal_blocks-light-alert-rest-window.png",
+          "sha256": "47718f969b77c88d4a22a2db9d45f8275d5068706ae260a57d2a394e12df93a5"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-light-alert-rest-screen.png",
+          "sha256": "2a26db0aacbdca6c65e16aca58c35608961b85cd071ca64ad0656944b778a6ad"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/tonal_blocks-light-alert-rest-screen.png",
+          "sha256": "01453091b435112531dcbf64ecb0dd1bd8f672da000de670458c9897fa5dc049"
+        }
+      }
+    },
+    {
+      "input": "synthetic_landscape",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "expected_unchanged": true,
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 25440,
+        "max_abs": 255.0,
+        "mean_abs": 0.5124332833583208,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-light-share_sheet-rest-window.png",
+          "sha256": "74d38b7e4570b08223d40361b553bcf318899bdce833aa8d0e0b77ba6e30caf3"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/synthetic_landscape-light-share_sheet-rest-window.png",
+          "sha256": "74d38b7e4570b08223d40361b553bcf318899bdce833aa8d0e0b77ba6e30caf3"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-light-share_sheet-rest-screen.png",
+          "sha256": "d7f403a7aa29965d18bdf96669edc08cbff3aa9050bb43a455e0097e04f4bef7"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/synthetic_landscape-light-share_sheet-rest-screen.png",
+          "sha256": "01b4ffaa3982ffac4145dccaf60a082da6910d13b67c5a5a071ea4ed7a665fa5"
+        }
+      }
+    },
+    {
+      "input": "synthetic_landscape",
+      "theme": "light",
+      "carrier": "alert",
+      "expected_unchanged": false,
+      "actual_window": {
+        "changed_channels": 281068,
+        "max_abs": 255.0,
+        "mean_abs": 0.5940530975718042,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 280271,
+        "max_abs": 79.0,
+        "mean_abs": 0.13700681942171303,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 305783,
+        "max_abs": 255.0,
+        "mean_abs": 0.7078145927036482,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-light-alert-rest-window.png",
+          "sha256": "7ffd3c5dbd632192f9e7446c56125556ad6b5bfa08d39e73fdf27879e2ec1bab"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/synthetic_landscape-light-alert-rest-window.png",
+          "sha256": "9b866d8cf4dcc9da0333d838ccbe313a5a0ad77deb9b14c71769da76b745012c"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-light-alert-rest-screen.png",
+          "sha256": "dce77b32270d3067a4e2ba565e8b33e1e44d56272abd85633cece800cbbc9694"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/synthetic_landscape-light-alert-rest-screen.png",
+          "sha256": "637bb5ae6c02060626a104c24b83676f0123366c43785ac8a55b7599888f27fc"
+        }
+      }
+    },
+    {
+      "input": "fine_grid",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "expected_unchanged": true,
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 25638,
+        "max_abs": 255.0,
+        "mean_abs": 0.49095927036481757,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-dark-share_sheet-rest-window.png",
+          "sha256": "91c743195b7f141b96a22a83aaddb45462c1cff81e15d3edec5eea2c6c4681cc"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/fine_grid-dark-share_sheet-rest-window.png",
+          "sha256": "91c743195b7f141b96a22a83aaddb45462c1cff81e15d3edec5eea2c6c4681cc"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-dark-share_sheet-rest-screen.png",
+          "sha256": "d61915b3ed58aeb8c7f44fff4f07f5621bd9646ab301b1bb86cf186d4f31ebef"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/fine_grid-dark-share_sheet-rest-screen.png",
+          "sha256": "d1f0ec9559573767f78b6c81bec662df15ace856727106eed69d8d9d983a2838"
+        }
+      }
+    },
+    {
+      "input": "fine_grid",
+      "theme": "dark",
+      "carrier": "alert",
+      "expected_unchanged": true,
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 25519,
+        "max_abs": 255.0,
+        "mean_abs": 0.5143460769615192,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-dark-alert-rest-window.png",
+          "sha256": "96d959e87302745b8e14d8744991a2301e06752a7cdab97dec8825ef9dcf25cd"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/fine_grid-dark-alert-rest-window.png",
+          "sha256": "96d959e87302745b8e14d8744991a2301e06752a7cdab97dec8825ef9dcf25cd"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/fine_grid-dark-alert-rest-screen.png",
+          "sha256": "61bd148fa3bfd1b3844c314aa574dff1e1b42e25d19622e5e32a9ff427f4e952"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/fine_grid-dark-alert-rest-screen.png",
+          "sha256": "e1ff58bdd9271a56ac085ca3889e645338c212077bd6ac47b4d319b70f8a90aa"
+        }
+      }
+    },
+    {
+      "input": "color_stripes",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "expected_unchanged": true,
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 25498,
+        "max_abs": 255.0,
+        "mean_abs": 0.6474745127436282,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-dark-share_sheet-rest-window.png",
+          "sha256": "9084ed98296c0c9fc4c832edbe1731c5803bb9be36c3718a0da90347033ce044"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/color_stripes-dark-share_sheet-rest-window.png",
+          "sha256": "9084ed98296c0c9fc4c832edbe1731c5803bb9be36c3718a0da90347033ce044"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-dark-share_sheet-rest-screen.png",
+          "sha256": "bc2fdf38b4220c5b160c593cd31c73bb60b0cb9199054866f8c903fbffa760f1"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/color_stripes-dark-share_sheet-rest-screen.png",
+          "sha256": "d7e84af8998eacb027c178ceb0bc19afb13278f17b065665b7232f00fbc145a9"
+        }
+      }
+    },
+    {
+      "input": "color_stripes",
+      "theme": "dark",
+      "carrier": "alert",
+      "expected_unchanged": true,
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 25600,
+        "max_abs": 255.0,
+        "mean_abs": 0.6477011494252873,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-dark-alert-rest-window.png",
+          "sha256": "002428116e3e26808f7b0c8a3838f4fdbe309a7a5ea83c88c1a544628677cb3f"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/color_stripes-dark-alert-rest-window.png",
+          "sha256": "002428116e3e26808f7b0c8a3838f4fdbe309a7a5ea83c88c1a544628677cb3f"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/color_stripes-dark-alert-rest-screen.png",
+          "sha256": "a8a7bfc373d5f7021e069c33edecd6a97be44086ca56acf709a89eecf71f2251"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/color_stripes-dark-alert-rest-screen.png",
+          "sha256": "505b4d9c039080389004d423bfd37b3222bf541da3cdc916bef10dd10b5f1f86"
+        }
+      }
+    },
+    {
+      "input": "tonal_blocks",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "expected_unchanged": true,
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 25610,
+        "max_abs": 255.0,
+        "mean_abs": 0.7548230884557721,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-dark-share_sheet-rest-window.png",
+          "sha256": "c21a140d90e6f29d4ebb3c7d747e97521f1114c25f41cd2e45f53929b241475e"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/tonal_blocks-dark-share_sheet-rest-window.png",
+          "sha256": "c21a140d90e6f29d4ebb3c7d747e97521f1114c25f41cd2e45f53929b241475e"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-dark-share_sheet-rest-screen.png",
+          "sha256": "c7160d49cfc8ad7909ee54b4235ee73fd02c4fba067626270faf551f07f53740"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/tonal_blocks-dark-share_sheet-rest-screen.png",
+          "sha256": "10f8ac12bb6a760373034a709eb40344972a9efc44a0c72cb383a1cb14cb5191"
+        }
+      }
+    },
+    {
+      "input": "tonal_blocks",
+      "theme": "dark",
+      "carrier": "alert",
+      "expected_unchanged": true,
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 24990,
+        "max_abs": 255.0,
+        "mean_abs": 0.723948275862069,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-dark-alert-rest-window.png",
+          "sha256": "776e4960f658fa80a82c6d37896b6f6d4ce1d375825b29db214b5bd937003b0b"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/tonal_blocks-dark-alert-rest-window.png",
+          "sha256": "776e4960f658fa80a82c6d37896b6f6d4ce1d375825b29db214b5bd937003b0b"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/tonal_blocks-dark-alert-rest-screen.png",
+          "sha256": "207b76ace935e28e9fa34f56bf2aa48e99c94a2819fd9dbc4c502c680dde0dd1"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/tonal_blocks-dark-alert-rest-screen.png",
+          "sha256": "d3e892e00e8e81bae09dac92f22635dcb7c7af9d506903d4864fbc241a7692a8"
+        }
+      }
+    },
+    {
+      "input": "synthetic_landscape",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "expected_unchanged": true,
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 4002000
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 24955,
+        "max_abs": 255.0,
+        "mean_abs": 0.6370069965017491,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-dark-share_sheet-rest-window.png",
+          "sha256": "ba9259eace3cde0762092770f97de120c8dca834059a14c483e3c5a9f346b297"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/synthetic_landscape-dark-share_sheet-rest-window.png",
+          "sha256": "ba9259eace3cde0762092770f97de120c8dca834059a14c483e3c5a9f346b297"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-dark-share_sheet-rest-screen.png",
+          "sha256": "014f1c771bbe3ac93b2cdca87df5c5726c26a5367b42f90f1c8bbcc0b58387d1"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/synthetic_landscape-dark-share_sheet-rest-screen.png",
+          "sha256": "4da7e2e859e9cf681c2cfe0e616245c2c5072ddcadc09bd5f93dbd7a3bc1e066"
+        }
+      }
+    },
+    {
+      "input": "synthetic_landscape",
+      "theme": "dark",
+      "carrier": "alert",
+      "expected_unchanged": true,
+      "actual_window": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 936992
+      },
+      "visible_app_screen": {
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0,
+        "samples": 3666000
+      },
+      "full_screen": {
+        "changed_channels": 24033,
+        "max_abs": 255.0,
+        "mean_abs": 0.6050102448775612,
+        "samples": 4002000
+      },
+      "paths": {
+        "baseline_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-dark-alert-rest-window.png",
+          "sha256": "027dcc751a0ba7acff43b80c23808074e4248ce1d24a4cf3731992d75ccc3f45"
+        },
+        "candidate_window": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/synthetic_landscape-dark-alert-rest-window.png",
+          "sha256": "027dcc751a0ba7acff43b80c23808074e4248ce1d24a4cf3731992d75ccc3f45"
+        },
+        "baseline_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-dark-scrim-20261115/synthetic_landscape-dark-alert-rest-screen.png",
+          "sha256": "f0a98dc9f662ad43e07c0536c6b702a2ae881ad9c26b13e7f57d0b952b450f97"
+        },
+        "candidate_screen": {
+          "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-alert-rim-bounded-history-20261115/synthetic_landscape-dark-alert-rest-screen.png",
+          "sha256": "343cf4d5b0bac2328b465786eed5266256c6ef491d76977a0575434778978e8c"
+        }
+      }
+    }
+  ]
+}

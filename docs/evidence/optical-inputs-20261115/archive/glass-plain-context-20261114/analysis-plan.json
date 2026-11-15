@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "analysis_context": "plain-scroll-static-calibration-v1",
+  "registered_utc": "2026-11-14T13:42:31.879951+00:00",
+  "status": "registered; full matrix and strict index still pending",
+  "method_reuse": {
+    "script": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/analysis/analyze_calibration.py",
+    "sha256": "c4f83d787111735e21808c6c94fc34b1e7b36ecf126ccf74f50d4bb1f50c7f31",
+    "frozen_analysis_sha256": "2474b50cf772f4e01f077d259c62b162597e755035b8659dd3630eb6cc251331",
+    "analysis_protocol_sha256": "75473886aa268fd4b221584ad76caf21869a152813be9aa535ecafedd07f8fc1",
+    "policy": "Use exact existing frozen calibration analyzer without modifying formulas, thresholds, masks, color handling or regions. Supply new independent plain-scroll index; preserve earlier synthetic-scroll results."
+  },
+  "capture_plan_r2_sha256": "5cd2475c1e4ae71fb5a38d08b36695e61c689b39d8c15948e4fc6c40247cc5de",
+  "source_manifest_sha256": "4f69c2f5ca826fbddf31f04ca429d377ce329408fe65761692546790c9b4ff75",
+  "reused_android_result": {
+    "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-isolated-shapes-20261114/android-candidate-calibration/result.json",
+    "sha256": "eb8d14bc5eb28f693b2d76344bd89d1ce8962b3abdbb1c75e011c209d80a2655",
+    "recapture": false
+  },
+  "planned_native_scene_count": 16,
+  "preinspection": {
+    "actual_native_outputs_preinspected": [
+      "ic01_circle_top_control-light REST/repeat",
+      "ic01_circle_top_shape-light REST/repeat"
+    ],
+    "scope": "Feasibility image review and fixed unoccluded ROI only, documented in foreground-review.json; this is calibration, not a blinded independent test."
+  },
+  "index_gate": "New native method, fixture hashes, plain-scroll config, no touch, parent/scroll geometry and stable identities; fixed statusbar and full actual one-test/sixteen-session completeness must pass before analysis.",
+  "comparison_policy": "Report paired conditional responses and absolute control/shape errors at fixed observed pixels. Preserve effective themes, nominal-layer labels, uncertainty and all failures. No gain fit, scene registration or timing correction.",
+  "limits": [
+    "Native symbols, labels and system parent remain different from Android.",
+    "Hiding page text reduces a known context difference; does not establish equal private material adaptation.",
+    "Conditional difference is not a unique physical thickness or shader inversion.",
+    "No dynamic, multi-size or product-acceptance claim.",
+    "No held-out capture is opened."
+  ]
+}

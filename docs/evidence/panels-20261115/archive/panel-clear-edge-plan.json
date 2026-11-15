@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "kind": "clearer-edge-input-root-cause-candidate",
+  "hypothesis": "The current shared body preblur prevents the existing negative rimBlur request from recovering source detail. Supply a genuinely minimum-blurred input, complete residual blur per pixel, and maintain body frost for tone-reference taps.",
+  "change": {
+    "alert_rimBlur": -8,
+    "sheet_rimBlur": -6,
+    "refraction": 60,
+    "all_other_style_fields": "unchanged",
+    "native_fit_claim": false
+  },
+  "registered_checks": [
+    "pure input-blur plan tests + existing modal scrim tests",
+    "4 identical nonperiodic calibration REST with frozen transects/ROIs",
+    "then historical 16 REST only if locally useful; record all positive and negative changes",
+    "source/APK/geometry correctness and restoration of device size/density476"
+  ],
+  "acceptance": "Candidate only. Sharper edge response does not establish geometric stretch or highlight parity. Keep mapping and shine separately assessed."
+}

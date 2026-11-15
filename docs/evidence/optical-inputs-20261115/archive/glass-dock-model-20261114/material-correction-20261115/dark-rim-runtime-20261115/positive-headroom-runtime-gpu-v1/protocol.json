@@ -1,0 +1,454 @@
+{
+  "schema": 1,
+  "id": "dark_positive_headroom_actual_gpu_v1",
+  "stage": "ready_for_root_freeze",
+  "split": "calibration",
+  "rest_count": 54,
+  "input_spec": [
+    {
+      "packet": "N",
+      "id": "new_gray_0",
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "packet": "M",
+      "id": "ms01_gray_26",
+      "rgb": [
+        26,
+        26,
+        26
+      ]
+    },
+    {
+      "packet": "N",
+      "id": "new_gray_36",
+      "rgb": [
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "packet": "M",
+      "id": "ms08_blue",
+      "rgb": [
+        48,
+        48,
+        232
+      ]
+    },
+    {
+      "packet": "C1",
+      "id": "chroma_r_neg",
+      "rgb": [
+        48,
+        150,
+        150
+      ]
+    },
+    {
+      "packet": "M",
+      "id": "ms07_green",
+      "rgb": [
+        48,
+        232,
+        48
+      ]
+    },
+    {
+      "packet": "N",
+      "id": "new_gray_51",
+      "rgb": [
+        51,
+        51,
+        51
+      ]
+    },
+    {
+      "packet": "N2",
+      "id": "new_gray_58",
+      "rgb": [
+        58,
+        58,
+        58
+      ]
+    },
+    {
+      "packet": "N2",
+      "id": "new_gray_64",
+      "rgb": [
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "packet": "N2",
+      "id": "new_gray_70",
+      "rgb": [
+        70,
+        70,
+        70
+      ]
+    },
+    {
+      "packet": "M",
+      "id": "ms02_gray_77",
+      "rgb": [
+        77,
+        77,
+        77
+      ]
+    },
+    {
+      "packet": "C1",
+      "id": "chroma_g_pos",
+      "rgb": [
+        77,
+        149,
+        77
+      ]
+    },
+    {
+      "packet": "C2",
+      "id": "muted_blue",
+      "rgb": [
+        80,
+        80,
+        176
+      ]
+    },
+    {
+      "packet": "C2",
+      "id": "muted_green",
+      "rgb": [
+        80,
+        176,
+        80
+      ]
+    },
+    {
+      "packet": "N2",
+      "id": "new_gray_90",
+      "rgb": [
+        90,
+        90,
+        90
+      ]
+    },
+    {
+      "packet": "N",
+      "id": "new_gray_102",
+      "rgb": [
+        102,
+        102,
+        102
+      ]
+    },
+    {
+      "packet": "C1",
+      "id": "chroma_b_pos",
+      "rgb": [
+        122,
+        122,
+        210
+      ]
+    },
+    {
+      "packet": "M",
+      "id": "ms03_gray_128",
+      "rgb": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "packet": "C1",
+      "id": "chroma_b_neg",
+      "rgb": [
+        134,
+        134,
+        46
+      ]
+    },
+    {
+      "packet": "N",
+      "id": "new_gray_153",
+      "rgb": [
+        153,
+        153,
+        153
+      ]
+    },
+    {
+      "packet": "C2",
+      "id": "muted_red",
+      "rgb": [
+        176,
+        80,
+        80
+      ]
+    },
+    {
+      "packet": "C1",
+      "id": "chroma_g_neg",
+      "rgb": [
+        179,
+        107,
+        179
+      ]
+    },
+    {
+      "packet": "M",
+      "id": "ms04_gray_179",
+      "rgb": [
+        179,
+        179,
+        179
+      ]
+    },
+    {
+      "packet": "N",
+      "id": "new_gray_204",
+      "rgb": [
+        204,
+        204,
+        204
+      ]
+    },
+    {
+      "packet": "C1",
+      "id": "chroma_r_pos",
+      "rgb": [
+        208,
+        106,
+        106
+      ]
+    },
+    {
+      "packet": "N2",
+      "id": "new_gray_217",
+      "rgb": [
+        217,
+        217,
+        217
+      ]
+    },
+    {
+      "packet": "M",
+      "id": "ms06_red",
+      "rgb": [
+        232,
+        48,
+        48
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": "logit_control",
+      "themes": "dark",
+      "count": 27,
+      "probe": {
+        "glassDockBaseProbe": "true",
+        "glassDockBaseBorder": "true",
+        "glassDockToneWeight": "0",
+        "glassDockToneDarkChroma": "1.1475795432456875",
+        "glassDockDisableRawEdges": "true",
+        "glassDockToneDarkIntercept": "0.17997753474167427",
+        "glassDockToneDarkGain": "0.6271598696289303",
+        "glassDockDarkLowToneLinearIntercept": "0.009290224234602143",
+        "glassDockDarkLowToneLinearGain": "0.7702470403729109",
+        "glassDockDarkLowToneLow": "0.30196078431372547",
+        "glassDockDarkLowToneHigh": "0.4",
+        "glassDockDarkRimWidth": "1.2",
+        "glassDockDarkRimIntercept": "0.6425691964508747",
+        "glassDockDarkRimLuma": "0.4944993509984069",
+        "glassDockDarkRimChroma": "7.021637119286862",
+        "glassDockDarkRimAngularBlend": "1",
+        "glassDockDarkRimNormalCrossGain": "1",
+        "glassDockDarkRimCosineBlend": "1",
+        "glassDockDarkRimLogitBlend": "1"
+      }
+    },
+    {
+      "id": "positive_headroom",
+      "themes": "dark",
+      "count": 27,
+      "probe": {
+        "glassDockBaseProbe": "true",
+        "glassDockBaseBorder": "true",
+        "glassDockToneWeight": "0",
+        "glassDockToneDarkChroma": "1.1475795432456875",
+        "glassDockDisableRawEdges": "true",
+        "glassDockToneDarkIntercept": "0.17997753474167427",
+        "glassDockToneDarkGain": "0.6271598696289303",
+        "glassDockDarkLowToneLinearIntercept": "0.009290224234602143",
+        "glassDockDarkLowToneLinearGain": "0.7702470403729109",
+        "glassDockDarkLowToneLow": "0.30196078431372547",
+        "glassDockDarkLowToneHigh": "0.4",
+        "glassDockDarkRimWidth": "1.2",
+        "glassDockDarkRimIntercept": "0.11130893001790144",
+        "glassDockDarkRimLuma": "0.24841754457691995",
+        "glassDockDarkRimChroma": "1.63092875493563",
+        "glassDockDarkRimAngularBlend": "1",
+        "glassDockDarkRimNormalCrossGain": "1",
+        "glassDockDarkRimCosineBlend": "1",
+        "glassDockDarkRimLogitBlend": "0",
+        "glassDockDarkRimHeadroomBlend": "1"
+      }
+    }
+  ],
+  "coefficients": {
+    "a": 0.11130893001790144,
+    "b": 0.24841754457691995,
+    "c": 1.63092875493563
+  },
+  "source_hashes": {
+    "additive-signed-runtime-gpu-v1/probe.py": "169b721574f15ca9160821b07aa2022264d535fab49d388c8abfb4a4cb65f0aa",
+    "additive-signed-runtime-gpu-v1/protocol.json": "712cc58b7b7a7366f3414f7d889e187577b73868c10fe24cc07bf8213907c120",
+    "additive-signed-runtime-gpu-v1/plan.json": "3bdc6dad427863ea2df67fa1d85d3e3c6395c1ade3ff858f22bfccad151d545a",
+    "additive-signed-runtime-gpu-v1/freeze.json": "b3074b7c7f40831a0a0028e2949082ba5752cc8c28e344652015a655b95938d7",
+    "additive-signed-runtime-gpu-v1/report.json": "778f03235d18916d1f2651498e37097f4deee346c597ad58c490d859bb8c42c2",
+    "additive-signed-runtime-gpu-v1/source-before-next-rim-correction/manifest.json": "2a932d2ddb020412c397c87c2b96e72bd0cebd273d9ffe288521d155216d831a",
+    "analysis/logit-profile-inside-v1/compare.py": "afee31c8f81a864262618d8287bde8b2a50e8aae822407f38021439fcb29ba5f",
+    "analysis/logit-profile-inside-v1/protocol.json": "40a6a58a1aa14105478a7e03ff2b35ccab74a27222cf9800fe364e89b90b44dd",
+    "analysis/logit-profile-inside-v1/freeze.json": "17cc4af0ce00c51e6c5a92f82b68a408bbfd4f21fb397803af88b649f5fba3ce",
+    "analysis/logit-profile-inside-v1/report.json": "ac905c23804b0203992de546812466f5e186b310ae54ee8d0eccb75b70187a14",
+    "analysis/logit-profile-inside-scalar-audit-v1/audit.py": "3fe9c7a0b3e6dc3b4d41b951281fb0aa2eae79121c74f5171ad50b2922520eb2",
+    "analysis/logit-profile-inside-scalar-audit-v1/report.json": "b66e65b083519127cc8f44e041d367a6e9016bb3fd1777d69a10bc8331f3af4f",
+    "logit-signed-runtime-gpu-v2/probe.py": "dbaa4c02120a03b8ba0fc78eaa0c1ac56c9682da4fb2d838bae37307b7f1208d",
+    "logit-signed-runtime-gpu-v2/protocol.json": "57fdbab25d187d2e05e2af636c9a25939d1d04e6c9434aadd55875117d5457cc",
+    "logit-signed-runtime-gpu-v2/plan.json": "7bec1a195b2092cbb13b9216bbec2ede3962e93cdda8c13c5fb0993ca2b82a96",
+    "logit-signed-runtime-gpu-v2/freeze.json": "af5ffb7fdaee8ca089f817b82d3c79cf0b815baaec3c8254afce730ba59a8e8a",
+    "logit-signed-runtime-gpu-v2/report.json": "438b8283f9077dd892f60391f4828010690ed8b173810d42b8ac8cbb56f0e140",
+    "logit-signed-runtime-gpu-v2/source-before-positive-headroom/manifest.json": "620b7146dfc5e026433a80c14095002ec5ec21828a6e35ed6a75bfeb6d687920",
+    "cross-zero-runtime-gpu-v1/probe.py": "6011fbf8cb4983249b092d1f894e64b86ac7f2757da78fda699bd5f3c9b0cdcf",
+    "cross-zero-runtime-gpu-v1/protocol.json": "6c1f7b79b802e036c7451aee45362fa01ef061db8ed8563f0a9a55ac77bc1fbd",
+    "cross-zero-runtime-gpu-v1/plan.json": "985c53af3a9b6de1506afcb8d1045ba66a69ea958c3e5cc26c27ed6a63e81a36",
+    "cross-zero-runtime-gpu-v1/freeze.json": "fd1ff62f4412b3da81ab905829c2b410f8da95f2cd7537dbd7e2b406ed850333",
+    "cross-zero-runtime-gpu-v1/report.json": "31397c032d6140ee154e56cfe41514536af7fb1329a3d33fe473b761c8c59348",
+    "logit-rim-build-result-r2.json": "8d57207e26a70ecd9fecb93a5375e952aee8eb3d50678d20a83f4f51465cde58",
+    "analysis/positive-headroom-v1/compare.py": "a9bfabbe7fa45e80ba01ba16deafb4f675facd212618167b51b1f9949f036e1e",
+    "analysis/positive-headroom-v1/protocol.json": "81180608cde9f0ce2e30a7f0fc15fd7802a549116e0d9941686c962ee1c57738",
+    "analysis/positive-headroom-v1/freeze.json": "1de02b074425154178de765a3fa90d71ca7413e23299f5c3ba5b9c4948cffe1b",
+    "analysis/positive-headroom-v1/report.json": "536b8a7f1a7b982d6cdd66eb97fac5ba800171e0b3c2d181e19e740421c05198",
+    "analysis/positive-headroom-v1/all-degradations.csv": "4c4d2d18da19e71ca035c57480505a66ff8be57bee5ccabbe4b0887f5c4db3ec",
+    "analysis/positive-headroom-v1/diagnostic-summary.json": "54ec1e978c6b3b1bd574ea800c8c3e18127f96f2cf714818a9d535307577b2fe",
+    "analysis/positive-headroom-helper-audit-v1/audit.py": "d06bfc7b493ba96496c310d10cada25d72bca1667784bdecd880e23bdddbf026",
+    "analysis/positive-headroom-helper-audit-v1/report.json": "b8063eda48bdee0d0f4aea6491f93cdb5c07a72296b9423393d49a68c1af9c4d"
+  },
+  "limitations": {
+    "native_original_test_source_bytes_reverified": false,
+    "current_live_test_source_not_used": true,
+    "native_source_reverification_limitation_scope": "M historical NativeReferenceTests.swift source bytes unavailable; old SHA retained as a sealed capture-plan declaration; N/N2 ordinary byte hashes remain required",
+    "dark_angular_native_acceptance": false,
+    "actual_shader_responseLuma_recorded": false,
+    "fitting_performed": false,
+    "production_default_selected": false,
+    "native_acceptance": false,
+    "scalar_audit_limit": "Frozen positive-headroom public calibration full coefficients only; local finite bounded result, not global optimum. All27 groups, failures, scalar audit limitations and all signed regressions retained; no refit or model/parameter selection",
+    "undownloaded_images": "screen_png and baseline image names/context remain in raw result metadata; their local PNG bytes are not downloaded or reverified",
+    "historical_additive_APK_bytes_reverified": false,
+    "historical_additive_source_policy": "Exactly six original source SHA restored by existing archive bytes; original build/APK SHA remain historical receipts, not current APK byte claims; no added native provenance exceptions",
+    "comparison_scope": "Only positive_headroom minus new logit_control; no earlier body/logit/cross gain improvement counted",
+    "angular_ablation_scope": "Angular blend/cross gain/profile/geometry/body unchanged. This composition comparison does not isolate actual contour, CPU coverage or shadow and cannot accept complete corner geometry or highlights",
+    "corner_sampling_scope": "Only six existing right-side corner scanlines; no left-corner sampling or four-corner coverage claim",
+    "four_corner_coverage": false,
+    "historical_logit_APK_bytes_reverified": false,
+    "historical_logit_source_policy": "Exact r2 six sources/two test sources/two XML reverified from ten archived originals. Old main/test APK SHA remain original build/capture/prebuild-archive declarations; old APK bytes are not copied or reverified at overwritten live paths",
+    "offline_regressions": "Frozen full model versus logit improves14 RGB groups and worsens13; all27 must remain, and these are offline observations rather than GPU results",
+    "default_headroom_enabled": false
+  },
+  "native_source_exceptions": {
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/App/NativeStage.swift": {
+      "archive": "M",
+      "kind": "exact_archived_source_alias",
+      "old_sha256": "0cf7e386690dfc0c01bed917a6c2aef6e6dcc846526bffc41477a10af2c66b07",
+      "archived_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-optics-20261112/android-native-range-76/range-reference/sources/App/NativeStage.swift"
+    },
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/UITests/NativeReferenceTests.swift": {
+      "archive": "M",
+      "kind": "historical_source_declaration_only",
+      "old_sha256": "58c0da7dbe1890b5eeee6d4ec67576753ce4fc1e8973be317c7a96ae41a9c0db",
+      "declaration_path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-dock-model-20261114/capture-plan-r2.json",
+      "declaration_sha256": "c20d8824fffa42d9d963e76d42a20c305e0b3e6abe49bf60407f87b0afae062a",
+      "declaration_identity_key": "UITests/NativeReferenceTests.swift"
+    }
+  },
+  "allowed_null_extensions": [],
+  "new_build_receipt": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/positive-headroom-build-result.json",
+  "new_build_receipt_sha256": "a7ed60d44b8fe44c92f6688568a968ae96eb7ad9f829c206fd08068fba684e3c",
+  "historical_archive": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-dock-model-20261114/material-correction-20261115/dark-rim-runtime-20261115/logit-signed-runtime-gpu-v2/source-before-positive-headroom/manifest.json",
+  "historical_archive_sha256": "620b7146dfc5e026433a80c14095002ec5ec21828a6e35ed6a75bfeb6d687920",
+  "strip_coverage": {
+    "total": 9,
+    "corner_count": 6,
+    "corner_strips": [
+      "right_upper_y1180",
+      "right_upper_y1192",
+      "right_upper_y1204",
+      "right_lower_y1256",
+      "right_lower_y1268",
+      "right_lower_y1280"
+    ],
+    "scope": "Only six existing right-side corner scanlines; no left-corner sampling or four-corner coverage claim"
+  },
+  "reuse": {
+    "rebound": [
+      "instrument_argv",
+      "expected_input",
+      "validate_sources",
+      "validate_rows",
+      "validate_data",
+      "installed",
+      "validate_installed",
+      "validate_receipt",
+      "frames",
+      "argv",
+      "freeze",
+      "verify",
+      "metadata",
+      "validate_execution",
+      "capture"
+    ],
+    "unrebound": [
+      "zero_mechanism",
+      "zero_passed",
+      "saturation_stats"
+    ],
+    "original_globals_modified": false,
+    "source_text_transformed": false
+  },
+  "analysis_reuse": {
+    "original_code": "additive-signed-runtime-gpu-v1/probe.py:analyze",
+    "current_analysis_schema_role_mapping": {
+      "body_control": "logit_control",
+      "additive_signed": "positive_headroom"
+    },
+    "previous_receipt_images_to_files_alias": "In-memory only; original bytes unchanged"
+  },
+  "intervention": "Same corrected body, width1.2, angularBlend1, crossGain1, cosineBlend1 and actual geometry in both27REST jobs. logit_control exactly repeats prior LV2/logit_signed and CROSS/logit_control. Candidate explicitly selects logitBlend0/headroomBlend1 with fixed full a=.11130893001790144,b=.24841754457691995,c=1.63092875493563. Headroom defaults0 and does not alter old dockSignedRim; no production default change or additional fit.",
+  "snapshot_policy": "Control complete historical snapshot has logit_blend:1 and no headroom_blend or null/zero extension. Candidate omits zero logit_blend, adds only headroom_blend:1 and changes only a/b/c. Explicit logit0 argument is still required in argv.",
+  "runtime_positive_helper": "Root implementation: shared-path wrapper outside original dockSignedRim. Positive1-exp(-x) uses fixed fourth-order polynomial when x<.01, otherwise1-exp(-x); no direct expm1. Old function remains unchanged and headroomBlend defaults0.",
+  "historical_policy": "Do not call old L/CROSS.identity/verify/reference_metadata. Start from additive reference_metadata that only validates old archived source/native evidence, retain exactly two existing M restrictions. Validate A/LV2/CROSS immutable files/jobs/capture receipts/actual commands/logs/162 original windows and restoration records with their own static metadata helpers. Resolve only exact allowlisted six old additive source originals and ten r2 runtime/test/XML originals via archived bytes. Old overwritten APK SHA are build/capture/prebuild-archive declarations; no APK copies or current old-APK byte claims. New live six source/twoAPK and new build/log/test-source/XML evidence are validated separately.",
+  "new_build_policy": "Draft cannot freeze until root registers exact completed new build receipt SHA. Require source/APK mappings, exit_code0/sources_unchanged, exact two current test-source hashes, current two XML complete bytes and actual attributes, written_this_attempt true, positive test counts, failures/errors/skipped0, and bound build log bytes. Existing original r2 receipt/log/63-test archived XML remain historical evidence.",
+  "historical_bridge": "First decode only new logit_control gray77 and gray128 and old CROSS/logit_control windows. Require whole opaque750x1334 raw and ICC pixel differences all0 before any candidate/native decode. Both gray controls are evaluated. All geometry/material/window fields match apart from positive signed32 process window_identity. Failure evidence preserved before stopping.",
+  "mechanism_controls": "Unchanged nominal-depth>=32, outside actual rectangle and farbody ten rows raw/ICC strict0. Nominal depth>=4 remains complete signed changed-pixel diagnostics, not a zero gate or body-improvement claim.",
+  "analysis": "Keep all27 public RGB, all positive/negative signed changes and all 13 offline regressions without exclusion. Unchanged67regions/62bins and nine strips; corner samples are six right-side scanlines only, never all-four-corner coverage. Preserve top16 own-body/first3/full16, farbody10, saturation/endpoints, max first/second differences and every signed sample. Count only positive_headroom minus current logit_control.",
+  "mechanism_interpretation": "Composition comparison only: actual-contour, CPU-coverage and shadow contributions remain unresolved; corner spikes are not all attributable to one angular term or to composition. No corner geometry/highlight/thickness/translucency/frost/refraction/native parity acceptance from a favorable mean.",
+  "capture": "Root only after freeze: two serial27REST jobs on same new APK; no rebuild/install/native bundle or APK copies by packet. Download only result.json and27 original windows per job. Preserve undownloaded screen/bare context limitation. Restore force-stop/size-reset/density476 independently in finally. Isolated subprocess includes run/check_output/DEVNULL.",
+  "commands": [
+    "/usr/bin/python3 -B probe.py self-check",
+    "/usr/bin/python3 -B probe.py freeze",
+    "/usr/bin/python3 -B probe.py capture",
+    "/usr/bin/python3 -B probe.py analyze"
+  ],
+  "limits": "Public static calibration, one size and six right-only corner scanlines. Frozen positive-headroom full fit improves14 and worsens13 versus logit offline, not a GPU result. All cases and endpoint/worst-case errors retained. No new fit/optimizer/parameter search, new background/holdout reads, material/native/dynamic/acceleration/multiple-size acceptance, or production-default selection.",
+  "helper_precision_limit": "Fixed fourth-order x<.01 helper: independent CPU float32 sample max H error1.04546e-7; join can decrease one ULP in float32, zero sampled 8bit-code reversals. No strict float monotonicity, global C1, GPU bit-equivalence or final quantization claim."
+}

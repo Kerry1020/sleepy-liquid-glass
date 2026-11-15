@@ -1,0 +1,26 @@
+{
+  "status": "not-parity-accepted",
+  "name": "Alert body radius8 with constant rim",
+  "verdict": "Strong local apparent-edge improvement; contour position, contrast and rim remain mismatched. No parity acceptance.",
+  "scope": "Same two new calibration sources \u00d7 Alert/Sheet \u00d7 light \u00d7 REST; no new native capture, warp, free fit, motion/holdout/percentage claim.",
+  "geometry_source_and_foreground_slot_gates_all4": true,
+  "raw_ICC_same_all26": true,
+  "native_S02_local_gatepasses": 18,
+  "candidate_S02_local_gatepasses": 18,
+  "native_coordinate_local_gatepasses": 25,
+  "candidate_coordinate_local_gatepasses": 25,
+  "native_Sheet_S07_local_gatepasses": 14,
+  "candidate_Sheet_S07_local_gatepasses": 0,
+  "failed_rows_retained": true,
+  "local_selection_status": "Exploratory operational local scans within frozen source supports/regions; not independently preregistered confirmatory selection. Alert scans unchanged across all candidates. Sheet selection made during sigma review from oracle stem geometry; same gates unchanged.",
+  "highlight": "Top peak location0.25pt matches native, but candidate excess31.52 vs native22.29 encoded luma; FWHM unresolved at minimum3pixel coverage.",
+  "limitations": [
+    "No unique2D inverse source field",
+    "No physical thickness or isolated blur kernel recovered",
+    "Full shape centroid prohibited by pane/foreground geometry",
+    "Sheet S07 neutral support is finite; failed crossings/peaks remain unresolved",
+    "Different backing UI broad footprints persist",
+    "No dynamic size/speed/acceleration or final UI parity evidence"
+  ],
+  "report_sha256": "fdf96aae3ae6ddf0438def2175750a484521919040f02a999dbd17a3df2f45ac"
+}

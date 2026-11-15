@@ -1,0 +1,2456 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "region": "exterior",
+    "native": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "native",
+      "region": "exterior",
+      "bbox_pt": [
+        32,
+        176,
+        343,
+        220
+      ],
+      "masked_pixels": 0,
+      "n": 54736,
+      "mean_rgb": [
+        86.79309777842737,
+        103.82333382052032,
+        105.22794869921076
+      ],
+      "q05_rgb": [
+        36.0,
+        44.0,
+        54.0
+      ],
+      "q95_rgb": [
+        163.0,
+        164.0,
+        163.0
+      ],
+      "rms_contrast_rgb": [
+        45.474209758374016,
+        42.516929593621505,
+        38.180579700338924
+      ],
+      "mean_chroma_rgb_range": 79.67831043554516,
+      "encoded_through_origin_gain_rgb": [
+        0.7999948239281813,
+        0.8000116918134405,
+        0.800006840595702
+      ],
+      "gain_residual_rms_rgb": [
+        0.2835606510194134,
+        0.28348573760239,
+        0.282850135763431
+      ],
+      "gradient_rms_rgb_per_pt_x": [
+        16.46139955483015,
+        14.406138186546071,
+        13.444355520417892
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        9.560049030102258,
+        15.279323851835116,
+        9.883607669170257
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "exterior",
+      "bbox_pt": [
+        32,
+        176,
+        343,
+        220
+      ],
+      "masked_pixels": 0,
+      "n": 54736,
+      "mean_rgb": [
+        86.79309777842737,
+        103.82333382052032,
+        105.22794869921076
+      ],
+      "q05_rgb": [
+        36.0,
+        44.0,
+        54.0
+      ],
+      "q95_rgb": [
+        163.0,
+        164.0,
+        163.0
+      ],
+      "rms_contrast_rgb": [
+        45.474209758374016,
+        42.516929593621505,
+        38.180579700338924
+      ],
+      "mean_chroma_rgb_range": 79.67831043554516,
+      "encoded_through_origin_gain_rgb": [
+        0.7999948239281813,
+        0.8000116918134405,
+        0.800006840595702
+      ],
+      "gain_residual_rms_rgb": [
+        0.2835606510194134,
+        0.28348573760239,
+        0.282850135763431
+      ],
+      "gradient_rms_rgb_per_pt_x": [
+        16.46139955483015,
+        14.406138186546071,
+        13.444355520417892
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        9.560049030102258,
+        15.279323851835116,
+        9.883607669170257
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "exterior",
+      "bbox_pt": [
+        32,
+        176,
+        343,
+        220
+      ],
+      "masked_pixels": 0,
+      "n": 54736,
+      "mean_rgb": [
+        86.79309777842737,
+        103.82333382052032,
+        105.22794869921076
+      ],
+      "q05_rgb": [
+        36.0,
+        44.0,
+        54.0
+      ],
+      "q95_rgb": [
+        163.0,
+        164.0,
+        163.0
+      ],
+      "rms_contrast_rgb": [
+        45.474209758374016,
+        42.516929593621505,
+        38.180579700338924
+      ],
+      "mean_chroma_rgb_range": 79.67831043554516,
+      "encoded_through_origin_gain_rgb": [
+        0.7999948239281813,
+        0.8000116918134405,
+        0.800006840595702
+      ],
+      "gain_residual_rms_rgb": [
+        0.2835606510194134,
+        0.28348573760239,
+        0.282850135763431
+      ],
+      "gradient_rms_rgb_per_pt_x": [
+        16.46139955483015,
+        14.406138186546071,
+        13.444355520417892
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        9.560049030102258,
+        15.279323851835116,
+        9.883607669170257
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "region": "left",
+    "native": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "native",
+      "region": "left",
+      "bbox_pt": [
+        49.5,
+        307,
+        54.5,
+        338
+      ],
+      "masked_pixels": 0,
+      "n": 620,
+      "mean_rgb": [
+        206.98548387096776,
+        204.34677419354838,
+        231.3983870967742
+      ],
+      "q05_rgb": [
+        191.0,
+        198.0,
+        230.0
+      ],
+      "q95_rgb": [
+        221.0,
+        210.0,
+        232.0
+      ],
+      "rms_contrast_rgb": [
+        12.284061884359396,
+        4.60792507156318,
+        0.785553418130642
+      ],
+      "mean_chroma_rgb_range": 29.503225806451614,
+      "gradient_rms_rgb_per_pt_x": [
+        0.616383253675979,
+        0.4147806778921701,
+        0.5219209075058752
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.563937863006156,
+        0.8980853951875514,
+        0.4129065309227846
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "left",
+      "bbox_pt": [
+        49.5,
+        307,
+        54.5,
+        338
+      ],
+      "masked_pixels": 0,
+      "n": 620,
+      "mean_rgb": [
+        203.46290322580646,
+        202.78225806451613,
+        232.16774193548386
+      ],
+      "q05_rgb": [
+        187.0,
+        196.0,
+        231.0
+      ],
+      "q95_rgb": [
+        218.0,
+        208.04999999999995,
+        233.0
+      ],
+      "rms_contrast_rgb": [
+        12.472301361364647,
+        4.635696843380206,
+        0.6630268309533149
+      ],
+      "mean_chroma_rgb_range": 32.76774193548387,
+      "gradient_rms_rgb_per_pt_x": [
+        0.5679618342470648,
+        0.48637345711392005,
+        0.6558258357839529
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.5576358715042233,
+        0.9197291119369129,
+        0.7242859683401482
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "left",
+      "bbox_pt": [
+        49.5,
+        307,
+        54.5,
+        338
+      ],
+      "masked_pixels": 0,
+      "n": 620,
+      "mean_rgb": [
+        203.46290322580646,
+        202.78225806451613,
+        232.16774193548386
+      ],
+      "q05_rgb": [
+        187.0,
+        196.0,
+        231.0
+      ],
+      "q95_rgb": [
+        218.0,
+        208.04999999999995,
+        233.0
+      ],
+      "rms_contrast_rgb": [
+        12.472301361364647,
+        4.635696843380206,
+        0.6630268309533149
+      ],
+      "mean_chroma_rgb_range": 32.76774193548387,
+      "gradient_rms_rgb_per_pt_x": [
+        0.5679618342470648,
+        0.48637345711392005,
+        0.6558258357839529
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.5576358715042233,
+        0.9197291119369129,
+        0.7242859683401482
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "region": "right",
+    "native": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "native",
+      "region": "right",
+      "bbox_pt": [
+        320.5,
+        307,
+        325.5,
+        338
+      ],
+      "masked_pixels": 0,
+      "n": 620,
+      "mean_rgb": [
+        214.20322580645163,
+        216.53225806451613,
+        191.5
+      ],
+      "q05_rgb": [
+        199.0,
+        208.0,
+        181.0
+      ],
+      "q95_rgb": [
+        232.0,
+        226.0,
+        201.0
+      ],
+      "rms_contrast_rgb": [
+        12.937716402951658,
+        7.09729103689818,
+        7.43542089400242
+      ],
+      "mean_chroma_rgb_range": 26.851612903225806,
+      "gradient_rms_rgb_per_pt_x": [
+        0.5926672593342224,
+        0.9946091251481444,
+        1.2414582707416433
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.6093986250852303,
+        1.0984340567595219,
+        1.0954451150103321
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "right",
+      "bbox_pt": [
+        320.5,
+        307,
+        325.5,
+        338
+      ],
+      "masked_pixels": 0,
+      "n": 620,
+      "mean_rgb": [
+        213.05161290322582,
+        214.96290322580646,
+        190.3
+      ],
+      "q05_rgb": [
+        196.0,
+        206.0,
+        177.0
+      ],
+      "q95_rgb": [
+        233.0,
+        226.0,
+        201.0
+      ],
+      "rms_contrast_rgb": [
+        14.370464130779656,
+        7.43923196415068,
+        9.267024438053642
+      ],
+      "mean_chroma_rgb_range": 28.01290322580645,
+      "gradient_rms_rgb_per_pt_x": [
+        0.7897188828807974,
+        1.0300154851464987,
+        1.3034280690482294
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.7704310857834022,
+        1.1336868622504823,
+        1.25450009637436
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "right",
+      "bbox_pt": [
+        320.5,
+        307,
+        325.5,
+        338
+      ],
+      "masked_pixels": 0,
+      "n": 620,
+      "mean_rgb": [
+        213.05161290322582,
+        214.96290322580646,
+        190.3
+      ],
+      "q05_rgb": [
+        196.0,
+        206.0,
+        177.0
+      ],
+      "q95_rgb": [
+        233.0,
+        226.0,
+        201.0
+      ],
+      "rms_contrast_rgb": [
+        14.370464130779656,
+        7.43923196415068,
+        9.267024438053642
+      ],
+      "mean_chroma_rgb_range": 28.01290322580645,
+      "gradient_rms_rgb_per_pt_x": [
+        0.7897188828807974,
+        1.0300154851464987,
+        1.3034280690482294
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.7704310857834022,
+        1.1336868622504823,
+        1.25450009637436
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "region": "gap_left",
+    "native": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "native",
+      "region": "gap_left",
+      "bbox_pt": [
+        60,
+        350,
+        110,
+        359
+      ],
+      "masked_pixels": 0,
+      "n": 1800,
+      "mean_rgb": [
+        201.5261111111111,
+        217.09,
+        212.98333333333332
+      ],
+      "q05_rgb": [
+        191.0,
+        213.0,
+        205.0
+      ],
+      "q95_rgb": [
+        218.0,
+        220.0,
+        228.0
+      ],
+      "rms_contrast_rgb": [
+        9.891095119061394,
+        2.169923193725227,
+        9.392535452273954
+      ],
+      "mean_chroma_rgb_range": 19.946666666666665,
+      "gradient_rms_rgb_per_pt_x": [
+        1.06889497887763,
+        0.5318160234783105,
+        0.9778696008307837
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.3694192580731196,
+        0.43114075768961635,
+        0.4419209404939517
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "gap_left",
+      "bbox_pt": [
+        60,
+        350,
+        110,
+        359
+      ],
+      "masked_pixels": 0,
+      "n": 1800,
+      "mean_rgb": [
+        196.4188888888889,
+        216.76777777777778,
+        211.0861111111111
+      ],
+      "q05_rgb": [
+        184.0,
+        212.0,
+        202.0
+      ],
+      "q95_rgb": [
+        215.0,
+        220.0,
+        229.0
+      ],
+      "rms_contrast_rgb": [
+        11.547105403947585,
+        2.7697704589120384,
+        11.14903216471618
+      ],
+      "mean_chroma_rgb_range": 24.990555555555556,
+      "gradient_rms_rgb_per_pt_x": [
+        1.1527549590050186,
+        0.5841144361535742,
+        1.1967032904743342
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.5466475367288914,
+        0.5133511583357984,
+        0.5201809639866857
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "gap_left",
+      "bbox_pt": [
+        60,
+        350,
+        110,
+        359
+      ],
+      "masked_pixels": 0,
+      "n": 1800,
+      "mean_rgb": [
+        196.4188888888889,
+        216.76777777777778,
+        211.0861111111111
+      ],
+      "q05_rgb": [
+        184.0,
+        212.0,
+        202.0
+      ],
+      "q95_rgb": [
+        215.0,
+        220.0,
+        229.0
+      ],
+      "rms_contrast_rgb": [
+        11.547105403947585,
+        2.7697704589120384,
+        11.14903216471618
+      ],
+      "mean_chroma_rgb_range": 24.990555555555556,
+      "gradient_rms_rgb_per_pt_x": [
+        1.1527549590050186,
+        0.5841144361535742,
+        1.1967032904743342
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.5466475367288914,
+        0.5133511583357984,
+        0.5201809639866857
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "region": "gap_right",
+    "native": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "native",
+      "region": "gap_right",
+      "bbox_pt": [
+        265,
+        350,
+        315,
+        359
+      ],
+      "masked_pixels": 0,
+      "n": 1800,
+      "mean_rgb": [
+        201.7877777777778,
+        226.82111111111112,
+        220.99833333333333
+      ],
+      "q05_rgb": [
+        200.0,
+        214.95,
+        213.0
+      ],
+      "q95_rgb": [
+        207.0,
+        231.0,
+        225.0
+      ],
+      "rms_contrast_rgb": [
+        1.869184479200486,
+        5.019650152582469,
+        3.3667487613752995
+      ],
+      "mean_chroma_rgb_range": 25.657222222222224,
+      "gradient_rms_rgb_per_pt_x": [
+        0.6963106238227914,
+        1.0938046122328535,
+        0.9113328136274715
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.38805700005813276,
+        0.2910427500435996,
+        0.5594114554338231
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "gap_right",
+      "bbox_pt": [
+        265,
+        350,
+        315,
+        359
+      ],
+      "masked_pixels": 0,
+      "n": 1800,
+      "mean_rgb": [
+        196.77333333333334,
+        228.0211111111111,
+        223.19944444444445
+      ],
+      "q05_rgb": [
+        195.0,
+        213.95,
+        215.0
+      ],
+      "q95_rgb": [
+        204.0,
+        232.0,
+        227.0
+      ],
+      "rms_contrast_rgb": [
+        2.7096043171569755,
+        5.718060946479536,
+        3.792053053165852
+      ],
+      "mean_chroma_rgb_range": 32.16888888888889,
+      "gradient_rms_rgb_per_pt_x": [
+        0.9593301067138397,
+        1.400657213063673,
+        1.0583429438308045
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.5201809639866857,
+        0.37573457465108967,
+        0.6
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_coordinate",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "gap_right",
+      "bbox_pt": [
+        265,
+        350,
+        315,
+        359
+      ],
+      "masked_pixels": 0,
+      "n": 1800,
+      "mean_rgb": [
+        196.77333333333334,
+        228.0211111111111,
+        223.19944444444445
+      ],
+      "q05_rgb": [
+        195.0,
+        213.95,
+        215.0
+      ],
+      "q95_rgb": [
+        204.0,
+        232.0,
+        227.0
+      ],
+      "rms_contrast_rgb": [
+        2.7096043171569755,
+        5.718060946479536,
+        3.792053053165852
+      ],
+      "mean_chroma_rgb_range": 32.16888888888889,
+      "gradient_rms_rgb_per_pt_x": [
+        0.9593301067138397,
+        1.400657213063673,
+        1.0583429438308045
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.5201809639866857,
+        0.37573457465108967,
+        0.6
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "region": "exterior",
+    "native": {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "platform": "native",
+      "region": "exterior",
+      "bbox_pt": [
+        24,
+        170,
+        351,
+        272
+      ],
+      "masked_pixels": 0,
+      "n": 133416,
+      "mean_rgb": [
+        94.77941176470588,
+        116.2398662829046,
+        103.75413743479044
+      ],
+      "q05_rgb": [
+        38.0,
+        47.0,
+        46.0
+      ],
+      "q95_rgb": [
+        164.0,
+        164.0,
+        162.0
+      ],
+      "rms_contrast_rgb": [
+        42.79593380979981,
+        41.60827368998892,
+        40.87823333444621
+      ],
+      "mean_chroma_rgb_range": 77.91863794447443,
+      "encoded_through_origin_gain_rgb": [
+        0.80000096139923,
+        0.8000009142233325,
+        0.8000031911068229
+      ],
+      "gain_residual_rms_rgb": [
+        0.2830810850860926,
+        0.2828628166268685,
+        0.2829515220665831
+      ],
+      "gradient_rms_rgb_per_pt_x": [
+        15.461013520288954,
+        11.711823162498167,
+        14.89781325578428
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        11.564792035202922,
+        15.298513022037048,
+        10.674153004761145
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "exterior",
+      "bbox_pt": [
+        24,
+        170,
+        351,
+        272
+      ],
+      "masked_pixels": 0,
+      "n": 133416,
+      "mean_rgb": [
+        94.77941176470588,
+        116.2398662829046,
+        103.75413743479044
+      ],
+      "q05_rgb": [
+        38.0,
+        47.0,
+        46.0
+      ],
+      "q95_rgb": [
+        164.0,
+        164.0,
+        162.0
+      ],
+      "rms_contrast_rgb": [
+        42.79593380979981,
+        41.60827368998892,
+        40.87823333444621
+      ],
+      "mean_chroma_rgb_range": 77.91863794447443,
+      "encoded_through_origin_gain_rgb": [
+        0.80000096139923,
+        0.8000009142233325,
+        0.8000031911068229
+      ],
+      "gain_residual_rms_rgb": [
+        0.2830810850860926,
+        0.2828628166268685,
+        0.2829515220665831
+      ],
+      "gradient_rms_rgb_per_pt_x": [
+        15.461013520288954,
+        11.711823162498167,
+        14.89781325578428
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        11.564792035202922,
+        15.298513022037048,
+        10.674153004761145
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "exterior",
+      "bbox_pt": [
+        24,
+        170,
+        351,
+        272
+      ],
+      "masked_pixels": 0,
+      "n": 133416,
+      "mean_rgb": [
+        94.77941176470588,
+        116.2398662829046,
+        103.75413743479044
+      ],
+      "q05_rgb": [
+        38.0,
+        47.0,
+        46.0
+      ],
+      "q95_rgb": [
+        164.0,
+        164.0,
+        162.0
+      ],
+      "rms_contrast_rgb": [
+        42.79593380979981,
+        41.60827368998892,
+        40.87823333444621
+      ],
+      "mean_chroma_rgb_range": 77.91863794447443,
+      "encoded_through_origin_gain_rgb": [
+        0.80000096139923,
+        0.8000009142233325,
+        0.8000031911068229
+      ],
+      "gain_residual_rms_rgb": [
+        0.2830810850860926,
+        0.2828628166268685,
+        0.2829515220665831
+      ],
+      "gradient_rms_rgb_per_pt_x": [
+        15.461013520288954,
+        11.711823162498167,
+        14.89781325578428
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        11.564792035202922,
+        15.298513022037048,
+        10.674153004761145
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "region": "upper_left_primary",
+    "native": {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "platform": "native",
+      "region": "upper_left_primary",
+      "bbox_pt": [
+        48,
+        348,
+        110,
+        365
+      ],
+      "masked_pixels": 0,
+      "n": 4216,
+      "mean_rgb": [
+        193.5581119544592,
+        211.8209203036053,
+        209.78107210626186
+      ],
+      "q05_rgb": [
+        174.0,
+        206.0,
+        195.0
+      ],
+      "q95_rgb": [
+        214.0,
+        217.0,
+        227.0
+      ],
+      "rms_contrast_rgb": [
+        15.622683984492165,
+        4.0734420902155035,
+        13.874017475119869
+      ],
+      "mean_chroma_rgb_range": 27.519212523719165,
+      "gradient_rms_rgb_per_pt_x": [
+        1.2187754828786919,
+        0.6254601366930279,
+        1.23243274989854
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.5089617207959569,
+        0.5137408089380563,
+        0.5070374729963091
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "upper_left_primary",
+      "bbox_pt": [
+        48,
+        348,
+        110,
+        365
+      ],
+      "masked_pixels": 0,
+      "n": 4216,
+      "mean_rgb": [
+        192.7495256166983,
+        210.9027514231499,
+        209.52917457305503
+      ],
+      "q05_rgb": [
+        174.0,
+        205.0,
+        195.0
+      ],
+      "q95_rgb": [
+        214.0,
+        216.0,
+        227.0
+      ],
+      "rms_contrast_rgb": [
+        15.172470662317119,
+        4.110837717189892,
+        13.192725659406712
+      ],
+      "mean_chroma_rgb_range": 27.328273244781784,
+      "gradient_rms_rgb_per_pt_x": [
+        1.166239588428709,
+        0.623929020230657,
+        1.1107922386375877
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.6483304372125581,
+        0.5765030929897809,
+        0.658057807644107
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "upper_left_primary",
+      "bbox_pt": [
+        48,
+        348,
+        110,
+        365
+      ],
+      "masked_pixels": 0,
+      "n": 4216,
+      "mean_rgb": [
+        192.45469639468692,
+        211.25948766603415,
+        209.38353889943073
+      ],
+      "q05_rgb": [
+        173.0,
+        205.0,
+        194.0
+      ],
+      "q95_rgb": [
+        214.0,
+        217.0,
+        227.0
+      ],
+      "rms_contrast_rgb": [
+        15.840444259507473,
+        4.199714244744994,
+        13.791195125804474
+      ],
+      "mean_chroma_rgb_range": 28.159392789373815,
+      "gradient_rms_rgb_per_pt_x": [
+        1.1929972622427911,
+        0.621625274443436,
+        1.166239588428709
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.6038326595530529,
+        0.531509589558614,
+        0.6126716648539868
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "region": "middle_left_diagnostic",
+    "native": {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "platform": "native",
+      "region": "middle_left_diagnostic",
+      "bbox_pt": [
+        48,
+        430,
+        110,
+        442
+      ],
+      "masked_pixels": 2976,
+      "n": 0
+    },
+    "phaseA": {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "middle_left_diagnostic",
+      "bbox_pt": [
+        48,
+        430,
+        110,
+        442
+      ],
+      "masked_pixels": 2976,
+      "n": 0
+    },
+    "phaseB": {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "middle_left_diagnostic",
+      "bbox_pt": [
+        48,
+        430,
+        110,
+        442
+      ],
+      "masked_pixels": 2976,
+      "n": 0
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "region": "lower_right_diagnostic",
+    "native": {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "platform": "native",
+      "region": "lower_right_diagnostic",
+      "bbox_pt": [
+        265,
+        610,
+        327,
+        625
+      ],
+      "masked_pixels": 2728,
+      "n": 992,
+      "mean_rgb": [
+        223.64415322580646,
+        214.8639112903226,
+        231.78629032258064
+      ],
+      "q05_rgb": [
+        216.0,
+        205.0,
+        173.0
+      ],
+      "q95_rgb": [
+        237.0,
+        219.0,
+        248.0
+      ],
+      "rms_contrast_rgb": [
+        6.2848533107632765,
+        4.349942994643349,
+        22.99374681712194
+      ],
+      "mean_chroma_rgb_range": 29.629032258064516,
+      "gradient_rms_rgb_per_pt_x": [
+        0.9499679070317291,
+        0.919526212396663,
+        2.778401014094609
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.1071614388213236,
+        1.2294391962708806,
+        1.811382342517286
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "lower_right_diagnostic",
+      "bbox_pt": [
+        265,
+        610,
+        327,
+        625
+      ],
+      "masked_pixels": 2728,
+      "n": 992,
+      "mean_rgb": [
+        208.17237903225808,
+        195.28024193548387,
+        230.89717741935485
+      ],
+      "q05_rgb": [
+        197.0,
+        191.0,
+        171.0
+      ],
+      "q95_rgb": [
+        235.44999999999993,
+        203.44999999999993,
+        251.0
+      ],
+      "rms_contrast_rgb": [
+        12.632823477656336,
+        4.217390640246032,
+        25.961966445368837
+      ],
+      "mean_chroma_rgb_range": 48.73588709677419,
+      "gradient_rms_rgb_per_pt_x": [
+        1.4482958867613194,
+        0.9348709749678821,
+        2.568571777391038
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.5388159060803247,
+        0.3958308068477864,
+        0.633183748201243
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_coordinate",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "lower_right_diagnostic",
+      "bbox_pt": [
+        265,
+        610,
+        327,
+        625
+      ],
+      "masked_pixels": 2728,
+      "n": 992,
+      "mean_rgb": [
+        208.05947580645162,
+        195.12600806451613,
+        231.07258064516128
+      ],
+      "q05_rgb": [
+        197.0,
+        190.0,
+        167.0
+      ],
+      "q95_rgb": [
+        237.0,
+        203.0,
+        252.0
+      ],
+      "rms_contrast_rgb": [
+        13.325541315013234,
+        4.3938245923480155,
+        27.547773280160204
+      ],
+      "mean_chroma_rgb_range": 50.653225806451616,
+      "gradient_rms_rgb_per_pt_x": [
+        1.460871774476944,
+        0.9877295966495896,
+        2.8075102530780205
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.5638903707551803,
+        0.45029432259193025,
+        0.6616555134155384
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "region": "exterior",
+    "native": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "native",
+      "region": "exterior",
+      "bbox_pt": [
+        32,
+        176,
+        343,
+        220
+      ],
+      "masked_pixels": 0,
+      "n": 54736,
+      "mean_rgb": [
+        105.97968430283542,
+        108.47157263957907,
+        119.39754457760888
+      ],
+      "q05_rgb": [
+        29.0,
+        43.0,
+        56.0
+      ],
+      "q95_rgb": [
+        168.0,
+        147.0,
+        169.0
+      ],
+      "rms_contrast_rgb": [
+        60.78510286904102,
+        41.258963879268336,
+        44.68146326736133
+      ],
+      "mean_chroma_rgb_range": 68.43108740134464,
+      "encoded_through_origin_gain_rgb": [
+        0.799510898941089,
+        0.7995416079326944,
+        0.7997029436843812
+      ],
+      "gain_residual_rms_rgb": [
+        0.22304402532639322,
+        0.242022903052904,
+        0.14974246300359478
+      ],
+      "gradient_rms_rgb_per_pt_x": [
+        18.793362000382256,
+        14.46731408017677,
+        13.4597650777376
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        15.905689077872372,
+        12.244355190228143,
+        11.39161999770687
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "exterior",
+      "bbox_pt": [
+        32,
+        176,
+        343,
+        220
+      ],
+      "masked_pixels": 0,
+      "n": 54736,
+      "mean_rgb": [
+        105.97968430283542,
+        108.47157263957907,
+        119.39754457760888
+      ],
+      "q05_rgb": [
+        29.0,
+        43.0,
+        56.0
+      ],
+      "q95_rgb": [
+        168.0,
+        147.0,
+        169.0
+      ],
+      "rms_contrast_rgb": [
+        60.78510286904102,
+        41.258963879268336,
+        44.68146326736133
+      ],
+      "mean_chroma_rgb_range": 68.43108740134464,
+      "encoded_through_origin_gain_rgb": [
+        0.799510898941089,
+        0.7995416079326944,
+        0.7997029436843812
+      ],
+      "gain_residual_rms_rgb": [
+        0.22304402532639322,
+        0.242022903052904,
+        0.14974246300359478
+      ],
+      "gradient_rms_rgb_per_pt_x": [
+        18.793362000382256,
+        14.46731408017677,
+        13.4597650777376
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        15.905689077872372,
+        12.244355190228143,
+        11.39161999770687
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "exterior",
+      "bbox_pt": [
+        32,
+        176,
+        343,
+        220
+      ],
+      "masked_pixels": 0,
+      "n": 54736,
+      "mean_rgb": [
+        105.97968430283542,
+        108.47157263957907,
+        119.39754457760888
+      ],
+      "q05_rgb": [
+        29.0,
+        43.0,
+        56.0
+      ],
+      "q95_rgb": [
+        168.0,
+        147.0,
+        169.0
+      ],
+      "rms_contrast_rgb": [
+        60.78510286904102,
+        41.258963879268336,
+        44.68146326736133
+      ],
+      "mean_chroma_rgb_range": 68.43108740134464,
+      "encoded_through_origin_gain_rgb": [
+        0.799510898941089,
+        0.7995416079326944,
+        0.7997029436843812
+      ],
+      "gain_residual_rms_rgb": [
+        0.22304402532639322,
+        0.242022903052904,
+        0.14974246300359478
+      ],
+      "gradient_rms_rgb_per_pt_x": [
+        18.793362000382256,
+        14.46731408017677,
+        13.4597650777376
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        15.905689077872372,
+        12.244355190228143,
+        11.39161999770687
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "region": "left",
+    "native": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "native",
+      "region": "left",
+      "bbox_pt": [
+        49.5,
+        307,
+        54.5,
+        338
+      ],
+      "masked_pixels": 0,
+      "n": 620,
+      "mean_rgb": [
+        229.58064516129033,
+        198.20806451612904,
+        242.34516129032258
+      ],
+      "q05_rgb": [
+        228.0,
+        193.0,
+        238.0
+      ],
+      "q95_rgb": [
+        231.0,
+        204.0,
+        247.0
+      ],
+      "rms_contrast_rgb": [
+        0.8452597824905266,
+        3.473438307103932,
+        2.990882781503663
+      ],
+      "mean_chroma_rgb_range": 44.13709677419355,
+      "gradient_rms_rgb_per_pt_x": [
+        0.6448027677662344,
+        2.0721744159302427,
+        2.0408024284509576
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.5371448502628825,
+        0.9089716762345906,
+        0.7059466380242241
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "left",
+      "bbox_pt": [
+        49.5,
+        307,
+        54.5,
+        338
+      ],
+      "masked_pixels": 0,
+      "n": 620,
+      "mean_rgb": [
+        227.61290322580646,
+        195.75483870967741,
+        241.1
+      ],
+      "q05_rgb": [
+        226.0,
+        191.0,
+        237.0
+      ],
+      "q95_rgb": [
+        229.0,
+        201.04999999999995,
+        245.0
+      ],
+      "rms_contrast_rgb": [
+        0.9631071810798948,
+        3.2200820175566855,
+        2.495738303071731
+      ],
+      "mean_chroma_rgb_range": 45.34516129032258,
+      "gradient_rms_rgb_per_pt_x": [
+        0.766690041719393,
+        1.829663972126045,
+        1.8837162994395398
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.6871180011766419,
+        0.978456462588054,
+        0.7851072809641692
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "left",
+      "bbox_pt": [
+        49.5,
+        307,
+        54.5,
+        338
+      ],
+      "masked_pixels": 0,
+      "n": 620,
+      "mean_rgb": [
+        227.61290322580646,
+        195.75483870967741,
+        241.1
+      ],
+      "q05_rgb": [
+        226.0,
+        191.0,
+        237.0
+      ],
+      "q95_rgb": [
+        229.0,
+        201.04999999999995,
+        245.0
+      ],
+      "rms_contrast_rgb": [
+        0.9631071810798948,
+        3.2200820175566855,
+        2.495738303071731
+      ],
+      "mean_chroma_rgb_range": 45.34516129032258,
+      "gradient_rms_rgb_per_pt_x": [
+        0.766690041719393,
+        1.829663972126045,
+        1.8837162994395398
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.6871180011766419,
+        0.978456462588054,
+        0.7851072809641692
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "region": "right",
+    "native": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "native",
+      "region": "right",
+      "bbox_pt": [
+        320.5,
+        307,
+        325.5,
+        338
+      ],
+      "masked_pixels": 0,
+      "n": 620,
+      "mean_rgb": [
+        218.49354838709678,
+        216.34193548387097,
+        213.77903225806452
+      ],
+      "q05_rgb": [
+        213.0,
+        208.0,
+        202.0
+      ],
+      "q95_rgb": [
+        223.0,
+        224.0,
+        224.0
+      ],
+      "rms_contrast_rgb": [
+        3.0944732715445906,
+        4.91270730128468,
+        6.8587979078622014
+      ],
+      "mean_chroma_rgb_range": 5.908064516129032,
+      "gradient_rms_rgb_per_pt_x": [
+        1.1039193778675784,
+        1.8665130505147656,
+        2.8749318209151316
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.9303621716792893,
+        1.1249772310992803,
+        1.3032116695831513
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "right",
+      "bbox_pt": [
+        320.5,
+        307,
+        325.5,
+        338
+      ],
+      "masked_pixels": 0,
+      "n": 620,
+      "mean_rgb": [
+        217.10806451612902,
+        213.99516129032259,
+        211.01129032258063
+      ],
+      "q05_rgb": [
+        211.0,
+        205.0,
+        198.0
+      ],
+      "q95_rgb": [
+        222.0,
+        222.0,
+        222.0
+      ],
+      "rms_contrast_rgb": [
+        3.6561392640896964,
+        5.180139723466025,
+        7.302332920170304
+      ],
+      "mean_chroma_rgb_range": 6.937096774193549,
+      "gradient_rms_rgb_per_pt_x": [
+        1.3006753139817153,
+        1.9856113239375686,
+        3.0573959918361995
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.0016380027358138,
+        1.1983595344346754,
+        1.395543257518934
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "right",
+      "bbox_pt": [
+        320.5,
+        307,
+        325.5,
+        338
+      ],
+      "masked_pixels": 0,
+      "n": 620,
+      "mean_rgb": [
+        217.10806451612902,
+        213.99516129032259,
+        211.01129032258063
+      ],
+      "q05_rgb": [
+        211.0,
+        205.0,
+        198.0
+      ],
+      "q95_rgb": [
+        222.0,
+        222.0,
+        222.0
+      ],
+      "rms_contrast_rgb": [
+        3.6561392640896964,
+        5.180139723466025,
+        7.302332920170304
+      ],
+      "mean_chroma_rgb_range": 6.937096774193549,
+      "gradient_rms_rgb_per_pt_x": [
+        1.3006753139817153,
+        1.9856113239375686,
+        3.0573959918361995
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.0016380027358138,
+        1.1983595344346754,
+        1.395543257518934
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "region": "gap_left",
+    "native": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "native",
+      "region": "gap_left",
+      "bbox_pt": [
+        60,
+        350,
+        110,
+        359
+      ],
+      "masked_pixels": 0,
+      "n": 1800,
+      "mean_rgb": [
+        227.97944444444445,
+        218.32,
+        225.6288888888889
+      ],
+      "q05_rgb": [
+        225.0,
+        208.0,
+        225.0
+      ],
+      "q95_rgb": [
+        235.0,
+        223.0,
+        226.0
+      ],
+      "rms_contrast_rgb": [
+        3.4578605656327084,
+        4.9063269809954555,
+        0.5686718335920894
+      ],
+      "mean_chroma_rgb_range": 9.738333333333333,
+      "gradient_rms_rgb_per_pt_x": [
+        0.794198944903163,
+        0.9284141650970551,
+        0.3935507017934981
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.0922184655418476,
+        1.3433934205410347,
+        0.4702940256778044
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "gap_left",
+      "bbox_pt": [
+        60,
+        350,
+        110,
+        359
+      ],
+      "masked_pixels": 0,
+      "n": 1800,
+      "mean_rgb": [
+        226.67055555555555,
+        217.42333333333335,
+        223.35333333333332
+      ],
+      "q05_rgb": [
+        223.0,
+        203.0,
+        223.0
+      ],
+      "q95_rgb": [
+        237.0,
+        223.0,
+        225.0
+      ],
+      "rms_contrast_rgb": [
+        4.404898753057905,
+        6.479858537550557,
+        0.5903294748603337
+      ],
+      "mean_chroma_rgb_range": 9.248888888888889,
+      "gradient_rms_rgb_per_pt_x": [
+        0.8736059923409961,
+        1.0834951964030608,
+        0.5685352436149612
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.2242644850732887,
+        1.6442412875745172,
+        0.6019575908454603
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "gap_left",
+      "bbox_pt": [
+        60,
+        350,
+        110,
+        359
+      ],
+      "masked_pixels": 0,
+      "n": 1800,
+      "mean_rgb": [
+        226.67055555555555,
+        217.42333333333335,
+        223.35333333333332
+      ],
+      "q05_rgb": [
+        223.0,
+        203.0,
+        223.0
+      ],
+      "q95_rgb": [
+        237.0,
+        223.0,
+        225.0
+      ],
+      "rms_contrast_rgb": [
+        4.404898753057905,
+        6.479858537550557,
+        0.5903294748603337
+      ],
+      "mean_chroma_rgb_range": 9.248888888888889,
+      "gradient_rms_rgb_per_pt_x": [
+        0.8736059923409961,
+        1.0834951964030608,
+        0.5685352436149612
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.2242644850732887,
+        1.6442412875745172,
+        0.6019575908454603
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "region": "gap_right",
+    "native": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "native",
+      "region": "gap_right",
+      "bbox_pt": [
+        265,
+        350,
+        315,
+        359
+      ],
+      "masked_pixels": 0,
+      "n": 1800,
+      "mean_rgb": [
+        222.53333333333333,
+        221.84222222222223,
+        220.5427777777778
+      ],
+      "q05_rgb": [
+        222.0,
+        218.0,
+        215.0
+      ],
+      "q95_rgb": [
+        223.0,
+        224.0,
+        223.0
+      ],
+      "rms_contrast_rgb": [
+        0.5792715732327508,
+        1.6936468067967358,
+        2.352151038129296
+      ],
+      "mean_chroma_rgb_range": 2.098888888888889,
+      "gradient_rms_rgb_per_pt_x": [
+        0.24158102511315954,
+        0.46420708254852755,
+        0.5605833101216812
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.5551894218351491,
+        0.9737737386670721,
+        1.1550401062555462
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "gap_right",
+      "bbox_pt": [
+        265,
+        350,
+        315,
+        359
+      ],
+      "masked_pixels": 0,
+      "n": 1800,
+      "mean_rgb": [
+        222.58833333333334,
+        221.3177777777778,
+        220.65055555555554
+      ],
+      "q05_rgb": [
+        221.0,
+        217.0,
+        215.0
+      ],
+      "q95_rgb": [
+        223.0,
+        223.0,
+        223.0
+      ],
+      "rms_contrast_rgb": [
+        0.6280282194650387,
+        1.9416818470238422,
+        2.7701984931332984
+      ],
+      "mean_chroma_rgb_range": 1.9377777777777778,
+      "gradient_rms_rgb_per_pt_x": [
+        0.4444444444444444,
+        0.4714045207910317,
+        0.6067336330376245
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.6962082176712231,
+        1.0803049678351997,
+        1.353861579508994
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_shapes",
+      "carrier": "alert",
+      "platform": "rim_blur",
+      "region": "gap_right",
+      "bbox_pt": [
+        265,
+        350,
+        315,
+        359
+      ],
+      "masked_pixels": 0,
+      "n": 1800,
+      "mean_rgb": [
+        222.58833333333334,
+        221.3177777777778,
+        220.65055555555554
+      ],
+      "q05_rgb": [
+        221.0,
+        217.0,
+        215.0
+      ],
+      "q95_rgb": [
+        223.0,
+        223.0,
+        223.0
+      ],
+      "rms_contrast_rgb": [
+        0.6280282194650387,
+        1.9416818470238422,
+        2.7701984931332984
+      ],
+      "mean_chroma_rgb_range": 1.9377777777777778,
+      "gradient_rms_rgb_per_pt_x": [
+        0.4444444444444444,
+        0.4714045207910317,
+        0.6067336330376245
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        0.6962082176712231,
+        1.0803049678351997,
+        1.353861579508994
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "region": "exterior",
+    "native": {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "platform": "native",
+      "region": "exterior",
+      "bbox_pt": [
+        24,
+        170,
+        351,
+        272
+      ],
+      "masked_pixels": 0,
+      "n": 133416,
+      "mean_rgb": [
+        122.08738831924207,
+        125.08727588894885,
+        128.22676440606824
+      ],
+      "q05_rgb": [
+        24.0,
+        43.0,
+        56.0
+      ],
+      "q95_rgb": [
+        168.0,
+        147.0,
+        169.0
+      ],
+      "rms_contrast_rgb": [
+        53.32148299796354,
+        36.62022416491994,
+        39.98002828125295
+      ],
+      "mean_chroma_rgb_range": 44.70971247826348,
+      "encoded_through_origin_gain_rgb": [
+        0.7992870115979475,
+        0.7990543190253501,
+        0.7993603349633038
+      ],
+      "gain_residual_rms_rgb": [
+        0.17716176792475521,
+        0.1719648521585181,
+        0.17337506345935932
+      ],
+      "gradient_rms_rgb_per_pt_x": [
+        17.71643540885334,
+        12.182392364481913,
+        13.088283152187815
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        17.88180547859589,
+        12.945447464420909,
+        13.688110399526913
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "exterior",
+      "bbox_pt": [
+        24,
+        170,
+        351,
+        272
+      ],
+      "masked_pixels": 0,
+      "n": 133416,
+      "mean_rgb": [
+        122.08738831924207,
+        125.08727588894885,
+        128.22676440606824
+      ],
+      "q05_rgb": [
+        24.0,
+        43.0,
+        56.0
+      ],
+      "q95_rgb": [
+        168.0,
+        147.0,
+        169.0
+      ],
+      "rms_contrast_rgb": [
+        53.32148299796354,
+        36.62022416491994,
+        39.98002828125295
+      ],
+      "mean_chroma_rgb_range": 44.70971247826348,
+      "encoded_through_origin_gain_rgb": [
+        0.7992870115979475,
+        0.7990543190253501,
+        0.7993603349633038
+      ],
+      "gain_residual_rms_rgb": [
+        0.17716176792475521,
+        0.1719648521585181,
+        0.17337506345935932
+      ],
+      "gradient_rms_rgb_per_pt_x": [
+        17.71643540885334,
+        12.182392364481913,
+        13.088283152187815
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        17.88180547859589,
+        12.945447464420909,
+        13.688110399526913
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "exterior",
+      "bbox_pt": [
+        24,
+        170,
+        351,
+        272
+      ],
+      "masked_pixels": 0,
+      "n": 133416,
+      "mean_rgb": [
+        122.08738831924207,
+        125.08727588894885,
+        128.22676440606824
+      ],
+      "q05_rgb": [
+        24.0,
+        43.0,
+        56.0
+      ],
+      "q95_rgb": [
+        168.0,
+        147.0,
+        169.0
+      ],
+      "rms_contrast_rgb": [
+        53.32148299796354,
+        36.62022416491994,
+        39.98002828125295
+      ],
+      "mean_chroma_rgb_range": 44.70971247826348,
+      "encoded_through_origin_gain_rgb": [
+        0.7992870115979475,
+        0.7990543190253501,
+        0.7993603349633038
+      ],
+      "gain_residual_rms_rgb": [
+        0.17716176792475521,
+        0.1719648521585181,
+        0.17337506345935932
+      ],
+      "gradient_rms_rgb_per_pt_x": [
+        17.71643540885334,
+        12.182392364481913,
+        13.088283152187815
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        17.88180547859589,
+        12.945447464420909,
+        13.688110399526913
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "region": "upper_left_primary",
+    "native": {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "platform": "native",
+      "region": "upper_left_primary",
+      "bbox_pt": [
+        48,
+        348,
+        110,
+        365
+      ],
+      "masked_pixels": 0,
+      "n": 4216,
+      "mean_rgb": [
+        221.8790322580645,
+        214.62618595825427,
+        219.5550284629981
+      ],
+      "q05_rgb": [
+        219.0,
+        194.0,
+        219.0
+      ],
+      "q95_rgb": [
+        238.0,
+        219.0,
+        223.0
+      ],
+      "rms_contrast_rgb": [
+        6.044825959868755,
+        7.752132427909197,
+        1.175859469727878
+      ],
+      "mean_chroma_rgb_range": 7.343453510436433,
+      "gradient_rms_rgb_per_pt_x": [
+        0.8435764540688635,
+        1.0506084411446994,
+        0.3875143662198622
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.1880802590133726,
+        1.492896179555883,
+        0.5175323054597905
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "upper_left_primary",
+      "bbox_pt": [
+        48,
+        348,
+        110,
+        365
+      ],
+      "masked_pixels": 0,
+      "n": 4216,
+      "mean_rgb": [
+        222.20445920303607,
+        212.62310246679317,
+        219.19663187855787
+      ],
+      "q05_rgb": [
+        218.0,
+        198.0,
+        218.0
+      ],
+      "q95_rgb": [
+        234.0,
+        218.0,
+        222.0
+      ],
+      "rms_contrast_rgb": [
+        5.183166725772844,
+        6.321668967455292,
+        1.2632591065846006
+      ],
+      "mean_chroma_rgb_range": 9.76280834914611,
+      "gradient_rms_rgb_per_pt_x": [
+        0.8246559214661483,
+        0.912739948339654,
+        0.6991146960276384
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.084413702965287,
+        1.2249443899840002,
+        0.851081768077004
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "upper_left_primary",
+      "bbox_pt": [
+        48,
+        348,
+        110,
+        365
+      ],
+      "masked_pixels": 0,
+      "n": 4216,
+      "mean_rgb": [
+        221.78486717267552,
+        213.20066413662238,
+        219.07163187855787
+      ],
+      "q05_rgb": [
+        218.0,
+        197.0,
+        218.0
+      ],
+      "q95_rgb": [
+        235.0,
+        218.0,
+        222.0
+      ],
+      "rms_contrast_rgb": [
+        5.593136603878244,
+        6.835354260761933,
+        1.3318431797243442
+      ],
+      "mean_chroma_rgb_range": 8.73956356736243,
+      "gradient_rms_rgb_per_pt_x": [
+        0.8486633933643708,
+        0.9466899721638043,
+        0.6428059008066962
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.1102473018921275,
+        1.2811132744204874,
+        0.7587869106393281
+      ]
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "region": "middle_left_diagnostic",
+    "native": {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "platform": "native",
+      "region": "middle_left_diagnostic",
+      "bbox_pt": [
+        48,
+        430,
+        110,
+        442
+      ],
+      "masked_pixels": 2976,
+      "n": 0
+    },
+    "phaseA": {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "middle_left_diagnostic",
+      "bbox_pt": [
+        48,
+        430,
+        110,
+        442
+      ],
+      "masked_pixels": 2976,
+      "n": 0
+    },
+    "phaseB": {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "middle_left_diagnostic",
+      "bbox_pt": [
+        48,
+        430,
+        110,
+        442
+      ],
+      "masked_pixels": 2976,
+      "n": 0
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "region": "lower_right_diagnostic",
+    "native": {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "platform": "native",
+      "region": "lower_right_diagnostic",
+      "bbox_pt": [
+        265,
+        610,
+        327,
+        625
+      ],
+      "masked_pixels": 2728,
+      "n": 992,
+      "mean_rgb": [
+        215.73689516129033,
+        223.25,
+        228.4485887096774
+      ],
+      "q05_rgb": [
+        208.0,
+        213.0,
+        210.0
+      ],
+      "q95_rgb": [
+        225.0,
+        228.0,
+        236.0
+      ],
+      "rms_contrast_rgb": [
+        5.167392495126169,
+        4.648967974271973,
+        7.550727508756047
+      ],
+      "mean_chroma_rgb_range": 15.158266129032258,
+      "gradient_rms_rgb_per_pt_x": [
+        1.4113362174546458,
+        1.0573013661495896,
+        1.538133173212445
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.564290448828136,
+        1.2681856846990414,
+        1.154035196613622
+      ]
+    },
+    "phaseA": {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "lower_right_diagnostic",
+      "bbox_pt": [
+        265,
+        610,
+        327,
+        625
+      ],
+      "masked_pixels": 2728,
+      "n": 992,
+      "mean_rgb": [
+        188.08568548387098,
+        206.68548387096774,
+        219.49395161290323
+      ],
+      "q05_rgb": [
+        171.0,
+        203.0,
+        203.0
+      ],
+      "q95_rgb": [
+        215.0,
+        216.0,
+        224.0
+      ],
+      "rms_contrast_rgb": [
+        15.381234532370605,
+        3.937755491933963,
+        6.289709634631894
+      ],
+      "mean_chroma_rgb_range": 34.096774193548384,
+      "gradient_rms_rgb_per_pt_x": [
+        2.0923787373436493,
+        0.9061667679749208,
+        1.2972766972655805
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.8265830202741722,
+        0.9743247691403358,
+        0.915810939779251
+      ]
+    },
+    "phaseB": {
+      "input": "panel_probe_shapes",
+      "carrier": "sheet",
+      "platform": "rim_blur",
+      "region": "lower_right_diagnostic",
+      "bbox_pt": [
+        265,
+        610,
+        327,
+        625
+      ],
+      "masked_pixels": 2728,
+      "n": 992,
+      "mean_rgb": [
+        186.15423387096774,
+        206.3296370967742,
+        220.21068548387098
+      ],
+      "q05_rgb": [
+        169.0,
+        202.0,
+        205.0
+      ],
+      "q95_rgb": [
+        216.0,
+        216.0,
+        224.0
+      ],
+      "rms_contrast_rgb": [
+        16.770792409486162,
+        4.38716151499164,
+        6.042271017278265
+      ],
+      "mean_chroma_rgb_range": 36.49092741935484,
+      "gradient_rms_rgb_per_pt_x": [
+        2.304996340578722,
+        0.9584879691429986,
+        1.3792893185949944
+      ],
+      "gradient_rms_rgb_per_pt_y": [
+        1.8959087652318476,
+        1.0295182534085456,
+        0.8954570441804287
+      ]
+    }
+  }
+]

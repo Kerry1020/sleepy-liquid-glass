@@ -1,0 +1,10 @@
+{
+  "status": "failed_unmodified_retry_registered",
+  "reason": "Display-readiness failure at historical landscape background; timeout screenshot visibly contains external API error/send-to-device floating overlay, absent from Activity PixelCopy. No material result may use this obstructed screen.",
+  "original_matrix_sha256": "686bd0c27164c026031bb8ae9a95b54892df1bad5e171c280084ffefa51f63ea",
+  "readiness_sha256": "5a2376ae08bde97985e7e7c7217cf87ff2c922851854be4bd25bedad9ca9294f",
+  "timeout_sha256": "fd3b48bc9da571c2b5a120e753c49c6a30629499b88475f1b57b854727c859e3",
+  "partial_captures": 6,
+  "retry": "panels-alert-floor-screen-history-r2-20261115",
+  "change": "Fresh run ID only; same installed APKs, sources, exact input list, geometry, timing and readiness thresholds; original untouched."
+}

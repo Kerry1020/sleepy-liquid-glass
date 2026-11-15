@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "kind": "sheet-blur-pipeline-control-before-radius-probe",
+  "changes": "Light Sheet retains original12 radius and all optical/shape parameters; enable explicit true-radius input sigma and actual input geometry path. Alert remains bounded-rim body8 candidate. All dark carriers remain original factory with null input.",
+  "reference": "panels-alert-rim-bounded-20261115",
+  "checks": [
+    "Run targeted76 checks and build/source freeze",
+    "Same four nonperiodic light REST; full actualWindow pixel comparison against prior candidate",
+    "Alert strict zero-difference control",
+    "Any Sheet pipeline delta retained before deciding a same-pipeline12-to10 local radius probe; do not attribute compound pipeline+radius to one scalar"
+  ],
+  "limits": "This is an operational control, not a native parity acceptance; no Sheet material coefficients are changed."
+}

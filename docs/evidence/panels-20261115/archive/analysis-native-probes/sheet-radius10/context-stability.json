@@ -1,0 +1,170 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "phase": "after-alert-before-sheet-context",
+    "full_display_raw": {
+      "samples": 1000500,
+      "max_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "mean_rgb": [
+        0.16442678660669666,
+        0.17608195902048976,
+        0.17507946026986507
+      ],
+      "rms_rgb": [
+        6.012855044577946,
+        6.213996389155516,
+        6.189906746247183
+      ],
+      "changed_pixel_count": 1024
+    },
+    "fixed_exterior_raw": {
+      "samples": 54736,
+      "max_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rms_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "changed_pixel_count": 0
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "phase": "after-sheet-context",
+    "full_display_raw": {
+      "samples": 1000500,
+      "max_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "mean_rgb": [
+        0.16474562718640678,
+        0.17636681659170414,
+        0.17541329335332334
+      ],
+      "rms_rgb": [
+        6.0128817239894765,
+        6.21401930975508,
+        6.18993371211032
+      ],
+      "changed_pixel_count": 1936
+    },
+    "fixed_exterior_raw": {
+      "samples": 54736,
+      "max_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rms_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "changed_pixel_count": 0
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "phase": "after-alert-before-sheet-context",
+    "full_display_raw": {
+      "samples": 1000500,
+      "max_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rms_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "changed_pixel_count": 0
+    },
+    "fixed_exterior_raw": {
+      "samples": 54736,
+      "max_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rms_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "changed_pixel_count": 0
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "phase": "after-sheet-context",
+    "full_display_raw": {
+      "samples": 1000500,
+      "max_rgb": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "mean_rgb": [
+        0.0010434782608695651,
+        0.0009865067466266867,
+        0.00103848075962019
+      ],
+      "rms_rgb": [
+        0.03230291412348993,
+        0.03140870494984928,
+        0.032380175449168595
+      ],
+      "changed_pixel_count": 1199
+    },
+    "fixed_exterior_raw": {
+      "samples": 54736,
+      "max_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rms_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "changed_pixel_count": 0
+    }
+  }
+]

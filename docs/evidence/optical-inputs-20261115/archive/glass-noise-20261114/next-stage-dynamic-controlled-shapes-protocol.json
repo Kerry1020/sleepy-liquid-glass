@@ -1,0 +1,3800 @@
+{
+  "schema": 1,
+  "protocol_id": "dynamic_controlled_shapes_20261114_draft_v4",
+  "status": "draft_only_not_frozen_not_generated_not_captured",
+  "scope": "Plan the stage after completion and preservation of current static analysis; no device action or product modification",
+  "world": {
+    "logical_pt": [
+      375,
+      667
+    ],
+    "pixels": [
+      750,
+      1334
+    ],
+    "pixels_per_pt": 2,
+    "origin": "top-left image edge",
+    "pixel_centers": "integer index + 0.5",
+    "mode": "opaque RGB8",
+    "color": "sRGB with frozen embedded ICC",
+    "antialias_samples_per_axis": 4,
+    "arithmetic": "sRGB code values; no per-image normalization",
+    "configuration_scope": "Baseline world only. A genuinely different supported viewport/pixel scale needs a new analytic source manifest at that exact world/raster. Source points retain physical logical scale with center(width/2,height/2); no screenshot/source stretching."
+  },
+  "source_shapes": {
+    "families": [
+      "circle",
+      "equilateral_triangle",
+      "five_point_star",
+      "asymmetric_polygon"
+    ],
+    "star_inner_outer_radius_ratio": 0.45,
+    "palette_rgb": [
+      [
+        24,
+        24,
+        24
+      ],
+      [
+        232,
+        232,
+        232
+      ],
+      [
+        232,
+        48,
+        48
+      ],
+      [
+        48,
+        232,
+        48
+      ],
+      [
+        48,
+        48,
+        232
+      ],
+      [
+        232,
+        232,
+        48
+      ]
+    ],
+    "count": 108,
+    "composition": "4 families x3 base radii x3 area-preserving aspect ratios x3 orientations=108 geometry conditions; six ordered palettes use fixed family/factor marginal balance;6 nonoverlapping shapes per plate",
+    "orientation": "All families, including elliptic circle-family instances, use registered0,pi/4,pi/2. Seed-controlled source jitter never changes angle or fixed palette table.",
+    "anchors": {
+      "count": 6,
+      "center_pt": [
+        187.5,
+        333.5
+      ],
+      "x_offsets_pt": [
+        -72,
+        0,
+        72
+      ],
+      "y_offsets_pt": [
+        -36,
+        36
+      ],
+      "slot_order": "row-major3x2, slot=i mod6",
+      "jitter_pt": "independent uniform[-2,+2] in x and y from the assigned registered source seed, before any output; exact coordinates retained",
+      "spacing": "72pt nominal nearest-center spacing; max radial bound25.456pt plus2pt independent jitter leaves more than4pt source-boundary clearance. Verify actual ideal bounds and retain any failure; never substitute a seed.",
+      "center_policy": "The listed center is baseline375x667pt only; a separately registered genuine viewport uses(width/2,height/2), preserving offsets and point-scale source geometry, never scaling the field."
+    },
+    "metadata_required": [
+      "source_id",
+      "persistent_boundary_and_internal_segment_feature_ids",
+      "seed",
+      "family",
+      "palette_class_id",
+      "ordered_palette_indices",
+      "rgb_by_band",
+      "center_pt",
+      "center_px",
+      "local_polygon_vertices",
+      "polygon_vertices_pt",
+      "polygon_vertices_px",
+      "analytic_circle_if_applicable",
+      "orientation_rad",
+      "region_signed_source_contrast",
+      "local_world_internal_boundary_segments",
+      "per_region_exact_coverage_RLE_and_hashes",
+      "per_region_raster_area_px2",
+      "raster_area_px2",
+      "raster_moments",
+      "pixel_coverage_support",
+      "generation_failure",
+      "geometry_condition_id",
+      "plate_id",
+      "slot_id",
+      "scale_index",
+      "base_radius_pt",
+      "aspect_ratio",
+      "orientation_index",
+      "source_affine_matrix_and_inverse",
+      "actual_transformed_max_radius_pt",
+      "actual_ideal_bounds",
+      "continuous_ideal_area_and_moments",
+      "analytic_ellipse_conic_if_applicable",
+      "base_local_and_transformed_color_boundary_coordinates",
+      "actual_world_bounds_width_height_ratio",
+      "actual_principal_axes_and_aspect_ratio"
+    ],
+    "backgrounds": [
+      {
+        "id": "neutral",
+        "formula_status": "RGB128 fixed"
+      },
+      {
+        "id": "broad_chromatic_gradient",
+        "formula_status": "must be fully declared and frozen before generation"
+      },
+      {
+        "id": "multiscale_chromatic_texture",
+        "formula_status": "must be fully declared and frozen before generation"
+      }
+    ],
+    "design_limit": "fixed central constellation and targeted backgrounds; disjoint seeds do not establish design blindness or natural-scene representativeness",
+    "palette_classes": {
+      "count": 6,
+      "class_id": "k=0..5",
+      "ordered_band_palette_indices": "[k,(k+2) mod6,(k+4) mod6] for left,middle,right",
+      "indices_by_class": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          0
+        ],
+        [
+          3,
+          5,
+          1
+        ],
+        [
+          4,
+          0,
+          2
+        ],
+        [
+          5,
+          1,
+          3
+        ]
+      ],
+      "meaning": "six ordered internal three-color fills with fixed deterministic family and geometry-factor marginal balance across108 conditions; not a full palette Cartesian cross or background-independent design"
+    },
+    "circle_boundary": "unit analytic disk transformed by the exact registered area-preserving aspect/scale/rotation affine matrix; save resulting conic and actual support",
+    "triangle_local_vertex_angles": "-pi/2+2*pi*j/3, j=0..2, unit circumradius",
+    "star_local_vertex_angles": "-pi/2+pi*j/5, j=0..9, alternating outer1/inner.45 radii",
+    "asymmetric_polygon": {
+      "ordered_local_vertices_before_normalization": [
+        [
+          -0.95,
+          -0.15
+        ],
+        [
+          -0.3,
+          -0.9
+        ],
+        [
+          0.45,
+          -0.7
+        ],
+        [
+          0.95,
+          0.15
+        ],
+        [
+          0.2,
+          0.95
+        ],
+        [
+          -0.55,
+          0.45
+        ]
+      ],
+      "normalization": "divide local base vertices by max Euclidean vertex norm, then apply registered source affine transform",
+      "world_transform": "c+R(theta)*base_radius*diag(sqrt(q),1/sqrt(q))*v; preserve pre/post-transform vertices",
+      "support": "base unit vertices normalized to1; actual transformed support radius computed and recorded, not assumed equal to base_radius"
+    },
+    "internal_color_partition": {
+      "coordinate": "base local coordinate u before aspect/scale/world rotation/translation, with unit-radius boundary; thresholds u=-.25,+.25; apply same registered affine map to shape and color partition",
+      "left": "u<-.25",
+      "middle": "-.25<=u<.25",
+      "right": "u>=.25",
+      "membership": "each band intersects the exact ideal shape support",
+      "rgb_assignment": "palette class indices in left,middle,right order",
+      "boundary_metadata": "exact clipped local/world boundary segments, each with persistent segment ID, adjacent RGB regions and any multiple intervals"
+    },
+    "coverage_contract": {
+      "samples_per_axis": 4,
+      "sample_centers": "output pixel(i,j), subpixel(a,b) is(i+(a+.5)/4,j+(b+.5)/4), a,b=0..3",
+      "per_region_encoding": "lossless integer subpixel-count RLE, denominator16, each color region separate",
+      "shape_coverage": "sum of three region counts divided by16; per-region counts divided by16 are exact declared sampled masks",
+      "rgb_composition": "sum16 shape/background sRGB code values, then half-up integer division(integer_sum+8)//16; no normalization",
+      "required_bindings": [
+        "region_mask_bytes_sha256",
+        "source_png_sha256",
+        "decoded_pixel_sha256",
+        "generator_sha256",
+        "protocol_sha256",
+        "icc_sha256"
+      ],
+      "freeze_policy": "register analytic/rasterization implementation and dependencies before input generation; preserve and hash-bind actual mask bytes before reading any dynamic test outputs",
+      "area_moments": "per-region and aggregate source area and coverage-weighted output pixel-center moments, distinct from continuous/native-response moments",
+      "status": "not generated or frozen by this draft; generator/background formulas still implementation tasks"
+    },
+    "base_radius_pt": [
+      6,
+      12,
+      18
+    ],
+    "orientation_levels_rad": [
+      0.0,
+      0.7853981633974483,
+      1.5707963267948966
+    ],
+    "count_semantics": "108 registered geometry conditions across18 source plates per split, NOT108 or216 large markers in one image",
+    "landmarks_per_field": 6,
+    "plate_count_per_split": 18,
+    "source_transform": {
+      "formula": "world=c+R(theta)*base_radius*diag(sqrt(q),1/sqrt(q))*v, q in[1,1.5,2] is the registered area-preserving SOURCE aspect transform. Applies to shape and all internal color regions only.",
+      "scale_meaning": "base_radius is the pre-anisotropy unit-support radius; do not call it the final circumradius. Save actual transformed maximum radius, bounds, area and moments.",
+      "circle_family": "q=1 is circle; q!=1 is its exact ellipse-family instance, retain analytic conic. Do not label every instance a circle.",
+      "native_rule": "Never nonuniformly stretch or screenshot-scale a native control. Source anisotropy is an optical stimulus only.",
+      "actual_max_support_radius_bound_pt": 25.455844122715714,
+      "geometry_condition_order": "i=(((orientation_index*3+aspect_index)*3+scale_index)*4+family_index), i0..107",
+      "palette_class": "k=(scale_index+2*aspect_index+3*orientation_index+family_offset[family_index]) mod6",
+      "grouping": "plate=floor(i/6), slot=i mod6.18 plates of6. This enumerates all geometry conditions; no geometry rejected/selected from output.",
+      "source_seed_assignment": "plate_index mod2 selects the registered split source-layout seed; no claim both seeds replicate every geometry condition",
+      "background_assignment": "plate_index mod3 chooses one registered background per captured plate in size-coverage extension; extra backdrop coverage requires another bounded plan",
+      "aspect_semantics": "Three distinct aspect levels1,1.5,2, with orientation as a separate factor. For circle-family instances these are principal axis ratios; actual world-axis bounds/width-height ratio and principal axes are computed per transformed family. Do not confuse affine factor with every polygon bbox ratio."
+    },
+    "aspect_transform_ratio": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "palette_assignment": {
+      "formula": "k=(scale_index+2*aspect_index+3*orientation_index+family_offset[family_index]) mod6",
+      "family_offsets": [
+        0,
+        3,
+        1,
+        4
+      ],
+      "table_order": "j=9*orientation_index+3*aspect_index+scale_index, j0..26; rows follow source_shapes.families",
+      "classes_by_family_and_geometry_triple": [
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          4,
+          5,
+          0,
+          3,
+          4,
+          5,
+          5,
+          0,
+          1,
+          1,
+          2,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          4,
+          5,
+          0
+        ],
+        [
+          3,
+          4,
+          5,
+          5,
+          0,
+          1,
+          1,
+          2,
+          3,
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          4,
+          5,
+          0,
+          3,
+          4,
+          5,
+          5,
+          0,
+          1,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          3,
+          4,
+          5,
+          5,
+          0,
+          1,
+          4,
+          5,
+          0,
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          1,
+          2,
+          3,
+          3,
+          4,
+          5,
+          5,
+          0,
+          1
+        ],
+        [
+          4,
+          5,
+          0,
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          1,
+          2,
+          3,
+          3,
+          4,
+          5,
+          5,
+          0,
+          1,
+          4,
+          5,
+          0,
+          0,
+          1,
+          2,
+          2,
+          3,
+          4
+        ]
+      ],
+      "global_counts": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "family_counts": [
+        [
+          5,
+          4,
+          5,
+          4,
+          5,
+          4
+        ],
+        [
+          4,
+          5,
+          4,
+          5,
+          4,
+          5
+        ],
+        [
+          4,
+          5,
+          4,
+          5,
+          4,
+          5
+        ],
+        [
+          5,
+          4,
+          5,
+          4,
+          5,
+          4
+        ]
+      ],
+      "factor_marginal_counts": {
+        "scale_index": [
+          [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        ],
+        "aspect_index": [
+          [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        ],
+        "orientation_index": [
+          [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        ]
+      },
+      "background_marginal_counts": [
+        [
+          3,
+          12,
+          3,
+          3,
+          12,
+          3
+        ],
+        [
+          3,
+          3,
+          12,
+          3,
+          3,
+          12
+        ],
+        [
+          12,
+          3,
+          3,
+          12,
+          3,
+          3
+        ]
+      ],
+      "source_seed_marginal_counts": [
+        [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      ],
+      "balance_claim": "Global each class18; each family every class4or5; every scale/aspect/orientation level each class6. Fixed table, no seed permutation and no output selection.",
+      "not_independent": "Existing plate mod3 background blocks are correlated with palette: rows are retained explicitly. No background-within-palette balance or independent scene/color claim; do not enlarge the108-condition matrix to hide this limitation."
+    },
+    "geometry_condition_table": [
+      {
+        "condition_index": 0,
+        "family_index": 0,
+        "scale_index": 0,
+        "aspect_index": 0,
+        "orientation_index": 0,
+        "plate_index": 0,
+        "slot_index": 0,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 1,
+        "family_index": 1,
+        "scale_index": 0,
+        "aspect_index": 0,
+        "orientation_index": 0,
+        "plate_index": 0,
+        "slot_index": 1,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 2,
+        "family_index": 2,
+        "scale_index": 0,
+        "aspect_index": 0,
+        "orientation_index": 0,
+        "plate_index": 0,
+        "slot_index": 2,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 3,
+        "family_index": 3,
+        "scale_index": 0,
+        "aspect_index": 0,
+        "orientation_index": 0,
+        "plate_index": 0,
+        "slot_index": 3,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 4,
+        "family_index": 0,
+        "scale_index": 1,
+        "aspect_index": 0,
+        "orientation_index": 0,
+        "plate_index": 0,
+        "slot_index": 4,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 5,
+        "family_index": 1,
+        "scale_index": 1,
+        "aspect_index": 0,
+        "orientation_index": 0,
+        "plate_index": 0,
+        "slot_index": 5,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 6,
+        "family_index": 2,
+        "scale_index": 1,
+        "aspect_index": 0,
+        "orientation_index": 0,
+        "plate_index": 1,
+        "slot_index": 0,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 7,
+        "family_index": 3,
+        "scale_index": 1,
+        "aspect_index": 0,
+        "orientation_index": 0,
+        "plate_index": 1,
+        "slot_index": 1,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 8,
+        "family_index": 0,
+        "scale_index": 2,
+        "aspect_index": 0,
+        "orientation_index": 0,
+        "plate_index": 1,
+        "slot_index": 2,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 9,
+        "family_index": 1,
+        "scale_index": 2,
+        "aspect_index": 0,
+        "orientation_index": 0,
+        "plate_index": 1,
+        "slot_index": 3,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 10,
+        "family_index": 2,
+        "scale_index": 2,
+        "aspect_index": 0,
+        "orientation_index": 0,
+        "plate_index": 1,
+        "slot_index": 4,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 11,
+        "family_index": 3,
+        "scale_index": 2,
+        "aspect_index": 0,
+        "orientation_index": 0,
+        "plate_index": 1,
+        "slot_index": 5,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 12,
+        "family_index": 0,
+        "scale_index": 0,
+        "aspect_index": 1,
+        "orientation_index": 0,
+        "plate_index": 2,
+        "slot_index": 0,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 13,
+        "family_index": 1,
+        "scale_index": 0,
+        "aspect_index": 1,
+        "orientation_index": 0,
+        "plate_index": 2,
+        "slot_index": 1,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 14,
+        "family_index": 2,
+        "scale_index": 0,
+        "aspect_index": 1,
+        "orientation_index": 0,
+        "plate_index": 2,
+        "slot_index": 2,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 15,
+        "family_index": 3,
+        "scale_index": 0,
+        "aspect_index": 1,
+        "orientation_index": 0,
+        "plate_index": 2,
+        "slot_index": 3,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 16,
+        "family_index": 0,
+        "scale_index": 1,
+        "aspect_index": 1,
+        "orientation_index": 0,
+        "plate_index": 2,
+        "slot_index": 4,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 17,
+        "family_index": 1,
+        "scale_index": 1,
+        "aspect_index": 1,
+        "orientation_index": 0,
+        "plate_index": 2,
+        "slot_index": 5,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 18,
+        "family_index": 2,
+        "scale_index": 1,
+        "aspect_index": 1,
+        "orientation_index": 0,
+        "plate_index": 3,
+        "slot_index": 0,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 19,
+        "family_index": 3,
+        "scale_index": 1,
+        "aspect_index": 1,
+        "orientation_index": 0,
+        "plate_index": 3,
+        "slot_index": 1,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 20,
+        "family_index": 0,
+        "scale_index": 2,
+        "aspect_index": 1,
+        "orientation_index": 0,
+        "plate_index": 3,
+        "slot_index": 2,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 21,
+        "family_index": 1,
+        "scale_index": 2,
+        "aspect_index": 1,
+        "orientation_index": 0,
+        "plate_index": 3,
+        "slot_index": 3,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 22,
+        "family_index": 2,
+        "scale_index": 2,
+        "aspect_index": 1,
+        "orientation_index": 0,
+        "plate_index": 3,
+        "slot_index": 4,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 23,
+        "family_index": 3,
+        "scale_index": 2,
+        "aspect_index": 1,
+        "orientation_index": 0,
+        "plate_index": 3,
+        "slot_index": 5,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 24,
+        "family_index": 0,
+        "scale_index": 0,
+        "aspect_index": 2,
+        "orientation_index": 0,
+        "plate_index": 4,
+        "slot_index": 0,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 25,
+        "family_index": 1,
+        "scale_index": 0,
+        "aspect_index": 2,
+        "orientation_index": 0,
+        "plate_index": 4,
+        "slot_index": 1,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 26,
+        "family_index": 2,
+        "scale_index": 0,
+        "aspect_index": 2,
+        "orientation_index": 0,
+        "plate_index": 4,
+        "slot_index": 2,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 27,
+        "family_index": 3,
+        "scale_index": 0,
+        "aspect_index": 2,
+        "orientation_index": 0,
+        "plate_index": 4,
+        "slot_index": 3,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 28,
+        "family_index": 0,
+        "scale_index": 1,
+        "aspect_index": 2,
+        "orientation_index": 0,
+        "plate_index": 4,
+        "slot_index": 4,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 29,
+        "family_index": 1,
+        "scale_index": 1,
+        "aspect_index": 2,
+        "orientation_index": 0,
+        "plate_index": 4,
+        "slot_index": 5,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 30,
+        "family_index": 2,
+        "scale_index": 1,
+        "aspect_index": 2,
+        "orientation_index": 0,
+        "plate_index": 5,
+        "slot_index": 0,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 31,
+        "family_index": 3,
+        "scale_index": 1,
+        "aspect_index": 2,
+        "orientation_index": 0,
+        "plate_index": 5,
+        "slot_index": 1,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 32,
+        "family_index": 0,
+        "scale_index": 2,
+        "aspect_index": 2,
+        "orientation_index": 0,
+        "plate_index": 5,
+        "slot_index": 2,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 33,
+        "family_index": 1,
+        "scale_index": 2,
+        "aspect_index": 2,
+        "orientation_index": 0,
+        "plate_index": 5,
+        "slot_index": 3,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 34,
+        "family_index": 2,
+        "scale_index": 2,
+        "aspect_index": 2,
+        "orientation_index": 0,
+        "plate_index": 5,
+        "slot_index": 4,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 35,
+        "family_index": 3,
+        "scale_index": 2,
+        "aspect_index": 2,
+        "orientation_index": 0,
+        "plate_index": 5,
+        "slot_index": 5,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 36,
+        "family_index": 0,
+        "scale_index": 0,
+        "aspect_index": 0,
+        "orientation_index": 1,
+        "plate_index": 6,
+        "slot_index": 0,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 37,
+        "family_index": 1,
+        "scale_index": 0,
+        "aspect_index": 0,
+        "orientation_index": 1,
+        "plate_index": 6,
+        "slot_index": 1,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 38,
+        "family_index": 2,
+        "scale_index": 0,
+        "aspect_index": 0,
+        "orientation_index": 1,
+        "plate_index": 6,
+        "slot_index": 2,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 39,
+        "family_index": 3,
+        "scale_index": 0,
+        "aspect_index": 0,
+        "orientation_index": 1,
+        "plate_index": 6,
+        "slot_index": 3,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 40,
+        "family_index": 0,
+        "scale_index": 1,
+        "aspect_index": 0,
+        "orientation_index": 1,
+        "plate_index": 6,
+        "slot_index": 4,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 41,
+        "family_index": 1,
+        "scale_index": 1,
+        "aspect_index": 0,
+        "orientation_index": 1,
+        "plate_index": 6,
+        "slot_index": 5,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 42,
+        "family_index": 2,
+        "scale_index": 1,
+        "aspect_index": 0,
+        "orientation_index": 1,
+        "plate_index": 7,
+        "slot_index": 0,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 43,
+        "family_index": 3,
+        "scale_index": 1,
+        "aspect_index": 0,
+        "orientation_index": 1,
+        "plate_index": 7,
+        "slot_index": 1,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 44,
+        "family_index": 0,
+        "scale_index": 2,
+        "aspect_index": 0,
+        "orientation_index": 1,
+        "plate_index": 7,
+        "slot_index": 2,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 45,
+        "family_index": 1,
+        "scale_index": 2,
+        "aspect_index": 0,
+        "orientation_index": 1,
+        "plate_index": 7,
+        "slot_index": 3,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 46,
+        "family_index": 2,
+        "scale_index": 2,
+        "aspect_index": 0,
+        "orientation_index": 1,
+        "plate_index": 7,
+        "slot_index": 4,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 47,
+        "family_index": 3,
+        "scale_index": 2,
+        "aspect_index": 0,
+        "orientation_index": 1,
+        "plate_index": 7,
+        "slot_index": 5,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 48,
+        "family_index": 0,
+        "scale_index": 0,
+        "aspect_index": 1,
+        "orientation_index": 1,
+        "plate_index": 8,
+        "slot_index": 0,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 49,
+        "family_index": 1,
+        "scale_index": 0,
+        "aspect_index": 1,
+        "orientation_index": 1,
+        "plate_index": 8,
+        "slot_index": 1,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 50,
+        "family_index": 2,
+        "scale_index": 0,
+        "aspect_index": 1,
+        "orientation_index": 1,
+        "plate_index": 8,
+        "slot_index": 2,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 51,
+        "family_index": 3,
+        "scale_index": 0,
+        "aspect_index": 1,
+        "orientation_index": 1,
+        "plate_index": 8,
+        "slot_index": 3,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 52,
+        "family_index": 0,
+        "scale_index": 1,
+        "aspect_index": 1,
+        "orientation_index": 1,
+        "plate_index": 8,
+        "slot_index": 4,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 53,
+        "family_index": 1,
+        "scale_index": 1,
+        "aspect_index": 1,
+        "orientation_index": 1,
+        "plate_index": 8,
+        "slot_index": 5,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 54,
+        "family_index": 2,
+        "scale_index": 1,
+        "aspect_index": 1,
+        "orientation_index": 1,
+        "plate_index": 9,
+        "slot_index": 0,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 55,
+        "family_index": 3,
+        "scale_index": 1,
+        "aspect_index": 1,
+        "orientation_index": 1,
+        "plate_index": 9,
+        "slot_index": 1,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 56,
+        "family_index": 0,
+        "scale_index": 2,
+        "aspect_index": 1,
+        "orientation_index": 1,
+        "plate_index": 9,
+        "slot_index": 2,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 57,
+        "family_index": 1,
+        "scale_index": 2,
+        "aspect_index": 1,
+        "orientation_index": 1,
+        "plate_index": 9,
+        "slot_index": 3,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 58,
+        "family_index": 2,
+        "scale_index": 2,
+        "aspect_index": 1,
+        "orientation_index": 1,
+        "plate_index": 9,
+        "slot_index": 4,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 59,
+        "family_index": 3,
+        "scale_index": 2,
+        "aspect_index": 1,
+        "orientation_index": 1,
+        "plate_index": 9,
+        "slot_index": 5,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 60,
+        "family_index": 0,
+        "scale_index": 0,
+        "aspect_index": 2,
+        "orientation_index": 1,
+        "plate_index": 10,
+        "slot_index": 0,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 61,
+        "family_index": 1,
+        "scale_index": 0,
+        "aspect_index": 2,
+        "orientation_index": 1,
+        "plate_index": 10,
+        "slot_index": 1,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 62,
+        "family_index": 2,
+        "scale_index": 0,
+        "aspect_index": 2,
+        "orientation_index": 1,
+        "plate_index": 10,
+        "slot_index": 2,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 63,
+        "family_index": 3,
+        "scale_index": 0,
+        "aspect_index": 2,
+        "orientation_index": 1,
+        "plate_index": 10,
+        "slot_index": 3,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 64,
+        "family_index": 0,
+        "scale_index": 1,
+        "aspect_index": 2,
+        "orientation_index": 1,
+        "plate_index": 10,
+        "slot_index": 4,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 65,
+        "family_index": 1,
+        "scale_index": 1,
+        "aspect_index": 2,
+        "orientation_index": 1,
+        "plate_index": 10,
+        "slot_index": 5,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 66,
+        "family_index": 2,
+        "scale_index": 1,
+        "aspect_index": 2,
+        "orientation_index": 1,
+        "plate_index": 11,
+        "slot_index": 0,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 67,
+        "family_index": 3,
+        "scale_index": 1,
+        "aspect_index": 2,
+        "orientation_index": 1,
+        "plate_index": 11,
+        "slot_index": 1,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 68,
+        "family_index": 0,
+        "scale_index": 2,
+        "aspect_index": 2,
+        "orientation_index": 1,
+        "plate_index": 11,
+        "slot_index": 2,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 69,
+        "family_index": 1,
+        "scale_index": 2,
+        "aspect_index": 2,
+        "orientation_index": 1,
+        "plate_index": 11,
+        "slot_index": 3,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 70,
+        "family_index": 2,
+        "scale_index": 2,
+        "aspect_index": 2,
+        "orientation_index": 1,
+        "plate_index": 11,
+        "slot_index": 4,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 71,
+        "family_index": 3,
+        "scale_index": 2,
+        "aspect_index": 2,
+        "orientation_index": 1,
+        "plate_index": 11,
+        "slot_index": 5,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 72,
+        "family_index": 0,
+        "scale_index": 0,
+        "aspect_index": 0,
+        "orientation_index": 2,
+        "plate_index": 12,
+        "slot_index": 0,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 73,
+        "family_index": 1,
+        "scale_index": 0,
+        "aspect_index": 0,
+        "orientation_index": 2,
+        "plate_index": 12,
+        "slot_index": 1,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 74,
+        "family_index": 2,
+        "scale_index": 0,
+        "aspect_index": 0,
+        "orientation_index": 2,
+        "plate_index": 12,
+        "slot_index": 2,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 75,
+        "family_index": 3,
+        "scale_index": 0,
+        "aspect_index": 0,
+        "orientation_index": 2,
+        "plate_index": 12,
+        "slot_index": 3,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 76,
+        "family_index": 0,
+        "scale_index": 1,
+        "aspect_index": 0,
+        "orientation_index": 2,
+        "plate_index": 12,
+        "slot_index": 4,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 77,
+        "family_index": 1,
+        "scale_index": 1,
+        "aspect_index": 0,
+        "orientation_index": 2,
+        "plate_index": 12,
+        "slot_index": 5,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 78,
+        "family_index": 2,
+        "scale_index": 1,
+        "aspect_index": 0,
+        "orientation_index": 2,
+        "plate_index": 13,
+        "slot_index": 0,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 79,
+        "family_index": 3,
+        "scale_index": 1,
+        "aspect_index": 0,
+        "orientation_index": 2,
+        "plate_index": 13,
+        "slot_index": 1,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 80,
+        "family_index": 0,
+        "scale_index": 2,
+        "aspect_index": 0,
+        "orientation_index": 2,
+        "plate_index": 13,
+        "slot_index": 2,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 81,
+        "family_index": 1,
+        "scale_index": 2,
+        "aspect_index": 0,
+        "orientation_index": 2,
+        "plate_index": 13,
+        "slot_index": 3,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 82,
+        "family_index": 2,
+        "scale_index": 2,
+        "aspect_index": 0,
+        "orientation_index": 2,
+        "plate_index": 13,
+        "slot_index": 4,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 83,
+        "family_index": 3,
+        "scale_index": 2,
+        "aspect_index": 0,
+        "orientation_index": 2,
+        "plate_index": 13,
+        "slot_index": 5,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 84,
+        "family_index": 0,
+        "scale_index": 0,
+        "aspect_index": 1,
+        "orientation_index": 2,
+        "plate_index": 14,
+        "slot_index": 0,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 85,
+        "family_index": 1,
+        "scale_index": 0,
+        "aspect_index": 1,
+        "orientation_index": 2,
+        "plate_index": 14,
+        "slot_index": 1,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 86,
+        "family_index": 2,
+        "scale_index": 0,
+        "aspect_index": 1,
+        "orientation_index": 2,
+        "plate_index": 14,
+        "slot_index": 2,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 87,
+        "family_index": 3,
+        "scale_index": 0,
+        "aspect_index": 1,
+        "orientation_index": 2,
+        "plate_index": 14,
+        "slot_index": 3,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 88,
+        "family_index": 0,
+        "scale_index": 1,
+        "aspect_index": 1,
+        "orientation_index": 2,
+        "plate_index": 14,
+        "slot_index": 4,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 89,
+        "family_index": 1,
+        "scale_index": 1,
+        "aspect_index": 1,
+        "orientation_index": 2,
+        "plate_index": 14,
+        "slot_index": 5,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 90,
+        "family_index": 2,
+        "scale_index": 1,
+        "aspect_index": 1,
+        "orientation_index": 2,
+        "plate_index": 15,
+        "slot_index": 0,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 91,
+        "family_index": 3,
+        "scale_index": 1,
+        "aspect_index": 1,
+        "orientation_index": 2,
+        "plate_index": 15,
+        "slot_index": 1,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 92,
+        "family_index": 0,
+        "scale_index": 2,
+        "aspect_index": 1,
+        "orientation_index": 2,
+        "plate_index": 15,
+        "slot_index": 2,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 93,
+        "family_index": 1,
+        "scale_index": 2,
+        "aspect_index": 1,
+        "orientation_index": 2,
+        "plate_index": 15,
+        "slot_index": 3,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 94,
+        "family_index": 2,
+        "scale_index": 2,
+        "aspect_index": 1,
+        "orientation_index": 2,
+        "plate_index": 15,
+        "slot_index": 4,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 95,
+        "family_index": 3,
+        "scale_index": 2,
+        "aspect_index": 1,
+        "orientation_index": 2,
+        "plate_index": 15,
+        "slot_index": 5,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 96,
+        "family_index": 0,
+        "scale_index": 0,
+        "aspect_index": 2,
+        "orientation_index": 2,
+        "plate_index": 16,
+        "slot_index": 0,
+        "palette_class": 4
+      },
+      {
+        "condition_index": 97,
+        "family_index": 1,
+        "scale_index": 0,
+        "aspect_index": 2,
+        "orientation_index": 2,
+        "plate_index": 16,
+        "slot_index": 1,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 98,
+        "family_index": 2,
+        "scale_index": 0,
+        "aspect_index": 2,
+        "orientation_index": 2,
+        "plate_index": 16,
+        "slot_index": 2,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 99,
+        "family_index": 3,
+        "scale_index": 0,
+        "aspect_index": 2,
+        "orientation_index": 2,
+        "plate_index": 16,
+        "slot_index": 3,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 100,
+        "family_index": 0,
+        "scale_index": 1,
+        "aspect_index": 2,
+        "orientation_index": 2,
+        "plate_index": 16,
+        "slot_index": 4,
+        "palette_class": 5
+      },
+      {
+        "condition_index": 101,
+        "family_index": 1,
+        "scale_index": 1,
+        "aspect_index": 2,
+        "orientation_index": 2,
+        "plate_index": 16,
+        "slot_index": 5,
+        "palette_class": 2
+      },
+      {
+        "condition_index": 102,
+        "family_index": 2,
+        "scale_index": 1,
+        "aspect_index": 2,
+        "orientation_index": 2,
+        "plate_index": 17,
+        "slot_index": 0,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 103,
+        "family_index": 3,
+        "scale_index": 1,
+        "aspect_index": 2,
+        "orientation_index": 2,
+        "plate_index": 17,
+        "slot_index": 1,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 104,
+        "family_index": 0,
+        "scale_index": 2,
+        "aspect_index": 2,
+        "orientation_index": 2,
+        "plate_index": 17,
+        "slot_index": 2,
+        "palette_class": 0
+      },
+      {
+        "condition_index": 105,
+        "family_index": 1,
+        "scale_index": 2,
+        "aspect_index": 2,
+        "orientation_index": 2,
+        "plate_index": 17,
+        "slot_index": 3,
+        "palette_class": 3
+      },
+      {
+        "condition_index": 106,
+        "family_index": 2,
+        "scale_index": 2,
+        "aspect_index": 2,
+        "orientation_index": 2,
+        "plate_index": 17,
+        "slot_index": 4,
+        "palette_class": 1
+      },
+      {
+        "condition_index": 107,
+        "family_index": 3,
+        "scale_index": 2,
+        "aspect_index": 2,
+        "orientation_index": 2,
+        "plate_index": 17,
+        "slot_index": 5,
+        "palette_class": 4
+      }
+    ]
+  },
+  "rng": "NumPy Generator PCG64, dependency versions frozen before generation",
+  "splits": {
+    "calibration": {
+      "source_seeds": [
+        4196218401,
+        4196218402
+      ],
+      "background_seeds": [
+        4196218657,
+        4196218658
+      ],
+      "trajectory_order_seed": 4196218913
+    },
+    "test": {
+      "source_seeds": [
+        2794113001,
+        2794113002
+      ],
+      "background_seeds": [
+        2794113257,
+        2794113258
+      ],
+      "trajectory_order_seed": 2794113513
+    },
+    "policy": "Calibration fixes instrumentation/tracker/candidate; freeze before test outputs are opened. Any output-driven revision reclassifies that test as calibration and requires new seeds."
+  },
+  "arms": {
+    "T_controlled_native_optical_transport": {
+      "native_parent": "original system-rendered TabView Dock, retained identities and unmodified native size/style",
+      "carrier": "public owning-container transform only",
+      "motion_origin": "fixture_container_command",
+      "internal_shape_origin": "native system rendering; measure separately from commanded carrier",
+      "source_field": "stationary",
+      "not_claimed": [
+        "native freely draggable Dock",
+        "native gesture law from a fixture curve",
+        "fixture rebound as native rebound",
+        "equivalence to moving source or different public glass specimen"
+      ],
+      "feasibility_gate": "Calibration must verify stationary-source live sampling, retained parent identities, actual presentation geometry, clipping and no snapshot/fallback; if infeasible, mark unavailable rather than force private internals."
+    },
+    "I_native_internal_interaction": {
+      "carrier": "fixed",
+      "input_origin": "actual delivered native taps/holds/drags/releases/cancellation",
+      "internal_lens": "system controlled; no direct internal-lens positioning or programmatic selection masquerading as touch",
+      "android": "same registered input intention, independent actual delivery trace and response; never drive internal Android lens by observed native lens positions",
+      "families": [
+        "Dock",
+        "segmented_Tab",
+        "Toggle",
+        "single_slider",
+        "single_choice_menu",
+        "dialog_or_half_sheet",
+        "native_button"
+      ],
+      "scope": "All seven genuine native families use their own registered real input suites with a fixed owning carrier; no family is inferred from Dock alone.",
+      "components_registry": "native_configuration_registry.families[family].components",
+      "frame_contract": "native_component_frame_contract"
+    }
+  },
+  "directions": [
+    {
+      "id": "E",
+      "unit_vector": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "W",
+      "unit_vector": [
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "N",
+      "unit_vector": [
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "S",
+      "unit_vector": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "NE",
+      "unit_vector": [
+        0.7071067811865476,
+        -0.7071067811865476
+      ]
+    },
+    {
+      "id": "NW",
+      "unit_vector": [
+        -0.7071067811865476,
+        -0.7071067811865476
+      ]
+    },
+    {
+      "id": "SE",
+      "unit_vector": [
+        0.7071067811865476,
+        0.7071067811865476
+      ]
+    },
+    {
+      "id": "SW",
+      "unit_vector": [
+        -0.7071067811865476,
+        0.7071067811865476
+      ]
+    }
+  ],
+  "carrier_paths": {
+    "center_pt": [
+      187.5,
+      333.5
+    ],
+    "dock_size": "observed native rest bounding box W/H, never forced to a candidate's dimensions",
+    "projected_dock_halfspan": "h=abs(u.x)*W/2+abs(u.y)*H/2",
+    "anchor_halfspan": "a=74*abs(u.x)+38*abs(u.y)+18*sqrt(2); covers3x2 center offsets, maximum2pt source jitter and maximum transformed source radius",
+    "clear_gap_pt": 16,
+    "endpoints": "center +/- (h+a+16)*u",
+    "clip_policy": "retain unavoidable carrier edge clipping and visible support; no Dock resizing",
+    "phase_labels": "approach/pass/leave from achieved presentation geometry and source support; planned phases retained separately",
+    "reset_policy": "explicit discontinuity; keep reset in frame/event ledger with phase label; never call fixture reset native launch/rebound",
+    "core_progress_curve": "For each moving segment, s=start+(end-start)*(10z^3-15z^4+6z^5), with local normalized z; fixture carrier only, not native gesture law",
+    "core_segments": [
+      {
+        "begin_s": 0,
+        "end_s": 0.3,
+        "s_from": 0,
+        "s_to": 0,
+        "phase": "hold"
+      },
+      {
+        "begin_s": 0.3,
+        "end_s": 1.4,
+        "s_from": 0,
+        "s_to": 0.25,
+        "phase": "approach"
+      },
+      {
+        "begin_s": 1.4,
+        "end_s": 1.55,
+        "s_from": 0.25,
+        "s_to": 0.25,
+        "phase": "pause"
+      },
+      {
+        "begin_s": 1.55,
+        "end_s": 2.15,
+        "s_from": 0.25,
+        "s_to": 0.55,
+        "phase": "accelerated_passage"
+      },
+      {
+        "begin_s": 2.15,
+        "end_s": 2.35,
+        "s_from": 0.55,
+        "s_to": 0.5,
+        "phase": "small_reversal"
+      },
+      {
+        "begin_s": 2.35,
+        "end_s": 3.65,
+        "s_from": 0.5,
+        "s_to": 1,
+        "phase": "departure"
+      },
+      {
+        "begin_s": 3.65,
+        "end_s": 4.65,
+        "s_from": 1,
+        "s_to": 1,
+        "phase": "rest"
+      }
+    ],
+    "clip_duration_target_s": 4.65,
+    "clip_duration_cap_s": 6,
+    "achievement_policy": "Record actual presentation/timing; commanded profile is no guarantee of driver delivery or display/capture rate",
+    "anchor_constellation": "six anchors per plate,3x2 offsets[-72,0,72]x[-36,36]pt, bounded jitter2pt per axis; maximum transformed radius18sqrt2pt",
+    "duration_semantics": "6seconds is INITIAL ROUND recording budget, never the definition of a complete action. Preserve start/end, all actual frames, release and observed settle. If unsettled/cut-off mark incomplete and require bounded extension/independent remeasurement before completeness claim.",
+    "center_policy": "Use registered actual viewport center(width/2,height/2); baseline center_pt is not imposed on other viewports."
+  },
+  "native_input_cases": [
+    {
+      "id": "taps_adjacent_then_first_last",
+      "subevents": [
+        "selected item tap",
+        "unselected B from A",
+        "adjacent selection",
+        "first to last where applicable"
+      ],
+      "resets": "actual native interactions with individual markers"
+    },
+    {
+      "id": "holds_short_then_long",
+      "hold_intentions_ms": [
+        120,
+        600
+      ],
+      "then": "release after each, trace actual delivery",
+      "target_states": [
+        "already selected/on",
+        "unselected/off where supported"
+      ]
+    },
+    {
+      "id": "drag_slow",
+      "initial_target_pt_s": 120,
+      "path": "adjacent items"
+    },
+    {
+      "id": "drag_fast",
+      "initial_target_pt_s": 480,
+      "path": "first to last"
+    },
+    {
+      "id": "drag_accelerate_pause_reverse",
+      "initial_acceleration_pt_s2": 3840,
+      "pause_intention_ms": 120
+    },
+    {
+      "id": "endpoint_overtravel_release",
+      "commanded_overtravel_pt": 24,
+      "then": [
+        "release",
+        "observe native rest/rebound if present"
+      ]
+    },
+    {
+      "id": "rapid_interruption_or_cancellation",
+      "path": "interrupt prior native transition with next real input",
+      "cancel": "only if public input driver supports it"
+    }
+  ],
+  "bounded_matrix": {
+    "core_T": {
+      "per_renderer_per_split": 8,
+      "axes": "initial stratified eight-direction screen with8 registered plates of6; all three factor levels present, only48/108 geometry conditions screened",
+      "source_indices_by_direction": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "background_indices_by_direction": [
+        0,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        2
+      ],
+      "themes_by_direction": [
+        "light",
+        "dark",
+        "light",
+        "dark",
+        "dark",
+        "light",
+        "dark",
+        "light"
+      ],
+      "maximum_clip_s": 6,
+      "source_plate_indices_by_direction": [
+        0,
+        2,
+        4,
+        7,
+        10,
+        13,
+        15,
+        17
+      ]
+    },
+    "native_I": {
+      "per_renderer_per_split": 7,
+      "axes": "one clip per combined native input case",
+      "source_index": "(global_case_index mod18) mod2",
+      "background_index": "global_case_index mod3",
+      "theme": "floor(global_case_index/2) mod2",
+      "maximum_clip_s": 6,
+      "duration_semantics": "initial6s only; each complete subevent requires preinput-through-settle support, else split/extend under finite ledger",
+      "source_plate_index": "global_case_index mod18",
+      "family_id": "Dock",
+      "native_configuration_id": "Dock.body_size.base",
+      "configuration_global_index": 0,
+      "case_identity": "global_case_index=configuration_global_index*7+suite_index; baseline Dock index0 yields g=0..6, same as staged schedule"
+    },
+    "renderers": [
+      "native_ios_26_5",
+      "android_candidate_frozen_after_calibration"
+    ],
+    "splits": [
+      "calibration",
+      "test"
+    ],
+    "coverage_clips": 60,
+    "feasibility_clips": 2,
+    "total_planned_clips": 62,
+    "diagnostic_reserve_clips": 2,
+    "first_round_total_clip_cap": 64,
+    "per_clip_duration_cap_s": 6,
+    "planned_footage_cap_s": 372,
+    "first_round_footage_cap_s_excluding_setup": 384,
+    "calibration_batch_limit_clips": 8,
+    "repeat_controls": "none implicit; two reserved clips only for recorded acquisition-failure diagnosis or a paired repeat, originals retained",
+    "limit": "Initial64-clip screen only. It cannot establish full size/configuration/action coverage or complete settling. Mandatory later stages below are separately budgeted.",
+    "expansion_policy": "Mandatory finite size/control coverage before corresponding completeness claims; uncertainty extensions separately registered. No unlimited Cartesian multiplication of geometry,palette,backdrop,theme,direction,speed.",
+    "landmark_count_per_source_field": 6,
+    "new_family_color_policy": "Every registered condition has three internal color regions;18 plates with6 landmarks, never all108/216 crowded onto one source. Palette is balanced, not fully crossed.",
+    "registered_geometry_conditions_per_split": 108,
+    "source_plates_per_split": 18,
+    "initial_round_only": true
+  },
+  "geometry_trace": {
+    "clock": "single monotonic app clock per process; retain separate host/video clock domains",
+    "ios_fields": [
+      "CACurrentMediaTime_read_start",
+      "CACurrentMediaTime_read_end",
+      "CADisplayLink_timestamp",
+      "CADisplayLink_targetTimestamp",
+      "model_bounds_transform",
+      "presentation_geometry_or_null",
+      "world_coordinate_conversion",
+      "view_controller_identity",
+      "native_parent",
+      "selection",
+      "effective_traits",
+      "clipping"
+    ],
+    "presentation_limit": "CALayer.presentation is approximate in-flight state, can be unavailable, and is not a per-pixel compositor timestamp",
+    "velocity_acceleration": "derive from actual irregular geometry samples using calibration-frozen method; preserve gaps and uncertainty",
+    "not_equated": [
+      "requested position and presentation position",
+      "displayLink target and shown frame",
+      "draw callback and compositor",
+      "screenshot request and pixel presentation",
+      "host/device/video clocks"
+    ],
+    "measured_edge_contract": {
+      "layers": [
+        "Dock.body",
+        "Dock.selected_lens",
+        "Dock.selection_fill",
+        "Dock.glyphs_labels",
+        "segmented_Tab.body",
+        "segmented_Tab.track",
+        "segmented_Tab.thumb_or_selection_lens",
+        "segmented_Tab.selection_fill",
+        "segmented_Tab.glyphs_labels",
+        "Toggle.body",
+        "Toggle.track",
+        "Toggle.thumb",
+        "Toggle.thumb_opaque_core",
+        "Toggle.on_fill",
+        "Toggle.glyphs_labels",
+        "single_slider.body",
+        "single_slider.track",
+        "single_slider.thumb",
+        "single_slider.active_fill",
+        "single_slider.ticks",
+        "single_slider.glyphs_labels",
+        "single_choice_menu.anchor",
+        "single_choice_menu.trigger_button",
+        "single_choice_menu.popup_body",
+        "single_choice_menu.row_body",
+        "single_choice_menu.row_highlight",
+        "single_choice_menu.selection_mark",
+        "single_choice_menu.glyphs_labels",
+        "dialog_or_half_sheet.presentation_body",
+        "dialog_or_half_sheet.presentation_backdrop",
+        "dialog_or_half_sheet.grabber",
+        "dialog_or_half_sheet.action_button_body",
+        "dialog_or_half_sheet.action_button_fill",
+        "dialog_or_half_sheet.glyphs_labels",
+        "native_button.body",
+        "native_button.highlight_fill",
+        "native_button.glyphs_labels"
+      ],
+      "fields": [
+        "edge_polyline_or_curve_or_null",
+        "local_corner_shape_or_null",
+        "acquisition_method",
+        "sample_time_support",
+        "uncertainty"
+      ],
+      "method": "freeze the edge extraction/measurement method on calibration; relate any pixel-derived edge to originalPTS and app-clock mapping; public presentation geometry remains separately labeled",
+      "unknown": "an unknown curved native edge remains null; never substitute a bounding-box side or candidate assumed capsule and call it measured",
+      "scope": "All registered actual components across seven families; public presentation and pixel-observed geometry remain separately labeled. Component unavailable/nonexistent/occluded is a status with null geometry, never a manufactured edge.",
+      "instance_scope": "layers[] lists category templates; every measured edge/corner row also binds actual component_instance_id and generation/parent; expand all repeated instances via native_component_instance_contract"
+    }
+  },
+  "capture_time_contract": {
+    "video_fields": [
+      "PTS",
+      "sample_duration",
+      "sequence_index",
+      "codec",
+      "dimensions",
+      "color_metadata",
+      "capture_callback_monotonic_brackets_if_available"
+    ],
+    "clock_mapping": "visible synchronization patch outside measurement ROI plus draw brackets, preserve mapping/residual/drift uncertainty; never assume one-frame latency",
+    "screenshots": "retain request/completion brackets, actual sampling time support and missing frames",
+    "required_spacing_report": [
+      "actual_count",
+      "minimum_spacing",
+      "median_spacing",
+      "p95_spacing",
+      "maximum_spacing",
+      "repeated_frames",
+      "dropped_frame_indicators",
+      "geometry_pixel_sync_uncertainty"
+    ],
+    "resolution_limit": "60fps is about16.7ms/frame and120fps about8.3ms/frame, not every millisecond; report achieved PTS spacing",
+    "unobserved_frames": "never synthesize and label measured; any comparison resampling explicitly reports interpolation/support/uncertainty",
+    "cross_device_comparison": "elapsed intervals from observed delivery/visual markers, not wall-clock synchronization",
+    "all_actual_frames_required": "One frame-ledger entry for EVERY recorded sample in original PTS order, plus explicit gaps/repeated/failed/undecodable frames. All registered source/feature/control IDs retain status per actual frame, including null/unidentified/occluded/clipped. Keyframes are only a visualization selection, never the analyzed sample.",
+    "completeness": "Every captured actual frame from pre-input baseline through all delivered subevents, release/cancel and observed settle; initial6s is not completeness.",
+    "full_action_lifecycle": [
+      "pre_input_baseline",
+      "actual_delivered_input",
+      "lift_travel_or_opening",
+      "hold_drag_reverse_or_select",
+      "release_or_cancel",
+      "fall_rebound_or_dismiss",
+      "observed_settle_or_explicit_incomplete"
+    ]
+  },
+  "dynamic_tracker": {
+    "status": "must be separately implemented/self-tested/frozen before test outputs are read; static v2 is not automatically valid",
+    "source_identity": "registered shape/color/context, never forced nearest neighbor",
+    "retain": [
+      "zero_lobes",
+      "one_lobe",
+      "multiple_lobes",
+      "fused",
+      "foreground_occlusion",
+      "clipped_support",
+      "temporal_blur",
+      "unidentified",
+      "all_source_ids",
+      "every_actual_recorded_frame",
+      "decode_failure",
+      "dropped_frame_gap",
+      "repeated_frame",
+      "incomplete_action",
+      "unsettled_end"
+    ],
+    "no_disappearance_shortcut": "weak retained templates do not prove absence across full support",
+    "measurements": [
+      "centroid",
+      "component_support",
+      "area",
+      "moment_axes_angle",
+      "boundary_coverage",
+      "source_normalized_area",
+      "anisotropy",
+      "color_contrast",
+      "multi_component_topology",
+      "vertex_curvature_if_identifiable",
+      "segmentation_threshold_sensitivity",
+      "supported_local_image_stretch_time_curves",
+      "internal_color_boundary_correspondence",
+      "family_component_edge_signed_distance_and_arc_position",
+      "base_scale_aspect_orientation_stratum",
+      "actual_native_configuration_id",
+      "complete_action_lifecycle_boundaries",
+      "all_frame_ledger_status"
+    ],
+    "layer_separation": [
+      "carrier",
+      "Dock.body",
+      "Dock.selected_lens",
+      "Dock.selection_fill",
+      "Dock.glyphs_labels",
+      "segmented_Tab.body",
+      "segmented_Tab.track",
+      "segmented_Tab.thumb_or_selection_lens",
+      "segmented_Tab.selection_fill",
+      "segmented_Tab.glyphs_labels",
+      "Toggle.body",
+      "Toggle.track",
+      "Toggle.thumb",
+      "Toggle.thumb_opaque_core",
+      "Toggle.on_fill",
+      "Toggle.glyphs_labels",
+      "single_slider.body",
+      "single_slider.track",
+      "single_slider.thumb",
+      "single_slider.active_fill",
+      "single_slider.ticks",
+      "single_slider.glyphs_labels",
+      "single_choice_menu.anchor",
+      "single_choice_menu.trigger_button",
+      "single_choice_menu.popup_body",
+      "single_choice_menu.row_body",
+      "single_choice_menu.row_highlight",
+      "single_choice_menu.selection_mark",
+      "single_choice_menu.glyphs_labels",
+      "dialog_or_half_sheet.presentation_body",
+      "dialog_or_half_sheet.presentation_backdrop",
+      "dialog_or_half_sheet.grabber",
+      "dialog_or_half_sheet.action_button_body",
+      "dialog_or_half_sheet.action_button_fill",
+      "dialog_or_half_sheet.glyphs_labels",
+      "native_button.body",
+      "native_button.highlight_fill",
+      "native_button.glyphs_labels",
+      "intervening_frosted_backplate",
+      "refracted_source_components"
+    ],
+    "limits": "observed morphology, not physical unblurred shape/IOR/thickness or universal topology recovery",
+    "local_image_stretch": {
+      "identity": "persistent IDs for each source outer boundary, polygon vertex, clipped internal-color-boundary segment and sampled feature position",
+      "freeze_on_calibration": [
+        "feature_sampling_density_and_caps",
+        "correspondence_gates",
+        "neighborhood_support",
+        "conditioning_gates",
+        "fit_residual_limits",
+        "uncertainty_estimation"
+      ],
+      "supported_input": "reliable source-to-observed boundary/internal-color-boundary correspondence; plausible centroid or whole-shape ellipse fit is insufficient",
+      "one_dimensional": "resolved contour neighborhood yields source-contour tangent length ratio/direction only; unsupported normal stretch remains null",
+      "two_dimensional": "fit local source-to-observed Jacobian J only for a sufficiently supported non-collinear feature neighborhood passing calibration-frozen conditioning/residual gates",
+      "measurement_meaning": "apparent local image deformation, not physical material strain or native renderer inversion",
+      "edge_frame": {
+        "separate_layers": [
+          "Dock.body",
+          "Dock.selected_lens",
+          "Dock.selection_fill",
+          "Dock.glyphs_labels",
+          "segmented_Tab.body",
+          "segmented_Tab.track",
+          "segmented_Tab.thumb_or_selection_lens",
+          "segmented_Tab.selection_fill",
+          "segmented_Tab.glyphs_labels",
+          "Toggle.body",
+          "Toggle.track",
+          "Toggle.thumb",
+          "Toggle.thumb_opaque_core",
+          "Toggle.on_fill",
+          "Toggle.glyphs_labels",
+          "single_slider.body",
+          "single_slider.track",
+          "single_slider.thumb",
+          "single_slider.active_fill",
+          "single_slider.ticks",
+          "single_slider.glyphs_labels",
+          "single_choice_menu.anchor",
+          "single_choice_menu.trigger_button",
+          "single_choice_menu.popup_body",
+          "single_choice_menu.row_body",
+          "single_choice_menu.row_highlight",
+          "single_choice_menu.selection_mark",
+          "single_choice_menu.glyphs_labels",
+          "dialog_or_half_sheet.presentation_body",
+          "dialog_or_half_sheet.presentation_backdrop",
+          "dialog_or_half_sheet.grabber",
+          "dialog_or_half_sheet.action_button_body",
+          "dialog_or_half_sheet.action_button_fill",
+          "dialog_or_half_sheet.glyphs_labels",
+          "native_button.body",
+          "native_button.highlight_fill",
+          "native_button.glyphs_labels"
+        ],
+        "fields": [
+          "world_unit_normal_n",
+          "world_unit_tangent_tau",
+          "signed_normal_distance_d_edge",
+          "edge_arc_position_s_edge",
+          "edge_measurement_method",
+          "edge_uncertainty"
+        ],
+        "requirements": "Confidently located measured native/candidate family/component edge with matched time support. Source-contour tangent differs from that edge tangent; unavailable/no-refraction component does not invent image stretch.",
+        "normal_ratio": "norm(J*n) when both J and edge frame supported, otherwise null",
+        "tangent_ratio": "norm(J*tau) when both J and edge frame supported, otherwise null",
+        "directions": "directions of J*n and J*tau in the shared world frame, with uncertainty"
+      },
+      "per_feature_output_fields": [
+        "source_id",
+        "feature_id",
+        "source_position",
+        "observed_position_or_null",
+        "boundary_overlay",
+        "color_response",
+        "supported_source_tangent_ratio_direction_or_null",
+        "supported_edge_normal_ratio_direction_or_null",
+        "supported_edge_tangent_ratio_direction_or_null",
+        "d_edge_or_null",
+        "s_edge_or_null",
+        "layer_edge_identity",
+        "correspondence_status",
+        "fit_residual_or_null",
+        "uncertainty",
+        "original_video_PTS",
+        "app_monotonic_sample_brackets",
+        "clock_mapping_uncertainty",
+        "achieved_carrier_pose",
+        "observed_phase",
+        "family_id",
+        "native_configuration_id",
+        "component_id",
+        "layer_parent_and_intervening_material_ids",
+        "component_instance_id",
+        "parent_component_instance_id",
+        "instance_generation_or_episode_id"
+      ],
+      "curve_phases": [
+        "approach",
+        "entry_thin_edge",
+        "passage_body_thick_region",
+        "leave"
+      ],
+      "unknown_policy": "retain every registered feature at each supported sample; fused,occluded,clipped,low-contrast,unidentified or ambiguous multi-component evidence remains null with reasons, never force one local stretch",
+      "forbidden_inference": [
+        "global anisotropy as local strain",
+        "global area change as local strain",
+        "one-dimensional tangent evidence as a full2D field",
+        "bounding-box side as measured curved edge",
+        "unique physical thickness from image-response curves",
+        "time stretching or filling unobserved gaps"
+      ],
+      "budget": "Analyze every actual frame on demand from retained clips. Full-frame analysis adds no acquisition by itself; mandatory size/control and bounded unsettle continuations have their own registered budgets beyond the initial64x6 screen."
+    }
+  },
+  "comparison": {
+    "T": "conditional optical response at matched achieved carrier pose; not validation of native motion timing",
+    "I": "independent response to delivered input; include delay/travel/lift/fall/release/rebound/interruption/settling",
+    "forbidden_alignment": [
+      "arbitrary per-frame shift",
+      "dynamic time warping to hide mismatch",
+      "time stretching to force rhythm",
+      "feeding native internal-lens trajectory to Android as its response"
+    ],
+    "aggregate_unit": "source seed/clip with paired backdrop, direction and theme blocks; pixels and frames are correlated",
+    "threshold_status": "not defined in draft; must derive repeatability/uncertainty on calibration, predeclare tolerances then freeze before test",
+    "claim_limit": "no99.99%, every-millisecond equality, universal scene guarantee, or physical native inversion"
+  },
+  "preservation": {
+    "required": [
+      "original_source_png",
+      "geometry_tables",
+      "protocol_generator_profile_hashes",
+      "build_identities",
+      "device_OS_API_display_configuration",
+      "native_parent_material_identity",
+      "requested_schedule",
+      "actual_event_geometry_trace",
+      "original_video_and_PTS",
+      "color_sync_diagnostics",
+      "per_shape_rows_including_failures",
+      "acquisition_failures",
+      "all108_geometry_condition_identities_grouped_into18_plates_of6",
+      "per_region_coverage_mask_bytes_and_hash_bindings",
+      "persistent_boundary_feature_identities",
+      "local_image_stretch_curves_and_rejections",
+      "measured_body_lens_edge_and_corner_uncertainty",
+      "source_affine_and_color_geometry_before_after_transform",
+      "actual_native_configuration_registry",
+      "every_recorded_frame_PTS_status_ledger",
+      "action_completeness_and_bounded_continuation_ledger",
+      "v3_exact_protocol_bytes_and_hash_receipt",
+      "fixed_palette_condition_table_and_marginal_counts",
+      "separate_axis_requested_actual_native_body_size_support_evidence",
+      "seven_family_per_component_per_frame_geometry_layer_status",
+      "stable_native_configuration_global_case_identities",
+      "protocol_only_coverage_checker_report"
+    ],
+    "storage": "Retain complete original source recordings and original PTS. Stream-decode/analyze ALL actual frames, retaining compact per-frame rows/status and declared lossless ROI/visualization samples, not full-screen PNG dumps. Visual keyframes are supplemental only. Measure bytes/second and bound per-stage storage before capture.",
+    "codec_limit": "lossy video and lossless screenshots remain separately labeled; codec-distorted color is not a lossless screen measurement"
+  },
+  "start_gates": [
+    "current_static_packet_completed_and_preserved",
+    "native_carrier_feasibility_resolved_using_calibration",
+    "source_formulas_generator_and_dependencies_frozen",
+    "public_input_driver_capabilities_and_timing_resolution_recorded",
+    "dynamic_tracker_metrics_and_uncertainty_frozen",
+    "calibration_test_separation_and_candidate_hash_registered",
+    "bounded_capture_and_storage_plan_registered",
+    "all108_conditions_grouping_and_affine_color_masks_hash_bound_before_dynamic_test_outputs",
+    "local_feature_correspondence_edge_frame_and_stretch_gates_frozen_on_calibration",
+    "real_native_size_layout_content_support_registry_frozen_without_fake_nonuniform_scaling",
+    "all_actual_frames_full_action_and_settle_or_incomplete_policy_frozen",
+    "mandatory_size_coverage_and_continuation_storage_ledger_registered",
+    "separate_body_size_layout_content_axes_and_three_actual_variable_body_sizes_or_explicit_narrowed_support_limit",
+    "seven_family_component_layer_all_frame_registry_and_schedule_identity_frozen",
+    "protocol_only_md_json_coverage_checker_passes_without_input_generation_or_output_decode"
+  ],
+  "official_api_reference_topics": [
+    "CALayer.presentation()",
+    "CADisplayLink.timestamp",
+    "CADisplayLink.targetTimestamp",
+    "ReplayKit screen capture sample buffers"
+  ],
+  "execution": "none; draft only",
+  "followup_parameter_space": {
+    "execution": "on demand only after identified failure or uncertainty; no full Cartesian matrix by default",
+    "constant_speed_targets_pt_s": [
+      120,
+      480
+    ],
+    "acceleration_initial_targets_pt_s2": [
+      960,
+      3840
+    ],
+    "pause_targets_ms": [
+      120,
+      600
+    ],
+    "axes": [
+      "problematic case in both themes",
+      "problematic case on other backdrops",
+      "other registered source seed",
+      "both signs of direction",
+      "partial-overlap pause",
+      "central-passage pause",
+      "reversal",
+      "endpoint overtravel",
+      "release",
+      "settling",
+      "interruption/cancellation if supported",
+      "fixed repeat controls"
+    ],
+    "native_rebound_policy": "valid native outcome; never add a fixture spring to manufacture it",
+    "settling_observation_initial_s": 1.0,
+    "settling_limit_policy": "If not settled at initial6s, retain original as incomplete/right-censored. Before claiming complete, register one paired native/Android remeasurement of entire same sequence including preinput with cap12s, or a separately identified continuation with explicit clock continuity limits. At12s if still not settled/trackable, retain incomplete and stop automatic repeats.",
+    "budget": "Initial64x6 is a first-round budget only. Mandatory size/control coverage and<=12s incomplete-action continuation need separately registered finite ledgers; no silent truncation or Cartesian expansion."
+  },
+  "paired_feasibility": {
+    "pairs": 1,
+    "clips_total": 2,
+    "renderers": [
+      "native_ios_26_5",
+      "android_candidate"
+    ],
+    "split": "calibration",
+    "source_index": 0,
+    "background_index": 0,
+    "theme": "light",
+    "direction": "E",
+    "maximum_clip_s": 6,
+    "checks": [
+      "retained native identity",
+      "live stationary-source backdrop sampling",
+      "measured geometry support",
+      "actual timing/PTS resolution",
+      "actual storage/throughput",
+      "retained real native size/configuration identity",
+      "every-recorded-frame decode/status ledger",
+      "preinput-to-settle completeness or explicit bounded continuation need"
+    ],
+    "failure_policy": "stop affected arm and diagnose before launching coverage; retain original failed clips",
+    "duration_semantics": "Initial6s screen; unresolved action remains incomplete and cannot pass the full-action gate merely because recording stopped."
+  },
+  "revision_summary": "Draft v4 only: preserves v3 exact bytes; fixes deterministic family and geometry-factor palette balance within108 conditions, separates real body_size/layout/content axes with baseline index0 and honest intrinsic Toggle, extends I/all-frame/component/layer contracts to7 families, and revises finite staged suite-slot accounting. Static first; no generation/capture/test decoding.",
+  "revision": 4,
+  "mandatory_size_coverage": {
+    "stage_T_size_extension": {
+      "required_before": "claim all registered source sizes/aspect ratios/orientations were dynamically checked",
+      "total_T_plates_per_renderer_per_split": 18,
+      "initial_plates": [
+        0,
+        2,
+        4,
+        7,
+        10,
+        13,
+        15,
+        17
+      ],
+      "additional_plates": [
+        1,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        14,
+        16
+      ],
+      "additional_clips_across_two_renderers_two_splits": 40,
+      "direction_assignment": "plate_index mod8 maps to E,W,N,S,NE,NW,SE,SW, except eight initial plates retain their already registered direction. Each plate has one full varying-speed/reversal profile; untested condition-by-direction crosses stay untested.",
+      "background_source_theme": "same fixed paired assignments across renderers; plate mod2 source; plate mod3 background; plate mod2 theme unless initial registered block says otherwise",
+      "scope": "All108 geometric conditions covered once per split; no claim every condition has all8 directions/backgrounds/palettes."
+    },
+    "stage_I_core_controls": {
+      "families": [
+        "Dock",
+        "segmented_Tab",
+        "Toggle",
+        "single_slider"
+      ],
+      "max_configurations_by_family": {
+        "Dock": 7,
+        "segmented_Tab": 7,
+        "Toggle": 5,
+        "single_slider": 7
+      },
+      "max_complete_action_suites_per_configuration": 7,
+      "configuration_action_cases_per_renderer_per_split_cap": 182,
+      "initial_Dock_baseline_cases_reused": 7,
+      "initial_reuse_configuration_id": "Dock.body_size.base",
+      "initial_reuse_global_case_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "additional_nominal_suite_slots_across_two_renderers_two_splits": 700,
+      "required_before": "claim core controls received separately registered actual body-size/layout/content and complete-action coverage",
+      "definition": "26 configurations x7 suites=182 per renderer/split; baseline index0 makes same g=0..6 reusable. Variable-body families need3 actual measured body sizes; Toggle needs1 fixed intrinsic size. Unsupported rows remain explicit and cannot satisfy a gate.",
+      "maximum_additional_nominal_suite_slots_if_no_reuse": 728
+    },
+    "stage_I_other_controls": {
+      "families": [
+        "single_choice_menu",
+        "dialog_or_half_sheet",
+        "native_button"
+      ],
+      "max_configurations_by_family": {
+        "single_choice_menu": 7,
+        "dialog_or_half_sheet": 7,
+        "native_button": 7
+      },
+      "max_complete_action_suites_per_configuration": 7,
+      "configuration_action_cases_per_renderer_per_split_cap": 147,
+      "additional_nominal_suite_slots_across_two_renderers_two_splits": 588,
+      "required_before": "claim every requested native glass-control family received applicable component/axis/action coverage",
+      "scope": "Family-specific actions and all-frame body/popup/sheet/button contracts; no fabricated native slider gesture or silently substituted sizing. Three body sizes still require public-support measurement."
+    },
+    "initial_round_cap_preserved": 64,
+    "initial_target_max_s": 6,
+    "ledger_policy": "1392 is a finite staged nominal suite-slot upper plan (64 initial+40 T+700 core I+588 other I), not acquisition authorization or an absolute raw-recording cap. Complete static then calibration feasibility; register small batches with measured throughput/storage. Any atomic split needed for complete actions adds actual clip counts/duration only under a finite amended ledger. One paired<=12s incomplete-condition remeasurement/continuation uses its own ledger; preserve originals. No full Cartesian multiplication. Exact full-identity initial I reuse is conditional; zero valid reuse gives conservative1420 nominal slots (add at most28), not an unlimited expansion.",
+    "native_I_balanced_assignment": {
+      "family_order": [
+        "Dock",
+        "segmented_Tab",
+        "Toggle",
+        "single_slider",
+        "single_choice_menu",
+        "dialog_or_half_sheet",
+        "native_button"
+      ],
+      "configuration_order": "family_order then each family configurations[]; baseline body_size.base is configuration_index0 and first; stable explicit configuration_global_index0..46",
+      "global_case_index": "configuration_global_index*7+suite_index, configuration_global_index0..46 and suite_index0..6",
+      "initial_reuse": "Dock.body_size.base has configuration_global_index0, so seven initial I cases are exactly g0..6 with same source/background/theme/config identities; no index-shift reuse",
+      "source_plate": "global_case_index mod18",
+      "source_seed": "source_plate mod2",
+      "background": "global_case_index mod3",
+      "theme": "floor(global_case_index/2) mod2",
+      "paired_renderers": "exact same frozen condition/configuration/suite identity; independent actual delivery and response",
+      "balance_limit": "Deterministic blocking, not exact independence or all-source/configuration/background/palette Cartesian coverage. Unsupported entries preserve their planned IDs; no compacting/reindexing after support decisions.",
+      "unit": "nominal complete suite slot; atomic splits and durations require a finite amended ledger before acquisition"
+    },
+    "combined_nominal_suite_slots_before_atomic_splits_and_continuations": 1392,
+    "combined_nominal_footage_s_if_each_slot_fits_initial6s": 8352,
+    "combined_nominal_suite_slots_assumption": "All28 initial I slots (7 cases x2renderers x2splits) meet exact full-identity reuse gate; otherwise add up to28, conservative1420 before atomic splits/followups.",
+    "conservative_nominal_suite_slots_without_any_initial_I_reuse": 1420
+  },
+  "native_configuration_registry": {
+    "family_order": [
+      "Dock",
+      "segmented_Tab",
+      "Toggle",
+      "single_slider",
+      "single_choice_menu",
+      "dialog_or_half_sheet",
+      "native_button"
+    ],
+    "measurement_policy": "Record public API/controlSize/constraints, actual intrinsic/model/presentation bounds and corner geometry, actual thumb/track/fill/popup dimensions, viewport/safe area/pixel scale, orientation, Dynamic Type, item count/content IDs, native parent/material/OS. Requested target is not measured geometry. No nonuniform native transform, screenshot scaling or fabricated capsule.",
+    "separate_axes_contract": {
+      "axes": [
+        "body_size",
+        "layout",
+        "content"
+      ],
+      "body_size": "Variable-body families require three actually measured distinct small/base/large body extents using genuinely supported public sizing, holding content/layout baseline where possible. Baseline is configuration index0. The draft contains targets only, not measured sizes. If unavailable/ignored/coupled, preserve evidence and narrow the claim; no label/count variants or scaled screenshots may substitute.",
+      "size_distinctness": "Freeze measurement tolerance on calibration before outputs; classify small/base/large by measured relevant body extent beyond uncertainty, record both width/height and which dimension varies. Three target requests with equal realized bounds do not satisfy the gate. Intrinsic thumb sizes are independently measured and may be equal.",
+      "layout": "At most two nonbaseline supported layout variants; body request and content baseline. Preserve every actual coupled size/trait change and do not call it an independent body-size sample.",
+      "content": "At most two nonbaseline content variants; body request and layout baseline. Preserve induced body/layout change; no substitution for required body_size rows.",
+      "crossing": "One baseline +2 body-size +2 layout +2 content for variable-body candidates, at most7 planned configurations; fixed-intrinsic Toggle1+2+2=5. No3x3x3 Cartesian cross. No unsupported config disappears or is replaced.",
+      "status": "unmeasured_draft; support classification, actual bounds and finite acquisition ledger must be frozen after calibration feasibility and before test",
+      "size_exception": "An actual public fixed/discrete-size limitation requires measured support evidence and explicit unsupported row/reason, a revised finite schedule and a scoped claim. This is not a pass of the three-size gate or an assumption that every family can be arbitrarily resized."
+    },
+    "configuration_record_fields": [
+      "family_id",
+      "native_configuration_id",
+      "configuration_index",
+      "configuration_global_index",
+      "axis",
+      "level",
+      "public_api_and_constraints",
+      "requested_body_extent",
+      "actual_intrinsic_bounds_or_null",
+      "actual_model_bounds_or_null",
+      "actual_presentation_bounds_or_null",
+      "actual_body_width_height_and_uncertainty",
+      "actual_thumb_track_fill_popup_bounds_or_null",
+      "actual_corner_edge_geometry_or_null",
+      "body_size_distinctness_status",
+      "content_id_and_item_count",
+      "layout_id",
+      "viewport_world_raster_id",
+      "traits_DynamicType_orientation",
+      "actual_parent_material_identity",
+      "coupled_axes",
+      "support_status_and_reason",
+      "measurement_method_and_time_support"
+    ],
+    "dual_head_slider": "No public native dual-thumb API is presumed. Two actual native single sliders must be labeled paired-single-slider composition, with both component IDs/complete frame traces. Preserve app dual-head goal separately; this seven-family schedule is not a fake native dual-head equivalence or an extra acquisition authorization.",
+    "viewport_source_policy": "For a different genuine native viewport/scale regenerate analytic source raster at that actual world geometry and sampling contract under a separate frozen manifest. Preserve logical shape coordinates/scale/aspect/color masks and native pixel scale; do not resample or nonuniformly fit old source/screenshot.",
+    "families": {
+      "Dock": {
+        "family_index": 0,
+        "size_model": "variable_body_public_support_to_verify",
+        "required_body_size_levels": [
+          "small",
+          "base",
+          "large"
+        ],
+        "baseline_configuration_id": "Dock.body_size.base",
+        "baseline_configuration_index": 0,
+        "max_configuration_count": 7,
+        "body_size_plan": "Keep4 baseline items, labels, selection, style and Dynamic Type fixed. Try genuinely supported public viewport/parent widths320/375/414pt to obtain measured small/base/large Dock bodies; register resulting world/raster. Item count3/5 belongs only to content, never body_size.",
+        "layout_plan": "Supported placement/safe-area or RTL layout; keep body request and content baseline.",
+        "content_plan": "Longer labels at baseline item count; alternate item count while body request/layout baseline.",
+        "components": [
+          "body",
+          "selected_lens",
+          "selection_fill",
+          "glyphs_labels"
+        ],
+        "configurations": [
+          {
+            "configuration_index": 0,
+            "configuration_global_index": 0,
+            "id": "Dock.body_size.base",
+            "axis": "body_size",
+            "level": "base",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 1,
+            "configuration_global_index": 1,
+            "id": "Dock.body_size.small",
+            "axis": "body_size",
+            "level": "small",
+            "body_request": "small",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 2,
+            "configuration_global_index": 2,
+            "id": "Dock.body_size.large",
+            "axis": "body_size",
+            "level": "large",
+            "body_request": "large",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 3,
+            "configuration_global_index": 3,
+            "id": "Dock.layout.alternative_1",
+            "axis": "layout",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "alternative_1",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 4,
+            "configuration_global_index": 4,
+            "id": "Dock.layout.alternative_2",
+            "axis": "layout",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "alternative_2",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 5,
+            "configuration_global_index": 5,
+            "id": "Dock.content.alternative_1",
+            "axis": "content",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_1",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 6,
+            "configuration_global_index": 6,
+            "id": "Dock.content.alternative_2",
+            "axis": "content",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_2",
+            "actual_status": "unmeasured_draft"
+          }
+        ],
+        "actual_size_evidence_status": "not_measured; no size-coverage claim in this draft"
+      },
+      "segmented_Tab": {
+        "family_index": 1,
+        "size_model": "variable_body_public_support_to_verify",
+        "required_body_size_levels": [
+          "small",
+          "base",
+          "large"
+        ],
+        "baseline_configuration_id": "segmented_Tab.body_size.base",
+        "baseline_configuration_index": 0,
+        "max_configuration_count": 7,
+        "body_size_plan": "Keep3 baseline short segments and style fixed. Public width constraints160/240/320pt or genuine supported native controlSize may provide small/base/large; freeze one supported sizing route and actual bounds. Changing segment count or title length is not a size sample.",
+        "layout_plan": "Supported RTL or placement/layout configuration, same content and baseline body request.",
+        "content_plan": "Long titles at same3 segments; alternate segment count2or5 with body request/layout baseline.",
+        "components": [
+          "body",
+          "track",
+          "thumb_or_selection_lens",
+          "selection_fill",
+          "glyphs_labels"
+        ],
+        "configurations": [
+          {
+            "configuration_index": 0,
+            "configuration_global_index": 7,
+            "id": "segmented_Tab.body_size.base",
+            "axis": "body_size",
+            "level": "base",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 1,
+            "configuration_global_index": 8,
+            "id": "segmented_Tab.body_size.small",
+            "axis": "body_size",
+            "level": "small",
+            "body_request": "small",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 2,
+            "configuration_global_index": 9,
+            "id": "segmented_Tab.body_size.large",
+            "axis": "body_size",
+            "level": "large",
+            "body_request": "large",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 3,
+            "configuration_global_index": 10,
+            "id": "segmented_Tab.layout.alternative_1",
+            "axis": "layout",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "alternative_1",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 4,
+            "configuration_global_index": 11,
+            "id": "segmented_Tab.layout.alternative_2",
+            "axis": "layout",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "alternative_2",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 5,
+            "configuration_global_index": 12,
+            "id": "segmented_Tab.content.alternative_1",
+            "axis": "content",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_1",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 6,
+            "configuration_global_index": 13,
+            "id": "segmented_Tab.content.alternative_2",
+            "axis": "content",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_2",
+            "actual_status": "unmeasured_draft"
+          }
+        ],
+        "actual_size_evidence_status": "not_measured; no size-coverage claim in this draft"
+      },
+      "Toggle": {
+        "family_index": 2,
+        "size_model": "fixed_intrinsic",
+        "required_body_size_levels": [
+          "base"
+        ],
+        "baseline_configuration_id": "Toggle.body_size.base",
+        "baseline_configuration_index": 0,
+        "max_configuration_count": 5,
+        "body_size_plan": "Native Toggle/UISwitch has fixed intrinsic body size in this reference. Record exactly one true body-size baseline, including actual thumb bounds. Never scale it or relabel long-label/accessibility layouts as small/base/large bodies.",
+        "layout_plan": "Supported RTL or placement/layout alternatives, same switch API/content and native intrinsic body request.",
+        "content_plan": "Long label and accessibility-content alternatives; intrinsic switch/ thumb may remain equal and must be recorded honestly.",
+        "components": [
+          "body",
+          "track",
+          "thumb",
+          "thumb_opaque_core",
+          "on_fill",
+          "glyphs_labels"
+        ],
+        "configurations": [
+          {
+            "configuration_index": 0,
+            "configuration_global_index": 14,
+            "id": "Toggle.body_size.base",
+            "axis": "body_size",
+            "level": "base",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 1,
+            "configuration_global_index": 15,
+            "id": "Toggle.layout.alternative_1",
+            "axis": "layout",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "alternative_1",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 2,
+            "configuration_global_index": 16,
+            "id": "Toggle.layout.alternative_2",
+            "axis": "layout",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "alternative_2",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 3,
+            "configuration_global_index": 17,
+            "id": "Toggle.content.alternative_1",
+            "axis": "content",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_1",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 4,
+            "configuration_global_index": 18,
+            "id": "Toggle.content.alternative_2",
+            "axis": "content",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_2",
+            "actual_status": "unmeasured_draft"
+          }
+        ],
+        "actual_size_evidence_status": "not_measured; no size-coverage claim in this draft"
+      },
+      "single_slider": {
+        "family_index": 3,
+        "size_model": "variable_body_public_support_to_verify",
+        "required_body_size_levels": [
+          "small",
+          "base",
+          "large"
+        ],
+        "baseline_configuration_id": "single_slider.body_size.base",
+        "baseline_configuration_index": 0,
+        "max_configuration_count": 7,
+        "body_size_plan": "Same range,value,ticks,label,style. Public rail-length constraints160/240/320pt target three genuinely measured body widths. Thumb intrinsic size may remain equal and is recorded separately; never call rail length a thumb-size change.",
+        "layout_plan": "Supported RTL or public placement/layout, same content and baseline body request.",
+        "content_plan": "Supported long labels or tick-content variations with body request/layout baseline.",
+        "components": [
+          "body",
+          "track",
+          "thumb",
+          "active_fill",
+          "ticks",
+          "glyphs_labels"
+        ],
+        "configurations": [
+          {
+            "configuration_index": 0,
+            "configuration_global_index": 19,
+            "id": "single_slider.body_size.base",
+            "axis": "body_size",
+            "level": "base",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 1,
+            "configuration_global_index": 20,
+            "id": "single_slider.body_size.small",
+            "axis": "body_size",
+            "level": "small",
+            "body_request": "small",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 2,
+            "configuration_global_index": 21,
+            "id": "single_slider.body_size.large",
+            "axis": "body_size",
+            "level": "large",
+            "body_request": "large",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 3,
+            "configuration_global_index": 22,
+            "id": "single_slider.layout.alternative_1",
+            "axis": "layout",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "alternative_1",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 4,
+            "configuration_global_index": 23,
+            "id": "single_slider.layout.alternative_2",
+            "axis": "layout",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "alternative_2",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 5,
+            "configuration_global_index": 24,
+            "id": "single_slider.content.alternative_1",
+            "axis": "content",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_1",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 6,
+            "configuration_global_index": 25,
+            "id": "single_slider.content.alternative_2",
+            "axis": "content",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_2",
+            "actual_status": "unmeasured_draft"
+          }
+        ],
+        "actual_size_evidence_status": "not_measured; no size-coverage claim in this draft"
+      },
+      "single_choice_menu": {
+        "family_index": 4,
+        "size_model": "variable_body_public_support_to_verify",
+        "required_body_size_levels": [
+          "small",
+          "base",
+          "large"
+        ],
+        "baseline_configuration_id": "single_choice_menu.body_size.base",
+        "baseline_configuration_index": 0,
+        "max_configuration_count": 7,
+        "body_size_plan": "Keep exactly the same five language labels/order/selection and native style. Probe supported public presentation/viewport constraints for distinct small/base/large popup bodies; OS may refuse/ignore requested size. No undocumented popup-width setter is presumed. If three real body sizes are unavailable, retain unsupported sizing rows and narrow the size claim; long labels/item counts cannot fill those rows.",
+        "layout_plan": "Supported trigger placement/RTL/safe-area alternatives, same labels and baseline body request; record popup coupling.",
+        "content_plan": "Long labels at same5 items; alternative supported item count with body request/layout baseline.",
+        "components": [
+          "anchor",
+          "trigger_button",
+          "popup_body",
+          "row_body",
+          "row_highlight",
+          "selection_mark",
+          "glyphs_labels"
+        ],
+        "configurations": [
+          {
+            "configuration_index": 0,
+            "configuration_global_index": 26,
+            "id": "single_choice_menu.body_size.base",
+            "axis": "body_size",
+            "level": "base",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 1,
+            "configuration_global_index": 27,
+            "id": "single_choice_menu.body_size.small",
+            "axis": "body_size",
+            "level": "small",
+            "body_request": "small",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 2,
+            "configuration_global_index": 28,
+            "id": "single_choice_menu.body_size.large",
+            "axis": "body_size",
+            "level": "large",
+            "body_request": "large",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 3,
+            "configuration_global_index": 29,
+            "id": "single_choice_menu.layout.alternative_1",
+            "axis": "layout",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "alternative_1",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 4,
+            "configuration_global_index": 30,
+            "id": "single_choice_menu.layout.alternative_2",
+            "axis": "layout",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "alternative_2",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 5,
+            "configuration_global_index": 31,
+            "id": "single_choice_menu.content.alternative_1",
+            "axis": "content",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_1",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 6,
+            "configuration_global_index": 32,
+            "id": "single_choice_menu.content.alternative_2",
+            "axis": "content",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_2",
+            "actual_status": "unmeasured_draft"
+          }
+        ],
+        "actual_size_evidence_status": "not_measured; no size-coverage claim in this draft"
+      },
+      "dialog_or_half_sheet": {
+        "family_index": 5,
+        "size_model": "variable_body_public_support_to_verify",
+        "required_body_size_levels": [
+          "small",
+          "base",
+          "large"
+        ],
+        "baseline_configuration_id": "dialog_or_half_sheet.body_size.base",
+        "baseline_configuration_index": 0,
+        "max_configuration_count": 7,
+        "body_size_plan": "Choose one actual public native presentation subtype per registered configuration block. Hold text/actions/style fixed and use supported public detent/presentation constraints for measured small/base/large body extents. Sheet detents and dialog subtypes remain labeled; a dialog is not declared covered by a sheet. Unsupported resizing stays explicit.",
+        "layout_plan": "Supported placement/size-class/layout alternatives, same content and baseline body request; record coupled body change.",
+        "content_plan": "Long text and accessibility text/content alternatives, same body request/layout; record intrinsic-size coupling.",
+        "components": [
+          "presentation_body",
+          "presentation_backdrop",
+          "grabber",
+          "action_button_body",
+          "action_button_fill",
+          "glyphs_labels"
+        ],
+        "configurations": [
+          {
+            "configuration_index": 0,
+            "configuration_global_index": 33,
+            "id": "dialog_or_half_sheet.body_size.base",
+            "axis": "body_size",
+            "level": "base",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 1,
+            "configuration_global_index": 34,
+            "id": "dialog_or_half_sheet.body_size.small",
+            "axis": "body_size",
+            "level": "small",
+            "body_request": "small",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 2,
+            "configuration_global_index": 35,
+            "id": "dialog_or_half_sheet.body_size.large",
+            "axis": "body_size",
+            "level": "large",
+            "body_request": "large",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 3,
+            "configuration_global_index": 36,
+            "id": "dialog_or_half_sheet.layout.alternative_1",
+            "axis": "layout",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "alternative_1",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 4,
+            "configuration_global_index": 37,
+            "id": "dialog_or_half_sheet.layout.alternative_2",
+            "axis": "layout",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "alternative_2",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 5,
+            "configuration_global_index": 38,
+            "id": "dialog_or_half_sheet.content.alternative_1",
+            "axis": "content",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_1",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 6,
+            "configuration_global_index": 39,
+            "id": "dialog_or_half_sheet.content.alternative_2",
+            "axis": "content",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_2",
+            "actual_status": "unmeasured_draft"
+          }
+        ],
+        "actual_size_evidence_status": "not_measured; no size-coverage claim in this draft"
+      },
+      "native_button": {
+        "family_index": 6,
+        "size_model": "variable_body_public_support_to_verify",
+        "required_body_size_levels": [
+          "small",
+          "base",
+          "large"
+        ],
+        "baseline_configuration_id": "native_button.body_size.base",
+        "baseline_configuration_index": 0,
+        "max_configuration_count": 7,
+        "body_size_plan": "Hold title,image,state,public style and parent fixed. Use supported public controlSize or width/height constraints to obtain measured small/base/large bodies; freeze actual API route and do not swap styles or titles to manufacture sizes.",
+        "layout_plan": "Supported RTL/placement/content-layout alternatives, same title and baseline body request.",
+        "content_plan": "Long title and supported accessibility-content alternatives with body request/layout baseline; record intrinsic-size coupling.",
+        "components": [
+          "body",
+          "highlight_fill",
+          "glyphs_labels"
+        ],
+        "configurations": [
+          {
+            "configuration_index": 0,
+            "configuration_global_index": 40,
+            "id": "native_button.body_size.base",
+            "axis": "body_size",
+            "level": "base",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 1,
+            "configuration_global_index": 41,
+            "id": "native_button.body_size.small",
+            "axis": "body_size",
+            "level": "small",
+            "body_request": "small",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 2,
+            "configuration_global_index": 42,
+            "id": "native_button.body_size.large",
+            "axis": "body_size",
+            "level": "large",
+            "body_request": "large",
+            "layout_request": "baseline",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 3,
+            "configuration_global_index": 43,
+            "id": "native_button.layout.alternative_1",
+            "axis": "layout",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "alternative_1",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 4,
+            "configuration_global_index": 44,
+            "id": "native_button.layout.alternative_2",
+            "axis": "layout",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "alternative_2",
+            "content_request": "baseline",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 5,
+            "configuration_global_index": 45,
+            "id": "native_button.content.alternative_1",
+            "axis": "content",
+            "level": "alternative_1",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_1",
+            "actual_status": "unmeasured_draft"
+          },
+          {
+            "configuration_index": 6,
+            "configuration_global_index": 46,
+            "id": "native_button.content.alternative_2",
+            "axis": "content",
+            "level": "alternative_2",
+            "body_request": "base",
+            "layout_request": "baseline",
+            "content_request": "alternative_2",
+            "actual_status": "unmeasured_draft"
+          }
+        ],
+        "actual_size_evidence_status": "not_measured; no size-coverage claim in this draft"
+      }
+    },
+    "max_planned_configuration_count": 47,
+    "measurement_gate_math": {
+      "status": "method_declaration_only; no native measurements registered",
+      "variable_body_levels": [
+        "small",
+        "base",
+        "large"
+      ],
+      "extent_axis": "width_or_height_predeclared_per_family_on_calibration",
+      "uncertainty_rule": "small_extent+small_uncertainty+tolerance < base_extent-base_uncertainty AND base_extent+base_uncertainty+tolerance < large_extent-large_uncertainty",
+      "same_baseline_requests": [
+        "content_id",
+        "layout_request_id"
+      ],
+      "requested_targets_not_evidence": true,
+      "unsupported_or_null_satisfies_gate": false,
+      "fixed_intrinsic_Toggle_true_body_sizes": 1,
+      "scope": "Only distinct actual body-size support. This scalar gate is not a dynamic edge/corner/appearance validator or proof of native rendering."
+    }
+  },
+  "complete_action_contract": {
+    "scope": "Every captured actual frame from pre-input baseline through all delivered subevents, release/cancel and observed settle; initial6s is not completeness.",
+    "preinput_baseline_target_s": 0.3,
+    "settling": "Freeze a geometry/appearance stability criterion and uncertainty on calibration, including >=.5s stable observed support. A missing edge/clock/observation cannot be silently called settled.",
+    "full_frame_analysis": "One frame-ledger entry for EVERY recorded sample in original PTS order, plus explicit gaps/repeated/failed/undecodable frames. All registered source/feature/control IDs retain status per actual frame, including null/unidentified/occluded/clipped. Keyframes are only a visualization selection, never the analyzed sample.",
+    "subevent_policy": "Do not start the next bundled subevent until prior settle observed or label overlap as intentional interruption. Preserve each preinput/action/release/settle boundary. If a suite cannot fit6s, split into independently complete registered clips or use bounded12s continuation; never truncate and call complete.",
+    "bounded_continuation": "If not settled at initial6s, retain original as incomplete/right-censored. Before claiming complete, register one paired native/Android remeasurement of entire same sequence including preinput with cap12s, or a separately identified continuation with explicit clock continuity limits. At12s if still not settled/trackable, retain incomplete and stop automatic repeats.",
+    "continuation_budget": "At most one paired continuation per flagged condition under a separately registered clip/footage/storage ledger, reviewed after each small batch. It is outside the initial64x6 budget and not an unlimited retry permission.",
+    "not_every_millisecond": "Actual frames have PTS/codec/color/time-support limitations; no assertion every millisecond or unrecorded compositor frame was measured.",
+    "component_scope": "Every native family/configuration uses native_component_frame_contract for all actual frames and every planned component ID, not only Dock/lens.",
+    "all_actual_frame_order": "original_PTS",
+    "settle_stable_support_min_s": 0.5,
+    "maximum_paired_followups_per_flagged_condition": 1,
+    "followup_maximum_s": 12,
+    "original_incomplete_retained": true,
+    "still_unsettled_at_followup_cap_remains_incomplete": true,
+    "required_frame_statuses": [
+      "decoded",
+      "repeated",
+      "undecodable",
+      "decode_failed",
+      "dropped_gap",
+      "occluded",
+      "clipped",
+      "unidentified"
+    ],
+    "unsupported_or_null_satisfies_full_measurement_gate": false
+  },
+  "native_component_frame_contract": {
+    "scope": "All seven native families, every registered configuration and every actually recorded frame from baseline through settle or explicit incomplete. Track real body/thumb/track/fill/highlight/popup/sheet/button components when present; not only Dock.",
+    "families": [
+      "Dock",
+      "segmented_Tab",
+      "Toggle",
+      "single_slider",
+      "single_choice_menu",
+      "dialog_or_half_sheet",
+      "native_button"
+    ],
+    "components_by_family": {
+      "Dock": [
+        "body",
+        "selected_lens",
+        "selection_fill",
+        "glyphs_labels"
+      ],
+      "segmented_Tab": [
+        "body",
+        "track",
+        "thumb_or_selection_lens",
+        "selection_fill",
+        "glyphs_labels"
+      ],
+      "Toggle": [
+        "body",
+        "track",
+        "thumb",
+        "thumb_opaque_core",
+        "on_fill",
+        "glyphs_labels"
+      ],
+      "single_slider": [
+        "body",
+        "track",
+        "thumb",
+        "active_fill",
+        "ticks",
+        "glyphs_labels"
+      ],
+      "single_choice_menu": [
+        "anchor",
+        "trigger_button",
+        "popup_body",
+        "row_body",
+        "row_highlight",
+        "selection_mark",
+        "glyphs_labels"
+      ],
+      "dialog_or_half_sheet": [
+        "presentation_body",
+        "presentation_backdrop",
+        "grabber",
+        "action_button_body",
+        "action_button_fill",
+        "glyphs_labels"
+      ],
+      "native_button": [
+        "body",
+        "highlight_fill",
+        "glyphs_labels"
+      ]
+    },
+    "per_component_per_actual_frame_fields": [
+      "family_id",
+      "native_configuration_id",
+      "axis_level_and_body_size_id",
+      "component_id",
+      "native_public_parent_identity",
+      "original_video_PTS",
+      "frame_sequence_index",
+      "decode_or_gap_status",
+      "app_monotonic_sample_brackets",
+      "clock_mapping_uncertainty",
+      "component_existence_visibility_status",
+      "world_bounds_or_null",
+      "model_transform_or_null",
+      "presentation_transform_or_null",
+      "edge_polyline_or_curve_or_null",
+      "local_corner_shape_or_null",
+      "thumb_track_fill_popup_geometry_or_null",
+      "opacity_fill_highlight_response_or_null",
+      "layer_parent_z_order_and_material_ancestors",
+      "clip_occlusion_support_or_null",
+      "input_selection_highlight_phase",
+      "measurement_method_and_time_support",
+      "uncertainty_and_null_reasons",
+      "component_template_id",
+      "component_instance_id",
+      "instance_generation_or_episode_id",
+      "parent_component_instance_id_or_external_parent_id",
+      "item_action_tick_content_binding_or_null_reason",
+      "semantic_target_id"
+    ],
+    "existence_policy": "Component lists are observation targets, not claims every component has a separate native glass node or public getter. Record present,not_in_native_api,not_exposed,not_visible,occluded,clipped,unidentified,decode_failed with null reason where appropriate; preserve all planned IDs each actual frame. No private API or geometry mutation.",
+    "geometry_policy": "Record actual requested/model/presentation/pixel-observed bounds, shape/corners, transforms, opacity/fill response separately with acquisition method and time support. Unknown curved edges/corner radius remain null; no assumed ellipse/capsule/bbox substitution.",
+    "layer_policy": "Record actual parent,z-order,material ancestors and intervening frosted backplate per component. The selected thumb/lens sees the composited backing material and content actually below it; never compare a foreground lens as though it bypasses a backplate. Unsupported backdrop visibility remains explicit.",
+    "optical_policy": "Source-feature correspondence, edge-frame deformation and foreground fill/labels are separated for every supported refractive component. An opaque/no-refraction component retains appearance/geometry evidence and no fabricated optical measurement.",
+    "all_frame_policy": "One frame-ledger entry for EVERY recorded sample in original PTS order, plus explicit gaps/repeated/failed/undecodable frames. All registered source/feature/control IDs retain status per actual frame, including null/unidentified/occluded/clipped. Keyframes are only a visualization selection, never the analyzed sample.",
+    "instance_contract": "native_component_instance_contract; category37 is not an actual-instance count"
+  },
+  "native_family_action_registry": {
+    "Dock": {
+      "suites": [
+        "taps_adjacent_then_first_last",
+        "holds_short_then_long",
+        "drag_slow",
+        "drag_fast",
+        "drag_accelerate_pause_reverse",
+        "endpoint_overtravel_release",
+        "rapid_interruption_or_cancellation"
+      ],
+      "applicability": "Each configuration receives every applicable suite and all lifecycle/component frame fields. Unsupported gesture/hold/cancel states remain explicit with support reason; no invented slider drag for menus/buttons.",
+      "reset": "Actual native preparation/reset interactions, labeled separately; no direct internal-lens positioning."
+    },
+    "segmented_Tab": {
+      "suites": [
+        "taps_adjacent_then_first_last",
+        "holds_short_then_long",
+        "drag_slow",
+        "drag_fast",
+        "drag_accelerate_pause_reverse",
+        "endpoint_overtravel_release",
+        "rapid_interruption_or_cancellation"
+      ],
+      "applicability": "Each configuration receives every applicable suite and all lifecycle/component frame fields. Unsupported gesture/hold/cancel states remain explicit with support reason; no invented slider drag for menus/buttons.",
+      "reset": "Actual native preparation/reset interactions, labeled separately; no direct internal-lens positioning."
+    },
+    "Toggle": {
+      "suites": [
+        "taps_adjacent_then_first_last",
+        "holds_short_then_long",
+        "drag_slow",
+        "drag_fast",
+        "drag_accelerate_pause_reverse",
+        "endpoint_overtravel_release",
+        "rapid_interruption_or_cancellation"
+      ],
+      "applicability": "Each configuration receives every applicable suite and all lifecycle/component frame fields. Unsupported gesture/hold/cancel states remain explicit with support reason; no invented slider drag for menus/buttons.",
+      "reset": "Actual native preparation/reset interactions, labeled separately; no direct internal-lens positioning."
+    },
+    "single_slider": {
+      "suites": [
+        "taps_adjacent_then_first_last",
+        "holds_short_then_long",
+        "drag_slow",
+        "drag_fast",
+        "drag_accelerate_pause_reverse",
+        "endpoint_overtravel_release",
+        "rapid_interruption_or_cancellation"
+      ],
+      "applicability": "Each configuration receives every applicable suite and all lifecycle/component frame fields. Unsupported gesture/hold/cancel states remain explicit with support reason; no invented slider drag for menus/buttons.",
+      "reset": "Actual native preparation/reset interactions, labeled separately; no direct internal-lens positioning."
+    },
+    "single_choice_menu": {
+      "suites": [
+        "tap_open_select_current_then_dismiss",
+        "tap_open_select_other",
+        "trigger_short_long_press_release",
+        "open_outside_dismiss",
+        "public_cancel_or_escape_if_supported",
+        "rapid_open_close_reopen",
+        "interrupt_opening_or_selection_if_supported"
+      ],
+      "applicability": "Each configuration receives every applicable suite and all lifecycle/component frame fields. Unsupported gesture/hold/cancel states remain explicit with support reason; no invented slider drag for menus/buttons.",
+      "reset": "Actual native preparation/reset interactions, labeled separately; no direct internal-lens positioning."
+    },
+    "dialog_or_half_sheet": {
+      "suites": [
+        "present_then_confirm",
+        "present_then_cancel",
+        "outside_dismiss_if_supported",
+        "native_swipe_dismiss_if_supported",
+        "action_button_short_long_press_release",
+        "rapid_present_dismiss_represent",
+        "interrupt_or_public_cancel_if_supported"
+      ],
+      "applicability": "Each configuration receives every applicable suite and all lifecycle/component frame fields. Unsupported gesture/hold/cancel states remain explicit with support reason; no invented slider drag for menus/buttons.",
+      "reset": "Actual native preparation/reset interactions, labeled separately; no direct internal-lens positioning."
+    },
+    "native_button": {
+      "suites": [
+        "tap_and_repeat",
+        "short_press_release",
+        "long_press_release",
+        "press_move_outside_release_if_supported",
+        "press_exit_reenter_release_if_supported",
+        "rapid_repeated_input",
+        "public_interrupt_or_cancel_if_supported"
+      ],
+      "applicability": "Each configuration receives every applicable suite and all lifecycle/component frame fields. Unsupported gesture/hold/cancel states remain explicit with support reason; no invented slider drag for menus/buttons.",
+      "reset": "Actual native preparation/reset interactions, labeled separately; no direct internal-lens positioning."
+    }
+  },
+  "documentation_contract": {
+    "revision": 4,
+    "status": "draft_unfrozen_ungenerated_uncaptured",
+    "geometry_conditions": 108,
+    "plates": 18,
+    "landmarks_per_plate": 6,
+    "palette_formula": "k=(scale_index+2*aspect_index+3*orientation_index+family_offset[family_index]) mod6",
+    "palette_global_counts": [
+      18,
+      18,
+      18,
+      18,
+      18,
+      18
+    ],
+    "palette_family_counts": [
+      [
+        5,
+        4,
+        5,
+        4,
+        5,
+        4
+      ],
+      [
+        4,
+        5,
+        4,
+        5,
+        4,
+        5
+      ],
+      [
+        4,
+        5,
+        4,
+        5,
+        4,
+        5
+      ],
+      [
+        5,
+        4,
+        5,
+        4,
+        5,
+        4
+      ]
+    ],
+    "palette_each_factor_level_counts": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "palette_background_counts": [
+      [
+        3,
+        12,
+        3,
+        3,
+        12,
+        3
+      ],
+      [
+        3,
+        3,
+        12,
+        3,
+        3,
+        12
+      ],
+      [
+        12,
+        3,
+        3,
+        12,
+        3,
+        3
+      ]
+    ],
+    "native_families": [
+      "Dock",
+      "segmented_Tab",
+      "Toggle",
+      "single_slider",
+      "single_choice_menu",
+      "dialog_or_half_sheet",
+      "native_button"
+    ],
+    "native_configuration_caps": {
+      "Dock": 7,
+      "segmented_Tab": 7,
+      "Toggle": 5,
+      "single_slider": 7,
+      "single_choice_menu": 7,
+      "dialog_or_half_sheet": 7,
+      "native_button": 7
+    },
+    "baseline_configuration_index": 0,
+    "fixed_intrinsic_family": "Toggle",
+    "variable_body_size_required_levels": [
+      "small",
+      "base",
+      "large"
+    ],
+    "component_contract": {
+      "Dock": [
+        "body",
+        "selected_lens",
+        "selection_fill",
+        "glyphs_labels"
+      ],
+      "segmented_Tab": [
+        "body",
+        "track",
+        "thumb_or_selection_lens",
+        "selection_fill",
+        "glyphs_labels"
+      ],
+      "Toggle": [
+        "body",
+        "track",
+        "thumb",
+        "thumb_opaque_core",
+        "on_fill",
+        "glyphs_labels"
+      ],
+      "single_slider": [
+        "body",
+        "track",
+        "thumb",
+        "active_fill",
+        "ticks",
+        "glyphs_labels"
+      ],
+      "single_choice_menu": [
+        "anchor",
+        "trigger_button",
+        "popup_body",
+        "row_body",
+        "row_highlight",
+        "selection_mark",
+        "glyphs_labels"
+      ],
+      "dialog_or_half_sheet": [
+        "presentation_body",
+        "presentation_backdrop",
+        "grabber",
+        "action_button_body",
+        "action_button_fill",
+        "glyphs_labels"
+      ],
+      "native_button": [
+        "body",
+        "highlight_fill",
+        "glyphs_labels"
+      ]
+    },
+    "initial_clip_cap": 64,
+    "initial_target_s": 6,
+    "initial_Dock_global_cases": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "additional_T_slots": 40,
+    "additional_core_I_slots": 700,
+    "additional_other_I_slots": 588,
+    "combined_nominal_suite_slots": 1392,
+    "nominal_seconds_if_each_slot_fits6s": 8352,
+    "settle_support_min_s": 0.5,
+    "incomplete_followup_max_per_condition": 1,
+    "incomplete_followup_cap_s": 12,
+    "all_actual_frames_required": true,
+    "new_capture_authorized": false,
+    "conservative_nominal_suite_slots_without_initial_I_reuse": 1420,
+    "component_entries_are_templates_not_instance_count": true,
+    "initial_reuse_exact_identity_field_count": 32
+  },
+  "initial_I_reuse_contract": {
+    "status": "unresolved_draft_not_reuse_proof",
+    "initial_configuration_id": "Dock.body_size.base",
+    "initial_configuration_global_index": 0,
+    "initial_global_case_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "same_canonical_case_id_rule": "I/{split}/{renderer_id}/Dock.body_size.base/{suite_id}; stage refers to the same canonical registered case and original evidence, never a relabeled different capture",
+    "required_exact_frozen_identity_fields": [
+      "split",
+      "renderer_id",
+      "global_case_index",
+      "family_id",
+      "native_configuration_id",
+      "body_size_level",
+      "layout_id",
+      "content_manifest_sha256",
+      "item_count",
+      "native_style_parent_manifest_sha256",
+      "expected_semantic_component_manifest_sha256",
+      "source_plate_index",
+      "source_condition_manifest_sha256",
+      "source_png_sha256",
+      "source_pixel_sha256",
+      "source_layout_seed",
+      "source_background_seed",
+      "source_palette_mask_manifest_sha256",
+      "world_manifest_sha256",
+      "source_generator_protocol_ICC_manifest_sha256",
+      "background_id",
+      "background_formula_manifest_sha256",
+      "theme",
+      "traits_manifest_sha256",
+      "requested_action_suite_id",
+      "requested_action_and_input_intent_manifest_sha256",
+      "input_driver_build_sha256",
+      "renderer_build_sha256",
+      "candidate_calibration_freeze_manifest_sha256",
+      "preinput_baseline_target_s",
+      "settle_rule_manifest_sha256",
+      "capture_policy_manifest_sha256"
+    ],
+    "hash_field_rule": "Every *_sha256 must be a resolved64hex frozen artifact binding, not a placeholder or hash of an arbitrary label. Resolve/bind every identity field before capture/reuse. Draft references are not proof.",
+    "comparison": "All required identity fields must be present, resolved and exactly equal between the initial observed-case condition record and scheduled frozen-case condition record before subtracting a reused slot. All original capture/frame/action support stays attached. A mismatch or incomplete/unsupported evidence cannot silently satisfy full coverage.",
+    "actual_delivery_policy": "Native/Android and separate recordings preserve independent actual delivery/response traces with clock support. Do not require actual trajectories or delivery timings equal, force them to match, or put actual response into the input identity. Requested action/intents, driver/build and condition bindings must match.",
+    "conditional_valid_reuse_slots": 28,
+    "maximum_lost_reuse_slots": 28,
+    "conservative_nominal_suite_slots_without_any_initial_I_reuse": 1420,
+    "scope": "Exact reuse is conditional on full identity and usable action/frame evidence. Lost reuse adds at most28 nominal core slots under a finite stage ledger; atomic splits and one bounded incomplete-action followup remain separately counted.",
+    "actual_instance_identity_policy": "expected_semantic_component_manifest_sha256 binds the frozen expected semantic/layout/component-target plan, not future native object IDs or observed lifetime union. Actual native object IDs, observed instance union/generations, late discovery and creation/destruction intervals are independent capture evidence bound after capture. Reuse retains the same original evidence; actual object IDs need not match between renderers or independent captures."
+  },
+  "native_component_instance_contract": {
+    "status": "registry_method_declaration_only; no actual native instance inventory registered",
+    "template_vs_instance": "The37 family.component entries are category templates, not37 total observed instances. Expand to actual persistent semantic/native instance targets before capture. One row_body or glyphs_labels row cannot stand in for5 menu rows or multiple Tab items/buttons/ticks.",
+    "required_instance_registry_fields": [
+      "component_template_id",
+      "component_instance_id",
+      "native_configuration_id",
+      "instance_generation_or_episode_id",
+      "actual_native_identity_or_null",
+      "identity_method_and_uncertainty",
+      "parent_component_instance_id_or_external_parent_id",
+      "item_action_tick_content_binding_or_null_reason",
+      "creation_PTS_or_preexisting",
+      "destruction_PTS_or_still_alive",
+      "expected_lifecycle_status_by_frame",
+      "support_status_and_reason",
+      "semantic_target_id"
+    ],
+    "per_frame_instance_key": [
+      "family_id",
+      "native_configuration_id",
+      "component_template_id",
+      "component_instance_id",
+      "instance_generation_or_episode_id"
+    ],
+    "content_cardinality_binding": "Register expected semantic item/action/tick/content IDs and ordering from controlled native configuration. Enumerate every menu row, Dock/Tab item foreground, slider tick/label and dialog/sheet action button separately; bind each instance to its parent and item/action/tick/content ID. One generic class row cannot satisfy those cardinalities.",
+    "identity_lifetime": "Persistent IDs within an observed instance lifetime; a destroyed/recreated popup/button/row gets a new generation/episode. Never assert object continuity from the same class/index alone. Public object identity may be unavailable; retain null and semantic correspondence method/uncertainty instead of private API.",
+    "every_frame_expected_instances": "Every recorded frame must have exactly one row for every registered instance target in the clip union registry, with explicit not_created_yet,present,not_in_native_api,not_exposed,not_visible,occluded,clipped,unidentified,ended,decode_failed statuses. Registry expansion/late discovery is versioned and preserves its creation interval; no rows disappear just because a menu closes. Never pool distinct row/button instances or drop repeats/failures.",
+    "parent_layer_binding": "All edge,corner,pose,opacity/fill/source-deformation and material-ancestor rows bind to component_instance_id, parent instance ID and frame clock support, including nested presentation buttons and item highlight/fill. Category aggregates may supplement, never replace instance evidence.",
+    "null_or_missing_instance_satisfies_full_measurement_gate": false,
+    "scope": "Protocol instance-inventory/frame-cardinality method only. A synthetic metadata checker is not real native inventory, geometric completeness, optical tracking or action coverage.",
+    "structural_absence_policy": "Separate verified structurally_not_applicable/nonexistent for the actual native subtype from expected-present-but-unidentified/unexposed/null. Example: a native dialog without a sheet grabber is an inventory N/A, not a fabricated node or a measured grabber. Register applicable expected instances and structural exclusions separately. Legitimate precreation/ended/not-visible lifecycle absence is retained, not treated as present measurement.",
+    "measurement_gate_scope": "Inventory completeness may include verified subtype N/A and legitimate lifecycle absence. Full geometry/appearance measurement requires support for every applicable expected-present instance/frame; unidentified/null is not a pass. N/A is a documented exclusion, never a successful measurement or an all-subtypes claim.",
+    "independent_expected_semantic_manifest": "Register controlled content/layout semantic target manifest independently of observed instance rows: semantic_target_id, component_template_id, item/action/tick/content binding, structural applicability/exclusion evidence and expected generation/instance multiplicity for the finite registered clip inventory where established. Actual instance union must cover that manifest, not define its own expected language/Tab/action/tick set. Extra/unexpected or missing/pooled semantic bindings remain failures; unknown multiplicity remains unresolved, not a pass.",
+    "independent_frame_ledger": "Bind exact original actual-frame sequence IDs and PTS from the acquisition/decode ledger, including failure/repeat rows. Frame list must be nonempty and match every actual ID/PTS in order without omission, duplication, replacement or unsupported interpolation. A registry-relative empty frame set cannot pass.",
+    "lifecycle_terminal_rule": "For an instance ID+generation, ended is terminal: no later present/active state for the same generation. A recreation receives a new generation/instance ID and creation interval. Preserve decode_failed/unknown rows without erasing known ended state. Precreation cannot follow a known active lifetime. Public identity/correspondence uncertainty remains explicit.",
+    "observed_inventory_timing": "Freeze expected semantic/content/layout targets before capture. Actual object identities, generation counts and union inventory can only be observed during/after capture; preserve/version/hash-bind them as independent evidence before analysis/reuse. The scalar metadata checker accepts an independently bound completed expected-inventory reconciliation for its synthetic finite fixture; it does not discover native objects or demand future object IDs at pre-capture freeze."
+  }
+}

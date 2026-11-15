@@ -1,0 +1,98 @@
+[
+  {
+    "scene": "pill-fine_grid-light",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 609.6743993868212
+  },
+  {
+    "scene": "pill-color_stripes-light",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 1457.524045976648
+  },
+  {
+    "scene": "pill-tonal_blocks-light",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 1127.4908879690674
+  },
+  {
+    "scene": "pill-synthetic_landscape-light",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 2675.291035708145
+  },
+  {
+    "scene": "pill-fine_grid-dark",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 612.8380174711116
+  },
+  {
+    "scene": "pill-color_stripes-dark",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 1513.1133351720366
+  },
+  {
+    "scene": "pill-tonal_blocks-dark",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 1204.321612873263
+  },
+  {
+    "scene": "pill-synthetic_landscape-dark",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 4568.490486435642
+  },
+  {
+    "scene": "sheet-fine_grid-light",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 2157.587533486052
+  },
+  {
+    "scene": "sheet-color_stripes-light",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 7236.324422373675
+  },
+  {
+    "scene": "sheet-tonal_blocks-light",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 3238.302068351683
+  },
+  {
+    "scene": "sheet-synthetic_landscape-light",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 8939.141856242983
+  },
+  {
+    "scene": "sheet-fine_grid-dark",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 240.88691984668324
+  },
+  {
+    "scene": "sheet-color_stripes-dark",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 6988.884293638104
+  },
+  {
+    "scene": "sheet-tonal_blocks-dark",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 2827.4836628345442
+  },
+  {
+    "scene": "sheet-synthetic_landscape-dark",
+    "center_max": 0,
+    "outside_max": 0,
+    "changed_edge_dp2": 6772.289441224365
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "schema": 2,
+  "implementation_version": 2,
+  "world_px": [
+    750,
+    1334
+  ],
+  "pixels_per_pt": 2,
+  "dock_ltrb_px": [
+    42,
+    1168,
+    708,
+    1292
+  ],
+  "near_dock_distance_px": 160,
+  "near_search_radius_px": 160,
+  "far_search_radius_px": 8,
+  "template_blur_sigmas_px": [
+    0,
+    2,
+    6
+  ],
+  "template_radius_rule": "ceil(max(9,2*radius+6)+2*sigma)",
+  "minimum_template_sd_code": 1.5,
+  "minimum_ncc": 0.6,
+  "minimum_peak_margin": 0.08,
+  "minimum_color_ncc": 0.4,
+  "minimum_context_ncc": 0.4,
+  "minimum_context_sd_code": 1.0,
+  "maximum_retained_peaks": 3,
+  "distinct_peak_radius_rule": "max(4,2*source_radius)",
+  "minimum_local_snr": 3,
+  "minimum_local_contrast_code": 2.0,
+  "segmentation_peak_fractions": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "morphology_primary_fraction": 0.5,
+  "minimum_component_pixels": 2,
+  "shape_radius_rule": "ceil(max(8,3*radius+3*sigma+4))",
+  "identity_competition_radius_px": 2.0,
+  "maximum_returned_centroid_shift_rule": "max(5,2*radius+2*sigma)",
+  "identity_competition_support_rule": "reject any shared observed component pixel; retain overlap counts and centroid fallback",
+  "foreground_occlusion_rule": "correlation center or any primary-component pixel cell intersects fixed foreground rectangles",
+  "template_foreground_rule": "record full template rectangle intersection; diagnostic only, not an automatic rejection",
+  "effective_search_boundary_margin_px": 1,
+  "color_policy": "profiled RGB converted to sRGB through frozen LittleCMS; unprofiled inputs explicitly assumed sRGB; nonopaque alpha rejected",
+  "maximum_components_per_peak": 4,
+  "saturation_channel_limits_code": [
+    1,
+    254
+  ],
+  "maximum_component_saturated_fraction": 0.05,
+  "foreground_rects_pt": [
+    [
+      48,
+      592,
+      91,
+      640
+    ],
+    [
+      127,
+      592,
+      170,
+      640
+    ],
+    [
+      207,
+      592,
+      250,
+      640
+    ],
+    [
+      286,
+      592,
+      329,
+      640
+    ]
+  ],
+  "selected_lens_layer_rect_pt": [
+    25,
+    588,
+    113.25,
+    642
+  ],
+  "background_foreground_context_rect_pt": [
+    16,
+    593.2,
+    180,
+    613.7
+  ],
+  "status_semantics": {
+    "tracked": "unique translation-template identity and isolated visible component; conditional measurement, not proof of physical correspondence",
+    "multiple_lobes": "multiple separated candidates pass NCC/color/contrast checks; no forced single displacement",
+    "fused": "source overlap or multiple source identities compete for the same observed component",
+    "disappeared": "reserved, never emitted by v2: retained NCC candidates cannot establish absence across a full search",
+    "unidentified": "signal exists but identity, shape, search-boundary or local translation assumptions are insufficient",
+    "outside_support": "source more than160px from Dock; local8px control search only; no inference about Dock refraction"
+  },
+  "no_actual_output_read_before_freeze": true,
+  "registered_at_utc": "2026-11-14T12:29:19.269034+00:00",
+  "reference": "Rajendran/Bane/Vlachos arXiv1812.10870 section3: known-dot windows and local correlation only; its small-displacement/yield claims and fluid inversion are not adopted",
+  "algorithm": "source RGB direction projection; multi-blur local translation NCC; independent peak rejection; RGB/context diagnostics; local contrast components at three thresholds; weighted centroid/moment axes; identity-competition rejection",
+  "limits": "Large non-affine warp, unknown tint/blur, occlusion, source overlap and multivalued refraction can prevent identification. NCC is not physical transmittance, per-point confidence is not probability, no nearest-neighbor forced matching.",
+  "test_data_use": "Any actual output used to revise this algorithm/thresholds becomes calibration; preserve failures and validate next frozen version on new test seeds."
+}

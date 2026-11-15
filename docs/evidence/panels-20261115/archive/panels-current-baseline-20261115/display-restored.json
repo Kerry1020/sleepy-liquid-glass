@@ -1,0 +1,36 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "shell",
+        "am",
+        "force-stop",
+        "com.lingion.sleepy.debug"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "shell",
+        "wm",
+        "size",
+        "reset"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "shell",
+        "wm",
+        "density",
+        "476"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "actual": {
+    "size": "Physical size: 1216x2640",
+    "density": "Physical density: 560\nOverride density: 476"
+  },
+  "matches_original": true
+}

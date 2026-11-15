@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "date": "2026-11-15",
+  "scope": "Actual source-only reconstruction in an empty external scratch directory; no capture outputs/build/device/optical fitting.",
+  "helper_sha256": "f17326619dd3b33785133a8457c3d39f82e8325e333f2d2c1e1d2bc0edad439d",
+  "receipt": {
+    "scope": "generated source inputs only; no output/capture/optical validation",
+    "dependencies": {
+      "python": "3.9.6",
+      "numpy": "2.0.2",
+      "pillow": "11.3.0",
+      "littlecms2": "2.17"
+    },
+    "receipts": [
+      {
+        "kind": "noise",
+        "packet": "glass-noise-20261114",
+        "comparisons": [
+          {
+            "split": "calibration",
+            "inputs": 8,
+            "manifest_sha256": "096d4c917ebfa7e8f83681b950d41df755da13da6e33d6e18e31bd7cd9ecef1c",
+            "matches_registered_manifest": true
+          },
+          {
+            "split": "test",
+            "inputs": 8,
+            "manifest_sha256": "c0bf459fa970ccfe6dba439edc85db2e4d8d7006247765638c29148478bc6375",
+            "matches_registered_manifest": true
+          }
+        ],
+        "original_generate_and_verify_passed": true
+      },
+      {
+        "kind": "shapes",
+        "packet": "glass-isolated-shapes-20261114",
+        "comparisons": [
+          {
+            "split": "calibration",
+            "inputs": 8,
+            "manifest_sha256": "4f69c2f5ca826fbddf31f04ca429d377ce329408fe65761692546790c9b4ff75",
+            "matches_registered_manifest": true
+          },
+          {
+            "split": "test",
+            "inputs": 8,
+            "manifest_sha256": "ba5f6ddd463505299ddc8245d8b3e6b4dd4dc932fb2405e56a55f777420cf95f",
+            "matches_registered_manifest": true
+          }
+        ],
+        "original_generate_and_verify_passed": true
+      },
+      {
+        "kind": "flat",
+        "original_historical_generator_executed": false,
+        "returncode": 0,
+        "stdout": "{\"inputs\": 8, \"all_registered_png_and_pixel_hashes_match\": true}\n",
+        "stderr": ""
+      }
+    ]
+  },
+  "original_generator_process_receipts": {
+    "glass-noise-20261114": [
+      {
+        "action": "--generate",
+        "returncode": 0,
+        "stdout": "{\"split\": \"calibration\", \"id\": \"c01_rgb_noise_s0\", \"sha256\": \"f7717fabe23ac87c275b359c960c7af9a8489126d758f74732035c202105dd62\"}\n{\"split\": \"calibration\", \"id\": \"c02_rgb_noise_s1\", \"sha256\": \"979c3988ce2803b34f1ca2b3138a7578b32f455c1c0816a463a01362847cb572\"}\n{\"split\": \"calibration\", \"id\": \"c03_rgb_noise_s2\", \"sha256\": \"b20d464c29650e0e2df860dbe707c50ff31823aaf94c53a4bd0fd4afad4694f7\"}\n{\"split\": \"calibration\", \"id\": \"c04_rgb_noise_s3\", \"sha256\": \"0f949f774feabaa5b52aa8df8b983b84b5476022da4c1d35fda59621e83dd036\"}\n{\"split\": \"calibration\", \"id\": \"c05_dots_s0\", \"sha256\": \"9d51245c7d63756efd1aa73bc9730182dcf22e0cd737dafbb82da85b30528e76\"}\n{\"split\": \"calibration\", \"id\": \"c06_dots_s1\", \"sha256\": \"c2f7aff341cb79fb5fd989ed5ccc93c909b02e326c9785bfb730076c20e8af30\"}\n{\"split\": \"calibration\", \"id\": \"c07_dots_s2\", \"sha256\": \"0bd1766a2cde8cc7c1ca4c9f74dd558b13af36729fab5b4442d405cc34d5daad\"}\n{\"split\": \"calibration\", \"id\": \"c08_dots_s3\", \"sha256\": \"9d28ba9306d5fe275430003302c7257248be26dfe2f0afaa0a60111cc2c82cd1\"}\n{\"split\": \"test\", \"id\": \"n01_rgb_noise_s0\", \"sha256\": \"7c2e19e0032386f4b12641af68518c8c3b08309437067d536937edbdcab89f2e\"}\n{\"split\": \"test\", \"id\": \"n02_rgb_noise_s1\", \"sha256\": \"a26fc2bbab5015424256cb8b28a6cbc0c568728b1defd0d1e79700ae85914004\"}\n{\"split\": \"test\", \"id\": \"n03_rgb_noise_s2\", \"sha256\": \"ff88475c9f6909182dc6c4664adfb9a0cedc5d375ae7e842ca2d87c925f0de12\"}\n{\"split\": \"test\", \"id\": \"n04_rgb_noise_s3\", \"sha256\": \"78757f017351dc1c20cdb309d0c30b56bee9d4b2266a146a11f454d971167de2\"}\n{\"split\": \"test\", \"id\": \"n05_dots_s0\", \"sha256\": \"1e48a72e1db6c956cc3f0b8790a0e43ecaa54bc15edcdc9a8319ccf2cd4386d2\"}\n{\"split\": \"test\", \"id\": \"n06_dots_s1\", \"sha256\": \"c08b1d569dcc22617c9dc8fe3dcf06d90a67c1bdbaab737fbab2cf6ea9b4121f\"}\n{\"split\": \"test\", \"id\": \"n07_dots_s2\", \"sha256\": \"36cfc5c0e6b14522d362fdf0c2a23f6c5fa834cb1f9de3079e0cb928b5fefc26\"}\n{\"split\": \"test\", \"id\": \"n08_dots_s3\", \"sha256\": \"3be2bd37309f972c58a43875efd77b31812b5c1bfc17bc87b89e431c6c98b803\"}\n",
+        "stderr": "/private/tmp/sleepy-optical-input-rebuild-20261115-cosine/glass-noise-20261114/generate.py:211: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)\n  Image.fromarray(pixels, mode=\"RGB\").save(path, format=\"PNG\", icc_profile=profile,\n/private/tmp/sleepy-optical-input-rebuild-20261115-cosine/glass-noise-20261114/generate.py:143: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)\n  pixels = np.asarray(Image.fromarray(raster, mode=\"RGB\").resize((w, h), Image.Resampling.BOX)).copy()\n"
+      },
+      {
+        "action": "--verify",
+        "returncode": 0,
+        "stdout": "{\n  \"verified\": true,\n  \"image_count\": 16,\n  \"total_source_points\": 13440,\n  \"calibration_or_training_completed\": false,\n  \"point_tables\": [\n    {\n      \"id\": \"c05_dots_s0\",\n      \"point_count\": 1680,\n      \"edge_clipped_count\": 17,\n      \"source_signature_duplicate_point_count\": 0\n    },\n    {\n      \"id\": \"c06_dots_s1\",\n      \"point_count\": 1680,\n      \"edge_clipped_count\": 16,\n      \"source_signature_duplicate_point_count\": 0\n    },\n    {\n      \"id\": \"c07_dots_s2\",\n      \"point_count\": 1680,\n      \"edge_clipped_count\": 20,\n      \"source_signature_duplicate_point_count\": 0\n    },\n    {\n      \"id\": \"c08_dots_s3\",\n      \"point_count\": 1680,\n      \"edge_clipped_count\": 16,\n      \"source_signature_duplicate_point_count\": 0\n    },\n    {\n      \"id\": \"n05_dots_s0\",\n      \"point_count\": 1680,\n      \"edge_clipped_count\": 15,\n      \"source_signature_duplicate_point_count\": 0\n    },\n    {\n      \"id\": \"n06_dots_s1\",\n      \"point_count\": 1680,\n      \"edge_clipped_count\": 18,\n      \"source_signature_duplicate_point_count\": 0\n    },\n    {\n      \"id\": \"n07_dots_s2\",\n      \"point_count\": 1680,\n      \"edge_clipped_count\": 11,\n      \"source_signature_duplicate_point_count\": 0\n    },\n    {\n      \"id\": \"n08_dots_s3\",\n      \"point_count\": 1680,\n      \"edge_clipped_count\": 22,\n      \"source_signature_duplicate_point_count\": 0\n    }\n  ]\n}\n",
+        "stderr": ""
+      }
+    ],
+    "glass-isolated-shapes-20261114": [
+      {
+        "action": "--generate",
+        "returncode": 0,
+        "stdout": "",
+        "stderr": "/private/tmp/sleepy-optical-input-rebuild-20261115-cosine/glass-isolated-shapes-20261114/generate.py:238: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)\n  Image.fromarray(pixels, mode=\"RGB\").save(path, format=\"PNG\", icc_profile=PROFILE.read_bytes(),\n"
+      },
+      {
+        "action": "--verify",
+        "returncode": 0,
+        "stdout": "{\n  \"schema\": 1,\n  \"verified_utc\": \"2026-11-15T06:59:39.871365+00:00\",\n  \"protocol_sha256\": \"e0ca7d24ec7dd5db28b5aafc51eeaac486a4c62b7ce4c08d8342a329c75b1f2a\",\n  \"freeze_sha256\": \"c3a15180db0c122f28c1416f85cad1252acf2d25c6a4687e190f9b01e2ebc280\",\n  \"manifest_sha256\": {\n    \"calibration\": \"4f69c2f5ca826fbddf31f04ca429d377ce329408fe65761692546790c9b4ff75\",\n    \"test\": \"ba5f6ddd463505299ddc8245d8b3e6b4dd4dc932fb2405e56a55f777420cf95f\"\n  },\n  \"input_pngs\": 16,\n  \"pairs\": 8,\n  \"byte_identical_controls\": 8,\n  \"control_sha256\": \"6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b\",\n  \"coverage_reconstruction\": \"all pixels of16 inputs checked; all8 shape masks match fresh frozen geometry rasterization\",\n  \"atlas_sha256\": \"115b6fa16c7dc6c89039e5e2564b583fbb25c2e6e9887e004ee55abe3c98464d\",\n  \"capture_or_optical_validation_claimed\": false,\n  \"passed\": true,\n  \"pair_details\": [\n    {\n      \"pair_id\": \"ic01_circle_top\",\n      \"center_px\": [\n        375.5,\n        1168.5\n      ],\n      \"radius_px\": 20,\n      \"coverage_area_px2\": 1256.75,\n      \"metadata_sha256\": \"684522aae84caa8422e4c92593e72d8699314852c6fb1806764811c7c88bb7f1\"\n    },\n    {\n      \"pair_id\": \"ic02_triangle_body\",\n      \"center_px\": [\n        536.5,\n        1230.5\n      ],\n      \"radius_px\": 22,\n      \"coverage_area_px2\": 628.625,\n      \"metadata_sha256\": \"4eb9ebf7af1a99faecf18c89b9e5bbb855ae9fdda3368a6a804a5a852bf1d68b\"\n    },\n    {\n      \"pair_id\": \"ic03_star_right\",\n      \"center_px\": [\n        707.5,\n        1230.5\n      ],\n      \"radius_px\": 24,\n      \"coverage_area_px2\": 761.625,\n      \"metadata_sha256\": \"1ac5123d9212937933b9d1dc17c73c99ea77653a746da967df4b74e6523c1a71\"\n    },\n    {\n      \"pair_id\": \"ic04_asymmetric_lower\",\n      \"center_px\": [\n        375.5,\n        1291.5\n      ],\n      \"radius_px\": 20,\n      \"coverage_area_px2\": 881.125,\n      \"metadata_sha256\": \"6e231b661f3bfaa03d21dd7711c2e6ee8e5a57e1fdcfc2c40e68600c2c1169b4\"\n    },\n    {\n      \"pair_id\": \"it01_circle_top\",\n      \"center_px\": [\n        369.5,\n        1166.5\n      ],\n      \"radius_px\": 14,\n      \"coverage_area_px2\": 616.0,\n      \"metadata_sha256\": \"0d774718eeba50a4e4de06da12dbb3eb74570f19c687e14406bf238c17541f5d\"\n    },\n    {\n      \"pair_id\": \"it02_triangle_body\",\n      \"center_px\": [\n        530.5,\n        1226.5\n      ],\n      \"radius_px\": 23,\n      \"coverage_area_px2\": 687.0,\n      \"metadata_sha256\": \"68e7aed99bc3400e33c58bb26010a1f4b66cabfb1002e182aa00c1f4054c9334\"\n    },\n    {\n      \"pair_id\": \"it03_star_right\",\n      \"center_px\": [\n        707.5,\n        1232.5\n      ],\n      \"radius_px\": 19,\n      \"coverage_area_px2\": 477.5,\n      \"metadata_sha256\": \"64297542388acadeb1ed2965d43ddeb31868f9ea425af44d7fc9b088dd94b4a8\"\n    },\n    {\n      \"pair_id\": \"it04_asymmetric_lower\",\n      \"center_px\": [\n        378.5,\n        1295.5\n      ],\n      \"radius_px\": 15,\n      \"coverage_area_px2\": 495.4375,\n      \"metadata_sha256\": \"34b6dc835c0058f91a26d84675df92f10514db79b5221f415bf44e576bf8a15b\"\n    }\n  ]\n}\n",
+        "stderr": ""
+      }
+    ]
+  },
+  "flat_source_only_checks": [
+    {
+      "id": "ms01_gray_26",
+      "png_matches": true,
+      "pixels_match": true,
+      "png_sha256": "4b413181e93b65b5821fe0a258091c284455f25545202cc311f8ee743206ad0d",
+      "pixel_sha256": "c7edd0793f811646007d6523b649f5c5ed9ed1125107014750c48b1916115370"
+    },
+    {
+      "id": "ms02_gray_77",
+      "png_matches": true,
+      "pixels_match": true,
+      "png_sha256": "53104f48413e7fe4e8d9b681042738982da581fbf1dd766af257c8b13b4f5a32",
+      "pixel_sha256": "6e5bfed53bd4286804b256c8d005e0ee76349d2b9980e20128fb3f7e46aa29a2"
+    },
+    {
+      "id": "ms03_gray_128",
+      "png_matches": true,
+      "pixels_match": true,
+      "png_sha256": "5032e181255ed070a53e1eb7f5c3e0f055d75f3a69933f2638174d8cb31f8b50",
+      "pixel_sha256": "2afdc267ef6fac247a5caf85dce93e09c41beff01185f108e9b226de1c33a7c8"
+    },
+    {
+      "id": "ms04_gray_179",
+      "png_matches": true,
+      "pixels_match": true,
+      "png_sha256": "b20b14a3fb2c1c97ffd28312279c84209f448c04ccb20c431ce3f463e992a7fe",
+      "pixel_sha256": "a912c5307f65de420cc5f9b7ec5bca043bd74afc39dec7329c7ab76800940bfb"
+    },
+    {
+      "id": "ms05_gray_230",
+      "png_matches": true,
+      "pixels_match": true,
+      "png_sha256": "33d31ce2577f602d74dc363b18df0343254d1fdf8e575f6952f6206561f809e3",
+      "pixel_sha256": "406ea9815fdbdafe3376521dd02c2d18db8a2203bcb2e5c5bc141f768bf37253"
+    },
+    {
+      "id": "ms06_red",
+      "png_matches": true,
+      "pixels_match": true,
+      "png_sha256": "10183f5741570cc9365b1e3d184e84cdcbfe20bb651ac0cdd7b66e441748856b",
+      "pixel_sha256": "8916fe5192385145bd60d40bfef73fcb6de0ca3852fe76d3a6419dd93e0ea256"
+    },
+    {
+      "id": "ms07_green",
+      "png_matches": true,
+      "pixels_match": true,
+      "png_sha256": "be8373be1c3f1d0c790fc41305deeffd356bcdb9f05e80819576993864ae6c60",
+      "pixel_sha256": "b4bbdd159d85d199847488624474370fb55f3fd8459ac02dc6762a63999c8551"
+    },
+    {
+      "id": "ms08_blue",
+      "png_matches": true,
+      "pixels_match": true,
+      "png_sha256": "dadda68b13790153e82854265988290495a8098a97c045663ff00adcb9735715",
+      "pixel_sha256": "01cb22ae155d3df5d3eb922665adbeb71d7a4785f745c171590c31c62a270e33"
+    }
+  ],
+  "input_count": 40,
+  "registered_manifests_matched": 4,
+  "original_generator_generate_and_verify_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "temporary_generated_files": 87,
+  "temporary_generated_bytes": 32776673,
+  "temporary_outputs_cleanup": "deleted after retaining this verification receipt; regenerate with rebuild_inputs.py"
+}

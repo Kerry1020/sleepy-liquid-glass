@@ -1,0 +1,131 @@
+{
+  "source_sha256": {
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "2acfbc9c7c184334b7442cd17c8dcde7968ab5915d15943e92b0f9b553ef3c3b",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt": "145a05887002e19cf1c44fd6e67d7fd6e839d2f43a8cb97b55c581736cc92ca2",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassEffect.kt": "a46f891c93afd1e90eea0abcb190b146141a284b77af97389efb8feaa8bbdfd0",
+    "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "df9162c72f4674b3cc6fdd7903f5237a4bc9410ee8e43762fdc0e05973200891",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeDockOpticalWorldRenderTest.kt": "e0e25da812e03d6a97eb52f12aca1dcfb8612b8785ae7e1f8e6d67889491adb8",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassNavigationBar.kt": "f48da9dad35ada4c34a48d9c9473a6689d04e4587696392f24a6216cf3a2e188",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeGlassParityCaptureTest.kt": "7bd4255c53a7ff606e9d4c80403107f5e6141b35593780b2b20dc6f4b7c77f62",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassOverlays.kt": "2e4bdf5a6158955b474ff60cf16606c38665e36b8e85c66b38de6b927ba21632",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassControlModifier.kt": "1a57e8eb4f72b49ce327fa0f4e6276152d67d55929a5cdb2e4715ad1a472c51f",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGeometry.kt": "2d7e1b79440149cffb9c71151e0a557a2a6ec14cb184bd78492d5b10fae9cff4",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputBlur.kt": "06e97f0184c81d9eb34894a9997e78dd3ff0e0d8f72951b3cac0b6337bf6b045",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputGeometry.kt": "6842a8fb57e6520621a250c4281d969f892bb8153bbb2115f1b872bfc5dde368",
+    "third-party/kyant-backdrop/src/commonMain/kotlin/com/kyant/backdrop/BackdropEffectScope.kt": "2c4f3cd5632a4fc4c40f84449edaacbe81f09c9f1276c81c3002719606978157",
+    "third-party/kyant-backdrop/src/commonMain/kotlin/com/kyant/backdrop/DrawBackdropModifier.kt": "712eba6b69b9d758dc733484a8cfdc102c7c8c96cd6a31eca4135c90e60aacd1",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassHost.kt": "5b4236fdf6340b4b42b8a783920b75e11359c6b52598a803322b7399ff3c820d",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassFilterBands.kt": "d0fcf91e572f2270de6d3a2316fc0cbc1e2667c482a0390eb6565288e2c4e8f2"
+  },
+  "test_source_sha256": {
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/GlassModalScrimTest.kt": "711d78c867fcc04943d535bc89ec1817a107019d6eb6dece111ad4381a042752",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShaderContractTest.kt": "38737a021e7a714c22ef0dedb4c79bd7d2933bc95133e70fcc2baf0cdae6844e",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputBlurTest.kt": "f30702e35f142d1d75aa0ce230e707afa09bbb4e4611e4aa51c8594995903536",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputGeometryTest.kt": "92208a9878ce9afb71f433536e43c28d5c936d1fd92c0aa38e5d176b90e3b351",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/third-party/kyant-backdrop/src/commonTest/kotlin/com/kyant/backdrop/SampledEffectGeometryTest.kt": "10e5a9190ec6bda16934e4bfe0712c0fe1122051e36fdd58bffe763ae5a0b9a5"
+  },
+  "argv": [
+    "./gradlew",
+    ":liquid-glass-runtime:testAndroidHostTest",
+    "--tests",
+    "*LiquidGlassInputBlurTest",
+    "--tests",
+    "*LiquidGlassInputGeometryTest",
+    ":kyant-backdrop:testAndroidHostTest",
+    "--tests",
+    "*SampledEffectGeometryTest",
+    ":app:testDebugUnitTest",
+    "--tests",
+    "*GlassModalScrimTest",
+    "--tests",
+    "*LiquidGlassShaderContractTest",
+    ":app:assembleDebug",
+    ":app:assembleDebugAndroidTest",
+    "-Pandroid.injected.build.abi=arm64-v8a",
+    "--console=plain",
+    "--max-workers=3"
+  ],
+  "experiment_plan_sha256": "6f868a03b7bb8a9a526febecdd1955b79afd99235e9921c1e062a0f124c66b81",
+  "builder_sha256": "4fa71539a34e1abd2936e155b1588bfda90a837e9ef3c975d8b5e6fb2952a801",
+  "exit_code": 0,
+  "elapsed_seconds": 22.193362951278687,
+  "sources_unchanged": true,
+  "test_sources_unchanged": true,
+  "log_sha256": "8a8bded8cb8e1c077e3854913e4367819fedc8cb2ce9a6a05a0f4a3d820d719f",
+  "tests": [
+    {
+      "file": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/test-results/testDebugUnitTest/TEST-com.lingion.sleepy.ui.component.liquidglass.GlassModalScrimTest.xml",
+      "sha256": "925004a55456f0dcd19d9c5c8668b96e6fdd638e6f270b1ee9fae1275fd83689",
+      "attributes": {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.GlassModalScrimTest",
+        "tests": "8",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T05:32:30.571Z",
+        "hostname": "kerryleedeMacBook.local",
+        "time": "7.171"
+      }
+    },
+    {
+      "file": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/test-results/testDebugUnitTest/TEST-com.lingion.sleepy.ui.component.liquidglass.LiquidGlassShaderContractTest.xml",
+      "sha256": "9bf1247eb198f9443c764ca3f5a471e73a4679d398a81a6bf45448334a0638ef",
+      "attributes": {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassShaderContractTest",
+        "tests": "48",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T05:32:37.825Z",
+        "hostname": "kerryleedeMacBook.local",
+        "time": "0.72"
+      }
+    },
+    {
+      "file": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/build/test-results/testAndroidHostTest/TEST-com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest.xml",
+      "sha256": "82fcc71f17ca97d548250ce9ce1e893c34ff90185f3696351f175e2e2076536a",
+      "attributes": {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest",
+        "tests": "12",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T05:32:22.620Z",
+        "hostname": "kerryleedeMacBook.local",
+        "time": "0.022"
+      }
+    },
+    {
+      "file": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/libraries/liquid-glass/runtime/build/test-results/testAndroidHostTest/TEST-com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputGeometryTest.xml",
+      "sha256": "97f696c654c93dffbd3cd3f1eace5c51c1171dba94202f281b2eb9ace44882a4",
+      "attributes": {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputGeometryTest",
+        "tests": "6",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T05:32:22.644Z",
+        "hostname": "kerryleedeMacBook.local",
+        "time": "0.006"
+      }
+    },
+    {
+      "file": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/third-party/kyant-backdrop/build/test-results/testAndroidHostTest/TEST-com.kyant.backdrop.SampledEffectGeometryTest.xml",
+      "sha256": "b09c47a3f63f7a17e97f47a46b7f1df5dbbe385b312db33b2fc406076058b7dd",
+      "attributes": {
+        "name": "com.kyant.backdrop.SampledEffectGeometryTest",
+        "tests": "4",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T05:03:32.204Z",
+        "hostname": "kerryleedeMacBook.local",
+        "time": "0.017"
+      }
+    }
+  ],
+  "binaries": {
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/debug/app-arm64-v8a-debug.apk": "641073f493344c51e8b483cf958432a211d329bd6589f5e9f70d4781e9b35b35",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/androidTest/debug/app-debug-androidTest.apk": "bf660ca314b21e90af98dfbf4deec2e240bee66879fc641ac5514ec971319c4c"
+  }
+}

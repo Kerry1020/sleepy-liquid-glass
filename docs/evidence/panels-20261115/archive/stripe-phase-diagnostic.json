@@ -1,0 +1,733 @@
+{
+  "scope": "historical stripe calibration only; phase modulo108pt, not unique displacement, encoded RGB; no source warp",
+  "rows": [
+    {
+      "role": "native",
+      "x": 57,
+      "depth_pt": 1.25,
+      "rgb": [
+        188.0,
+        222.94285714285715,
+        240.85714285714286
+      ],
+      "best_mod108_phase_pt": 41.0,
+      "min_chroma_rmse": 3.9652045426121294,
+      "legacy_shift_pt": 39.120883639387415
+    },
+    {
+      "role": "native",
+      "x": 59,
+      "depth_pt": 2.25,
+      "rgb": [
+        187.0,
+        228.0,
+        235.95714285714286
+      ],
+      "best_mod108_phase_pt": 35.5,
+      "min_chroma_rmse": 2.6612482744818884,
+      "legacy_shift_pt": 32.35153711324985
+    },
+    {
+      "role": "native",
+      "x": 61,
+      "depth_pt": 3.25,
+      "rgb": [
+        186.7,
+        228.0,
+        230.18571428571428
+      ],
+      "best_mod108_phase_pt": 31.0,
+      "min_chroma_rmse": 1.8272413041447728,
+      "legacy_shift_pt": 27.21376050840841
+    },
+    {
+      "role": "native",
+      "x": 63,
+      "depth_pt": 4.25,
+      "rgb": [
+        185.82857142857142,
+        228.0,
+        220.24285714285713
+      ],
+      "best_mod108_phase_pt": 22.0,
+      "min_chroma_rmse": 2.6378669700490085,
+      "legacy_shift_pt": 23.02112089313685
+    },
+    {
+      "role": "native",
+      "x": 65,
+      "depth_pt": 5.25,
+      "rgb": [
+        185.0,
+        228.0,
+        211.8
+      ],
+      "best_mod108_phase_pt": 16.0,
+      "min_chroma_rmse": 3.995050950709569,
+      "legacy_shift_pt": 19.479172022279705
+    },
+    {
+      "role": "native",
+      "x": 67,
+      "depth_pt": 6.25,
+      "rgb": [
+        184.0,
+        228.0,
+        204.92857142857142
+      ],
+      "best_mod108_phase_pt": 13.0,
+      "min_chroma_rmse": 5.537990941071616,
+      "legacy_shift_pt": 16.42893735516656
+    },
+    {
+      "role": "native",
+      "x": 69,
+      "depth_pt": 7.25,
+      "rgb": [
+        183.0,
+        228.0,
+        202.0
+      ],
+      "best_mod108_phase_pt": 11.0,
+      "min_chroma_rmse": 6.425138707250405,
+      "legacy_shift_pt": 13.772978681295067
+    },
+    {
+      "role": "native",
+      "x": 71,
+      "depth_pt": 8.25,
+      "rgb": [
+        183.0,
+        228.0,
+        200.47142857142856
+      ],
+      "best_mod108_phase_pt": 10.0,
+      "min_chroma_rmse": 6.7983460818219426,
+      "legacy_shift_pt": 11.446550071081463
+    },
+    {
+      "role": "native",
+      "x": 73,
+      "depth_pt": 9.25,
+      "rgb": [
+        182.17142857142858,
+        228.0,
+        199.0
+      ],
+      "best_mod108_phase_pt": 9.0,
+      "min_chroma_rmse": 7.360235390514305,
+      "legacy_shift_pt": 9.404175073431203
+    },
+    {
+      "role": "native",
+      "x": 75,
+      "depth_pt": 10.25,
+      "rgb": [
+        183.0,
+        228.0,
+        198.68571428571428
+      ],
+      "best_mod108_phase_pt": 8.0,
+      "min_chroma_rmse": 7.300548494081584,
+      "legacy_shift_pt": 7.612620794699034
+    },
+    {
+      "role": "native",
+      "x": 77,
+      "depth_pt": 11.25,
+      "rgb": [
+        183.0,
+        228.0,
+        198.0
+      ],
+      "best_mod108_phase_pt": 7.0,
+      "min_chroma_rmse": 7.5095618060256015,
+      "legacy_shift_pt": 6.046895362731903
+    },
+    {
+      "role": "native",
+      "x": 79,
+      "depth_pt": 12.25,
+      "rgb": [
+        183.0,
+        228.0,
+        198.0
+      ],
+      "best_mod108_phase_pt": 6.0,
+      "min_chroma_rmse": 7.5095618060256015,
+      "legacy_shift_pt": 4.687817797523124
+    },
+    {
+      "role": "native",
+      "x": 81,
+      "depth_pt": 13.25,
+      "rgb": [
+        183.0,
+        228.0,
+        198.0
+      ],
+      "best_mod108_phase_pt": 5.0,
+      "min_chroma_rmse": 7.5095618060256015,
+      "legacy_shift_pt": 3.520468309306952
+    },
+    {
+      "role": "native",
+      "x": 83,
+      "depth_pt": 14.25,
+      "rgb": [
+        183.0,
+        228.0,
+        198.0
+      ],
+      "best_mod108_phase_pt": 4.0,
+      "min_chroma_rmse": 7.5095618060256015,
+      "legacy_shift_pt": 2.533161736528431
+    },
+    {
+      "role": "native",
+      "x": 85,
+      "depth_pt": 15.25,
+      "rgb": [
+        182.0,
+        228.38571428571427,
+        198.0
+      ],
+      "best_mod108_phase_pt": 3.0,
+      "min_chroma_rmse": 7.854353280652323,
+      "legacy_shift_pt": 1.7167476885512167
+    },
+    {
+      "role": "native",
+      "x": 87,
+      "depth_pt": 16.25,
+      "rgb": [
+        181.0,
+        229.0,
+        199.0
+      ],
+      "best_mod108_phase_pt": 2.0,
+      "min_chroma_rmse": 8.076314249201292,
+      "legacy_shift_pt": 1.0641238293685817
+    },
+    {
+      "role": "native",
+      "x": 89,
+      "depth_pt": 17.25,
+      "rgb": [
+        180.61428571428573,
+        229.0,
+        199.0
+      ],
+      "best_mod108_phase_pt": 1.0,
+      "min_chroma_rmse": 8.16411478478829,
+      "legacy_shift_pt": 0.5698939930274038
+    },
+    {
+      "role": "native",
+      "x": 91,
+      "depth_pt": 18.25,
+      "rgb": [
+        179.0,
+        229.0,
+        200.0
+      ],
+      "best_mod108_phase_pt": 1.0,
+      "min_chroma_rmse": 8.349521313993963,
+      "legacy_shift_pt": 0.23012882730966133
+    },
+    {
+      "role": "native",
+      "x": 93,
+      "depth_pt": 19.25,
+      "rgb": [
+        179.0,
+        229.0,
+        201.0
+      ],
+      "best_mod108_phase_pt": 0.0,
+      "min_chroma_rmse": 8.132676810175441,
+      "legacy_shift_pt": 0.04220234198057282
+    },
+    {
+      "role": "native",
+      "x": 95,
+      "depth_pt": 20.25,
+      "rgb": [
+        179.0,
+        229.0,
+        202.0
+      ],
+      "best_mod108_phase_pt": 107.0,
+      "min_chroma_rmse": 7.937934395618029,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "native",
+      "x": 97,
+      "depth_pt": 21.25,
+      "rgb": [
+        179.0,
+        229.0,
+        204.0
+      ],
+      "best_mod108_phase_pt": 107.5,
+      "min_chroma_rmse": 7.511411072248428,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "native",
+      "x": 99,
+      "depth_pt": 22.25,
+      "rgb": [
+        178.0,
+        230.0,
+        206.0
+      ],
+      "best_mod108_phase_pt": 106.5,
+      "min_chroma_rmse": 7.942793146177416,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "native",
+      "x": 101,
+      "depth_pt": 23.25,
+      "rgb": [
+        178.0,
+        230.0,
+        209.0
+      ],
+      "best_mod108_phase_pt": 107.5,
+      "min_chroma_rmse": 7.578702289644426,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "native",
+      "x": 103,
+      "depth_pt": 24.25,
+      "rgb": [
+        178.0,
+        230.0,
+        212.0
+      ],
+      "best_mod108_phase_pt": 107.5,
+      "min_chroma_rmse": 7.231084306444887,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "native",
+      "x": 105,
+      "depth_pt": 25.25,
+      "rgb": [
+        178.0,
+        230.0,
+        216.0
+      ],
+      "best_mod108_phase_pt": 2.5,
+      "min_chroma_rmse": 6.635459365232694,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "native",
+      "x": 107,
+      "depth_pt": 26.25,
+      "rgb": [
+        178.0,
+        230.0,
+        219.0
+      ],
+      "best_mod108_phase_pt": 2.0,
+      "min_chroma_rmse": 6.275442043354896,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "native",
+      "x": 109,
+      "depth_pt": 27.25,
+      "rgb": [
+        178.0,
+        231.0,
+        223.0
+      ],
+      "best_mod108_phase_pt": 1.5,
+      "min_chroma_rmse": 6.574478339161113,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "native",
+      "x": 111,
+      "depth_pt": 28.25,
+      "rgb": [
+        178.0,
+        231.0,
+        226.0
+      ],
+      "best_mod108_phase_pt": 5.0,
+      "min_chroma_rmse": 6.614144962143396,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "android",
+      "x": 57,
+      "depth_pt": 1.25,
+      "rgb": [
+        160.0,
+        226.0,
+        248.0
+      ],
+      "best_mod108_phase_pt": 39.5,
+      "min_chroma_rmse": 0.45304184528611163,
+      "legacy_shift_pt": 39.120883639387415
+    },
+    {
+      "role": "android",
+      "x": 59,
+      "depth_pt": 2.25,
+      "rgb": [
+        155.18571428571428,
+        233.0,
+        238.12857142857143
+      ],
+      "best_mod108_phase_pt": 32.5,
+      "min_chroma_rmse": 0.39801092750413,
+      "legacy_shift_pt": 32.35153711324985
+    },
+    {
+      "role": "android",
+      "x": 61,
+      "depth_pt": 3.25,
+      "rgb": [
+        155.0,
+        235.0,
+        230.0
+      ],
+      "best_mod108_phase_pt": 28.0,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 27.21376050840841
+    },
+    {
+      "role": "android",
+      "x": 63,
+      "depth_pt": 4.25,
+      "rgb": [
+        156.0,
+        236.0,
+        222.0
+      ],
+      "best_mod108_phase_pt": 23.5,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 23.02112089313685
+    },
+    {
+      "role": "android",
+      "x": 65,
+      "depth_pt": 5.25,
+      "rgb": [
+        158.0,
+        236.0,
+        215.44285714285715
+      ],
+      "best_mod108_phase_pt": 19.5,
+      "min_chroma_rmse": 0.20876485920746032,
+      "legacy_shift_pt": 19.479172022279705
+    },
+    {
+      "role": "android",
+      "x": 67,
+      "depth_pt": 6.25,
+      "rgb": [
+        160.0,
+        236.0,
+        210.0
+      ],
+      "best_mod108_phase_pt": 16.5,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 16.42893735516656
+    },
+    {
+      "role": "android",
+      "x": 69,
+      "depth_pt": 7.25,
+      "rgb": [
+        162.0,
+        236.0,
+        206.0
+      ],
+      "best_mod108_phase_pt": 14.0,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 13.772978681295067
+    },
+    {
+      "role": "android",
+      "x": 71,
+      "depth_pt": 8.25,
+      "rgb": [
+        165.0,
+        236.0,
+        203.0
+      ],
+      "best_mod108_phase_pt": 11.5,
+      "min_chroma_rmse": 0.816496580927726,
+      "legacy_shift_pt": 11.446550071081463
+    },
+    {
+      "role": "android",
+      "x": 73,
+      "depth_pt": 9.25,
+      "rgb": [
+        167.0,
+        235.0,
+        201.0
+      ],
+      "best_mod108_phase_pt": 10.0,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 9.404175073431203
+    },
+    {
+      "role": "android",
+      "x": 75,
+      "depth_pt": 10.25,
+      "rgb": [
+        169.0,
+        235.0,
+        198.27142857142857
+      ],
+      "best_mod108_phase_pt": 8.0,
+      "min_chroma_rmse": 0.3434518651477513,
+      "legacy_shift_pt": 7.612620794699034
+    },
+    {
+      "role": "android",
+      "x": 77,
+      "depth_pt": 11.25,
+      "rgb": [
+        171.0,
+        235.0,
+        197.0
+      ],
+      "best_mod108_phase_pt": 6.5,
+      "min_chroma_rmse": 0.4714045207910317,
+      "legacy_shift_pt": 6.046895362731903
+    },
+    {
+      "role": "android",
+      "x": 79,
+      "depth_pt": 12.25,
+      "rgb": [
+        172.0,
+        235.0,
+        196.0
+      ],
+      "best_mod108_phase_pt": 5.0,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 4.687817797523124
+    },
+    {
+      "role": "android",
+      "x": 81,
+      "depth_pt": 13.25,
+      "rgb": [
+        172.0,
+        235.0,
+        196.0
+      ],
+      "best_mod108_phase_pt": 4.0,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 3.520468309306952
+    },
+    {
+      "role": "android",
+      "x": 83,
+      "depth_pt": 14.25,
+      "rgb": [
+        172.0,
+        235.0,
+        196.0
+      ],
+      "best_mod108_phase_pt": 3.0,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 2.533161736528431
+    },
+    {
+      "role": "android",
+      "x": 85,
+      "depth_pt": 15.25,
+      "rgb": [
+        172.0,
+        235.0,
+        196.0
+      ],
+      "best_mod108_phase_pt": 2.0,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 1.7167476885512167
+    },
+    {
+      "role": "android",
+      "x": 87,
+      "depth_pt": 16.25,
+      "rgb": [
+        171.0,
+        235.0,
+        197.0
+      ],
+      "best_mod108_phase_pt": 1.5,
+      "min_chroma_rmse": 0.4714045207910317,
+      "legacy_shift_pt": 1.0641238293685817
+    },
+    {
+      "role": "android",
+      "x": 89,
+      "depth_pt": 17.25,
+      "rgb": [
+        170.0,
+        235.0,
+        198.0
+      ],
+      "best_mod108_phase_pt": 0.5,
+      "min_chroma_rmse": 0.4714045207910317,
+      "legacy_shift_pt": 0.5698939930274038
+    },
+    {
+      "role": "android",
+      "x": 91,
+      "depth_pt": 18.25,
+      "rgb": [
+        168.0,
+        235.0,
+        200.0
+      ],
+      "best_mod108_phase_pt": 0.5,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 0.23012882730966133
+    },
+    {
+      "role": "android",
+      "x": 93,
+      "depth_pt": 19.25,
+      "rgb": [
+        166.0,
+        235.0,
+        202.0
+      ],
+      "best_mod108_phase_pt": 0.5,
+      "min_chroma_rmse": 0.4714045207910317,
+      "legacy_shift_pt": 0.04220234198057282
+    },
+    {
+      "role": "android",
+      "x": 95,
+      "depth_pt": 20.25,
+      "rgb": [
+        164.0,
+        236.0,
+        204.0
+      ],
+      "best_mod108_phase_pt": 0.0,
+      "min_chroma_rmse": 0.816496580927726,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "android",
+      "x": 97,
+      "depth_pt": 21.25,
+      "rgb": [
+        162.0,
+        236.0,
+        207.0
+      ],
+      "best_mod108_phase_pt": 0.5,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "android",
+      "x": 99,
+      "depth_pt": 22.25,
+      "rgb": [
+        161.0,
+        236.0,
+        209.0
+      ],
+      "best_mod108_phase_pt": 0.0,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "android",
+      "x": 101,
+      "depth_pt": 23.25,
+      "rgb": [
+        159.0,
+        236.0,
+        212.0
+      ],
+      "best_mod108_phase_pt": 0.5,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "android",
+      "x": 103,
+      "depth_pt": 24.25,
+      "rgb": [
+        158.0,
+        236.0,
+        214.0
+      ],
+      "best_mod108_phase_pt": 0.0,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "android",
+      "x": 105,
+      "depth_pt": 25.25,
+      "rgb": [
+        157.0,
+        236.0,
+        217.0
+      ],
+      "best_mod108_phase_pt": 0.5,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "android",
+      "x": 107,
+      "depth_pt": 26.25,
+      "rgb": [
+        156.0,
+        236.0,
+        219.0
+      ],
+      "best_mod108_phase_pt": 0.5,
+      "min_chroma_rmse": 0.4714045207910317,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "android",
+      "x": 109,
+      "depth_pt": 27.25,
+      "rgb": [
+        156.0,
+        236.0,
+        222.0
+      ],
+      "best_mod108_phase_pt": 0.5,
+      "min_chroma_rmse": 0.0,
+      "legacy_shift_pt": 0.0
+    },
+    {
+      "role": "android",
+      "x": 111,
+      "depth_pt": 28.25,
+      "rgb": [
+        155.0,
+        236.0,
+        224.0
+      ],
+      "best_mod108_phase_pt": 0.0,
+      "min_chroma_rmse": 0.4714045207910317,
+      "legacy_shift_pt": 0.0
+    }
+  ]
+}

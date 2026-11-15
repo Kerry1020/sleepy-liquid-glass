@@ -1,0 +1,38 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "canvas_exact": true,
+    "basis_exact": true,
+    "pane_exact": true,
+    "input_hash_exact": true,
+    "foreground_layout_equal_to_baseline": true
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "canvas_exact": true,
+    "basis_exact": true,
+    "pane_exact": true,
+    "input_hash_exact": true,
+    "foreground_layout_equal_to_baseline": true
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "canvas_exact": true,
+    "basis_exact": true,
+    "pane_exact": true,
+    "input_hash_exact": true,
+    "foreground_layout_equal_to_baseline": true
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "canvas_exact": true,
+    "basis_exact": true,
+    "pane_exact": true,
+    "input_hash_exact": true,
+    "foreground_layout_equal_to_baseline": true
+  }
+]

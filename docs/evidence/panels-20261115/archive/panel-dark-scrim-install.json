@@ -1,0 +1,32 @@
+[
+  {
+    "argv": [
+      "/Users/kerrylee/Library/Android/sdk/platform-tools/adb",
+      "-s",
+      "d3efcd6a",
+      "install",
+      "-t",
+      "-r",
+      "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/debug/app-arm64-v8a-debug.apk"
+    ],
+    "exit_code": 0,
+    "stdout": "Performing Streamed Install\nSuccess\n",
+    "stderr": "",
+    "sha256": "d19907fcbde76bad25fed9483afdc9ecc98818838b4ed3484126b8333b0b62d4"
+  },
+  {
+    "argv": [
+      "/Users/kerrylee/Library/Android/sdk/platform-tools/adb",
+      "-s",
+      "d3efcd6a",
+      "install",
+      "-t",
+      "-r",
+      "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/androidTest/debug/app-debug-androidTest.apk"
+    ],
+    "exit_code": 0,
+    "stdout": "Performing Streamed Install\nSuccess\n",
+    "stderr": "",
+    "sha256": "3a2f170ca90dfa7e9e2222cbff2cdf9855b17dd9ad4d2754515e7f8278387261"
+  }
+]

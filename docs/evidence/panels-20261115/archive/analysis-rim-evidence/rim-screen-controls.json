@@ -1,0 +1,248 @@
+[
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "sheet",
+    "actual_window": {
+      "samples": 4002000,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "full_screen": {
+      "samples": 4002000,
+      "changed_channels": 27417,
+      "max_abs": 255.0,
+      "mean_abs": 0.4622728635682159
+    },
+    "visible_app_screen": {
+      "samples": 3666000,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "deep80_rect_px": [
+      96,
+      715,
+      654,
+      1238
+    ],
+    "deep80_rgba": {
+      "samples": 1167336,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "eroded8_bounding_diagnostic": {
+      "samples": 1872936,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "original_body_rois": {
+      "upper_left_primary": {
+        "samples": 16864,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      },
+      "middle_left_diagnostic": {
+        "no_unmasked_samples": true
+      },
+      "lower_right_backdrop_diagnostic": {
+        "samples": 3968,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      }
+    }
+  },
+  {
+    "input": "panel_probe_coordinate",
+    "carrier": "alert",
+    "actual_window": {
+      "samples": 936992,
+      "changed_channels": 17940,
+      "max_abs": 255.0,
+      "mean_abs": 0.0624871930603463
+    },
+    "full_screen": {
+      "samples": 4002000,
+      "changed_channels": 39683,
+      "max_abs": 254.0,
+      "mean_abs": 0.4604312843578211
+    },
+    "visible_app_screen": {
+      "samples": 3666000,
+      "changed_channels": 17940,
+      "max_abs": 17.0,
+      "mean_abs": 0.014198036006546644
+    },
+    "deep80_rect_px": [
+      135,
+      595,
+      615,
+      779
+    ],
+    "deep80_rgba": {
+      "samples": 353280,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "eroded8_bounding_diagnostic": {
+      "samples": 818688,
+      "changed_channels": 5340,
+      "max_abs": 255.0,
+      "mean_abs": 0.010630423311444653
+    },
+    "original_body_rois": {
+      "left_gutter": {
+        "samples": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      },
+      "right_gutter": {
+        "samples": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      },
+      "left_gap": {
+        "samples": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      },
+      "right_gap": {
+        "samples": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      }
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "sheet",
+    "actual_window": {
+      "samples": 4002000,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "full_screen": {
+      "samples": 4002000,
+      "changed_channels": 22256,
+      "max_abs": 255.0,
+      "mean_abs": 0.5022778610694653
+    },
+    "visible_app_screen": {
+      "samples": 3666000,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "deep80_rect_px": [
+      96,
+      715,
+      654,
+      1238
+    ],
+    "deep80_rgba": {
+      "samples": 1167336,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "eroded8_bounding_diagnostic": {
+      "samples": 1872936,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "original_body_rois": {
+      "upper_left_primary": {
+        "samples": 16864,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      },
+      "middle_left_diagnostic": {
+        "no_unmasked_samples": true
+      },
+      "lower_right_backdrop_diagnostic": {
+        "samples": 3968,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      }
+    }
+  },
+  {
+    "input": "panel_probe_shapes",
+    "carrier": "alert",
+    "actual_window": {
+      "samples": 936992,
+      "changed_channels": 19030,
+      "max_abs": 85.0,
+      "mean_abs": 0.06492478057443393
+    },
+    "full_screen": {
+      "samples": 4002000,
+      "changed_channels": 42620,
+      "max_abs": 254.0,
+      "mean_abs": 0.4175687156421789
+    },
+    "visible_app_screen": {
+      "samples": 3666000,
+      "changed_channels": 19030,
+      "max_abs": 17.0,
+      "mean_abs": 0.01467075831969449
+    },
+    "deep80_rect_px": [
+      135,
+      595,
+      615,
+      779
+    ],
+    "deep80_rgba": {
+      "samples": 353280,
+      "changed_channels": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0
+    },
+    "eroded8_bounding_diagnostic": {
+      "samples": 818688,
+      "changed_channels": 6148,
+      "max_abs": 28.0,
+      "mean_abs": 0.011432926829268292
+    },
+    "original_body_rois": {
+      "left_gutter": {
+        "samples": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      },
+      "right_gutter": {
+        "samples": 2480,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      },
+      "left_gap": {
+        "samples": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      },
+      "right_gap": {
+        "samples": 7200,
+        "changed_channels": 0,
+        "max_abs": 0.0,
+        "mean_abs": 0.0
+      }
+    }
+  }
+]

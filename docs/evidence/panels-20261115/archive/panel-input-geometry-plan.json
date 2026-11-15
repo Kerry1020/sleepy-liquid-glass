@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "kind": "input-raster-coordinate-repair-control",
+  "changes": "Keep installed light Alert body8 and outline-zero intermediate plus original Sheet12 unchanged; repair opt-in no-haze input origin, extent and clamp using full backend capture metadata rather than pane size. No optical parameter changes.",
+  "reference": "panels-alert-body8-20261115",
+  "checks": [
+    "Input sigma and signed input-coordinate tests plus backend capture metadata tests",
+    "Same four source-registered light REST captures; whole actual-Window and fixed-ROI differences against body8 preserved",
+    "Sheet remains original null-input path; do not fit optics until coordinate delta is known"
+  ],
+  "limits": "Outline-zero is diagnostic only and must be replaced before product handoff; this run is not a parity acceptance. Haze atlas arithmetic is unchanged."
+}

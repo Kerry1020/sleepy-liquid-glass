@@ -1,0 +1,1304 @@
+{
+  "control_directory": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115",
+  "candidate_directory": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115",
+  "all_capture_geometry_exact": true,
+  "rows": [
+    {
+      "group": "capture",
+      "key": [
+        "panel_probe_coordinate",
+        "light",
+        "alert",
+        "rest"
+      ],
+      "geometry_exact": {
+        "window_size_px": true,
+        "content_origin_in_window_px": true,
+        "content_origin_on_screen_px": true,
+        "actual_alert_layout": true,
+        "sheet_geometry_comparison": true,
+        "background_canvas": true,
+        "window_geometry": true,
+        "foreground_slots": true,
+        "content_density": true
+      },
+      "images": [
+        {
+          "kind": "window",
+          "control": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_coordinate-light-alert-rest-window.png",
+            "file_sha256": "06964fb07f80a2792507507a48da5b5cafda05074daa827554065e5425a3c587",
+            "mode": "RGBA",
+            "size_px": [
+              658,
+              356
+            ],
+            "rgba_sha256": "b809d8c8f1df982097c2ed9e177fa2342fe1ae661c18478471fb4a5fd3bd4e5c",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "candidate": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_coordinate-light-alert-rest-window.png",
+            "file_sha256": "06964fb07f80a2792507507a48da5b5cafda05074daa827554065e5425a3c587",
+            "mode": "RGBA",
+            "size_px": [
+              658,
+              356
+            ],
+            "rgba_sha256": "b809d8c8f1df982097c2ed9e177fa2342fe1ae661c18478471fb4a5fd3bd4e5c",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "raw_rgba": {
+            "identical": true,
+            "changed_pixels": 0,
+            "max_abs_channel_delta": 0,
+            "mean_abs_channel_delta": 0.0,
+            "mean_signed_channel_delta": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": null,
+            "changed_bbox_screen_exclusive": null,
+            "changed_row_band_boxes": []
+          },
+          "normalized_srgb": {
+            "identical": true,
+            "changed_pixels": 0,
+            "max_abs_channel_delta": 0,
+            "mean_abs_channel_delta": 0.0,
+            "mean_signed_channel_delta": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": null,
+            "changed_bbox_screen_exclusive": null,
+            "changed_row_band_boxes": []
+          }
+        },
+        {
+          "kind": "screen",
+          "control": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_coordinate-light-alert-rest-screen.png",
+            "file_sha256": "8a2ff71ce80d25eff57670dd640a48b66a872c09fc8dfb8b1ad94207caee7699",
+            "mode": "RGB",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "9d9eb955096a2e200f1eb45416a724a5911ade5eb24f5b8e83d64fd42b72bd80",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "candidate": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_coordinate-light-alert-rest-screen.png",
+            "file_sha256": "439ee880bf7be1b7262b74bb3128c286142fa095cb711e8465c3ba301751c6d1",
+            "mode": "RGB",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "1c488bc845e26c7478a7b0ffb71551a3c882943d745188f234db531e45485497",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "raw_rgba": {
+            "identical": false,
+            "changed_pixels": 7099,
+            "max_abs_channel_delta": 254,
+            "mean_abs_channel_delta": 0.3808830584707646,
+            "mean_signed_channel_delta": [
+              -0.008437781109445278,
+              0.002449775112443778,
+              0.005188405797101449,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": [
+              38,
+              35,
+              707,
+              61
+            ],
+            "changed_bbox_screen_exclusive": [
+              38,
+              35,
+              707,
+              61
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  38,
+                  35,
+                  707,
+                  61
+                ],
+                "changed_pixels": 7099
+              }
+            ]
+          },
+          "normalized_srgb": {
+            "identical": false,
+            "changed_pixels": 7099,
+            "max_abs_channel_delta": 254,
+            "mean_abs_channel_delta": 0.5078440779610195,
+            "mean_signed_channel_delta": [
+              -0.008437781109445278,
+              0.002449775112443778,
+              0.005188405797101449
+            ],
+            "changed_bbox_local_exclusive": [
+              38,
+              35,
+              707,
+              61
+            ],
+            "changed_bbox_screen_exclusive": [
+              38,
+              35,
+              707,
+              61
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  38,
+                  35,
+                  707,
+                  61
+                ],
+                "changed_pixels": 7099
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "group": "capture",
+      "key": [
+        "panel_probe_coordinate",
+        "light",
+        "share_sheet",
+        "rest"
+      ],
+      "geometry_exact": {
+        "window_size_px": true,
+        "content_origin_in_window_px": true,
+        "content_origin_on_screen_px": true,
+        "actual_alert_layout": true,
+        "sheet_geometry_comparison": true,
+        "background_canvas": true,
+        "window_geometry": true,
+        "foreground_slots": true,
+        "content_density": true
+      },
+      "images": [
+        {
+          "kind": "window",
+          "control": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_coordinate-light-share_sheet-rest-window.png",
+            "file_sha256": "4ad0450ab2997051219ce8c04487da7c551bbccf94fb83a49daa02a8a6a9ff9e",
+            "mode": "RGBA",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "dadf35c6740f827a597d1324c73b7108a66f9a4e85f4a2c6b94beb6c80030380",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "candidate": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_coordinate-light-share_sheet-rest-window.png",
+            "file_sha256": "42f4100e8151580170c7f7d716012879397e56e243b61abbfe2081e794b2fc3d",
+            "mode": "RGBA",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "051b9ec190805f231cce76a1a223fffc103a21ffa4f281472fb0bfc9e6b7cbcf",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "raw_rgba": {
+            "identical": false,
+            "changed_pixels": 402200,
+            "max_abs_channel_delta": 6,
+            "mean_abs_channel_delta": 0.29931959020489757,
+            "mean_signed_channel_delta": [
+              0.019803098450774614,
+              0.02545727136431784,
+              0.01521639180409795,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": [
+              16,
+              635,
+              734,
+              1318
+            ],
+            "changed_bbox_screen_exclusive": [
+              16,
+              635,
+              734,
+              1318
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  16,
+                  635,
+                  734,
+                  1318
+                ],
+                "changed_pixels": 402200
+              }
+            ]
+          },
+          "normalized_srgb": {
+            "identical": false,
+            "changed_pixels": 402200,
+            "max_abs_channel_delta": 6,
+            "mean_abs_channel_delta": 0.3990927869398634,
+            "mean_signed_channel_delta": [
+              0.019803098450774614,
+              0.02545727136431784,
+              0.01521639180409795
+            ],
+            "changed_bbox_local_exclusive": [
+              16,
+              635,
+              734,
+              1318
+            ],
+            "changed_bbox_screen_exclusive": [
+              16,
+              635,
+              734,
+              1318
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  16,
+                  635,
+                  734,
+                  1318
+                ],
+                "changed_pixels": 402200
+              }
+            ]
+          }
+        },
+        {
+          "kind": "screen",
+          "control": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png",
+            "file_sha256": "9b742d8db12e2ecaa1b61f488f9d548d0d523b62ce812839dfca4e29c3ce5376",
+            "mode": "RGB",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "1a49ab52d8fdd725eb9e97784d759a297a9e7ea3d59774d3de1354a85e715cc1",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "candidate": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png",
+            "file_sha256": "a19e0de4fd5bf8ac1d7dd5b7f463ff7d482567b69352d2096bab25df4e7fee28",
+            "mode": "RGB",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "c44dc25317a12b868ef731bba864efa03eef5415fe28e94a49c77ed38021c648",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "raw_rgba": {
+            "identical": false,
+            "changed_pixels": 408525,
+            "max_abs_channel_delta": 254,
+            "mean_abs_channel_delta": 0.6484795102448776,
+            "mean_signed_channel_delta": [
+              0.012219890054972513,
+              0.029476261869065466,
+              0.02191504247876062,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": [
+              16,
+              35,
+              734,
+              1318
+            ],
+            "changed_bbox_screen_exclusive": [
+              16,
+              35,
+              734,
+              1318
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  38,
+                  35,
+                  707,
+                  61
+                ],
+                "changed_pixels": 7098
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  635,
+                  734,
+                  1318
+                ],
+                "changed_pixels": 401427
+              }
+            ]
+          },
+          "normalized_srgb": {
+            "identical": false,
+            "changed_pixels": 408525,
+            "max_abs_channel_delta": 254,
+            "mean_abs_channel_delta": 0.8646393469931701,
+            "mean_signed_channel_delta": [
+              0.012219890054972513,
+              0.029476261869065466,
+              0.02191504247876062
+            ],
+            "changed_bbox_local_exclusive": [
+              16,
+              35,
+              734,
+              1318
+            ],
+            "changed_bbox_screen_exclusive": [
+              16,
+              35,
+              734,
+              1318
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  38,
+                  35,
+                  707,
+                  61
+                ],
+                "changed_pixels": 7098
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  635,
+                  734,
+                  1318
+                ],
+                "changed_pixels": 401427
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "group": "capture",
+      "key": [
+        "panel_probe_shapes",
+        "light",
+        "alert",
+        "rest"
+      ],
+      "geometry_exact": {
+        "window_size_px": true,
+        "content_origin_in_window_px": true,
+        "content_origin_on_screen_px": true,
+        "actual_alert_layout": true,
+        "sheet_geometry_comparison": true,
+        "background_canvas": true,
+        "window_geometry": true,
+        "foreground_slots": true,
+        "content_density": true
+      },
+      "images": [
+        {
+          "kind": "window",
+          "control": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_shapes-light-alert-rest-window.png",
+            "file_sha256": "38fd0263450f3d01eb4d20fd0383dcfdee7797735e6bd90e5d6dfc74c00ee4b2",
+            "mode": "RGBA",
+            "size_px": [
+              658,
+              356
+            ],
+            "rgba_sha256": "f3553c87a7e6d7d8b74d5f38cf1c3ca848f5dea2dbd077b5e2d04a955d68ff80",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "candidate": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_shapes-light-alert-rest-window.png",
+            "file_sha256": "38fd0263450f3d01eb4d20fd0383dcfdee7797735e6bd90e5d6dfc74c00ee4b2",
+            "mode": "RGBA",
+            "size_px": [
+              658,
+              356
+            ],
+            "rgba_sha256": "f3553c87a7e6d7d8b74d5f38cf1c3ca848f5dea2dbd077b5e2d04a955d68ff80",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "raw_rgba": {
+            "identical": true,
+            "changed_pixels": 0,
+            "max_abs_channel_delta": 0,
+            "mean_abs_channel_delta": 0.0,
+            "mean_signed_channel_delta": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": null,
+            "changed_bbox_screen_exclusive": null,
+            "changed_row_band_boxes": []
+          },
+          "normalized_srgb": {
+            "identical": true,
+            "changed_pixels": 0,
+            "max_abs_channel_delta": 0,
+            "mean_abs_channel_delta": 0.0,
+            "mean_signed_channel_delta": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": null,
+            "changed_bbox_screen_exclusive": null,
+            "changed_row_band_boxes": []
+          }
+        },
+        {
+          "kind": "screen",
+          "control": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_shapes-light-alert-rest-screen.png",
+            "file_sha256": "9759032f92fbd47c1cb5155a325723e453f024b6e4ec42e295532425e4c2152d",
+            "mode": "RGB",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "1671026084763890c2457b081908b3997b9ffc2f26228d52b5fb7c865466c007",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "candidate": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_shapes-light-alert-rest-screen.png",
+            "file_sha256": "ced6453f4f42a6e9232555136df6a2bea9f62141360568415263e8c8990fe8ce",
+            "mode": "RGB",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "0761184ae3e5dcc13d96c6bbf48556cb6ceef0ab4f05f0c88da8ef08a7fa3279",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "raw_rgba": {
+            "identical": false,
+            "changed_pixels": 7014,
+            "max_abs_channel_delta": 254,
+            "mean_abs_channel_delta": 0.31936756621689155,
+            "mean_signed_channel_delta": [
+              0.0008225887056471764,
+              0.001167416291854073,
+              0.0010934532733633184,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": [
+              38,
+              35,
+              707,
+              61
+            ],
+            "changed_bbox_screen_exclusive": [
+              38,
+              35,
+              707,
+              61
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  38,
+                  35,
+                  707,
+                  61
+                ],
+                "changed_pixels": 7014
+              }
+            ]
+          },
+          "normalized_srgb": {
+            "identical": false,
+            "changed_pixels": 7014,
+            "max_abs_channel_delta": 254,
+            "mean_abs_channel_delta": 0.42582342162252207,
+            "mean_signed_channel_delta": [
+              0.0008225887056471764,
+              0.001167416291854073,
+              0.0010934532733633184
+            ],
+            "changed_bbox_local_exclusive": [
+              38,
+              35,
+              707,
+              61
+            ],
+            "changed_bbox_screen_exclusive": [
+              38,
+              35,
+              707,
+              61
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  38,
+                  35,
+                  707,
+                  61
+                ],
+                "changed_pixels": 7014
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "group": "capture",
+      "key": [
+        "panel_probe_shapes",
+        "light",
+        "share_sheet",
+        "rest"
+      ],
+      "geometry_exact": {
+        "window_size_px": true,
+        "content_origin_in_window_px": true,
+        "content_origin_on_screen_px": true,
+        "actual_alert_layout": true,
+        "sheet_geometry_comparison": true,
+        "background_canvas": true,
+        "window_geometry": true,
+        "foreground_slots": true,
+        "content_density": true
+      },
+      "images": [
+        {
+          "kind": "window",
+          "control": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_shapes-light-share_sheet-rest-window.png",
+            "file_sha256": "dd254d82659a4619bcac14f8f08e00b3718287e9c11917d09b0b0b2da8892cec",
+            "mode": "RGBA",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "b2733dbcc137557d5054cdb10080df07a691ffde716cfe94c6872b8c21cd7cf9",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "candidate": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_shapes-light-share_sheet-rest-window.png",
+            "file_sha256": "5209095ca981bdea19528021cd59f7490fa9d622d239793cb0bcd3412f27e1a1",
+            "mode": "RGBA",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "72c2b6e640f96becd36c33bfea765055876814220089ee505339dd96b8796532",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "raw_rgba": {
+            "identical": false,
+            "changed_pixels": 150901,
+            "max_abs_channel_delta": 7,
+            "mean_abs_channel_delta": 0.11832683658170914,
+            "mean_signed_channel_delta": [
+              0.002673663168415792,
+              0.0004377811094452774,
+              -0.04234782608695652,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": [
+              16,
+              636,
+              734,
+              1318
+            ],
+            "changed_bbox_screen_exclusive": [
+              16,
+              636,
+              734,
+              1318
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  16,
+                  636,
+                  734,
+                  736
+                ],
+                "changed_pixels": 32453
+              },
+              {
+                "screen_box_exclusive": [
+                  17,
+                  750,
+                  733,
+                  751
+                ],
+                "changed_pixels": 2
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  769,
+                  734,
+                  934
+                ],
+                "changed_pixels": 37338
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  944,
+                  734,
+                  1134
+                ],
+                "changed_pixels": 26128
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  1144,
+                  734,
+                  1318
+                ],
+                "changed_pixels": 54980
+              }
+            ]
+          },
+          "normalized_srgb": {
+            "identical": false,
+            "changed_pixels": 150901,
+            "max_abs_channel_delta": 7,
+            "mean_abs_channel_delta": 0.15776911544227887,
+            "mean_signed_channel_delta": [
+              0.002673663168415792,
+              0.0004377811094452774,
+              -0.04234782608695652
+            ],
+            "changed_bbox_local_exclusive": [
+              16,
+              636,
+              734,
+              1318
+            ],
+            "changed_bbox_screen_exclusive": [
+              16,
+              636,
+              734,
+              1318
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  16,
+                  636,
+                  734,
+                  736
+                ],
+                "changed_pixels": 32453
+              },
+              {
+                "screen_box_exclusive": [
+                  17,
+                  750,
+                  733,
+                  751
+                ],
+                "changed_pixels": 2
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  769,
+                  734,
+                  934
+                ],
+                "changed_pixels": 37338
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  944,
+                  734,
+                  1134
+                ],
+                "changed_pixels": 26128
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  1144,
+                  734,
+                  1318
+                ],
+                "changed_pixels": 54980
+              }
+            ]
+          }
+        },
+        {
+          "kind": "screen",
+          "control": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png",
+            "file_sha256": "7acdf5d9a1c108a0111f7801efa7354fcbdab8f0ec6076dcef058fe02cd4b6f2",
+            "mode": "RGB",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "e0521a474c5dd3157b023f9351715df3cf1e0fee79c6bcd2e1fb7fe5314446b7",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "candidate": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png",
+            "file_sha256": "d92f1a0fd1b6a001b6abc45c65ee5d1b8e47a24d250922ee9f6c98aac2ce5a45",
+            "mode": "RGB",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "2a3f190007732406d31457d5d4f911b0de458054be6e345d95c77ffef2666185",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "raw_rgba": {
+            "identical": false,
+            "changed_pixels": 158010,
+            "max_abs_channel_delta": 254,
+            "mean_abs_channel_delta": 0.5334582708645678,
+            "mean_signed_channel_delta": [
+              0.00360119940029985,
+              0.0016391804097951024,
+              -0.04115242378810595,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": [
+              16,
+              35,
+              734,
+              1318
+            ],
+            "changed_bbox_screen_exclusive": [
+              16,
+              35,
+              734,
+              1318
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  38,
+                  35,
+                  707,
+                  61
+                ],
+                "changed_pixels": 7111
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  636,
+                  734,
+                  736
+                ],
+                "changed_pixels": 32453
+              },
+              {
+                "screen_box_exclusive": [
+                  17,
+                  750,
+                  733,
+                  751
+                ],
+                "changed_pixels": 2
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  769,
+                  734,
+                  934
+                ],
+                "changed_pixels": 37338
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  944,
+                  734,
+                  1134
+                ],
+                "changed_pixels": 26128
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  1144,
+                  734,
+                  1318
+                ],
+                "changed_pixels": 54978
+              }
+            ]
+          },
+          "normalized_srgb": {
+            "identical": false,
+            "changed_pixels": 158010,
+            "max_abs_channel_delta": 254,
+            "mean_abs_channel_delta": 0.7112776944860902,
+            "mean_signed_channel_delta": [
+              0.00360119940029985,
+              0.0016391804097951024,
+              -0.04115242378810595
+            ],
+            "changed_bbox_local_exclusive": [
+              16,
+              35,
+              734,
+              1318
+            ],
+            "changed_bbox_screen_exclusive": [
+              16,
+              35,
+              734,
+              1318
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  38,
+                  35,
+                  707,
+                  61
+                ],
+                "changed_pixels": 7111
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  636,
+                  734,
+                  736
+                ],
+                "changed_pixels": 32453
+              },
+              {
+                "screen_box_exclusive": [
+                  17,
+                  750,
+                  733,
+                  751
+                ],
+                "changed_pixels": 2
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  769,
+                  734,
+                  934
+                ],
+                "changed_pixels": 37338
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  944,
+                  734,
+                  1134
+                ],
+                "changed_pixels": 26128
+              },
+              {
+                "screen_box_exclusive": [
+                  16,
+                  1144,
+                  734,
+                  1318
+                ],
+                "changed_pixels": 54978
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "group": "background",
+      "key": "panel_probe_coordinate",
+      "geometry_exact": {
+        "background_canvas": true
+      },
+      "images": [
+        {
+          "kind": "window",
+          "control": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_coordinate-light-background-window.png",
+            "file_sha256": "907b7aac6e6677972cbf942004b222a45d8b118ec94215abf5bdcfe4c61799d0",
+            "mode": "RGBA",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "f09fea3fcaf320dc57d713e6e17436dfdc3966560c054593df347ec990082a35",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "candidate": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_coordinate-light-background-window.png",
+            "file_sha256": "907b7aac6e6677972cbf942004b222a45d8b118ec94215abf5bdcfe4c61799d0",
+            "mode": "RGBA",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "f09fea3fcaf320dc57d713e6e17436dfdc3966560c054593df347ec990082a35",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "raw_rgba": {
+            "identical": true,
+            "changed_pixels": 0,
+            "max_abs_channel_delta": 0,
+            "mean_abs_channel_delta": 0.0,
+            "mean_signed_channel_delta": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": null,
+            "changed_bbox_screen_exclusive": null,
+            "changed_row_band_boxes": []
+          },
+          "normalized_srgb": {
+            "identical": true,
+            "changed_pixels": 0,
+            "max_abs_channel_delta": 0,
+            "mean_abs_channel_delta": 0.0,
+            "mean_signed_channel_delta": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": null,
+            "changed_bbox_screen_exclusive": null,
+            "changed_row_band_boxes": []
+          }
+        },
+        {
+          "kind": "screen",
+          "control": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_coordinate-light-background-screen.png",
+            "file_sha256": "816d8e3de445d65e0beccbc234d72fb9acad6e7a9d803e7fcb05e8f52d84c7f2",
+            "mode": "RGB",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "826649b012e8a42923bfb1363231dec9802aa304f4090b1874f69f63a87c32db",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "candidate": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_coordinate-light-background-screen.png",
+            "file_sha256": "f8e7439b540c106df4ecef8c3e66d258b098e6f8b3fd0cfde030a4ea2c633a71",
+            "mode": "RGB",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "8c260d4291a3462ac5f26413d29440f03c1fae9bd5a658e59564f010bc3bd657",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "raw_rgba": {
+            "identical": false,
+            "changed_pixels": 9026,
+            "max_abs_channel_delta": 254,
+            "mean_abs_channel_delta": 0.444316091954023,
+            "mean_signed_channel_delta": [
+              -0.06192303848075962,
+              -0.046603698150924536,
+              -0.050954522738630686,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": [
+              38,
+              35,
+              707,
+              1320
+            ],
+            "changed_bbox_screen_exclusive": [
+              38,
+              35,
+              707,
+              1320
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  38,
+                  35,
+                  707,
+                  61
+                ],
+                "changed_pixels": 7110
+              },
+              {
+                "screen_box_exclusive": [
+                  255,
+                  1312,
+                  495,
+                  1320
+                ],
+                "changed_pixels": 1916
+              }
+            ]
+          },
+          "normalized_srgb": {
+            "identical": false,
+            "changed_pixels": 9026,
+            "max_abs_channel_delta": 254,
+            "mean_abs_channel_delta": 0.5924214559386973,
+            "mean_signed_channel_delta": [
+              -0.06192303848075962,
+              -0.046603698150924536,
+              -0.050954522738630686
+            ],
+            "changed_bbox_local_exclusive": [
+              38,
+              35,
+              707,
+              1320
+            ],
+            "changed_bbox_screen_exclusive": [
+              38,
+              35,
+              707,
+              1320
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  38,
+                  35,
+                  707,
+                  61
+                ],
+                "changed_pixels": 7110
+              },
+              {
+                "screen_box_exclusive": [
+                  255,
+                  1312,
+                  495,
+                  1320
+                ],
+                "changed_pixels": 1916
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "group": "background",
+      "key": "panel_probe_shapes",
+      "geometry_exact": {
+        "background_canvas": true
+      },
+      "images": [
+        {
+          "kind": "window",
+          "control": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_shapes-light-background-window.png",
+            "file_sha256": "c643291836e46fe7a0867ec94ff8a6a143163e2cc8363c45ef3352bc82298e01",
+            "mode": "RGBA",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "6888e3ede3d667e4fe493f7b8a0309ca7425779748c1fccce764ed4886d3b1dc",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "candidate": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_shapes-light-background-window.png",
+            "file_sha256": "c643291836e46fe7a0867ec94ff8a6a143163e2cc8363c45ef3352bc82298e01",
+            "mode": "RGBA",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "6888e3ede3d667e4fe493f7b8a0309ca7425779748c1fccce764ed4886d3b1dc",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "raw_rgba": {
+            "identical": true,
+            "changed_pixels": 0,
+            "max_abs_channel_delta": 0,
+            "mean_abs_channel_delta": 0.0,
+            "mean_signed_channel_delta": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": null,
+            "changed_bbox_screen_exclusive": null,
+            "changed_row_band_boxes": []
+          },
+          "normalized_srgb": {
+            "identical": true,
+            "changed_pixels": 0,
+            "max_abs_channel_delta": 0,
+            "mean_abs_channel_delta": 0.0,
+            "mean_signed_channel_delta": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": null,
+            "changed_bbox_screen_exclusive": null,
+            "changed_row_band_boxes": []
+          }
+        },
+        {
+          "kind": "screen",
+          "control": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius12-control-20261115/panel_probe_shapes-light-background-screen.png",
+            "file_sha256": "517b964799f46d266757f32ba2b4111217f68fc32213671aac2b9388809de127",
+            "mode": "RGB",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "447b9dd96fea5abd31a0b8cc6af31ea06b0989ded265257e6e1c4d5737134d6c",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "candidate": {
+            "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panels-sheet-radius10-20261115/panel_probe_shapes-light-background-screen.png",
+            "file_sha256": "f85ed61fbcc85ba70c06b9162b7add58b0b7cab0288bbbe91181593e483b6f34",
+            "mode": "RGB",
+            "size_px": [
+              750,
+              1334
+            ],
+            "rgba_sha256": "e432df617cad63082c0983ca5b35396d05e3fe0f5d0ec51bce73b64ba03c07e6",
+            "rgb_identical_to_icc_normalized_srgb": true,
+            "icc_sha256": null
+          },
+          "raw_rgba": {
+            "identical": false,
+            "changed_pixels": 7109,
+            "max_abs_channel_delta": 254,
+            "mean_abs_channel_delta": 0.4876889055472264,
+            "mean_signed_channel_delta": [
+              0.0015062468765617192,
+              0.0018510744627686156,
+              0.001777111444277861,
+              0.0
+            ],
+            "changed_bbox_local_exclusive": [
+              38,
+              35,
+              707,
+              61
+            ],
+            "changed_bbox_screen_exclusive": [
+              38,
+              35,
+              707,
+              61
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  38,
+                  35,
+                  707,
+                  61
+                ],
+                "changed_pixels": 7109
+              }
+            ]
+          },
+          "normalized_srgb": {
+            "identical": false,
+            "changed_pixels": 7109,
+            "max_abs_channel_delta": 254,
+            "mean_abs_channel_delta": 0.6502518740629685,
+            "mean_signed_channel_delta": [
+              0.0015062468765617192,
+              0.0018510744627686156,
+              0.001777111444277861
+            ],
+            "changed_bbox_local_exclusive": [
+              38,
+              35,
+              707,
+              61
+            ],
+            "changed_bbox_screen_exclusive": [
+              38,
+              35,
+              707,
+              61
+            ],
+            "changed_row_band_boxes": [
+              {
+                "screen_box_exclusive": [
+                  38,
+                  35,
+                  707,
+                  61
+                ],
+                "changed_pixels": 7109
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "material_parity_accepted": false
+}

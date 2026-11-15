@@ -18,6 +18,12 @@ sealed interface BackdropEffectScope : Density, RuntimeShaderCache {
     /** Pane origin before recording padding; this upstream layout uses local geometry. */
     val effectOffset: Offset get() = Offset.Zero
 
+    /** Full local source raster before recording padding; no bounded capture in this backend. */
+    val captureSize: Size get() = size
+
+    /** This upstream backend dynamically allocates exactly the requested padding. */
+    val captureAllocationPadding: Float? get() = null
+
     val layoutDirection: LayoutDirection
 
     val shape: Shape

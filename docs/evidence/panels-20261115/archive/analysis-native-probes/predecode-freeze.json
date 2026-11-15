@@ -1,0 +1,311 @@
+{
+  "created_utc": "2026-11-15T04:22:18.370034+00:00",
+  "status": "frozen-before-first-new-output-pixel-decode",
+  "native_png_count": 14,
+  "native_ax_count": 14,
+  "files": {
+    "artifacts/glass-panel-thickness-20261115/panel-probes-preparation/analysis-plan.md": {
+      "bytes": 14619,
+      "sha256": "675bf82c495e89c5a4088afd4462a2b51ef28ecbe073b45c27119fccb1d13294"
+    },
+    "artifacts/glass-panel-thickness-20261115/panel-probes-preparation/analysis-plan.json": {
+      "bytes": 13371,
+      "sha256": "4a8d7cbedb4cce07f2a95ef2f18dcdfa4f106c13e2b6abe84072a9861dbe513f"
+    },
+    "artifacts/glass-panel-thickness-20261115/panel-probes-preparation/manifest.json": {
+      "bytes": 8927,
+      "sha256": "ea42ecc8435b265a48c5740c03bfc3dea3eb11b50426d4d81b3270d07b171282"
+    },
+    "artifacts/glass-panel-thickness-20261115/panel-probes-preparation/oracle.json": {
+      "bytes": 85016,
+      "sha256": "4d16120ec71791abc4c526e45fd1435cb9aa12f5130d0244cf72862d2133dd04"
+    },
+    "artifacts/glass-panel-thickness-20261115/panel-probes-preparation/loader-manifest.json": {
+      "bytes": 2231,
+      "sha256": "8f9ae4eb45cea5d7beb069ae205ac37fc2cdbd65c1859d29fd5c9ac3f8ffd838"
+    },
+    "artifacts/glass-panel-thickness-20261115/panel-probes-preparation/android-manifest.json": {
+      "bytes": 884,
+      "sha256": "ad1e98f20ffd973f8cb38ca69cdb8c300e06fb22a97128cb69472bc0a0b3c656"
+    },
+    "artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/panel_probe_shapes.png": {
+      "bytes": 9495,
+      "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+    },
+    "artifacts/glass-panel-thickness-20261115/panel-probes-preparation/inputs/panel_probe_coordinate.png": {
+      "bytes": 162481,
+      "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/new-binary-freeze.json": {
+      "bytes": 3064,
+      "sha256": "f9d19fe8b014521b84058619314f2c5faee1fcb483a4ac4947ede4bd8f1f950b"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/execution-result-recovered.json": {
+      "bytes": 791,
+      "sha256": "efa99bcd7455654df217c03e7da9b52f018a9f46e9afe66815c67ddd653861e2"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/execution-input.json": {
+      "bytes": 2220,
+      "sha256": "7959af09e6fbcece9103d177ae9e40b9c390c5041f807d942d0511ca8a6ca71b"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/capture-plan-r2.json": {
+      "bytes": 2082,
+      "sha256": "13ef7bd452b6ee617811c9ffdbdc2ae95b66f5f13d170a34e6576a1f340fb321"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/testPanelExternalInputFeasibility.method.swift": {
+      "bytes": 5337,
+      "sha256": "77a32ca64bc62526bcaf3d31e34a8e3e8c30603ffc7dcf0bcccea1182ae0e0a4"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/test.log": {
+      "bytes": 23146,
+      "sha256": "d8a3cdc451844f2179bb085e5ab3a231e8ec5a8979be0f488b216a9ac034b3cd"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/318FF015-F807-43FF-BCA9-F34FDD125A99.txt": {
+      "bytes": 6423,
+      "sha256": "2f210cf4b2fcbbfe4c6dd711c225666822ee9878100af30becefb8fe9a9330bd"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/20ABF3FF-9840-4B0F-8ED2-CA1FEDF67562.txt": {
+      "bytes": 7930,
+      "sha256": "cc7a4638e2bf7b9a938345b88c40f36d703b9ed851ad9d86145647d94dd3cb20"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/99066F28-F7E5-433A-BB09-1D0F7E64729F.png": {
+      "bytes": 208329,
+      "sha256": "896015f962d54a136cc2cda982c8ea020534c32731d5aec92ef6a50318922563"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/CE5DB57C-B692-41D9-B983-021953ECF798.txt": {
+      "bytes": 4591,
+      "sha256": "32bc3c03a9f099bfbc7c7a6bd614b3634449aca8d843b999fadf78b4246cb654"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/78BD4346-836F-4BEC-9F15-627C6438330E.txt": {
+      "bytes": 6423,
+      "sha256": "6f52a1801ec0dd10fe786f6a7d8f6f2aded2968764d6b96a3fe59289280d32c9"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/5F2FA6A3-1BFF-4023-8E0A-10DCBF5C2BC2.png": {
+      "bytes": 599374,
+      "sha256": "904e3c3a5531e1f957c1d53e70ca97e6a441a801819d4e38ee48fed319fed374"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/E227A599-74CC-4B46-890A-F6C35977624D.txt": {
+      "bytes": 7930,
+      "sha256": "2a322606345240289bc9944e3bf9d9b8c713a83e01297e5494e60ccac96d536f"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/0C401F42-E0FF-425C-AE7A-A340CA9260F7.txt": {
+      "bytes": 4591,
+      "sha256": "3fe63379cfeec6e9bc0b7b19d5aff7e27da79b97f0ef756d67e50d8759e95d3a"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/CC02950B-6DB9-4F9E-B240-816F37981D8F.txt": {
+      "bytes": 4591,
+      "sha256": "7aed34003d7039e54e99a9996affcb4b8f6f2068e2ea48509b37f02542b0389e"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/84035790-792F-4077-AC57-0A7D77453103.txt": {
+      "bytes": 6423,
+      "sha256": "31b9c92e831a7a651c070b49bb82c6e051b64e12caed0d4c19813e7620951b36"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/649C6900-9A6D-485A-965E-1A50790F77FB.txt": {
+      "bytes": 4591,
+      "sha256": "9c17610f15fee7ae95a6e40742dfbbb207ccb39d56b5994367cd48b57134d353"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/E3F76C23-C479-4FDC-A442-172FCC27A849.png": {
+      "bytes": 527241,
+      "sha256": "7328fa0cff4f2e179ee8e326e57f3acb032eabd51ae539560e763e36a030146a"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/1FE30ED3-6756-49FB-9FD1-92E0FCC122AA.png": {
+      "bytes": 122810,
+      "sha256": "1ba81da37730ce929fa0e9f7ab898ad94c6405a485a0fd4e464e5303bb1b32aa"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/D7877EDC-B156-4BCF-8306-36EC447D522E.png": {
+      "bytes": 217595,
+      "sha256": "708015f01175893a3fff32a2fdd0a7c7292f1db0442c4fc5660d309102b09640"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/1722A28F-672F-4154-BB8D-9652CB18AA12.png": {
+      "bytes": 217595,
+      "sha256": "708015f01175893a3fff32a2fdd0a7c7292f1db0442c4fc5660d309102b09640"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/8E22F716-DAC6-4088-BB31-DDFF6905E99A.txt": {
+      "bytes": 6423,
+      "sha256": "5674fc9fa90eb9de6199a982efc1171a2be0796b4af0ca639d42a51a58269d18"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/6A6F985A-338D-4533-8303-E472269B633D.png": {
+      "bytes": 122810,
+      "sha256": "1ba81da37730ce929fa0e9f7ab898ad94c6405a485a0fd4e464e5303bb1b32aa"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/26EDA3DE-BADE-47D2-B16B-53CD93B19564.png": {
+      "bytes": 208329,
+      "sha256": "896015f962d54a136cc2cda982c8ea020534c32731d5aec92ef6a50318922563"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/manifest.json": {
+      "bytes": 15638,
+      "sha256": "728b459c724cb983110ecc6a1968349d9d22e3b36ee18a69e771bf974e5b280e"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/8F68A4D0-14DC-4E2A-A4B6-67794F2D40EB.png": {
+      "bytes": 587797,
+      "sha256": "5cc9e04aae4ff5a8276b85bf63d8bf089833638565b14f82ce32589eeef12e0f"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/782A7225-8207-4650-8792-C8855EDA3B66.png": {
+      "bytes": 587797,
+      "sha256": "5cc9e04aae4ff5a8276b85bf63d8bf089833638565b14f82ce32589eeef12e0f"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/8ECDF7CD-A255-42D6-8CE0-F8035FDBF9A8.json": {
+      "bytes": 26697,
+      "sha256": "3d5fb5ca067df5f275056ecafbb282730c5689758c3ea789568658a56ad3da29"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/8EA3E6DB-5751-462B-8BB6-304DAE82F210.txt": {
+      "bytes": 4591,
+      "sha256": "95b4d810545631522d4776a0bcf69a0f5a5a48cfd70e02dec050a7e50daefb7c"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/DEC4B43C-977C-4A0A-81ED-2F5E3B2DD070.txt": {
+      "bytes": 7930,
+      "sha256": "cd2660f550df7dd7349ffc9c7cc1f1b5e007996350a5b4dd8d2f8aff7798496e"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/A2F65958-3989-4217-9F24-D71784DE20EB.png": {
+      "bytes": 526908,
+      "sha256": "b150fa43ed9b55f5bb964f54f08ca38d3a342be88fe407095e3e1ffdc513620e"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/CC3F9BE7-2C82-4C11-87CA-5AC5B666EC1C.png": {
+      "bytes": 527544,
+      "sha256": "c6d12bb84b39b4aa780d06d771de37a96bf45b90b352303936b3639e48dcfb18"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/2A9EC376-32BA-4151-B7FE-9918A84B4DB9.txt": {
+      "bytes": 7930,
+      "sha256": "528bf28b654246534db11adc4950a580bfd563d966b1230670f13530c4de65b8"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/040B408F-135F-489A-9229-42F4CE288701.txt": {
+      "bytes": 4591,
+      "sha256": "50bf9c4f6b4d1bf819e3720b1cf886509e080ec7760f0f9001e543155bbbcc1d"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/6D1C1281-8A14-4434-86E4-8EA0A9ED885D.png": {
+      "bytes": 122708,
+      "sha256": "909dc44839232521051148d32b33ac40e9c6b3d8cdfb95f1c72de9e6623dc92c"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/attachments/6CFC112F-EA78-4B4C-8B56-FF178AE625CD.png": {
+      "bytes": 599374,
+      "sha256": "904e3c3a5531e1f957c1d53e70ca97e6a441a801819d4e38ee48fed319fed374"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/matrix.json": {
+      "bytes": 432963,
+      "sha256": "07ab9ec34e14c34f0321a43af2b71068fb9268e811979fe7cad2dc3afdf5093e"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/capture-plan.json": {
+      "bytes": 5035,
+      "sha256": "aeb652c9898dd586eb91cf12023617c3cd3388eb549adbbd63af61c8ca302dbf"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/capture-result.json": {
+      "bytes": 179,
+      "sha256": "253029df7516069824f856e30b1a8eb08602a3744ec3b53c7d73bbb738542b9a"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_coordinate-light-share_sheet-rest-window.png": {
+      "bytes": 243684,
+      "sha256": "4ad0450ab2997051219ce8c04487da7c551bbccf94fb83a49daa02a8a6a9ff9e"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_coordinate-light-share_sheet-rest-screen.png": {
+      "bytes": 383176,
+      "sha256": "8d93d0d38d0c632723481dc70179d2f6a2774ed42a792ad8d7f30b3b388d44c9"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_shapes-light-background-screen.png": {
+      "bytes": 18427,
+      "sha256": "abe289450037a502d55d239fb8dac116894ff5ce752cea5a6eadb6e4ee41b2de"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_shapes-light-background-window.png": {
+      "bytes": 12761,
+      "sha256": "c643291836e46fe7a0867ec94ff8a6a143163e2cc8363c45ef3352bc82298e01"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_shapes-light-alert-rest-window.png": {
+      "bytes": 85255,
+      "sha256": "64e6c77b4a5519420c9a686879f96368805a82a7288ad57ce09cce16a43813ed"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_shapes-light-alert-rest-screen.png": {
+      "bytes": 99815,
+      "sha256": "48ba849785571d9fb6bd8cd02567f990ff8a139f36e20f4bc5645b017a1d6b92"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_coordinate-light-alert-rest-screen.png": {
+      "bytes": 366303,
+      "sha256": "560bf4dfa65d3adeb105526c271e9483a53167ca43cb5a6c4de8b2db322f441b"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_coordinate-light-alert-rest-window.png": {
+      "bytes": 123723,
+      "sha256": "866e047d61a2e28411aad9fc9f0f5954a23120db50b414189b22d22389a13279"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_coordinate-light-background-window.png": {
+      "bytes": 231118,
+      "sha256": "907b7aac6e6677972cbf942004b222a45d8b118ec94215abf5bdcfe4c61799d0"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_coordinate-light-background-screen.png": {
+      "bytes": 215045,
+      "sha256": "67e54d2feaf5a639aaec85d0c9bfa1bd8d06609e8057a8880dd8425bfb4ede5c"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_shapes-light-share_sheet-rest-window.png": {
+      "bytes": 128965,
+      "sha256": "dd254d82659a4619bcac14f8f08e00b3718287e9c11917d09b0b0b2da8892cec"
+    },
+    "artifacts/glass-panel-thickness-20261115/panels-nonperiodic-baseline-20261115/panel_probe_shapes-light-share_sheet-rest-screen.png": {
+      "bytes": 126458,
+      "sha256": "a27b420fc8d73a96f9b247a42ed8f76f4cb6727270f4104c75ab4de269c5506d"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/sessions/-_NativeReferenceTests_testPanelExternalInputFeasibility_-B4101548-B39B-423D-9364-87A5998491E2/session.json": {
+      "bytes": 3769,
+      "sha256": "ed25629ae9c2f5b01d5c9e16557238e59c5f85034587516b0368754a87ac8456"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/sessions/-_NativeReferenceTests_testPanelExternalInputFeasibility_-B4101548-B39B-423D-9364-87A5998491E2/external-input-metadata.json": {
+      "bytes": 915,
+      "sha256": "4db2191205c31c8306afd9fad408526ca941d99ad4691f93a15a4057322da5af"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/sessions/-_NativeReferenceTests_testPanelExternalInputFeasibility_-B4101548-B39B-423D-9364-87A5998491E2/background-input.png": {
+      "bytes": 162481,
+      "sha256": "e2cc037db338c828d64de91c31035d251c226b23184abadac0fb51f688ff4b3e"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/sessions/-_NativeReferenceTests_testPanelExternalInputFeasibility_-B4101548-B39B-423D-9364-87A5998491E2/trace.jsonl": {
+      "bytes": 20528,
+      "sha256": "8778ed9d0c1faac7dd8bb3ed73cb754c733673ff9b34d3ac455afcaf2150d73b"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/sessions/-_NativeReferenceTests_testPanelExternalInputFeasibility_-ADA6F4AB-3115-440A-A35E-F2045CD6F29C/session.json": {
+      "bytes": 3767,
+      "sha256": "24946e90846b7c4ef3afafb37db4a312d12c2484cb9254be67215b043a501159"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/sessions/-_NativeReferenceTests_testPanelExternalInputFeasibility_-ADA6F4AB-3115-440A-A35E-F2045CD6F29C/external-input-metadata.json": {
+      "bytes": 907,
+      "sha256": "d2b0fde16ea3c3f55f2e5511c6874b1fc526b87148b568b1b8974c6a86a0dbb0"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/sessions/-_NativeReferenceTests_testPanelExternalInputFeasibility_-ADA6F4AB-3115-440A-A35E-F2045CD6F29C/background-input.png": {
+      "bytes": 9495,
+      "sha256": "cf674c516d49a54c7f34529bf4186f9fa4943ab11dc803779097b90024113149"
+    },
+    "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/sessions/-_NativeReferenceTests_testPanelExternalInputFeasibility_-ADA6F4AB-3115-440A-A35E-F2045CD6F29C/trace.jsonl": {
+      "bytes": 20502,
+      "sha256": "5542a3634a163e7c7bffa9556fc3779169da51a06b00a79f9687c2630de67ba0"
+    }
+  },
+  "native_target_actual_byte_comparison": [
+    {
+      "path": "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/frozen-native-target/GlassNativeReference.app/__preview.dylib",
+      "sha256": "a2f42e7da0913820cf7d7105a71cd82a611b34994a02d6337b6478cee3dde3aa",
+      "old_sha256": "a2f42e7da0913820cf7d7105a71cd82a611b34994a02d6337b6478cee3dde3aa",
+      "equal_to_old": true
+    },
+    {
+      "path": "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/frozen-native-target/GlassNativeReference.app/GlassNativeReference.debug.dylib",
+      "sha256": "a603942e9efe0af094880557cbdb572c460bd34fe1195bf535802137d7a0cd7e",
+      "old_sha256": "a603942e9efe0af094880557cbdb572c460bd34fe1195bf535802137d7a0cd7e",
+      "equal_to_old": true
+    },
+    {
+      "path": "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/frozen-native-target/GlassNativeReference.app/GlassNativeReference",
+      "sha256": "af593434cfc72f0c21b37ee8accdf91ac3428cf1644cd89942b5736064b89566",
+      "old_sha256": "af593434cfc72f0c21b37ee8accdf91ac3428cf1644cd89942b5736064b89566",
+      "equal_to_old": true
+    },
+    {
+      "path": "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/frozen-native-target/GlassNativeReference.app/Info.plist",
+      "sha256": "ba75442b5eb4640384f8742acc0b8c3926b94578e3fecf960210687055a33deb",
+      "old_sha256": "ba75442b5eb4640384f8742acc0b8c3926b94578e3fecf960210687055a33deb",
+      "equal_to_old": true
+    },
+    {
+      "path": "artifacts/glass-panel-thickness-20261115/native-panel-feasibility-preparation/frozen-native-target/GlassNativeReference.app/PkgInfo",
+      "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0",
+      "old_sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0",
+      "equal_to_old": true
+    }
+  ],
+  "native_target_frozen_original_verified": true,
+  "recovery": "Capture test passed; postprocess initially used stale pre-install App container UUID. Root re-resolved same run current container and exported captures, without recapture.",
+  "policy": "No image registration/resizing/recentering/warp/fitted translation/source substitution; no optical parameter fit; calibration feasibility, not holdout or motion acceptance."
+}

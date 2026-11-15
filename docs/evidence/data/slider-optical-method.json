@@ -1,0 +1,62 @@
+{
+  "status": "complete bounded static optical diagnostics; no parity verdict",
+  "scope": "Static REST and settled center-HELD optical differences for four backgrounds x two themes. No dynamics, frame pacing or general native parity verdict.",
+  "native_scale_px_per_pt": 2.0,
+  "world_crop_xyxy_pt_or_dp": [
+    75.0,
+    404.0,
+    152.0,
+    456.0
+  ],
+  "native_anchor_pt": [
+    113.5,
+    430.0
+  ],
+  "registration": "None. Native world origin is observed window(0,0); Android uses the report's actual background source screen origin and density. Android is sampled once onto the native2px/pt world grid. No thumb-bounds fitting, center realignment, per-scene registration, phase compensation, color normalization or contrast fitting between platforms.",
+  "raw_geometry": "Retain the Android first uncalibrated REST geometry, target-minus-raw residual and the one bounded fixed fixture translation verbatim. The fixture's optical-only translation excludes this comparison from product geometry acceptance.",
+  "native_geometry_limit": "This source72 staticOptics trace omits presentation-tree traversal. The31pt AX frame is the slider control, not an observed visual lens boundary. Fixed world diagnostic windows are not alpha masks; native oval silhouette and corner differences remain visible in unwarped raw crops.",
+  "phase": "REST attachments precede DOWN. Native HELD is a real captured display bracketed by actual delivered DOWN/UP, starting0.65s+ after DOWN. Android HELD uses a declared controlled Compose clock settled1600ms before capture and a real active DOWN. These are stable state comparisons, not equivalent natural-time samples.",
+  "source_dependence": "Compare source baselines independently in the same world crop. Pattern phase/rasterization differences remain visible and are not absorbed into a material fit. Native background-input lacks overlaid title/rail; Android baseline is the plain composited source, so observed residual includes any refracted foreground roles not removed by conservative masks.",
+  "rail_exclusion": "All material diagnostic windows exclude world |y-430|<=8pt, including selected rail and conservative halo. The whole raw crop is retained for visual review but receives no aggregate material score.",
+  "title_exclusion": "Native SwiftUI title actual bounds are x20..118,y382.5..402pt. A conservative upper-left influence area x<123,y<430 is excluded from material windows. This is a declared source-dependent exclusion, not proof of finite blur/refraction support; foreground source influence may extend farther.",
+  "metric_limits": "Luminance/background slope and contrast ratios are apparent image diagnostics, not physical transmission/opacity. Channel-gradient spread is a dispersion-sensitive proxy confounded by background color, refraction, highlights and rasterization; it cannot identify a physical dispersion coefficient.",
+  "diagnostic_windows_world_xyxy": {
+    "lower_inner_haze_transmission_proxy": [
+      103,
+      439,
+      125,
+      442
+    ],
+    "upper_right_inner_source_sensitive": [
+      125,
+      418,
+      130,
+      422
+    ],
+    "lower_rim_and_shape": [
+      102,
+      446,
+      125,
+      451
+    ],
+    "upper_right_rim_and_shape": [
+      124,
+      408,
+      133,
+      415
+    ],
+    "left_lower_endcap_and_corner": [
+      84,
+      439,
+      96,
+      447
+    ],
+    "right_lower_endcap_and_corner": [
+      132,
+      439,
+      145,
+      447
+    ]
+  },
+  "acceptance": "No similarity pass threshold and no tuning from this report. Capture-validity checks and source/geometry provenance are separate from the observed optical differences."
+}
