@@ -1,0 +1,26 @@
+{
+  "scope": "Default application regressions after research separation; no external fixture overlay",
+  "started_utc": "2026-11-15T19:52:20.631777+00:00",
+  "serial": "d3efcd6a",
+  "test_apk_sha256": "f0a6b8cb5cc88d251969f4057bf45f098a0c9dbcb10f078b35f4d9f0d8812f28",
+  "install_exit_code": 0,
+  "command": [
+    "/Users/kerrylee/Library/Android/sdk/platform-tools/adb",
+    "-s",
+    "d3efcd6a",
+    "shell",
+    "am",
+    "instrument",
+    "-w",
+    "-r",
+    "-e",
+    "class",
+    "com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest,com.lingion.sleepy.ui.component.liquidglass.GlassMaterialSamplingMatrixCaptureTest,com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest,com.lingion.sleepy.ui.component.BackdropAwareForegroundRenderTest",
+    "com.lingion.sleepy.debug.test/com.lingion.sleepy.SleepyRenderTestRunner"
+  ],
+  "exit_code": 0,
+  "finished_utc": "2026-11-15T19:53:25.123340+00:00",
+  "ok_tests": [],
+  "log_sha256": "0a4df2a7848b32098d282f8b9e81c8ddb73f3317d8cee541ecade85e9b403626",
+  "passed": false
+}

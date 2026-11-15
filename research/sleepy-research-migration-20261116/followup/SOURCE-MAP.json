@@ -2,10 +2,10 @@
   "schema": 1,
   "source_repository": "lingion/sleepy",
   "source_commit": "d38e9d1a92adcde69264bdd50313948bdd29ab0e",
-  "file_count": 12,
-  "new_files": 12,
+  "file_count": 13,
+  "new_files": 13,
   "reused_files": 0,
-  "total_bytes": 241594,
+  "total_bytes": 253339,
   "scope": "Exact originals before separating research export/protocols from product GPU regressions; includes the standalone performance collector and shared export helper. In-memory GPU assertions and shader instrumentation necessary for those assertions stay in Sleepy.",
   "files": [
     {
@@ -102,6 +102,14 @@
       "source_git_blob": "98a689c903932e3d1ad8fb777046954786f47d1b",
       "sha256": "8087156bf1dd689452c4618d6651606f41240e2396052715c65c073cb50d18e4",
       "bytes": 8131,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/BackdropAwareForegroundRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/BackdropAwareForegroundRenderTest.kt",
+      "source_git_blob": "4c7ec5f9f32afcf2a76000a54c4de088b4d2047d",
+      "sha256": "5327ad056f38833d620713b70934da53ea13b9c7a80159b0730eec0802c98188",
+      "bytes": 11745,
       "storage": "new"
     }
   ]

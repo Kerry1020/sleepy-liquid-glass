@@ -1,0 +1,267 @@
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest:
+INSTRUMENTATION_STATUS: test=fiveLanguageRowsKeepGpuMaterialAfterNaturalOpen
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: zh-CN: glass must change actual row pixels from closed baseline; mean absolute delta=4.305232169142245
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest.fiveLanguageRowsKeepGpuMaterialAfterNaturalOpen(LanguageMenuMotionCaptureTest.kt:233)
+
+INSTRUMENTATION_STATUS: stream=
+Error in fiveLanguageRowsKeepGpuMaterialAfterNaturalOpen(com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest):
+java.lang.AssertionError: zh-CN: glass must change actual row pixels from closed baseline; mean absolute delta=4.305232169142245
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest.fiveLanguageRowsKeepGpuMaterialAfterNaturalOpen(LanguageMenuMotionCaptureTest.kt:233)
+
+INSTRUMENTATION_STATUS: test=fiveLanguageRowsKeepGpuMaterialAfterNaturalOpen
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=selectionDismissalAndLongPressKeepTheOriginalPointerBehavior
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=selectionDismissalAndLongPressKeepTheOriginalPointerBehavior
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=heldLanguageRowKeepsItsFourCornersOutsideTheHighlight
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=heldLanguageRowKeepsItsFourCornersOutsideTheHighlight
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.liquidglass.GlassMaterialSamplingMatrixCaptureTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+com.lingion.sleepy.ui.component.liquidglass.GlassMaterialSamplingMatrixCaptureTest:
+INSTRUMENTATION_STATUS: test=raisedSliderLensRetainsDifferentInputsAcrossTheMaterialMatrix
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.liquidglass.GlassMaterialSamplingMatrixCaptureTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=raisedSliderLensRetainsDifferentInputsAcrossTheMaterialMatrix
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest:
+INSTRUMENTATION_STATUS: test=motionFramesShowProgressiveLiftJellyAndRainbowEdges
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: tab must have an intermediate rising frame
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest.motionFramesShowProgressiveLiftJellyAndRainbowEdges(GlassFloatingControlsRenderTest.kt:179)
+
+INSTRUMENTATION_STATUS: stream=
+Error in motionFramesShowProgressiveLiftJellyAndRainbowEdges(com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest):
+java.lang.AssertionError: tab must have an intermediate rising frame
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest.motionFramesShowProgressiveLiftJellyAndRainbowEdges(GlassFloatingControlsRenderTest.kt:179)
+
+INSTRUMENTATION_STATUS: test=motionFramesShowProgressiveLiftJellyAndRainbowEdges
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stack=androidx.compose.ui.test.junit4.android.ComposeNotIdleException: Idling resource timed out: possibly due to compose being busy.
+IdlingResourceRegistry has the following idling resources registered:
+- [busy] ComposeIdlingResource is busy due to pending recompositions.
+         - Note: Timeout on pending recomposition means that there are most likely infinite re-compositions happening in the tested code.
+         - Debug: hadRecomposerChanges = true, hadSnapshotChanges = false, hadAwaitersOnMainClock = false 
+All registered idling resources: Compose-Espresso link
+	at androidx.compose.ui.test.EspressoLink_androidKt.rethrowWithMoreInfo(EspressoLink.android.kt:133)
+	at androidx.compose.ui.test.EspressoLink_androidKt.runEspressoOnIdle(EspressoLink.android.kt:106)
+	at androidx.compose.ui.test.EspressoLink.runUntilIdle(EspressoLink.android.kt:82)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.waitForIdle(ComposeUiTest.android.kt:716)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$waitForIdle(ComposeUiTest.android.kt:481)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitForIdle(ComposeUiTest.android.kt:859)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitForIdle(AndroidComposeTestRule.android.kt:495)
+	at com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest.heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges(GlassFloatingControlsRenderTest.kt:242)
+	... 67 trimmed
+Caused by: androidx.test.espresso.IdlingResourceTimeoutException: Wait for [Compose-Espresso link] to become idle timed out
+	at androidx.test.espresso.IdlingPolicy.handleTimeout(IdlingPolicy.java:63)
+	at androidx.test.espresso.base.UiControllerImpl$5.resourcesHaveTimedOut(UiControllerImpl.java:420)
+	at androidx.test.espresso.base.IdlingResourceRegistry$Dispatcher.handleTimeout(IdlingResourceRegistry.java:533)
+	at androidx.test.espresso.base.IdlingResourceRegistry$Dispatcher.handleMessage(IdlingResourceRegistry.java:466)
+	at android.os.Handler.dispatchMessage(Handler.java:112)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:156)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:510)
+	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:433)
+	at androidx.test.espresso.Espresso.lambda$onIdle$2(Espresso.java:340)
+	at androidx.test.espresso.Espresso$$ExternalSyntheticLambda1.call(D8$$SyntheticClass:0)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at android.os.Handler.handleCallback(Handler.java:1001)
+	at android.os.Handler.dispatchMessage(Handler.java:109)
+	at android.os.Looper.loopOnce(Looper.java:306)
+	at android.os.Looper.loop(Looper.java:416)
+	at android.app.ActivityThread.main(ActivityThread.java:9999)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+
+INSTRUMENTATION_STATUS: stream=
+Error in heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges(com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest):
+androidx.compose.ui.test.junit4.android.ComposeNotIdleException: Idling resource timed out: possibly due to compose being busy.
+IdlingResourceRegistry has the following idling resources registered:
+- [busy] ComposeIdlingResource is busy due to pending recompositions.
+         - Note: Timeout on pending recomposition means that there are most likely infinite re-compositions happening in the tested code.
+         - Debug: hadRecomposerChanges = true, hadSnapshotChanges = false, hadAwaitersOnMainClock = false 
+All registered idling resources: Compose-Espresso link
+	at androidx.compose.ui.test.EspressoLink_androidKt.rethrowWithMoreInfo(EspressoLink.android.kt:133)
+	at androidx.compose.ui.test.EspressoLink_androidKt.runEspressoOnIdle(EspressoLink.android.kt:106)
+	at androidx.compose.ui.test.EspressoLink.runUntilIdle(EspressoLink.android.kt:82)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.waitForIdle(ComposeUiTest.android.kt:716)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$waitForIdle(ComposeUiTest.android.kt:481)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitForIdle(ComposeUiTest.android.kt:859)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitForIdle(AndroidComposeTestRule.android.kt:495)
+	at com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest.heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges(GlassFloatingControlsRenderTest.kt:242)
+	... 67 trimmed
+Caused by: androidx.test.espresso.IdlingResourceTimeoutException: Wait for [Compose-Espresso link] to become idle timed out
+	at androidx.test.espresso.IdlingPolicy.handleTimeout(IdlingPolicy.java:63)
+	at androidx.test.espresso.base.UiControllerImpl$5.resourcesHaveTimedOut(UiControllerImpl.java:420)
+	at androidx.test.espresso.base.IdlingResourceRegistry$Dispatcher.handleTimeout(IdlingResourceRegistry.java:533)
+	at androidx.test.espresso.base.IdlingResourceRegistry$Dispatcher.handleMessage(IdlingResourceRegistry.java:466)
+	at android.os.Handler.dispatchMessage(Handler.java:112)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:156)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:510)
+	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:433)
+	at androidx.test.espresso.Espresso.lambda$onIdle$2(Espresso.java:340)
+	at androidx.test.espresso.Espresso$$ExternalSyntheticLambda1.call(D8$$SyntheticClass:0)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at android.os.Handler.handleCallback(Handler.java:1001)
+	at android.os.Handler.dispatchMessage(Handler.java:109)
+	at android.os.Looper.loopOnce(Looper.java:306)
+	at android.os.Looper.loop(Looper.java:416)
+	at android.app.ActivityThread.main(ActivityThread.java:9999)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+
+INSTRUMENTATION_STATUS: test=heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.BackdropAwareForegroundRenderTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+com.lingion.sleepy.ui.component.BackdropAwareForegroundRenderTest:
+INSTRUMENTATION_STATUS: test=consumerMovementResizeAndReattachmentRefreshTheSourceCoordinates
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.BackdropAwareForegroundRenderTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=consumerMovementResizeAndReattachmentRefreshTheSourceCoordinates
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.BackdropAwareForegroundRenderTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=localSceneAlphaMaskAndAccentStayIndependentOnTheRealGpu
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.BackdropAwareForegroundRenderTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=8
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=localSceneAlphaMaskAndAccentStayIndependentOnTheRealGpu
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 62.38
+There were 3 failures:
+1) fiveLanguageRowsKeepGpuMaterialAfterNaturalOpen(com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest)
+java.lang.AssertionError: zh-CN: glass must change actual row pixels from closed baseline; mean absolute delta=4.305232169142245
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.LanguageMenuMotionCaptureTest.fiveLanguageRowsKeepGpuMaterialAfterNaturalOpen(LanguageMenuMotionCaptureTest.kt:233)
+2) motionFramesShowProgressiveLiftJellyAndRainbowEdges(com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest)
+java.lang.AssertionError: tab must have an intermediate rising frame
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest.motionFramesShowProgressiveLiftJellyAndRainbowEdges(GlassFloatingControlsRenderTest.kt:179)
+3) heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges(com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest)
+androidx.compose.ui.test.junit4.android.ComposeNotIdleException: Idling resource timed out: possibly due to compose being busy.
+IdlingResourceRegistry has the following idling resources registered:
+- [busy] ComposeIdlingResource is busy due to pending recompositions.
+         - Note: Timeout on pending recomposition means that there are most likely infinite re-compositions happening in the tested code.
+         - Debug: hadRecomposerChanges = true, hadSnapshotChanges = false, hadAwaitersOnMainClock = false 
+All registered idling resources: Compose-Espresso link
+	at androidx.compose.ui.test.EspressoLink_androidKt.rethrowWithMoreInfo(EspressoLink.android.kt:133)
+	at androidx.compose.ui.test.EspressoLink_androidKt.runEspressoOnIdle(EspressoLink.android.kt:106)
+	at androidx.compose.ui.test.EspressoLink.runUntilIdle(EspressoLink.android.kt:82)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.waitForIdle(ComposeUiTest.android.kt:716)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.access$waitForIdle(ComposeUiTest.android.kt:481)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitForIdle(ComposeUiTest.android.kt:859)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitForIdle(AndroidComposeTestRule.android.kt:495)
+	at com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest.heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges(GlassFloatingControlsRenderTest.kt:242)
+	... 67 trimmed
+Caused by: androidx.test.espresso.IdlingResourceTimeoutException: Wait for [Compose-Espresso link] to become idle timed out
+	at androidx.test.espresso.IdlingPolicy.handleTimeout(IdlingPolicy.java:63)
+	at androidx.test.espresso.base.UiControllerImpl$5.resourcesHaveTimedOut(UiControllerImpl.java:420)
+	at androidx.test.espresso.base.IdlingResourceRegistry$Dispatcher.handleTimeout(IdlingResourceRegistry.java:533)
+	at androidx.test.espresso.base.IdlingResourceRegistry$Dispatcher.handleMessage(IdlingResourceRegistry.java:466)
+	at android.os.Handler.dispatchMessage(Handler.java:112)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:156)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:510)
+	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:433)
+	at androidx.test.espresso.Espresso.lambda$onIdle$2(Espresso.java:340)
+	at androidx.test.espresso.Espresso$$ExternalSyntheticLambda1.call(D8$$SyntheticClass:0)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at android.os.Handler.handleCallback(Handler.java:1001)
+	at android.os.Handler.dispatchMessage(Handler.java:109)
+	at android.os.Looper.loopOnce(Looper.java:306)
+	at android.os.Looper.loop(Looper.java:416)
+	at android.app.ActivityThread.main(ActivityThread.java:9999)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:613)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1074)
+
+FAILURES!!!
+Tests run: 8,  Failures: 3
+
+
+INSTRUMENTATION_CODE: -1

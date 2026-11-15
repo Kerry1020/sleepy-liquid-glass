@@ -1,0 +1,34 @@
+{
+  "scope": "Final default instrumentation build after research separation; no init script/source overlay",
+  "started_utc": "2026-11-15T19:48:43.121866+00:00",
+  "host_head": "d38e9d1a92adcde69264bdd50313948bdd29ab0e",
+  "worktree_hashes": {
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/BackdropAwareForegroundRenderTest.kt": "8ef154d607682f273e19d9e00b99baff1fc7d40649a6832c6e2e2edfdaeb320d",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/DockBackdropAppearanceRenderTest.kt": "56dbcd2defab248b520ee5d255729f841b1435f16dd35d2a9cbadc73d28cdb0f",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassAlertWindowRenderTest.kt": "4868cf3a04f5176ec1fd6388b12f1d3f71349957f97e7757335c336aace31e23",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassFloatingControlsRenderTest.kt": "a5ebbb55131ef1de1417ea1c4ae6958c1fed03c60c886941fa8d61d811860b5d",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassOpticalCaptureFixtures.kt": "8cf0562f0477e348b7c13231f15f47116e674e864cf84460dc8270c0afc4e870",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/LanguageMenuMotionCaptureTest.kt": "94b488726ac48e666160f786c5881c53b960fc948016a74a7235a923be2f9639",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/DockBackingRenderTest.kt": "ebb3dc6b57b22ed4d5b861130d9d2fa7b293fdd5f943feeb794c1973c205260c",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/GlassMaterialSamplingMatrixCaptureTest.kt": "3aa2830043b036376117eaab49da609c07b3672df79c8e58ea5a440a918272c4",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassCornerRenderTest.kt": "e121de3c3b74fe1342476cc74d63a0a2c799ecc8fb454ba5b411904cf462f209",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassDynamicShapeRenderTest.kt": "3fe78f51ae298ad25218111d02529fd49a17a55a851fafd50941d459ccd6f016",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassExactContourPerformanceTest.kt": "DELETED",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassExactContourRenderTest.kt": "f58251dad3036158995052ec8a93304d134b26af9bd17d457726d9bfd2928991",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGenericGeometryRenderTest.kt": "3c79c401dc7a0fd1ffafbcca8c7869743e38b1a9fda3709b3024ed8948404ed9"
+  },
+  "command": [
+    "./gradlew",
+    ":app:assembleDebugAndroidTest",
+    "--offline",
+    "--console=plain"
+  ],
+  "exit_code": 0,
+  "finished_utc": "2026-11-15T19:48:48.174400+00:00",
+  "log_sha256": "2e4d4336b5bc18b064b617a728b1ef64af06777b2e07713141e6fd7febe74b67",
+  "test_apk": {
+    "path": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+    "sha256": "f0a6b8cb5cc88d251969f4057bf45f098a0c9dbcb10f078b35f4d9f0d8812f28",
+    "bytes": 2176994
+  }
+}

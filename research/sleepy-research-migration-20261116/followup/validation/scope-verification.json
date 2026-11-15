@@ -1,0 +1,30 @@
+{
+  "scope": "Repository-boundary correction, not optical acceptance",
+  "checked_utc": "2026-11-15T19:57:10.677563+00:00",
+  "head_before_cleanup": "d38e9d1a92adcde69264bdd50313948bdd29ab0e",
+  "base_main": "3a7cbed352f4f8e1144e2e532840b9bea93b25d3",
+  "uncommitted_paths": [
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/BackdropAwareForegroundRenderTest.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/DockBackdropAppearanceRenderTest.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassAlertWindowRenderTest.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassFloatingControlsRenderTest.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassOpticalCaptureFixtures.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/LanguageMenuMotionCaptureTest.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/DockBackingRenderTest.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/GlassMaterialSamplingMatrixCaptureTest.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassCornerRenderTest.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassDynamicShapeRenderTest.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassExactContourPerformanceTest.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassExactContourRenderTest.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGenericGeometryRenderTest.kt"
+  ],
+  "cumulative_changed_files": 66,
+  "cumulative_deleted_files": 52,
+  "cumulative_shortstat": "66 files changed, 383 insertions(+), 25967 deletions(-)",
+  "production_runtime_business_ci_gradle_unchanged_this_followup": true,
+  "cumulative_production_difference": "One documentation-comment link in GlassSwitch only; runtime behavior unchanged",
+  "source_maps": "Original52 and followup13 both matched pinned Git originals byte-for-byte",
+  "review": "Independent static review retained behavior, geometry, pixel-error thresholds and diagnostic shader instrumentation; removed130 unused full-window frames and recycled the actual dispersion assertion image",
+  "other_regression_tests": "Application navigation/layout/pointer and real GPU assertion tests, including diagnostic screenshots, are retained. File output alone does not make a product regression a research collector.",
+  "runtime_diff": "diff --git a/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSwitch.kt b/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSwitch.kt\nindex aeba6d47..f6076071 100644\n--- a/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSwitch.kt\n+++ b/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSwitch.kt\n@@ -41,7 +41,7 @@ import com.lingion.sleepy.ui.theme.UiStyle\n \n /**\n  * 实心轨道，按住时滑片渐变为采样轨道和宿主背景的玻璃镜片。\n- * iOS 26.5 原生测量与 Android 对齐范围见 docs/native-glass-control-alignment.md。\n+ * iOS 26.5 原生研究与对齐记录见 https://github.com/Kerry1020/sleepy-liquid-glass。\n  * 轨道 63×28，静止片 37×24、两端留白 2，行程 22；触摸目标保留 Android 48dp。\n  */\n @Composable\n"
+}
