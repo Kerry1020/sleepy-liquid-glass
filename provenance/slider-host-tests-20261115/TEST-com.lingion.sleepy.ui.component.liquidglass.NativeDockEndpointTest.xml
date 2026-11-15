@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lingion.sleepy.ui.component.liquidglass.NativeDockEndpointTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-15T15:39:32.877Z" hostname="kerryleedeMacBook.local" time="0.013">
+  <properties/>
+  <testcase name="unmeasuredTabCountsRetainTheirExistingLogicalRubberBand" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockEndpointTest" time="0.001"/>
+  <testcase name="aBoundedTargetKeepsTheContinuingSpringOutsideFourDp" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockEndpointTest" time="0.011"/>
+  <testcase name="thePhysicalBoundUsesPitchMagnitudeForEitherLayoutDirection" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockEndpointTest" time="0.0"/>
+  <testcase name="inRangePositionsAndSingleSeatGuardsRemainBounded" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockEndpointTest" time="0.0"/>
+  <testcase name="fourTabReverseHeldTargetMatchesTheNativeLocalEndpoint" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockEndpointTest" time="0.0"/>
+  <testcase name="fourTabForwardHeldTargetMatchesTheNativeLocalEndpoint" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockEndpointTest" time="0.001"/>
+  <testcase name="anUnmeasuredFourTabPitchDoesNotProduceOverpull" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockEndpointTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

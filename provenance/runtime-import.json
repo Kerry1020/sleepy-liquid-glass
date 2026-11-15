@@ -1,11 +1,11 @@
 {
   "sleepyRepository": "https://github.com/Kerry1020/sleepy",
   "upstreamRepository": "https://github.com/lingion/sleepy",
-  "sourceBaseCommit": "386d4c09a78234c4bc04507f6ef4952d856de3f4",
-  "pullRequest": 427,
+  "sourceBaseCommit": "9533cf7f1b11d551f16b56230a9bccad4c3e9806",
+  "pullRequest": 442,
   "runtimeSourcesByteIdenticalAtImport": true,
-  "status": "experimental; panel gain 0.45 is an engineering candidate with residuals; importing mechanisms does not validate independent-backend optics",
-  "previousImport": "runtime-import-20261115-pre-lateral.json",
+  "status": "experimental; single-slider r2 A7.8/W7.5 and range checkpoint remain unaccepted; imported application evidence does not validate independent-backend optics",
+  "previousImport": "runtime-import-20261115-pre-slider.json",
   "files": [
     {
       "source": "libraries/liquid-glass/runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass/BackdropAppearanceHysteresisTest.kt",
@@ -55,7 +55,7 @@
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
       "target": "runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
-      "sha256": "099c20c4325cdd0db4e1117ac74b1151b9ee1efed715e465055156226dce8d41"
+      "sha256": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a"
     },
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/ActiveFrameLoop.kt",
@@ -155,12 +155,12 @@
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt",
       "target": "runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt",
-      "sha256": "350c07930ffd47f31f341772d22a076a91ec1e0255e241700492b298307e2991"
+      "sha256": "664e2e100205eb97676030ca4ad3fc751f849bf68574b9d997e31dd0b28d6bab"
     },
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
       "target": "runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
-      "sha256": "394710083a996cd6a3f31fa3400ac5d112799ea18bd713f0c59402a8e1030017"
+      "sha256": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9"
     },
     {
       "source": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassSuperellipse.kt",
@@ -197,5 +197,6 @@
       "target": "runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/NativeSliderEndpoint.kt",
       "sha256": "c6e10e1decb60296007d64213b748fa8431f7a07de28f325d3b354f94b177ffb"
     }
-  ]
+  ],
+  "pullRequestUrl": "https://github.com/lingion/sleepy/pull/442"
 }

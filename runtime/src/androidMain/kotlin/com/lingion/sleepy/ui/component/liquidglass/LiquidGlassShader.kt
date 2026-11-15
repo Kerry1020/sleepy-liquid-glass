@@ -126,7 +126,12 @@ object LiquidGlassShader {
         "uOptics" to 3,
         "uRefractionLimit" to 1,
         "uRefractionProfilePower" to 1,
+        "uRefractionShoulder" to 2,
+        "uFrostBand" to 4,
+        "uFrostBandBlend" to 1,
         "uLateralRefractionGain" to 1,
+        "uEdgeFrost" to 2,
+        "uContourStroke" to 4,
         "uDockTone" to 4,
         "uDockToneBright" to 3,
         "uDockToneDark" to 3,
@@ -152,6 +157,7 @@ object LiquidGlassShader {
         "uGlow" to 4,
         "uGlowSpread" to 2,
         "uEdge" to 3,
+        "uDispersionProfile" to 2,
         "uRim" to 4,
         "uOutlined" to 1,
         "uProfile" to 64,
@@ -242,7 +248,7 @@ object LiquidGlassShader {
      * @param dualContours two convex contours in pane-local dp, with independent radial centers
      * @param goo goo 药丸布局; null = 无 goo
      * @param rim 外圈; [LiquidGlassRim.shine] 与方向亮度下限进入着色器(side/corner/flat 是 CPU 画的
-     *   渐变发丝线, 不属 uniform)
+     *   渐变发丝线，只有显式 analyticStroke 时进入 uniform)
      * @param veil 覆盖在纹理之上的均匀遮罩(直 alpha)
      */
     fun build(
@@ -329,9 +335,33 @@ object LiquidGlassShader {
                 profilePower.coerceIn(1e-3, Float.MAX_VALUE.toDouble()).toFloat()
             } else 1f,
         )
+        val shoulder = style.refractionShoulder
+        val validShoulder = shoulder != null && shoulder.widthDp.isFinite() &&
+            shoulder.widthDp >= 1e-3 && shoulder.blend.isFinite()
+        put("uRefractionShoulder",
+            if (validShoulder) checkNotNull(shoulder).widthDp.coerceAtMost(32.0).toFloat() else 0f,
+            if (validShoulder) checkNotNull(shoulder).blend.coerceIn(0.0, 1.0).toFloat() else 0f)
+        val frostBand = style.frostBand
+        val validFrostBand = frostBand != null && listOf(frostBand.startDp, frostBand.endDp,
+            frostBand.featherDp, frostBand.blurDp, frostBand.blend).all { it.isFinite() } &&
+            frostBand.startDp >= 0.0 && frostBand.endDp <= 32.0 &&
+            frostBand.featherDp >= 1e-3 && frostBand.blurDp >= 0.0 &&
+            frostBand.endDp - frostBand.startDp >= 2.0 * frostBand.featherDp
+        if (validFrostBand) {
+            val band = checkNotNull(frostBand)
+            put("uFrostBand", band.startDp.toFloat(), band.endDp.toFloat(),
+                band.featherDp.toFloat(), band.blurDp.coerceAtMost(32.0).toFloat())
+            put("uFrostBandBlend", band.blend.coerceIn(0.0, 1.0).toFloat())
+        } else {
+            put("uFrostBand", 0f, 0f, 0f, 0f)
+            put("uFrostBandBlend", 0f)
+        }
         val dockTone = style.dockToneResponse
         val lateralGain = style.lateralRefractionGain
         put("uLateralRefractionGain", if (lateralGain.isFinite()) lateralGain.coerceIn(0.0, .5).toFloat() else 0f)
+        put("uEdgeFrost",
+            if (style.edgeFrostWidth.isFinite()) style.edgeFrostWidth.coerceIn(0.0, 8.0).toFloat() else 0f,
+            if (style.edgeFrostBlur.isFinite()) style.edgeFrostBlur.coerceIn(0.0, 32.0).toFloat() else 0f)
         val dockDarkLowTone = dockTone?.darkLowTone
         put("uDockDarkLowTone", dockDarkLowTone?.linearIntercept?.toFloat() ?: 0f,
             dockDarkLowTone?.linearGain?.toFloat() ?: 0f,
@@ -394,6 +424,20 @@ object LiquidGlassShader {
         )
         put("uGlowSpread", glow.reach.toFloat(), glow.wash.toFloat())
         put("uEdge", style.hairline.toFloat(), style.dispersion.toFloat(), style.rimBlur.toFloat())
+        val dispersionProfile = style.dispersionProfile
+        val dispersionWidth = dispersionProfile?.widthDp ?: 0.0
+        val boundDispersionWidth = if (dispersionWidth.isFinite()) {
+            dispersionWidth.coerceIn(0.0, 32.0).toFloat()
+        } else 0f
+        // Validate the actual Float sent to the GPU, including underflow and
+        // supports too small to resolve. A disabled support must disable blend too.
+        val validDispersionWidth = boundDispersionWidth >= 1e-3f
+        val dispersionBlend = dispersionProfile?.blend ?: 0.0
+        put("uDispersionProfile",
+            if (validDispersionWidth) boundDispersionWidth else 0f,
+            if (validDispersionWidth && dispersionBlend.isFinite()) {
+                dispersionBlend.coerceIn(0.0, 1.0).toFloat()
+            } else 0f)
         // uRim 第 4 位 = hairlineSide(Dart 的 `_hairlineSide` = hairlineSide ?? hairline)。
         put(
             "uRim",
@@ -441,6 +485,11 @@ object LiquidGlassShader {
             secondContour?.center?.x ?: 0f, secondContour?.center?.y ?: 0f)
         put("uExact1", *(exact?.firstOrNull() ?: FloatArray(LIQUID_GLASS_EXACT_FLOATS)))
         put("uExact2", *(exact?.getOrNull(1) ?: FloatArray(LIQUID_GLASS_EXACT_FLOATS)))
+        if (rim?.analyticStroke == true) {
+            fun opacity(value: Double) = if (value.isFinite()) value.coerceIn(0.0, 1.0).toFloat() else 0f
+            put("uContourStroke", opacity(rim.side), opacity(rim.corner), opacity(rim.flat),
+                (corners.topLeft / size.width).coerceIn(0f, .4f))
+        } else put("uContourStroke", 0f, 0f, 0f, 0f)
         if (rim == null) {
             put("uShineTurns", *FloatArray(8))
             put("uShineLit", *FloatArray(8))

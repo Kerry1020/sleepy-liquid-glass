@@ -1,0 +1,77 @@
+{
+  "sourceBaseCommit": "9533cf7f1b11d551f16b56230a9bccad4c3e9806",
+  "command": "./gradlew :runtime:assemble :runtime:testAndroidHostTest :sample:assembleDebug --console=plain --max-workers=2",
+  "exitCode": 0,
+  "runtimeImportSha256": "1f349e04e1907abdf2570a5ea74f3a61f7f5b54d8027d7496c399979cff9be37",
+  "hostTestCount": 56,
+  "hostTestFailures": 0,
+  "hostTestErrors": 0,
+  "hostTestSkipped": 0,
+  "suites": [
+    {
+      "file": "provenance/slider-host-tests-20261115/TEST-com.lingion.sleepy.ui.component.liquidglass.BackdropAppearanceHysteresisTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.BackdropAppearanceHysteresisTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "02f2654c11af36b68f28a8047df037fef72db568ae38cc1974971805955268de"
+    },
+    {
+      "file": "provenance/slider-host-tests-20261115/TEST-com.lingion.sleepy.ui.component.liquidglass.BackdropForegroundAtlasTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.BackdropForegroundAtlasTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "5cae55a7393e232196efd949ed428982fd33182a722c1650147b0e28877ed913"
+    },
+    {
+      "file": "provenance/slider-host-tests-20261115/TEST-com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "5a203bf94fde819629a74f8cfaf516698149cb3638521a4ef634af13a01ab642"
+    },
+    {
+      "file": "provenance/slider-host-tests-20261115/TEST-com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputGeometryTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputGeometryTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "0046d99c86053582684bb4fbbbfb50a0f42231517c8e209d441e8a41f300d79b"
+    },
+    {
+      "file": "provenance/slider-host-tests-20261115/TEST-com.lingion.sleepy.ui.component.liquidglass.NativeDockEndpointTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.NativeDockEndpointTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "e6c0e82b869493521f7507ced1ceb791e794bab549a1e7ac3a5ceb41896f62d7"
+    },
+    {
+      "file": "provenance/slider-host-tests-20261115/TEST-com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "b40d664e46fe756ba5c50a122a8e5b0d7545cdb0d5e3d5d9ba23b452e7878f6c"
+    },
+    {
+      "file": "provenance/slider-host-tests-20261115/TEST-com.lingion.sleepy.ui.component.liquidglass.NativeSegmentedEndpointTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.NativeSegmentedEndpointTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "01fde286dc72a76053b2795a9abca3351d777238422931d699d1c823d1acd210"
+    }
+  ],
+  "buildLogSha256": "320972f819fa439ab98064ceaaceee0ddb10f53bfc4be31682563b0b63b282f8",
+  "scope": "Independent public runtime numerical/source checks and assembly. No new independent-backend device optical acceptance or native-equivalence claim."
+}

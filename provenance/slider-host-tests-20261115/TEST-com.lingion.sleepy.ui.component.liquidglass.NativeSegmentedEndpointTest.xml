@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lingion.sleepy.ui.component.liquidglass.NativeSegmentedEndpointTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-15T15:39:32.961Z" hostname="kerryleedeMacBook.local" time="0.002">
+  <properties/>
+  <testcase name="lateReverseMovementMatchesTheRetainedNativeCenters" classname="com.lingion.sleepy.ui.component.liquidglass.NativeSegmentedEndpointTest" time="0.001"/>
+  <testcase name="lateForwardMovementMatchesTheRetainedNativeCenters" classname="com.lingion.sleepy.ui.component.liquidglass.NativeSegmentedEndpointTest" time="0.0"/>
+  <testcase name="positionsInsideTheTrackKeepTheirLogicalCoordinates" classname="com.lingion.sleepy.ui.component.liquidglass.NativeSegmentedEndpointTest" time="0.0"/>
+  <testcase name="physicalOverdriveDoesNotDependOnSeatPitchOrItsSign" classname="com.lingion.sleepy.ui.component.liquidglass.NativeSegmentedEndpointTest" time="0.001"/>
+  <testcase name="aSingleSeatAndAnUnmeasuredPitchKeepTheBoundedPosition" classname="com.lingion.sleepy.ui.component.liquidglass.NativeSegmentedEndpointTest" time="0.0"/>
+  <testcase name="slowForwardHoldPreservesTheMeasuredEndpointOverdrive" classname="com.lingion.sleepy.ui.component.liquidglass.NativeSegmentedEndpointTest" time="0.0"/>
+  <testcase name="slowReverseHoldPreservesTheMeasuredEndpointOverdrive" classname="com.lingion.sleepy.ui.component.liquidglass.NativeSegmentedEndpointTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

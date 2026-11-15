@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-15T15:39:32.861Z" hostname="kerryleedeMacBook.local" time="0.006">
+  <properties/>
+  <testcase name="finiteSigmasDoNotOverflowWhileSubtractingVariances" classname="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" time="0.002"/>
+  <testcase name="androidRadiusIsConvertedAfterDensityToActualTexturePixels" classname="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" time="0.0"/>
+  <testcase name="invalidSigmasAreRejectedInsteadOfEnteringTheGpuGraph" classname="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" time="0.001"/>
+  <testcase name="invalidConversionsAndTheUnrepresentableSigmaGapAreRejected" classname="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" time="0.001"/>
+  <testcase name="preblurredInputReceivesOnlyTheMissingVariance" classname="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" time="0.0"/>
+  <testcase name="unrepresentableRemaindersKeepTheRealHeldSigma" classname="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" time="0.0"/>
+  <testcase name="aSharperRequestCannotPretendToUndoExistingBlur" classname="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" time="0.0"/>
+  <testcase name="rawInputReceivesTheExplicitSamplingSigma" classname="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" time="0.001"/>
+  <testcase name="composedAndroidKernelsUseSigmaVarianceNotRadiusVariance" classname="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" time="0.0"/>
+  <testcase name="noMissingBlurNeedsNeitherAnExtraPassNorExtraPadding" classname="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" time="0.0"/>
+  <testcase name="sourcePaddingCoversInputAndFollowingHazeKernels" classname="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" time="0.0"/>
+  <testcase name="androidRadiusIsNotSilentlyTreatedAsSigma" classname="com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

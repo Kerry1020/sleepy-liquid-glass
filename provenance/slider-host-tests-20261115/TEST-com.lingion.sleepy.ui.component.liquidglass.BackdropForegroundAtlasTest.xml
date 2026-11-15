@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lingion.sleepy.ui.component.liquidglass.BackdropForegroundAtlasTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-15T15:39:32.821Z" hostname="kerryleedeMacBook.local" time="0.036">
+  <properties/>
+  <testcase name="explicitSampleRectMustFitTheOriginalContentNotTheAtlas" classname="com.lingion.sleepy.ui.component.liquidglass.BackdropForegroundAtlasTest" time="0.015"/>
+  <testcase name="wideDockKeepsBothUnscaledSlotsAlongTheShortAxis" classname="com.lingion.sleepy.ui.component.liquidglass.BackdropForegroundAtlasTest" time="0.001"/>
+  <testcase name="portraitAndFractionalExtentsKeepIntegerNonoverlappingSlots" classname="com.lingion.sleepy.ui.component.liquidglass.BackdropForegroundAtlasTest" time="0.001"/>
+  <testcase name="responseRequiresAnExplicitOrderedFiniteRangeAndOpaqueFallback" classname="com.lingion.sleepy.ui.component.liquidglass.BackdropForegroundAtlasTest" time="0.017"/>
+  <testcase name="invalidAndOverflowingAllocationsAreRejected" classname="com.lingion.sleepy.ui.component.liquidglass.BackdropForegroundAtlasTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

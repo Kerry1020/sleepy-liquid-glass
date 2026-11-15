@@ -76,8 +76,16 @@ uniform float3 uOptics;
 uniform float uRefractionLimit;
 // Calibratable positive-section shape, not physical thickness. One retains the legacy section.
 uniform float uRefractionProfilePower;
+// Optional width/blend of a quadratic common sampling shoulder. Zero preserves the old field.
+uniform float2 uRefractionShoulder;
+uniform float4 uFrostBand;
+uniform float uFrostBandBlend;
 // Panel-only lateral source sampling; zero preserves the normal-only field.
 uniform float uLateralRefractionGain;
+// Optional narrow contour frost: support width and additional blur radius in dp.
+uniform float2 uEdgeFrost;
+// Opt-in existing stroke: side/corner/flat opacity and horizontal corner fraction.
+uniform float4 uContourStroke;
 // Explicit Dock-only response: blend amount, fixed bright weight, optional low/high pane-luma gates.
 // Equal gates disable adaptation. No standard material factory enables this candidate.
 uniform float4 uDockTone;
@@ -120,6 +128,7 @@ uniform float2 uGlowSpread;
 // dp the color channels part along the rim, and the frost sigma the rim adds
 // at its edge, easing off across the bevel.
 uniform float3 uEdge;
+uniform float2 uDispersionProfile;
 // The highlight's share in a faint tail kRimTail long, how far its fall
 // round rounded ends goes from the tab bar's to iOS 27 controls', and its
 // share added as light rather than screened; then the line at the sides.
@@ -925,6 +934,14 @@ half4 main(float2 fragCoord) {
       float profile = 1.0 - sqrt(max(1.0 - rise * rise, 0.0));
       depth = min(uOptics.x, max(uRefractionLimit, 0.0) * halfMinor) * pow(profile, uRefractionProfilePower);
     }
+    if (uRefractionShoulder.y > 0.0) {
+      float width = max(min(uRefractionShoulder.x, halfMinor * 0.5), 1e-3);
+      float remaining = max(1.0 - inset / width, 0.0);
+      float shoulderDepth = min(uOptics.x, max(uRefractionLimit, 0.0) * halfMinor)
+          * remaining * remaining;
+      depth = uRefractionShoulder.y >= 1.0 ? shoulderDepth
+          : mix(depth, shoulderDepth, uRefractionShoulder.y);
+    }
     shift = -normal * depth;
     if (uLateralRefractionGain > 0.0) {
       shift.x += panelLateralShift(centered.x, halfSize.x, depth, normal.y, uLateralRefractionGain);
@@ -932,8 +949,26 @@ half4 main(float2 fragCoord) {
   }
 
   float frost = uShape.w + uEdge.z * rise * rise;
+  if (uEdgeFrost.x > 0.0 && uEdgeFrost.y > 0.0 && inset < uEdgeFrost.x) {
+    // Keep the face clear. Only the outer third holds the full contour response;
+    // both derivatives settle continuously before this narrow band ends.
+    frost += uEdgeFrost.y * (1.0 - smoothstep(uEdgeFrost.x / 3.0, uEdgeFrost.x, inset));
+  }
+  if (uFrostBandBlend > 0.0) {
+    // Replace, rather than add to, the inherited radius only in this band.
+    // Outside it, preserve the clear face and the sharper contour response.
+    float band = smoothstep(uFrostBand.x, uFrostBand.x + uFrostBand.z, inset)
+        * (1.0 - smoothstep(uFrostBand.y - uFrostBand.z, uFrostBand.y, inset));
+    frost = mix(frost, uFrostBand.w, band * uFrostBandBlend);
+  }
   float4 base = sampleFrosted(point + shift, frost);
-  if (uEdge.y > 0.0 && inset < kPartReach) {
+  float partReach = kPartReach;
+  if (uDispersionProfile.y >= 1.0) {
+    partReach = uDispersionProfile.x;
+  } else if (uDispersionProfile.y > 0.0) {
+    partReach = max(kPartReach, uDispersionProfile.x);
+  }
+  if (uEdge.y > 0.0 && inset < partReach) {
     // iOS 27 parts red from blue along the normal's mirror image, across it
     // at the sides and along it at the corners. Along the top and bottom the
     // parting narrows from the rim to what it holds around the ends. Over
@@ -942,6 +977,14 @@ half4 main(float2 fragCoord) {
     float2 part = normal.yx * 0.5 * uEdge.y
         * (0.6 + 0.4 * abs(normal.y) * max(1.0 - inset / kPartHold, 0.0))
         * (1.0 - smoothstep(kPartHold, kPartReach, inset));
+    if (uDispersionProfile.y > 0.0) {
+      // Slider edges separate the channels within a narrow shoulder. Unlike
+      // the inherited envelope, the displacement and its slope both settle
+      // to zero before the clear face, without blurring that face.
+      float remaining = max(1.0 - inset / uDispersionProfile.x, 0.0);
+      float2 narrowPart = normal.yx * 0.5 * uEdge.y * remaining * remaining;
+      part = uDispersionProfile.y >= 1.0 ? narrowPart : mix(part, narrowPart, uDispersionProfile.y);
+    }
     float4 red = sampleFrosted(point + shift + part, frost);
     float4 blue = sampleFrosted(point + shift - part, frost);
     base = float4(red.r, base.g, blue.b, max(base.a, max(red.a, blue.a)));
@@ -1174,5 +1217,17 @@ half4 main(float2 fragCoord) {
     }
   }
 
+  if (max(max(uContourStroke.x, uContourStroke.y), uContourStroke.z) > 0.0) {
+    float along = min(point.x, uShape.x - point.x) / max(uShape.x, 1e-3);
+    float acrossCorner = max(uContourStroke.w, 1e-4);
+    float strokeAlpha = along < acrossCorner * 0.25
+        ? mix(uContourStroke.x, uContourStroke.y, clamp(along / (acrossCorner * 0.25), 0.0, 1.0))
+        : mix(uContourStroke.y, uContourStroke.z,
+            clamp((along - acrossCorner * 0.25) / (acrossCorner * 0.75), 0.0, 1.0));
+    // Half of the original 0.5dp centered stroke lies inside the CPU clip.
+    // Integrating that interval avoids one-pixel path-rasterization dents.
+    float strokeCoverage = clamp((0.25 + uTexels.x * 0.5 - edge) / max(uTexels.x, 1e-4), 0.0, 1.0);
+    glass *= 1.0 - strokeAlpha * strokeCoverage;
+  }
   return half4(min(glass, float3(coverage)), coverage);
 }

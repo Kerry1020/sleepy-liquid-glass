@@ -1,0 +1,111 @@
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+> Task :runtime:generateProjectStructureMetadata UP-TO-DATE
+> Task :runtime:allMetadataJar UP-TO-DATE
+> Task :backdrop:androidPreBuild UP-TO-DATE
+> Task :backdrop:preAndroidMainBuild UP-TO-DATE
+> Task :backdrop:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :runtime:androidPreBuild UP-TO-DATE
+> Task :runtime:preAndroidMainBuild UP-TO-DATE
+> Task :runtime:checkAndroidMainAarMetadata UP-TO-DATE
+> Task :runtime:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :runtime:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :runtime:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :backdrop:kmpPartiallyResolvedDependenciesChecker
+> Task :backdrop:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :backdrop:compileAndroidMain UP-TO-DATE
+> Task :backdrop:bundleAndroidMainClassesToCompileJar UP-TO-DATE
+> Task :runtime:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :runtime:packageAndroidMainResources UP-TO-DATE
+> Task :runtime:parseAndroidMainLocalResources UP-TO-DATE
+> Task :runtime:generateAndroidMainRFile UP-TO-DATE
+> Task :runtime:extractAndroidMainAnnotations UP-TO-DATE
+> Task :runtime:generateAndroidMainAssets UP-TO-DATE
+> Task :runtime:mergeAndroidMainAssets
+> Task :runtime:kmpPartiallyResolvedDependenciesChecker
+> Task :runtime:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :runtime:prepareAndroidMainArtProfile UP-TO-DATE
+> Task :runtime:prepareLintJarForPublish UP-TO-DATE
+> Task :runtime:processAndroidMainManifest UP-TO-DATE
+> Task :runtime:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :backdrop:bundleAndroidMainClassesToRuntimeJar UP-TO-DATE
+> Task :backdrop:compressAndroidMainJavaRes UP-TO-DATE
+> Task :runtime:androidJar UP-TO-DATE
+> Task :runtime:preAndroidHostTestBuild UP-TO-DATE
+> Task :runtime:compressAndroidHostTestJavaRes UP-TO-DATE
+> Task :runtime:extractAndroidHostTestJavaRes UP-TO-DATE
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :sample:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :sample:generateDebugResources UP-TO-DATE
+> Task :sample:packageDebugResources UP-TO-DATE
+> Task :backdrop:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :sample:processDebugNavigationResources UP-TO-DATE
+> Task :sample:parseDebugLocalResources UP-TO-DATE
+> Task :sample:generateDebugRFile UP-TO-DATE
+> Task :sample:javaPreCompileDebug UP-TO-DATE
+> Task :sample:generateDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugAssets
+> Task :sample:compressDebugAssets
+> Task :sample:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :sample:checkDebugDuplicateClasses UP-TO-DATE
+> Task :sample:desugarDebugFileDependencies UP-TO-DATE
+> Task :sample:mergeExtDexDebug UP-TO-DATE
+> Task :backdrop:bundleLibRuntimeToDirAndroidMain UP-TO-DATE
+> Task :runtime:mapAndroidMainSourceSetPaths UP-TO-DATE
+> Task :runtime:compileAndroidMainLibraryResources UP-TO-DATE
+> Task :sample:checkDebugAarMetadata UP-TO-DATE
+> Task :sample:mapDebugSourceSetPaths UP-TO-DATE
+> Task :sample:compileDebugNavigationResources UP-TO-DATE
+> Task :sample:mergeDebugResources UP-TO-DATE
+> Task :sample:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :backdrop:processAndroidMainManifest UP-TO-DATE
+> Task :sample:extractDeepLinksDebug UP-TO-DATE
+> Task :sample:processDebugMainManifest UP-TO-DATE
+> Task :sample:processDebugManifest UP-TO-DATE
+> Task :sample:processDebugManifestForPackage UP-TO-DATE
+> Task :sample:processDebugResources UP-TO-DATE
+> Task :backdrop:mergeAndroidMainJniLibFolders UP-TO-DATE
+> Task :backdrop:mergeAndroidMainNativeLibs NO-SOURCE
+> Task :backdrop:copyAndroidMainJniLibsProjectOnly UP-TO-DATE
+> Task :sample:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sample:mergeDebugNativeLibs UP-TO-DATE
+> Task :sample:stripDebugDebugSymbols UP-TO-DATE
+> Task :sample:validateSigningDebug UP-TO-DATE
+> Task :sample:writeDebugAppMetadata UP-TO-DATE
+> Task :sample:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :runtime:compileAndroidMain
+> Task :runtime:mergeAndroidMainGeneratedProguardFiles UP-TO-DATE
+> Task :runtime:mergeAndroidMainConsumerProguardFiles UP-TO-DATE
+> Task :runtime:compressAndroidMainJavaRes UP-TO-DATE
+> Task :runtime:mergeAndroidMainJavaResource UP-TO-DATE
+> Task :runtime:syncAndroidMainLibJars
+> Task :runtime:bundleAndroidMainAar
+> Task :runtime:assembleAndroidMain
+> Task :runtime:assemble
+> Task :runtime:bundleAndroidMainClassesToCompileJar
+> Task :runtime:bundleAndroidMainClassesToRuntimeJar
+> Task :runtime:compileAndroidHostTest
+> Task :runtime:testAndroidHostTest
+> Task :runtime:bundleLibRuntimeToDirAndroidMain
+> Task :sample:compileDebugKotlin
+> Task :sample:compileDebugJavaWithJavac NO-SOURCE
+> Task :sample:compressDebugJavaRes UP-TO-DATE
+> Task :sample:mergeDebugJavaResource UP-TO-DATE
+> Task :sample:dexBuilderDebug UP-TO-DATE
+> Task :sample:mergeProjectDexDebug UP-TO-DATE
+> Task :sample:mergeLibDexDebug
+> Task :sample:packageDebug
+> Task :sample:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :sample:assembleDebug
+
+[Incubating] Problems report is available at: file:///Users/kerrylee/Documents/Codex/sleepy-liquid-glass/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 26s
+80 actionable tasks: 16 executed, 64 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.2/userguide/configuration_cache_enabling.html

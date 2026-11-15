@@ -2,9 +2,15 @@
 
 The [controlled optical study index](docs/controlled-optical-studies.md) links related research assets and their individual stage boundaries. A prepared input or protocol does not inherit the build, capture or analyzer results recorded here.
 
-## Current lateral-field source sync and independent build — 2026-11-15
+## Current slider r2 source sync and independent build — 2026-11-15
 
-The current [runtime manifest](provenance/runtime-import.json) binds 38 imports to Sleepy `386d4c09a78234c4bc04507f6ef4952d856de3f4`. The independent command below was rerun after the lateral-field import: `runtime:assemble`, seven host suites / **56 tests**, and `sample:assembleDebug` passed with zero failures, errors or skips. The [new receipt](provenance/validation-20261115-lateral.json) records the current manifest SHA-256 and exit code. This checks source / numerical behavior and assembly; it adds no independent-backend device optical acceptance or complete application-control adapters.
+The current [runtime manifest](provenance/runtime-import.json) binds all **38 byte-identical imports** to committed Sleepy `9533cf7f1b11d551f16b56230a9bccad4c3e9806`. Only the shader, uniform binding and style imports changed since the archived pre-slider manifest. Single-slider r2 uses common refraction 7.8 with a 7.5dp quadratic shoulder, a 6.5dp dispersion support and the local frost band. Range retains refraction 2.15 without the new common shoulder. Both are unaccepted optical checkpoints; rejected r3/r4 experiments are preserved in the [shoulder study](docs/glass-slider-shoulder-experiments.md).
+
+`./gradlew :runtime:assemble :runtime:testAndroidHostTest :sample:assembleDebug --console=plain --max-workers=2` completed successfully in 26 seconds. Seven host suites ran **56 tests**, with zero failures, errors or skips. The [receipt](provenance/validation-20261115-slider.json), [original test XMLs](provenance/slider-host-tests-20261115/) and build log retain the observed results. This checks independent-source assembly and existing numerical contracts, and adds no independent-backend device optical acceptance. The application fixes, fixtures and image analyses are separate from that build result; they do not establish all-size or dynamic native parity.
+
+## Previous lateral-field source sync and independent build — 2026-11-15
+
+The archived [pre-slider runtime manifest](provenance/runtime-import-20261115-pre-slider.json) binds 38 imports to Sleepy `386d4c09a78234c4bc04507f6ef4952d856de3f4`. The independent command below was rerun after the lateral-field import: `runtime:assemble`, seven host suites / **56 tests**, and `sample:assembleDebug` passed with zero failures, errors or skips. The [new receipt](provenance/validation-20261115-lateral.json) records the current manifest SHA-256 and exit code. This checks source / numerical behavior and assembly; it adds no independent-backend device optical acceptance or complete application-control adapters.
 
 ## Previous pre-lateral runtime sync — 2026-11-15
 

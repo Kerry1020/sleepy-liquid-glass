@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-11-15T15:39:32.893Z" hostname="kerryleedeMacBook.local" time="0.066">
+  <properties/>
+  <testcase name="frozenNativeFixtureKeepsKnownHeldAndFastResidualsVisible" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.037"/>
+  <testcase name="releaseAndCancelUseTheExistingAndroidPressSpringReturnPolicy" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.008"/>
+  <testcase name="actualNegativeFingerDisplacementDrivesNegativeInBoundsTranslation" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.0"/>
+  <testcase name="multipleReceiptsWithinOneFrameKeepTheirOrderAndElapsedSegments" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.001"/>
+  <testcase name="callersWithoutPhysicalCoordinatesKeepTheLegacyTranslationPath" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.0"/>
+  <testcase name="durationScaleIsAppliedOnceIncludingFirstFrameReceiptElapsedTime" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.0"/>
+  <testcase name="repeatedDownPreservesStateAndVelocityAndStartsANewPhysicalAnchor" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.001"/>
+  <testcase name="sameAbsoluteFingerCoordinateRetainsThePhysicalDownAnchor" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.0"/>
+  <testcase name="firstEligibleColdFrameIncludesMotionAfterTheActualMoveReceipt" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.0"/>
+  <testcase name="disabledAnimationsSettleHeldInputsAndReturnTransactionsWithoutAnIdleLoop" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.0"/>
+  <testcase name="directDownWithNoFingerMovementDoesNotTranslateOrKeepAnIdleLoop" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.0"/>
+  <testcase name="native65TrainAndThreeHoldoutsReproduceTheFrozenCandidateNumerically" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.018"/>
+  <testcase name="futureReceiptCannotApplyOnAnEarlierFrame" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.0"/>
+  <testcase name="cancelledEpochRejectsLaterMoveAndRelease" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.0"/>
+  <testcase name="fixedFingerHoldKeepsAdvancingTheCausalState" classname="com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
