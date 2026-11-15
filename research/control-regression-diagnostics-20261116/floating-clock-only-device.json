@@ -1,0 +1,33 @@
+{
+  "scope": "Clock-only hypothesis; all original gestures/assertions/thresholds unchanged",
+  "source_head": "9cc97649147bd2f4b9a57cb6ddce805d412902cf",
+  "fixture_sha256": "ff4f36e763872b9e7630675b904ce185911194b5c17176ca4eedd1fdfdc97e70",
+  "built_source_head": "693c3b513b5554e92c10823ae2b70349800b39d3",
+  "test_apk_sha256": "13dcf4a625874812d2c5970d34fb4d3f07b3fd3bb871d1c1e844bb07280dd398",
+  "installed_test_apk_sha256": "13dcf4a625874812d2c5970d34fb4d3f07b3fd3bb871d1c1e844bb07280dd398",
+  "installed_main_package_sha256": {
+    "com.lingion.sleepy.debug": "566fc53eb6c28a0df7be03b7b07ee0ab8fd28a96b1f471f1669d7bbdbf3063b5"
+  },
+  "started_utc": "2026-11-15T20:59:09.818476+00:00",
+  "command": [
+    "<ANDROID_SDK>/platform-tools/adb",
+    "-s",
+    "<ANDROID_SERIAL>",
+    "shell",
+    "am",
+    "instrument",
+    "-w",
+    "-r",
+    "-e",
+    "class",
+    "com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest",
+    "com.lingion.sleepy.debug.test/com.lingion.sleepy.SleepyRenderTestRunner"
+  ],
+  "exit_code": 0,
+  "seconds": 12.88,
+  "completed_pass_statuses": 0,
+  "completed_failure_statuses": 2,
+  "fixture_unchanged_during_run": true,
+  "finished_utc": "2026-11-15T20:59:22.699744+00:00",
+  "log_sha256": "afdc78dabc48dee10ab19f79b3c0c00a9356d472ba855b6fcc6076f34a5bd9d2"
+}

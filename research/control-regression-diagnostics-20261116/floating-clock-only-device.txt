@@ -1,0 +1,71 @@
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest:
+INSTRUMENTATION_STATUS: test=motionFramesShowProgressiveLiftJellyAndRainbowEdges
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: toggle must stretch while moving: held=58.151257 moving=58.15126
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest.motionFramesShowProgressiveLiftJellyAndRainbowEdges(GlassFloatingControlsRenderTest.kt:223)
+
+INSTRUMENTATION_STATUS: stream=
+Error in motionFramesShowProgressiveLiftJellyAndRainbowEdges(com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest):
+java.lang.AssertionError: toggle must stretch while moving: held=58.151257 moving=58.15126
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest.motionFramesShowProgressiveLiftJellyAndRainbowEdges(GlassFloatingControlsRenderTest.kt:223)
+
+INSTRUMENTATION_STATUS: test=motionFramesShowProgressiveLiftJellyAndRainbowEdges
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: glass must extend above track
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest.heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges(GlassFloatingControlsRenderTest.kt:243)
+
+INSTRUMENTATION_STATUS: stream=
+Error in heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges(com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest):
+java.lang.AssertionError: glass must extend above track
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest.heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges(GlassFloatingControlsRenderTest.kt:243)
+
+INSTRUMENTATION_STATUS: test=heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 11.718
+There were 2 failures:
+1) motionFramesShowProgressiveLiftJellyAndRainbowEdges(com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest)
+java.lang.AssertionError: toggle must stretch while moving: held=58.151257 moving=58.15126
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest.motionFramesShowProgressiveLiftJellyAndRainbowEdges(GlassFloatingControlsRenderTest.kt:223)
+2) heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges(com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest)
+java.lang.AssertionError: glass must extend above track
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest.heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges(GlassFloatingControlsRenderTest.kt:243)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+
+INSTRUMENTATION_CODE: -1

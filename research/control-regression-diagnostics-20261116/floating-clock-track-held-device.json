@@ -1,0 +1,28 @@
+{
+  "scope": "Visual segment-track comparator; original overflow and glyph/gesture assertions retained",
+  "command": [
+    "<ANDROID_SDK>/platform-tools/adb",
+    "-s",
+    "<ANDROID_SERIAL>",
+    "shell",
+    "am",
+    "instrument",
+    "-w",
+    "-r",
+    "-e",
+    "class",
+    "com.lingion.sleepy.ui.component.GlassFloatingControlsRenderTest#heldControlsCaptureTheirOrdinarySiblingsAndOverflowBothEdges",
+    "com.lingion.sleepy.debug.test/com.lingion.sleepy.SleepyRenderTestRunner"
+  ],
+  "source_head": "9cc97649147bd2f4b9a57cb6ddce805d412902cf",
+  "fixture_sha256": "35297406414dc9601b41936836381365c5dea7ed2e919dbc7f892780bdf13cca",
+  "test_apk_sha256": "400e1e4e1e797643bfb5d05a8d042ec19afe8b08fe9321c3c6b8331e7674b24d",
+  "started_utc": "2026-11-15T21:02:58.999755+00:00",
+  "exit_code": 0,
+  "seconds": 3.012,
+  "completed_pass_statuses": 0,
+  "completed_failure_statuses": 1,
+  "fixture_unchanged_during_run": true,
+  "finished_utc": "2026-11-15T21:03:02.013134+00:00",
+  "log_sha256": "bc6d4b4510540d4ca6d9fbe945daf1dfd9f3ec995cace75bbefa47613b98cc49"
+}

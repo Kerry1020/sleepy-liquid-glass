@@ -1,0 +1,16 @@
+{
+  "scope": "Fixture input-clock only hypothesis; product unchanged",
+  "source_head": "693c3b513b5554e92c10823ae2b70349800b39d3",
+  "command": [
+    "./gradlew",
+    ":app:assembleDebugAndroidTest",
+    "--offline",
+    "--console=plain"
+  ],
+  "exit_code": 0,
+  "seconds": 4.766,
+  "fixture_sha256": "ff4f36e763872b9e7630675b904ce185911194b5c17176ca4eedd1fdfdc97e70",
+  "fixture_unchanged_during_build": true,
+  "log_sha256": "cd689ee9e5b2e71aad5d4811051c2f22cb9fc0d1aa5f4e259a8746d2d6e2c755",
+  "test_apk_sha256": "13dcf4a625874812d2c5970d34fb4d3f07b3fd3bb871d1c1e844bb07280dd398"
+}

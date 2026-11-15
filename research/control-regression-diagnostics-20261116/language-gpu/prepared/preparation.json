@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "status": "PREPARED_NOT_BUILT_OR_RUN",
+  "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/LanguageMenuMotionCaptureTest.kt",
+  "source_ref_reported_by_parent_not_git_verified_here": "693c3b51",
+  "source_snapshot": "source/LanguageMenuMotionCaptureTest.kt",
+  "source_sha256": "94b488726ac48e666160f786c5881c53b960fc948016a74a7235a923be2f9639",
+  "body_path": "triplet-body.kt.inc",
+  "body_sha256": "4dc35ca1b876201afc9387a96a57d8732a23761054d29f449e47de4191582352",
+  "generator_sha256": "3c4153f094d809c4e8ada798a8939643684ebadf5999d8145e8974adcdea50f3",
+  "alias_class": "AssetLanguageGpuTripletDiagnosticTest",
+  "output_relative_path": "com/lingion/sleepy/ui/component/AssetLanguageGpuTripletDiagnosticTest.kt",
+  "output_sha256": "ca4d1638eb08a05ea32dfcdbfd9c2442420ec389062500cc19be5e57ef18d5ce",
+  "output_bytes": 48579,
+  "source_root": "prepared/sources",
+  "selected_android_tests": 1,
+  "transformations": [
+    "Rename the class; retain the original helper functions and unused non-test scenarios.",
+    "Remove @Test only from the two unrelated scenarios so default discovery sees one research test.",
+    "Replace only the original GPU test body with the reviewed triplet-body.kt.inc.",
+    "Add imports and draw-phase research state; add a draw-only gate to the existing source wrapper.",
+    "Preserve original background, layout modifiers, GPU capture, pixel algorithm, pointer and real-time recomposer bytes."
+  ],
+  "gradle_executed": false,
+  "device_used": false
+}

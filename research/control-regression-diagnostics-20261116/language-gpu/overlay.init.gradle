@@ -1,0 +1,65 @@
+// Inert unless explicitly passed to Gradle with -I/--init-script.
+// Independent of slider-android-host: no slider host files are modified or loaded.
+import groovy.json.JsonSlurper
+import java.security.MessageDigest
+
+def aliasName = 'AssetLanguageGpuTripletDiagnosticTest'
+def aliasRelative = 'com/lingion/sleepy/ui/component/' + aliasName + '.kt'
+def expectedSource = '94b488726ac48e666160f786c5881c53b960fc948016a74a7235a923be2f9639'
+def expectedOutput = 'ca4d1638eb08a05ea32dfcdbfd9c2442420ec389062500cc19be5e57ef18d5ce'
+def digest = { File file ->
+    MessageDigest.getInstance('SHA-256').digest(file.bytes).encodeHex().toString()
+}
+
+gradle.beforeProject { p ->
+    if (p.path == ':app') {
+        p.pluginManager.withPlugin('com.android.application') {
+            def raw = p.providers.gradleProperty('languageResearchSources').orNull
+            if (!raw || !new File(raw).isAbsolute()) {
+                throw new GradleException('Provide absolute -PlanguageResearchSources from language-gpu/prepare-fixture.py.')
+            }
+            File sources = new File(raw).canonicalFile
+            File host = p.rootProject.projectDir.canonicalFile
+            if (!sources.isDirectory() || sources.toPath().startsWith(host.toPath())) {
+                throw new GradleException('Language research sources must be an existing directory outside Sleepy.')
+            }
+            File source = new File(sources, aliasRelative).canonicalFile
+            File receiptFile = new File(sources.parentFile, 'preparation.json')
+            if (!source.isFile() || !source.toPath().startsWith(sources.toPath()) || !receiptFile.isFile()) {
+                throw new GradleException('Missing prepared language source/receipt; run prepare-fixture.py.')
+            }
+            def actualFiles = p.fileTree(sources).files.collect { it.canonicalFile } as Set
+            if (actualFiles != ([source] as Set)) {
+                throw new GradleException('Language overlay must contain exactly one prepared Kotlin file.')
+            }
+            def receipt = new JsonSlurper().parse(receiptFile)
+            if (receipt.schema != 1 || receipt.alias_class != aliasName || receipt.selected_android_tests != 1 ||
+                    receipt.output_relative_path != aliasRelative || receipt.source_sha256 != expectedSource ||
+                    receipt.output_sha256 != expectedOutput || digest(source) != expectedOutput) {
+                throw new GradleException('Language overlay identity/hash differs; regenerate, review, and run --check.')
+            }
+            def android = p.extensions.getByName('android')
+            // Same AndroidSourceSet.kotlin entry point already observed by the external slider host.
+            android.sourceSets.named('androidTest') { ss -> ss.kotlin.srcDir(sources) }
+            p.afterEvaluate {
+                Set<File> candidates = [] as Set
+                android.sourceSets.each { ss ->
+                    (ss.kotlin.directories + ss.java.directories).each { root ->
+                        File folder = p.file(root)
+                        if (folder.isDirectory()) {
+                            candidates.addAll(p.fileTree(folder).matching {
+                                include '**/*.kt', '**/*.java'
+                            }.files.collect { it.canonicalFile })
+                        }
+                    }
+                }
+                def declaration = ~/(?m)^\s*(?:(?:public|private|protected|internal|open|final|abstract|data|sealed|expect|actual)\s+)*(?:class|object|interface|typealias)\s+AssetLanguageGpuTripletDiagnosticTest\b/
+                def definitions = candidates.findAll { (it.getText('UTF-8') =~ declaration).find() }
+                if (definitions != ([source] as Set)) {
+                    throw new GradleException('Language research alias must be unique across :app source sets: ' + definitions)
+                }
+                p.logger.lifecycle('Explicit language GPU research source attached: ' + source)
+            }
+        }
+    }
+}

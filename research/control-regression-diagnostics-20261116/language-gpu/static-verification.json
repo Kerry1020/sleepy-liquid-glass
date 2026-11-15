@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "status": "STATIC_SOURCE_PREPARATION_VERIFIED_NOT_KOTLIN_OR_GPU_VALIDATED",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "prepare-fixture.py",
+        "--check"
+      ],
+      "local_origin_argument_redacted": false,
+      "exit_code": 0,
+      "result": {
+        "status": "STATIC_PREPARATION_VERIFIED",
+        "test_class": "com.lingion.sleepy.ui.component.AssetLanguageGpuTripletDiagnosticTest",
+        "source_root": "prepared/sources",
+        "output_sha256": "ca4d1638eb08a05ea32dfcdbfd9c2442420ec389062500cc19be5e57ef18d5ce",
+        "origin_verified": false,
+        "gradle_executed": false,
+        "device_used": false
+      }
+    },
+    {
+      "argv": [
+        "python3",
+        "prepare-fixture.py",
+        "--self-test"
+      ],
+      "local_origin_argument_redacted": false,
+      "exit_code": 0,
+      "result": {
+        "status": "STATIC_TRANSFORM_CONTRACTS_PASS",
+        "invalid_inputs_rejected": 3,
+        "byte_preserved_sections": 5,
+        "gradle_executed": false,
+        "device_used": false
+      }
+    }
+  ],
+  "entry_point_guards": 11,
+  "measurement_contract_checks": 27,
+  "files_sha256": {
+    "source/LanguageMenuMotionCaptureTest.kt": "94b488726ac48e666160f786c5881c53b960fc948016a74a7235a923be2f9639",
+    "triplet-body.kt.inc": "4dc35ca1b876201afc9387a96a57d8732a23761054d29f449e47de4191582352",
+    "prepare-fixture.py": "3c4153f094d809c4e8ada798a8939643684ebadf5999d8145e8974adcdea50f3",
+    "verify-static.py": "5ce6e36c3435c91e6d7b996f686a1f0778af36ae8efe6499174d030853df6e52",
+    "overlay.init.gradle": "3047a06526d43b25cc8c2fba6b00f36431e9e45a9ba9d8b32424cd1a62b59d8b",
+    "README.md": "dc9dd41ef352518c8b828d59b164a320cea990033fef039872b8ed70fb5bd439",
+    "prepared/preparation.json": "e12364aa81cfb2a06d05a037c650b8798ea746314cef20dab41afaa30aae4c97",
+    "prepared/sources/com/lingion/sleepy/ui/component/AssetLanguageGpuTripletDiagnosticTest.kt": "ca4d1638eb08a05ea32dfcdbfd9c2442420ec389062500cc19be5e57ef18d5ce"
+  },
+  "gradle_executed": false,
+  "kotlin_compilation_executed": false,
+  "device_used": false,
+  "origin_verified": false,
+  "gpu_sampling_complete": false,
+  "material_acceptance": false,
+  "limits": [
+    "Static text/transform checks do not establish Groovy or Kotlin execution.",
+    "The source-unpainted GPU control, temporal behavior and all numeric outcomes remain unmeasured.",
+    "A negative material/one-row-material control remains necessary for a final regression oracle."
+  ]
+}

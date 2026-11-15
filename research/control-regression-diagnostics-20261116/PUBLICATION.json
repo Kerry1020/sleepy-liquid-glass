@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "scope": "Publication copies of eight pre-existing Floating diagnostic receipts/logs only; no experiment executed by this publication step.",
+  "raw_storage": {
+    "path": ".local/raw",
+    "ignored_by": ".gitignore",
+    "rule": "/.local/",
+    "byte_preserved": true,
+    "publish": false
+  },
+  "format_policy": "Preserve UTF-8 bytes, whitespace, numbers, outcomes and line endings except the explicitly counted replacements below.",
+  "replacement_rules": [
+    {
+      "id": "adb_serial_argument",
+      "files": "*-device.json",
+      "selector": "In the top-level command array, select the JSON string immediately after the sole element equal to -s.",
+      "operation": "Replace that one quoted JSON string token, without reformatting the document.",
+      "replacement": "<ANDROID_SERIAL>",
+      "original_value_stored_in_manifest": false
+    },
+    {
+      "id": "android_sdk_prefix",
+      "pattern": "/Users/[^/\\s\"\\']+/Library/Android/sdk",
+      "replacement": "<ANDROID_SDK>"
+    },
+    {
+      "id": "sleepy_checkout_prefix",
+      "pattern": "/Users/[^/\\s\"\\']+/\\.codex/worktrees/android-settings-glass-fixes/sleepy",
+      "replacement": "<SLEEPY_CHECKOUT>"
+    }
+  ],
+  "integrity_notes": [
+    "The original log_sha256 values inside historical receipts refer to raw logs, not the redacted publication copies. PUBLICATION.json supplies the public hashes.",
+    "SHA-256 values, source refs, UTC times, test outcomes, assertions and installed test-app/package hashes are not changed.",
+    "adb process exit_code 0 does not mean the instrumentation tests passed; failure counts and raw JUnit failure output are retained."
+  ],
+  "files": [
+    {
+      "path": "floating-clock-only-build.json",
+      "raw_private_path": ".local/raw/floating-clock-only-build.json",
+      "raw_sha256": "a50f66c9574a7379460a03cc8de6d3f906b147fbd8fb7066285cd8687e8e9d9f",
+      "public_sha256": "a50f66c9574a7379460a03cc8de6d3f906b147fbd8fb7066285cd8687e8e9d9f",
+      "raw_bytes": 587,
+      "public_bytes": 587,
+      "replacement_counts": {
+        "android_sdk_prefix": 0,
+        "sleepy_checkout_prefix": 0
+      }
+    },
+    {
+      "path": "floating-clock-only-build.txt",
+      "raw_private_path": ".local/raw/floating-clock-only-build.txt",
+      "raw_sha256": "cd689ee9e5b2e71aad5d4811051c2f22cb9fc0d1aa5f4e259a8746d2d6e2c755",
+      "public_sha256": "d03e6e6fda77149a752d38b990f666151bfd3dea114877845f1a5c2858258351",
+      "raw_bytes": 6343,
+      "public_bytes": 6292,
+      "replacement_counts": {
+        "android_sdk_prefix": 0,
+        "sleepy_checkout_prefix": 1
+      }
+    },
+    {
+      "path": "floating-clock-only-device.json",
+      "raw_private_path": ".local/raw/floating-clock-only-device.json",
+      "raw_sha256": "7f4ed5220331d353b2d98985f7e7e64eef51ad045c592ad7f4b234d28c297860",
+      "public_sha256": "16f3f5c3e32fb97f07903d77abe291e9667750bb1fd306658689b7580172123d",
+      "raw_bytes": 1316,
+      "public_bytes": 1302,
+      "replacement_counts": {
+        "adb_serial_argument": 1,
+        "android_sdk_prefix": 1,
+        "sleepy_checkout_prefix": 0
+      }
+    },
+    {
+      "path": "floating-clock-only-device.txt",
+      "raw_private_path": ".local/raw/floating-clock-only-device.txt",
+      "raw_sha256": "afdc78dabc48dee10ab19f79b3c0c00a9356d472ba855b6fcc6076f34a5bd9d2",
+      "public_sha256": "afdc78dabc48dee10ab19f79b3c0c00a9356d472ba855b6fcc6076f34a5bd9d2",
+      "raw_bytes": 4177,
+      "public_bytes": 4177,
+      "replacement_counts": {
+        "android_sdk_prefix": 0,
+        "sleepy_checkout_prefix": 0
+      }
+    },
+    {
+      "path": "floating-clock-track-build.json",
+      "raw_private_path": ".local/raw/floating-clock-track-build.json",
+      "raw_sha256": "4d37a18a5b173a889a99da95dfb9a9ff55e6bf7bb5ad598f0f3d623f19bb89bf",
+      "public_sha256": "4d37a18a5b173a889a99da95dfb9a9ff55e6bf7bb5ad598f0f3d623f19bb89bf",
+      "raw_bytes": 651,
+      "public_bytes": 651,
+      "replacement_counts": {
+        "android_sdk_prefix": 0,
+        "sleepy_checkout_prefix": 0
+      }
+    },
+    {
+      "path": "floating-clock-track-build.txt",
+      "raw_private_path": ".local/raw/floating-clock-track-build.txt",
+      "raw_sha256": "6f82a90022093e8c557821136e51ee0425d34c7a78a68aafab6242f16d434b39",
+      "public_sha256": "7a5444633736ef16c1010f2563e0417bb2c2a2646aef30f8db12b35478ea4dd1",
+      "raw_bytes": 6311,
+      "public_bytes": 6260,
+      "replacement_counts": {
+        "android_sdk_prefix": 0,
+        "sleepy_checkout_prefix": 1
+      }
+    },
+    {
+      "path": "floating-clock-track-held-device.json",
+      "raw_private_path": ".local/raw/floating-clock-track-held-device.json",
+      "raw_sha256": "c89f4c23f80b30c02f634246afa80b380a68035e47bf313eb4b6447d86abf156",
+      "public_sha256": "50c6a5bdf2d23206396460030e934e60466bca2ae29b7bc15b99b885345c66b7",
+      "raw_bytes": 1082,
+      "public_bytes": 1068,
+      "replacement_counts": {
+        "adb_serial_argument": 1,
+        "android_sdk_prefix": 1,
+        "sleepy_checkout_prefix": 0
+      }
+    },
+    {
+      "path": "floating-clock-track-held-device.txt",
+      "raw_private_path": ".local/raw/floating-clock-track-held-device.txt",
+      "raw_sha256": "bc6d4b4510540d4ca6d9fbe945daf1dfd9f3ec995cace75bbefa47613b98cc49",
+      "public_sha256": "bc6d4b4510540d4ca6d9fbe945daf1dfd9f3ec995cace75bbefa47613b98cc49",
+      "raw_bytes": 2267,
+      "public_bytes": 2267,
+      "replacement_counts": {
+        "android_sdk_prefix": 0,
+        "sleepy_checkout_prefix": 0
+      }
+    }
+  ]
+}

@@ -1,14 +1,28 @@
-// This file is inert unless explicitly supplied with Gradle -I/--init-script.
+// Inert unless explicitly supplied with Gradle -I/--init-script.
 import groovy.json.JsonSlurper
+import java.nio.file.Files
 import java.security.MessageDigest
 
 def aliasName = 'AssetNativeSliderOpticalWorldRenderTest'
-def aliasRelative = 'com/lingion/sleepy/ui/component/' + aliasName + '.kt'
-def expectedMap = '4743df6a03b68f30fe5f0071b9d23a23aa5db6042696e60c5cf063cfa9227032'
-def expectedSource = '1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e'
-def expectedOutput = '2ab0164e70f7374f9851e03631c35613ba838152aa8ef10c107347dd33965da5'
+def aliasRelative = 'com/lingion/sleepy/ui/component/AssetNativeSliderOpticalWorldRenderTest.kt'
+def helperRelative = 'com/lingion/sleepy/ui/component/assetresearch/AssetGlassOpticalCaptureFixtures.kt'
+def helperPackage = 'com.lingion.sleepy.ui.component.assetresearch'
+def expectedReceipt = 'f0a77f707968225ebe00c8c55f8ece3fd9aa298c968584456386c21d40818b37'
+def expectedFiles = [
+    'com/lingion/sleepy/ui/component/AssetNativeSliderOpticalWorldRenderTest.kt': '4e25fe39264656134a48958bdd49aeb1506f17815c8610d2de4219042e52f360',
+    'com/lingion/sleepy/ui/component/assetresearch/AssetGlassOpticalCaptureFixtures.kt': 'eee6b8de60ca26cc9845dd3ea9a6ecf8b443c8f4bd1cb05589afdd17c7852c8d'
+]
 def digest = { File file ->
     MessageDigest.getInstance('SHA-256').digest(file.bytes).encodeHex().toString()
+}
+def rejectSymlinkParents = { File file ->
+    File current = file.absoluteFile
+    while (current != null) {
+        if (Files.isSymbolicLink(current.toPath())) {
+            throw new GradleException('Research overlay paths must contain no symlinks: ' + current)
+        }
+        current = current.parentFile
+    }
 }
 
 gradle.beforeProject { p ->
@@ -18,34 +32,59 @@ gradle.beforeProject { p ->
             if (!raw || !new File(raw).isAbsolute()) {
                 throw new GradleException('Provide an absolute -PglassResearchSources path from prepare-overlay.py.')
             }
+            rejectSymlinkParents(new File(raw))
             File sources = new File(raw).canonicalFile
             File host = p.rootProject.projectDir.canonicalFile
             if (!sources.isDirectory() || sources.toPath().startsWith(host.toPath())) {
                 throw new GradleException('Research sources must be an existing directory outside the Sleepy checkout.')
             }
-            File source = new File(sources, aliasRelative).canonicalFile
             File receiptFile = new File(sources.parentFile, 'preparation.json')
-            if (!source.isFile() || !source.toPath().startsWith(sources.toPath()) || !receiptFile.isFile()) {
-                throw new GradleException('Missing prepared aliased source or preparation.json; run prepare-overlay.py.')
-            }
-            def actualFiles = p.fileTree(sources).files.collect { it.canonicalFile } as Set
-            if (actualFiles != ([source] as Set)) {
-                throw new GradleException('Overlay must contain exactly one prepared Kotlin source file.')
+            rejectSymlinkParents(receiptFile)
+            if (!receiptFile.isFile() || digest(receiptFile) != expectedReceipt) {
+                throw new GradleException('Missing or changed v2 preparation receipt; run prepare-overlay.py --check.')
             }
             def receipt = new JsonSlurper().parse(receiptFile)
-            if (receipt.schema != 1 || receipt.alias_class != aliasName ||
-                    receipt.output_relative_path != aliasRelative || receipt.selected_android_tests != 1 ||
-                    receipt.source_map_sha256 != expectedMap || receipt.source_sha256 != expectedSource ||
-                    receipt.output_sha256 != expectedOutput || digest(source) != expectedOutput) {
-                throw new GradleException('Prepared overlay identity/hash differs; rerun prepare-overlay.py --check.')
+            def receiptFiles = receipt.artifacts.collectEntries { [(it.output_relative_path): it.output_sha256] }
+            if (receipt.schema != 2 || receipt.alias_class != aliasName || receipt.helper_package != helperPackage ||
+                    receipt.selected_android_tests != 1 || receipt.selected_helper_files != 1 ||
+                    receipt.host_helper_dependency != false || receipt.artifacts.size() != 2 || receiptFiles != expectedFiles) {
+                throw new GradleException('Prepared overlay identities differ from the pinned fixture/helper pair.')
             }
+            Set<File> expectedSources = [] as Set
+            expectedFiles.each { relative, expectedSha ->
+                File source = new File(sources, relative).canonicalFile
+                if (!source.toPath().startsWith(sources.toPath()) || !source.isFile() || digest(source) != expectedSha) {
+                    throw new GradleException('Prepared research source is missing or changed: ' + relative)
+                }
+                expectedSources.add(source)
+            }
+            Set<File> actualFiles = [] as Set
+            def walk = Files.walk(sources.toPath())
+            try {
+                walk.forEach { path ->
+                    if (Files.isSymbolicLink(path)) {
+                        throw new GradleException('Research source tree must contain no symlinks: ' + path)
+                    }
+                    if (Files.isRegularFile(path)) {
+                        actualFiles.add(path.toFile().canonicalFile)
+                    } else if (!Files.isDirectory(path)) {
+                        throw new GradleException('Unexpected research source tree entry: ' + path)
+                    }
+                }
+            } finally {
+                walk.close()
+            }
+            if (actualFiles != expectedSources) {
+                throw new GradleException('Overlay must contain exactly the prepared fixture and complete namespaced helpers.')
+            }
+            File fixtureSource = new File(sources, aliasRelative).canonicalFile
+            File helperSource = new File(sources, helperRelative).canonicalFile
             def android = p.extensions.getByName('android')
             // AGP built-in Kotlin reads AndroidSourceSet.kotlin, not java.srcDir.
             android.sourceSets.named('androidTest') { ss ->
                 ss.kotlin.srcDir(sources)
             }
             p.afterEvaluate {
-                // Canonical paths deduplicate overlapping Java/Kotlin source roots.
                 Set<File> candidates = [] as Set
                 android.sourceSets.each { ss ->
                     (ss.kotlin.directories + ss.java.directories).each { root ->
@@ -59,10 +98,15 @@ gradle.beforeProject { p ->
                 }
                 def declaration = ~/(?m)^\s*(?:(?:public|private|protected|internal|open|final|abstract|data|sealed|expect|actual)\s+)*(?:class|object|interface|typealias)\s+AssetNativeSliderOpticalWorldRenderTest\b/
                 def definitions = candidates.findAll { (it.getText('UTF-8') =~ declaration).find() }
-                if (definitions != ([source] as Set)) {
+                if (definitions != ([fixtureSource] as Set)) {
                     throw new GradleException('Research alias must be unique across :app source sets: ' + definitions)
                 }
-                p.logger.lifecycle('Opt-in asset research source attached to :app androidTest: ' + source)
+                def namespace = ~/(?m)^\s*package\s+com\.lingion\.sleepy\.ui\.component\.assetresearch\s*;?\s*$/
+                def namespaceOwners = candidates.findAll { (it.getText('UTF-8') =~ namespace).find() }
+                if (namespaceOwners != ([helperSource] as Set)) {
+                    throw new GradleException('Research helper namespace must belong only to the prepared helper: ' + namespaceOwners)
+                }
+                p.logger.lifecycle('Opt-in asset research fixture and complete namespaced helpers attached to :app androidTest: ' + sources)
             }
         }
     }

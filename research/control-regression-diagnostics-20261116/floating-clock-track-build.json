@@ -1,0 +1,17 @@
+{
+  "scope": "Input clock and visual track measurement only; product unchanged",
+  "source_head": "9cc97649147bd2f4b9a57cb6ddce805d412902cf",
+  "command": [
+    "./gradlew",
+    ":app:assembleDebugAndroidTest",
+    "--offline",
+    "--console=plain"
+  ],
+  "exit_code": 0,
+  "seconds": 9.986,
+  "fixture_sha256": "35297406414dc9601b41936836381365c5dea7ed2e919dbc7f892780bdf13cca",
+  "fixture_unchanged_during_build": true,
+  "log_sha256": "6f82a90022093e8c557821136e51ee0425d34c7a78a68aafab6242f16d434b39",
+  "test_apk_sha256": "400e1e4e1e797643bfb5d05a8d042ec19afe8b08fe9321c3c6b8331e7674b24d",
+  "finished_utc": "2026-11-15T21:01:47.168189+00:00"
+}

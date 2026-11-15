@@ -1,0 +1,10 @@
+{
+  "status": "UNCOMMITTED_PRODUCT_TEST_PROPOSAL_NOT_ACCEPTED",
+  "source_commit": "9cc97649147bd2f4b9a57cb6ddce805d412902cf",
+  "path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassFloatingControlsRenderTest.kt",
+  "original_sha256": "e398c0f4e1480a88f1ed33ce31006d9da273f4ce16214a80b319bc3f4c490540",
+  "modified_sha256": "35297406414dc9601b41936836381365c5dea7ed2e919dbc7f892780bdf13cca",
+  "patch_sha256": "7864acd05594398a6b6beba41b0d42c67a253bdad53a5fa47f840edbf447f8d5",
+  "runtime_changes": false,
+  "note": "Only aligns fixture input clock with Compose virtual time and compares the visual track. Later failures remain. Kept in the asset repository until separately reviewed."
+}

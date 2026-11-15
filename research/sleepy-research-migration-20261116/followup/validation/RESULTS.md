@@ -2,7 +2,15 @@
 
 本记录只验证研究迁移与剩余产品测试的状态，不是光学验收。初始构建与真机验证绑定 Sleepy `daabde9ac3b7c421345e6a710fcde1ccd82c475b`；后续范围补正按提交分别记录。
 
-## 最新范围补正（9cc97649）
+## 最新范围补正（e935c5e3）
+
+Sleepy #443 追加 `e935c5e3b9bc3308930fcf2fe79bbd4f95aab7f6`，只删除未接入生产的层序原型与它的自测，两文件共 162 行。全仓库引用复核确认没有其它消费者，实际产品回归与必要输入保留。本次没有本地构建、设备操作或光学参数修改。
+
+累计 **86 文件、+381/-26,831**。四批原文共 **85 份、3,485,073 bytes**，均与固定 Git 来源逐字节核对；[第四批](../../fourth-pass/SOURCE-MAP.json)先在资产库 `3768a3c1f927b3e1896ae83f7667cd39657ae53d` 发布，核对远端、GitHub API、两份云端 blob 及大小后才从应用删除。Floating 时钟/轨道探针另存[资产库诊断](../../../control-regression-diagnostics-20261116/README.md)，已从应用工作区撤回，未混入 #443。
+
+本 head [CI 43762678098](https://github.com/lingion/sleepy/actions/runs/43762678098)与[Debug 43762676479](https://github.com/lingion/sleepy/actions/runs/43762676479)正在运行；下方旧 head 的 10 项成功不能代替它。主分支 update restriction 仍 active，当前账号 `current_user_can_bypass=never`；未重复无效合并请求或绕过规则。清理未合并，不能称主分支已清干净。
+
+## 前一范围补正（9cc97649）
 
 Sleepy #443 追加 `9cc97649147bd2f4b9a57cb6ddce805d412902cf`，进一步删除模块 README 和开关注释中的两处研究入口外链。模块说明仅保留 runtime 接入、必要回归和来源许可。该提交为 2 文件、+2/-5，只修改文档和一行注释；没有改变应用行为、材质、业务布局、CI 或 Gradle。尚未提交的测试时钟修复未混入此 PR。
 

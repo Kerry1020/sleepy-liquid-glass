@@ -1,0 +1,110 @@
+{
+  "schema": 2,
+  "status": "STATIC_PREPARATION_VERIFIED_NOT_GRADLE_VALIDATED",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "prepare-overlay.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "result": {
+        "artifacts": {
+          "fixture": {
+            "path": "com/lingion/sleepy/ui/component/AssetNativeSliderOpticalWorldRenderTest.kt",
+            "sha256": "4e25fe39264656134a48958bdd49aeb1506f17815c8610d2de4219042e52f360"
+          },
+          "helpers": {
+            "path": "com/lingion/sleepy/ui/component/assetresearch/AssetGlassOpticalCaptureFixtures.kt",
+            "sha256": "eee6b8de60ca26cc9845dd3ea9a6ecf8b443c8f4bd1cb05589afdd17c7852c8d"
+          }
+        },
+        "preparation_receipt_sha256": "f0a77f707968225ebe00c8c55f8ece3fd9aa298c968584456386c21d40818b37",
+        "source_root": ".local/v2/sources",
+        "status": "VERIFIED",
+        "test_class": "com.lingion.sleepy.ui.component.AssetNativeSliderOpticalWorldRenderTest"
+      }
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "prepare-overlay.py",
+        "--self-test"
+      ],
+      "exit_code": 0,
+      "result": {
+        "complete_namespaced_helper": true,
+        "device_used": false,
+        "gradle_executed": false,
+        "helper_aliases": 8,
+        "invalid_inputs_rejected": 6,
+        "inverse_byte_equality_verified": true,
+        "preparation_receipt_sha256": "f0a77f707968225ebe00c8c55f8ece3fd9aa298c968584456386c21d40818b37",
+        "prepared_kotlin_files": 2,
+        "selected_android_tests": 1,
+        "status": "PASS"
+      }
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "test-prepare-overlay.py"
+      ],
+      "exit_code": 0,
+      "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.088s\n\nOK\n"
+    }
+  ],
+  "files_sha256": {
+    ".gitignore": "4ca429f0c4a3074b3c173ff196dbf4c579d7fa2eb7fc77760799352e510dd538",
+    "README.md": "715c7020395a941070edd6eee26d8ebe701f52b0662db0795b5c89eb527ed42c",
+    "prepare-overlay.py": "795f65de2c1d980585df0fea5eaa0b8bcfd99c3309bb643b8e53a49c4dac7551",
+    "overlay.init.gradle": "b85e47f02d759c3a4b8018ee1f35500e3524b7d0d4646b5568561915debf1a7a",
+    "verify-static.py": "1450a5cd102ae317f116618021f0c02444f66c8c51f69c43b75996809a069eb7",
+    "test-prepare-overlay.py": "91d242f324002e5e5cc0ba6b2e413cfc80b6924c43c349730925566bb9ed2a1e"
+  },
+  "generated_receipt_sha256": "f0a77f707968225ebe00c8c55f8ece3fd9aa298c968584456386c21d40818b37",
+  "generated_sources": {
+    "fixture": {
+      "path": "com/lingion/sleepy/ui/component/AssetNativeSliderOpticalWorldRenderTest.kt",
+      "sha256": "4e25fe39264656134a48958bdd49aeb1506f17815c8610d2de4219042e52f360"
+    },
+    "helpers": {
+      "path": "com/lingion/sleepy/ui/component/assetresearch/AssetGlassOpticalCaptureFixtures.kt",
+      "sha256": "eee6b8de60ca26cc9845dd3ea9a6ecf8b443c8f4bd1cb05589afdd17c7852c8d"
+    }
+  },
+  "static_entry_point_checks": 21,
+  "complete_receipt_and_output_pins_match": true,
+  "existing_comparison": {
+    "path": "../../docs/design/evidence/glass-slider-star-20261115/figures/six-pose-comparison.png",
+    "sha256": "17b4aafd0e5bc4eaaa118d55e68d1c188ad20194cba81422496378bdf285b53f"
+  },
+  "observed_agp_api": {
+    "version": "9.5.1",
+    "signatures": [
+      "AndroidSourceSet.getKotlin()",
+      "AndroidSourceDirectorySet.srcDir(Object)",
+      "AndroidSourceDirectorySet.getDirectories()"
+    ],
+    "method": "Historical read-only API inspection; not a new Gradle execution"
+  },
+  "gradle_executed": false,
+  "kotlin_compilation_executed": false,
+  "device_used": false,
+  "optical_acceptance": false,
+  "limits": [
+    "Static guards and inverse byte equality do not prove Groovy/Gradle execution or Kotlin compilation.",
+    "Sleepy :app adapters/theme, AndroidJUnit/Compose and runner remain required.",
+    "The old schema1 static/build receipts do not validate this two-file integration."
+  ],
+  "publication": {
+    "raw_sha256": "b0c83e2f9628742e33140faa4450fcfdb85135f30043953c95bab0488ce6727e",
+    "raw_path": ".local/v2/static-verification.json",
+    "transformation": "Only commands[0].result.source_root is rewritten to .local/v2/sources, relative to this host directory; JSON indentation is retained.",
+    "gradle_or_device_run_added": false
+  }
+}

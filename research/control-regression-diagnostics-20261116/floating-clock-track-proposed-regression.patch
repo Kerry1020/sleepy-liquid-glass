@@ -1,0 +1,26 @@
+diff --git a/app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassFloatingControlsRenderTest.kt b/app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassFloatingControlsRenderTest.kt
+index e21345ef..2d3c7210 100644
+--- a/app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassFloatingControlsRenderTest.kt
++++ b/app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassFloatingControlsRenderTest.kt
+@@ -110,7 +110,11 @@ class GlassFloatingControlsRenderTest {
+             var value by remember { mutableFloatStateOf(.55f) }
+             val background = if (darkMode.value) Color(0xFF10131A) else Color(0xFFF3F7F8)
+             MaterialTheme(colorScheme = if (darkMode.value) darkColorScheme() else lightColorScheme()) {
+-                CompositionLocalProvider(LocalUiStyle provides UiStyle.LiquidGlass, LocalDarkTheme provides darkMode.value) {
++                CompositionLocalProvider(
++                    LocalUiStyle provides UiStyle.LiquidGlass,
++                    LocalDarkTheme provides darkMode.value,
++                    LocalDockInputTimeNanos provides { compose.mainClock.currentTime * 1_000_000L },
++                ) {
+                     GlassHost(modifier = Modifier.fillMaxSize(), background = background) {
+                         GlassBackground(depth = 0f, modifier = Modifier.fillMaxSize()) {
+                             Box(Modifier.fillMaxSize().background(background).drawBehind {
+@@ -234,7 +238,7 @@ class GlassFloatingControlsRenderTest {
+         val tabs = compose.onNodeWithTag("tabs")
+         tabs.performTouchInput { down(Offset(width / 4f, centerY)) }
+         compose.waitForIdle()
+-        val track = tabs.getUnclippedBoundsInRoot()
++        val track = compose.onNodeWithTag("segment-track", true).getUnclippedBoundsInRoot()
+         val held = compose.onNodeWithTag("segment-thumb", true).getUnclippedBoundsInRoot()
+         assertTrue("glass must extend above track", held.top < track.top)
+         assertTrue("glass must extend below track", held.bottom > track.bottom)
