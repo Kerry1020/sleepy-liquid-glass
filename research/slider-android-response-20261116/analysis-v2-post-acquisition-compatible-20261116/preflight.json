@@ -1,0 +1,1722 @@
+{
+  "status": "PRE_RESPONSE_PREFLIGHT_PASSED",
+  "optical_acceptance": false,
+  "self_test": {
+    "status": "PASS_PURE_MATH_AND_GATE_SELF_TESTS",
+    "checks": 19,
+    "evidence_read": false,
+    "files_written": false,
+    "optical_acceptance": false
+  },
+  "adapter_sha256": "6677c61b6eff66d924fa5213e8a0e7ebb810b808b01cf1c416e17e2bfab01e3b",
+  "frozen_analyzer_sha256": "cc789722557b1e7136ec1352029f6cb61aa378e5a74e65957e33753dbb9f0bcf",
+  "changed_function_ASTs": [
+    "load_round",
+    "execute"
+  ],
+  "execute_AST_equal_excluding_compatibility_provenance": true,
+  "freeze": {
+    "status": "RECORDED_FREEZE_HASHES_MATCH",
+    "identity": {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/FREEZE.json",
+      "sha256": "4cd995935db016027d5c37cb472b53c7ea205a063aa7dc68412a265e2f704e23",
+      "bytes": 12957
+    },
+    "checked_files": [
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/docs/design/evidence/glass-slider-star-20261115/frozen-calibration-tools/index-android-shape-captures.py",
+        "sha256": "682ac2ef0ccd3d6af543768ca36adf90652b7b55d1987617813baa3e91db2497",
+        "bytes": 9012
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/.local/preparation.json",
+        "sha256": "e160b017992354db24116721e2feb56d4495a8485bbc9009f74b54a6494d395e",
+        "bytes": 1162
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/.local/sources/com/lingion/sleepy/ui/component/AssetNativeSliderOpticalWorldRenderTest.kt",
+        "sha256": "2ab0164e70f7374f9851e03631c35613ba838152aa8ef10c107347dd33965da5",
+        "bytes": 71700
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/host-build-20261116.json",
+        "sha256": "307feb49d1e93946f1641f580301aa77c2546b9fa0c38ce1f9e2aeac965bd3f7",
+        "bytes": 2629
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/overlay.init.gradle",
+        "sha256": "0447b34d330ef7d5f09567827d322d9e1a756cc2a1de1bbf99ca760c9095dc78",
+        "bytes": 4207
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/prepare-overlay.py",
+        "sha256": "77f7c9e5dc6f70b2701aceba6ec00ef42e3cdddfc1ed21e7260899175324babf",
+        "bytes": 7030
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/INCIDENTS.json",
+        "sha256": "0c286c05f589620cceb39599dff3e2135f26d6201d8c174676ff87abb06995e3",
+        "bytes": 484
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/PLAN.md",
+        "sha256": "0f29315ed79cafc656a86db4eb241cd197579e497ce584a6a2beacb117b68660",
+        "bytes": 12079
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/analyze.py",
+        "sha256": "cc789722557b1e7136ec1352029f6cb61aa378e5a74e65957e33753dbb9f0bcf",
+        "bytes": 47753
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/capture.py",
+        "sha256": "3ea272eb4bd5233fd3f29ce2bfc76ea653e5dca3e4a5990ae92e2ffd1b484d58",
+        "bytes": 8061
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/collector-self-test.py",
+        "sha256": "b8f2eba4307e823e57c8f9930bf66c42d884064010d8ef3f9e0f3b44e68ec3ff",
+        "bytes": 9470
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/SOURCE-MAP.json",
+        "sha256": "e6a8c7b0fe8bf89140b0628bf640d65ce1ec647a666db4f3b59691fe8985a825",
+        "bytes": 8483
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/control-post/shape-spec.json",
+        "sha256": "c8f48e5efa6b5c57c716937ea4a3c6cd4341840051822148ecab4bafdee97b05",
+        "bytes": 42598
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/control-pre/shape-spec.json",
+        "sha256": "8a2dd9bab3be70261a3a6938b8d4e5c20c8eb4e0601d004e47aec16496d4ed15",
+        "bytes": 42595
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/global-G/shape-spec.json",
+        "sha256": "e2e9c3b3c52cafbd291bccb4da4f0600611c6e23460b80170cf944ebeb5c71a6",
+        "bytes": 42728
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/mask-G/shape-spec.json",
+        "sha256": "f3cb05e16954f7661e8b6e2d8a63fee420bdcad603daea0646155617cea086d0",
+        "bytes": 42857
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/installation.json",
+        "sha256": "96b31887f72816e118858c58445a977ea7ceb9d5e4d2d0d6b9c7502d2971f2ef",
+        "bytes": 1613
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/prepare.py",
+        "sha256": "c3da82776f5aa513e1a47151838accedabb43b077f407255e7695bc73357682b",
+        "bytes": 4427
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/provenance/historical-geometry-spec.json",
+        "sha256": "8eab6adf59ee618a08237fa3eea669e82bf29a3de9e9a1537b11f240ea870fd4",
+        "bytes": 42506
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/manifest.json",
+        "sha256": "d1f2d2be9a2cb984cf9ffb8c8a85ee8f9e11ce892be998c9c95666e5644554f6",
+        "bytes": 33502
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/reference-analysis/analysis.json",
+        "sha256": "5499910555e7aa465f853c2361f55fe4a2300703416a98b82d00de98c393d9ba",
+        "bytes": 4759467
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/reference-analysis/original-pixels.npz",
+        "sha256": "11b1e76aa2a0a7766b579bdfd8a8fc8e4bceecda1fc996a34f07d9955a78f695",
+        "bytes": 270671
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/rounds/control-post/native-r1/index-strict.json",
+        "sha256": "2b0849d98d23bb166cc1e8d75818f60b187eeb432dc803af000a41be64aba14b",
+        "bytes": 3511
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/rounds/control-pre/native-r1/endpoint-verification-strict.json",
+        "sha256": "0108403793bca3bb3761a68ef6d7c3c91c0154dee1e2e52d720a95e1b445cb5c",
+        "bytes": 468236
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/rounds/control-pre/native-r1/index-strict.json",
+        "sha256": "042bc90107f62485c7f838f9b807c48f7da294e9a45f3e2f5207bc29db92e09e",
+        "bytes": 3504
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/rounds/global-G/native-r1/index-strict.json",
+        "sha256": "c0e0b34efa2c002a89267e16c52da2c84ed2db768bc20fd52ea68575dc76e599",
+        "bytes": 3516
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/rounds/mask-G/native-r1/index-strict.json",
+        "sha256": "a77870ae779a367440fb0ee67cc7962f2709998c5cccf20e167c5fbdc5622ad3",
+        "bytes": 3496
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/manifest.json",
+        "sha256": "10f2f18083d27c4366e98f21b31aa80e261bc968b0bacf1761ce03b6ca1514a2",
+        "bytes": 1626
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st00_flat128.png",
+        "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+        "bytes": 5221
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st01_rgb_star_d16.png",
+        "sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+        "bytes": 5780
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st02_rgb_star6_d16.png",
+        "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+        "bytes": 5828
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st03_rgb_star7_d16.png",
+        "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+        "bytes": 5921
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st04_rgb_star8_d16.png",
+        "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+        "bytes": 5997
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st05_rgb_star5_d12.png",
+        "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+        "bytes": 5634
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st06_rgb_star6_d12.png",
+        "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+        "bytes": 5673
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st07_rgb_star7_d12.png",
+        "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+        "bytes": 5751
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/shape-spec.json",
+        "sha256": "f0dfeac27498d7050ab22882bbf980f916bfeec178fd43338f150e01fed363ad",
+        "bytes": 38436
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/manifest.json",
+        "sha256": "96ef3d90387340ed7a93c11a0139720256e771a701563ad8d7f170deb342790d",
+        "bytes": 1625
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st00_flat128.png",
+        "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+        "bytes": 5221
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st01_rgb_star_d16.png",
+        "sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+        "bytes": 5780
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st02_rgb_star6_d16.png",
+        "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+        "bytes": 5828
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st03_rgb_star7_d16.png",
+        "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+        "bytes": 5921
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st04_rgb_star8_d16.png",
+        "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+        "bytes": 5997
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st05_rgb_star5_d12.png",
+        "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+        "bytes": 5634
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st06_rgb_star6_d12.png",
+        "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+        "bytes": 5673
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st07_rgb_star7_d12.png",
+        "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+        "bytes": 5751
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/shape-spec.json",
+        "sha256": "83d4a76cc5d730b819f9b8d888c87865a60f16f4725b33ca88f64be8f2a6f882",
+        "bytes": 38435
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/manifest.json",
+        "sha256": "812f8be7eef296c0f3d9ef5925c5d633827d19cd1a66b6c59a0aba9bd84d707d",
+        "bytes": 1644
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st00_flat128.png",
+        "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+        "bytes": 5221
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st01_rgb_star_d16_global_g20.png",
+        "sha256": "49746c72910f7a1218b0260b0126058a5e17cf6eadd29e068afac91e0f4c75d5",
+        "bytes": 6955
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st02_rgb_star6_d16.png",
+        "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+        "bytes": 5828
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st03_rgb_star7_d16.png",
+        "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+        "bytes": 5921
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st04_rgb_star8_d16.png",
+        "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+        "bytes": 5997
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st05_rgb_star5_d12.png",
+        "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+        "bytes": 5634
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st06_rgb_star6_d12.png",
+        "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+        "bytes": 5673
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st07_rgb_star7_d12.png",
+        "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+        "bytes": 5751
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/shape-spec.json",
+        "sha256": "1412001b3e039c492ad2726258d80cb58950d31228eaa3dfa0b43c70603fe0d3",
+        "bytes": 38574
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/manifest.json",
+        "sha256": "99234a6a365b8c4df6860b85e95b73c2cd97a41572070f3cad8b028656d8a02b",
+        "bytes": 1638
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st00_flat128.png",
+        "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+        "bytes": 5221
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st01_rgb_star_d16_mask_g20.png",
+        "sha256": "bff58755a5a2e31a537d97a4adc8ad72e71a1dc7c2c724bba04385ee448257ad",
+        "bytes": 6977
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st02_rgb_star6_d16.png",
+        "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+        "bytes": 5828
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st03_rgb_star7_d16.png",
+        "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+        "bytes": 5921
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st04_rgb_star8_d16.png",
+        "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+        "bytes": 5997
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st05_rgb_star5_d12.png",
+        "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+        "bytes": 5634
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st06_rgb_star6_d12.png",
+        "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+        "bytes": 5673
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st07_rgb_star7_d12.png",
+        "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+        "bytes": 5751
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/shape-spec.json",
+        "sha256": "56879ca12fee67881beb3c323ef12d50b043f243c0d026a50a1035e4e243caab",
+        "bytes": 38707
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-fixtures/SOURCE-MAP.json",
+        "sha256": "4743df6a03b68f30fe5f0071b9d23a23aa5db6042696e60c5cf063cfa9227032",
+        "bytes": 8931
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-fixtures/app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt",
+        "sha256": "1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e",
+        "bytes": 71695
+      }
+    ],
+    "errors": [],
+    "unknowns": [],
+    "limit": "Hash equality checks recorded identity; it does not prove trusted acquisition time"
+  },
+  "native_identities": [
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/reference-analysis/original-pixels.npz",
+      "sha256": "11b1e76aa2a0a7766b579bdfd8a8fc8e4bceecda1fc996a34f07d9955a78f695",
+      "bytes": 270671
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/reference-analysis/analysis.json",
+      "sha256": "5499910555e7aa465f853c2361f55fe4a2300703416a98b82d00de98c393d9ba",
+      "bytes": 4759467
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/manifest.json",
+      "sha256": "d1f2d2be9a2cb984cf9ffb8c8a85ee8f9e11ce892be998c9c95666e5644554f6",
+      "bytes": 33502
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/rounds/control-pre/native-r1/endpoint-verification-strict.json",
+      "sha256": "0108403793bca3bb3761a68ef6d7c3c91c0154dee1e2e52d720a95e1b445cb5c",
+      "bytes": 468236
+    }
+  ],
+  "rounds": [
+    {
+      "name": "control-pre",
+      "identity_checks": 63,
+      "held_endpoints_acquired": 12,
+      "held_endpoints_analyzed": 2,
+      "identities": [
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/index.json",
+          "sha256": "677525c7fba0fc5be1e0558a3ddd862d589e95d6c383b8bc3c97e0885dd812fe",
+          "bytes": 36417
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/docs/design/evidence/glass-slider-star-20261115/frozen-calibration-tools/index-android-shape-captures.py",
+          "sha256": "682ac2ef0ccd3d6af543768ca36adf90652b7b55d1987617813baa3e91db2497",
+          "bytes": 9012
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/result.json",
+          "sha256": "0dc429d6320d6a50d47b0f80cdf3e735fa7c9e7edc43d2e9d88fb8c73add9a28",
+          "bytes": 2252357
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/receipt.json",
+          "sha256": "2a9b5fea99b6f35a62abf370d4e16c2ee6d4cf9070ea0312267ea416717bd71c",
+          "bytes": 15278
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/control-pre/shape-spec.json",
+          "sha256": "8a2dd9bab3be70261a3a6938b8d4e5c20c8eb4e0601d004e47aec16496d4ed15",
+          "bytes": 42595
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/manifest.json",
+          "sha256": "96ef3d90387340ed7a93c11a0139720256e771a701563ad8d7f170deb342790d",
+          "bytes": 1625
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st00_flat128.png",
+          "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+          "bytes": 5221
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st01_rgb_star_d16.png",
+          "sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+          "bytes": 5780
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st02_rgb_star6_d16.png",
+          "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+          "bytes": 5828
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st03_rgb_star7_d16.png",
+          "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+          "bytes": 5921
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st04_rgb_star8_d16.png",
+          "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+          "bytes": 5997
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st05_rgb_star5_d12.png",
+          "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+          "bytes": 5634
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st06_rgb_star6_d12.png",
+          "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+          "bytes": 5673
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st07_rgb_star7_d12.png",
+          "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+          "bytes": 5751
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/result.json",
+          "sha256": "0dc429d6320d6a50d47b0f80cdf3e735fa7c9e7edc43d2e9d88fb8c73add9a28",
+          "bytes": 2252357
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-far50-background-screen.png",
+          "sha256": "15e749620cade01cf8d0ca61e541e1a621e72dbfc9afa92d03454fd4de947daa",
+          "bytes": 30644
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-far50-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-far50-held-screen.png",
+          "sha256": "e9eb393f8f749a574c1bb37098dce44476295975f163d4359496c5cf87554f60",
+          "bytes": 41283
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-far50-held-window.png",
+          "sha256": "14d08eefaf9d0c9c42162ef39b1ccdc68361fa3deeb9efc318282d779f7d4131",
+          "bytes": 29926
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-full100-background-screen.png",
+          "sha256": "5622382fec62b5a2fdb7de483ef6b561e9158da9c49371751780ebaa617bcddb",
+          "bytes": 30445
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-full100-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-full100-held-screen.png",
+          "sha256": "7346f2e419031b87183f83ec162844a3463fe9c3db86ecef713b1c24115c63b7",
+          "bytes": 40983
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-full100-held-window.png",
+          "sha256": "c25afdce41864eb4b17e051d1d2be75497ca02ac388c5736afe66dd6cf831c7a",
+          "bytes": 29948
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress01-background-screen.png",
+          "sha256": "b69ec9c0af5c74bd86c6bb02d9cc9f973ad844c33b6191db1c67bd32177b2ec3",
+          "bytes": 30216
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress01-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress01-held-screen.png",
+          "sha256": "f5f91ee9a02d2ea88bce18831ae571c7317f0072e3fff9dc74f09db1174ebfd9",
+          "bytes": 40938
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress01-held-window.png",
+          "sha256": "039c078727cdbe5e837ad8842e231eaf714329c41ae51caa7c251e0543e3d0b4",
+          "bytes": 29940
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress10-background-screen.png",
+          "sha256": "2292cfefc561289dc98675e5b4a11213d34486e21219234b1abd86e43f081805",
+          "bytes": 30211
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress10-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress10-held-screen.png",
+          "sha256": "f1318ac8af24cec66146fe07cf02507d482b2ba91cbdf406dff73c3a84345363",
+          "bytes": 40926
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress10-held-window.png",
+          "sha256": "65572d75a8cd4cbc2fec53a34aeb30b2dae0b9c48c5c0d0454822be2b6f3842d",
+          "bytes": 29955
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress50-background-screen.png",
+          "sha256": "d3192d326ec6b2c55a6f16767497e82f20876f88b3b802b996bd253b274d3a18",
+          "bytes": 30518
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress50-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress50-held-screen.png",
+          "sha256": "1bb2ee056ef248fe1de84d525cb2b8d275eec9bca94f5da1be28bb882ef8f06f",
+          "bytes": 41569
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress50-held-window.png",
+          "sha256": "fec412445d4c0a316bc0e0e03d5e20bea039efe595d8bb22a9d3c69309ef01d8",
+          "bytes": 29957
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress75-background-screen.png",
+          "sha256": "fc690d49abdd83d3c627a8d088f1e4df85c051bb65d6639f37363a79a815cfa4",
+          "bytes": 30658
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress75-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress75-held-screen.png",
+          "sha256": "173ea4f3b55ecbccd6bf3de4fea1315ec2a10e4bfbd03ea665ea7438c618ad37",
+          "bytes": 41618
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st00_flat128-light-ingress75-held-window.png",
+          "sha256": "4a6589f182fb901f7fd8a2d6b55a60e3f6650aac117af7aed9c89ac7a47ad8df",
+          "bytes": 29918
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-far50-background-screen.png",
+          "sha256": "1289b4fe8cd8c79355adb24244c33eacc88b36fc0a46b80e744291fbaa60caeb",
+          "bytes": 32698
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-far50-background-window.png",
+          "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+          "bytes": 20856
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-far50-held-screen.png",
+          "sha256": "e1c4286e1faa9b760a85d7190b185fca499fcb2fce32874d21eb96970cae0998",
+          "bytes": 42852
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-far50-held-window.png",
+          "sha256": "86ee32943752e7ad2d90543d40c0b5952378b2d36207d57291cbf0d43aaec00c",
+          "bytes": 31868
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-full100-background-screen.png",
+          "sha256": "53c5eb8cfb337656a535a1a64a89656b36a499a66fb142e227e557930f01b521",
+          "bytes": 33072
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-full100-background-window.png",
+          "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+          "bytes": 20856
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-full100-held-screen.png",
+          "sha256": "510cd53d32cd8716c8cc6e51283f0830819f91e8a7fd0e021e57b762bcd83d96",
+          "bytes": 44260
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-full100-held-window.png",
+          "sha256": "3739849f360af4a59f7b6d15b54c362311bd26a5262abc1fad7f9b219429d4b8",
+          "bytes": 33657
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress01-background-screen.png",
+          "sha256": "dda7175e42f191018c0f2fc80cf9f156f34176f4c512545c3aa7bddd06f3491f",
+          "bytes": 32556
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress01-background-window.png",
+          "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+          "bytes": 20856
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress01-held-screen.png",
+          "sha256": "f4f7b7994221a716c595c07b88227f3a01f14dd895bd7b62b09494c20244571c",
+          "bytes": 42845
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress01-held-window.png",
+          "sha256": "66fd6d6a350d2d289b6ef570cc735ef39cde8e247e0776a17886e378230bc90d",
+          "bytes": 31869
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress10-background-screen.png",
+          "sha256": "a44463474c55f14062cf9feb7cdef671ca9558c16d398343958f5cd72a92ab87",
+          "bytes": 32285
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress10-background-window.png",
+          "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+          "bytes": 20856
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress10-held-screen.png",
+          "sha256": "0dc6e857fe6e9cce5b74e5bfb8b1c9c4f0523925857038af9446289e126f3373",
+          "bytes": 42408
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress10-held-window.png",
+          "sha256": "45dd2061199187a1a7fbec6858319953d0367be4ee4002a8a6fdf1d10d8f13ca",
+          "bytes": 31671
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress50-background-screen.png",
+          "sha256": "1007f97585c7dedac7a55ec2294842dcb674d449e3e7faba6171c5ec2c4292e4",
+          "bytes": 32209
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress50-background-window.png",
+          "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+          "bytes": 20856
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress50-held-screen.png",
+          "sha256": "cea007b7d80e692fd3d3d85feda4a15df7cb1fe5f191953aaddffa0619a18e06",
+          "bytes": 42961
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress50-held-window.png",
+          "sha256": "a06fc50a0ca3439bff0b48be47be271c5f83c0ba1bc3798eaaf15364843a49a3",
+          "bytes": 31959
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress75-background-screen.png",
+          "sha256": "2093f92dd9e72fe4f46218272430e495e9799810598a6976be187944a6ba9af4",
+          "bytes": 33045
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress75-background-window.png",
+          "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+          "bytes": 20856
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress75-held-screen.png",
+          "sha256": "1dd4b51238702786bbce0af7aff9a87c3fc46075b5eb45c99a4fa9ac5d7d5bdf",
+          "bytes": 43307
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-pre/android-r2/trace/st01_rgb_star_d16-light-ingress75-held-window.png",
+          "sha256": "a249a28756c659e79b8278e4e3f46bd9f08cbc13ac9694ee1bb8a3b8c6470790",
+          "bytes": 32241
+        }
+      ]
+    },
+    {
+      "name": "global-G",
+      "identity_checks": 63,
+      "held_endpoints_acquired": 12,
+      "held_endpoints_analyzed": 2,
+      "identities": [
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/index.json",
+          "sha256": "3f27f389b70154bef0618906bd0f345a6f6e3f9f8a8cae42afd4562e9915581c",
+          "bytes": 36648
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/docs/design/evidence/glass-slider-star-20261115/frozen-calibration-tools/index-android-shape-captures.py",
+          "sha256": "682ac2ef0ccd3d6af543768ca36adf90652b7b55d1987617813baa3e91db2497",
+          "bytes": 9012
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/result.json",
+          "sha256": "1839d0f0c95c4d6312c7abe7b60a727db0a2b17916cb6cdfeea0b1653b345e5a",
+          "bytes": 2257098
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/receipt.json",
+          "sha256": "71ddd46f13cb17f66487d474656fcd4dde4819ee5785c791bf08c422f68abde6",
+          "bytes": 15542
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/global-G/shape-spec.json",
+          "sha256": "e2e9c3b3c52cafbd291bccb4da4f0600611c6e23460b80170cf944ebeb5c71a6",
+          "bytes": 42728
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/manifest.json",
+          "sha256": "812f8be7eef296c0f3d9ef5925c5d633827d19cd1a66b6c59a0aba9bd84d707d",
+          "bytes": 1644
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st00_flat128.png",
+          "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+          "bytes": 5221
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st01_rgb_star_d16_global_g20.png",
+          "sha256": "49746c72910f7a1218b0260b0126058a5e17cf6eadd29e068afac91e0f4c75d5",
+          "bytes": 6955
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st02_rgb_star6_d16.png",
+          "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+          "bytes": 5828
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st03_rgb_star7_d16.png",
+          "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+          "bytes": 5921
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st04_rgb_star8_d16.png",
+          "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+          "bytes": 5997
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st05_rgb_star5_d12.png",
+          "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+          "bytes": 5634
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st06_rgb_star6_d12.png",
+          "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+          "bytes": 5673
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st07_rgb_star7_d12.png",
+          "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+          "bytes": 5751
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/result.json",
+          "sha256": "1839d0f0c95c4d6312c7abe7b60a727db0a2b17916cb6cdfeea0b1653b345e5a",
+          "bytes": 2257098
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-far50-background-screen.png",
+          "sha256": "7d787358ad2cbe095daa66e1a46099d2a5a5a5afd72c05da0eca884b4f3e1477",
+          "bytes": 30541
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-far50-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-far50-held-screen.png",
+          "sha256": "53f9386033d4fe53d24f3a79a87e685457df61c0fe35f54af114e928af8ec596",
+          "bytes": 40997
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-far50-held-window.png",
+          "sha256": "14d08eefaf9d0c9c42162ef39b1ccdc68361fa3deeb9efc318282d779f7d4131",
+          "bytes": 29926
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-full100-background-screen.png",
+          "sha256": "a9c65b5f6cdb9a7e202e00cc794dbb356aa00dd85d117d65d680260575064c3f",
+          "bytes": 30812
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-full100-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-full100-held-screen.png",
+          "sha256": "945174285d5375a888500eaeae33010a639b5add80ee198305a50fc06e436a66",
+          "bytes": 40950
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-full100-held-window.png",
+          "sha256": "c25afdce41864eb4b17e051d1d2be75497ca02ac388c5736afe66dd6cf831c7a",
+          "bytes": 29948
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress01-background-screen.png",
+          "sha256": "1618c531764e73ec3b7335a2e8a960cb600b1b79b8bb45f71b572a508ee32001",
+          "bytes": 30597
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress01-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress01-held-screen.png",
+          "sha256": "fef165a4fe48e10de375603db4acb5bf16b2b2581fed3820f22d66b5654a2794",
+          "bytes": 41313
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress01-held-window.png",
+          "sha256": "039c078727cdbe5e837ad8842e231eaf714329c41ae51caa7c251e0543e3d0b4",
+          "bytes": 29940
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress10-background-screen.png",
+          "sha256": "a7cd4eff6a593f6c82dfeb888191b87c3d4800f2be1e406432bf5eaee5f7b811",
+          "bytes": 30855
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress10-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress10-held-screen.png",
+          "sha256": "b498993b5b141f9eb9a0cbb8972ca339c3df0933d1c1bf19c71d33b51a761e0c",
+          "bytes": 41257
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress10-held-window.png",
+          "sha256": "65572d75a8cd4cbc2fec53a34aeb30b2dae0b9c48c5c0d0454822be2b6f3842d",
+          "bytes": 29955
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress50-background-screen.png",
+          "sha256": "c08edbfb92b7fe3c310ad6ae2589834af21a917b420fe8fa368fe7f500e1b915",
+          "bytes": 30379
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress50-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress50-held-screen.png",
+          "sha256": "e655178869065d8504fc37c3a8ca72028227cbe18f4cb3e8543dadac298cca36",
+          "bytes": 41073
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress50-held-window.png",
+          "sha256": "fec412445d4c0a316bc0e0e03d5e20bea039efe595d8bb22a9d3c69309ef01d8",
+          "bytes": 29957
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress75-background-screen.png",
+          "sha256": "c08edbfb92b7fe3c310ad6ae2589834af21a917b420fe8fa368fe7f500e1b915",
+          "bytes": 30379
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress75-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress75-held-screen.png",
+          "sha256": "a277c6e7aa88979647ae9f4c5f79de4fcd2e360c4adece6fbbda9e67e3e9abd8",
+          "bytes": 41072
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress75-held-window.png",
+          "sha256": "4a6589f182fb901f7fd8a2d6b55a60e3f6650aac117af7aed9c89ac7a47ad8df",
+          "bytes": 29918
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-far50-background-screen.png",
+          "sha256": "bdfd8f992fd96db472ddbbcae57a1cd300bcebc4f3df9ed57998c0a0070b67c9",
+          "bytes": 32887
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-far50-background-window.png",
+          "sha256": "7278ad5f0e04e690d2a558dd9731c49813fcfced6c31a4d4b07c76b81efc5d14",
+          "bytes": 20850
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-far50-held-screen.png",
+          "sha256": "b5713d44123cac98bca46a1c058433406a5942bd4706d4dd6ca2cc751443d27d",
+          "bytes": 44331
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-far50-held-window.png",
+          "sha256": "16a6a5fbbaf4908471c42c19cecfff7cc3b4de643d615fd8252aa7ad56a7a699",
+          "bytes": 33179
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-full100-background-screen.png",
+          "sha256": "06d3b7551900ddf5ef4492f4569bbb6c19b5d86ac9065bda58d286e9df68a91e",
+          "bytes": 33109
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-full100-background-window.png",
+          "sha256": "7278ad5f0e04e690d2a558dd9731c49813fcfced6c31a4d4b07c76b81efc5d14",
+          "bytes": 20850
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-full100-held-screen.png",
+          "sha256": "411830e1d3f755d3bcb5b4373f3cdb788dd8b47a546328c49e76eeb5d875bb96",
+          "bytes": 45820
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-full100-held-window.png",
+          "sha256": "409195a4d4e563c590f458f183cb40232450ee1455487aaeec1f441fb0b79231",
+          "bytes": 34967
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress01-background-screen.png",
+          "sha256": "6547963cf20bbc1a60f9d7f99b0758228668f7a2bc4a153d80813b80e8e64314",
+          "bytes": 33181
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress01-background-window.png",
+          "sha256": "7278ad5f0e04e690d2a558dd9731c49813fcfced6c31a4d4b07c76b81efc5d14",
+          "bytes": 20850
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress01-held-screen.png",
+          "sha256": "b01df242dd7aaaf8dea7b0a2eedf0f7b22984a0aad9751caecd7380d24aa7274",
+          "bytes": 44422
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress01-held-window.png",
+          "sha256": "0088e375a6debb32463753f0d4c25a694214692f0f02b79bb939c19a2ef2a21b",
+          "bytes": 33237
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress10-background-screen.png",
+          "sha256": "4d7d70c578ba0ff1fb87b98a5c294b95f93abc30796bea61c6b89fe5695246c4",
+          "bytes": 33240
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress10-background-window.png",
+          "sha256": "7278ad5f0e04e690d2a558dd9731c49813fcfced6c31a4d4b07c76b81efc5d14",
+          "bytes": 20850
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress10-held-screen.png",
+          "sha256": "fbe8a38b824a447ee43608917358da2211245ddf3067c99d16a2bf7dd8e9304d",
+          "bytes": 44549
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress10-held-window.png",
+          "sha256": "cba598e865057503bf6e8b74350740aebaa35f9db9d101d7a6b23239954dbec8",
+          "bytes": 33065
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress50-background-screen.png",
+          "sha256": "aa1ca2b3dda08ef000289fc3452ff6ef0135be0ae117eac9c9875655c0185bcd",
+          "bytes": 33219
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress50-background-window.png",
+          "sha256": "7278ad5f0e04e690d2a558dd9731c49813fcfced6c31a4d4b07c76b81efc5d14",
+          "bytes": 20850
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress50-held-screen.png",
+          "sha256": "798a63fc0f10ce3913b7c4b84e16bb0cfb72710429a12f686d581e92cf65e103",
+          "bytes": 44267
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress50-held-window.png",
+          "sha256": "b0535e692fbacc3afa8a7a7363cff72c598d674bf274fa3efdfbdd4951b944a5",
+          "bytes": 33265
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress75-background-screen.png",
+          "sha256": "09e0f2cff6a766a4180480bbde0e5fb118f0e08dce324e0c603fce39f5ddef80",
+          "bytes": 33373
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress75-background-window.png",
+          "sha256": "7278ad5f0e04e690d2a558dd9731c49813fcfced6c31a4d4b07c76b81efc5d14",
+          "bytes": 20850
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress75-held-screen.png",
+          "sha256": "a0d062ada06ac52f5593daebdd6faf919a36dce2e893a9a8e5c3da59e1d08c4e",
+          "bytes": 44633
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress75-held-window.png",
+          "sha256": "075b06fa3347ae8534c9679e47ab7ee68a45800525537d0dd6babf4e855dc41c",
+          "bytes": 33463
+        }
+      ]
+    },
+    {
+      "name": "mask-G",
+      "identity_checks": 63,
+      "held_endpoints_acquired": 12,
+      "held_endpoints_analyzed": 2,
+      "identities": [
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/index.json",
+          "sha256": "9a1cec4eb9844a1c4a40d2c578f2f204189b7531a944a30981829e727a0cd41e",
+          "bytes": 36522
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/docs/design/evidence/glass-slider-star-20261115/frozen-calibration-tools/index-android-shape-captures.py",
+          "sha256": "682ac2ef0ccd3d6af543768ca36adf90652b7b55d1987617813baa3e91db2497",
+          "bytes": 9012
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/result.json",
+          "sha256": "79db649e79510d198f9992fbb09c3026e7c4bfb92c49fea2980c6889f2d15e92",
+          "bytes": 2256339
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/receipt.json",
+          "sha256": "12397814c2098c98c66d6e63f24a31a8aa94cdfeb094b61e6d5ed5e688423ee8",
+          "bytes": 15484
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/mask-G/shape-spec.json",
+          "sha256": "f3cb05e16954f7661e8b6e2d8a63fee420bdcad603daea0646155617cea086d0",
+          "bytes": 42857
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/manifest.json",
+          "sha256": "99234a6a365b8c4df6860b85e95b73c2cd97a41572070f3cad8b028656d8a02b",
+          "bytes": 1638
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st00_flat128.png",
+          "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+          "bytes": 5221
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st01_rgb_star_d16_mask_g20.png",
+          "sha256": "bff58755a5a2e31a537d97a4adc8ad72e71a1dc7c2c724bba04385ee448257ad",
+          "bytes": 6977
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st02_rgb_star6_d16.png",
+          "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+          "bytes": 5828
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st03_rgb_star7_d16.png",
+          "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+          "bytes": 5921
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st04_rgb_star8_d16.png",
+          "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+          "bytes": 5997
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st05_rgb_star5_d12.png",
+          "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+          "bytes": 5634
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st06_rgb_star6_d12.png",
+          "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+          "bytes": 5673
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st07_rgb_star7_d12.png",
+          "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+          "bytes": 5751
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/result.json",
+          "sha256": "79db649e79510d198f9992fbb09c3026e7c4bfb92c49fea2980c6889f2d15e92",
+          "bytes": 2256339
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-far50-background-screen.png",
+          "sha256": "c8212843c78388db7bd742e1841efc734db603d5dbd1418ffe0844a9f761727a",
+          "bytes": 30577
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-far50-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-far50-held-screen.png",
+          "sha256": "15db7db78903b0c4b50b16fe805088979012533775596cb5046a8602c1162108",
+          "bytes": 40922
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-far50-held-window.png",
+          "sha256": "14d08eefaf9d0c9c42162ef39b1ccdc68361fa3deeb9efc318282d779f7d4131",
+          "bytes": 29926
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-full100-background-screen.png",
+          "sha256": "98b7df891c7135cac6e8fd71d716a1a7679383fba6ffdcbdd9001111f46550d3",
+          "bytes": 30167
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-full100-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-full100-held-screen.png",
+          "sha256": "4d1c400c0c5867ac59276cb2c1fe2b3f080843c90b89898598ad5c216354f49d",
+          "bytes": 40734
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-full100-held-window.png",
+          "sha256": "c25afdce41864eb4b17e051d1d2be75497ca02ac388c5736afe66dd6cf831c7a",
+          "bytes": 29948
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress01-background-screen.png",
+          "sha256": "1215c9882b5c64ad20830552e5b90cf07c8cc34f3b0549e57f8913edf5ff9ae7",
+          "bytes": 30528
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress01-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress01-held-screen.png",
+          "sha256": "a76cd14a4de04536bbe02a67dfa6ebd79e0005bbaf5ae4512597d4084ccd6824",
+          "bytes": 41248
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress01-held-window.png",
+          "sha256": "039c078727cdbe5e837ad8842e231eaf714329c41ae51caa7c251e0543e3d0b4",
+          "bytes": 29940
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress10-background-screen.png",
+          "sha256": "510c50cfe5b8312fc830b4712aa8e9654de1618822b100ec4449147ce3c0031b",
+          "bytes": 30939
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress10-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress10-held-screen.png",
+          "sha256": "59899c41b0f67bb30e674bdfe15e44de24c3eafaf12e210ae9476b90d3d5eed6",
+          "bytes": 41138
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress10-held-window.png",
+          "sha256": "65572d75a8cd4cbc2fec53a34aeb30b2dae0b9c48c5c0d0454822be2b6f3842d",
+          "bytes": 29955
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress50-background-screen.png",
+          "sha256": "c6ea29e3f16f93042a643498f45da54923978ac6d98be291b493554e53811b19",
+          "bytes": 30103
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress50-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress50-held-screen.png",
+          "sha256": "905618a50ec952cd7ccd27e44d8c0117b1d1e93fe14d995714258ed105ca83a6",
+          "bytes": 41236
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress50-held-window.png",
+          "sha256": "fec412445d4c0a316bc0e0e03d5e20bea039efe595d8bb22a9d3c69309ef01d8",
+          "bytes": 29957
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress75-background-screen.png",
+          "sha256": "11ba89e29aa8c7e17fb982130eeaa8a3e29f4808b608621fc47deb6cac7ba808",
+          "bytes": 30539
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress75-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress75-held-screen.png",
+          "sha256": "21cdb4e57e3de40de6e7006abb9d5ba5a1539a7001bf6c54b6079a138147b80c",
+          "bytes": 41231
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st00_flat128-light-ingress75-held-window.png",
+          "sha256": "4a6589f182fb901f7fd8a2d6b55a60e3f6650aac117af7aed9c89ac7a47ad8df",
+          "bytes": 29918
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-far50-background-screen.png",
+          "sha256": "3c4e54ea508a18dcb79f0d6a74f0c1f18639fde5edb0b51b9c85aca02e691eb9",
+          "bytes": 32158
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-far50-background-window.png",
+          "sha256": "64c31191779bc895c3f02b245c9c2119c5ccc95f9e1a44ce6523ca8837ecf1c9",
+          "bytes": 20858
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-far50-held-screen.png",
+          "sha256": "c97264494c085ad1b86307a2c42dfdf3a9272ee20cae4e2f42ff7e51e400634d",
+          "bytes": 42819
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-far50-held-window.png",
+          "sha256": "5db94fe55c01d57d29b111e493de4f3a902e69392d844b5ef0e4bc1ccdcc3df2",
+          "bytes": 31875
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-full100-background-screen.png",
+          "sha256": "080e7409238f2be9bd4e2f7d6fc1f4abd39c3efd6ed5148b8046684f2b811052",
+          "bytes": 32650
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-full100-background-window.png",
+          "sha256": "64c31191779bc895c3f02b245c9c2119c5ccc95f9e1a44ce6523ca8837ecf1c9",
+          "bytes": 20858
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-full100-held-screen.png",
+          "sha256": "306ffa2f055e0ef1edc4028898135165faa7e9b722bd1cb5368f7c2b57599d00",
+          "bytes": 44355
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-full100-held-window.png",
+          "sha256": "144f92233caefe8f3e6b15506072e2dc2f46dc0d5a916086c67b9a5d93668a0a",
+          "bytes": 33657
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress01-background-screen.png",
+          "sha256": "05419da97ec9afaa9faa3364774e1b2742849ce2e5fea68d6245f51e1edc7c47",
+          "bytes": 32457
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress01-background-window.png",
+          "sha256": "64c31191779bc895c3f02b245c9c2119c5ccc95f9e1a44ce6523ca8837ecf1c9",
+          "bytes": 20858
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress01-held-screen.png",
+          "sha256": "82d38418f62bb6d029972e0cfbf13cf7f3c0d3980389ae27d80f0df5ec04c91b",
+          "bytes": 42753
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress01-held-window.png",
+          "sha256": "53e5d5082e95b9689c3a2e75c60e061b26899d45d02426ce66d8ade6262bd94a",
+          "bytes": 31878
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress10-background-screen.png",
+          "sha256": "6e2e8b210a972fdcee3956f5a8fb3cecedeaa7dd807b0e992eb1e783922151b3",
+          "bytes": 32633
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress10-background-window.png",
+          "sha256": "64c31191779bc895c3f02b245c9c2119c5ccc95f9e1a44ce6523ca8837ecf1c9",
+          "bytes": 20858
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress10-held-screen.png",
+          "sha256": "ac8d5f06e5f3de4f011fb3cbf26809caeacfb8325caa00021a91eeee14abee33",
+          "bytes": 43135
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress10-held-window.png",
+          "sha256": "54c3e54b1dce09129770e27181cd6e50f89624ee80bb81d3ee6badaf060b6c1b",
+          "bytes": 31687
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress50-background-screen.png",
+          "sha256": "28b7793880768251eed65e57342c2bd35c94e1a298c15b9e25def5d2518f230b",
+          "bytes": 32528
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress50-background-window.png",
+          "sha256": "64c31191779bc895c3f02b245c9c2119c5ccc95f9e1a44ce6523ca8837ecf1c9",
+          "bytes": 20858
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress50-held-screen.png",
+          "sha256": "43eeabd20a6eec26bcb60764fd6c425f8560f7d98314f96130a7a6fe38f0c55a",
+          "bytes": 42767
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress50-held-window.png",
+          "sha256": "5698427c26d98326812277cba6e59e8797cfc544abcb31a70827e8ff9ec231ba",
+          "bytes": 31928
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress75-background-screen.png",
+          "sha256": "080e7409238f2be9bd4e2f7d6fc1f4abd39c3efd6ed5148b8046684f2b811052",
+          "bytes": 32650
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress75-background-window.png",
+          "sha256": "64c31191779bc895c3f02b245c9c2119c5ccc95f9e1a44ce6523ca8837ecf1c9",
+          "bytes": 20858
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress75-held-screen.png",
+          "sha256": "7a01cca2d6f8f4d4b029681290900f371768af54e61aae1d648a632e44e2d34b",
+          "bytes": 43167
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/mask-G/android-r2/trace/st01_rgb_star_d16_mask_g20-light-ingress75-held-window.png",
+          "sha256": "e739781bb61d881b76f9e20d03d7077ee5ac9f4dc10e6f0e52f8b0ec1ecc1166",
+          "bytes": 32192
+        }
+      ]
+    },
+    {
+      "name": "control-post",
+      "identity_checks": 63,
+      "held_endpoints_acquired": 12,
+      "held_endpoints_analyzed": 2,
+      "identities": [
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/index.json",
+          "sha256": "f51d146bdf78f3138dede503a63956410513abfa08b85d641031f51b87d116d6",
+          "bytes": 36450
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/docs/design/evidence/glass-slider-star-20261115/frozen-calibration-tools/index-android-shape-captures.py",
+          "sha256": "682ac2ef0ccd3d6af543768ca36adf90652b7b55d1987617813baa3e91db2497",
+          "bytes": 9012
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/result.json",
+          "sha256": "4c8ebd30a3061d944c09e3984f577ad3e74099a2d73206030f913b0a7334ad5a",
+          "bytes": 2252362
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/receipt.json",
+          "sha256": "39dd33c22aa354cfe7e24f06fe0b80491bbe991653bec3144d78a984fd25670c",
+          "bytes": 15281
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/control-post/shape-spec.json",
+          "sha256": "c8f48e5efa6b5c57c716937ea4a3c6cd4341840051822148ecab4bafdee97b05",
+          "bytes": 42598
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/manifest.json",
+          "sha256": "10f2f18083d27c4366e98f21b31aa80e261bc968b0bacf1761ce03b6ca1514a2",
+          "bytes": 1626
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st00_flat128.png",
+          "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+          "bytes": 5221
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st01_rgb_star_d16.png",
+          "sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+          "bytes": 5780
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st02_rgb_star6_d16.png",
+          "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+          "bytes": 5828
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st03_rgb_star7_d16.png",
+          "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+          "bytes": 5921
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st04_rgb_star8_d16.png",
+          "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+          "bytes": 5997
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st05_rgb_star5_d12.png",
+          "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+          "bytes": 5634
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st06_rgb_star6_d12.png",
+          "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+          "bytes": 5673
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st07_rgb_star7_d12.png",
+          "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+          "bytes": 5751
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/result.json",
+          "sha256": "4c8ebd30a3061d944c09e3984f577ad3e74099a2d73206030f913b0a7334ad5a",
+          "bytes": 2252362
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-far50-background-screen.png",
+          "sha256": "41a6929e8efff09a63d574ad91c344b171c819309797419a91f73bfe73c95d38",
+          "bytes": 30246
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-far50-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-far50-held-screen.png",
+          "sha256": "5e57adf092471c72432b92b9034c044f8e7555f0f1dee0a11b643d7b9e206a74",
+          "bytes": 40738
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-far50-held-window.png",
+          "sha256": "14d08eefaf9d0c9c42162ef39b1ccdc68361fa3deeb9efc318282d779f7d4131",
+          "bytes": 29926
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-full100-background-screen.png",
+          "sha256": "32f8f411dbac9cfa381e94f2e69746aca6895097b928c495111e8544adfa4b7b",
+          "bytes": 30586
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-full100-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-full100-held-screen.png",
+          "sha256": "273118dca0d9e6e71b171f598b542fbaa0a5880f2db1162034076c3b5819f790",
+          "bytes": 41137
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-full100-held-window.png",
+          "sha256": "c25afdce41864eb4b17e051d1d2be75497ca02ac388c5736afe66dd6cf831c7a",
+          "bytes": 29948
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress01-background-screen.png",
+          "sha256": "40afbd79ca326c9e8eb6249907798c975843675b56171b4b10348d9522e0f6f6",
+          "bytes": 30637
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress01-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress01-held-screen.png",
+          "sha256": "cfb5a53871ba3d8d6527dcf41189eac23d8620247e8c027f1d493fc44d44de00",
+          "bytes": 41339
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress01-held-window.png",
+          "sha256": "039c078727cdbe5e837ad8842e231eaf714329c41ae51caa7c251e0543e3d0b4",
+          "bytes": 29940
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress10-background-screen.png",
+          "sha256": "b09dbe8f74465edb2c03402f8dbbfd7f2efec7dabcb0d6a3c418847ada041fb8",
+          "bytes": 30423
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress10-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress10-held-screen.png",
+          "sha256": "85986cfec641c42e4050f210ef0d1060fedab05cae8d072e1daa85354a7a5fdd",
+          "bytes": 40862
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress10-held-window.png",
+          "sha256": "65572d75a8cd4cbc2fec53a34aeb30b2dae0b9c48c5c0d0454822be2b6f3842d",
+          "bytes": 29955
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress50-background-screen.png",
+          "sha256": "32f47d4e520d749c9377fe716733291e6ace7c4f30ee96e978a0739dd1f18225",
+          "bytes": 30271
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress50-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress50-held-screen.png",
+          "sha256": "403873c48cac50e25c9387e2b5be6214e5d847ab10b9a2504ad99d39185055af",
+          "bytes": 41074
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress50-held-window.png",
+          "sha256": "fec412445d4c0a316bc0e0e03d5e20bea039efe595d8bb22a9d3c69309ef01d8",
+          "bytes": 29957
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress75-background-screen.png",
+          "sha256": "35254bfd1d7f8deda230ef20a6fe896e50cde6b1c84699561de506922e06d6e4",
+          "bytes": 30532
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress75-background-window.png",
+          "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+          "bytes": 18574
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress75-held-screen.png",
+          "sha256": "fd8ef390544eec85c1f478ab4271076330eb7fd89c75eeba408d92e49508b156",
+          "bytes": 41222
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st00_flat128-light-ingress75-held-window.png",
+          "sha256": "4a6589f182fb901f7fd8a2d6b55a60e3f6650aac117af7aed9c89ac7a47ad8df",
+          "bytes": 29918
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-far50-background-screen.png",
+          "sha256": "149e69a4fdb107e3a2dc8793592947cfc549f8a730c34219d75e07fedd763c54",
+          "bytes": 32565
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-far50-background-window.png",
+          "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+          "bytes": 20856
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-far50-held-screen.png",
+          "sha256": "038bfa1c93b7ced84f4a52d7322b362daa724f7aae73ba2f75c7a2d52e1fcc2e",
+          "bytes": 42500
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-far50-held-window.png",
+          "sha256": "86ee32943752e7ad2d90543d40c0b5952378b2d36207d57291cbf0d43aaec00c",
+          "bytes": 31868
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-full100-background-screen.png",
+          "sha256": "46d01a2185217a7b4a206267689f2ca6ffc8d50e627d577e6075a7853ca10553",
+          "bytes": 32824
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-full100-background-window.png",
+          "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+          "bytes": 20856
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-full100-held-screen.png",
+          "sha256": "eec96fbfa312eca6fc06b6edf98ff54e32a0cc99e7af6f0154ab615af5adcbc0",
+          "bytes": 44393
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-full100-held-window.png",
+          "sha256": "3739849f360af4a59f7b6d15b54c362311bd26a5262abc1fad7f9b219429d4b8",
+          "bytes": 33657
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress01-background-screen.png",
+          "sha256": "5a694fb816aec7ff69b2114d6a9a037b87b90dddf429b522219bd4ee9a5f3a39",
+          "bytes": 32458
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress01-background-window.png",
+          "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+          "bytes": 20856
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress01-held-screen.png",
+          "sha256": "f4facfbb17c82277341fbc7fc2e87ede4a517756166f83defd132c216d7768b1",
+          "bytes": 42748
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress01-held-window.png",
+          "sha256": "66fd6d6a350d2d289b6ef570cc735ef39cde8e247e0776a17886e378230bc90d",
+          "bytes": 31869
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress10-background-screen.png",
+          "sha256": "3fbe59302b9ee6abc2fe0aaa948618eefe39b3c5a143db2b1a27890a6888e6df",
+          "bytes": 32730
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress10-background-window.png",
+          "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+          "bytes": 20856
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress10-held-screen.png",
+          "sha256": "acc0401d42345fa6e82e5ee6f2be049027e20c8da8d9cd4400aeb075a7f40adb",
+          "bytes": 42638
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress10-held-window.png",
+          "sha256": "45dd2061199187a1a7fbec6858319953d0367be4ee4002a8a6fdf1d10d8f13ca",
+          "bytes": 31671
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress50-background-screen.png",
+          "sha256": "a956bb2eaa76e18592456ee5acaca3913d7ae1c287aeb97a223e07b114030f11",
+          "bytes": 32259
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress50-background-window.png",
+          "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+          "bytes": 20856
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress50-held-screen.png",
+          "sha256": "630d414ecc7f0b3f21384af83a7bc1da453e53271ddf3a95c23f111efef5fd2c",
+          "bytes": 42720
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress50-held-window.png",
+          "sha256": "a06fc50a0ca3439bff0b48be47be271c5f83c0ba1bc3798eaaf15364843a49a3",
+          "bytes": 31959
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress75-background-screen.png",
+          "sha256": "a2b100c3ee482f02f3b5d87657258fdadaa339a6a6b58873ab912e1b9d705859",
+          "bytes": 32481
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress75-background-window.png",
+          "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+          "bytes": 20856
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress75-held-screen.png",
+          "sha256": "3b891fa642efc5e0d69d0293d02b85658dcd09f0cfd8b9cd1a748e9c6755739c",
+          "bytes": 43046
+        },
+        {
+          "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/control-post/android-r2/trace/st01_rgb_star_d16-light-ingress75-held-window.png",
+          "sha256": "a249a28756c659e79b8278e4e3f46bd9f08cbc13ac9694ee1bb8a3b8c6470790",
+          "bytes": 32241
+        }
+      ]
+    }
+  ],
+  "within_android_geometry": {
+    "status": "MAPPING_UNKNOWN_PIXEL_DIAGNOSTICS_ONLY",
+    "checks": {
+      "owner_bounds_range": 0.0,
+      "owner_centre_range": 0.0,
+      "owner_matrix_range": 0.0,
+      "owner_opacity_range": null,
+      "carrier_bounds_range": 0.0,
+      "carrier_centre_range": 0.0,
+      "carrier_matrix_range": 0.0,
+      "carrier_opacity_range": null,
+      "source_origin_range": 0.0,
+      "source_sampling_matrix_range": 0.0,
+      "identical_actual_output_affine": true
+    },
+    "errors": [],
+    "unknowns": [
+      "owner effective opacity is unobserved",
+      "carrier effective opacity is unobserved"
+    ]
+  },
+  "same_operating_identity_between_rounds": true,
+  "image_shapes": [
+    [
+      2640,
+      1216,
+      3
+    ]
+  ],
+  "errors": []
+}

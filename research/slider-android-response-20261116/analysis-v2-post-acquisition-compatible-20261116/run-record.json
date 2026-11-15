@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "recorded_utc": "2026-11-15T20:13:10.465800+00:00",
+  "execution_kind": "post-acquisition complete analysis using existing schema adapter",
+  "cwd": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116",
+  "command": "python3 -B analyze-compatible.py --root /Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116 --output /Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/analysis-v2-post-acquisition-compatible-20261116/report",
+  "argv": [
+    "python3",
+    "-B",
+    "analyze-compatible.py",
+    "--root",
+    "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116",
+    "--output",
+    "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/analysis-v2-post-acquisition-compatible-20261116/report"
+  ],
+  "exit_code": 0,
+  "status": "DIAGNOSTIC_COMPOSITE_RESPONSE_GEOMETRY_CONFOUNDED",
+  "optical_acceptance": false,
+  "inference_allowed": false,
+  "runtime": {
+    "python_executable": "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+    "python_version": "3.9.6",
+    "numpy": "2.0.2",
+    "Pillow": "11.3.0"
+  },
+  "artifacts": [
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/analysis-v2-post-acquisition-compatible-20261116/preflight.json",
+      "sha256": "4fc2b36ed77bf59428eeb82459743f14565c5759c2a3d83d94c0a8aac3b36ca6",
+      "bytes": 107114
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/analysis-v2-post-acquisition-compatible-20261116/integrity.json",
+      "sha256": "1684fba0ec853fe9fd73dc022e7b593e252dacfea3d58275ad6e75eebcc1ff49",
+      "bytes": 384
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/analysis-v2-post-acquisition-compatible-20261116/RESULTS.md",
+      "sha256": "605f0626056f4d396911124cd29fc1ef7053e95d4e0d9e9cfcc913036a9c8125",
+      "bytes": 9337
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/analysis-v2-post-acquisition-compatible-20261116/report/analysis.json",
+      "sha256": "ff51dcc659631470d0233f717a74192b0b8b0066a0c67579950bf1c87f154052",
+      "bytes": 897681
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/analysis-v2-post-acquisition-compatible-20261116/report/response-arrays.npz",
+      "sha256": "d104c6cfe0479403d9c9967ed2ff4f59093d85c137c6312dcab938939cbd8d2e",
+      "bytes": 202780
+    }
+  ],
+  "preservation_errors": []
+}

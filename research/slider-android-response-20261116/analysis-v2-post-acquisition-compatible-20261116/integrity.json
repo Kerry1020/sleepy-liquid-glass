@@ -1,0 +1,9 @@
+{
+  "status": "POST_ANALYSIS_BOUND_INPUTS_UNCHANGED",
+  "frozen_asset_files_checked": 69,
+  "round_bound_identity_records_checked": 252,
+  "frozen_schema_rejection_unchanged": true,
+  "adapter_unchanged": true,
+  "errors": [],
+  "scope": "Hash verification of bound artifacts; repeated identity references are counted per round. No device, build, product edits or new acquisition."
+}
