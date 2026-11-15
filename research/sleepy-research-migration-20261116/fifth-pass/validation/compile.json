@@ -1,0 +1,29 @@
+{
+  "command": [
+    "./gradlew",
+    ":app:compileDebugAndroidTestKotlin",
+    "--offline",
+    "--console=plain"
+  ],
+  "base_head": "e935c5e3b9bc3308930fcf2fe79bbd4f95aab7f6",
+  "exit_code": 0,
+  "seconds": 3.379,
+  "finished_utc": "2026-11-15T21:41:51.324326+00:00",
+  "scope": "Default product androidTest compilation only; no external research overlay, device operation or optical experiment",
+  "source_sha256": {
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/BackdropLumaReadbackRenderTest.kt": "b2a1225b16eed7f54f86e27ee67dc8a04b64ba16a74de30fdd51fad751e37fcb",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassAppNavigationRenderTest.kt": "6117ac2fa1cb831f6a8ca9ff7071e7b505397fda82767d3014ee26df69bba602",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassDropdownMenuRenderTest.kt": "91c75e50f90ee32c01b5fe194c20892f1b18b3c004b3bb8c1b5b5405ef1bc85a",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassFreeDragRenderTest.kt": "d488c22857c5a7ff246477d060d24260f7a679db76fd475c4ab7735fbd2a0574",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/LanguageMenuMaterialRenderTest.kt": "53708462531dca0bb6c78a07c4b917d3f0bebb1a28f0d7238713f1ba68195e7e",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/ScheduleToolbarRenderTest.kt": "4ffbe302a8d1177e5bfcfd107a0d4a736bd970c46a0263513ab7d739fa3cde7e",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/ScheduleToolbarSamplingRenderTest.kt": "9273738b1c59584a7c264cf72c8953e576843b8bf5bbf33e8a83ed7266937484",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/GlassTopAppBarSamplingRenderTest.kt": "cd11a2adfb55216ca8dac9ec79cac7ed7950c734d23464d291bc6811468bbde0",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassDualContourRenderTest.kt": "7ee2393c96e3d202f9b90c4c6ad4852c695105c8ad2323d9acd742d5a6b6f5cd",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassHazeRenderTest.kt": "11b8baef189f73ccd1249493faa5536ede1eb3b94811c8d7fa9b4034b80514db"
+  },
+  "sources_stable": true,
+  "raw_log_sha256": "9e4269140b71de212b92bc4fbb6f73e608b165bc956426a6364b556a870efefe",
+  "public_log_sha256": "0eae51c7efdc9ad4cf4b3d743cc8e6555fc8635bda78f5b8ea794f83d61d450c",
+  "public_redaction": "Only local source, asset, SDK and personal home path prefixes"
+}

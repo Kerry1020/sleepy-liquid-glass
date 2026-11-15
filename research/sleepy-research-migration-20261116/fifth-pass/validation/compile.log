@@ -1,0 +1,74 @@
+> Task :app:prepareRuntimeAssets UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :kyant-backdrop:androidPreBuild UP-TO-DATE
+> Task :kyant-backdrop:preAndroidMainBuild UP-TO-DATE
+> Task :kyant-backdrop:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :liquid-glass-runtime:androidPreBuild UP-TO-DATE
+> Task :liquid-glass-runtime:preAndroidMainBuild UP-TO-DATE
+> Task :liquid-glass-runtime:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :kyant-backdrop:kmpPartiallyResolvedDependenciesChecker
+> Task :kyant-backdrop:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :kyant-backdrop:compileAndroidMain UP-TO-DATE
+> Task :kyant-backdrop:bundleAndroidMainClassesToCompileJar UP-TO-DATE
+> Task :liquid-glass-runtime:kmpPartiallyResolvedDependenciesChecker
+> Task :liquid-glass-runtime:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :liquid-glass-runtime:packageAndroidMainResources UP-TO-DATE
+> Task :liquid-glass-runtime:parseAndroidMainLocalResources UP-TO-DATE
+> Task :liquid-glass-runtime:generateAndroidMainRFile UP-TO-DATE
+> Task :liquid-glass-runtime:compileAndroidMain UP-TO-DATE
+> Task :liquid-glass-runtime:bundleAndroidMainClassesToCompileJar UP-TO-DATE
+> Task :app:kspDebugKotlin UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :kyant-backdrop:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :liquid-glass-runtime:writeAndroidMainAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :kyant-backdrop:processAndroidMainManifest UP-TO-DATE
+> Task :liquid-glass-runtime:processAndroidMainManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :liquid-glass-runtime:mapAndroidMainSourceSetPaths UP-TO-DATE
+> Task :liquid-glass-runtime:compileAndroidMainLibraryResources UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:mergeDebugAndroidTestManifest UP-TO-DATE
+> Task :app:processDebugAndroidTestManifest UP-TO-DATE
+> Task :app:generateDebugAndroidTestBuildConfig UP-TO-DATE
+> Task :app:generateDebugAndroidTestResources UP-TO-DATE
+> Task :app:packageDebugAndroidTestResources UP-TO-DATE
+> Task :app:processDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :app:parseDebugAndroidTestLocalResources UP-TO-DATE
+> Task :app:generateDebugAndroidTestRFile UP-TO-DATE
+> Task :app:kspDebugAndroidTestKotlin
+
+> Task :app:compileDebugAndroidTestKotlin
+w: file://<SLEEPY_CHECKOUT>/app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassDropdownMenuRenderTest.kt:56:29 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file://<SLEEPY_CHECKOUT>/app/src/androidTest/java/com/lingion/sleepy/ui/component/ScheduleToolbarRenderTest.kt:33:29 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+w: file://<SLEEPY_CHECKOUT>/app/src/androidTest/java/com/lingion/sleepy/ui/component/ScheduleToolbarSamplingRenderTest.kt:43:29 'fun createComposeRule(effectContext: CoroutineContext = ...): ComposeContentTestRule' is deprecated. Use `androidx.compose.ui.test.junit4.v2.createComposeRule` instead. The v2 APIs use StandardTestDispatcher instead of UnconfinedTestDispatcher, which aligns with standard coroutine behavior by queuing tasks rather than executing them immediately. Tests relying on immediate execution may require explicit synchronization. Please refer to the migration guide for more details.
+
+[Incubating] Problems report is available at: file://<SLEEPY_CHECKOUT>/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 3s
+49 actionable tasks: 4 executed, 45 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.2/userguide/configuration_cache_enabling.html

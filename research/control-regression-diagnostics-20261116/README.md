@@ -19,10 +19,10 @@
 
 Toggle 左移可能出现横向压缩，现有最大宽度测量不足以区分压缩与无形变。`moveTo(...,16)` 本身推进测试时钟，再显式推进一帧会改变实际节奏。字形至少 1.1 倍的旧断言来源是历史 Android 预放大实现，当前缺少同位置 iOS 26.5 REST/HELD 像素配对；不能据此直接调产品参数或降低断言。
 
-## 尚未构建或执行的外置入口
+## 外置入口的独立构建记录
 
-[语言菜单 C/U/恢复 C/E 诊断](language-gpu/README.md)只完成确定性源码准备和静态检查。它拟区分源卡片污染、背景、真实展开材质和时间稳定性；尚无 Kotlin 编译、GPU 数据或材质验收。静态检查不是产品行为测试。
+[语言菜单 C/U/恢复 C/E 诊断](language-gpu/README.md)与[滑杆外置研究 host](../slider-android-host/README.md)已通过一次显式组合构建：[收据](host-integration-20261116/build.json)、[公开日志](host-integration-20261116/build.log)。固定 Sleepy `e935c5e3`，七份外置输入哈希不变，`:app:assembleDebugAndroidTest --offline --console=plain` 成功，9.232s；普通应用源码与配置未改。未安装或执行这些新入口，没有本轮 GPU 数据、材质验收或行为通过结论。
 
-[滑杆外置研究 host](../slider-android-host/README.md)由资产库显式提供冻结 fixture 与已迁出的完整辅助文件。新双文件版本仅完成静态准备，旧单文件构建不能替代新版本验证。普通 Sleepy 构建不加载任一入口。
+滑杆 schema2 双文件入口由资产库显式提供冻结 fixture 与完整辅助文件；此次收据验证该版本可编译，不能用旧单文件记录代替。普通 Sleepy 构建不加载任一入口；新的产品回归清理亦未把它们重新放回应用仓库。
 
 公开日志的序列号与本机路径按 [PUBLICATION.json](PUBLICATION.json) 脱敏；原始字节仅保留于本机忽略目录。原始哈希与公开文件哈希分别记录，不能把公开副本当作原始日志。

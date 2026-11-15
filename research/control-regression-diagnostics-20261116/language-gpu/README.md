@@ -1,6 +1,6 @@
 # Language GPU C/U/E diagnostic
 
-This is an explicit research fixture in the asset repository. It has not been compiled or run on a GPU by its author. It does not establish that the menu has or lacks material, that either baseline is a valid final regression oracle, or that any original threshold passes.
+This is an explicit research fixture in the asset repository. A separately recorded [combined external-host build](../host-integration-20261116/build.json) compiled this exact prepared version against clean Sleepy `e935c5e3`; it has not been installed or executed on a GPU. It does not establish that the menu has or lacks material, that either baseline is a valid final regression oracle, or that any original threshold passes.
 
 ![Previously published menu corner comparison](../../../docs/images/research/menu-corner-montage.png)
 
@@ -77,4 +77,4 @@ If first-row E−C is below 6 while E−U is above 6, the contrast-baseline hypo
 
 This fixture does not inject the historical one-row clipping fault or a no-material fault, and it has no independent positive material reference. A final regression oracle still needs a negative-control demonstration that missing/one-row material fails. A static source check, U witness or passing screenshot difference does not supply that demonstration. Copyright, Material Design behavior and business layout are outside this study and unchanged.
 
-The eight historical Floating receipts/logs in the parent study directory are separate evidence; their successful APK builds and failing device tests are not language-triplet validation. Their published copies redact only the adb device selector and local personal path prefixes. `../PUBLICATION.json` records original/public hashes and exact replacement rules; byte-preserved originals are private under the parent's ignored `.local/raw/`. Historical `log_sha256` values continue to identify those originals. No language GPU capture is included in this prepared-only directory.
+The eight historical Floating receipts/logs in the parent study directory are separate evidence; their successful APK builds and failing device tests are not language-triplet validation. Their published copies redact only the adb device selector and local personal path prefixes. `../PUBLICATION.json` records original/public hashes and exact replacement rules; byte-preserved originals are private under the parent's ignored `.local/raw/`. Historical `log_sha256` values continue to identify those originals. No language GPU capture is included in this directory.

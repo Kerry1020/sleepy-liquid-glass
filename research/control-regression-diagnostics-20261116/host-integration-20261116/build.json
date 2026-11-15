@@ -1,0 +1,35 @@
+{
+  "scope": "Explicit asset-owned language and slider instrumentation overlays; no default Sleepy source/config changed",
+  "source_head": "e935c5e3b9bc3308930fcf2fe79bbd4f95aab7f6",
+  "started_utc": "2026-11-15T21:28:50.994529+00:00",
+  "seconds": 9.232,
+  "exit_code": 0,
+  "command": [
+    "./gradlew",
+    "-I",
+    "<GLASS_ASSETS>/research/slider-android-host/overlay.init.gradle",
+    "-PglassResearchSources=<GLASS_ASSETS>/research/slider-android-host/.local/v2/sources",
+    "-I",
+    "<GLASS_ASSETS>/research/control-regression-diagnostics-20261116/language-gpu/overlay.init.gradle",
+    "-PlanguageResearchSources=<GLASS_ASSETS>/research/control-regression-diagnostics-20261116/language-gpu/prepared/sources",
+    ":app:assembleDebugAndroidTest",
+    "--offline",
+    "--console=plain"
+  ],
+  "research_input_sha256": {
+    "research/slider-android-host/overlay.init.gradle": "b85e47f02d759c3a4b8018ee1f35500e3524b7d0d4646b5568561915debf1a7a",
+    "research/slider-android-host/.local/v2/preparation.json": "f0a77f707968225ebe00c8c55f8ece3fd9aa298c968584456386c21d40818b37",
+    "research/slider-android-host/.local/v2/sources/com/lingion/sleepy/ui/component/AssetNativeSliderOpticalWorldRenderTest.kt": "4e25fe39264656134a48958bdd49aeb1506f17815c8610d2de4219042e52f360",
+    "research/slider-android-host/.local/v2/sources/com/lingion/sleepy/ui/component/assetresearch/AssetGlassOpticalCaptureFixtures.kt": "eee6b8de60ca26cc9845dd3ea9a6ecf8b443c8f4bd1cb05589afdd17c7852c8d",
+    "research/control-regression-diagnostics-20261116/language-gpu/overlay.init.gradle": "3047a06526d43b25cc8c2fba6b00f36431e9e45a9ba9d8b32424cd1a62b59d8b",
+    "research/control-regression-diagnostics-20261116/language-gpu/prepared/preparation.json": "e12364aa81cfb2a06d05a037c650b8798ea746314cef20dab41afaa30aae4c97",
+    "research/control-regression-diagnostics-20261116/language-gpu/prepared/sources/com/lingion/sleepy/ui/component/AssetLanguageGpuTripletDiagnosticTest.kt": "ca4d1638eb08a05ea32dfcdbfd9c2442420ec389062500cc19be5e57ef18d5ce"
+  },
+  "research_inputs_stable": true,
+  "product_worktree_clean": true,
+  "raw_log_sha256": "5872a3f46e10668e53ba5dcd46a71ee05a1eb49fedd3aee6dfb20c13ccd3fbf3",
+  "public_log_sha256": "2d6fe7b4f952e8101a54ebcb6016c104a578cd810d3c2ee41d7d600b6350c7a4",
+  "public_log_redaction": "Only local checkout/asset/SDK absolute prefixes",
+  "finished_utc": "2026-11-15T21:29:00.271142+00:00",
+  "test_apk_sha256": "df38758670088a7058727efe02a8f9e5cdcce132618d1bf8a087b4914e32b018"
+}
