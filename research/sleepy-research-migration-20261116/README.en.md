@@ -16,9 +16,12 @@ Fifteen files reuse identical published bytes; 37 missing versions are stored un
 
 Production runtime, deterministic host regressions, meaningful GPU behavior/sampling regressions and their shared helpers remain in Sleepy. Earlier November 9 design documents and attribution audits are outside this migration. APKs, build caches, DerivedData, traces and device data are excluded.
 
+A second audit found 12 test/helper files containing research responsibilities. Their complete originals (241,594 bytes) are preserved in a separate [follow-up manifest](followup/SOURCE-MAP.json), pinned to `d38e9d1a92adcde69264bdd50313948bdd29ab0e`. Research responsibilities include language-menu frame recording, configurable acquisition protocols and reflective shader diagnostics; success-path PNG/CSV/JSON export in sampling, motion, contour, backing and window regressions; and the opt-in exact-contour A/B collector without a performance pass threshold. The application retains actual behavior, presentation-handoff, motion and GPU error assertions with in-memory sampling, including shader instrumentation necessary for those assertions. The original 52-file map stays unchanged; the 12 full originals preserve all responsibilities before separation.
+
 ```sh
 python3 research/sleepy-research-migration-20261116/verify.py
 python3 research/sleepy-research-migration-20261116/verify.py --source /path/to/sleepy
+python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/followup/SOURCE-MAP.json --source /path/to/sleepy
 ```
 
 The optional source check reads the pinned commit through Git, even after the working-tree files are removed. Archived source and text preserve historical paths and status verbatim; they are provenance, not current execution instructions. Use an explicitly enabled external entry point for research.

@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "recorded_utc": "2026-11-15T19:29:09.389391+00:00",
+  "status": "ACQUISITION_ARCHIVE_SCHEMA_CHECKED_RESPONSE_ANALYSIS_PENDING",
+  "optical_acceptance": false,
+  "frozen_analyzer": {
+    "path": "analyze.py",
+    "sha256": "cc789722557b1e7136ec1352029f6cb61aa378e5a74e65957e33753dbb9f0bcf"
+  },
+  "frozen_rejection": {
+    "path": "analysis-v1-schema-rejection/analysis.json",
+    "sha256": "ebb36d547c0e1fe901b81fe805910c57e92562a2ab70e3555cda505db79e0a91",
+    "exit_code": 2,
+    "errors": [
+      "control-pre: 'source_manifest'",
+      "global-G: 'source_manifest'",
+      "mask-G: 'source_manifest'",
+      "control-post: 'source_manifest'"
+    ]
+  },
+  "post_acquisition_adapter": {
+    "path": "analyze-compatible.py",
+    "sha256": "6677c61b6eff66d924fa5213e8a0e7ebb810b808b01cf1c416e17e2bfab01e3b",
+    "timing": "Created after acquisition began; not pre-acquisition frozen",
+    "changed_functions": [
+      "load_round",
+      "execute"
+    ],
+    "unchanged_functions": 29,
+    "execute_ast_equal_after_removing_provenance_key": true,
+    "changes": "Only metadata keys, source input paths, identity binding and explicit provenance; math and thresholds unchanged",
+    "pure_math_self_tests": 19,
+    "executed_scope": "load_round schema and identity checks only; no response comparison executed"
+  },
+  "freeze_assets_verified": 69,
+  "freeze_host_files_verified": 9,
+  "rounds": [
+    {
+      "name": "control-pre",
+      "held_endpoints": 12,
+      "original_files": 49,
+      "schema_identity_count": 63,
+      "receipt_sha256": "2a9b5fea99b6f35a62abf370d4e16c2ee6d4cf9070ea0312267ea416717bd71c",
+      "index_sha256": "677525c7fba0fc5be1e0558a3ddd862d589e95d6c383b8bc3c97e0885dd812fe",
+      "display_changed": false
+    },
+    {
+      "name": "global-G",
+      "held_endpoints": 12,
+      "original_files": 49,
+      "schema_identity_count": 63,
+      "receipt_sha256": "71ddd46f13cb17f66487d474656fcd4dde4819ee5785c791bf08c422f68abde6",
+      "index_sha256": "3f27f389b70154bef0618906bd0f345a6f6e3f9f8a8cae42afd4562e9915581c",
+      "display_changed": false
+    },
+    {
+      "name": "mask-G",
+      "held_endpoints": 12,
+      "original_files": 49,
+      "schema_identity_count": 63,
+      "receipt_sha256": "12397814c2098c98c66d6e63f24a31a8aa94cdfeb094b61e6d5ed5e688423ee8",
+      "index_sha256": "9a1cec4eb9844a1c4a40d2c578f2f204189b7531a944a30981829e727a0cd41e",
+      "display_changed": false
+    },
+    {
+      "name": "control-post",
+      "held_endpoints": 12,
+      "original_files": 49,
+      "schema_identity_count": 63,
+      "receipt_sha256": "39dd33c22aa354cfe7e24f06fe0b80491bbe991653bec3144d78a984fd25670c",
+      "index_sha256": "f51d146bdf78f3138dede503a63956410513abfa08b85d641031f51b87d116d6",
+      "display_changed": false
+    }
+  ],
+  "limits": [
+    "No new candidate, parameter fit, framewise parity or optical acceptance is implied.",
+    "Raw captures and receipts preserve the actual original acquisition; absolute provenance paths remain historical paths.",
+    "Only the full100 pair in each round has a matched S native target; other poses are contextual."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "source_repository": "lingion/sleepy",
+  "source_commit": "d38e9d1a92adcde69264bdd50313948bdd29ab0e",
+  "file_count": 12,
+  "new_files": 12,
+  "reused_files": 0,
+  "total_bytes": 241594,
+  "scope": "Exact originals before separating research export/protocols from product GPU regressions; includes the standalone performance collector and shared export helper. In-memory GPU assertions and shader instrumentation necessary for those assertions stay in Sleepy.",
+  "files": [
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/LanguageMenuMotionCaptureTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/LanguageMenuMotionCaptureTest.kt",
+      "source_git_blob": "9d680e1f9befea9134e6c5f8054e5f4d1b5a558e",
+      "sha256": "4c90ab2e97ab80a4892c7f9c863b115c8ef12b149bf7429a00ea84222760952d",
+      "bytes": 58101,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/GlassMaterialSamplingMatrixCaptureTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/GlassMaterialSamplingMatrixCaptureTest.kt",
+      "source_git_blob": "15af0673242a4fbd016ec45086456a611ea008e5",
+      "sha256": "7de10c012e6ff6d12534d7a1f5db43766922f7bb2e03ec3bd0e37749abd3519a",
+      "bytes": 9817,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassExactContourPerformanceTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassExactContourPerformanceTest.kt",
+      "source_git_blob": "f2070c3f40a2a9bff3999de7992faa9b148aff41",
+      "sha256": "0fc87427852c54876e29e2387918b1f08f75d78d76bd837eff547f84c770a8cf",
+      "bytes": 29511,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassFloatingControlsRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassFloatingControlsRenderTest.kt",
+      "source_git_blob": "804fb6f89eb6745dbb8f25c2bf22ab403764c632",
+      "sha256": "34048407706aa84e79b2ed5e4031d04306d2d7c3eb63c9ac454d61e8d56f690d",
+      "bytes": 15440,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassOpticalCaptureFixtures.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassOpticalCaptureFixtures.kt",
+      "source_git_blob": "ec3922c4d1651ee5507f1b394b208cd9957c8d9d",
+      "sha256": "3bcee1b8b7d2d4f1d6e452f7ecd8dfa75e9e65329c40dfa7eff3436b9850d8d0",
+      "bytes": 30049,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassExactContourRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassExactContourRenderTest.kt",
+      "source_git_blob": "9e5c60e80a84b639068b72764a3f79783ad283a1",
+      "sha256": "68e345d09762a5b04d1aacc6ce05ace8b562887968708f3ad34671500bb1592c",
+      "bytes": 24716,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassCornerRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassCornerRenderTest.kt",
+      "source_git_blob": "54732468b31a780878d18ae9bc5e37f2a86523f0",
+      "sha256": "7e6f3894dc889884f680f59c54d88b7c98c3a6cb96c111dcc246c92e996a59a8",
+      "bytes": 15530,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGenericGeometryRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGenericGeometryRenderTest.kt",
+      "source_git_blob": "39866426d4afd33091f9cc56480feae4dec4802b",
+      "sha256": "1f362223fce998b66375f1cc2c4ce35992b8642b5d285363ff32fa87c11b9cc0",
+      "bytes": 14245,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassDynamicShapeRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassDynamicShapeRenderTest.kt",
+      "source_git_blob": "37e1c048e056eaa702006a219927e149337f7ef1",
+      "sha256": "6e94659b510766b8637ac0feb1d9dd03586538a3d5fc88029ce6e29b2eb21613",
+      "bytes": 14587,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/DockBackingRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/DockBackingRenderTest.kt",
+      "source_git_blob": "067836416aa72bea17bdc7c055c4b4ee6c3bb9f7",
+      "sha256": "21f30d651cc5dea98a7d0b59e20879bcc6bebc01856884b68c75f2cbd99dead4",
+      "bytes": 10429,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassAlertWindowRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassAlertWindowRenderTest.kt",
+      "source_git_blob": "f2769cbf075b31fd4c0f5d31af0e50903b2e46f8",
+      "sha256": "b4acb9c31cf83735ae6ecc5beac11722eaf7ec3f16f905c4ff1b92ebf202b950",
+      "bytes": 11038,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/DockBackdropAppearanceRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/followup/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/DockBackdropAppearanceRenderTest.kt",
+      "source_git_blob": "98a689c903932e3d1ad8fb777046954786f47d1b",
+      "sha256": "8087156bf1dd689452c4618d6651606f41240e2396052715c65c073cb50d18e4",
+      "bytes": 8131,
+      "storage": "new"
+    }
+  ]
+}

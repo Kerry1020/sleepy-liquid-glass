@@ -8,12 +8,13 @@ import subprocess
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("--source", type=Path)
+parser.add_argument("--manifest", type=Path, help="An additional migration manifest; defaults to the original 52-file batch")
 args = parser.parse_args()
 here = Path(__file__).resolve().parent
 root = here.parents[1]
-manifest = json.loads((here / "SOURCE-MAP.json").read_text())
+manifest = json.loads((args.manifest or here / "SOURCE-MAP.json").read_text())
 entries = manifest["files"]
-assert len(entries) == manifest["file_count"] == 52
+assert len(entries) == manifest["file_count"]
 assert len({entry["source_path"] for entry in entries}) == len(entries)
 assert sum(entry["bytes"] for entry in entries) == manifest["total_bytes"]
 assert sum(entry["storage"] == "new" for entry in entries) == manifest["new_files"]

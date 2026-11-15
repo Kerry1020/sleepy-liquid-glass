@@ -1,0 +1,356 @@
+{
+  "schema": 1,
+  "started_unix": 1794770431.32729,
+  "serial": "d3efcd6a",
+  "run": "g-response-control-post-android-r2-c8f48e5efa6b-20261116",
+  "round": "control-post",
+  "tag": "android-r2",
+  "freeze_sha256": "4cd995935db016027d5c37cb472b53c7ea205a063aa7dc68412a265e2f704e23",
+  "host_commit": "d38e9d1a92adcde69264bdd50313948bdd29ab0e",
+  "collector_sha256": "3ea272eb4bd5233fd3f29ce2bfc76ea653e5dca3e4a5990ae92e2ffd1b484d58",
+  "input_role": "calibration",
+  "build_receipt_sha256": "307feb49d1e93946f1641f580301aa77c2546b9fa0c38ce1f9e2aeac965bd3f7",
+  "sources": {
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSlider.kt": "59733046d6a6d6d99e52d91ce440219d12613bbd9013eff98f46043317a88a38",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSliderThumb.kt": "e22a464a3595c30df85e931793b9254f07ea69490c7302e32dc71bdca078e616",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt": "457dc5d5abdf82220366d1b718180bc98fa2608426bbd35638edbc1e764660f6",
+    "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "980c0ac14ade9649fe8feba189d599ce9d3e5e9780ae45d50d5a57ddcd3e0b8a",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "aaf9a5e15569e2204a8f86647a03e1e5a7616f759ba295b63cf4694524c9abe9",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt": "664e2e100205eb97676030ca4ad3fc751f849bf68574b9d997e31dd0b28d6bab",
+    "third-party/kyant-backdrop/UPSTREAM.json": "bbce478907148a1562c46a325ddf35ba4e954651556f9015cbc4560265ec447c"
+  },
+  "build": {
+    "host_commit": "d38e9d1a92adcde69264bdd50313948bdd29ab0e",
+    "apks": [
+      {
+        "host_relative_path": "app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+        "application_id": "com.lingion.sleepy.debug",
+        "bytes": 31952171,
+        "sha256": "566fc53eb6c28a0df7be03b7b07ee0ab8fd28a96b1f471f1669d7bbdbf3063b5",
+        "output_metadata_sha256": "9a6daaca604562c8f5d4a05b9e01e09bd4c4a38b9f0066fc52df1ae417d29412"
+      },
+      {
+        "host_relative_path": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+        "application_id": "com.lingion.sleepy.debug.test",
+        "bytes": 2176994,
+        "sha256": "e75911933bd3c90b103df140ae82759460e52ac94d200afbdfe5b6f4fc7d6971",
+        "output_metadata_sha256": "87f99c2b968301f4f6ddd9b680f9e108b7f4e66d8c72aa6de1413310ba02598a"
+      }
+    ],
+    "build_receipt_sha256": "307feb49d1e93946f1641f580301aa77c2546b9fa0c38ce1f9e2aeac965bd3f7"
+  },
+  "display_before": {
+    "size": "Physical size: 1216x2640",
+    "density": "Physical density: 560\nOverride density: 476"
+  },
+  "input_sha256": {
+    "shape-spec.json": "c8f48e5efa6b5c57c716937ea4a3c6cd4341840051822148ecab4bafdee97b05",
+    "inputs/manifest.json": "10f2f18083d27c4366e98f21b31aa80e261bc968b0bacf1761ce03b6ca1514a2",
+    "inputs/st00_flat128.png": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+    "inputs/st01_rgb_star_d16.png": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+    "inputs/st02_rgb_star6_d16.png": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+    "inputs/st03_rgb_star7_d16.png": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+    "inputs/st04_rgb_star8_d16.png": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+    "inputs/st05_rgb_star5_d12.png": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+    "inputs/st06_rgb_star6_d12.png": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+    "inputs/st07_rgb_star7_d12.png": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58"
+  },
+  "files": [
+    {
+      "file": "trace/result.json",
+      "sha256": "4c8ebd30a3061d944c09e3984f577ad3e74099a2d73206030f913b0a7334ad5a",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-far50-background-screen.png",
+      "sha256": "41a6929e8efff09a63d574ad91c344b171c819309797419a91f73bfe73c95d38",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-far50-background-window.png",
+      "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-far50-held-screen.png",
+      "sha256": "5e57adf092471c72432b92b9034c044f8e7555f0f1dee0a11b643d7b9e206a74",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-far50-held-window.png",
+      "sha256": "14d08eefaf9d0c9c42162ef39b1ccdc68361fa3deeb9efc318282d779f7d4131",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-full100-background-screen.png",
+      "sha256": "32f8f411dbac9cfa381e94f2e69746aca6895097b928c495111e8544adfa4b7b",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-full100-background-window.png",
+      "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-full100-held-screen.png",
+      "sha256": "273118dca0d9e6e71b171f598b542fbaa0a5880f2db1162034076c3b5819f790",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-full100-held-window.png",
+      "sha256": "c25afdce41864eb4b17e051d1d2be75497ca02ac388c5736afe66dd6cf831c7a",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress01-background-screen.png",
+      "sha256": "40afbd79ca326c9e8eb6249907798c975843675b56171b4b10348d9522e0f6f6",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress01-background-window.png",
+      "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress01-held-screen.png",
+      "sha256": "cfb5a53871ba3d8d6527dcf41189eac23d8620247e8c027f1d493fc44d44de00",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress01-held-window.png",
+      "sha256": "039c078727cdbe5e837ad8842e231eaf714329c41ae51caa7c251e0543e3d0b4",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress10-background-screen.png",
+      "sha256": "b09dbe8f74465edb2c03402f8dbbfd7f2efec7dabcb0d6a3c418847ada041fb8",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress10-background-window.png",
+      "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress10-held-screen.png",
+      "sha256": "85986cfec641c42e4050f210ef0d1060fedab05cae8d072e1daa85354a7a5fdd",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress10-held-window.png",
+      "sha256": "65572d75a8cd4cbc2fec53a34aeb30b2dae0b9c48c5c0d0454822be2b6f3842d",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress50-background-screen.png",
+      "sha256": "32f47d4e520d749c9377fe716733291e6ace7c4f30ee96e978a0739dd1f18225",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress50-background-window.png",
+      "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress50-held-screen.png",
+      "sha256": "403873c48cac50e25c9387e2b5be6214e5d847ab10b9a2504ad99d39185055af",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress50-held-window.png",
+      "sha256": "fec412445d4c0a316bc0e0e03d5e20bea039efe595d8bb22a9d3c69309ef01d8",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress75-background-screen.png",
+      "sha256": "35254bfd1d7f8deda230ef20a6fe896e50cde6b1c84699561de506922e06d6e4",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress75-background-window.png",
+      "sha256": "54dab7172d7a90c491fdf5a14ecacb51ef2fbb94a43c32c00827e18ccbc45e1e",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress75-held-screen.png",
+      "sha256": "fd8ef390544eec85c1f478ab4271076330eb7fd89c75eeba408d92e49508b156",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st00_flat128-light-ingress75-held-window.png",
+      "sha256": "4a6589f182fb901f7fd8a2d6b55a60e3f6650aac117af7aed9c89ac7a47ad8df",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-far50-background-screen.png",
+      "sha256": "149e69a4fdb107e3a2dc8793592947cfc549f8a730c34219d75e07fedd763c54",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-far50-background-window.png",
+      "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-far50-held-screen.png",
+      "sha256": "038bfa1c93b7ced84f4a52d7322b362daa724f7aae73ba2f75c7a2d52e1fcc2e",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-far50-held-window.png",
+      "sha256": "86ee32943752e7ad2d90543d40c0b5952378b2d36207d57291cbf0d43aaec00c",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-full100-background-screen.png",
+      "sha256": "46d01a2185217a7b4a206267689f2ca6ffc8d50e627d577e6075a7853ca10553",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-full100-background-window.png",
+      "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-full100-held-screen.png",
+      "sha256": "eec96fbfa312eca6fc06b6edf98ff54e32a0cc99e7af6f0154ab615af5adcbc0",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-full100-held-window.png",
+      "sha256": "3739849f360af4a59f7b6d15b54c362311bd26a5262abc1fad7f9b219429d4b8",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress01-background-screen.png",
+      "sha256": "5a694fb816aec7ff69b2114d6a9a037b87b90dddf429b522219bd4ee9a5f3a39",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress01-background-window.png",
+      "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress01-held-screen.png",
+      "sha256": "f4facfbb17c82277341fbc7fc2e87ede4a517756166f83defd132c216d7768b1",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress01-held-window.png",
+      "sha256": "66fd6d6a350d2d289b6ef570cc735ef39cde8e247e0776a17886e378230bc90d",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress10-background-screen.png",
+      "sha256": "3fbe59302b9ee6abc2fe0aaa948618eefe39b3c5a143db2b1a27890a6888e6df",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress10-background-window.png",
+      "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress10-held-screen.png",
+      "sha256": "acc0401d42345fa6e82e5ee6f2be049027e20c8da8d9cd4400aeb075a7f40adb",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress10-held-window.png",
+      "sha256": "45dd2061199187a1a7fbec6858319953d0367be4ee4002a8a6fdf1d10d8f13ca",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress50-background-screen.png",
+      "sha256": "a956bb2eaa76e18592456ee5acaca3913d7ae1c287aeb97a223e07b114030f11",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress50-background-window.png",
+      "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress50-held-screen.png",
+      "sha256": "630d414ecc7f0b3f21384af83a7bc1da453e53271ddf3a95c23f111efef5fd2c",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress50-held-window.png",
+      "sha256": "a06fc50a0ca3439bff0b48be47be271c5f83c0ba1bc3798eaaf15364843a49a3",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress75-background-screen.png",
+      "sha256": "a2b100c3ee482f02f3b5d87657258fdadaa339a6a6b58873ab912e1b9d705859",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress75-background-window.png",
+      "sha256": "766794a4ffc39c22bfb58debb9e601800a0c0a37519f6f8ac616048f70993a04",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress75-held-screen.png",
+      "sha256": "3b891fa642efc5e0d69d0293d02b85658dcd09f0cfd8b9cd1a748e9c6755739c",
+      "host_device_match": true
+    },
+    {
+      "file": "trace/st01_rgb_star_d16-light-ingress75-held-window.png",
+      "sha256": "a249a28756c659e79b8278e4e3f46bd9f08cbc13ac9694ee1bb8a3b8c6470790",
+      "host_device_match": true
+    }
+  ],
+  "test_passed": true,
+  "packages": [
+    {
+      "application_id": "com.lingion.sleepy.debug",
+      "path": "/data/app/~~X4kymf7McyY7mZaFnjj2Cg==/com.lingion.sleepy.debug-tSW2jYSnJunN-tSMRIvGGQ==/base.apk",
+      "sha256": "566fc53eb6c28a0df7be03b7b07ee0ab8fd28a96b1f471f1669d7bbdbf3063b5",
+      "matches_frozen_build": true
+    },
+    {
+      "application_id": "com.lingion.sleepy.debug.test",
+      "path": "/data/app/~~ORnZLz9AGXxOH4AQEg4sHw==/com.lingion.sleepy.debug.test-ww5syFJ4A78O-ijnwt6-Qg==/base.apk",
+      "sha256": "e75911933bd3c90b103df140ae82759460e52ac94d200afbdfe5b6f4fc7d6971",
+      "matches_frozen_build": true
+    }
+  ],
+  "argv": [
+    "/Users/kerrylee/Library/Android/sdk/platform-tools/adb",
+    "-s",
+    "d3efcd6a",
+    "shell",
+    "am",
+    "instrument",
+    "-w",
+    "-r",
+    "-e",
+    "class",
+    "com.lingion.sleepy.ui.component.AssetNativeSliderOpticalWorldRenderTest#captureNativeSliderOpticalWorld",
+    "-e",
+    "glassSliderFixedShapeCoverage",
+    "true",
+    "-e",
+    "glassSliderOpticalRunId",
+    "g-response-control-post-android-r2-c8f48e5efa6b-20261116",
+    "-e",
+    "glassSliderOpticalExternalInputsDirectory",
+    "slider-S-control-post",
+    "-e",
+    "glassSliderOpticalInputRole",
+    "calibration",
+    "-e",
+    "glassSliderOpticalThemes",
+    "light",
+    "com.lingion.sleepy.debug.test/com.lingion.sleepy.SleepyRenderTestRunner"
+  ],
+  "exit_code": 0,
+  "pull_output": "",
+  "display_after": {
+    "size": "Physical size: 1216x2640",
+    "density": "Physical density: 560\nOverride density: 476"
+  },
+  "finished_unix": 1794770483.331498
+}

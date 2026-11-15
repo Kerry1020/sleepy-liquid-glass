@@ -4,6 +4,7 @@
 
 [简体中文](README.md) · [Architecture and API boundaries](docs/architecture.md) · [Experimental data and figures](docs/evidence/RESULTS.md) · [Panel material study](docs/panel-material-study.md) · [Controlled optical studies and assets](docs/controlled-optical-studies.md) · [Validation record](VALIDATION.md) · [Contributing](CONTRIBUTING.md) · [Research fixture sources](research/slider-fixtures/README.en.md)
 [Research ownership and migration](research/sleepy-research-migration-20261116/README.en.md) — Sleepy retains application changes and necessary regressions; research entry points, reports and assets are published here.
+[Four-round Android Slider acquisition archive](research/slider-android-response-20261116/README.en.md) — Original captures, the frozen analyzer's schema rejection, and its post-acquisition compatibility repair are preserved separately; response analysis and optical acceptance remain incomplete.
 
 This project extracts Sleepy's input clock, spring motion, acceleration-driven deformation, continuous corners, AGSL materials, and external-backdrop sampling into independent source modules. Its purpose is to make position, shape, material, and interaction timing separately measurable and reproducible, so Compose developers can build glass interfaces that respond to real backgrounds and input.
 

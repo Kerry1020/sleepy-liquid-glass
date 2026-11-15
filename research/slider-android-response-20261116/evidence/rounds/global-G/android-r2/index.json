@@ -1,0 +1,1172 @@
+{
+  "schema": 1,
+  "platform": "android",
+  "status": "original_hashes_pointer_and_pair_checks_passed",
+  "shape_spec": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/global-G/shape-spec.json",
+  "captures": [
+    {
+      "stage_id": "ingress01",
+      "shape_id": "st01_rgb_star_d16_global_g20",
+      "input_id": "st01_rgb_star_d16_global_g20",
+      "run": "g-response-global-G-android-r2-e2e9c3b3c52c-20261116/st01_rgb_star_d16_global_g20-light-ingress01",
+      "png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress01-held-screen.png",
+      "sha256": "b01df242dd7aaaf8dea7b0a2eedf0f7b22984a0aad9751caecd7380d24aa7274",
+      "world_origin_window_px": [
+        0,
+        0
+      ],
+      "pixels_per_world_unit": 2.9750001,
+      "source_world_xywh": [
+        0,
+        0,
+        375,
+        667
+      ],
+      "source_layout_geometry": {
+        "layout_size_px": [
+          1116,
+          1984
+        ],
+        "logical_size_dp": [
+          375.12604,
+          666.89075
+        ],
+        "density": 2.9750001,
+        "screen_origin_px": [
+          0,
+          0
+        ],
+        "screen_rect_px": [
+          0,
+          0,
+          1116,
+          1984
+        ],
+        "local_to_screen_corners_px": [
+          {
+            "local_px": [
+              0,
+              0
+            ],
+            "screen_px": [
+              0,
+              0
+            ]
+          },
+          {
+            "local_px": [
+              1116,
+              0
+            ],
+            "screen_px": [
+              1116,
+              0
+            ]
+          },
+          {
+            "local_px": [
+              0,
+              1984
+            ],
+            "screen_px": [
+              0,
+              1984
+            ]
+          },
+          {
+            "local_px": [
+              1116,
+              1984
+            ],
+            "screen_px": [
+              1116,
+              1984
+            ]
+          }
+        ],
+        "local_to_screen_unit_basis_px": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+      },
+      "source_declared_world_to_actual_dp_scale_xy": [
+        1.0003361008290386,
+        0.9998361827376697
+      ],
+      "actual_control_bounds_world_xywh": [
+        19.890772440646305,
+        405.46640653894434,
+        335.1260223487051,
+        48.06722527505125
+      ],
+      "bounds_kind": "actual attached production touch-holder layout, not native optical alpha",
+      "actual_carrier_bounds_world_xywh": [
+        126.77935,
+        410.84595,
+        57.483329999999995,
+        37.30806999999999
+      ],
+      "carrier_bounds_scope": "actual attached affine visual carrier corners excluding shadow, not optical alpha",
+      "flat_png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress01-held-screen.png",
+      "flat_sha256": "fef165a4fe48e10de375603db4acb5bf16b2b2581fed3820f22d66b5654a2794",
+      "flat_actual_carrier_bounds_world_xywh": [
+        126.77935,
+        410.84595,
+        57.483329999999995,
+        37.30806999999999
+      ],
+      "flat_geometry": {
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2.9750001,
+        "actual_control_bounds_world_xywh": [
+          19.890772440646305,
+          405.46640653894434,
+          335.1260223487051,
+          48.06722527505125
+        ],
+        "actual_carrier_bounds_world_xywh": [
+          126.77935,
+          410.84595,
+          57.483329999999995,
+          37.30806999999999
+        ]
+      },
+      "android_evidence_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/result.json",
+      "android_receipt_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/receipt.json",
+      "android_stage_source": {
+        "id": "ingress01",
+        "requested_fraction": 0.01,
+        "side": "ingress",
+        "requested_lens_center_world_pt": [
+          155.49866637148642,
+          429.5
+        ],
+        "requested_finger_world_pt": [
+          171.27534642432198,
+          430
+        ],
+        "predicted_capsule_source_area_fraction": 0.01000000000000022,
+        "predicted_public_rect_source_area_fraction": 0.14124202549698467,
+        "uncorrected_requested_finger_world_pt": [
+          155.99866637148642,
+          430
+        ]
+      },
+      "android_actual_target_center_world": null,
+      "capture_checks": [
+        {
+          "stage_id": "ingress01",
+          "role": "shape",
+          "scene": "st01_rgb_star_d16_global_g20-light-ingress01",
+          "capture_begin_wall_uptime_ms": 763082636,
+          "capture_end_wall_uptime_ms": 763084372,
+          "last_move_dispatch_wall_uptime_ms": 763082428,
+          "settle_wall_ms": 208,
+          "settle_compose_ms": 1600,
+          "cleanup_cancel_wall_uptime_ms": 763084451,
+          "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+        },
+        {
+          "stage_id": "ingress01",
+          "role": "flat",
+          "scene": "st00_flat128-light-ingress01",
+          "capture_begin_wall_uptime_ms": 763086152,
+          "capture_end_wall_uptime_ms": 763087704,
+          "last_move_dispatch_wall_uptime_ms": 763085950,
+          "settle_wall_ms": 202,
+          "settle_compose_ms": 1600,
+          "cleanup_cancel_wall_uptime_ms": 763087790,
+          "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+        }
+      ]
+    },
+    {
+      "stage_id": "ingress10",
+      "shape_id": "st01_rgb_star_d16_global_g20",
+      "input_id": "st01_rgb_star_d16_global_g20",
+      "run": "g-response-global-G-android-r2-e2e9c3b3c52c-20261116/st01_rgb_star_d16_global_g20-light-ingress10",
+      "png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress10-held-screen.png",
+      "sha256": "fbe8a38b824a447ee43608917358da2211245ddf3067c99d16a2bf7dd8e9304d",
+      "world_origin_window_px": [
+        0,
+        0
+      ],
+      "pixels_per_world_unit": 2.9750001,
+      "source_world_xywh": [
+        0,
+        0,
+        375,
+        667
+      ],
+      "source_layout_geometry": {
+        "layout_size_px": [
+          1116,
+          1984
+        ],
+        "logical_size_dp": [
+          375.12604,
+          666.89075
+        ],
+        "density": 2.9750001,
+        "screen_origin_px": [
+          0,
+          0
+        ],
+        "screen_rect_px": [
+          0,
+          0,
+          1116,
+          1984
+        ],
+        "local_to_screen_corners_px": [
+          {
+            "local_px": [
+              0,
+              0
+            ],
+            "screen_px": [
+              0,
+              0
+            ]
+          },
+          {
+            "local_px": [
+              1116,
+              0
+            ],
+            "screen_px": [
+              1116,
+              0
+            ]
+          },
+          {
+            "local_px": [
+              0,
+              1984
+            ],
+            "screen_px": [
+              0,
+              1984
+            ]
+          },
+          {
+            "local_px": [
+              1116,
+              1984
+            ],
+            "screen_px": [
+              1116,
+              1984
+            ]
+          }
+        ],
+        "local_to_screen_unit_basis_px": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+      },
+      "source_declared_world_to_actual_dp_scale_xy": [
+        1.0003361008290386,
+        0.9998361827376697
+      ],
+      "actual_control_bounds_world_xywh": [
+        19.890772440646305,
+        405.46640653894434,
+        335.1260223487051,
+        48.06722527505125
+      ],
+      "bounds_kind": "actual attached production touch-holder layout, not native optical alpha",
+      "actual_carrier_bounds_world_xywh": [
+        128.45992,
+        410.846,
+        57.48354999999998,
+        37.30799999999999
+      ],
+      "carrier_bounds_scope": "actual attached affine visual carrier corners excluding shadow, not optical alpha",
+      "flat_png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress10-held-screen.png",
+      "flat_sha256": "b498993b5b141f9eb9a0cbb8972ca339c3df0933d1c1bf19c71d33b51a761e0c",
+      "flat_actual_carrier_bounds_world_xywh": [
+        128.45992,
+        410.846,
+        57.48354999999998,
+        37.30799999999999
+      ],
+      "flat_geometry": {
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2.9750001,
+        "actual_control_bounds_world_xywh": [
+          19.890772440646305,
+          405.46640653894434,
+          335.1260223487051,
+          48.06722527505125
+        ],
+        "actual_carrier_bounds_world_xywh": [
+          128.45992,
+          410.846,
+          57.48354999999998,
+          37.30799999999999
+        ]
+      },
+      "android_evidence_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/result.json",
+      "android_receipt_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/receipt.json",
+      "android_stage_source": {
+        "id": "ingress10",
+        "requested_fraction": 0.1,
+        "side": "ingress",
+        "requested_lens_center_world_pt": [
+          157.43202996358298,
+          429.5
+        ],
+        "requested_finger_world_pt": [
+          173.44875851610837,
+          430
+        ],
+        "predicted_capsule_source_area_fraction": 0.10000000000000077,
+        "predicted_public_rect_source_area_fraction": 0.3296520094702333,
+        "uncorrected_requested_finger_world_pt": [
+          157.93202996358298,
+          430
+        ]
+      },
+      "android_actual_target_center_world": null,
+      "capture_checks": [
+        {
+          "stage_id": "ingress10",
+          "role": "shape",
+          "scene": "st01_rgb_star_d16_global_g20-light-ingress10",
+          "capture_begin_wall_uptime_ms": 763089547,
+          "capture_end_wall_uptime_ms": 763091176,
+          "last_move_dispatch_wall_uptime_ms": 763089340,
+          "settle_wall_ms": 207,
+          "settle_compose_ms": 1600,
+          "cleanup_cancel_wall_uptime_ms": 763091282,
+          "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+        },
+        {
+          "stage_id": "ingress10",
+          "role": "flat",
+          "scene": "st00_flat128-light-ingress10",
+          "capture_begin_wall_uptime_ms": 763093086,
+          "capture_end_wall_uptime_ms": 763094718,
+          "last_move_dispatch_wall_uptime_ms": 763092872,
+          "settle_wall_ms": 214,
+          "settle_compose_ms": 1600,
+          "cleanup_cancel_wall_uptime_ms": 763094821,
+          "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+        }
+      ]
+    },
+    {
+      "stage_id": "ingress50",
+      "shape_id": "st01_rgb_star_d16_global_g20",
+      "input_id": "st01_rgb_star_d16_global_g20",
+      "run": "g-response-global-G-android-r2-e2e9c3b3c52c-20261116/st01_rgb_star_d16_global_g20-light-ingress50",
+      "png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress50-held-screen.png",
+      "sha256": "798a63fc0f10ce3913b7c4b84e16bb0cfb72710429a12f686d581e92cf65e103",
+      "world_origin_window_px": [
+        0,
+        0
+      ],
+      "pixels_per_world_unit": 2.9750001,
+      "source_world_xywh": [
+        0,
+        0,
+        375,
+        667
+      ],
+      "source_layout_geometry": {
+        "layout_size_px": [
+          1116,
+          1984
+        ],
+        "logical_size_dp": [
+          375.12604,
+          666.89075
+        ],
+        "density": 2.9750001,
+        "screen_origin_px": [
+          0,
+          0
+        ],
+        "screen_rect_px": [
+          0,
+          0,
+          1116,
+          1984
+        ],
+        "local_to_screen_corners_px": [
+          {
+            "local_px": [
+              0,
+              0
+            ],
+            "screen_px": [
+              0,
+              0
+            ]
+          },
+          {
+            "local_px": [
+              1116,
+              0
+            ],
+            "screen_px": [
+              1116,
+              0
+            ]
+          },
+          {
+            "local_px": [
+              0,
+              1984
+            ],
+            "screen_px": [
+              0,
+              1984
+            ]
+          },
+          {
+            "local_px": [
+              1116,
+              1984
+            ],
+            "screen_px": [
+              1116,
+              1984
+            ]
+          }
+        ],
+        "local_to_screen_unit_basis_px": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+      },
+      "source_declared_world_to_actual_dp_scale_xy": [
+        1.0003361008290386,
+        0.9998361827376697
+      ],
+      "actual_control_bounds_world_xywh": [
+        19.890772440646305,
+        405.46640653894434,
+        335.1260223487051,
+        48.06722527505125
+      ],
+      "bounds_kind": "actual attached production touch-holder layout, not native optical alpha",
+      "actual_carrier_bounds_world_xywh": [
+        133.5017,
+        410.8462,
+        57.48401999999999,
+        37.30763999999999
+      ],
+      "carrier_bounds_scope": "actual attached affine visual carrier corners excluding shadow, not optical alpha",
+      "flat_png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress50-held-screen.png",
+      "flat_sha256": "e655178869065d8504fc37c3a8ca72028227cbe18f4cb3e8543dadac298cca36",
+      "flat_actual_carrier_bounds_world_xywh": [
+        133.5017,
+        410.8462,
+        57.48401999999999,
+        37.30763999999999
+      ],
+      "flat_geometry": {
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2.9750001,
+        "actual_control_bounds_world_xywh": [
+          19.890772440646305,
+          405.46640653894434,
+          335.1260223487051,
+          48.06722527505125
+        ],
+        "actual_carrier_bounds_world_xywh": [
+          133.5017,
+          410.8462,
+          57.48401999999999,
+          37.30763999999999
+        ]
+      },
+      "android_evidence_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/result.json",
+      "android_receipt_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/receipt.json",
+      "android_stage_source": {
+        "id": "ingress50",
+        "requested_fraction": 0.5,
+        "side": "ingress",
+        "requested_lens_center_world_pt": [
+          162.20819100423205,
+          429.5
+        ],
+        "requested_finger_world_pt": [
+          178.81793284032796,
+          430
+        ],
+        "predicted_capsule_source_area_fraction": 0.49999999999999967,
+        "predicted_public_rect_source_area_fraction": 0.8644424500607738,
+        "uncorrected_requested_finger_world_pt": [
+          162.70819100423205,
+          430
+        ]
+      },
+      "android_actual_target_center_world": null,
+      "capture_checks": [
+        {
+          "stage_id": "ingress50",
+          "role": "shape",
+          "scene": "st01_rgb_star_d16_global_g20-light-ingress50",
+          "capture_begin_wall_uptime_ms": 763096800,
+          "capture_end_wall_uptime_ms": 763098358,
+          "last_move_dispatch_wall_uptime_ms": 763096560,
+          "settle_wall_ms": 240,
+          "settle_compose_ms": 1600,
+          "cleanup_cancel_wall_uptime_ms": 763098483,
+          "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+        },
+        {
+          "stage_id": "ingress50",
+          "role": "flat",
+          "scene": "st00_flat128-light-ingress50",
+          "capture_begin_wall_uptime_ms": 763100495,
+          "capture_end_wall_uptime_ms": 763102131,
+          "last_move_dispatch_wall_uptime_ms": 763100232,
+          "settle_wall_ms": 263,
+          "settle_compose_ms": 1600,
+          "cleanup_cancel_wall_uptime_ms": 763102273,
+          "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+        }
+      ]
+    },
+    {
+      "stage_id": "ingress75",
+      "shape_id": "st01_rgb_star_d16_global_g20",
+      "input_id": "st01_rgb_star_d16_global_g20",
+      "run": "g-response-global-G-android-r2-e2e9c3b3c52c-20261116/st01_rgb_star_d16_global_g20-light-ingress75",
+      "png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-ingress75-held-screen.png",
+      "sha256": "a0d062ada06ac52f5593daebdd6faf919a36dce2e893a9a8e5c3da59e1d08c4e",
+      "world_origin_window_px": [
+        0,
+        0
+      ],
+      "pixels_per_world_unit": 2.9750001,
+      "source_world_xywh": [
+        0,
+        0,
+        375,
+        667
+      ],
+      "source_layout_geometry": {
+        "layout_size_px": [
+          1116,
+          1984
+        ],
+        "logical_size_dp": [
+          375.12604,
+          666.89075
+        ],
+        "density": 2.9750001,
+        "screen_origin_px": [
+          0,
+          0
+        ],
+        "screen_rect_px": [
+          0,
+          0,
+          1116,
+          1984
+        ],
+        "local_to_screen_corners_px": [
+          {
+            "local_px": [
+              0,
+              0
+            ],
+            "screen_px": [
+              0,
+              0
+            ]
+          },
+          {
+            "local_px": [
+              1116,
+              0
+            ],
+            "screen_px": [
+              1116,
+              0
+            ]
+          },
+          {
+            "local_px": [
+              0,
+              1984
+            ],
+            "screen_px": [
+              0,
+              1984
+            ]
+          },
+          {
+            "local_px": [
+              1116,
+              1984
+            ],
+            "screen_px": [
+              1116,
+              1984
+            ]
+          }
+        ],
+        "local_to_screen_unit_basis_px": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+      },
+      "source_declared_world_to_actual_dp_scale_xy": [
+        1.0003361008290386,
+        0.9998361827376697
+      ],
+      "actual_control_bounds_world_xywh": [
+        19.890772440646305,
+        405.46640653894434,
+        335.1260223487051,
+        48.06722527505125
+      ],
+      "bounds_kind": "actual attached production touch-holder layout, not native optical alpha",
+      "actual_carrier_bounds_world_xywh": [
+        135.8545,
+        410.84625,
+        57.48428999999999,
+        37.307500000000005
+      ],
+      "carrier_bounds_scope": "actual attached affine visual carrier corners excluding shadow, not optical alpha",
+      "flat_png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-ingress75-held-screen.png",
+      "flat_sha256": "a277c6e7aa88979647ae9f4c5f79de4fcd2e360c4adece6fbbda9e67e3e9abd8",
+      "flat_actual_carrier_bounds_world_xywh": [
+        135.8545,
+        410.84625,
+        57.48428999999999,
+        37.307500000000005
+      ],
+      "flat_geometry": {
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2.9750001,
+        "actual_control_bounds_world_xywh": [
+          19.890772440646305,
+          405.46640653894434,
+          335.1260223487051,
+          48.06722527505125
+        ],
+        "actual_carrier_bounds_world_xywh": [
+          135.8545,
+          410.84625,
+          57.48428999999999,
+          37.307500000000005
+        ]
+      },
+      "android_evidence_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/result.json",
+      "android_receipt_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/receipt.json",
+      "android_stage_source": {
+        "id": "ingress75",
+        "requested_fraction": 0.75,
+        "side": "ingress",
+        "requested_lens_center_world_pt": [
+          164.65696706435716,
+          429.5
+        ],
+        "requested_finger_world_pt": [
+          181.5707515656364,
+          430
+        ],
+        "predicted_capsule_source_area_fraction": 0.7500000000000002,
+        "predicted_public_rect_source_area_fraction": 0.9825358395609544,
+        "uncorrected_requested_finger_world_pt": [
+          165.15696706435716,
+          430
+        ]
+      },
+      "android_actual_target_center_world": null,
+      "capture_checks": [
+        {
+          "stage_id": "ingress75",
+          "role": "shape",
+          "scene": "st01_rgb_star_d16_global_g20-light-ingress75",
+          "capture_begin_wall_uptime_ms": 763104535,
+          "capture_end_wall_uptime_ms": 763106093,
+          "last_move_dispatch_wall_uptime_ms": 763104277,
+          "settle_wall_ms": 258,
+          "settle_compose_ms": 1600,
+          "cleanup_cancel_wall_uptime_ms": 763106239,
+          "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+        },
+        {
+          "stage_id": "ingress75",
+          "role": "flat",
+          "scene": "st00_flat128-light-ingress75",
+          "capture_begin_wall_uptime_ms": 763108521,
+          "capture_end_wall_uptime_ms": 763110078,
+          "last_move_dispatch_wall_uptime_ms": 763108205,
+          "settle_wall_ms": 316,
+          "settle_compose_ms": 1600,
+          "cleanup_cancel_wall_uptime_ms": 763110229,
+          "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+        }
+      ]
+    },
+    {
+      "stage_id": "full100",
+      "shape_id": "st01_rgb_star_d16_global_g20",
+      "input_id": "st01_rgb_star_d16_global_g20",
+      "run": "g-response-global-G-android-r2-e2e9c3b3c52c-20261116/st01_rgb_star_d16_global_g20-light-full100",
+      "png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-full100-held-screen.png",
+      "sha256": "411830e1d3f755d3bcb5b4373f3cdb788dd8b47a546328c49e76eeb5d875bb96",
+      "world_origin_window_px": [
+        0,
+        0
+      ],
+      "pixels_per_world_unit": 2.9750001,
+      "source_world_xywh": [
+        0,
+        0,
+        375,
+        667
+      ],
+      "source_layout_geometry": {
+        "layout_size_px": [
+          1116,
+          1984
+        ],
+        "logical_size_dp": [
+          375.12604,
+          666.89075
+        ],
+        "density": 2.9750001,
+        "screen_origin_px": [
+          0,
+          0
+        ],
+        "screen_rect_px": [
+          0,
+          0,
+          1116,
+          1984
+        ],
+        "local_to_screen_corners_px": [
+          {
+            "local_px": [
+              0,
+              0
+            ],
+            "screen_px": [
+              0,
+              0
+            ]
+          },
+          {
+            "local_px": [
+              1116,
+              0
+            ],
+            "screen_px": [
+              1116,
+              0
+            ]
+          },
+          {
+            "local_px": [
+              0,
+              1984
+            ],
+            "screen_px": [
+              0,
+              1984
+            ]
+          },
+          {
+            "local_px": [
+              1116,
+              1984
+            ],
+            "screen_px": [
+              1116,
+              1984
+            ]
+          }
+        ],
+        "local_to_screen_unit_basis_px": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+      },
+      "source_declared_world_to_actual_dp_scale_xy": [
+        1.0003361008290386,
+        0.9998361827376697
+      ],
+      "actual_control_bounds_world_xywh": [
+        19.890772440646305,
+        405.46640653894434,
+        335.1260223487051,
+        48.06722527505125
+      ],
+      "bounds_kind": "actual attached production touch-holder layout, not native optical alpha",
+      "actual_carrier_bounds_world_xywh": [
+        159.04657,
+        410.84705,
+        57.48670999999999,
+        37.30589999999995
+      ],
+      "carrier_bounds_scope": "actual attached affine visual carrier corners excluding shadow, not optical alpha",
+      "flat_png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-full100-held-screen.png",
+      "flat_sha256": "945174285d5375a888500eaeae33010a639b5add80ee198305a50fc06e436a66",
+      "flat_actual_carrier_bounds_world_xywh": [
+        159.04657,
+        410.84705,
+        57.48670999999999,
+        37.30589999999995
+      ],
+      "flat_geometry": {
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2.9750001,
+        "actual_control_bounds_world_xywh": [
+          19.890772440646305,
+          405.46640653894434,
+          335.1260223487051,
+          48.06722527505125
+        ],
+        "actual_carrier_bounds_world_xywh": [
+          159.04657,
+          410.84705,
+          57.48670999999999,
+          37.30589999999995
+        ]
+      },
+      "android_evidence_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/result.json",
+      "android_receipt_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/receipt.json",
+      "android_stage_source": {
+        "id": "full100",
+        "requested_fraction": 1,
+        "side": "ingress",
+        "requested_lens_center_world_pt": [
+          187.5,
+          429.5
+        ],
+        "requested_finger_world_pt": [
+          207.25,
+          430
+        ],
+        "predicted_capsule_source_area_fraction": 1,
+        "predicted_public_rect_source_area_fraction": 1,
+        "uncorrected_requested_finger_world_pt": [
+          188,
+          430
+        ],
+        "actual_carrier_target_center_world_pt": [
+          187.7223825454712,
+          429.5
+        ]
+      },
+      "android_actual_target_center_world": [
+        187.72238,
+        429.5
+      ],
+      "capture_checks": [
+        {
+          "stage_id": "full100",
+          "role": "shape",
+          "scene": "st01_rgb_star_d16_global_g20-light-full100",
+          "capture_begin_wall_uptime_ms": 763112757,
+          "capture_end_wall_uptime_ms": 763114317,
+          "last_move_dispatch_wall_uptime_ms": 763112458,
+          "settle_wall_ms": 299,
+          "settle_compose_ms": 1600,
+          "cleanup_cancel_wall_uptime_ms": 763114486,
+          "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+        },
+        {
+          "stage_id": "full100",
+          "role": "flat",
+          "scene": "st00_flat128-light-full100",
+          "capture_begin_wall_uptime_ms": 763117019,
+          "capture_end_wall_uptime_ms": 763118645,
+          "last_move_dispatch_wall_uptime_ms": 763116676,
+          "settle_wall_ms": 343,
+          "settle_compose_ms": 1600,
+          "cleanup_cancel_wall_uptime_ms": 763118809,
+          "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+        }
+      ]
+    },
+    {
+      "stage_id": "far50",
+      "shape_id": "st01_rgb_star_d16_global_g20",
+      "input_id": "st01_rgb_star_d16_global_g20",
+      "run": "g-response-global-G-android-r2-e2e9c3b3c52c-20261116/st01_rgb_star_d16_global_g20-light-far50",
+      "png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st01_rgb_star_d16_global_g20-light-far50-held-screen.png",
+      "sha256": "b5713d44123cac98bca46a1c058433406a5942bd4706d4dd6ca2cc751443d27d",
+      "world_origin_window_px": [
+        0,
+        0
+      ],
+      "pixels_per_world_unit": 2.9750001,
+      "source_world_xywh": [
+        0,
+        0,
+        375,
+        667
+      ],
+      "source_layout_geometry": {
+        "layout_size_px": [
+          1116,
+          1984
+        ],
+        "logical_size_dp": [
+          375.12604,
+          666.89075
+        ],
+        "density": 2.9750001,
+        "screen_origin_px": [
+          0,
+          0
+        ],
+        "screen_rect_px": [
+          0,
+          0,
+          1116,
+          1984
+        ],
+        "local_to_screen_corners_px": [
+          {
+            "local_px": [
+              0,
+              0
+            ],
+            "screen_px": [
+              0,
+              0
+            ]
+          },
+          {
+            "local_px": [
+              1116,
+              0
+            ],
+            "screen_px": [
+              1116,
+              0
+            ]
+          },
+          {
+            "local_px": [
+              0,
+              1984
+            ],
+            "screen_px": [
+              0,
+              1984
+            ]
+          },
+          {
+            "local_px": [
+              1116,
+              1984
+            ],
+            "screen_px": [
+              1116,
+              1984
+            ]
+          }
+        ],
+        "local_to_screen_unit_basis_px": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "geometry_source": "actual attached LayoutCoordinates.localToScreen at all four layout corners and local unit basis"
+      },
+      "source_declared_world_to_actual_dp_scale_xy": [
+        1.0003361008290386,
+        0.9998361827376697
+      ],
+      "actual_control_bounds_world_xywh": [
+        19.890772440646305,
+        405.46640653894434,
+        335.1260223487051,
+        48.06722527505125
+      ],
+      "bounds_kind": "actual attached production touch-holder layout, not native optical alpha",
+      "actual_carrier_bounds_world_xywh": [
+        183.9192,
+        410.8479,
+        57.48934,
+        37.30420000000004
+      ],
+      "carrier_bounds_scope": "actual attached affine visual carrier corners excluding shadow, not optical alpha",
+      "flat_png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/st00_flat128-light-far50-held-screen.png",
+      "flat_sha256": "53f9386033d4fe53d24f3a79a87e685457df61c0fe35f54af114e928af8ec596",
+      "flat_actual_carrier_bounds_world_xywh": [
+        183.9192,
+        410.8479,
+        57.48934,
+        37.30420000000004
+      ],
+      "flat_geometry": {
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2.9750001,
+        "actual_control_bounds_world_xywh": [
+          19.890772440646305,
+          405.46640653894434,
+          335.1260223487051,
+          48.06722527505125
+        ],
+        "actual_carrier_bounds_world_xywh": [
+          183.9192,
+          410.8479,
+          57.48934,
+          37.30420000000004
+        ]
+      },
+      "android_evidence_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/result.json",
+      "android_receipt_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/receipt.json",
+      "android_stage_source": {
+        "id": "far50",
+        "requested_fraction": 0.5,
+        "side": "egress",
+        "requested_lens_center_world_pt": [
+          212.79180899576795,
+          429.5
+        ],
+        "requested_finger_world_pt": [
+          235.68206715967204,
+          430
+        ],
+        "predicted_capsule_source_area_fraction": 0.49999999999999967,
+        "predicted_public_rect_source_area_fraction": 0.8644424500607738,
+        "uncorrected_requested_finger_world_pt": [
+          213.29180899576795,
+          430
+        ]
+      },
+      "android_actual_target_center_world": null,
+      "capture_checks": [
+        {
+          "stage_id": "far50",
+          "role": "shape",
+          "scene": "st01_rgb_star_d16_global_g20-light-far50",
+          "capture_begin_wall_uptime_ms": 763121465,
+          "capture_end_wall_uptime_ms": 763123044,
+          "last_move_dispatch_wall_uptime_ms": 763121094,
+          "settle_wall_ms": 371,
+          "settle_compose_ms": 1600,
+          "cleanup_cancel_wall_uptime_ms": 763123222,
+          "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+        },
+        {
+          "stage_id": "far50",
+          "role": "flat",
+          "scene": "st00_flat128-light-far50",
+          "capture_begin_wall_uptime_ms": 763125848,
+          "capture_end_wall_uptime_ms": 763127444,
+          "last_move_dispatch_wall_uptime_ms": 763125495,
+          "settle_wall_ms": 353,
+          "settle_compose_ms": 1600,
+          "cleanup_cancel_wall_uptime_ms": 763127637,
+          "scope": "actual observed static pointer/readiness evidence; no dynamic or optical acceptance"
+        }
+      ]
+    }
+  ],
+  "source_result": {
+    "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/trace/result.json",
+    "sha256": "1839d0f0c95c4d6312c7abe7b60a727db0a2b17916cb6cdfeea0b1653b345e5a"
+  },
+  "host_receipt": {
+    "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/evidence/rounds/global-G/android-r2/receipt.json",
+    "sha256": "71ddd46f13cb17f66487d474656fcd4dde4819ee5785c791bf08c422f68abde6"
+  },
+  "adapter": {
+    "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/docs/design/evidence/glass-slider-star-20261115/frozen-calibration-tools/index-android-shape-captures.py",
+    "sha256": "682ac2ef0ccd3d6af543768ca36adf90652b7b55d1987617813baa3e91db2497"
+  },
+  "limits": [
+    "Source is originally drawn into actual integer layout1116x1984, density2.975; no @2 normalization or registration.",
+    "Declared source world-to-render scale is exported. It is not a recovered optical transform.",
+    "Actual pointers/readiness validate settled capture, not millisecond trajectory or full native parity."
+  ]
+}

@@ -19,11 +19,14 @@
 
 应用保留生产 `runtime`、确定性 JVM 回归、真正验证行为／采样的 GPU 回归及其共享辅助代码。11 月 9 日的原有设计档案和来源审计不在本次范围。没有复制 APK、DerivedData、Gradle 缓存、trace 或设备数据。
 
+再次排查发现 12 份含有研究职责的测试或辅助文件，原文另存于[补充迁移清单](followup/SOURCE-MAP.json)，共 241,594 bytes，来源固定为 `d38e9d1a92adcde69264bdd50313948bdd29ab0e`。语言菜单的逐帧录制、可配采集协议和反射 shader 诊断、采样／运动／轮廓／背板／窗口回归中的成功路径 PNG／CSV／JSON 研究导出，以及不设性能通过阈值的 exact-contour A/B 采集器，都属于研究职责。应用保留真正的行为、呈现交接、运动与 GPU 误差断言及其内存采样；用于这些断言的 shader instrumentation 也保留。原 52 份清单不改写；补充 12 份完整原文保留拆分前的全部职责。
+
 ## 校验与使用
 
 ```sh
 python3 research/sleepy-research-migration-20261116/verify.py
 python3 research/sleepy-research-migration-20261116/verify.py --source /path/to/sleepy
+python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/followup/SOURCE-MAP.json --source /path/to/sleepy
 ```
 
 第一条逐字节校验本库所有 52 个映射；第二条另外使用 `git show` 对照固定来源提交，不要求来源工作区恢复被迁出的文件。归档源码与原文不改写，旧文档中的相对路径、机器路径与历史状态仅保留来源，不能当作当前可执行说明；执行研究使用外置入口并显式选择所需源码。

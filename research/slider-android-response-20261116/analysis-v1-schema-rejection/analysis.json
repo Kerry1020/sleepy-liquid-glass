@@ -1,0 +1,440 @@
+{
+  "schema": 1,
+  "status": "REJECTED_INPUT_GATES",
+  "optical_acceptance": false,
+  "analyzer": {
+    "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/analyze.py",
+    "sha256": "cc789722557b1e7136ec1352029f6cb61aa378e5a74e65957e33753dbb9f0bcf",
+    "bytes": 47753
+  },
+  "plan": {
+    "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/PLAN.md",
+    "sha256": "0f29315ed79cafc656a86db4eb241cd197579e497ce584a6a2beacb117b68660",
+    "bytes": 12079
+  },
+  "round_order": [
+    "control-pre",
+    "global-G",
+    "mask-G",
+    "control-post"
+  ],
+  "scope": {
+    "acquired_held_endpoints": 48,
+    "analysis_held_endpoints": 8,
+    "analysis_pose": "full100",
+    "difference_from_original_plan": "The unchanged six-pose fixture acquires48 endpoints; only the eight planned full100 endpoints enter response arrays; other PNGs are integrity-hashed, not decoded"
+  },
+  "errors": [
+    "control-pre: 'source_manifest'",
+    "global-G: 'source_manifest'",
+    "mask-G: 'source_manifest'",
+    "control-post: 'source_manifest'"
+  ],
+  "unknowns": [],
+  "limits": [
+    "All response and interval results are encoded-byte diagnostics conditional on the stated affine/common-alpha surrogate, never optical acceptance.",
+    "E1/4/8 are endpoint-box sensitivity allowances, not measured noise bounds; the shared-baseline residual allowance is2E, not the earlier native raw T4.",
+    "One mask cannot identify displacement, blur, opacity, refraction strength, physical thickness or an internal pipeline uniquely.",
+    "Clipping/floors, transfer/gamma, adaptive gain, tint, geometry/rasterization and layered rail/background signals can invalidate ratio cancellation.",
+    "An unobserved effective opacity/output colour space stays unknown; no guessed value or colour normalization is used.",
+    "Spatially correlated and interpolated samples are not independent statistical trials; no confidence p-values are attached."
+  ],
+  "freeze": {
+    "status": "RECORDED_FREEZE_HASHES_MATCH",
+    "identity": {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/FREEZE.json",
+      "sha256": "4cd995935db016027d5c37cb472b53c7ea205a063aa7dc68412a265e2f704e23",
+      "bytes": 12957
+    },
+    "checked_files": [
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/docs/design/evidence/glass-slider-star-20261115/frozen-calibration-tools/index-android-shape-captures.py",
+        "sha256": "682ac2ef0ccd3d6af543768ca36adf90652b7b55d1987617813baa3e91db2497",
+        "bytes": 9012
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/.local/preparation.json",
+        "sha256": "e160b017992354db24116721e2feb56d4495a8485bbc9009f74b54a6494d395e",
+        "bytes": 1162
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/.local/sources/com/lingion/sleepy/ui/component/AssetNativeSliderOpticalWorldRenderTest.kt",
+        "sha256": "2ab0164e70f7374f9851e03631c35613ba838152aa8ef10c107347dd33965da5",
+        "bytes": 71700
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/host-build-20261116.json",
+        "sha256": "307feb49d1e93946f1641f580301aa77c2546b9fa0c38ce1f9e2aeac965bd3f7",
+        "bytes": 2629
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/overlay.init.gradle",
+        "sha256": "0447b34d330ef7d5f09567827d322d9e1a756cc2a1de1bbf99ca760c9095dc78",
+        "bytes": 4207
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-host/prepare-overlay.py",
+        "sha256": "77f7c9e5dc6f70b2701aceba6ec00ef42e3cdddfc1ed21e7260899175324babf",
+        "bytes": 7030
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/INCIDENTS.json",
+        "sha256": "0c286c05f589620cceb39599dff3e2135f26d6201d8c174676ff87abb06995e3",
+        "bytes": 484
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/PLAN.md",
+        "sha256": "0f29315ed79cafc656a86db4eb241cd197579e497ce584a6a2beacb117b68660",
+        "bytes": 12079
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/analyze.py",
+        "sha256": "cc789722557b1e7136ec1352029f6cb61aa378e5a74e65957e33753dbb9f0bcf",
+        "bytes": 47753
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/capture.py",
+        "sha256": "3ea272eb4bd5233fd3f29ce2bfc76ea653e5dca3e4a5990ae92e2ffd1b484d58",
+        "bytes": 8061
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/collector-self-test.py",
+        "sha256": "b8f2eba4307e823e57c8f9930bf66c42d884064010d8ef3f9e0f3b44e68ec3ff",
+        "bytes": 9470
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/SOURCE-MAP.json",
+        "sha256": "e6a8c7b0fe8bf89140b0628bf640d65ce1ec647a666db4f3b59691fe8985a825",
+        "bytes": 8483
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/control-post/shape-spec.json",
+        "sha256": "c8f48e5efa6b5c57c716937ea4a3c6cd4341840051822148ecab4bafdee97b05",
+        "bytes": 42598
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/control-pre/shape-spec.json",
+        "sha256": "8a2dd9bab3be70261a3a6938b8d4e5c20c8eb4e0601d004e47aec16496d4ed15",
+        "bytes": 42595
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/global-G/shape-spec.json",
+        "sha256": "e2e9c3b3c52cafbd291bccb4da4f0600611c6e23460b80170cf944ebeb5c71a6",
+        "bytes": 42728
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/derived/mask-G/shape-spec.json",
+        "sha256": "f3cb05e16954f7661e8b6e2d8a63fee420bdcad603daea0646155617cea086d0",
+        "bytes": 42857
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/installation.json",
+        "sha256": "96b31887f72816e118858c58445a977ea7ceb9d5e4d2d0d6b9c7502d2971f2ef",
+        "bytes": 1613
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/prepare.py",
+        "sha256": "c3da82776f5aa513e1a47151838accedabb43b077f407255e7695bc73357682b",
+        "bytes": 4427
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-android-response-20261116/provenance/historical-geometry-spec.json",
+        "sha256": "8eab6adf59ee618a08237fa3eea669e82bf29a3de9e9a1537b11f240ea870fd4",
+        "bytes": 42506
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/manifest.json",
+        "sha256": "d1f2d2be9a2cb984cf9ffb8c8a85ee8f9e11ce892be998c9c95666e5644554f6",
+        "bytes": 33502
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/reference-analysis/analysis.json",
+        "sha256": "5499910555e7aa465f853c2361f55fe4a2300703416a98b82d00de98c393d9ba",
+        "bytes": 4759467
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/reference-analysis/original-pixels.npz",
+        "sha256": "11b1e76aa2a0a7766b579bdfd8a8fc8e4bceecda1fc996a34f07d9955a78f695",
+        "bytes": 270671
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/rounds/control-post/native-r1/index-strict.json",
+        "sha256": "2b0849d98d23bb166cc1e8d75818f60b187eeb432dc803af000a41be64aba14b",
+        "bytes": 3511
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/rounds/control-pre/native-r1/endpoint-verification-strict.json",
+        "sha256": "0108403793bca3bb3761a68ef6d7c3c91c0154dee1e2e52d720a95e1b445cb5c",
+        "bytes": 468236
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/rounds/control-pre/native-r1/index-strict.json",
+        "sha256": "042bc90107f62485c7f838f9b807c48f7da294e9a45f3e2f5207bc29db92e09e",
+        "bytes": 3504
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/rounds/global-G/native-r1/index-strict.json",
+        "sha256": "c0e0b34efa2c002a89267e16c52da2c84ed2db768bc20fd52ea68575dc76e599",
+        "bytes": 3516
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/rounds/mask-G/native-r1/index-strict.json",
+        "sha256": "a77870ae779a367440fb0ee67cc7962f2709998c5cccf20e167c5fbdc5622ad3",
+        "bytes": 3496
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/manifest.json",
+        "sha256": "10f2f18083d27c4366e98f21b31aa80e261bc968b0bacf1761ce03b6ca1514a2",
+        "bytes": 1626
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st00_flat128.png",
+        "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+        "bytes": 5221
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st01_rgb_star_d16.png",
+        "sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+        "bytes": 5780
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st02_rgb_star6_d16.png",
+        "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+        "bytes": 5828
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st03_rgb_star7_d16.png",
+        "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+        "bytes": 5921
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st04_rgb_star8_d16.png",
+        "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+        "bytes": 5997
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st05_rgb_star5_d12.png",
+        "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+        "bytes": 5634
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st06_rgb_star6_d12.png",
+        "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+        "bytes": 5673
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st07_rgb_star7_d12.png",
+        "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+        "bytes": 5751
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/shape-spec.json",
+        "sha256": "f0dfeac27498d7050ab22882bbf980f916bfeec178fd43338f150e01fed363ad",
+        "bytes": 38436
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/manifest.json",
+        "sha256": "96ef3d90387340ed7a93c11a0139720256e771a701563ad8d7f170deb342790d",
+        "bytes": 1625
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st00_flat128.png",
+        "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+        "bytes": 5221
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st01_rgb_star_d16.png",
+        "sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+        "bytes": 5780
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st02_rgb_star6_d16.png",
+        "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+        "bytes": 5828
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st03_rgb_star7_d16.png",
+        "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+        "bytes": 5921
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st04_rgb_star8_d16.png",
+        "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+        "bytes": 5997
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st05_rgb_star5_d12.png",
+        "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+        "bytes": 5634
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st06_rgb_star6_d12.png",
+        "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+        "bytes": 5673
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st07_rgb_star7_d12.png",
+        "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+        "bytes": 5751
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-pre/shape-spec.json",
+        "sha256": "83d4a76cc5d730b819f9b8d888c87865a60f16f4725b33ca88f64be8f2a6f882",
+        "bytes": 38435
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/manifest.json",
+        "sha256": "812f8be7eef296c0f3d9ef5925c5d633827d19cd1a66b6c59a0aba9bd84d707d",
+        "bytes": 1644
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st00_flat128.png",
+        "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+        "bytes": 5221
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st01_rgb_star_d16_global_g20.png",
+        "sha256": "49746c72910f7a1218b0260b0126058a5e17cf6eadd29e068afac91e0f4c75d5",
+        "bytes": 6955
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st02_rgb_star6_d16.png",
+        "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+        "bytes": 5828
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st03_rgb_star7_d16.png",
+        "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+        "bytes": 5921
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st04_rgb_star8_d16.png",
+        "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+        "bytes": 5997
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st05_rgb_star5_d12.png",
+        "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+        "bytes": 5634
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st06_rgb_star6_d12.png",
+        "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+        "bytes": 5673
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st07_rgb_star7_d12.png",
+        "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+        "bytes": 5751
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/global-G/shape-spec.json",
+        "sha256": "1412001b3e039c492ad2726258d80cb58950d31228eaa3dfa0b43c70603fe0d3",
+        "bytes": 38574
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/manifest.json",
+        "sha256": "99234a6a365b8c4df6860b85e95b73c2cd97a41572070f3cad8b028656d8a02b",
+        "bytes": 1638
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st00_flat128.png",
+        "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+        "bytes": 5221
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st01_rgb_star_d16_mask_g20.png",
+        "sha256": "bff58755a5a2e31a537d97a4adc8ad72e71a1dc7c2c724bba04385ee448257ad",
+        "bytes": 6977
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st02_rgb_star6_d16.png",
+        "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+        "bytes": 5828
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st03_rgb_star7_d16.png",
+        "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+        "bytes": 5921
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st04_rgb_star8_d16.png",
+        "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+        "bytes": 5997
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st05_rgb_star5_d12.png",
+        "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+        "bytes": 5634
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st06_rgb_star6_d12.png",
+        "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+        "bytes": 5673
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st07_rgb_star7_d12.png",
+        "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+        "bytes": 5751
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-G/shape-spec.json",
+        "sha256": "56879ca12fee67881beb3c323ef12d50b043f243c0d026a50a1035e4e243caab",
+        "bytes": 38707
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-fixtures/SOURCE-MAP.json",
+        "sha256": "4743df6a03b68f30fe5f0071b9d23a23aa5db6042696e60c5cf063cfa9227032",
+        "bytes": 8931
+      },
+      {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-fixtures/app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt",
+        "sha256": "1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e",
+        "bytes": 71695
+      }
+    ],
+    "errors": [],
+    "unknowns": [],
+    "limit": "Hash equality checks recorded identity; it does not prove trusted acquisition time"
+  },
+  "native_evidence": [
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/reference-analysis/original-pixels.npz",
+      "sha256": "11b1e76aa2a0a7766b579bdfd8a8fc8e4bceecda1fc996a34f07d9955a78f695",
+      "bytes": 270671
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/reference-analysis/analysis.json",
+      "sha256": "5499910555e7aa465f853c2361f55fe4a2300703416a98b82d00de98c393d9ba",
+      "bytes": 4759467
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/manifest.json",
+      "sha256": "d1f2d2be9a2cb984cf9ffb8c8a85ee8f9e11ce892be998c9c95666e5644554f6",
+      "bytes": 33502
+    },
+    {
+      "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/evidence/rounds/control-pre/native-r1/endpoint-verification-strict.json",
+      "sha256": "0108403793bca3bb3761a68ef6d7c3c91c0154dee1e2e52d720a95e1b445cb5c",
+      "bytes": 468236
+    }
+  ],
+  "native_operating_state": {
+    "os": "Version 26.5 (Build 23F77)",
+    "device": "iPhone",
+    "interfaceStyle": 1,
+    "screenScale": 2,
+    "screenWidthPt": 375,
+    "screenHeightPt": 667,
+    "reduceMotion": false,
+    "reduceTransparency": false,
+    "darkerSystemColors": false,
+    "tintSRGB": [
+      0,
+      0.65,
+      0.75,
+      1
+    ]
+  },
+  "rounds": []
+}
