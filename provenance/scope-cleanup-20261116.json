@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-16",
+  "purpose": "Reorganize PR 442 so Sleepy contains only application changes and necessary regression tests; research lives in sleepy-liquid-glass.",
+  "upstreamBaseCommit": "46f7acfc8a8de8039124df9a1b3c44f0d1f10ae6",
+  "supersededPullRequestHead": "db1e2470db900d4642b27339c9cef31523ab75f3",
+  "cleanPullRequestHead": "5f3ea867ed173520c80515c5482263efe1c21433",
+  "pullRequest": "https://github.com/lingion/sleepy/pull/442",
+  "cleanDiff": {
+    "files": 8,
+    "additions": 542,
+    "deletions": 27,
+    "commits": 2
+  },
+  "preservedSourceAndTestBlobs": [
+    {
+      "path": "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt",
+      "oldBlob": "637a3721485f56f21d05cb55cf4f531008c7bb3d",
+      "newBlob": "637a3721485f56f21d05cb55cf4f531008c7bb3d"
+    },
+    {
+      "path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/GlassSliderTrackCoverageTest.kt",
+      "oldBlob": "0ea279cc5637c8f84479849dd1b235951cde0f4a",
+      "newBlob": "0ea279cc5637c8f84479849dd1b235951cde0f4a"
+    },
+    {
+      "path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassRefractionShoulderTest.kt",
+      "oldBlob": "b806e06f288ade3636da0adf4e54368c29d8bf3b",
+      "newBlob": "b806e06f288ade3636da0adf4e54368c29d8bf3b"
+    },
+    {
+      "path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShaderContractTest.kt",
+      "oldBlob": "68e2abf0228d20e2d94a38d0dec2459afe355ad8",
+      "newBlob": "68e2abf0228d20e2d94a38d0dec2459afe355ad8"
+    },
+    {
+      "path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyleReferenceTest.kt",
+      "oldBlob": "b84d1a950533b37b529d2b59e2d6e58cbc8c6807",
+      "newBlob": "b84d1a950533b37b529d2b59e2d6e58cbc8c6807"
+    },
+    {
+      "path": "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
+      "oldBlob": "597485974ed5015f11fbf3f22603f4855a86d8bb",
+      "newBlob": "597485974ed5015f11fbf3f22603f4855a86d8bb"
+    },
+    {
+      "path": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt",
+      "oldBlob": "390ce8d3f8678f8dd7ed6eccc06eefdf3b5adf60",
+      "newBlob": "390ce8d3f8678f8dd7ed6eccc06eefdf3b5adf60"
+    },
+    {
+      "path": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
+      "oldBlob": "4e1c70313c711b005ce6fa05ea3ca1b9b9f962ce",
+      "newBlob": "4e1c70313c711b005ce6fa05ea3ca1b9b9f962ce"
+    }
+  ],
+  "runtimeImportCount": 38,
+  "runtimeImportsByteIdentical": true,
+  "archivedBuildManifest": "runtime-import-20261115-slider-original.json",
+  "archivedBuildManifestSha256": "1f349e04e1907abdf2570a5ea74f3a61f7f5b54d8027d7496c399979cff9be37",
+  "currentImportManifestSha256": "1b088169dce96caaacd3d332c5edfa99c9fe1d4c25e988acf121cf35651f03fd",
+  "researchFixtures": "../research/slider-fixtures/SOURCE-MAP.json",
+  "validationScope": "Source-byte equivalence and publication-scope reconciliation only. Historical build/test receipts remain attached to the source and manifest actually used; no historical result is relabeled as a new execution. Optical acceptance is unchanged.",
+  "currentHeadLocalValidation": {
+    "sourceCommit": "5f3ea867ed173520c80515c5482263efe1c21433",
+    "command": "ANDROID_HOME=<local Android SDK> ./gradlew :app:testDebugUnitTest --rerun --tests \"*GlassSliderTrackCoverageTest\" --tests \"*LiquidGlassShaderContractTest\" --tests \"*LiquidGlassStyleReferenceTest\" --tests \"*LiquidGlassRefractionShoulderTest\" --console=plain --max-workers=2",
+    "exitCode": 0,
+    "suites": [
+      {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "name": "GlassSliderTrackCoverageTest"
+      },
+      {
+        "tests": 54,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "name": "LiquidGlassShaderContractTest"
+      },
+      {
+        "tests": 27,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "name": "LiquidGlassStyleReferenceTest"
+      },
+      {
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "name": "LiquidGlassRefractionShoulderTest"
+      }
+    ],
+    "researchFixtureRestorationCompile": {
+      "task": ":app:compileDebugAndroidTestKotlin",
+      "exitCode": 0
+    },
+    "deviceOpticalAcceptance": false
+  }
+}

@@ -1,11 +1,11 @@
 {
   "sleepyRepository": "https://github.com/Kerry1020/sleepy",
   "upstreamRepository": "https://github.com/lingion/sleepy",
-  "sourceBaseCommit": "9533cf7f1b11d551f16b56230a9bccad4c3e9806",
+  "sourceBaseCommit": "5f3ea867ed173520c80515c5482263efe1c21433",
   "pullRequest": 442,
   "runtimeSourcesByteIdenticalAtImport": true,
   "status": "experimental; single-slider r2 A7.8/W7.5 and range checkpoint remain unaccepted; imported application evidence does not validate independent-backend optics",
-  "previousImport": "runtime-import-20261115-pre-slider.json",
+  "previousImport": "runtime-import-20261115-slider-original.json",
   "files": [
     {
       "source": "libraries/liquid-glass/runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass/BackdropAppearanceHysteresisTest.kt",
@@ -198,5 +198,6 @@
       "sha256": "c6e10e1decb60296007d64213b748fa8431f7a07de28f325d3b354f94b177ffb"
     }
   ],
-  "pullRequestUrl": "https://github.com/lingion/sleepy/pull/442"
+  "pullRequestUrl": "https://github.com/lingion/sleepy/pull/442",
+  "scopeCleanupReceipt": "scope-cleanup-20261116.json"
 }

@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "status": "Exact Git-tracked author-source export; not an independently runnable public runtime adapter or optical acceptance",
+  "source_repository": "Sleepy Android repository",
+  "source_commit": "db1e2470db900d4642b27339c9cef31523ab75f3",
+  "selection": [
+    "tools/native-glass-reference/",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassSliderRailEndpointRenderTest.kt"
+  ],
+  "selection_method": "git ls-tree -r -l -z fixed_commit -- selected_paths; git show fixed_commit:path, no working-tree content",
+  "excluded_policy": "No build/cache/output files. All 17 tracked native-project files and both selected Android instrumentation sources at this commit are included.",
+  "files": [
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassSliderRailEndpointRenderTest.kt",
+      "export_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassSliderRailEndpointRenderTest.kt",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "35052c88e9f34652ada76136137abba315e7e58d",
+      "bytes": 35416,
+      "sha256": "ad43029f355053060ba32eb0e06aae026b7a2b4ec28a622f734a377ab61aef8f"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt",
+      "export_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeSliderOpticalWorldRenderTest.kt",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "9d534052fedc25c069cea4fc2f2b7924dbbaba90",
+      "bytes": 71695,
+      "sha256": "1735702b83f009b1bfe2e01af82571b14017edb5f1dec851916b170a978cdb5e"
+    },
+    {
+      "source_path": "tools/native-glass-reference/.gitignore",
+      "export_path": "tools/native-glass-reference/.gitignore",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "af9ae81056e6330d9a9c264222d4f27c24d2de1a",
+      "bytes": 40,
+      "sha256": "099c9f409fa89c42b14e03ed92c7ee9ad71c2e0d034882fcd30a5fa588850816"
+    },
+    {
+      "source_path": "tools/native-glass-reference/App/Info.plist",
+      "export_path": "tools/native-glass-reference/App/Info.plist",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "81c91533f2f93e39931e25511ba4d1a9cd812ce5",
+      "bytes": 1040,
+      "sha256": "77ed9f2bc9c6f16bdb933441e597d24c93235378db68156d48bcf45a349ee525"
+    },
+    {
+      "source_path": "tools/native-glass-reference/App/NativeRangeReference.swift",
+      "export_path": "tools/native-glass-reference/App/NativeRangeReference.swift",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "4b94d0fa84a04d6024fd65ff27c219b9c97e26a2",
+      "bytes": 21660,
+      "sha256": "95c1836ca2a9fdc18643b2a0df65914c8518044666ee5361179def7079b4f972"
+    },
+    {
+      "source_path": "tools/native-glass-reference/App/NativeStage.swift",
+      "export_path": "tools/native-glass-reference/App/NativeStage.swift",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "f9952c5a16e043411b8517d6c6bc25942b71ed7c",
+      "bytes": 29183,
+      "sha256": "e9b10e960ddb7c7f14801f74d8f3098c1dfdfe227b0266c1951c2eab7125e4ec"
+    },
+    {
+      "source_path": "tools/native-glass-reference/App/ReferenceTrace.swift",
+      "export_path": "tools/native-glass-reference/App/ReferenceTrace.swift",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "21ecd3c9fc7a40821c49b269a2bb57fa90359bb5",
+      "bytes": 25340,
+      "sha256": "b8a7d57193548e46c93b2a90fa254588c3e9150100079bee735a47e00d9f5f99"
+    },
+    {
+      "source_path": "tools/native-glass-reference/App/main.swift",
+      "export_path": "tools/native-glass-reference/App/main.swift",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "1b31bce3e581ecdd7a813f6f0086889f395bcedb",
+      "bytes": 112044,
+      "sha256": "5a21313a4208e4fefc0129c15fdb877d3e1fe5a90b7a0770329e5d2bc7f70a73"
+    },
+    {
+      "source_path": "tools/native-glass-reference/GlassNativeReference.xcodeproj/project.pbxproj",
+      "export_path": "tools/native-glass-reference/GlassNativeReference.xcodeproj/project.pbxproj",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "9f86e3aa0b39e52ebd7c0899cb3440ed379264be",
+      "bytes": 15126,
+      "sha256": "7f3214ccb44d79a3ca76477a58a0bdddebef941c99176fb4ba1898c1afc847de"
+    },
+    {
+      "source_path": "tools/native-glass-reference/GlassNativeReference.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "export_path": "tools/native-glass-reference/GlassNativeReference.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "919434a6254f0e9651f402737811be6634a03e9c",
+      "bytes": 135,
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+    },
+    {
+      "source_path": "tools/native-glass-reference/GlassNativeReference.xcodeproj/xcshareddata/xcschemes/GlassNativeReference.xcscheme",
+      "export_path": "tools/native-glass-reference/GlassNativeReference.xcodeproj/xcshareddata/xcschemes/GlassNativeReference.xcscheme",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "75810af513202e805ef505ed028d8ba73292eb6e",
+      "bytes": 4635,
+      "sha256": "8473a320b6d6b7dba5ce094cbf0595edd9796ecbbe97182f120bfa5774f8ec85"
+    },
+    {
+      "source_path": "tools/native-glass-reference/README.md",
+      "export_path": "tools/native-glass-reference/README.md",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "4b6125465dd59cd937b2f34f713814402bb9eb98",
+      "bytes": 85964,
+      "sha256": "55807445ea64ec6a8b021e4bf4b0378aa68f3394edf9ded1a27a2bd6df63bc15"
+    },
+    {
+      "source_path": "tools/native-glass-reference/UITests/NativeReferenceTests.swift",
+      "export_path": "tools/native-glass-reference/UITests/NativeReferenceTests.swift",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "dfdd453d25a0ab601bfa03376b94c9218d08e6fb",
+      "bytes": 132196,
+      "sha256": "ae1e82a305381e6756082cf9f48f9a15c43ea7872069436563fe6324ebf160f7"
+    },
+    {
+      "source_path": "tools/native-glass-reference/capture-static-optics.py",
+      "export_path": "tools/native-glass-reference/capture-static-optics.py",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "f0e262880304abc38e792c668e17b3a7385ef5a3",
+      "bytes": 3108,
+      "sha256": "e41ce1eaf138ba915604386f21a08e3a65d201a7ac9a3abed278df6bbdb63c2b"
+    },
+    {
+      "source_path": "tools/native-glass-reference/export-language.py",
+      "export_path": "tools/native-glass-reference/export-language.py",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "200781d07404aa5860db11686709f65ca4b1a05f",
+      "bytes": 7444,
+      "sha256": "c94037bc6d2b9afd782e415d8e354f9ec076026d0ab1f11e70b8d8baa29dd652"
+    },
+    {
+      "source_path": "tools/native-glass-reference/export-touches.py",
+      "export_path": "tools/native-glass-reference/export-touches.py",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "4f7fc74e521fedda3125e42b85e875ab0744793b",
+      "bytes": 3322,
+      "sha256": "a3c77ddb5669df0394523621a51fcb5e3375e542e0a5cd3f5758abe0aacbb0e7"
+    },
+    {
+      "source_path": "tools/native-glass-reference/inspect-video.swift",
+      "export_path": "tools/native-glass-reference/inspect-video.swift",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "13c8a3fceb0e752d8d3cbf7e160732a0ce07ddd7",
+      "bytes": 6098,
+      "sha256": "4c1766e717ffe255f05be42068d27aa4ebfd80e9495905da4358db615be378cb"
+    },
+    {
+      "source_path": "tools/native-glass-reference/project.yml",
+      "export_path": "tools/native-glass-reference/project.yml",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "6506a54639150fe4c3ee3491b08beb9faabb2d08",
+      "bytes": 1118,
+      "sha256": "4a22ab059046d16fac604832e8fb84d16469fc771b18d80ad673e20cd9f9247e"
+    },
+    {
+      "source_path": "tools/native-glass-reference/verify-static-optics.py",
+      "export_path": "tools/native-glass-reference/verify-static-optics.py",
+      "source_git_mode": "100644",
+      "source_git_blob_oid": "cf8ce972a8afd7062332e52df4a3932360635aff",
+      "bytes": 10656,
+      "sha256": "06578a07b3fa55081557de66c3ca5a5d45327d3d4887f9e7903e07a832eab226"
+    }
+  ],
+  "exported_file_count": 19,
+  "exported_bytes": 566220,
+  "not_included": [
+    "Build products, DerivedData, caches, captures, source-input image copies, devices or credentials.",
+    "Sleepy Android app host, Gradle wiring, theme providers and full GlassSlider/GlassRangeSlider adapters."
+  ],
+  "runtime_boundary": "The Xcode application is a research reference host. Android files require the corresponding Sleepy instrumentation host. Nothing is registered with this repository runtime/sample builds.",
+  "export_root": "research/slider-fixtures"
+}
