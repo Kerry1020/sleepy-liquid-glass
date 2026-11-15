@@ -1,0 +1,129 @@
+{
+  "captured_utc": "2026-11-15T21:25:02.564943+00:00",
+  "scope": "Repository cleanup only; no new optical acceptance",
+  "sleepy_pr": {
+    "additions": 381,
+    "changedFiles": 86,
+    "deletions": 26831,
+    "headRefOid": "e935c5e3b9bc3308930fcf2fe79bbd4f95aab7f6",
+    "mergeCommit": null,
+    "mergeStateStatus": "BLOCKED",
+    "number": 443,
+    "state": "OPEN",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-15T21:15:59Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43762678098/job/132960749171",
+        "name": "commit-lint",
+        "startedAt": "2026-11-15T21:15:37Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-15T21:15:47Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43762676479/job/132960746976",
+        "name": "prepare",
+        "startedAt": "2026-11-15T21:15:37Z",
+        "status": "COMPLETED",
+        "workflowName": "Debug APK Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-15T21:16:21Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43762678098/job/132960749290",
+        "name": "school-catalog-check",
+        "startedAt": "2026-11-15T21:15:38Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-15T21:22:34Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43762676479/job/132960809513",
+        "name": "assemble-debug",
+        "startedAt": "2026-11-15T21:15:50Z",
+        "status": "COMPLETED",
+        "workflowName": "Debug APK Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-15T21:15:56Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43762678098/job/132960749019",
+        "name": "collector-test",
+        "startedAt": "2026-11-15T21:15:37Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-15T21:23:19Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43762676479/job/132962797511",
+        "name": "sign-debug / sign-debug",
+        "startedAt": "2026-11-15T21:22:37Z",
+        "status": "COMPLETED",
+        "workflowName": "Debug APK Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-15T21:15:47Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43762678098/job/132960749123",
+        "name": "jw-fetch-js-test",
+        "startedAt": "2026-11-15T21:15:37Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-15T21:24:16Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43762678098/job/132960748866",
+        "name": "android-unit-test",
+        "startedAt": "2026-11-15T21:15:37Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-15T21:22:42Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43762678098/job/132960749142",
+        "name": "android-lint",
+        "startedAt": "2026-11-15T21:15:37Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-15T21:22:02Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43762678098/job/132960749147",
+        "name": "android-assemble",
+        "startedAt": "2026-11-15T21:15:37Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "url": "https://github.com/lingion/sleepy/pull/443"
+  },
+  "ruleset": {
+    "id": 24128365,
+    "name": "protect-main",
+    "enforcement": "active",
+    "current_user_can_bypass": "never"
+  },
+  "merge_attempt_repeated": false,
+  "branch_protection_bypassed": false,
+  "asset_diagnostics_commit": "435b05923bbd794d4d96eba7c17da2d6a32f8736",
+  "archived_files": 85,
+  "archived_bytes": 3485073,
+  "all_85_archive_cloud_blobs_and_sizes_verified": true
+}

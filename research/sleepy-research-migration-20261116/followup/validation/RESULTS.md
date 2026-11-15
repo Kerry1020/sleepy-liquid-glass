@@ -8,7 +8,9 @@ Sleepy #443 追加 `e935c5e3b9bc3308930fcf2fe79bbd4f95aab7f6`，只删除未接�
 
 累计 **86 文件、+381/-26,831**。四批原文共 **85 份、3,485,073 bytes**，均与固定 Git 来源逐字节核对；[第四批](../../fourth-pass/SOURCE-MAP.json)先在资产库 `3768a3c1f927b3e1896ae83f7667cd39657ae53d` 发布，核对远端、GitHub API、两份云端 blob 及大小后才从应用删除。Floating 时钟/轨道探针另存[资产库诊断](../../../control-regression-diagnostics-20261116/README.md)，已从应用工作区撤回，未混入 #443。
 
-本 head [CI 43762678098](https://github.com/lingion/sleepy/actions/runs/43762678098)与[Debug 43762676479](https://github.com/lingion/sleepy/actions/runs/43762676479)正在运行；下方旧 head 的 10 项成功不能代替它。主分支 update restriction 仍 active，当前账号 `current_user_can_bypass=never`；未重复无效合并请求或绕过规则。清理未合并，不能称主分支已清干净。
+本 head [CI 43762678098](https://github.com/lingion/sleepy/actions/runs/43762678098)与[Debug 43762676479](https://github.com/lingion/sleepy/actions/runs/43762676479)均已完成，**10 项检查全部 SUCCESS**，没有借用旧 head 的结果。[实际云端收据](remote-cleanup-e935c5e3.json)记录当前 head、全部检查和权限状态。主分支 update restriction 仍 active，当前账号 `current_user_can_bypass=never`；未重复无效合并请求或绕过规则。PR 仍 OPEN/BLOCKED、mergeCommit 为空，清理未合并，不能称主分支已清干净。
+
+外置研究 host、语言诊断的静态准备、既有失败日志及未验收补丁已单独发布资产库 `435b05923bbd794d4d96eba7c17da2d6a32f8736`；30 份变更的云端 blob/大小、Git 远端与 GitHub API、作者和提交者身份均核对一致。该资产库无 workflow；两个入口仍是未编译／未运行的准备状态，历史设备失败没有改写为成功。公开日志按各自 PUBLICATION 清单脱敏，未上传 APK、缓存或设备标识。
 
 ## 前一范围补正（9cc97649）
 
