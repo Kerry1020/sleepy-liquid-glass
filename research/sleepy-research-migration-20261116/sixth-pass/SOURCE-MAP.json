@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "source_repository": "lingion/sleepy",
+  "source_commit": "1b6b96834765412f5a34658c3e459c01f3b75d71",
+  "file_count": 1,
+  "new_files": 1,
+  "reused_files": 0,
+  "total_bytes": 7798,
+  "scope": "Complete original of a necessary product regression that also exported unused success-path PNGs. Only file export and export-only captures are removed from Sleepy; product pixel assertions and all gesture/clock steps remain.",
+  "files": [
+    {
+      "source_path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/GlassSelectionColorRegressionTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/sixth-pass/sources/app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/GlassSelectionColorRegressionTest.kt",
+      "source_git_blob": "e796699177d11c05e63117447901f72d714cdb59",
+      "sha256": "d48dbca7ed7ea1198998eaf2f60eb62b197ff910628c980475450eee4a5c2cc7",
+      "bytes": 7798,
+      "storage": "new"
+    }
+  ]
+}

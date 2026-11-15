@@ -26,6 +26,8 @@ A [fourth-pass manifest](fourth-pass/SOURCE-MAP.json) preserves the unconnected 
 
 A [fifth-pass manifest](fifth-pass/SOURCE-MAP.json) preserves the complete originals of ten product regressions (95,943 bytes), pinned to `e935c5e3b9bc3308930fcf2fe79bbd4f95aab7f6`. These files still contained unused success-path PNG/JSON/TXT research exports, recording-directory arguments or attachment-only collection scaffolding. Only those responsibilities are removed from the application; original behavior, geometry, layering and GPU pixel assertions and thresholds remain. The five batches preserve **95 files / 3,581,016 bytes**. Previous manifests and frozen originals remain unchanged.
 
+A [sixth-pass manifest](sixth-pass/SOURCE-MAP.json) preserves the complete selection-color JVM regression (7,798 bytes), pinned to `1b6b96834765412f5a34658c3e459c01f3b75d71`. It additionally exported nine PNGs on successful runs, with no downstream consumer. The application removes file writes and export-only captures while retaining all four product tests, pixel assertions, gestures and clock steps. The six batches preserve **96 files / 3,588,814 bytes**. This separates research duties; it does not fix or validate control optics.
+
 ```sh
 python3 research/sleepy-research-migration-20261116/verify.py
 python3 research/sleepy-research-migration-20261116/verify.py --source /path/to/sleepy
@@ -33,6 +35,7 @@ python3 research/sleepy-research-migration-20261116/verify.py --manifest researc
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/third-pass/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fourth-pass/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fifth-pass/SOURCE-MAP.json --source /path/to/sleepy
+python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/sixth-pass/SOURCE-MAP.json --source /path/to/sleepy
 ```
 
 The default command checks the original 52 mappings. The optional source check reads the pinned commit through Git, even after the working-tree files are removed; the third and fourth commands separately check the follow-up and third-pass manifests. Archived source and text preserve historical paths and status verbatim; they are provenance, not current execution instructions. Use an explicitly enabled external entry point for research.
