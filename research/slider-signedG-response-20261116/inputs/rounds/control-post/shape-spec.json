@@ -1,0 +1,1164 @@
+{
+  "schema": 1,
+  "status": "signed G calibration preparation only; no optical acceptance",
+  "world": {
+    "size": [
+      375,
+      667
+    ],
+    "source_size_px": [
+      750,
+      1334
+    ],
+    "pixels_per_world_unit": 2,
+    "origin_world_pt": [
+      0,
+      0
+    ],
+    "color_space": "sRGB ICC",
+    "background_rgb": [
+      128,
+      128,
+      128
+    ],
+    "pixel_center_world": "((column+.5)/2,(row+.5)/2)"
+  },
+  "rasterization": {
+    "method": "Original RGB-star raster plus signed global G integer delta; no source clipping or resampling",
+    "geometry_source": "reuse isolated-shapes five-point star alternating outer1/inner.45 and color local-x thirds; generalize point count only for reserved inputs",
+    "icc_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+    "source_masks": "full-canvas L grayscale counts0..16; support L0/255 where counts>0; not native alpha",
+    "base_method": "4x4 area samples per output pixel per known color region; exact integer encoded-sRGB composition (sum+8)//16"
+  },
+  "first_input_id": "st01_rgb_star_d16",
+  "flat_input_id": "st00_flat128",
+  "inputs": [
+    {
+      "id": "st00_flat128",
+      "role": "flat control",
+      "source_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "shape": null
+    },
+    {
+      "id": "st01_rgb_star_d16",
+      "role": "only scheduled multicolor first input for this round",
+      "source_sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+      "shape": {
+        "id": "st01_rgb_star_d16",
+        "kind": "star",
+        "point_count": 5,
+        "color_rgb": null,
+        "regions": [
+          {
+            "id": "left_blue",
+            "color_rgb": [
+              48,
+              48,
+              232
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st01_rgb_star_d16-left_blue-coverage16.png",
+            "coverage_count_mask_sha256": "0520b9b21148d9b0febef0f706c5ae9766d6ba3f6600d483e6d0f1980083202d",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st01_rgb_star_d16-left_blue-support.png",
+            "binary_mask_sha256": "c131ee8c55a619c398de3db039ad32a81434e82a1bd37bd6549fde85ec3b951f",
+            "source_coverage_area_pt2": 22.703125
+          },
+          {
+            "id": "middle_red",
+            "color_rgb": [
+              232,
+              48,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st01_rgb_star_d16-middle_red-coverage16.png",
+            "coverage_count_mask_sha256": "be435873597074d453fa0f9b131e7db9349d64b5822b20f05c043ff2fca56076",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st01_rgb_star_d16-middle_red-support.png",
+            "binary_mask_sha256": "e3ec59cc686e8d71a3413bbaa8b08af5b65e238ecb4e20ea2b92207c62cb2a50",
+            "source_coverage_area_pt2": 39.25
+          },
+          {
+            "id": "right_green",
+            "color_rgb": [
+              48,
+              232,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st01_rgb_star_d16-right_green-coverage16.png",
+            "coverage_count_mask_sha256": "7179be95421bb874a102356a57963f129831669ad05ca3cfedf7264282a8c828",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st01_rgb_star_d16-right_green-support.png",
+            "binary_mask_sha256": "e91bcaf5bee7b003fca7500102262079d42d31a2eb531a7657e3d474ac86a7d3",
+            "source_coverage_area_pt2": 22.703125
+          }
+        ],
+        "center_world_pt": [
+          187.5,
+          419.5
+        ],
+        "size_definition": "circumcircle diameter",
+        "size_pt": 16.0,
+        "circumradius_pt": 8.0,
+        "inner_radius_fraction": 0.45,
+        "vertices_world_pt": [
+          [
+            187.5,
+            411.5
+          ],
+          [
+            189.6160269082529,
+            416.5875388202502
+          ],
+          [
+            195.10845213036123,
+            417.0278640450004
+          ],
+          [
+            190.92380345866255,
+            420.6124611797498
+          ],
+          [
+            192.2022820183398,
+            425.9721359549996
+          ],
+          [
+            187.5,
+            423.1
+          ],
+          [
+            182.7977179816602,
+            425.9721359549996
+          ],
+          [
+            184.07619654133745,
+            420.6124611797498
+          ],
+          [
+            179.89154786963877,
+            417.0278640450004
+          ],
+          [
+            185.3839730917471,
+            416.5875388202502
+          ]
+        ],
+        "bounds_ltrb_world_pt": [
+          179.89154786963877,
+          411.5,
+          195.10845213036123,
+          425.9721359549996
+        ],
+        "fixed_analysis_roi_xyxy_world": [
+          165.5,
+          397.5,
+          209.5,
+          441.5
+        ],
+        "fixed_rail_confounded_band_world_y": [
+          422,
+          438
+        ],
+        "source_png": "inputs/st01_rgb_star_d16.png",
+        "color_partition": "shape-local x < -r/4 BLUE, -r/4 <= x < r/4 RED, x >= r/4 GREEN; additive color rule in color_response_preparation; original coverage masks retained",
+        "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st01_rgb_star_d16-coverage16.png",
+        "coverage_count_mask_sha256": "31f4e39921a4a32aad0ddfb1f43fa124aa5a268928cebfeb7ea380f23a83ad03",
+        "coverage_denominator": 16,
+        "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st01_rgb_star_d16-support.png",
+        "binary_mask_sha256": "00cfa05cda61163b9d186531fcbcf9362444da7702d5ee1fc34e084208740081",
+        "source_coverage_area_pt2": 84.65625,
+        "source_sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724"
+      }
+    },
+    {
+      "id": "st02_rgb_star6_d16",
+      "role": "loader compatibility only; not decoded or scheduled in this full100-only study",
+      "source_sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "shape": {
+        "id": "st02_rgb_star6_d16",
+        "kind": "star",
+        "point_count": 6,
+        "color_rgb": null,
+        "regions": [
+          {
+            "id": "left_blue",
+            "color_rgb": [
+              48,
+              48,
+              232
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st02_rgb_star6_d16-left_blue-coverage16.png",
+            "coverage_count_mask_sha256": "f9bc4111dec0e4d365ac57034eeb48efad895ac05a4eb9ea1fd745075156c42f",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st02_rgb_star6_d16-left_blue-support.png",
+            "binary_mask_sha256": "85982dac0145570961a6f76833862c4b76c88ced0f641c673be2678bb0969a02",
+            "source_coverage_area_pt2": 21.96875
+          },
+          {
+            "id": "middle_red",
+            "color_rgb": [
+              232,
+              48,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st02_rgb_star6_d16-middle_red-coverage16.png",
+            "coverage_count_mask_sha256": "e3bea1f45af533a8c337eb17e2dc9752bc3ba947cedc3a4f1c07496d6dbe5966",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st02_rgb_star6_d16-middle_red-support.png",
+            "binary_mask_sha256": "3f276a66c18bb99946fec429261a2a2cea361b3d43df47fbae782fa1d45efd8d",
+            "source_coverage_area_pt2": 42.5625
+          },
+          {
+            "id": "right_green",
+            "color_rgb": [
+              48,
+              232,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st02_rgb_star6_d16-right_green-coverage16.png",
+            "coverage_count_mask_sha256": "6e4debbc86621060abeb7f029c4e5642d691a3845464871f353c920528965548",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st02_rgb_star6_d16-right_green-support.png",
+            "binary_mask_sha256": "9ae2122b87f405329f7091548f69ef5be08d1c347f41abc6eb34c3f8e47c2a86",
+            "source_coverage_area_pt2": 21.96875
+          }
+        ],
+        "center_world_pt": [
+          187.5,
+          419.5
+        ],
+        "size_definition": "circumcircle diameter",
+        "size_pt": 16.0,
+        "circumradius_pt": 8.0,
+        "inner_radius_fraction": 0.45,
+        "vertices_world_pt": [
+          [
+            187.5,
+            411.5
+          ],
+          [
+            189.3,
+            416.382308546376
+          ],
+          [
+            194.4282032302755,
+            415.5
+          ],
+          [
+            191.1,
+            419.5
+          ],
+          [
+            194.4282032302755,
+            423.5
+          ],
+          [
+            189.3,
+            422.617691453624
+          ],
+          [
+            187.5,
+            427.5
+          ],
+          [
+            185.7,
+            422.617691453624
+          ],
+          [
+            180.5717967697245,
+            423.5
+          ],
+          [
+            183.9,
+            419.5
+          ],
+          [
+            180.5717967697245,
+            415.5
+          ],
+          [
+            185.7,
+            416.382308546376
+          ]
+        ],
+        "bounds_ltrb_world_pt": [
+          180.5717967697245,
+          411.5,
+          194.4282032302755,
+          427.5
+        ],
+        "fixed_analysis_roi_xyxy_world": [
+          165.5,
+          397.5,
+          209.5,
+          441.5
+        ],
+        "fixed_rail_confounded_band_world_y": [
+          422,
+          438
+        ],
+        "source_png": "inputs/st02_rgb_star6_d16.png",
+        "color_partition": "shape-local x < -r/4 BLUE, -r/4 <= x < r/4 RED, x >= r/4 GREEN",
+        "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st02_rgb_star6_d16-coverage16.png",
+        "coverage_count_mask_sha256": "e7e59c151149960992fd09393d56a7aba5532e17cb9c52683cff7e9aae318615",
+        "coverage_denominator": 16,
+        "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st02_rgb_star6_d16-support.png",
+        "binary_mask_sha256": "272fd00a4232ced6ba907257d1155aa31e30bc248801f7a7e11b5ed888906845",
+        "source_coverage_area_pt2": 86.5,
+        "source_sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003"
+      }
+    },
+    {
+      "id": "st03_rgb_star7_d16",
+      "role": "loader compatibility only; not decoded or scheduled in this full100-only study",
+      "source_sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "shape": {
+        "id": "st03_rgb_star7_d16",
+        "kind": "star",
+        "point_count": 7,
+        "color_rgb": null,
+        "regions": [
+          {
+            "id": "left_blue",
+            "color_rgb": [
+              48,
+              48,
+              232
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st03_rgb_star7_d16-left_blue-coverage16.png",
+            "coverage_count_mask_sha256": "be0dd180e28efda68dd41fdef0d80df4bd22dbaba5d0fada12983293685f6fb0",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st03_rgb_star7_d16-left_blue-support.png",
+            "binary_mask_sha256": "b8af1ddfb7ef96f2be63839f3cfd21e22cf8823b169b3aabc17858765a722d70",
+            "source_coverage_area_pt2": 24.21875
+          },
+          {
+            "id": "middle_red",
+            "color_rgb": [
+              232,
+              48,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st03_rgb_star7_d16-middle_red-coverage16.png",
+            "coverage_count_mask_sha256": "05bd68d070f2b109a6ab97b5c7334b479d099258146bf68ab49dd8caf82ac0d1",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st03_rgb_star7_d16-middle_red-support.png",
+            "binary_mask_sha256": "65b97c13da3d95eada2608a9596873cd94c32c8ea0121664dc62b1f10c2d9dcc",
+            "source_coverage_area_pt2": 38.96875
+          },
+          {
+            "id": "right_green",
+            "color_rgb": [
+              48,
+              232,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st03_rgb_star7_d16-right_green-coverage16.png",
+            "coverage_count_mask_sha256": "2366d64026a880250e454ff7490d4f9b4617c700f0d6bc45d571da51f163dc96",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st03_rgb_star7_d16-right_green-support.png",
+            "binary_mask_sha256": "32da54fc9bbf3b09bd66c03a4d51760918a0b175b1eaad2d3920711e498085e3",
+            "source_coverage_area_pt2": 24.21875
+          }
+        ],
+        "center_world_pt": [
+          187.5,
+          419.5
+        ],
+        "size_definition": "circumcircle diameter",
+        "size_pt": 16.0,
+        "circumradius_pt": 8.0,
+        "inner_radius_fraction": 0.45,
+        "vertices_world_pt": [
+          [
+            187.5,
+            411.5
+          ],
+          [
+            189.0619814608232,
+            416.2565120755513
+          ],
+          [
+            193.75465185974423,
+            414.51208158513015
+          ],
+          [
+            191.00974048385456,
+            418.6989246377573
+          ],
+          [
+            195.29942329745458,
+            421.28016747165054
+          ],
+          [
+            190.3145933368849,
+            421.74456328669146
+          ],
+          [
+            190.97106991294046,
+            426.70775094321937
+          ],
+          [
+            187.5,
+            423.1
+          ],
+          [
+            184.02893008705954,
+            426.70775094321937
+          ],
+          [
+            184.6854066631151,
+            421.74456328669146
+          ],
+          [
+            179.70057670254542,
+            421.28016747165054
+          ],
+          [
+            183.99025951614544,
+            418.6989246377573
+          ],
+          [
+            181.24534814025577,
+            414.51208158513015
+          ],
+          [
+            185.9380185391768,
+            416.2565120755513
+          ]
+        ],
+        "bounds_ltrb_world_pt": [
+          179.70057670254542,
+          411.5,
+          195.29942329745458,
+          426.70775094321937
+        ],
+        "fixed_analysis_roi_xyxy_world": [
+          165.5,
+          397.5,
+          209.5,
+          441.5
+        ],
+        "fixed_rail_confounded_band_world_y": [
+          422,
+          438
+        ],
+        "source_png": "inputs/st03_rgb_star7_d16.png",
+        "color_partition": "shape-local x < -r/4 BLUE, -r/4 <= x < r/4 RED, x >= r/4 GREEN",
+        "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st03_rgb_star7_d16-coverage16.png",
+        "coverage_count_mask_sha256": "10993d87aae70b647c1c81a129f4eebea1f3891bb56f700b3aaefc94c2117378",
+        "coverage_denominator": 16,
+        "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st03_rgb_star7_d16-support.png",
+        "binary_mask_sha256": "58b00750e51f6a9f6147886ec38acd592ac9d846225d3b0148d12754027b3bf4",
+        "source_coverage_area_pt2": 87.40625,
+        "source_sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891"
+      }
+    },
+    {
+      "id": "st04_rgb_star8_d16",
+      "role": "loader compatibility only; not decoded or scheduled in this full100-only study",
+      "source_sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "shape": {
+        "id": "st04_rgb_star8_d16",
+        "kind": "star",
+        "point_count": 8,
+        "color_rgb": null,
+        "regions": [
+          {
+            "id": "left_blue",
+            "color_rgb": [
+              48,
+              48,
+              232
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st04_rgb_star8_d16-left_blue-coverage16.png",
+            "coverage_count_mask_sha256": "16bfa4b9a12f4f3c12fe214af6a9a00aa82e9c22258c9e9d1754abab8ab4b698",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st04_rgb_star8_d16-left_blue-support.png",
+            "binary_mask_sha256": "8bb94797da8cfebd3a32b066741cf74c2e5a269a39a0f9a1ed4180bd6a66b4f0",
+            "source_coverage_area_pt2": 24.125
+          },
+          {
+            "id": "middle_red",
+            "color_rgb": [
+              232,
+              48,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st04_rgb_star8_d16-middle_red-coverage16.png",
+            "coverage_count_mask_sha256": "cf0825e9d91c00b0d0bfac5d7f11183ce4fafbc210b9263e0299d23c79c84eb9",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st04_rgb_star8_d16-middle_red-support.png",
+            "binary_mask_sha256": "bd70a94b2414a97c0f9a64385f26e6b6b277394a2b7b381c9949a5000c996e80",
+            "source_coverage_area_pt2": 39.9375
+          },
+          {
+            "id": "right_green",
+            "color_rgb": [
+              48,
+              232,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st04_rgb_star8_d16-right_green-coverage16.png",
+            "coverage_count_mask_sha256": "227171dd0daf024ff6f4053e23754160147ab8a30206c98b153f0a41639a87e7",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st04_rgb_star8_d16-right_green-support.png",
+            "binary_mask_sha256": "16ef706c8fde928de56618d1101cf0d3ccb9e87890feee5b7e6742388eb73ab5",
+            "source_coverage_area_pt2": 24.125
+          }
+        ],
+        "center_world_pt": [
+          187.5,
+          419.5
+        ],
+        "size_definition": "circumcircle diameter",
+        "size_pt": 16.0,
+        "circumradius_pt": 8.0,
+        "inner_radius_fraction": 0.45,
+        "vertices_world_pt": [
+          [
+            187.5,
+            411.5
+          ],
+          [
+            188.87766035651433,
+            416.17403368295936
+          ],
+          [
+            193.15685424949237,
+            413.84314575050763
+          ],
+          [
+            190.82596631704064,
+            418.1223396434857
+          ],
+          [
+            195.5,
+            419.5
+          ],
+          [
+            190.82596631704064,
+            420.8776603565143
+          ],
+          [
+            193.15685424949237,
+            425.15685424949237
+          ],
+          [
+            188.87766035651433,
+            422.82596631704064
+          ],
+          [
+            187.5,
+            427.5
+          ],
+          [
+            186.12233964348567,
+            422.82596631704064
+          ],
+          [
+            181.84314575050763,
+            425.15685424949237
+          ],
+          [
+            184.17403368295936,
+            420.8776603565143
+          ],
+          [
+            179.5,
+            419.5
+          ],
+          [
+            184.17403368295936,
+            418.1223396434857
+          ],
+          [
+            181.84314575050763,
+            413.84314575050763
+          ],
+          [
+            186.12233964348567,
+            416.17403368295936
+          ]
+        ],
+        "bounds_ltrb_world_pt": [
+          179.5,
+          411.5,
+          195.5,
+          427.5
+        ],
+        "fixed_analysis_roi_xyxy_world": [
+          165.5,
+          397.5,
+          209.5,
+          441.5
+        ],
+        "fixed_rail_confounded_band_world_y": [
+          422,
+          438
+        ],
+        "source_png": "inputs/st04_rgb_star8_d16.png",
+        "color_partition": "shape-local x < -r/4 BLUE, -r/4 <= x < r/4 RED, x >= r/4 GREEN",
+        "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st04_rgb_star8_d16-coverage16.png",
+        "coverage_count_mask_sha256": "b007afeb34ec62e39fb475540a3bea9aac68b22340cda7a98e32e7593a03467b",
+        "coverage_denominator": 16,
+        "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st04_rgb_star8_d16-support.png",
+        "binary_mask_sha256": "37c5817ddf682b7768715f7739496183ace1bc4c67b46f88d8985e726d4d305c",
+        "source_coverage_area_pt2": 88.1875,
+        "source_sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4"
+      }
+    },
+    {
+      "id": "st05_rgb_star5_d12",
+      "role": "loader compatibility only; not decoded or scheduled in this full100-only study",
+      "source_sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "shape": {
+        "id": "st05_rgb_star5_d12",
+        "kind": "star",
+        "point_count": 5,
+        "color_rgb": null,
+        "regions": [
+          {
+            "id": "left_blue",
+            "color_rgb": [
+              48,
+              48,
+              232
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st05_rgb_star5_d12-left_blue-coverage16.png",
+            "coverage_count_mask_sha256": "aa7931e29e856d37586b714e57398f1cd1e3a1093d3865cddb60ef0b6b8fb9b1",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st05_rgb_star5_d12-left_blue-support.png",
+            "binary_mask_sha256": "10fbe3c94ab0650ba567ba941e03b290b162364a52064b20b53c8bf5aeef74bc",
+            "source_coverage_area_pt2": 12.75
+          },
+          {
+            "id": "middle_red",
+            "color_rgb": [
+              232,
+              48,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st05_rgb_star5_d12-middle_red-coverage16.png",
+            "coverage_count_mask_sha256": "5c818cd0125f3c53fcba48c1b76235efba3e45fb59e10fecb3d8fcd6cfc053fc",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st05_rgb_star5_d12-middle_red-support.png",
+            "binary_mask_sha256": "6bd3f6494c9e5166802875c02eae858aa26e1d82535d7ae67f65a775347e4356",
+            "source_coverage_area_pt2": 22.09375
+          },
+          {
+            "id": "right_green",
+            "color_rgb": [
+              48,
+              232,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st05_rgb_star5_d12-right_green-coverage16.png",
+            "coverage_count_mask_sha256": "f8c7118ddca6932e2cd2afc07aeeb4fa1e483ef4685df674286ef77a4122ee5f",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st05_rgb_star5_d12-right_green-support.png",
+            "binary_mask_sha256": "61637497ddc2dcac7349557cccee1255698bfcfdbf9b016eb3e171caf29209cf",
+            "source_coverage_area_pt2": 12.75
+          }
+        ],
+        "center_world_pt": [
+          187.5,
+          419.5
+        ],
+        "size_definition": "circumcircle diameter",
+        "size_pt": 12.0,
+        "circumradius_pt": 6.0,
+        "inner_radius_fraction": 0.45,
+        "vertices_world_pt": [
+          [
+            187.5,
+            413.5
+          ],
+          [
+            189.08702018118967,
+            417.31565411518767
+          ],
+          [
+            193.20633909777092,
+            417.6458980337503
+          ],
+          [
+            190.06785259399692,
+            420.33434588481236
+          ],
+          [
+            191.02671151375483,
+            424.3541019662497
+          ],
+          [
+            187.5,
+            422.2
+          ],
+          [
+            183.97328848624517,
+            424.3541019662497
+          ],
+          [
+            184.93214740600308,
+            420.33434588481236
+          ],
+          [
+            181.79366090222908,
+            417.6458980337503
+          ],
+          [
+            185.91297981881033,
+            417.31565411518767
+          ]
+        ],
+        "bounds_ltrb_world_pt": [
+          181.79366090222908,
+          413.5,
+          193.20633909777092,
+          424.3541019662497
+        ],
+        "fixed_analysis_roi_xyxy_world": [
+          165.5,
+          397.5,
+          209.5,
+          441.5
+        ],
+        "fixed_rail_confounded_band_world_y": [
+          422,
+          438
+        ],
+        "source_png": "inputs/st05_rgb_star5_d12.png",
+        "color_partition": "shape-local x < -r/4 BLUE, -r/4 <= x < r/4 RED, x >= r/4 GREEN",
+        "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st05_rgb_star5_d12-coverage16.png",
+        "coverage_count_mask_sha256": "172eb7ca43a5f609c7735cc45dad3f644c213f45c2bb9f57f477497ebb4a27b1",
+        "coverage_denominator": 16,
+        "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st05_rgb_star5_d12-support.png",
+        "binary_mask_sha256": "ed216587c64df0fe452282449679d2c19e73b82366c93e010e26f483316b3dab",
+        "source_coverage_area_pt2": 47.59375,
+        "source_sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48"
+      }
+    },
+    {
+      "id": "st06_rgb_star6_d12",
+      "role": "loader compatibility only; not decoded or scheduled in this full100-only study",
+      "source_sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "shape": {
+        "id": "st06_rgb_star6_d12",
+        "kind": "star",
+        "point_count": 6,
+        "color_rgb": null,
+        "regions": [
+          {
+            "id": "left_blue",
+            "color_rgb": [
+              48,
+              48,
+              232
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st06_rgb_star6_d12-left_blue-coverage16.png",
+            "coverage_count_mask_sha256": "d22d33eb8442013c238ff5ca1b71159d1bf4b37641d288a94b95dd0beecdc5da",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st06_rgb_star6_d12-left_blue-support.png",
+            "binary_mask_sha256": "9c357bbc9d7a117215f906b3a7aa654687bc3ac66a70201a0ce5c765e28f1fd0",
+            "source_coverage_area_pt2": 12.34375
+          },
+          {
+            "id": "middle_red",
+            "color_rgb": [
+              232,
+              48,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st06_rgb_star6_d12-middle_red-coverage16.png",
+            "coverage_count_mask_sha256": "11e0eb3d06abed278b88e4881b50041900d9c4ff6039cbd01aa03436a1566146",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st06_rgb_star6_d12-middle_red-support.png",
+            "binary_mask_sha256": "9044b292859fd4287f72a010047c9af9f9432347a23124711e14a073a3845646",
+            "source_coverage_area_pt2": 24.0
+          },
+          {
+            "id": "right_green",
+            "color_rgb": [
+              48,
+              232,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st06_rgb_star6_d12-right_green-coverage16.png",
+            "coverage_count_mask_sha256": "49c968bc242180a4e400f1ca36b76658bb37e9ea7543cdb149985064a1f51f13",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st06_rgb_star6_d12-right_green-support.png",
+            "binary_mask_sha256": "d65d01c23ff008aa8d181d9192b9a5892d79d1ae00e8cdeddb2ee4c4a7acdcc9",
+            "source_coverage_area_pt2": 12.34375
+          }
+        ],
+        "center_world_pt": [
+          187.5,
+          419.5
+        ],
+        "size_definition": "circumcircle diameter",
+        "size_pt": 12.0,
+        "circumradius_pt": 6.0,
+        "inner_radius_fraction": 0.45,
+        "vertices_world_pt": [
+          [
+            187.5,
+            413.5
+          ],
+          [
+            188.85,
+            417.161731409782
+          ],
+          [
+            192.69615242270663,
+            416.5
+          ],
+          [
+            190.2,
+            419.5
+          ],
+          [
+            192.69615242270663,
+            422.5
+          ],
+          [
+            188.85,
+            421.838268590218
+          ],
+          [
+            187.5,
+            425.5
+          ],
+          [
+            186.15,
+            421.838268590218
+          ],
+          [
+            182.30384757729337,
+            422.5
+          ],
+          [
+            184.8,
+            419.5
+          ],
+          [
+            182.30384757729337,
+            416.5
+          ],
+          [
+            186.15,
+            417.161731409782
+          ]
+        ],
+        "bounds_ltrb_world_pt": [
+          182.30384757729337,
+          413.5,
+          192.69615242270663,
+          425.5
+        ],
+        "fixed_analysis_roi_xyxy_world": [
+          165.5,
+          397.5,
+          209.5,
+          441.5
+        ],
+        "fixed_rail_confounded_band_world_y": [
+          422,
+          438
+        ],
+        "source_png": "inputs/st06_rgb_star6_d12.png",
+        "color_partition": "shape-local x < -r/4 BLUE, -r/4 <= x < r/4 RED, x >= r/4 GREEN",
+        "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st06_rgb_star6_d12-coverage16.png",
+        "coverage_count_mask_sha256": "578b89fe7f4c0e23c786f6a929e128208662e57de763590a8d55d4f959755b50",
+        "coverage_denominator": 16,
+        "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st06_rgb_star6_d12-support.png",
+        "binary_mask_sha256": "88ba9f2eead743fd1bab0fc84ff398ad4698d537b287d7bef6064383c3051cc7",
+        "source_coverage_area_pt2": 48.6875,
+        "source_sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2"
+      }
+    },
+    {
+      "id": "st07_rgb_star7_d12",
+      "role": "loader compatibility only; not decoded or scheduled in this full100-only study",
+      "source_sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+      "shape": {
+        "id": "st07_rgb_star7_d12",
+        "kind": "star",
+        "point_count": 7,
+        "color_rgb": null,
+        "regions": [
+          {
+            "id": "left_blue",
+            "color_rgb": [
+              48,
+              48,
+              232
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st07_rgb_star7_d12-left_blue-coverage16.png",
+            "coverage_count_mask_sha256": "72ed936160d34cd6a4d0ee52093ea7f0861aa5c200844651acec304edabea5da",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st07_rgb_star7_d12-left_blue-support.png",
+            "binary_mask_sha256": "3a41412365216d759533a5aca563e8d87a9b5c433b7c3fabf1069161d33a1fc5",
+            "source_coverage_area_pt2": 13.65625
+          },
+          {
+            "id": "middle_red",
+            "color_rgb": [
+              232,
+              48,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st07_rgb_star7_d12-middle_red-coverage16.png",
+            "coverage_count_mask_sha256": "ac6baef35973ad64edb08b59675f568ea00dc8531a410a384216355fff1b9cbb",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st07_rgb_star7_d12-middle_red-support.png",
+            "binary_mask_sha256": "1282575f56a018b5d1e48e53216ba7d9101d62af1785cbd44278feb495891bc9",
+            "source_coverage_area_pt2": 21.8125
+          },
+          {
+            "id": "right_green",
+            "color_rgb": [
+              48,
+              232,
+              48
+            ],
+            "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st07_rgb_star7_d12-right_green-coverage16.png",
+            "coverage_count_mask_sha256": "c6b9efb1d8a9d978635deb853d9be24162fd3dfd019515e792d1f44b267d0433",
+            "coverage_denominator": 16,
+            "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st07_rgb_star7_d12-right_green-support.png",
+            "binary_mask_sha256": "19a4021b4208ecb1d403c4fc5a63cbdaa37b852e94334590c8d042058ab5c984",
+            "source_coverage_area_pt2": 13.65625
+          }
+        ],
+        "center_world_pt": [
+          187.5,
+          419.5
+        ],
+        "size_definition": "circumcircle diameter",
+        "size_pt": 12.0,
+        "circumradius_pt": 6.0,
+        "inner_radius_fraction": 0.45,
+        "vertices_world_pt": [
+          [
+            187.5,
+            413.5
+          ],
+          [
+            188.6714860956174,
+            417.06738405666346
+          ],
+          [
+            192.19098889480819,
+            415.7590611888476
+          ],
+          [
+            190.13230536289092,
+            418.89919347831795
+          ],
+          [
+            193.34956747309093,
+            420.8351256037379
+          ],
+          [
+            189.61094500266367,
+            421.18342246501857
+          ],
+          [
+            190.10330243470534,
+            424.9058132074145
+          ],
+          [
+            187.5,
+            422.2
+          ],
+          [
+            184.89669756529466,
+            424.9058132074145
+          ],
+          [
+            185.38905499733633,
+            421.18342246501857
+          ],
+          [
+            181.65043252690907,
+            420.8351256037379
+          ],
+          [
+            184.86769463710908,
+            418.89919347831795
+          ],
+          [
+            182.80901110519181,
+            415.7590611888476
+          ],
+          [
+            186.3285139043826,
+            417.06738405666346
+          ]
+        ],
+        "bounds_ltrb_world_pt": [
+          181.65043252690907,
+          413.5,
+          193.34956747309093,
+          424.9058132074145
+        ],
+        "fixed_analysis_roi_xyxy_world": [
+          165.5,
+          397.5,
+          209.5,
+          441.5
+        ],
+        "fixed_rail_confounded_band_world_y": [
+          422,
+          438
+        ],
+        "source_png": "inputs/st07_rgb_star7_d12.png",
+        "color_partition": "shape-local x < -r/4 BLUE, -r/4 <= x < r/4 RED, x >= r/4 GREEN",
+        "coverage_count_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st07_rgb_star7_d12-coverage16.png",
+        "coverage_count_mask_sha256": "f0d5a1ffb453a81233c2f1b527007b8c79e655397aa2656e8926e2635e3823a0",
+        "coverage_denominator": 16,
+        "binary_mask_png": "../../../../slider-color-response-20261116/inputs/source-masks/st07_rgb_star7_d12-support.png",
+        "binary_mask_sha256": "a7c2fd3b68002619050dd377fd4afc651e4c38bbba855651d6189ef879849ed8",
+        "source_coverage_area_pt2": 49.125,
+        "source_sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58"
+      }
+    }
+  ],
+  "stages": [
+    {
+      "id": "ingress01",
+      "requested_fraction": 0.01,
+      "side": "ingress",
+      "requested_lens_center_world_pt": [
+        155.49866637148642,
+        429.5
+      ],
+      "requested_finger_world_pt": [
+        171.27534642432198,
+        430
+      ],
+      "predicted_capsule_source_area_fraction": 0.01000000000000022,
+      "predicted_public_rect_source_area_fraction": 0.14124202549698467,
+      "uncorrected_requested_finger_world_pt": [
+        155.99866637148642,
+        430.0
+      ]
+    },
+    {
+      "id": "ingress10",
+      "requested_fraction": 0.1,
+      "side": "ingress",
+      "requested_lens_center_world_pt": [
+        157.43202996358298,
+        429.5
+      ],
+      "requested_finger_world_pt": [
+        173.44875851610837,
+        430
+      ],
+      "predicted_capsule_source_area_fraction": 0.10000000000000077,
+      "predicted_public_rect_source_area_fraction": 0.3296520094702333,
+      "uncorrected_requested_finger_world_pt": [
+        157.93202996358298,
+        430.0
+      ]
+    },
+    {
+      "id": "ingress50",
+      "requested_fraction": 0.5,
+      "side": "ingress",
+      "requested_lens_center_world_pt": [
+        162.20819100423205,
+        429.5
+      ],
+      "requested_finger_world_pt": [
+        178.81793284032796,
+        430
+      ],
+      "predicted_capsule_source_area_fraction": 0.49999999999999967,
+      "predicted_public_rect_source_area_fraction": 0.8644424500607738,
+      "uncorrected_requested_finger_world_pt": [
+        162.70819100423205,
+        430.0
+      ]
+    },
+    {
+      "id": "ingress75",
+      "requested_fraction": 0.75,
+      "side": "ingress",
+      "requested_lens_center_world_pt": [
+        164.65696706435716,
+        429.5
+      ],
+      "requested_finger_world_pt": [
+        181.5707515656364,
+        430
+      ],
+      "predicted_capsule_source_area_fraction": 0.7500000000000002,
+      "predicted_public_rect_source_area_fraction": 0.9825358395609544,
+      "uncorrected_requested_finger_world_pt": [
+        165.15696706435716,
+        430.0
+      ]
+    },
+    {
+      "id": "full100",
+      "requested_fraction": 1.0,
+      "side": "ingress",
+      "requested_lens_center_world_pt": [
+        187.5,
+        429.5
+      ],
+      "requested_finger_world_pt": [
+        207.25,
+        430
+      ],
+      "predicted_capsule_source_area_fraction": 1.0,
+      "predicted_public_rect_source_area_fraction": 1.0,
+      "uncorrected_requested_finger_world_pt": [
+        188.0,
+        430.0
+      ]
+    },
+    {
+      "id": "far50",
+      "requested_fraction": 0.5,
+      "side": "egress",
+      "requested_lens_center_world_pt": [
+        212.79180899576795,
+        429.5
+      ],
+      "requested_finger_world_pt": [
+        235.68206715967204,
+        430
+      ],
+      "predicted_capsule_source_area_fraction": 0.49999999999999967,
+      "predicted_public_rect_source_area_fraction": 0.8644424500607738,
+      "uncorrected_requested_finger_world_pt": [
+        213.29180899576795,
+        430.0
+      ]
+    }
+  ],
+  "source_continuum_area_pt2": 84.64107627494839,
+  "nominal_overlap_denominator": "continuous polygon area, not source AA support area or native alpha",
+  "native_pointer_inverse": {
+    "source": "native-feasibility-r1 observed actual delivered endpoints / public carrier centers; fixed native rest37pt thumb,335pt holder",
+    "formula": "carrierCenterX=113+(deliveredFingerX-113.5-10)*298/335; requestedFingerX=113.5+10+(targetCenterX-113)*335/298",
+    "source_shape_spec_sha256": "e621d05e8bd3db7ca09fa6d65744394b3987df00ef504757f1d4554f938e1124",
+    "limits": "Delivered endpoints are quantized. Realized center and coverage are measured again; requested percentages are not accepted by request alone."
+  },
+  "scheduled_stages": [
+    "full100"
+  ],
+  "scheduled_input_ids": [
+    "st01_rgb_star_d16",
+    "st00_flat128"
+  ],
+  "signed_G_preparation": {
+    "round": "control-post",
+    "delta_encoded_G": 0,
+    "geometry_unchanged": true,
+    "flat_unchanged": true,
+    "no_source_clipping": true,
+    "not_optical_acceptance": true
+  }
+}

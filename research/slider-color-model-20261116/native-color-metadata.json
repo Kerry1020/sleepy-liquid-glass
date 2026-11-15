@@ -1,0 +1,1313 @@
+{
+  "schema": 1,
+  "scope": "Metadata-only audit of existing frozen formal inputs and original native captures; no new experiment",
+  "source_study": "research/slider-color-response-20261116",
+  "portable_manifest": "research/slider-color-response-20261116/evidence/manifest.json",
+  "portable_manifest_sha256": "d1f2d2be9a2cb984cf9ffb8c8a85ee8f9e11ce892be998c9c95666e5644554f6",
+  "freeze_sha256": "10e82a63abd4ccfe38ad7a88a70367a1612d62fa31b6b57d0e42e8ef8c33354e",
+  "rounds_index_sha256": "e27bbe927a00600ecab841169ac3230ccca7ae4057c6440e88973effbe85c77a",
+  "method": "Read PNG signature, IHDR, ordered chunk names, CRCs and color-description payloads directly from original bytes; no IDAT/image decoding or color conversion",
+  "summary": {
+    "native_capture_count": 16,
+    "scheduled_input_path_count": 16,
+    "all_native_captures_have_sRGB_chunk": true,
+    "native_rendering_intent": 0,
+    "native_iCCP_gAMA_cHRM_present": false,
+    "input_icc_sha256": [
+      "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957"
+    ],
+    "native_output_label": "sRGB, as declared by each original PNG sRGB chunk"
+  },
+  "interpretation_limits": [
+    "PNG output color labels and input ICC identity do not identify UIKit's internal material working color space, transfer functions, blending, or processing order.",
+    "This audit does not prove optical parity or fit any color matrix, saturation, gamma, clamp, or physical glass model.",
+    "Existing analyze-response.py checks source ICC equality, but ignores capture ICC and does not lock the PNG sRGB marker; this separate audit records the missing metadata constraint.",
+    "sRGB intent0 on all captures rejects a mixed-output-label explanation for these files; it does not independently measure their encoded pixel correctness."
+  ],
+  "inputs": [
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st01_rgb_star_d16.png",
+      "png_sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+      "bytes": 5780,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "control-pre",
+      "role": "shape",
+      "input_id": "st01_rgb_star_d16"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/control-pre/inputs/st00_flat128.png",
+      "png_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "bytes": 5221,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "control-pre",
+      "role": "flat",
+      "input_id": "st00_flat128"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/global-R/inputs/st01_rgb_star_d16_global_r20.png",
+      "png_sha256": "39becb6d0431426de1c7d5ed3f20bfca83e346858715b267b582382d5d189249",
+      "bytes": 6955,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "global-R",
+      "role": "shape",
+      "input_id": "st01_rgb_star_d16_global_r20"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/global-R/inputs/st00_flat128.png",
+      "png_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "bytes": 5221,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "global-R",
+      "role": "flat",
+      "input_id": "st00_flat128"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st01_rgb_star_d16_global_g20.png",
+      "png_sha256": "49746c72910f7a1218b0260b0126058a5e17cf6eadd29e068afac91e0f4c75d5",
+      "bytes": 6955,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "global-G",
+      "role": "shape",
+      "input_id": "st01_rgb_star_d16_global_g20"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/global-G/inputs/st00_flat128.png",
+      "png_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "bytes": 5221,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "global-G",
+      "role": "flat",
+      "input_id": "st00_flat128"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/global-B/inputs/st01_rgb_star_d16_global_b20.png",
+      "png_sha256": "c51a73deb43ed8716d77f9e6e865a64205c30dd69c58f386abe07352f3a61c43",
+      "bytes": 6955,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "global-B",
+      "role": "shape",
+      "input_id": "st01_rgb_star_d16_global_b20"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/global-B/inputs/st00_flat128.png",
+      "png_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "bytes": 5221,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "global-B",
+      "role": "flat",
+      "input_id": "st00_flat128"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/mask-R/inputs/st01_rgb_star_d16_mask_r20.png",
+      "png_sha256": "8737ece5e865d84f6214ea6a796e1cfa6eba25bbadd5f4bd5ddee5e002f85ce0",
+      "bytes": 6975,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "mask-R",
+      "role": "shape",
+      "input_id": "st01_rgb_star_d16_mask_r20"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/mask-R/inputs/st00_flat128.png",
+      "png_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "bytes": 5221,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "mask-R",
+      "role": "flat",
+      "input_id": "st00_flat128"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st01_rgb_star_d16_mask_g20.png",
+      "png_sha256": "bff58755a5a2e31a537d97a4adc8ad72e71a1dc7c2c724bba04385ee448257ad",
+      "bytes": 6977,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "mask-G",
+      "role": "shape",
+      "input_id": "st01_rgb_star_d16_mask_g20"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/mask-G/inputs/st00_flat128.png",
+      "png_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "bytes": 5221,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "mask-G",
+      "role": "flat",
+      "input_id": "st00_flat128"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/mask-B/inputs/st01_rgb_star_d16_mask_b20.png",
+      "png_sha256": "473315978e573939c74df00868c792f1bba6599ba2282d3f2154073df2efe96a",
+      "bytes": 6977,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "mask-B",
+      "role": "shape",
+      "input_id": "st01_rgb_star_d16_mask_b20"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/mask-B/inputs/st00_flat128.png",
+      "png_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "bytes": 5221,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "mask-B",
+      "role": "flat",
+      "input_id": "st00_flat128"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st01_rgb_star_d16.png",
+      "png_sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+      "bytes": 5780,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "control-post",
+      "role": "shape",
+      "input_id": "st01_rgb_star_d16"
+    },
+    {
+      "path": "research/slider-color-response-20261116/inputs/rounds/control-post/inputs/st00_flat128.png",
+      "png_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "bytes": 5221,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 2,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "iCCP",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": false,
+        "iCCP": true,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "iCCP": {
+          "keyword": "ICC Profile",
+          "profile_bytes": 588,
+          "profile_sha256": "9a02e858b0325771b01d448a22c951f6517a501af13d68ec554e7429c51ce957",
+          "data_color_space": "RGB ",
+          "profile_connection_space": "XYZ "
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "control-post",
+      "role": "flat",
+      "input_id": "st00_flat128"
+    }
+  ],
+  "native_captures": [
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/control-pre/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-16CE6F63-950B-4CD4-A5E6-4D634725E651/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "png_sha256": "5cc886b5e145d9cc82f0e6bfe04fa8e9d7d0fa5ce990e95bca7cab6c5d60062b",
+      "bytes": 98816,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "control-pre",
+      "role": "flat"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/control-pre/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5126D95C-DED3-476E-BA4A-09E28AE54FF8/slider-fixed-shape-coverage-st01_rgb_star_d16-light-full100-held.png",
+      "png_sha256": "ea7bf07fb202c5c0f35f6e8a0c9fb4a5a58e6ebf7fafeaf686cd865a0da22b47",
+      "bytes": 100637,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "control-pre",
+      "role": "shape"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/global-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-898D90CC-2E37-4A4B-BCE1-A10FFF4FFEF3/slider-fixed-shape-coverage-st01_rgb_star_d16_global_r20-light-full100-held.png",
+      "png_sha256": "7536c7464c15b98c1d51a2829261f9c6c223d6d254c854f39072e53fb3753921",
+      "bytes": 117119,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "global-R",
+      "role": "shape"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/global-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A056C734-2DFE-4100-856F-B21D22BF7C3A/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "png_sha256": "856db0d9cfb9f9be2a2b1ea944015dc579fe1b9993e9c67d73b00e7d6fa9041c",
+      "bytes": 98950,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "global-R",
+      "role": "flat"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/global-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A29D9FB1-F729-4194-9E3F-6962666FC2EF/slider-fixed-shape-coverage-st01_rgb_star_d16_global_g20-light-full100-held.png",
+      "png_sha256": "f791ddea33a27ad8d6b77500ef1f7ef13ebcd357f425aa610a956f7b6c546d76",
+      "bytes": 117861,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "global-G",
+      "role": "shape"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/global-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-C4D4D721-C384-4E4D-ADFC-E3E92D96096B/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "png_sha256": "582311348b99e2853cab9912919453e668ac9bd0008acd9d0c70100ee1dfba24",
+      "bytes": 98733,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "global-G",
+      "role": "flat"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/global-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-945DC5A2-3C41-43CB-94C6-C4CBDC7F9E50/slider-fixed-shape-coverage-st01_rgb_star_d16_global_b20-light-full100-held.png",
+      "png_sha256": "60db3c2abcfa311b06cbba02835523b051cd369ba36f3006d8130b9131ab5023",
+      "bytes": 116489,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "global-B",
+      "role": "shape"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/global-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EF680A23-6594-4A3D-9A45-FF88A77C8E63/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "png_sha256": "9b65dc0cb0815b56541ff1f2f625da423975e3e6db26e34980ba4d8f6b109917",
+      "bytes": 98868,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "global-B",
+      "role": "flat"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/mask-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-066DB500-F34C-4F7A-B66C-6585AE283FD2/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_r20-light-full100-held.png",
+      "png_sha256": "0efd654c45d3c7e59d2fc1de2dd9113a4edc0948b987ccf9bbc113d61e942daf",
+      "bytes": 100665,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "mask-R",
+      "role": "shape"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/mask-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9D991FAD-FC3A-4A37-8120-FAD79F557D56/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "png_sha256": "0cc0fd59c69053506c09c93146391c4f9e55b47eb3fecd7ab6ace6df8911f53f",
+      "bytes": 98943,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "mask-R",
+      "role": "flat"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/mask-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5871289B-DF0B-4BBC-9C0B-F44553CE0B33/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_g20-light-full100-held.png",
+      "png_sha256": "0a622bbcbdc439ee024b5940040470da24b9bff9acb758921b6beeb12aaa58a4",
+      "bytes": 100779,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "mask-G",
+      "role": "shape"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/mask-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A39BDE4A-4414-4754-BF58-ABB5FDA59234/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "png_sha256": "1ba41901ee9f35c4865c07d47346c6264555895368a7ca965dd6916cc632e54a",
+      "bytes": 98938,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "mask-G",
+      "role": "flat"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/mask-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-76411A13-FF80-45B0-BDD6-5C7A8356C311/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "png_sha256": "1a0e2479c1a9af24447c4a1caa83d5fc5c3b748326a665b31dd12e9c2b8069be",
+      "bytes": 98965,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "mask-B",
+      "role": "flat"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/mask-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-8D5F9DA9-CD59-4C64-B74A-C3515CC7655A/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_b20-light-full100-held.png",
+      "png_sha256": "6757dbb2ff318467c977f81a026212005c0d41e250689550898e64035156ce36",
+      "bytes": 100778,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "mask-B",
+      "role": "shape"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/control-post/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9CF113A4-9447-4E5C-A676-066876670514/slider-fixed-shape-coverage-st01_rgb_star_d16-light-full100-held.png",
+      "png_sha256": "54c3a0dd6df3568014edc999679d03755854d2f75940567d6079260ea932cb18",
+      "bytes": 100315,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "control-post",
+      "role": "shape"
+    },
+    {
+      "path": "research/slider-color-response-20261116/evidence/rounds/control-post/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EBA9E651-DC56-44F4-A0A7-5E10AC296C12/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "png_sha256": "910eb6306f47f2e6c9582affd9d5b809b761b9338264bdd69c2c258a3ad5f9d7",
+      "bytes": 98470,
+      "ihdr": {
+        "width": 750,
+        "height": 1334,
+        "bit_depth": 8,
+        "color_type": 6,
+        "compression": 0,
+        "filter": 0,
+        "interlace": 0
+      },
+      "chunk_types": [
+        "IHDR",
+        "sRGB",
+        "eXIf",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IDAT",
+        "IEND"
+      ],
+      "color_chunk_markers": {
+        "sRGB": true,
+        "iCCP": false,
+        "gAMA": false,
+        "cHRM": false
+      },
+      "color_chunks": {
+        "sRGB": {
+          "rendering_intent": 0
+        }
+      },
+      "all_chunk_crcs_valid": true,
+      "round": "control-post",
+      "role": "flat"
+    }
+  ]
+}

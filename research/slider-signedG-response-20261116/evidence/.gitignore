@@ -1,0 +1,3 @@
+# Portable originals are published; only the top-level acquisition cache stays ignored.
+!/rounds/
+!/rounds/**

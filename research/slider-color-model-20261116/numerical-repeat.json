@@ -1,0 +1,7 @@
+{
+  "status": "same_declared_models_explicit_contraction_numerical_repeat",
+  "reason": "Avoid platform BLAS status warnings for tiny matrix products",
+  "maximum_array_absolute_difference": 1.4210854715202004e-14,
+  "source_pixels_or_models_changed": false,
+  "authoritative_output": "results-final"
+}

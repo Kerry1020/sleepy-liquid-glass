@@ -1,0 +1,77 @@
+{
+  "status": "PREPARED_NOT_CAPTURED",
+  "generator_sha256": "00f97a9e88dd5dfe06669bae49e5b5846cee416515489b520a1bdb4f64e7a2f5",
+  "protocol_sha256": "cfb695e7d244acaa3bfee4616a3b1ca31d299c89cb698ac3b093aeabc15396ec",
+  "old_freeze_sha256": "10e82a63abd4ccfe38ad7a88a70367a1612d62fa31b6b57d0e42e8ef8c33354e",
+  "source_base_sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+  "rounds": [
+    {
+      "round": "control-pre",
+      "delta_encoded_G": 0,
+      "first_input_id": "st01_rgb_star_d16",
+      "source_sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+      "min_RGB": [
+        48,
+        48,
+        48
+      ],
+      "max_RGB": [
+        232,
+        232,
+        232
+      ],
+      "flat_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b"
+    },
+    {
+      "round": "Gminus20",
+      "delta_encoded_G": -20,
+      "first_input_id": "st01_rgb_star_d16_gminus20",
+      "source_sha256": "4bcfbcd9625eae28d7a61d5160abc75736ad0f4b9272b8020f74a95341b2070a",
+      "min_RGB": [
+        48,
+        28,
+        48
+      ],
+      "max_RGB": [
+        232,
+        212,
+        232
+      ],
+      "flat_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b"
+    },
+    {
+      "round": "Gminus40",
+      "delta_encoded_G": -40,
+      "first_input_id": "st01_rgb_star_d16_gminus40",
+      "source_sha256": "245b3600265846aa72b6d36234d8a4c80d9abf026b56f34e3e879c43eda37b39",
+      "min_RGB": [
+        48,
+        8,
+        48
+      ],
+      "max_RGB": [
+        232,
+        192,
+        232
+      ],
+      "flat_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b"
+    },
+    {
+      "round": "control-post",
+      "delta_encoded_G": 0,
+      "first_input_id": "st01_rgb_star_d16",
+      "source_sha256": "9757bdb14092023996f2bd46d30b682799aac1fe06c221b7cad256c991e46724",
+      "min_RGB": [
+        48,
+        48,
+        48
+      ],
+      "max_RGB": [
+        232,
+        232,
+        232
+      ],
+      "flat_sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b"
+    }
+  ]
+}

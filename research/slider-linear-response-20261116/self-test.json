@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "seed": 20261116,
+  "checks": [
+    "linear",
+    "low_platform",
+    "high_platform",
+    "empty_sampled_middle",
+    "constant",
+    "monotone_not_clipped_affine",
+    "nonmonotonic",
+    "reported_counterexample_plus_unobserved_toy_negative_steps",
+    "1296_records_direct_witness_at_T0_T1",
+    "2000_generated_clipped_records_exact",
+    "2000_random_records_T1_T4_T8_nesting_and_witnesses"
+  ],
+  "original_or_new_output_pixels_loaded": false,
+  "acceptance_float_epsilon": 0,
+  "reconstruction_guard_only": 1e-10,
+  "script_sha256": "607e1ec9085bb4610870152e9472e1467ee5ee8a7070574f02a041610502fc46"
+}

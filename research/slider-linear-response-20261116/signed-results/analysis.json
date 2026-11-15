@@ -1,0 +1,2318 @@
+{
+  "status": "CONDITIONAL_FINITE_SIGNED_G_OBSERVABLE_DIAGNOSTIC_NOT_PIPELINE_IDENTIFICATION",
+  "script_sha256": "607e1ec9085bb4610870152e9472e1467ee5ee8a7070574f02a041610502fc46",
+  "input_sha256": "731e9f357da54e5543e61cba5b49152073ef0ddf56437fe5256985d00b78aa5c",
+  "input": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-signedG-response-20261116/analysis/signed-output.npz",
+  "array_sha256": "41a5876c2ed87defaed6f6d8b267f5fa22ed550d3448d4489428f368b936d273",
+  "self_test": {
+    "status": "PASS",
+    "seed": 20261116,
+    "checks": [
+      "linear",
+      "low_platform",
+      "high_platform",
+      "empty_sampled_middle",
+      "constant",
+      "monotone_not_clipped_affine",
+      "nonmonotonic",
+      "reported_counterexample_plus_unobserved_toy_negative_steps",
+      "1296_records_direct_witness_at_T0_T1",
+      "2000_generated_clipped_records_exact",
+      "2000_random_records_T1_T4_T8_nesting_and_witnesses"
+    ],
+    "original_or_new_output_pixels_loaded": false,
+    "acceptance_float_epsilon": 0,
+    "reconstruction_guard_only": 1e-10,
+    "script_sha256": "607e1ec9085bb4610870152e9472e1467ee5ee8a7070574f02a041610502fc46"
+  },
+  "endpoint_tolerances_bytes": [
+    1,
+    4,
+    8
+  ],
+  "endpoint_interval": "[max(0,byte-T),min(255,byte+T)]; no additional half-byte",
+  "t": [
+    -40,
+    -20,
+    0,
+    20
+  ],
+  "expected_output_sign": {
+    "R": "nonincreasing",
+    "G": "nondecreasing",
+    "B": "nonincreasing"
+  },
+  "branch_table": [
+    {
+      "index": 0,
+      "low_count": 0,
+      "high_start": 0
+    },
+    {
+      "index": 1,
+      "low_count": 0,
+      "high_start": 1
+    },
+    {
+      "index": 2,
+      "low_count": 0,
+      "high_start": 2
+    },
+    {
+      "index": 3,
+      "low_count": 0,
+      "high_start": 3
+    },
+    {
+      "index": 4,
+      "low_count": 0,
+      "high_start": 4
+    },
+    {
+      "index": 5,
+      "low_count": 1,
+      "high_start": 1
+    },
+    {
+      "index": 6,
+      "low_count": 1,
+      "high_start": 2
+    },
+    {
+      "index": 7,
+      "low_count": 1,
+      "high_start": 3
+    },
+    {
+      "index": 8,
+      "low_count": 1,
+      "high_start": 4
+    },
+    {
+      "index": 9,
+      "low_count": 2,
+      "high_start": 2
+    },
+    {
+      "index": 10,
+      "low_count": 2,
+      "high_start": 3
+    },
+    {
+      "index": 11,
+      "low_count": 2,
+      "high_start": 4
+    },
+    {
+      "index": 12,
+      "low_count": 3,
+      "high_start": 3
+    },
+    {
+      "index": 13,
+      "low_count": 3,
+      "high_start": 4
+    },
+    {
+      "index": 14,
+      "low_count": 4,
+      "high_start": 4
+    }
+  ],
+  "slope_storage": "m per 20 input bytes, in increasing u; first feasible branch only, not union bounds",
+  "masks": "Fixed public-carrier inset approximation; not optical alpha; above y<422, rail422..438",
+  "collection_gate_limit": "NPZ contains no repeated controls; root collector must verify pre/post and old/new original byte identity before emission. Analyzer does not assert those outcomes.",
+  "inference_limit": "Per-output/pixel independent parameters; compatibility is not shared saturation proof. Encoded clipped-affine rejection does not reject linear-light clamp plus transfer or arbitrary monotonic pipelines.",
+  "results": {
+    "1": {
+      "full": {
+        "pixels": 7744,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 7728,
+              "incompatible": 16
+            },
+            "clipped_affine": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 7744,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 7744,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 7744,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 16,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "primary": {
+        "pixels": 1630,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1630,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1630,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1630,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail": {
+        "pixels": 4312,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 4296,
+              "incompatible": 16
+            },
+            "clipped_affine": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 4312,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 4312,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 4312,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 16,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "rail_band": {
+        "pixels": 2816,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2816,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2816,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2816,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "below_rail": {
+        "pixels": 616,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 616,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 616,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 616,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "outside_carrier": {
+        "pixels": 2496,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2496,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2496,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2496,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "inset_0_1": {
+        "pixels": 186,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 170,
+              "incompatible": 16
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 16,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail_inset_0_1": {
+        "pixels": 186,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 170,
+              "incompatible": 16
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 16,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "inset_1_3": {
+        "pixels": 393,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 393,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 393,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 393,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail_inset_1_3": {
+        "pixels": 377,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 377,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 377,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 377,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "inset_3_8": {
+        "pixels": 1559,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1559,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1559,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1559,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail_inset_3_8": {
+        "pixels": 883,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 883,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 883,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 883,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "inset_8_plus": {
+        "pixels": 3110,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 3110,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 3110,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 3110,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail_inset_8_plus": {
+        "pixels": 370,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 370,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 370,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 370,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      }
+    },
+    "4": {
+      "full": {
+        "pixels": 7744,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 7737,
+              "incompatible": 7
+            },
+            "clipped_affine": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 7744,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 7744,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 7744,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 7,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "primary": {
+        "pixels": 1630,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1630,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1630,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1630,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail": {
+        "pixels": 4312,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 4305,
+              "incompatible": 7
+            },
+            "clipped_affine": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 4312,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 4312,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 4312,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 7,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "rail_band": {
+        "pixels": 2816,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2816,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2816,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2816,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "below_rail": {
+        "pixels": 616,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 616,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 616,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 616,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "outside_carrier": {
+        "pixels": 2496,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2496,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2496,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2496,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "inset_0_1": {
+        "pixels": 186,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 179,
+              "incompatible": 7
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 7,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail_inset_0_1": {
+        "pixels": 186,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 179,
+              "incompatible": 7
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 7,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "inset_1_3": {
+        "pixels": 393,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 393,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 393,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 393,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail_inset_1_3": {
+        "pixels": 377,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 377,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 377,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 377,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "inset_3_8": {
+        "pixels": 1559,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1559,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1559,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1559,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail_inset_3_8": {
+        "pixels": 883,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 883,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 883,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 883,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "inset_8_plus": {
+        "pixels": 3110,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 3110,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 3110,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 3110,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail_inset_8_plus": {
+        "pixels": 370,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 370,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 370,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 370,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      }
+    },
+    "8": {
+      "full": {
+        "pixels": 7744,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 7744,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 7744,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 7744,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 7744,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "primary": {
+        "pixels": 1630,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1630,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1630,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1630,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1630,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail": {
+        "pixels": 4312,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 4312,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 4312,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 4312,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 4312,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "rail_band": {
+        "pixels": 2816,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2816,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2816,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2816,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2816,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "below_rail": {
+        "pixels": 616,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 616,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 616,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 616,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 616,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "outside_carrier": {
+        "pixels": 2496,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2496,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2496,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 2496,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 2496,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "inset_0_1": {
+        "pixels": 186,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail_inset_0_1": {
+        "pixels": 186,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 186,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 186,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "inset_1_3": {
+        "pixels": 393,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 393,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 393,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 393,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 393,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail_inset_1_3": {
+        "pixels": 377,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 377,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 377,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 377,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 377,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "inset_3_8": {
+        "pixels": 1559,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1559,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1559,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 1559,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 1559,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail_inset_3_8": {
+        "pixels": 883,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 883,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 883,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 883,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 883,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "inset_8_plus": {
+        "pixels": 3110,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 3110,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 3110,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 3110,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 3110,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      },
+      "above_rail_inset_8_plus": {
+        "pixels": 370,
+        "channels": {
+          "R": {
+            "linear": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 370,
+              "incompatible": 0
+            }
+          },
+          "G": {
+            "linear": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 370,
+              "incompatible": 0
+            }
+          },
+          "B": {
+            "linear": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "clipped_affine": {
+              "compatible": 370,
+              "incompatible": 0
+            },
+            "monotonic": {
+              "compatible": 370,
+              "incompatible": 0
+            }
+          }
+        },
+        "any_RGB_incompatible": {
+          "linear": 0,
+          "clipped_affine": 0,
+          "monotonic": 0
+        }
+      }
+    }
+  }
+}

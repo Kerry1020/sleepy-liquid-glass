@@ -233,6 +233,12 @@ $$\mathrm{RMSE}_x = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_{\mathrm{Android},i}-x_{\m
 
 ![固定完整 ROI 中七种响应模型的 T4 相容性，保留主域、边缘和轨道混杂区](research/slider-color-response-20261116/figures-response/T4-compatibility-all-models-full-ROI.png)
 
+**同日接续 · 有符号 G 响应。** [四轮原生补充测量](research/slider-signedG-response-20261116/README.md)公开新增 8 张原图、冻结输入、收据和便携重放；重复 control 与 flat 的固定 ROI 均逐字节相同，记录几何范围为零。合并既有 G+20 后，四个有限步进的逐像素仿射模型在 T1／4／8 下分别有 16／7／0 个不相容像素，全部位于最外 0–1pt；允许裁切的仿射族与一般单调族均相容。它纠正了[未裁切矩阵拟合](research/slider-color-model-20261116/README.md)的解释边界，没有识别原生内部管线或产生新的产品参数。
+
+![同一原生像素的有符号 G 响应及预设区域内的模型相容性](research/slider-signedG-response-20261116/figures/signed-G-response-and-compatibility.png)
+
+[外置 Android 研究入口](research/slider-android-host/README.md)也仅保存在本资产仓库，通过显式 Gradle init 参数接入应用测试宿主；当前仅通过准备与静态校验，尚未验证该入口的 Gradle 编译。Sleepy 应用 PR 只收应用代码和必要回归测试；[发布范围核对](provenance/publication-boundary-20261116.json)记录了已合并 #442 的 8 文件范围。
+
 ### 4.6 Toggle：升起、填色与回落的原生观察
 
 ![图8a：iOS26.5原生Toggle长按时，白色滑块逐步变为可透射背景的玻璃](docs/images/research/switch-white-to-glass.png)

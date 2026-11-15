@@ -235,6 +235,12 @@ The five prior studies and new midpoint packet retain relative paths, original p
 
 ![T4 compatibility of seven response models across the fixed full ROI, retaining primary, rim and rail-confounded regions](research/slider-color-response-20261116/figures-response/T4-compatibility-all-models-full-ROI.png)
 
+**Same-day follow-up · Signed G response.** The [four-round native supplement](research/slider-signedG-response-20261116/README.md) publishes eight additional original PNGs, frozen inputs, receipts, and portable replay. The fixed control/flat ROIs are byte-identical and recorded geometry range is zero. With the existing G+20 endpoint, per-pixel affine responses have 16 / 7 / 0 incompatible pixels at T1 / 4 / 8, all in the outermost 0–1pt. Clipped-affine and general monotone families remain compatible throughout. This corrects the interpretation boundary of the [unclipped matrix fits](research/slider-color-model-20261116/README.md); it identifies neither the native pipeline nor new production parameters.
+
+![Signed G response at one native pixel and model compatibility in prespecified regions](research/slider-signedG-response-20261116/figures/signed-G-response-and-compatibility.png)
+
+The [external Android research entry point](research/slider-android-host/README.md) also lives solely in this asset repository and requires explicit Gradle init arguments to use the application test host. Preparation and static checks passed; Gradle compilation through this entry point remains unverified. Sleepy consumer PRs contain application code and necessary regressions only; the [publication-scope record](provenance/publication-boundary-20261116.json) records the eight files in merged PR #442.
+
 ### 4.6 Toggle: publish the visible native hold→release reference
 
 ![Figure 8a: decoded iOS 26.5 hold frames showing the stationary solid-white thumb rising into a transmitting glass lens](docs/images/research/switch-white-to-glass.png)

@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "set_id": "slider_signedG_20261116_gminus20",
+  "split": "calibration",
+  "inputs": [
+    {
+      "id": "st00_flat128",
+      "file": "st00_flat128.png",
+      "sha256": "6e4291536355bff3dae7dee3957eec96bf4f3efc7566dd4257721a635ad8340b",
+      "bytes": 5221
+    },
+    {
+      "id": "st01_rgb_star_d16_gminus20",
+      "file": "st01_rgb_star_d16_gminus20.png",
+      "sha256": "4bcfbcd9625eae28d7a61d5160abc75736ad0f4b9272b8020f74a95341b2070a",
+      "bytes": 6954
+    },
+    {
+      "id": "st02_rgb_star6_d16",
+      "file": "st02_rgb_star6_d16.png",
+      "sha256": "edbfbf48f20b988564d56f89bbb7064bb32b35eaef418945446f545d5e8e6003",
+      "bytes": 5828
+    },
+    {
+      "id": "st03_rgb_star7_d16",
+      "file": "st03_rgb_star7_d16.png",
+      "sha256": "7e9b2b56eaa7d6a161ef3306b7ddf471d6309be71d42cc2d48649166d31c9891",
+      "bytes": 5921
+    },
+    {
+      "id": "st04_rgb_star8_d16",
+      "file": "st04_rgb_star8_d16.png",
+      "sha256": "83cb048741de1602df35034cd5e27092437a3bc5756a4bf8d2db7f2b8b1014e4",
+      "bytes": 5997
+    },
+    {
+      "id": "st05_rgb_star5_d12",
+      "file": "st05_rgb_star5_d12.png",
+      "sha256": "9b5f57a58c0138522671f2ba0e59937b2c94ea73af5346be375eeef1aa764a48",
+      "bytes": 5634
+    },
+    {
+      "id": "st06_rgb_star6_d12",
+      "file": "st06_rgb_star6_d12.png",
+      "sha256": "7627c5b06834869c3e2d99e6b545c8a5b007acc0b2cc917f92773394017477d2",
+      "bytes": 5673
+    },
+    {
+      "id": "st07_rgb_star7_d12",
+      "file": "st07_rgb_star7_d12.png",
+      "sha256": "5133ea0b486b3098aeddee0728ffb54e854e7d1a9e7eefa76376b19a04b44f58",
+      "bytes": 5751
+    }
+  ]
+}

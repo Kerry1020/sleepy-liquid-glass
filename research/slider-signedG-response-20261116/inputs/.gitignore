@@ -1,0 +1,4 @@
+# The frozen parent ignore file also matches nested rounds directories.
+# Keep the frozen acquisition inputs visible to Git without changing its bytes.
+!/rounds/
+!/rounds/**

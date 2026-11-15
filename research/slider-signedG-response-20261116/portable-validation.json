@@ -1,0 +1,58 @@
+{
+  "status": "PASS_ORIGINAL_BYTES_AND_UNCHANGED_ANALYZERS_PORTABLE_REPLAY",
+  "export": {
+    "files": 32,
+    "bytes": 2788670,
+    "original_pngs": 8,
+    "unfrozen_repository_rule_files": 2,
+    "manifest_sha256": "ed262b97f10cd54f9f07fc30c5a92c79ddeef06c3e7c067ab3f75cf3352c177e"
+  },
+  "freeze_sha256": "b5c77bf7e1ce56f98582e2b99a5b6a0a87e6edc8a2315fff8b818bb4bad1e79d",
+  "collector_sha256": "a31decc87e24f1bff21ebd9719bdae460bec67bfc857100e769f9c70b7c0e1c9",
+  "f_analyzer_sha256": "607e1ec9085bb4610870152e9472e1467ee5ee8a7070574f02a041610502fc46",
+  "tool_sha256": "04dd253f846b88f82fe3c47aa0b8f27979668ae00232c8a5d8cb1dcaa5e8486d",
+  "sibling_frozen_dependencies": 245,
+  "sibling_dependency_bytes": 3569368,
+  "duplicate_dependency_bytes_committed": 0,
+  "new_endpoints": 8,
+  "D_arrays": {
+    "array_count": 6,
+    "all_arrays_exact_equal": true,
+    "npz_container_sha256_exact_equal": true
+  },
+  "F_arrays": {
+    "array_count": 21,
+    "all_arrays_exact_equal": true,
+    "npz_container_sha256_exact_equal": true
+  },
+  "JSON": {
+    "D_collection": {
+      "normalized_json_exact_equal": true,
+      "reference_sha256": "bad7bb9ddef59bcc83d967b0f3642854e2afd534da8b36711c7d4fce4bf9d54b",
+      "replay_sha256": "d232cfd0bf1f83026c8e2aa1171b13b7068d10d4c83f054bf361a16aac43f660"
+    },
+    "F_analysis": {
+      "normalized_json_exact_equal": true,
+      "reference_sha256": "b00617588d4368be272cc826ccf3c4ee85ea3fd9f4991912c991522bd8ea095a",
+      "replay_sha256": "6889e16e56cab1bc7b48eaf70c2d7fa1e589f796a218a1147b6f09a6720c3c37"
+    }
+  },
+  "programs": [
+    {
+      "program": "collect-signed.py",
+      "returncode": 0,
+      "stdout_sha256": "0d79a72a7986165602eee0ffcccf07d0e7459b71e2d16af89b30b58f22481ad2",
+      "stderr": ""
+    },
+    {
+      "program": "analyze-signed-g.py",
+      "returncode": 0,
+      "stdout_sha256": "0c614931c4539763ced15ed78f162b66e75a8ddd9bf2e5022daca2b577b4a1e2",
+      "stderr": ""
+    }
+  ],
+  "normalisation": "Absolute dictionary keys and string values only under original/temporary asset root map to <asset>/; no numeric/hash/status field ignored.",
+  "trace_policy": "No trace archive/xcresult/DerivedData/app binary read or copied. Receipt trace hashes/sizes are original declarations only.",
+  "optical_acceptance": false,
+  "temporary_root_removed": true
+}

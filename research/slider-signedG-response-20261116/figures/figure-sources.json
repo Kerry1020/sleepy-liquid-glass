@@ -1,0 +1,58 @@
+{
+  "status": "DERIVED_FIGURES_FROM_EXISTING_ARRAYS_ONLY",
+  "script_sha256": "c1303a3bc3293fa96446f99a0fb19dd577e0df103019e5ce2ea0b7344f961c7e",
+  "sources": {
+    "analysis/signed-output.npz": "731e9f357da54e5543e61cba5b49152073ef0ddf56437fe5256985d00b78aa5c",
+    "../slider-linear-response-20261116/signed-results/analysis.json": "b00617588d4368be272cc826ccf3c4ee85ea3fd9f4991912c991522bd8ea095a"
+  },
+  "figures": {
+    "signed-G-native-ROI.png": {
+      "sha256": "7c153968010ba709c2a483c6bbfe68bbceae1a7a093d98e286d6cd5047f6e24b",
+      "bytes": 68582
+    },
+    "signed-G-response-and-compatibility.png": {
+      "sha256": "fce1c178a910578f66a9089f8f4d5430b8060fc7313d8e0d5a8397e768c2a073",
+      "bytes": 121742
+    }
+  },
+  "processing": [
+    "Original collector ROI is half-open PNG pixel crop [331,795,419,883), 88x88.",
+    "Native ROI uses exact output_rgb bytes; nearest-neighbour display scaling only.",
+    "No denoising, interpolation of image colours, sharpening, gamma change or saturation enhancement.",
+    "Curve sample is fixed world(192.75,411.25), original ROI row27/column54; straight segments guide the eye.",
+    "Compatibility counts copied from existing F JSON; no model rerun or new parameter fit.",
+    "Original full-screen PNGs retained only in evidence; figures show ROI only."
+  ],
+  "sample_world": [
+    192.75,
+    411.25
+  ],
+  "t": [
+    -40,
+    -20,
+    0,
+    20
+  ],
+  "sample_RGB": [
+    [
+      25,
+      73,
+      111
+    ],
+    [
+      15,
+      85,
+      103
+    ],
+    [
+      6,
+      100,
+      96
+    ],
+    [
+      6,
+      114,
+      87
+    ]
+  ]
+}

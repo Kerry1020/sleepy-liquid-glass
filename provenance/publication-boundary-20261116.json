@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-16",
+  "purpose": "Remote verification after removing research-only changes from Sleepy PR #442; research is published only in this independent asset repository.",
+  "sleepy_pull_request": {
+    "additions": 542,
+    "changedFiles": 8,
+    "deletions": 27,
+    "files": [
+      {
+        "path": "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt",
+        "additions": 43,
+        "deletions": 15,
+        "changeType": "MODIFIED"
+      },
+      {
+        "path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/GlassSliderTrackCoverageTest.kt",
+        "additions": 94,
+        "deletions": 0,
+        "changeType": "ADDED"
+      },
+      {
+        "path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassRefractionShoulderTest.kt",
+        "additions": 150,
+        "deletions": 0,
+        "changeType": "ADDED"
+      },
+      {
+        "path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShaderContractTest.kt",
+        "additions": 49,
+        "deletions": 1,
+        "changeType": "MODIFIED"
+      },
+      {
+        "path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyleReferenceTest.kt",
+        "additions": 50,
+        "deletions": 0,
+        "changeType": "MODIFIED"
+      },
+      {
+        "path": "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
+        "additions": 35,
+        "deletions": 1,
+        "changeType": "MODIFIED"
+      },
+      {
+        "path": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt",
+        "additions": 39,
+        "deletions": 0,
+        "changeType": "MODIFIED"
+      },
+      {
+        "path": "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt",
+        "additions": 82,
+        "deletions": 10,
+        "changeType": "MODIFIED"
+      }
+    ],
+    "headRefOid": "5f3ea867ed173520c80515c5482263efe1c21433",
+    "mergeCommit": {
+      "oid": "9d308e8fbf374f878b2f37986344f39b2600e070"
+    },
+    "mergedAt": "2026-11-15T17:24:29Z",
+    "number": 442,
+    "state": "MERGED",
+    "url": "https://github.com/lingion/sleepy/pull/442"
+  },
+  "local_application_worktree_clean": true,
+  "comparison_base": "46f7acfc8a8de8039124df9a1b3c44f0d1f10ae6",
+  "production_files": [
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/SliderVisuals.kt",
+    "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt"
+  ],
+  "necessary_regression_test_files": [
+    "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/GlassSliderTrackCoverageTest.kt",
+    "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassRefractionShoulderTest.kt",
+    "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShaderContractTest.kt",
+    "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyleReferenceTest.kt"
+  ],
+  "research_files_in_this_pull_request": 0,
+  "research_ownership": [
+    "research/slider-fixtures",
+    "research/slider-color-response-20261116",
+    "research/slider-color-model-20261116",
+    "research/slider-linear-response-20261116",
+    "research/slider-signedG-response-20261116",
+    "research/slider-android-host"
+  ],
+  "external_android_host": {
+    "requires_explicit_gradle_init": true,
+    "source_generation_inside_asset_repository_only": true,
+    "static_validation": "passed",
+    "gradle_compilation": "not_run",
+    "device_capture": "not_run"
+  },
+  "limits": [
+    "Scope audit is of the stated pull-request diff, not a claim that historical Sleepy main never contained research tools.",
+    "This publication changes no Sleepy source, dependencies, build scripts or CI.",
+    "r2 optical material remains unaccepted."
+  ],
+  "research_publication_checks": {
+    "no_new_acquisition_build_or_product_change": true,
+    "color_model_self_test": "passed",
+    "color_metadata_audit": {
+      "native_pngs": 16,
+      "input_pngs": 16,
+      "result": "verified"
+    },
+    "color_model_replay": {
+      "exact_arrays": 28,
+      "json_exact_equal": true,
+      "temporary_outputs_removed": true
+    },
+    "signed_analyzer_synthetic": "passed",
+    "collector_synthetic_contracts": 5,
+    "signed_portable_originals": {
+      "files": 32,
+      "pngs": 8,
+      "bytes": 2788670
+    },
+    "signed_portable_replay": {
+      "D_exact_arrays": 6,
+      "F_exact_arrays": 21,
+      "npz_containers_exact_equal": true,
+      "json_path_normalized_equal": true,
+      "temporary_root_removed": true
+    },
+    "frozen_dependency_sha_checks": 245,
+    "git_visible_required_evidence_files": 277,
+    "live_document_local_links": {
+      "documents": 8,
+      "links": 233,
+      "missing": 0
+    },
+    "configured_asset_ci_or_site_workflows": [],
+    "runtime_files_changed_by_this_publication": 0,
+    "optical_acceptance": false
+  }
+}
