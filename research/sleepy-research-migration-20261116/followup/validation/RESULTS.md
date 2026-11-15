@@ -22,6 +22,12 @@
 
 `default-*`、`final-default-*`、`final-device-*` 是中间版本的历史收据，绑定各自源码哈希；以 `post-review-*` 作为本提交最终验证。所有构建输出都只保留日志及身份，不复制 APK、缓存或设备数据。
 
+## 云端检查与合并状态
+
+最新 Sleepy head `daabde9ac3b7c421345e6a710fcde1ccd82c475b` 的 10 项云端检查全部 SUCCESS，CI run `43755312069` 与 Debug APK run `43755310402` 均已完成。这不改变上面的三项真机失败。
+
+普通 squash 合并实际被 GitHub 拒绝：`the base branch policy prohibits the merge`。PR #443 仍为 OPEN/BLOCKED，merge commit 为空。规则 `protect-main`（24128365）的 update restriction 仍 active，当前账号 `current_user_can_bypass=never`；没有使用 admin/bypass、修改规则或删除检查。完整收据：[云端检查与普通合并尝试](remote-ci-and-merge.json)。
+
 ## 使用边界
 
 旧外置研究 fixture 仍依赖已经迁出的辅助框架，后续应由资产库在外置 host 显式供给；本轮没有完成这项集成。冻结原图与历史采集身份不改写。光学 goal 继续 active，滑杆 r2 未验收。
