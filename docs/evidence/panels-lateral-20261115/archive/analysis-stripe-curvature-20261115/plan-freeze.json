@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "MINIMAL PREDECODE DIAGNOSTIC PLAN FROZEN — NO PIXEL ANALYSIS, NO FIT, NOT PASSED",
+  "date": "2026-11-15",
+  "files_sha256": {
+    "PLAN.md": "61abddb7f815950983f5b711c55abeb811d3c517ed7176fd7ba997fd96232bf7",
+    "source-index.json": "61efd373337f5fa68439345418d8acb442c5338dbdd74cb1a1cb91d7f7958bed",
+    "prepare_metadata.py": "ed27845de1a299aadfc79b0183b1b8c0afe22fc3c66d716037942c64f98a4851"
+  },
+  "checks": {
+    "conditions_registered": 4,
+    "current_runtime_source_hash_matches": 5,
+    "real_png_pixels_decoded": 0,
+    "AST_parse": "prepare_metadata.py"
+  },
+  "paired_slope_69_check_freeze_unchanged": "8b3deaca28c66c8527528f13664abd00042fba958b12e7c2d91c01e5d1056a54",
+  "next": "root may inspect fixed historical contours after checking this plan; do not collect or fit here",
+  "claims_disabled": [
+    "unique2Dmap",
+    "physical thickness",
+    "true ray displacement",
+    "parity percentage",
+    "new runtime parameters"
+  ]
+}

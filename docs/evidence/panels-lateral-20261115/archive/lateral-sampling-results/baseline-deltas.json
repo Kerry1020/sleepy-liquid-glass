@@ -1,0 +1,146 @@
+[
+  {
+    "file": "color_stripes-dark-alert-rest-window.png",
+    "changed_pixels": 37634,
+    "max_rgb_delta": 128,
+    "mean_abs_rgb_delta": 0.4291150120100634
+  },
+  {
+    "file": "color_stripes-dark-background-window.png",
+    "changed_pixels": 0,
+    "max_rgb_delta": 0,
+    "mean_abs_rgb_delta": 0.0
+  },
+  {
+    "file": "color_stripes-dark-share_sheet-rest-window.png",
+    "changed_pixels": 46305,
+    "max_rgb_delta": 59,
+    "mean_abs_rgb_delta": 0.1979553556555056
+  },
+  {
+    "file": "color_stripes-light-alert-rest-window.png",
+    "changed_pixels": 39779,
+    "max_rgb_delta": 255,
+    "mean_abs_rgb_delta": 0.8177586717211388
+  },
+  {
+    "file": "color_stripes-light-background-window.png",
+    "changed_pixels": 0,
+    "max_rgb_delta": 0,
+    "mean_abs_rgb_delta": 0.0
+  },
+  {
+    "file": "color_stripes-light-share_sheet-rest-window.png",
+    "changed_pixels": 47673,
+    "max_rgb_delta": 94,
+    "mean_abs_rgb_delta": 0.25641146093619854
+  },
+  {
+    "file": "fine_grid-dark-alert-rest-window.png",
+    "changed_pixels": 4732,
+    "max_rgb_delta": 6,
+    "mean_abs_rgb_delta": 0.007634359026900265
+  },
+  {
+    "file": "fine_grid-dark-background-window.png",
+    "changed_pixels": 0,
+    "max_rgb_delta": 0,
+    "mean_abs_rgb_delta": 0.0
+  },
+  {
+    "file": "fine_grid-dark-share_sheet-rest-window.png",
+    "changed_pixels": 4980,
+    "max_rgb_delta": 2,
+    "mean_abs_rgb_delta": 0.0020276528402465434
+  },
+  {
+    "file": "fine_grid-light-alert-rest-window.png",
+    "changed_pixels": 12440,
+    "max_rgb_delta": 14,
+    "mean_abs_rgb_delta": 0.0340707284587275
+  },
+  {
+    "file": "fine_grid-light-background-window.png",
+    "changed_pixels": 0,
+    "max_rgb_delta": 0,
+    "mean_abs_rgb_delta": 0.0
+  },
+  {
+    "file": "fine_grid-light-share_sheet-rest-window.png",
+    "changed_pixels": 10638,
+    "max_rgb_delta": 2,
+    "mean_abs_rgb_delta": 0.006161585873729802
+  },
+  {
+    "file": "synthetic_landscape-dark-alert-rest-window.png",
+    "changed_pixels": 13062,
+    "max_rgb_delta": 128,
+    "mean_abs_rgb_delta": 0.026740889996926333
+  },
+  {
+    "file": "synthetic_landscape-dark-background-window.png",
+    "changed_pixels": 0,
+    "max_rgb_delta": 0,
+    "mean_abs_rgb_delta": 0.0
+  },
+  {
+    "file": "synthetic_landscape-dark-share_sheet-rest-window.png",
+    "changed_pixels": 15930,
+    "max_rgb_delta": 10,
+    "mean_abs_rgb_delta": 0.007962685324004664
+  },
+  {
+    "file": "synthetic_landscape-light-alert-rest-window.png",
+    "changed_pixels": 13240,
+    "max_rgb_delta": 43,
+    "mean_abs_rgb_delta": 0.04349948203044067
+  },
+  {
+    "file": "synthetic_landscape-light-background-window.png",
+    "changed_pixels": 0,
+    "max_rgb_delta": 0,
+    "mean_abs_rgb_delta": 0.0
+  },
+  {
+    "file": "synthetic_landscape-light-share_sheet-rest-window.png",
+    "changed_pixels": 22804,
+    "max_rgb_delta": 22,
+    "mean_abs_rgb_delta": 0.017094452773613194
+  },
+  {
+    "file": "tonal_blocks-dark-alert-rest-window.png",
+    "changed_pixels": 14170,
+    "max_rgb_delta": 14,
+    "mean_abs_rgb_delta": 0.08983925867741312
+  },
+  {
+    "file": "tonal_blocks-dark-background-window.png",
+    "changed_pixels": 0,
+    "max_rgb_delta": 0,
+    "mean_abs_rgb_delta": 0.0
+  },
+  {
+    "file": "tonal_blocks-dark-share_sheet-rest-window.png",
+    "changed_pixels": 11637,
+    "max_rgb_delta": 24,
+    "mean_abs_rgb_delta": 0.033822755289022156
+  },
+  {
+    "file": "tonal_blocks-light-alert-rest-window.png",
+    "changed_pixels": 8925,
+    "max_rgb_delta": 40,
+    "mean_abs_rgb_delta": 0.15739871133727218
+  },
+  {
+    "file": "tonal_blocks-light-background-window.png",
+    "changed_pixels": 0,
+    "max_rgb_delta": 0,
+    "mean_abs_rgb_delta": 0.0
+  },
+  {
+    "file": "tonal_blocks-light-share_sheet-rest-window.png",
+    "changed_pixels": 12088,
+    "max_rgb_delta": 54,
+    "mean_abs_rgb_delta": 0.07218090954522739
+  }
+]

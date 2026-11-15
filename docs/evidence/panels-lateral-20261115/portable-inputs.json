@@ -1,0 +1,2118 @@
+{
+  "schema": 1,
+  "purpose": "Portable paths overlay; frozen source-index is preserved byte-for-byte",
+  "harmonic_inputs": {
+    "native": "docs/evidence/panels-lateral-20261115/inputs/06bfae97ec012fd1-FCE33B1A-8D26-460D-A148-5911467B4F8E-component.png",
+    "baseline": "docs/evidence/panels-lateral-20261115/inputs/3e4eb69356808eca-color_stripes-light-alert-rest-screen-component.png",
+    "gain0025": "docs/evidence/panels-lateral-20261115/inputs/058d04624db6bdfc-color_stripes-light-alert-rest-screen-component.png",
+    "gain045": "docs/evidence/panels-lateral-20261115/inputs/7f611611aa60d758-color_stripes-light-alert-rest-screen-component.png"
+  },
+  "stripe_first_condition_inputs": {
+    "native": "docs/evidence/panels-lateral-20261115/inputs/06bfae97ec012fd1-FCE33B1A-8D26-460D-A148-5911467B4F8E-component.png",
+    "screen_png": "docs/evidence/panels-lateral-20261115/inputs/3e4eb69356808eca-color_stripes-light-alert-rest-screen-component.png",
+    "window_png": "docs/evidence/panels-lateral-20261115/inputs/67799aaa839cfd3d-color_stripes-light-alert-rest-window-component.png",
+    "native_source": "docs/evidence/panels-lateral-20261115/inputs/be768f215b3818c5-background-input-component.png"
+  },
+  "gain045_captures": [
+    {
+      "scene": "fine_grid-light-share_sheet",
+      "background": "fine_grid",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/ccdd17d385405cbb-fine_grid-light-share_sheet-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 215087312,
+        "placement_attributes": {
+          "width": -1,
+          "height": -1,
+          "x": 0,
+          "y": 0,
+          "gravity": 17,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "captured_surface_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "view_screen_origin_px": [
+          0,
+          0
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          750,
+          1334
+        ],
+        "view_size_px": [
+          750,
+          1334
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "status_bars": [
+            0,
+            80,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            32
+          ],
+          "display_cutout": [
+            0,
+            68,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ]
+    },
+    {
+      "scene": "fine_grid-light-alert",
+      "background": "fine_grid",
+      "theme": "light",
+      "carrier": "alert",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/5f18d1fffb45f7a1-fine_grid-light-alert-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 140294568,
+        "placement_attributes": {
+          "width": 658,
+          "height": 356,
+          "x": 46,
+          "y": 429,
+          "gravity": 51,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "captured_surface_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "view_screen_origin_px": [
+          46,
+          509
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          658,
+          356
+        ],
+        "view_size_px": [
+          658,
+          356
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "status_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "display_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ]
+    },
+    {
+      "scene": "color_stripes-light-share_sheet",
+      "background": "color_stripes",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/105c13ea1bd1b72b-color_stripes-light-share_sheet-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 121756312,
+        "placement_attributes": {
+          "width": -1,
+          "height": -1,
+          "x": 0,
+          "y": 0,
+          "gravity": 17,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "captured_surface_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "view_screen_origin_px": [
+          0,
+          0
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          750,
+          1334
+        ],
+        "view_size_px": [
+          750,
+          1334
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "status_bars": [
+            0,
+            80,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            32
+          ],
+          "display_cutout": [
+            0,
+            68,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ]
+    },
+    {
+      "scene": "color_stripes-light-alert",
+      "background": "color_stripes",
+      "theme": "light",
+      "carrier": "alert",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/273b47b4c9ca7aeb-color_stripes-light-alert-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 142642445,
+        "placement_attributes": {
+          "width": 658,
+          "height": 356,
+          "x": 46,
+          "y": 429,
+          "gravity": 51,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "captured_surface_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "view_screen_origin_px": [
+          46,
+          509
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          658,
+          356
+        ],
+        "view_size_px": [
+          658,
+          356
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "status_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "display_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ]
+    },
+    {
+      "scene": "tonal_blocks-light-share_sheet",
+      "background": "tonal_blocks",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/14043ee8e7e5dabb-tonal_blocks-light-share_sheet-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 263949564,
+        "placement_attributes": {
+          "width": -1,
+          "height": -1,
+          "x": 0,
+          "y": 0,
+          "gravity": 17,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "captured_surface_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "view_screen_origin_px": [
+          0,
+          0
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          750,
+          1334
+        ],
+        "view_size_px": [
+          750,
+          1334
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "status_bars": [
+            0,
+            80,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            32
+          ],
+          "display_cutout": [
+            0,
+            68,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ]
+    },
+    {
+      "scene": "tonal_blocks-light-alert",
+      "background": "tonal_blocks",
+      "theme": "light",
+      "carrier": "alert",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/fce68373f170a76e-tonal_blocks-light-alert-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 86770887,
+        "placement_attributes": {
+          "width": 658,
+          "height": 356,
+          "x": 46,
+          "y": 429,
+          "gravity": 51,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "captured_surface_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "view_screen_origin_px": [
+          46,
+          509
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          658,
+          356
+        ],
+        "view_size_px": [
+          658,
+          356
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "status_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "display_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ]
+    },
+    {
+      "scene": "synthetic_landscape-light-share_sheet",
+      "background": "synthetic_landscape",
+      "theme": "light",
+      "carrier": "share_sheet",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/382e2806ce0d02ab-synthetic_landscape-light-share_sheet-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 105600588,
+        "placement_attributes": {
+          "width": -1,
+          "height": -1,
+          "x": 0,
+          "y": 0,
+          "gravity": 17,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "captured_surface_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "view_screen_origin_px": [
+          0,
+          0
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          750,
+          1334
+        ],
+        "view_size_px": [
+          750,
+          1334
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "status_bars": [
+            0,
+            80,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            32
+          ],
+          "display_cutout": [
+            0,
+            68,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ]
+    },
+    {
+      "scene": "synthetic_landscape-light-alert",
+      "background": "synthetic_landscape",
+      "theme": "light",
+      "carrier": "alert",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/235707c44b165a39-synthetic_landscape-light-alert-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 65435889,
+        "placement_attributes": {
+          "width": 658,
+          "height": 356,
+          "x": 46,
+          "y": 429,
+          "gravity": 51,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "captured_surface_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "view_screen_origin_px": [
+          46,
+          509
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          658,
+          356
+        ],
+        "view_size_px": [
+          658,
+          356
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "status_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "display_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ]
+    },
+    {
+      "scene": "fine_grid-dark-share_sheet",
+      "background": "fine_grid",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/e0c60f921501369b-fine_grid-dark-share_sheet-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 116339828,
+        "placement_attributes": {
+          "width": -1,
+          "height": -1,
+          "x": 0,
+          "y": 0,
+          "gravity": 17,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "captured_surface_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "view_screen_origin_px": [
+          0,
+          0
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          750,
+          1334
+        ],
+        "view_size_px": [
+          750,
+          1334
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "status_bars": [
+            0,
+            80,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            32
+          ],
+          "display_cutout": [
+            0,
+            68,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ]
+    },
+    {
+      "scene": "fine_grid-dark-alert",
+      "background": "fine_grid",
+      "theme": "dark",
+      "carrier": "alert",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/48bf8ebbc6c83636-fine_grid-dark-alert-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 130881333,
+        "placement_attributes": {
+          "width": 658,
+          "height": 356,
+          "x": 46,
+          "y": 429,
+          "gravity": 51,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "captured_surface_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "view_screen_origin_px": [
+          46,
+          509
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          658,
+          356
+        ],
+        "view_size_px": [
+          658,
+          356
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "status_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "display_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ]
+    },
+    {
+      "scene": "color_stripes-dark-share_sheet",
+      "background": "color_stripes",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/a0e82a85f74bdd87-color_stripes-dark-share_sheet-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 111188695,
+        "placement_attributes": {
+          "width": -1,
+          "height": -1,
+          "x": 0,
+          "y": 0,
+          "gravity": 17,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "captured_surface_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "view_screen_origin_px": [
+          0,
+          0
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          750,
+          1334
+        ],
+        "view_size_px": [
+          750,
+          1334
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "status_bars": [
+            0,
+            80,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            32
+          ],
+          "display_cutout": [
+            0,
+            68,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ]
+    },
+    {
+      "scene": "color_stripes-dark-alert",
+      "background": "color_stripes",
+      "theme": "dark",
+      "carrier": "alert",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/b549fc0780d28be2-color_stripes-dark-alert-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 241026697,
+        "placement_attributes": {
+          "width": 658,
+          "height": 356,
+          "x": 46,
+          "y": 429,
+          "gravity": 51,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "captured_surface_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "view_screen_origin_px": [
+          46,
+          509
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          658,
+          356
+        ],
+        "view_size_px": [
+          658,
+          356
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "status_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "display_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ]
+    },
+    {
+      "scene": "tonal_blocks-dark-share_sheet",
+      "background": "tonal_blocks",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/1df5d4576c1f88b2-tonal_blocks-dark-share_sheet-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 76790888,
+        "placement_attributes": {
+          "width": -1,
+          "height": -1,
+          "x": 0,
+          "y": 0,
+          "gravity": 17,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "captured_surface_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "view_screen_origin_px": [
+          0,
+          0
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          750,
+          1334
+        ],
+        "view_size_px": [
+          750,
+          1334
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "status_bars": [
+            0,
+            80,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            32
+          ],
+          "display_cutout": [
+            0,
+            68,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ]
+    },
+    {
+      "scene": "tonal_blocks-dark-alert",
+      "background": "tonal_blocks",
+      "theme": "dark",
+      "carrier": "alert",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/1dd3b5bfe700f284-tonal_blocks-dark-alert-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 207922077,
+        "placement_attributes": {
+          "width": 658,
+          "height": 356,
+          "x": 46,
+          "y": 429,
+          "gravity": 51,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "captured_surface_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "view_screen_origin_px": [
+          46,
+          509
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          658,
+          356
+        ],
+        "view_size_px": [
+          658,
+          356
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "status_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "display_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ]
+    },
+    {
+      "scene": "synthetic_landscape-dark-share_sheet",
+      "background": "synthetic_landscape",
+      "theme": "dark",
+      "carrier": "share_sheet",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/7421bbd72c5de271-synthetic_landscape-dark-share_sheet-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 102475562,
+        "placement_attributes": {
+          "width": -1,
+          "height": -1,
+          "x": 0,
+          "y": 0,
+          "gravity": 17,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_origin_px": [
+          0,
+          0
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "captured_surface_screen_rect_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "view_screen_origin_px": [
+          0,
+          0
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          750,
+          1334
+        ],
+        "view_size_px": [
+          750,
+          1334
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            80,
+            0,
+            32
+          ],
+          "status_bars": [
+            0,
+            80,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            32
+          ],
+          "display_cutout": [
+            0,
+            68,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ]
+    },
+    {
+      "scene": "synthetic_landscape-dark-alert",
+      "background": "synthetic_landscape",
+      "theme": "dark",
+      "carrier": "alert",
+      "phase": "rest",
+      "published": "docs/evidence/panels-lateral-20261115/inputs/c74d378c8f41985b-synthetic_landscape-dark-alert-rest-window-component.png",
+      "window_source": "dialog",
+      "window_geometry": {
+        "window_identity": 3141847,
+        "placement_attributes": {
+          "width": 658,
+          "height": 356,
+          "x": 46,
+          "y": 429,
+          "gravity": 51,
+          "horizontal_margin": 0,
+          "vertical_margin": 0
+        },
+        "window_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_screen_origin_px": [
+          46,
+          509
+        ],
+        "root_window_origin_px": [
+          0,
+          0
+        ],
+        "root_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "captured_surface_screen_rect_px": [
+          46,
+          509,
+          704,
+          865
+        ],
+        "view_screen_origin_px": [
+          46,
+          509
+        ],
+        "view_window_origin_px": [
+          0,
+          0
+        ],
+        "root_size_px": [
+          658,
+          356
+        ],
+        "view_size_px": [
+          658,
+          356
+        ],
+        "current_window_metrics_bounds_px": [
+          0,
+          0,
+          750,
+          1334
+        ],
+        "root_window_insets_px": {
+          "system_bars_and_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "system_bars_and_cutout_ignoring_visibility": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "status_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "navigation_bars": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "display_cutout": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "ime": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "origin_policy": "observed root screen minus root in-window location; no status-bar origin assumed"
+      },
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ]
+    }
+  ],
+  "app_page": "docs/evidence/panels-lateral-20261115/inputs/9ec9d7df0d088680-add-table-initial-component.png",
+  "inputs": [
+    {
+      "role": "harmonic/native",
+      "original_sha256": "06bfae97ec012fd100c67c4ed31d23d8e38fd444544a23b1369b045e7af8f4b3",
+      "original_bytes": 267597,
+      "crop_box_px": [
+        55,
+        515,
+        695,
+        859
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/06bfae97ec012fd1-FCE33B1A-8D26-460D-A148-5911467B4F8E-component.png"
+    },
+    {
+      "role": "harmonic/baseline",
+      "original_sha256": "3e4eb69356808eca6a80c79c79575abfa04f2830c6daa19e7d76f832c00ff1b4",
+      "original_bytes": 83509,
+      "crop_box_px": [
+        55,
+        515,
+        695,
+        859
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/3e4eb69356808eca-color_stripes-light-alert-rest-screen-component.png"
+    },
+    {
+      "role": "harmonic/gain0025",
+      "original_sha256": "058d04624db6bdfcfcaf146647ae05ad0ac79223a885ee5c7f010018190df2e2",
+      "original_bytes": 81940,
+      "crop_box_px": [
+        55,
+        515,
+        695,
+        859
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/058d04624db6bdfc-color_stripes-light-alert-rest-screen-component.png"
+    },
+    {
+      "role": "harmonic/gain045",
+      "original_sha256": "7f611611aa60d758029cd26c120687ebe233134c60b461f2c66e6ee0d2c5d133",
+      "original_bytes": 89788,
+      "crop_box_px": [
+        55,
+        515,
+        695,
+        859
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/7f611611aa60d758-color_stripes-light-alert-rest-screen-component.png"
+    },
+    {
+      "role": "stripe/native",
+      "original_sha256": "06bfae97ec012fd100c67c4ed31d23d8e38fd444544a23b1369b045e7af8f4b3",
+      "original_bytes": 267597,
+      "crop_box_px": [
+        55,
+        515,
+        695,
+        859
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/06bfae97ec012fd1-FCE33B1A-8D26-460D-A148-5911467B4F8E-component.png"
+    },
+    {
+      "role": "stripe/screen_png",
+      "original_sha256": "3e4eb69356808eca6a80c79c79575abfa04f2830c6daa19e7d76f832c00ff1b4",
+      "original_bytes": 83509,
+      "crop_box_px": [
+        55,
+        515,
+        695,
+        859
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/3e4eb69356808eca-color_stripes-light-alert-rest-screen-component.png"
+    },
+    {
+      "role": "stripe/window_png",
+      "original_sha256": "67799aaa839cfd3d8643c34be8f7c270b130234fe3dd877d08fe8a8f6c121492",
+      "original_bytes": 66357,
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/67799aaa839cfd3d-color_stripes-light-alert-rest-window-component.png"
+    },
+    {
+      "role": "stripe/native_source",
+      "original_sha256": "be768f215b3818c5c276f3fa136bc8c67409aab57f9046795730c801a3412b93",
+      "original_bytes": 69156,
+      "crop_box_px": [
+        0,
+        0,
+        750,
+        1334
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/be768f215b3818c5-background-input-component.png"
+    },
+    {
+      "role": "gain045/fine_grid-light-share_sheet",
+      "original_sha256": "ccdd17d385405cbb110d1a85f12264c5952bd4bb88d82d3fad694f38336ed019",
+      "original_bytes": 65639,
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/ccdd17d385405cbb-fine_grid-light-share_sheet-rest-window-component.png"
+    },
+    {
+      "role": "gain045/fine_grid-light-alert",
+      "original_sha256": "5f18d1fffb45f7a19ede6bd83e56b21d6cbc63bd7647bd4e84f1c84021083d2e",
+      "original_bytes": 53807,
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/5f18d1fffb45f7a1-fine_grid-light-alert-rest-window-component.png"
+    },
+    {
+      "role": "gain045/color_stripes-light-share_sheet",
+      "original_sha256": "105c13ea1bd1b72be121a28cbfe3bdf677a53fc9f44287df22e821ced4ca332f",
+      "original_bytes": 93785,
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/105c13ea1bd1b72b-color_stripes-light-share_sheet-rest-window-component.png"
+    },
+    {
+      "role": "gain045/color_stripes-light-alert",
+      "original_sha256": "273b47b4c9ca7aebf03f2cdd090d31e49ab96668ad4cf28994b095e91c028778",
+      "original_bytes": 74800,
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/273b47b4c9ca7aeb-color_stripes-light-alert-rest-window-component.png"
+    },
+    {
+      "role": "gain045/tonal_blocks-light-share_sheet",
+      "original_sha256": "14043ee8e7e5dabb01e7b3cc9e934fb6ac150f9b54750756c2f83a1de9c8956f",
+      "original_bytes": 75947,
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/14043ee8e7e5dabb-tonal_blocks-light-share_sheet-rest-window-component.png"
+    },
+    {
+      "role": "gain045/tonal_blocks-light-alert",
+      "original_sha256": "fce68373f170a76e6dc165832fe380d5ea08f2a1bdbfcd89a77c32a0facf7c00",
+      "original_bytes": 48804,
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/fce68373f170a76e-tonal_blocks-light-alert-rest-window-component.png"
+    },
+    {
+      "role": "gain045/synthetic_landscape-light-share_sheet",
+      "original_sha256": "382e2806ce0d02abbe67c9bf9bba21328db7ff35450486ac7c97c1ca82ae98d2",
+      "original_bytes": 181228,
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/382e2806ce0d02ab-synthetic_landscape-light-share_sheet-rest-window-component.png"
+    },
+    {
+      "role": "gain045/synthetic_landscape-light-alert",
+      "original_sha256": "235707c44b165a39c31f3439ad54b97a2a48ac4646dba51c050efb5fc1450099",
+      "original_bytes": 68003,
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/235707c44b165a39-synthetic_landscape-light-alert-rest-window-component.png"
+    },
+    {
+      "role": "gain045/fine_grid-dark-share_sheet",
+      "original_sha256": "e0c60f921501369bbf0594d681f8b6a3c5708fe70bfa68e3b7387fb0672e8c56",
+      "original_bytes": 52776,
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/e0c60f921501369b-fine_grid-dark-share_sheet-rest-window-component.png"
+    },
+    {
+      "role": "gain045/fine_grid-dark-alert",
+      "original_sha256": "48bf8ebbc6c8363664cb96ab89a221617e1e866c958fd792da77b27e9286141b",
+      "original_bytes": 32583,
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/48bf8ebbc6c83636-fine_grid-dark-alert-rest-window-component.png"
+    },
+    {
+      "role": "gain045/color_stripes-dark-share_sheet",
+      "original_sha256": "a0e82a85f74bdd87bd22ff43fc206f072bae2a2b3b66e63a69e8c0cb6206b89d",
+      "original_bytes": 86642,
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/a0e82a85f74bdd87-color_stripes-dark-share_sheet-rest-window-component.png"
+    },
+    {
+      "role": "gain045/color_stripes-dark-alert",
+      "original_sha256": "b549fc0780d28be2e710f0a5f90af6bb6c80ff921f8b87575e4be27d6f832228",
+      "original_bytes": 70434,
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/b549fc0780d28be2-color_stripes-dark-alert-rest-window-component.png"
+    },
+    {
+      "role": "gain045/tonal_blocks-dark-share_sheet",
+      "original_sha256": "1df5d4576c1f88b27bec815e9a91bce539cf8551e62edd08f064a01efa0a3118",
+      "original_bytes": 71578,
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/1df5d4576c1f88b2-tonal_blocks-dark-share_sheet-rest-window-component.png"
+    },
+    {
+      "role": "gain045/tonal_blocks-dark-alert",
+      "original_sha256": "1dd3b5bfe700f2843d37fc2981223f89743b2d49021c77b7794361759ba1601f",
+      "original_bytes": 54289,
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/1dd3b5bfe700f284-tonal_blocks-dark-alert-rest-window-component.png"
+    },
+    {
+      "role": "gain045/synthetic_landscape-dark-share_sheet",
+      "original_sha256": "7421bbd72c5de271b66e767a8daeceee9ee7eef0765192a3b8abdca8da2f1046",
+      "original_bytes": 138600,
+      "crop_box_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/7421bbd72c5de271-synthetic_landscape-dark-share_sheet-rest-window-component.png"
+    },
+    {
+      "role": "gain045/synthetic_landscape-dark-alert",
+      "original_sha256": "c74d378c8f41985b3896f234a1f170ecc65f87d2d0c679d96b66d8279d1891e6",
+      "original_bytes": 57143,
+      "crop_box_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/c74d378c8f41985b-synthetic_landscape-dark-alert-rest-window-component.png"
+    },
+    {
+      "role": "application/add-table-initial",
+      "original_sha256": "9ec9d7df0d088680e8ef387c12de7fdf6580c64448ac9e222d000eae73fea29e",
+      "original_bytes": 290589,
+      "crop_box_px": [
+        0,
+        120,
+        1216,
+        1410
+      ],
+      "published": "docs/evidence/panels-lateral-20261115/inputs/9ec9d7df0d088680-add-table-initial-component.png"
+    }
+  ],
+  "limits": [
+    "Original phone screenshots and UI XML remain outside the public repository.",
+    "Component crops preserve original retained pixels but do not reconstruct the full capture or its encoding.",
+    "Frozen source-index paths and hashes describe omitted originals; no raw AX phone export is supplied."
+  ]
+}

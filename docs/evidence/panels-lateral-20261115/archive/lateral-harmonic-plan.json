@@ -1,0 +1,39 @@
+{
+  "method": "Supplementary first-harmonic image diagnostic, not replacement for frozen contour identifiability or a native fit",
+  "input_split": "existing color_stripes light Alert calibration only",
+  "frequency_px": 216,
+  "x_windows_px": {
+    "left": [
+      150,
+      300
+    ],
+    "right": [
+      450,
+      600
+    ]
+  },
+  "reference_y_px": [
+    700,
+    718
+  ],
+  "rows_px": [
+    520,
+    530,
+    540,
+    550,
+    560,
+    700,
+    710,
+    832,
+    842,
+    852
+  ],
+  "operation": "Least squares [1,cos(2pi*x/216),sin(2pi*x/216)] per RGB channel per row. Complex sum of each RGB harmonic times conjugate of reference harmonic, phase converted to apparent horizontal pixels. Preserve channel phases/spread and fit residuals; do not interpret as source-point correspondence.",
+  "limits": [
+    "finite partial period and nonuniform tone/blur can bias phase",
+    "top/bottom curved masks and source folds may contaminate this descriptive measure",
+    "foreground outside the selected rows is not evaluated",
+    "not an acceptance threshold; all rows retained, no threshold tuning",
+    "only existing calibration, no holdout read"
+  ]
+}

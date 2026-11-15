@@ -1,0 +1,491 @@
+{
+  "schema": 1,
+  "scope": "new lateral supplement only; old panel publication and root runtime manifests remain separately owned",
+  "files": [
+    {
+      "path": "docs/evidence/panels-lateral-20261115/README.md",
+      "sha256": "661ecda3768d9616efa336bd92b7050364ec80e9552c8daef8b30c19ac667513",
+      "bytes": 3996
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/app-validation/jvm/TEST-com.lingion.sleepy.ui.component.DatePickerFocusTransitionTest.xml",
+      "sha256": "18726668493f22c3e9ae634480f5679de4f0478b2e4d154b8bd773959ec770dc",
+      "bytes": 60969
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/app-validation/jvm/TEST-com.lingion.sleepy.ui.component.DatePickerTransparencyTest.xml",
+      "sha256": "d9eb3767bd410541a287d4895acfc2cb00bd2d6eab5b8c0e605b0ce4330a8295",
+      "bytes": 1316
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/app-validation/jvm/TEST-com.lingion.sleepy.ui.component.liquidglass.GlassButtonsTest.xml",
+      "sha256": "247d15750072091cc7387fd74def9f4554a347f47d6febb9dc25456fb8230685",
+      "bytes": 1388
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/app-validation/source/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/GlassStandaloneButtonLayoutTest.kt",
+      "sha256": "d63357c7f070249ada344f33d9b44e3b87854c0cbe2e1a361dfed27ebc6276e1",
+      "bytes": 8716
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/app-validation/source/app/src/test/java/com/lingion/sleepy/ui/component/DatePickerFocusTransitionTest.kt",
+      "sha256": "1b3d89b3ccfcdd997c70ababf71d8521cb7be80e6ec70eb053ab3da999342a01",
+      "bytes": 9589
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/app-validation/source/app/src/test/java/com/lingion/sleepy/ui/component/DatePickerTransparencyTest.kt",
+      "sha256": "ad22ee534df830f46a651f36c709ddd43f4a3bb7846b5db26fee1215c75a343d",
+      "bytes": 12655
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/app-validation/source/app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/GlassButtonsTest.kt",
+      "sha256": "5c9fa4020945b751a9d27208e15e5dc3f37009e58ed6f7fb60ade1ca560f239f",
+      "bytes": 18219
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/app-validation/source/app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/GlassPressMotionTest.kt",
+      "sha256": "1792f357a29e4e118dfbffa0f41db987bb2ac1bd065828a9a8060619b6d8f3bf",
+      "bytes": 2777
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/app-validation/source/app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShaderContractTest.kt",
+      "sha256": "209999b8b55972c4805939852102d80050e541699acad0f6aef6120bed05b03b",
+      "bytes": 66023
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/app-validation/source/app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyleReferenceTest.kt",
+      "sha256": "c77a4620bd71ea1de4eff70bcfe98ed0700ee9d28b5353299d761bf6d5325972",
+      "bytes": 22088
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/README.md",
+      "sha256": "cd03f4e3ffade226831e8670522e8d768b5a87aa09d774b8943e3ade76a77b93",
+      "bytes": 1964
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/analysis-plan.json",
+      "sha256": "ee56e7a1ec61b415379a6689c40a412477e26b61a05b8c20dbc1926886a30f21",
+      "bytes": 16205
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/analysis.py",
+      "sha256": "4182b26a2f7c1d5f0e32c74981bc9c91bb81aae85e1280e4336ab4ea420ead64",
+      "bytes": 47550
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/capture-handoff.schema.json",
+      "sha256": "cce44bb099f39069cfe75a235fd1121dbb2f536fb9d3408f5d2f3697518c4952",
+      "bytes": 5866
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/implementation-development-log.json",
+      "sha256": "8ab1f9b23b5adaaaa66d9793ed902848862d3faa0b531cdfdda07f043bfb843a",
+      "bytes": 774
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/implementation-freeze.json",
+      "sha256": "8b3deaca28c66c8527528f13664abd00042fba958b12e7c2d91c01e5d1056a54",
+      "bytes": 2112
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/implementation-status.md",
+      "sha256": "f39d31a7154468466144e1918c6d138d6dabb9b48f1aef90d29cfdc8eb4b2480",
+      "bytes": 4602
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/preparation-freeze.json",
+      "sha256": "d2be0ddd7a5af3a9f01783d2068601a79ce65c0151f07a84e83dcabc260764ad",
+      "bytes": 531
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/receipt-contract-requirements.json",
+      "sha256": "a5ce57fecc615a7c66df9f11720d2661b0dd7000d694fbc18a9534fb919c7783",
+      "bytes": 3708
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/synthetic-results.json",
+      "sha256": "58c3bae0d5760d37e4d222a690e9e3b8ef0ac5f2c26f7ab7a867f99e96a5f6b2",
+      "bytes": 12370
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/synthetic_checks.py",
+      "sha256": "bf217ae139b0c81c18811149cc9ecd72460cc467d949901a75c717b06907043e",
+      "bytes": 20211
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/INTERPRETATION.md",
+      "sha256": "bb5bfa5616afec1c264815c0cb98c891d8ea11740793db2459906a4817ae15eb",
+      "bytes": 1720
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/PLAN.md",
+      "sha256": "61abddb7f815950983f5b711c55abeb811d3c517ed7176fd7ba997fd96232bf7",
+      "bytes": 3708
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/RESULTS.md",
+      "sha256": "1444d458eb777f64d2ae18949bed6048ce429806b12b568c870f88217c1cfe61",
+      "bytes": 2099
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/analysis.json",
+      "sha256": "52e6767d5e266cd61b4fe0de7ba9a40a6103e37a278d2123e998c41a11ac2f27",
+      "bytes": 200558
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/analyze_fixed_alert.py",
+      "sha256": "f64b65aaf84656bbf29ab7c9c56ad7369da36ee7732054704aaead68a85a1c66",
+      "bytes": 16716
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/apparent-contours.png",
+      "sha256": "b661818cbfc58410a3e786fe53674f7ccd67e9405c6b002c0f1784bf0264a84e",
+      "bytes": 122414
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/contours.csv",
+      "sha256": "daf136e69dc975fb25d7ec345f741766e6d1de66215bb54e301900582f29e632",
+      "bytes": 1415167
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/decision-summary.json",
+      "sha256": "9a8abdb7796148016631939761d7c7ae6d69b65bdff0333015f8479bade80eb9",
+      "bytes": 9426
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/execution-predecode-freeze.json",
+      "sha256": "447bf4f5651bbcf24356f67f5109336f4380e9dedf66fc322aed88b9cff9413d",
+      "bytes": 552
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/execution-result.json",
+      "sha256": "949a0cce90972ee65d15779352909ae40fe47df9d1641eb2d301d3067c71f4de",
+      "bytes": 773
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/execution-stdout.json",
+      "sha256": "bdeaf3d5bf91224e29b28597fa8e279390987015354a53d5c181a5139a976c04",
+      "bytes": 45383
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/plan-freeze.json",
+      "sha256": "cd7d5bb434176540894b251c84b0f1381d143552195c9a4e0dae088ac2f099e3",
+      "bytes": 982
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/prepare_metadata.py",
+      "sha256": "ed27845de1a299aadfc79b0183b1b8c0afe22fc3c66d716037942c64f98a4851",
+      "bytes": 8537
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/rows.jsonl.gz",
+      "sha256": "669f57d246c2881410008d10d88bb4b66d9dc8123d0d1a6022574f589fdf1133",
+      "bytes": 3608461
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/small-original-comparison.png",
+      "sha256": "4dec95152d1a2ac507111dbd04dec369e7622a515614b969a9824a63e65f230e",
+      "bytes": 169573
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/analysis-stripe-curvature-20261115/source-index.json",
+      "sha256": "61efd373337f5fa68439345418d8acb442c5338dbdd74cb1a1cb91d7f7958bed",
+      "bytes": 214331
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/button-layout-device.log",
+      "sha256": "00ada00033c1e94e4314589810aeb0158b429848bba11aee49d57c841954e935",
+      "bytes": 7243
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/button-layout-fixed-device.log",
+      "sha256": "e5ddc3559f9bdbd0ba72e42a2817c540b3de064395d632cad977eb95facb2e4c",
+      "bytes": 2398
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/buttons-datepicker-regression-result.json",
+      "sha256": "1ccae49b4a9726e2c4114f52b7817a4e69f31bf2c78cf85e871d6f29b6fa001f",
+      "bytes": 1165
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/buttons-datepicker-regression.log",
+      "sha256": "59a0ccc6ca6c14e50ef27aab5877c684e622bad2aa4a27be79a340e068932bfd",
+      "bytes": 4999
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/lateral-buttons-build-result.json",
+      "sha256": "fd262ab479952d701147b0326a9dbd8e819e8e2e8f0672a700c6872df939fdbd",
+      "bytes": 8116
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/lateral-harmonic-plan.json",
+      "sha256": "7fac642430d46848144ab5a64ee8fb6d8248ab80be9ddd5e07a29d2afcdec8eb",
+      "bytes": 1160
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/lateral-harmonic-results.json",
+      "sha256": "aadf56482a3149ac59195418062ae4d36e62047245f88ff466186fba07c6264e",
+      "bytes": 19210
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/lateral-sampling-results/baseline-deltas.json",
+      "sha256": "5800cfa365182fefd2d868ac98c8b8f5a1e69042a3c2daa6a23e66af0d582250",
+      "bytes": 3862
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/lateral-sampling-results/harmonic-results.json",
+      "sha256": "c3b6c83797587144efb02d0229e9c903fc32ce27c89a20f1d136c812a3c5541f",
+      "bytes": 26237
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/lateral0025-plan.json",
+      "sha256": "e33898065009eaaf0522dfe05a4d879c98ce3f251f2e86819e604c829ac15a1f",
+      "bytes": 1335
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/lateral045-buttons-build-result.json",
+      "sha256": "60bd9e8e1d7e5a249f351d4e485f513a39d49aabbfeead986b8afd0b2e010234",
+      "bytes": 8497
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/lateral045-buttons-build.log",
+      "sha256": "904c22230be311780da738c941395c40752dc87f89dfed220813db6bd0b2000e",
+      "bytes": 8961
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/lateral045-plan.json",
+      "sha256": "b99ae119c7d6d68d45fb46e7d2026752de2fdc83abc811dd73fec6453b35a9d4",
+      "bytes": 1773
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/panels-lateral0025-20261115/capture-result.json",
+      "sha256": "0a11d4af1af38d8c11ab5efcc2ebb1011b33964b9a51b67c2bba21b7e51c4686",
+      "bytes": 197
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/panels-lateral0025-20261115/matrix.json.gz",
+      "sha256": "1a565fe7ef42a8acd04e57d5c71513069e176c468fbe82cf0449b57b4abae30d",
+      "bytes": 137974
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/panels-lateral0025-20261115/plan.json",
+      "sha256": "a1e3c14f1a72fa6d1f72108a7b82c8fdf869fd7f7bd334f0505d9ee9fafe9e9b",
+      "bytes": 19258
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/panels-lateral045-20261115/capture-result.json",
+      "sha256": "bbec316710fbab0fcb37bcaa7e2e78c2dca42fb42c0896fb24a413c842fbd6b1",
+      "bytes": 197
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/panels-lateral045-20261115/display-before.json",
+      "sha256": "a83d0bdfdc0a2ccbe1958c4f1502910f4a5c0e821d3c1cf361b3040d67cd913b",
+      "bytes": 102
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/panels-lateral045-20261115/display-restored.json",
+      "sha256": "24b68e607705030754d2b6fef847c45bb3622f9e37dc52f015c8a57b4203200a",
+      "bytes": 564
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/panels-lateral045-20261115/matrix.json.gz",
+      "sha256": "05ab54fc649b2734b13716ba0f2188dd362912988855e8ac1ba35e88bf658a97",
+      "bytes": 137671
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/panels-lateral045-20261115/optical-metrics.csv.gz",
+      "sha256": "5e0a02051ce721c877b2d4d83a619995ab6881bc8b24f20fec5e17ebdcb0b221",
+      "bytes": 27176
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/archive/panels-lateral045-20261115/plan.json",
+      "sha256": "962cb5c4663a99f7765bbbddf2e3bac4320ff6fa78215efd98c36881e51e7912",
+      "bytes": 19260
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/figure-processing.json",
+      "sha256": "ffd0b287106bea7c76ad5a9833c54db2158e8ae6c1a84ac951efa5f14fb9677b",
+      "bytes": 8736
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/058d04624db6bdfc-color_stripes-light-alert-rest-screen-component.png",
+      "sha256": "2117709c7d5251b4c7868ab9e5646eabb84c3dbbed1ccae8d2e1501edb85f91f",
+      "bytes": 60644
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/06bfae97ec012fd1-FCE33B1A-8D26-460D-A148-5911467B4F8E-component.png",
+      "sha256": "37445d9d26a5bbe409740948f2f779c6496410a94f09589270f0baade49da5d3",
+      "bytes": 104149
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/105c13ea1bd1b72b-color_stripes-light-share_sheet-rest-window-component.png",
+      "sha256": "aa45001760ad182fba5e72b98759815eeb438e3d2154968884c3cc5f0638f6c3",
+      "bytes": 86349
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/14043ee8e7e5dabb-tonal_blocks-light-share_sheet-rest-window-component.png",
+      "sha256": "b819df85b8109f0f5c1576544a5734896928ffe901c80af2e39a5241be43cf9d",
+      "bytes": 67082
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/1dd3b5bfe700f284-tonal_blocks-dark-alert-rest-window-component.png",
+      "sha256": "f719d8f47eeea26b8be95a2181df8e16d847331a541b17b9b435a6395d3b5b21",
+      "bytes": 50190
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/1df5d4576c1f88b2-tonal_blocks-dark-share_sheet-rest-window-component.png",
+      "sha256": "04ec4eedb965b6c82b041d1c7d72a70a899c023c83a0dd10020f13f8aa5564e6",
+      "bytes": 63021
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/235707c44b165a39-synthetic_landscape-light-alert-rest-window-component.png",
+      "sha256": "4d9593189c66ae6e0123bdac9e45a41c64410bbea40eec22e1662782e82d9336",
+      "bytes": 64107
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/273b47b4c9ca7aeb-color_stripes-light-alert-rest-window-component.png",
+      "sha256": "e019b9a3d3f752105150b9a75fae0419c94acd8e7a9f93bf95c0c86015a35bf6",
+      "bytes": 73623
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/382e2806ce0d02ab-synthetic_landscape-light-share_sheet-rest-window-component.png",
+      "sha256": "f4a7af123969b6072a117ad0610cb3826f79ed7c94cc350ffe680cdb06597419",
+      "bytes": 169087
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/3e4eb69356808eca-color_stripes-light-alert-rest-screen-component.png",
+      "sha256": "70178fc667ca5852b87066e37b8f4c0850b6c3026599ad288643441d1a2c81d2",
+      "bytes": 59771
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/48bf8ebbc6c83636-fine_grid-dark-alert-rest-window-component.png",
+      "sha256": "6a00a98adfeb7fdfad64c8f5acf47f15fdb655df8c6be9c6287efd8f0a0f9899",
+      "bytes": 29543
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/5f18d1fffb45f7a1-fine_grid-light-alert-rest-window-component.png",
+      "sha256": "a835739f1090fadc16ddb3d25c41184da73711aa817895f087d90ca9713fcecd",
+      "bytes": 49567
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/67799aaa839cfd3d-color_stripes-light-alert-rest-window-component.png",
+      "sha256": "57299a7a72f06eb8ebf1f3defd06924e2254cd9b19f2bbc41aa0c1ad2491b4da",
+      "bytes": 64926
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/7421bbd72c5de271-synthetic_landscape-dark-share_sheet-rest-window-component.png",
+      "sha256": "0354c975ea8d1e8fe67b83fad51937b2b533915e7ec2577c7af80d68ce290b1d",
+      "bytes": 126995
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/7f611611aa60d758-color_stripes-light-alert-rest-screen-component.png",
+      "sha256": "495f6a0881fd3687b8739d3e066d3049e787d67a8640582b56e9a42322d94eaf",
+      "bytes": 67646
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/9ec9d7df0d088680-add-table-initial-component.png",
+      "sha256": "041a0b3c86144b499aad17eb73bae603240360e53eace41bedc2f306c8497532",
+      "bytes": 113149
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/a0e82a85f74bdd87-color_stripes-dark-share_sheet-rest-window-component.png",
+      "sha256": "87f1f619c30eb073448857eb0ae5980f6c0a5375dd62fbcdaccb28aede01f570",
+      "bytes": 80674
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/b549fc0780d28be2-color_stripes-dark-alert-rest-window-component.png",
+      "sha256": "70e946ce5da59bacfc7364fc489cbaae5b571dc1e519e24337f9c41483048311",
+      "bytes": 67557
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/be768f215b3818c5-background-input-component.png",
+      "sha256": "42eca5d283325d60908f6f2ee67ad593ad86e9c23b2e05951c6a3b571c9d0cb6",
+      "bytes": 6002
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/c74d378c8f41985b-synthetic_landscape-dark-alert-rest-window-component.png",
+      "sha256": "e79ea57dc525c91e664a1dce3c647c1c028b610663234e765b5e8dc24896827a",
+      "bytes": 52530
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/ccdd17d385405cbb-fine_grid-light-share_sheet-rest-window-component.png",
+      "sha256": "470e6fd36c7a8aec1d63f8ab29fa7e3830492d2d221b758a1be9e6260f1e9196",
+      "bytes": 56013
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/e0c60f921501369b-fine_grid-dark-share_sheet-rest-window-component.png",
+      "sha256": "f13cd7952f7a2d9237856cd12cf2b2663566620955405fe3939850b4b3b6b832",
+      "bytes": 44411
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/inputs/fce68373f170a76e-tonal_blocks-light-alert-rest-window-component.png",
+      "sha256": "140cfd486c3a0cb13561daeda21a6e2ad6b9d2832caeb9cb350b673a45d1b9ad",
+      "bytes": 45393
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/portable-inputs.json",
+      "sha256": "4185bf9018e867a5989cbde2e0500b13581a9536ab131f2c95ca4364eb78125e",
+      "bytes": 49020
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/render_figures.py",
+      "sha256": "7f36428c354873f773cdb49f01e0c31473d80ca5c1db455b1bf4917c49cb5902",
+      "bytes": 5400
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/sources.json",
+      "sha256": "e2f60f73cb6ddc765a439a26edbcd68b863a1e812a6b226526bf84804580d156",
+      "bytes": 55123
+    },
+    {
+      "path": "docs/evidence/panels-lateral-20261115/verify_publication.py",
+      "sha256": "dfe124b436eda13c9c7041f217f351e7aae8b6779e65b0f9f700ba88a47d8b93",
+      "bytes": 14460
+    },
+    {
+      "path": "docs/images/panels-lateral-20261115/alert-comparison.png",
+      "sha256": "673b26865566b8965b7422634a7168ff7e1092f7954c2f3c8e62f3bb53e3c76d",
+      "bytes": 265604
+    },
+    {
+      "path": "docs/images/panels-lateral-20261115/application-add-table-buttons.png",
+      "sha256": "661b4d238d7c1309fd78f7c497b79906376dfeae1ea4a5f3521b045963655c5e",
+      "bytes": 78821
+    },
+    {
+      "path": "docs/images/panels-lateral-20261115/baseline-alert-crop.png",
+      "sha256": "89fa4eceab0a0ca0f78eaf474e6041fa510f8c0651b2fc3e5e3e0239c7674aae",
+      "bytes": 59758
+    },
+    {
+      "path": "docs/images/panels-lateral-20261115/gain0025-alert-crop.png",
+      "sha256": "527055f9839bfe50c0863b3483ead2ef5e3105a227a8ffb80f04e21a5716fb41",
+      "bytes": 60631
+    },
+    {
+      "path": "docs/images/panels-lateral-20261115/gain045-alert-crop.png",
+      "sha256": "5b64a2924bf2091251d6d3889036c00028de20c69c87106a5fb6d44c3fa6cc5b",
+      "bytes": 67633
+    },
+    {
+      "path": "docs/images/panels-lateral-20261115/gain045-all-16.png",
+      "sha256": "11c5326e2196a87c8c0be444da6b322f13f89a9525951adaf35be946949f1867",
+      "bytes": 499796
+    },
+    {
+      "path": "docs/images/panels-lateral-20261115/harmonic-phase-and-fit.png",
+      "sha256": "4dd8ff845ef07d0488b501cd13fdf681992419857bc738018dfe8913191b4f41",
+      "bytes": 241798
+    },
+    {
+      "path": "docs/images/panels-lateral-20261115/native-alert-crop.png",
+      "sha256": "88f5988a73d78f50e3cf9f97c6f9762c4a2bf58443a778c1ea726b35a4add1df",
+      "bytes": 104136
+    },
+    {
+      "path": "docs/panel-lateral-sampling-study.md",
+      "sha256": "a6406b6428cd5d9f5e038664bdcd9de94ecc6e349e6fdb191a48091371ce5941",
+      "bytes": 16579
+    }
+  ]
+}

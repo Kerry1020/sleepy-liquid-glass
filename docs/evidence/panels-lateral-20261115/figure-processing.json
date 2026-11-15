@@ -1,0 +1,351 @@
+{
+  "schema": 1,
+  "harmonic_rows": 80,
+  "harmonic_smoothing": false,
+  "contact_sheets": [
+    {
+      "scene": "fine_grid-light-alert",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/5f18d1fffb45f7a1-fine_grid-light-alert-rest-window-component.png",
+      "original_window_crop_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published_input_size_px": [
+        640,
+        344
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        296,
+        159
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "fine_grid-light-share_sheet",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/ccdd17d385405cbb-fine_grid-light-share_sheet-rest-window-component.png",
+      "original_window_crop_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published_input_size_px": [
+        718,
+        683
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        294,
+        280
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "fine_grid-dark-alert",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/48bf8ebbc6c83636-fine_grid-dark-alert-rest-window-component.png",
+      "original_window_crop_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published_input_size_px": [
+        640,
+        344
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        296,
+        159
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "fine_grid-dark-share_sheet",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/e0c60f921501369b-fine_grid-dark-share_sheet-rest-window-component.png",
+      "original_window_crop_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published_input_size_px": [
+        718,
+        683
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        294,
+        280
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "color_stripes-light-alert",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/273b47b4c9ca7aeb-color_stripes-light-alert-rest-window-component.png",
+      "original_window_crop_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published_input_size_px": [
+        640,
+        344
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        296,
+        159
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "color_stripes-light-share_sheet",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/105c13ea1bd1b72b-color_stripes-light-share_sheet-rest-window-component.png",
+      "original_window_crop_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published_input_size_px": [
+        718,
+        683
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        294,
+        280
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "color_stripes-dark-alert",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/b549fc0780d28be2-color_stripes-dark-alert-rest-window-component.png",
+      "original_window_crop_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published_input_size_px": [
+        640,
+        344
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        296,
+        159
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "color_stripes-dark-share_sheet",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/a0e82a85f74bdd87-color_stripes-dark-share_sheet-rest-window-component.png",
+      "original_window_crop_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published_input_size_px": [
+        718,
+        683
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        294,
+        280
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "tonal_blocks-light-alert",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/fce68373f170a76e-tonal_blocks-light-alert-rest-window-component.png",
+      "original_window_crop_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published_input_size_px": [
+        640,
+        344
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        296,
+        159
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "tonal_blocks-light-share_sheet",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/14043ee8e7e5dabb-tonal_blocks-light-share_sheet-rest-window-component.png",
+      "original_window_crop_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published_input_size_px": [
+        718,
+        683
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        294,
+        280
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "tonal_blocks-dark-alert",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/1dd3b5bfe700f284-tonal_blocks-dark-alert-rest-window-component.png",
+      "original_window_crop_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published_input_size_px": [
+        640,
+        344
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        296,
+        159
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "tonal_blocks-dark-share_sheet",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/1df5d4576c1f88b2-tonal_blocks-dark-share_sheet-rest-window-component.png",
+      "original_window_crop_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published_input_size_px": [
+        718,
+        683
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        294,
+        280
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "synthetic_landscape-light-alert",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/235707c44b165a39-synthetic_landscape-light-alert-rest-window-component.png",
+      "original_window_crop_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published_input_size_px": [
+        640,
+        344
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        296,
+        159
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "synthetic_landscape-light-share_sheet",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/382e2806ce0d02ab-synthetic_landscape-light-share_sheet-rest-window-component.png",
+      "original_window_crop_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published_input_size_px": [
+        718,
+        683
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        294,
+        280
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "synthetic_landscape-dark-alert",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/c74d378c8f41985b-synthetic_landscape-dark-alert-rest-window-component.png",
+      "original_window_crop_px": [
+        9,
+        6,
+        649,
+        350
+      ],
+      "published_input_size_px": [
+        640,
+        344
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        296,
+        159
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "synthetic_landscape-dark-share_sheet",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/7421bbd72c5de271-synthetic_landscape-dark-share_sheet-rest-window-component.png",
+      "original_window_crop_px": [
+        16,
+        635,
+        734,
+        1318
+      ],
+      "published_input_size_px": [
+        718,
+        683
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        294,
+        280
+      ],
+      "alpha_preview_background": "#F0F0F5"
+    },
+    {
+      "scene": "application-add-table",
+      "source": "docs/evidence/panels-lateral-20261115/inputs/9ec9d7df0d088680-add-table-initial-component.png",
+      "original_screenshot_crop_px": [
+        0,
+        120,
+        1216,
+        1410
+      ],
+      "published_input_size_px": [
+        1216,
+        1290
+      ],
+      "additional_crop": false,
+      "rendered_size_px": [
+        608,
+        645
+      ],
+      "scope": "Sleepy application only; not a complete public-library control"
+    }
+  ],
+  "comparison": {
+    "source": "archive/lateral-sampling-results original comparison",
+    "processing": "byte-exact copied 2x2 display of original 640x344 integer crops; no screenshot warping"
+  }
+}

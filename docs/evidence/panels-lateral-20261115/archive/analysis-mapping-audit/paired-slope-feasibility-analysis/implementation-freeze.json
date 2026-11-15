@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "status": "BOUNDED IMPLEMENTATION FROZEN — SYNTHETIC CHECKS ONLY; REAL EXPERIMENT NOT PASSED",
+  "date": "2026-11-15",
+  "files_sha256": {
+    "analysis.py": "4182b26a2f7c1d5f0e32c74981bc9c91bb81aae85e1280e4336ab4ea420ead64",
+    "synthetic_checks.py": "bf217ae139b0c81c18811149cc9ecd72460cc467d949901a75c717b06907043e",
+    "synthetic-results.json": "58c3bae0d5760d37e4d222a690e9e3b8ef0ac5f2c26f7ab7a867f99e96a5f6b2",
+    "implementation-status.md": "f39d31a7154468466144e1918c6d138d6dabb9b48f1aef90d29cfdc8eb4b2480",
+    "receipt-contract-requirements.json": "a5ce57fecc615a7c66df9f11720d2661b0dd7000d694fbc18a9534fb919c7783",
+    "implementation-development-log.json": "8ab1f9b23b5adaaaa66d9793ed902848862d3faa0b531cdfdda07f043bfb843a",
+    "analysis-plan.json": "ee56e7a1ec61b415379a6689c40a412477e26b61a05b8c20dbc1926886a30f21",
+    "capture-handoff.schema.json": "cce44bb099f39069cfe75a235fd1121dbb2f536fb9d3408f5d2f3697518c4952",
+    "README.md": "cd03f4e3ffade226831e8670522e8d768b5a87aa09d774b8943e3ade76a77b93",
+    "preparation-freeze.json": "d2be0ddd7a5af3a9f01783d2068601a79ce65c0151f07a84e83dcabc260764ad"
+  },
+  "verification": {
+    "command": "python3 synthetic_checks.py",
+    "checks": 69,
+    "passed": 69,
+    "source_and_capture_PNGs_decoded": 0,
+    "AST_parse": [
+      "analysis.py",
+      "synthetic_checks.py"
+    ]
+  },
+  "environment": {
+    "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+    "numpy": "2.0.2",
+    "Pillow": "11.3.0",
+    "platform": "macOS-26.7.1-arm64-arm-64bit"
+  },
+  "known_unresolved": [
+    "raw receipt payload contract unregistered; CLI stops before real decode",
+    "top50 independent material contrast direction unregistered; top unavailable, bilateral diagnostics independent"
+  ],
+  "original_preparation_unchanged": true,
+  "real_capture_priority": "deferred by root; no devices/build/Git/product changes",
+  "claims_disabled": [
+    "physical thickness",
+    "true blur support",
+    "unique2D map",
+    "refraction/power fit",
+    "runtime update",
+    "optical parity percentage"
+  ]
+}

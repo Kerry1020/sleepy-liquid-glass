@@ -1,0 +1,77 @@
+{
+  "sourceBaseCommit": "386d4c09a78234c4bc04507f6ef4952d856de3f4",
+  "command": "./gradlew :runtime:assemble :runtime:testAndroidHostTest :sample:assembleDebug --console=plain --max-workers=2",
+  "exitCode": 0,
+  "runtimeImportSha256": "ac03b2cbcac9d5d82852f75c4f563f31facb81ed95ef94d62d9462907efb131a",
+  "hostTestCount": 56,
+  "hostTestFailures": 0,
+  "hostTestSkipped": 0,
+  "suites": [
+    {
+      "file": "runtime/build/test-results/testAndroidHostTest/TEST-com.lingion.sleepy.ui.component.liquidglass.BackdropAppearanceHysteresisTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.BackdropAppearanceHysteresisTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "6be3861bc3e17ca7446912f7781d8c7575a7c8ae407354bb5e1e7a778fa7e097"
+    },
+    {
+      "file": "runtime/build/test-results/testAndroidHostTest/TEST-com.lingion.sleepy.ui.component.liquidglass.BackdropForegroundAtlasTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.BackdropForegroundAtlasTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "18d667229ec657f20f9e2da632c033a206a6278df6fc669bff7ad2143b7d55a1"
+    },
+    {
+      "file": "runtime/build/test-results/testAndroidHostTest/TEST-com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputBlurTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "8001796e2a31ff23ce1f2c56f872f403cf4167e26a281db43adc4d330994501b"
+    },
+    {
+      "file": "runtime/build/test-results/testAndroidHostTest/TEST-com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputGeometryTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassInputGeometryTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "de3a5f47c57ed9ef50c0c0536875eb14bb18b149ed3f81333dbd814474a78aea"
+    },
+    {
+      "file": "runtime/build/test-results/testAndroidHostTest/TEST-com.lingion.sleepy.ui.component.liquidglass.NativeDockEndpointTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.NativeDockEndpointTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "cc57cc85636d13a9a1a16cf2389b0ebefe5c52e3a160492ecdeb134482320714"
+    },
+    {
+      "file": "runtime/build/test-results/testAndroidHostTest/TEST-com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.NativeDockParentMotionTest",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "b6d3b68e5fe1d993d06df01401f6cebe491e4cc251f9938ac1228631d0148fc3"
+    },
+    {
+      "file": "runtime/build/test-results/testAndroidHostTest/TEST-com.lingion.sleepy.ui.component.liquidglass.NativeSegmentedEndpointTest.xml",
+      "name": "com.lingion.sleepy.ui.component.liquidglass.NativeSegmentedEndpointTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "3ccab7b1f6ccf5397cbd037c9258046963701f88ea9f4068cc2421e9ce8e3f8a"
+    }
+  ],
+  "buildLogSha256": "645559056095bdb4f036d9af638551d0b405c79bc60c8ba9c51f31a23ad8e7e8",
+  "scope": "Numerical/source behavior and assembly of independent public backend. Application GPU captures do not prove independent-backend optical acceptance.",
+  "buildLog": "provenance/validation-20261115-lateral-build.log"
+}

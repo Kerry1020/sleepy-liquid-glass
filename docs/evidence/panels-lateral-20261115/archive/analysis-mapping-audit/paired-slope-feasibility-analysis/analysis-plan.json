@@ -1,0 +1,272 @@
+{
+  "schema": 1,
+  "status": "PREPARATION ONLY — UNCOLLECTED / UNEXECUTED / NOT PASSED",
+  "scope": "Four unchanged paired-slope calibration sources × light × native clean NativeAlert and current Android Alert optics; separate prospective feasibility matrix, no fit",
+  "analysis_implementation_status": "Deferred after bounded plan/schema by root priority; no executable analysis frozen or run",
+  "capture_status": "Not collected; root handoff required before any new optical image decode",
+  "source_pngs": {
+    "paired_slope_alert_a20_normal": {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/probe-preparation/inputs/paired_slope_alert_a20_normal.png",
+      "sha256": "814c5a72ab91603ebe4d4b415e1aabee2b153044dc8403921c84fd1c32c84be6",
+      "a_pt": 20.0,
+      "contrast": "normal",
+      "source_RGB_sha256": "35723a1615a4dc9e84017e85d7e48da212ab04b0ff3aaa3bd54bad0bf9e14976"
+    },
+    "paired_slope_alert_a20_reversed": {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/probe-preparation/inputs/paired_slope_alert_a20_reversed.png",
+      "sha256": "6cb66865d9852ed03f9e276a7d209bad7680731b561bafc6058f5099fcd23a2e",
+      "a_pt": 20.0,
+      "contrast": "reversed",
+      "source_RGB_sha256": "40beaea2c9f45572d934b1bc3932885ac74654c4800592d6d96cce2020417f7c"
+    },
+    "paired_slope_alert_a24_normal": {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/probe-preparation/inputs/paired_slope_alert_a24_normal.png",
+      "sha256": "71082428026f435bf5763ac21b69e918c82360fdde6b1b980a1e93cae7047cde",
+      "a_pt": 24.0,
+      "contrast": "normal",
+      "source_RGB_sha256": "4ac6adf64bf67045ec824000e96a8303c7f7864f7914114f18eeca1923d9ede7"
+    },
+    "paired_slope_alert_a24_reversed": {
+      "path": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/probe-preparation/inputs/paired_slope_alert_a24_reversed.png",
+      "sha256": "c9db9acdb24e940d739fd249d687dae6aa131c509a023bfaa7d2150a739bc20d",
+      "a_pt": 24.0,
+      "contrast": "reversed",
+      "source_RGB_sha256": "9dd547df7ad34996d334f9bf6005aa55e5b83257ea0832b72640eea1dee74886"
+    }
+  },
+  "provenance": {
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/proposed-diagnostic-plan.json": "b66bfb64b0a8179b3f8392c2cef9d6288427ff9f5a867a8e0c05cf1849cb86f3",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/prepare_paired_slope_probes.py": "af2d839d26a8a1f7fe7594529d0336f6d5223a288c69845f0e63ff0acaec48e9",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/probe-preparation/oracle.json": "f0355544b1b50b5929da1bbce54fe6ed0e08b8202cf2f77887a532511fbd4a2c",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/probe-preparation/proposal-manifest.json": "f5e88a96c7ad4b470e97058e607b0deabe596c98ba114e0398928d433b0e1a28",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/probe-preparation/proposal-plan.json": "c039c7e26a789864c01be97f6372b8363e2ff5528f431f77740a6898763bdfb2",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-native-probes/local_features.py": "0d169f510cb5164c8e5e178a9bb6ef8265ecd08528ada2ae9493b87e18b3f9e2",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/panel-probes-preparation/analysis-plan.json": "4a8d7cbedb4cce07f2a95ef2f18dcdfa4f106c13e2b6abe84072a9861dbe513f",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/native-clean-analysis/decision.json": "0f5bde5188ea690bc381ac322d86f54ef2da300e1f7f10066ac90252b23b0685",
+    "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-mapping-audit/native-clean-analysis/supplemental-metadata-and-geometry.json": "acc8b2b914751794e9ba7eca8990142641452f3d7deaf8260ce25e938374c449"
+  },
+  "prior_status_preserved": "Old proposal remains labelled ineligible for its old polluted fixture; old clean-r2 overall ICC-only failure is preserved. This new prospective matrix does not rewrite either gate/result.",
+  "matrix": {
+    "selected_source_ids": [
+      "paired_slope_alert_a20_normal",
+      "paired_slope_alert_a20_reversed",
+      "paired_slope_alert_a24_normal",
+      "paired_slope_alert_a24_reversed"
+    ],
+    "platforms": [
+      "native",
+      "android"
+    ],
+    "themes": [
+      "light"
+    ],
+    "carriers": [
+      "alert"
+    ],
+    "sessions": 8,
+    "phases": [
+      "clean-before",
+      "rest",
+      "rest-repeat",
+      "dismiss-after"
+    ],
+    "expected_primary_PNGs": 32,
+    "native_AX_dumps": 16,
+    "minimum_rest_repeat_spacing_seconds": 0.25,
+    "neutral_compatibility_entries": 4,
+    "neutral_compatibility_policy": "Only loader compatibility; never acquired, decoded as observations or scored"
+  },
+  "world": {
+    "size_px": [
+      750,
+      1334
+    ],
+    "size_pt_or_dp": [
+      375,
+      667
+    ],
+    "pixels_per_unit": 2,
+    "source_origin": [
+      0,
+      0
+    ],
+    "no_registration_no_warp_no_resampling": true,
+    "source_mapping": "Require independently measured identity canvas/full source mapping for each platform. Preserve Android window and composited-display captures separately; primary is complete composited display."
+  },
+  "nominal_coordinates": {
+    "c_pt": 187.5,
+    "b_pt": 257.5,
+    "m": 0.25,
+    "a_pt": [
+      20,
+      24
+    ],
+    "source_u_half_open_pt": [
+      -64,
+      128
+    ],
+    "output_d_centers_pt": {
+      "first": 0.25,
+      "last": 19.75,
+      "step": 0.5,
+      "count": 40
+    },
+    "b_policy": "b remains fixed nominal AX top257.5. Never optimize, recenter, infer or subtract an optical contour offset. Apparent g(d) is indexed by nominal AX distance, not established physical depth."
+  },
+  "edge_supports": {
+    "left": {
+      "scan_centers_x_pt": [
+        128.25,
+        186.75,
+        0.5
+      ],
+      "start_plateau_half_open_x_pt": [
+        128,
+        136
+      ],
+      "end_plateau_half_open_x_pt": [
+        176,
+        184
+      ]
+    },
+    "right": {
+      "scan_centers_x_pt": [
+        188.25,
+        246.75,
+        0.5
+      ],
+      "start_plateau_half_open_x_pt": [
+        191,
+        199
+      ],
+      "end_plateau_half_open_x_pt": [
+        239,
+        247
+      ]
+    },
+    "reason": "Broad fixed central scans contain both nominal source sides for both widths and allow apparent movement without following peaks; each endpoint plateau contains16pixels. They do not bound native source support.",
+    "sign": "Use oracle source start→end RGB contrast direction per edge and contrast polarity, preserving all increasing10/50/90 crossing candidates; no nearest-crossing or nearest-peak choice"
+  },
+  "inherited_visibility_gates": {
+    "minimum_encoded_contrast": 8,
+    "minimum_contrast_over_robust_spread": 5,
+    "quantization_floor_counts": 1,
+    "minimum_source_color_direction_cosine": 0.7,
+    "minimum_clear_support_width_px": 12,
+    "maximum_secondary_to_primary_peak": 0.8,
+    "minimum_complete_feature_area_px": 64,
+    "minimum_contained_contrast_mass": 0.95,
+    "minimum_source_structure_tensor_eigenvalue_ratio_for_2d": 0.05,
+    "minimum_sampling_location_uncertainty_pt": 0.25,
+    "maximum_location_uncertainty_for_fine_scalar_comparison_pt": 1,
+    "parameter_acceptance_claim": false,
+    "on_failure": "not identifiable; retain all failed IDs/gates; no ROI movement, lowered gates or forced nearest match"
+  },
+  "local_feature_operator": {
+    "smoothing": "exact original Gaussian7samples, sigma1.5pixels, reflected3sample padding; sample pitch0.5pt",
+    "gradient": "numpy gradient on smoothed projected contrast at0.5pt",
+    "local_peaks": "original >=left and >right, positive; sort by amplitude only to report primary; secondary is strongest peak >3indices from primary",
+    "crossings": "All raw and smoothed10/50/90 crossing positions, signs and multiplicity retained. Exactly one at each smoothed level required. No missing-side completion.",
+    "plateau_spread": "1.4826×median absolute projected deviation for BOTH fixed endpoint plateaus; minimum encoded contrast8, contrast≥5×max(1,eachspread), cosine≥.7, secondary/primary≤.8",
+    "monotonic": "Across10..90 transition, raw projected backward step>1count fails as inherited from local_features",
+    "location_uncertainty": "0.25pt floor plus original primary derivative tie-span×0.25; >1pt fails fine scalar comparison",
+    "foreground": "Expand independently measured native AX and Android actual foreground bounds by2pt, no hand-drawn optical contour. Any scan/plateau/support intersection fails its edge; preserve full failure. The last nominal row is277.25, only0.25pt above old expanded title mask; no extension if actual content moves.",
+    "not_applicable_gates": "Whole closed-feature area/mass and structure-tensor2D gates are recorded as inapplicable to this1D paired-edge diagnostic; they do not authorize2D recovery."
+  },
+  "source_checks": {
+    "original_bytes": "Require unchanged original PNG and oracle hashes on both platforms before first decode",
+    "supports": "Same Alert core[148.5,257.5,226.5,317.5], fixed2/8/24/60pt collars and three old trigger boxes from clean-r2; compare both before and after pixel-for-pixel to source. Additional fixed scan/plateau union remains inside24pt collar.",
+    "repeat": "Entire750x1334 decoded RGBA REST/repeat strict zero independently per platform/session, no mask/crop/tolerance",
+    "context": "Entire before/after differences reported separately; retain nonzero system context. Source exactness in named regions never proves a blur-support upper bound.",
+    "native_geometry": "Actual AX Alert[27.5,257.5,347.5,429.5] and recorded foreground/public controller; retain any change relative to clean-r2. AX0.1pt/public0.01pt tolerances only cover measurement representation.",
+    "android_geometry": "Actual attached layout/localToScreen, canvas unit basis, window/display origin, content density and foreground; no assumed status-bar origin or ROI fit. Any nonidentity mapping makes direct fine comparison unresolved."
+  },
+  "color_protocol": {
+    "validate_before_decode": "PNG signature, chunk bounds/order/uniqueness, all chunk CRCs, IHDR RGB/RGBA8 geometry, alpha transparency declaration and complete IEND. Preserve all native chunks and source byte hashes.",
+    "precedence": [
+      "cICP",
+      "iCCP",
+      "sRGB",
+      "cHRM+gAMA"
+    ],
+    "supported": "Highest-precedence understood color declaration governs. Supported valid RGB ICC converts to sRGB with profile/intent hashes; legal single sRGB intent0..3 explicitly declares sRGB and permits identity normalization. Pillow ICC absence alone is not failure.",
+    "unsupported": "An unsupported higher-priority cICP or ambiguous/invalid declaration leaves normalized comparison unresolved; never silently fall back to lower-priority sRGB. gAMA/cHRM-only or unmarked files retained as raw diagnostics, not assumed sRGB.",
+    "conflicts": "Record conflicting/lower-priority chunks and nonrecommended iCCP+sRGB co-occurrence explicitly; do not strip metadata.",
+    "tracks": "Keep raw encoded RGBA and normalized-sRGB RGBA separately. Run fixed gates on each supported track; never select whichever track looks better. Missing supported color provenance remains a prospective failure.",
+    "normative_reference": "W3C PNG Third Edition §4.3/Table1 and §11.3.2.3/5/6, https://www.w3.org/TR/png/"
+  },
+  "apparent_observables": {
+    "eligible": "Only rows with BOTH original sides individually eligible; preserve all side failures otherwise",
+    "W": "R50-L50",
+    "C": "(R50+L50)/2",
+    "g": "(W-2a)/(2m), explicitly apparent under hypothetical local1D model",
+    "U": "c-C, explicitly apparent tangential shift",
+    "D": "g-d, nominal AX-coordinate descriptive residual only",
+    "uncertainties": "epsW=epsL+epsR; epsC=epsU=(epsL+epsR)/2; epsg=(epsL+epsR)/(2m), minimum1pt at m.25. Propagate source raster quantization floor; no Gaussian independence assumption.",
+    "reverse_test": "For each platform/a/d, compare normal and reversed left/right50 coordinates with summed edge uncertainty bounds; retain discrepancies and no averaging rescue.",
+    "width_test": "For each platform/contrast/d, a20/a24 apparent g and U must be compatible within sums of their propagated uncertainty bounds; disagreement falsifies the proposed local1D compatibility at that sample.",
+    "platform_comparison": "Compare eligible native/Android apparent positions/W/C/g/U and uncertainties per exact source+row; descriptive residuals only, no parity threshold or parameter selection."
+  },
+  "fixed_h4_secants": {
+    "h_pt": 4,
+    "g_prime": "[g(d+4)-g(d-4)]/8 only when both endpoints eligible; report assigned midpoint and endpoint failures otherwise",
+    "g_second": "[g(d+4)-2g(d)+g(d-4)]/16 only with center and both endpoints eligible",
+    "uncertainty": "Sum absolute endpoint bounds/8 for first; [epsplus+2epscenter+epsminus]/16 for second; floors.25 and.25/pt. No extrapolation, smoothing, filling or boundary derivatives.",
+    "labels": "fixed h4 secants of APPARENT nominal-coordinate g, never true map derivatives"
+  },
+  "apparent_top50_diagnostic": {
+    "status": "Prospective operational contour test, never a proven optical boundary/tangent",
+    "x_centers_pt": [
+      136.25,
+      144.25,
+      152.25,
+      180.25,
+      187.25,
+      194.25,
+      222.75,
+      230.75,
+      238.75
+    ],
+    "y_scan_centers_pt": [
+      241.75,
+      273.25,
+      0.5
+    ],
+    "start_plateau_half_open_y_pt": [
+      241.5,
+      247.5
+    ],
+    "end_plateau_half_open_y_pt": [
+      267.5,
+      273.5
+    ],
+    "source_condition": "These vertical lines lie in constant source regions for all four input oracles over this y support; validate analytically before capture analysis.",
+    "operator": "Same fixed contrast/spread/direction/secondary/monotonic/uniqueness/location gates as edge operator. Retain all polarity/crossing candidates and failures.",
+    "flat_compatibility": "Only if all9cross50 are individually eligible: their location-uncertainty intervals must have nonempty common intersection. Also report across-source/reverse differences without adjusting b. Failure is unresolved apparent-top flatness.",
+    "limitation": "Encoded50% material transition depends on photometry and is not a native geometric silhouette; even compatibility cannot establish real contour/tangent invariance. b remains257.5."
+  },
+  "mandatory_failures": [
+    "source/ICC/chunk/CRC/mapping inconsistency",
+    "nonzero full REST repeat",
+    "foreground/support collision",
+    "insufficient/variable plateau",
+    "weak contrast or wrong source direction",
+    "secondary peak",
+    "missing or multiple10/50/90 crossings",
+    "raw transition nonmonotonicity",
+    "location uncertainty>1pt",
+    "reverse-position disagreement",
+    "a20/a24 apparent g or U disagreement",
+    "apparent top50 unavailable/nonflat",
+    "missing phase/layout/AX/metadata"
+  ],
+  "claims_disabled": {
+    "unique_2D_mapping": false,
+    "physical_thickness": false,
+    "true_blur_source_support": false,
+    "refraction_or_power_fit": false,
+    "runtime_parameter_fit_or_product_update": false,
+    "optical_parity_or_99_99_percent": false
+  },
+  "next_step": "Finish analysis implementation and freeze its algorithm/hash before complete successful root handoff. Preparation is not a capture/result pass. No device/build/Git/product changes here."
+}

@@ -180,6 +180,8 @@ Alert 的预算归一化补光又是另一条受控路径：从原始加法结�
 
 当前测试覆盖的是特定输入和模型性质：端部函数、Dock 父运动、前景 atlas 几何和状态防抖等。[host 测试目录](../runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass) 不能证明完整控件触摸可用、所有轮廓正确或所有背景下材质等效。运动轨迹、可见轮廓和光学必须分别报告其数据源及验证范围。
 
-2026-11-15 的[导入清单](../provenance/runtime-import.json)将 38 个运行层文件绑定到 Sleepy `ddbf20e63ea39b4b202531fe427b0d5f548fe60b`，其中两份新生产文件和对应测试是上述输入模糊与栅格计算。独立构建与七类 56 项 host 测试通过，详见[验证凭据](../provenance/validation-20261115.json)。这次没有新的独立 sample 设备光学验收，完整控件适配与应用后端差异仍成立。
+2026-11-15 的[当前导入清单](../provenance/runtime-import.json)将 38 个运行层文件绑定到 Sleepy `386d4c09a78234c4bc04507f6ef4952d856de3f4`。独立构建与七类 56 项 host 测试再次通过，详见[新验证凭据](../provenance/validation-20261115-lateral.json)。较早 `ddbf20e` 阶段的[旧凭据](../provenance/validation-20261115.json)只绑定[横向取样前清单](../provenance/runtime-import-20261115-pre-lateral.json)，其中新增的两份生产文件和测试负责上述输入模糊与栅格计算。两阶段都没有新独立 sample 设备光学验收，完整控件适配与应用后端差异仍成立。
+
+当前 style 增加默认零的横向逆采样系数；Alert / Sheet 正折射预设选择 0.45，host 将有效值限制在 `[0,0.5]`，负折射分支不使用它。[面板补充报告](panel-lateral-sampling-study.md)保留这项工程场的局部改善和残差；它不是恢复的原生光学方程。应用按钮的可见本体 / 触摸目标、日期选择器路由和其 76 / 18 / 3 检查并未随 38 项 runtime 导入变成独立库完整控件。
 
 相关实验资产、输入和阶段入口见[受控光学研究](controlled-optical-studies.md)。这些研究记录用于区分模型、夹具与实际运行证据，不能替代本页的真实后端与 API 边界。

@@ -1,0 +1,100 @@
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest:
+INSTRUMENTATION_STATUS: test=glassBodyStaysSeparateFromDefaultAndFixedHeightTouchTargets
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=glassBodyStaysSeparateFromDefaultAndFixedHeightTouchTargets
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=tallButtonTouchPaddingKeepsItsLensLiftedUntilPointerRelease
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: A held pointer stays lifted after leaving the activation bounds
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest.tallButtonTouchPaddingKeepsItsLensLiftedUntilPointerRelease(GlassStandaloneButtonLayoutTest.kt:83)
+
+INSTRUMENTATION_STATUS: stream=
+Error in tallButtonTouchPaddingKeepsItsLensLiftedUntilPointerRelease(com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest):
+java.lang.AssertionError: A held pointer stays lifted after leaving the activation bounds
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest.tallButtonTouchPaddingKeepsItsLensLiftedUntilPointerRelease(GlassStandaloneButtonLayoutTest.kt:83)
+
+INSTRUMENTATION_STATUS: test=tallButtonTouchPaddingKeepsItsLensLiftedUntilPointerRelease
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=materialKeepsAccessibleTargetsAndDisabledPointerBehavior
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Actual height is 40.336132.dp, expected at least 48.0.dp (tolerance: 0.5.dp)
+	at androidx.compose.ui.test.BoundsAssertionsKt.assertIsAtLeast-cWfXhoU(BoundsAssertions.kt:342)
+	at androidx.compose.ui.test.BoundsAssertionsKt.assertIsAtLeast-cWfXhoU$default(BoundsAssertions.kt:339)
+	at androidx.compose.ui.test.BoundsAssertionsKt.assertHeightIsAtLeast_3ABfNKs$lambda$0(BoundsAssertions.kt:98)
+	at androidx.compose.ui.test.BoundsAssertionsKt$$ExternalSyntheticLambda2.invoke(D8$$SyntheticClass:0)
+	at androidx.compose.ui.test.BoundsAssertionsKt.withUnclippedBoundsInRoot(BoundsAssertions.kt:266)
+	at androidx.compose.ui.test.BoundsAssertionsKt.assertHeightIsAtLeast-3ABfNKs(BoundsAssertions.kt:98)
+	at com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest.checkButtons(GlassStandaloneButtonLayoutTest.kt:132)
+	at com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest.materialKeepsAccessibleTargetsAndDisabledPointerBehavior(GlassStandaloneButtonLayoutTest.kt:52)
+
+INSTRUMENTATION_STATUS: stream=
+Error in materialKeepsAccessibleTargetsAndDisabledPointerBehavior(com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest):
+java.lang.AssertionError: Actual height is 40.336132.dp, expected at least 48.0.dp (tolerance: 0.5.dp)
+	at androidx.compose.ui.test.BoundsAssertionsKt.assertIsAtLeast-cWfXhoU(BoundsAssertions.kt:342)
+	at androidx.compose.ui.test.BoundsAssertionsKt.assertIsAtLeast-cWfXhoU$default(BoundsAssertions.kt:339)
+	at androidx.compose.ui.test.BoundsAssertionsKt.assertHeightIsAtLeast_3ABfNKs$lambda$0(BoundsAssertions.kt:98)
+	at androidx.compose.ui.test.BoundsAssertionsKt$$ExternalSyntheticLambda2.invoke(D8$$SyntheticClass:0)
+	at androidx.compose.ui.test.BoundsAssertionsKt.withUnclippedBoundsInRoot(BoundsAssertions.kt:266)
+	at androidx.compose.ui.test.BoundsAssertionsKt.assertHeightIsAtLeast-3ABfNKs(BoundsAssertions.kt:98)
+	at com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest.checkButtons(GlassStandaloneButtonLayoutTest.kt:132)
+	at com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest.materialKeepsAccessibleTargetsAndDisabledPointerBehavior(GlassStandaloneButtonLayoutTest.kt:52)
+
+INSTRUMENTATION_STATUS: test=materialKeepsAccessibleTargetsAndDisabledPointerBehavior
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 4.374
+There were 2 failures:
+1) tallButtonTouchPaddingKeepsItsLensLiftedUntilPointerRelease(com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest)
+java.lang.AssertionError: A held pointer stays lifted after leaving the activation bounds
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest.tallButtonTouchPaddingKeepsItsLensLiftedUntilPointerRelease(GlassStandaloneButtonLayoutTest.kt:83)
+2) materialKeepsAccessibleTargetsAndDisabledPointerBehavior(com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest)
+java.lang.AssertionError: Actual height is 40.336132.dp, expected at least 48.0.dp (tolerance: 0.5.dp)
+	at androidx.compose.ui.test.BoundsAssertionsKt.assertIsAtLeast-cWfXhoU(BoundsAssertions.kt:342)
+	at androidx.compose.ui.test.BoundsAssertionsKt.assertIsAtLeast-cWfXhoU$default(BoundsAssertions.kt:339)
+	at androidx.compose.ui.test.BoundsAssertionsKt.assertHeightIsAtLeast_3ABfNKs$lambda$0(BoundsAssertions.kt:98)
+	at androidx.compose.ui.test.BoundsAssertionsKt$$ExternalSyntheticLambda2.invoke(D8$$SyntheticClass:0)
+	at androidx.compose.ui.test.BoundsAssertionsKt.withUnclippedBoundsInRoot(BoundsAssertions.kt:266)
+	at androidx.compose.ui.test.BoundsAssertionsKt.assertHeightIsAtLeast-3ABfNKs(BoundsAssertions.kt:98)
+	at com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest.checkButtons(GlassStandaloneButtonLayoutTest.kt:132)
+	at com.lingion.sleepy.ui.component.liquidglass.GlassStandaloneButtonLayoutTest.materialKeepsAccessibleTargetsAndDisabledPointerBehavior(GlassStandaloneButtonLayoutTest.kt:52)
+
+FAILURES!!!
+Tests run: 3,  Failures: 2
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "status": "engineering candidate, not native parity acceptance",
+  "run_id": "panels-lateral045-20261115",
+  "gain": 0.45,
+  "scope": [
+    "production Alert",
+    "production Sheet"
+  ],
+  "unchanged": [
+    "Dock",
+    "negative refraction",
+    "geometry",
+    "rim coefficients",
+    "base material coefficients"
+  ],
+  "baseline": "panels-alert-floor-budget-history-r2-20261115",
+  "conditions": "4 existing calibration backgrounds x light/dark x Alert/Sheet; same native input coordinate mapping, no resize/warp",
+  "checks": [
+    "actual AGSL compilation and rendering",
+    "same-world registration",
+    "left/right outward sign where edges remain identifiable",
+    "flat face unchanged by sampling field",
+    "corner continuity and repeated boundary color inspection",
+    "raw original crops and per-region RGB deltas"
+  ],
+  "limits": [
+    ".025 is an engineering coefficient, not inferred from sparse stripe detections",
+    "Original fixed stripe identifiability failures retained; no new detector thresholds",
+    "No heldout noise inputs read",
+    "Button wrapper changed; text/control covered pixels excluded from optical differences",
+    "No claim of equal Apple thickness or frame parity"
+  ],
+  "host_gain_cap": 0.5,
+  "reason": "Calibration-only harmonic diagnostic shows .025 produces <1px top-rim shift where native phase response is about13\u201314px. Evaluate the predicted larger field as a second engineering candidate, not an identified optical mapping.",
+  "new_checks": [
+    "keep all supplementary harmonic rows and RGB residuals; no threshold or selection tuning",
+    "native inward phase residuals at y540\u2013560 remain separately visible",
+    "zero field controls and corner continuity remain required"
+  ]
+}

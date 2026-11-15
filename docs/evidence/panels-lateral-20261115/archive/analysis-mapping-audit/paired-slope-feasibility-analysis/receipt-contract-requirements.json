@@ -1,0 +1,63 @@
+{
+  "status": "RAW CONTRACT REQUIREMENTS ONLY — NOT A REGISTERED ADAPTER OR EXPERIMENT PASS",
+  "preserve_original_plan_and_schema": true,
+  "raw_evidence_rule": "Fields must be measured raw records or deterministically extracted from the referenced original dump/trace. Hash linkage and accepted=true alone do not establish their truth.",
+  "session_identity_and_artifacts": [
+    "sessionID", "sourceID", "platform", "theme", "carrier",
+    "loaderManifestSHA256", "sourceOriginalPNG_SHA256", "sourceRGB_SHA256",
+    "binarySHA256_or_content_addressed_binary_freeze", "sourceFreezeSHA256",
+    "raw_trace_artifact_and_record_locator_for_each_claim"
+  ],
+  "per_phase_request_and_chronology": [
+    "phase from clean-before/rest/rest-repeat/dismiss-after",
+    "requestID", "sessionID", "sourceID", "requestSentTime_with_clock_basis",
+    "deliveredEventTime_with_clock_basis", "capturedAtTime_with_clock_basis",
+    "captureArtifactSHA256", "request_to_delivered_event_to_capture_linkage",
+    "rest_repeat_spacing_at_least_0.25seconds"
+  ],
+  "traits_and_loader": [
+    "effective_light_appearance_at_each_phase", "displayScale",
+    "display_or_layer_color_gamut_and_color_space", "contentSizeCategory",
+    "accessibility_reduce_motion_reduce_transparency_contrast_settings",
+    "source_loader_actual_original_bytes_identity_and_loader_configuration",
+    "four_neutral_loader_compatibility_entries_never_acquired_or_scored"
+  ],
+  "native_geometry_per_phase": [
+    "original_AX_dump_SHA256_and_exact_pane_or_absence_record",
+    "actual_Alert_pane_ltrb_pt_expected_27.5_257.5_347.5_429.5_at_rest_and_repeat",
+    "actual_foreground_AX_bounds_all_titles_body_buttons_and_other_foreground",
+    "public_controller_identity_and_viewRectInWindowPt",
+    "public_window_bounds_and_origin", "isBeingPresented", "isBeingDismissed",
+    "view_and_controller_effectiveInterfaceStyle",
+    "AX_and_public_geometry_measurement_representation_and_units"
+  ],
+  "android_geometry_per_phase": [
+    "original_attached_layout_dump_or_trace_SHA256",
+    "actual_attached_and_laid_out_state", "view_bounds_local_units",
+    "canvas_unit_basis_and_pixels_per_unit", "density_and_content_density",
+    "actual_localToScreen_matrix", "Window_bounds_and_origin",
+    "display_bounds_and_origin", "Window_to_composited_display_matrix",
+    "source_to_canvas_to_Window_to_display_measured_transform_chain",
+    "primary_capture_is_complete_composited_display_binding",
+    "separate_Window_PNG_binding_if_captured",
+    "actual_foreground_layout_bounds_in_declared_coordinate_system"
+  ],
+  "common_mapping_and_foreground": [
+    "independently_measured_source_to_world_identity_for_each_platform",
+    "source_origin_0_0_world_375x667_at_2pixels_per_unit",
+    "no_statusbar_origin_assumption_no_image_registration_or_fit",
+    "native_and_android_foreground_measurement_source_phase_and_coordinate_basis",
+    "deterministic_union_of_both_platform_foreground_bounds_in_common_world",
+    "2pt_expansion_applied_by_analysis_not_handdrawn_optical_contour",
+    "measurement_links_to_the_exact_current_capture_session_and_phase"
+  ],
+  "top50_direction_unresolved": {
+    "reason": "All fixed vertical input lines are constant, so the source start-to-end vector is zero; no independent nonzero material contrast direction is specified by the frozen plan.",
+    "current_behavior": "Mark top50 unavailable; preserve independent bilateral diagnostics; overall experiment remains not passed.",
+    "must_not": [
+      "choose output-derived direction after seeing optical results",
+      "move b257.5 or a fixed line to force a flat result",
+      "use operational top50 as proof of geometric silhouette/tangent"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lingion.sleepy.ui.component.DatePickerTransparencyTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-15T08:16:59.363Z" hostname="kerryleedeMacBook.local" time="1.452">
+  <properties/>
+  <testcase name="glassYearGridReplacesDaysThroughoutItsTransitionAndPreservesTheSelectedDate" classname="com.lingion.sleepy.ui.component.DatePickerTransparencyTest" time="0.197"/>
+  <testcase name="glassHonorsSelectableDaysYearsAndBothMonthBoundaries" classname="com.lingion.sleepy.ui.component.DatePickerTransparencyTest" time="0.162"/>
+  <testcase name="materialKeepsItsOfficialContainerInEveryMode" classname="com.lingion.sleepy.ui.component.DatePickerTransparencyTest" time="0.414"/>
+  <testcase name="glassUsesTheStateLocaleAndMirrorsItsCalendarInRtl" classname="com.lingion.sleepy.ui.component.DatePickerTransparencyTest" time="0.216"/>
+  <testcase name="glassWithoutAHostKeepsTheOfficialFallbackContainer" classname="com.lingion.sleepy.ui.component.DatePickerTransparencyTest" time="0.213"/>
+  <testcase name="glassExposesItsCarrierInCalendarInputAndYearSelection" classname="com.lingion.sleepy.ui.component.DatePickerTransparencyTest" time="0.246"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

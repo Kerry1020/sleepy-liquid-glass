@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lingion.sleepy.ui.component.liquidglass.GlassButtonsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-15T08:17:00.918Z" hostname="kerryleedeMacBook.local" time="4.157">
+  <properties/>
+  <testcase name="materialOutlinedPreservesExplicitNullBorderAndElevation" classname="com.lingion.sleepy.ui.component.liquidglass.GlassButtonsTest" time="0.147"/>
+  <testcase name="enabledCallbacksAndDisabledSemanticsSurviveGlassMaterial" classname="com.lingion.sleepy.ui.component.liquidglass.GlassButtonsTest" time="0.038"/>
+  <testcase name="materialDefaultsMatchOfficialExpressiveButtonsAtRestAndWhilePressed" classname="com.lingion.sleepy.ui.component.liquidglass.GlassButtonsTest" time="0.188"/>
+  <testcase name="materialNeverInvokesGlassControlEvenWhenItWouldReturnAnUnchangedModifier" classname="com.lingion.sleepy.ui.component.liquidglass.GlassButtonsTest" time="0.06"/>
+  <testcase name="materialExplicitShapeColorsBorderPaddingAndElevationMatchOfficialButtons" classname="com.lingion.sleepy.ui.component.liquidglass.GlassButtonsTest" time="0.266"/>
+  <testcase name="enabledCallbacksAndDisabledSemanticsSurviveGlassMaterial[31]" classname="com.lingion.sleepy.ui.component.liquidglass.GlassButtonsTest" time="3.383"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -4,14 +4,16 @@ This note records research status as of **2026-11-15**, separating source/build 
 
 | Evidence stage | What is established | Boundary |
 | --- | --- | --- |
-| Current independent source sync | 38 imported files identified by commit / hash; runtime and sample build; 56 host tests pass | No new independent-sample device optics acceptance |
+| Current independent source sync | 38 imports from `386d4c0`; runtime and sample build; 56 host tests pass | No new independent-sample device optics acceptance |
 | Historical new-background Dock REST | Fixed photometry complete, including 12 review cells | Candidate not accepted; transport / topology review and Sheet validation on that set still outstanding |
 | Current Alert highlight budget | Specified clipping removed; neutral-side contrast partially restored | Corner-derivative and background regressions retained; application backend only |
 | Current Sheet API-input 12→10 calibration | Analysis complete; one of 14 local rows eligible | Candidate unaccepted; does not complete the historical new-background Sheet validation |
 | Native clean-r2 fixture | Full REST repeats and fixed source regions exact; public / AX geometry unchanged | Original ICC-only overall gate remains false; legal sRGB metadata recorded separately |
-| Paired-slope feasibility | Prospective plan, handoff schema and notes prepared | Uncollected; analyzer not implemented; unexecuted; not passed |
+| Paired-slope feasibility | Later analyzer frozen with 69 synthetic implementation checks | No real paired-slope capture or optical pass |
+| Alert / Sheet lateral-field calibration | 16 static application panels; all 80 descriptive harmonic rows retained | Upper-row improvement, inner-direction and lower-edge errors; no optical acceptance |
+| Application button / date-picker regression | Separate final 76 JVM, three device-button and later 18 JVM checks pass | App-only adapters; does not establish every-entry routing or independent public control completion |
 
-The independent [source/build receipt](../provenance/validation-20261115.json) binds the current runtime manifest. The [panel material report](panel-material-study.md) explains the application-path results; it does not validate the public backend's pixels.
+The new independent [source/build receipt](../provenance/validation-20261115-lateral.json) binds the current runtime manifest. The earlier [receipt](../provenance/validation-20261115.json) binds only the archived [pre-lateral manifest](../provenance/runtime-import-20261115-pre-lateral.json). The [panel material report](panel-material-study.md) explains the application-path results; it does not validate the public backend's pixels.
 
 Additional inputs, protocols and research assets are linked from the [controlled optical study index](controlled-optical-studies.md). Each study keeps its own prepared / collected / executed status; linking an asset does not promote it to a validated experiment.
 
@@ -110,8 +112,15 @@ Full clean-before / dismiss-after differences are separately retained: coordinat
 
 These identities locate the research archive's `glass-panel-thickness-20261115/analysis-mapping-audit/native-clean-analysis` stage. The public export includes its analyzer, records and report; full original device captures are not distributed. Provenance receipts cannot make omitted raw inputs independently reconstructible. Stability and fixed-source exactness justify preparing a new feasibility observation; they do not establish an inverse solution, unique 2D map, native central optical tangent invariance, actual blur support, physical thickness or parity. Old source-contaminated pixels cannot be pooled into the clean condition.
 
-## Paired-slope feasibility is preparation only
+## Paired-slope feasibility: historical preparation and later synthetic implementation
 
 Four unchanged proposed sources use two nominal widths and normal / reversed contrast. The prospective light-only matrix separates native Alert and current Android Alert, with clean-before / REST / repeat / dismiss-after phases. Fixed local gates retain contrast, competing peaks, crossing multiplicity, plateau variation, foreground exclusion and localization failures. Only eligible paired sides could yield **apparent** width, center and fixed-spacing secants in nominal AX coordinates. The proposed top50 diagnostic is not proof of a true optical silhouette or tangent.
 
-Only the [plan, capture-handoff schema and README](evidence/panels-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/README.md) have been written and frozen. **No paired-slope capture, executable analysis implementation, schema-validation run, fit or acceptance exists.** A future analyzer must be implemented and frozen before decoding, verify color declarations and their precedence independently of Pillow's ICC field, and retain raw versus normalized tracks. A valid handoff JSON alone passes no optical gate. No runtime parameter update, unique source mapping, physical-thickness estimate or similarity verdict follows from this preparation.
+The original [plan, capture-handoff schema and README](evidence/panels-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/README.md) are an unchanged preparation snapshot. A later [implementation freeze](evidence/panels-lateral-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/implementation-freeze.json) records 69 passing synthetic checks before real PNG decoding. This is a bounded operator implementation, with an unresolved raw-receipt contract and top50 material-contrast direction. **No real paired-slope capture, real-data optical pass, fit or acceptance exists.** A valid handoff JSON or a synthetic check alone passes no optical gate. These records do not identify a unique source map, physical thickness or similarity percentage.
+
+
+## Lateral-field supplement remains a calibration candidate
+
+The [supplement](panel-lateral-sampling-study.md) records gain 0.45 on 16 REST application panels using previously observed backgrounds. At y520 the apparent harmonic shifts are closer to native, but inner rows retain opposite direction and lower rows overshoot several reference values. All 80 rows and RGB fit errors remain public; no threshold is fitted to turn them into a pass. The earlier stripe diagnostic retains 8,256 rows, failed Android primary center references and no complete top24 / bottom24 derivative support. Harmonic phase does not repair that identifiability failure.
+
+The public package contains 23 deduplicated component-crop/source inputs. Original phone screenshots and UI XML remain outside the repository. Recorded original hashes identify omitted source files, while retained-pixel hashes verify included crops; these are different checks. A portable verifier recomputes the harmonic observations, not the frozen full-image / AX stripe analysis. No new optical holdout, size-family, sharpness, outer-highlight or dynamic acceptance follows. Source / assembly / numerical validation of the independent backend remains separate under its new 56-test receipt.

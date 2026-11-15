@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "status": "engineering candidate, not native parity acceptance",
+  "run_id": "panels-lateral0025-20261115",
+  "gain": 0.025,
+  "scope": [
+    "production Alert",
+    "production Sheet"
+  ],
+  "unchanged": [
+    "Dock",
+    "negative refraction",
+    "geometry",
+    "rim coefficients",
+    "base material coefficients"
+  ],
+  "baseline": "panels-alert-floor-budget-history-r2-20261115",
+  "conditions": "4 existing calibration backgrounds x light/dark x Alert/Sheet; same native input coordinate mapping, no resize/warp",
+  "checks": [
+    "actual AGSL compilation and rendering",
+    "same-world registration",
+    "left/right outward sign where edges remain identifiable",
+    "flat face unchanged by sampling field",
+    "corner continuity and repeated boundary color inspection",
+    "raw original crops and per-region RGB deltas"
+  ],
+  "limits": [
+    ".025 is an engineering coefficient, not inferred from sparse stripe detections",
+    "Original fixed stripe identifiability failures retained; no new detector thresholds",
+    "No heldout noise inputs read",
+    "Button wrapper changed; text/control covered pixels excluded from optical differences",
+    "No claim of equal Apple thickness or frame parity"
+  ],
+  "build_receipt_sha256": "fd262ab479952d701147b0326a9dbd8e819e8e2e8f0672a700c6872df939fdbd"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "bounded historical light Alert executed; no fit or runtime change",
+  "real_images_decoded": 4,
+  "series": 24,
+  "detailed_rows": 8256,
+  "artifacts_sha256": {
+    "analysis.json": "52e6767d5e266cd61b4fe0de7ba9a40a6103e37a278d2123e998c41a11ac2f27",
+    "contours.csv": "daf136e69dc975fb25d7ec345f741766e6d1de66215bb54e301900582f29e632",
+    "rows.jsonl.gz": "669f57d246c2881410008d10d88bb4b66d9dc8123d0d1a6022574f589fdf1133",
+    "RESULTS.md": "1444d458eb777f64d2ae18949bed6048ce429806b12b568c870f88217c1cfe61",
+    "small-original-comparison.png": "4dec95152d1a2ac507111dbd04dec369e7622a515614b969a9824a63e65f230e",
+    "apparent-contours.png": "b661818cbfc58410a3e786fe53674f7ccd67e9405c6b002c0f1784bf0264a84e"
+  },
+  "original_freezes_unchanged": true
+}

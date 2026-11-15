@@ -1,0 +1,241 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "paired-slope-feasibility-handoff-v1",
+  "title": "Prospective paired-slope capture handoff; schema validation alone is not experimental acceptance",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "status",
+    "collection_plan",
+    "loader_manifest",
+    "selected_ids",
+    "oracle",
+    "sessions"
+  ],
+  "properties": {
+    "schema": {
+      "const": 1
+    },
+    "status": {
+      "const": "collected_complete_not_analyzed"
+    },
+    "collection_plan": {
+      "$ref": "#/$defs/artifact"
+    },
+    "loader_manifest": {
+      "$ref": "#/$defs/artifact"
+    },
+    "selected_ids": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "paired_slope_alert_a20_normal",
+          "paired_slope_alert_a20_reversed",
+          "paired_slope_alert_a24_normal",
+          "paired_slope_alert_a24_reversed"
+        ]
+      }
+    },
+    "oracle": {
+      "$ref": "#/$defs/artifact"
+    },
+    "sessions": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "$ref": "#/$defs/session"
+      }
+    }
+  },
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^/"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "frame": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "png",
+        "captured_at_unix_seconds",
+        "phase_request_receipt",
+        "geometry_receipt"
+      ],
+      "properties": {
+        "png": {
+          "$ref": "#/$defs/artifact"
+        },
+        "captured_at_unix_seconds": {
+          "type": "number"
+        },
+        "phase_request_receipt": {
+          "$ref": "#/$defs/artifact"
+        },
+        "geometry_receipt": {
+          "$ref": "#/$defs/artifact"
+        },
+        "AX": {
+          "$ref": "#/$defs/artifact"
+        },
+        "window_png": {
+          "$ref": "#/$defs/artifact"
+        },
+        "layout_receipt": {
+          "$ref": "#/$defs/artifact"
+        }
+      }
+    },
+    "session": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "platform",
+        "theme",
+        "carrier",
+        "source_original",
+        "session_receipt",
+        "traits_receipt",
+        "canvas_mapping_receipt",
+        "foreground_geometry_receipt",
+        "binary_freeze",
+        "source_freeze",
+        "trace_receipts",
+        "frames"
+      ],
+      "properties": {
+        "source_id": {
+          "enum": [
+            "paired_slope_alert_a20_normal",
+            "paired_slope_alert_a20_reversed",
+            "paired_slope_alert_a24_normal",
+            "paired_slope_alert_a24_reversed"
+          ]
+        },
+        "platform": {
+          "enum": [
+            "native",
+            "android"
+          ]
+        },
+        "theme": {
+          "const": "light"
+        },
+        "carrier": {
+          "const": "alert"
+        },
+        "source_original": {
+          "$ref": "#/$defs/artifact"
+        },
+        "session_receipt": {
+          "$ref": "#/$defs/artifact"
+        },
+        "traits_receipt": {
+          "$ref": "#/$defs/artifact"
+        },
+        "canvas_mapping_receipt": {
+          "$ref": "#/$defs/artifact"
+        },
+        "foreground_geometry_receipt": {
+          "$ref": "#/$defs/artifact"
+        },
+        "binary_freeze": {
+          "$ref": "#/$defs/artifact"
+        },
+        "source_freeze": {
+          "$ref": "#/$defs/artifact"
+        },
+        "trace_receipts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/artifact"
+          }
+        },
+        "frames": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "clean-before",
+            "rest",
+            "rest-repeat",
+            "dismiss-after"
+          ],
+          "properties": {
+            "clean-before": {
+              "$ref": "#/$defs/frame"
+            },
+            "rest": {
+              "$ref": "#/$defs/frame"
+            },
+            "rest-repeat": {
+              "$ref": "#/$defs/frame"
+            },
+            "dismiss-after": {
+              "$ref": "#/$defs/frame"
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "platform": {
+                "const": "native"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "frames": {
+                "properties": {
+                  "clean-before": {
+                    "required": [
+                      "AX"
+                    ]
+                  },
+                  "rest": {
+                    "required": [
+                      "AX"
+                    ]
+                  },
+                  "rest-repeat": {
+                    "required": [
+                      "AX"
+                    ]
+                  },
+                  "dismiss-after": {
+                    "required": [
+                      "AX"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "$comment": "Implementation must independently enforce exactly one session for every platform×selectedID, exact source hashes, all file hashes and phase chronology. No neutral source may be substituted. Raw metadata/layout/AX receipts remain authoritative; adapter fields are not synthetic measurement evidence."
+}

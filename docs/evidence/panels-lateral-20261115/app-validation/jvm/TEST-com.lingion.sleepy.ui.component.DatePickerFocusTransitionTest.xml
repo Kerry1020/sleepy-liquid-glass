@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lingion.sleepy.ui.component.DatePickerFocusTransitionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-15T08:16:52.350Z" hostname="kerryleedeMacBook.local" time="7.006">
+  <properties/>
+  <testcase name="materialCalendarExpansionKeepsTheDayGridRelativeToMonthNavigation" classname="com.lingion.sleepy.ui.component.DatePickerFocusTransitionTest" time="5.69"/>
+  <testcase name="glassCalendarButtonReleasesTheOutgoingInputBeforeItsAnimationFinishes" classname="com.lingion.sleepy.ui.component.DatePickerFocusTransitionTest" time="0.322"/>
+  <testcase name="externallyChangingTheModeAlsoReleasesInputFocusAndRetainsTheSelection" classname="com.lingion.sleepy.ui.component.DatePickerFocusTransitionTest" time="0.152"/>
+  <testcase name="glassCalendarExpansionKeepsTheDayGridRelativeToMonthNavigation" classname="com.lingion.sleepy.ui.component.DatePickerFocusTransitionTest" time="0.17"/>
+  <testcase name="materialCalendarButtonReleasesTheOutgoingInputBeforeItsAnimationFinishes" classname="com.lingion.sleepy.ui.component.DatePickerFocusTransitionTest" time="0.113"/>
+  <testcase name="aRapidReturnToCalendarCannotRunADelayedInputFocusRequest" classname="com.lingion.sleepy.ui.component.DatePickerFocusTransitionTest" time="0.156"/>
+  <system-out><![CDATA[Calendar geometry Classic, day 'Thursday, January 1, 2026', root 0:
+Printing with useUnmergedTree = 'true'
+Node #1 at (l=0.0, t=0.0, r=0.0, b=0.0)px
+Calendar geometry Classic, day 'Thursday, January 1, 2026', root 1:
+Printing with useUnmergedTree = 'true'
+Node #2 at (l=20.0, t=283.0, r=380.0, b=517.0)px
+ |-Node #4 at (l=20.0, t=283.0, r=380.0, b=517.0)px
+   [IsDialog]
+    |-Node #5 at (l=20.0, t=283.0, r=380.0, b=517.0)px
+      PaneTitle = 'Dialog'
+       |-Node #6 at (l=20.0, t=283.0, r=380.0, b=517.0)px
+         IsContainer = 'true'
+         Shape = 'RoundedCornerShape(topStart = CornerSize(size = 28.0.dp), topEnd = CornerSize(size = 28.0.dp), bottomEnd = CornerSize(size = 28.0.dp), bottomStart = CornerSize(size = 28.0.dp))'
+          |-Node #9 at (l=20.0, t=283.0, r=380.0, b=509.0)px
+            IsContainer = 'true'
+            Shape = 'RectangleShape'
+             |-Node #41 at (l=44.0, t=299.0, r=118.0, b=319.0)px
+             | Text = '[Select date]'
+             | Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+             |-Node #16 at (l=44.0, t=346.0, r=209.0, b=386.0)px
+             | ContentDescription = '[Current selection: Thursday, January 1, 2026]'
+             | LiveRegion = 'Polite'
+             | Text = '[Jan 1, 2026]'
+             | Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+             |-Node #43 at (l=320.0, t=342.0, r=380.0, b=402.0)px
+             | MergeDescendants = 'true'
+             |  |-Node #45 at (l=324.0, t=346.0, r=364.0, b=386.0)px
+             |    Focused = 'false'
+             |    Role = 'Button'
+             |    Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+             |    Actions = [OnClick, OnLongClick, RequestFocus]
+             |    MergeDescendants = 'true'
+             |     |-Node #46 at (l=332.0, t=354.0, r=356.0, b=378.0)px
+             |       ContentDescription = '[Switch to text input mode]'
+             |       Role = 'Image'
+             |-Node #23 at (l=20.0, t=403.0, r=380.0, b=509.0)px
+               IsContainer = 'true'
+               Shape = 'RectangleShape'
+                |-Node #24 at (l=20.0, t=403.0, r=380.0, b=509.0)px
+                |  |-Node #25 at (l=44.0, t=413.0, r=356.0, b=493.0)px
+                |    ContentDataType = 'AndroidContentDataType(androidAutofillType=1)'
+                |    EditableText = '01/01/2026'
+                |    FillableData = 'androidx.compose.ui.autofill.AndroidFillableData@4a2c7b8a'
+                |    Focused = 'false'
+                |    ImeAction = 'Done'
+                |    InputText = '01012026'
+                |    InputTextSuggestionState = 'InputTextSuggestionState(isCommittedByInputMethodEditor=true, suggestionSelected=false)'
+                |    IsEditable = 'true'
+                |    TextCompositionRange = 'null'
+                |    TextSelectionRange = 'TextRange(10, 10)'
+                |    Actions = [GetTextLayoutResult, InsertTextAtCursor, OnClick, OnFillData, OnLongClick, PasteText, PerformImeAction, RequestFocus, ScrollBy, ScrollByOffset, SetSelection, SetText]
+                |    MergeDescendants = 'true'
+                |     |-Node #29 at (l=44.0, t=421.0, r=356.0, b=477.0)px
+                |     | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 4.0.dp), topEnd = CornerSize(size = 4.0.dp), bottomEnd = CornerSize(size = 4.0.dp), bottomStart = CornerSize(size = 4.0.dp))'
+                |     |-Node #34 at (l=60.0, t=413.0, r=88.0, b=429.0)px
+                |     | ContentDescription = '[Date, MM/DD/YYYY]'
+                |     | Text = '[Date]'
+                |     | Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+                |     |-Node #31 at (l=60.0, t=437.0, r=340.0, b=461.0)px
+                |       Shape = 'RectangleShape'
+                |       Actions = [MagnifierPositionInRoot]
+                |-Node #47 at (l=20.0, t=355.0, r=380.0, b=747.0)px
+                   |-Node #50 at (l=32.0, t=363.0, r=178.0, b=403.0)px
+                   | Focused = 'false'
+                   | Role = 'Button'
+                   | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                   | Actions = [OnClick, RequestFocus]
+                   | MergeDescendants = 'true'
+                   |  |-Node #52 at (l=44.0, t=373.0, r=134.0, b=393.0)px
+                   |  | ContentDescription = '[January 2026]'
+                   |  | LiveRegion = 'Polite'
+                   |  | Text = '[January 2026]'
+                   |  | Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+                   |  |-Node #54 at (l=142.0, t=371.0, r=166.0, b=395.0)px
+                   |    ContentDescription = '[Activate to change the year]'
+                   |    Role = 'Image'
+                   |-Node #57 at (l=272.0, t=359.0, r=320.0, b=407.0)px
+                   | MergeDescendants = 'true'
+                   |  |-Node #59 at (l=276.0, t=363.0, r=316.0, b=403.0)px
+                   |    Focused = 'false'
+                   |    Role = 'Button'
+                   |    Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                   |    Actions = [OnClick, OnLongClick, RequestFocus]
+                   |    MergeDescendants = 'true'
+                   |     |-Node #60 at (l=284.0, t=371.0, r=308.0, b=395.0)px
+                   |       ContentDescription = '[Change to previous month]'
+                   |       Role = 'Image'
+                   |-Node #62 at (l=320.0, t=359.0, r=368.0, b=407.0)px
+                   | MergeDescendants = 'true'
+                   |  |-Node #64 at (l=324.0, t=363.0, r=364.0, b=403.0)px
+                   |    Focused = 'false'
+                   |    Role = 'Button'
+                   |    Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                   |    Actions = [OnClick, OnLongClick, RequestFocus]
+                   |    MergeDescendants = 'true'
+                   |     |-Node #65 at (l=332.0, t=371.0, r=356.0, b=395.0)px
+                   |       ContentDescription = '[Change to next month]'
+                   |       Role = 'Image'
+                   |-Node #69 at (l=32.0, t=411.0, r=80.0, b=459.0)px
+                   | ContentDescription = '[Sunday]'
+                   | ClearAndSetSemantics = 'true'
+                   |  |-Node #70 at (l=51.0, t=423.0, r=62.0, b=447.0)px
+                   |    Text = '[S]'
+                   |    Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+                   |-Node #71 at (l=80.0, t=411.0, r=128.0, b=459.0)px
+                   | ContentDescription = '[Monday]'
+                   | ClearAndSetSemantics = 'true'
+                   |  |-Node #72 at (l=97.0, t=423.0, r=112.0, b=447.0)px
+                   |    Text = '[M]'
+                   |    Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+                   |-Node #73 at (l=128.0, t=411.0, r=176.0, b=459.0)px
+                   | ContentDescription = '[Tuesday]'
+                   | ClearAndSetSemantics = 'true'
+                   |  |-Node #74 at (l=147.0, t=423.0, r=158.0, b=447.0)px
+                   |    Text = '[T]'
+                   |    Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+                   |-Node #75 at (l=176.0, t=411.0, r=224.0, b=459.0)px
+                   | ContentDescription = '[Wednesday]'
+                   | ClearAndSetSemantics = 'true'
+                   |  |-Node #76 at (l=193.0, t=423.0, r=208.0, b=447.0)px
+                   |    Text = '[W]'
+                   |    Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+                   |-Node #77 at (l=224.0, t=411.0, r=272.0, b=459.0)px
+                   | ContentDescription = '[Thursday]'
+                   | ClearAndSetSemantics = 'true'
+                   |  |-Node #78 at (l=243.0, t=423.0, r=254.0, b=447.0)px
+                   |    Text = '[T]'
+                   |    Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+                   |-Node #79 at (l=272.0, t=411.0, r=320.0, b=459.0)px
+                   | ContentDescription = '[Friday]'
+                   | ClearAndSetSemantics = 'true'
+                   |  |-Node #80 at (l=291.0, t=423.0, r=301.0, b=447.0)px
+                   |    Text = '[F]'
+                   |    Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+                   |-Node #81 at (l=320.0, t=411.0, r=368.0, b=459.0)px
+                   | ContentDescription = '[Saturday]'
+                   | ClearAndSetSemantics = 'true'
+                   |  |-Node #82 at (l=339.0, t=423.0, r=350.0, b=447.0)px
+                   |    Text = '[S]'
+                   |    Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+                   |-Node #83 at (l=32.0, t=459.0, r=368.0, b=747.0)px
+                     CollectionInfo = 'CollectionInfo(rowCount=1, columnCount=2412)'
+                     HorizontalScrollAxisRange = 'ScrollAxisRange(value=0.0, maxValue=0.0, reverseScrolling=false)'
+                     IsTraversalGroup = 'true'
+                     Shape = 'androidx.compose.foundation.HorizontalScrollableClipShape@67a667e0'
+                     Actions = [GetScrollViewportLength, IndexForKey, ScrollBy, ScrollByOffset, ScrollToIndex]
+                      |-Node #92 at (l=224.0, t=459.0, r=272.0, b=507.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'true'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Thursday, January 1, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #94 at (l=243.0, t=471.0, r=253.0, b=495.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #95 at (l=272.0, t=459.0, r=320.0, b=507.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Friday, January 2, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #97 at (l=291.0, t=471.0, r=301.0, b=495.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #98 at (l=320.0, t=459.0, r=368.0, b=507.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Saturday, January 3, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #100 at (l=339.0, t=471.0, r=349.0, b=495.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #102 at (l=32.0, t=507.0, r=80.0, b=555.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Sunday, January 4, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #104 at (l=51.0, t=519.0, r=61.0, b=543.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #105 at (l=80.0, t=507.0, r=128.0, b=555.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Monday, January 5, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #107 at (l=99.0, t=519.0, r=109.0, b=543.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #108 at (l=128.0, t=507.0, r=176.0, b=555.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Tuesday, January 6, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #110 at (l=147.0, t=519.0, r=157.0, b=543.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #111 at (l=176.0, t=507.0, r=224.0, b=555.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Wednesday, January 7, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #113 at (l=195.0, t=519.0, r=205.0, b=543.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #114 at (l=224.0, t=507.0, r=272.0, b=555.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Thursday, January 8, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #116 at (l=243.0, t=519.0, r=253.0, b=543.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #117 at (l=272.0, t=507.0, r=320.0, b=555.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Friday, January 9, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #119 at (l=291.0, t=519.0, r=301.0, b=543.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #120 at (l=320.0, t=507.0, r=368.0, b=555.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Saturday, January 10, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #122 at (l=334.0, t=519.0, r=354.0, b=543.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #124 at (l=32.0, t=555.0, r=80.0, b=603.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Sunday, January 11, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #126 at (l=46.0, t=567.0, r=66.0, b=591.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #127 at (l=80.0, t=555.0, r=128.0, b=603.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Monday, January 12, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #129 at (l=94.0, t=567.0, r=114.0, b=591.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #130 at (l=128.0, t=555.0, r=176.0, b=603.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Tuesday, January 13, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #132 at (l=142.0, t=567.0, r=162.0, b=591.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #133 at (l=176.0, t=555.0, r=224.0, b=603.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Wednesday, January 14, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #135 at (l=190.0, t=567.0, r=210.0, b=591.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #136 at (l=224.0, t=555.0, r=272.0, b=603.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Thursday, January 15, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #138 at (l=238.0, t=567.0, r=258.0, b=591.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #139 at (l=272.0, t=555.0, r=320.0, b=603.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Friday, January 16, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #141 at (l=286.0, t=567.0, r=306.0, b=591.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #142 at (l=320.0, t=555.0, r=368.0, b=603.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Saturday, January 17, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #144 at (l=334.0, t=567.0, r=354.0, b=591.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #146 at (l=32.0, t=603.0, r=80.0, b=651.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Sunday, January 18, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #148 at (l=46.0, t=615.0, r=66.0, b=639.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #149 at (l=80.0, t=603.0, r=128.0, b=651.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Monday, January 19, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #151 at (l=94.0, t=615.0, r=114.0, b=639.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #152 at (l=128.0, t=603.0, r=176.0, b=651.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Tuesday, January 20, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #154 at (l=142.0, t=615.0, r=162.0, b=639.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #155 at (l=176.0, t=603.0, r=224.0, b=651.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Wednesday, January 21, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #157 at (l=190.0, t=615.0, r=210.0, b=639.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #158 at (l=224.0, t=603.0, r=272.0, b=651.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Thursday, January 22, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #160 at (l=238.0, t=615.0, r=258.0, b=639.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #161 at (l=272.0, t=603.0, r=320.0, b=651.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Friday, January 23, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #163 at (l=286.0, t=615.0, r=306.0, b=639.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #164 at (l=320.0, t=603.0, r=368.0, b=651.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Saturday, January 24, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #166 at (l=334.0, t=615.0, r=354.0, b=639.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #168 at (l=32.0, t=651.0, r=80.0, b=699.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Sunday, January 25, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #170 at (l=46.0, t=663.0, r=66.0, b=687.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #171 at (l=80.0, t=651.0, r=128.0, b=699.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Monday, January 26, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #173 at (l=94.0, t=663.0, r=114.0, b=687.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #174 at (l=128.0, t=651.0, r=176.0, b=699.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Tuesday, January 27, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #176 at (l=142.0, t=663.0, r=162.0, b=687.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #177 at (l=176.0, t=651.0, r=224.0, b=699.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Wednesday, January 28, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #179 at (l=190.0, t=663.0, r=210.0, b=687.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #180 at (l=224.0, t=651.0, r=272.0, b=699.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Thursday, January 29, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #182 at (l=238.0, t=663.0, r=258.0, b=687.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #183 at (l=272.0, t=651.0, r=320.0, b=699.0)px
+                      | Focused = 'false'
+                      | Role = 'Button'
+                      | Selected = 'false'
+                      | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                      | Text = '[Friday, January 30, 2026]'
+                      | Actions = [OnClick, RequestFocus]
+                      | MergeDescendants = 'true'
+                      |  |-Node #185 at (l=286.0, t=663.0, r=306.0, b=687.0)px
+                      |    ClearAndSetSemantics = 'true'
+                      |-Node #186 at (l=320.0, t=651.0, r=368.0, b=699.0)px
+                        Focused = 'false'
+                        Role = 'Button'
+                        Selected = 'false'
+                        Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+                        Text = '[Saturday, January 31, 2026]'
+                        Actions = [OnClick, RequestFocus]
+                        MergeDescendants = 'true'
+                         |-Node #188 at (l=334.0, t=663.0, r=354.0, b=687.0)px
+                           ClearAndSetSemantics = 'true'
+Calendar geometry LiquidGlass, day 'Thursday, January 1, 2026', root 0:
+Printing with useUnmergedTree = 'true'
+Node #629 at (l=0.0, t=0.0, r=0.0, b=0.0)px
+Calendar geometry LiquidGlass, day 'Thursday, January 1, 2026', root 1:
+Printing with useUnmergedTree = 'true'
+Node #630 at (l=15.0, t=283.0, r=385.0, b=517.0)px
+ |-Node #632 at (l=15.0, t=283.0, r=385.0, b=517.0)px
+   [IsDialog]
+    |-Node #634 at (l=20.0, t=287.0, r=380.0, b=513.0)px
+       |-Node #669 at (l=44.0, t=303.0, r=118.0, b=323.0)px
+       | Text = '[Select date]'
+       | Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+       |-Node #641 at (l=44.0, t=350.0, r=308.0, b=390.0)px
+       | ContentDescription = '[Current selection: Thursday, January 1, 2026]'
+       | LiveRegion = 'Polite'
+       | Text = '[Jan 1, 2026]'
+       | Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+       |-Node #642 at (l=320.0, t=346.0, r=368.0, b=394.0)px
+       | Focused = 'false'
+       | Role = 'Button'
+       | Actions = [OnClick, RequestFocus]
+       | MergeDescendants = 'true'
+       |  |-Node #643 at (l=326.0, t=352.0, r=362.0, b=388.0)px
+       |     |-Node #644 at (l=332.0, t=358.0, r=356.0, b=382.0)px
+       |       ContentDescription = '[Switch to text input mode]'
+       |       Role = 'Image'
+       |-Node #646 at (l=20.0, t=407.0, r=380.0, b=799.0)px
+       | Shape = 'RectangleShape'
+       |  |-Node #647 at (l=20.0, t=407.0, r=380.0, b=513.0)px
+       |  |  |-Node #648 at (l=20.0, t=407.0, r=380.0, b=513.0)px
+       |  |    IsContainer = 'true'
+       |  |    Shape = 'RectangleShape'
+       |  |     |-Node #652 at (l=20.0, t=407.0, r=380.0, b=513.0)px
+       |  |       IsContainer = 'true'
+       |  |        |-Node #653 at (l=20.0, t=407.0, r=380.0, b=513.0)px
+       |  |           |-Node #654 at (l=44.0, t=417.0, r=356.0, b=497.0)px
+       |  |             ContentDataType = 'AndroidContentDataType(androidAutofillType=1)'
+       |  |             EditableText = '01/01/2026'
+       |  |             FillableData = 'androidx.compose.ui.autofill.AndroidFillableData@5caa50f4'
+       |  |             Focused = 'false'
+       |  |             ImeAction = 'Done'
+       |  |             InputText = '01012026'
+       |  |             InputTextSuggestionState = 'InputTextSuggestionState(isCommittedByInputMethodEditor=true, suggestionSelected=false)'
+       |  |             IsEditable = 'true'
+       |  |             TextCompositionRange = 'null'
+       |  |             TextSelectionRange = 'TextRange(10, 10)'
+       |  |             Actions = [GetTextLayoutResult, InsertTextAtCursor, OnClick, OnFillData, OnLongClick, PasteText, PerformImeAction, RequestFocus, ScrollBy, ScrollByOffset, SetSelection, SetText]
+       |  |             MergeDescendants = 'true'
+       |  |              |-Node #658 at (l=44.0, t=425.0, r=356.0, b=481.0)px
+       |  |              | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 4.0.dp), topEnd = CornerSize(size = 4.0.dp), bottomEnd = CornerSize(size = 4.0.dp), bottomStart = CornerSize(size = 4.0.dp))'
+       |  |              |-Node #663 at (l=60.0, t=417.0, r=88.0, b=433.0)px
+       |  |              | ContentDescription = '[Date, MM/DD/YYYY]'
+       |  |              | Text = '[Date]'
+       |  |              | Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+       |  |              |-Node #660 at (l=60.0, t=441.0, r=340.0, b=465.0)px
+       |  |                Shape = 'RectangleShape'
+       |  |                Actions = [MagnifierPositionInRoot]
+       |  |-Node #670 at (l=20.0, t=359.0, r=380.0, b=751.0)px
+       |     |-Node #673 at (l=32.0, t=363.0, r=187.0, b=411.0)px
+       |     | Focused = 'false'
+       |     | Role = 'Button'
+       |     | Actions = [OnClick, RequestFocus]
+       |     | MergeDescendants = 'true'
+       |     |  |-Node #674 at (l=44.0, t=370.0, r=175.0, b=404.0)px
+       |     |     |-Node #675 at (l=44.0, t=378.0, r=143.0, b=397.0)px
+       |     |     | Text = '[January 2026]'
+       |     |     | Actions = [ClearTextSubstitution, GetTextLayoutResult, SetTextSubstitution, ShowTextSubstitution]
+       |     |     |-Node #677 at (l=151.0, t=375.0, r=175.0, b=399.0)px
+       |     |       ContentDescription = '[Activate to change the year]'
+       |     |       Role = 'Image'
+       |     |-Node #679 at (l=272.0, t=363.0, r=320.0, b=411.0)px
+       |     | Focused = 'false'
+       |     | Role = 'Button'
+       |     | Actions = [OnClick, RequestFocus]
+       |     | MergeDescendants = 'true'
+       |     |  |-Node #680 at (l=278.0, t=369.0, r=314.0, b=405.0)px
+       |     |     |-Node #681 at (l=284.0, t=375.0, r=308.0, b=399.0)px
+       |     |       ContentDescription = '[Change to previous month]'
+       |     |       Role = 'Image'
+       |     |-Node #682 at (l=320.0, t=363.0, r=368.0, b=411.0)px
+       |     | Focused = 'false'
+       |     | Role = 'Button'
+       |     | Actions = [OnClick, RequestFocus]
+       |     | MergeDescendants = 'true'
+       |     |  |-Node #683 at (l=326.0, t=369.0, r=362.0, b=405.0)px
+       |     |     |-Node #684 at (l=332.0, t=375.0, r=356.0, b=399.0)px
+       |     |       ContentDescription = '[Change to next month]'
+       |     |       Role = 'Image'
+       |     |-Node #686 at (l=20.0, t=415.0, r=380.0, b=751.0)px
+       |       CollectionInfo = 'CollectionInfo(rowCount=1, columnCount=2412)'
+       |       HorizontalScrollAxisRange = 'ScrollAxisRange(value=544320.0, maxValue=867960.0, reverseScrolling=false)'
+       |       IsTraversalGroup = 'true'
+       |       Shape = 'androidx.compose.foundation.HorizontalScrollableClipShape@67a667e0'
+       |       Actions = [GetScrollViewportLength, IndexForKey, PageLeft, PageRight, ScrollBy, ScrollByOffset, ScrollToIndex]
+       |        |-Node #691 at (l=51.0, t=427.0, r=62.0, b=451.0)px
+       |        | ContentDescription = '[Sunday]'
+       |        | ClearAndSetSemantics = 'true'
+       |        |-Node #693 at (l=97.0, t=427.0, r=112.0, b=451.0)px
+       |        | ContentDescription = '[Monday]'
+       |        | ClearAndSetSemantics = 'true'
+       |        |-Node #695 at (l=147.0, t=427.0, r=158.0, b=451.0)px
+       |        | ContentDescription = '[Tuesday]'
+       |        | ClearAndSetSemantics = 'true'
+       |        |-Node #697 at (l=193.0, t=427.0, r=208.0, b=451.0)px
+       |        | ContentDescription = '[Wednesday]'
+       |        | ClearAndSetSemantics = 'true'
+       |        |-Node #699 at (l=243.0, t=427.0, r=254.0, b=451.0)px
+       |        | ContentDescription = '[Thursday]'
+       |        | ClearAndSetSemantics = 'true'
+       |        |-Node #701 at (l=291.0, t=427.0, r=301.0, b=451.0)px
+       |        | ContentDescription = '[Friday]'
+       |        | ClearAndSetSemantics = 'true'
+       |        |-Node #703 at (l=339.0, t=427.0, r=350.0, b=451.0)px
+       |        | ContentDescription = '[Saturday]'
+       |        | ClearAndSetSemantics = 'true'
+       |        |-Node #710 at (l=224.0, t=463.0, r=272.0, b=511.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'true'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Thursday, January 1, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #712 at (l=243.0, t=475.0, r=253.0, b=499.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #714 at (l=272.0, t=463.0, r=320.0, b=511.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Friday, January 2, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #716 at (l=291.0, t=475.0, r=301.0, b=499.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #718 at (l=320.0, t=463.0, r=368.0, b=511.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Saturday, January 3, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #720 at (l=339.0, t=475.0, r=349.0, b=499.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #723 at (l=32.0, t=511.0, r=80.0, b=559.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Sunday, January 4, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #725 at (l=51.0, t=523.0, r=61.0, b=547.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #727 at (l=80.0, t=511.0, r=128.0, b=559.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Monday, January 5, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #729 at (l=99.0, t=523.0, r=109.0, b=547.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #731 at (l=128.0, t=511.0, r=176.0, b=559.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Tuesday, January 6, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #733 at (l=147.0, t=523.0, r=157.0, b=547.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #735 at (l=176.0, t=511.0, r=224.0, b=559.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Wednesday, January 7, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #737 at (l=195.0, t=523.0, r=205.0, b=547.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #739 at (l=224.0, t=511.0, r=272.0, b=559.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Thursday, January 8, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #741 at (l=243.0, t=523.0, r=253.0, b=547.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #743 at (l=272.0, t=511.0, r=320.0, b=559.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Friday, January 9, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #745 at (l=291.0, t=523.0, r=301.0, b=547.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #747 at (l=320.0, t=511.0, r=368.0, b=559.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Saturday, January 10, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #749 at (l=334.0, t=523.0, r=354.0, b=547.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #752 at (l=32.0, t=559.0, r=80.0, b=607.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Sunday, January 11, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #754 at (l=46.0, t=571.0, r=66.0, b=595.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #756 at (l=80.0, t=559.0, r=128.0, b=607.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Monday, January 12, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #758 at (l=94.0, t=571.0, r=114.0, b=595.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #760 at (l=128.0, t=559.0, r=176.0, b=607.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Tuesday, January 13, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #762 at (l=142.0, t=571.0, r=162.0, b=595.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #764 at (l=176.0, t=559.0, r=224.0, b=607.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Wednesday, January 14, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #766 at (l=190.0, t=571.0, r=210.0, b=595.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #768 at (l=224.0, t=559.0, r=272.0, b=607.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Thursday, January 15, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #770 at (l=238.0, t=571.0, r=258.0, b=595.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #772 at (l=272.0, t=559.0, r=320.0, b=607.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Friday, January 16, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #774 at (l=286.0, t=571.0, r=306.0, b=595.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #776 at (l=320.0, t=559.0, r=368.0, b=607.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Saturday, January 17, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #778 at (l=334.0, t=571.0, r=354.0, b=595.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #781 at (l=32.0, t=607.0, r=80.0, b=655.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Sunday, January 18, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #783 at (l=46.0, t=619.0, r=66.0, b=643.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #785 at (l=80.0, t=607.0, r=128.0, b=655.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Monday, January 19, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #787 at (l=94.0, t=619.0, r=114.0, b=643.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #789 at (l=128.0, t=607.0, r=176.0, b=655.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Tuesday, January 20, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #791 at (l=142.0, t=619.0, r=162.0, b=643.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #793 at (l=176.0, t=607.0, r=224.0, b=655.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Wednesday, January 21, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #795 at (l=190.0, t=619.0, r=210.0, b=643.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #797 at (l=224.0, t=607.0, r=272.0, b=655.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Thursday, January 22, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #799 at (l=238.0, t=619.0, r=258.0, b=643.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #801 at (l=272.0, t=607.0, r=320.0, b=655.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Friday, January 23, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #803 at (l=286.0, t=619.0, r=306.0, b=643.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #805 at (l=320.0, t=607.0, r=368.0, b=655.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Saturday, January 24, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #807 at (l=334.0, t=619.0, r=354.0, b=643.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #810 at (l=32.0, t=655.0, r=80.0, b=703.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Sunday, January 25, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #812 at (l=46.0, t=667.0, r=66.0, b=691.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #814 at (l=80.0, t=655.0, r=128.0, b=703.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Monday, January 26, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #816 at (l=94.0, t=667.0, r=114.0, b=691.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #818 at (l=128.0, t=655.0, r=176.0, b=703.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Tuesday, January 27, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #820 at (l=142.0, t=667.0, r=162.0, b=691.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #822 at (l=176.0, t=655.0, r=224.0, b=703.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Wednesday, January 28, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #824 at (l=190.0, t=667.0, r=210.0, b=691.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #826 at (l=224.0, t=655.0, r=272.0, b=703.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Thursday, January 29, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #828 at (l=238.0, t=667.0, r=258.0, b=691.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #830 at (l=272.0, t=655.0, r=320.0, b=703.0)px
+       |        | Focused = 'false'
+       |        | Role = 'Button'
+       |        | Selected = 'false'
+       |        | Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |        | Text = '[Friday, January 30, 2026]'
+       |        | Actions = [OnClick, RequestFocus]
+       |        | MergeDescendants = 'true'
+       |        |  |-Node #832 at (l=286.0, t=667.0, r=306.0, b=691.0)px
+       |        |    ClearAndSetSemantics = 'true'
+       |        |-Node #834 at (l=320.0, t=655.0, r=368.0, b=703.0)px
+       |          Focused = 'false'
+       |          Role = 'Button'
+       |          Selected = 'false'
+       |          Shape = 'RoundedCornerShape(topStart = CornerSize(size = 50.0%), topEnd = CornerSize(size = 50.0%), bottomEnd = CornerSize(size = 50.0%), bottomStart = CornerSize(size = 50.0%))'
+       |          Text = '[Saturday, January 31, 2026]'
+       |          Actions = [OnClick, RequestFocus]
+       |          MergeDescendants = 'true'
+       |           |-Node #836 at (l=334.0, t=667.0, r=354.0, b=691.0)px
+       |             ClearAndSetSemantics = 'true'
+       |-Node #665 at (l=20.0, t=513.0, r=380.0, b=513.0)px
+         IsTraversalGroup = 'true'
+         Shape = 'androidx.compose.foundation.VerticalScrollableClipShape@215cef36'
+         VerticalScrollAxisRange = 'ScrollAxisRange(value=0.0, maxValue=0.0, reverseScrolling=false)'
+         Actions = [ScrollBy, ScrollByOffset]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

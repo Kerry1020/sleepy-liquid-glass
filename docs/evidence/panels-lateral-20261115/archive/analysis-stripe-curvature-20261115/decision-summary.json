@@ -1,0 +1,257 @@
+{
+  "status": "Insufficient continuous edge support for frozen h4 tilt/curvature; no center-relative primary-boundary cross-platform comparison available.",
+  "raw_normalized_all_4128_rows_identical": true,
+  "checks": "8256 rows; all selected cross50 satisfy frozen eligibility; all derivative supports include all 17 eligible rows; every raw/smoothed crossing branch retained.",
+  "summary": [
+    {
+      "image": "native",
+      "boundary_pt": 54.0,
+      "all_rows": 344,
+      "foreground_clear_rows": 105,
+      "eligible_rows": 40,
+      "unoccluded_failed_gate_counts": {
+        "source_color_direction_cosine<0.7": 15,
+        "contrast<5x_plateau0_spread_floor1": 52,
+        "transition_raw_backward_step>1count": 1,
+        "contrast<8": 29,
+        "contrast<5x_plateau1_spread_floor1": 30,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 5,
+        "secondary_peak>0.8primary": 29
+      },
+      "center_reference_18_of_18_pass": true,
+      "top24_eligible_rows": 4,
+      "bottom24_eligible_rows": 4,
+      "top24_derivative_rows": 0,
+      "bottom24_derivative_rows": 0
+    },
+    {
+      "image": "native",
+      "boundary_pt": 324.0,
+      "all_rows": 344,
+      "foreground_clear_rows": 106,
+      "eligible_rows": 62,
+      "unoccluded_failed_gate_counts": {
+        "contrast<5x_plateau1_spread_floor1": 34,
+        "contrast<8": 32,
+        "source_color_direction_cosine<0.7": 19,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 10,
+        "contrast<5x_plateau0_spread_floor1": 29,
+        "secondary_peak>0.8primary": 21
+      },
+      "center_reference_18_of_18_pass": true,
+      "top24_eligible_rows": 15,
+      "bottom24_eligible_rows": 9,
+      "top24_derivative_rows": 0,
+      "bottom24_derivative_rows": 0
+    },
+    {
+      "image": "native",
+      "boundary_pt": 72.0,
+      "all_rows": 344,
+      "foreground_clear_rows": 105,
+      "eligible_rows": 16,
+      "unoccluded_failed_gate_counts": {
+        "contrast<5x_plateau0_spread_floor1": 51,
+        "source_color_direction_cosine<0.7": 16,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 2,
+        "contrast<5x_plateau1_spread_floor1": 58,
+        "secondary_peak>0.8primary": 13,
+        "contrast<8": 7
+      },
+      "center_reference_18_of_18_pass": false,
+      "top24_eligible_rows": 12,
+      "bottom24_eligible_rows": 0,
+      "top24_derivative_rows": 0,
+      "bottom24_derivative_rows": 0
+    },
+    {
+      "image": "native",
+      "boundary_pt": 306.0,
+      "all_rows": 344,
+      "foreground_clear_rows": 106,
+      "eligible_rows": 9,
+      "unoccluded_failed_gate_counts": {
+        "source_color_direction_cosine<0.7": 6,
+        "contrast<5x_plateau0_spread_floor1": 17,
+        "secondary_peak>0.8primary": 60,
+        "contrast<5x_plateau1_spread_floor1": 91
+      },
+      "center_reference_18_of_18_pass": false,
+      "top24_eligible_rows": 9,
+      "bottom24_eligible_rows": 0,
+      "top24_derivative_rows": 0,
+      "bottom24_derivative_rows": 0
+    },
+    {
+      "image": "android_screen",
+      "boundary_pt": 54.0,
+      "all_rows": 344,
+      "foreground_clear_rows": 105,
+      "eligible_rows": 9,
+      "unoccluded_failed_gate_counts": {
+        "contrast<5x_plateau1_spread_floor1": 94,
+        "contrast<5x_plateau0_spread_floor1": 24,
+        "contrast<8": 24,
+        "source_color_direction_cosine<0.7": 14,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 6,
+        "secondary_peak>0.8primary": 71,
+        "threshold_order_invalid": 4,
+        "location_uncertainty>1pt": 10
+      },
+      "center_reference_18_of_18_pass": false,
+      "top24_eligible_rows": 4,
+      "bottom24_eligible_rows": 5,
+      "top24_derivative_rows": 0,
+      "bottom24_derivative_rows": 0
+    },
+    {
+      "image": "android_screen",
+      "boundary_pt": 324.0,
+      "all_rows": 344,
+      "foreground_clear_rows": 106,
+      "eligible_rows": 16,
+      "unoccluded_failed_gate_counts": {
+        "contrast<5x_plateau1_spread_floor1": 30,
+        "contrast<8": 30,
+        "contrast<5x_plateau0_spread_floor1": 88,
+        "source_color_direction_cosine<0.7": 16,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 10,
+        "secondary_peak>0.8primary": 62,
+        "threshold_order_invalid": 2,
+        "location_uncertainty>1pt": 6
+      },
+      "center_reference_18_of_18_pass": false,
+      "top24_eligible_rows": 8,
+      "bottom24_eligible_rows": 8,
+      "top24_derivative_rows": 0,
+      "bottom24_derivative_rows": 0
+    },
+    {
+      "image": "android_screen",
+      "boundary_pt": 72.0,
+      "all_rows": 344,
+      "foreground_clear_rows": 105,
+      "eligible_rows": 5,
+      "unoccluded_failed_gate_counts": {
+        "source_color_direction_cosine<0.7": 1,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 2,
+        "contrast<5x_plateau0_spread_floor1": 46,
+        "secondary_peak>0.8primary": 80,
+        "contrast<5x_plateau1_spread_floor1": 88
+      },
+      "center_reference_18_of_18_pass": false,
+      "top24_eligible_rows": 4,
+      "bottom24_eligible_rows": 1,
+      "top24_derivative_rows": 0,
+      "bottom24_derivative_rows": 0
+    },
+    {
+      "image": "android_screen",
+      "boundary_pt": 306.0,
+      "all_rows": 344,
+      "foreground_clear_rows": 106,
+      "eligible_rows": 61,
+      "unoccluded_failed_gate_counts": {
+        "contrast<5x_plateau0_spread_floor1": 2,
+        "contrast<5x_plateau1_spread_floor1": 43,
+        "secondary_peak>0.8primary": 10
+      },
+      "center_reference_18_of_18_pass": true,
+      "top24_eligible_rows": 17,
+      "bottom24_eligible_rows": 6,
+      "top24_derivative_rows": 0,
+      "bottom24_derivative_rows": 0
+    },
+    {
+      "image": "android_window",
+      "boundary_pt": 54.0,
+      "all_rows": 344,
+      "foreground_clear_rows": 105,
+      "eligible_rows": 3,
+      "unoccluded_failed_gate_counts": {
+        "contrast<8": 28,
+        "contrast<5x_plateau0_spread_floor1": 26,
+        "contrast<5x_plateau1_spread_floor1": 97,
+        "source_color_direction_cosine<0.7": 18,
+        "positive_derivative_peak_missing": 2,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 10,
+        "transition_raw_backward_step>1count": 5,
+        "secondary_peak>0.8primary": 71,
+        "threshold_order_invalid": 4,
+        "location_uncertainty>1pt": 10
+      },
+      "center_reference_18_of_18_pass": false,
+      "top24_eligible_rows": 0,
+      "bottom24_eligible_rows": 3,
+      "top24_derivative_rows": 0,
+      "bottom24_derivative_rows": 0
+    },
+    {
+      "image": "android_window",
+      "boundary_pt": 324.0,
+      "all_rows": 344,
+      "foreground_clear_rows": 106,
+      "eligible_rows": 0,
+      "unoccluded_failed_gate_counts": {
+        "contrast<8": 34,
+        "contrast<5x_plateau0_spread_floor1": 94,
+        "contrast<5x_plateau1_spread_floor1": 34,
+        "source_color_direction_cosine<0.7": 34,
+        "positive_derivative_peak_missing": 2,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 12,
+        "transition_raw_backward_step>1count": 7,
+        "secondary_peak>0.8primary": 62,
+        "threshold_order_invalid": 2,
+        "location_uncertainty>1pt": 6
+      },
+      "center_reference_18_of_18_pass": false,
+      "top24_eligible_rows": 0,
+      "bottom24_eligible_rows": 0,
+      "top24_derivative_rows": 0,
+      "bottom24_derivative_rows": 0
+    },
+    {
+      "image": "android_window",
+      "boundary_pt": 72.0,
+      "all_rows": 344,
+      "foreground_clear_rows": 105,
+      "eligible_rows": 5,
+      "unoccluded_failed_gate_counts": {
+        "contrast<5x_plateau0_spread_floor1": 48,
+        "secondary_peak>0.8primary": 81,
+        "transition_raw_backward_step>1count": 2,
+        "contrast<5x_plateau1_spread_floor1": 88,
+        "source_color_direction_cosine<0.7": 1
+      },
+      "center_reference_18_of_18_pass": false,
+      "top24_eligible_rows": 4,
+      "bottom24_eligible_rows": 1,
+      "top24_derivative_rows": 0,
+      "bottom24_derivative_rows": 0
+    },
+    {
+      "image": "android_window",
+      "boundary_pt": 306.0,
+      "all_rows": 344,
+      "foreground_clear_rows": 106,
+      "eligible_rows": 61,
+      "unoccluded_failed_gate_counts": {
+        "contrast<5x_plateau0_spread_floor1": 2,
+        "contrast<5x_plateau1_spread_floor1": 45,
+        "secondary_peak>0.8primary": 10
+      },
+      "center_reference_18_of_18_pass": true,
+      "top24_eligible_rows": 17,
+      "bottom24_eligible_rows": 6,
+      "top24_derivative_rows": 0,
+      "bottom24_derivative_rows": 0
+    }
+  ],
+  "interpretation": [
+    "Native primary center tracks are vertical within the fixed resolution floor; left slope is exactly zero on its16 derivative rows; right inclination maximum0.010778deg has0.0625 slope absolute bound, so no nonzero tilt conclusion.",
+    "Native edge samples are sparse and sign-mixed: neither median alone establishes a full outward-bending trajectory.",
+    "Android primary centers fail all18 rows due plateau-spread and secondary-peak gates. No other center is substituted.",
+    "Window and screen differ near the actual carrier fringe: Window alpha/context is retained. Screen opacity does not identify material silhouette.",
+    "Current periodic stripe data cannot supply a unique2D refractive map or measured normal-field fit. A runtime candidate can be diagnosed with the unchanged plan, but no hidden calibration/acceptance follows."
+  ]
+}

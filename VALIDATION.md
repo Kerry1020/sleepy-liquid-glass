@@ -2,9 +2,13 @@
 
 The [controlled optical study index](docs/controlled-optical-studies.md) links related research assets and their individual stage boundaries. A prepared input or protocol does not inherit the build, capture or analyzer results recorded here.
 
-## Runtime sync and independent build — 2026-11-15
+## Current lateral-field source sync and independent build — 2026-11-15
 
-The current [runtime manifest](provenance/runtime-import.json) imports 38 files byte-for-byte from Sleepy commit `ddbf20e63ea39b4b202531fe427b0d5f548fe60b`: 28 production Kotlin files, one AGSL shader, seven host-test files and two resources. The [previous manifest](provenance/runtime-import-20261114.json) retains the original source identity. The independent public backend retains its four locally adapted official-baseline files; it does not copy the application's custom backend.
+The current [runtime manifest](provenance/runtime-import.json) binds 38 imports to Sleepy `386d4c09a78234c4bc04507f6ef4952d856de3f4`. The independent command below was rerun after the lateral-field import: `runtime:assemble`, seven host suites / **56 tests**, and `sample:assembleDebug` passed with zero failures, errors or skips. The [new receipt](provenance/validation-20261115-lateral.json) records the current manifest SHA-256 and exit code. This checks source / numerical behavior and assembly; it adds no independent-backend device optical acceptance or complete application-control adapters.
+
+## Previous pre-lateral runtime sync — 2026-11-15
+
+The archived [pre-lateral runtime manifest](provenance/runtime-import-20261115-pre-lateral.json) imports 38 files byte-for-byte from Sleepy commit `ddbf20e63ea39b4b202531fe427b0d5f548fe60b`: 28 production Kotlin files, one AGSL shader, seven host-test files and two resources. The [previous manifest](provenance/runtime-import-20261114.json) retains the original source identity. The independent public backend retains its four locally adapted official-baseline files; it does not copy the application's custom backend.
 
 ```sh
 ./gradlew :runtime:assemble :runtime:testAndroidHostTest :sample:assembleDebug --console=plain --max-workers=2
@@ -47,4 +51,13 @@ Sheet API-input 12→10 local analysis is complete but unaccepted: one of 14 ori
 
 The separate native clean-r2 analyzer completed, but its frozen overall result remains **false** under its original ICC-availability gate. Four full REST/repeat pairs have exactly zero decoded RGBA difference; 68 fixed source-footprint comparisons are exact, and public / AX geometry is unchanged. Supplemental PNG inspection records a valid sRGB chunk in all 16 native screenshots, without an iCCP chunk. That supplement does not retrospectively replace the original gate. Full before/after system-context differences are retained separately.
 
-The proposed paired-slope stage has a frozen prospective plan, capture-handoff schema and README only: **uncollected, analysis not implemented, unexecuted, not passed**. Neither clean-fixture stability nor a valid future handoff schema establishes optical identifiability, a unique 2D source map, actual native blur support, physical thickness or parity. These application/native-fixture records remain separate from the independent build validation at the top of this file.
+At that historical publication, the paired-slope stage contained only a frozen plan, handoff schema and README. The later supplement below adds an analyzer and 69 synthetic implementation checks, with no real paired-slope capture or optical pass. Neither clean-fixture stability nor a valid future handoff schema establishes optical identifiability, a unique 2D source map, actual native blur support, physical thickness or parity. These application/native-fixture records remain separate from the independent build validation at the top of this file.
+
+
+## Lateral-field application calibration and control regressions — 2026-11-15
+
+![Native, baseline and two lateral-field candidates; fixed calibration crops](docs/images/panels-lateral-20261115/alert-comparison.png)
+
+The [new supplement](docs/panel-lateral-sampling-study.md) binds the material change to `183114ade357eb65916a5d0464de4c9eef5fd9fb` and subsequent application-button / date-picker source to `386d4c09a78234c4bc04507f6ef4952d856de3f4`. Alert / Sheet presets select lateral gain 0.45. Sixteen static application panels cover four previously observed backgrounds, two themes and two surfaces; they remain calibration. Upper-row harmonic phase is closer to native, while inner-direction and lower-edge errors remain. All 80 rows can be recomputed from published component crops. Frozen stripe analysis retains 8,256 row records and insufficient continuous derivative support; it does not identify a unique source map or physical thickness.
+
+Separate application receipts record **76 JVM tests**, **three final device layout / pointer tests**, and a later **18 button / date-picker JVM tests**, with zero failures in those final runs. The earlier two-failure device log is retained. Original 76-test XML files are unavailable; their original receipt retains hashes and counts. The later 18-test XML files are included. Application test-source snapshots are evidence only and are not registered in the public runtime module. These checks do not establish every-entry routing completion, native optical parity, an independent holdout, or independent-backend device acceptance. The [portable evidence package](docs/evidence/panels-lateral-20261115/README.md) documents hashes, cropped-input limits and reproduction.

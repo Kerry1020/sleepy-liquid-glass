@@ -1,0 +1,1698 @@
+{
+  "series": [
+    {
+      "image": "native",
+      "track": "raw_encoded_RGBA",
+      "boundary_pt": 54.0,
+      "eligible_rows": 40,
+      "center_reference": {
+        "value_pt": 53.78662050147653,
+        "interval_pt": [
+          53.53662050147653,
+          54.03662050147653
+        ],
+        "absolute_bound_pt": 0.25,
+        "all_18_rows_eligible": true
+      },
+      "regions": {
+        "top24": {
+          "rows": 48,
+          "eligible_rows": 4,
+          "x50_pt": {
+            "n": 4,
+            "min": 50.01199076543003,
+            "median": 52.89960120350228,
+            "max": 54.774325706973094
+          },
+          "delta_x_pt": {
+            "n": 4,
+            "min": -3.7746297360464993,
+            "median": -0.8870192979742484,
+            "max": 0.9877052054965674
+          },
+          "outward_pt": {
+            "n": 4,
+            "min": -0.9877052054965674,
+            "median": 0.8870192979742484,
+            "max": 3.7746297360464993
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 2,
+          "outward_negative_absolute_bound_excluded_zero_rows": 1
+        },
+        "bottom24": {
+          "rows": 48,
+          "eligible_rows": 4,
+          "x50_pt": {
+            "n": 4,
+            "min": 50.25061096497952,
+            "median": 53.03957609847025,
+            "max": 54.0687478636808
+          },
+          "delta_x_pt": {
+            "n": 4,
+            "min": -3.536009536497005,
+            "median": -0.7470444030062815,
+            "max": 0.28212736220427104
+          },
+          "outward_pt": {
+            "n": 4,
+            "min": -0.28212736220427104,
+            "median": 0.7470444030062815,
+            "max": 3.536009536497005
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 2,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "center_reference": {
+          "rows": 18,
+          "eligible_rows": 18,
+          "x50_pt": {
+            "n": 18,
+            "min": 53.78662050147653,
+            "median": 53.78662050147653,
+            "max": 53.78662050147653
+          },
+          "delta_x_pt": {
+            "n": 18,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "outward_pt": {
+            "n": 18,
+            "min": -0.0,
+            "median": 0.0,
+            "max": -0.0
+          },
+          "slope": {
+            "n": 15,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "inclination_deg": {
+            "n": 15,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "curvature_per_pt": {
+            "n": 15,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "all": {
+          "rows": 344,
+          "eligible_rows": 40,
+          "x50_pt": {
+            "n": 40,
+            "min": 50.01199076543003,
+            "median": 53.78662050147653,
+            "max": 54.774325706973094
+          },
+          "delta_x_pt": {
+            "n": 40,
+            "min": -3.7746297360464993,
+            "median": 0.0,
+            "max": 0.9877052054965674
+          },
+          "outward_pt": {
+            "n": 40,
+            "min": -0.9877052054965674,
+            "median": 0.0,
+            "max": 3.7746297360464993
+          },
+          "slope": {
+            "n": 16,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "inclination_deg": {
+            "n": 16,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "curvature_per_pt": {
+            "n": 16,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 4,
+          "outward_negative_absolute_bound_excluded_zero_rows": 1
+        }
+      },
+      "all_failed_gate_counts": {
+        "source_color_direction_cosine<0.7": 53,
+        "contrast<5x_plateau0_spread_floor1": 167,
+        "transition_raw_backward_step>1count": 1,
+        "contrast<8": 61,
+        "contrast<5x_plateau1_spread_floor1": 130,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 72,
+        "secondary_peak>0.8primary": 131,
+        "foreground_support_collision": 239,
+        "clear_support<12px": 239,
+        "threshold_order_invalid": 1
+      }
+    },
+    {
+      "image": "native",
+      "track": "raw_encoded_RGBA",
+      "boundary_pt": 324.0,
+      "eligible_rows": 62,
+      "center_reference": {
+        "value_pt": 324.07774892829764,
+        "interval_pt": [
+          323.82774892829764,
+          324.32774892829764
+        ],
+        "absolute_bound_pt": 0.25,
+        "all_18_rows_eligible": true
+      },
+      "regions": {
+        "top24": {
+          "rows": 48,
+          "eligible_rows": 15,
+          "x50_pt": {
+            "n": 15,
+            "min": 323.4172828600837,
+            "median": 324.38880459473256,
+            "max": 327.6042841779158
+          },
+          "delta_x_pt": {
+            "n": 15,
+            "min": -0.6604660682139638,
+            "median": 0.31105566643492466,
+            "max": 3.5265352496181777
+          },
+          "outward_pt": {
+            "n": 15,
+            "min": -0.6604660682139638,
+            "median": 0.31105566643492466,
+            "max": 3.5265352496181777
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 3,
+          "outward_negative_absolute_bound_excluded_zero_rows": 1
+        },
+        "bottom24": {
+          "rows": 48,
+          "eligible_rows": 9,
+          "x50_pt": {
+            "n": 9,
+            "min": 323.70397565618686,
+            "median": 323.99989210286,
+            "max": 327.8176698274719
+          },
+          "delta_x_pt": {
+            "n": 9,
+            "min": -0.3737732721107818,
+            "median": -0.0778568254376637,
+            "max": 3.739920899174251
+          },
+          "outward_pt": {
+            "n": 9,
+            "min": -0.3737732721107818,
+            "median": -0.0778568254376637,
+            "max": 3.739920899174251
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 3,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "center_reference": {
+          "rows": 18,
+          "eligible_rows": 18,
+          "x50_pt": {
+            "n": 18,
+            "min": 324.07774892829764,
+            "median": 324.07774892829764,
+            "max": 324.0785013750814
+          },
+          "delta_x_pt": {
+            "n": 18,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0007524467837356497
+          },
+          "outward_pt": {
+            "n": 18,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0007524467837356497
+          },
+          "slope": {
+            "n": 15,
+            "min": 0.0,
+            "median": 9.405584796695621e-05,
+            "max": 0.00018811169593391242
+          },
+          "inclination_deg": {
+            "n": 15,
+            "min": 0.0,
+            "median": 0.005389003111139439,
+            "max": 0.01077800612693122
+          },
+          "curvature_per_pt": {
+            "n": 15,
+            "min": -4.7027923359429135e-05,
+            "median": 4.7027923359429135e-05,
+            "max": 4.7027923359429135e-05
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "all": {
+          "rows": 344,
+          "eligible_rows": 62,
+          "x50_pt": {
+            "n": 62,
+            "min": 323.4172828600837,
+            "median": 324.07774892829764,
+            "max": 327.8176698274719
+          },
+          "delta_x_pt": {
+            "n": 62,
+            "min": -0.6604660682139638,
+            "median": 0.0,
+            "max": 3.739920899174251
+          },
+          "outward_pt": {
+            "n": 62,
+            "min": -0.6604660682139638,
+            "median": 0.0,
+            "max": 3.739920899174251
+          },
+          "slope": {
+            "n": 16,
+            "min": 0.0,
+            "median": 9.405584796695621e-05,
+            "max": 0.00018811169593391242
+          },
+          "inclination_deg": {
+            "n": 16,
+            "min": 0.0,
+            "median": 0.005389003111139439,
+            "max": 0.01077800612693122
+          },
+          "curvature_per_pt": {
+            "n": 16,
+            "min": -4.7027923359429135e-05,
+            "median": 2.3513961679714567e-05,
+            "max": 4.7027923359429135e-05
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 6,
+          "outward_negative_absolute_bound_excluded_zero_rows": 1
+        }
+      },
+      "all_failed_gate_counts": {
+        "contrast<5x_plateau1_spread_floor1": 121,
+        "contrast<8": 32,
+        "source_color_direction_cosine<0.7": 59,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 49,
+        "contrast<5x_plateau0_spread_floor1": 82,
+        "secondary_peak>0.8primary": 32,
+        "foreground_support_collision": 238,
+        "clear_support<12px": 238,
+        "location_uncertainty>1pt": 1
+      }
+    },
+    {
+      "image": "native",
+      "track": "raw_encoded_RGBA",
+      "boundary_pt": 72.0,
+      "eligible_rows": 16,
+      "center_reference": null,
+      "regions": {
+        "top24": {
+          "rows": 48,
+          "eligible_rows": 12,
+          "x50_pt": {
+            "n": 12,
+            "min": 71.57219068067904,
+            "median": 72.00293131503149,
+            "max": 72.27849644868249
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "bottom24": {
+          "rows": 48,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "center_reference": {
+          "rows": 18,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "all": {
+          "rows": 344,
+          "eligible_rows": 16,
+          "x50_pt": {
+            "n": 16,
+            "min": 71.57219068067904,
+            "median": 72.12743476787091,
+            "max": 72.27849644868249
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        }
+      },
+      "all_failed_gate_counts": {
+        "contrast<5x_plateau0_spread_floor1": 103,
+        "source_color_direction_cosine<0.7": 47,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 67,
+        "contrast<5x_plateau1_spread_floor1": 227,
+        "secondary_peak>0.8primary": 77,
+        "contrast<8": 19,
+        "foreground_support_collision": 239,
+        "clear_support<12px": 239,
+        "transition_raw_backward_step>1count": 1
+      }
+    },
+    {
+      "image": "native",
+      "track": "raw_encoded_RGBA",
+      "boundary_pt": 306.0,
+      "eligible_rows": 9,
+      "center_reference": null,
+      "regions": {
+        "top24": {
+          "rows": 48,
+          "eligible_rows": 9,
+          "x50_pt": {
+            "n": 9,
+            "min": 306.0247117499212,
+            "median": 306.18046360897876,
+            "max": 306.48480253019306
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "bottom24": {
+          "rows": 48,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "center_reference": {
+          "rows": 18,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "all": {
+          "rows": 344,
+          "eligible_rows": 9,
+          "x50_pt": {
+            "n": 9,
+            "min": 306.0247117499212,
+            "median": 306.18046360897876,
+            "max": 306.48480253019306
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        }
+      },
+      "all_failed_gate_counts": {
+        "source_color_direction_cosine<0.7": 6,
+        "contrast<5x_plateau0_spread_floor1": 17,
+        "secondary_peak>0.8primary": 275,
+        "contrast<5x_plateau1_spread_floor1": 236,
+        "foreground_support_collision": 238,
+        "clear_support<12px": 238
+      }
+    },
+    {
+      "image": "android_screen",
+      "track": "raw_encoded_RGBA",
+      "boundary_pt": 54.0,
+      "eligible_rows": 9,
+      "center_reference": null,
+      "regions": {
+        "top24": {
+          "rows": 48,
+          "eligible_rows": 4,
+          "x50_pt": {
+            "n": 4,
+            "min": 50.43994627575459,
+            "median": 53.02660730505798,
+            "max": 54.231125218191416
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "bottom24": {
+          "rows": 48,
+          "eligible_rows": 5,
+          "x50_pt": {
+            "n": 5,
+            "min": 50.59995188298833,
+            "median": 54.0,
+            "max": 54.27842520079131
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "center_reference": {
+          "rows": 18,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "all": {
+          "rows": 344,
+          "eligible_rows": 9,
+          "x50_pt": {
+            "n": 9,
+            "min": 50.43994627575459,
+            "median": 54.0,
+            "max": 54.27842520079131
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        }
+      },
+      "all_failed_gate_counts": {
+        "contrast<5x_plateau1_spread_floor1": 274,
+        "contrast<5x_plateau0_spread_floor1": 99,
+        "contrast<8": 38,
+        "source_color_direction_cosine<0.7": 37,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 57,
+        "secondary_peak>0.8primary": 255,
+        "threshold_order_invalid": 4,
+        "location_uncertainty>1pt": 11,
+        "foreground_support_collision": 239,
+        "clear_support<12px": 239,
+        "transition_raw_backward_step>1count": 13
+      }
+    },
+    {
+      "image": "android_screen",
+      "track": "raw_encoded_RGBA",
+      "boundary_pt": 324.0,
+      "eligible_rows": 16,
+      "center_reference": null,
+      "regions": {
+        "top24": {
+          "rows": 48,
+          "eligible_rows": 8,
+          "x50_pt": {
+            "n": 8,
+            "min": 323.4918547937637,
+            "median": 324.24503461615905,
+            "max": 328.38543843409735
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "bottom24": {
+          "rows": 48,
+          "eligible_rows": 8,
+          "x50_pt": {
+            "n": 8,
+            "min": 323.4911825217754,
+            "median": 324.163382669171,
+            "max": 328.22111232050366
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "center_reference": {
+          "rows": 18,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "all": {
+          "rows": 344,
+          "eligible_rows": 16,
+          "x50_pt": {
+            "n": 16,
+            "min": 323.4911825217754,
+            "median": 324.163382669171,
+            "max": 328.38543843409735
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        }
+      },
+      "all_failed_gate_counts": {
+        "contrast<5x_plateau1_spread_floor1": 30,
+        "contrast<8": 30,
+        "contrast<5x_plateau0_spread_floor1": 314,
+        "source_color_direction_cosine<0.7": 16,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 10,
+        "secondary_peak>0.8primary": 205,
+        "threshold_order_invalid": 2,
+        "location_uncertainty>1pt": 8,
+        "foreground_support_collision": 238,
+        "clear_support<12px": 238,
+        "transition_raw_backward_step>1count": 17
+      }
+    },
+    {
+      "image": "android_screen",
+      "track": "raw_encoded_RGBA",
+      "boundary_pt": 72.0,
+      "eligible_rows": 5,
+      "center_reference": null,
+      "regions": {
+        "top24": {
+          "rows": 48,
+          "eligible_rows": 4,
+          "x50_pt": {
+            "n": 4,
+            "min": 71.98643810819993,
+            "median": 72.08258130790529,
+            "max": 72.12708246896192
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "bottom24": {
+          "rows": 48,
+          "eligible_rows": 1,
+          "x50_pt": {
+            "n": 1,
+            "min": 72.09091751454841,
+            "median": 72.09091751454841,
+            "max": 72.09091751454841
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "center_reference": {
+          "rows": 18,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "all": {
+          "rows": 344,
+          "eligible_rows": 5,
+          "x50_pt": {
+            "n": 5,
+            "min": 71.98643810819993,
+            "median": 72.09091751454841,
+            "max": 72.12708246896192
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        }
+      },
+      "all_failed_gate_counts": {
+        "source_color_direction_cosine<0.7": 37,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 61,
+        "contrast<5x_plateau0_spread_floor1": 100,
+        "secondary_peak>0.8primary": 297,
+        "contrast<5x_plateau1_spread_floor1": 315,
+        "foreground_support_collision": 239,
+        "clear_support<12px": 239,
+        "contrast<8": 14
+      }
+    },
+    {
+      "image": "android_screen",
+      "track": "raw_encoded_RGBA",
+      "boundary_pt": 306.0,
+      "eligible_rows": 61,
+      "center_reference": {
+        "value_pt": 306.03741065551407,
+        "interval_pt": [
+          305.78741065551407,
+          306.28741065551407
+        ],
+        "absolute_bound_pt": 0.25,
+        "all_18_rows_eligible": true
+      },
+      "regions": {
+        "top24": {
+          "rows": 48,
+          "eligible_rows": 17,
+          "x50_pt": {
+            "n": 17,
+            "min": 306.0080865072987,
+            "median": 306.03741065551407,
+            "max": 306.33352976835516
+          },
+          "delta_x_pt": {
+            "n": 17,
+            "min": -0.02932414821538032,
+            "median": 0.0,
+            "max": 0.2961191128410974
+          },
+          "outward_pt": {
+            "n": 17,
+            "min": -0.02932414821538032,
+            "median": 0.0,
+            "max": 0.2961191128410974
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "bottom24": {
+          "rows": 48,
+          "eligible_rows": 6,
+          "x50_pt": {
+            "n": 6,
+            "min": 306.1612557737081,
+            "median": 306.28506946997067,
+            "max": 306.33352976835516
+          },
+          "delta_x_pt": {
+            "n": 6,
+            "min": 0.12384511819402633,
+            "median": 0.24765881445659943,
+            "max": 0.2961191128410974
+          },
+          "outward_pt": {
+            "n": 6,
+            "min": 0.12384511819402633,
+            "median": 0.24765881445659943,
+            "max": 0.2961191128410974
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "center_reference": {
+          "rows": 18,
+          "eligible_rows": 18,
+          "x50_pt": {
+            "n": 18,
+            "min": 306.03741065551407,
+            "median": 306.03741065551407,
+            "max": 306.03741065551407
+          },
+          "delta_x_pt": {
+            "n": 18,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "outward_pt": {
+            "n": 18,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "slope": {
+            "n": 15,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "inclination_deg": {
+            "n": 15,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "curvature_per_pt": {
+            "n": 15,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "all": {
+          "rows": 344,
+          "eligible_rows": 61,
+          "x50_pt": {
+            "n": 61,
+            "min": 306.0080865072987,
+            "median": 306.03741065551407,
+            "max": 306.33352976835516
+          },
+          "delta_x_pt": {
+            "n": 61,
+            "min": -0.02932414821538032,
+            "median": 0.0,
+            "max": 0.2961191128410974
+          },
+          "outward_pt": {
+            "n": 61,
+            "min": -0.02932414821538032,
+            "median": 0.0,
+            "max": 0.2961191128410974
+          },
+          "slope": {
+            "n": 16,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "inclination_deg": {
+            "n": 16,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "curvature_per_pt": {
+            "n": 16,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        }
+      },
+      "all_failed_gate_counts": {
+        "contrast<5x_plateau0_spread_floor1": 2,
+        "contrast<5x_plateau1_spread_floor1": 48,
+        "secondary_peak>0.8primary": 12,
+        "foreground_support_collision": 238,
+        "clear_support<12px": 238
+      }
+    },
+    {
+      "image": "android_window",
+      "track": "raw_encoded_RGBA",
+      "boundary_pt": 54.0,
+      "eligible_rows": 3,
+      "center_reference": null,
+      "regions": {
+        "top24": {
+          "rows": 48,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "bottom24": {
+          "rows": 48,
+          "eligible_rows": 3,
+          "x50_pt": {
+            "n": 3,
+            "min": 51.50799729529037,
+            "median": 53.54524075257855,
+            "max": 55.97138667203357
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "center_reference": {
+          "rows": 18,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "all": {
+          "rows": 344,
+          "eligible_rows": 3,
+          "x50_pt": {
+            "n": 3,
+            "min": 51.50799729529037,
+            "median": 53.54524075257855,
+            "max": 55.97138667203357
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        }
+      },
+      "all_failed_gate_counts": {
+        "contrast<8": 42,
+        "contrast<5x_plateau0_spread_floor1": 101,
+        "contrast<5x_plateau1_spread_floor1": 277,
+        "source_color_direction_cosine<0.7": 41,
+        "positive_derivative_peak_missing": 2,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 61,
+        "transition_raw_backward_step>1count": 18,
+        "secondary_peak>0.8primary": 255,
+        "threshold_order_invalid": 4,
+        "location_uncertainty>1pt": 11,
+        "foreground_support_collision": 239,
+        "clear_support<12px": 239
+      }
+    },
+    {
+      "image": "android_window",
+      "track": "raw_encoded_RGBA",
+      "boundary_pt": 324.0,
+      "eligible_rows": 0,
+      "center_reference": null,
+      "regions": {
+        "top24": {
+          "rows": 48,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "bottom24": {
+          "rows": 48,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "center_reference": {
+          "rows": 18,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "all": {
+          "rows": 344,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        }
+      },
+      "all_failed_gate_counts": {
+        "contrast<8": 34,
+        "contrast<5x_plateau0_spread_floor1": 320,
+        "contrast<5x_plateau1_spread_floor1": 34,
+        "source_color_direction_cosine<0.7": 34,
+        "positive_derivative_peak_missing": 2,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 12,
+        "transition_raw_backward_step>1count": 24,
+        "secondary_peak>0.8primary": 205,
+        "threshold_order_invalid": 2,
+        "location_uncertainty>1pt": 8,
+        "foreground_support_collision": 238,
+        "clear_support<12px": 238
+      }
+    },
+    {
+      "image": "android_window",
+      "track": "raw_encoded_RGBA",
+      "boundary_pt": 72.0,
+      "eligible_rows": 5,
+      "center_reference": null,
+      "regions": {
+        "top24": {
+          "rows": 48,
+          "eligible_rows": 4,
+          "x50_pt": {
+            "n": 4,
+            "min": 71.98643810819993,
+            "median": 72.08258130790529,
+            "max": 72.12708246896192
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "bottom24": {
+          "rows": 48,
+          "eligible_rows": 1,
+          "x50_pt": {
+            "n": 1,
+            "min": 72.09091751454841,
+            "median": 72.09091751454841,
+            "max": 72.09091751454841
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "center_reference": {
+          "rows": 18,
+          "eligible_rows": 0,
+          "x50_pt": {
+            "n": 0
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "all": {
+          "rows": 344,
+          "eligible_rows": 5,
+          "x50_pt": {
+            "n": 5,
+            "min": 71.98643810819993,
+            "median": 72.09091751454841,
+            "max": 72.12708246896192
+          },
+          "delta_x_pt": {
+            "n": 0
+          },
+          "outward_pt": {
+            "n": 0
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        }
+      },
+      "all_failed_gate_counts": {
+        "contrast<5x_plateau0_spread_floor1": 102,
+        "secondary_peak>0.8primary": 298,
+        "transition_raw_backward_step>1count": 2,
+        "contrast<5x_plateau1_spread_floor1": 315,
+        "foreground_support_collision": 239,
+        "clear_support<12px": 239,
+        "smoothed_increasing_10_50_90_missing_or_nonunique": 59,
+        "source_color_direction_cosine<0.7": 37,
+        "contrast<8": 14
+      }
+    },
+    {
+      "image": "android_window",
+      "track": "raw_encoded_RGBA",
+      "boundary_pt": 306.0,
+      "eligible_rows": 61,
+      "center_reference": {
+        "value_pt": 306.03741065551407,
+        "interval_pt": [
+          305.78741065551407,
+          306.28741065551407
+        ],
+        "absolute_bound_pt": 0.25,
+        "all_18_rows_eligible": true
+      },
+      "regions": {
+        "top24": {
+          "rows": 48,
+          "eligible_rows": 17,
+          "x50_pt": {
+            "n": 17,
+            "min": 305.7062429607343,
+            "median": 306.03741065551407,
+            "max": 306.33352976835516
+          },
+          "delta_x_pt": {
+            "n": 17,
+            "min": -0.33116769477976504,
+            "median": 0.0,
+            "max": 0.2961191128410974
+          },
+          "outward_pt": {
+            "n": 17,
+            "min": -0.33116769477976504,
+            "median": 0.0,
+            "max": 0.2961191128410974
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "bottom24": {
+          "rows": 48,
+          "eligible_rows": 6,
+          "x50_pt": {
+            "n": 6,
+            "min": 305.785765107514,
+            "median": 306.2787565268818,
+            "max": 306.33352976835516
+          },
+          "delta_x_pt": {
+            "n": 6,
+            "min": -0.2516455480000559,
+            "median": 0.24134587136771302,
+            "max": 0.2961191128410974
+          },
+          "outward_pt": {
+            "n": 6,
+            "min": -0.2516455480000559,
+            "median": 0.24134587136771302,
+            "max": 0.2961191128410974
+          },
+          "slope": {
+            "n": 0
+          },
+          "inclination_deg": {
+            "n": 0
+          },
+          "curvature_per_pt": {
+            "n": 0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "center_reference": {
+          "rows": 18,
+          "eligible_rows": 18,
+          "x50_pt": {
+            "n": 18,
+            "min": 306.03741065551407,
+            "median": 306.03741065551407,
+            "max": 306.03741065551407
+          },
+          "delta_x_pt": {
+            "n": 18,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "outward_pt": {
+            "n": 18,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "slope": {
+            "n": 15,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "inclination_deg": {
+            "n": 15,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "curvature_per_pt": {
+            "n": 15,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        },
+        "all": {
+          "rows": 344,
+          "eligible_rows": 61,
+          "x50_pt": {
+            "n": 61,
+            "min": 305.7062429607343,
+            "median": 306.03741065551407,
+            "max": 306.33352976835516
+          },
+          "delta_x_pt": {
+            "n": 61,
+            "min": -0.33116769477976504,
+            "median": 0.0,
+            "max": 0.2961191128410974
+          },
+          "outward_pt": {
+            "n": 61,
+            "min": -0.33116769477976504,
+            "median": 0.0,
+            "max": 0.2961191128410974
+          },
+          "slope": {
+            "n": 16,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "inclination_deg": {
+            "n": 16,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "curvature_per_pt": {
+            "n": 16,
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "outward_positive_absolute_bound_excluded_zero_rows": 0,
+          "outward_negative_absolute_bound_excluded_zero_rows": 0
+        }
+      },
+      "all_failed_gate_counts": {
+        "contrast<5x_plateau0_spread_floor1": 2,
+        "contrast<5x_plateau1_spread_floor1": 50,
+        "secondary_peak>0.8primary": 12,
+        "foreground_support_collision": 238,
+        "clear_support<12px": 238
+      }
+    }
+  ],
+  "output": "/Users/kerrylee/Documents/Codex/2026-11-10/1-sleepy-2-26-3-1/artifacts/glass-panel-thickness-20261115/analysis-stripe-curvature-20261115"
+}

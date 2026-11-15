@@ -1,0 +1,8 @@
+{
+  "frozen_plan_sha256": "cd7d5bb434176540894b251c84b0f1381d143552195c9a4e0dae088ac2f099e3",
+  "original_69_check_freeze_sha256": "8b3deaca28c66c8527528f13664abd00042fba958b12e7c2d91c01e5d1056a54",
+  "operator_sha256": "4182b26a2f7c1d5f0e32c74981bc9c91bb81aae85e1280e4336ab4ea420ead64",
+  "implementation_sha256": "f64b65aaf84656bbf29ab7c9c56ad7369da36ee7732054704aaead68a85a1c66",
+  "scope": "light Alert only, 4 fixed boundaries, native/screen/window separately; no new captures or fits",
+  "real_png_pixels_decoded_when_implementation_frozen": 0
+}

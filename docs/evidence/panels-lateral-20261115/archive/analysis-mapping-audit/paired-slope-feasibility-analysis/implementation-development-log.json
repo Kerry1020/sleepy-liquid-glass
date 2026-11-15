@@ -1,0 +1,15 @@
+{
+  "scope": "Synthetic-only implementation development",
+  "initial_attempt": {
+    "result": "Runtime failure before completing checks",
+    "error": "ValueError parsing source_id with split('_a') because '_alert' also contains that substring",
+    "correction": "Use rsplit('_a',1) to select the half-width suffix"
+  },
+  "source_polarity_crosscheck": {
+    "result": "Generator source inspection established normal polarity is dark wedge60 and exterior190; analytic helper aligned before final freeze",
+    "independent_verification": "All four regenerated analytic RGB arrays match frozen source_RGB_sha256 without opening a source PNG"
+  },
+  "final_check_report": "synthetic-results.json",
+  "real_original_source_pngs_decoded": 0,
+  "real_capture_pngs_decoded": 0
+}

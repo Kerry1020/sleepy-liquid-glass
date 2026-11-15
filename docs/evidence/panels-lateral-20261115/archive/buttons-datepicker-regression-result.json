@@ -1,0 +1,33 @@
+{
+  "command": "./gradlew :app:testDebugUnitTest --tests '*GlassButtonsTest' --tests '*DatePickerTransparencyTest' --tests '*DatePickerFocusTransitionTest' -Pandroid.injected.build.abi=arm64-v8a --console=plain --max-workers=2",
+  "result": "BUILD SUCCESSFUL",
+  "suiteReceipts": [
+    {
+      "name": "com.lingion.sleepy.ui.component.DatePickerFocusTransitionTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "18726668493f22c3e9ae634480f5679de4f0478b2e4d154b8bd773959ec770dc"
+    },
+    {
+      "name": "com.lingion.sleepy.ui.component.DatePickerTransparencyTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "d9eb3767bd410541a287d4895acfc2cb00bd2d6eab5b8c0e605b0ce4330a8295"
+    },
+    {
+      "name": "com.lingion.sleepy.ui.component.liquidglass.GlassButtonsTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sha256": "247d15750072091cc7387fd74def9f4554a347f47d6febb9dc25456fb8230685"
+    }
+  ],
+  "testCount": 18,
+  "failureCount": 0,
+  "logSha256": "59a0ccc6ca6c14e50ef27aab5877c684e622bad2aa4a27be79a340e068932bfd"
+}

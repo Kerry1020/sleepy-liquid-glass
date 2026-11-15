@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "source_sha256": {
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/DockPlatterShape.kt": "5dd86599853fdeaf57485b2e64d80e5f2618ee7b53aef3e4c90eab6c43f04575",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/NativeSliderEndpoint.kt": "c6e10e1decb60296007d64213b748fa8431f7a07de28f325d3b354f94b177ffb",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/BackdropLumaSampler.kt": "6d77550b984982032b2d916e5f0aee1c797e6290266c1a2059068a88b3b19d50",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassDualContourShape.kt": "8aa4e19264ebf8f31cb2687cf8a2d7cdc3ed151394dbe666fb5edecf2146946a",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassEffect.kt": "a46f891c93afd1e90eea0abcb190b146141a284b77af97389efb8feaa8bbdfd0",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputGeometry.kt": "6842a8fb57e6520621a250c4281d969f892bb8153bbb2115f1b872bfc5dde368",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/NativeSegmentedEndpoint.kt": "42e5941f2550735e43c470b001500256f3e55fe45437fb60816d13a3ce1ca607",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/ActiveFrameLoop.kt": "98546593879cf56f574d55d0ae8cd2f5233495deef407eebee363172329d3475",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/NativeDockEndpoint.kt": "ce0ca9a8da1b3273f423b128da3b0cce29b6b20eba62ccfa0be491e41304351f",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/GlassDockMotion.kt": "0c9933e29ad995653052a7eadc4941e18247387a733f9c420b5284aa1e699164",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassStyle.kt": "394710083a996cd6a3f31fa3400ac5d112799ea18bd713f0c59402a8e1030017",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassInputBlur.kt": "06e97f0184c81d9eb34894a9997e78dd3ff0e0d8f72951b3cac0b6337bf6b045",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassPhysics.kt": "20a9d90d15eb26d4be3a225523424e424533e5d52b0e3a96772615cf82cbfc4c",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/BackdropAppearanceHysteresis.kt": "6ecc4392248539cee14fea6df4db3c107308fdf13f05cc71da39c7f33572c0d3",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassOutlineProfile.kt": "6e6d22c59ec41e2ea36ee671be185d4dc96af6491437080ff31971c76813949b",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/FlClashGlassShape.kt": "4b09bde2a6d2dab9ae35920152a5d2055452d7656802f83d8782945f1e463f72",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassExactContour.kt": "f420db2bcc43a8c332594f4b276e9b27768ff77b301b149ab363e513412bd670",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/BackdropContentSignal.kt": "4ac97fbe226fb0abdd1b20a7b3e788e74b05b2e6672246bb4ac5a574109ba0c0",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/NativeDockParentMotion.kt": "866ace235e07e7fb4f99776f985bd0915862f048d121f5acdcf559bea2b4f167",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassGeometry.kt": "2d7e1b79440149cffb9c71151e0a557a2a6ec14cb184bd78492d5b10fae9cff4",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/GlassControlMotion.kt": "2b2fe128c1e833ba52f63ace473c4e16de88d4913b5c49c3c62100b85c8a2132",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/NativeDockDeformation.kt": "7836138f47cde63ed68fd4f3808a7f9651ebb088c427b493bc625127ecdd7b73",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/DockInputClock.kt": "ff3a1526442c1c98d9a82dfd8a1676e4e708d8bb5939d22d7dba2603f335c4c5",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/BackdropAwareForeground.kt": "874a6fabfdcd3f8efba696118f20920e9b17095ba2fc3ccf1943b11a5d6807f2",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/GlassPressMotion.kt": "2412b20ee20f82039082dfa7165ac9abe8c64a79c4f595336cb3697c20debfdd",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/NativeGlassDragDeformation.kt": "b49db084e67163921cd3bd7a8139ca9eafe6a17a827b6bf53d875ebe054e795c",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassSuperellipse.kt": "9cc0362f917d99eaa6f6afb38c14b9eb7ec8bf360075ece001bd64af790f739b",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassShader.kt": "350c07930ffd47f31f341772d22a076a91ec1e0255e241700492b298307e2991",
+    "libraries/liquid-glass/runtime/src/androidMain/assets/shaders/liquid_glass.agsl": "099c20c4325cdd0db4e1117ac74b1151b9ee1efed715e465055156226dce8d41",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassButtons.kt": "5ffa9d399342e967e3bbb8834c25cd955f1896412c08fe307f4523ae9dcfd40b",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassOverlays.kt": "2e4bdf5a6158955b474ff60cf16606c38665e36b8e85c66b38de6b927ba21632",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassControlModifier.kt": "8862d9ec608a79575e5dad1b687ee328ee1ad324859bc3d4f82f037e5edc48b1",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassOverlayContent.kt": "8b2ccdb830c59d784833cb0263bf41c82069897fc2378d4f1eaed6b73ef31993",
+    "app/src/androidTest/java/com/lingion/sleepy/ui/component/NativeGlassParityCaptureTest.kt": "7bd4255c53a7ff606e9d4c80403107f5e6141b35593780b2b20dc6f4b7c77f62"
+  },
+  "binaries": {
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/debug/app-arm64-v8a-debug.apk": "4edfc79765e5fc3b2de7ec4d84822b1f612060a6dc9ac5714f578d6fe26c2f73",
+    "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/app/build/intermediates/apk/androidTest/debug/app-debug-androidTest.apk": "e6ba144dabc4fdace8b69780bab0a7d98b70df8304e57fb61271886f72315c6f"
+  },
+  "tests": [
+    {
+      "name": "LiquidGlassShaderContractTest",
+      "attributes": {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassShaderContractTest",
+        "tests": "50",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T08:05:45.426Z",
+        "hostname": "kerryleedeMacBook.local",
+        "time": "4.614"
+      },
+      "sha256": "4b40e2b6ae3425ac38d8cc2f7b0c1693ba692b622527734de29921de4f34de84"
+    },
+    {
+      "name": "LiquidGlassStyleReferenceTest",
+      "attributes": {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassStyleReferenceTest",
+        "tests": "23",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T08:05:50.044Z",
+        "hostname": "kerryleedeMacBook.local",
+        "time": "0.016"
+      },
+      "sha256": "2f52c989a763cf8c2dabf7d5c4319ba6a7f89b87f3a20460b45938f414d9e0c9"
+    },
+    {
+      "name": "GlassPressMotionTest",
+      "attributes": {
+        "name": "com.lingion.sleepy.ui.component.liquidglass.GlassPressMotionTest",
+        "tests": "3",
+        "skipped": "0",
+        "failures": "0",
+        "errors": "0",
+        "timestamp": "2026-11-15T08:05:45.367Z",
+        "hostname": "kerryleedeMacBook.local",
+        "time": "0.019"
+      },
+      "sha256": "51db0d2b6ae2b9160aec36d5a4ff353f417c0725dc2a7db001178239220806a5"
+    }
+  ],
+  "build_log_sha256": "904c22230be311780da738c941395c40752dc87f89dfed220813db6bd0b2000e",
+  "exit_code": 0
+}

@@ -229,8 +229,16 @@ Sheet 本轮应用 API 输入 **12→10** 已完成局部校准分析，不再�
 
 为后续追踪源坐标，另外完成了去除触发按钮的[原生 clean-r2 可行性采证](docs/evidence/panels-20261115/archive/analysis-mapping-audit/native-clean-analysis/RESULTS.md)：四对 **750×1334** 全图 REST/repeat 各有 **1,000,500 像素**且 RGBA 差为零，68 项固定源区域比较为零，原生 AX / 公开载体坐标保持不变。原先仅检查 ICC 的冻结总门槛仍为 **false**；补充检查记录全部 16 张截图均有合法 sRGB chunk，而无 iCCP。没有修改旧门槛来制造通过，也没有把完整 before/after 中保留的非零系统上下文差异抹去。
 
-下一步[成对斜线探针](docs/evidence/panels-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/README.md)目前**只有已冻结的计划、交接 schema 和说明；尚未采集、尚未实现分析、尚未执行、未通过**。clean-r2 的稳定性不能直接变成唯一二维映射、真实模糊支持域、折射参数或厚度结论。完整状态与来源边界见[验证边界](docs/validation-boundaries.md)。
+这份旧发布快照中的[成对斜线探针](docs/evidence/panels-20261115/archive/analysis-mapping-audit/paired-slope-feasibility-analysis/README.md)停留在计划、交接 schema 和说明阶段。后续补充已冻结分析器并完成 **69 项合成检查**，但未采集、通过真实成对斜线实验；见下节。clean-r2 的稳定性不能直接变成唯一二维映射、真实模糊支持域、折射参数或厚度结论。完整状态与来源边界见[验证边界](docs/validation-boundaries.md)。
 
+
+### 4.8 Alert / Sheet：增强横向取样，保留内侧与下缘偏差
+
+**2026-11-15 · 同一历史校准集上的后续应用实验。** Alert / Sheet 的正折射分支加入横向逆采样项，预设系数为 0.45；其他预设仍为零。固定上缘条纹行 y520 的左 / 右表观相位位移从 baseline 的 **0.176 / 0.159 px** 变为 **−14.731 / 13.757 px**，原生为 **−14.394 / 12.928 px**。这行更接近原生；内侧仍有方向不符，下缘也并非一致改善。这不是源坐标追踪、实际厚度或整体相似度测量。
+
+![图10：原生、baseline、0.025与0.45四个固定组件裁切，保留残差](docs/images/panels-lateral-20261115/alert-comparison.png)
+
+[补充报告](docs/panel-lateral-sampling-study.md)保留冻结条纹诊断的 **8,256 行失败/可用记录**、全部 **80 行**描述性谐波观测、16 个静态面板的组件裁切，以及应用 76 项 JVM、3 项设备按钮、另 18 项按钮/日期选择器回归收据。公开脚本可从保留组件像素复算 80 行；原全屏手机导出与 UI XML 不入库。后续分析器的 69 项合成检查不等于真实成对斜线实验通过。这些应用检查与独立运行库的 56 项检查范围不同，均不构成独立后端光学验收。颜色锐度、最外缘高光、尺寸族与动态仍需分别检验。
 
 ## 5. 已知差距与适用范围
 
@@ -282,7 +290,7 @@ API 33+ 使用 RuntimeShader；API 31–32 可使用 RenderEffect 模糊/鲜艳�
 
 图表使用 Matplotlib / Pillow 生成，提供窄数据表与处理记录，不需要构建 Android 或重跑设备采证矩阵。命令与依赖见[证据目录](docs/evidence/RESULTS.md)。数值图应能从入库数据重画；截图拼图的原始全量私有资料不随库发布，清单保留裁切、缩放与哈希，不把未包含的原图说成可独立恢复。
 
-2026-11-15 同步自 Sleepy `ddbf20e63ea39b4b202531fe427b0d5f548fe60b` 的 38 个运行层文件包含 28 份生产 Kotlin、一个 shader、7 份测试和 2 份资源。独立 `runtime:assemble`、56 项 host 检查及 `sample:assembleDebug` 已通过，7 类测试零失败、错误或跳过；[验证凭据](provenance/validation-20261115.json)绑定导入清单哈希。本轮未进行独立 sample 的新真机光学验收。初版的 38 项检查与 API 36 真机记录仍按 2026-11-14 历史范围保留，见 [VALIDATION.md](VALIDATION.md)。
+2026-11-15 当前[运行库清单](provenance/runtime-import.json)将 38 个文件绑定到 Sleepy `386d4c09a78234c4bc04507f6ef4952d856de3f4`：28 份生产 Kotlin、一个 shader、7 份测试和 2 份资源。独立 `runtime:assemble`、56 项 host 检查及 `sample:assembleDebug` 已通过，7 类测试零失败、错误或跳过；[新验证凭据](provenance/validation-20261115-lateral.json)绑定当前清单哈希。更早 `ddbf20e` 同步的[旧凭据](provenance/validation-20261115.json)只绑定[横向取样前清单](provenance/runtime-import-20261115-pre-lateral.json)。两次构建都没有新独立 sample 真机光学验收。初版 38 项检查与 API 36 真机记录仍保留 2026-11-14 范围，见 [VALIDATION.md](VALIDATION.md)。
 
 ## 7. 贡献与接下来的工作
 

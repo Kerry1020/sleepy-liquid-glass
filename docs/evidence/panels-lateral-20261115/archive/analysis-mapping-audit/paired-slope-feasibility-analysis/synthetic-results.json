@@ -1,0 +1,531 @@
+{
+  "status": "SYNTHETIC IMPLEMENTATION CHECKS PASSED",
+  "synthetic_checks": [
+    {
+      "name": "baseline_known_50_position",
+      "passed": true,
+      "evidence": {
+        "cross50_pt": 158.0,
+        "failed_gates": []
+      }
+    },
+    {
+      "name": "known_translation_3pt",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "known_blur_broadens_not_recenters",
+      "passed": true,
+      "evidence": {
+        "baseline_10_90_width": 3.5902620907048117,
+        "blurred_10_90_width": 9.170930938863421
+      }
+    },
+    {
+      "name": "oracle_reversal_sign_orients_increasing",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "wrong_output_direction_fails",
+      "passed": true,
+      "evidence": [
+        "positive_derivative_peak_missing",
+        "smoothed_increasing_10_50_90_missing_or_nonunique"
+      ]
+    },
+    {
+      "name": "low_contrast_fails_original_threshold",
+      "passed": true,
+      "evidence": [
+        "contrast<8"
+      ]
+    },
+    {
+      "name": "both_plateau_spreads_preserved",
+      "passed": true,
+      "evidence": {
+        "failed": [
+          "contrast<8",
+          "contrast<5x_plateau0_spread_floor1",
+          "contrast<5x_plateau1_spread_floor1",
+          "source_color_direction_cosine<0.7",
+          "smoothed_increasing_10_50_90_missing_or_nonunique"
+        ],
+        "spreads": [
+          154.07631163809702,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "end_plateau_spread_independently_gated",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "double_peak_never_silently_nearest",
+      "passed": true,
+      "evidence": {
+        "ratio": 0.9999999999999998,
+        "peaks": [
+          {
+            "index": 46,
+            "position_pt": 151.25,
+            "height": 31.005560593252376
+          },
+          {
+            "index": 76,
+            "position_pt": 166.25,
+            "height": 31.00556059325237
+          }
+        ],
+        "failed": [
+          "secondary_peak>0.8primary",
+          "location_uncertainty>1pt"
+        ]
+      }
+    },
+    {
+      "name": "raw_transition_backward_step_retained",
+      "passed": true,
+      "evidence": {
+        "maximum_backward": 12.872199549852155,
+        "failed": [
+          "transition_raw_backward_step>1count"
+        ]
+      }
+    },
+    {
+      "name": "all_crossing_directions_multiplicity_retained",
+      "passed": true,
+      "evidence": {
+        "increasing": [
+          148.00000000000026,
+          167.99999999999974
+        ],
+        "decreasing": [
+          158.0
+        ],
+        "level_plateau_segments": [],
+        "increasing_count": 2,
+        "decreasing_count": 1
+      }
+    },
+    {
+      "name": "missing_edge_not_completed",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "foreground_collision_always_fails",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "clear_support_gate",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "tied_primary_uncertainty_fails_fine_scalar",
+      "passed": true,
+      "evidence": {
+        "uncertainty": 8.0,
+        "tied_indices": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ]
+      }
+    },
+    {
+      "name": "quantized_50_respects_raster_floor",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "threshold_exact_ties_explicit",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "known_stretch_and_shift_apparent_math",
+      "passed": true,
+      "evidence": {
+        "eligible": true,
+        "failed_gates": [],
+        "a_pt": 20.0,
+        "d_nominal_AX_pt": 5.0,
+        "label": "APPARENT hypothetical local1D nominal-coordinate quantities",
+        "values": {
+          "L50": 163.25,
+          "R50": 207.75,
+          "W": 44.5,
+          "C": 185.5,
+          "g": 9.0,
+          "U": 2.0,
+          "D": 4.0
+        },
+        "bounds": {
+          "L50": 0.25,
+          "R50": 0.25,
+          "W": 0.5,
+          "C": 0.25,
+          "g": 1.0,
+          "U": 0.25,
+          "D": 1.0
+        }
+      }
+    },
+    {
+      "name": "absolute_bounds_source_quantization_propagated",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "pair_requires_both_independently_eligible",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all_reverse_width_conditions_required_and_compatible",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "reverse_and_width_failure_not_averaged_away",
+      "passed": true,
+      "evidence": {
+        "reverse": [
+          "reverse:L50_disagreement",
+          "reverse:R50_disagreement",
+          "platform_row_reverse_width_quartet_ineligible"
+        ],
+        "width": [
+          "width:U_disagreement",
+          "platform_row_reverse_width_quartet_ineligible"
+        ]
+      }
+    },
+    {
+      "name": "failing_quartet_cannot_export_favorable_subset",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "fixed_h4_known_linear_secants",
+      "passed": true,
+      "evidence": {
+        "platform": "native",
+        "a_pt": 20,
+        "polarity": "normal",
+        "d_nominal_AX_pt": 8.25,
+        "label": "fixed h4 secants of APPARENT nominal-coordinate g; not true map derivatives",
+        "endpoint_and_center_failures": {},
+        "g_prime": {
+          "value": 1.0,
+          "absolute_bound": 0.25
+        },
+        "g_second": {
+          "value": 0.0,
+          "absolute_bound_per_pt": 0.25
+        }
+      }
+    },
+    {
+      "name": "no_boundary_derivatives_or_extrapolation",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "first_secant_only_needs_endpoints_second_needs_center",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "platform_residuals_descriptive_without_pass_threshold",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all_top_source_lines_analytically_constant",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "top50_all9_interval_intersection",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "top50_missing_never_completed",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "undefined_top_direction_never_inferred",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "analytic_raster_original_RGB_hash_paired_slope_alert_a20_normal",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "analytic_raster_original_RGB_hash_paired_slope_alert_a20_reversed",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "analytic_raster_original_RGB_hash_paired_slope_alert_a24_normal",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "analytic_raster_original_RGB_hash_paired_slope_alert_a24_reversed",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "bilateral_math_independent_from_unavailable_top",
+      "passed": true,
+      "evidence": {
+        "bilateral_eligible_rows": 40,
+        "top_failed": [
+          "line0:top_material_direction_not_independently_registered",
+          "line0:source_direction_undefined",
+          "line1:top_material_direction_not_independently_registered"
+        ]
+      }
+    },
+    {
+      "name": "repeat_entire_RGBA_one_pixel_outside_ROI_fails",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "fixed_region_exactness_independent_before_after",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "foreground_expansion2pt_and_full_failure_retention",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "native_all_four_phases_mandatory",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "android_explicit_missing_before_after_insufficient",
+      "passed": true,
+      "evidence": {
+        "eligible": false,
+        "failed_gates": [
+          "missing_phase:clean-before",
+          "missing_phase:dismiss-after",
+          "phase_time_missing_or_invalid"
+        ],
+        "missing_phases": [
+          "clean-before",
+          "dismiss-after"
+        ],
+        "never_synthesized": true,
+        "captured_times": [
+          null,
+          0,
+          1,
+          null
+        ]
+      }
+    },
+    {
+      "name": "repeat_spacing_time_gate",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "unknown_receipt_payload_never_becomes_provenance",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_explicit_sRGB_without_ICC_supported",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_RGBA_alpha_declaration",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_legal_sRGB_intent_0",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_legal_sRGB_intent_1",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_legal_sRGB_intent_2",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_legal_sRGB_intent_3",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_CRC_rejected_before_decode",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_duplicate_and_order_fail",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_IEND_trailing_bytes_fail",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_chunk_bounds_fail",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_IHDR_geometry_fixed",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_IHDR_first_unique_enforced",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_unknown_critical_rejected_before_decode",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_unknown_high_priority_cICP_blocks_sRGB_fallback",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_known_sRGB_cICP_supported",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_gamma_only_raw_not_assumed_sRGB",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_conflicting_lower_declaration_retained",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_valid_RGB_ICC_normalizes_with_profile_intent_hashes",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_invalid_ICC_blocks_lower_sRGB",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_RGBA_tRNS_illegal_alpha_declaration_rejected",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "PNG_invalid_sRGB_intent_unresolved",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "schema_evaluator_required_and_unknown_keys",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "schema_native_full_four_phases_valid",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "schema_native_missing_AX_rejected",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "schema_android_missing_context_preserved_as_error",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "frozen_preparation_files_unchanged",
+      "passed": true,
+      "evidence": null
+    }
+  ],
+  "check_count": 69,
+  "passed_count": 69,
+  "real_source_pngs_decoded": 0,
+  "real_capture_pngs_decoded": 0,
+  "synthetic_image_provenance": "All arrays and PNG streams generated in this process; no capture/source PNG paths opened",
+  "not_an_experimental_pass": true,
+  "claims_disabled": [
+    "unique_2D_mapping",
+    "physical_thickness",
+    "true_blur_source_support",
+    "refraction_or_power_fit",
+    "runtime_parameter_fit_or_product_update",
+    "optical_parity_or_99_99_percent"
+  ]
+}
