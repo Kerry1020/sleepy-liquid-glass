@@ -28,6 +28,8 @@ A [fifth-pass manifest](fifth-pass/SOURCE-MAP.json) preserves the complete origi
 
 A [sixth-pass manifest](sixth-pass/SOURCE-MAP.json) preserves the complete selection-color JVM regression (7,798 bytes), pinned to `1b6b96834765412f5a34658c3e459c01f3b75d71`. It additionally exported nine PNGs on successful runs, with no downstream consumer. The application removes file writes and export-only captures while retaining all four product tests, pixel assertions, gestures and clock steps. The six batches preserve **96 files / 3,588,814 bytes**. This separates research duties; it does not fix or validate control optics.
 
+A [seventh-pass manifest](seventh-pass/SOURCE-MAP.json) preserves two complete regression versions at `ee1f28fb3c81057f1924cde1ad33ae2f3f49c5b0` (13,640 bytes). After export removal they still captured bitmaps only to recycle them without a consumer. The application removes those unused pixel captures while retaining frame-commit synchronization and all actual assertions. Seven batches preserve **98 original versions / 3,602,454 bytes**; historical versions of the same file remain separate.
+
 ```sh
 python3 research/sleepy-research-migration-20261116/verify.py
 python3 research/sleepy-research-migration-20261116/verify.py --source /path/to/sleepy
@@ -36,6 +38,7 @@ python3 research/sleepy-research-migration-20261116/verify.py --manifest researc
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fourth-pass/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fifth-pass/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/sixth-pass/SOURCE-MAP.json --source /path/to/sleepy
+python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/seventh-pass/SOURCE-MAP.json --source /path/to/sleepy
 ```
 
 The default command checks the original 52 mappings. The optional source check reads the pinned commit through Git, even after the working-tree files are removed; the third and fourth commands separately check the follow-up and third-pass manifests. Archived source and text preserve historical paths and status verbatim; they are provenance, not current execution instructions. Use an explicitly enabled external entry point for research.

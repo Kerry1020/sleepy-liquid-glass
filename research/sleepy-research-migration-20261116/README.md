@@ -33,6 +33,8 @@
 
 [第六批迁移清单](sixth-pass/SOURCE-MAP.json)保全选中色 JVM 回归的完整原件，7,798 bytes，来源固定为 `1b6b96834765412f5a34658c3e459c01f3b75d71`。该测试在成功路径额外导出 9 张 PNG，没有后续读取方；应用移除文件写入和仅供导出的截图，保留四项产品测试、像素断言、手势和时钟步骤。六批累计 **96 份、3,588,814 bytes**；这只是研究职责迁出，不是控件或光学修复。
 
+[第七批迁移清单](seventh-pass/SOURCE-MAP.json)保全两份回归在 `ee1f28fb3c81057f1924cde1ad33ae2f3f49c5b0` 的完整版本，共 13,640 bytes。它们删除导出后仍采集并立即回收无读取方的 Bitmap；应用去掉无用途像素采集，保留帧提交同步及全部实际断言。七批累计 **98 份原文版本、3,602,454 bytes**；同一文件的历史版本分别保存，不覆盖早期原件。
+
 ```sh
 python3 research/sleepy-research-migration-20261116/verify.py
 python3 research/sleepy-research-migration-20261116/verify.py --source /path/to/sleepy
@@ -41,6 +43,7 @@ python3 research/sleepy-research-migration-20261116/verify.py --manifest researc
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fourth-pass/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fifth-pass/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/sixth-pass/SOURCE-MAP.json --source /path/to/sleepy
+python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/seventh-pass/SOURCE-MAP.json --source /path/to/sleepy
 ```
 
 第一条逐字节校验本库原 52 个映射；第二条另外使用 `git show` 对照固定来源提交；第三、四条分别校验补充批次与第三批，不要求来源工作区恢复被迁出的文件。归档源码与原文不改写，旧文档中的相对路径、机器路径与历史状态仅保留来源，不能当作当前可执行说明；执行研究使用外置入口并显式选择所需源码。

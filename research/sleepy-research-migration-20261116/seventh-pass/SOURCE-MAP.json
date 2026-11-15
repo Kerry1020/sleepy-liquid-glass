@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "source_repository": "lingion/sleepy",
+  "source_commit": "ee1f28fb3c81057f1924cde1ad33ae2f3f49c5b0",
+  "file_count": 2,
+  "new_files": 2,
+  "reused_files": 0,
+  "total_bytes": 13640,
+  "scope": "Complete pre-cleanup product regressions with discarded bitmap captures left after research export removal. Remove only unused pixel capture; retain frame synchronization and all product assertions.",
+  "files": [
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/DockBackdropAppearanceRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/seventh-pass/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/DockBackdropAppearanceRenderTest.kt",
+      "source_git_blob": "106c5ce86cdb1c7547743280e3b5af9d14e8cac5",
+      "sha256": "56dbcd2defab248b520ee5d255729f841b1435f16dd35d2a9cbadc73d28cdb0f",
+      "bytes": 5235,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassAlertWindowRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/seventh-pass/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassAlertWindowRenderTest.kt",
+      "source_git_blob": "3a6041f8272ebe1c198a7eca0fd43210ca708de3",
+      "sha256": "4868cf3a04f5176ec1fd6388b12f1d3f71349957f97e7757335c336aace31e23",
+      "bytes": 8405,
+      "storage": "new"
+    }
+  ]
+}
