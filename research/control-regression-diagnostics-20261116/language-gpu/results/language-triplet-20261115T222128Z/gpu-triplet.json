@@ -1,0 +1,1723 @@
+{
+  "schema": 1,
+  "research_only": true,
+  "status": "ALL_FIVE_ROWS_MEASURED_NOT_AN_OPTICAL_ACCEPTANCE",
+  "junit_passed": false,
+  "source_sha256": "94b488726ac48e666160f786c5881c53b960fc948016a74a7235a923be2f9639",
+  "capture": "Original real-time fixture and UiAutomation composited display; no Compose clock advance",
+  "background": "Unchanged neutral (.94,.94,.96) and 20dp grid, black alpha .13, width .5dp",
+  "roi": "Original right-48dp..right-30dp and centerY plus\/minus 8dp; rounded pixel edges",
+  "late_delay_ms": 350,
+  "original_minimum_mean_abs_delta_8bit": 6,
+  "original_maximum_mean_rgb_distance_from_first_row_8bit": 5,
+  "device": {
+    "fingerprint": "OnePlus\/CPH2723IN\/OP612BL1:16\/AP3A.240617.008\/V.R4T3.25f9e9f-14dfad-156683:user\/release-keys",
+    "sdk": 36,
+    "model": "PKX110"
+  },
+  "captures": [
+    {
+      "name": "C_stable",
+      "file": "C_stable.png",
+      "capture_begin_uptime_ms": 774072168,
+      "capture_end_uptime_ms": 774072496,
+      "width_px": 1216,
+      "height_px": 2640,
+      "bitmap_config": "ARGB_8888",
+      "bitmap_color_space": "sRGB IEC61966-2.1",
+      "png_roundtrip_same_pixels": true,
+      "active_pointer": false,
+      "requested_source_suppression": false,
+      "last_draw_source_suppression": false,
+      "source_draw_sequence": 1
+    },
+    {
+      "name": "C_late",
+      "file": "C_late.png",
+      "capture_begin_uptime_ms": 774072849,
+      "capture_end_uptime_ms": 774073151,
+      "width_px": 1216,
+      "height_px": 2640,
+      "bitmap_config": "ARGB_8888",
+      "bitmap_color_space": "sRGB IEC61966-2.1",
+      "png_roundtrip_same_pixels": true,
+      "active_pointer": false,
+      "requested_source_suppression": false,
+      "last_draw_source_suppression": false,
+      "source_draw_sequence": 1
+    },
+    {
+      "name": "U_stable",
+      "file": "U_stable.png",
+      "capture_begin_uptime_ms": 774073157,
+      "capture_end_uptime_ms": 774073539,
+      "width_px": 1216,
+      "height_px": 2640,
+      "bitmap_config": "ARGB_8888",
+      "bitmap_color_space": "sRGB IEC61966-2.1",
+      "png_roundtrip_same_pixels": true,
+      "active_pointer": false,
+      "requested_source_suppression": true,
+      "last_draw_source_suppression": true,
+      "source_draw_sequence": 2
+    },
+    {
+      "name": "U_late",
+      "file": "U_late.png",
+      "capture_begin_uptime_ms": 774073891,
+      "capture_end_uptime_ms": 774074196,
+      "width_px": 1216,
+      "height_px": 2640,
+      "bitmap_config": "ARGB_8888",
+      "bitmap_color_space": "sRGB IEC61966-2.1",
+      "png_roundtrip_same_pixels": true,
+      "active_pointer": false,
+      "requested_source_suppression": true,
+      "last_draw_source_suppression": true,
+      "source_draw_sequence": 2
+    },
+    {
+      "name": "C_restored_stable",
+      "file": "C_restored_stable.png",
+      "capture_begin_uptime_ms": 774074203,
+      "capture_end_uptime_ms": 774074544,
+      "width_px": 1216,
+      "height_px": 2640,
+      "bitmap_config": "ARGB_8888",
+      "bitmap_color_space": "sRGB IEC61966-2.1",
+      "png_roundtrip_same_pixels": true,
+      "active_pointer": false,
+      "requested_source_suppression": false,
+      "last_draw_source_suppression": false,
+      "source_draw_sequence": 3
+    },
+    {
+      "name": "C_restored_late",
+      "file": "C_restored_late.png",
+      "capture_begin_uptime_ms": 774074897,
+      "capture_end_uptime_ms": 774075208,
+      "width_px": 1216,
+      "height_px": 2640,
+      "bitmap_config": "ARGB_8888",
+      "bitmap_color_space": "sRGB IEC61966-2.1",
+      "png_roundtrip_same_pixels": true,
+      "active_pointer": false,
+      "requested_source_suppression": false,
+      "last_draw_source_suppression": false,
+      "source_draw_sequence": 3
+    },
+    {
+      "name": "E_stable",
+      "file": "E_stable.png",
+      "capture_begin_uptime_ms": 774076312,
+      "capture_end_uptime_ms": 774076659,
+      "width_px": 1216,
+      "height_px": 2640,
+      "bitmap_config": "ARGB_8888",
+      "bitmap_color_space": "sRGB IEC61966-2.1",
+      "png_roundtrip_same_pixels": true,
+      "active_pointer": false,
+      "requested_source_suppression": false,
+      "last_draw_source_suppression": false,
+      "source_draw_sequence": 7
+    },
+    {
+      "name": "E_late",
+      "file": "E_late.png",
+      "capture_begin_uptime_ms": 774077012,
+      "capture_end_uptime_ms": 774077329,
+      "width_px": 1216,
+      "height_px": 2640,
+      "bitmap_config": "ARGB_8888",
+      "bitmap_color_space": "sRGB IEC61966-2.1",
+      "png_roundtrip_same_pixels": true,
+      "active_pointer": false,
+      "requested_source_suppression": false,
+      "last_draw_source_suppression": false,
+      "source_draw_sequence": 7
+    }
+  ],
+  "geometry": {
+    "C_before": {
+      "uptime_ms": 774072165,
+      "menu_present": false,
+      "general_language_card": {
+        "left": 70,
+        "top": 536,
+        "right": 1147,
+        "bottom": 689
+      },
+      "general_language_value": {
+        "left": 866,
+        "top": 584,
+        "right": 1099,
+        "bottom": 636
+      },
+      "general_language_menu": null,
+      "general_language#zh-CN": null,
+      "general_language#zh-TW": null,
+      "general_language#en": null,
+      "general_language#ja": null,
+      "general_language#es": null,
+      "visual_state": null
+    },
+    "C_after": {
+      "uptime_ms": 774073153,
+      "menu_present": false,
+      "general_language_card": {
+        "left": 70,
+        "top": 536,
+        "right": 1147,
+        "bottom": 689
+      },
+      "general_language_value": {
+        "left": 866,
+        "top": 584,
+        "right": 1099,
+        "bottom": 636
+      },
+      "general_language_menu": null,
+      "general_language#zh-CN": null,
+      "general_language#zh-TW": null,
+      "general_language#en": null,
+      "general_language#ja": null,
+      "general_language#es": null,
+      "visual_state": null
+    },
+    "U_after": {
+      "uptime_ms": 774074199,
+      "menu_present": false,
+      "general_language_card": {
+        "left": 70,
+        "top": 536,
+        "right": 1147,
+        "bottom": 689
+      },
+      "general_language_value": {
+        "left": 866,
+        "top": 584,
+        "right": 1099,
+        "bottom": 636
+      },
+      "general_language_menu": null,
+      "general_language#zh-CN": null,
+      "general_language#zh-TW": null,
+      "general_language#en": null,
+      "general_language#ja": null,
+      "general_language#es": null,
+      "visual_state": null
+    },
+    "C_restored_after": {
+      "uptime_ms": 774075211,
+      "menu_present": false,
+      "general_language_card": {
+        "left": 70,
+        "top": 536,
+        "right": 1147,
+        "bottom": 689
+      },
+      "general_language_value": {
+        "left": 866,
+        "top": 584,
+        "right": 1099,
+        "bottom": 636
+      },
+      "general_language_menu": null,
+      "general_language#zh-CN": null,
+      "general_language#zh-TW": null,
+      "general_language#en": null,
+      "general_language#ja": null,
+      "general_language#es": null,
+      "visual_state": null
+    },
+    "E_before": {
+      "uptime_ms": 774076305,
+      "menu_present": true,
+      "general_language_card": {
+        "left": 70,
+        "top": 536,
+        "right": 1147,
+        "bottom": 689
+      },
+      "general_language_value": {
+        "left": 866,
+        "top": 584,
+        "right": 1099,
+        "bottom": 636
+      },
+      "general_language_menu": {
+        "left": 236.5,
+        "top": 536.0059,
+        "right": 980.5,
+        "bottom": 1221.0059
+      },
+      "general_language#zh-CN": {
+        "left": 266.5,
+        "top": 566.0059,
+        "right": 950.5,
+        "bottom": 691.0059
+      },
+      "general_language#zh-TW": {
+        "left": 266.5,
+        "top": 691.0059,
+        "right": 950.5,
+        "bottom": 816.00586
+      },
+      "general_language#en": {
+        "left": 266.5,
+        "top": 816.00586,
+        "right": 950.5,
+        "bottom": 941.00586
+      },
+      "general_language#ja": {
+        "left": 266.5,
+        "top": 941.00586,
+        "right": 950.5,
+        "bottom": 1066.0059
+      },
+      "general_language#es": {
+        "left": 266.5,
+        "top": 1066.0059,
+        "right": 950.5,
+        "bottom": 1191.0059
+      },
+      "visual_state": {
+        "alpha": 1,
+        "scale_x": 1,
+        "scale_y": 0.99999994
+      }
+    },
+    "E_after": {
+      "uptime_ms": 774077336,
+      "menu_present": true,
+      "general_language_card": {
+        "left": 70,
+        "top": 536,
+        "right": 1147,
+        "bottom": 689
+      },
+      "general_language_value": {
+        "left": 866,
+        "top": 584,
+        "right": 1099,
+        "bottom": 636
+      },
+      "general_language_menu": {
+        "left": 236.5,
+        "top": 536,
+        "right": 980.5,
+        "bottom": 1221
+      },
+      "general_language#zh-CN": {
+        "left": 266.5,
+        "top": 566,
+        "right": 950.5,
+        "bottom": 691
+      },
+      "general_language#zh-TW": {
+        "left": 266.5,
+        "top": 691,
+        "right": 950.5,
+        "bottom": 816
+      },
+      "general_language#en": {
+        "left": 266.5,
+        "top": 816,
+        "right": 950.5,
+        "bottom": 941
+      },
+      "general_language#ja": {
+        "left": 266.5,
+        "top": 941,
+        "right": 950.5,
+        "bottom": 1066
+      },
+      "general_language#es": {
+        "left": 266.5,
+        "top": 1066,
+        "right": 950.5,
+        "bottom": 1191
+      },
+      "visual_state": {
+        "alpha": 1,
+        "scale_x": 1,
+        "scale_y": 1
+      }
+    }
+  },
+  "comparisons": {
+    "E_stable_from_C_stable": {
+      "prior": "C_stable.png",
+      "actual": "E_stable.png",
+      "rows": [
+        {
+          "code": "zh-CN",
+          "prior_mean_rgb_8bit": [
+            240,
+            240,
+            245
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.91569650742673
+          ],
+          "mean_abs_delta_8bit": 4.305232169142245,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0,
+          "roi_pixel_edges": [
+            808,
+            605,
+            861,
+            652
+          ],
+          "original_delta_at_least_6_pass": false,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "zh-TW",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245.01645925331192,
+            245.01645925331192,
+            247.96146126053793
+          ],
+          "mean_abs_delta_8bit": 6.20246219724341,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.026227753245014657,
+          "roi_pixel_edges": [
+            808,
+            730,
+            861,
+            777
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "en",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.92412685668407
+          ],
+          "mean_abs_delta_8bit": 6.179044560417503,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.0028101164191127737,
+          "roi_pixel_edges": [
+            808,
+            855,
+            861,
+            902
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "ja",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.94379767161783
+          ],
+          "mean_abs_delta_8bit": 6.185601498728757,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.009367054730366439,
+          "roi_pixel_edges": [
+            808,
+            980,
+            861,
+            1027
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "es",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.9839421918908
+          ],
+          "mean_abs_delta_8bit": 6.198983005486418,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.02274856148802466,
+          "roi_pixel_edges": [
+            808,
+            1105,
+            861,
+            1152
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        }
+      ],
+      "all_roi_pixels_equal": false,
+      "evaluates_original_material_predicates": true,
+      "all_rows_pass_original_predicates": false
+    },
+    "E_stable_from_U_stable": {
+      "prior": "U_stable.png",
+      "actual": "E_stable.png",
+      "rows": [
+        {
+          "code": "zh-CN",
+          "prior_mean_rgb_8bit": [
+            239.1320754716981,
+            239.1320754716981,
+            244.1320754716981
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.91569650742673
+          ],
+          "mean_abs_delta_8bit": 5.173156697444132,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0,
+          "roi_pixel_edges": [
+            808,
+            605,
+            861,
+            652
+          ],
+          "original_delta_at_least_6_pass": false,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "zh-TW",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245.01645925331192,
+            245.01645925331192,
+            247.96146126053793
+          ],
+          "mean_abs_delta_8bit": 6.20246219724341,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.026227753245014657,
+          "roi_pixel_edges": [
+            808,
+            730,
+            861,
+            777
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "en",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.92412685668407
+          ],
+          "mean_abs_delta_8bit": 6.179044560417503,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.0028101164191127737,
+          "roi_pixel_edges": [
+            808,
+            855,
+            861,
+            902
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "ja",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.94379767161783
+          ],
+          "mean_abs_delta_8bit": 6.185601498728757,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.009367054730366439,
+          "roi_pixel_edges": [
+            808,
+            980,
+            861,
+            1027
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "es",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.9839421918908
+          ],
+          "mean_abs_delta_8bit": 6.198983005486418,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.02274856148802466,
+          "roi_pixel_edges": [
+            808,
+            1105,
+            861,
+            1152
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        }
+      ],
+      "all_roi_pixels_equal": false,
+      "evaluates_original_material_predicates": true,
+      "all_rows_pass_original_predicates": false
+    },
+    "E_late_from_C_late": {
+      "prior": "C_late.png",
+      "actual": "E_late.png",
+      "rows": [
+        {
+          "code": "zh-CN",
+          "prior_mean_rgb_8bit": [
+            240,
+            240,
+            245
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.91569650742673
+          ],
+          "mean_abs_delta_8bit": 4.305232169142245,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0,
+          "roi_pixel_edges": [
+            808,
+            605,
+            861,
+            652
+          ],
+          "original_delta_at_least_6_pass": false,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "zh-TW",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245.01645925331192,
+            245.01645925331192,
+            247.96146126053793
+          ],
+          "mean_abs_delta_8bit": 6.20246219724341,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.026227753245014657,
+          "roi_pixel_edges": [
+            808,
+            730,
+            861,
+            777
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "en",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.92412685668407
+          ],
+          "mean_abs_delta_8bit": 6.179044560417503,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.0028101164191127737,
+          "roi_pixel_edges": [
+            808,
+            855,
+            861,
+            902
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "ja",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.94379767161783
+          ],
+          "mean_abs_delta_8bit": 6.185601498728757,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.009367054730366439,
+          "roi_pixel_edges": [
+            808,
+            980,
+            861,
+            1027
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "es",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.9839421918908
+          ],
+          "mean_abs_delta_8bit": 6.198983005486418,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.02274856148802466,
+          "roi_pixel_edges": [
+            808,
+            1105,
+            861,
+            1152
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        }
+      ],
+      "all_roi_pixels_equal": false,
+      "evaluates_original_material_predicates": true,
+      "all_rows_pass_original_predicates": false
+    },
+    "E_late_from_U_late": {
+      "prior": "U_late.png",
+      "actual": "E_late.png",
+      "rows": [
+        {
+          "code": "zh-CN",
+          "prior_mean_rgb_8bit": [
+            239.1320754716981,
+            239.1320754716981,
+            244.1320754716981
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.91569650742673
+          ],
+          "mean_abs_delta_8bit": 5.173156697444132,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0,
+          "roi_pixel_edges": [
+            808,
+            605,
+            861,
+            652
+          ],
+          "original_delta_at_least_6_pass": false,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "zh-TW",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245.01645925331192,
+            245.01645925331192,
+            247.96146126053793
+          ],
+          "mean_abs_delta_8bit": 6.20246219724341,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.026227753245014657,
+          "roi_pixel_edges": [
+            808,
+            730,
+            861,
+            777
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "en",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.92412685668407
+          ],
+          "mean_abs_delta_8bit": 6.179044560417503,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.0028101164191127737,
+          "roi_pixel_edges": [
+            808,
+            855,
+            861,
+            902
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "ja",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.94379767161783
+          ],
+          "mean_abs_delta_8bit": 6.185601498728757,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.009367054730366439,
+          "roi_pixel_edges": [
+            808,
+            980,
+            861,
+            1027
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        },
+        {
+          "code": "es",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.9839421918908
+          ],
+          "mean_abs_delta_8bit": 6.198983005486418,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.02274856148802466,
+          "roi_pixel_edges": [
+            808,
+            1105,
+            861,
+            1152
+          ],
+          "original_delta_at_least_6_pass": true,
+          "original_row_distance_at_most_5_pass": true
+        }
+      ],
+      "all_roi_pixels_equal": false,
+      "evaluates_original_material_predicates": true,
+      "all_rows_pass_original_predicates": false
+    },
+    "C_stable_from_U_stable": {
+      "prior": "U_stable.png",
+      "actual": "C_stable.png",
+      "rows": [
+        {
+          "code": "zh-CN",
+          "prior_mean_rgb_8bit": [
+            239.1320754716981,
+            239.1320754716981,
+            244.1320754716981
+          ],
+          "actual_mean_rgb_8bit": [
+            240,
+            240,
+            245
+          ],
+          "mean_abs_delta_8bit": 0.8679245283018868,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0,
+          "roi_pixel_edges": [
+            808,
+            605,
+            861,
+            652
+          ]
+        },
+        {
+          "code": "zh-TW",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            730,
+            861,
+            777
+          ]
+        },
+        {
+          "code": "en",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            855,
+            861,
+            902
+          ]
+        },
+        {
+          "code": "ja",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            980,
+            861,
+            1027
+          ]
+        },
+        {
+          "code": "es",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            1105,
+            861,
+            1152
+          ]
+        }
+      ],
+      "all_roi_pixels_equal": false,
+      "evaluates_original_material_predicates": false
+    },
+    "C_restored_stable_from_C_stable": {
+      "prior": "C_stable.png",
+      "actual": "C_restored_stable.png",
+      "rows": [
+        {
+          "code": "zh-CN",
+          "prior_mean_rgb_8bit": [
+            240,
+            240,
+            245
+          ],
+          "actual_mean_rgb_8bit": [
+            240,
+            240,
+            245
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0,
+          "roi_pixel_edges": [
+            808,
+            605,
+            861,
+            652
+          ]
+        },
+        {
+          "code": "zh-TW",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            730,
+            861,
+            777
+          ]
+        },
+        {
+          "code": "en",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            855,
+            861,
+            902
+          ]
+        },
+        {
+          "code": "ja",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            980,
+            861,
+            1027
+          ]
+        },
+        {
+          "code": "es",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            1105,
+            861,
+            1152
+          ]
+        }
+      ],
+      "all_roi_pixels_equal": true,
+      "evaluates_original_material_predicates": false
+    },
+    "temporal_C": {
+      "prior": "C_stable.png",
+      "actual": "C_late.png",
+      "rows": [
+        {
+          "code": "zh-CN",
+          "prior_mean_rgb_8bit": [
+            240,
+            240,
+            245
+          ],
+          "actual_mean_rgb_8bit": [
+            240,
+            240,
+            245
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0,
+          "roi_pixel_edges": [
+            808,
+            605,
+            861,
+            652
+          ]
+        },
+        {
+          "code": "zh-TW",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            730,
+            861,
+            777
+          ]
+        },
+        {
+          "code": "en",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            855,
+            861,
+            902
+          ]
+        },
+        {
+          "code": "ja",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            980,
+            861,
+            1027
+          ]
+        },
+        {
+          "code": "es",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            1105,
+            861,
+            1152
+          ]
+        }
+      ],
+      "all_roi_pixels_equal": true,
+      "evaluates_original_material_predicates": false
+    },
+    "temporal_U": {
+      "prior": "U_stable.png",
+      "actual": "U_late.png",
+      "rows": [
+        {
+          "code": "zh-CN",
+          "prior_mean_rgb_8bit": [
+            239.1320754716981,
+            239.1320754716981,
+            244.1320754716981
+          ],
+          "actual_mean_rgb_8bit": [
+            239.1320754716981,
+            239.1320754716981,
+            244.1320754716981
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0,
+          "roi_pixel_edges": [
+            808,
+            605,
+            861,
+            652
+          ]
+        },
+        {
+          "code": "zh-TW",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.0030777465542446,
+          "roi_pixel_edges": [
+            808,
+            730,
+            861,
+            777
+          ]
+        },
+        {
+          "code": "en",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.0030777465542446,
+          "roi_pixel_edges": [
+            808,
+            855,
+            861,
+            902
+          ]
+        },
+        {
+          "code": "ja",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.0030777465542446,
+          "roi_pixel_edges": [
+            808,
+            980,
+            861,
+            1027
+          ]
+        },
+        {
+          "code": "es",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.0030777465542446,
+          "roi_pixel_edges": [
+            808,
+            1105,
+            861,
+            1152
+          ]
+        }
+      ],
+      "all_roi_pixels_equal": true,
+      "evaluates_original_material_predicates": false
+    },
+    "temporal_C_restored": {
+      "prior": "C_restored_stable.png",
+      "actual": "C_restored_late.png",
+      "rows": [
+        {
+          "code": "zh-CN",
+          "prior_mean_rgb_8bit": [
+            240,
+            240,
+            245
+          ],
+          "actual_mean_rgb_8bit": [
+            240,
+            240,
+            245
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0,
+          "roi_pixel_edges": [
+            808,
+            605,
+            861,
+            652
+          ]
+        },
+        {
+          "code": "zh-TW",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            730,
+            861,
+            777
+          ]
+        },
+        {
+          "code": "en",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            855,
+            861,
+            902
+          ]
+        },
+        {
+          "code": "ja",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            980,
+            861,
+            1027
+          ]
+        },
+        {
+          "code": "es",
+          "prior_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "actual_mean_rgb_8bit": [
+            238.13608992372542,
+            238.13608992372542,
+            243.11481332798073
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 1.8710022748561432,
+          "roi_pixel_edges": [
+            808,
+            1105,
+            861,
+            1152
+          ]
+        }
+      ],
+      "all_roi_pixels_equal": true,
+      "evaluates_original_material_predicates": false
+    },
+    "temporal_E": {
+      "prior": "E_stable.png",
+      "actual": "E_late.png",
+      "rows": [
+        {
+          "code": "zh-CN",
+          "prior_mean_rgb_8bit": [
+            245,
+            245,
+            247.91569650742673
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.91569650742673
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0,
+          "roi_pixel_edges": [
+            808,
+            605,
+            861,
+            652
+          ]
+        },
+        {
+          "code": "zh-TW",
+          "prior_mean_rgb_8bit": [
+            245.01645925331192,
+            245.01645925331192,
+            247.96146126053793
+          ],
+          "actual_mean_rgb_8bit": [
+            245.01645925331192,
+            245.01645925331192,
+            247.96146126053793
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.026227753245014657,
+          "roi_pixel_edges": [
+            808,
+            730,
+            861,
+            777
+          ]
+        },
+        {
+          "code": "en",
+          "prior_mean_rgb_8bit": [
+            245,
+            245,
+            247.92412685668407
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.92412685668407
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.0028101164191127737,
+          "roi_pixel_edges": [
+            808,
+            855,
+            861,
+            902
+          ]
+        },
+        {
+          "code": "ja",
+          "prior_mean_rgb_8bit": [
+            245,
+            245,
+            247.94379767161783
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.94379767161783
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.009367054730366439,
+          "roi_pixel_edges": [
+            808,
+            980,
+            861,
+            1027
+          ]
+        },
+        {
+          "code": "es",
+          "prior_mean_rgb_8bit": [
+            245,
+            245,
+            247.9839421918908
+          ],
+          "actual_mean_rgb_8bit": [
+            245,
+            245,
+            247.9839421918908
+          ],
+          "mean_abs_delta_8bit": 0,
+          "actual_mean_rgb_distance_from_first_row_8bit": 0.02274856148802466,
+          "roi_pixel_edges": [
+            808,
+            1105,
+            861,
+            1152
+          ]
+        }
+      ],
+      "all_roi_pixels_equal": true,
+      "evaluates_original_material_predicates": false
+    }
+  },
+  "limits": [
+    "A frame-commit callback proves HWUI submission, not compositor presentation; original 80ms delay is retained.",
+    "stable names the first settled request; stable\/late pixels must be examined before claiming temporal stability.",
+    "E-U >=6 is a candidate predicate, not a validated material oracle or native optical acceptance.",
+    "A no-material\/one-row-material fault has not been injected by this fixture."
+  ],
+  "control_validity": {
+    "suppression_draw_observed": true,
+    "restored_draw_observed": true,
+    "source_bounds_exactly_retained": true,
+    "value_bounds_exactly_retained": true,
+    "row_bounds_exactly_retained_stable_to_late": false,
+    "expanded_source_alpha": 0,
+    "expanded_handoff_phase": "motion",
+    "fixture_suppression_disabled_for_natural_open": true,
+    "captured_without_active_pointer": true
+  },
+  "density": 2.9750001,
+  "source_screen_bounds_px": {
+    "left": 70,
+    "top": 536,
+    "right": 1147,
+    "bottom": 689
+  },
+  "source_value_screen_bounds_px": {
+    "left": 866,
+    "top": 584,
+    "right": 1099,
+    "bottom": 636
+  },
+  "rows": [
+    {
+      "code": "zh-CN",
+      "stable_screen_bounds_px": {
+        "left": 266.5,
+        "top": 566.0102,
+        "right": 950.5,
+        "bottom": 691.0102
+      },
+      "late_screen_bounds_px": {
+        "left": 266.5,
+        "top": 566,
+        "right": 950.5,
+        "bottom": 691
+      },
+      "roi_screen_bounds_px": {
+        "left": 807.7,
+        "top": 604.7102,
+        "right": 861.25,
+        "bottom": 652.3102
+      },
+      "roi_pixel_edges": [
+        808,
+        605,
+        861,
+        652
+      ],
+      "roi_fraction_inside_source_rect": 1,
+      "roi_fraction_inside_value_rect": 0
+    },
+    {
+      "code": "zh-TW",
+      "stable_screen_bounds_px": {
+        "left": 266.5,
+        "top": 691.0102,
+        "right": 950.5,
+        "bottom": 816.01025
+      },
+      "late_screen_bounds_px": {
+        "left": 266.5,
+        "top": 691,
+        "right": 950.5,
+        "bottom": 816
+      },
+      "roi_screen_bounds_px": {
+        "left": 807.7,
+        "top": 729.71027,
+        "right": 861.25,
+        "bottom": 777.31024
+      },
+      "roi_pixel_edges": [
+        808,
+        730,
+        861,
+        777
+      ],
+      "roi_fraction_inside_source_rect": 0,
+      "roi_fraction_inside_value_rect": 0
+    },
+    {
+      "code": "en",
+      "stable_screen_bounds_px": {
+        "left": 266.5,
+        "top": 816.01025,
+        "right": 950.5,
+        "bottom": 941.01025
+      },
+      "late_screen_bounds_px": {
+        "left": 266.5,
+        "top": 816,
+        "right": 950.5,
+        "bottom": 941
+      },
+      "roi_screen_bounds_px": {
+        "left": 807.7,
+        "top": 854.71027,
+        "right": 861.25,
+        "bottom": 902.31024
+      },
+      "roi_pixel_edges": [
+        808,
+        855,
+        861,
+        902
+      ],
+      "roi_fraction_inside_source_rect": 0,
+      "roi_fraction_inside_value_rect": 0
+    },
+    {
+      "code": "ja",
+      "stable_screen_bounds_px": {
+        "left": 266.5,
+        "top": 941.01025,
+        "right": 950.5,
+        "bottom": 1066.0103
+      },
+      "late_screen_bounds_px": {
+        "left": 266.5,
+        "top": 941,
+        "right": 950.5,
+        "bottom": 1066
+      },
+      "roi_screen_bounds_px": {
+        "left": 807.7,
+        "top": 979.71027,
+        "right": 861.25,
+        "bottom": 1027.3103
+      },
+      "roi_pixel_edges": [
+        808,
+        980,
+        861,
+        1027
+      ],
+      "roi_fraction_inside_source_rect": 0,
+      "roi_fraction_inside_value_rect": 0
+    },
+    {
+      "code": "es",
+      "stable_screen_bounds_px": {
+        "left": 266.5,
+        "top": 1066.0103,
+        "right": 950.5,
+        "bottom": 1191.0103
+      },
+      "late_screen_bounds_px": {
+        "left": 266.5,
+        "top": 1066,
+        "right": 950.5,
+        "bottom": 1191
+      },
+      "roi_screen_bounds_px": {
+        "left": 807.7,
+        "top": 1104.7102,
+        "right": 861.25,
+        "bottom": 1152.3103
+      },
+      "roi_pixel_edges": [
+        808,
+        1105,
+        861,
+        1152
+      ],
+      "roi_fraction_inside_source_rect": 0,
+      "roi_fraction_inside_value_rect": 0
+    }
+  ],
+  "pixel_controls": {
+    "equality_scope": "Only the five sampled row ROIs, with no new numeric tolerance",
+    "unoccluded_source_removal_row_codes": [
+      "zh-TW",
+      "en",
+      "ja",
+      "es"
+    ],
+    "C_U_raw_grid_pixels_equal_in_unoccluded_row_rois": true,
+    "C_restored_C_all_row_roi_pixels_equal": true,
+    "stable_late_all_row_roi_pixels_equal": {
+      "temporal_C": true,
+      "temporal_U": true,
+      "temporal_C_restored": true,
+      "temporal_E": true
+    },
+    "all_temporal_controls_exactly_equal": true
+  },
+  "failure": {
+    "type": "java.lang.AssertionError",
+    "message": "Settled row geometry stays unchanged in late capture expected: java.util.ArrayList<[(zh-CN, Rect.fromLTRB(266.5, 566.0, 950.5, 691.0)), (zh-TW, Rect.fromLTRB(266.5, 691.0, 950.5, 816.0)), (en, Rect.fromLTRB(266.5, 816.0, 950.5, 941.0)), (ja, Rect.fromLTRB(266.5, 941.0, 950.5, 1066.0)), (es, Rect.fromLTRB(266.5, 1066.0, 950.5, 1191.0))]> but was: java.util.ArrayList<[(zh-CN, Rect.fromLTRB(266.5, 566.0, 950.5, 691.0)), (zh-TW, Rect.fromLTRB(266.5, 691.0, 950.5, 816.0)), (en, Rect.fromLTRB(266.5, 816.0, 950.5, 941.0)), (ja, Rect.fromLTRB(266.5, 941.0, 950.5, 1066.0)), (es, Rect.fromLTRB(266.5, 1066.0, 950.5, 1191.0))]>"
+  }
+}

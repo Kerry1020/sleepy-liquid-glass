@@ -1,0 +1,23 @@
+
+com.lingion.sleepy.ui.component.AssetLanguageGpuTripletDiagnosticTest:
+Error in closedUnpaintedAndExpandedGpuTriplet(com.lingion.sleepy.ui.component.AssetLanguageGpuTripletDiagnosticTest):
+java.lang.AssertionError: Settled row geometry stays unchanged in late capture expected: java.util.ArrayList<[(zh-CN, Rect.fromLTRB(266.5, 566.0, 950.5, 691.0)), (zh-TW, Rect.fromLTRB(266.5, 691.0, 950.5, 816.0)), (en, Rect.fromLTRB(266.5, 816.0, 950.5, 941.0)), (ja, Rect.fromLTRB(266.5, 941.0, 950.5, 1066.0)), (es, Rect.fromLTRB(266.5, 1066.0, 950.5, 1191.0))]> but was: java.util.ArrayList<[(zh-CN, Rect.fromLTRB(266.5, 566.0, 950.5, 691.0)), (zh-TW, Rect.fromLTRB(266.5, 691.0, 950.5, 816.0)), (en, Rect.fromLTRB(266.5, 816.0, 950.5, 941.0)), (ja, Rect.fromLTRB(266.5, 941.0, 950.5, 1066.0)), (es, Rect.fromLTRB(266.5, 1066.0, 950.5, 1191.0))]>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at com.lingion.sleepy.ui.component.AssetLanguageGpuTripletDiagnosticTest.closedUnpaintedAndExpandedGpuTriplet(AssetLanguageGpuTripletDiagnosticTest.kt:345)
+
+
+Time: 7.885
+There was 1 failure:
+1) closedUnpaintedAndExpandedGpuTriplet(com.lingion.sleepy.ui.component.AssetLanguageGpuTripletDiagnosticTest)
+java.lang.AssertionError: Settled row geometry stays unchanged in late capture expected: java.util.ArrayList<[(zh-CN, Rect.fromLTRB(266.5, 566.0, 950.5, 691.0)), (zh-TW, Rect.fromLTRB(266.5, 691.0, 950.5, 816.0)), (en, Rect.fromLTRB(266.5, 816.0, 950.5, 941.0)), (ja, Rect.fromLTRB(266.5, 941.0, 950.5, 1066.0)), (es, Rect.fromLTRB(266.5, 1066.0, 950.5, 1191.0))]> but was: java.util.ArrayList<[(zh-CN, Rect.fromLTRB(266.5, 566.0, 950.5, 691.0)), (zh-TW, Rect.fromLTRB(266.5, 691.0, 950.5, 816.0)), (en, Rect.fromLTRB(266.5, 816.0, 950.5, 941.0)), (ja, Rect.fromLTRB(266.5, 941.0, 950.5, 1066.0)), (es, Rect.fromLTRB(266.5, 1066.0, 950.5, 1191.0))]>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at com.lingion.sleepy.ui.component.AssetLanguageGpuTripletDiagnosticTest.closedUnpaintedAndExpandedGpuTriplet(AssetLanguageGpuTripletDiagnosticTest.kt:345)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "run_id": "language-triplet-20261115T222128Z",
+  "source_head": "ee1f28fb3c81057f1924cde1ad33ae2f3f49c5b0",
+  "main_build_source_commit": "d38e9d1a92adcde69264bdd50313948bdd29ab0e",
+  "main_source_difference": "Only one documentation comment removed from GlassSwitch; selected app/runtime/build paths otherwise unchanged",
+  "test_build_source_commit": "e935c5e3b9bc3308930fcf2fe79bbd4f95aab7f6",
+  "test_build_receipt": "../../../host-integration-20261116/build.json",
+  "research_input_hashes_match_build": true,
+  "installed_main_sha256": "566fc53eb6c28a0df7be03b7b07ee0ab8fd28a96b1f471f1669d7bbdbf3063b5",
+  "test_apk_sha256": "df38758670088a7058727efe02a8f9e5cdcce132618d1bf8a087b4914e32b018",
+  "device_api": "36",
+  "display": {
+    "size": "Physical size: 1216x2640",
+    "density": "Physical density: 560\nOverride density: 476"
+  },
+  "apk_rebuilt": false,
+  "main_reinstalled": false,
+  "installed_test_hash_verified": true,
+  "started_utc": "2026-11-15T22:21:59.468590+00:00",
+  "command_exit_code": 0,
+  "elapsed_seconds": 9.105,
+  "raw_log_sha256": "de07ee7fc51fa53d02b167c1a2fde16d40df4b44e98ca445045ac2557f2726dc",
+  "public_log_sha256": "de07ee7fc51fa53d02b167c1a2fde16d40df4b44e98ca445045ac2557f2726dc",
+  "junit_passed": false,
+  "files": [
+    {
+      "path": "C_stable.png",
+      "bytes": 44396,
+      "sha256": "877f89edd8a7791a164016849e2e97a9e0083b242b6ae4f8e4456b8edcef6b05",
+      "device_host_hash_equal": true
+    },
+    {
+      "path": "gpu-triplet.json",
+      "bytes": 46521,
+      "sha256": "630dabe31fe3c69e2daf9aed26a6c414221ec6e9ecbf1c72aec62d3e64967ce2",
+      "device_host_hash_equal": true
+    },
+    {
+      "path": "C_late.png",
+      "bytes": 44396,
+      "sha256": "877f89edd8a7791a164016849e2e97a9e0083b242b6ae4f8e4456b8edcef6b05",
+      "device_host_hash_equal": true
+    },
+    {
+      "path": "U_stable.png",
+      "bytes": 35542,
+      "sha256": "e905c132a2b6959913ecb070a9243001fff717d2ccd48d36894d42fcacf54127",
+      "device_host_hash_equal": true
+    },
+    {
+      "path": "U_late.png",
+      "bytes": 35530,
+      "sha256": "f65dd0a1f7351b15904673f96d6e1c4790a9f402d2781169d7e3449adb4d41fe",
+      "device_host_hash_equal": true
+    },
+    {
+      "path": "C_restored_stable.png",
+      "bytes": 44378,
+      "sha256": "24441a648c62317aa15a3c799c8d1d256639f5468659ab7cfc1dcf9711164b9f",
+      "device_host_hash_equal": true
+    },
+    {
+      "path": "C_restored_late.png",
+      "bytes": 44378,
+      "sha256": "24441a648c62317aa15a3c799c8d1d256639f5468659ab7cfc1dcf9711164b9f",
+      "device_host_hash_equal": true
+    },
+    {
+      "path": "E_stable.png",
+      "bytes": 72711,
+      "sha256": "46217a9e8dc224de6f45e7d282ddbb300be62354d045b93c9b767f03748339dc",
+      "device_host_hash_equal": true
+    },
+    {
+      "path": "E_late.png",
+      "bytes": 72711,
+      "sha256": "46217a9e8dc224de6f45e7d282ddbb300be62354d045b93c9b767f03748339dc",
+      "device_host_hash_equal": true
+    }
+  ],
+  "finished_utc": "2026-11-15T22:22:09.014314+00:00"
+}

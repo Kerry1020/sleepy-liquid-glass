@@ -1,0 +1,5 @@
+{
+  "stage": "before installation or instrumentation",
+  "reason": "Expected deleted documentation-comment text was stale. Actual diff is one removed external-report URL comment; no executable production change.",
+  "device_action_started": false
+}

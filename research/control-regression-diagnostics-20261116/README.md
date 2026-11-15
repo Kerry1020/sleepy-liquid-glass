@@ -21,7 +21,7 @@ Toggle 左移可能出现横向压缩，现有最大宽度测量不足以区分�
 
 ## 外置入口的独立构建记录
 
-[语言菜单 C/U/恢复 C/E 诊断](language-gpu/README.md)与[滑杆外置研究 host](../slider-android-host/README.md)已通过一次显式组合构建：[收据](host-integration-20261116/build.json)、[公开日志](host-integration-20261116/build.log)。固定 Sleepy `e935c5e3`，七份外置输入哈希不变，`:app:assembleDebugAndroidTest --offline --console=plain` 成功，9.232s；普通应用源码与配置未改。未安装或执行这些新入口，没有本轮 GPU 数据、材质验收或行为通过结论。
+[语言菜单 C/U/恢复 C/E 诊断](language-gpu/README.md)与[滑杆外置研究 host](../slider-android-host/README.md)已通过一次显式组合构建：[收据](host-integration-20261116/build.json)、[公开日志](host-integration-20261116/build.log)。固定 Sleepy `e935c5e3`，七份外置输入哈希不变，`:app:assembleDebugAndroidTest --offline --console=plain` 成功，9.232s；普通应用源码与配置未改。随后复用该包执行了[语言菜单首轮 GPU 诊断](language-gpu/results/language-triplet-20261115T222128Z/README.md)：五行数据完整，但精确静止几何控制失败，JUnit 为失败；这不是材质验收或行为通过结论。此次未执行新的滑杆入口。
 
 滑杆 schema2 双文件入口由资产库显式提供冻结 fixture 与完整辅助文件；此次收据验证该版本可编译，不能用旧单文件记录代替。普通 Sleepy 构建不加载任一入口；新的产品回归清理亦未把它们重新放回应用仓库。
 
