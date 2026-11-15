@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "status": "ORIGINAL_BYTES_EXPORTED_AND_FROZEN_ANALYSIS_REPLAYED_EXACTLY_EXCEPT_DECLARED_PATHS",
+  "scope": "Existing eight-round/sixteen-endpoint calibration evidence only; no new capture, experiment, trace or xcresult reads.",
+  "freeze_sha256": "10e82a63abd4ccfe38ad7a88a70367a1612d62fa31b6b57d0e42e8ef8c33354e",
+  "portable_tool_sha256": "45e090b85dcbf647e0f3006229d66320dcf33bd8103d05f801480383fda525a8",
+  "manifest": {
+    "path": "evidence/manifest.json",
+    "sha256": "d1f2d2be9a2cb984cf9ffb8c8a85ee8f9e11ce892be998c9c95666e5644554f6",
+    "files": 66,
+    "bytes": 10973900,
+    "rounds": 8
+  },
+  "original_analysis": {
+    "json_sha256": "5499910555e7aa465f853c2361f55fe4a2300703416a98b82d00de98c393d9ba",
+    "npz_sha256": "11b1e76aa2a0a7766b579bdfd8a8fc8e4bceecda1fc996a34f07d9955a78f695"
+  },
+  "frozen_protocol_sha256": "d0bc03c1b4e897c98b880c08f5755b4c9300d322674c905fd409d76a16d5f827",
+  "frozen_analyzer_sha256": "c64ec32864ea57732d627bf5018834f2f8855c52dba31e277a15dbaa2497c1b8",
+  "replay": {
+    "path": ".local/portable-replay-v1",
+    "receipt_sha256": "c7ebbb6f206d7e27d92769cc1c066ffe8b64446b9ca30c294197763fa3c5a1b7",
+    "exit_code": 0,
+    "normalized_json_exact_equal": true,
+    "array_keys_exact_equal": true,
+    "arrays_compared": 153,
+    "all_array_dtype_shape_values_exact_equal": true,
+    "array_archive_bytes_equal": true,
+    "exact_except_declared_paths": true
+  },
+  "source_receipts_and_pngs": "Original bytes copied without rewriting. Portable sidecar binds all copied bytes and declared old_study_root. Original capture receipts retain their original artifact hashes and absolute paths.",
+  "trace_policy": "Only original receipt lossless_trace_storage hash/size declarations retained. Trace archives and xcresults were neither read, copied nor reverified.",
+  "existing_result_summary": {
+    "complete": {
+      "pixels": 7744,
+      "common_incompatible_by_tolerance": {
+        "1": 146,
+        "4": 49,
+        "8": 0,
+        "16": 0,
+        "24": 0
+      },
+      "common_minimax_max_raw_byte": 7.555555555561159,
+      "input_columns_T4_incompatible": {
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "output_rows_T4_incompatible": {
+        "R": 2,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "above_rail": {
+      "pixels": 4312,
+      "common_incompatible_by_tolerance": {
+        "1": 146,
+        "4": 49,
+        "8": 0,
+        "16": 0,
+        "24": 0
+      },
+      "common_minimax_max_raw_byte": 7.555555555561159,
+      "input_columns_T4_incompatible": {
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "output_rows_T4_incompatible": {
+        "R": 2,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "primary_above_rail_inset_ge1": {
+      "pixels": 1630,
+      "common_incompatible_by_tolerance": {
+        "1": 120,
+        "4": 32,
+        "8": 0,
+        "16": 0,
+        "24": 0
+      },
+      "common_minimax_max_raw_byte": 6.285714285717201,
+      "input_columns_T4_incompatible": {
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "output_rows_T4_incompatible": {
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "above_rail_rim_inset_lt1": {
+      "pixels": 2682,
+      "common_incompatible_by_tolerance": {
+        "1": 26,
+        "4": 17,
+        "8": 0,
+        "16": 0,
+        "24": 0
+      },
+      "common_minimax_max_raw_byte": 7.555555555561159,
+      "input_columns_T4_incompatible": {
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "output_rows_T4_incompatible": {
+        "R": 2,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "rail_confounded": {
+      "pixels": 2816,
+      "common_incompatible_by_tolerance": {
+        "1": 0,
+        "4": 0,
+        "8": 0,
+        "16": 0,
+        "24": 0
+      },
+      "common_minimax_max_raw_byte": 0.7142857143306837,
+      "input_columns_T4_incompatible": {
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "output_rows_T4_incompatible": {
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "below_rail": {
+      "pixels": 616,
+      "common_incompatible_by_tolerance": {
+        "1": 0,
+        "4": 0,
+        "8": 0,
+        "16": 0,
+        "24": 0
+      },
+      "common_minimax_max_raw_byte": 5.000000000000001e-11,
+      "input_columns_T4_incompatible": {
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "output_rows_T4_incompatible": {
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    }
+  },
+  "zero_drift_checks": {
+    "all_recorded_geometry_ranges_zero": true,
+    "all_flat_round_RGB_maxabs_zero": true,
+    "post_pre_shape_RGB_maxabs_zero": true
+  },
+  "observed_fixed_coordinates": {
+    "all_49_common_T4_incompatible_world_bounds_xyxy_pt": [
+      180.25,
+      411.25,
+      187.25,
+      413.75
+    ],
+    "all_49_common_T4_incompatible_capsule_inset_range_pt": [
+      0.35,
+      2.85
+    ],
+    "output_R_T4_incompatible_world_xy_pt": [
+      [
+        183.25,
+        411.25
+      ],
+      [
+        183.75,
+        411.25
+      ]
+    ],
+    "output_R_T4_capsule_inset_pt": 0.35,
+    "input_T1_incompatible_complete": {
+      "R": 0,
+      "G": 3,
+      "B": 0
+    },
+    "note": "Coordinates and inset are descriptive fixed-grid results; capsule is a public-carrier approximation, not native optical alpha."
+  },
+  "supports": [
+    "For this baseline and finite encoded +20 stimuli, a single alpha in [0,1] shared by all nine output/input components is incompatible with primary T4 at 49 ROI pixels, including 32 in the prespecified above-rail inset>=1 domain.",
+    "Separate alpha per input column remains compatible at T4 everywhere. This keeps input-conditioned spatial responses as a candidate family for further discrimination, not as an identified cause.",
+    "The per-output-row family is also compatible in the entire primary domain; two output-R incompatibilities occur only at the 0.35pt rim. Current primary-domain data therefore do not distinguish input-conditioned from output-conditioned families.",
+    "All common-kernel incompatibilities disappear by T8; report T1/4/8/16/24 together rather than treating T4 as a universal physical error bound."
+  ],
+  "does_not_support": [
+    "No unique channel-dependent displacement, blur kernel, chromatic aberration, physical thickness, native alpha or processing order is identified by this one spatial mask.",
+    "Input-column T4 compatibility is not exact equality: input G still has three T1 incompatibilities. The finite encoded-byte contrast can conflate gamma/transfer, local nonlinear/adaptive color, clipping, and mixtures of direct/optical layers.",
+    "Zero recorded geometry/control drift improves this comparison but does not convert the diagnostic into optical acceptance or prove parity across backgrounds, sizes, controls or motion.",
+    "The changed RGB baseline does not causally repeat the earlier G128 midpoint contrast, and no present result establishes the user-visible sharper colors, edge stretch or rim highlight by itself."
+  ],
+  "next_model_direction_without_new_capture": [
+    "Retain separate finite color-response and spatial-response terms as alternative hypotheses; do not hard-code RGB-specific refraction offsets from these values.",
+    "Use the current result as a falsification of the shared-alpha encoded-affine simplification, not as a fit target that selects production shader parameters.",
+    "A future authorized discriminating study would need multiple independently located masks plus amplitude/baseline controls and prespecified holdouts to separate input-conditioned sampling, output-conditioned processing and encoded nonlinearity. This validation initiates none of those experiments."
+  ]
+}

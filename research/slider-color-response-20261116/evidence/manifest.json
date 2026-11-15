@@ -1,0 +1,500 @@
+{
+  "schema": 1,
+  "format": "original-byte-portable-slider-evidence",
+  "old_study_root": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116",
+  "freeze_sha256": "10e82a63abd4ccfe38ad7a88a70367a1612d62fa31b6b57d0e42e8ef8c33354e",
+  "analyzer_sha256": "c64ec32864ea57732d627bf5018834f2f8855c52dba31e277a15dbaa2497c1b8",
+  "protocol_sha256": "d0bc03c1b4e897c98b880c08f5755b4c9300d322674c905fd409d76a16d5f827",
+  "export_tool_sha256": "45e090b85dcbf647e0f3006229d66320dcf33bd8103d05f801480383fda525a8",
+  "files": {
+    "reference-analysis/analysis.json": {
+      "sha256": "5499910555e7aa465f853c2361f55fe4a2300703416a98b82d00de98c393d9ba",
+      "bytes": 4759467,
+      "source_relative_study_path": "analysis/analysis.json"
+    },
+    "reference-analysis/original-pixels.npz": {
+      "sha256": "11b1e76aa2a0a7766b579bdfd8a8fc8e4bceecda1fc996a34f07d9955a78f695",
+      "bytes": 270671,
+      "source_relative_study_path": "analysis/original-pixels.npz"
+    },
+    "rounds/control-post/native-r1/endpoint-verification-strict.json": {
+      "sha256": "a2021dca817c0487ca091cb390b4cc4f8bf0d280bf0708dfee6604f54d1b73e0",
+      "bytes": 511358,
+      "source_relative_study_path": "rounds/control-post/native-r1/endpoint-verification-strict.json"
+    },
+    "rounds/control-post/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9CF113A4-9447-4E5C-A676-066876670514/slider-fixed-shape-coverage-st01_rgb_star_d16-light-full100-held.png": {
+      "sha256": "54c3a0dd6df3568014edc999679d03755854d2f75940567d6079260ea932cb18",
+      "bytes": 100315,
+      "source_relative_study_path": "rounds/control-post/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9CF113A4-9447-4E5C-A676-066876670514/slider-fixed-shape-coverage-st01_rgb_star_d16-light-full100-held.png"
+    },
+    "rounds/control-post/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EBA9E651-DC56-44F4-A0A7-5E10AC296C12/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png": {
+      "sha256": "910eb6306f47f2e6c9582affd9d5b809b761b9338264bdd69c2c258a3ad5f9d7",
+      "bytes": 98470,
+      "source_relative_study_path": "rounds/control-post/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EBA9E651-DC56-44F4-A0A7-5E10AC296C12/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png"
+    },
+    "rounds/control-post/native-r1/held/capture-events.jsonl": {
+      "sha256": "1fd189483510018e6df63bd85435133724255529b16b21082b1076c0d307c445",
+      "bytes": 37021,
+      "source_relative_study_path": "rounds/control-post/native-r1/held/capture-events.jsonl"
+    },
+    "rounds/control-post/native-r1/index-strict.json": {
+      "sha256": "2b0849d98d23bb166cc1e8d75818f60b187eeb432dc803af000a41be64aba14b",
+      "bytes": 3511,
+      "source_relative_study_path": "rounds/control-post/native-r1/index-strict.json"
+    },
+    "rounds/control-post/native-r1/receipt.json": {
+      "sha256": "c46588acd63e32bd122275ff1f6f7d6da4566c5053935b591a27eac9823001f7",
+      "bytes": 9664,
+      "source_relative_study_path": "rounds/control-post/native-r1/receipt.json"
+    },
+    "rounds/control-post/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9CF113A4-9447-4E5C-A676-066876670514/session.json": {
+      "sha256": "1e57acd337a0bc9b14a4b86c9ce4529e43d5790c5f136e2b994085f678c43c55",
+      "bytes": 4477,
+      "source_relative_study_path": "rounds/control-post/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9CF113A4-9447-4E5C-A676-066876670514/session.json"
+    },
+    "rounds/control-post/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EBA9E651-DC56-44F4-A0A7-5E10AC296C12/session.json": {
+      "sha256": "9b3f63716f3a60cde6f5445c0abe7f23f7f8b1877888316211f1d233dd3477bb",
+      "bytes": 4478,
+      "source_relative_study_path": "rounds/control-post/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EBA9E651-DC56-44F4-A0A7-5E10AC296C12/session.json"
+    },
+    "rounds/control-pre/native-r1/endpoint-verification-strict.json": {
+      "sha256": "0108403793bca3bb3761a68ef6d7c3c91c0154dee1e2e52d720a95e1b445cb5c",
+      "bytes": 468236,
+      "source_relative_study_path": "rounds/control-pre/native-r1/endpoint-verification-strict.json"
+    },
+    "rounds/control-pre/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-16CE6F63-950B-4CD4-A5E6-4D634725E651/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png": {
+      "sha256": "5cc886b5e145d9cc82f0e6bfe04fa8e9d7d0fa5ce990e95bca7cab6c5d60062b",
+      "bytes": 98816,
+      "source_relative_study_path": "rounds/control-pre/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-16CE6F63-950B-4CD4-A5E6-4D634725E651/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png"
+    },
+    "rounds/control-pre/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5126D95C-DED3-476E-BA4A-09E28AE54FF8/slider-fixed-shape-coverage-st01_rgb_star_d16-light-full100-held.png": {
+      "sha256": "ea7bf07fb202c5c0f35f6e8a0c9fb4a5a58e6ebf7fafeaf686cd865a0da22b47",
+      "bytes": 100637,
+      "source_relative_study_path": "rounds/control-pre/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5126D95C-DED3-476E-BA4A-09E28AE54FF8/slider-fixed-shape-coverage-st01_rgb_star_d16-light-full100-held.png"
+    },
+    "rounds/control-pre/native-r1/held/capture-events.jsonl": {
+      "sha256": "c35a1bebb8c3deed361390729037fe27b947a24bf5327854730df0cd1664731b",
+      "bytes": 36925,
+      "source_relative_study_path": "rounds/control-pre/native-r1/held/capture-events.jsonl"
+    },
+    "rounds/control-pre/native-r1/index-strict.json": {
+      "sha256": "042bc90107f62485c7f838f9b807c48f7da294e9a45f3e2f5207bc29db92e09e",
+      "bytes": 3504,
+      "source_relative_study_path": "rounds/control-pre/native-r1/index-strict.json"
+    },
+    "rounds/control-pre/native-r1/receipt.json": {
+      "sha256": "6c9a077476295507a203711d4c737a0bbf8a939bca6b915df37478eec621f5aa",
+      "bytes": 9657,
+      "source_relative_study_path": "rounds/control-pre/native-r1/receipt.json"
+    },
+    "rounds/control-pre/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-16CE6F63-950B-4CD4-A5E6-4D634725E651/session.json": {
+      "sha256": "67db1161bac8c1f28594769379f43705f44f86017aa7612c84dac0500256c14a",
+      "bytes": 4477,
+      "source_relative_study_path": "rounds/control-pre/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-16CE6F63-950B-4CD4-A5E6-4D634725E651/session.json"
+    },
+    "rounds/control-pre/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5126D95C-DED3-476E-BA4A-09E28AE54FF8/session.json": {
+      "sha256": "ffaab7c204669dd109a2449355fb3fc27fee410112ad35da77b69629f3b09654",
+      "bytes": 4478,
+      "source_relative_study_path": "rounds/control-pre/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5126D95C-DED3-476E-BA4A-09E28AE54FF8/session.json"
+    },
+    "rounds/global-B/native-r1/endpoint-verification-strict.json": {
+      "sha256": "536f4b585da0eba09d3a11b4cbd1af42d883cb94106597d5f5df0876cdf4a58f",
+      "bytes": 464742,
+      "source_relative_study_path": "rounds/global-B/native-r1/endpoint-verification-strict.json"
+    },
+    "rounds/global-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-945DC5A2-3C41-43CB-94C6-C4CBDC7F9E50/slider-fixed-shape-coverage-st01_rgb_star_d16_global_b20-light-full100-held.png": {
+      "sha256": "60db3c2abcfa311b06cbba02835523b051cd369ba36f3006d8130b9131ab5023",
+      "bytes": 116489,
+      "source_relative_study_path": "rounds/global-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-945DC5A2-3C41-43CB-94C6-C4CBDC7F9E50/slider-fixed-shape-coverage-st01_rgb_star_d16_global_b20-light-full100-held.png"
+    },
+    "rounds/global-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EF680A23-6594-4A3D-9A45-FF88A77C8E63/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png": {
+      "sha256": "9b65dc0cb0815b56541ff1f2f625da423975e3e6db26e34980ba4d8f6b109917",
+      "bytes": 98868,
+      "source_relative_study_path": "rounds/global-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EF680A23-6594-4A3D-9A45-FF88A77C8E63/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png"
+    },
+    "rounds/global-B/native-r1/held/capture-events.jsonl": {
+      "sha256": "052cf35294306a9da27e83e9f1b9ef5ff822d99757e8929779efd0200c46ca2f",
+      "bytes": 36989,
+      "source_relative_study_path": "rounds/global-B/native-r1/held/capture-events.jsonl"
+    },
+    "rounds/global-B/native-r1/index-strict.json": {
+      "sha256": "f6ef6b5f68a5601dea2fb86e55fa9be4e96d56a87a4e44d72181cdb09606f012",
+      "bytes": 3516,
+      "source_relative_study_path": "rounds/global-B/native-r1/index-strict.json"
+    },
+    "rounds/global-B/native-r1/receipt.json": {
+      "sha256": "6651ed160353bdecc3e97bf85c2390d1ffe9264cc5e87fc0cdac6c917ab3513c",
+      "bytes": 9660,
+      "source_relative_study_path": "rounds/global-B/native-r1/receipt.json"
+    },
+    "rounds/global-B/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-945DC5A2-3C41-43CB-94C6-C4CBDC7F9E50/session.json": {
+      "sha256": "89641c024af758c44b03a983143fa20910b4a9a3d80f65ea4a6e83799ff267ed",
+      "bytes": 4477,
+      "source_relative_study_path": "rounds/global-B/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-945DC5A2-3C41-43CB-94C6-C4CBDC7F9E50/session.json"
+    },
+    "rounds/global-B/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EF680A23-6594-4A3D-9A45-FF88A77C8E63/session.json": {
+      "sha256": "f44df4108740b1b7b69b5db7cb446a475f0412699bf72b7370452e47fd5926e6",
+      "bytes": 4477,
+      "source_relative_study_path": "rounds/global-B/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EF680A23-6594-4A3D-9A45-FF88A77C8E63/session.json"
+    },
+    "rounds/global-G/native-r1/endpoint-verification-strict.json": {
+      "sha256": "a883f149d7e55d80120375c59eefa1fec5d39200a9526a04d34f20fdfc7ab0e2",
+      "bytes": 604441,
+      "source_relative_study_path": "rounds/global-G/native-r1/endpoint-verification-strict.json"
+    },
+    "rounds/global-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A29D9FB1-F729-4194-9E3F-6962666FC2EF/slider-fixed-shape-coverage-st01_rgb_star_d16_global_g20-light-full100-held.png": {
+      "sha256": "f791ddea33a27ad8d6b77500ef1f7ef13ebcd357f425aa610a956f7b6c546d76",
+      "bytes": 117861,
+      "source_relative_study_path": "rounds/global-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A29D9FB1-F729-4194-9E3F-6962666FC2EF/slider-fixed-shape-coverage-st01_rgb_star_d16_global_g20-light-full100-held.png"
+    },
+    "rounds/global-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-C4D4D721-C384-4E4D-ADFC-E3E92D96096B/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png": {
+      "sha256": "582311348b99e2853cab9912919453e668ac9bd0008acd9d0c70100ee1dfba24",
+      "bytes": 98733,
+      "source_relative_study_path": "rounds/global-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-C4D4D721-C384-4E4D-ADFC-E3E92D96096B/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png"
+    },
+    "rounds/global-G/native-r1/held/capture-events.jsonl": {
+      "sha256": "f1cef46df8683312c45188f7d46529736540e8c1d7e9f215a266fdbbc482c5bb",
+      "bytes": 36992,
+      "source_relative_study_path": "rounds/global-G/native-r1/held/capture-events.jsonl"
+    },
+    "rounds/global-G/native-r1/index-strict.json": {
+      "sha256": "c0e0b34efa2c002a89267e16c52da2c84ed2db768bc20fd52ea68575dc76e599",
+      "bytes": 3516,
+      "source_relative_study_path": "rounds/global-G/native-r1/index-strict.json"
+    },
+    "rounds/global-G/native-r1/receipt.json": {
+      "sha256": "7a322e7eea224388ec7e3ff1bb6e0602ea45d8dc08ba21a8210c4d6cb36f96e0",
+      "bytes": 9656,
+      "source_relative_study_path": "rounds/global-G/native-r1/receipt.json"
+    },
+    "rounds/global-G/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A29D9FB1-F729-4194-9E3F-6962666FC2EF/session.json": {
+      "sha256": "9495c1d605e04394fa65a36e6e6837bc970b3f76f00114eb55d3d19eebf0a29d",
+      "bytes": 4477,
+      "source_relative_study_path": "rounds/global-G/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A29D9FB1-F729-4194-9E3F-6962666FC2EF/session.json"
+    },
+    "rounds/global-G/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-C4D4D721-C384-4E4D-ADFC-E3E92D96096B/session.json": {
+      "sha256": "4393119facac29b55eaf17018a9294ca65852fda1a2b6533a095e5576bf58abe",
+      "bytes": 4477,
+      "source_relative_study_path": "rounds/global-G/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-C4D4D721-C384-4E4D-ADFC-E3E92D96096B/session.json"
+    },
+    "rounds/global-R/native-r1/endpoint-verification-strict.json": {
+      "sha256": "5e41a31ddf9b14d57d73f0f3d13473c323c8e55e9aa4fb449f46ee036796d9a7",
+      "bytes": 461231,
+      "source_relative_study_path": "rounds/global-R/native-r1/endpoint-verification-strict.json"
+    },
+    "rounds/global-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-898D90CC-2E37-4A4B-BCE1-A10FFF4FFEF3/slider-fixed-shape-coverage-st01_rgb_star_d16_global_r20-light-full100-held.png": {
+      "sha256": "7536c7464c15b98c1d51a2829261f9c6c223d6d254c854f39072e53fb3753921",
+      "bytes": 117119,
+      "source_relative_study_path": "rounds/global-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-898D90CC-2E37-4A4B-BCE1-A10FFF4FFEF3/slider-fixed-shape-coverage-st01_rgb_star_d16_global_r20-light-full100-held.png"
+    },
+    "rounds/global-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A056C734-2DFE-4100-856F-B21D22BF7C3A/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png": {
+      "sha256": "856db0d9cfb9f9be2a2b1ea944015dc579fe1b9993e9c67d73b00e7d6fa9041c",
+      "bytes": 98950,
+      "source_relative_study_path": "rounds/global-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A056C734-2DFE-4100-856F-B21D22BF7C3A/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png"
+    },
+    "rounds/global-R/native-r1/held/capture-events.jsonl": {
+      "sha256": "fbd05d6b47e3cf4394e162de80e2f9b5f028ad8f79b1daa7b14eb8b0b87ac959",
+      "bytes": 37070,
+      "source_relative_study_path": "rounds/global-R/native-r1/held/capture-events.jsonl"
+    },
+    "rounds/global-R/native-r1/index-strict.json": {
+      "sha256": "3e684315ace18c6bb6723600c471e57ebc2eb8a03963afc549c85790bd187f2c",
+      "bytes": 3516,
+      "source_relative_study_path": "rounds/global-R/native-r1/index-strict.json"
+    },
+    "rounds/global-R/native-r1/receipt.json": {
+      "sha256": "767a7452462d0d3fce6939d48127f3fe4ea114250109e455f5d7cc814a2584c0",
+      "bytes": 9658,
+      "source_relative_study_path": "rounds/global-R/native-r1/receipt.json"
+    },
+    "rounds/global-R/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-898D90CC-2E37-4A4B-BCE1-A10FFF4FFEF3/session.json": {
+      "sha256": "cc18c44dec58eaaf9b2848858356d85fc63da505b2d3531c4cf81936c402baaa",
+      "bytes": 4477,
+      "source_relative_study_path": "rounds/global-R/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-898D90CC-2E37-4A4B-BCE1-A10FFF4FFEF3/session.json"
+    },
+    "rounds/global-R/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A056C734-2DFE-4100-856F-B21D22BF7C3A/session.json": {
+      "sha256": "b4ce3a0792cd1ea0e5421dcffdbc799d3745c67868d6a002ffa4abd2e98a5386",
+      "bytes": 4477,
+      "source_relative_study_path": "rounds/global-R/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A056C734-2DFE-4100-856F-B21D22BF7C3A/session.json"
+    },
+    "rounds/mask-B/native-r1/endpoint-verification-strict.json": {
+      "sha256": "a0ba9f409ab6bef11e7e583b919582ca3d1239e78365a2a345832bbbe268ac4a",
+      "bytes": 482608,
+      "source_relative_study_path": "rounds/mask-B/native-r1/endpoint-verification-strict.json"
+    },
+    "rounds/mask-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-76411A13-FF80-45B0-BDD6-5C7A8356C311/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png": {
+      "sha256": "1a0e2479c1a9af24447c4a1caa83d5fc5c3b748326a665b31dd12e9c2b8069be",
+      "bytes": 98965,
+      "source_relative_study_path": "rounds/mask-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-76411A13-FF80-45B0-BDD6-5C7A8356C311/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png"
+    },
+    "rounds/mask-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-8D5F9DA9-CD59-4C64-B74A-C3515CC7655A/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_b20-light-full100-held.png": {
+      "sha256": "6757dbb2ff318467c977f81a026212005c0d41e250689550898e64035156ce36",
+      "bytes": 100778,
+      "source_relative_study_path": "rounds/mask-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-8D5F9DA9-CD59-4C64-B74A-C3515CC7655A/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_b20-light-full100-held.png"
+    },
+    "rounds/mask-B/native-r1/held/capture-events.jsonl": {
+      "sha256": "7c28d8cf83d88c1fb813be0b5e02d468376b99a6f96e076103de25d0a6efbfba",
+      "bytes": 36971,
+      "source_relative_study_path": "rounds/mask-B/native-r1/held/capture-events.jsonl"
+    },
+    "rounds/mask-B/native-r1/index-strict.json": {
+      "sha256": "58cf32bf9c5dfd8fd93305840876202d449d1432c073d5a3b309157edbd92abb",
+      "bytes": 3496,
+      "source_relative_study_path": "rounds/mask-B/native-r1/index-strict.json"
+    },
+    "rounds/mask-B/native-r1/receipt.json": {
+      "sha256": "0d0a463403d7648ab13999bd4c026d01e1d05079f0c8652ef8123af0e723d111",
+      "bytes": 9647,
+      "source_relative_study_path": "rounds/mask-B/native-r1/receipt.json"
+    },
+    "rounds/mask-B/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-76411A13-FF80-45B0-BDD6-5C7A8356C311/session.json": {
+      "sha256": "9d36a9984ea563c5bf513063644938b6176ea27c9a07bc6f8e0a7cae9560acee",
+      "bytes": 4477,
+      "source_relative_study_path": "rounds/mask-B/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-76411A13-FF80-45B0-BDD6-5C7A8356C311/session.json"
+    },
+    "rounds/mask-B/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-8D5F9DA9-CD59-4C64-B74A-C3515CC7655A/session.json": {
+      "sha256": "27f1d04293fbec37c1156ee46b66eb032464927dda1a1f3e766e9649791bc258",
+      "bytes": 4476,
+      "source_relative_study_path": "rounds/mask-B/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-8D5F9DA9-CD59-4C64-B74A-C3515CC7655A/session.json"
+    },
+    "rounds/mask-G/native-r1/endpoint-verification-strict.json": {
+      "sha256": "cc90a2beb8bd971402469ab0034fcabff0b60819363ba86edde01af055767bbd",
+      "bytes": 468347,
+      "source_relative_study_path": "rounds/mask-G/native-r1/endpoint-verification-strict.json"
+    },
+    "rounds/mask-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5871289B-DF0B-4BBC-9C0B-F44553CE0B33/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_g20-light-full100-held.png": {
+      "sha256": "0a622bbcbdc439ee024b5940040470da24b9bff9acb758921b6beeb12aaa58a4",
+      "bytes": 100779,
+      "source_relative_study_path": "rounds/mask-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5871289B-DF0B-4BBC-9C0B-F44553CE0B33/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_g20-light-full100-held.png"
+    },
+    "rounds/mask-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A39BDE4A-4414-4754-BF58-ABB5FDA59234/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png": {
+      "sha256": "1ba41901ee9f35c4865c07d47346c6264555895368a7ca965dd6916cc632e54a",
+      "bytes": 98938,
+      "source_relative_study_path": "rounds/mask-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A39BDE4A-4414-4754-BF58-ABB5FDA59234/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png"
+    },
+    "rounds/mask-G/native-r1/held/capture-events.jsonl": {
+      "sha256": "7e680944bed0e40b83c0fbcf33a6e3298046fe1982b6a84e969b0af53a711751",
+      "bytes": 37057,
+      "source_relative_study_path": "rounds/mask-G/native-r1/held/capture-events.jsonl"
+    },
+    "rounds/mask-G/native-r1/index-strict.json": {
+      "sha256": "a77870ae779a367440fb0ee67cc7962f2709998c5cccf20e167c5fbdc5622ad3",
+      "bytes": 3496,
+      "source_relative_study_path": "rounds/mask-G/native-r1/index-strict.json"
+    },
+    "rounds/mask-G/native-r1/receipt.json": {
+      "sha256": "c38de8ee9f5122789f01fa354e03f17c3988aab2f14ed4a8662ee283aabc4f97",
+      "bytes": 9648,
+      "source_relative_study_path": "rounds/mask-G/native-r1/receipt.json"
+    },
+    "rounds/mask-G/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5871289B-DF0B-4BBC-9C0B-F44553CE0B33/session.json": {
+      "sha256": "e11888443540fe6c69450297f98414a13bfcfb34835f53a111e69fc6c2360d70",
+      "bytes": 4477,
+      "source_relative_study_path": "rounds/mask-G/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5871289B-DF0B-4BBC-9C0B-F44553CE0B33/session.json"
+    },
+    "rounds/mask-G/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A39BDE4A-4414-4754-BF58-ABB5FDA59234/session.json": {
+      "sha256": "517b67bf681a0ca4e188eaa310e2036ebff858fc40a52af11202dc9bf600acd1",
+      "bytes": 4478,
+      "source_relative_study_path": "rounds/mask-G/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A39BDE4A-4414-4754-BF58-ABB5FDA59234/session.json"
+    },
+    "rounds/mask-R/native-r1/endpoint-verification-strict.json": {
+      "sha256": "01a8e945c187e657dc0e5b732b826db4c210552128664668c896c5ef63775dbf",
+      "bytes": 364465,
+      "source_relative_study_path": "rounds/mask-R/native-r1/endpoint-verification-strict.json"
+    },
+    "rounds/mask-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-066DB500-F34C-4F7A-B66C-6585AE283FD2/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_r20-light-full100-held.png": {
+      "sha256": "0efd654c45d3c7e59d2fc1de2dd9113a4edc0948b987ccf9bbc113d61e942daf",
+      "bytes": 100665,
+      "source_relative_study_path": "rounds/mask-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-066DB500-F34C-4F7A-B66C-6585AE283FD2/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_r20-light-full100-held.png"
+    },
+    "rounds/mask-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9D991FAD-FC3A-4A37-8120-FAD79F557D56/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png": {
+      "sha256": "0cc0fd59c69053506c09c93146391c4f9e55b47eb3fecd7ab6ace6df8911f53f",
+      "bytes": 98943,
+      "source_relative_study_path": "rounds/mask-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9D991FAD-FC3A-4A37-8120-FAD79F557D56/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png"
+    },
+    "rounds/mask-R/native-r1/held/capture-events.jsonl": {
+      "sha256": "133d7839b15438b084e5b3fa90c3caa08ea02dd77c9ed3ac7249fb71c726632c",
+      "bytes": 37060,
+      "source_relative_study_path": "rounds/mask-R/native-r1/held/capture-events.jsonl"
+    },
+    "rounds/mask-R/native-r1/index-strict.json": {
+      "sha256": "ad4752aff28d8c18d074d7458c747744d261fb068b35f4285c1d47c3cc36d715",
+      "bytes": 3496,
+      "source_relative_study_path": "rounds/mask-R/native-r1/index-strict.json"
+    },
+    "rounds/mask-R/native-r1/receipt.json": {
+      "sha256": "5577662ac14ad58baee0e64ab05c596b66e54ad5c88e838c18b312bb6a048630",
+      "bytes": 9647,
+      "source_relative_study_path": "rounds/mask-R/native-r1/receipt.json"
+    },
+    "rounds/mask-R/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-066DB500-F34C-4F7A-B66C-6585AE283FD2/session.json": {
+      "sha256": "9fa5b5aefbeb8d7dc53b3a53110519c1f88393df9cb17da547c62856f321d674",
+      "bytes": 4477,
+      "source_relative_study_path": "rounds/mask-R/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-066DB500-F34C-4F7A-B66C-6585AE283FD2/session.json"
+    },
+    "rounds/mask-R/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9D991FAD-FC3A-4A37-8120-FAD79F557D56/session.json": {
+      "sha256": "3486be27a979ccf6124ab20189aea10c73755536245bf11898e2a34cff4db99c",
+      "bytes": 4478,
+      "source_relative_study_path": "rounds/mask-R/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9D991FAD-FC3A-4A37-8120-FAD79F557D56/session.json"
+    }
+  },
+  "rounds": {
+    "control-pre": {
+      "capture_receipt": "rounds/control-pre/native-r1/receipt.json",
+      "lossless_trace_storage": [
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5126D95C-DED3-476E-BA4A-09E28AE54FF8/trace.jsonl.gz",
+          "original_sha256": "c95f134f82594f2c2410903da081ad713c29075ed48773b2d7c2ddc2f489e409",
+          "original_bytes": 10256546,
+          "archive_bytes": 1015855,
+          "archive_sha256": "0dd1d40d593b5bfb6063cd879433143793d54ffe1104d0e1e9b9a44dcb1fb95e"
+        },
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-16CE6F63-950B-4CD4-A5E6-4D634725E651/trace.jsonl.gz",
+          "original_sha256": "a25012658d7677975f6c2215e4857e738eaf0b8d060e6168aa128b737dfefa41",
+          "original_bytes": 10359857,
+          "archive_bytes": 1037183,
+          "archive_sha256": "3a429a16ed285277be5b9c1f1d3f845f42f3e56206c656ef11285c64622b76df"
+        }
+      ]
+    },
+    "global-R": {
+      "capture_receipt": "rounds/global-R/native-r1/receipt.json",
+      "lossless_trace_storage": [
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-898D90CC-2E37-4A4B-BCE1-A10FFF4FFEF3/trace.jsonl.gz",
+          "original_sha256": "0b3ee77b62d01522c3026a92d799f9d3bac98ca66c4384eab540ea33c18fd0cc",
+          "original_bytes": 10353117,
+          "archive_bytes": 1033386,
+          "archive_sha256": "3a53b8177becb4511ec3e66647cee9d1ad0ca2658a36b19d960193cff68a88ea"
+        },
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A056C734-2DFE-4100-856F-B21D22BF7C3A/trace.jsonl.gz",
+          "original_sha256": "7fcb0f7b54241a360e9874704161e11eae12d7ef587f68c17c71e099819607a2",
+          "original_bytes": 10394200,
+          "archive_bytes": 1030742,
+          "archive_sha256": "30614407228e2f9bd7ce0fb21402e6ab43b1c1490bdc5c3f5a893e56eed83268"
+        }
+      ]
+    },
+    "global-G": {
+      "capture_receipt": "rounds/global-G/native-r1/receipt.json",
+      "lossless_trace_storage": [
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A29D9FB1-F729-4194-9E3F-6962666FC2EF/trace.jsonl.gz",
+          "original_sha256": "c2e418b8d6f87150ae62993c9de9fd63c6b778397cde734e6cbd0fa57da68039",
+          "original_bytes": 10341719,
+          "archive_bytes": 1040521,
+          "archive_sha256": "e567f6167dbeaa0913285ba291a433070fa2b28eaa477678790ccde96fe64ba0"
+        },
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-C4D4D721-C384-4E4D-ADFC-E3E92D96096B/trace.jsonl.gz",
+          "original_sha256": "6e1bc743c454c88ea6192fa72132d84d009f3884825519ca5149b0515d4a2290",
+          "original_bytes": 9841016,
+          "archive_bytes": 953378,
+          "archive_sha256": "e7e03f349b5f91790112e35bda9975f9864f5bd9a081ab793d7ddca0c2352615"
+        }
+      ]
+    },
+    "global-B": {
+      "capture_receipt": "rounds/global-B/native-r1/receipt.json",
+      "lossless_trace_storage": [
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-945DC5A2-3C41-43CB-94C6-C4CBDC7F9E50/trace.jsonl.gz",
+          "original_sha256": "00dfdde41a17091c3076212c2ff76859b3ad686f1883590eb1fadf246cdb316f",
+          "original_bytes": 10334501,
+          "archive_bytes": 1030306,
+          "archive_sha256": "6e89dabd82eefc0c8352caa1b89977bf987b1d6e5c3f6b1b1bdd6cb714acdc48"
+        },
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EF680A23-6594-4A3D-9A45-FF88A77C8E63/trace.jsonl.gz",
+          "original_sha256": "07738ab251dcd01c34dc94dc69e5a36ea47322ff49aa7a6b8f32f4115acfd1a0",
+          "original_bytes": 10336330,
+          "archive_bytes": 1034880,
+          "archive_sha256": "2a969f64a442e8b95dfd1f9e5f40dac062abff89e41d2547111cf0f3dddf232c"
+        }
+      ]
+    },
+    "mask-R": {
+      "capture_receipt": "rounds/mask-R/native-r1/receipt.json",
+      "lossless_trace_storage": [
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-066DB500-F34C-4F7A-B66C-6585AE283FD2/trace.jsonl.gz",
+          "original_sha256": "139d6ef8e3b2bb478a50a5930ebbfecac0a1429482d04e587b95b0e33f39a192",
+          "original_bytes": 10312785,
+          "archive_bytes": 974474,
+          "archive_sha256": "7d64871f7118fa9d29a4139dc0d7a365d05563d70b51f3b9eac6c4bdcf6f831f"
+        },
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9D991FAD-FC3A-4A37-8120-FAD79F557D56/trace.jsonl.gz",
+          "original_sha256": "56f0138c1fc3e103433456e1ad2a2e35344931ae11264e91c6bb441d92e32129",
+          "original_bytes": 10349958,
+          "archive_bytes": 1032073,
+          "archive_sha256": "36415287cfd2a315e3a9f89a5d8a90b11effced087fe3a01127a966d41c70a4c"
+        }
+      ]
+    },
+    "mask-G": {
+      "capture_receipt": "rounds/mask-G/native-r1/receipt.json",
+      "lossless_trace_storage": [
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5871289B-DF0B-4BBC-9C0B-F44553CE0B33/trace.jsonl.gz",
+          "original_sha256": "87fe408ae464d86835c81e101734ae13f5ccce1a17bd8767c178cb4de5ec59a0",
+          "original_bytes": 10303783,
+          "archive_bytes": 1030337,
+          "archive_sha256": "227ce7b99c27442476dea58765323e61cbe6dea55fa0f11e6b5fee2b0fdd47d6"
+        },
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A39BDE4A-4414-4754-BF58-ABB5FDA59234/trace.jsonl.gz",
+          "original_sha256": "3dcc953bcebf20a2788f448a4e06ee1cf2ed326f41934334381cbac9f22df4f1",
+          "original_bytes": 10249912,
+          "archive_bytes": 1028461,
+          "archive_sha256": "385a3b961189da58055ebc83ea8a8fb54dc25d2888c2e3518febd3f470aadd20"
+        }
+      ]
+    },
+    "mask-B": {
+      "capture_receipt": "rounds/mask-B/native-r1/receipt.json",
+      "lossless_trace_storage": [
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-8D5F9DA9-CD59-4C64-B74A-C3515CC7655A/trace.jsonl.gz",
+          "original_sha256": "b057532c2d6e88e93e981f7d2a6c31f3770502d8a0f21afb12df1e8edf1ab687",
+          "original_bytes": 10295789,
+          "archive_bytes": 1023150,
+          "archive_sha256": "2a4ae38cf93d12bd146ea5ecdaee4e7f190f954890a31c1d37e8a10d02eced39"
+        },
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-76411A13-FF80-45B0-BDD6-5C7A8356C311/trace.jsonl.gz",
+          "original_sha256": "944088def68b8a7144c3c1fa6ed4fbed3b7be71dc6c6616f69a961f56e0c953d",
+          "original_bytes": 10232149,
+          "archive_bytes": 1020357,
+          "archive_sha256": "3765590d7658381f3c3b66e336ff127c09c0f06999d77ea5dc9d4eaa0c916eb4"
+        }
+      ]
+    },
+    "control-post": {
+      "capture_receipt": "rounds/control-post/native-r1/receipt.json",
+      "lossless_trace_storage": [
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9CF113A4-9447-4E5C-A676-066876670514/trace.jsonl.gz",
+          "original_sha256": "ff774e5198c58926dcdc9a77618e84f03cc3c5287c0ff5a7218adc8d8438e3e9",
+          "original_bytes": 10321695,
+          "archive_bytes": 1027308,
+          "archive_sha256": "4643644a7b5343365138ef7c0a895a0b17e486a3bab2ee46cb061764a9150817"
+        },
+        {
+          "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EBA9E651-DC56-44F4-A0A7-5E10AC296C12/trace.jsonl.gz",
+          "original_sha256": "003fa430bc2ccf979f7c0275d1610d12fb55866978230f05258437b6cbefb48f",
+          "original_bytes": 10319187,
+          "archive_bytes": 1029667,
+          "archive_sha256": "f7a2c5140dce2f6d60115ee930f4b63aabae0631f8e8d8cbdd500f7c60bfab9e"
+        }
+      ]
+    }
+  },
+  "reference_analysis_files": [
+    "reference-analysis/analysis.json",
+    "reference-analysis/original-pixels.npz"
+  ],
+  "trace_policy": "Only original capture-receipt hash/size declarations retained; trace and xcresult bytes never read or copied."
+}

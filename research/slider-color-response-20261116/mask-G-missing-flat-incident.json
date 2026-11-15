@@ -1,0 +1,24 @@
+{
+  "status": "rejected_missing_held_flat_screenshot",
+  "reason": "Observer saw actual UP before it could bracket the ordinary-flat held endpoint; no response analysis or image selection occurred.",
+  "freeze_sha256": "10e82a63abd4ccfe38ad7a88a70367a1612d62fa31b6b57d0e42e8ef8c33354e",
+  "all_round_sources_and_analysis_unchanged": true,
+  "reacquisition": "Repeat entire shape/flat pair using unchanged collector and inputs.",
+  "failed_receipt_sha256": "17045d8637a26ed4bf96c2a7bf4a14001f0115c857d716519996d47c5c3c6793",
+  "failed_events_sha256": "44d86c0db03f316131b148ac91e0280e6904e6c6a13b02bc82f12695d0785fd5",
+  "complete_trace_archives": [
+    {
+      "run": "-[NativeReferenceTests testSliderColorResponseFullCoverage]-EBC3EB87-C99A-421B-A9D2-0CCF6E76DAD9",
+      "original_sha256": "85d9240b1afe9e4be3d42e76c20f84732bcd9b131691600ddc7d5d79c4245e29",
+      "original_bytes": 10281207,
+      "gzip_bytes": 1035887
+    },
+    {
+      "run": "-[NativeReferenceTests testSliderColorResponseFullCoverage]-19008D71-AE8F-485D-BDB5-002F3A53F3CE",
+      "original_sha256": "297235c54d13f1b63317dec28311500b1b563c05b3053504e1fa39e19e0e3b5e",
+      "original_bytes": 10371844,
+      "gzip_bytes": 1000756
+    }
+  ],
+  "local_raw_path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/.local/incidents/mask-G-missing-flat-r1"
+}

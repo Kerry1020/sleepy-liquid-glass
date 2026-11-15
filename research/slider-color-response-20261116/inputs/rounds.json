@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "study_id": "slider_color_response_20261116_full100_only",
+  "status": "prepared_inputs_only",
+  "scope": "full100-only, not six-pose capture",
+  "order": [
+    "control-pre",
+    "global-R",
+    "global-G",
+    "global-B",
+    "mask-R",
+    "mask-G",
+    "mask-B",
+    "control-post"
+  ],
+  "rounds": [
+    {
+      "id": "control-pre",
+      "shape_spec": "rounds/control-pre/shape-spec.json",
+      "input_dir": "rounds/control-pre/inputs",
+      "first_input_id": "st01_rgb_star_d16",
+      "flat_input_id": "st00_flat128",
+      "scheduled_stages": [
+        "full100"
+      ],
+      "scheduled_input_ids": [
+        "st01_rgb_star_d16",
+        "st00_flat128"
+      ]
+    },
+    {
+      "id": "global-R",
+      "shape_spec": "rounds/global-R/shape-spec.json",
+      "input_dir": "rounds/global-R/inputs",
+      "first_input_id": "st01_rgb_star_d16_global_r20",
+      "flat_input_id": "st00_flat128",
+      "scheduled_stages": [
+        "full100"
+      ],
+      "scheduled_input_ids": [
+        "st01_rgb_star_d16_global_r20",
+        "st00_flat128"
+      ]
+    },
+    {
+      "id": "global-G",
+      "shape_spec": "rounds/global-G/shape-spec.json",
+      "input_dir": "rounds/global-G/inputs",
+      "first_input_id": "st01_rgb_star_d16_global_g20",
+      "flat_input_id": "st00_flat128",
+      "scheduled_stages": [
+        "full100"
+      ],
+      "scheduled_input_ids": [
+        "st01_rgb_star_d16_global_g20",
+        "st00_flat128"
+      ]
+    },
+    {
+      "id": "global-B",
+      "shape_spec": "rounds/global-B/shape-spec.json",
+      "input_dir": "rounds/global-B/inputs",
+      "first_input_id": "st01_rgb_star_d16_global_b20",
+      "flat_input_id": "st00_flat128",
+      "scheduled_stages": [
+        "full100"
+      ],
+      "scheduled_input_ids": [
+        "st01_rgb_star_d16_global_b20",
+        "st00_flat128"
+      ]
+    },
+    {
+      "id": "mask-R",
+      "shape_spec": "rounds/mask-R/shape-spec.json",
+      "input_dir": "rounds/mask-R/inputs",
+      "first_input_id": "st01_rgb_star_d16_mask_r20",
+      "flat_input_id": "st00_flat128",
+      "scheduled_stages": [
+        "full100"
+      ],
+      "scheduled_input_ids": [
+        "st01_rgb_star_d16_mask_r20",
+        "st00_flat128"
+      ]
+    },
+    {
+      "id": "mask-G",
+      "shape_spec": "rounds/mask-G/shape-spec.json",
+      "input_dir": "rounds/mask-G/inputs",
+      "first_input_id": "st01_rgb_star_d16_mask_g20",
+      "flat_input_id": "st00_flat128",
+      "scheduled_stages": [
+        "full100"
+      ],
+      "scheduled_input_ids": [
+        "st01_rgb_star_d16_mask_g20",
+        "st00_flat128"
+      ]
+    },
+    {
+      "id": "mask-B",
+      "shape_spec": "rounds/mask-B/shape-spec.json",
+      "input_dir": "rounds/mask-B/inputs",
+      "first_input_id": "st01_rgb_star_d16_mask_b20",
+      "flat_input_id": "st00_flat128",
+      "scheduled_stages": [
+        "full100"
+      ],
+      "scheduled_input_ids": [
+        "st01_rgb_star_d16_mask_b20",
+        "st00_flat128"
+      ]
+    },
+    {
+      "id": "control-post",
+      "shape_spec": "rounds/control-post/shape-spec.json",
+      "input_dir": "rounds/control-post/inputs",
+      "first_input_id": "st01_rgb_star_d16",
+      "flat_input_id": "st00_flat128",
+      "scheduled_stages": [
+        "full100"
+      ],
+      "scheduled_input_ids": [
+        "st01_rgb_star_d16",
+        "st00_flat128"
+      ]
+    }
+  ],
+  "seven_point_consumed": false
+}

@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "platform": "ios",
+  "status": "passed",
+  "shape_manifest": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/mask-B/shape-spec.json",
+  "strict_verification_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/mask-B/native-r1/endpoint-verification-strict.json",
+  "expected_shape_captures": 1,
+  "verified_shape_captures": 1,
+  "captures": [
+    {
+      "stage_id": "full100",
+      "coverage_label": "full100",
+      "shape_id": "st01_rgb_star_d16_mask_b20",
+      "input_id": "st01_rgb_star_d16_mask_b20",
+      "run": "-[NativeReferenceTests testSliderColorResponseFullCoverage]-8D5F9DA9-CD59-4C64-B74A-C3515CC7655A",
+      "png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/mask-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-8D5F9DA9-CD59-4C64-B74A-C3515CC7655A/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_b20-light-full100-held.png",
+      "sha256": "6757dbb2ff318467c977f81a026212005c0d41e250689550898e64035156ce36",
+      "is_flat_control": false,
+      "world_origin_window_px": [
+        0,
+        0
+      ],
+      "pixels_per_world_unit": 2,
+      "source_world_xywh": [
+        0,
+        0,
+        375,
+        667
+      ],
+      "actual_control_bounds_world_xywh": [
+        20,
+        414,
+        335,
+        31
+      ],
+      "bounds_kind": "actual public presented native Slider owner bounds; not optical alpha",
+      "actual_carrier_bounds_world_xywh": [
+        159.04738254547118,
+        410.9,
+        57.349999999999994,
+        37.19999999999999
+      ],
+      "carrier_bounds_scope": "actual public presented carrier rectangle; not optical alpha or optical-stability proof",
+      "receipt_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/mask-B/native-r1/endpoint-verification-strict.json",
+      "session_json": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/mask-B/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-8D5F9DA9-CD59-4C64-B74A-C3515CC7655A/session.json",
+      "trace_jsonl": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/mask-B/native-r1/traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-8D5F9DA9-CD59-4C64-B74A-C3515CC7655A/trace.jsonl",
+      "flat_png": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/mask-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-76411A13-FF80-45B0-BDD6-5C7A8356C311/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+      "flat_sha256": "1a0e2479c1a9af24447c4a1caa83d5fc5c3b748326a665b31dd12e9c2b8069be",
+      "flat_actual_carrier_bounds_world_xywh": [
+        159.04738254547118,
+        410.9,
+        57.349999999999994,
+        37.19999999999999
+      ],
+      "flat_geometry": {
+        "world_origin_window_px": [
+          0,
+          0
+        ],
+        "pixels_per_world_unit": 2,
+        "actual_control_bounds_world_xywh": [
+          20,
+          414,
+          335,
+          31
+        ],
+        "actual_carrier_bounds_world_xywh": [
+          159.04738254547118,
+          410.9,
+          57.349999999999994,
+          37.19999999999999
+        ]
+      }
+    }
+  ]
+}

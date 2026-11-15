@@ -1,0 +1,146 @@
+{
+  "started_unix": 1794760812.527101,
+  "phase": "capture",
+  "simulator": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+  "round": "control-post",
+  "commands": [
+    {
+      "argv": [
+        "xcrun",
+        "simctl",
+        "install",
+        "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+        "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/.local/DerivedData/Build/Products/Debug-iphonesimulator/GlassNativeReference.app"
+      ],
+      "exit_code": 0,
+      "seconds": 0.7904691696166992
+    },
+    {
+      "argv": [
+        "xcrun",
+        "simctl",
+        "install",
+        "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+        "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/.local/DerivedData/Build/Products/Debug-iphonesimulator/GlassNativeReferenceUITests-Runner.app"
+      ],
+      "exit_code": 0,
+      "seconds": 0.5133309364318848
+    },
+    {
+      "argv": [
+        "xcodebuild",
+        "test-without-building",
+        "-xctestrun",
+        "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/.local/DerivedData/Build/Products/GlassNativeReference_iphonesimulator27.2-arm64.xctestrun",
+        "-destination",
+        "platform=iOS Simulator,id=B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+        "-parallel-testing-enabled",
+        "NO",
+        "-test-timeouts-enabled",
+        "YES",
+        "-default-test-execution-time-allowance",
+        "120",
+        "-maximum-test-execution-time-allowance",
+        "120",
+        "-resultBundlePath",
+        "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/control-post/native-r1/result.xcresult",
+        "-only-testing:GlassNativeReferenceUITests/NativeReferenceTests/testSliderColorResponseFullCoverage"
+      ],
+      "exit_code": 0,
+      "seconds": 62.461942195892334
+    },
+    {
+      "argv": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/native-tools/verify-full100-endpoints.py",
+        "--out",
+        "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/control-post/native-r1",
+        "--spec",
+        "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/inputs/rounds/control-post/shape-spec.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.35495615005493164
+    }
+  ],
+  "scope": "Two full100 held endpoints, one shape/flat pair. Calibration only.",
+  "native_sources": {
+    "App/NativeRangeReference.swift": "95c1836ca2a9fdc18643b2a0df65914c8518044666ee5361179def7079b4f972",
+    "App/main.swift": "5a21313a4208e4fefc0129c15fdb877d3e1fe5a90b7a0770329e5d2bc7f70a73",
+    "App/NativeStage.swift": "e9b10e960ddb7c7f14801f74d8f3098c1dfdfe227b0266c1951c2eab7125e4ec",
+    "App/ReferenceTrace.swift": "b8a7d57193548e46c93b2a90fa254588c3e9150100079bee735a47e00d9f5f99",
+    "UITests/NativeReferenceTests.swift": "5f939b7732c1c86d8da4ee82ab0b8d529f6a2af84cc105b147d5a1a39c356a54"
+  },
+  "freeze_sha256": "10e82a63abd4ccfe38ad7a88a70367a1612d62fa31b6b57d0e42e8ef8c33354e",
+  "prepared_native_files": {
+    ".gitignore": "099c9f409fa89c42b14e03ed92c7ee9ad71c2e0d034882fcd30a5fa588850816",
+    "App/Info.plist": "77ed9f2bc9c6f16bdb933441e597d24c93235378db68156d48bcf45a349ee525",
+    "App/NativeRangeReference.swift": "95c1836ca2a9fdc18643b2a0df65914c8518044666ee5361179def7079b4f972",
+    "App/NativeStage.swift": "e9b10e960ddb7c7f14801f74d8f3098c1dfdfe227b0266c1951c2eab7125e4ec",
+    "App/ReferenceTrace.swift": "b8a7d57193548e46c93b2a90fa254588c3e9150100079bee735a47e00d9f5f99",
+    "App/main.swift": "5a21313a4208e4fefc0129c15fdb877d3e1fe5a90b7a0770329e5d2bc7f70a73",
+    "GlassNativeReference.xcodeproj/project.pbxproj": "7f3214ccb44d79a3ca76477a58a0bdddebef941c99176fb4ba1898c1afc847de",
+    "GlassNativeReference.xcodeproj/project.xcworkspace/contents.xcworkspacedata": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f",
+    "GlassNativeReference.xcodeproj/xcshareddata/xcschemes/GlassNativeReference.xcscheme": "8473a320b6d6b7dba5ce094cbf0595edd9796ecbbe97182f120bfa5774f8ec85",
+    "README.md": "55807445ea64ec6a8b021e4bf4b0378aa68f3394edf9ded1a27a2bd6df63bc15",
+    "UITests/NativeReferenceTests.swift": "5f939b7732c1c86d8da4ee82ab0b8d529f6a2af84cc105b147d5a1a39c356a54",
+    "capture-static-optics.py": "e41ce1eaf138ba915604386f21a08e3a65d201a7ac9a3abed278df6bbdb63c2b",
+    "export-language.py": "c94037bc6d2b9afd782e415d8e354f9ec076026d0ab1f11e70b8d8baa29dd652",
+    "export-touches.py": "a3c77ddb5669df0394523621a51fcb5e3375e542e0a5cd3f5758abe0aacbb0e7",
+    "inspect-video.swift": "4c1766e717ffe255f05be42068d27aa4ebfd80e9495905da4358db615be378cb",
+    "project.yml": "4a22ab059046d16fac604832e8fb84d16469fc771b18d80ad673e20cd9f9247e",
+    "verify-static-optics.py": "06578a07b3fa55081557de66c3ca5a5d45327d3d4887f9e7903e07a832eab226"
+  },
+  "native_binaries": {
+    "Build/Products/Debug-iphonesimulator/GlassNativeReference.app/GlassNativeReference": "af593434cfc72f0c21b37ee8accdf91ac3428cf1644cd89942b5736064b89566",
+    "Build/Products/Debug-iphonesimulator/GlassNativeReference.app/GlassNativeReference.debug.dylib": "15f9df3b60836095049ac9a06a736650dcfd065e97e742aacea2195bbf8efe12",
+    "Build/Products/Debug-iphonesimulator/GlassNativeReference.app/Info.plist": "ba75442b5eb4640384f8742acc0b8c3926b94578e3fecf960210687055a33deb",
+    "Build/Products/Debug-iphonesimulator/GlassNativeReference.app/PkgInfo": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0",
+    "Build/Products/Debug-iphonesimulator/GlassNativeReference.app/__preview.dylib": "a2f42e7da0913820cf7d7105a71cd82a611b34994a02d6337b6478cee3dde3aa",
+    "Build/Products/Debug-iphonesimulator/GlassNativeReferenceUITests-Runner.app/GlassNativeReferenceUITests-Runner": "7eae7fa216602d3d3f3bfa16c5eb6f6c939bf3d9aa5822ea6a90e225a572d00f",
+    "Build/Products/Debug-iphonesimulator/GlassNativeReferenceUITests-Runner.app/Info.plist": "30421f71322d71d67d40d25f6bdf3190786863e3eee47bf8bf445ab181f63ec6",
+    "Build/Products/Debug-iphonesimulator/GlassNativeReferenceUITests-Runner.app/PkgInfo": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0",
+    "Build/Products/Debug-iphonesimulator/GlassNativeReferenceUITests-Runner.app/PlugIns/GlassNativeReferenceUITests.xctest/GlassNativeReferenceUITests": "aa49bd263cca0494b8c742bdbc7b63afb2013db075a6b53355004f19454178e4",
+    "Build/Products/Debug-iphonesimulator/GlassNativeReferenceUITests-Runner.app/PlugIns/GlassNativeReferenceUITests.xctest/Info.plist": "f5edab56ab0a528179102efbbf109f48c98b1fdb2c29f8a89b4730f9f61069da",
+    "Build/Products/GlassNativeReference_iphonesimulator27.2-arm64.xctestrun": "f5d5a807e58398c7fc630bd8e450424c82da8e4d5f438a350f1ad08675c483fb"
+  },
+  "simulator_identity": {
+    "udid": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+    "runtime": "com.apple.CoreSimulator.SimRuntime.iOS-26-5",
+    "build": "23F77"
+  },
+  "spec_sha256": "f0dfeac27498d7050ab22882bbf980f916bfeec178fd43338f150e01fed363ad",
+  "manifest_sha256": "10f2f18083d27c4366e98f21b31aa80e261bc968b0bacf1761ce03b6ca1514a2",
+  "binary_sha256": {
+    "GlassNativeReference.app": "af593434cfc72f0c21b37ee8accdf91ac3428cf1644cd89942b5736064b89566",
+    "GlassNativeReferenceUITests-Runner.app": "7eae7fa216602d3d3f3bfa16c5eb6f6c939bf3d9aa5822ea6a90e225a572d00f"
+  },
+  "finished_unix": 1794760878.082643,
+  "captures": 2,
+  "verified_held_endpoints": 2,
+  "verified_shape_flat_pairs": 1,
+  "lossless_trace_storage": [
+    {
+      "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9CF113A4-9447-4E5C-A676-066876670514/trace.jsonl.gz",
+      "original_sha256": "ff774e5198c58926dcdc9a77618e84f03cc3c5287c0ff5a7218adc8d8438e3e9",
+      "original_bytes": 10321695,
+      "archive_bytes": 1027308,
+      "archive_sha256": "4643644a7b5343365138ef7c0a895a0b17e486a3bab2ee46cb061764a9150817"
+    },
+    {
+      "archive": "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EBA9E651-DC56-44F4-A0A7-5E10AC296C12/trace.jsonl.gz",
+      "original_sha256": "003fa430bc2ccf979f7c0275d1610d12fb55866978230f05258437b6cbefb48f",
+      "original_bytes": 10319187,
+      "archive_bytes": 1029667,
+      "archive_sha256": "f7a2c5140dce2f6d60115ee930f4b63aabae0631f8e8d8cbdd500f7c60bfab9e"
+    }
+  ],
+  "analysis_artifacts": {
+    "index-strict.json": "2b0849d98d23bb166cc1e8d75818f60b187eeb432dc803af000a41be64aba14b",
+    "endpoint-verification-strict.json": "a2021dca817c0487ca091cb390b4cc4f8bf0d280bf0708dfee6604f54d1b73e0",
+    "held/capture-events.jsonl": "1fd189483510018e6df63bd85435133724255529b16b21082b1076c0d307c445",
+    "held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9CF113A4-9447-4E5C-A676-066876670514/slider-fixed-shape-coverage-st01_rgb_star_d16-light-full100-held.png": "54c3a0dd6df3568014edc999679d03755854d2f75940567d6079260ea932cb18",
+    "held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EBA9E651-DC56-44F4-A0A7-5E10AC296C12/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png": "910eb6306f47f2e6c9582affd9d5b809b761b9338264bdd69c2c258a3ad5f9d7",
+    "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9CF113A4-9447-4E5C-A676-066876670514/session.json": "1e57acd337a0bc9b14a4b86c9ce4529e43d5790c5f136e2b994085f678c43c55",
+    "traces/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EBA9E651-DC56-44F4-A0A7-5E10AC296C12/session.json": "9b3f63716f3a60cde6f5445c0abe7f23f7f8b1877888316211f1d233dd3477bb"
+  }
+}

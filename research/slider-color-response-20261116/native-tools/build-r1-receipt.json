@@ -1,0 +1,35 @@
+{
+  "started_unix": 1794759208.257143,
+  "phase": "build",
+  "simulator": "B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+  "round": null,
+  "commands": [
+    {
+      "argv": [
+        "xcodebuild",
+        "build-for-testing",
+        "-project",
+        "GlassNativeReference.xcodeproj",
+        "-scheme",
+        "GlassNativeReference",
+        "-destination",
+        "platform=iOS Simulator,id=B7EBD2CC-2FAE-449B-BB9B-1CB95F055764",
+        "-derivedDataPath",
+        "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/.local/DerivedData",
+        "-parallel-testing-enabled",
+        "NO"
+      ],
+      "exit_code": 0,
+      "seconds": 10.976928949356079
+    }
+  ],
+  "scope": "Two full100 held endpoints, one shape/flat pair. Calibration only.",
+  "native_sources": {
+    "App/NativeRangeReference.swift": "95c1836ca2a9fdc18643b2a0df65914c8518044666ee5361179def7079b4f972",
+    "App/main.swift": "5a21313a4208e4fefc0129c15fdb877d3e1fe5a90b7a0770329e5d2bc7f70a73",
+    "App/NativeStage.swift": "e9b10e960ddb7c7f14801f74d8f3098c1dfdfe227b0266c1951c2eab7125e4ec",
+    "App/ReferenceTrace.swift": "b8a7d57193548e46c93b2a90fa254588c3e9150100079bee735a47e00d9f5f99",
+    "UITests/NativeReferenceTests.swift": "5f939b7732c1c86d8da4ee82ab0b8d529f6a2af84cc105b147d5a1a39c356a54"
+  },
+  "finished_unix": 1794759219.239382
+}

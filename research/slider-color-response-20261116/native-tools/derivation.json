@@ -1,0 +1,20 @@
+{
+  "derivation_date": "2026-11-16",
+  "observer": {
+    "source_path": "artifacts/slider-shape-transport-20261115/capture-held-endpoints.py",
+    "source_sha256": "9b7d05d7128f565b6a0c288abd9c6e7ddfaf423559954052c7e74b9d465990f2",
+    "export_sha256": "9b7d05d7128f565b6a0c288abd9c6e7ddfaf423559954052c7e74b9d465990f2",
+    "changed": false
+  },
+  "verifier": {
+    "source_path": "artifacts/slider-shape-transport-20261115/verify-native-endpoints.py",
+    "source_sha256": "1e74889b2d7b1014f0cbc74e5fd26d6d5c4beda56fd5334767ca09dfbb31da71",
+    "export_sha256": "2dac6504827d29231952b9f41ccd84bc4f8da74410472d85efca3df6b9225dce",
+    "change_scope": "Only portable PNG-validator path and explicit full100-only matrix of two endpoints/one pair; pose, event-clock, input-identity and PNG rules unchanged."
+  },
+  "native_test_patch": {
+    "source_test_sha256": "ae1e82a305381e6756082cf9f48f9a15c43ea7872069436563fe6324ebf160f7",
+    "patched_test_sha256": "5f939b7732c1c86d8da4ee82ab0b8d529f6a2af84cc105b147d5a1a39c356a54",
+    "scope": "Only rename selected XCTest method and select original full100 stage; App, source image mapping, gestures, native controls and optical material are unchanged."
+  }
+}

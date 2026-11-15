@@ -1,0 +1,3491 @@
+{
+  "schema": 1,
+  "status": "PASS_INDEPENDENT_ORIGINAL_PNG_AND_EXACT_INTERVAL_AUDIT",
+  "audit_script_sha256": "b815107041180ec323689fd66a24b659bfb6f8852d0f3c476de2d61fc5ae09e4",
+  "analysis_json_sha256": "5499910555e7aa465f853c2361f55fe4a2300703416a98b82d00de98c393d9ba",
+  "arrays_sha256": "11b1e76aa2a0a7766b579bdfd8a8fc8e4bceecda1fc996a34f07d9955a78f695",
+  "method": "Read all 16 formal original held PNGs; form signed int16 global/pre and masked/pre RGB contrasts. Intersect each signed component constraint with alpha in [0,1] using exact int64 rational cross-products; test equality as closed intervals. No analyzer import, function reuse, registration, fit or pixel modification.",
+  "matrix_axes": [
+    "output_RGB",
+    "input_RGB"
+  ],
+  "ROI_xyxy_original_pixels": [
+    331,
+    795,
+    419,
+    883
+  ],
+  "tolerances_raw_byte": [
+    1,
+    4,
+    8
+  ],
+  "fixed_inset_bins": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    14,
+    20
+  ],
+  "original_PNGs": {
+    "control-pre": {
+      "shape": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/control-pre/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5126D95C-DED3-476E-BA4A-09E28AE54FF8/slider-fixed-shape-coverage-st01_rgb_star_d16-light-full100-held.png",
+        "sha256": "ea7bf07fb202c5c0f35f6e8a0c9fb4a5a58e6ebf7fafeaf686cd865a0da22b47"
+      },
+      "flat": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/control-pre/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-16CE6F63-950B-4CD4-A5E6-4D634725E651/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+        "sha256": "5cc886b5e145d9cc82f0e6bfe04fa8e9d7d0fa5ce990e95bca7cab6c5d60062b"
+      }
+    },
+    "global-R": {
+      "shape": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/global-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-898D90CC-2E37-4A4B-BCE1-A10FFF4FFEF3/slider-fixed-shape-coverage-st01_rgb_star_d16_global_r20-light-full100-held.png",
+        "sha256": "7536c7464c15b98c1d51a2829261f9c6c223d6d254c854f39072e53fb3753921"
+      },
+      "flat": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/global-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A056C734-2DFE-4100-856F-B21D22BF7C3A/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+        "sha256": "856db0d9cfb9f9be2a2b1ea944015dc579fe1b9993e9c67d73b00e7d6fa9041c"
+      }
+    },
+    "global-G": {
+      "shape": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/global-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A29D9FB1-F729-4194-9E3F-6962666FC2EF/slider-fixed-shape-coverage-st01_rgb_star_d16_global_g20-light-full100-held.png",
+        "sha256": "f791ddea33a27ad8d6b77500ef1f7ef13ebcd357f425aa610a956f7b6c546d76"
+      },
+      "flat": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/global-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-C4D4D721-C384-4E4D-ADFC-E3E92D96096B/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+        "sha256": "582311348b99e2853cab9912919453e668ac9bd0008acd9d0c70100ee1dfba24"
+      }
+    },
+    "global-B": {
+      "shape": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/global-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-945DC5A2-3C41-43CB-94C6-C4CBDC7F9E50/slider-fixed-shape-coverage-st01_rgb_star_d16_global_b20-light-full100-held.png",
+        "sha256": "60db3c2abcfa311b06cbba02835523b051cd369ba36f3006d8130b9131ab5023"
+      },
+      "flat": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/global-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EF680A23-6594-4A3D-9A45-FF88A77C8E63/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+        "sha256": "9b65dc0cb0815b56541ff1f2f625da423975e3e6db26e34980ba4d8f6b109917"
+      }
+    },
+    "mask-R": {
+      "shape": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/mask-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-066DB500-F34C-4F7A-B66C-6585AE283FD2/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_r20-light-full100-held.png",
+        "sha256": "0efd654c45d3c7e59d2fc1de2dd9113a4edc0948b987ccf9bbc113d61e942daf"
+      },
+      "flat": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/mask-R/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9D991FAD-FC3A-4A37-8120-FAD79F557D56/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+        "sha256": "0cc0fd59c69053506c09c93146391c4f9e55b47eb3fecd7ab6ace6df8911f53f"
+      }
+    },
+    "mask-G": {
+      "shape": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/mask-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5871289B-DF0B-4BBC-9C0B-F44553CE0B33/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_g20-light-full100-held.png",
+        "sha256": "0a622bbcbdc439ee024b5940040470da24b9bff9acb758921b6beeb12aaa58a4"
+      },
+      "flat": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/mask-G/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-A39BDE4A-4414-4754-BF58-ABB5FDA59234/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+        "sha256": "1ba41901ee9f35c4865c07d47346c6264555895368a7ca965dd6916cc632e54a"
+      }
+    },
+    "mask-B": {
+      "shape": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/mask-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-8D5F9DA9-CD59-4C64-B74A-C3515CC7655A/slider-fixed-shape-coverage-st01_rgb_star_d16_mask_b20-light-full100-held.png",
+        "sha256": "6757dbb2ff318467c977f81a026212005c0d41e250689550898e64035156ce36"
+      },
+      "flat": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/mask-B/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-76411A13-FF80-45B0-BDD6-5C7A8356C311/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+        "sha256": "1a0e2479c1a9af24447c4a1caa83d5fc5c3b748326a665b31dd12e9c2b8069be"
+      }
+    },
+    "control-post": {
+      "shape": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/control-post/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-9CF113A4-9447-4E5C-A676-066876670514/slider-fixed-shape-coverage-st01_rgb_star_d16-light-full100-held.png",
+        "sha256": "54c3a0dd6df3568014edc999679d03755854d2f75940567d6079260ea932cb18"
+      },
+      "flat": {
+        "path": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/rounds/control-post/native-r1/held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-EBA9E651-DC56-44F4-A0A7-5E10AC296C12/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png",
+        "sha256": "910eb6306f47f2e6c9582affd9d5b809b761b9338264bdd69c2c258a3ad5f9d7"
+      }
+    }
+  },
+  "original_ROIs_and_U_M_equal_saved_arrays": true,
+  "all_exact_interval_endpoints_and_compatibility_arrays_equal": true,
+  "region_model_tolerance_count_checks": 672,
+  "all_report_region_counts_equal": true,
+  "independent_complete_ROI_drift": {
+    "flat_each_round_max_abs_RGB": {
+      "control-pre": [
+        0,
+        0,
+        0
+      ],
+      "global-R": [
+        0,
+        0,
+        0
+      ],
+      "global-G": [
+        0,
+        0,
+        0
+      ],
+      "global-B": [
+        0,
+        0,
+        0
+      ],
+      "mask-R": [
+        0,
+        0,
+        0
+      ],
+      "mask-G": [
+        0,
+        0,
+        0
+      ],
+      "mask-B": [
+        0,
+        0,
+        0
+      ],
+      "control-post": [
+        0,
+        0,
+        0
+      ]
+    },
+    "post_pre_shape_max_abs_RGB": [
+      0,
+      0,
+      0
+    ]
+  },
+  "floating_boundary_note": {
+    "authoritative": "exact closed alpha interval intersection, not minimax residual > threshold",
+    "T4_interval_incompatible_pixels": 49,
+    "T4_floating_minimax_greater_than_4_pixels": 50,
+    "floating_minimax_only_pixels": [
+      {
+        "world_pt": [
+          182.25,
+          413.25
+        ],
+        "floating_minimax_error": 4.000000000000002
+      }
+    ]
+  },
+  "regions": {
+    "complete": {
+      "pixels": 7744,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 7598,
+            "incompatible_pixels": 146
+          },
+          "4": {
+            "compatible_pixels": 7695,
+            "incompatible_pixels": 49
+          },
+          "8": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 7734,
+            "incompatible_pixels": 10
+          },
+          "4": {
+            "compatible_pixels": 7742,
+            "incompatible_pixels": 2
+          },
+          "8": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 7741,
+            "incompatible_pixels": 3
+          },
+          "4": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 7741,
+            "incompatible_pixels": 3
+          },
+          "4": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 7736,
+            "incompatible_pixels": 8
+          },
+          "4": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 7744,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail": {
+      "pixels": 4312,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 4166,
+            "incompatible_pixels": 146
+          },
+          "4": {
+            "compatible_pixels": 4263,
+            "incompatible_pixels": 49
+          },
+          "8": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 4302,
+            "incompatible_pixels": 10
+          },
+          "4": {
+            "compatible_pixels": 4310,
+            "incompatible_pixels": 2
+          },
+          "8": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 4309,
+            "incompatible_pixels": 3
+          },
+          "4": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 4309,
+            "incompatible_pixels": 3
+          },
+          "4": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 4304,
+            "incompatible_pixels": 8
+          },
+          "4": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 4312,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded": {
+      "pixels": 2816,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 2816,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "below_rail": {
+      "pixels": 616,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 616,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "primary_above_rail_inset_ge1": {
+      "pixels": 1630,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 1510,
+            "incompatible_pixels": 120
+          },
+          "4": {
+            "compatible_pixels": 1598,
+            "incompatible_pixels": 32
+          },
+          "8": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1630,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_rim_inset_lt1": {
+      "pixels": 2682,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 2656,
+            "incompatible_pixels": 26
+          },
+          "4": {
+            "compatible_pixels": 2665,
+            "incompatible_pixels": 17
+          },
+          "8": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 2672,
+            "incompatible_pixels": 10
+          },
+          "4": {
+            "compatible_pixels": 2680,
+            "incompatible_pixels": 2
+          },
+          "8": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 2679,
+            "incompatible_pixels": 3
+          },
+          "4": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 2679,
+            "incompatible_pixels": 3
+          },
+          "4": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 2674,
+            "incompatible_pixels": 8
+          },
+          "4": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 2682,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_0_0.5": {
+      "pixels": 92,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 80,
+            "incompatible_pixels": 12
+          },
+          "4": {
+            "compatible_pixels": 86,
+            "incompatible_pixels": 6
+          },
+          "8": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 85,
+            "incompatible_pixels": 7
+          },
+          "4": {
+            "compatible_pixels": 90,
+            "incompatible_pixels": 2
+          },
+          "8": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 1
+          },
+          "4": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 89,
+            "incompatible_pixels": 3
+          },
+          "4": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 86,
+            "incompatible_pixels": 6
+          },
+          "4": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_0_0.5": {
+      "pixels": 0,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_0.5_1": {
+      "pixels": 94,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 80,
+            "incompatible_pixels": 14
+          },
+          "4": {
+            "compatible_pixels": 83,
+            "incompatible_pixels": 11
+          },
+          "8": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 3
+          },
+          "4": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 2
+          },
+          "4": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 92,
+            "incompatible_pixels": 2
+          },
+          "4": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 94,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_0.5_1": {
+      "pixels": 0,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_1_1.5": {
+      "pixels": 95,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 78,
+            "incompatible_pixels": 17
+          },
+          "4": {
+            "compatible_pixels": 85,
+            "incompatible_pixels": 10
+          },
+          "8": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 95,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_1_1.5": {
+      "pixels": 0,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_1.5_2": {
+      "pixels": 91,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 72,
+            "incompatible_pixels": 19
+          },
+          "4": {
+            "compatible_pixels": 81,
+            "incompatible_pixels": 10
+          },
+          "8": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 91,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_1.5_2": {
+      "pixels": 0,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_2_3": {
+      "pixels": 191,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 152,
+            "incompatible_pixels": 39
+          },
+          "4": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 12
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_2_3": {
+      "pixels": 0,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_3_4": {
+      "pixels": 191,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 20
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 191,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_3_4": {
+      "pixels": 0,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_4_5": {
+      "pixels": 189,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 183,
+            "incompatible_pixels": 6
+          },
+          "4": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 189,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_4_5": {
+      "pixels": 12,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 12,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_5_6": {
+      "pixels": 179,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 165,
+            "incompatible_pixels": 14
+          },
+          "4": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 179,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_5_6": {
+      "pixels": 49,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 49,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_6_7": {
+      "pixels": 171,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 166,
+            "incompatible_pixels": 5
+          },
+          "4": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 171,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_6_7": {
+      "pixels": 107,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 107,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_7_8": {
+      "pixels": 153,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 153,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_7_8": {
+      "pixels": 142,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 142,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_8_10": {
+      "pixels": 265,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 265,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_8_10": {
+      "pixels": 311,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 311,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_10_14": {
+      "pixels": 105,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 105,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_10_14": {
+      "pixels": 1203,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 1203,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "above_rail_inset_14_20": {
+      "pixels": 0,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 0,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    },
+    "rail_confounded_inset_14_20": {
+      "pixels": 992,
+      "models": {
+        "common_all": {
+          "1": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_R": {
+          "1": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_R": {
+          "1": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_G": {
+          "1": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_G": {
+          "1": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          }
+        },
+        "input_B": {
+          "1": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          }
+        },
+        "output_B": {
+          "1": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "4": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          },
+          "8": {
+            "compatible_pixels": 992,
+            "incompatible_pixels": 0
+          }
+        }
+      }
+    }
+  },
+  "limits": [
+    "Calibration audit only; incompatibility is conditional on the prescribed bounded common-kernel null.",
+    "No physical thickness, causal pipeline, universal parity or optical acceptance is inferred.",
+    "No trace or xcresult is opened, and no source/capture/frozen result is changed."
+  ]
+}

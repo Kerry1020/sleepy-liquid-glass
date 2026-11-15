@@ -1,0 +1,156 @@
+{
+  "backgrounds" : {
+    "baseRGBA" : [
+      0.93999999999999995,
+      0.93999999999999995,
+      0.95999999999999996,
+      1
+    ],
+    "colorSpace" : "sRGB (resolved UIColor, converted CGColor, then UIColor.getRed)",
+    "gridLineRGBA" : [
+      0,
+      0,
+      0,
+      0.13
+    ],
+    "gridLineWidthPt" : 0.5,
+    "gridSpacingPt" : 20,
+    "stripeAlpha" : 0.52000000000000002,
+    "stripeNames" : [
+      "systemRed",
+      "systemOrange",
+      "systemYellow",
+      "systemGreen",
+      "systemTeal",
+      "systemBlue",
+      "systemPurple"
+    ],
+    "stripePaintRGBA" : [
+      [
+        1,
+        0.2196078431372549,
+        0.23529411764705882,
+        0.52000000000000002
+      ],
+      [
+        1,
+        0.55294117647058827,
+        0.15686274509803921,
+        0.52000000000000002
+      ],
+      [
+        1,
+        0.80000000000000004,
+        0,
+        0.52000000000000002
+      ],
+      [
+        0.20392156862745098,
+        0.7803921568627451,
+        0.34901960784313724,
+        0.52000000000000002
+      ],
+      [
+        0,
+        0.76470588235294112,
+        0.81568627450980391,
+        0.52000000000000002
+      ],
+      [
+        0,
+        0.53333333333333333,
+        1,
+        0.52000000000000002
+      ],
+      [
+        0.79607843137254897,
+        0.18823529411764706,
+        0.8784313725490196,
+        0.52000000000000002
+      ]
+    ],
+    "stripeResolvedRGBA" : [
+      [
+        1,
+        0.2196078431372549,
+        0.23529411764705882,
+        1
+      ],
+      [
+        1,
+        0.55294117647058827,
+        0.15686274509803921,
+        1
+      ],
+      [
+        1,
+        0.80000000000000004,
+        0,
+        1
+      ],
+      [
+        0.20392156862745098,
+        0.7803921568627451,
+        0.34901960784313724,
+        1
+      ],
+      [
+        0,
+        0.76470588235294112,
+        0.81568627450980391,
+        1
+      ],
+      [
+        0,
+        0.53333333333333333,
+        1,
+        1
+      ],
+      [
+        0.79607843137254897,
+        0.18823529411764706,
+        0.8784313725490196,
+        1
+      ]
+    ],
+    "stripeWidthPt" : 28
+  },
+  "captureFramesPerSecond" : 60,
+  "captureSampleLimit" : 720,
+  "captureSamplingPolicy" : "60Hz display-link callbacks during actual delivered touch; REST at least0.25s apart; maximum720 observations per launch; dropped frames and sequential getter brackets remain explicit",
+  "coordinates" : "window points; normalized coordinates divide by window bounds",
+  "darkerSystemColors" : false,
+  "device" : "iPhone",
+  "effectiveOpacityScope" : "product of presentation opacity along UIView ancestors; excludes extra CALayer ancestors and material shader coverage",
+  "focusedMenuObservation" : false,
+  "frameClock" : "captureStartT...captureEndT bracket sequential presentation reads; t is row enqueue time",
+  "interfaceStyle" : 1,
+  "layerGeometryCoordinates" : "positionX\/Y are superlayer points; anchorPointX\/Y are unit bounds coordinates; boundsX\/Y are local bounds origin points; presentation layer when available",
+  "layerGeometryFieldsVersion" : 1,
+  "maximumFramesPerSecond" : 60,
+  "originUnixSeconds" : 1794760706.385541,
+  "originUptimeSeconds" : 606901.25256800011,
+  "os" : "Version 26.5 (Build 23F77)",
+  "rangeGeometryProbe" : false,
+  "rangeGeometryProbeScope" : "only the opt-in range scene retains all UIView model geometry and cached public UISlider layout results; sequential reads use captureStartT...captureEndT",
+  "reduceMotion" : false,
+  "reduceTransparency" : false,
+  "run" : "-_NativeReferenceTests_testSliderColorResponseFullCoverage_-5871289B-DF0B-4BBC-9C0B-F44553CE0B33",
+  "schema" : 2,
+  "screenHeightPt" : 667,
+  "screenScale" : 2,
+  "screenWidthPt" : 375,
+  "sliderFixedShapeCoverage" : true,
+  "sliderFixedShapeCoverageScope" : "stationary unique colored shape source; public drag moves native Slider; actual endpoint path and presentation geometry establish held coverage; no native override",
+  "sliderLayerProbe" : true,
+  "sliderLayerProbeScope" : "opt-in public model geometry and CAAnimation reads; no control mutation; sequential reads use the enclosing capture bracket",
+  "sliderMarkerTransport" : false,
+  "sliderMarkerTransportScope" : "explicit fixed native Slider held with public input; source translations are original external PNG bytes; legacy static external inputs remain REST-only",
+  "startedAt" : "2026-11-15T16:38:26Z",
+  "tintSRGB" : [
+    0,
+    0.65000000000000002,
+    0.75,
+    1
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "rejected_collector_run_name_assertion_before_strict_verification",
+  "original_freeze_sha256": "354b5b8118f9a12c9dbb2fb3c6ecab787138d839e6393854cb1ff5b66f6e907a",
+  "captured_but_not_analyzed_sessions": 2,
+  "optical_pngs_decoded": false,
+  "native_application_or_inputs_changed": false,
+  "correction": "Compare session.run with the same safe(event.run) used by ReferenceTrace and observer instead of raw XCTest name.",
+  "failed_files_sha256": {
+    "observer.log": "862319446b248e521d5be81088b3b040fa4ab16ccb25635002f51e0c83a5fd72",
+    "test.log": "1a2c6cb38ce7478040e872237e55424f56897d35324b879d57c8e8173d86857c",
+    "install-GlassNativeReferenceUITests-Runner.app.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "install-GlassNativeReference.app.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "receipt.json": "6beb7e0b317ecbfe9c70121b57d008163f21e3822626a87c68daeb7806fde215",
+    "held/capture-events.jsonl": "bd6f3b83719a349046ee514d4886859a8d799be1e7e0942f4097ae4c71cafb69",
+    "held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-6103CD82-E74F-4770-8893-F109EBE27F9C/slider-fixed-shape-coverage-st01_rgb_star_d16-light-full100-held.png": "8d9d8d0305f6f4aa625bf4f04ebfb103f924ca669e3d49325ea2b91b7b6ce3c3",
+    "held/-_NativeReferenceTests_testSliderColorResponseFullCoverage_-8F628CBB-830D-49BC-893C-F2CEFA295616/slider-fixed-shape-coverage-st00_flat128-light-full100-held.png": "5f62af571c2222a6feb013c47a88831cef47cbe7af42beedb1395f7bcb72e2cc"
+  },
+  "lossless_trace_storage": [
+    {
+      "run": "-[NativeReferenceTests testSliderColorResponseFullCoverage]-6103CD82-E74F-4770-8893-F109EBE27F9C",
+      "session_run": "-_NativeReferenceTests_testSliderColorResponseFullCoverage_-6103CD82-E74F-4770-8893-F109EBE27F9C",
+      "original_sha256": "5478f4d2ee5e098a970f099e6c2f58257f6c2cc23898ce993e32085d71a83ca5",
+      "original_bytes": 10299885,
+      "gzip_bytes": 1026387
+    },
+    {
+      "run": "-[NativeReferenceTests testSliderColorResponseFullCoverage]-8F628CBB-830D-49BC-893C-F2CEFA295616",
+      "session_run": "-_NativeReferenceTests_testSliderColorResponseFullCoverage_-8F628CBB-830D-49BC-893C-F2CEFA295616",
+      "original_sha256": "f1df6fe6b07eb03105e78bcfeba817ec1a3ae480dd044f12732b04c9722342b8",
+      "original_bytes": 10338170,
+      "gzip_bytes": 1035553
+    }
+  ],
+  "local_raw_location": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/.local/incidents/run-id-format-v1",
+  "schedule_after_correction": "Repeat control-pre from scratch, then remaining declared rounds; no failed v1 image enters response analysis."
+}

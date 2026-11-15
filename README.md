@@ -229,6 +229,10 @@ $$\mathrm{RMSE}_x = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_{\mathrm{Android},i}-x_{\m
 
 五份既有研究与新增中点小包均使用相对路径、原像素、SHA-256 和本地复现入口；不包含 APK、构建缓存或庞大 trace。它们没有完成 Dock、背板、高光、Toggle 或全动态对齐的验收。
 
+**2026-11-16 · RGB 有限响应诊断。** [八轮原生实测报告](docs/glass-slider-rgb-response-diagnostic.md)公开同一多色五角星的 16 张正式截图、全局／局部 RGB 扰动与六张分析图。记录几何、灰底和前后基线漂移均为零；在预设 T=4 byte 下，共用单一响应比例的模型在完整 ROI 有 49 个不相容像素，含主区域 32 个。T=8 时全部相容，且主区域的输入通道与输出通道模型均相容，不能据此确定原生内部顺序或生产折射参数。便携包可逐像素重放，仍是校准诊断，产品 r2 未改、未验收。
+
+![固定完整 ROI 中七种响应模型的 T4 相容性，保留主域、边缘和轨道混杂区](research/slider-color-response-20261116/figures-response/T4-compatibility-all-models-full-ROI.png)
+
 ### 4.6 Toggle：升起、填色与回落的原生观察
 
 ![图8a：iOS26.5原生Toggle长按时，白色滑块逐步变为可透射背景的玻璃](docs/images/research/switch-white-to-glass.png)
@@ -314,7 +318,7 @@ API 33+ 使用 RuntimeShader；API 31–32 可使用 RenderEffect 模糊/鲜艳�
 
 图表使用 Matplotlib / Pillow 生成，提供窄数据表与处理记录，不需要构建 Android 或重跑设备采证矩阵。命令与依赖见[证据目录](docs/evidence/RESULTS.md)。数值图应能从入库数据重画；截图拼图的原始全量私有资料不随库发布，清单保留裁切、缩放与哈希，不把未包含的原图说成可独立恢复。
 
-2026-11-15 当前[运行库清单](provenance/runtime-import.json)将 38 个文件绑定到 Sleepy `386d4c09a78234c4bc04507f6ef4952d856de3f4`：28 份生产 Kotlin、一个 shader、7 份测试和 2 份资源。独立 `runtime:assemble`、56 项 host 检查及 `sample:assembleDebug` 已通过，7 类测试零失败、错误或跳过；[新验证凭据](provenance/validation-20261115-lateral.json)绑定当前清单哈希。更早 `ddbf20e` 同步的[旧凭据](provenance/validation-20261115.json)只绑定[横向取样前清单](provenance/runtime-import-20261115-pre-lateral.json)。两次构建都没有新独立 sample 真机光学验收。初版 38 项检查与 API 36 真机记录仍保留 2026-11-14 范围，见 [VALIDATION.md](VALIDATION.md)。
+当前[运行库清单](provenance/runtime-import.json)将 38 个文件绑定到范围纠正后的 Sleepy `5f3ea867ed173520c80515c5482263efe1c21433`；[来源纠正记录](provenance/scope-cleanup-20261116.json)保留逐文件字节一致检查和实际重新执行的应用测试。历史 `386d4c09a78234c4bc04507f6ef4952d856de3f4` 阶段同样导入 28 份生产 Kotlin、一个 shader、7 份测试和 2 份资源；该阶段独立 `runtime:assemble`、56 项 host 检查及 `sample:assembleDebug` 通过，7 类测试零失败、错误或跳过。[历史验证凭据](provenance/validation-20261115-lateral.json)仍绑定当时清单，不冒称新 HEAD 的重新执行。更早 `ddbf20e` 同步的[旧凭据](provenance/validation-20261115.json)只绑定[横向取样前清单](provenance/runtime-import-20261115-pre-lateral.json)。两次构建都没有新独立 sample 真机光学验收。初版 38 项检查与 API 36 真机记录仍保留 2026-11-14 范围，见 [VALIDATION.md](VALIDATION.md)。
 
 ## 7. 贡献与接下来的工作
 

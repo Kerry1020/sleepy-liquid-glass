@@ -1,0 +1,5 @@
+.local/
+/rounds/
+/analysis/
+__pycache__/
+*.pyc

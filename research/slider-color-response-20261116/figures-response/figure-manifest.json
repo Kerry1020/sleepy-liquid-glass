@@ -1,0 +1,1241 @@
+{
+  "schema": 1,
+  "status": "DESCRIPTIVE_FIGURES_ONLY_NOT_MODEL_OR_ACCEPTANCE",
+  "plot_script_sha256": "3b6135926da78d15843c495feabacd850a4eee5323bf11e0495e941a7a060d0b",
+  "analysis_json_sha256": "5499910555e7aa465f853c2361f55fe4a2300703416a98b82d00de98c393d9ba",
+  "original_pixels_npz_sha256": "11b1e76aa2a0a7766b579bdfd8a8fc8e4bceecda1fc996a34f07d9955a78f695",
+  "analysis_status": "OBSERVED_ENCODED_COLOR_CALIBRATION_DIAGNOSTIC_NOT_OPTICAL_ACCEPTANCE",
+  "full_ROI_xyxy_original_pixels": [
+    331,
+    795,
+    419,
+    883
+  ],
+  "rail_band_world_y": [
+    422,
+    438
+  ],
+  "round_order": [
+    "control-pre",
+    "global-R",
+    "global-G",
+    "global-B",
+    "mask-R",
+    "mask-G",
+    "mask-B",
+    "control-post"
+  ],
+  "matrix_axes": [
+    "output_RGB",
+    "input_RGB"
+  ],
+  "inset_bins": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    14,
+    20
+  ],
+  "color_axes": {
+    "signed_U_M_shared": [
+      -31.0,
+      31.0
+    ],
+    "observed_U_M_absolute_max": 31.0,
+    "minimax_shared": [
+      0,
+      7.555555555561159
+    ],
+    "observed_minimax_max": 7.555555555561159,
+    "clipped_data_values": 0,
+    "curve_y_axes": "automatic; every bin maximum retained; no manual upper bound"
+  },
+  "all_models_full_ROI": {
+    "common_all": {
+      "maximum_minimax_error_raw_byte": 7.555555555561159,
+      "T4_incompatible_pixels": 49,
+      "full_ROI_pixels": 7744
+    },
+    "input_R": {
+      "maximum_minimax_error_raw_byte": 0.9444444444918837,
+      "T4_incompatible_pixels": 0,
+      "full_ROI_pixels": 7744
+    },
+    "input_G": {
+      "maximum_minimax_error_raw_byte": 1.2500000000232867,
+      "T4_incompatible_pixels": 0,
+      "full_ROI_pixels": 7744
+    },
+    "input_B": {
+      "maximum_minimax_error_raw_byte": 1.0,
+      "T4_incompatible_pixels": 0,
+      "full_ROI_pixels": 7744
+    },
+    "output_R": {
+      "maximum_minimax_error_raw_byte": 5.230769230798097,
+      "T4_incompatible_pixels": 2,
+      "full_ROI_pixels": 7744
+    },
+    "output_G": {
+      "maximum_minimax_error_raw_byte": 1.2500000000428573,
+      "T4_incompatible_pixels": 0,
+      "full_ROI_pixels": 7744
+    },
+    "output_B": {
+      "maximum_minimax_error_raw_byte": 3.772727272754116,
+      "T4_incompatible_pixels": 0,
+      "full_ROI_pixels": 7744
+    }
+  },
+  "fixed_inset_curve_data": {
+    "Above rail (y<422pt)": {
+      "bins": [
+        {
+          "inset_lo_inclusive_pt": 0.0,
+          "inset_hi_exclusive_pt": 0.5,
+          "pixels": 92,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 6.243902439049287,
+              "T4_incompatible_pixels": 6
+            },
+            "input_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.903225806496295,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 1.2500000000232867,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 1.0,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.230769230798097,
+              "T4_incompatible_pixels": 2
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 1.2500000000428573,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 3.772727272754116,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 0.5,
+          "inset_hi_exclusive_pt": 1.0,
+          "pixels": 94,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5.000000000000001e-11,
+              "maximum_raw_byte": 7.555555555561159,
+              "T4_incompatible_pixels": 11
+            },
+            "input_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7894736842587657,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 1.0526315789906384,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.842105263205343,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 1.9500000000440978,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8823529412233957,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 1.142857142900975,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 1.0,
+          "inset_hi_exclusive_pt": 1.5,
+          "pixels": 95,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 6.212121212124308,
+              "T4_incompatible_pixels": 10
+            },
+            "input_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.9444444444918837,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.9375000000466667,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8947368421527793,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.6842105263603295,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8823529412233957,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7058823529894558,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 1.5,
+          "inset_hi_exclusive_pt": 2.0,
+          "pixels": 91,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 6.285714285717201,
+              "T4_incompatible_pixels": 10
+            },
+            "input_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.8888888889362806,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.9444444444918837,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.5000000000470588,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.611111111159121,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.5882352941668292,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.9444444444918837,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 2.0,
+          "inset_hi_exclusive_pt": 3.0,
+          "pixels": 191,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.5,
+              "T4_incompatible_pixels": 12
+            },
+            "input_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.8333333333806775,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8888888889329484,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.27777777782807034,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.7777777778221467,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.7647058824007691,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.9444444444918837,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 3.0,
+          "inset_hi_exclusive_pt": 4.0,
+          "pixels": 191,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 3.5,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.7222222222694713,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.9411764706351353,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.6666666667155802,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.8947368421496553,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.7058823529894558,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.9444444444918837,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 4.0,
+          "inset_hi_exclusive_pt": 5.0,
+          "pixels": 189,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 1.542857142859979,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.6666666667155802,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8823529412233957,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.6842105263647522,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.7894736842547918,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.23529411769553882,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7777777778259304,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 5.0,
+          "inset_hi_exclusive_pt": 6.0,
+          "pixels": 179,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 2.000000000000001,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.8947368421527793,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7894736842547918,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.6111111111586931,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.6842105263603295,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.7058823529894558,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8333333333806775,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 6.0,
+          "inset_hi_exclusive_pt": 7.0,
+          "pixels": 171,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 1.5000000000000002,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7894736842587657,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8947368421496553,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.842105263205343,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.9444444444918837,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8333333333811055,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7368421053113294,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 7.0,
+          "inset_hi_exclusive_pt": 8.0,
+          "pixels": 153,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 1.0,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8947368421527793,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7894736842559955,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8947368421536381,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8000000000509928,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8333333333811055,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8947368421527793,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 8.0,
+          "inset_hi_exclusive_pt": 10.0,
+          "pixels": 265,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 1.0,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7894736842587657,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8947368421496553,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.052631579001100715,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8750000000428572,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7777777778255024,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.8000000000509928,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 10.0,
+          "inset_hi_exclusive_pt": 14.0,
+          "pixels": 105,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7000000000447678,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.3500000000479716,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.6842105263603295,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.15000000004762692,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7000000000447678,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.36842105267927583,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.3333333333584849,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 14.0,
+          "inset_hi_exclusive_pt": 20.0,
+          "pixels": 0,
+          "models": {
+            "common_all": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        }
+      ],
+      "outside_frozen_bins": {
+        "negative_inset_pixels": 2496,
+        "inset_ge20_pixels": 0
+      }
+    },
+    "Rail-confounded (422\u2264y<438pt)": {
+      "bins": [
+        {
+          "inset_lo_inclusive_pt": 0.0,
+          "inset_hi_exclusive_pt": 0.5,
+          "pixels": 0,
+          "models": {
+            "common_all": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 0.5,
+          "inset_hi_exclusive_pt": 1.0,
+          "pixels": 0,
+          "models": {
+            "common_all": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 1.0,
+          "inset_hi_exclusive_pt": 1.5,
+          "pixels": 0,
+          "models": {
+            "common_all": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 1.5,
+          "inset_hi_exclusive_pt": 2.0,
+          "pixels": 0,
+          "models": {
+            "common_all": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 2.0,
+          "inset_hi_exclusive_pt": 3.0,
+          "pixels": 0,
+          "models": {
+            "common_all": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 3.0,
+          "inset_hi_exclusive_pt": 4.0,
+          "pixels": 0,
+          "models": {
+            "common_all": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": null,
+              "maximum_raw_byte": null,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 4.0,
+          "inset_hi_exclusive_pt": 5.0,
+          "pixels": 12,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5.000000000000001e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5.000000000000001e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5.000000000000001e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 5.0,
+          "inset_hi_exclusive_pt": 6.0,
+          "pixels": 49,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 6.0,
+          "inset_hi_exclusive_pt": 7.0,
+          "pixels": 107,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 7.0,
+          "inset_hi_exclusive_pt": 8.0,
+          "pixels": 142,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 8.0,
+          "inset_hi_exclusive_pt": 10.0,
+          "pixels": 311,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 5.000000000000001e-11,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 10.0,
+          "inset_hi_exclusive_pt": 14.0,
+          "pixels": 1203,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 5.000000000000001e-11,
+              "maximum_raw_byte": 0.7142857143306837,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.35000000005012555,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7000000000447678,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 5.000000000000001e-11,
+              "maximum_raw_byte": 0.15000000004762692,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.7142857143306837,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.21052631584126202,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 5.000000000000001e-11,
+              "maximum_raw_byte": 0.5238095238581553,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        },
+        {
+          "inset_lo_inclusive_pt": 14.0,
+          "inset_hi_exclusive_pt": 20.0,
+          "pixels": 992,
+          "models": {
+            "common_all": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.5238095238549194,
+              "T4_incompatible_pixels": 0
+            },
+            "input_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.3500000000479716,
+              "T4_incompatible_pixels": 0
+            },
+            "input_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.5000000000444444,
+              "T4_incompatible_pixels": 0
+            },
+            "input_B": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 5.5003113175189355e-11,
+              "T4_incompatible_pixels": 0
+            },
+            "output_R": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.5238095238557332,
+              "T4_incompatible_pixels": 0
+            },
+            "output_G": {
+              "median_raw_byte": 5e-11,
+              "maximum_raw_byte": 0.36842105267927583,
+              "T4_incompatible_pixels": 0
+            },
+            "output_B": {
+              "median_raw_byte": 4.9999999999999995e-11,
+              "maximum_raw_byte": 0.3500000000479716,
+              "T4_incompatible_pixels": 0
+            }
+          }
+        }
+      ],
+      "outside_frozen_bins": {
+        "negative_inset_pixels": 0,
+        "inset_ge20_pixels": 0
+      }
+    }
+  },
+  "limits": [
+    "Figures render saved analysis arrays; they do not rerun or alter the frozen model or thresholds.",
+    "Native image panels show all original ROI bytes with nearest-neighbor display; rendered figure PNGs are not replacement measurement inputs.",
+    "Every heatmap shows the complete fixed ROI including rail, rim and incompatible pixels.",
+    "Inset curves use the frozen bins only; negative/large inset and below-rail pixels are retained in complete maps, not silently reclassified."
+  ],
+  "files": {
+    "M-mask-all-nine-components-full-ROI.png": {
+      "sha256": "10a3604f29c8c5decd9cd2437f4ac8144943c1e48ee3032454c7d4f3684daad2",
+      "bytes": 136666
+    },
+    "T4-compatibility-all-models-full-ROI.png": {
+      "sha256": "49352b37b03b37eff1fd454205fc39b4467400a37313cd2eeae5846baadd068e",
+      "bytes": 145649
+    },
+    "U-global-all-nine-components-full-ROI.png": {
+      "sha256": "4b74ce1ba6bdd8a686d60368ecaf8127d2fe980316e3ddb2cd513e1880d68442",
+      "bytes": 160572
+    },
+    "fixed-inset-minimax-error-curves.png": {
+      "sha256": "bba5a29635204f44baf40dcaf2147cb5e82ee64eddab05d8fd6ecf4073e52c74",
+      "bytes": 216591
+    },
+    "minimax-error-all-models-full-ROI.png": {
+      "sha256": "8f12db25fdfb89a6039bcd379da4cdf3937054e1cdf6570b0af2e6a45198853d",
+      "bytes": 175770
+    },
+    "native-eight-rounds-full-ROI.png": {
+      "sha256": "a7d35772cefb6e172c4d49ce0c17437616a6a5277f5a419df89d616adb0ad509",
+      "bytes": 330466
+    }
+  }
+}

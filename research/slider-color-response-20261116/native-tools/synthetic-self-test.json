@@ -1,0 +1,26 @@
+{
+  "status": "synthetic_contract_checks_passed",
+  "scope": "synthetic only; no optical images or traces read",
+  "cases": [
+    "common kernel",
+    "input-channel kernels",
+    "output-channel kernels",
+    "no response",
+    "weak DC contradiction",
+    "negative/zero gains",
+    "localized flat drift",
+    "post-shape drift",
+    "geometry mismatch",
+    "source mapping mismatch",
+    "missing evidence",
+    "source channel mismatch",
+    "frozen current script/hash and required membership",
+    "allowed in-repository parent provenance",
+    "freeze repository escape and duplicate aliases",
+    "capture freeze identity",
+    "native source/binary identity",
+    "simulator build identity",
+    "failed capture",
+    "capture artifact membership/hash/path binding"
+  ]
+}

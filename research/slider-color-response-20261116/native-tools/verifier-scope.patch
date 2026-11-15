@@ -1,0 +1,52 @@
+--- six-pose-verifier.py
++++ full100-verifier.py
+@@ -16,7 +16,7 @@
+ import sys
+ 
+ 
+-DEFAULT_PNG_VALIDATOR = Path('/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/verify-static-optics.py')
++DEFAULT_PNG_VALIDATOR = Path(__file__).resolve().parents[2] / 'slider-fixtures/tools/native-glass-reference/verify-static-optics.py'
+ LIMITS = {
+     'target_tolerance_pt': 1.0,
+     'minimum_after_last_move_seconds': 0.65,
+@@ -306,6 +306,8 @@
+         stage_by_id = {row['id']: row for row in spec['stages']}
+         input_by_id = {row['id']: row for row in manifest['inputs']}
+         require(len(stage_by_id) == 6 and len(input_by_id) == 8, 'Duplicate spec stages or input identities')
++        require(spec.get('scheduled_stages') == ['full100'], 'Expected explicitly scheduled full100-only protocol')
++        stage_by_id = {'full100': stage_by_id['full100']}
+         require(spec['first_input_id'] != spec['flat_input_id'], 'Shape and flat identities are the same')
+         require(all(i in input_by_id for i in [spec['first_input_id'], spec['flat_input_id']]), 'Missing shape/flat manifest entry')
+         summary.update(specSHA256=sha(spec_path), manifestSHA256=sha(manifest_path),
+@@ -326,10 +328,10 @@
+         unexpected = sorted(set(actual) - expected, key=str)
+         duplicates = [{'stage_id': key[0], 'input_id': key[1], 'count': count}
+                       for key, count in actual.items() if count != 1]
+-        summary['matrix'] = {'expectedCaptures': 12, 'actualCaptures': len(events),
++        summary['matrix'] = {'expectedCaptures': 2, 'actualCaptures': len(events),
+                              'missing': missing, 'unexpected': unexpected, 'duplicates': duplicates}
+-        if len(events) != 12 or missing or unexpected or duplicates:
+-            summary['errors'].append('Capture matrix is not exactly six spec stages × one shape and one flat')
++        if len(events) != 2 or missing or unexpected or duplicates:
++            summary['errors'].append('Capture matrix is not exactly full100 × one shape and one flat')
+         run_counts = collections.Counter(e.get('run') for e in events)
+         if any(n != 1 for n in run_counts.values()):
+             summary['errors'].append('Each capture must own a unique fresh native run')
+@@ -374,7 +376,7 @@
+         summary['captures'] = len(events)
+         summary['verifiedHeldEndpoints'] = sum(row['verifiedHeldEndpoint'] for row in summary['observations'])
+         summary['verifiedShapeFlatPairs'] = len(captures)
+-        if summary['verifiedHeldEndpoints'] != 12 or len(captures) != 6:
++        if summary['verifiedHeldEndpoints'] != 2 or len(captures) != 1:
+             summary['errors'].append('At least one endpoint or shape/flat pair failed strict verification')
+         summary['status'] = 'passed' if not summary['errors'] else 'failed'
+     except Exception as error:
+@@ -385,7 +387,7 @@
+     (out / 'endpoint-verification-strict.json').write_text(json.dumps(json_safe(summary), indent=2, allow_nan=False) + '\n')
+     index = {'schema': 1, 'platform': 'ios', 'status': summary['status'], 'shape_manifest': str(spec_path),
+              'strict_verification_json': str(out / 'endpoint-verification-strict.json'),
+-             'expected_shape_captures': 6, 'verified_shape_captures': len(captures), 'captures': captures}
++             'expected_shape_captures': 1, 'verified_shape_captures': len(captures), 'captures': captures}
+     (out / 'index-strict.json').write_text(json.dumps(json_safe(index), indent=2, allow_nan=False) + '\n')
+     print(json.dumps({'status': summary['status'], 'verifiedHeldEndpoints': summary.get('verifiedHeldEndpoints', 0),
+                       'verifiedShapeFlatPairs': len(captures), 'report': str(out / 'endpoint-verification-strict.json')}))

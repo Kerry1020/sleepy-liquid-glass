@@ -1,0 +1,23 @@
+--- a/UITests/NativeReferenceTests.swift
++++ b/UITests/NativeReferenceTests.swift
+@@ -727,7 +727,7 @@
+     /// One stationary, uniquely colored shape and six independent native
+     /// public drags. Nominal percentages use a prior public-bounds capsule;
+     /// the actual optical contour and realized coverage are measured separately.
+-    func testSliderFixedShapeCoverageFeasibility() {
++    func testSliderColorResponseFullCoverage() {
+         executionTimeAllowance = 420
+         settleDuration = 0.8
+         let specificationURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+@@ -738,7 +738,10 @@
+         XCTAssertEqual(stages.count, 6)
+         // Every pose has the same stationary multicolor shape and a paired
+         // neutral source, so the foreground rail is not misidentified as shape.
+-        for stage in stages {
++        let selectedStages = stages.filter { ($0["id"] as? String) == "full100" }
++        XCTAssertEqual(specification["scheduled_stages"] as? [String], ["full100"])
++        XCTAssertEqual(selectedStages.count, 1)
++        for stage in selectedStages {
+           for inputID in [shapeID, "st00_flat128"] {
+             let stageID = stage["id"] as! String
+             let nominalCoverage = stage["requested_fraction"] as! Double

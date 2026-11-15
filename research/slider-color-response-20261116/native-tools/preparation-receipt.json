@@ -1,0 +1,13 @@
+{
+  "nativeAppSourcesUnchanged": {
+    "App/Info.plist": "77ed9f2bc9c6f16bdb933441e597d24c93235378db68156d48bcf45a349ee525",
+    "App/NativeRangeReference.swift": "95c1836ca2a9fdc18643b2a0df65914c8518044666ee5361179def7079b4f972",
+    "App/NativeStage.swift": "e9b10e960ddb7c7f14801f74d8f3098c1dfdfe227b0266c1951c2eab7125e4ec",
+    "App/ReferenceTrace.swift": "b8a7d57193548e46c93b2a90fa254588c3e9150100079bee735a47e00d9f5f99",
+    "App/main.swift": "5a21313a4208e4fefc0129c15fdb877d3e1fe5a90b7a0770329e5d2bc7f70a73"
+  },
+  "testSourceSha256": "5f939b7732c1c86d8da4ee82ab0b8d529f6a2af84cc105b147d5a1a39c356a54",
+  "reusedCacheFrom": "/Users/kerrylee/.codex/worktrees/android-settings-glass-fixes/sleepy/tools/native-glass-reference/DerivedData",
+  "derivedData": "/Users/kerrylee/Documents/Codex/sleepy-liquid-glass/research/slider-color-response-20261116/.local/DerivedData",
+  "scope": "Native application and controls unchanged; XCTest selects original full100 stage only."
+}

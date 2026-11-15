@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "date": "2026-11-16",
+  "status": "PREPUBLICATION_EVIDENCE_CHECKS_PASSED",
+  "scope": {
+    "asset_repository": "Kerry1020/sleepy-liquid-glass",
+    "asset_branch": "main",
+    "application_repository": "lingion/sleepy",
+    "application_pr": 442,
+    "application_head": "5f3ea867ed173520c80515c5482263efe1c21433",
+    "application_changed_files": 8,
+    "application_additions": 542,
+    "application_deletions": 27,
+    "boundary": "Application code and necessary regression tests only in Sleepy. Research fixtures, protocols, inputs, reports, figures, curves and portable evidence only in the independent asset repository."
+  },
+  "frozen_files_verified": 175,
+  "frozen_file_mismatches": 0,
+  "freeze_sha256": "10e82a63abd4ccfe38ad7a88a70367a1612d62fa31b6b57d0e42e8ef8c33354e",
+  "evidence_manifest_sha256": "d1f2d2be9a2cb984cf9ffb8c8a85ee8f9e11ce892be998c9c95666e5644554f6",
+  "validation": [
+    {
+      "command": "python3 research/slider-color-response-20261116/analyze-response.py --self-test",
+      "exit_code": 0,
+      "synthetic_cases": 20
+    },
+    {
+      "command": "python3 research/slider-color-response-20261116/portable-evidence.py self-test",
+      "exit_code": 0,
+      "synthetic_cases": 11
+    },
+    {
+      "command": "python3 research/slider-color-response-20261116/plot-response.py --self-test",
+      "exit_code": 0,
+      "synthetic_figures": 6
+    },
+    {
+      "receipt": "../research/slider-color-response-20261116/portable-validation.json",
+      "status": "PASS",
+      "normalized_json_exact_equal": true,
+      "arrays_exact_equal": 153,
+      "npz_bytes_exact_equal": true
+    },
+    {
+      "receipt": "../research/slider-color-response-20261116/independent-check.json",
+      "status": "PASS",
+      "original_pngs": 16,
+      "region_model_tolerance_checks": 672
+    },
+    {
+      "command": "git diff --cached --check",
+      "result": "Two blank-at-EOL warnings in the byte-frozen native-tools/verifier-scope.patch lines 5-6. Both are required unified-diff context markers for empty lines; the archived patch is preserved exactly instead of rewriting frozen evidence."
+    },
+    {
+      "command": "git diff --cached --check -- . :(exclude)research/slider-color-response-20261116/native-tools/verifier-scope.patch",
+      "exit_code": 0,
+      "scope": "All remaining staged source, docs, JSON and assets; exact archived patch inspected separately."
+    },
+    {
+      "check": "Changed-document local links",
+      "documents": 6,
+      "local_links": 231,
+      "missing": 0
+    }
+  ],
+  "build_scope": "Runtime, application and native capture binaries unchanged by this publication; no build or device operation required or performed for documentation publication.",
+  "hosting": "No hosted workflow configured in asset repository as confirmed by GitHub actions/workflows API before push; no site, package, install instructions, marketplace, identifiers or versions changed.",
+  "limits": "Calibration diagnostic only. Product r2 remains unaccepted; no new production parameter, optical parity, pipeline order, physical thickness or dynamic agreement is established."
+}

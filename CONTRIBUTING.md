@@ -7,6 +7,11 @@ control, input and background. Run:
 ./gradlew :runtime:assemble :runtime:testAndroidHostTest :sample:assembleDebug
 ```
 
+Keep research fixtures, capture tools, protocols, reports, images, curves and
+replay datasets in this independent asset repository. Sleepy consumer PRs contain
+only application changes and necessary regression tests. A research-only update
+uses the relevant evidence checks; it does not require rebuilding unchanged runtime code.
+
 A behavior fix should preserve controlled values, cancellation, disabled input
 and accessibility. Keep Material routing in the consumer application. Optical
 changes need distinct backgrounds and separate center, edge, contour and motion
