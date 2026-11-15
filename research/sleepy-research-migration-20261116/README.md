@@ -29,12 +29,15 @@
 
 [第四批迁移清单](fourth-pass/SOURCE-MAP.json)保全另外两份未接入生产的层序原型与自测，共 7,134 bytes，来源固定为 `9cc97649147bd2f4b9a57cb6ddce805d412902cf`。`OrderedGlassScenePrototype` 只被同目录的原型自测引用，不保护现有应用实现，应与研究一起保存。四批累计保全 **85 份、3,485,073 bytes**；原三份清单不改写。
 
+[第五批迁移清单](fifth-pass/SOURCE-MAP.json)另存 10 份产品回归的完整原件，共 95,943 bytes，来源固定为 `e935c5e3b9bc3308930fcf2fe79bbd4f95aab7f6`。这些文件仍夹带无读取方的成功路径 PNG／JSON／TXT 研究导出、录制目录参数或只供附件使用的采集代码。应用仅剥离这些职责，保留原有行为、几何、分层、GPU 像素断言及门限。五批累计 **95 份、3,581,016 bytes**；旧清单与冻结原文均不改写。
+
 ```sh
 python3 research/sleepy-research-migration-20261116/verify.py
 python3 research/sleepy-research-migration-20261116/verify.py --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/followup/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/third-pass/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fourth-pass/SOURCE-MAP.json --source /path/to/sleepy
+python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fifth-pass/SOURCE-MAP.json --source /path/to/sleepy
 ```
 
 第一条逐字节校验本库原 52 个映射；第二条另外使用 `git show` 对照固定来源提交；第三、四条分别校验补充批次与第三批，不要求来源工作区恢复被迁出的文件。归档源码与原文不改写，旧文档中的相对路径、机器路径与历史状态仅保留来源，不能当作当前可执行说明；执行研究使用外置入口并显式选择所需源码。

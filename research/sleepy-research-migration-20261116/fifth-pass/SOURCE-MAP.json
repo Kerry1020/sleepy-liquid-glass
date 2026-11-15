@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "source_repository": "lingion/sleepy",
+  "source_commit": "e935c5e3b9bc3308930fcf2fe79bbd4f95aab7f6",
+  "file_count": 10,
+  "new_files": 10,
+  "reused_files": 0,
+  "total_bytes": 95943,
+  "scope": "Complete originals of ten product regressions with unused success-path PNG/JSON/TXT research export. The application retains its behavior, geometry, sampling and pixel assertions; only research export and its unused collection scaffolding are removed.",
+  "files": [
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/BackdropLumaReadbackRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/fifth-pass/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/BackdropLumaReadbackRenderTest.kt",
+      "source_git_blob": "e9154483c8131b49895d011fc4ecef02658b49d5",
+      "sha256": "ae904a7a68ef17d4e8ac27e9bf2ba676f19e77026f3da29abae3e2157e9e7f3d",
+      "bytes": 14224,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/ScheduleToolbarSamplingRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/fifth-pass/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/ScheduleToolbarSamplingRenderTest.kt",
+      "source_git_blob": "7e8fa1469120e6f2edb9f183df0ce5ade5d22437",
+      "sha256": "cc4465494a0e604312a94bc88179f825163447d12b78a5c68bb6868db707d5c1",
+      "bytes": 9818,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassAppNavigationRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/fifth-pass/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassAppNavigationRenderTest.kt",
+      "source_git_blob": "4a7ee9d28261386c8a4d74d62eb459dcb7512abf",
+      "sha256": "ff9b3704df90308ff2d193ff69c18cf5c53601c0b005276796a0270cb371b905",
+      "bytes": 14821,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/ScheduleToolbarRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/fifth-pass/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/ScheduleToolbarRenderTest.kt",
+      "source_git_blob": "b5fa97c325e2a3431377ef74cf63ae18b492a5c9",
+      "sha256": "b1d0fbefad6346300f6708976d8f3be36b8bb36b0b9a8b172629cb4faf6811fe",
+      "bytes": 6541,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassFreeDragRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/fifth-pass/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassFreeDragRenderTest.kt",
+      "source_git_blob": "9344b93e086eaa3f3ca9647920a246910dee8c80",
+      "sha256": "befdfe8cade27acf4fa0b1a5b72597452ce8bb72afca1fb5f0b8e70d98b518ae",
+      "bytes": 4712,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassDropdownMenuRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/fifth-pass/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/GlassDropdownMenuRenderTest.kt",
+      "source_git_blob": "3488237a6a3a80679ce284ba50a7d5305eb21ac8",
+      "sha256": "5097c001acc8bc2f22336c12a1dd14b40747b58ef4a8e0bbe249b3385c1c4235",
+      "bytes": 10185,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/LanguageMenuMaterialRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/fifth-pass/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/LanguageMenuMaterialRenderTest.kt",
+      "source_git_blob": "cdaaf6c161fe0298a18e4080a20d5d2884c5dba3",
+      "sha256": "8cbb32ca889355a8682a7b9453507000abcabd9970258b44b7b07739a943fe05",
+      "bytes": 3967,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/GlassTopAppBarSamplingRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/fifth-pass/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/GlassTopAppBarSamplingRenderTest.kt",
+      "source_git_blob": "62cae2bc68fafaef309ae7c05b5a11be585a5bd1",
+      "sha256": "d060aacb5b2aa4e3cd1a491524f5306794ba2a8d58c144658e23dbc583210800",
+      "bytes": 8727,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassDualContourRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/fifth-pass/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassDualContourRenderTest.kt",
+      "source_git_blob": "e37c2ca2ccc0547f11c91d2ba45a0324ad545097",
+      "sha256": "1488f3f86fc4c42e786395f489ef3c570af8bddeab367661c0ba277fcd1dd4d8",
+      "bytes": 7149,
+      "storage": "new"
+    },
+    {
+      "source_path": "app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassHazeRenderTest.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/fifth-pass/sources/app/src/androidTest/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassHazeRenderTest.kt",
+      "source_git_blob": "c8da3edfe795bba72ed4303eaa5adcb8156673f8",
+      "sha256": "429fa424d640a6f781cfa741d3f99ce519db4fb062927861f7978445d2aaf0af",
+      "bytes": 15799,
+      "storage": "new"
+    }
+  ]
+}

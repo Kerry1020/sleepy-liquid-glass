@@ -24,12 +24,15 @@ A separate [third-pass manifest](third-pass/SOURCE-MAP.json) preserves 18 histor
 
 A [fourth-pass manifest](fourth-pass/SOURCE-MAP.json) preserves the unconnected explicit-ordering prototype and its self-test: two files, 7,134 bytes, pinned to `9cc97649147bd2f4b9a57cb6ddce805d412902cf`. Only the prototype's own test consumes it; it does not protect the current application implementation. Across four batches, **85 files / 3,485,073 bytes** are preserved. The three previous manifests remain unchanged.
 
+A [fifth-pass manifest](fifth-pass/SOURCE-MAP.json) preserves the complete originals of ten product regressions (95,943 bytes), pinned to `e935c5e3b9bc3308930fcf2fe79bbd4f95aab7f6`. These files still contained unused success-path PNG/JSON/TXT research exports, recording-directory arguments or attachment-only collection scaffolding. Only those responsibilities are removed from the application; original behavior, geometry, layering and GPU pixel assertions and thresholds remain. The five batches preserve **95 files / 3,581,016 bytes**. Previous manifests and frozen originals remain unchanged.
+
 ```sh
 python3 research/sleepy-research-migration-20261116/verify.py
 python3 research/sleepy-research-migration-20261116/verify.py --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/followup/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/third-pass/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fourth-pass/SOURCE-MAP.json --source /path/to/sleepy
+python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fifth-pass/SOURCE-MAP.json --source /path/to/sleepy
 ```
 
 The default command checks the original 52 mappings. The optional source check reads the pinned commit through Git, even after the working-tree files are removed; the third and fourth commands separately check the follow-up and third-pass manifests. Archived source and text preserve historical paths and status verbatim; they are provenance, not current execution instructions. Use an explicitly enabled external entry point for research.
