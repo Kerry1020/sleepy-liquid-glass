@@ -4,6 +4,8 @@
 
 本目录保全 Sleepy `5c604e83cc5ccbc6c5ab622568eae0c99265dfc4` 中明确属于液态玻璃研究的 52 份文件，共 1,774,394 bytes，随后从应用仓库迁出。它补齐较早已合并提交中的残留；PR #442 本身已缩减为四个生产文件及四个 JVM 回归测试。
 
+当前清理状态（2026-11-16）：[PR #443](https://github.com/lingion/sleepy/pull/443) 已合并为 `2a0e4aeaf5029e7168fb15f49ca445a7481934b5`，其 10 项检查均成功。合并主树与清理分支逐树比较一致；七份清单的 98 个原文版本再次对照固定历史来源通过。[合并收据](seventh-pass/validation/merged-20261116.json)记录实际云端状态；更早的 OPEN/BLOCKED 收据仅保留其采集时刻含义。本次只核对仓库范围，没有新增产品改动或设备实验。
+
 ![独立资产库已有的四背景示例；本次迁移没有新增光学实验](../../docs/images/sample-backgrounds-light.png)
 
 图复用资产库已发布的独立示例，来源见[图片记录](../../docs/images/sources.json)。迁移不改变运行时、参数、验收状态或这张图的解释。

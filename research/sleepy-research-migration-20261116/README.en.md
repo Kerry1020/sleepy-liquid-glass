@@ -4,6 +4,8 @@
 
 This archive preserves 52 research files (1,774,394 bytes) from Sleepy commit `5c604e83cc5ccbc6c5ab622568eae0c99265dfc4` before removing them from the application repository. It also covers leftovers from earlier merged work. PR #442 itself already contains only four production files and four JVM regression files.
 
+Cleanup status (2026-11-16): [PR #443](https://github.com/lingion/sleepy/pull/443) merged as `2a0e4aeaf5029e7168fb15f49ca445a7481934b5`, with all ten checks successful. The merged main tree matches the cleanup branch; all 98 original versions in seven manifests were checked again against their pinned historical sources. The [merge receipt](seventh-pass/validation/merged-20261116.json) records the observed remote state. Earlier OPEN/BLOCKED receipts retain their historical meaning. This check adds no product changes or device experiments.
+
 ![Previously published standalone sample on four backgrounds; no new optical experiment was performed](../../docs/images/sample-backgrounds-light.png)
 
 The figure reuses the standalone sample with its existing [image provenance](../../docs/images/sources.json). Migration changes neither runtime behavior nor optical acceptance.

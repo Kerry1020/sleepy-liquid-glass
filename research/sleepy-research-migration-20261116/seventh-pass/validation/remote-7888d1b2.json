@@ -1,0 +1,117 @@
+{
+  "headRefOid": "7888d1b22e119e870f6f59a37d06592ba051344e",
+  "mergeStateStatus": "BLOCKED",
+  "state": "OPEN",
+  "statusCheckRollup": [
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-11-15T22:34:57Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983695741",
+      "name": "commit-lint",
+      "startedAt": "2026-11-15T22:34:34Z",
+      "status": "COMPLETED",
+      "workflowName": "CI"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-11-15T22:34:38Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43770044568/job/132983688437",
+      "name": "prepare",
+      "startedAt": "2026-11-15T22:34:32Z",
+      "status": "COMPLETED",
+      "workflowName": "Debug APK Build"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-11-15T22:35:06Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983696073",
+      "name": "school-catalog-check",
+      "startedAt": "2026-11-15T22:34:33Z",
+      "status": "COMPLETED",
+      "workflowName": "CI"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-11-15T22:40:02Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43770044568/job/132983732728",
+      "name": "assemble-debug",
+      "startedAt": "2026-11-15T22:34:41Z",
+      "status": "COMPLETED",
+      "workflowName": "Debug APK Build"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-11-15T22:34:49Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983696254",
+      "name": "collector-test",
+      "startedAt": "2026-11-15T22:34:33Z",
+      "status": "COMPLETED",
+      "workflowName": "CI"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-11-15T22:40:41Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43770044568/job/132985270154",
+      "name": "sign-debug / sign-debug",
+      "startedAt": "2026-11-15T22:40:04Z",
+      "status": "COMPLETED",
+      "workflowName": "Debug APK Build"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-11-15T22:34:41Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983696160",
+      "name": "jw-fetch-js-test",
+      "startedAt": "2026-11-15T22:34:33Z",
+      "status": "COMPLETED",
+      "workflowName": "CI"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-11-15T22:41:45Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983696030",
+      "name": "android-unit-test",
+      "startedAt": "2026-11-15T22:34:34Z",
+      "status": "COMPLETED",
+      "workflowName": "CI"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-11-15T22:39:59Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983696106",
+      "name": "android-lint",
+      "startedAt": "2026-11-15T22:34:33Z",
+      "status": "COMPLETED",
+      "workflowName": "CI"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-11-15T22:40:38Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983696060",
+      "name": "android-assemble",
+      "startedAt": "2026-11-15T22:34:33Z",
+      "status": "COMPLETED",
+      "workflowName": "CI"
+    }
+  ],
+  "recorded_utc": "2026-11-15T22:44:32.908326+00:00",
+  "ruleset": {
+    "id": 24128365,
+    "name": "protect-main",
+    "enforcement": "active",
+    "current_user_can_bypass": "never"
+  },
+  "local_validation": ":app:compileDebugAndroidTestKotlin --offline --console=plain: BUILD SUCCESSFUL in 3s",
+  "scope": "Research export/capture cleanup only; not control or optical acceptance",
+  "merge_attempted_again": false
+}

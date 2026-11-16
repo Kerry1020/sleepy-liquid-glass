@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "recorded_utc": "2026-11-16T01:08:19.680197+00:00",
+  "scope": "Repository separation only; no new product changes, device runs or optical acceptance.",
+  "product_pr_442": {
+    "additions": 542,
+    "changedFiles": 8,
+    "deletions": 27,
+    "mergeCommit": {
+      "oid": "9d308e8fbf374f878b2f37986344f39b2600e070"
+    },
+    "mergedAt": "2026-11-15T17:24:29Z",
+    "state": "MERGED",
+    "url": "https://github.com/lingion/sleepy/pull/442"
+  },
+  "cleanup_pr_443": {
+    "additions": 482,
+    "changedFiles": 97,
+    "deletions": 27101,
+    "headRefOid": "7888d1b22e119e870f6f59a37d06592ba051344e",
+    "mergeCommit": {
+      "oid": "2a0e4aeaf5029e7168fb15f49ca445a7481934b5"
+    },
+    "mergedAt": "2026-11-16T01:02:06Z",
+    "state": "MERGED",
+    "url": "https://github.com/lingion/sleepy/pull/443"
+  },
+  "checks": [
+    {
+      "name": "commit-lint",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983695741"
+    },
+    {
+      "name": "prepare",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/lingion/sleepy/actions/runs/43770044568/job/132983688437"
+    },
+    {
+      "name": "school-catalog-check",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983696073"
+    },
+    {
+      "name": "assemble-debug",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/lingion/sleepy/actions/runs/43770044568/job/132983732728"
+    },
+    {
+      "name": "collector-test",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983696254"
+    },
+    {
+      "name": "sign-debug / sign-debug",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/lingion/sleepy/actions/runs/43770044568/job/132985270154"
+    },
+    {
+      "name": "jw-fetch-js-test",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983696160"
+    },
+    {
+      "name": "android-unit-test",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983696030"
+    },
+    {
+      "name": "android-lint",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983696106"
+    },
+    {
+      "name": "android-assemble",
+      "conclusion": "SUCCESS",
+      "url": "https://github.com/lingion/sleepy/actions/runs/43770048347/job/132983696060"
+    }
+  ],
+  "sleepy_upstream_main": "2a0e4aeaf5029e7168fb15f49ca445a7481934b5",
+  "cleanup_head_tree_matches_upstream_main": true,
+  "archive_verification": [
+    {
+      "manifest": "research/sleepy-research-migration-20261116/SOURCE-MAP.json",
+      "exit_code": 0,
+      "output": "{\"verified_files\": 52, \"bytes\": 1774394, \"new_versions\": 37, \"reused_files\": 15, \"pinned_source_checked\": true}"
+    },
+    {
+      "manifest": "research/sleepy-research-migration-20261116/followup/SOURCE-MAP.json",
+      "exit_code": 0,
+      "output": "{\"verified_files\": 13, \"bytes\": 253339, \"new_versions\": 13, \"reused_files\": 0, \"pinned_source_checked\": true}"
+    },
+    {
+      "manifest": "research/sleepy-research-migration-20261116/third-pass/SOURCE-MAP.json",
+      "exit_code": 0,
+      "output": "{\"verified_files\": 18, \"bytes\": 1450206, \"new_versions\": 18, \"reused_files\": 0, \"pinned_source_checked\": true}"
+    },
+    {
+      "manifest": "research/sleepy-research-migration-20261116/fourth-pass/SOURCE-MAP.json",
+      "exit_code": 0,
+      "output": "{\"verified_files\": 2, \"bytes\": 7134, \"new_versions\": 2, \"reused_files\": 0, \"pinned_source_checked\": true}"
+    },
+    {
+      "manifest": "research/sleepy-research-migration-20261116/fifth-pass/SOURCE-MAP.json",
+      "exit_code": 0,
+      "output": "{\"verified_files\": 10, \"bytes\": 95943, \"new_versions\": 10, \"reused_files\": 0, \"pinned_source_checked\": true}"
+    },
+    {
+      "manifest": "research/sleepy-research-migration-20261116/sixth-pass/SOURCE-MAP.json",
+      "exit_code": 0,
+      "output": "{\"verified_files\": 1, \"bytes\": 7798, \"new_versions\": 1, \"reused_files\": 0, \"pinned_source_checked\": true}"
+    },
+    {
+      "manifest": "research/sleepy-research-migration-20261116/seventh-pass/SOURCE-MAP.json",
+      "exit_code": 0,
+      "output": "{\"verified_files\": 2, \"bytes\": 13640, \"new_versions\": 2, \"reused_files\": 0, \"pinned_source_checked\": true}"
+    }
+  ],
+  "asset_prepublish_head": "05f1cd769507bef1a2de2096f7eeaa336d4b5fd0",
+  "device_used_this_check": false,
+  "gradle_executed_this_check": false,
+  "optical_acceptance": false
+}
