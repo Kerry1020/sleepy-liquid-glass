@@ -12,3 +12,9 @@ The successful test APK SHA-256 is `ed1aeb6e547479ae4f711b9a36a30aeeca876e10876c
 The successful compiler reported one nullable-reflection warning at the renderer ID read in the slider observer; no compiler error. The observer checks the reflected method's primitive-long return signature. Runtime reflection, arithmetic consistency and timing checks still require actual device execution.
 
 At this checkpoint ADB listed no connected device and no discoverable wireless service. Neither study has been installed or executed. No geometry, menu-material, natural-motion, optical or native-parity acceptance follows from compilation. The earlier failed language run and its original thresholds remain unchanged.
+
+## Binary inventory after PR #446
+
+The later [read-only binary audit](binary-audit-20261116.json) rehashed both existing APKs and their output metadata. Neither artifact was rebuilt from the current `ac646d9b` menu-carrier fix: the main still comes from the original `d38e9d1a` build receipt and the external-observer test from the later build at `7888d1b2`. Keep them as explicitly historical baseline artifacts. To validate #446, rebuild the main and matching externally overlaid test APK at that source, record both hashes and verify installed identities before execution. No rebuild, duplicate APK, installation or device execution occurred during this inventory; Android ADB, mDNS and USB inventories were empty.
+
+Source-level follow-up is separate from device evidence: the [slider geometry audit](../../slider-layer-observation-20261116/geometry-audit/README.md) decomposes the recorded dimensions without changing the frozen comparison gates, and the [menu close-path review](../../language-settled-observation-20261116/close-path-review.md) separates the window handoff from real language-change Activity recreation. Neither is GPU execution or optical acceptance.

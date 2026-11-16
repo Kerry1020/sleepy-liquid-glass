@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "observed_at_utc": "2026-11-16T02:41:28.646995+00:00",
+  "scope": "Read-only inventory of existing local build outputs; no build, installation or device execution.",
+  "current_application_source": "ac646d9b11c9455690ea805f56270ff4cf4ba874",
+  "existing_apks": [
+    {
+      "host_relative_path": "app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+      "sha256": "566fc53eb6c28a0df7be03b7b07ee0ab8fd28a96b1f471f1669d7bbdbf3063b5",
+      "bytes": 31952171,
+      "application_id": "com.lingion.sleepy.debug",
+      "metadata_sha256": "9a6daaca604562c8f5d4a05b9e01e09bd4c4a38b9f0066fc52df1ae417d29412",
+      "recorded_build_source": "d38e9d1a92adcde69264bdd50313948bdd29ab0e"
+    },
+    {
+      "host_relative_path": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+      "sha256": "ed1aeb6e547479ae4f711b9a36a30aeeca876e10876ce9277b84df58ef933100",
+      "bytes": 2176994,
+      "application_id": "com.lingion.sleepy.debug.test",
+      "metadata_sha256": "87f99c2b968301f4f6ddd9b680f9e108b7f4e66d8c72aa6de1413310ba02598a",
+      "recorded_build_source": "7888d1b22e119e870f6f59a37d06592ba051344e"
+    }
+  ],
+  "prior_build_receipts": [
+    "research/slider-android-host/host-build-20261116.json",
+    "research/control-regression-diagnostics-20261116/host-integration-observed/combined-20261116T012044Z/build.json"
+  ],
+  "current_source_device_validation": false,
+  "optical_acceptance": false,
+  "connection_observation": {
+    "adb_device_count": 0,
+    "adb_mdns_service_count": 0,
+    "matching_android_usb_device_count": 0,
+    "existing_android_emulator_available": false,
+    "native_reference_runtime": "iOS 26.5 (23F77) remains booted"
+  },
+  "decision": "Keep these bytes as explicitly historical baseline artifacts. For PR446 validation rebuild the main and the matching externally overlaid test APK at the same current source, record hashes, verify installation identities, then execute. Do not relabel the old main as PR446."
+}
