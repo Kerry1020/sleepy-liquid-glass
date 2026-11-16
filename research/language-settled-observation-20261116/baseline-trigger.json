@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "source_report": "../control-regression-diagnostics-20261116/language-gpu/results/language-triplet-20261115T222128Z/gpu-triplet.json",
+  "source_report_sha256": "630dabe31fe3c69e2daf9aed26a6c414221ec6e9ecbf1c72aec62d3e64967ce2",
+  "original_junit_passed": false,
+  "original_failure": {
+    "type": "java.lang.AssertionError",
+    "message": "Settled row geometry stays unchanged in late capture expected: java.util.ArrayList<[(zh-CN, Rect.fromLTRB(266.5, 566.0, 950.5, 691.0)), (zh-TW, Rect.fromLTRB(266.5, 691.0, 950.5, 816.0)), (en, Rect.fromLTRB(266.5, 816.0, 950.5, 941.0)), (ja, Rect.fromLTRB(266.5, 941.0, 950.5, 1066.0)), (es, Rect.fromLTRB(266.5, 1066.0, 950.5, 1191.0))]> but was: java.util.ArrayList<[(zh-CN, Rect.fromLTRB(266.5, 566.0, 950.5, 691.0)), (zh-TW, Rect.fromLTRB(266.5, 691.0, 950.5, 816.0)), (en, Rect.fromLTRB(266.5, 816.0, 950.5, 941.0)), (ja, Rect.fromLTRB(266.5, 941.0, 950.5, 1066.0)), (es, Rect.fromLTRB(266.5, 1066.0, 950.5, 1191.0))]>"
+  },
+  "original_control_validity": {
+    "suppression_draw_observed": true,
+    "restored_draw_observed": true,
+    "source_bounds_exactly_retained": true,
+    "value_bounds_exactly_retained": true,
+    "row_bounds_exactly_retained_stable_to_late": false,
+    "expanded_source_alpha": 0,
+    "expanded_handoff_phase": "motion",
+    "fixture_suppression_disabled_for_natural_open": true,
+    "captured_without_active_pointer": true
+  },
+  "first_row_geometry": {
+    "code": "zh-CN",
+    "stable_screen_bounds_px": {
+      "left": 266.5,
+      "top": 566.0102,
+      "right": 950.5,
+      "bottom": 691.0102
+    },
+    "late_screen_bounds_px": {
+      "left": 266.5,
+      "top": 566,
+      "right": 950.5,
+      "bottom": 691
+    },
+    "roi_screen_bounds_px": {
+      "left": 807.7,
+      "top": 604.7102,
+      "right": 861.25,
+      "bottom": 652.3102
+    },
+    "roi_pixel_edges": [
+      808,
+      605,
+      861,
+      652
+    ],
+    "roi_fraction_inside_source_rect": 1,
+    "roi_fraction_inside_value_rect": 0
+  },
+  "raw_float32_first_row_top": {
+    "stable": 566.0101928710938,
+    "late": 566.0
+  },
+  "E_before_visual_state": {
+    "alpha": 1,
+    "scale_x": 1,
+    "scale_y": 0.99999994
+  },
+  "E_after_visual_state": {
+    "alpha": 1,
+    "scale_x": 1,
+    "scale_y": 1
+  },
+  "scope": "Records the prior exact geometry failure. Existing report and PNG files remain immutable; this derived study changes only observation readiness."
+}

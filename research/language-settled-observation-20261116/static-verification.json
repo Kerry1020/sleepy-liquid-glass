@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "status": "STATIC_PREPARATION_VERIFIED_NOT_KOTLIN_OR_GPU_VALIDATED",
+  "commands": [
+    {
+      "option": "--check",
+      "exit_code": 0,
+      "result": {
+        "status": "STATIC_PREPARATION_VERIFIED",
+        "alias_class": "AssetLanguageObservedTerminalGeometryTest",
+        "output_sha256": "493462a050956d684d7749f3ce0a125d0afa2f44529ee88a3c6ff8c5b7eacf8c",
+        "gradle_executed": false,
+        "device_used": false
+      }
+    },
+    {
+      "option": "--self-test",
+      "exit_code": 0,
+      "result": {
+        "status": "STATIC_TRANSFORM_CONTRACTS_PASS",
+        "invalid_inputs_rejected": 3,
+        "byte_preserved_sections": 8,
+        "gradle_executed": false,
+        "device_used": false
+      }
+    }
+  ],
+  "observation_contract_checks": 20,
+  "overlay_guard_checks": 8,
+  "gradle_executed": false,
+  "device_used": false,
+  "mathematical_rest_observed": false,
+  "optical_acceptance": false,
+  "files_sha256": {
+    "prepare-fixture.py": "108820d865b22dcb99a7e220a73e7b4632194580c5f77bfe9966853f61fd2edf",
+    "terminal-observation.kt.inc": "f3d441c231fa18cfa584bd8b043b1195e8741a65e15ab025304eb53ef053d750",
+    "overlay.init.gradle": "4bb1d700f2a7bf005e028bfd1b72553e85815256c45d022595de68a8614e7b90",
+    "README.md": "c617b32b741fafccaa36d08b7566c7d41daa58fc8282602ea50990462fc92afe",
+    "baseline-trigger.json": "489a41e87972a922d567a76f7a7b3e95b17d1a7e87f58cf015bc01d8e7676e51",
+    "prepared/preparation.json": "78f3be03c4b0cd6bb5d5eae950ed080fec070c0409d7d765e2d34cbd901cf6a3",
+    "prepared/sources/com/lingion/sleepy/ui/component/AssetLanguageObservedTerminalGeometryTest.kt": "493462a050956d684d7749f3ce0a125d0afa2f44529ee88a3c6ff8c5b7eacf8c"
+  }
+}

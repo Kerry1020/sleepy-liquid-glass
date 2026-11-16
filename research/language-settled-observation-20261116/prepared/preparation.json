@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "status": "PREPARED_NOT_BUILT_OR_RUN",
+  "alias_class": "AssetLanguageObservedTerminalGeometryTest",
+  "parent_source": "../control-regression-diagnostics-20261116/language-gpu/prepared/sources/com/lingion/sleepy/ui/component/AssetLanguageGpuTripletDiagnosticTest.kt",
+  "parent_output_sha256": "ca4d1638eb08a05ea32dfcdbfd9c2442420ec389062500cc19be5e57ef18d5ce",
+  "original_source_sha256": "94b488726ac48e666160f786c5881c53b960fc948016a74a7235a923be2f9639",
+  "helper_sha256": "f3d441c231fa18cfa584bd8b043b1195e8741a65e15ab025304eb53ef053d750",
+  "generator_sha256": "108820d865b22dcb99a7e220a73e7b4632194580c5f77bfe9966853f61fd2edf",
+  "output_relative_path": "com/lingion/sleepy/ui/component/AssetLanguageObservedTerminalGeometryTest.kt",
+  "output_sha256": "493462a050956d684d7749f3ce0a125d0afa2f44529ee88a3c6ff8c5b7eacf8c",
+  "output_bytes": 56033,
+  "selected_android_tests": 1,
+  "source_root": "prepared/sources",
+  "mathematical_rest_observed": false,
+  "gradle_executed": false,
+  "device_used": false
+}

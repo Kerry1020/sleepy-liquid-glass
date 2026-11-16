@@ -1,0 +1,61 @@
+// Inert unless explicitly selected with -I. All research source remains outside Sleepy.
+import groovy.json.JsonSlurper
+import java.security.MessageDigest
+
+def aliasName = 'AssetLanguageObservedTerminalGeometryTest'
+def aliasRelative = 'com/lingion/sleepy/ui/component/' + aliasName + '.kt'
+def expectedParent = 'ca4d1638eb08a05ea32dfcdbfd9c2442420ec389062500cc19be5e57ef18d5ce'
+def expectedOutput = '493462a050956d684d7749f3ce0a125d0afa2f44529ee88a3c6ff8c5b7eacf8c'
+def digest = { File file -> MessageDigest.getInstance('SHA-256').digest(file.bytes).encodeHex().toString() }
+
+gradle.beforeProject { p ->
+    if (p.path == ':app') {
+        p.pluginManager.withPlugin('com.android.application') {
+            def raw = p.providers.gradleProperty('languageSettledObservationSources').orNull
+            if (!raw || !new File(raw).isAbsolute()) {
+                throw new GradleException('Provide absolute -PlanguageSettledObservationSources from the asset study.')
+            }
+            File sources = new File(raw).canonicalFile
+            File host = p.rootProject.projectDir.canonicalFile
+            if (!sources.isDirectory() || sources.toPath().startsWith(host.toPath())) {
+                throw new GradleException('Observed terminal geometry sources must be outside Sleepy.')
+            }
+            File source = new File(sources, aliasRelative).canonicalFile
+            File receiptFile = new File(sources.parentFile, 'preparation.json')
+            if (!source.isFile() || !source.toPath().startsWith(sources.toPath()) || !receiptFile.isFile()) {
+                throw new GradleException('Run the asset study prepare-fixture.py before attaching sources.')
+            }
+            def actualFiles = p.fileTree(sources).files.collect { it.canonicalFile } as Set
+            if (actualFiles != ([source] as Set)) {
+                throw new GradleException('Observed terminal geometry overlay requires exactly one Kotlin source.')
+            }
+            def receipt = new JsonSlurper().parse(receiptFile)
+            if (receipt.schema != 1 || receipt.alias_class != aliasName || receipt.selected_android_tests != 1 ||
+                    receipt.output_relative_path != aliasRelative || receipt.parent_output_sha256 != expectedParent ||
+                    receipt.output_sha256 != expectedOutput || digest(source) != expectedOutput) {
+                throw new GradleException('Observed terminal geometry source/receipt hash differs.')
+            }
+            def android = p.extensions.getByName('android')
+            android.sourceSets.named('androidTest') { ss -> ss.kotlin.srcDir(sources) }
+            p.afterEvaluate {
+                Set<File> candidates = [] as Set
+                android.sourceSets.each { ss ->
+                    (ss.kotlin.directories + ss.java.directories).each { root ->
+                        File folder = p.file(root)
+                        if (folder.isDirectory()) {
+                            candidates.addAll(p.fileTree(folder).matching {
+                                include '**/*.kt', '**/*.java'
+                            }.files.collect { it.canonicalFile })
+                        }
+                    }
+                }
+                def declaration = ~/(?m)^\s*(?:(?:public|private|protected|internal|open|final|abstract|data|sealed|expect|actual)\s+)*(?:class|object|interface|typealias)\s+AssetLanguageObservedTerminalGeometryTest\b/
+                def definitions = candidates.findAll { (it.getText('UTF-8') =~ declaration).find() }
+                if (definitions != ([source] as Set)) {
+                    throw new GradleException('Observed terminal geometry alias is not unique: ' + definitions)
+                }
+                p.logger.lifecycle('Explicit observed terminal geometry source attached: ' + source)
+            }
+        }
+    }
+}
