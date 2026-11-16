@@ -1,0 +1,97 @@
+{
+  "status": "JVM_PASSED_GPU_PENDING",
+  "test_head": "ea16f7d4f3df8e46e4ab2ad263f0f797b4925560",
+  "command": [
+    "./gradlew",
+    ":app:testDebugUnitTest",
+    "--tests",
+    "com.lingion.sleepy.ui.component.liquidglass.LanguageMenuCarrierGeometryTest",
+    "--tests",
+    "com.lingion.sleepy.ui.component.liquidglass.LanguageMenuMotionTest",
+    "--tests",
+    "com.lingion.sleepy.ui.component.liquidglass.GlassLanguageMenuTest",
+    "--tests",
+    "com.lingion.sleepy.ui.component.liquidglass.SingleChoiceDropdownTest",
+    "--tests",
+    "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassExactContourTest",
+    "--offline",
+    "--console=plain"
+  ],
+  "environment": {
+    "ANDROID_HOME": "<existing-android-sdk>"
+  },
+  "exit_code": 0,
+  "tests": 48,
+  "suites": [
+    {
+      "class": "com.lingion.sleepy.ui.component.liquidglass.LanguageMenuCarrierGeometryTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-11-16T02:15:46.352Z",
+      "time": "0.049",
+      "raw_xml_sha256": "3d3fc35e0eb45e562a707f2948f73765a76a459239aabd2658871f14f857fb01"
+    },
+    {
+      "class": "com.lingion.sleepy.ui.component.liquidglass.LanguageMenuMotionTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-11-16T02:15:58.115Z",
+      "time": "0.022",
+      "raw_xml_sha256": "461b1349476d77f5aee9e1c2f2b8d6da8fc08afd9a5fd876a3d8e61c4db14037"
+    },
+    {
+      "class": "com.lingion.sleepy.ui.component.liquidglass.GlassLanguageMenuTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-11-16T02:15:46.510Z",
+      "time": "11.603",
+      "raw_xml_sha256": "ec1981d2a6d57e4714d9121301702d1b900bdee5e0ce80e93cd70bc2f7bc328c"
+    },
+    {
+      "class": "com.lingion.sleepy.ui.component.liquidglass.SingleChoiceDropdownTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-11-16T02:15:58.194Z",
+      "time": "2.09",
+      "raw_xml_sha256": "1f30fdb4f94d8aa76133e35d886db08991d02bbc3804d09897dc3115fd0221c0"
+    },
+    {
+      "class": "com.lingion.sleepy.ui.component.liquidglass.LiquidGlassExactContourTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-11-16T02:15:58.139Z",
+      "time": "0.051",
+      "raw_xml_sha256": "4287fbc3182b96f70fce7a4aadf34f2fdfbf85eaa049ef6a9624bb41e88cb5db"
+    }
+  ],
+  "source_sha256": {
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassLanguageMenu.kt": "b321e93c9250c6c07e8cff12efc62198ca31f4ed888d1c5877ec6b85e8db1f6c",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/LanguageMenuMotion.kt": "40209fed12de60e9876fb17f876fd6ef1a6f16e5f0b21d043515109a1a6ba3f0",
+    "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LanguageMenuCarrierGeometryTest.kt": "9cddd051a2edda0e64312603cc23828d472e1c0bd2b96699d5b687ee9a0440b9"
+  },
+  "test_unchanged_since_red": true,
+  "device_used": false,
+  "optical_acceptance": false,
+  "validated_fix_commit": "ac646d9b11c9455690ea805f56270ff4cf4ba874",
+  "instrumentation_compile": {
+    "command": [
+      "./gradlew",
+      ":app:compileDebugAndroidTestKotlin",
+      "--offline",
+      "--console=plain"
+    ],
+    "exit_code": 0,
+    "gradle_reported_duration": "1s",
+    "device_executed": false
+  }
+}

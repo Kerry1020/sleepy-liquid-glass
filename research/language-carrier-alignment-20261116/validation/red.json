@@ -1,0 +1,70 @@
+{
+  "status": "EXPECTED_ASSERTION_FAILURE",
+  "host_head": "e64a155e59628c7d1e43053b2a8aed5e1eefeca3",
+  "command": [
+    "./gradlew",
+    ":app:testDebugUnitTest",
+    "--tests",
+    "com.lingion.sleepy.ui.component.liquidglass.LanguageMenuCarrierGeometryTest",
+    "--offline",
+    "--console=plain"
+  ],
+  "environment": {
+    "ANDROID_HOME": "<existing-android-sdk>"
+  },
+  "exit_code": 1,
+  "suite": {
+    "name": "com.lingion.sleepy.ui.component.liquidglass.LanguageMenuCarrierGeometryTest",
+    "tests": "5",
+    "skipped": "0",
+    "failures": "5",
+    "errors": "0",
+    "timestamp": "2026-11-16T02:14:03.026Z",
+    "time": "0.025"
+  },
+  "cases": [
+    {
+      "name": "openingAndClosingKeepBothContoursInsideThePixelEnvelopeAtRealDensities",
+      "failure": {
+        "message": "java.lang.AssertionError: carrier edges must survive integer layout placement expected:<231.0> but was:<231.25>",
+        "type": "java.lang.AssertionError"
+      }
+    },
+    {
+      "name": "tinyContoursStillFitInsideTheAllocatedPixels",
+      "failure": {
+        "message": "java.lang.AssertionError: carrier edges must survive integer layout placement expected:<0.0> but was:<0.25>",
+        "type": "java.lang.AssertionError"
+      }
+    },
+    {
+      "name": "bothMorphContoursShareOneWorldOrigin",
+      "failure": {
+        "message": "java.lang.AssertionError: carrier edges must survive integer layout placement expected:<10.0> but was:<10.25>",
+        "type": "java.lang.AssertionError"
+      }
+    },
+    {
+      "name": "settledHalfPixelMenuKeepsItsMaterialAlignedWithItsContent",
+      "failure": {
+        "message": "java.lang.AssertionError: carrier edges must survive integer layout placement expected:<236.0> but was:<236.5>",
+        "type": "java.lang.AssertionError"
+      }
+    },
+    {
+      "name": "offscreenNegativeEdgesDoNotTruncateTowardTheWrongOrigin",
+      "failure": {
+        "message": "java.lang.AssertionError: carrier edges must survive integer layout placement expected:<-20.0> but was:<-20.75>",
+        "type": "java.lang.AssertionError"
+      }
+    }
+  ],
+  "raw_xml_sha256": "c55eee7ecba661f81a3a85a837c4da7d67b8f767a116e2d3f8753aae09d54b03",
+  "source_sha256": {
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassLanguageMenu.kt": "b321e93c9250c6c07e8cff12efc62198ca31f4ed888d1c5877ec6b85e8db1f6c",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/LanguageMenuMotion.kt": "566bd41cdb86647c231c451ba7499d34cb40373f96b009ffe99b77a0d1754323",
+    "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LanguageMenuCarrierGeometryTest.kt": "9cddd051a2edda0e64312603cc23828d472e1c0bd2b96699d5b687ee9a0440b9"
+  },
+  "gpu_executed": false,
+  "optical_acceptance": false
+}

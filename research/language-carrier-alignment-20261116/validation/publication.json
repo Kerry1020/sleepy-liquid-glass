@@ -1,0 +1,211 @@
+{
+  "observed_at_utc": "2026-11-16T02:29:23.928401+00:00",
+  "product_pr": {
+    "additions": 135,
+    "baseRefOid": "4b964621b62a122f7c3b74c0e232231ed5959ee7",
+    "deletions": 3,
+    "files": [
+      {
+        "path": "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassLanguageMenu.kt",
+        "additions": 1,
+        "deletions": 2,
+        "changeType": "MODIFIED"
+      },
+      {
+        "path": "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/LanguageMenuMotion.kt",
+        "additions": 11,
+        "deletions": 1,
+        "changeType": "MODIFIED"
+      },
+      {
+        "path": "app/src/test/java/com/lingion/sleepy/ui/component/liquidglass/LanguageMenuCarrierGeometryTest.kt",
+        "additions": 123,
+        "deletions": 0,
+        "changeType": "ADDED"
+      }
+    ],
+    "headRefOid": "ac646d9b11c9455690ea805f56270ff4cf4ba874",
+    "mergeCommit": null,
+    "mergeStateStatus": "BLOCKED",
+    "mergedAt": null,
+    "number": 446,
+    "state": "OPEN",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T02:19:54Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43791466670/job/133050630734",
+        "name": "commit-lint",
+        "startedAt": "2026-11-16T02:19:36Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T02:19:49Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43791466828/job/133050635605",
+        "name": "prepare",
+        "startedAt": "2026-11-16T02:19:37Z",
+        "status": "COMPLETED",
+        "workflowName": "Debug APK Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T02:20:14Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43791466670/job/133050630481",
+        "name": "school-catalog-check",
+        "startedAt": "2026-11-16T02:19:36Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T02:26:33Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43791466828/job/133050714742",
+        "name": "assemble-debug",
+        "startedAt": "2026-11-16T02:19:52Z",
+        "status": "COMPLETED",
+        "workflowName": "Debug APK Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T02:19:51Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43791466670/job/133050630743",
+        "name": "collector-test",
+        "startedAt": "2026-11-16T02:19:36Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T02:27:08Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43791466828/job/133052901016",
+        "name": "sign-debug / sign-debug",
+        "startedAt": "2026-11-16T02:26:35Z",
+        "status": "COMPLETED",
+        "workflowName": "Debug APK Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T02:19:48Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43791466670/job/133050630798",
+        "name": "jw-fetch-js-test",
+        "startedAt": "2026-11-16T02:19:37Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T02:25:48Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43791466670/job/133050630720",
+        "name": "android-unit-test",
+        "startedAt": "2026-11-16T02:19:36Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T02:26:47Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43791466670/job/133050630825",
+        "name": "android-lint",
+        "startedAt": "2026-11-16T02:19:36Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T02:24:47Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43791466670/job/133050630716",
+        "name": "android-assemble",
+        "startedAt": "2026-11-16T02:19:36Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "url": "https://github.com/lingion/sleepy/pull/446"
+  },
+  "workflows": [
+    {
+      "conclusion": "success",
+      "databaseId": 43791466670,
+      "event": "pull_request",
+      "headSha": "ac646d9b11c9455690ea805f56270ff4cf4ba874",
+      "status": "completed",
+      "url": "https://github.com/lingion/sleepy/actions/runs/43791466670",
+      "workflowName": "CI"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 43791466828,
+      "event": "pull_request_target",
+      "headSha": "ac646d9b11c9455690ea805f56270ff4cf4ba874",
+      "status": "completed",
+      "url": "https://github.com/lingion/sleepy/actions/runs/43791466828",
+      "workflowName": "Debug APK Build"
+    }
+  ],
+  "research_cleanup": [
+    {
+      "additions": 482,
+      "changedFiles": 97,
+      "deletions": 27101,
+      "mergeCommit": {
+        "oid": "2a0e4aeaf5029e7168fb15f49ca445a7481934b5"
+      },
+      "mergedAt": "2026-11-16T01:02:06Z",
+      "number": 443,
+      "state": "MERGED",
+      "url": "https://github.com/lingion/sleepy/pull/443"
+    },
+    {
+      "additions": 3,
+      "changedFiles": 1,
+      "deletions": 44,
+      "mergeCommit": {
+        "oid": "4b964621b62a122f7c3b74c0e232231ed5959ee7"
+      },
+      "mergedAt": "2026-11-16T01:52:57Z",
+      "number": 445,
+      "state": "MERGED",
+      "url": "https://github.com/lingion/sleepy/pull/445"
+    }
+  ],
+  "ordinary_merge_attempt": {
+    "command": [
+      "gh",
+      "pr",
+      "merge",
+      "446",
+      "--repo",
+      "lingion/sleepy",
+      "--squash",
+      "--match-head-commit",
+      "ac646d9b11c9455690ea805f56270ff4cf4ba874"
+    ],
+    "exit_code": 1,
+    "reported_reason": "the base branch policy prohibits the merge",
+    "protection_bypassed": false
+  },
+  "asset_scope": [
+    "README.md",
+    "README.en.md",
+    "research/language-carrier-alignment-20261116"
+  ],
+  "gpu_executed": false,
+  "optical_acceptance": false,
+  "limitations": [
+    "The red summary retains hashes but the overwritten red raw XML is not distributed.",
+    "Successful JVM and cloud checks do not establish GPU optical or natural motion parity.",
+    "Asset repository runtime code is unchanged and was not revalidated by this application adapter fix."
+  ]
+}

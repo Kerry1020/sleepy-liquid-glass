@@ -5,6 +5,7 @@
 [English](README.en.md) · [实现与 API](docs/architecture.md) · [实验数据与图表](docs/evidence/RESULTS.md) · [面板材质研究](docs/panel-material-study.md) · [受控光学研究与资产](docs/controlled-optical-studies.md) · [验证记录](VALIDATION.md) · [贡献指南](CONTRIBUTING.md) · [研究夹具源码](research/slider-fixtures/README.md)
 [研究迁出记录](research/sleepy-research-migration-20261116/README.md) — Sleepy 仅保留应用改动与必要回归；研究入口、报告和资产只在本库发布。
 [Android 滑杆四轮采集归档](research/slider-android-response-20261116/README.md) — 原始采集、格式失败及采后兼容分析分别保留；几何门槛未通过，不能由这些输出推断光学参数。
+[单选菜单载体坐标修复](research/language-carrier-alignment-20261116/README.md) — 修复已定位的半像素材料/前景错位；5 项旧行为失败后，相关 48 项回归通过，GPU 验证仍待设备。
 
 本项目把 Sleepy 中的输入时钟、弹簧运动、速度形变、连续圆角、AGSL 材质与外部背板采样拆成独立源码模块。目标是让控件的位置、形状、材质和交互节奏能够分别测量、校准与复现，帮助 Compose 开发者构建会响应真实背景与手势的玻璃界面。
 
