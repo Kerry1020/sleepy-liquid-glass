@@ -12,7 +12,7 @@
 
 ## 1. 证据边界
 
-[2026-11-16 控件回归诊断](../research/control-regression-diagnostics-20261116/README.md)保留时钟／轨道探针的真实失败与尚未执行的语言 GPU 外置入口。研究入口和记录仅在本资产库发布；它们不构成新的光学验收，也不进入 Sleepy 默认源码或构建。
+[2026-11-16 控件回归诊断](../research/control-regression-diagnostics-20261116/README.md)保留时钟／轨道探针与语言 GPU 首轮的真实失败。后续的[语言终态几何观察](../research/language-settled-observation-20261116/README.md)与[滑杆实际层变换观察](../research/slider-layer-observation-20261116/README.md)是仅完成静态准备、尚未构建或执行的新诊断，不能当作失败已修复。研究入口和记录仅在本资产库发布；它们不构成新的光学验收，也不进入 Sleepy 默认源码或构建。
 
 | 项目 | 已有证据 | 仍然缺少的证据 |
 | --- | --- | --- |

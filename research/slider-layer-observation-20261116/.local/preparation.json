@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "status": "SOURCE_PREPARED_NOT_BUILT_OR_RUN",
+  "test_class": "com.lingion.sleepy.ui.component.sliderlayerresearch.SliderLayerObservationTest",
+  "compose_contract": "1.12.1",
+  "sources": "sources",
+  "files": {
+    "com/lingion/sleepy/ui/component/sliderlayerresearch/SliderLayerObservationTest.kt": {
+      "bytes": 12951,
+      "sha256": "5a01e532f5fac837037f46c89d855a9aeb859e3c6f2b189ef021a774ddf1c436"
+    },
+    "com/lingion/sleepy/ui/component/sliderlayerresearch/SliderLayerObserver1121.kt": {
+      "bytes": 12750,
+      "sha256": "a7db9968f36f241a1762362ab833cccfa57b3193a0b4483fd3aa70ed505862ed"
+    }
+  },
+  "source_pins_sha256": "aea9a06009aba0e55939981ef9c04911010f544d4f6c803c5a3c3f78a02c249f",
+  "optical_acceptance": false,
+  "gradle_executed": false,
+  "device_used": false
+}

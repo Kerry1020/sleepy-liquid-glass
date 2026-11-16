@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "validation": "READ_ONLY_JAVAP_SIGNATURE_AND_BYTECODE_REVIEW_NOT_COMPILED_OR_RUN",
+  "compose_version": "1.12.1",
+  "classes_jar_sha256": {
+    "ui-android": "bd1c0af0de3248e0ab23805451c372d3309509c948e6472cb61c320a1d4d67e6",
+    "ui-graphics-android": "3601d064416e13b1da1fcc658915f75b495eba31cd0381384ee90fdecd3a1a70",
+    "ui-test-android": "1a7cbc0e30184fb57433716cacc4db26260f6dbd75faaaf7f00c4998576a3787"
+  },
+  "binary_origins": {
+    "ui-android": "androidx.compose.ui:ui-android:1.12.1/ui.aar!classes.jar",
+    "ui-graphics-android": "androidx.compose.ui:ui-graphics-android:1.12.1/ui-graphics.aar!classes.jar",
+    "ui-test-android": "androidx.compose.ui:ui-test-android:1.12.1/ui-test.aar!classes.jar"
+  },
+  "checked_contracts": [
+    "LayoutNode.getCoordinates returns innerCoordinator; NodeCoordinator.parentCoordinates returns wrappedBy",
+    "NodeChain.getModifierInfo returns coordinator.layer or special innerCoordinator fallback as ModifierInfo.extra; multiple modifiers can repeat one layer",
+    "NodeCoordinator fields layer:OwnedLayer,position:long,layoutNode:LayoutNode",
+    "GraphicsLayerOwnerLayer fields graphicsLayer:GraphicsLayer,transformOrigin:long",
+    "GraphicsLayerOwnerLayer.getUnderlyingMatrix-sQKQjiQ returns getMatrix, which updates the matrix cache",
+    "GraphicsLayerOwnerLayer.updateMatrix resolves Unspecified pivot to size center and calls Matrix.resetToPivotedTransform with raw translation, rotations and scales",
+    "GraphicsLayerOwnerLayer.move--gyyYBs sets GraphicsLayer.topLeft",
+    "LayoutCoordinates public transformToScreen-58bKbWc(float[]) and transformFrom-EL8BTi8(LayoutCoordinates,float[]) exist",
+    "GraphicsLayer getters scaleX/scaleY/translationX/translationY/alpha/pivotOffset/topLeft/size/rotations/isReleased exist",
+    "TouchInjectionScope.moveTo updates the pointer and calls move(delayMillis); TouchInjectionScopeImpl.move advances event time before enqueueTouchMove",
+    "AndroidInputDispatcher initializes lastDispatchedEventTime from current dispatcher time; flush advances mainClock by each eventTime minus lastDispatchedEventTime before sendAndRecycleEvent",
+    "AndroidInputDispatcher.advanceClockTime(delta) calls MainTestClock.advanceTimeBy(delta,true), then flush calls TestOwner.runCurrent after delivery; this is independent of autoAdvance=false"
+  ],
+  "limitations": [
+    "No Gradle invocation, Kotlin compilation or device execution in this implementation task",
+    "The runtime observer fails on unknown layer implementations, changed signatures, unsupported rotations, nonfinite state, ambiguous ownership or inconsistent matrices",
+    "Public whole-coordinate transforms include ancestor layers and placement; they do not reveal internal paint alpha or optical material acceptance"
+  ],
+  "pre_execution_timing_correction": {
+    "status": "UNBUILT_UNEXECUTED_SOURCE_CORRECTION",
+    "previous_test_sha256": "242df8b3896229d20901704962627a26a46bf344bdc6246d581949618152523c",
+    "previous_move_plan": "moveTo(delayMillis=16) followed by mainClock.advanceTimeBy(16):32ms total per loop on this Android dispatcher",
+    "current_move_plan": "moveTo(delayMillis=16) as sole clock advancement; record before/after and require16ms; observe without post-delivery animation advance",
+    "runtime_clock_deltas_observed": false,
+    "changed_historical_acquisition": false
+  }
+}

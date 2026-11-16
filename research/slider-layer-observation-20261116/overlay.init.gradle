@@ -1,0 +1,59 @@
+// Explicit external research only. A normal host build does not load this file.
+import groovy.json.JsonSlurper
+import java.nio.file.Files
+import java.security.MessageDigest
+
+def digest = { File f -> MessageDigest.getInstance('SHA-256').digest(f.bytes).encodeHex().toString() }
+gradle.beforeProject { p ->
+    if (p.path == ':app') {
+        p.pluginManager.withPlugin('com.android.application') {
+            def raw = p.providers.gradleProperty('sliderLayerStudy').orNull
+            if (!raw || !new File(raw).isAbsolute()) throw new GradleException('Provide absolute -PsliderLayerStudy.')
+            File study = new File(raw).canonicalFile
+            File sources = new File(study, 'sources')
+            File host = p.rootProject.projectDir.canonicalFile
+            if (!sources.isDirectory() || sources.toPath().startsWith(host.toPath())) {
+                throw new GradleException('Study sources must exist outside Sleepy.')
+            }
+            for (File item = new File(raw); item != null; item = item.parentFile) {
+                if (Files.isSymbolicLink(item.toPath())) throw new GradleException('Symlink in study path.')
+            }
+            File pinFile = new File(study, 'source-pins.json')
+            File receiptFile = new File(study, '.local/preparation.json')
+            if (!pinFile.isFile() || !receiptFile.isFile() || Files.isSymbolicLink(pinFile.toPath()) ||
+                    Files.isSymbolicLink(receiptFile.toPath()) || Files.isSymbolicLink(receiptFile.parentFile.toPath())) {
+                throw new GradleException('Run study prepare.py; pins and receipt must be real files.')
+            }
+            def pins = new JsonSlurper().parse(pinFile)
+            def receipt = new JsonSlurper().parse(receiptFile)
+            if (receipt.schema != 1 || receipt.compose_contract != '1.12.1' || receipt.files != pins.files ||
+                    receipt.source_pins_sha256 != digest(pinFile) || pins.files.size() != 2) {
+                throw new GradleException('Study receipt/source identities differ.')
+            }
+            def walk = Files.walk(sources.toPath())
+            Set actual = [] as Set
+            try {
+                walk.forEach { path ->
+                    if (Files.isSymbolicLink(path)) throw new GradleException('Symlink in external sources.')
+                    if (Files.isRegularFile(path)) actual.add(sources.toPath().relativize(path).toString())
+                }
+            } finally { walk.close() }
+            if (actual != (pins.files.keySet() as Set)) throw new GradleException('Unexpected/missing external source.')
+            pins.files.each { relative, pin ->
+                File file = new File(sources, relative)
+                if (digest(file) != pin.sha256 || file.length() != pin.bytes) throw new GradleException('Changed external source: ' + relative)
+            }
+            p.extensions.getByName('android').sourceSets.named('androidTest') { it.kotlin.srcDir(sources) }
+            p.configurations.configureEach { configuration ->
+                configuration.incoming.afterResolve {
+                    configuration.resolvedConfiguration.resolvedArtifacts.each { artifact ->
+                        def id = artifact.moduleVersion.id
+                        if (id.group == 'androidx.compose.ui' && id.version != '1.12.1') {
+                            throw new GradleException('Observer requires Compose UI1.12.1; resolved ' + id)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
