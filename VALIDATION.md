@@ -2,7 +2,20 @@
 
 The [controlled optical study index](docs/controlled-optical-studies.md) links related research assets and their individual stage boundaries. A prepared input or protocol does not inherit the build, capture or analyzer results recorded here.
 
-## Current slider r2 source sync and independent build — 2026-11-15
+## Current evidence navigation — November 16, 2026
+
+The [illustrated evidence index](docs/current-evidence-20261116.md#english) links every current research entry point and the preserved historical README collection. Historical optical figures and receipts are reused without relabeling. The WebView application-adapter section adds a local build, a previous-candidate layout screenshot and a first-scroll-frame red regression; it adds no final device or optical acceptance.
+
+| Evidence | Recorded result | Remaining boundary |
+| --- | --- | --- |
+| [Toggle ordinary taps](research/toggle-tap-native26-20261116/README.md) / [runtime replay](research/toggle-tap-model26-20261116/README.md) | Eight taps, 16 delivered events, 838 frames; core-model replay executed and audited | No matched Android GPU pixels or natural-time acceptance |
+| [Native RGB](docs/glass-slider-rgb-response-diagnostic.md) / [signed G](research/slider-signedG-response-20261116/README.md) | Eight-round RGB and four-round signed-G diagnostics completed with original failures retained | Encoded finite responses do not identify a unique optical pipeline |
+| [Android compatible analysis](research/slider-android-response-20261116/analysis-v2-post-acquisition-compatible-20261116/RESULTS.md) / [geometry audit](research/slider-layer-observation-20261116/geometry-audit/README.md) | Analysis completed; 171×111px owner quantization and carrier residuals separated | Original geometry gates fail; opacity remains unknown; no confirmed product bug |
+| [Menu carrier fix](research/language-carrier-alignment-20261116/README.md) | Five expected red regressions, then 48 green checks and instrumentation compilation | No fix-bound GPU capture; original menu failure remains |
+| [Terminal/layer observers](research/control-regression-diagnostics-20261116/host-integration-observed/README.md) | External combined compilation succeeded | Existing APKs are historical baselines; installation and execution pending |
+| [WebView application adapter](research/native-webview-isolation-20261116/README.md) | PR #447, three JVM checks and both APK builds passed; previous candidate passed two device tests and reproduced a transparent first scroll frame | Final preDraw/scroll-offset correction not rerun on device after the user took the phone; local HTML did not reproduce the original SIGTRAP |
+
+## Current slider r2 import identity and historical independent build
 
 The current [runtime manifest](provenance/runtime-import.json) binds all **38 byte-identical imports** to committed Sleepy `5f3ea867ed173520c80515c5482263efe1c21433`. Only the shader, uniform binding and style imports changed since the archived pre-slider manifest. Single-slider r2 uses common refraction 7.8 with a 7.5dp quadratic shoulder, a 6.5dp dispersion support and the local frost band. Range retains refraction 2.15 without the new common shoulder. Both are unaccepted optical checkpoints; rejected r3/r4 experiments are preserved in the [shoulder study](docs/glass-slider-shoulder-experiments.md).
 
@@ -12,7 +25,7 @@ The execution below used source `9533cf7f1b11d551f16b56230a9bccad4c3e9806` and t
 
 ## Previous lateral-field source sync and independent build — 2026-11-15
 
-The archived [pre-slider runtime manifest](provenance/runtime-import-20261115-pre-slider.json) binds 38 imports to Sleepy `386d4c09a78234c4bc04507f6ef4952d856de3f4`. The independent command below was rerun after the lateral-field import: `runtime:assemble`, seven host suites / **56 tests**, and `sample:assembleDebug` passed with zero failures, errors or skips. The [new receipt](provenance/validation-20261115-lateral.json) records the current manifest SHA-256 and exit code. This checks source / numerical behavior and assembly; it adds no independent-backend device optical acceptance or complete application-control adapters.
+The archived [pre-slider runtime manifest](provenance/runtime-import-20261115-pre-slider.json) binds 38 imports to Sleepy `386d4c09a78234c4bc04507f6ef4952d856de3f4`. The independent command below was rerun after the lateral-field import: `runtime:assemble`, seven host suites / **56 tests**, and `sample:assembleDebug` passed with zero failures, errors or skips. The [historical receipt](provenance/validation-20261115-lateral.json) records the pre-slider manifest SHA-256 used at that stage and its exit code. This checks source / numerical behavior and assembly; it adds no independent-backend device optical acceptance or complete application-control adapters.
 
 ## Previous pre-lateral runtime sync — 2026-11-15
 

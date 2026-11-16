@@ -1,5 +1,7 @@
 # Slider encoded-RGB response diagnostic
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#slider-native)
+
 The iOS 26.5 (23F77) native Slider study is complete: **eight rounds, sixteen strictly verified held screenshots, full100 only**. All recorded cross-round public geometry ranges are zero. Every ordinary-flat ROI and the post/pre shape ROI have zero RGB-byte drift. The frozen analysis, independent original-PNG audit and portable replay agree.
 
 At the prespecified T=4 raw-byte tolerance, one alpha shared by all nine input/output components is incompatible at **49 of 7,744 ROI pixels**: 32 in the 1,630-pixel primary domain and 17 in its above-rail rim/outside complement. Separate input-column and output-row families are both compatible throughout the primary domain. These observations do not identify processing order, a unique spatial kernel or physical thickness. Product code and material parameters were unchanged; this is **calibration evidence, with no optical acceptance**.

@@ -1,5 +1,7 @@
 # Dock 受控光学试验：输入、测量与否证记录
 
+[当前证据与图片索引 · 2026-11-16](current-evidence-20261116.md)汇总后续 Toggle 回放、Slider 几何分解和菜单坐标修复。本文的 Dock 原始分析、图和结论仍按历史批次阅读。
+
 这份记录公开可复现的合成输入、已完成的静态分析和失败结果，解释 Dock 的底色、扩散、折射与边界高光为什么需要分别测量。原生对照来自归档中声明的 iOS 26.5 系统 SwiftUI TabView Dock。这里没有宣称整体外观达到某个相似率，也没有宣称机械高光、边缘厚度或动态交互已经对齐。
 
 当前最明确的问题仍是：部分背景的绝对材质响应偏差较大；若只看形状与灰底的条件差分，会把共有误差抵消；新的边界合成候选虽然改善部分平均误差，却仍增加角点导数误差和错误的 255 输出。因此，新候选保持显式启用，不能由一条漂亮的曲线直接变成默认材质。
@@ -13,6 +15,8 @@
 ## 1. 证据边界
 
 [2026-11-16 控件回归诊断](../research/control-regression-diagnostics-20261116/README.md)保留时钟／轨道探针与语言 GPU 首轮的真实失败。后续的[语言终态几何观察](../research/language-settled-observation-20261116/README.md)与[滑杆实际层变换观察](../research/slider-layer-observation-20261116/README.md)已通过[显式组合编译](../research/control-regression-diagnostics-20261116/host-integration-observed/README.md)，设备执行仍待完成，不能当作失败已修复。研究入口和记录仅在本资产库发布；它们不构成新的光学验收，也不进入 Sleepy 默认源码或构建。
+
+[滑杆几何分解](../research/slider-layer-observation-20261116/geometry-audit/README.md)保留原门限失败并解释布局量化；[单选菜单载体修复](../research/language-carrier-alignment-20261116/README.md)已有 5 项预期失败与 48 项绿色回归，但无修复后 GPU 图。[Toggle 原生八次普通点击](../research/toggle-tap-native26-20261116/README.md)和[已执行 core-model 回放](../research/toggle-tap-model26-20261116/README.md)分别发布，不作为自然时序或光学验收。
 
 | 项目 | 已有证据 | 仍然缺少的证据 |
 | --- | --- | --- |

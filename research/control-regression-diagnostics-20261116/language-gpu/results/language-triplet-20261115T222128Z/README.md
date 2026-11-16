@@ -1,5 +1,7 @@
 # Language triplet · first GPU run
 
+[当前图文与证据索引 / Current illustrated evidence index](../../../../../docs/current-evidence-20261116.md#menu)
+
 Executed on 2026-11-15 UTC / 2026-11-16 Asia/Shanghai. **JUnit failed; optical acceptance remains false.** All five rows were measured before the assertion. This run and its images belong only to the asset repository; no production rendering change accompanies it.
 
 ![Natural expanded menu, stable request](E_stable.png)

@@ -1,5 +1,7 @@
 # Slider：第三个 G 幅度的原像素诊断
 
+本文保留当时的 midpoint 诊断与后续计划口径。后来已完成的八轮 RGB 响应与四轮 signed-G 测量见[当前图文与证据索引](current-evidence-20261116.md#slider-native)；下文“尚未准备”等句只描述本报告时点，不代表当前状态。
+
 **颜色诊断；产品仍为 r2 未验收检查点。** 当前 single 为 refraction 7.8 / shoulder 7.5；range 为 refraction 2.15、无该 shoulder。五／六／八角星仍用于空间形变回归，七角星未消费。本轮没有改变材质、构建应用或增加独立验收。
 
 在同一 16pt 多色五角星上，既有 G128 control（C）与 G232 witness（F）之间新增 G180（H），并复拍同一 control。仅原 left-blue 多边形的 G 改变；R/B 源逐字节不变，原轮廓、RGB 分区、coverage16、sRGB ICC 和源坐标均保留。两份新捕获复用原生二进制，各有 12 个真实 held endpoint／6 对 shape-flat，原严格回执通过。

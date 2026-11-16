@@ -1,5 +1,7 @@
 # Sleepy 研究内容迁出记录
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#historical)
+
 [English](README.en.md) · [逐文件来源、哈希与存储位置](SOURCE-MAP.json) · [外置 Android 研究入口](../slider-android-host/README.md)
 
 本目录保全 Sleepy `5c604e83cc5ccbc6c5ab622568eae0c99265dfc4` 中明确属于液态玻璃研究的 52 份文件，共 1,774,394 bytes，随后从应用仓库迁出。它补齐较早已合并提交中的残留；PR #442 本身已缩减为四个生产文件及四个 JVM 回归测试。

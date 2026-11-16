@@ -1,5 +1,7 @@
 # 控件回归诊断 · 2026-11-16
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#toggle)
+
 这些是资产库内的诊断、外置研究入口和运行记录，不属于 Sleepy 产品 PR。本文保留失败结果，没有修改材质或通过门限。
 
 ![既有滑杆六姿态对照；不是本轮诊断的新结果](../../docs/design/evidence/glass-slider-star-20261115/figures/six-pose-comparison.png)
@@ -32,3 +34,9 @@ Toggle 左移可能出现横向压缩，现有最大宽度测量不足以区分�
 [新组合构建记录](host-integration-observed/README.md)保留首次外置版本检查失败与修正后的成功构建；语言终态几何和滑杆层观察均已实际编译。只改资产库 init script 的版本检查方式，应用源码、配置与主 APK 字节不变。当前尚未安装或执行，不能把构建成功写成几何、材质或光学通过。
 
 [普通 Toggle 原生点击](../toggle-tap-native26-20261116/README.md)另保存 iOS 26.5 的八次零移动点击输入及完整观察窗口。它不复用450ms持按拖动冒充普通点击，也不把记录层 opacity 当作光学透明度。
+
+后续[运行时 JVM 回放](../toggle-tap-model26-20261116/README.md)已实际执行：16 个 DOWN/UP 事件、838 帧原生观察与编译后的 Sleepy runtime 对照。原生和模型的时钟、层分解尚未证明等价；六次宽度峰值提前一个观察间隔、最大 base-width 误差 6.943pt 均保留，不能写成 Android GPU、材质或自然时序通过。
+
+![普通点击的原生观察与已执行 core-model 回放](../toggle-tap-model26-20261116/native-core-model.svg)
+
+图来自上述已执行回放；原始时间轴和离散采样点未重定时或拟合。菜单载体修复及现有 APK 身份另见[修复记录](../language-carrier-alignment-20261116/README.md)和[二进制审计](host-integration-observed/README.md#binary-inventory-after-pr-446)，修复后 GPU 结果仍缺失。

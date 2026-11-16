@@ -6,6 +6,8 @@
 [研究迁出记录](research/sleepy-research-migration-20261116/README.md) — Sleepy 仅保留应用改动与必要回归；研究入口、报告和资产只在本库发布。
 [Android 滑杆四轮采集归档](research/slider-android-response-20261116/README.md) — 原始采集、格式失败及采后兼容分析分别保留；几何门槛未通过，不能由这些输出推断光学参数。
 [单选菜单载体坐标修复](research/language-carrier-alignment-20261116/README.md) — 修复已定位的半像素材料/前景错位；5 项旧行为失败后，相关 48 项回归通过，GPU 验证仍待设备。
+[当前证据与图片索引 · 2026-11-16](docs/current-evidence-20261116.md) — 按原生观察、模型回放、应用 GPU、源码/编译和待执行研究分别列图；历史原图与失败结论保留。
+[教务导入 WebView 原生隔离与滚动空白修复](research/native-webview-isolation-20261116/README.md) — 应用 PR #447 / `3d8eb3d2`，7 秒构建与3项 JVM检查通过；普通 source 改为 OnPreDraw 独立同步捕获并补负 scroll。含官方坐标依据、真实首帧 `color=0` 的 red、较早候选布局实拍和最终源码/APK哈希。最终修复与条纹回归未设备重跑，原始 SIGTRAP 尚未本地复现。
 
 本项目把 Sleepy 中的输入时钟、弹簧运动、速度形变、连续圆角、AGSL 材质与外部背板采样拆成独立源码模块。目标是让控件的位置、形状、材质和交互节奏能够分别测量、校准与复现，帮助 Compose 开发者构建会响应真实背景与手势的玻璃界面。
 
@@ -25,7 +27,7 @@
 
 ## 1. 独立运行效果
 
-以下为 **Sleepy Glass Lab** 在真实 Android API 36 设备上的截图。每行从左到右是细网格、饱和彩条、明暗色块、合成山景；背景全部由本地绘制，不读取用户照片或课表。
+以下为 **2026-11-14 已发布的 Sleepy Glass Lab** 在真实 Android API 36 设备上的截图。每行从左到右是细网格、饱和彩条、明暗色块、合成山景；背景全部由本地绘制，不读取用户照片或课表。它们保留原采集身份，不代表后续源码已重新实拍。
 
 ![图1：独立sample浅色主题，四种合成背景中的材质与运动原语预览](docs/images/sample-backgrounds-light.png)
 
@@ -242,6 +244,8 @@ $$\mathrm{RMSE}_x = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_{\mathrm{Android},i}-x_{\m
 
 [外置 Android 研究入口](research/slider-android-host/README.md)也仅保存在本资产仓库，通过显式 Gradle init 参数接入应用测试宿主；[四轮采集](research/slider-android-response-20261116/README.md)保留其当时的编译与执行身份。新语言终态和滑杆层观察入口已通过[组合编译](research/control-regression-diagnostics-20261116/host-integration-observed/README.md)，尚未设备执行。Sleepy 应用 PR 只收应用代码和必要回归测试；[发布范围核对](provenance/publication-boundary-20261116.json)记录了已合并 #442 的 8 文件范围。
 
+[几何分解](research/slider-layer-observation-20261116/geometry-audit/README.md)从原始角点重算出 171×111px owner，并将量化与 carrier 残差分开。原 0.10pt/0.001 门限仍失败，没有确证产品几何 bug；`full100` 的业务值为 0.50064063，是源覆盖阶段，不是业务端点。下一步仍需原样执行实际层 observer，不能由此调材质或端点轨道。
+
 ### 4.6 Toggle：升起、填色与回落的原生观察
 
 ![图8a：iOS26.5原生Toggle长按时，白色滑块逐步变为可透射背景的玻璃](docs/images/research/switch-white-to-glass.png)
@@ -255,6 +259,10 @@ $$\mathrm{RMSE}_x = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_{\mathrm{Android},i}-x_{\m
 **2026-11-16 · 普通点击单列。** [八段原生点击参考](research/toggle-tap-native26-20261116/README.md)保留零移动 DOWN/UP、838 个窗口内帧记录及其实际采样缺口；图中直接使用原始时间，不拟合、插值或重定时。它不将载体 opacity 当作材质透明度，也不借用长按过程代替点击。另有[真实运行时的 JVM 回放](research/toggle-tap-model26-20261116/README.md)诊断；core-model 输出与 Android 实际绘制、像素及自然时序验收分开。
 
 ![图8c：八次iOS26.5原生点击的宽、高和中心位移；仅为原生观察](research/toggle-tap-native26-20261116/native-tap-curves.svg)
+
+![图8d：原生实际样本与已执行的运行时 core-model 回放，保留瞬态差异](research/toggle-tap-model26-20261116/native-core-model.svg)
+
+图8d 来自已执行的 JVM 回放，八段共 838 帧。六段模型宽度峰值早一个实际观测样本，最大基础宽度误差 6.943pt；原生 logger、Android 回放时钟和层级分解仍有不同，不能把这组差异直接叫作呈现延迟，也不能据此宣称像素或自然时序通过。
 
 ### 4.7 Alert / Sheet：边缘亮度预算与尚未解决的折射问题
 
@@ -288,7 +296,7 @@ Sheet 本轮应用 API 输入 **12→10** 已完成局部校准分析，不再�
 | 范围 | 当前结论 |
 | --- | --- |
 | 原生整体等效 | 未完成；本文没有逐帧、每毫秒或统一接近度结论 |
-| Toggle 点击与长按动态 | 已公开帧只覆盖原生长按→释放；普通点击与 Android 自然时序/像素对照仍待验收，sample 不能代替生产控件 |
+| Toggle 点击与长按动态 | 已公开原生长按→释放、八次普通点击及已执行 core-model 回放；Android 自然时序/像素对照仍待验收，sample 不能代替生产控件 |
 | 快速分段切换 | 部分历史中心误差比早期版本更大，需保留并继续查时钟和模型 |
 | 单头端部 | held 位移有回顾拟合；约 +8 / −7 pt 的原生释放峰值未由该模型解释 |
 | 双头动态 | 缺少独立、完整速度和释放验证；不能把单头数据直接算作双头结果 |
@@ -331,7 +339,9 @@ API 33+ 使用 RuntimeShader；API 31–32 可使用 RenderEffect 模糊/鲜艳�
 
 图表使用 Matplotlib / Pillow 生成，提供窄数据表与处理记录，不需要构建 Android 或重跑设备采证矩阵。命令与依赖见[证据目录](docs/evidence/RESULTS.md)。数值图应能从入库数据重画；截图拼图的原始全量私有资料不随库发布，清单保留裁切、缩放与哈希，不把未包含的原图说成可独立恢复。
 
-当前[运行库清单](provenance/runtime-import.json)将 38 个文件绑定到范围纠正后的 Sleepy `5f3ea867ed173520c80515c5482263efe1c21433`；[来源纠正记录](provenance/scope-cleanup-20261116.json)保留逐文件字节一致检查和实际重新执行的应用测试。历史 `386d4c09a78234c4bc04507f6ef4952d856de3f4` 阶段同样导入 28 份生产 Kotlin、一个 shader、7 份测试和 2 份资源；该阶段独立 `runtime:assemble`、56 项 host 检查及 `sample:assembleDebug` 通过，7 类测试零失败、错误或跳过。[历史验证凭据](provenance/validation-20261115-lateral.json)仍绑定当时清单，不冒称新 HEAD 的重新执行。更早 `ddbf20e` 同步的[旧凭据](provenance/validation-20261115.json)只绑定[横向取样前清单](provenance/runtime-import-20261115-pre-lateral.json)。两次构建都没有新独立 sample 真机光学验收。初版 38 项检查与 API 36 真机记录仍保留 2026-11-14 范围，见 [VALIDATION.md](VALIDATION.md)。
+当前[运行库清单](provenance/runtime-import.json)将 38 个文件绑定到范围纠正后的 Sleepy `5f3ea867ed173520c80515c5482263efe1c21433`；[来源纠正记录](provenance/scope-cleanup-20261116.json)保留逐文件字节一致检查和实际重新执行的应用测试。最近的 [slider 独立构建回执](provenance/validation-20261115-slider.json)实际运行 `9533cf7f1b11d551f16b56230a9bccad4c3e9806`，绑定[原 slider 清单](provenance/runtime-import-20261115-slider-original.json)，七类 56 项 host 测试通过；这不是对当前来源提交的重跑。
+
+历史 `386d4c09a78234c4bc04507f6ef4952d856de3f4` 阶段同样导入 28 份生产 Kotlin、一个 shader、7 份测试和 2 份资源；该阶段独立 `runtime:assemble`、56 项 host 检查及 `sample:assembleDebug` 通过，7 类测试零失败、错误或跳过。[历史验证凭据](provenance/validation-20261115-lateral.json)仍绑定当时清单。更早 `ddbf20e` 同步的[旧凭据](provenance/validation-20261115.json)只绑定[横向取样前清单](provenance/runtime-import-20261115-pre-lateral.json)。这些构建均没有新增独立 sample 真机光学验收。初版 38 项检查与 API 36 真机记录仍保留 2026-11-14 范围，见 [VALIDATION.md](VALIDATION.md)。
 
 ## 7. 贡献与接下来的工作
 

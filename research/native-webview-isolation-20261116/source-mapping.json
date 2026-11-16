@@ -1,0 +1,34 @@
+{
+  "application_commit": "3d8eb3d22c351dbfe9ed66d7b0cfee004d1606f7",
+  "scope": "Application adapters only. Not a new public runtime version.",
+  "files": [
+    {
+      "application_path": "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassHost.kt",
+      "snapshot": "implementation/GlassHost.kt",
+      "bytes": 10997,
+      "sha256": "bf6fabc71809d5617a076b1070ea47596d588d0d8a2334018c2644a7d373d9fb",
+      "git_blob": "69d7f30ed083f968f51ad582c195009d83f69096"
+    },
+    {
+      "application_path": "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassNativeViewBackdrop.kt",
+      "snapshot": "implementation/GlassNativeViewBackdrop.kt",
+      "bytes": 14770,
+      "sha256": "56b10b0dfe4f290727ad7cc5b0cbfcfff17e28fbf1a6298fae72f9e397ea3a40",
+      "git_blob": "d9389a366a4a72c7e5d4058cd33a629f6627e3be"
+    },
+    {
+      "application_path": "app/src/main/java/com/lingion/sleepy/ui/screen/imports/JwImportGlassChrome.kt",
+      "snapshot": "implementation/JwImportGlassChrome.kt",
+      "bytes": 13678,
+      "sha256": "cb26e712a73595ddc40eaca0d0b7b3d089d29b16ca5cd4d7528631ee4b2646d1",
+      "git_blob": "ff98e9a476b31dff140d0d3c67b402479831b2c8"
+    },
+    {
+      "application_path": "app/src/main/java/com/lingion/sleepy/ui/screen/imports/JwWebViewLoginScreen.kt",
+      "snapshot": "implementation/JwWebViewLoginScreen.kt",
+      "bytes": 154337,
+      "sha256": "27d9e3d0bc85b9034453c7e0923686d67e398acffedcb540397f4005fced7236",
+      "git_blob": "68a2055e464a26090379496b76751ed26d087631"
+    }
+  ]
+}

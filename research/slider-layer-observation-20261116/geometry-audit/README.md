@@ -1,5 +1,7 @@
 # Geometry audit, 2026-11-16
 
+[当前图文与证据索引 / Current illustrated evidence index](../../../docs/current-evidence-20261116.md#slider-android)
+
 This audit does not establish a product bug. Original `GEOMETRY_CONFOUNDED` bounds/matrix gates still fail; no optical acceptance.
 
 From the asset root, set `APP_ROOT` to the Android checkout:

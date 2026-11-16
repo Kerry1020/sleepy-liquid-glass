@@ -2,6 +2,8 @@
 
 本文说明当前仓库实际提供的实现。它把触摸事件、运动状态、可见轮廓和背景光学分开处理：一个状态可以驱动多个视觉量，但任何一项的测量通过都不能替代其他项的验收。`Native` 前缀表示以原生观测作经验校准，不表示调用 Apple 实现或取得原生内部参数。
 
+[当前证据与图片索引 · 2026-11-16](current-evidence-20261116.md)区分运行库 sample、历史应用截图、已执行模型回放和仅编译的研究入口；本页 API 说明以仓库源码为准。
+
 ## 1. 模块与数据流
 
 | 模块 | 输入与职责 | 输出与边界 |
@@ -148,7 +150,7 @@ Alert 的预算归一化补光又是另一条受控路径：从原始加法结�
 | Tab / 分段选择 | `NativeSegmented`、独立拖动形变、端部函数 | 席位布局、选中文字与图标、长按/点击手势仲裁及完整控件 API |
 | Dock | `GlassDockMotion`、父平移、直接选择/拖动形变、`DockPlatterShape`、端部函数 | 含图标和标签的完整导航容器、页面路由及生产手势接入 |
 | 单头滑杆 | `NativeSlider`、Slider 形变参数、端部函数与 `sliderLens` | 值域、刻度、触达区、语义、完整 thumb/track 绘制及手势组合 |
-| 双头滑杆 | 可复用运动和几何原语；`rangeSliderLens` 当前直接复用 `sliderLens` 材质 | 两端抢占、交叉限制、精细椭圆 thumb 尺寸、双端轨道及完整 RangeSlider API |
+| 双头滑杆 | 可复用运动和几何原语；`rangeSliderLens` 使用旧 checkpoint 的 refraction 2.15、无新 shoulder；single `sliderLens` 为 7.8/7.5dp shoulder | 两端抢占、交叉限制、精细椭圆 thumb 尺寸、双端轨道及完整 RangeSlider API |
 | 菜单、按钮、半幅表面 | `menu` / `alert` / `sheet` 材质、`GlassPressMotion`、轮廓和背板原语 | 弹出定位、窗口、展开/收起状态机、焦点/返回处理及应用文案布局 |
 
 这里的“已有”指可以在源码中调用的原语，不代表稳定 API 承诺或整件控件已经通过原生验收。应用内后续修复不会自动进入这个独立仓库，必须通过源清单和实际提交核对。
@@ -180,7 +182,7 @@ Alert 的预算归一化补光又是另一条受控路径：从原始加法结�
 
 当前测试覆盖的是特定输入和模型性质：端部函数、Dock 父运动、前景 atlas 几何和状态防抖等。[host 测试目录](../runtime/src/androidHostTest/kotlin/com/lingion/sleepy/ui/component/liquidglass) 不能证明完整控件触摸可用、所有轮廓正确或所有背景下材质等效。运动轨迹、可见轮廓和光学必须分别报告其数据源及验证范围。
 
-2026-11-15 的[当前导入清单](../provenance/runtime-import.json)将 38 个运行层文件绑定到 Sleepy `386d4c09a78234c4bc04507f6ef4952d856de3f4`。独立构建与七类 56 项 host 测试再次通过，详见[新验证凭据](../provenance/validation-20261115-lateral.json)。较早 `ddbf20e` 阶段的[旧凭据](../provenance/validation-20261115.json)只绑定[横向取样前清单](../provenance/runtime-import-20261115-pre-lateral.json)，其中新增的两份生产文件和测试负责上述输入模糊与栅格计算。两阶段都没有新独立 sample 设备光学验收，完整控件适配与应用后端差异仍成立。
+截至 2026-11-16，[当前导入清单](../provenance/runtime-import.json)将 38 个运行层文件绑定到范围清理后的 Sleepy `5f3ea867ed173520c80515c5482263efe1c21433`；[核对记录](../provenance/scope-cleanup-20261116.json)保留逐文件等同关系。[最近的 slider 独立构建回执](../provenance/validation-20261115-slider.json)实际使用 `9533cf7f` 和[原 slider 清单](../provenance/runtime-import-20261115-slider-original.json)，七类 56 项 host 测试通过，不能改称对新 HEAD 的重跑。`386d4c0` 的[横向取样构建](../provenance/validation-20261115-lateral.json)与 `ddbf20e` 的[更早构建](../provenance/validation-20261115.json)各自保留历史身份。这些构建均未新增独立 sample 设备光学验收。
 
 当前 style 增加默认零的横向逆采样系数；Alert / Sheet 正折射预设选择 0.45，host 将有效值限制在 `[0,0.5]`，负折射分支不使用它。[面板补充报告](panel-lateral-sampling-study.md)保留这项工程场的局部改善和残差；它不是恢复的原生光学方程。应用按钮的可见本体 / 触摸目标、日期选择器路由和其 76 / 18 / 3 检查并未随 38 项 runtime 导入变成独立库完整控件。
 

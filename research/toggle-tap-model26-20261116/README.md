@@ -1,5 +1,7 @@
 # Toggle tap: external runtime replay
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#toggle)
+
 **Executed and audited: core-model diagnostic.** The external JVM replay completed successfully on November 16, 2026 in 2.699 seconds against Sleepy commit `cea1aa3c96fd668c8a99d8b5fa4528c094d1aead`. [execution.json](execution.json) and [execution.log](execution.log) retain the actual command, host identity and output hashes. Eight actual iOS 26.5 ordinary taps, 16 delivered DOWN/UP events and 838 observed carrier frames were replayed against the **compiled Sleepy runtime**. No copied spring model or fitted parameters were used. This establishes no Android GPU, optical, natural-motion or timing-sync acceptance.
 
 All study files and generated exports belong in this asset repository. Nothing is attached to Sleepy's source sets, normal build, test discovery or CI.

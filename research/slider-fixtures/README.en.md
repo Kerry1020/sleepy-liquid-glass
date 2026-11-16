@@ -1,5 +1,7 @@
 # Slider research fixtures: fixed-source export
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#historical)
+
 [简体中文](README.md) · [Per-file source and SHA-256 map](SOURCE-MAP.json) · [Checksums](SHA256SUMS) · [Calibration report](../../docs/glass-slider-star-calibration.md)
 
 This directory exports Git-tracked author sources and project files from Sleepy Android commit **`db1e2470db900d4642b27339c9cef31523ab75f3`**. It uses that fixed Git tree rather than working-tree content. All **19 files, 566,220 bytes** retain their original paths and bytes: 17 native-reference project files and two Android instrumentation sources. `SOURCE-MAP.json` records every source/export path, Git mode, blob OID, byte count and SHA-256.

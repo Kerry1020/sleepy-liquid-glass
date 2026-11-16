@@ -1,5 +1,7 @@
 # Android Slider G 响应采集归档 · 2026-11-16
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#slider-android)
+
 本目录归档已完成的四轮 Android 原始采集及后续明确标记的采后诊断，不新增采集或调参；**采集成功不代表视觉、交互或光学验收通过**。原始方案和采前身份清单分别见 [PLAN.md](PLAN.md) 与 [FREEZE.json](FREEZE.json)。
 
 ## 已保存的采集
@@ -22,6 +24,8 @@
 [analyze-compatible.py](analyze-compatible.py) 是**采后 I/O/schema 兼容修复**：读取已绑定的原始 S manifest，以 receipt 哈希、嵌入 manifest、源图身份和实际记录交叉验证。数学、阈值及响应计算不变，四轮各 63 个加载身份检查和原 19 项自测通过；它不属于采前冻结版本，也不意味着完整响应分析已通过。[原冻结版本的四轮拒绝结果](analysis-v1-schema-rejection/analysis.json)与[采后修复核对记录](post-acquisition-schema-repair.json)分别保存。
 
 既有兼容版已完成[采后诊断](analysis-v2-post-acquisition-compatible-20261116/RESULTS.md)，状态为 `DIAGNOSTIC_COMPOSITE_RESPONSE_GEOMETRY_CONFOUNDED`，`optical_acceptance=false`、`inference_allowed=false`。控制漂移为零，但跨系统几何超过冻结门限，有效不透明度仍未知；E4 区间相容不能作为材质一致或光学通过。完整结果与数值数组另存，冻结输入和分析源码未改，也没有新增设备采集或产品修改。
+
+后续[几何审计](../slider-layer-observation-20261116/geometry-audit/README.md)将 171×111px owner 的整数像素量化与 carrier 残差分开列出，原 0.10pt / 0.001 门限继续失败。它没有确认产品缺陷，也没有把矩阵中的 pivot 补偿解释为实测 raw translation。`full100` 是源覆盖姿态，业务值为 0.50064063，不是业务端点实验。已有[实际层观察入口](../slider-layer-observation-20261116/README.md)已编译，尚无设备 JSON 或 PNG。
 
 Fixture 与生成源码留在本资产库的[外置研究 host](../slider-android-host/README.md)，仅经显式 opt-in 编译到兼容的 Sleepy 仪器测试宿主；研究源码不进入 Sleepy 产品仓库，普通构建不加载该入口。
 

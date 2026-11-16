@@ -1,5 +1,7 @@
 # Research moved out of Sleepy
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#historical)
+
 [简体中文](README.md) · [File identities and destinations](SOURCE-MAP.json) · [External Android research entry point](../slider-android-host/README.md)
 
 This archive preserves 52 research files (1,774,394 bytes) from Sleepy commit `5c604e83cc5ccbc6c5ab622568eae0c99265dfc4` before removing them from the application repository. It also covers leftovers from earlier merged work. PR #442 itself already contains only four production files and four JVM regression files.

@@ -1,0 +1,61 @@
+{
+  "application_commit": "3d8eb3d22c351dbfe9ed66d7b0cfee004d1606f7",
+  "command": ":app:testDebugUnitTest --tests *JwNativeGlassBoundaryTest :app:assembleDebug :app:assembleDebugAndroidTest",
+  "build_log_result": "BUILD SUCCESSFUL in 7s",
+  "jvm": {
+    "tests": "3",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "timestamp": "2026-11-16T08:38:28.774Z"
+  },
+  "artifacts": [
+    {
+      "build_path": "app/build/outputs/apk/debug/app-arm64-v8a-debug.apk",
+      "bytes": 31593754,
+      "sha256": "fead3054e92d6b4e8eda790a75f92080caaa0303abbe37527958a4662b10c60c",
+      "distributed": false,
+      "installed_after_continuity_fix": false
+    },
+    {
+      "build_path": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+      "bytes": 2176994,
+      "sha256": "2d2d457def98674150f6f94589bde9c4b5c480dd2d0492fac22be88d1bcefbb5",
+      "distributed": false,
+      "installed_after_continuity_fix": false
+    }
+  ],
+  "device_before_continuity_fix": {
+    "render_and_material_tests": 2,
+    "passed": 2,
+    "first_scroll_frame_regression": {
+      "scroll_px": 300,
+      "actual_source_argb": 0,
+      "result": "FAIL (red regression)"
+    }
+  },
+  "final_device_retest": "NOT_RUN: user withdrew the Android phone; no further ADB calls were made",
+  "striped_coordinate_regression": "compiled, not device executed",
+  "original_sigtrap_local_html_reproduction": false,
+  "build_checkout_head": "eb2433e3c3d0d2d3bf5283dff0a004026ebb8f61",
+  "build_worktree": "Production changes were staged during the local build and committed afterward without source edits.",
+  "matching_final_source_tree": "8cab71966f8e1331f772c7ab3d7ed229e22c96f5",
+  "pull_request": "https://github.com/lingion/sleepy/pull/447",
+  "evidence": {
+    "evidence/pre-continuity-two-tests.txt": {
+      "bytes": 1489,
+      "sha256": "8a0155dd4201a796039f79803e48338b13a5f996a006c474521dee8851d782b1",
+      "scope": "Previous asynchronous-sampling candidate, not the final preDraw correction"
+    },
+    "evidence/scroll-first-frame-red.txt": {
+      "bytes": 2114,
+      "sha256": "59727a93533a0f339848bd45ee9ca95e77d43b6cf68e5ab426d8752b97adeb8a",
+      "scope": "Previous asynchronous-sampling candidate, not the final preDraw correction"
+    },
+    "evidence/single-row-before-continuity.png": {
+      "bytes": 2550508,
+      "sha256": "ef644b28067945d8f9bd0e2ba5b0334a51075fd1516fefd45ebc896d45c92101",
+      "scope": "Previous asynchronous-sampling candidate, not the final preDraw correction"
+    }
+  }
+}

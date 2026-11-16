@@ -1,5 +1,7 @@
 # Slider 研究夹具：固定源码镜像
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#historical)
+
 [English](README.en.md) · [逐文件来源与 SHA-256](SOURCE-MAP.json) · [校验清单](SHA256SUMS) · [研究报告](../../docs/glass-slider-star-calibration.md)
 
 本目录从 Sleepy Android 的固定 Git 提交 **`db1e2470db900d4642b27339c9cef31523ab75f3`** 导出。只读取该提交的 Git 跟踪作者源码及工程文件，不使用工作区临时内容。17 份原生工程文件和两份 Android instrumentation 源码保持原路径、原 Git blob 与原始字节，共 **19 份、566,220 bytes**。完整清单、mode、Git blob OID、SHA-256 与源路径逐项保存在 `SOURCE-MAP.json`。

@@ -1,10 +1,16 @@
 # Language GPU C/U/E diagnostic
 
+[当前图文与证据索引 / Current illustrated evidence index](../../../docs/current-evidence-20261116.md#menu)
+
 This is an explicit research fixture in the asset repository. A separately recorded [combined external-host build](../host-integration-20261116/build.json) compiled this exact prepared version against clean Sleepy `e935c5e3`. The [first device run](results/language-triplet-20261115T222128Z/README.md) completed all five rows but failed its exact settled-geometry control. It does not establish that the menu has or lacks material, that either baseline is a valid final regression oracle, or that any original threshold passes.
 
 ![Previously published menu corner comparison](../../../docs/images/research/menu-corner-montage.png)
 
 This existing corner comparison supplies visual context only. It is not a C/U/E capture and does not validate this prepared diagnostic.
+
+![First executed E_stable menu capture, before the carrier fix](results/language-triplet-20261115T222128Z/E_stable.png)
+
+This image belongs to the failed first GPU run linked above. Its exact row-geometry control remains failed. The later [observed-terminal-geometry source](../../language-settled-observation-20261116/README.md) compiled but has no device result, and the separate [half-pixel carrier fix](../../language-carrier-alignment-20261116/README.md) has no fix-bound GPU capture.
 
 The frozen input is the complete `LanguageMenuMotionCaptureTest.kt` read from A at preparation time, SHA-256 `94b488726ac48e666160f786c5881c53b960fc948016a74a7235a923be2f9639`. The parent supplied ref `693c3b51`; the preparation process verifies source bytes and does not query Git. A is read only to this workflow. All source, preparation receipts, build logs and pulled research results belong under this asset study directory. No default Sleepy or asset runtime source set is changed.
 

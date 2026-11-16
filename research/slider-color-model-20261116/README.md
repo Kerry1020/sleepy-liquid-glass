@@ -1,5 +1,7 @@
 # 有限 RGB 响应：未裁切模型的边界
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#slider-native)
+
 本目录只分析已公开八轮校准中的有限 +20 encoded-sRGB 响应矩阵。没有新采集，也没有修改应用参数。[原始计划](PLAN.md)、[完整报告](REPORT.md)和[结果](results-final/analysis.json)保留四种逐像素线性族及固定径向候选的全部正负结果。
 
 ![后续四步 G 原生实测曲线及模型相容性](../slider-signedG-response-20261116/figures/signed-G-response-and-compatibility.png)

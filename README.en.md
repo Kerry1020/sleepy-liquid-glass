@@ -6,6 +6,8 @@
 [Research ownership and migration](research/sleepy-research-migration-20261116/README.en.md) — Sleepy retains application changes and necessary regressions; research entry points, reports and assets are published here.
 [Four-round Android Slider acquisition archive](research/slider-android-response-20261116/README.en.md) — Original captures, schema rejection and post-acquisition compatible analysis remain separate. The geometry gate failed; these outputs cannot identify optical parameters.
 [Choice-menu carrier-coordinate fix](research/language-carrier-alignment-20261116/README.md#english) — An identified half-pixel material/content mismatch; five red regressions and 48 passing checks, with device GPU validation pending.
+[Current evidence and image index · November 16, 2026](docs/current-evidence-20261116.md#english) — Native observations, model replay, application GPU evidence, source/build checks and pending studies retain separate scopes. Historical images and failures remain visible.
+[Academic-import WebView isolation and scroll-blank fix](research/native-webview-isolation-20261116/README.md#english) — Application PR #447 / `3d8eb3d2` built in 7 seconds with three passing JVM checks. Ordinary sources capture independently in OnPreDraw with negative-scroll compensation. Includes official coordinate evidence, the real first-draw `color=0` failure, an earlier layout capture and final source/APK hashes. The final fix and stripe regression have no device rerun; local HTML has not reproduced the original SIGTRAP.
 
 This project extracts Sleepy's input clock, spring motion, acceleration-driven deformation, continuous corners, AGSL materials, and external-backdrop sampling into independent source modules. Its purpose is to make position, shape, material, and interaction timing separately measurable and reproducible, so Compose developers can build glass interfaces that respond to real backgrounds and input.
 
@@ -25,7 +27,7 @@ The experiments below report bounded, testable results rather than an undefined 
 
 ## 1. The standalone runtime in use
 
-These are screenshots of **Sleepy Glass Lab** on a physical Android API 36 device. Each row shows, from left to right, a fine grid, saturated color stripes, tonal blocks, and a synthetic landscape. The backgrounds are drawn locally; the sample reads no user photographs or timetable data.
+These are the **November 14, 2026 publication captures of Sleepy Glass Lab** on a physical Android API 36 device. Each row shows, from left to right, a fine grid, saturated color stripes, tonal blocks, and a synthetic landscape. The backgrounds are drawn locally; the sample reads no user photographs or timetable data. They retain their original acquisition identity and do not depict a fresh capture of later source revisions.
 
 ![Figure 1: standalone sample in the light theme, showing material and motion primitives on four synthetic backgrounds](docs/images/sample-backgrounds-light.png)
 
@@ -244,6 +246,8 @@ The five prior studies and new midpoint packet retain relative paths, original p
 
 The [external Android research entry point](research/slider-android-host/README.md) also lives solely in this asset repository and requires explicit Gradle init arguments to use the application test host. The [four-round archive](research/slider-android-response-20261116/README.en.md) preserves its historical compilation and execution identities. The new language-terminal and slider-layer observers passed a [combined build](research/control-regression-diagnostics-20261116/host-integration-observed/README.md), with device execution still pending. Sleepy consumer PRs contain application code and necessary regressions only; the [publication-scope record](provenance/publication-boundary-20261116.json) records the eight files in merged PR #442.
 
+The [geometry audit](research/slider-layer-observation-20261116/geometry-audit/README.md) recomputes the observed 171×111px owner from original corners and separates layout quantization from carrier residuals. The original 0.10pt/0.001 gates still fail; no product geometry bug is established. `full100` is a source-coverage stage with business value 0.50064063, not the slider domain endpoint. The next observation remains the unmodified layer observer, without retuning material or endpoint rails.
+
 ### 4.6 Toggle: publish the visible native hold→release reference
 
 ![Figure 8a: decoded iOS 26.5 hold frames showing the stationary solid-white thumb rising into a transmitting glass lens](docs/images/research/switch-white-to-glass.png)
@@ -259,6 +263,10 @@ That fixed patch cannot measure release opacity while the lens crosses different
 **2026-11-16 · Ordinary taps recorded separately.** The [eight-tap native reference](research/toggle-tap-native26-20261116/README.md) retains zero-movement DOWN/UP input, 838 window-frame records and actual sampling gaps. Its figure uses original times without fitting, interpolation or retiming. Carrier opacity is not material alpha, and a hold sequence is not substituted for a tap. A separate [JVM replay against the real runtime](research/toggle-tap-model26-20261116/README.md) remains a core-model diagnostic, distinct from Android rendering, pixels and natural-time acceptance.
 
 ![Figure 8c: width, height and center displacement of eight iOS 26.5 ordinary taps; native observations only](research/toggle-tap-native26-20261116/native-tap-curves.svg)
+
+![Figure 8d: original native samples against executed runtime core-model replay, with transient differences retained](research/toggle-tap-model26-20261116/native-core-model.svg)
+
+Figure 8d comes from the executed JVM replay of eight segments and 838 frames. Six model width maxima occur one actual observation earlier; the largest base-width error is 6.943pt. Logger timing, replay clocks and layer decomposition differ, so these are diagnostic residuals rather than measured rendering latency or pixel/natural-time acceptance.
 
 ### 4.7 Alert / Sheet: a bounded highlight budget, with refraction still unresolved
 
@@ -291,7 +299,7 @@ The runtime is intended for research, experimental interfaces, and Compose devel
 | Scope | Current conclusion |
 | --- | --- |
 | Overall native equivalence | Incomplete; no every-frame, every-millisecond, or aggregate similarity verdict |
-| Toggle tap and held dynamics | Published frames cover native hold→release only; ordinary taps and matched Android natural-time / pixel validation remain outstanding, and the sample is not production-control acceptance |
+| Toggle tap and held dynamics | Native hold→release, eight ordinary taps and executed core-model replay are published; matched Android natural-time / pixel validation remains outstanding, and the sample is not production-control acceptance |
 | Fast segmented switching | Some historical center errors are worse than an earlier version; clock and model investigation must retain those results |
 | Single-thumb endpoints | Held displacement has a retrospective fit; native release peaks around +8 / −7 pt remain unexplained by that model |
 | Dual-thumb dynamics | No independent complete speed / release validation; single-thumb measurements are not dual-thumb results |
@@ -342,7 +350,9 @@ python3 docs/evidence/verify_evidence.py
 
 See the [evidence atlas](docs/evidence/RESULTS.md) for the protocol. The renderer reads committed CSV / JSON / crops and recalculates common-row selection and reported figure statistics. It does not refit the original models or recapture a device. Full raw screenshot and video archives are not distributed with the library. Source records retain crop, resize, and hash information; omitted originals are not claimed to be independently recoverable. This is **figure reproducibility**, distinct from independent experimental replication.
 
-The current [runtime manifest](provenance/runtime-import.json) binds 38 files to the scope-corrected Sleepy commit `5f3ea867ed173520c80515c5482263efe1c21433`; the [reconciliation record](provenance/scope-cleanup-20261116.json) retains file-by-file byte equivalence and application tests actually rerun. The historical `386d4c09a78234c4bc04507f6ef4952d856de3f4` stage also imported 28 production Kotlin files, one shader, seven tests and two resources. At that stage, independent `runtime:assemble`, 56 host checks and `sample:assembleDebug` passed with zero failures, errors or skips across seven classes. Its [historical validation receipt](provenance/validation-20261115-lateral.json) remains bound to the manifest used then; it is not relabeled as a rerun of the new HEAD. The earlier `ddbf20e` [receipt](provenance/validation-20261115.json) binds only the [pre-lateral manifest](provenance/runtime-import-20261115-pre-lateral.json). Neither build adds new independent-sample device optics acceptance. The initial 38 checks and API 36 device record retain their historical 2026-11-14 scope in [VALIDATION.md](VALIDATION.md).
+The current [runtime manifest](provenance/runtime-import.json) binds 38 files to the scope-corrected Sleepy commit `5f3ea867ed173520c80515c5482263efe1c21433`; the [reconciliation record](provenance/scope-cleanup-20261116.json) retains file-by-file byte equivalence and application tests actually rerun. The most recent [slider independent-build receipt](provenance/validation-20261115-slider.json) ran `9533cf7f1b11d551f16b56230a9bccad4c3e9806` with the [original slider manifest](provenance/runtime-import-20261115-slider-original.json), passing 56 host tests across seven suites. It is not a rerun of the current source identity.
+
+The historical `386d4c09a78234c4bc04507f6ef4952d856de3f4` stage also imported 28 production Kotlin files, one shader, seven tests and two resources. At that stage, independent `runtime:assemble`, 56 host checks and `sample:assembleDebug` passed with zero failures, errors or skips across seven classes. Its [historical validation receipt](provenance/validation-20261115-lateral.json) remains bound to the manifest used then. The earlier `ddbf20e` [receipt](provenance/validation-20261115.json) binds only the [pre-lateral manifest](provenance/runtime-import-20261115-pre-lateral.json). None of these builds adds independent-sample device optics acceptance. The initial 38 checks and API 36 device record retain their historical 2026-11-14 scope in [VALIDATION.md](VALIDATION.md).
 
 ## 7. Contributing and next steps
 

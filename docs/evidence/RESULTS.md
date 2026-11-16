@@ -1,5 +1,7 @@
 # Evidence atlas: native reference, historical calibration, and remaining gaps
 
+**Historical atlas, retained as published.** For the November 16, 2026 native RGB/signed-G diagnostics, ordinary Toggle taps and executed core replay, Android geometry decomposition and menu-carrier follow-up, use the [current evidence and image index](../current-evidence-20261116.md#english). The tables and figures below keep their original scope.
+
 This is a small, reproducible public subset of the 2026-11-12–14 research archive. The reference is **iOS 26.5 (23F77)** on a 375 × 667 pt test world. Android material captures use API 36 and the historical Sleepy application. The app's customized backdrop differs from the **official Kyant AndroidLiquidGlass 2.0.0 backend in this public repository**. These observations explain the runtime's development; they do not certify the independent backend or a finished set of public controls.
 
 The original inputs were real native presentation getters, actual delivered touch events, actual Android window draws, and real GPU screenshots. Publication exports only small numerical tables and synthetic-fixture/control crops. Native fixtures were written for this study; no Apple implementation, user course data, photographs, account information, status bars, or raw device videos are included. Public images retain observed differences instead of retouching the surfaces to match.

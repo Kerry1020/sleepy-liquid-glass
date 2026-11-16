@@ -1,10 +1,10 @@
 # Candidate status and validation boundaries
 
-This note records research status as of **2026-11-15**, separating source/build validation, historical Dock photometry, current panel composition, clean-fixture feasibility and unexecuted plans. No global holdout score or comprehensive native-equivalence verdict is computed. The historical Dock candidate's measurement status is unchanged by later source improvements.
+This current-status index was updated on **November 16, 2026**. Historical Dock/panel conclusions below retain their original stage boundaries. The [current evidence and image index](current-evidence-20261116.md#english) adds the later Toggle, Slider and menu records. No global holdout score or comprehensive native-equivalence verdict is computed.
 
 | Evidence stage | What is established | Boundary |
 | --- | --- | --- |
-| Current independent source sync | 38 imports from `386d4c0`; runtime and sample build; 56 host tests pass | No new independent-sample device optics acceptance |
+| Current independent source identity | 38 imports bound to `5f3ea867`; scope reconciliation retains byte equivalence | Latest slider build receipt ran `9533cf7f` / original manifest, with 56 host tests; no new-HEAD rerun or sample device optics acceptance |
 | Historical new-background Dock REST | Fixed photometry complete, including 12 review cells | Candidate not accepted; transport / topology review and Sheet validation on that set still outstanding |
 | Current Alert highlight budget | Specified clipping removed; neutral-side contrast partially restored | Corner-derivative and background regressions retained; application backend only |
 | Current Sheet API-input 12→10 calibration | Analysis complete; one of 14 local rows eligible | Candidate unaccepted; does not complete the historical new-background Sheet validation |
@@ -12,8 +12,12 @@ This note records research status as of **2026-11-15**, separating source/build 
 | Paired-slope feasibility | Later analyzer frozen with 69 synthetic implementation checks | No real paired-slope capture or optical pass |
 | Alert / Sheet lateral-field calibration | 16 static application panels; all 80 descriptive harmonic rows retained | Upper-row improvement, inner-direction and lower-edge errors; no optical acceptance |
 | Application button / date-picker regression | Separate final 76 JVM, three device-button and later 18 JVM checks pass | App-only adapters; does not establish every-entry routing or independent public control completion |
+| Toggle ordinary taps and core replay | Eight native taps, 16 events, 838 frames; actual runtime replay executed | Transient residuals and clock/layer differences remain; no Android GPU or natural-time acceptance |
+| Slider finite RGB / signed G | Native eight-round RGB and four-round signed-G diagnostics completed | Shared-response simplifications fail at stated gates; no unique optical pipeline or product parameter |
+| Android Slider composite / geometry | Compatible analysis executed; quantization/residual decomposition reproducible | Original bounds/matrix gates still fail, opacity unknown; full100 is not the business endpoint |
+| Menu carrier fix / later observers | Five red regressions, 48 green checks; external terminal/layer observers compiled | Prior GPU failures retained; no fix-bound GPU capture or observer execution |
 
-The new independent [source/build receipt](../provenance/validation-20261115-lateral.json) binds the current runtime manifest. The earlier [receipt](../provenance/validation-20261115.json) binds only the archived [pre-lateral manifest](../provenance/runtime-import-20261115-pre-lateral.json). The [panel material report](panel-material-study.md) explains the application-path results; it does not validate the public backend's pixels.
+The [slider build receipt](../provenance/validation-20261115-slider.json) binds its [original slider manifest](../provenance/runtime-import-20261115-slider-original.json); the [scope reconciliation](../provenance/scope-cleanup-20261116.json) separately binds current import identity. The [lateral receipt](../provenance/validation-20261115-lateral.json) and [earlier receipt](../provenance/validation-20261115.json) bind their archived manifests. None is relabeled as a new execution. The [panel material report](panel-material-study.md) describes application-path results, without validating the public backend's pixels.
 
 Additional inputs, protocols and research assets are linked from the [controlled optical study index](controlled-optical-studies.md). Each study keeps its own prepared / collected / executed status; linking an asset does not promote it to a validated experiment.
 

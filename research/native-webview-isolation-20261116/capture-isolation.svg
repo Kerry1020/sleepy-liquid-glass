@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="850" viewBox="0 0 1180 850" role="img" aria-labelledby="title desc">
+  <title id="title">WebView glass: synchronous viewport and independent asynchronous Window copy</title>
+  <desc id="desc">Source-derived schematic, not a screenshot or measured timeline. Dirty or scrolled View content is synchronously captured during OnPreDraw with scale and negative scroll translation. Compose draw observers are notified before the ordinary glass source is consumed. Independent Window PixelCopy, with a minimum 16ms request interval and one in-flight request, supplies overlay scenes only. A real first-draw scroll regression observed transparent color zero; the subsequent fix and coordinate-stripe regression have not been rerun on device.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#6b7890"/></marker>
+    <style>
+      text{font-family:system-ui,-apple-system,sans-serif;fill:#e6edf8}.title{font-size:25px;font-weight:650}.label{font-size:20px;font-weight:600}.body{font-size:16px;fill:#bac6d9}.note{font-size:15px;fill:#a2aec2}.box{fill:#182334;stroke:#496078;stroke-width:1.5}.safe{fill:#173733;stroke:#67ab96;stroke-width:1.5}.window{fill:#222c42;stroke:#7d89b6;stroke-width:1.5}.line{fill:none;stroke:#6b7890;stroke-width:2;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1180" height="850" rx="20" fill="#101722"/>
+  <text class="title" x="36" y="48">WebView glass: independent viewport and Window captures</text>
+  <text class="note" x="36" y="77">Source schematic · 2026-11-16 · not captured pixels, measured timing or optical acceptance</text>
+  <rect class="box" x="36" y="110" width="348" height="102" rx="16"/>
+  <text class="label" x="58" y="145">Live hardware WebView</text>
+  <text class="body" x="58" y="174">Normal Window draw; full resolution</text>
+  <text class="body" x="58" y="198">dirty / scroll / structural-change signals</text>
+  <path class="line" d="M384 159 H420"/>
+  <rect class="window" x="432" y="110" width="320" height="102" rx="16"/>
+  <text class="label" x="454" y="145">Composited Window</text>
+  <text class="body" x="454" y="174">Native View + floating chrome</text>
+  <text class="body" x="454" y="198">Live display remains hardware driven</text>
+  <path class="line" d="M210 212 V250"/>
+  <rect class="safe" x="36" y="262" width="348" height="164" rx="16"/>
+  <text class="label" x="58" y="298">Synchronous OnPreDraw</text>
+  <text class="body" x="58" y="328">scale → translate(-scroll) → view.draw</text>
+  <text class="body" x="58" y="357">Publish isolated viewport bitmap</text>
+  <text class="body" x="58" y="386">Snapshot.sendApplyNotifications()</text>
+  <text class="body" x="58" y="410">No PixelCopy gate; no old 32ms cap</text>
+  <path class="line" d="M592 212 V250"/>
+  <rect class="window" x="432" y="262" width="320" height="164" rx="16"/>
+  <text class="label" x="454" y="298">Asynchronous PixelCopy</text>
+  <text class="body" x="454" y="328">Window bitmap for overlays only</text>
+  <text class="body" x="454" y="357">≥16ms between request starts</text>
+  <text class="body" x="454" y="386">One in-flight request</text>
+  <text class="body" x="454" y="410">May include existing foreground</text>
+  <path class="line" d="M210 426 V466"/>
+  <rect class="safe" x="36" y="478" width="348" height="92" rx="16"/>
+  <text class="label" x="58" y="516">Ordinary glass source</text>
+  <text class="body" x="58" y="545">Toolbar / address / import controls</text>
+  <path class="line" d="M592 426 V466"/>
+  <rect class="window" x="432" y="478" width="320" height="92" rx="16"/>
+  <text class="label" x="454" y="516">Overlay scene</text>
+  <text class="body" x="454" y="545">Later glass windows and overlays</text>
+  <rect class="box" x="788" y="110" width="356" height="460" rx="16"/>
+  <text class="label" x="810" y="146">Coordinate / lifetime contract</text>
+  <text class="body" x="810" y="184">Completed bitmaps, no functor replay</text>
+  <text class="body" x="810" y="218">Ordinary source does not await Window</text>
+  <text class="body" x="810" y="252">Scroll marks dirty; retains last frame</text>
+  <text class="body" x="810" y="286">Scroll is not structural geometry</text>
+  <text class="body" x="810" y="332">Stale Window result clears Window only</text>
+  <text class="body" x="810" y="366">Bitmap dimensions × 0.5, rounded up</text>
+  <text class="body" x="810" y="400">Place at original Window coordinates</text>
+  <text class="body" x="810" y="434">Do not subtract scroll again on placement</text>
+  <text class="body" x="810" y="480">Two captures are not an atomic pair</text>
+  <text class="body" x="810" y="514">Main-thread software cost unmeasured</text>
+  <text class="body" x="810" y="548">Public runtime manifest unchanged</text>
+  <rect class="box" x="36" y="606" width="1108" height="154" rx="16"/>
+  <text class="label" x="58" y="642">Observed red regression, then unrerun production fix</text>
+  <text class="body" x="58" y="674">Before fix: first OnDraw after scroll=300 sampled source color=0 (fully transparent).</text>
+  <text class="body" x="58" y="704">Phone returned before rerun. The separate red/blue-stripe coordinate regression has not run on device.</text>
+  <text class="body" x="58" y="734">This is not red→green, all-device success, original SIGTRAP reproduction, or native visual parity.</text>
+  <text class="note" x="36" y="799">Final app: 3d8eb3d2 · build 7s · JVM 3 passed · source / APK hashes in validation and mapping records.</text>
+  <text class="note" x="36" y="825">Still pending: final APK installation, matching device reruns, final optical / latency / coordinate captures.</text>
+</svg>

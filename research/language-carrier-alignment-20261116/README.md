@@ -1,5 +1,7 @@
 # 单选菜单玻璃载体对齐 / Choice-menu carrier alignment
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#menu)
+
 本轮修复应用适配器的亚像素定位错误。产品 PR 为 [Sleepy #446](https://github.com/lingion/sleepy/pull/446)，head `ac646d9b11c9455690ea805f56270ff4cf4ba874`，仅两份生产源码和一份必要产品回归。研究证据只保存本库。
 
 ![历史 E_late 菜单截图，修复前；不是本轮 GPU 验证](../control-regression-diagnostics-20261116/language-gpu/results/language-triplet-20261115T222128Z/E_late.png)

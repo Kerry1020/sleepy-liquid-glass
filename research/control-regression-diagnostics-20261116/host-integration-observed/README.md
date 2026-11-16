@@ -1,5 +1,7 @@
 # External observed-control integration build
 
+[当前图文与证据索引 / Current illustrated evidence index](../../../docs/current-evidence-20261116.md#menu)
+
 The two asset-only studies were compiled together against the clean Sleepy tree matching upstream `2a0e4aeaf5029e7168fb15f49ca445a7481934b5`. They are not product-source changes, and a default Sleepy build never loads either init script.
 
 | Attempt | Result | Interpretation |

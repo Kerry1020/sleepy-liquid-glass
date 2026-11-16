@@ -1,6 +1,10 @@
 # Language observed terminal geometry
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#menu)
+
 Current integration checkpoint: The generated terminal-observation test compiled successfully in the [combined external build](../control-regression-diagnostics-20261116/host-integration-observed/README.md). Initial preparation statements below describe the earlier handoff. Runtime execution remains pending: no connected ADB device was available, and compilation is not geometry, material or optical acceptance.
+
+The subsequent [carrier-alignment fix](../language-carrier-alignment-20261116/README.md) addresses a separate half-pixel placement error. The [binary inventory](../control-regression-diagnostics-20261116/host-integration-observed/README.md#binary-inventory-after-pr-446) identifies the existing main/test APKs as historical baselines, not builds of that fix. This observer has no post-fix GPU result.
 
 This asset-only derivative replaces the approximate readiness wait in the [C/U/C_restored/E fixture](../control-regression-diagnostics-20261116/language-gpu/README.md). It preserves the real pointer, real-time recomposer, original background, source draw gate, HWUI submission callback and 80ms display delay. It does not observe or claim mathematical motion rest.
 
@@ -23,7 +27,7 @@ python3 research/language-settled-observation-20261116/verify-static.py --record
 
 The generator reads only the pinned, already prepared parent source (`ca4d1638…`) and frozen original (`94b48872…`) in the asset repository. It creates exactly one new alias under this study's `prepared/sources`. Eight original sections are checked byte-for-byte, including the C/U/E capture stage, pixel algorithms, predicates, GPU fences, pointer helpers, real-time fixture and background.
 
-Build handoff (run by the coordinating agent, not performed during preparation):
+Initial preparation build handoff (the later successful compilation is recorded above; device execution remains pending):
 
 ```sh
 ./gradlew -I /absolute/path/to/sleepy-liquid-glass/research/language-settled-observation-20261116/overlay.init.gradle \

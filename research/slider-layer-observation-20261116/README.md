@@ -1,10 +1,14 @@
 # Slider layer observation, 2026-11-16
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#slider-android)
+
 Current integration checkpoint: The new observer and test compiled successfully in the [combined external build](../control-regression-diagnostics-20261116/host-integration-observed/README.md). Initial preparation statements below describe the earlier handoff. Runtime execution remains pending: no connected ADB device was available, and compilation is not geometry, material or optical acceptance.
 
 This is a new, small external instrumentation study. It observes the actual production `GlassSlider` on a light flat128 background. It does not edit Sleepy, its renderer, its build configuration, the frozen 71KB optical fixture, or any old capture. The sources are injected only through an explicit external Gradle init script, following the existing [external host](../slider-android-host/README.md) convention. They use a separate `sliderlayerresearch` package and require Compose UI1.12.1.
 
-There is no optical or geometry acceptance result here. Implementation checks did not build, install or run an APK. The parent task owns compilation and device execution; record those results separately from this source handoff.
+There is no optical or geometry acceptance result here. At the initial source handoff, implementation checks had not built, installed or run an APK; the later combined build above records successful compilation separately. Device execution remains pending.
+
+The subsequent [geometry audit](geometry-audit/README.md) explains the recorded 171×111px owner through integer-pixel quantization while preserving the original failed 0.10pt / 0.001 gates. It does not establish a product bug or raw layer translation. `full100` records business value 0.50064063, not a domain endpoint. Running this unchanged observer once remains the next device step.
 
 ## One bounded group
 

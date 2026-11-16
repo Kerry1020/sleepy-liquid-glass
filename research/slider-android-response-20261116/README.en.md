@@ -1,5 +1,7 @@
 # Android Slider G-response capture archive · 2026-11-16
 
+[当前图文与证据索引 / Current illustrated evidence index](../../docs/current-evidence-20261116.md#slider-android)
+
 This directory archives four completed Android acquisition rounds and explicitly labelled subsequent post-acquisition diagnostics, with no new acquisition or parameter tuning. **Successful acquisition does not establish visual, interaction or optical acceptance.** See the original [PLAN.md](PLAN.md) and pre-acquisition identity manifest [FREEZE.json](FREEZE.json).
 
 ## Preserved acquisition
@@ -22,6 +24,8 @@ The pre-acquisition-frozen [analyze.py](analyze.py) passed 19 pure mathematics/g
 [analyze-compatible.py](analyze-compatible.py) is a **post-acquisition I/O/schema repair**. It reads the bound original S manifest and cross-checks receipt hashes, the embedded manifest, source-image identities and observed records. Mathematics, thresholds and response computation are unchanged. All four rounds pass 63 loading identity checks each, and the original 19 self-tests pass. The [four-round frozen rejection](analysis-v1-schema-rejection/analysis.json) and [post-acquisition repair checks](post-acquisition-schema-repair.json) are preserved separately. This adapter was not pre-acquisition-frozen, and these checks do not establish successful full response analysis.
 
 The existing adapter has completed a separately saved [post-acquisition diagnostic run](analysis-v2-post-acquisition-compatible-20261116/RESULTS.md): `DIAGNOSTIC_COMPOSITE_RESPONSE_GEOMETRY_CONFOUNDED`, `optical_acceptance=false`, and `inference_allowed=false`. Control drift is zero, but cross-system geometry exceeds the frozen gates and effective opacity remains unknown. E4 interval compatibility does not establish matching material or optical acceptance. Complete results and numerical arrays are preserved separately; frozen inputs and analyzer sources remain unchanged, with no new device acquisition or product changes.
+
+The later [geometry audit](../slider-layer-observation-20261116/geometry-audit/README.md) separates integer-pixel quantization of the 171×111px owner from the carrier residual. The original 0.10pt / 0.001 gates still fail. It establishes neither a product bug nor measured raw translation from pivot compensation. `full100` is a source-coverage pose with business value 0.50064063, not a domain-endpoint experiment. The existing [layer observer](../slider-layer-observation-20261116/README.md) compiled but has no device JSON or PNG.
 
 The fixture and generated sources stay in this asset repository's [external research host](../slider-android-host/README.md). An explicit opt-in compiles them against a compatible Sleepy instrumentation host. Research sources do not enter the Sleepy product repository; ordinary builds do not load this entry point.
 
