@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "source_repository": "lingion/sleepy",
+  "source_commit": "2a0e4aeaf5029e7168fb15f49ca445a7481934b5",
+  "file_count": 1,
+  "new_files": 1,
+  "reused_files": 0,
+  "total_bytes": 60223,
+  "scope": "Pre-cleanup original containing DockBaseMaterialProbe and LocalDockLumaObserver, both with no remaining product or regression provider. Preserve default Dock material, border, sampled appearance and product regression hooks. Archive published before production removal.",
+  "files": [
+    {
+      "source_path": "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassNavigationBar.kt",
+      "asset_path": "research/sleepy-research-migration-20261116/eighth-pass/sources/app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassNavigationBar.kt",
+      "source_git_blob": "a2b37c622362096c62aec72f48d86092a2f3c899",
+      "sha256": "f48da9dad35ada4c34a48d9c9473a6689d04e4587696392f24a6216cf3a2e188",
+      "bytes": 60223,
+      "storage": "new"
+    }
+  ]
+}

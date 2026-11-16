@@ -37,6 +37,8 @@
 
 [第七批迁移清单](seventh-pass/SOURCE-MAP.json)保全两份回归在 `ee1f28fb3c81057f1924cde1ad33ae2f3f49c5b0` 的完整版本，共 13,640 bytes。它们删除导出后仍采集并立即回收无读取方的 Bitmap；应用去掉无用途像素采集，保留帧提交同步及全部实际断言。七批累计 **98 份原文版本、3,602,454 bytes**；同一文件的历史版本分别保存，不覆盖早期原件。
 
+[第八批迁移清单](eighth-pass/SOURCE-MAP.json)先保存主分支 `2a0e4aeaf5029e7168fb15f49ca445a7481934b5` 的完整 Dock 适配器，60,223 bytes。再次核查发现 `DockBaseMaterialProbe` 和 `LocalDockLumaObserver` 均无产品或现存回归提供者；它们的清理准备单独处理，不将归档发布冒称为应用已删除。八批累计 **99 份原文版本、3,662,677 bytes**。现有默认边框、材质工厂、背板采样与有消费者的测试时钟不属于本次移除范围。
+
 ```sh
 python3 research/sleepy-research-migration-20261116/verify.py
 python3 research/sleepy-research-migration-20261116/verify.py --source /path/to/sleepy
@@ -46,6 +48,7 @@ python3 research/sleepy-research-migration-20261116/verify.py --manifest researc
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fifth-pass/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/sixth-pass/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/seventh-pass/SOURCE-MAP.json --source /path/to/sleepy
+python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/eighth-pass/SOURCE-MAP.json --source /path/to/sleepy
 ```
 
 第一条逐字节校验本库原 52 个映射；第二条另外使用 `git show` 对照固定来源提交；第三、四条分别校验补充批次与第三批，不要求来源工作区恢复被迁出的文件。归档源码与原文不改写，旧文档中的相对路径、机器路径与历史状态仅保留来源，不能当作当前可执行说明；执行研究使用外置入口并显式选择所需源码。

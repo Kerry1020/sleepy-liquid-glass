@@ -32,6 +32,8 @@ A [sixth-pass manifest](sixth-pass/SOURCE-MAP.json) preserves the complete selec
 
 A [seventh-pass manifest](seventh-pass/SOURCE-MAP.json) preserves two complete regression versions at `ee1f28fb3c81057f1924cde1ad33ae2f3f49c5b0` (13,640 bytes). After export removal they still captured bitmaps only to recycle them without a consumer. The application removes those unused pixel captures while retaining frame-commit synchronization and all actual assertions. Seven batches preserve **98 original versions / 3,602,454 bytes**; historical versions of the same file remain separate.
 
+An [eighth-pass manifest](eighth-pass/SOURCE-MAP.json) first preserves the complete 60,223-byte Dock adapter from main `2a0e4aeaf5029e7168fb15f49ca445a7481934b5`. A further audit found no product or remaining regression provider for `DockBaseMaterialProbe` or `LocalDockLumaObserver`. Their removal is prepared separately; publishing this archive does not mean the application cleanup is merged. Eight batches preserve **99 original versions / 3,662,677 bytes**. The default border, material factory, backdrop sampling and consumed test clocks are outside this removal scope.
+
 ```sh
 python3 research/sleepy-research-migration-20261116/verify.py
 python3 research/sleepy-research-migration-20261116/verify.py --source /path/to/sleepy
@@ -41,6 +43,7 @@ python3 research/sleepy-research-migration-20261116/verify.py --manifest researc
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/fifth-pass/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/sixth-pass/SOURCE-MAP.json --source /path/to/sleepy
 python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/seventh-pass/SOURCE-MAP.json --source /path/to/sleepy
+python3 research/sleepy-research-migration-20261116/verify.py --manifest research/sleepy-research-migration-20261116/eighth-pass/SOURCE-MAP.json --source /path/to/sleepy
 ```
 
 The default command checks the original 52 mappings. The optional source check reads the pinned commit through Git, even after the working-tree files are removed; the third and fourth commands separately check the follow-up and third-pass manifests. Archived source and text preserve historical paths and status verbatim; they are provenance, not current execution instructions. Use an explicitly enabled external entry point for research.
