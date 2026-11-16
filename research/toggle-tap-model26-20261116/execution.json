@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "status": "CORE_MODEL_REPLAY_EXECUTED",
+  "host_commit": "cea1aa3c96fd668c8a99d8b5fa4528c094d1aead",
+  "host_worktree_status": "",
+  "started_utc": "2026-11-16T01:45:20.996013+00:00",
+  "ended_utc": "2026-11-16T01:45:23.695359+00:00",
+  "elapsed_seconds": 2.699,
+  "command": [
+    "./gradlew",
+    "-I",
+    "<asset-study>/replay.init.gradle",
+    "-PglassToggleReplayStudy=<asset-study>",
+    ":app:replayGlassToggleNative26",
+    "--offline",
+    "--console=plain"
+  ],
+  "exit_code": 0,
+  "public_log_sha256": "dfd89bc281708ab84f249d55da583fae5c24803ce6e21bd8da53fde8f79cd9ce",
+  "prepared_receipt_sha256": "b8edf5ebffe1bee7d1bc1b19596fdc79d64638552f779de6175ec9b52e179833",
+  "device_used": false,
+  "android_gpu_acceptance": false,
+  "optical_acceptance": false,
+  "native_timing_sync_acceptance": false,
+  "replay_csv": {
+    "bytes": 410420,
+    "sha256": "876727783d01c6a3bf239846bbc3aa920e9b95ec418b05c9178017b9ddc2ca44"
+  }
+}

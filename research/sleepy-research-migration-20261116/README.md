@@ -37,7 +37,7 @@
 
 [第七批迁移清单](seventh-pass/SOURCE-MAP.json)保全两份回归在 `ee1f28fb3c81057f1924cde1ad33ae2f3f49c5b0` 的完整版本，共 13,640 bytes。它们删除导出后仍采集并立即回收无读取方的 Bitmap；应用去掉无用途像素采集，保留帧提交同步及全部实际断言。七批累计 **98 份原文版本、3,602,454 bytes**；同一文件的历史版本分别保存，不覆盖早期原件。
 
-[第八批迁移清单](eighth-pass/SOURCE-MAP.json)先保存主分支 `2a0e4aeaf5029e7168fb15f49ca445a7481934b5` 的完整 Dock 适配器，60,223 bytes。再次核查发现 `DockBaseMaterialProbe` 和 `LocalDockLumaObserver` 均无产品或现存回归提供者；它们的清理准备单独处理，不将归档发布冒称为应用已删除。八批累计 **99 份原文版本、3,662,677 bytes**。现有默认边框、材质工厂、背板采样与有消费者的测试时钟不属于本次移除范围。
+[第八批迁移清单](eighth-pass/SOURCE-MAP.json)先保存主分支 `2a0e4aeaf5029e7168fb15f49ca445a7481934b5` 的完整 Dock 适配器，60,223 bytes。再次核查发现 `DockBaseMaterialProbe` 和 `LocalDockLumaObserver` 均无产品或现存回归提供者；[清理 PR #445](https://github.com/lingion/sleepy/pull/445)仅 1 个应用文件、+3/−44。本地编译与 14 项产品回归通过，云端 10 项检查成功；普通合并被主分支策略拒绝，仍 OPEN/BLOCKED，未绕过保护。[记录与限制](eighth-pass/validation/RESULTS.md)单独保留，不将归档发布冒称为应用主分支已删除。八批累计 **99 份原文版本、3,662,677 bytes**。现有默认边框、材质工厂、背板采样与有消费者的测试时钟不属于本次移除范围。
 
 ```sh
 python3 research/sleepy-research-migration-20261116/verify.py

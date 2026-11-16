@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "observed_utc": "2026-11-16T01:51:52.245155+00:00",
+  "pull_request": {
+    "additions": 3,
+    "baseRefOid": "2a0e4aeaf5029e7168fb15f49ca445a7481934b5",
+    "changedFiles": 1,
+    "deletions": 44,
+    "files": [
+      {
+        "path": "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassNavigationBar.kt",
+        "additions": 3,
+        "deletions": 44,
+        "changeType": "MODIFIED"
+      }
+    ],
+    "headRefOid": "cea1aa3c96fd668c8a99d8b5fa4528c094d1aead",
+    "mergeCommit": null,
+    "mergeStateStatus": "BLOCKED",
+    "mergedAt": null,
+    "state": "OPEN",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T01:42:46Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43787807793/job/133039280169",
+        "name": "commit-lint",
+        "startedAt": "2026-11-16T01:42:29Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T01:42:35Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43787807755/job/133039282833",
+        "name": "prepare",
+        "startedAt": "2026-11-16T01:42:29Z",
+        "status": "COMPLETED",
+        "workflowName": "Debug APK Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T01:43:09Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43787807793/job/133039280293",
+        "name": "school-catalog-check",
+        "startedAt": "2026-11-16T01:42:29Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T01:47:14Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43787807755/job/133039326677",
+        "name": "assemble-debug",
+        "startedAt": "2026-11-16T01:42:37Z",
+        "status": "COMPLETED",
+        "workflowName": "Debug APK Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T01:42:50Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43787807793/job/133039280147",
+        "name": "collector-test",
+        "startedAt": "2026-11-16T01:42:28Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T01:47:53Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43787807755/job/133040737804",
+        "name": "sign-debug / sign-debug",
+        "startedAt": "2026-11-16T01:47:17Z",
+        "status": "COMPLETED",
+        "workflowName": "Debug APK Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T01:42:38Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43787807793/job/133039280205",
+        "name": "jw-fetch-js-test",
+        "startedAt": "2026-11-16T01:42:29Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T01:50:05Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43787807793/job/133039279915",
+        "name": "android-unit-test",
+        "startedAt": "2026-11-16T01:42:28Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T01:49:29Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43787807793/job/133039280166",
+        "name": "android-lint",
+        "startedAt": "2026-11-16T01:42:28Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-11-16T01:48:04Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/lingion/sleepy/actions/runs/43787807793/job/133039280256",
+        "name": "android-assemble",
+        "startedAt": "2026-11-16T01:42:28Z",
+        "status": "COMPLETED",
+        "workflowName": "CI"
+      }
+    ],
+    "url": "https://github.com/lingion/sleepy/pull/445"
+  },
+  "source_archive_commit": "623132e6e9471d973bccc6ec40d1658cfab152ec",
+  "source_archive_cloud_blob_verified": "a2b37c622362096c62aec72f48d86092a2f3c899",
+  "local_regression_count": 14,
+  "normal_merge_attempt_after_checks": {
+    "exit_code": 1,
+    "result": "base branch policy prohibits the merge"
+  },
+  "rule": {
+    "id": 24128365,
+    "name": "protect-main",
+    "enforcement": "active",
+    "current_user_can_bypass": "never"
+  },
+  "protection_changed": false,
+  "bypass_attempted": false,
+  "product_optical_parameters_changed": false,
+  "research_added_to_product": false
+}

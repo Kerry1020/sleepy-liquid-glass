@@ -4,7 +4,7 @@
 
 [English](README.en.md) · [实现与 API](docs/architecture.md) · [实验数据与图表](docs/evidence/RESULTS.md) · [面板材质研究](docs/panel-material-study.md) · [受控光学研究与资产](docs/controlled-optical-studies.md) · [验证记录](VALIDATION.md) · [贡献指南](CONTRIBUTING.md) · [研究夹具源码](research/slider-fixtures/README.md)
 [研究迁出记录](research/sleepy-research-migration-20261116/README.md) — Sleepy 仅保留应用改动与必要回归；研究入口、报告和资产只在本库发布。
-[Android 滑杆四轮采集归档](research/slider-android-response-20261116/README.md) — 原始采集已保存，冻结分析器的格式失败和采后兼容修复分别保留；响应分析与光学验收尚未完成。
+[Android 滑杆四轮采集归档](research/slider-android-response-20261116/README.md) — 原始采集、格式失败及采后兼容分析分别保留；几何门槛未通过，不能由这些输出推断光学参数。
 
 本项目把 Sleepy 中的输入时钟、弹簧运动、速度形变、连续圆角、AGSL 材质与外部背板采样拆成独立源码模块。目标是让控件的位置、形状、材质和交互节奏能够分别测量、校准与复现，帮助 Compose 开发者构建会响应真实背景与手势的玻璃界面。
 
@@ -59,7 +59,7 @@
 
 | 控件 | 公开运行层已有内容 | 完整可直接替换的公共 Compose 控件 | 本文证据与当前缺口 |
 | --- | --- | --- | --- |
-| Toggle | 按压、起落、选中位移及运动原语；sample 有简化形状 | 尚未提供 | 原生长按→释放已有参考；普通点击、Android 自然时序与像素对照仍待验收 |
+| Toggle | 按压、起落、选中位移及运动原语；sample 有简化形状 | 尚未提供 | 原生长按→释放与八次普通点击已有参考；Android 自然时序与像素对照仍待验收 |
 | Tab / 分段选择 | 分段端点与运动参数 | 尚未提供 | 快拖存在中心残差；不能借用 Dock 的结果 |
 | Dock | 父平移、镜片运动、形变、轮廓及材质原语 | 尚未提供 | 父载体平移有定量改进；底座光学、前景历史响应和释放仍有差距 |
 | 单头滑杆 | 独立加速度形变、端部响应模型与材质原语 | 尚未提供 | 条件轴向形变可测；held 外移拟合不解释释放峰值 |
@@ -239,7 +239,7 @@ $$\mathrm{RMSE}_x = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_{\mathrm{Android},i}-x_{\m
 
 ![同一原生像素的有符号 G 响应及预设区域内的模型相容性](research/slider-signedG-response-20261116/figures/signed-G-response-and-compatibility.png)
 
-[外置 Android 研究入口](research/slider-android-host/README.md)也仅保存在本资产仓库，通过显式 Gradle init 参数接入应用测试宿主；当前仅通过准备与静态校验，尚未验证该入口的 Gradle 编译。Sleepy 应用 PR 只收应用代码和必要回归测试；[发布范围核对](provenance/publication-boundary-20261116.json)记录了已合并 #442 的 8 文件范围。
+[外置 Android 研究入口](research/slider-android-host/README.md)也仅保存在本资产仓库，通过显式 Gradle init 参数接入应用测试宿主；[四轮采集](research/slider-android-response-20261116/README.md)保留其当时的编译与执行身份。新语言终态和滑杆层观察入口已通过[组合编译](research/control-regression-diagnostics-20261116/host-integration-observed/README.md)，尚未设备执行。Sleepy 应用 PR 只收应用代码和必要回归测试；[发布范围核对](provenance/publication-boundary-20261116.json)记录了已合并 #442 的 8 文件范围。
 
 ### 4.6 Toggle：升起、填色与回落的原生观察
 
@@ -250,6 +250,10 @@ $$\mathrm{RMSE}_x = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_{\mathrm{Android},i}-x_{\m
 **图8a–b · Native-only 长按→释放。** 关键帧来自真实视频 PTS，不插帧；不能把这段长按过程写成单击轨迹。固定中心小窗口的白色混合代理，在 DOWN 后约 50 / 84 / 100 / 117 ms 为 0.72 / 0.15 / 0.03 / 0.00。它是图像颜色投影，**不是原生层 alpha 或物理透过率**；视频与 trace 约有一帧配准不确定度。释放后镜片移动，固定窗口不能继续衡量其不透明度。
 
 这组记录原生长按与释放时可见的材质交接，不构成 Android 对齐结论，也不覆盖完整单击行为。位置、升起、实心白体淡出、主题填色与回落需分别记录；缺少匹配 Android 像素采证的部分继续保留为待完成项。
+
+**2026-11-16 · 普通点击单列。** [八段原生点击参考](research/toggle-tap-native26-20261116/README.md)保留零移动 DOWN/UP、838 个窗口内帧记录及其实际采样缺口；图中直接使用原始时间，不拟合、插值或重定时。它不将载体 opacity 当作材质透明度，也不借用长按过程代替点击。另有[真实运行时的 JVM 回放](research/toggle-tap-model26-20261116/README.md)诊断；core-model 输出与 Android 实际绘制、像素及自然时序验收分开。
+
+![图8c：八次iOS26.5原生点击的宽、高和中心位移；仅为原生观察](research/toggle-tap-native26-20261116/native-tap-curves.svg)
 
 ### 4.7 Alert / Sheet：边缘亮度预算与尚未解决的折射问题
 

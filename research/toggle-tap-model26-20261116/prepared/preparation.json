@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "status": "prepared_unexecuted",
+  "segments": 8,
+  "events": 16,
+  "frames": 838,
+  "native_inputs": {
+    "inputs.json": "5ec1a09b227e44065b715b5ec1bccfa81091ef7bd99f86e50851de213b30266c",
+    "carrier.csv": "4b7a9a6bce843382fb76febff48cfe3df5cc1443b7b8e24188806074e5d5b941",
+    "sources.json": "d30d210fbf59f4fc2560c20826a41f3f645f0d7212a9ff7b2bde27144615a9d6"
+  },
+  "host_sources": {
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/GlassControlMotion.kt": "2b2fe128c1e833ba52f63ace473c4e16de88d4913b5c49c3c62100b85c8a2132",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/DockInputClock.kt": "ff3a1526442c1c98d9a82dfd8a1676e4e708d8bb5939d22d7dba2603f335c4c5",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/ActiveFrameLoop.kt": "98546593879cf56f574d55d0ae8cd2f5233495deef407eebee363172329d3475",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/LiquidGlassPhysics.kt": "20a9d90d15eb26d4be3a225523424e424533e5d52b0e3a96772615cf82cbfc4c",
+    "libraries/liquid-glass/runtime/src/androidMain/kotlin/com/lingion/sleepy/ui/component/liquidglass/NativeGlassDragDeformation.kt": "b49db084e67163921cd3bd7a8139ca9eafe6a17a827b6bf53d875ebe054e795c",
+    "app/src/main/java/com/lingion/sleepy/ui/component/liquidglass/GlassSwitch.kt": "707577f36ac4db329e74ea78f0a715cec7dbf624b535dd4c434e3d35f2d6a4f4"
+  },
+  "study_sources": {
+    "prepare.py": "8d3b8992fdd8147f375108b4d88fad65c26af83afe2e3fce0711e11da25d4829",
+    "Replay.java": "32bb1dfef4aed40f5ea73688bfd5894c0b04e9ff92f9fede82e824bf81510c02",
+    "replay.init.gradle": "8c6a3e4b549b3af9aac68722a89226f0ed42a25ab9db6861a471850f5cebd002",
+    "native-input-pins.json": "40fef25a0702717ecce3a0423b710526143ae803576b8917b592f7694e591f0a"
+  },
+  "prepared_files": {
+    "segments.tsv": "b81b8cf19bdfc4a08d718005d26dd08fc300d45db7d55b5ef8eb2fd3602a8f79",
+    "events.tsv": "f6eb6d2187a46835057c626b2ec1b25fd61355c77b36d9c9f856467cb703ae9f",
+    "frames.tsv": "bdcd223d97bb479b67056dfa817db330dfefc998d8a3fc3510ae2c81cb17b0ba"
+  },
+  "clocks": "frame_t scheduling only; deliveredT gating; sampleT retained independently; common per-segment +1s origin; nearest-ns frame/receipt and floor-ms sample quantization",
+  "scope": "core-model diagnostic; no Android GPU, optical, natural-motion or timing-sync acceptance"
+}

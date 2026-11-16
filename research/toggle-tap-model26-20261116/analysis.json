@@ -1,0 +1,2485 @@
+{
+  "schema": 1,
+  "status": "EXECUTED_CORE_MODEL_DIAGNOSTIC_AUDITED",
+  "analyzer_sha256": "f6d759e4dbd581b2016e58be43528483510a72fa26bd18ff2b7835ba94d4a5e4",
+  "inputs": {
+    "execution.json": "f2a73f5f0c985fd539d9690054edb955741419fe76947b30ceebb34ffb26f213",
+    "execution.log": "dfd89bc281708ab84f249d55da583fae5c24803ce6e21bd8da53fde8f79cd9ce",
+    "replay.csv": "876727783d01c6a3bf239846bbc3aa920e9b95ec418b05c9178017b9ddc2ca44",
+    "prepared/preparation.json": "b8edf5ebffe1bee7d1bc1b19596fdc79d64638552f779de6175ec9b52e179833",
+    "prepared/frames.tsv": "bdcd223d97bb479b67056dfa817db330dfefc998d8a3fc3510ae2c81cb17b0ba",
+    "prepared/events.tsv": "f6eb6d2187a46835057c626b2ec1b25fd61355c77b36d9c9f856467cb703ae9f",
+    "prepared/segments.tsv": "b81b8cf19bdfc4a08d718005d26dd08fc300d45db7d55b5ef8eb2fd3602a8f79"
+  },
+  "checks": {
+    "native_cells_exact": 24302,
+    "prepared_cells_exact": 25140,
+    "frames": 838,
+    "segments": 8,
+    "delivered_events": 16,
+    "finite_recorded_numeric_fields": true,
+    "per_frame_injection_counts": true,
+    "exported_residuals_recomputed": true,
+    "pinned_sources_and_prepared_files_unchanged": true
+  },
+  "metric_scope": "Every original selected frame, including pre-DOWN and settled tail; no weighting, fitting, retiming or resampling. Error=model minus native. RMSE=sqrt(sum(error^2)/N); tied extrema use the first actual row.",
+  "units": "Numerical dp/pt diagnostic convention, not proved identical layer decomposition",
+  "tail_rule": "Actual original frames inclusively UP+1200 through UP+1500 ms",
+  "limitations": [
+    "Native frame_t is logger row time, not exact getter instant or video PTS",
+    "Model base/draw dimensions and native local bounds may have different layer/transform decomposition",
+    "No Android GPU, optical, natural-motion or native timing-sync acceptance"
+  ],
+  "segments": [
+    {
+      "segment": "b9b-swiftui-tap7-off-to-on",
+      "events_injected": 2,
+      "frames": 102,
+      "errors": {
+        "base_width": {
+          "rmse": 0.5514729759924886,
+          "max_abs": 2.0058364868164062,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2173",
+            "frame": "1729",
+            "frame_t": "30.286688624997623",
+            "ms_from_delivered_up": "-33.16204168368131"
+          }
+        },
+        "base_height": {
+          "rmse": 0.3764022898971391,
+          "max_abs": 1.3690643310546875,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2173",
+            "frame": "1729",
+            "frame_t": "30.286688624997623",
+            "ms_from_delivered_up": "-33.16204168368131"
+          }
+        },
+        "draw_width": {
+          "rmse": 0.5637513236056465,
+          "max_abs": 2.0058364868164062,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2173",
+            "frame": "1729",
+            "frame_t": "30.286688624997623",
+            "ms_from_delivered_up": "-33.16204168368131"
+          }
+        },
+        "draw_height": {
+          "rmse": 0.38260241340118256,
+          "max_abs": 1.3690643310546875,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2173",
+            "frame": "1729",
+            "frame_t": "30.286688624997623",
+            "ms_from_delivered_up": "-33.16204168368131"
+          }
+        },
+        "center_delta": {
+          "rmse": 0.24016697327614045,
+          "max_abs": 1.2675761940354278,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2180",
+            "frame": "1733",
+            "frame_t": "30.353987791691907",
+            "ms_from_delivered_up": "34.137125010602176"
+          }
+        }
+      },
+      "series": {
+        "native_local_width": {
+          "observed_min": {
+            "value": 36.104000153247384,
+            "source_id": "b9b-swiftui",
+            "source_line": "2208",
+            "frame": "1761",
+            "frame_t": "30.82217875000788",
+            "ms_from_delivered_up": "502.3280833265744"
+          },
+          "observed_max": {
+            "value": 60.56439288718824,
+            "source_id": "b9b-swiftui",
+            "source_line": "2183",
+            "frame": "1736",
+            "frame_t": "30.404371541691944",
+            "ms_from_delivered_up": "84.52087501063943"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2266",
+            "frame": "1819",
+            "frame_t": "31.803629166679457",
+            "ms_from_delivered_up": "1483.7784999981523"
+          }
+        },
+        "native_local_height": {
+          "observed_min": {
+            "value": 23.388444549041864,
+            "source_id": "b9b-swiftui",
+            "source_line": "2208",
+            "frame": "1761",
+            "frame_t": "30.82217875000788",
+            "ms_from_delivered_up": "502.3280833265744"
+          },
+          "observed_max": {
+            "value": 40.083633240461815,
+            "source_id": "b9b-swiftui",
+            "source_line": "2183",
+            "frame": "1736",
+            "frame_t": "30.404371541691944",
+            "ms_from_delivered_up": "84.52087501063943"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2266",
+            "frame": "1819",
+            "frame_t": "31.803629166679457",
+            "ms_from_delivered_up": "1483.7784999981523"
+          }
+        },
+        "native_world_center_delta": {
+          "observed_min": {
+            "value": 0.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2160",
+            "frame": "1718",
+            "frame_t": "30.053164333337918",
+            "ms_from_delivered_up": "-266.68633334338665"
+          },
+          "observed_max": {
+            "value": 22.165756291405387,
+            "source_id": "b9b-swiftui",
+            "source_line": "2206",
+            "frame": "1759",
+            "frame_t": "30.78904500004137",
+            "ms_from_delivered_up": "469.1943333600648"
+          },
+          "tail_min": 22.0,
+          "tail_max": 22.0,
+          "final_observation": {
+            "value": 22.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2266",
+            "frame": "1819",
+            "frame_t": "31.803629166679457",
+            "ms_from_delivered_up": "1483.7784999981523"
+          }
+        },
+        "model_base_width": {
+          "observed_min": {
+            "value": 36.047684,
+            "source_id": "b9b-swiftui",
+            "source_line": "2210",
+            "frame": "1763",
+            "frame_t": "30.86977104167454",
+            "ms_from_delivered_up": "549.9203749932349"
+          },
+          "observed_max": {
+            "value": 60.499435,
+            "source_id": "b9b-swiftui",
+            "source_line": "2183",
+            "frame": "1736",
+            "frame_t": "30.404371541691944",
+            "ms_from_delivered_up": "84.52087501063943"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2266",
+            "frame": "1819",
+            "frame_t": "31.803629166679457",
+            "ms_from_delivered_up": "1483.7784999981523"
+          }
+        },
+        "model_base_height": {
+          "observed_min": {
+            "value": 23.350006,
+            "source_id": "b9b-swiftui",
+            "source_line": "2210",
+            "frame": "1763",
+            "frame_t": "30.86977104167454",
+            "ms_from_delivered_up": "549.9203749932349"
+          },
+          "observed_max": {
+            "value": 40.0393,
+            "source_id": "b9b-swiftui",
+            "source_line": "2183",
+            "frame": "1736",
+            "frame_t": "30.404371541691944",
+            "ms_from_delivered_up": "84.52087501063943"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2266",
+            "frame": "1819",
+            "frame_t": "31.803629166679457",
+            "ms_from_delivered_up": "1483.7784999981523"
+          }
+        },
+        "model_draw_width": {
+          "observed_min": {
+            "value": 35.92643,
+            "source_id": "b9b-swiftui",
+            "source_line": "2209",
+            "frame": "1762",
+            "frame_t": "30.861598708375823",
+            "ms_from_delivered_up": "541.7480416945182"
+          },
+          "observed_max": {
+            "value": 60.563053,
+            "source_id": "b9b-swiftui",
+            "source_line": "2183",
+            "frame": "1736",
+            "frame_t": "30.404371541691944",
+            "ms_from_delivered_up": "84.52087501063943"
+          },
+          "tail_min": 36.99899,
+          "tail_max": 37.00017,
+          "final_observation": {
+            "value": 37.000137,
+            "source_id": "b9b-swiftui",
+            "source_line": "2266",
+            "frame": "1819",
+            "frame_t": "31.803629166679457",
+            "ms_from_delivered_up": "1483.7784999981523"
+          }
+        },
+        "model_draw_height": {
+          "observed_min": {
+            "value": 23.449368,
+            "source_id": "b9b-swiftui",
+            "source_line": "2211",
+            "frame": "1764",
+            "frame_t": "30.88663900003303",
+            "ms_from_delivered_up": "566.7883333517238"
+          },
+          "observed_max": {
+            "value": 39.982456,
+            "source_id": "b9b-swiftui",
+            "source_line": "2183",
+            "frame": "1736",
+            "frame_t": "30.404371541691944",
+            "ms_from_delivered_up": "84.52087501063943"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.000885,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2266",
+            "frame": "1819",
+            "frame_t": "31.803629166679457",
+            "ms_from_delivered_up": "1483.7784999981523"
+          }
+        },
+        "model_center_delta": {
+          "observed_min": {
+            "value": 0.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2160",
+            "frame": "1718",
+            "frame_t": "30.053164333337918",
+            "ms_from_delivered_up": "-266.68633334338665"
+          },
+          "observed_max": {
+            "value": 22.137796878814697,
+            "source_id": "b9b-swiftui",
+            "source_line": "2201",
+            "frame": "1754",
+            "frame_t": "30.705233416694682",
+            "ms_from_delivered_up": "385.3827500133775"
+          },
+          "tail_min": 22.0,
+          "tail_max": 22.0,
+          "final_observation": {
+            "value": 22.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2266",
+            "frame": "1819",
+            "frame_t": "31.803629166679457",
+            "ms_from_delivered_up": "1483.7784999981523"
+          }
+        }
+      },
+      "tail": {
+        "frames": 18,
+        "first": {
+          "source_id": "b9b-swiftui",
+          "source_line": "2249",
+          "frame": "1802",
+          "frame_t": "31.523070041672327",
+          "ms_from_delivered_up": "1203.219374991022"
+        },
+        "last": {
+          "source_id": "b9b-swiftui",
+          "source_line": "2266",
+          "frame": "1819",
+          "frame_t": "31.803629166679457",
+          "ms_from_delivered_up": "1483.7784999981523"
+        }
+      }
+    },
+    {
+      "segment": "b9b-swiftui-tap8-on-to-off",
+      "events_injected": 2,
+      "frames": 106,
+      "errors": {
+        "base_width": {
+          "rmse": 1.0716706196506356,
+          "max_abs": 6.259777069091797,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2275",
+            "frame": "1826",
+            "frame_t": "31.920125250006095",
+            "ms_from_delivered_up": "-31.924791692290455"
+          }
+        },
+        "base_height": {
+          "rmse": 0.7314575608678229,
+          "max_abs": 4.272546768188477,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2275",
+            "frame": "1826",
+            "frame_t": "31.920125250006095",
+            "ms_from_delivered_up": "-31.924791692290455"
+          }
+        },
+        "draw_width": {
+          "rmse": 1.077210087628938,
+          "max_abs": 6.259777069091797,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2275",
+            "frame": "1826",
+            "frame_t": "31.920125250006095",
+            "ms_from_delivered_up": "-31.924791692290455"
+          }
+        },
+        "draw_height": {
+          "rmse": 0.731693552353993,
+          "max_abs": 4.272546768188477,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2275",
+            "frame": "1826",
+            "frame_t": "31.920125250006095",
+            "ms_from_delivered_up": "-31.924791692290455"
+          }
+        },
+        "center_delta": {
+          "rmse": 0.24717826962103484,
+          "max_abs": 1.3402582319849898,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2282",
+            "frame": "1830",
+            "frame_t": "31.986811250040773",
+            "ms_from_delivered_up": "34.76120834238827"
+          }
+        }
+      },
+      "series": {
+        "native_local_width": {
+          "observed_min": {
+            "value": 36.029470932415606,
+            "source_id": "b9b-swiftui",
+            "source_line": "2311",
+            "frame": "1859",
+            "frame_t": "32.47051300003659",
+            "ms_from_delivered_up": "518.4629583382048"
+          },
+          "observed_max": {
+            "value": 60.571757431166,
+            "source_id": "b9b-swiftui",
+            "source_line": "2285",
+            "frame": "1833",
+            "frame_t": "32.03732962498907",
+            "ms_from_delivered_up": "85.27958329068497"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2369",
+            "frame": "1917",
+            "frame_t": "33.43746129167266",
+            "ms_from_delivered_up": "1485.4112499742769"
+          }
+        },
+        "native_local_height": {
+          "observed_min": {
+            "value": 23.337575398315415,
+            "source_id": "b9b-swiftui",
+            "source_line": "2311",
+            "frame": "1859",
+            "frame_t": "32.47051300003659",
+            "ms_from_delivered_up": "518.4629583382048"
+          },
+          "observed_max": {
+            "value": 40.088659833970446,
+            "source_id": "b9b-swiftui",
+            "source_line": "2285",
+            "frame": "1833",
+            "frame_t": "32.03732962498907",
+            "ms_from_delivered_up": "85.27958329068497"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2369",
+            "frame": "1917",
+            "frame_t": "33.43746129167266",
+            "ms_from_delivered_up": "1485.4112499742769"
+          }
+        },
+        "native_world_center_delta": {
+          "observed_min": {
+            "value": -22.17321084682567,
+            "source_id": "b9b-swiftui",
+            "source_line": "2308",
+            "frame": "1856",
+            "frame_t": "32.42017862503417",
+            "ms_from_delivered_up": "468.12858333578333"
+          },
+          "observed_max": {
+            "value": 0.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2259",
+            "frame": "1812",
+            "frame_t": "31.68638241669396",
+            "ms_from_delivered_up": "-265.66762500442564"
+          },
+          "tail_min": -22.0,
+          "tail_max": -22.0,
+          "final_observation": {
+            "value": -22.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2369",
+            "frame": "1917",
+            "frame_t": "33.43746129167266",
+            "ms_from_delivered_up": "1485.4112499742769"
+          }
+        },
+        "model_base_width": {
+          "observed_min": {
+            "value": 36.048588,
+            "source_id": "b9b-swiftui",
+            "source_line": "2313",
+            "frame": "1861",
+            "frame_t": "32.504447083338164",
+            "ms_from_delivered_up": "552.3970416397788"
+          },
+          "observed_max": {
+            "value": 60.50885,
+            "source_id": "b9b-swiftui",
+            "source_line": "2284",
+            "frame": "1832",
+            "frame_t": "32.0202500000014",
+            "ms_from_delivered_up": "68.19995830301195"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2369",
+            "frame": "1917",
+            "frame_t": "33.43746129167266",
+            "ms_from_delivered_up": "1485.4112499742769"
+          }
+        },
+        "model_base_height": {
+          "observed_min": {
+            "value": 23.350624,
+            "source_id": "b9b-swiftui",
+            "source_line": "2313",
+            "frame": "1861",
+            "frame_t": "32.504447083338164",
+            "ms_from_delivered_up": "552.3970416397788"
+          },
+          "observed_max": {
+            "value": 40.045723,
+            "source_id": "b9b-swiftui",
+            "source_line": "2284",
+            "frame": "1832",
+            "frame_t": "32.0202500000014",
+            "ms_from_delivered_up": "68.19995830301195"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2369",
+            "frame": "1917",
+            "frame_t": "33.43746129167266",
+            "ms_from_delivered_up": "1485.4112499742769"
+          }
+        },
+        "model_draw_width": {
+          "observed_min": {
+            "value": 36.152416,
+            "source_id": "b9b-swiftui",
+            "source_line": "2313",
+            "frame": "1861",
+            "frame_t": "32.504447083338164",
+            "ms_from_delivered_up": "552.3970416397788"
+          },
+          "observed_max": {
+            "value": 60.47098,
+            "source_id": "b9b-swiftui",
+            "source_line": "2284",
+            "frame": "1832",
+            "frame_t": "32.0202500000014",
+            "ms_from_delivered_up": "68.19995830301195"
+          },
+          "tail_min": 36.999794,
+          "tail_max": 37.000942,
+          "final_observation": {
+            "value": 36.999847,
+            "source_id": "b9b-swiftui",
+            "source_line": "2369",
+            "frame": "1917",
+            "frame_t": "33.43746129167266",
+            "ms_from_delivered_up": "1485.4112499742769"
+          }
+        },
+        "model_draw_height": {
+          "observed_min": {
+            "value": 23.411032,
+            "source_id": "b9b-swiftui",
+            "source_line": "2313",
+            "frame": "1861",
+            "frame_t": "32.504447083338164",
+            "ms_from_delivered_up": "552.3970416397788"
+          },
+          "observed_max": {
+            "value": 40.07956,
+            "source_id": "b9b-swiftui",
+            "source_line": "2284",
+            "frame": "1832",
+            "frame_t": "32.0202500000014",
+            "ms_from_delivered_up": "68.19995830301195"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.000183,
+          "final_observation": {
+            "value": 24.000132,
+            "source_id": "b9b-swiftui",
+            "source_line": "2369",
+            "frame": "1917",
+            "frame_t": "33.43746129167266",
+            "ms_from_delivered_up": "1485.4112499742769"
+          }
+        },
+        "model_center_delta": {
+          "observed_min": {
+            "value": -22.137983083724976,
+            "source_id": "b9b-swiftui",
+            "source_line": "2303",
+            "frame": "1851",
+            "frame_t": "32.33630525000626",
+            "ms_from_delivered_up": "384.2552083078772"
+          },
+          "observed_max": {
+            "value": 0.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2259",
+            "frame": "1812",
+            "frame_t": "31.68638241669396",
+            "ms_from_delivered_up": "-265.66762500442564"
+          },
+          "tail_min": -22.0,
+          "tail_max": -22.0,
+          "final_observation": {
+            "value": -22.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2369",
+            "frame": "1917",
+            "frame_t": "33.43746129167266",
+            "ms_from_delivered_up": "1485.4112499742769"
+          }
+        }
+      },
+      "tail": {
+        "frames": 18,
+        "first": {
+          "source_id": "b9b-swiftui",
+          "source_line": "2352",
+          "frame": "1900",
+          "frame_t": "33.154327333322726",
+          "ms_from_delivered_up": "1202.2772916243412"
+        },
+        "last": {
+          "source_id": "b9b-swiftui",
+          "source_line": "2369",
+          "frame": "1917",
+          "frame_t": "33.43746129167266",
+          "ms_from_delivered_up": "1485.4112499742769"
+        }
+      }
+    },
+    {
+      "segment": "b9b-swiftui-tap9-off-to-on",
+      "events_injected": 2,
+      "frames": 104,
+      "errors": {
+        "base_width": {
+          "rmse": 0.5548813766065576,
+          "max_abs": 2.150318145751953,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2378",
+            "frame": "1924",
+            "frame_t": "33.57057541667018",
+            "ms_from_delivered_up": "-31.886083364952356"
+          }
+        },
+        "base_height": {
+          "rmse": 0.378728400509308,
+          "max_abs": 1.4676761627197266,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2378",
+            "frame": "1924",
+            "frame_t": "33.57057541667018",
+            "ms_from_delivered_up": "-31.886083364952356"
+          }
+        },
+        "draw_width": {
+          "rmse": 0.5659659548535981,
+          "max_abs": 2.150318145751953,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2378",
+            "frame": "1924",
+            "frame_t": "33.57057541667018",
+            "ms_from_delivered_up": "-31.886083364952356"
+          }
+        },
+        "draw_height": {
+          "rmse": 0.38606517142876057,
+          "max_abs": 1.4676761627197266,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2378",
+            "frame": "1924",
+            "frame_t": "33.57057541667018",
+            "ms_from_delivered_up": "-31.886083364952356"
+          }
+        },
+        "center_delta": {
+          "rmse": 0.24673914361168472,
+          "max_abs": 1.2957668962353637,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2385",
+            "frame": "1928",
+            "frame_t": "33.63684137503151",
+            "ms_from_delivered_up": "34.37987499637529"
+          }
+        }
+      },
+      "series": {
+        "native_local_width": {
+          "observed_min": {
+            "value": 36.02947093226094,
+            "source_id": "b9b-swiftui",
+            "source_line": "2414",
+            "frame": "1957",
+            "frame_t": "34.12150354171172",
+            "ms_from_delivered_up": "519.0420416765846"
+          },
+          "observed_max": {
+            "value": 60.5688178554824,
+            "source_id": "b9b-swiftui",
+            "source_line": "2388",
+            "frame": "1931",
+            "frame_t": "33.68718166666804",
+            "ms_from_delivered_up": "84.7201666329056"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2471",
+            "frame": "2014",
+            "frame_t": "35.08774491667282",
+            "ms_from_delivered_up": "1485.2834166376851"
+          }
+        },
+        "native_local_height": {
+          "observed_min": {
+            "value": 23.337575398209847,
+            "source_id": "b9b-swiftui",
+            "source_line": "2414",
+            "frame": "1957",
+            "frame_t": "34.12150354171172",
+            "ms_from_delivered_up": "519.0420416765846"
+          },
+          "observed_max": {
+            "value": 40.086653456916565,
+            "source_id": "b9b-swiftui",
+            "source_line": "2388",
+            "frame": "1931",
+            "frame_t": "33.68718166666804",
+            "ms_from_delivered_up": "84.7201666329056"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2471",
+            "frame": "2014",
+            "frame_t": "35.08774491667282",
+            "ms_from_delivered_up": "1485.2834166376851"
+          }
+        },
+        "native_world_center_delta": {
+          "observed_min": {
+            "value": 0.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2363",
+            "frame": "1911",
+            "frame_t": "33.34067508333828",
+            "ms_from_delivered_up": "-261.7864166968502"
+          },
+          "observed_max": {
+            "value": 22.165756291401294,
+            "source_id": "b9b-swiftui",
+            "source_line": "2411",
+            "frame": "1954",
+            "frame_t": "34.07075641670963",
+            "ms_from_delivered_up": "468.29491667449474"
+          },
+          "tail_min": 22.0,
+          "tail_max": 22.0,
+          "final_observation": {
+            "value": 22.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2471",
+            "frame": "2014",
+            "frame_t": "35.08774491667282",
+            "ms_from_delivered_up": "1485.2834166376851"
+          }
+        },
+        "model_base_width": {
+          "observed_min": {
+            "value": 36.04852,
+            "source_id": "b9b-swiftui",
+            "source_line": "2416",
+            "frame": "1959",
+            "frame_t": "34.15434962499421",
+            "ms_from_delivered_up": "551.8881249590777"
+          },
+          "observed_max": {
+            "value": 60.502213,
+            "source_id": "b9b-swiftui",
+            "source_line": "2388",
+            "frame": "1931",
+            "frame_t": "33.68718166666804",
+            "ms_from_delivered_up": "84.7201666329056"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2471",
+            "frame": "2014",
+            "frame_t": "35.08774491667282",
+            "ms_from_delivered_up": "1485.2834166376851"
+          }
+        },
+        "model_base_height": {
+          "observed_min": {
+            "value": 23.350576,
+            "source_id": "b9b-swiftui",
+            "source_line": "2416",
+            "frame": "1959",
+            "frame_t": "34.15434962499421",
+            "ms_from_delivered_up": "551.8881249590777"
+          },
+          "observed_max": {
+            "value": 40.04119,
+            "source_id": "b9b-swiftui",
+            "source_line": "2388",
+            "frame": "1931",
+            "frame_t": "33.68718166666804",
+            "ms_from_delivered_up": "84.7201666329056"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2471",
+            "frame": "2014",
+            "frame_t": "35.08774491667282",
+            "ms_from_delivered_up": "1485.2834166376851"
+          }
+        },
+        "model_draw_width": {
+          "observed_min": {
+            "value": 35.929203,
+            "source_id": "b9b-swiftui",
+            "source_line": "2415",
+            "frame": "1958",
+            "frame_t": "34.13752037502127",
+            "ms_from_delivered_up": "535.0588749861345"
+          },
+          "observed_max": {
+            "value": 60.566563,
+            "source_id": "b9b-swiftui",
+            "source_line": "2388",
+            "frame": "1931",
+            "frame_t": "33.68718166666804",
+            "ms_from_delivered_up": "84.7201666329056"
+          },
+          "tail_min": 36.99899,
+          "tail_max": 37.000145,
+          "final_observation": {
+            "value": 37.000145,
+            "source_id": "b9b-swiftui",
+            "source_line": "2471",
+            "frame": "2014",
+            "frame_t": "35.08774491667282",
+            "ms_from_delivered_up": "1485.2834166376851"
+          }
+        },
+        "model_draw_height": {
+          "observed_min": {
+            "value": 23.447832,
+            "source_id": "b9b-swiftui",
+            "source_line": "2416",
+            "frame": "1959",
+            "frame_t": "34.15434962499421",
+            "ms_from_delivered_up": "551.8881249590777"
+          },
+          "observed_max": {
+            "value": 39.983696,
+            "source_id": "b9b-swiftui",
+            "source_line": "2388",
+            "frame": "1931",
+            "frame_t": "33.68718166666804",
+            "ms_from_delivered_up": "84.7201666329056"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.000885,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2471",
+            "frame": "2014",
+            "frame_t": "35.08774491667282",
+            "ms_from_delivered_up": "1485.2834166376851"
+          }
+        },
+        "model_center_delta": {
+          "observed_min": {
+            "value": 0.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2363",
+            "frame": "1911",
+            "frame_t": "33.34067508333828",
+            "ms_from_delivered_up": "-261.7864166968502"
+          },
+          "observed_max": {
+            "value": 22.137791633605957,
+            "source_id": "b9b-swiftui",
+            "source_line": "2406",
+            "frame": "1949",
+            "frame_t": "33.987865625007544",
+            "ms_from_delivered_up": "385.4041249724105"
+          },
+          "tail_min": 22.0,
+          "tail_max": 22.0,
+          "final_observation": {
+            "value": 22.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2471",
+            "frame": "2014",
+            "frame_t": "35.08774491667282",
+            "ms_from_delivered_up": "1485.2834166376851"
+          }
+        }
+      },
+      "tail": {
+        "frames": 18,
+        "first": {
+          "source_id": "b9b-swiftui",
+          "source_line": "2454",
+          "frame": "1997",
+          "frame_t": "34.80670745833777",
+          "ms_from_delivered_up": "1204.2459583026357"
+        },
+        "last": {
+          "source_id": "b9b-swiftui",
+          "source_line": "2471",
+          "frame": "2014",
+          "frame_t": "35.08774491667282",
+          "ms_from_delivered_up": "1485.2834166376851"
+        }
+      }
+    },
+    {
+      "segment": "b9b-swiftui-tap10-on-to-off",
+      "events_injected": 2,
+      "frames": 106,
+      "errors": {
+        "base_width": {
+          "rmse": 1.0618597311265883,
+          "max_abs": 6.203945159912109,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2481",
+            "frame": "2022",
+            "frame_t": "35.220253458363004",
+            "ms_from_delivered_up": "-31.947541632689536"
+          }
+        },
+        "base_height": {
+          "rmse": 0.7247612850611129,
+          "max_abs": 4.234439849853516,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2481",
+            "frame": "2022",
+            "frame_t": "35.220253458363004",
+            "ms_from_delivered_up": "-31.947541632689536"
+          }
+        },
+        "draw_width": {
+          "rmse": 1.0683535566727331,
+          "max_abs": 6.203945159912109,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2481",
+            "frame": "2022",
+            "frame_t": "35.220253458363004",
+            "ms_from_delivered_up": "-31.947541632689536"
+          }
+        },
+        "draw_height": {
+          "rmse": 0.724217245309629,
+          "max_abs": 4.234439849853516,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2481",
+            "frame": "2022",
+            "frame_t": "35.220253458363004",
+            "ms_from_delivered_up": "-31.947541632689536"
+          }
+        },
+        "center_delta": {
+          "rmse": 0.2491064011846062,
+          "max_abs": 1.330883732664006,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2488",
+            "frame": "2026",
+            "frame_t": "35.286882041662466",
+            "ms_from_delivered_up": "34.68104166677222"
+          }
+        }
+      },
+      "series": {
+        "native_local_width": {
+          "observed_min": {
+            "value": 36.029470932415606,
+            "source_id": "b9b-swiftui",
+            "source_line": "2517",
+            "frame": "2055",
+            "frame_t": "35.77138087502681",
+            "ms_from_delivered_up": "519.1798750311136"
+          },
+          "observed_max": {
+            "value": 60.57043228982731,
+            "source_id": "b9b-swiftui",
+            "source_line": "2491",
+            "frame": "2029",
+            "frame_t": "35.33711308334023",
+            "ms_from_delivered_up": "84.91208334453404"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2575",
+            "frame": "2113",
+            "frame_t": "36.73779320833273",
+            "ms_from_delivered_up": "1485.5922083370388"
+          }
+        },
+        "native_local_height": {
+          "observed_min": {
+            "value": 23.337575398315415,
+            "source_id": "b9b-swiftui",
+            "source_line": "2517",
+            "frame": "2055",
+            "frame_t": "35.77138087502681",
+            "ms_from_delivered_up": "519.1798750311136"
+          },
+          "observed_max": {
+            "value": 40.08775537242182,
+            "source_id": "b9b-swiftui",
+            "source_line": "2491",
+            "frame": "2029",
+            "frame_t": "35.33711308334023",
+            "ms_from_delivered_up": "84.91208334453404"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2575",
+            "frame": "2113",
+            "frame_t": "36.73779320833273",
+            "ms_from_delivered_up": "1485.5922083370388"
+          }
+        },
+        "native_world_center_delta": {
+          "observed_min": {
+            "value": -22.173210846835104,
+            "source_id": "b9b-swiftui",
+            "source_line": "2514",
+            "frame": "2052",
+            "frame_t": "35.72049625002546",
+            "ms_from_delivered_up": "468.2952500297688"
+          },
+          "observed_max": {
+            "value": 0.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2465",
+            "frame": "2008",
+            "frame_t": "34.988114666659385",
+            "ms_from_delivered_up": "-264.0863333363086"
+          },
+          "tail_min": -22.0,
+          "tail_max": -22.0,
+          "final_observation": {
+            "value": -22.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2575",
+            "frame": "2113",
+            "frame_t": "36.73779320833273",
+            "ms_from_delivered_up": "1485.5922083370388"
+          }
+        },
+        "model_base_width": {
+          "observed_min": {
+            "value": 36.048164,
+            "source_id": "b9b-swiftui",
+            "source_line": "2519",
+            "frame": "2057",
+            "frame_t": "35.804562083329074",
+            "ms_from_delivered_up": "552.3610833333805"
+          },
+          "observed_max": {
+            "value": 60.509583,
+            "source_id": "b9b-swiftui",
+            "source_line": "2490",
+            "frame": "2028",
+            "frame_t": "35.3203394166776",
+            "ms_from_delivered_up": "68.13841668190435"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2575",
+            "frame": "2113",
+            "frame_t": "36.73779320833273",
+            "ms_from_delivered_up": "1485.5922083370388"
+          }
+        },
+        "model_base_height": {
+          "observed_min": {
+            "value": 23.350334,
+            "source_id": "b9b-swiftui",
+            "source_line": "2519",
+            "frame": "2057",
+            "frame_t": "35.804562083329074",
+            "ms_from_delivered_up": "552.3610833333805"
+          },
+          "observed_max": {
+            "value": 40.04622,
+            "source_id": "b9b-swiftui",
+            "source_line": "2490",
+            "frame": "2028",
+            "frame_t": "35.3203394166776",
+            "ms_from_delivered_up": "68.13841668190435"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2575",
+            "frame": "2113",
+            "frame_t": "36.73779320833273",
+            "ms_from_delivered_up": "1485.5922083370388"
+          }
+        },
+        "model_draw_width": {
+          "observed_min": {
+            "value": 36.151928,
+            "source_id": "b9b-swiftui",
+            "source_line": "2519",
+            "frame": "2057",
+            "frame_t": "35.804562083329074",
+            "ms_from_delivered_up": "552.3610833333805"
+          },
+          "observed_max": {
+            "value": 60.472458,
+            "source_id": "b9b-swiftui",
+            "source_line": "2490",
+            "frame": "2028",
+            "frame_t": "35.3203394166776",
+            "ms_from_delivered_up": "68.13841668190435"
+          },
+          "tail_min": 36.999752,
+          "tail_max": 37.000942,
+          "final_observation": {
+            "value": 36.999847,
+            "source_id": "b9b-swiftui",
+            "source_line": "2575",
+            "frame": "2113",
+            "frame_t": "36.73779320833273",
+            "ms_from_delivered_up": "1485.5922083370388"
+          }
+        },
+        "model_draw_height": {
+          "observed_min": {
+            "value": 23.410769,
+            "source_id": "b9b-swiftui",
+            "source_line": "2519",
+            "frame": "2057",
+            "frame_t": "35.804562083329074",
+            "ms_from_delivered_up": "552.3610833333805"
+          },
+          "observed_max": {
+            "value": 40.079388,
+            "source_id": "b9b-swiftui",
+            "source_line": "2490",
+            "frame": "2028",
+            "frame_t": "35.3203394166776",
+            "ms_from_delivered_up": "68.13841668190435"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.000214,
+          "final_observation": {
+            "value": 24.000134,
+            "source_id": "b9b-swiftui",
+            "source_line": "2575",
+            "frame": "2113",
+            "frame_t": "36.73779320833273",
+            "ms_from_delivered_up": "1485.5922083370388"
+          }
+        },
+        "model_center_delta": {
+          "observed_min": {
+            "value": -22.137484788894653,
+            "source_id": "b9b-swiftui",
+            "source_line": "2509",
+            "frame": "2047",
+            "frame_t": "35.63912329170853",
+            "ms_from_delivered_up": "386.92229171283543"
+          },
+          "observed_max": {
+            "value": 0.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2465",
+            "frame": "2008",
+            "frame_t": "34.988114666659385",
+            "ms_from_delivered_up": "-264.0863333363086"
+          },
+          "tail_min": -22.0,
+          "tail_max": -22.0,
+          "final_observation": {
+            "value": -22.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2575",
+            "frame": "2113",
+            "frame_t": "36.73779320833273",
+            "ms_from_delivered_up": "1485.5922083370388"
+          }
+        }
+      },
+      "tail": {
+        "frames": 18,
+        "first": {
+          "source_id": "b9b-swiftui",
+          "source_line": "2558",
+          "frame": "2096",
+          "frame_t": "36.4530854166951",
+          "ms_from_delivered_up": "1200.8844166994095"
+        },
+        "last": {
+          "source_id": "b9b-swiftui",
+          "source_line": "2575",
+          "frame": "2113",
+          "frame_t": "36.73779320833273",
+          "ms_from_delivered_up": "1485.5922083370388"
+        }
+      }
+    },
+    {
+      "segment": "b9b-swiftui-tap11-off-to-on",
+      "events_injected": 2,
+      "frames": 106,
+      "errors": {
+        "base_width": {
+          "rmse": 1.5151307122398447,
+          "max_abs": 6.363742828369141,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2582",
+            "frame": "2118",
+            "frame_t": "36.8199797917041",
+            "ms_from_delivered_up": "-32.163833326194435"
+          }
+        },
+        "base_height": {
+          "rmse": 1.0341367505471462,
+          "max_abs": 4.343505859375,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2582",
+            "frame": "2118",
+            "frame_t": "36.8199797917041",
+            "ms_from_delivered_up": "-32.163833326194435"
+          }
+        },
+        "draw_width": {
+          "rmse": 1.529256094672261,
+          "max_abs": 6.363742828369141,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2582",
+            "frame": "2118",
+            "frame_t": "36.8199797917041",
+            "ms_from_delivered_up": "-32.163833326194435"
+          }
+        },
+        "draw_height": {
+          "rmse": 1.0276221580742753,
+          "max_abs": 4.343505859375,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2582",
+            "frame": "2118",
+            "frame_t": "36.8199797917041",
+            "ms_from_delivered_up": "-32.163833326194435"
+          }
+        },
+        "center_delta": {
+          "rmse": 0.2504691374139568,
+          "max_abs": 1.3233693154925277,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2589",
+            "frame": "2122",
+            "frame_t": "36.886760333378334",
+            "ms_from_delivered_up": "34.61670834803954"
+          }
+        }
+      },
+      "series": {
+        "native_local_width": {
+          "observed_min": {
+            "value": 35.97157792131132,
+            "source_id": "b9b-swiftui",
+            "source_line": "2617",
+            "frame": "2150",
+            "frame_t": "37.35578166670166",
+            "ms_from_delivered_up": "503.6380416713655"
+          },
+          "observed_max": {
+            "value": 60.57134376275752,
+            "source_id": "b9b-swiftui",
+            "source_line": "2592",
+            "frame": "2125",
+            "frame_t": "36.9370741249877",
+            "ms_from_delivered_up": "84.93049995740876"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2676",
+            "frame": "2209",
+            "frame_t": "38.3372295833542",
+            "ms_from_delivered_up": "1485.085958323907"
+          }
+        },
+        "native_local_height": {
+          "observed_min": {
+            "value": 23.298061120895028,
+            "source_id": "b9b-swiftui",
+            "source_line": "2617",
+            "frame": "2150",
+            "frame_t": "37.35578166670166",
+            "ms_from_delivered_up": "503.6380416713655"
+          },
+          "observed_max": {
+            "value": 40.08837748886624,
+            "source_id": "b9b-swiftui",
+            "source_line": "2592",
+            "frame": "2125",
+            "frame_t": "36.9370741249877",
+            "ms_from_delivered_up": "84.93049995740876"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2676",
+            "frame": "2209",
+            "frame_t": "38.3372295833542",
+            "ms_from_delivered_up": "1485.085958323907"
+          }
+        },
+        "native_world_center_delta": {
+          "observed_min": {
+            "value": 0.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2566",
+            "frame": "2104",
+            "frame_t": "36.58639300003415",
+            "ms_from_delivered_up": "-265.7506249961443"
+          },
+          "observed_max": {
+            "value": 22.16567156429744,
+            "source_id": "b9b-swiftui",
+            "source_line": "2615",
+            "frame": "2148",
+            "frame_t": "37.321573083347175",
+            "ms_from_delivered_up": "469.4294583168812"
+          },
+          "tail_min": 22.0,
+          "tail_max": 22.0,
+          "final_observation": {
+            "value": 22.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2676",
+            "frame": "2209",
+            "frame_t": "38.3372295833542",
+            "ms_from_delivered_up": "1485.085958323907"
+          }
+        },
+        "model_base_width": {
+          "observed_min": {
+            "value": 36.04801,
+            "source_id": "b9b-swiftui",
+            "source_line": "2620",
+            "frame": "2153",
+            "frame_t": "37.403939416690264",
+            "ms_from_delivered_up": "551.7957916599698"
+          },
+          "observed_max": {
+            "value": 60.50601,
+            "source_id": "b9b-swiftui",
+            "source_line": "2591",
+            "frame": "2124",
+            "frame_t": "36.92044175002957",
+            "ms_from_delivered_up": "68.29812499927357"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2676",
+            "frame": "2209",
+            "frame_t": "38.3372295833542",
+            "ms_from_delivered_up": "1485.085958323907"
+          }
+        },
+        "model_base_height": {
+          "observed_min": {
+            "value": 23.350231,
+            "source_id": "b9b-swiftui",
+            "source_line": "2620",
+            "frame": "2153",
+            "frame_t": "37.403939416690264",
+            "ms_from_delivered_up": "551.7957916599698"
+          },
+          "observed_max": {
+            "value": 40.043785,
+            "source_id": "b9b-swiftui",
+            "source_line": "2591",
+            "frame": "2124",
+            "frame_t": "36.92044175002957",
+            "ms_from_delivered_up": "68.29812499927357"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2676",
+            "frame": "2209",
+            "frame_t": "38.3372295833542",
+            "ms_from_delivered_up": "1485.085958323907"
+          }
+        },
+        "model_draw_width": {
+          "observed_min": {
+            "value": 35.93559,
+            "source_id": "b9b-swiftui",
+            "source_line": "2619",
+            "frame": "2152",
+            "frame_t": "37.388089500018395",
+            "ms_from_delivered_up": "535.9458749881014"
+          },
+          "observed_max": {
+            "value": 60.54114,
+            "source_id": "b9b-swiftui",
+            "source_line": "2591",
+            "frame": "2124",
+            "frame_t": "36.92044175002957",
+            "ms_from_delivered_up": "68.29812499927357"
+          },
+          "tail_min": 36.999,
+          "tail_max": 37.00017,
+          "final_observation": {
+            "value": 37.000137,
+            "source_id": "b9b-swiftui",
+            "source_line": "2676",
+            "frame": "2209",
+            "frame_t": "38.3372295833542",
+            "ms_from_delivered_up": "1485.085958323907"
+          }
+        },
+        "model_draw_height": {
+          "observed_min": {
+            "value": 23.446033,
+            "source_id": "b9b-swiftui",
+            "source_line": "2621",
+            "frame": "2154",
+            "frame_t": "37.42115170834586",
+            "ms_from_delivered_up": "569.0080833155662"
+          },
+          "observed_max": {
+            "value": 40.012398,
+            "source_id": "b9b-swiftui",
+            "source_line": "2591",
+            "frame": "2124",
+            "frame_t": "36.92044175002957",
+            "ms_from_delivered_up": "68.29812499927357"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.000877,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2676",
+            "frame": "2209",
+            "frame_t": "38.3372295833542",
+            "ms_from_delivered_up": "1485.085958323907"
+          }
+        },
+        "model_center_delta": {
+          "observed_min": {
+            "value": 0.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2566",
+            "frame": "2104",
+            "frame_t": "36.58639300003415",
+            "ms_from_delivered_up": "-265.7506249961443"
+          },
+          "observed_max": {
+            "value": 22.137812614440918,
+            "source_id": "b9b-swiftui",
+            "source_line": "2610",
+            "frame": "2143",
+            "frame_t": "37.2374377916567",
+            "ms_from_delivered_up": "385.2941666264087"
+          },
+          "tail_min": 22.0,
+          "tail_max": 22.0,
+          "final_observation": {
+            "value": 22.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2676",
+            "frame": "2209",
+            "frame_t": "38.3372295833542",
+            "ms_from_delivered_up": "1485.085958323907"
+          }
+        }
+      },
+      "tail": {
+        "frames": 18,
+        "first": {
+          "source_id": "b9b-swiftui",
+          "source_line": "2659",
+          "frame": "2192",
+          "frame_t": "38.055761124996934",
+          "ms_from_delivered_up": "1203.61749996664"
+        },
+        "last": {
+          "source_id": "b9b-swiftui",
+          "source_line": "2676",
+          "frame": "2209",
+          "frame_t": "38.3372295833542",
+          "ms_from_delivered_up": "1485.085958323907"
+        }
+      }
+    },
+    {
+      "segment": "b9b-swiftui-tap12-on-to-off",
+      "events_injected": 2,
+      "frames": 104,
+      "errors": {
+        "base_width": {
+          "rmse": 1.4708041853989218,
+          "max_abs": 6.345001220703125,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2684",
+            "frame": "2215",
+            "frame_t": "38.436996250005905",
+            "ms_from_delivered_up": "-31.927583331707865"
+          }
+        },
+        "base_height": {
+          "rmse": 1.0038822441832613,
+          "max_abs": 4.330715179443359,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2684",
+            "frame": "2215",
+            "frame_t": "38.436996250005905",
+            "ms_from_delivered_up": "-31.927583331707865"
+          }
+        },
+        "draw_width": {
+          "rmse": 1.460274120790064,
+          "max_abs": 6.345001220703125,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2684",
+            "frame": "2215",
+            "frame_t": "38.436996250005905",
+            "ms_from_delivered_up": "-31.927583331707865"
+          }
+        },
+        "draw_height": {
+          "rmse": 1.021037313728609,
+          "max_abs": 4.330715179443359,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2684",
+            "frame": "2215",
+            "frame_t": "38.436996250005905",
+            "ms_from_delivered_up": "-31.927583331707865"
+          }
+        },
+        "center_delta": {
+          "rmse": 0.25305236998959835,
+          "max_abs": 1.3312836798304488,
+          "max_abs_at": {
+            "source_id": "b9b-swiftui",
+            "source_line": "2691",
+            "frame": "2219",
+            "frame_t": "38.503608291677665",
+            "ms_from_delivered_up": "34.684458340052515"
+          }
+        }
+      },
+      "series": {
+        "native_local_width": {
+          "observed_min": {
+            "value": 35.97135064758968,
+            "source_id": "b9b-swiftui",
+            "source_line": "2717",
+            "frame": "2245",
+            "frame_t": "38.970500499999616",
+            "ms_from_delivered_up": "501.57666666200384"
+          },
+          "observed_max": {
+            "value": 60.56986521496784,
+            "source_id": "b9b-swiftui",
+            "source_line": "2694",
+            "frame": "2222",
+            "frame_t": "38.55378766666399",
+            "ms_from_delivered_up": "84.8638333263807"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2776",
+            "frame": "2304",
+            "frame_t": "39.95391216670396",
+            "ms_from_delivered_up": "1484.9883333663456"
+          }
+        },
+        "native_local_height": {
+          "observed_min": {
+            "value": 23.29790599756121,
+            "source_id": "b9b-swiftui",
+            "source_line": "2717",
+            "frame": "2245",
+            "frame_t": "38.970500499999616",
+            "ms_from_delivered_up": "501.57666666200384"
+          },
+          "observed_max": {
+            "value": 40.087368321327254,
+            "source_id": "b9b-swiftui",
+            "source_line": "2694",
+            "frame": "2222",
+            "frame_t": "38.55378766666399",
+            "ms_from_delivered_up": "84.8638333263807"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2776",
+            "frame": "2304",
+            "frame_t": "39.95391216670396",
+            "ms_from_delivered_up": "1484.9883333663456"
+          }
+        },
+        "native_world_center_delta": {
+          "observed_min": {
+            "value": -22.173118996638095,
+            "source_id": "b9b-swiftui",
+            "source_line": "2715",
+            "frame": "2243",
+            "frame_t": "38.937057833361905",
+            "ms_from_delivered_up": "468.1340000242926"
+          },
+          "observed_max": {
+            "value": 0.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2668",
+            "frame": "2201",
+            "frame_t": "38.20557687501423",
+            "ms_from_delivered_up": "-263.34695832338184"
+          },
+          "tail_min": -22.0,
+          "tail_max": -22.0,
+          "final_observation": {
+            "value": -22.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2776",
+            "frame": "2304",
+            "frame_t": "39.95391216670396",
+            "ms_from_delivered_up": "1484.9883333663456"
+          }
+        },
+        "model_base_width": {
+          "observed_min": {
+            "value": 36.0481,
+            "source_id": "b9b-swiftui",
+            "source_line": "2720",
+            "frame": "2248",
+            "frame_t": "39.02140850003343",
+            "ms_from_delivered_up": "552.4846666958183"
+          },
+          "observed_max": {
+            "value": 60.50888,
+            "source_id": "b9b-swiftui",
+            "source_line": "2693",
+            "frame": "2221",
+            "frame_t": "38.536831958335824",
+            "ms_from_delivered_up": "67.90812499821186"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2776",
+            "frame": "2304",
+            "frame_t": "39.95391216670396",
+            "ms_from_delivered_up": "1484.9883333663456"
+          }
+        },
+        "model_base_height": {
+          "observed_min": {
+            "value": 23.35029,
+            "source_id": "b9b-swiftui",
+            "source_line": "2720",
+            "frame": "2248",
+            "frame_t": "39.02140850003343",
+            "ms_from_delivered_up": "552.4846666958183"
+          },
+          "observed_max": {
+            "value": 40.045746,
+            "source_id": "b9b-swiftui",
+            "source_line": "2693",
+            "frame": "2221",
+            "frame_t": "38.536831958335824",
+            "ms_from_delivered_up": "67.90812499821186"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2776",
+            "frame": "2304",
+            "frame_t": "39.95391216670396",
+            "ms_from_delivered_up": "1484.9883333663456"
+          }
+        },
+        "model_draw_width": {
+          "observed_min": {
+            "value": 36.15136,
+            "source_id": "b9b-swiftui",
+            "source_line": "2720",
+            "frame": "2248",
+            "frame_t": "39.02140850003343",
+            "ms_from_delivered_up": "552.4846666958183"
+          },
+          "observed_max": {
+            "value": 60.47122,
+            "source_id": "b9b-swiftui",
+            "source_line": "2693",
+            "frame": "2221",
+            "frame_t": "38.536831958335824",
+            "ms_from_delivered_up": "67.90812499821186"
+          },
+          "tail_min": 36.999805,
+          "tail_max": 37.00094,
+          "final_observation": {
+            "value": 36.99985,
+            "source_id": "b9b-swiftui",
+            "source_line": "2776",
+            "frame": "2304",
+            "frame_t": "39.95391216670396",
+            "ms_from_delivered_up": "1484.9883333663456"
+          }
+        },
+        "model_draw_height": {
+          "observed_min": {
+            "value": 23.410728,
+            "source_id": "b9b-swiftui",
+            "source_line": "2720",
+            "frame": "2248",
+            "frame_t": "39.02140850003343",
+            "ms_from_delivered_up": "552.4846666958183"
+          },
+          "observed_max": {
+            "value": 40.079395,
+            "source_id": "b9b-swiftui",
+            "source_line": "2693",
+            "frame": "2221",
+            "frame_t": "38.536831958335824",
+            "ms_from_delivered_up": "67.90812499821186"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.000168,
+          "final_observation": {
+            "value": 24.000132,
+            "source_id": "b9b-swiftui",
+            "source_line": "2776",
+            "frame": "2304",
+            "frame_t": "39.95391216670396",
+            "ms_from_delivered_up": "1484.9883333663456"
+          }
+        },
+        "model_center_delta": {
+          "observed_min": {
+            "value": -22.137930631637573,
+            "source_id": "b9b-swiftui",
+            "source_line": "2710",
+            "frame": "2238",
+            "frame_t": "38.85351437499048",
+            "ms_from_delivered_up": "384.59054165286943"
+          },
+          "observed_max": {
+            "value": 0.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2668",
+            "frame": "2201",
+            "frame_t": "38.20557687501423",
+            "ms_from_delivered_up": "-263.34695832338184"
+          },
+          "tail_min": -22.0,
+          "tail_max": -22.0,
+          "final_observation": {
+            "value": -22.0,
+            "source_id": "b9b-swiftui",
+            "source_line": "2776",
+            "frame": "2304",
+            "frame_t": "39.95391216670396",
+            "ms_from_delivered_up": "1484.9883333663456"
+          }
+        }
+      },
+      "tail": {
+        "frames": 18,
+        "first": {
+          "source_id": "b9b-swiftui",
+          "source_line": "2759",
+          "frame": "2287",
+          "frame_t": "39.67150058335392",
+          "ms_from_delivered_up": "1202.5767500163056"
+        },
+        "last": {
+          "source_id": "b9b-swiftui",
+          "source_line": "2776",
+          "frame": "2304",
+          "frame_t": "39.95391216670396",
+          "ms_from_delivered_up": "1484.9883333663456"
+        }
+      }
+    },
+    {
+      "segment": "grid-uikit-tap6-off-to-on",
+      "events_injected": 2,
+      "frames": 107,
+      "errors": {
+        "base_width": {
+          "rmse": 1.4388296949920754,
+          "max_abs": 6.198875427246094,
+          "max_abs_at": {
+            "source_id": "grid-uikit",
+            "source_line": "1294",
+            "frame": "1146",
+            "frame_t": "19.93682729167631",
+            "ms_from_delivered_up": "-49.42404170287773"
+          }
+        },
+        "base_height": {
+          "rmse": 0.9820582695259792,
+          "max_abs": 4.230976104736328,
+          "max_abs_at": {
+            "source_id": "grid-uikit",
+            "source_line": "1294",
+            "frame": "1146",
+            "frame_t": "19.93682729167631",
+            "ms_from_delivered_up": "-49.42404170287773"
+          }
+        },
+        "draw_width": {
+          "rmse": 1.457786784762477,
+          "max_abs": 6.198875427246094,
+          "max_abs_at": {
+            "source_id": "grid-uikit",
+            "source_line": "1294",
+            "frame": "1146",
+            "frame_t": "19.93682729167631",
+            "ms_from_delivered_up": "-49.42404170287773"
+          }
+        },
+        "draw_height": {
+          "rmse": 0.9714203479330789,
+          "max_abs": 4.230976104736328,
+          "max_abs_at": {
+            "source_id": "grid-uikit",
+            "source_line": "1294",
+            "frame": "1146",
+            "frame_t": "19.93682729167631",
+            "ms_from_delivered_up": "-49.42404170287773"
+          }
+        },
+        "center_delta": {
+          "rmse": 0.23096040289979108,
+          "max_abs": 1.22121608875932,
+          "max_abs_at": {
+            "source_id": "grid-uikit",
+            "source_line": "1302",
+            "frame": "1151",
+            "frame_t": "20.019987291714642",
+            "ms_from_delivered_up": "33.73595833545551"
+          }
+        }
+      },
+      "series": {
+        "native_local_width": {
+          "observed_min": {
+            "value": 36.029470932415606,
+            "source_id": "grid-uikit",
+            "source_line": "1330",
+            "frame": "1179",
+            "frame_t": "20.487099166668486",
+            "ms_from_delivered_up": "500.84783328929916"
+          },
+          "observed_max": {
+            "value": 60.55694928298156,
+            "source_id": "grid-uikit",
+            "source_line": "1304",
+            "frame": "1153",
+            "frame_t": "20.05353483336512",
+            "ms_from_delivered_up": "67.2834999859333"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "grid-uikit",
+            "source_line": "1389",
+            "frame": "1238",
+            "frame_t": "21.472539833339397",
+            "ms_from_delivered_up": "1486.2884999602102"
+          }
+        },
+        "native_local_height": {
+          "observed_min": {
+            "value": 23.337575398315415,
+            "source_id": "grid-uikit",
+            "source_line": "1330",
+            "frame": "1179",
+            "frame_t": "20.487099166668486",
+            "ms_from_delivered_up": "500.84783328929916"
+          },
+          "observed_max": {
+            "value": 40.078552685209644,
+            "source_id": "grid-uikit",
+            "source_line": "1304",
+            "frame": "1153",
+            "frame_t": "20.05353483336512",
+            "ms_from_delivered_up": "67.2834999859333"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "grid-uikit",
+            "source_line": "1389",
+            "frame": "1238",
+            "frame_t": "21.472539833339397",
+            "ms_from_delivered_up": "1486.2884999602102"
+          }
+        },
+        "native_world_center_delta": {
+          "observed_min": {
+            "value": 0.0,
+            "source_id": "grid-uikit",
+            "source_line": "1278",
+            "frame": "1132",
+            "frame_t": "19.70534295833204",
+            "ms_from_delivered_up": "-280.9083750471473"
+          },
+          "observed_max": {
+            "value": 22.165662913801896,
+            "source_id": "grid-uikit",
+            "source_line": "1328",
+            "frame": "1177",
+            "frame_t": "20.453396124998108",
+            "ms_from_delivered_up": "467.14479161892086"
+          },
+          "tail_min": 22.0,
+          "tail_max": 22.0,
+          "final_observation": {
+            "value": 22.0,
+            "source_id": "grid-uikit",
+            "source_line": "1389",
+            "frame": "1238",
+            "frame_t": "21.472539833339397",
+            "ms_from_delivered_up": "1486.2884999602102"
+          }
+        },
+        "model_base_width": {
+          "observed_min": {
+            "value": 36.04626,
+            "source_id": "grid-uikit",
+            "source_line": "1333",
+            "frame": "1182",
+            "frame_t": "20.537003333331086",
+            "ms_from_delivered_up": "550.751999951899"
+          },
+          "observed_max": {
+            "value": 60.510258,
+            "source_id": "grid-uikit",
+            "source_line": "1303",
+            "frame": "1152",
+            "frame_t": "20.036691749992315",
+            "ms_from_delivered_up": "50.440416613128036"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "grid-uikit",
+            "source_line": "1389",
+            "frame": "1238",
+            "frame_t": "21.472539833339397",
+            "ms_from_delivered_up": "1486.2884999602102"
+          }
+        },
+        "model_base_height": {
+          "observed_min": {
+            "value": 23.349035,
+            "source_id": "grid-uikit",
+            "source_line": "1333",
+            "frame": "1182",
+            "frame_t": "20.537003333331086",
+            "ms_from_delivered_up": "550.751999951899"
+          },
+          "observed_max": {
+            "value": 40.046684,
+            "source_id": "grid-uikit",
+            "source_line": "1303",
+            "frame": "1152",
+            "frame_t": "20.036691749992315",
+            "ms_from_delivered_up": "50.440416613128036"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "grid-uikit",
+            "source_line": "1389",
+            "frame": "1238",
+            "frame_t": "21.472539833339397",
+            "ms_from_delivered_up": "1486.2884999602102"
+          }
+        },
+        "model_draw_width": {
+          "observed_min": {
+            "value": 35.93337,
+            "source_id": "grid-uikit",
+            "source_line": "1332",
+            "frame": "1181",
+            "frame_t": "20.52025329170283",
+            "ms_from_delivered_up": "534.0019583236426"
+          },
+          "observed_max": {
+            "value": 60.524445,
+            "source_id": "grid-uikit",
+            "source_line": "1303",
+            "frame": "1152",
+            "frame_t": "20.036691749992315",
+            "ms_from_delivered_up": "50.440416613128036"
+          },
+          "tail_min": 36.998997,
+          "tail_max": 37.000225,
+          "final_observation": {
+            "value": 37.000145,
+            "source_id": "grid-uikit",
+            "source_line": "1389",
+            "frame": "1238",
+            "frame_t": "21.472539833339397",
+            "ms_from_delivered_up": "1486.2884999602102"
+          }
+        },
+        "model_draw_height": {
+          "observed_min": {
+            "value": 23.445894,
+            "source_id": "grid-uikit",
+            "source_line": "1334",
+            "frame": "1183",
+            "frame_t": "20.553736875008326",
+            "ms_from_delivered_up": "567.4855416291393"
+          },
+          "observed_max": {
+            "value": 40.034008,
+            "source_id": "grid-uikit",
+            "source_line": "1303",
+            "frame": "1152",
+            "frame_t": "20.036691749992315",
+            "ms_from_delivered_up": "50.440416613128036"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.000877,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "grid-uikit",
+            "source_line": "1389",
+            "frame": "1238",
+            "frame_t": "21.472539833339397",
+            "ms_from_delivered_up": "1486.2884999602102"
+          }
+        },
+        "model_center_delta": {
+          "observed_min": {
+            "value": 0.0,
+            "source_id": "grid-uikit",
+            "source_line": "1278",
+            "frame": "1132",
+            "frame_t": "19.70534295833204",
+            "ms_from_delivered_up": "-280.9083750471473"
+          },
+          "observed_max": {
+            "value": 22.13805651664734,
+            "source_id": "grid-uikit",
+            "source_line": "1323",
+            "frame": "1172",
+            "frame_t": "20.369972500018775",
+            "ms_from_delivered_up": "383.7211666395888"
+          },
+          "tail_min": 22.0,
+          "tail_max": 22.0,
+          "final_observation": {
+            "value": 22.0,
+            "source_id": "grid-uikit",
+            "source_line": "1389",
+            "frame": "1238",
+            "frame_t": "21.472539833339397",
+            "ms_from_delivered_up": "1486.2884999602102"
+          }
+        }
+      },
+      "tail": {
+        "frames": 18,
+        "first": {
+          "source_id": "grid-uikit",
+          "source_line": "1372",
+          "frame": "1221",
+          "frame_t": "21.18680379167199",
+          "ms_from_delivered_up": "1200.5524582928047"
+        },
+        "last": {
+          "source_id": "grid-uikit",
+          "source_line": "1389",
+          "frame": "1238",
+          "frame_t": "21.472539833339397",
+          "ms_from_delivered_up": "1486.2884999602102"
+        }
+      }
+    },
+    {
+      "segment": "grid-uikit-tap7-on-to-off",
+      "events_injected": 2,
+      "frames": 103,
+      "errors": {
+        "base_width": {
+          "rmse": 1.0245149068993216,
+          "max_abs": 6.943271636962891,
+          "max_abs_at": {
+            "source_id": "grid-uikit",
+            "source_line": "1446",
+            "frame": "1291",
+            "frame_t": "22.404532083368395",
+            "ms_from_delivered_up": "1.654208346735686"
+          }
+        },
+        "base_height": {
+          "rmse": 0.6992721319584969,
+          "max_abs": 4.7390594482421875,
+          "max_abs_at": {
+            "source_id": "grid-uikit",
+            "source_line": "1446",
+            "frame": "1291",
+            "frame_t": "22.404532083368395",
+            "ms_from_delivered_up": "1.654208346735686"
+          }
+        },
+        "draw_width": {
+          "rmse": 1.0536484076411945,
+          "max_abs": 6.943271636962891,
+          "max_abs_at": {
+            "source_id": "grid-uikit",
+            "source_line": "1446",
+            "frame": "1291",
+            "frame_t": "22.404532083368395",
+            "ms_from_delivered_up": "1.654208346735686"
+          }
+        },
+        "draw_height": {
+          "rmse": 0.6825662312249086,
+          "max_abs": 4.7390594482421875,
+          "max_abs_at": {
+            "source_id": "grid-uikit",
+            "source_line": "1446",
+            "frame": "1291",
+            "frame_t": "22.404532083368395",
+            "ms_from_delivered_up": "1.654208346735686"
+          }
+        },
+        "center_delta": {
+          "rmse": 0.23355487782738796,
+          "max_abs": 1.2191620977991988,
+          "max_abs_at": {
+            "source_id": "grid-uikit",
+            "source_line": "1449",
+            "frame": "1293",
+            "frame_t": "22.43659600004321",
+            "ms_from_delivered_up": "33.718125021550804"
+          }
+        }
+      },
+      "series": {
+        "native_local_width": {
+          "observed_min": {
+            "value": 35.97172872779751,
+            "source_id": "grid-uikit",
+            "source_line": "1479",
+            "frame": "1323",
+            "frame_t": "22.936573416693136",
+            "ms_from_delivered_up": "533.6955416714773"
+          },
+          "observed_max": {
+            "value": 60.57230419255488,
+            "source_id": "grid-uikit",
+            "source_line": "1454",
+            "frame": "1298",
+            "frame_t": "22.52011050004512",
+            "ms_from_delivered_up": "117.23262502346188"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "grid-uikit",
+            "source_line": "1536",
+            "frame": "1380",
+            "frame_t": "23.88818441668991",
+            "ms_from_delivered_up": "1485.3065416682512"
+          }
+        },
+        "native_local_height": {
+          "observed_min": {
+            "value": 23.29816405230623,
+            "source_id": "grid-uikit",
+            "source_line": "1479",
+            "frame": "1323",
+            "frame_t": "22.936573416693136",
+            "ms_from_delivered_up": "533.6955416714773"
+          },
+          "observed_max": {
+            "value": 40.089033020315235,
+            "source_id": "grid-uikit",
+            "source_line": "1454",
+            "frame": "1298",
+            "frame_t": "22.52011050004512",
+            "ms_from_delivered_up": "117.23262502346188"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "grid-uikit",
+            "source_line": "1536",
+            "frame": "1380",
+            "frame_t": "23.88818441668991",
+            "ms_from_delivered_up": "1485.3065416682512"
+          }
+        },
+        "native_world_center_delta": {
+          "observed_min": {
+            "value": -22.17368583043458,
+            "source_id": "grid-uikit",
+            "source_line": "1475",
+            "frame": "1319",
+            "frame_t": "22.869957458344288",
+            "ms_from_delivered_up": "467.07958332262933"
+          },
+          "observed_max": {
+            "value": 0.0,
+            "source_id": "grid-uikit",
+            "source_line": "1429",
+            "frame": "1278",
+            "frame_t": "22.17088866670383",
+            "ms_from_delivered_up": "-231.98920831782743"
+          },
+          "tail_min": -22.0,
+          "tail_max": -22.0,
+          "final_observation": {
+            "value": -22.0,
+            "source_id": "grid-uikit",
+            "source_line": "1536",
+            "frame": "1380",
+            "frame_t": "23.88818441668991",
+            "ms_from_delivered_up": "1485.3065416682512"
+          }
+        },
+        "model_base_width": {
+          "observed_min": {
+            "value": 36.04345,
+            "source_id": "grid-uikit",
+            "source_line": "1480",
+            "frame": "1324",
+            "frame_t": "22.953301541681867",
+            "ms_from_delivered_up": "550.4236666602083"
+          },
+          "observed_max": {
+            "value": 60.50525,
+            "source_id": "grid-uikit",
+            "source_line": "1453",
+            "frame": "1297",
+            "frame_t": "22.503262291662395",
+            "ms_from_delivered_up": "100.38441664073616"
+          },
+          "tail_min": 37.0,
+          "tail_max": 37.0,
+          "final_observation": {
+            "value": 37.0,
+            "source_id": "grid-uikit",
+            "source_line": "1536",
+            "frame": "1380",
+            "frame_t": "23.88818441668991",
+            "ms_from_delivered_up": "1485.3065416682512"
+          }
+        },
+        "model_base_height": {
+          "observed_min": {
+            "value": 23.347116,
+            "source_id": "grid-uikit",
+            "source_line": "1480",
+            "frame": "1324",
+            "frame_t": "22.953301541681867",
+            "ms_from_delivered_up": "550.4236666602083"
+          },
+          "observed_max": {
+            "value": 40.043266,
+            "source_id": "grid-uikit",
+            "source_line": "1453",
+            "frame": "1297",
+            "frame_t": "22.503262291662395",
+            "ms_from_delivered_up": "100.38441664073616"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.0,
+          "final_observation": {
+            "value": 24.0,
+            "source_id": "grid-uikit",
+            "source_line": "1536",
+            "frame": "1380",
+            "frame_t": "23.88818441668991",
+            "ms_from_delivered_up": "1485.3065416682512"
+          }
+        },
+        "model_draw_width": {
+          "observed_min": {
+            "value": 36.149048,
+            "source_id": "grid-uikit",
+            "source_line": "1480",
+            "frame": "1324",
+            "frame_t": "22.953301541681867",
+            "ms_from_delivered_up": "550.4236666602083"
+          },
+          "observed_max": {
+            "value": 60.397137,
+            "source_id": "grid-uikit",
+            "source_line": "1453",
+            "frame": "1297",
+            "frame_t": "22.503262291662395",
+            "ms_from_delivered_up": "100.38441664073616"
+          },
+          "tail_min": 36.999813,
+          "tail_max": 37.000942,
+          "final_observation": {
+            "value": 36.999847,
+            "source_id": "grid-uikit",
+            "source_line": "1536",
+            "frame": "1380",
+            "frame_t": "23.88818441668991",
+            "ms_from_delivered_up": "1485.3065416682512"
+          }
+        },
+        "model_draw_height": {
+          "observed_min": {
+            "value": 23.40785,
+            "source_id": "grid-uikit",
+            "source_line": "1480",
+            "frame": "1324",
+            "frame_t": "22.953301541681867",
+            "ms_from_delivered_up": "550.4236666602083"
+          },
+          "observed_max": {
+            "value": 40.13986,
+            "source_id": "grid-uikit",
+            "source_line": "1453",
+            "frame": "1297",
+            "frame_t": "22.503262291662395",
+            "ms_from_delivered_up": "100.38441664073616"
+          },
+          "tail_min": 24.0,
+          "tail_max": 24.000164,
+          "final_observation": {
+            "value": 24.000132,
+            "source_id": "grid-uikit",
+            "source_line": "1536",
+            "frame": "1380",
+            "frame_t": "23.88818441668991",
+            "ms_from_delivered_up": "1485.3065416682512"
+          }
+        },
+        "model_center_delta": {
+          "observed_min": {
+            "value": -22.13804864883423,
+            "source_id": "grid-uikit",
+            "source_line": "1470",
+            "frame": "1314",
+            "frame_t": "22.786652875016443",
+            "ms_from_delivered_up": "383.7749999947846"
+          },
+          "observed_max": {
+            "value": 0.0,
+            "source_id": "grid-uikit",
+            "source_line": "1429",
+            "frame": "1278",
+            "frame_t": "22.17088866670383",
+            "ms_from_delivered_up": "-231.98920831782743"
+          },
+          "tail_min": -22.0,
+          "tail_max": -22.0,
+          "final_observation": {
+            "value": -22.0,
+            "source_id": "grid-uikit",
+            "source_line": "1536",
+            "frame": "1380",
+            "frame_t": "23.88818441668991",
+            "ms_from_delivered_up": "1485.3065416682512"
+          }
+        }
+      },
+      "tail": {
+        "frames": 18,
+        "first": {
+          "source_id": "grid-uikit",
+          "source_line": "1519",
+          "frame": "1363",
+          "frame_t": "23.60581550002098",
+          "ms_from_delivered_up": "1202.937624999322"
+        },
+        "last": {
+          "source_id": "grid-uikit",
+          "source_line": "1536",
+          "frame": "1380",
+          "frame_t": "23.88818441668991",
+          "ms_from_delivered_up": "1485.3065416682512"
+        }
+      }
+    }
+  ],
+  "figure": {
+    "path": "native-core-model.svg",
+    "sha256": "baddcd3927528f1ca72fa472dbf698ccf556ebf697b2ec4a41ad21386d7c0193",
+    "segments_preselected_by_input_order": [
+      "b9b-swiftui-tap7-off-to-on",
+      "b9b-swiftui-tap8-on-to-off"
+    ],
+    "time_axis": "Unmodified ms_from_delivered_up",
+    "gap_rule": "Disconnect if consecutive frame_t OR displayTimestamp differs by >25 ms"
+  }
+}

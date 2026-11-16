@@ -4,7 +4,7 @@
 
 [简体中文](README.md) · [Architecture and API boundaries](docs/architecture.md) · [Experimental data and figures](docs/evidence/RESULTS.md) · [Panel material study](docs/panel-material-study.md) · [Controlled optical studies and assets](docs/controlled-optical-studies.md) · [Validation record](VALIDATION.md) · [Contributing](CONTRIBUTING.md) · [Research fixture sources](research/slider-fixtures/README.en.md)
 [Research ownership and migration](research/sleepy-research-migration-20261116/README.en.md) — Sleepy retains application changes and necessary regressions; research entry points, reports and assets are published here.
-[Four-round Android Slider acquisition archive](research/slider-android-response-20261116/README.en.md) — Original captures, the frozen analyzer's schema rejection, and its post-acquisition compatibility repair are preserved separately; response analysis and optical acceptance remain incomplete.
+[Four-round Android Slider acquisition archive](research/slider-android-response-20261116/README.en.md) — Original captures, schema rejection and post-acquisition compatible analysis remain separate. The geometry gate failed; these outputs cannot identify optical parameters.
 
 This project extracts Sleepy's input clock, spring motion, acceleration-driven deformation, continuous corners, AGSL materials, and external-backdrop sampling into independent source modules. Its purpose is to make position, shape, material, and interaction timing separately measurable and reproducible, so Compose developers can build glass interfaces that respond to real backgrounds and input.
 
@@ -59,7 +59,7 @@ The public `backdrop` module starts from a pinned commit of Kyant's **official A
 
 | Control | Primitives available in the public runtime | Complete drop-in public Compose control | Evidence and remaining work |
 | --- | --- | --- | --- |
-| Toggle | Press, rise/fall, selected-position, and motion primitives; a simplified sample shape | Not yet provided | Native hold→release reference frames are available; ordinary taps and matched Android natural-time / pixel validation remain outstanding |
+| Toggle | Press, rise/fall, selected-position, and motion primitives; a simplified sample shape | Not yet provided | Native hold→release and eight ordinary taps are available; matched Android natural-time / pixel validation remains outstanding |
 | Tab / segmented control | Segmented endpoint and motion parameters | Not yet provided | Fast-drag center residuals remain; Dock results cannot be transferred to this control |
 | Dock | Parent translation, lens motion, deformation, contour, and material primitives | Not yet provided | Parent-carrier translation improves quantitatively; platter optics, history-dependent foreground response, and release still differ |
 | Single-thumb slider | Independent acceleration-driven deformation, endpoint response model, and material primitives | Not yet provided | Conditional axial deformation is measurable; the retrospective held-overdrag fit does not explain release peaks |
@@ -241,7 +241,7 @@ The five prior studies and new midpoint packet retain relative paths, original p
 
 ![Signed G response at one native pixel and model compatibility in prespecified regions](research/slider-signedG-response-20261116/figures/signed-G-response-and-compatibility.png)
 
-The [external Android research entry point](research/slider-android-host/README.md) also lives solely in this asset repository and requires explicit Gradle init arguments to use the application test host. Preparation and static checks passed; Gradle compilation through this entry point remains unverified. Sleepy consumer PRs contain application code and necessary regressions only; the [publication-scope record](provenance/publication-boundary-20261116.json) records the eight files in merged PR #442.
+The [external Android research entry point](research/slider-android-host/README.md) also lives solely in this asset repository and requires explicit Gradle init arguments to use the application test host. The [four-round archive](research/slider-android-response-20261116/README.en.md) preserves its historical compilation and execution identities. The new language-terminal and slider-layer observers passed a [combined build](research/control-regression-diagnostics-20261116/host-integration-observed/README.md), with device execution still pending. Sleepy consumer PRs contain application code and necessary regressions only; the [publication-scope record](provenance/publication-boundary-20261116.json) records the eight files in merged PR #442.
 
 ### 4.6 Toggle: publish the visible native hold→release reference
 
@@ -254,6 +254,10 @@ The [external Android research entry point](research/slider-android-host/README.
 A fixed 10 × 10 source-pixel center patch, while the lens is stationary, gives approximate white-mixture proxies of **0.72, 0.15, 0.03, and 0.00** at about **50, 84, 100, and 117 ms** after DOWN. The proxy projects observed RGB between settled HELD color and white. It is **not native layer alpha or physical transmittance**; the traced native holder itself remains opacity 1. Video / trace registration has roughly one frame of uncertainty, and decoded-video quantization and backdrop response affect the values.
 
 That fixed patch cannot measure release opacity while the lens crosses different background and track colors. Position, rise, white-body disappearance, theme fill, and contraction need separate observations. This subset has no matching Android optical run, and the simplified sample does not establish Toggle parity. Source records and the small proxy table are linked from the [evidence atlas](docs/evidence/RESULTS.md#6-toggle-visible-rise-and-release-reference-native-only).
+
+**2026-11-16 · Ordinary taps recorded separately.** The [eight-tap native reference](research/toggle-tap-native26-20261116/README.md) retains zero-movement DOWN/UP input, 838 window-frame records and actual sampling gaps. Its figure uses original times without fitting, interpolation or retiming. Carrier opacity is not material alpha, and a hold sequence is not substituted for a tap. A separate [JVM replay against the real runtime](research/toggle-tap-model26-20261116/README.md) remains a core-model diagnostic, distinct from Android rendering, pixels and natural-time acceptance.
+
+![Figure 8c: width, height and center displacement of eight iOS 26.5 ordinary taps; native observations only](research/toggle-tap-native26-20261116/native-tap-curves.svg)
 
 ### 4.7 Alert / Sheet: a bounded highlight budget, with refraction still unresolved
 

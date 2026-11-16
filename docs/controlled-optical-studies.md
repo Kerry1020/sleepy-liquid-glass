@@ -8,7 +8,7 @@
 
 2026-11-16 新增的[滑杆 RGB 响应诊断](glass-slider-rgb-response-diagnostic.md)单列原生八轮／16 张正式截图、六图、冻结协议、独立区间核查及便携重放。该研究不改变本文 Dock 历史结论，也不代表滑杆产品验收。所有研究入口、采集夹具、报告、图像与曲线只发布在本独立资产仓库；Sleepy 应用 PR 仅包含应用代码与必要回归测试。
 
-同日的[有符号 G 补充](../research/slider-signedG-response-20261116/README.md)增加四轮／8 张原生截图，区分有限步进下的仿射、裁切仿射与单调相容性；[原矩阵拟合说明](../research/slider-color-model-20261116/README.md)保留未裁切假设及其解释纠正。[Android 外置入口](../research/slider-android-host/README.md)只在显式 opt-in 时加载，静态准备通过，尚未通过入口编译或设备采集。
+同日的[有符号 G 补充](../research/slider-signedG-response-20261116/README.md)增加四轮／8 张原生截图，区分有限步进下的仿射、裁切仿射与单调相容性；[原矩阵拟合说明](../research/slider-color-model-20261116/README.md)保留未裁切假设及其解释纠正。[Android 外置入口](../research/slider-android-host/README.md)只在显式 opt-in 时加载；[四轮归档](../research/slider-android-response-20261116/README.md)保留当时的编译、设备采集与采后分析身份，几何门槛失败不能写成光学通过。
 
 ## 1. 证据边界
 

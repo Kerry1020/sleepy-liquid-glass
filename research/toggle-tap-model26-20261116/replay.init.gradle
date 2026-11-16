@@ -1,0 +1,42 @@
+import groovy.json.JsonSlurper
+import java.security.MessageDigest
+import org.gradle.api.tasks.JavaExec
+import org.gradle.api.tasks.testing.Test
+
+// Inert without both the explicit -I and -PglassToggleReplayStudy opt-in.
+gradle.projectsEvaluated {
+    def app = gradle.rootProject.findProject(':app')
+    def supplied = app?.findProperty('glassToggleReplayStudy')
+    if (!supplied) return
+    def study = app.file(supplied).canonicalFile
+    if (study.toPath().startsWith(gradle.rootProject.projectDir.canonicalFile.toPath())) {
+        throw new GradleException('Replay study must stay outside Sleepy')
+    }
+    def unitTests = app.tasks.named('testDebugUnitTest', Test).get()
+    app.tasks.register('replayGlassToggleNative26', JavaExec) {
+        group = 'verification'
+        description = 'Explicit external Toggle core-model replay; no GPU/optical acceptance'
+        dependsOn(app.tasks.named('compileDebugUnitTestKotlin'))
+        classpath = unitTests.classpath
+        javaLauncher.set(unitTests.javaLauncher)
+        mainClass.set(new File(study, 'Replay.java').absolutePath)
+        args(new File(study, 'prepared').absolutePath, new File(study, 'replay.csv').absolutePath)
+        doFirst {
+            def receipt = new JsonSlurper().parse(new File(study, 'prepared/preparation.json'))
+            def digest = { File f -> MessageDigest.getInstance('SHA-256').digest(f.bytes).encodeHex().toString() }
+            receipt.host_sources.each { path, hash ->
+                if (digest(new File(gradle.rootProject.projectDir, path)) != hash)
+                    throw new GradleException("Host source changed after preparation: ${path}")
+            }
+            receipt.study_sources.each { path, hash ->
+                if (digest(new File(study, path)) != hash)
+                    throw new GradleException("Study source changed after preparation: ${path}")
+            }
+            receipt.prepared_files.each { path, hash ->
+                if (digest(new File(study, "prepared/${path}")) != hash)
+                    throw new GradleException("Prepared input changed: ${path}")
+            }
+            if (new File(study, 'replay.csv').exists()) throw new GradleException('Refusing to overwrite replay.csv')
+        }
+    }
+}
