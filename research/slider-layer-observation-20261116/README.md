@@ -1,5 +1,7 @@
 # Slider layer observation, 2026-11-16
 
+Current integration checkpoint: The new observer and test compiled successfully in the [combined external build](../control-regression-diagnostics-20261116/host-integration-observed/README.md). Initial preparation statements below describe the earlier handoff. Runtime execution remains pending: no connected ADB device was available, and compilation is not geometry, material or optical acceptance.
+
 This is a new, small external instrumentation study. It observes the actual production `GlassSlider` on a light flat128 background. It does not edit Sleepy, its renderer, its build configuration, the frozen 71KB optical fixture, or any old capture. The sources are injected only through an explicit external Gradle init script, following the existing [external host](../slider-android-host/README.md) convention. They use a separate `sliderlayerresearch` package and require Compose UI1.12.1.
 
 There is no optical or geometry acceptance result here. Implementation checks did not build, install or run an APK. The parent task owns compilation and device execution; record those results separately from this source handoff.

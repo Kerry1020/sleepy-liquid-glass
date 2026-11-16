@@ -1,0 +1,202 @@
+
+> Configure project :app
+Explicit observed terminal geometry source attached: <asset-repository>/research/language-settled-observation-20261116/prepared/sources/com/lingion/sleepy/ui/component/AssetLanguageObservedTerminalGeometryTest.kt
+
+> Task :app:prepareRuntimeAssets UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :kyant-backdrop:androidPreBuild UP-TO-DATE
+> Task :kyant-backdrop:preAndroidMainBuild UP-TO-DATE
+> Task :kyant-backdrop:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :liquid-glass-runtime:androidPreBuild UP-TO-DATE
+> Task :liquid-glass-runtime:preAndroidMainBuild UP-TO-DATE
+> Task :liquid-glass-runtime:generateAndroidMainEmptyResourceFiles UP-TO-DATE
+> Task :app:processDebugNavigationResources FAILED
+
+[Incubating] Problems report is available at: file://<sleepy-repository>/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Initialization script '<asset-repository>/research/slider-layer-observation-20261116/overlay.init.gradle' line: 49
+
+* What went wrong:
+Execution failed for task ':app:processDebugNavigationResources' (registered by plugin 'com.android.internal.application').
+> Could not resolve all artifacts for configuration ':app:debugRuntimeClasspath'.
+   > The consumer was configured to find a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'com.android.build.api.attributes.BuildTypeAttr' with value 'debug', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm'. However we cannot choose between the following variants of project ':liquid-glass-runtime':
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-aar-metadata' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-aar-metadata' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-art-profile' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-art-profile' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-assets' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-assets' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-classes-jar' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-classes-jar' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-compiled-dependencies-resources' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-compiled-dependencies-resources' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-consumer-proguard-rules' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-consumer-proguard-rules' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-java-res' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-java-res' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-jni' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-jni' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-lint' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-lint' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-lint-local-aar' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-lint-local-aar' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-manifest' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-manifest' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-navigation-xml' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-navigation-xml' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-public-res' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-public-res' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-res' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-res' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-res-source-set-mapping' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-res-source-set-mapping' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-symbol' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-symbol' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'android-symbol-with-package-name' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-symbol-with-package-name' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':liquid-glass-runtime:androidRuntimeElements' variant 'jar' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'jar' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+   > The consumer was configured to find a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'com.android.build.api.attributes.BuildTypeAttr' with value 'debug', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm'. However we cannot choose between the following variants of project ':kyant-backdrop':
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'android-aar-metadata' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-aar-metadata' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'android-art-profile' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-art-profile' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'android-classes-jar' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-classes-jar' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'android-consumer-proguard-rules' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-consumer-proguard-rules' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'android-java-res' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-java-res' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'android-jni' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-jni' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'android-lint' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-lint' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'android-lint-local-aar' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-lint-local-aar' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'android-manifest' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-manifest' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'android-navigation-xml' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-navigation-xml' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'android-res' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-res' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'android-symbol' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'android-symbol' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+       - Configuration ':kyant-backdrop:androidRuntimeElements' variant 'jar' declares a library for use during runtime, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '9.5.1', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm':
+           - Unmatched attributes:
+               - Doesn't say anything about com.android.build.api.attributes.BuildTypeAttr (required 'debug')
+               - Provides attribute 'artifactType' with value 'jar' but the consumer didn't ask for it
+               - Provides its elements packaged as a jar but the consumer didn't ask for it
+
+* Try:
+> Ambiguity errors are explained in more detail at https://docs.gradle.org/9.8.2/userguide/variant_model.html#sub:variant-ambiguity.
+> Review the variant matching algorithm at https://docs.gradle.org/9.8.2/userguide/variant_attributes.html#sec:abm_algorithm.
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 4s
+7 actionable tasks: 1 executed, 6 up-to-date

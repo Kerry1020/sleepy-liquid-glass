@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "run_id": "combined-20261116T011657Z",
+  "status": "BUILD_FAILED",
+  "started_utc": "2026-11-16T01:16:57.191862+00:00",
+  "host_head": "7888d1b22e119e870f6f59a37d06592ba051344e",
+  "upstream_main": "2a0e4aeaf5029e7168fb15f49ca445a7481934b5",
+  "host_tree_matches_upstream": true,
+  "host_dirty_before": "",
+  "asset_head": "0511051e8c6dd2ccaaa55f9861db2c17cdeeb701",
+  "command": [
+    "./gradlew",
+    "-I",
+    "<asset-repository>/research/slider-layer-observation-20261116/overlay.init.gradle",
+    "-PsliderLayerStudy=<asset-repository>/research/slider-layer-observation-20261116",
+    "-I",
+    "<asset-repository>/research/language-settled-observation-20261116/overlay.init.gradle",
+    "-PlanguageSettledObservationSources=<asset-repository>/research/language-settled-observation-20261116/prepared/sources",
+    ":app:assembleDebugAndroidTest",
+    "--offline",
+    "--console=plain"
+  ],
+  "main_apk_before_sha256": "566fc53eb6c28a0df7be03b7b07ee0ab8fd28a96b1f471f1669d7bbdbf3063b5",
+  "test_apk_before_sha256": "df38758670088a7058727efe02a8f9e5cdcce132618d1bf8a087b4914e32b018",
+  "sources": {
+    "research/slider-layer-observation-20261116/source-pins.json": "aea9a06009aba0e55939981ef9c04911010f544d4f6c803c5a3c3f78a02c249f",
+    "research/slider-layer-observation-20261116/.local/preparation.json": "0818aa925c3050ee569030ae444afed82377e99f8154b2f7ceb761e292cf64f7",
+    "research/language-settled-observation-20261116/prepared/preparation.json": "78f3be03c4b0cd6bb5d5eae950ed080fec070c0409d7d765e2d34cbd901cf6a3"
+  },
+  "device_executed": false,
+  "optical_acceptance": false,
+  "exit_code": 1,
+  "elapsed_seconds": 4.507,
+  "ended_utc": "2026-11-16T01:17:01.842013+00:00",
+  "main_apk_after_sha256": "566fc53eb6c28a0df7be03b7b07ee0ab8fd28a96b1f471f1669d7bbdbf3063b5",
+  "test_apk_after_sha256": "df38758670088a7058727efe02a8f9e5cdcce132618d1bf8a087b4914e32b018",
+  "host_dirty_after": "",
+  "main_apk_unchanged": true,
+  "main_apk_bytes": 31952171,
+  "test_apk_bytes": 2493599,
+  "log_sha256": "01e5647a9b830588d4776e4e6ff1eb68d38bdad800314f3b9c66579a34243da2"
+}

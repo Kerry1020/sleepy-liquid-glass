@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "test_apk_sha256": "ed1aeb6e547479ae4f711b9a36a30aeeca876e10876ce9277b84df58ef933100",
+  "compiled_class_presence": {
+    "Lcom/lingion/sleepy/ui/component/AssetLanguageObservedTerminalGeometryTest;": [
+      "classes10.dex"
+    ],
+    "Lcom/lingion/sleepy/ui/component/sliderlayerresearch/SliderLayerObservationTest;": [
+      "classes5.dex"
+    ],
+    "Lcom/lingion/sleepy/ui/component/sliderlayerresearch/SliderLayerObserver1121;": [
+      "classes5.dex"
+    ]
+  },
+  "assertion": "Each explicit study descriptor occurs in exactly one packaged DEX. Presence is not execution or optical acceptance.",
+  "device_executed": false
+}

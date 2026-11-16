@@ -1,0 +1,335 @@
+{
+  "schema": 1,
+  "source_root_alias": "R (original Sleepy reference workspace supplied through --source-root)",
+  "selection_rules": {
+    "coordinate_unit": "original window pt; no scaling, alignment, fitting, smoothing or interpolation",
+    "frame_selection": "Each actual frame row whose original t is inclusively within delivered DOWN minus 0.200 s and delivered UP plus 1.500 s; no synthetic boundary frames.",
+    "node_selection": "Original UISwitch control node plus the exact _UILiquidLensView carrier path and every recorded descendant under that path; non-target controls excluded.",
+    "line_numbering": "1-based physical lines of the SHA-checked original trace.jsonl",
+    "time_clocks": "sampleT is UITouch timestamp minus source origin; deliveredT is observer delivery time; frame t is row enqueue time. displayTimestamp is absolute display-link uptime. These clocks/fields are retained separately.",
+    "absent_fields": "Null column cells for fields absent from recorded_fields mean unrecorded, not zero/identity. Explicit original null is retained when the field occurs in recorded_fields.",
+    "opacity": "opacity/effectiveOpacity are recorded CALayer/view-chain opacity. No materialAlpha, optical alpha, solid fill alpha or rendered pixel transparency is inferred.",
+    "cadence": "Observed Hz=(N-1)/displayTimestamp span; gaps are consecutive selected displayTimestamp differences >25 ms. Estimated unobserved 60 Hz slots=sum(max(0,floor(dt/(1000/60)+0.5)-1)); this is a sampling-cadence estimate, not a claim of rendered dropped frames.",
+    "tail": "Tail ranges use actual frame t from UP+1.200 to UP+1.500 s. Exact-state suffix is equality of recorded carrier geometry/transform/opacity/hidden fields to the final selected row; its first row is only an observed bound, not an inferred settling instant."
+  },
+  "sources": [
+    {
+      "id": "b9b-swiftui",
+      "path_base": "R-relative",
+      "files": {
+        "session.json": {
+          "path": "outputs/glass-native-parity-20261112/native-toggle-gap-20261113/traces/-_NativeReferenceTests_testToggleHeldDirectionAndRapidProbe_-B9B0304D-E04E-4C56-9399-06118974D0DC/session.json",
+          "bytes": 3138,
+          "sha256": "9958cdb5d8ba2a67b6a2abe6feb183695b2836b9bd14aac98f74ccd3a3c5d3d1"
+        },
+        "trace.jsonl": {
+          "path": "outputs/glass-native-parity-20261112/native-toggle-gap-20261113/traces/-_NativeReferenceTests_testToggleHeldDirectionAndRapidProbe_-B9B0304D-E04E-4C56-9399-06118974D0DC/trace.jsonl",
+          "bytes": 63611392,
+          "sha256": "16215cb7978344388499aad7691617e8a3e7382ac15d283724362ec3dfe437ec"
+        }
+      },
+      "session_trace_line": 3,
+      "session": {
+        "backgrounds": {
+          "baseRGBA": [
+            0.94,
+            0.94,
+            0.96,
+            1
+          ],
+          "colorSpace": "sRGB (resolved UIColor, converted CGColor, then UIColor.getRed)",
+          "gridLineRGBA": [
+            0,
+            0,
+            0,
+            0.13
+          ],
+          "gridLineWidthPt": 0.5,
+          "gridSpacingPt": 20,
+          "stripeAlpha": 0.52,
+          "stripeNames": [
+            "systemRed",
+            "systemOrange",
+            "systemYellow",
+            "systemGreen",
+            "systemTeal",
+            "systemBlue",
+            "systemPurple"
+          ],
+          "stripePaintRGBA": [
+            [
+              1,
+              0.2196078431372549,
+              0.23529411764705882,
+              0.52
+            ],
+            [
+              1,
+              0.5529411764705883,
+              0.1568627450980392,
+              0.52
+            ],
+            [
+              1,
+              0.8,
+              0,
+              0.52
+            ],
+            [
+              0.20392156862745098,
+              0.7803921568627451,
+              0.34901960784313724,
+              0.52
+            ],
+            [
+              0,
+              0.7647058823529411,
+              0.8156862745098039,
+              0.52
+            ],
+            [
+              0,
+              0.5333333333333333,
+              1,
+              0.52
+            ],
+            [
+              0.796078431372549,
+              0.18823529411764706,
+              0.8784313725490196,
+              0.52
+            ]
+          ],
+          "stripeResolvedRGBA": [
+            [
+              1,
+              0.2196078431372549,
+              0.23529411764705882,
+              1
+            ],
+            [
+              1,
+              0.5529411764705883,
+              0.1568627450980392,
+              1
+            ],
+            [
+              1,
+              0.8,
+              0,
+              1
+            ],
+            [
+              0.20392156862745098,
+              0.7803921568627451,
+              0.34901960784313724,
+              1
+            ],
+            [
+              0,
+              0.7647058823529411,
+              0.8156862745098039,
+              1
+            ],
+            [
+              0,
+              0.5333333333333333,
+              1,
+              1
+            ],
+            [
+              0.796078431372549,
+              0.18823529411764706,
+              0.8784313725490196,
+              1
+            ]
+          ],
+          "stripeWidthPt": 28
+        },
+        "captureFramesPerSecond": 60,
+        "coordinates": "window points; normalized coordinates divide by window bounds",
+        "darkerSystemColors": false,
+        "device": "iPhone",
+        "effectiveOpacityScope": "product of presentation opacity along UIView ancestors; excludes extra CALayer ancestors and material shader coverage",
+        "focusedMenuObservation": true,
+        "frameClock": "captureStartT...captureEndT bracket sequential presentation reads; t is row enqueue time",
+        "interfaceStyle": 1,
+        "maximumFramesPerSecond": 60,
+        "originUnixSeconds": 1794534209.2658072,
+        "originUptimeSeconds": 391131.9152463334,
+        "os": "Version 26.5 (Build 23F77)",
+        "reduceMotion": false,
+        "reduceTransparency": false,
+        "run": "-_NativeReferenceTests_testToggleHeldDirectionAndRapidProbe_-B9B0304D-E04E-4C56-9399-06118974D0DC",
+        "schema": 2,
+        "screenHeightPt": 667,
+        "screenScale": 2,
+        "screenWidthPt": 375,
+        "startedAt": "2026-11-13T01:43:29Z",
+        "tintSRGB": [
+          0,
+          0.65,
+          0.75,
+          1
+        ]
+      }
+    },
+    {
+      "id": "grid-uikit",
+      "path_base": "R-relative",
+      "files": {
+        "session.json": {
+          "path": "outputs/glass-native-parity-20261112/ios-traces/-_NativeReferenceTests_testToggleGrid_-58D8137C-0C43-4758-AD02-A7FA4F49A5C0/session.json",
+          "bytes": 2780,
+          "sha256": "00e565d6573bedd3ad06838af0dec219f1433bdb8e2b7dcf7f38e7916e894171"
+        },
+        "trace.jsonl": {
+          "path": "outputs/glass-native-parity-20261112/ios-traces/-_NativeReferenceTests_testToggleGrid_-58D8137C-0C43-4758-AD02-A7FA4F49A5C0/trace.jsonl",
+          "bytes": 20937377,
+          "sha256": "e93fc12a7be9c33f723721fdb5a48111b54afd6db8da73923365d86d667f2a04"
+        }
+      },
+      "session_trace_line": 2,
+      "session": {
+        "backgrounds": {
+          "baseRGBA": [
+            0.94,
+            0.94,
+            0.96,
+            1
+          ],
+          "colorSpace": "sRGB (resolved UIColor, converted CGColor, then UIColor.getRed)",
+          "gridLineRGBA": [
+            0,
+            0,
+            0,
+            0.13
+          ],
+          "gridLineWidthPt": 0.5,
+          "gridSpacingPt": 20,
+          "stripeAlpha": 0.52,
+          "stripeNames": [
+            "systemRed",
+            "systemOrange",
+            "systemYellow",
+            "systemGreen",
+            "systemTeal",
+            "systemBlue",
+            "systemPurple"
+          ],
+          "stripePaintRGBA": [
+            [
+              1,
+              0.2196078431372549,
+              0.23529411764705882,
+              0.52
+            ],
+            [
+              1,
+              0.5529411764705883,
+              0.1568627450980392,
+              0.52
+            ],
+            [
+              1,
+              0.8,
+              0,
+              0.52
+            ],
+            [
+              0.20392156862745098,
+              0.7803921568627451,
+              0.34901960784313724,
+              0.52
+            ],
+            [
+              0,
+              0.7647058823529411,
+              0.8156862745098039,
+              0.52
+            ],
+            [
+              0,
+              0.5333333333333333,
+              1,
+              0.52
+            ],
+            [
+              0.796078431372549,
+              0.18823529411764706,
+              0.8784313725490196,
+              0.52
+            ]
+          ],
+          "stripeResolvedRGBA": [
+            [
+              1,
+              0.2196078431372549,
+              0.23529411764705882,
+              1
+            ],
+            [
+              1,
+              0.5529411764705883,
+              0.1568627450980392,
+              1
+            ],
+            [
+              1,
+              0.8,
+              0,
+              1
+            ],
+            [
+              0.20392156862745098,
+              0.7803921568627451,
+              0.34901960784313724,
+              1
+            ],
+            [
+              0,
+              0.7647058823529411,
+              0.8156862745098039,
+              1
+            ],
+            [
+              0,
+              0.5333333333333333,
+              1,
+              1
+            ],
+            [
+              0.796078431372549,
+              0.18823529411764706,
+              0.8784313725490196,
+              1
+            ]
+          ],
+          "stripeWidthPt": 28
+        },
+        "captureFramesPerSecond": 60,
+        "coordinates": "window points; normalized coordinates divide by window bounds",
+        "darkerSystemColors": false,
+        "device": "iPhone",
+        "interfaceStyle": 1,
+        "maximumFramesPerSecond": 60,
+        "originUptimeSeconds": 353800.7477614584,
+        "os": "Version 26.5 (Build 23F77)",
+        "reduceMotion": false,
+        "reduceTransparency": false,
+        "run": "-_NativeReferenceTests_testToggleGrid_-58D8137C-0C43-4758-AD02-A7FA4F49A5C0",
+        "schema": 1,
+        "screenHeightPt": 667,
+        "screenScale": 2,
+        "screenWidthPt": 375,
+        "startedAt": "2026-11-12T12:15:14Z",
+        "tintSRGB": [
+          0,
+          0.65,
+          0.75,
+          1
+        ]
+      }
+    }
+  ]
+}

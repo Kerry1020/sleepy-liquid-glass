@@ -1,5 +1,7 @@
 # Language observed terminal geometry
 
+Current integration checkpoint: The generated terminal-observation test compiled successfully in the [combined external build](../control-regression-diagnostics-20261116/host-integration-observed/README.md). Initial preparation statements below describe the earlier handoff. Runtime execution remains pending: no connected ADB device was available, and compilation is not geometry, material or optical acceptance.
+
 This asset-only derivative replaces the approximate readiness wait in the [C/U/C_restored/E fixture](../control-regression-diagnostics-20261116/language-gpu/README.md). It preserves the real pointer, real-time recomposer, original background, source draw gate, HWUI submission callback and 80ms display delay. It does not observe or claim mathematical motion rest.
 
 The [first run](../control-regression-diagnostics-20261116/language-gpu/results/language-triplet-20261115T222128Z/gpu-triplet.json) failed exact row geometry: its first row moved from binary32 `566.01019287109375` to `566.0` even though both E screenshots were identical. [baseline-trigger.json](baseline-trigger.json) retains the original failure and numeric provenance. No frozen original, old fixture or old result is changed.

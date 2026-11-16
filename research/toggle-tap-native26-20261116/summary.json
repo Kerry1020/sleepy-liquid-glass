@@ -1,0 +1,2352 @@
+{
+  "schema": 1,
+  "segments": [
+    {
+      "id": "b9b-swiftui-tap7-off-to-on",
+      "source_id": "b9b-swiftui",
+      "touch_id": 7,
+      "direction": "off-to-on",
+      "sample_down_t": 30.24091499991482,
+      "sample_up_t": 30.30728599993745,
+      "sample_duration_ms": 66.37100002262741,
+      "delivered_down_t": 30.252787250035908,
+      "delivered_up_t": 30.319850666681305,
+      "delivered_duration_ms": 67.0634166453965,
+      "delivery_source_lines": [
+        2171,
+        2176
+      ],
+      "phases": [
+        0,
+        3
+      ],
+      "displacement_pt": [
+        0,
+        0
+      ],
+      "requested_window_t": [
+        30.05278725003591,
+        31.819850666681305
+      ],
+      "frame_count": 102,
+      "frame_source_line_range": [
+        2160,
+        2266
+      ],
+      "first_frame_ms_from_down": -199.62291669799015,
+      "last_frame_ms_from_up": 1483.7784999981523,
+      "observed_hz_by_display_timestamp": 57.714285714285715,
+      "interval_ms_min_median_max": [
+        14.586416713427752,
+        16.666666662786156,
+        61.00533332210034
+      ],
+      "display_gaps_over_25ms": [
+        {
+          "before_source_line": 2168,
+          "after_source_line": 2169,
+          "interval_ms": 61.00533332210034
+        },
+        {
+          "before_source_line": 2208,
+          "after_source_line": 2209,
+          "interval_ms": 35.41358333313838
+        }
+      ],
+      "estimated_unobserved_60hz_slots": 4,
+      "missing_source_frame_ids_inside_window": 0,
+      "truncated_frame_count": 0,
+      "next_delivered_down_t": 31.88587595836725,
+      "next_input_inside_window": false,
+      "last_observed_pre_down": {
+        "source_line": 2169,
+        "frame": 1727,
+        "t": 30.236177958373446,
+        "ms_from_delivered_up": -83.67270830785856,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 296,
+        "y": 317,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1,
+        "m41": 0,
+        "m42": 0,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "peak_local_width_observation": {
+        "source_line": 2183,
+        "frame": 1736,
+        "t": 30.404371541691944,
+        "ms_from_delivered_up": 84.52087501063943,
+        "boundsW": 60.56439288718824,
+        "boundsH": 40.083633240461815,
+        "x": 293.2171193547285,
+        "y": 309.0022555929999,
+        "w": 60.45028857527046,
+        "h": 40.15384786983134,
+        "m11": 0.9981159835593443,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1.0017517032188252,
+        "m41": -0.009021385648579855,
+        "m42": -0.01967437338735724,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "last_observation": {
+        "source_line": 2266,
+        "frame": 1819,
+        "t": 31.803629166679457,
+        "ms_from_delivered_up": 1483.7784999981523,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 318,
+        "y": 317,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1,
+        "m41": 0,
+        "m42": 0,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "all_frame_ranges": {
+        "boundsW": [
+          36.104000153247384,
+          60.56439288718824
+        ],
+        "boundsH": [
+          23.388444549041864,
+          40.083633240461815
+        ],
+        "x": [
+          287.1287555114794,
+          318.9611516453579
+        ],
+        "y": [
+          309.0022555929999,
+          317.16666666666663
+        ],
+        "w": [
+          35.391150318979385,
+          60.538879205350895
+        ],
+        "h": [
+          23.85339183948639,
+          40.15384786983134
+        ],
+        "m11": [
+          0.9789270624413544,
+          1.028256726046869
+        ],
+        "m12": [
+          0,
+          0
+        ],
+        "m21": [
+          0,
+          0
+        ],
+        "m22": [
+          0.9706177527487589,
+          1.0212022961426845
+        ],
+        "m41": [
+          -0.3387000715270859,
+          0.16575629140538742
+        ],
+        "m42": [
+          -0.01967437338735724,
+          0.0032041857262869065
+        ],
+        "opacity": [
+          1,
+          1
+        ],
+        "effectiveOpacity": [
+          1,
+          1
+        ],
+        "hidden": [
+          false,
+          false
+        ],
+        "effectiveHidden": [
+          false,
+          false
+        ]
+      },
+      "tail_1200_to_1500ms_after_up": {
+        "frame_count": 18,
+        "first_source_line": 2249,
+        "last_source_line": 2266,
+        "ranges": {
+          "boundsW": [
+            37,
+            37
+          ],
+          "boundsH": [
+            24,
+            24
+          ],
+          "x": [
+            318,
+            318
+          ],
+          "y": [
+            317,
+            317
+          ],
+          "w": [
+            37,
+            37
+          ],
+          "h": [
+            24,
+            24
+          ],
+          "m11": [
+            1,
+            1
+          ],
+          "m12": [
+            0,
+            0
+          ],
+          "m21": [
+            0,
+            0
+          ],
+          "m22": [
+            1,
+            1
+          ],
+          "m41": [
+            0,
+            0
+          ],
+          "m42": [
+            0,
+            0
+          ],
+          "opacity": [
+            1,
+            1
+          ],
+          "effectiveOpacity": [
+            1,
+            1
+          ],
+          "hidden": [
+            false,
+            false
+          ],
+          "effectiveHidden": [
+            false,
+            false
+          ]
+        }
+      },
+      "final_exact_state_suffix": {
+        "first_observed": {
+          "source_line": 2220,
+          "frame": 1773,
+          "t": 31.0378012083238,
+          "ms_from_delivered_up": 717.9505416424945,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 318,
+          "y": 317,
+          "w": 37,
+          "h": 24,
+          "m11": 1,
+          "m12": 0,
+          "m21": 0,
+          "m22": 1,
+          "m41": 0,
+          "m42": 0,
+          "opacity": 1,
+          "effectiveOpacity": 1,
+          "hidden": false,
+          "effectiveHidden": false
+        },
+        "preceding_observation": {
+          "source_line": 2219,
+          "frame": 1772,
+          "t": 31.0199817083776,
+          "ms_from_delivered_up": 700.1310416962951,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 318.0355390752861,
+          "y": 316.98308563842926,
+          "w": 36.94758359297424,
+          "h": 24.03377109079986,
+          "m11": 0.9985833403506552,
+          "m12": 0,
+          "m21": 0,
+          "m22": 1.0014071287833273,
+          "m41": 0.009330871773222851,
+          "m42": -2.8816170819573604e-05,
+          "opacity": 1,
+          "effectiveOpacity": 1,
+          "hidden": false,
+          "effectiveHidden": false
+        },
+        "frame_count": 47
+      },
+      "value_events": [
+        {
+          "source_line": 2178,
+          "row": {
+            "value": true,
+            "control": "swiftui-toggle",
+            "event": "value",
+            "t": 30.32451979169855
+          }
+        }
+      ]
+    },
+    {
+      "id": "b9b-swiftui-tap8-on-to-off",
+      "source_id": "b9b-swiftui",
+      "touch_id": 8,
+      "direction": "on-to-off",
+      "sample_down_t": 31.87531799991848,
+      "sample_up_t": 31.941984666569624,
+      "sample_duration_ms": 66.66666665114462,
+      "delivered_down_t": 31.88587595836725,
+      "delivered_up_t": 31.952050041698385,
+      "delivered_duration_ms": 66.17408333113417,
+      "delivery_source_lines": [
+        2272,
+        2278
+      ],
+      "phases": [
+        0,
+        3
+      ],
+      "displacement_pt": [
+        0,
+        0
+      ],
+      "requested_window_t": [
+        31.68587595836725,
+        33.452050041698385
+      ],
+      "frame_count": 106,
+      "frame_source_line_range": [
+        2259,
+        2369
+      ],
+      "first_frame_ms_from_down": -199.49354167329147,
+      "last_frame_ms_from_up": 1485.4112499742769,
+      "observed_hz_by_display_timestamp": 59.43396226428149,
+      "interval_ms_min_median_max": [
+        16.666666662786156,
+        16.666666662786156,
+        33.33333332557231
+      ],
+      "display_gaps_over_25ms": [
+        {
+          "before_source_line": 2368,
+          "after_source_line": 2369,
+          "interval_ms": 33.33333332557231
+        }
+      ],
+      "estimated_unobserved_60hz_slots": 1,
+      "missing_source_frame_ids_inside_window": 0,
+      "truncated_frame_count": 0,
+      "next_delivered_down_t": 33.535944125032984,
+      "next_input_inside_window": false,
+      "last_observed_pre_down": {
+        "source_line": 2270,
+        "frame": 1823,
+        "t": 31.86986933334265,
+        "ms_from_delivered_up": -82.18070835573599,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 318,
+        "y": 317,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1,
+        "m41": 0,
+        "m42": 0,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "peak_local_width_observation": {
+        "source_line": 2285,
+        "frame": 1833,
+        "t": 32.03732962498907,
+        "ms_from_delivered_up": 85.27958329068497,
+        "boundsW": 60.571757431166,
+        "boundsH": 40.088659833970446,
+        "x": 297.37609857610863,
+        "y": 308.9672329786233,
+        "w": 60.36324741159092,
+        "h": 40.22382946272404,
+        "m11": 0.9965576362909395,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1.0033717672108127,
+        "m41": 0.009007300647277611,
+        "m42": -0.019706191387799596,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "last_observation": {
+        "source_line": 2369,
+        "frame": 1917,
+        "t": 33.43746129167266,
+        "ms_from_delivered_up": 1485.4112499742769,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 296,
+        "y": 317,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1,
+        "m41": 0,
+        "m42": 0,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "all_frame_ranges": {
+        "boundsW": [
+          36.029470932415606,
+          60.571757431166
+        ],
+        "boundsH": [
+          23.337575398315415,
+          40.088659833970446
+        ],
+        "x": [
+          288.88664522836984,
+          318
+        ],
+        "y": [
+          308.92676816983703,
+          317.54579070639664
+        ],
+        "w": [
+          36.687782484078014,
+          60.36324741159092
+        ],
+        "h": [
+          22.90820698221762,
+          40.26566720695649
+        ],
+        "m11": [
+          0.9709908031704412,
+          1.0211548068886278
+        ],
+        "m12": [
+          0,
+          0
+        ],
+        "m21": [
+          0,
+          0
+        ],
+        "m22": [
+          0.9787249135717643,
+          1.0301034028368465
+        ],
+        "m41": [
+          -0.17321084682566026,
+          0.31999294749648594
+        ],
+        "m42": [
+          -0.02028158677339817,
+          0.0031725068676190047
+        ],
+        "opacity": [
+          1,
+          1
+        ],
+        "effectiveOpacity": [
+          1,
+          1
+        ],
+        "hidden": [
+          false,
+          false
+        ],
+        "effectiveHidden": [
+          false,
+          false
+        ]
+      },
+      "tail_1200_to_1500ms_after_up": {
+        "frame_count": 18,
+        "first_source_line": 2352,
+        "last_source_line": 2369,
+        "ranges": {
+          "boundsW": [
+            37,
+            37
+          ],
+          "boundsH": [
+            24,
+            24
+          ],
+          "x": [
+            296,
+            296
+          ],
+          "y": [
+            317,
+            317
+          ],
+          "w": [
+            37,
+            37
+          ],
+          "h": [
+            24,
+            24
+          ],
+          "m11": [
+            1,
+            1
+          ],
+          "m12": [
+            0,
+            0
+          ],
+          "m21": [
+            0,
+            0
+          ],
+          "m22": [
+            1,
+            1
+          ],
+          "m41": [
+            0,
+            0
+          ],
+          "m42": [
+            0,
+            0
+          ],
+          "opacity": [
+            1,
+            1
+          ],
+          "effectiveOpacity": [
+            1,
+            1
+          ],
+          "hidden": [
+            false,
+            false
+          ],
+          "effectiveHidden": [
+            false,
+            false
+          ]
+        }
+      },
+      "final_exact_state_suffix": {
+        "first_observed": {
+          "source_line": 2329,
+          "frame": 1877,
+          "t": 32.771077083365526,
+          "ms_from_delivered_up": 819.027041667141,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 296,
+          "y": 317,
+          "w": 37,
+          "h": 24,
+          "m11": 1,
+          "m12": 0,
+          "m21": 0,
+          "m22": 1,
+          "m41": 0,
+          "m42": 0,
+          "opacity": 1,
+          "effectiveOpacity": 1,
+          "hidden": false,
+          "effectiveHidden": false
+        },
+        "preceding_observation": {
+          "source_line": 2328,
+          "frame": 1876,
+          "t": 32.754631666699424,
+          "ms_from_delivered_up": 802.5816250010394,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 296.02763075776,
+          "y": 316.98771902946555,
+          "w": 36.96267178930759,
+          "h": 24.02454989657184,
+          "m11": 0.9989911294407455,
+          "m12": 0,
+          "m21": 0,
+          "m22": 1.00102291235716,
+          "m41": 0.00896665241376779,
+          "m42": -6.022248530665402e-06,
+          "opacity": 1,
+          "effectiveOpacity": 1,
+          "hidden": false,
+          "effectiveHidden": false
+        },
+        "frame_count": 41
+      },
+      "value_events": [
+        {
+          "source_line": 2280,
+          "row": {
+            "t": 31.957151041657198,
+            "event": "value",
+            "control": "swiftui-toggle",
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "b9b-swiftui-tap9-off-to-on",
+      "source_id": "b9b-swiftui",
+      "touch_id": 9,
+      "direction": "off-to-on",
+      "sample_down_t": 33.52948979160283,
+      "sample_up_t": 33.59615645825397,
+      "sample_duration_ms": 66.66666665114462,
+      "delivered_down_t": 33.535944125032984,
+      "delivered_up_t": 33.60246150003513,
+      "delivered_duration_ms": 66.51737500214949,
+      "delivery_source_lines": [
+        2376,
+        2381
+      ],
+      "phases": [
+        0,
+        3
+      ],
+      "displacement_pt": [
+        0,
+        0
+      ],
+      "requested_window_t": [
+        33.33594412503298,
+        35.10246150003513
+      ],
+      "frame_count": 104,
+      "frame_source_line_range": [
+        2363,
+        2471
+      ],
+      "first_frame_ms_from_down": -195.26904169470072,
+      "last_frame_ms_from_up": 1485.2834166376851,
+      "observed_hz_by_display_timestamp": 58.857142857142854,
+      "interval_ms_min_median_max": [
+        16.666666662786156,
+        16.666666662786156,
+        33.33333332557231
+      ],
+      "display_gaps_over_25ms": [
+        {
+          "before_source_line": 2368,
+          "after_source_line": 2369,
+          "interval_ms": 33.33333332557231
+        },
+        {
+          "before_source_line": 2452,
+          "after_source_line": 2453,
+          "interval_ms": 33.33333332557231
+        }
+      ],
+      "estimated_unobserved_60hz_slots": 2,
+      "missing_source_frame_ids_inside_window": 0,
+      "truncated_frame_count": 0,
+      "next_delivered_down_t": 35.18597279168898,
+      "next_input_inside_window": false,
+      "last_observed_pre_down": {
+        "source_line": 2374,
+        "frame": 1922,
+        "t": 33.52206195832696,
+        "ms_from_delivered_up": -80.3995417081751,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 296,
+        "y": 317,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1,
+        "m41": 0,
+        "m42": 0,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "peak_local_width_observation": {
+        "source_line": 2388,
+        "frame": 1931,
+        "t": 33.68718166666804,
+        "ms_from_delivered_up": 84.7201666329056,
+        "boundsW": 60.5688178554824,
+        "boundsH": 40.086653456916565,
+        "x": 293.2149110298695,
+        "y": 309.0007428394633,
+        "w": 60.45470520653532,
+        "h": 40.15687337702178,
+        "m11": 0.9981159835541227,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1.0017517032241339,
+        "m41": -0.009021385606001527,
+        "m42": -0.019674373398900265,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "last_observation": {
+        "source_line": 2471,
+        "frame": 2014,
+        "t": 35.08774491667282,
+        "ms_from_delivered_up": 1485.2834166376851,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 318,
+        "y": 317,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1,
+        "m41": 0,
+        "m42": 0,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "all_frame_ranges": {
+        "boundsW": [
+          36.02947093226094,
+          60.5688178554824
+        ],
+        "boundsH": [
+          23.337575398209847,
+          40.086653456916565
+        ],
+        "x": [
+          287.0963409305705,
+          318.9630357635325
+        ],
+        "y": [
+          309.0007428394633,
+          317.16666666666663
+        ],
+        "w": [
+          35.366589480554126,
+          60.53369131139772
+        ],
+        "h": [
+          23.769921758006717,
+          40.15687337702178
+        ],
+        "m11": [
+          0.9789270624423311,
+          1.0282567260623228
+        ],
+        "m12": [
+          0,
+          0
+        ],
+        "m21": [
+          0,
+          0
+        ],
+        "m22": [
+          0.9706177527327482,
+          1.0212022961417309
+        ],
+        "m41": [
+          -0.3387000717120183,
+          0.16575629140131964
+        ],
+        "m42": [
+          -0.019674373398900265,
+          0.0032041857282584627
+        ],
+        "opacity": [
+          1,
+          1
+        ],
+        "effectiveOpacity": [
+          1,
+          1
+        ],
+        "hidden": [
+          false,
+          false
+        ],
+        "effectiveHidden": [
+          false,
+          false
+        ]
+      },
+      "tail_1200_to_1500ms_after_up": {
+        "frame_count": 18,
+        "first_source_line": 2454,
+        "last_source_line": 2471,
+        "ranges": {
+          "boundsW": [
+            37,
+            37
+          ],
+          "boundsH": [
+            24,
+            24
+          ],
+          "x": [
+            318,
+            318
+          ],
+          "y": [
+            317,
+            317
+          ],
+          "w": [
+            37,
+            37
+          ],
+          "h": [
+            24,
+            24
+          ],
+          "m11": [
+            1,
+            1
+          ],
+          "m12": [
+            0,
+            0
+          ],
+          "m21": [
+            0,
+            0
+          ],
+          "m22": [
+            1,
+            1
+          ],
+          "m41": [
+            0,
+            0
+          ],
+          "m42": [
+            0,
+            0
+          ],
+          "opacity": [
+            1,
+            1
+          ],
+          "effectiveOpacity": [
+            1,
+            1
+          ],
+          "hidden": [
+            false,
+            false
+          ],
+          "effectiveHidden": [
+            false,
+            false
+          ]
+        }
+      },
+      "final_exact_state_suffix": {
+        "first_observed": {
+          "source_line": 2432,
+          "frame": 1975,
+          "t": 34.42157345835585,
+          "ms_from_delivered_up": 819.1119583207183,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 318,
+          "y": 317,
+          "w": 37,
+          "h": 24,
+          "m11": 1,
+          "m12": 0,
+          "m21": 0,
+          "m22": 1,
+          "m41": 0,
+          "m42": 0,
+          "opacity": 1,
+          "effectiveOpacity": 1,
+          "hidden": false,
+          "effectiveHidden": false
+        },
+        "preceding_observation": {
+          "source_line": 2431,
+          "frame": 1974,
+          "t": 34.40670941671124,
+          "ms_from_delivered_up": 804.2479166761041,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 317.9721858262401,
+          "y": 317.01236948017703,
+          "w": 37.037642690626114,
+          "h": 23.975248710378878,
+          "m11": 1.0010173700169218,
+          "m12": 0,
+          "m21": 0,
+          "m22": 0.9989686962657864,
+          "m41": -0.008992828446862382,
+          "m42": -6.164633531326025e-06,
+          "opacity": 1,
+          "effectiveOpacity": 1,
+          "hidden": false,
+          "effectiveHidden": false
+        },
+        "frame_count": 40
+      },
+      "value_events": [
+        {
+          "source_line": 2383,
+          "row": {
+            "control": "swiftui-toggle",
+            "value": true,
+            "t": 33.606789416691754,
+            "event": "value"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b9b-swiftui-tap10-on-to-off",
+      "source_id": "b9b-swiftui",
+      "touch_id": 10,
+      "direction": "on-to-off",
+      "sample_down_t": 35.168928333267104,
+      "sample_up_t": 35.23559499991825,
+      "sample_duration_ms": 66.66666665114462,
+      "delivered_down_t": 35.18597279168898,
+      "delivered_up_t": 35.252200999995694,
+      "delivered_duration_ms": 66.22820830671117,
+      "delivery_source_lines": [
+        2478,
+        2484
+      ],
+      "phases": [
+        0,
+        3
+      ],
+      "displacement_pt": [
+        0,
+        0
+      ],
+      "requested_window_t": [
+        34.98597279168898,
+        36.752200999995694
+      ],
+      "frame_count": 106,
+      "frame_source_line_range": [
+        2465,
+        2575
+      ],
+      "first_frame_ms_from_down": -197.85812502959743,
+      "last_frame_ms_from_up": 1485.5922083370388,
+      "observed_hz_by_display_timestamp": 60.0,
+      "interval_ms_min_median_max": [
+        16.666666662786156,
+        16.666666662786156,
+        16.666666720993817
+      ],
+      "display_gaps_over_25ms": [],
+      "estimated_unobserved_60hz_slots": 0,
+      "missing_source_frame_ids_inside_window": 0,
+      "truncated_frame_count": 0,
+      "next_delivered_down_t": 36.785700416658074,
+      "next_input_inside_window": false,
+      "last_observed_pre_down": {
+        "source_line": 2476,
+        "frame": 2019,
+        "t": 35.17050666670548,
+        "ms_from_delivered_up": -81.69433329021558,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 318,
+        "y": 317,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1,
+        "m41": 0,
+        "m42": 0,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "peak_local_width_observation": {
+        "source_line": 2491,
+        "frame": 2029,
+        "t": 35.33711308334023,
+        "ms_from_delivered_up": 84.91208334453404,
+        "boundsW": 60.57043228982731,
+        "boundsH": 40.08775537242182,
+        "x": 297.3767588659688,
+        "y": 308.96768673421457,
+        "w": 60.361926831870676,
+        "h": 40.22292195154165,
+        "m11": 0.9965576362909395,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1.0033717672108127,
+        "m41": 0.009007300647277611,
+        "m42": -0.019706191387799596,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "last_observation": {
+        "source_line": 2575,
+        "frame": 2113,
+        "t": 36.73779320833273,
+        "ms_from_delivered_up": 1485.5922083370388,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 296,
+        "y": 317,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1,
+        "m41": 0,
+        "m42": 0,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "all_frame_ranges": {
+        "boundsW": [
+          36.029470932415606,
+          60.57043228982731
+        ],
+        "boundsH": [
+          23.337575398315415,
+          40.08775537242182
+        ],
+        "x": [
+          288.8866452283652,
+          318
+        ],
+        "y": [
+          308.92617175450584,
+          317.5457907063801
+        ],
+        "w": [
+          36.687782484028276,
+          60.361926831870676
+        ],
+        "h": [
+          22.908206982250817,
+          40.266860037618926
+        ],
+        "m11": [
+          0.9709908031755602,
+          1.021154806889825
+        ],
+        "m12": [
+          0,
+          0
+        ],
+        "m21": [
+          0,
+          0
+        ],
+        "m22": [
+          0.9787249135705662,
+          1.0301034028315519
+        ],
+        "m41": [
+          -0.17321084683506052,
+          0.3199929474044806
+        ],
+        "m42": [
+          -0.02028158677339817,
+          0.0031725068666392667
+        ],
+        "opacity": [
+          1,
+          1
+        ],
+        "effectiveOpacity": [
+          1,
+          1
+        ],
+        "hidden": [
+          false,
+          false
+        ],
+        "effectiveHidden": [
+          false,
+          false
+        ]
+      },
+      "tail_1200_to_1500ms_after_up": {
+        "frame_count": 18,
+        "first_source_line": 2558,
+        "last_source_line": 2575,
+        "ranges": {
+          "boundsW": [
+            37,
+            37
+          ],
+          "boundsH": [
+            24,
+            24
+          ],
+          "x": [
+            296,
+            296
+          ],
+          "y": [
+            317,
+            317
+          ],
+          "w": [
+            37,
+            37
+          ],
+          "h": [
+            24,
+            24
+          ],
+          "m11": [
+            1,
+            1
+          ],
+          "m12": [
+            0,
+            0
+          ],
+          "m21": [
+            0,
+            0
+          ],
+          "m22": [
+            1,
+            1
+          ],
+          "m41": [
+            0,
+            0
+          ],
+          "m42": [
+            0,
+            0
+          ],
+          "opacity": [
+            1,
+            1
+          ],
+          "effectiveOpacity": [
+            1,
+            1
+          ],
+          "hidden": [
+            false,
+            false
+          ],
+          "effectiveHidden": [
+            false,
+            false
+          ]
+        }
+      },
+      "final_exact_state_suffix": {
+        "first_observed": {
+          "source_line": 2535,
+          "frame": 2073,
+          "t": 36.07300800003577,
+          "ms_from_delivered_up": 820.8070000400767,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 296,
+          "y": 317,
+          "w": 37,
+          "h": 24,
+          "m11": 1,
+          "m12": 0,
+          "m21": 0,
+          "m22": 1,
+          "m41": 0,
+          "m42": 0,
+          "opacity": 1,
+          "effectiveOpacity": 1,
+          "hidden": false,
+          "effectiveHidden": false
+        },
+        "preceding_observation": {
+          "source_line": 2534,
+          "frame": 2072,
+          "t": 36.056489916692954,
+          "ms_from_delivered_up": 804.28891669726,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 296.02763075775687,
+          "y": 316.9877190294668,
+          "w": 36.962671789311116,
+          "h": 24.024549896569397,
+          "m11": 0.9989911294408409,
+          "m12": 0,
+          "m21": 0,
+          "m22": 1.0010229123570589,
+          "m41": 0.008966652412437208,
+          "m42": -6.022248523196465e-06,
+          "opacity": 1,
+          "effectiveOpacity": 1,
+          "hidden": false,
+          "effectiveHidden": false
+        },
+        "frame_count": 41
+      },
+      "value_events": [
+        {
+          "source_line": 2486,
+          "row": {
+            "value": false,
+            "control": "swiftui-toggle",
+            "t": 35.2570947916829,
+            "event": "value"
+          }
+        }
+      ]
+    },
+    {
+      "id": "b9b-swiftui-tap11-off-to-on",
+      "source_id": "b9b-swiftui",
+      "touch_id": 11,
+      "direction": "off-to-on",
+      "sample_down_t": 36.774770083255135,
+      "sample_up_t": 36.84143674990628,
+      "sample_duration_ms": 66.66666665114462,
+      "delivered_down_t": 36.785700416658074,
+      "delivered_up_t": 36.852143625030294,
+      "delivered_duration_ms": 66.4432083722204,
+      "delivery_source_lines": [
+        2579,
+        2585
+      ],
+      "phases": [
+        0,
+        3
+      ],
+      "displacement_pt": [
+        0,
+        0
+      ],
+      "requested_window_t": [
+        36.58570041665807,
+        38.352143625030294
+      ],
+      "frame_count": 106,
+      "frame_source_line_range": [
+        2566,
+        2676
+      ],
+      "first_frame_ms_from_down": -199.30741662392393,
+      "last_frame_ms_from_up": 1485.085958323907,
+      "observed_hz_by_display_timestamp": 60.0,
+      "interval_ms_min_median_max": [
+        16.666666662786156,
+        16.666666662786156,
+        16.666666720993817
+      ],
+      "display_gaps_over_25ms": [],
+      "estimated_unobserved_60hz_slots": 0,
+      "missing_source_frame_ids_inside_window": 0,
+      "truncated_frame_count": 0,
+      "next_delivered_down_t": 38.402524791657925,
+      "next_input_inside_window": false,
+      "last_observed_pre_down": {
+        "source_line": 2577,
+        "frame": 2115,
+        "t": 36.76966504170559,
+        "ms_from_delivered_up": -82.4785833247006,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 296,
+        "y": 317,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1,
+        "m41": 0,
+        "m42": 0,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "peak_local_width_observation": {
+        "source_line": 2592,
+        "frame": 2125,
+        "t": 36.9370741249877,
+        "ms_from_delivered_up": 84.93049995740876,
+        "boundsW": 60.57134376275752,
+        "boundsH": 40.08837748886624,
+        "x": 293.2136504556574,
+        "y": 308.99987931349233,
+        "w": 60.45722635495957,
+        "h": 40.15860042896378,
+        "m11": 0.9981159835541227,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1.0017517032241339,
+        "m41": -0.009021385606001527,
+        "m42": -0.019674373398900265,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "last_observation": {
+        "source_line": 2676,
+        "frame": 2209,
+        "t": 38.3372295833542,
+        "ms_from_delivered_up": 1485.085958323907,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 318,
+        "y": 317,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1,
+        "m41": 0,
+        "m42": 0,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "all_frame_ranges": {
+        "boundsW": [
+          35.97157792131132,
+          60.57134376275752
+        ],
+        "boundsH": [
+          23.298061120895028,
+          40.08837748886624
+        ],
+        "x": [
+          287.07690988216586,
+          319.02581253372205
+        ],
+        "y": [
+          308.99987931349233,
+          317.16666666666663
+        ],
+        "w": [
+          35.26053543551484,
+          60.530463416435964
+        ],
+        "h": [
+          23.720681961520654,
+          40.15860042896378
+        ],
+        "m11": [
+          0.9789127844995351,
+          1.0282656676671431
+        ],
+        "m12": [
+          0,
+          0
+        ],
+        "m21": [
+          0,
+          0
+        ],
+        "m22": [
+          0.9706733398161999,
+          1.0212148310959448
+        ],
+        "m41": [
+          -0.3328319089471076,
+          0.16567156429747806
+        ],
+        "m42": [
+          -0.019674373398900265,
+          0.0031431198728526493
+        ],
+        "opacity": [
+          1,
+          1
+        ],
+        "effectiveOpacity": [
+          1,
+          1
+        ],
+        "hidden": [
+          false,
+          false
+        ],
+        "effectiveHidden": [
+          false,
+          false
+        ]
+      },
+      "tail_1200_to_1500ms_after_up": {
+        "frame_count": 18,
+        "first_source_line": 2659,
+        "last_source_line": 2676,
+        "ranges": {
+          "boundsW": [
+            37,
+            37
+          ],
+          "boundsH": [
+            24,
+            24
+          ],
+          "x": [
+            318,
+            318
+          ],
+          "y": [
+            317,
+            317
+          ],
+          "w": [
+            37,
+            37
+          ],
+          "h": [
+            24,
+            24
+          ],
+          "m11": [
+            1,
+            1
+          ],
+          "m12": [
+            0,
+            0
+          ],
+          "m21": [
+            0,
+            0
+          ],
+          "m22": [
+            1,
+            1
+          ],
+          "m41": [
+            0,
+            0
+          ],
+          "m42": [
+            0,
+            0
+          ],
+          "opacity": [
+            1,
+            1
+          ],
+          "effectiveOpacity": [
+            1,
+            1
+          ],
+          "hidden": [
+            false,
+            false
+          ],
+          "effectiveHidden": [
+            false,
+            false
+          ]
+        }
+      },
+      "final_exact_state_suffix": {
+        "first_observed": {
+          "source_line": 2636,
+          "frame": 2169,
+          "t": 37.67342091666069,
+          "ms_from_delivered_up": 821.2772916303948,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 318,
+          "y": 317,
+          "w": 37,
+          "h": 24,
+          "m11": 1,
+          "m12": 0,
+          "m21": 0,
+          "m22": 1,
+          "m41": 0,
+          "m42": 0,
+          "opacity": 1,
+          "effectiveOpacity": 1,
+          "hidden": false,
+          "effectiveHidden": false
+        },
+        "preceding_observation": {
+          "source_line": 2635,
+          "frame": 2168,
+          "t": 37.65712083334802,
+          "ms_from_delivered_up": 804.9772083177231,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 317.98997065960083,
+          "y": 317.01248474075805,
+          "w": 37.002183502917944,
+          "h": 23.975018288559852,
+          "m11": 1.0000590135923768,
+          "m12": 0,
+          "m21": 0,
+          "m22": 0.99895909535666,
+          "m41": -0.008937588940215057,
+          "m42": -6.114961997879911e-06,
+          "opacity": 1,
+          "effectiveOpacity": 1,
+          "hidden": false,
+          "effectiveHidden": false
+        },
+        "frame_count": 41
+      },
+      "value_events": [
+        {
+          "source_line": 2587,
+          "row": {
+            "value": true,
+            "event": "value",
+            "control": "swiftui-toggle",
+            "t": 36.856488541699946
+          }
+        }
+      ]
+    },
+    {
+      "id": "b9b-swiftui-tap12-on-to-off",
+      "source_id": "b9b-swiftui",
+      "touch_id": 12,
+      "direction": "on-to-off",
+      "sample_down_t": 38.38668904162478,
+      "sample_up_t": 38.45335570827592,
+      "sample_duration_ms": 66.66666665114462,
+      "delivered_down_t": 38.402524791657925,
+      "delivered_up_t": 38.46892383333761,
+      "delivered_duration_ms": 66.3990416796878,
+      "delivery_source_lines": [
+        2681,
+        2687
+      ],
+      "phases": [
+        0,
+        3
+      ],
+      "displacement_pt": [
+        0,
+        0
+      ],
+      "requested_window_t": [
+        38.20252479165792,
+        39.96892383333761
+      ],
+      "frame_count": 104,
+      "frame_source_line_range": [
+        2668,
+        2776
+      ],
+      "first_frame_ms_from_down": -196.94791664369404,
+      "last_frame_ms_from_up": 1484.9883333663456,
+      "observed_hz_by_display_timestamp": 58.857142857142854,
+      "interval_ms_min_median_max": [
+        16.666666662786156,
+        16.666666662786156,
+        39.95249996660277
+      ],
+      "display_gaps_over_25ms": [
+        {
+          "before_source_line": 2699,
+          "after_source_line": 2700,
+          "interval_ms": 39.95249996660277
+        },
+        {
+          "before_source_line": 2700,
+          "after_source_line": 2701,
+          "interval_ms": 26.71416668454185
+        }
+      ],
+      "estimated_unobserved_60hz_slots": 2,
+      "missing_source_frame_ids_inside_window": 0,
+      "truncated_frame_count": 0,
+      "next_delivered_down_t": 41.170470291690435,
+      "next_input_inside_window": false,
+      "last_observed_pre_down": {
+        "source_line": 2679,
+        "frame": 2212,
+        "t": 38.38782395835733,
+        "ms_from_delivered_up": -81.09987498028204,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 318,
+        "y": 317,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1,
+        "m41": 0,
+        "m42": 0,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "peak_local_width_observation": {
+        "source_line": 2694,
+        "frame": 2222,
+        "t": 38.55378766666399,
+        "ms_from_delivered_up": 84.8638333263807,
+        "boundsW": 60.56986521496784,
+        "boundsH": 40.087368321327254,
+        "x": 297.37704142735953,
+        "y": 308.96788091228495,
+        "w": 60.361361709089124,
+        "h": 40.222533595400876,
+        "m11": 0.9965576362909395,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1.0033717672108127,
+        "m41": 0.009007300647277611,
+        "m42": -0.019706191387799596,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "last_observation": {
+        "source_line": 2776,
+        "frame": 2304,
+        "t": 39.95391216670396,
+        "ms_from_delivered_up": 1484.9883333663456,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 296,
+        "y": 317,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m12": 0,
+        "m21": 0,
+        "m22": 1,
+        "m41": 0,
+        "m42": 0,
+        "opacity": 1,
+        "effectiveOpacity": 1,
+        "hidden": false,
+        "effectiveHidden": false
+      },
+      "all_frame_ranges": {
+        "boundsW": [
+          35.97135064758968,
+          60.56986521496784
+        ],
+        "boundsH": [
+          23.29790599756121,
+          40.087368321327254
+        ],
+        "x": [
+          289.38429884535606,
+          318
+        ],
+        "y": [
+          308.9259228186883,
+          317.5817537938632
+        ],
+        "w": [
+          36.61183081366005,
+          60.361361709089124
+        ],
+        "h": [
+          22.83623688186509,
+          40.26735790925403
+        ],
+        "m11": [
+          0.9709889477563023,
+          1.0211677125498524
+        ],
+        "m12": [
+          0,
+          0
+        ],
+        "m21": [
+          0,
+          0
+        ],
+        "m22": [
+          0.978713819664593,
+          1.0300582871312371
+        ],
+        "m41": [
+          -0.17311899663807634,
+          0.3144277497464814
+        ],
+        "m42": [
+          -0.02028158677339817,
+          0.003043069903333125
+        ],
+        "opacity": [
+          1,
+          1
+        ],
+        "effectiveOpacity": [
+          1,
+          1
+        ],
+        "hidden": [
+          false,
+          false
+        ],
+        "effectiveHidden": [
+          false,
+          false
+        ]
+      },
+      "tail_1200_to_1500ms_after_up": {
+        "frame_count": 18,
+        "first_source_line": 2759,
+        "last_source_line": 2776,
+        "ranges": {
+          "boundsW": [
+            37,
+            37
+          ],
+          "boundsH": [
+            24,
+            24
+          ],
+          "x": [
+            296,
+            296
+          ],
+          "y": [
+            317,
+            317
+          ],
+          "w": [
+            37,
+            37
+          ],
+          "h": [
+            24,
+            24
+          ],
+          "m11": [
+            1,
+            1
+          ],
+          "m12": [
+            0,
+            0
+          ],
+          "m21": [
+            0,
+            0
+          ],
+          "m22": [
+            1,
+            1
+          ],
+          "m41": [
+            0,
+            0
+          ],
+          "m42": [
+            0,
+            0
+          ],
+          "opacity": [
+            1,
+            1
+          ],
+          "effectiveOpacity": [
+            1,
+            1
+          ],
+          "hidden": [
+            false,
+            false
+          ],
+          "effectiveHidden": [
+            false,
+            false
+          ]
+        }
+      },
+      "final_exact_state_suffix": {
+        "first_observed": {
+          "source_line": 2736,
+          "frame": 2264,
+          "t": 39.289752541691996,
+          "ms_from_delivered_up": 820.8287083543837,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 296,
+          "y": 317,
+          "w": 37,
+          "h": 24,
+          "m11": 1,
+          "m12": 0,
+          "m21": 0,
+          "m22": 1,
+          "m41": 0,
+          "m42": 0,
+          "opacity": 1,
+          "effectiveOpacity": 1,
+          "hidden": false,
+          "effectiveHidden": false
+        },
+        "preceding_observation": {
+          "source_line": 2735,
+          "frame": 2263,
+          "t": 39.27246041665785,
+          "ms_from_delivered_up": 803.5365833202377,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 296.0277772004208,
+          "y": 316.9876078020964,
+          "w": 36.96228407407693,
+          "h": 24.02477244746217,
+          "m11": 0.9989806506507275,
+          "m12": 0,
+          "m21": 0,
+          "m22": 1.0010321853109232,
+          "m41": 0.00891923745925587,
+          "m42": -5.974172500073149e-06,
+          "opacity": 1,
+          "effectiveOpacity": 1,
+          "hidden": false,
+          "effectiveHidden": false
+        },
+        "frame_count": 41
+      },
+      "value_events": [
+        {
+          "source_line": 2689,
+          "row": {
+            "event": "value",
+            "t": 38.47291908337502,
+            "control": "swiftui-toggle",
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "grid-uikit-tap6-off-to-on",
+      "source_id": "grid-uikit",
+      "touch_id": 6,
+      "direction": "off-to-on",
+      "sample_down_t": 19.89651033328846,
+      "sample_up_t": 19.963176999939606,
+      "sample_duration_ms": 66.66666665114462,
+      "delivered_down_t": 19.90374800004065,
+      "delivered_up_t": 19.986251333379187,
+      "delivered_duration_ms": 82.50333333853632,
+      "delivery_source_lines": [
+        1291,
+        1298
+      ],
+      "phases": [
+        0,
+        3
+      ],
+      "displacement_pt": [
+        0,
+        0
+      ],
+      "requested_window_t": [
+        19.70374800004065,
+        21.486251333379187
+      ],
+      "frame_count": 107,
+      "frame_source_line_range": [
+        1278,
+        1389
+      ],
+      "first_frame_ms_from_down": -198.40504170861095,
+      "last_frame_ms_from_up": 1486.2884999602102,
+      "observed_hz_by_display_timestamp": 60.00000000013179,
+      "interval_ms_min_median_max": [
+        16.666666662786156,
+        16.666666662786156,
+        16.666666720993817
+      ],
+      "display_gaps_over_25ms": [],
+      "estimated_unobserved_60hz_slots": 0,
+      "missing_source_frame_ids_inside_window": 0,
+      "truncated_frame_count": 0,
+      "next_delivered_down_t": 22.358033500029705,
+      "next_input_inside_window": false,
+      "last_observed_pre_down": {
+        "source_line": 1289,
+        "frame": 1143,
+        "t": 19.89061237499118,
+        "ms_from_delivered_up": -95.63895838800818,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 296,
+        "y": 389.5,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m22": 1,
+        "opacity": 1,
+        "hidden": false
+      },
+      "peak_local_width_observation": {
+        "source_line": 1304,
+        "frame": 1153,
+        "t": 20.05353483336512,
+        "ms_from_delivered_up": 67.2834999859333,
+        "boundsW": 60.55694928298156,
+        "boundsH": 40.078552685209644,
+        "x": 290.491973389783,
+        "y": 381.51203425962865,
+        "w": 60.40331860507871,
+        "h": 40.175948038751756,
+        "m11": 0.9974630380208729,
+        "m22": 1.002430111543875,
+        "opacity": 1,
+        "hidden": false
+      },
+      "last_observation": {
+        "source_line": 1389,
+        "frame": 1238,
+        "t": 21.472539833339397,
+        "ms_from_delivered_up": 1486.2884999602102,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 318,
+        "y": 389.5,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m22": 1,
+        "opacity": 1,
+        "hidden": false
+      },
+      "all_frame_ranges": {
+        "boundsW": [
+          36.029470932415606,
+          60.55694928298156
+        ],
+        "boundsH": [
+          23.337575398315415,
+          40.078552685209644
+        ],
+        "x": [
+          286.1137809987792,
+          318.99801818828723
+        ],
+        "y": [
+          381.50607966363964,
+          389.66666666666663
+        ],
+        "w": [
+          35.316111896085545,
+          60.427250775291384
+        ],
+        "h": [
+          23.80258866788148,
+          40.175948038751756
+        ],
+        "m11": [
+          0.9788705336790074,
+          1.0285274303369265
+        ],
+        "m22": [
+          0.9704218482892175,
+          1.0212555271486545
+        ],
+        "opacity": [
+          1,
+          1
+        ],
+        "hidden": [
+          false,
+          false
+        ]
+      },
+      "tail_1200_to_1500ms_after_up": {
+        "frame_count": 18,
+        "first_source_line": 1372,
+        "last_source_line": 1389,
+        "ranges": {
+          "boundsW": [
+            37,
+            37
+          ],
+          "boundsH": [
+            24,
+            24
+          ],
+          "x": [
+            318,
+            318
+          ],
+          "y": [
+            389.5,
+            389.5
+          ],
+          "w": [
+            37,
+            37
+          ],
+          "h": [
+            24,
+            24
+          ],
+          "m11": [
+            1,
+            1
+          ],
+          "m22": [
+            1,
+            1
+          ],
+          "opacity": [
+            1,
+            1
+          ],
+          "hidden": [
+            false,
+            false
+          ]
+        }
+      },
+      "final_exact_state_suffix": {
+        "first_observed": {
+          "source_line": 1349,
+          "frame": 1198,
+          "t": 20.805543875030708,
+          "ms_from_delivered_up": 819.2925416515209,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 318,
+          "y": 389.5,
+          "w": 37,
+          "h": 24,
+          "m11": 1,
+          "m22": 1,
+          "opacity": 1,
+          "hidden": false
+        },
+        "preceding_observation": {
+          "source_line": 1348,
+          "frame": 1197,
+          "t": 20.788581375032663,
+          "ms_from_delivered_up": 802.3300416534767,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 317.9899687611252,
+          "y": 389.51251165886345,
+          "w": 37.002187604306755,
+          "h": 23.974965626003666,
+          "m11": 1.0000591244407238,
+          "m22": 0.9989569010834866,
+          "opacity": 1,
+          "hidden": false
+        },
+        "frame_count": 41
+      },
+      "value_events": [
+        {
+          "source_line": 1300,
+          "row": {
+            "t": 19.989045416703448,
+            "control": "uikit-toggle",
+            "value": true,
+            "event": "value"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grid-uikit-tap7-on-to-off",
+      "source_id": "grid-uikit",
+      "touch_id": 7,
+      "direction": "on-to-off",
+      "sample_down_t": 22.32618054159684,
+      "sample_up_t": 22.392847208247986,
+      "sample_duration_ms": 66.66666665114462,
+      "delivered_down_t": 22.358033500029705,
+      "delivered_up_t": 22.40287787502166,
+      "delivered_duration_ms": 44.84437499195337,
+      "delivery_source_lines": [
+        1441,
+        1445
+      ],
+      "phases": [
+        0,
+        3
+      ],
+      "displacement_pt": [
+        0,
+        0
+      ],
+      "requested_window_t": [
+        22.158033500029706,
+        23.90287787502166
+      ],
+      "frame_count": 103,
+      "frame_source_line_range": [
+        1429,
+        1536
+      ],
+      "first_frame_ms_from_down": -187.14483332587406,
+      "last_frame_ms_from_up": 1485.3065416682512,
+      "observed_hz_by_display_timestamp": 59.82919351724079,
+      "interval_ms_min_median_max": [
+        16.666666662786156,
+        16.666666662786156,
+        21.520000009331852
+      ],
+      "display_gaps_over_25ms": [],
+      "estimated_unobserved_60hz_slots": 0,
+      "missing_source_frame_ids_inside_window": 0,
+      "truncated_frame_count": 0,
+      "next_delivered_down_t": 24.686507250007708,
+      "next_input_inside_window": false,
+      "last_observed_pre_down": {
+        "source_line": 1439,
+        "frame": 1288,
+        "t": 22.33759337500669,
+        "ms_from_delivered_up": -65.28450001496822,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 318,
+        "y": 389.5,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m22": 1,
+        "opacity": 1,
+        "hidden": false
+      },
+      "peak_local_width_observation": {
+        "source_line": 1454,
+        "frame": 1298,
+        "t": 22.52011050004512,
+        "ms_from_delivered_up": 117.23262502346188,
+        "boundsW": 60.57230419255488,
+        "boundsH": 40.089033020315235,
+        "x": 292.90061570237503,
+        "y": 381.3372990053401,
+        "w": 60.08883952489981,
+        "h": 40.41353366444429,
+        "m11": 0.9920183873785258,
+        "m22": 1.0080944991605212,
+        "opacity": 1,
+        "hidden": false
+      },
+      "last_observation": {
+        "source_line": 1536,
+        "frame": 1380,
+        "t": 23.88818441668991,
+        "ms_from_delivered_up": 1485.3065416682512,
+        "boundsW": 37,
+        "boundsH": 24,
+        "x": 296,
+        "y": 389.5,
+        "w": 37,
+        "h": 24,
+        "m11": 1,
+        "m22": 1,
+        "opacity": 1,
+        "hidden": false
+      },
+      "all_frame_ranges": {
+        "boundsW": [
+          35.97172872779751,
+          60.57230419255488
+        ],
+        "boundsH": [
+          23.29816405230623,
+          40.089033020315235
+        ],
+        "x": [
+          288.21797837362016,
+          318
+        ],
+        "y": [
+          381.25066115590187,
+          390.0499153372315
+        ],
+        "w": [
+          36.4733536533131,
+          60.08883952489981
+        ],
+        "h": [
+          22.90048967890408,
+          40.558813761848
+        ],
+        "m11": [
+          0.9698678314891289,
+          1.0212850871019263
+        ],
+        "m22": [
+          0.9785965104706728,
+          1.0312286586276191
+        ],
+        "opacity": [
+          1,
+          1
+        ],
+        "hidden": [
+          false,
+          false
+        ]
+      },
+      "tail_1200_to_1500ms_after_up": {
+        "frame_count": 18,
+        "first_source_line": 1519,
+        "last_source_line": 1536,
+        "ranges": {
+          "boundsW": [
+            37,
+            37
+          ],
+          "boundsH": [
+            24,
+            24
+          ],
+          "x": [
+            296,
+            296
+          ],
+          "y": [
+            389.5,
+            389.5
+          ],
+          "w": [
+            37,
+            37
+          ],
+          "h": [
+            24,
+            24
+          ],
+          "m11": [
+            1,
+            1
+          ],
+          "m22": [
+            1,
+            1
+          ],
+          "opacity": [
+            1,
+            1
+          ],
+          "hidden": [
+            false,
+            false
+          ]
+        }
+      },
+      "final_exact_state_suffix": {
+        "first_observed": {
+          "source_line": 1496,
+          "frame": 1340,
+          "t": 23.22038295835955,
+          "ms_from_delivered_up": 817.5050833378918,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 296,
+          "y": 389.5,
+          "w": 37,
+          "h": 24,
+          "m11": 1,
+          "m22": 1,
+          "opacity": 1,
+          "hidden": false
+        },
+        "preceding_observation": {
+          "source_line": 1495,
+          "frame": 1339,
+          "t": 23.20368279167451,
+          "ms_from_delivered_up": 800.8049166528508,
+          "boundsW": 37,
+          "boundsH": 24,
+          "x": 296.0277300043833,
+          "y": 389.4876803938089,
+          "w": 36.96257134166012,
+          "h": 24.024624945897415,
+          "m11": 0.9989884146394621,
+          "m22": 1.0010260394123933,
+          "opacity": 1,
+          "hidden": false
+        },
+        "frame_count": 41
+      },
+      "value_events": [
+        {
+          "source_line": 1447,
+          "row": {
+            "value": false,
+            "t": 22.405341208330356,
+            "control": "uikit-toggle",
+            "event": "value"
+          }
+        }
+      ]
+    }
+  ]
+}

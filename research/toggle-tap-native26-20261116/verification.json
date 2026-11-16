@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "passed": true,
+  "method": "Decode compact tables, reconstruct each selected original frame context and view dictionary, compare exactly to original physical source lines; independently enumerate complete time-window membership, touch/value rows and CSV carrier values.",
+  "source_sha_checked_files": 4,
+  "segments": 8,
+  "frame_instances": 838,
+  "unique_source_frames": 797,
+  "node_instances": 5525,
+  "touch_observations": 32,
+  "carrier_csv_rows": 838,
+  "complete_requested_window_membership": true,
+  "exact_raw_field_reconstruction": true,
+  "no_missing_original_frame_ids": true,
+  "no_next_input_in_selected_windows": true,
+  "no_truncated_frame": true,
+  "tail_frames_per_segment": 18,
+  "material_alpha_inferred": false,
+  "native_svg": {
+    "panels": 3,
+    "series_per_panel": 8,
+    "actual_markers": 2514,
+    "marker_coordinates_match_carrier_csv": true,
+    "disconnect_threshold_ms": 25,
+    "gap_clocks": [
+      "displayTimestamp",
+      "frame_t"
+    ],
+    "line_breaks_per_series_per_panel": {
+      "b9b-swiftui-tap7-off-to-on": 4,
+      "b9b-swiftui-tap8-on-to-off": 2,
+      "b9b-swiftui-tap9-off-to-on": 5,
+      "b9b-swiftui-tap10-on-to-off": 0,
+      "b9b-swiftui-tap11-off-to-on": 0,
+      "b9b-swiftui-tap12-on-to-off": 3,
+      "grid-uikit-tap6-off-to-on": 0,
+      "grid-uikit-tap7-on-to-off": 1
+    },
+    "center_displacement_baseline": "World x+w/2 of last observed frame before delivered DOWN; no sign flip",
+    "time_axis": "Original frame t minus delivered UP; no retiming",
+    "native_only": true
+  }
+}

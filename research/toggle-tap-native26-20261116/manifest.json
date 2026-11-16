@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "generator_sha256": "30c37fa1b372513bc343d0fbd37bc18ebd09ae101f56b885e1ed2e975b2cc705",
+  "artifacts": [
+    {
+      "path": "sources.json",
+      "bytes": 10572,
+      "sha256": "d30d210fbf59f4fc2560c20826a41f3f645f0d7212a9ff7b2bde27144615a9d6"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 31416,
+      "sha256": "5ec1a09b227e44065b715b5ec1bccfa81091ef7bd99f86e50851de213b30266c"
+    },
+    {
+      "path": "observations.json",
+      "bytes": 873935,
+      "sha256": "0ae9759bbac2a196174802d3059702b94092891dcdc8862f3164bb88a87dce37"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 54342,
+      "sha256": "e4b439d0fec018574fd4e94ee6500662ceb4fef537ff6be24e6befbe45036a86"
+    },
+    {
+      "path": "carrier.csv",
+      "bytes": 249376,
+      "sha256": "4b7a9a6bce843382fb76febff48cfe3df5cc1443b7b8e24188806074e5d5b941"
+    },
+    {
+      "path": "native-tap-curves.svg",
+      "bytes": 219294,
+      "sha256": "00a7041d76a4527c0ecd116043bc2c1e1ee3bba160a316247db8f63b7590ea86"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8314,
+      "sha256": "1d8e57e8f6448eef16683c28f0aad9ed1d5adff3d5f456c3cd6ea1192e5938bc"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 1569,
+      "sha256": "6d6b187384835ed36e2a360c0750b323b1ee35f283d2d42486b34b944c92b82f"
+    }
+  ]
+}

@@ -46,9 +46,9 @@ gradle.beforeProject { p ->
             p.extensions.getByName('android').sourceSets.named('androidTest') { it.kotlin.srcDir(sources) }
             p.configurations.configureEach { configuration ->
                 configuration.incoming.afterResolve {
-                    configuration.resolvedConfiguration.resolvedArtifacts.each { artifact ->
-                        def id = artifact.moduleVersion.id
-                        if (id.group == 'androidx.compose.ui' && id.version != '1.12.1') {
+                    configuration.incoming.resolutionResult.allComponents { component ->
+                        def id = component.moduleVersion
+                        if (id != null && id.group == 'androidx.compose.ui' && id.version != '1.12.1') {
                             throw new GradleException('Observer requires Compose UI1.12.1; resolved ' + id)
                         }
                     }
